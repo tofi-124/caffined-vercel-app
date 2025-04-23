@@ -12,14 +12,17 @@ const NavLinks = () => {
       path: '/about'
     },
     {
-      name: 'Shop',
-      path: '/shop'
+      name: 'Products',
+      path: '/shop' // We'll repurpose the existing shop page for product display
+    },
+    {
+      name: 'Wholesale',
+      path: '/wholesale-inquiry'
     },
     {
       name: 'Blog',
       path: '/blog'
     },
-
   ]
   return (
     <>
