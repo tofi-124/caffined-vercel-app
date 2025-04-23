@@ -54,7 +54,7 @@ export { products };
 const Product = ({id, name, price, image_url, desc}: any) => {
   return (
     <div className='flex flex-col text-center items-center border-2 hover:border-dark py-10 px-6 mx-2 w-fit'>
-      <Link href={`/product/${id}`} className='hover:opacity-90'>
+      <Link href={`/product/${id}`} className='hover:opacity-90 flex flex-col items-center'>
         <h2 className='text-3xl font-extrabold'>
           {name}
         </h2>
@@ -63,7 +63,15 @@ const Product = ({id, name, price, image_url, desc}: any) => {
           ${price}/lb (Wholesale)
         </p>
 
-        <Image src={`/images/${image_url}`} alt={name} width={222} height={400}/>
+        <div className="flex justify-center items-center overflow-hidden">
+          <Image 
+            src={`/images/${image_url}`} 
+            alt={name} 
+            width={222} 
+            height={400}
+            className="mx-auto"
+          />
+        </div>
         
         <p className='my-4 text-sm max-w-xs'>{desc}</p>
       </Link>
