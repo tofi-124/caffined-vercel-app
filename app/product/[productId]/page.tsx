@@ -2,7 +2,14 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { products } from '../../lib/ProductLine'
+import { products } from '../../lib/ProductLine' // Make sure this path is correct
+
+// Function to tell Next.js which product IDs to generate pages for
+export async function generateStaticParams() {
+  return products.map((product) => ({
+    productId: product.id,
+  }))
+}
 
 type Props = {
   params: {

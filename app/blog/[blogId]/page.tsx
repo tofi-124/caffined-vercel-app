@@ -2,6 +2,14 @@ import React from 'react'
 import { posts } from '@/app/data/data'
 import Link from 'next/link'
 import Image from 'next/image'
+
+// Function to tell Next.js which blog IDs (indices) to generate pages for
+export async function generateStaticParams() {
+  return posts.map((post, index) => ({
+    blogId: index.toString(), // Ensure blogId is a string
+  }))
+}
+
 type Props = {
           params: {
             blogId: string
