@@ -4,3 +4,21 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# Handle product dynamic routes
+[[redirects]]
+  from = "/product/*"
+  to = "/product/[productId].html"
+  status = 200
+
+# Handle blog dynamic routes
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog/[blogId].html"
+  status = 200
+
+# Handle all other routes - general fallback for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
