@@ -39,7 +39,7 @@ const Navbar = () => {
                         href="/wholesale-inquiry"
                         className='hidden md:block p-2 py-1 bg-dark text-primary rounded-md text-sm hover:bg-primary hover:text-dark hover:border-dark border border-dark transition-colors'
                     >
-                        Request Samples
+                        Contact Us
                     </Link>
                     
                     <button onClick={(e) => {e.preventDefault(); setIsOpened((prev) => !prev)}} className='lg:hidden text-primary bg-dark p-2 rounded-md'>
@@ -64,7 +64,7 @@ const Navbar = () => {
                                 href="/wholesale-inquiry"
                                 className='p-2 py-1 mt-4 bg-dark text-primary rounded-md hover:bg-primary hover:text-dark hover:border-dark border border-dark transition-colors'
                             >
-                                Request Samples
+                                Contact Us
                             </Link>
                         </div>
                     </motion.div>

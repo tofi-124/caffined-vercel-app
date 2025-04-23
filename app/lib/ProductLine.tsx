@@ -68,7 +68,7 @@ const Product = ({id, name, price, image_url, desc}: any) => {
         </h2>
         
         <p className='mb-2'>
-          ${price}/lb (Wholesale)
+          ${price}/lb (Business Partners)
         </p>
 
         <div className="flex justify-center items-center overflow-hidden">

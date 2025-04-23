@@ -74,7 +74,7 @@ const Footer = () => {
             style={{ filter: 'brightness(1.05)' }} 
           />
           <p className='my-6 text-center'>
-            Premium Ethiopian Coffee for Canadian Wholesale Partners
+            Premium Ethiopian Coffee for Canadian Partners
           </p>
         </div>
         
@@ -96,7 +96,7 @@ const Footer = () => {
             <li className='my-3'>
               <p>
                 <Link href="/wholesale-inquiry" className='underline hover:text-gray-300'>
-                  Request wholesale information
+                  Contact Us for More Information
                 </Link>
               </p>
             </li>

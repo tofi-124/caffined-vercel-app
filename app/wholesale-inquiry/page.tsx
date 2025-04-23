@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 
-const WholesalePage = () => {
+const ContactUsPage = () => {
   return (
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-bold text-primary'>WHOLESALE INQUIRY</h1>
+        <h1 className='text-5xl font-bold text-primary'>CONTACT US</h1>
       </header>
       
       <section className='container mx-auto px-4 py-12'>
@@ -44,7 +44,7 @@ const WholesalePage = () => {
         </div>
 
         <div className='max-w-3xl mx-auto my-16'>
-          <h2 className='text-4xl font-extrabold text-center mb-8'>REQUEST WHOLESALE INFORMATION</h2>
+          <h2 className='text-4xl font-extrabold text-center mb-8'>GET IN TOUCH</h2>
           
           <form className='space-y-6'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
@@ -116,7 +116,7 @@ const WholesalePage = () => {
             <div>
               <label className='flex items-center'>
                 <input type='checkbox' className='mr-2' required />
-                <span>I'd like to receive samples before placing a wholesale order</span>
+                <span>I'd like to receive samples before placing an order</span>
               </label>
             </div>
             
@@ -141,4 +141,4 @@ const WholesalePage = () => {
   )
 }
 
-export default WholesalePage
+export default ContactUsPage

@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { products } from '../../lib/ProductLine' // Make sure this path is correct
+import { products } from '../../lib/ProductLine'
 import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
 
 // Function to tell Next.js which product IDs to generate pages for
@@ -18,7 +18,7 @@ type Props = {
   }
 }
 
-const ProductDetail = ({ params }: Props) => {
+const OfferingDetail = ({ params }: Props) => {
   const { productId } = params
   const product = products.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
@@ -27,13 +27,13 @@ const ProductDetail = ({ params }: Props) => {
     return (
       <main className='bg-primary min-h-screen'>
         <div className='container mx-auto py-16 px-4 text-center'>
-          <h1 className='text-5xl font-extrabold text-dark mb-6'>Product Not Found</h1>
-          <p className='mb-8'>Sorry, we couldn't find the product you're looking for.</p>
+          <h1 className='text-5xl font-extrabold text-dark mb-6'>Offering Not Found</h1>
+          <p className='mb-8'>Sorry, we couldn't find the offering you're looking for.</p>
           <Link 
             href="/shop"
             className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md'
           >
-            RETURN TO PRODUCTS
+            RETURN TO OFFERINGS
           </Link>
         </div>
       </main>
@@ -60,7 +60,7 @@ const ProductDetail = ({ params }: Props) => {
           
           <div className='lg:w-1/2'>
             <h1 className='text-5xl font-extrabold text-dark mb-4'>{product.name}</h1>
-            <p className='text-2xl font-bold mb-6'>${product.price}/lb (Wholesale)</p>
+            <p className='text-2xl font-bold mb-6'>${product.price}/lb (Business Partners)</p>
             
             <div className='mb-8'>
               <h2 className='text-2xl font-bold mb-3'>Description</h2>
@@ -91,7 +91,7 @@ const ProductDetail = ({ params }: Props) => {
                 href="/wholesale-inquiry"
                 className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold'
               >
-                REQUEST WHOLESALE PRICING
+                CONTACT US FOR PRICING
               </Link>
               
               <button 
@@ -115,4 +115,4 @@ const ProductDetail = ({ params }: Props) => {
   )
 }
 
-export default ProductDetail
+export default OfferingDetail
