@@ -1,4 +1,3 @@
- 
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Oswald } from 'next/font/google'
@@ -8,8 +7,8 @@ import {CartProvider} from './Context/store'
 const oswald = Oswald({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Cafiend',
-  description: 'Coffee fixes everything.',
+  title: 'Ethio Coffee',
+  description: 'Premium Ethiopian coffee imports in Ontario, Canada.',
 }
 
 export default function RootLayout({

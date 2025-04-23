@@ -1,17 +1,17 @@
-# Cafiend
+# Ethio Coffee
 ![Alt text](image.png)
-Cafiend is a place where you can find exotic coffee and order them.
+Ethio Coffee is a specialty coffee import business based in Ontario, Canada, offering premium Ethiopian coffee.
 
 
 ## Live Link
 
-[https://cafiend-chi.vercel.app/](https://cafiend-chi.vercel.app/)
+[https://ethio-coffee.vercel.app/](https://ethio-coffee.vercel.app/)
 ## Installation
 
 use git clone to clone the repository
 
 ```bash
-git clone https://github.com/theunhackable/cafiend.git
+git clone https://github.com/theunhackable/ethio-coffee.git
 
 ```
 
