@@ -5,19 +5,19 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# Handle product dynamic routes
+# For Next.js App Router with static export, we need to handle client-side navigation
+# The key is to send all product/* requests back to index.html to allow client-side routing to take over
 [[redirects]]
   from = "/product/*"
-  to = "/product/[productId].html"
+  to = "/index.html"
   status = 200
 
-# Handle blog dynamic routes
 [[redirects]]
   from = "/blog/*"
-  to = "/blog/[blogId].html"
+  to = "/index.html"
   status = 200
 
-# Handle all other routes - general fallback for client-side routing
+# Handle all other paths for SPA-style client navigation
 [[redirects]]
   from = "/*"
   to = "/index.html"
