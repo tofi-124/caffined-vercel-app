@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Remove 'output: export' to enable server-side rendering on Vercel
+  // Enable Next.js image optimization
   images: {
-    unoptimized: true,
+    domains: [],
   },
-  // This ensures the assets prefix is correct on Netlify
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
+  // No need for assetPrefix on Vercel
 }
 
 module.exports = nextConfig
