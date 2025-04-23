@@ -15,19 +15,19 @@ const Navbar = () => {
     <>
         <TopMessage />
         <header id='header' className='sticky top-0 z-20'>
-            <nav id='nav' className='bg-primary flex justify-between max-lg:px-2 px-40 items-center gap py-0.5 px-3 shadow-md h-14'>
+            <nav id='nav' className='bg-primary flex justify-between max-lg:px-2 px-40 items-center gap py-1 px-3 shadow-md h-16'>
                 
                 <div id="nav-links" className='flex justify-between max-lg:hidden items-center text-xl gap-5 font-bold'>
                     <NavLinks />
                 </div>
 
-                <div className='w-32 h-10 flex items-center justify-center'>
+                <div className='w-40 h-12 flex items-center justify-center'>
                     <Link href="/">
                         <Image 
                             src='/images/cafiend-logo.svg' 
                             alt='ethio-coffee-logo' 
-                            width={100} 
-                            height={28} 
+                            width={130} 
+                            height={36} 
                             className="object-contain" 
                             style={{ filter: 'brightness(1.05)' }} 
                         />
