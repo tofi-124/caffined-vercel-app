@@ -31,15 +31,6 @@ const Hero = () => {
             height={600}
             className='max-lg:w-[400px]'
           />
-          <div className="absolute bottom-20">
-            <ResponsiveImage 
-              src='/images/original-stamp.webp' 
-              alt='premium quality' 
-              width={200}
-              height={200}
-              className='max-lg:w-[150px]'
-            />
-          </div>
         </div>
         
       </div>

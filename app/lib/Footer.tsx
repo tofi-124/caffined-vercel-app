@@ -95,7 +95,7 @@ const Footer = () => {
             </li>
             <li className='my-3'>
               <p>
-                Address 1234 Coffee St, Toronto, ON M5H 2N2, Canada
+                ON, Canada
               </p>
             </li>
           </ul>

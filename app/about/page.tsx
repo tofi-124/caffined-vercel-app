@@ -46,8 +46,6 @@ const About = () => {
               <div className="absolute right-[20%]">
                 <ResponsiveImage src="/images/signatures.webp" alt="signature" width={200} height={20} />
               </div>
-
-              <ResponsiveImage src="/images/original-stamp-black.webp" alt="original" width={150} height={100} />
             </div>
           </div>
         </div>
