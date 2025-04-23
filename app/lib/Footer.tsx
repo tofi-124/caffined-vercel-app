@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 
 type Props = {
   image_url: string
 }
 
-
+// Updated to show Ethiopian coffee farms/production
 const images = [
   'insta-1.webp',
   'insta-2.webp',
@@ -14,7 +15,6 @@ const images = [
   'insta-4.webp',
   'insta-5.webp',
   'insta-6.webp',
-
 ]
 
 const InstaImage = ({image_url}: Props) => {
@@ -48,58 +48,58 @@ const Footer = () => {
           <ul>
             <li className='my-3'>
               <p>
-                webflow,shop no.24 Fifth,USA
+                Ethio Coffee, Ontario, Canada
               </p>
             </li>
             <li className='my-3'>
               <p>
-                peacefulqode@gmail.com
+                info@ethiocoffee.ca
               </p>
             </li>
             <li className='my-3'>
               <p>
-                +1800-001-658
+                +1 (647) 555-1212
               </p>
             </li>
           </ul>
         </div>
 
         <div id="heading" className='flex flex-col items-center'>
-          <Image src='/images/cafiend-logo-dark.svg' alt='logo' width={200} height={200} />
+          <Image src='/images/cafiend-logo-dark.svg' alt='ethio-coffee-logo' width={200} height={200} />
           <p className='my-6 text-center'>
-            Hot, Cold, Sweet or straight up, we&apos;ve got the brew for you.
+            Premium Ethiopian Coffee for Canadian Wholesale Partners
           </p>
         </div>
         
         <div id="timings" className='text-center md:text-right'>
-
           <h3 className='font-extrabold text-2xl'> 
-            OPEN HOUR
+            BUSINESS HOURS
           </h3>
           <ul>
             <li className='my-3'>
               <p>
-                Monday-Friday: 09:00-20:00
+                Monday-Friday: 09:00-17:00
               </p> 
             </li>
             <li className='my-3'>
               <p>
-                Saturday:  09:00-18:00
+                Call anytime to schedule a tasting
               </p>
             </li>
             <li className='my-3'>
               <p>
-                Sunday: 09:00-18:00
+                <Link href="/wholesale-inquiry" className='underline hover:text-gray-300'>
+                  Request wholesale information
+                </Link>
               </p>
             </li>
           </ul>
-
         </div>
       </div>
       <div className='h-0.5 w-full bg-white/20' />
         
       <p className='py-6 text-center'>
-      © Powered by Webflow created by PeacefulQode.
+      © 2025 Ethio Coffee | Premium Ethiopian Coffee Importers | Ontario, Canada
       </p>
     </footer>
   )
