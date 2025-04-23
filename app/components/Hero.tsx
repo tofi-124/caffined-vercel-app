@@ -20,7 +20,7 @@ const Hero = () => {
             bg-primary hover:bg-dark text-dark hover:text-primary
             border hover:border-primary
             rounded-md
-         '>CONTACT US TODAY</Link>
+         '>BECOME A WHOLESALE PARTNER</Link>
         </div>
 
         <div id="hero-image-wrapper" className='relative lg:w-1/3 max-sm:m-2'>
