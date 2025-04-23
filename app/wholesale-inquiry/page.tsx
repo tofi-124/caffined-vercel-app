@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import ResponsiveImage from '../components/ResponsiveImage'
 
 const ContactUsPage = () => {
   return (
@@ -33,7 +33,7 @@ const ContactUsPage = () => {
           </div>
 
           <div className='lg:w-1/2 flex justify-center'>
-            <Image 
+            <ResponsiveImage 
               src='/images/coffee-pack-1.webp'
               alt='Ethiopian coffee beans'
               width={500}

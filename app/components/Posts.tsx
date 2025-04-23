@@ -1,7 +1,7 @@
-import Image from 'next/image';
 import React from 'react';
 import {posts} from '../data/data';
 import Link from 'next/link';
+import ResponsiveImage from './ResponsiveImage';
 
 type Props = {
   title: string,
@@ -14,7 +14,13 @@ export const Post = ({ title, date, small_image_url, ind}: Props) => {
   return (
         <Link href={`/blog/${ind}`} id="blog-card" className="photo overflow-clip mx-auto flex flex-col items-center">
           <div className="blog-img overflow-hidden rounded-md shadow-md hover:shadow-lg transition-shadow duration-300">
-            <Image className='rounded-md' src={`/images/${small_image_url}`} alt={`${small_image_url}`} width={400} height={300} />
+            <ResponsiveImage 
+              className='rounded-md' 
+              src={`/images/${small_image_url}`} 
+              alt={`${small_image_url}`} 
+              width={400}
+              height={300}
+            />
           </div>
           <p className='my-4 text-center text-gray-600 font-inconsolata'>
             {date}

@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
+import ResponsiveImage from '../components/ResponsiveImage'
 
 
 type Props = {
@@ -19,7 +19,12 @@ const images = [
 
 const InstaImage = ({image_url}: Props) => {
   return (
-    <Image src={`/images/${image_url}`} alt={`${image_url}`} height={317} width={317}/>
+    <ResponsiveImage 
+      src={`/images/${image_url}`} 
+      alt={`${image_url}`} 
+      width={317}
+      height={317}
+    />
   )
 }
 
@@ -65,13 +70,13 @@ const Footer = () => {
         </div>
 
         <div id="heading" className='flex flex-col items-center'>
-          <Image 
+          <ResponsiveImage 
             src='/images/cafiend-logo-dark.svg' 
-            alt='ethio-coffee-logo' 
-            width={160} 
-            height={50} 
-            className="object-contain" 
-            style={{ filter: 'brightness(1.05)' }} 
+            alt='ethio-coffee-logo'
+            width={160}
+            height={50}
+            style={{ filter: 'brightness(1.05)' }}
+            className="object-contain"
           />
           <p className='my-6 text-center'>
             Premium Ethiopian Coffee for Canadian Partners
@@ -90,14 +95,7 @@ const Footer = () => {
             </li>
             <li className='my-3'>
               <p>
-                Call anytime to schedule a tasting
-              </p>
-            </li>
-            <li className='my-3'>
-              <p>
-                <Link href="/wholesale-inquiry" className='underline hover:text-gray-300'>
-                  Contact Us for More Information
-                </Link>
+                Address 1234 Coffee St, Toronto, ON M5H 2N2, Canada
               </p>
             </li>
           </ul>

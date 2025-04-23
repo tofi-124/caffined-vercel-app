@@ -1,9 +1,10 @@
 "use client"
-import React, { useState } from 'react'
-import Image from 'next/image'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { products } from '../../lib/ProductLine'
 import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
+import ResponsiveImage from '../../components/ResponsiveImage'
+import Image from 'next/image'
 
 // Function to tell Next.js which product IDs to generate pages for
 export async function generateStaticParams() {
@@ -22,6 +23,14 @@ const OfferingDetail = ({ params }: Props) => {
   const { productId } = params
   const product = products.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+  
+  // Debug log to see what's happening
+  useEffect(() => {
+    if (product) {
+      console.log("Loading product image:", `/images/${product.image_url}`);
+    }
+  }, [product]);
   
   if (!product) {
     return (
@@ -49,12 +58,14 @@ const OfferingDetail = ({ params }: Props) => {
       <section className='container mx-auto py-16 px-4'>
         <div className='flex max-lg:flex-col items-center justify-center gap-12'>
           <div className='lg:w-1/2 flex justify-center'>
-            <Image 
+            {/* Using standard Image component as fallback to debug */}
+            <Image
               src={`/images/${product.image_url}`}
               alt={product.name}
-              width={400} 
+              width={400}
               height={500}
               className='object-contain'
+              priority
             />
           </div>
           

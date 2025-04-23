@@ -1,7 +1,7 @@
 import React from 'react'
 import { posts } from '@/app/data/data'
 import Link from 'next/link'
-import Image from 'next/image'
+import ResponsiveImage from '@/app/components/ResponsiveImage'
 
 // Function to tell Next.js which blog IDs (indices) to generate pages for
 export async function generateStaticParams() {
@@ -41,7 +41,12 @@ const Blog = ({params:{ blogId }}: Props) => {
             Coffee is a popular beverage enjoyed by millions of people around the world.
           </figcaption>
         
-          <Image  src={`/images/${large_image_url}`} alt='blog-img' width={1000} height={600} />
+          <ResponsiveImage 
+            src={`/images/${large_image_url}`} 
+            alt='blog-img' 
+            width={1000} 
+            height={600} 
+          />
         </figure>
         <p className='my-2'>
           {date}

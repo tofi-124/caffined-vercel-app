@@ -1,12 +1,12 @@
 "use client"
 import React, { useState } from 'react'
 import TopMessage from './TopMessage'
-import Image from 'next/image'
 import NavLinks from './NavLinks'
 import { AnimatePresence, motion } from 'framer-motion'
 import {BiMenuAltRight} from 'react-icons/bi'
 import {AiOutlineClose} from 'react-icons/ai'
 import Link from 'next/link'
+import ResponsiveImage from '../components/ResponsiveImage'
 
 const Navbar = () => {
     const [isOpened, setIsOpened] = useState(false);
@@ -23,12 +23,11 @@ const Navbar = () => {
 
                 <div className='w-40 h-12 flex items-center justify-center'>
                     <Link href="/">
-                        <Image 
+                        <ResponsiveImage 
                             src='/images/cafiend-logo.svg' 
                             alt='ethio-coffee-logo' 
                             width={130} 
                             height={36} 
-                            className="object-contain" 
                             style={{ filter: 'brightness(1.05)' }} 
                         />
                     </Link>

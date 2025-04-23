@@ -1,7 +1,7 @@
-import Image from "next/image";
 import React, { useContext, useState } from "react";
 import CartContext from "../Context/store";
 import { AnimatePresence, motion } from "framer-motion";
+import ResponsiveImage from "../components/ResponsiveImage";
 
 const CartItems = () => {
   const { cart, setCart, total, setTotal } = useContext(CartContext);
@@ -42,7 +42,7 @@ const CartItems = () => {
             <div key={ind} className="flex items-center m-6 p-6 border-b-2 border-dark ">
               <div id="product-details" className="flex gap-5 items-center">
                 <div className="product-image">
-                  <Image
+                  <ResponsiveImage
                     src={`/images/${item.image_url}`}
                     alt="product"
                     width={100}

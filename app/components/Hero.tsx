@@ -1,7 +1,7 @@
-import Image from 'next/image'
 import React from 'react'
 import Button from '../lib/Button'
 import Link from 'next/link'
+import ResponsiveImage from './ResponsiveImage'
 
 const Hero = () => {
   return (
@@ -25,8 +25,22 @@ const Hero = () => {
         </div>
 
         <div id="hero-image-wrapper" className='relative lg:w-1/3 max-sm:m-2'>
-          <Image className='max-lg:w-[400px]' src='/images/coffee-pack-1.webp' alt='Ethiopian coffee beans' width={900} height={600} />
-          <Image className='absolute bottom-20 max-lg:w-[150px]' src='/images/original-stamp.webp' alt='premium quality' width={200} height={200} />
+          <ResponsiveImage 
+            src='/images/coffee-pack-1.webp' 
+            alt='Ethiopian coffee beans' 
+            width={900}
+            height={600}
+            className='max-lg:w-[400px]'
+          />
+          <div className="absolute bottom-20">
+            <ResponsiveImage 
+              src='/images/original-stamp.webp' 
+              alt='premium quality' 
+              width={200}
+              height={200}
+              className='max-lg:w-[150px]'
+            />
+          </div>
         </div>
         
       </div>

@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import Image from 'next/image'
+import ResponsiveImage from './ResponsiveImage'
 
 type SampleCheckoutPopupProps = {
   isOpen: boolean;
@@ -59,10 +59,10 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="flex flex-col md:flex-row gap-6 mb-6">
               <div className="md:w-1/3">
-                <Image 
+                <ResponsiveImage 
                   src={`/images/${productImage}`} 
-                  alt={productName} 
-                  width={200} 
+                  alt={productName}
+                  width={200}
                   height={200}
                   className="mx-auto"
                 />

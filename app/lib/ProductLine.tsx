@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import Link from 'next/link'
 import SampleCheckoutPopup from '../components/SampleCheckoutPopup'
+import ResponsiveImage from '../components/ResponsiveImage'
 
 // Updated product data with Ethiopian coffee varieties
 const products = [
@@ -72,7 +73,7 @@ const Product = ({id, name, price, image_url, desc}: any) => {
         </p>
 
         <div className="flex justify-center items-center overflow-hidden">
-          <Image 
+          <ResponsiveImage 
             src={`/images/${image_url}`} 
             alt={name} 
             width={222} 
