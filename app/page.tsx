@@ -1,8 +1,7 @@
-
 import CofeeDesc from "./components/CofeeDesc";
 import Hero from "./components/Hero";
 import Posts from "./components/Posts";
-import Products from "./components/Products";
+import Offerings from "./components/Offerings";
 import Testimonials from "./components/Testimonials";
 
 
@@ -11,7 +10,7 @@ export default function Home() {
     <main className="">
        
       <Hero />
-      <Products />
+      <Offerings />
       <CofeeDesc />
       <Testimonials />
       <Posts />

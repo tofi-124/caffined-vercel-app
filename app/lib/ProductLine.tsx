@@ -1,7 +1,8 @@
 "use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
+import SampleCheckoutPopup from '../components/SampleCheckoutPopup'
 
 // Updated product data with Ethiopian coffee varieties
 const products = [
@@ -52,6 +53,13 @@ const products = [
 export { products };
 
 const Product = ({id, name, price, image_url, desc}: any) => {
+  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  
+  const handleSamplePurchase = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setIsCheckoutOpen(true);
+  };
+
   return (
     <div className='flex flex-col text-center items-center border-2 hover:border-dark py-10 px-6 mx-2 w-fit'>
       <Link href={`/product/${id}`} className='hover:opacity-90 flex flex-col items-center'>
@@ -76,14 +84,25 @@ const Product = ({id, name, price, image_url, desc}: any) => {
         <p className='my-4 text-sm max-w-xs'>{desc}</p>
       </Link>
       
-      <Link href="/wholesale-inquiry" className='
-        p-10 py-3 mt-2 w-fit
-       bg-primary hover:bg-dark text-dark hover:text-primary
-        border border-black 
-        rounded-md
-      '>
-        REQUEST SAMPLE
-      </Link>
+      <button 
+        onClick={handleSamplePurchase}
+        className='
+          p-10 py-3 mt-2 w-fit
+          bg-primary hover:bg-dark text-dark hover:text-primary
+          border border-black 
+          rounded-md
+          cursor-pointer
+        '
+      >
+        PURCHASE A SAMPLE
+      </button>
+      
+      <SampleCheckoutPopup 
+        isOpen={isCheckoutOpen}
+        onClose={() => setIsCheckoutOpen(false)}
+        productName={name}
+        productImage={image_url}
+      />
     </div>
   )
 }

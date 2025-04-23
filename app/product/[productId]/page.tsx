@@ -1,8 +1,9 @@
 "use client"
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { products } from '../../lib/ProductLine' // Make sure this path is correct
+import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
 
 // Function to tell Next.js which product IDs to generate pages for
 export async function generateStaticParams() {
@@ -20,6 +21,7 @@ type Props = {
 const ProductDetail = ({ params }: Props) => {
   const { productId } = params
   const product = products.find(p => p.id === productId)
+  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   
   if (!product) {
     return (
@@ -92,12 +94,19 @@ const ProductDetail = ({ params }: Props) => {
                 REQUEST WHOLESALE PRICING
               </Link>
               
-              <Link 
-                href="/wholesale-inquiry"
-                className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold'
+              <button 
+                onClick={() => setIsCheckoutOpen(true)}
+                className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold cursor-pointer'
               >
-                REQUEST SAMPLE
-              </Link>
+                PURCHASE A SAMPLE
+              </button>
+              
+              <SampleCheckoutPopup 
+                isOpen={isCheckoutOpen}
+                onClose={() => setIsCheckoutOpen(false)}
+                productName={product.name}
+                productImage={product.image_url}
+              />
             </div>
           </div>
         </div>
