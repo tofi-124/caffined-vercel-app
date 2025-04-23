@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import { products } from '../../lib/ProductLine'
 import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
@@ -23,14 +23,6 @@ const OfferingDetail = ({ params }: Props) => {
   const { productId } = params
   const product = products.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
-  const [imageLoaded, setImageLoaded] = useState(false);
-  
-  // Debug log to see what's happening
-  useEffect(() => {
-    if (product) {
-      console.log("Loading product image:", `/images/${product.image_url}`);
-    }
-  }, [product]);
   
   if (!product) {
     return (
@@ -39,7 +31,7 @@ const OfferingDetail = ({ params }: Props) => {
           <h1 className='text-5xl font-extrabold text-dark mb-6'>Offering Not Found</h1>
           <p className='mb-8'>Sorry, we couldn't find the offering you're looking for.</p>
           <Link 
-            href="/shop"
+            href="/offerings"
             className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md'
           >
             RETURN TO OFFERINGS
@@ -99,7 +91,7 @@ const OfferingDetail = ({ params }: Props) => {
             
             <div className='flex flex-wrap gap-4'>
               <Link 
-                href="/wholesale-inquiry"
+                href="/contact-us"
                 className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold'
               >
                 CONTACT US FOR PRICING

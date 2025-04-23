@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../lib/Button'
 import Link from 'next/link'
 import ResponsiveImage from './ResponsiveImage'
 
@@ -16,7 +15,7 @@ const Hero = () => {
             Ethio Coffee imports premium Ethiopian coffee beans for Canadian cafés and roasters. Experience the distinctive floral and fruity notes from the birthplace of coffee.
           </p>
 
-          <Link href="/wholesale-inquiry" className='
+          <Link href="/contact-us" className='
             p-10 py-4 mt-6 w-fit
             bg-primary hover:bg-dark text-dark hover:text-primary
             border hover:border-primary

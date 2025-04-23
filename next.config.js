@@ -12,6 +12,22 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   // No need for assetPrefix on Vercel
+  
+  // Add redirects for wholesale-inquiry page
+  async redirects() {
+    return [
+      {
+        source: '/wholesale-inquiry',
+        destination: '/contact-us',
+        permanent: true,
+      },
+      {
+        source: '/product',
+        destination: '/offerings',
+        permanent: true,
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig

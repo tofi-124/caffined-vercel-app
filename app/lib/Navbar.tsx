@@ -35,7 +35,7 @@ const Navbar = () => {
 
                 <div id='search-cart' className='flex gap-5 justify-between items-center'>
                     <Link 
-                        href="/wholesale-inquiry"
+                        href="/contact-us"
                         className='hidden md:block p-2 py-1 bg-dark text-primary rounded-md text-sm hover:bg-primary hover:text-dark hover:border-dark border border-dark transition-colors'
                     >
                         Contact Us
@@ -60,7 +60,7 @@ const Navbar = () => {
                         <div id="nav-links" className='flex flex-col justify-between items-center text-xl gap-5 font-bold'>
                             <NavLinks />
                             <Link 
-                                href="/wholesale-inquiry"
+                                href="/contact-us"
                                 className='p-2 py-1 mt-4 bg-dark text-primary rounded-md hover:bg-primary hover:text-dark hover:border-dark border border-dark transition-colors'
                             >
                                 Contact Us

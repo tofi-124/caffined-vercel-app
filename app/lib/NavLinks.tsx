@@ -13,11 +13,11 @@ const NavLinks = () => {
     },
     {
       name: 'Offerings',
-      path: '/shop' // We'll repurpose the existing shop page for product display
+      path: '/offerings' 
     },
     {
       name: 'Contact Us',
-      path: '/wholesale-inquiry'
+      path: '/contact-us'
     },
     {
       name: 'Blog',

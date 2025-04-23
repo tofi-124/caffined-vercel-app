@@ -1,7 +1,7 @@
 import React from 'react'
 import ResponsiveImage from '../components/ResponsiveImage'
 
-const ContactUsPage = () => {
+const WholesaleInquiryPage = () => {
   return (
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
@@ -141,4 +141,4 @@ const ContactUsPage = () => {
   )
 }
 
-export default ContactUsPage
+export default WholesaleInquiryPage
