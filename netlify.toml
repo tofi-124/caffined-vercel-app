@@ -2,23 +2,18 @@
   command = "npm run build"
   publish = "out"
 
-# The key to handling Next.js static exports with App Router is to:
-# 1. Use correct publish directory (out)
-# 2. Let the client-side router handle dynamic paths
-
-# This is the main configuration that makes all routes work correctly
-# It tells Netlify to serve the index.html for any route that doesn't match a static file
+# This single rule directs all non-file requests to index.html,
+# allowing the Next.js client-side router to handle the path.
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = false
 
-# Add custom headers for better security and performance
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "strict-origin-when-cross-origin"
+# Optional: Add security headers back if desired
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     X-Frame-Options = "DENY"
+#     X-XSS-Protection = "1; mode=block"
+#     X-Content-Type-Options = "nosniff"
+#     Referrer-Policy = "strict-origin-when-cross-origin"
