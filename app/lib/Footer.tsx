@@ -65,7 +65,14 @@ const Footer = () => {
         </div>
 
         <div id="heading" className='flex flex-col items-center'>
-          <Image src='/images/cafiend-logo-dark.svg' alt='ethio-coffee-logo' width={200} height={200} />
+          <Image 
+            src='/images/cafiend-logo-dark.svg' 
+            alt='ethio-coffee-logo' 
+            width={160} 
+            height={50} 
+            className="object-contain" 
+            style={{ filter: 'brightness(1.05)' }} 
+          />
           <p className='my-6 text-center'>
             Premium Ethiopian Coffee for Canadian Wholesale Partners
           </p>
