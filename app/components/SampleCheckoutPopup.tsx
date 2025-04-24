@@ -2,14 +2,22 @@
 import React, { useState } from 'react'
 import ResponsiveImage from './ResponsiveImage'
 
+type ProductOptions = {
+  size: string;
+  grind: string;
+  purchaseType: string;
+}
+
 type SampleCheckoutPopupProps = {
   isOpen: boolean;
   onClose: () => void;
   productName: string;
   productImage: string;
+  selectedOptions?: ProductOptions;
+  activeDetail?: string;
 }
 
-const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: SampleCheckoutPopupProps) => {
+const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage, selectedOptions, activeDetail }: SampleCheckoutPopupProps) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -51,7 +59,17 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
           shipping: 3.99,
           total: (samplePrice + 3.99).toFixed(2),
           orderDate: new Date().toISOString(),
-          _subject: `New Sample Order: ${productName}`
+          _subject: `New Sample Order: ${productName}`,
+          // Include selected options if available
+          ...(selectedOptions && {
+            productSize: selectedOptions.size,
+            productGrind: selectedOptions.grind,
+            purchaseType: selectedOptions.purchaseType
+          }),
+          // Include active detail if available
+          ...(activeDetail && {
+            activeProductDetail: activeDetail
+          })
         };
         
         // Send the form data to Formspree
@@ -92,6 +110,37 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
     }
   };
 
+  // Helper function to display grind type in human-readable format
+  const formatGrindType = (grindId: string): string => {
+    switch(grindId) {
+      case 'whole-bean': return 'Whole Bean';
+      case 'espresso': return 'Espresso';
+      case 'filter': return 'Filter';
+      default: return grindId;
+    }
+  };
+
+  // Helper function to display purchase type in human-readable format
+  const formatPurchaseType = (typeId: string): string => {
+    switch(typeId) {
+      case 'one-time': return 'One-time Purchase';
+      case 'subscribe': return 'Subscription';
+      default: return typeId;
+    }
+  };
+
+  // Format the active detail label for display
+  const getDetailLabel = (detail: string | undefined): string => {
+    if (!detail) return '';
+    
+    switch(detail) {
+      case 'origin': return 'Origin';
+      case 'producer': return 'Producer';
+      case 'brewMethod': return 'Brewing Method';
+      default: return '';
+    }
+  };
+
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
       <div className="bg-primary p-6 rounded-md max-w-2xl w-full max-h-[90vh] overflow-y-auto">
@@ -119,8 +168,26 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
               </div>
               <div className="md:w-2/3">
                 <h3 className="text-xl font-bold">{productName} Sample</h3>
-                <p className="mb-2">100g Sample Pack</p>
+                <p className="mb-2">200g Sample Pack</p>
                 <p className="text-lg font-bold mb-4">${samplePrice}</p>
+                
+                {selectedOptions && (
+                  <div className="bg-gray-50 p-3 rounded-md mb-4">
+                    <h4 className="font-semibold mb-1">Selected Options:</h4>
+                    <ul className="text-sm">
+                      <li><span className="font-medium">Size:</span> {selectedOptions.size}</li>
+                      <li><span className="font-medium">Grind:</span> {formatGrindType(selectedOptions.grind)}</li>
+                      <li><span className="font-medium">Purchase Type:</span> {formatPurchaseType(selectedOptions.purchaseType)}</li>
+                    </ul>
+                  </div>
+                )}
+                
+                {activeDetail && (
+                  <div className="bg-gray-50 p-3 rounded-md mb-4">
+                    <p className="text-sm font-medium">Selected Detail: {getDetailLabel(activeDetail)}</p>
+                  </div>
+                )}
+                
                 <p className="text-sm">
                   Try our premium Ethiopian coffee with this sample pack. 
                   Perfect for testing before making larger wholesale purchases.
@@ -293,7 +360,7 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
 
             <div className="border-t border-gray-200 pt-4 mt-6">
               <div className="flex justify-between mb-2">
-                <span>Sample Price:</span>
+                <span>Sample Price (200g):</span>
                 <span>${samplePrice}</span>
               </div>
               <div className="flex justify-between mb-2">

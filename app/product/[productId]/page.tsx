@@ -19,10 +19,26 @@ type Props = {
   }
 }
 
+type ProductDetails = {
+  origin: string;
+  producer: string;
+  brewMethod: string;
+}
+
 const OfferingDetail = ({ params }: Props) => {
   const { productId } = params
   const product = products.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  
+  // Default values for product details
+  const [activeDetail, setActiveDetail] = useState<string>('origin');
+  
+  // Product details
+  const productDetails: ProductDetails = {
+    origin: 'Our coffee beans are sourced from the lush highlands of Ethiopia, specifically from the regions of Sidamo and Yirgacheffe. These areas are known for their ideal coffee-growing conditions including high altitude (1,500-2,200 meters), rich soil, and perfect climate, resulting in beans with distinctive floral and fruit notes.',
+    producer: 'We partner with local cooperatives and small family farms that practice sustainable farming. These farmers have generations of experience cultivating exceptional coffee beans using traditional methods combined with modern sustainable practices. Fair trade relationships ensure these farmers receive equitable compensation for their premium products.',
+    brewMethod: 'For the best flavor profile, we recommend brewing this coffee as a pour-over or using a French press. For pour-over, use a medium-fine grind with water at 200°F and a 1:16 coffee-to-water ratio. Allow 3-4 minutes of brew time. For espresso, use a fine grind and extract for 25-30 seconds for perfect results.'
+  };
   
   if (!product) {
     return (
@@ -73,14 +89,46 @@ const OfferingDetail = ({ params }: Props) => {
                 exceptional quality to their customers. Available in various quantities to meet your business needs.
               </p>
               
+              {/* Product Details Section - Similar to Ethica Roasters */}
               <div className='mb-8'>
-                <h3 className='text-xl font-semibold mb-2'>Origin</h3>
-                <p>Ethiopia</p>
-              </div>
-              
-              <div className='mb-8'>
-                <h3 className='text-xl font-semibold mb-2'>Processing Method</h3>
-                <p>Natural/Washed (varies by season)</p>
+                <div className='flex border-b border-gray-300 mb-4'>
+                  <button
+                    onClick={() => setActiveDetail('origin')}
+                    className={`py-2 px-4 border-b-2 transition-colors ${
+                      activeDetail === 'origin' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
+                    }`}
+                  >
+                    Origin
+                  </button>
+                  <button
+                    onClick={() => setActiveDetail('producer')}
+                    className={`py-2 px-4 border-b-2 transition-colors ${
+                      activeDetail === 'producer' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
+                    }`}
+                  >
+                    Producer
+                  </button>
+                  <button
+                    onClick={() => setActiveDetail('brewMethod')}
+                    className={`py-2 px-4 border-b-2 transition-colors ${
+                      activeDetail === 'brewMethod' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
+                    }`}
+                  >
+                    Brewing Method
+                  </button>
+                </div>
+                
+                <div className='py-2'>
+                  {activeDetail === 'origin' && (
+                    <p>{productDetails.origin}</p>
+                  )}
+                  {activeDetail === 'producer' && (
+                    <p>{productDetails.producer}</p>
+                  )}
+                  {activeDetail === 'brewMethod' && (
+                    <p>{productDetails.brewMethod}</p>
+                  )}
+                </div>
               </div>
               
               <div className='mb-8'>
@@ -109,6 +157,7 @@ const OfferingDetail = ({ params }: Props) => {
                 onClose={() => setIsCheckoutOpen(false)}
                 productName={product.name}
                 productImage={product.image_url}
+                activeDetail={activeDetail}
               />
             </div>
           </div>
