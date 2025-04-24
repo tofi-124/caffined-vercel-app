@@ -182,12 +182,6 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage, selec
                   </div>
                 )}
                 
-                {activeDetail && (
-                  <div className="bg-gray-50 p-3 rounded-md mb-4">
-                    <p className="text-sm font-medium">Selected Detail: {getDetailLabel(activeDetail)}</p>
-                  </div>
-                )}
-                
                 <p className="text-sm">
                   Try our premium Ethiopian coffee with this sample pack. 
                   Perfect for testing before making larger wholesale purchases.
