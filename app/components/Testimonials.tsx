@@ -11,12 +11,10 @@ type Props = {
 }
 
 const TestimonialCard = ({ name, position, quote }: Props) => {
-
   return (
-
-      <div  className='flex flex-col items-center justify-center px-8 md:px-20'>
-          <FaQuoteRight className=' mt-24 text-5xl text-dark' />
-        <p className=' my-6 text-center text-dark'>&quot; {quote} &quot;</p>
+      <div className='flex flex-col items-center justify-center px-8 md:px-20'>
+          <FaQuoteRight className='mt-24 text-5xl text-dark' />
+        <p className='my-6 text-center text-dark'>&quot; {quote} &quot;</p>
         <h3 className='text-xl font-extrabold'>
           {name}
         </h3>
@@ -25,13 +23,9 @@ const TestimonialCard = ({ name, position, quote }: Props) => {
         </p>
       </div>
   )
-
 }
-
-const shit = testimonials.map((testimonial, ind) => (  <TestimonialCard key={ind} {...testimonial} />))
       
 const Testimonials = () => {
-  
   return (
     <section id='testimonial-section' className='py-32 flex flex-col items-center justify-center bg-primary'>
 

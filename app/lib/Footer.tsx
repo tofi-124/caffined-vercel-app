@@ -105,7 +105,7 @@ const Footer = () => {
       <div className='h-0.5 w-full bg-white/20' />
         
       <p className='py-6 text-center'>
-      © 2025 Ethio Coffee | Premium Ethiopian Coffee Importers Worldwide
+      © 2025 Ethio Coffee | Premium Ethiopian Coffee Exporters Worldwide
       </p>
     </footer>
   )
