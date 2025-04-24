@@ -2,6 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
+import { FaInstagram } from 'react-icons/fa'
 
 
 type Props = {
@@ -93,6 +94,18 @@ const Footer = () => {
           <p className='my-6 text-center'>
             Premium Ethiopian Coffee for Partners Worldwide
           </p>
+          
+          {/* Instagram Link */}
+          <a 
+            href="https://instagram.com/ethiocoffee.et" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="mt-2 flex items-center gap-2 hover:text-primary/80 transition-colors"
+            aria-label="Follow us on Instagram @ethiocoffee.et"
+          >
+            <FaInstagram className="text-2xl" />
+            <span>@ethiocoffee.et</span>
+          </a>
         </div>
         
         <div id="timings" className='text-center md:text-right'>
@@ -115,9 +128,20 @@ const Footer = () => {
       </div>
       <div className='h-0.5 w-full bg-white/20' />
         
-      <p className='py-6 text-center'>
-      © 2025 Ethio Coffee | Premium Ethiopian Coffee Exporters Worldwide
-      </p>
+      <div className='py-6 text-center'>
+        <p className="flex items-center justify-center gap-3">
+          © 2025 Ethio Coffee | Premium Ethiopian Coffee Exporters Worldwide
+          <a 
+            href="https://instagram.com/ethiocoffee.et" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center hover:text-primary/80 transition-colors"
+            aria-label="Follow Ethio Coffee on Instagram"
+          >
+            <FaInstagram className="text-xl" />
+          </a>
+        </p>
+      </div>
     </footer>
   )
 }
