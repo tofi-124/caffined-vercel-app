@@ -9,7 +9,7 @@ const Products = () => {
         PREMIUM ETHIOPIAN COFFEE
       </h1>
       <p className='max-md:text-center m-2'>
-        {`Exceptional coffee beans for discerning cafés and roasters across Canada`}
+        {`Exceptional coffee beans for discerning cafés and roasters worldwide`}
       </p>
 
       <Link href='/shop' className='

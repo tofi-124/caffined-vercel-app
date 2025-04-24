@@ -8,7 +8,7 @@ const oswald = Oswald({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Ethio Coffee',
-  description: 'Premium Ethiopian coffee imports in Ontario, Canada.',
+  description: 'Premium Ethiopian coffee imports for specialty markets worldwide.',
 }
 
 export default function RootLayout({

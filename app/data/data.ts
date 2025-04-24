@@ -18,7 +18,7 @@ export const posts:Post[] = [
       large_image_url: 'cofee-blog-7-2.jpg',
       date: 'Mar 28, 2025',
       title: 'DIRECT TRADE PARTNERSHIPS: SUPPORTING ETHIOPIAN FARMERS',
-      desc: 'Our direct relationships with Ethiopian coffee farmers ensure fair compensation while delivering exceptional quality beans to Canadian businesses.'
+      desc: 'Our direct relationships with Ethiopian coffee farmers ensure fair compensation while delivering exceptional quality beans to businesses worldwide.'
     },
     {
       small_image_url: 'cofee-blog-3-1.png',
@@ -39,7 +39,7 @@ export const posts:Post[] = [
       large_image_url: 'cofee-blog-5-2.png',
       date: 'Feb 15, 2025',
       title: 'FROM SIDAMO TO YOUR CUP: THE JOURNEY OF ETHIOPIAN BEANS',
-      desc: 'Follow the fascinating journey of Ethiopian coffee beans from the high-altitude farms of Sidamo region to roasteries and cafés across Canada.'
+      desc: 'Follow the fascinating journey of Ethiopian coffee beans from the high-altitude farms of Sidamo region to roasteries and cafés around the world.'
     },
     {
       small_image_url: 'cofee-blog-6-1.png',

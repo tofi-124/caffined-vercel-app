@@ -53,12 +53,12 @@ const Footer = () => {
           <ul>
             <li className='my-3'>
               <p>
-                Ethio Coffee, Ontario, Canada
+                Ethio Coffee, Global Headquarters
               </p>
             </li>
             <li className='my-3'>
               <p>
-                info@ethiocoffee.ca
+                info@ethiocoffee.com
               </p>
             </li>
             <li className='my-3'>
@@ -79,7 +79,7 @@ const Footer = () => {
             className="object-contain"
           />
           <p className='my-6 text-center'>
-            Premium Ethiopian Coffee for Canadian Partners
+            Premium Ethiopian Coffee for Partners Worldwide
           </p>
         </div>
         
@@ -95,7 +95,7 @@ const Footer = () => {
             </li>
             <li className='my-3'>
               <p>
-                ON, Canada
+                International Business Hours
               </p>
             </li>
           </ul>
@@ -104,7 +104,7 @@ const Footer = () => {
       <div className='h-0.5 w-full bg-white/20' />
         
       <p className='py-6 text-center'>
-      © 2025 Ethio Coffee | Premium Ethiopian Coffee Importers | Ontario, Canada
+      © 2025 Ethio Coffee | Premium Ethiopian Coffee Importers Worldwide
       </p>
     </footer>
   )

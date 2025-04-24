@@ -37,7 +37,7 @@ const CofeeDesc = () => {
             WHY CHOOSE ETHIO COFFEE?
             </h1>
             <p className=''>
-            As Ontario's premier Ethiopian coffee importer, we bridge the gap between Ethiopia's finest coffee producers and Canada's quality-focused cafés and roasters. Our business model ensures competitive pricing, consistency, and dedicated support for your business.
+            As a premier Ethiopian coffee importer, we bridge the gap between Ethiopia's finest coffee producers and quality-focused cafés and roasters around the world. Our business model ensures competitive pricing, consistency, and dedicated support for your business regardless of location.
             </p>
           </div>
           

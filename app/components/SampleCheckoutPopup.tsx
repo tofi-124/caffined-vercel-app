@@ -152,8 +152,15 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
                   onChange={handleChange}
                   className="w-full p-2 border border-gray-300 rounded mt-1"
                 >
+                  <option value="Australia">Australia</option>
                   <option value="Canada">Canada</option>
+                  <option value="China">China</option>
+                  <option value="France">France</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Japan">Japan</option>
+                  <option value="UK">United Kingdom</option>
                   <option value="USA">United States</option>
+                  <option value="Other">Other Countries</option>
                 </select>
               </div>
             </div>

@@ -15,7 +15,7 @@ const WholesaleInquiryPage = () => {
               PREMIUM ETHIOPIAN COFFEE FOR YOUR BUSINESS
             </h2>
             <p className='mb-4'>
-              Ethio Coffee imports the finest Ethiopian coffee beans directly from carefully selected farms and cooperatives. We supply cafés, roasters, and specialty coffee businesses across Canada with premium, sustainably-sourced coffee.
+              Ethio Coffee imports the finest Ethiopian coffee beans directly from carefully selected farms and cooperatives. We supply cafés, roasters, and specialty coffee businesses globally with premium, sustainably-sourced coffee.
             </p>
             <p className='mb-4'>
               Our beans represent the rich coffee heritage of Ethiopia, the birthplace of coffee, known for its distinctive floral and fruity notes that make Ethiopian coffee world-renowned.
@@ -24,10 +24,11 @@ const WholesaleInquiryPage = () => {
               <h3 className='text-2xl font-bold mb-4'>Why Choose Ethio Coffee:</h3>
               <ul className='list-disc ml-5 space-y-2'>
                 <li>Direct relationships with Ethiopian farmers</li>
-                <li>Consistent quality and reliable supply chain</li>
+                <li>Consistent quality and reliable international supply chain</li>
                 <li>Variety of premium Ethiopian coffee regions</li>
                 <li>Customizable order quantities for businesses of all sizes</li>
                 <li>Sample program to test before committing to large orders</li>
+                <li>Global shipping and logistics expertise</li>
               </ul>
             </div>
           </div>
@@ -87,6 +88,16 @@ const WholesaleInquiryPage = () => {
             </div>
             
             <div>
+              <label htmlFor='country' className='block mb-2 font-bold'>Country*</label>
+              <input 
+                type='text' 
+                id='country' 
+                className='w-full p-3 border border-gray-300 rounded-md bg-white' 
+                required 
+              />
+            </div>
+            
+            <div>
               <label htmlFor='businessType' className='block mb-2 font-bold'>Business Type*</label>
               <select 
                 id='businessType' 
@@ -98,6 +109,7 @@ const WholesaleInquiryPage = () => {
                 <option value='roaster'>Coffee Roaster</option>
                 <option value='restaurant'>Restaurant</option>
                 <option value='hotel'>Hotel</option>
+                <option value='distributor'>Distributor</option>
                 <option value='office'>Office/Corporate</option>
                 <option value='other'>Other</option>
               </select>
