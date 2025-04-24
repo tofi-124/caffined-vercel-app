@@ -20,9 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={oswald.className}>
         <CartProvider>
-        <Navbar />
-        {children}
-        <Footer />
+          <Navbar />
+          {children}
+          <Footer />
         </CartProvider>
       </body>
     </html>

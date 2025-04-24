@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
@@ -58,7 +59,7 @@ const Footer = () => {
             </li>
             <li className='my-3'>
               <p>
-                info@ethiocoffee.com
+                info@ethiocoffee.et
               </p>
             </li>
             <li className='my-3'>

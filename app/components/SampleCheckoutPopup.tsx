@@ -17,11 +17,14 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
     city: '',
     postal: '',
     country: 'Canada',
-    payment: 'credit'
+    payment: 'credit',
+    formType: 'sample'
   });
   
   const [step, setStep] = useState(1);
   const samplePrice = 9.99;
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
   if (!isOpen) return null;
 
@@ -30,15 +33,62 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (step === 1) {
       setStep(2);
     } else {
       // Process payment and order
-      alert('Your sample has been ordered! Thank you.');
-      onClose();
-      setStep(1);
+      setIsSubmitting(true);
+      setSubmitError('');
+      
+      try {
+        // Add product info to the form data
+        const submissionData = {
+          ...formData,
+          productName,
+          productPrice: samplePrice,
+          shipping: 3.99,
+          total: (samplePrice + 3.99).toFixed(2),
+          orderDate: new Date().toISOString(),
+          _subject: `New Sample Order: ${productName}`
+        };
+        
+        // Send the form data to Formspree
+        const response = await fetch('https://formspree.io/f/xkgrnlve', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(submissionData),
+        });
+        
+        const result = await response.json();
+        
+        if (response.ok) {
+          alert('Your sample has been ordered! Thank you.');
+          onClose();
+          setStep(1);
+          setFormData({
+            name: '',
+            email: '',
+            address: '',
+            city: '',
+            postal: '',
+            country: 'Canada',
+            payment: 'credit',
+            formType: 'sample'
+          });
+        } else {
+          setSubmitError(result.error || 'Failed to process your order. Please try again.');
+        }
+      } catch (error) {
+        console.error('Error processing order:', error);
+        setSubmitError('There was an error processing your order. Please try again later.');
+      } finally {
+        setIsSubmitting(false);
+      }
     }
   };
 
@@ -110,11 +160,11 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
               <input 
                 type="text" 
                 id="address" 
-                name="address"
-                required
-                value={formData.address}
-                onChange={handleChange}
-                className="w-full p-2 border border-gray-300 rounded mt-1" 
+                  name="address"
+                  required
+                  value={formData.address}
+                  onChange={handleChange}
+                  className="w-full p-2 border border-gray-300 rounded mt-1" 
               />
             </div>
 
@@ -267,10 +317,12 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage }: Sam
               <button 
                 type="submit"
                 className="w-1/2 p-3 bg-dark text-primary rounded-md hover:bg-primary hover:text-dark border border-dark transition"
+                disabled={isSubmitting}
               >
-                Complete Purchase
+                {isSubmitting ? 'Processing...' : 'Complete Purchase'}
               </button>
             </div>
+            {submitError && <p className="text-red-500 mt-4">{submitError}</p>}
           </form>
         )}
       </div>
