@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { products } from '../../lib/ProductLine'
 import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
@@ -29,6 +29,11 @@ const OfferingDetail = ({ params }: Props) => {
   const { productId } = params
   const product = products.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  
+  // Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
   // Default values for product details
   const [activeDetail, setActiveDetail] = useState<string>('coffeeProfile');
