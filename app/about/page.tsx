@@ -1,6 +1,18 @@
 import React from 'react'
 import Testimonials from '../components/Testimonials'
 import ResponsiveImage from '../components/ResponsiveImage'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Ethio Coffee | Our Story & Heritage',
+  description: 'Learn about Ethio Coffee, our journey from Ethiopian farms to global markets, our commitment to quality, and our coffee heritage.',
+  keywords: 'Ethiopian coffee history, coffee farming, specialty coffee producer, coffee exporters, coffee heritage',
+  openGraph: {
+    title: 'About Ethio Coffee | Our Story & Heritage',
+    description: 'Learn about Ethio Coffee, our journey from Ethiopian farms to global markets.',
+    url: 'https://ethiocoffee.com/about',
+  }
+}
 
 const timeline = [
   {
@@ -55,8 +67,20 @@ const About = () => {
         <div className='container flex flex-wrap p-12 justify-center items-center gap-10'>
           
           <div>
-            <ResponsiveImage className='rounded-md' src="/images/about-1.webp" alt="about coffee" width={455} height={300} />
-            <ResponsiveImage className='rounded-md my-10' src="/images/about-2.webp" alt="coffee processing" width={455} height={300} />
+            <ResponsiveImage 
+              className='rounded-md' 
+              src="/images/about-1.webp" 
+              alt="Ethiopian coffee plantation with workers selecting premium coffee cherries" 
+              width={455} 
+              height={300} 
+            />
+            <ResponsiveImage 
+              className='rounded-md my-10' 
+              src="/images/about-2.webp" 
+              alt="Processing Ethiopian coffee beans using traditional methods to preserve quality" 
+              width={455} 
+              height={300} 
+            />
           </div>
           
           <div className='w-[455px]'>
@@ -67,7 +91,13 @@ const About = () => {
             <p>
               Coffee is a brewed drink made from roasted coffee beans, which are the seeds of berries from the Coffee a plant.
             </p>
-            <ResponsiveImage className='rounded-md my-10' src="/images/about-3.webp" alt="coffee farm" width={455} height={300} />
+            <ResponsiveImage 
+              className='rounded-md my-10' 
+              src="/images/about-3.webp" 
+              alt="Sustainable coffee farming practices in Ethiopian highlands" 
+              width={455} 
+              height={300} 
+            />
           </div>
 
         </div>

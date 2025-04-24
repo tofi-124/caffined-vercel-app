@@ -4,7 +4,7 @@ import ResponsiveImage from './ResponsiveImage'
 
 const Hero = () => {
   return (
-    <section id='hero' className=' min-h-screen py-[7.5rem] bg-dark'>
+    <section id='hero' className=' min-h-screen py-[7.5rem] bg-dark' aria-label="Hero section">
       <div className=" flex max-lg:flex-col items-center justify-center gap-12">
         
         <div id="hero-heading-wrapper" className='flex flex-col lg:items-start items-center justify-center mx-2 lg:w-1/2'>
@@ -20,16 +20,18 @@ const Hero = () => {
             bg-primary hover:bg-dark text-dark hover:text-primary
             border hover:border-primary
             rounded-md
-         '>BECOME A WHOLESALE PARTNER</Link>
+         ' aria-label="Contact us about becoming a wholesale partner">BECOME A WHOLESALE PARTNER</Link>
         </div>
 
         <div id="hero-image-wrapper" className='relative lg:w-1/3 max-sm:m-2'>
           <ResponsiveImage 
             src='/images/coffee-pack-1.webp' 
-            alt='Ethiopian coffee beans' 
+            alt='Premium Ethiopian coffee packaging featuring specialty grade beans for wholesale partners' 
             width={900}
             height={600}
             className='max-lg:w-[400px]'
+            priority={true}
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
         
