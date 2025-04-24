@@ -12,7 +12,7 @@ const Hero = () => {
             ETHIOPIAN COFFEE EXCELLENCE
           </h1>
           <p className='text-primary max-lg:text-center lg:pr-20'>
-            Ethio Coffee imports premium Ethiopian coffee beans for specialty cafés and roasters worldwide. Experience the distinctive floral and fruity notes from the birthplace of coffee.
+            Ethio Coffee exports premium Ethiopian coffee beans for specialty cafés and roasters worldwide. Experience the distinctive floral and fruity notes from the birthplace of coffee.
           </p>
 
           <Link href="/contact-us" className='

@@ -20,9 +20,9 @@ type Props = {
 }
 
 type ProductDetails = {
-  origin: string;
-  producer: string;
-  brewMethod: string;
+  coffeeProfile: string;
+  originFarmInfo: string;
+  sampleBrewGuide: string;
 }
 
 const OfferingDetail = ({ params }: Props) => {
@@ -31,13 +31,13 @@ const OfferingDetail = ({ params }: Props) => {
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   
   // Default values for product details
-  const [activeDetail, setActiveDetail] = useState<string>('origin');
+  const [activeDetail, setActiveDetail] = useState<string>('coffeeProfile');
   
   // Product details
   const productDetails: ProductDetails = {
-    origin: 'Our coffee beans are sourced from the lush highlands of Ethiopia, specifically from the regions of Sidamo and Yirgacheffe. These areas are known for their ideal coffee-growing conditions including high altitude (1,500-2,200 meters), rich soil, and perfect climate, resulting in beans with distinctive floral and fruit notes.',
-    producer: 'We partner with local cooperatives and small family farms that practice sustainable farming. These farmers have generations of experience cultivating exceptional coffee beans using traditional methods combined with modern sustainable practices. Fair trade relationships ensure these farmers receive equitable compensation for their premium products.',
-    brewMethod: 'For the best flavor profile, we recommend brewing this coffee as a pour-over or using a French press. For pour-over, use a medium-fine grind with water at 200°F and a 1:16 coffee-to-water ratio. Allow 3-4 minutes of brew time. For espresso, use a fine grind and extract for 25-30 seconds for perfect results.'
+    coffeeProfile: `${product?.name} offers vibrant notes of ripe berries, dark chocolate, and a hint of citrus zest. The cup is well-balanced with medium acidity, a velvety body, and a pleasant sweetness that lingers in the finish. It delivers a clean, bright flavor profile characteristic of premium Ethiopian coffees from the high-altitude regions. Each sip reveals complex layers that evolve as the coffee cools.`,
+    originFarmInfo: `Sourced from small-holder farms in the highlands of Ethiopia, at elevations between 1,800-2,200 meters. These farms practice traditional organic methods passed down through generations. The farmers hand-pick only the ripest cherries, ensuring exceptional quality. The community-based washing stations employ sustainable processing methods that conserve water while enhancing the beans' natural qualities. We maintain direct relationships with these farming communities to ensure fair compensation and sustainable practices.`,
+    sampleBrewGuide: `For the best results with your 200g sample:\n\nPour-Over: 18g coffee to 300g water. Medium-fine grind. 96°C water temperature. 2:30-3:00 minute brew time.\n\nFrench Press: 20g coffee to 300g water. Coarse grind. 4-minute steep.\n\nEspresso: 18g in, 36g out. 25-30 second extraction.\n\nStore beans in an airtight container away from light and heat. Best enjoyed within 3 weeks of opening.`
   };
   
   if (!product) {
@@ -64,9 +64,8 @@ const OfferingDetail = ({ params }: Props) => {
       </header>
       
       <section className='container mx-auto py-16 px-4'>
-        <div className='flex max-lg:flex-col items-center justify-center gap-12'>
-          <div className='lg:w-1/2 flex justify-center'>
-            {/* Using standard Image component as fallback to debug */}
+        <div className='flex max-lg:flex-col items-start justify-center gap-12'>
+          <div className='lg:w-1/2 flex justify-center items-start pt-4'>
             <Image
               src={`/images/${product.image_url}`}
               alt={product.name}
@@ -82,51 +81,44 @@ const OfferingDetail = ({ params }: Props) => {
             <p className='text-2xl font-bold mb-6'>${product.price}/lb (Business Partners)</p>
             
             <div className='mb-8'>
-              <h2 className='text-2xl font-bold mb-3'>Description</h2>
-              <p className='text-lg mb-4'>{product.desc}</p>
-              <p className='mb-8'>
-                This premium Ethiopian coffee is perfect for cafés and roasteries looking to offer 
-                exceptional quality to their customers. Available in various quantities to meet your business needs.
-              </p>
-              
-              {/* Product Details Section - Similar to Ethica Roasters */}
+              {/* Product Details Section with updated options */}
               <div className='mb-8'>
                 <div className='flex border-b border-gray-300 mb-4'>
                   <button
-                    onClick={() => setActiveDetail('origin')}
+                    onClick={() => setActiveDetail('coffeeProfile')}
                     className={`py-2 px-4 border-b-2 transition-colors ${
-                      activeDetail === 'origin' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
+                      activeDetail === 'coffeeProfile' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
                     }`}
                   >
-                    Origin
+                    Coffee Profile
                   </button>
                   <button
-                    onClick={() => setActiveDetail('producer')}
+                    onClick={() => setActiveDetail('originFarmInfo')}
                     className={`py-2 px-4 border-b-2 transition-colors ${
-                      activeDetail === 'producer' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
+                      activeDetail === 'originFarmInfo' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
                     }`}
                   >
-                    Producer
+                    Origin & Farm Info
                   </button>
                   <button
-                    onClick={() => setActiveDetail('brewMethod')}
+                    onClick={() => setActiveDetail('sampleBrewGuide')}
                     className={`py-2 px-4 border-b-2 transition-colors ${
-                      activeDetail === 'brewMethod' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
+                      activeDetail === 'sampleBrewGuide' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
                     }`}
                   >
-                    Brewing Method
+                    Sample Brew Guide
                   </button>
                 </div>
                 
-                <div className='py-2'>
-                  {activeDetail === 'origin' && (
-                    <p>{productDetails.origin}</p>
+                <div className='py-2 whitespace-pre-line'>
+                  {activeDetail === 'coffeeProfile' && (
+                    <p>{productDetails.coffeeProfile}</p>
                   )}
-                  {activeDetail === 'producer' && (
-                    <p>{productDetails.producer}</p>
+                  {activeDetail === 'originFarmInfo' && (
+                    <p>{productDetails.originFarmInfo}</p>
                   )}
-                  {activeDetail === 'brewMethod' && (
-                    <p>{productDetails.brewMethod}</p>
+                  {activeDetail === 'sampleBrewGuide' && (
+                    <p>{productDetails.sampleBrewGuide}</p>
                   )}
                 </div>
               </div>

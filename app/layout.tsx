@@ -12,9 +12,9 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
-  title: 'Ethio Coffee - Premium Ethiopian Coffee Imports',
-  description: 'Premium Ethiopian coffee imports for specialty cafés and roasters worldwide. Experience distinctive floral and fruity notes from the birthplace of coffee.',
-  keywords: 'Ethiopian coffee, specialty coffee, coffee imports, wholesale coffee, coffee exporters, arabica coffee',
+  title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
+  description: 'Premium Ethiopian coffee exports for specialty cafés and roasters worldwide. Experience distinctive floral and fruity notes from the birthplace of coffee.',
+  keywords: 'Ethiopian coffee, specialty coffee, coffee exports, wholesale coffee, coffee exporters, arabica coffee',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
   alternates: {
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://ethiocoffee.com',
-    title: 'Ethio Coffee - Premium Ethiopian Coffee Imports',
-    description: 'Premium Ethiopian coffee imports for specialty markets worldwide.',
+    title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
+    description: 'Premium Ethiopian coffee exports for specialty markets worldwide.',
     siteName: 'Ethio Coffee',
     images: [
       {
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethio Coffee - Premium Ethiopian Coffee Imports',
-    description: 'Premium Ethiopian coffee imports for specialty markets worldwide.',
+    title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
+    description: 'Premium Ethiopian coffee exports for specialty markets worldwide.',
     images: ['/images/coffee-pack-1.webp'],
     creator: '@ethiocoffee',
   },
@@ -65,7 +65,7 @@ export default function RootLayout({
               "name": "Ethio Coffee",
               "url": "https://ethiocoffee.com",
               "logo": "https://ethiocoffee.com/images/cafiend-logo.svg",
-              "description": "Premium Ethiopian coffee imports for specialty cafés and roasters worldwide.",
+              "description": "Premium Ethiopian coffee exports for specialty cafés and roasters worldwide.",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Global Headquarters"

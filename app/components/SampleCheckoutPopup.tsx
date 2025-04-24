@@ -134,9 +134,9 @@ const SampleCheckoutPopup = ({ isOpen, onClose, productName, productImage, selec
     if (!detail) return '';
     
     switch(detail) {
-      case 'origin': return 'Origin';
-      case 'producer': return 'Producer';
-      case 'brewMethod': return 'Brewing Method';
+      case 'coffeeProfile': return 'Coffee Profile';
+      case 'originFarmInfo': return 'Origin & Farm Info';
+      case 'sampleBrewGuide': return 'Sample Brew Guide';
       default: return '';
     }
   };
