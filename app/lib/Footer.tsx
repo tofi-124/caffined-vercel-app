@@ -18,14 +18,25 @@ const images = [
   'insta-6.webp',
 ]
 
+// Define fixed dimensions for Instagram images
+const INSTA_IMAGE_WIDTH = 500;
+const INSTA_IMAGE_HEIGHT = 482;
+
 const InstaImage = ({image_url}: Props) => {
   return (
-    <ResponsiveImage 
-      src={`/images/${image_url}`} 
-      alt={`${image_url}`} 
-      width={317}
-      height={317}
-    />
+    <div className="relative w-[317px] h-[317px] overflow-hidden">
+      <ResponsiveImage 
+        src={`/images/${image_url}`} 
+        alt={`Ethiopian coffee image ${image_url}`} 
+        width={INSTA_IMAGE_WIDTH}
+        height={INSTA_IMAGE_HEIGHT}
+        style={{
+          objectFit: 'cover',
+          width: '100%',
+          height: '100%'
+        }}
+      />
+    </div>
   )
 }
 
