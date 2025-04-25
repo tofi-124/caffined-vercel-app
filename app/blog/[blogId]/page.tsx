@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
 import { posts } from '@/app/data/data'
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
@@ -11,14 +13,18 @@ export async function generateStaticParams() {
 }
 
 type Props = {
-          params: {
-            blogId: string
-          }
+  params: {
+    blogId: string
+  }
 }
 
 const Blog = ({params:{ blogId }}: Props) => {
+  // Add effect to scroll to top when this component loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [blogId]); // Re-run when blogId changes
 
-  let ind = (parseInt(blogId) >= 0 && parseInt(blogId) < posts.length)  ? parseInt(blogId) : -1
+  let ind = (parseInt(blogId) >= 0 && parseInt(blogId) < posts.length) ? parseInt(blogId) : -1
   if(ind === -1){
     const Content = (
       <h1 className=' bg-primary flex flex-col font-extrabold text-6xl h-[40vh] text-red-500 text-center justify-center'>

@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { products } from '../../lib/ProductLine'
 import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
@@ -29,11 +29,31 @@ const OfferingDetail = ({ params }: Props) => {
   const { productId } = params
   const product = products.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  const productImageRef = useRef<HTMLDivElement>(null);
   
-  // Scroll to top when page loads
   useEffect(() => {
+    // First scroll to top to reset position
     window.scrollTo(0, 0);
-  }, []);
+    
+    // Then after a short delay, center the product in the viewport
+    const timer = setTimeout(() => {
+      if (productImageRef.current) {
+        const productSectionTop = productImageRef.current.offsetTop;
+        const productSectionHeight = productImageRef.current.offsetHeight;
+        const windowHeight = window.innerHeight;
+        
+        // Calculate position that will center the product in the viewport
+        const scrollToPosition = productSectionTop - ((windowHeight - productSectionHeight) / 2);
+        
+        window.scrollTo({
+          top: scrollToPosition,
+          behavior: 'smooth'
+        });
+      }
+    }, 500);
+    
+    return () => clearTimeout(timer);
+  }, [productId]);
   
   // Default values for product details
   const [activeDetail, setActiveDetail] = useState<string>('coffeeProfile');
@@ -70,7 +90,7 @@ const OfferingDetail = ({ params }: Props) => {
       
       <section className='container mx-auto py-16 px-4'>
         <div className='flex max-lg:flex-col items-start justify-center gap-12'>
-          <div className='lg:w-1/2 flex justify-center items-start pt-4'>
+          <div ref={productImageRef} className='lg:w-1/2 flex justify-center items-start pt-4'>
             <Image
               src={`/images/${product.image_url}`}
               alt={product.name}

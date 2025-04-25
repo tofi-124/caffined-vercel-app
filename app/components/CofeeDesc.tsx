@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useRef, useState } from 'react'
 import HeadLine from '../lib/Headline'
 
 const headlines = [
@@ -17,6 +18,29 @@ const headlines = [
 ]
 
 const CofeeDesc = () => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMobile, setIsMobile] = useState(true); // Default to true (mobile) to prevent autoplay by default
+  const [hasCheckedDevice, setHasCheckedDevice] = useState(false);
+
+  useEffect(() => {
+    // Check if the device is mobile
+    const checkMobile = () => {
+      const userAgent = navigator.userAgent.toLowerCase();
+      const mobile = /iphone|ipad|ipod|android|blackberry|windows phone|opera mini|silk/i.test(userAgent);
+      setIsMobile(mobile);
+      setHasCheckedDevice(true);
+    };
+    
+    checkMobile();
+  }, []);
+
+  // Separate useEffect for handling video playback after we know device type
+  useEffect(() => {
+    if (hasCheckedDevice && videoRef.current && !isMobile) {
+      videoRef.current.play().catch(e => console.log("Video autoplay prevented:", e));
+    }
+  }, [hasCheckedDevice, isMobile]);
+
   return (
     <section id='coffee-desc' className='flex flex-col items-center py-32 bg-dark text-primary'>
       <div id="container" className='mb-20 lg:px-72'>
@@ -28,7 +52,16 @@ const CofeeDesc = () => {
         </p>
       </div>
 
-      <video src='/videos/cofee-from-machine.webm' muted autoPlay loop />
+      <video 
+        ref={videoRef}
+        src='/videos/cofee-from-machine.webm' 
+        muted 
+        loop
+        playsInline
+        controls={isMobile}
+        // Remove autoPlay attribute entirely and control it via JS
+        preload={isMobile ? "metadata" : "auto"}
+      />
        
       <div id='desc-wrapper' className='m-10 lg:m-40 mb-0 flex flex-col items-center justify-center gap-5'>
         <div id='desc-container' className='flex max-lg:flex-col'>

@@ -1,10 +1,15 @@
-import React from 'react'
-import { Post } from '../components/Posts'
+"use client"
 
+import React, { useEffect } from 'react'
+import { Post } from '../components/Posts'
 import { posts } from '../data/data'
 
-
 const page = () => {
+  // Add effect to scroll to top when this component loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
@@ -18,7 +23,6 @@ const page = () => {
           {posts.map((post, ind) => <Post  key={ind} {...post} ind={ind} />)}
         </div>
       </section>
-    
     </main>
   )
 }

@@ -5,6 +5,7 @@ import Navbar from './lib/Navbar'
 import Footer from './lib/Footer'
 import {CartProvider} from './Context/store'
 import Script from 'next/script'
+import ScrollToTop from './components/ScrollToTop'
 
 const oswald = Oswald({ 
   subsets: ['latin'],
@@ -85,6 +86,7 @@ export default function RootLayout({
       </head>
       <body className={oswald.className}>
         <CartProvider>
+          <ScrollToTop />
           <Navbar />
           {children}
           <Footer />
