@@ -19,11 +19,11 @@ const headlines = [
 
 const CofeeDesc = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isMobile, setIsMobile] = useState(true); // Default to true (mobile) to prevent autoplay by default
+  const [isMobile, setIsMobile] = useState(false);
   const [hasCheckedDevice, setHasCheckedDevice] = useState(false);
 
   useEffect(() => {
-    // Check if the device is mobile
+    // Check if the device is mobile (only for controls display purposes now)
     const checkMobile = () => {
       const userAgent = navigator.userAgent.toLowerCase();
       const mobile = /iphone|ipad|ipod|android|blackberry|windows phone|opera mini|silk/i.test(userAgent);
@@ -34,12 +34,16 @@ const CofeeDesc = () => {
     checkMobile();
   }, []);
 
-  // Separate useEffect for handling video playback after we know device type
+  // Updated useEffect to attempt autoplay on all devices
   useEffect(() => {
-    if (hasCheckedDevice && videoRef.current && !isMobile) {
-      videoRef.current.play().catch(e => console.log("Video autoplay prevented:", e));
+    if (hasCheckedDevice && videoRef.current) {
+      // Attempt to play regardless of device type
+      videoRef.current.play().catch(e => {
+        console.log("Video autoplay prevented:", e);
+        // If autoplay fails, we'll still have controls on mobile
+      });
     }
-  }, [hasCheckedDevice, isMobile]);
+  }, [hasCheckedDevice]);
 
   return (
     <section id='coffee-desc' className='flex flex-col items-center py-32 bg-dark text-primary'>
@@ -59,8 +63,7 @@ const CofeeDesc = () => {
         loop
         playsInline
         controls={isMobile}
-        // Remove autoPlay attribute entirely and control it via JS
-        preload={isMobile ? "metadata" : "auto"}
+        preload="auto"
       />
        
       <div id='desc-wrapper' className='m-10 lg:m-40 mb-0 flex flex-col items-center justify-center gap-5'>
