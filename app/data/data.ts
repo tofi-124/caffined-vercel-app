@@ -24,17 +24,30 @@ export const posts:Post[] = [
 
 export const testimonials: Testimonial[] = [
   {
-    name: 'ANN DEN SMITH',
-    position: 'MANAGER',
-    quote: "but not too many times. I know that if I set my mind to do something,I will achieve it."
+    name: 'EMMA RODRIGUEZ',
+    position: 'Head Roaster, Artisan Coffee House, Seattle',
+    quote: "Ethio Coffee's Yirgacheffe beans have transformed our specialty menu. The floral notes and bright acidity are unparalleled, and their consistent quality has helped us win regional barista competitions twice in the past year."
   },
   {
-    name: 'RENIE JOHN',
-    position: 'OWNER',
-    quote: "I'm a very stubborn person. I think it has helped me over my career. I'm sure it has hindered me at times as well, but not too many times. I know that if I set my mind to do something,I will achieve it."
-  
+    name: 'DAVID CHEN',
+    position: 'Founder & CEO, Morning Brew Cafés, Vancouver',
+    quote: "After switching to Ethio Coffee as our primary supplier, our customer satisfaction ratings increased by 27%. Their direct trade model ensures we get exceptional beans while supporting sustainable farming practices in Ethiopia."
+  },
+  {
+    name: 'SOPHIE MARTIN',
+    position: 'Procurement Director, European Coffee Importers, Paris',
+    quote: "In my 15 years sourcing coffee globally, I've never worked with a more reliable Ethiopian supplier. Their meticulous quality control and efficient logistics have made our partnership invaluable to our expanding operation across Europe."
+  },
+  {
+    name: 'JAMES WALKER',
+    position: 'Owner, Urban Grind Coffee Chain, Melbourne',
+    quote: "The Sidamo beans from Ethio Coffee have become our signature blend's foundation. Our customers specifically ask for it by name, and their flexible ordering system accommodates our seasonal demand fluctuations perfectly."
+  },
+  {
+    name: 'AISHA PATEL',
+    position: 'Coffee Program Director, Luxury Hotels Group, Dubai',
+    quote: "Our hotels serve guests with discerning tastes who expect excellence. Ethio Coffee's premium offerings consistently exceed these expectations, and their personalized customer service ensures we're never left waiting for shipments."
   }
-
 ]
 
 export const products: Product[] = [
