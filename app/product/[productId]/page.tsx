@@ -83,7 +83,7 @@ const OfferingDetail = ({ params }: Props) => {
           
           <div className='lg:w-1/2'>
             <h1 className='text-5xl font-extrabold text-dark mb-4'>{product.name}</h1>
-            <p className='text-2xl font-bold mb-6'>${product.price}/lb (Business Partners)</p>
+            <p className='text-2xl font-bold mb-6'>${product.price}/lb</p>
             
             <div className='mb-8'>
               {/* Product Details Section with updated options */}
