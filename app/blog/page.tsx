@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import { Post } from '../components/Posts'
 import { posts } from '../data/data'
 
-const page = () => {
+const BlogPage = () => {
   // Add effect to scroll to top when this component loads
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,4 +27,4 @@ const page = () => {
   )
 }
 
-export default page
+export default BlogPage
