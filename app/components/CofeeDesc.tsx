@@ -21,43 +21,53 @@ const CofeeDesc = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [isIOS, setIsIOS] = useState(false);
   const [hasCheckedDevice, setHasCheckedDevice] = useState(false);
   const [playAttempts, setPlayAttempts] = useState(0);
 
   useEffect(() => {
-    // Check if the device is mobile (only for controls display purposes now)
-    const checkMobile = () => {
+    // Check if the device is mobile and specifically iOS
+    const checkDevice = () => {
       const userAgent = navigator.userAgent.toLowerCase();
       const mobile = /iphone|ipad|ipod|android|blackberry|windows phone|opera mini|silk/i.test(userAgent);
+      const iOS = /iphone|ipad|ipod/i.test(userAgent);
       setIsMobile(mobile);
+      setIsIOS(iOS);
       setHasCheckedDevice(true);
     };
     
-    checkMobile();
+    checkDevice();
   }, []);
 
   const attemptPlay = () => {
     if (videoRef.current) {
-      // Set very low volume instead of completely muted (helps on some devices)
-      videoRef.current.volume = 0.01;
+      // iOS requires both properties to be set explicitly
       videoRef.current.muted = true;
+      videoRef.current.playsInline = true;
+      videoRef.current.setAttribute('playsinline', '');
+      videoRef.current.setAttribute('webkit-playsinline', '');
       
-      videoRef.current.play()
-        .then(() => {
-          console.log("Video autoplay successful");
-          // If play succeeded, we can safely mute it completely
-          if (videoRef.current) videoRef.current.volume = 0;
-        })
-        .catch(e => {
-          console.log("Video autoplay attempt failed:", e);
-          // Try again with a slight delay, but limit attempts
-          if (playAttempts < 3) {
-            setTimeout(() => {
-              setPlayAttempts(prev => prev + 1);
-              attemptPlay();
-            }, 500);
-          }
-        });
+      // Use a very short timeout before playing (helps on iOS)
+      setTimeout(() => {
+        const playPromise = videoRef.current?.play();
+        
+        if (playPromise !== undefined) {
+          playPromise.then(() => {
+            console.log("Video autoplay successful");
+          }).catch(e => {
+            console.log("Video autoplay attempt failed:", e);
+            
+            // Special handling for iOS
+            if (isIOS && playAttempts < 5) {
+              // iOS often needs multiple attempts with increasing delays
+              setTimeout(() => {
+                setPlayAttempts(prev => prev + 1);
+                attemptPlay();
+              }, 800 * (playAttempts + 1)); // Increasing delay with each attempt
+            }
+          });
+        }
+      }, 100);
     }
   };
   
@@ -68,7 +78,51 @@ const CofeeDesc = () => {
     }
   }, [hasCheckedDevice]);
   
-  // Attempt to play the video on various user interactions
+  // iOS-specific event handling
+  useEffect(() => {
+    if (!isIOS) return;
+    
+    // iOS specific: try playing again when page gets focus
+    const handlePageFocus = () => {
+      if (videoRef.current && document.hasFocus()) {
+        attemptPlay();
+      }
+    };
+    
+    // Create silent audio context to "warm up" iOS audio
+    const enableAudioContext = () => {
+      const AudioContext = window.AudioContext || (window as any).webkitAudioContext;
+      if (AudioContext) {
+        const audioCtx = new AudioContext();
+        // Create and immediately play+stop a silent oscillator
+        const oscillator = audioCtx.createOscillator();
+        const gainNode = audioCtx.createGain();
+        gainNode.gain.value = 0; // silent
+        oscillator.connect(gainNode);
+        gainNode.connect(audioCtx.destination);
+        oscillator.start(0);
+        oscillator.stop(0.001);
+      }
+      
+      // Now try to play the video again
+      attemptPlay();
+    };
+    
+    // Add iOS-specific event listeners
+    window.addEventListener('focus', handlePageFocus);
+    window.addEventListener('pageshow', handlePageFocus);
+    
+    // These events help "warm up" the audio context on iOS
+    document.addEventListener('touchend', enableAudioContext, { once: true });
+    
+    return () => {
+      window.removeEventListener('focus', handlePageFocus);
+      window.removeEventListener('pageshow', handlePageFocus);
+      document.removeEventListener('touchend', enableAudioContext);
+    };
+  }, [isIOS, hasCheckedDevice]);
+  
+  // General interaction-based play attempts
   useEffect(() => {
     const handleVisibilityChange = () => {
       if (document.visibilityState === "visible" && videoRef.current) {
@@ -127,19 +181,41 @@ const CofeeDesc = () => {
         </p>
       </div>
 
-      <video 
-        ref={videoRef}
-        autoPlay
-        muted 
-        loop
-        playsInline
-        controls={isMobile}
-        preload="auto"
-        poster="/images/coffee-pack-1.webp"
-      >
-        <source src='/videos/cofee-from-machine.webm' type="video/webm" />
-        {/* Add MP4 version as a fallback if you have one */}
-      </video>
+      {isIOS ? (
+        // Special handling for iOS devices
+        <div className="video-container w-full">
+          <video 
+            ref={videoRef}
+            muted 
+            playsInline
+            webkit-playsinline="true"
+            autoPlay
+            loop
+            controls={isMobile}
+            preload="auto"
+            poster="/images/coffee-pack-1.webp"
+            className="w-full h-auto"
+          >
+            {/* iOS prefers MP4 over WebM */}
+            <source src='/videos/cofee-from-machine.mp4' type="video/mp4" />
+            <source src='/videos/cofee-from-machine.webm' type="video/webm" />
+          </video>
+        </div>
+      ) : (
+        // Standard handling for other devices
+        <video 
+          ref={videoRef}
+          autoPlay
+          muted 
+          loop
+          playsInline
+          controls={isMobile}
+          preload="auto"
+          poster="/images/coffee-pack-1.webp"
+        >
+          <source src='/videos/cofee-from-machine.webm' type="video/webm" />
+        </video>
+      )}
        
       <div id='desc-wrapper' className='m-10 lg:m-40 mb-0 flex flex-col items-center justify-center gap-5'>
         <div id='desc-container' className='flex max-lg:flex-col'>
