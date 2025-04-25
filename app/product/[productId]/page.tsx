@@ -20,8 +20,7 @@ type Props = {
 }
 
 type ProductDetails = {
-  coffeeProfile: string;
-  originFarmInfo: string;
+  coffeeProfileOrigin: string;
   technicalSpecs: string;
 }
 
@@ -56,12 +55,13 @@ const OfferingDetail = ({ params }: Props) => {
   }, [productId]);
   
   // Default values for product details
-  const [activeDetail, setActiveDetail] = useState<string>('coffeeProfile');
+  const [activeDetail, setActiveDetail] = useState<string>('coffeeProfileOrigin');
   
-  // Product details
+  // Product details with combined coffee profile and origin info
   const productDetails: ProductDetails = {
-    coffeeProfile: `${product?.name} offers vibrant notes of ripe berries, dark chocolate, and a hint of citrus zest. The cup is well-balanced with medium acidity, a velvety body, and a pleasant sweetness that lingers in the finish. It delivers a clean, bright flavor profile characteristic of premium Ethiopian coffees from the high-altitude regions. Each sip reveals complex layers that evolve as the coffee cools.`,
-    originFarmInfo: `Sourced from small-holder farms in the highlands of Ethiopia, at elevations between 1,800-2,200 meters. These farms practice traditional organic methods passed down through generations. The farmers hand-pick only the ripest cherries, ensuring exceptional quality. The community-based washing stations employ sustainable processing methods that conserve water while enhancing the beans' natural qualities. We maintain direct relationships with these farming communities to ensure fair compensation and sustainable practices.`,
+    coffeeProfileOrigin: `${product?.name} offers vibrant notes of ripe berries, dark chocolate, and a hint of citrus zest. The cup is well-balanced with medium acidity, a velvety body, and a pleasant sweetness that lingers in the finish. It delivers a clean, bright flavor profile characteristic of premium Ethiopian coffees from the high-altitude regions.
+
+Sourced from small-holder farms in the highlands of Ethiopia, at elevations between 1,800-2,200 meters. These farms practice traditional organic methods passed down through generations. The farmers hand-pick only the ripest cherries, ensuring exceptional quality. The community-based washing stations employ sustainable processing methods that conserve water while enhancing the beans' natural qualities. We maintain direct relationships with these farming communities to ensure fair compensation and sustainable practices.`,
     technicalSpecs: ''  // This will be dynamically rendered from product specs
   };
   
@@ -109,16 +109,16 @@ const OfferingDetail = ({ params }: Props) => {
             </div>
             
             <div className='mb-8'>
-              {/* Product Details Section with updated options */}
+              {/* Product Details Section with combined options */}
               <div className='mb-8'>
                 <div className='flex flex-wrap border-b border-gray-300 mb-4'>
                   <button
-                    onClick={() => setActiveDetail('coffeeProfile')}
+                    onClick={() => setActiveDetail('coffeeProfileOrigin')}
                     className={`py-2 px-4 border-b-2 transition-colors ${
-                      activeDetail === 'coffeeProfile' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
+                      activeDetail === 'coffeeProfileOrigin' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
                     }`}
                   >
-                    Coffee Profile
+                    Coffee Profile & Origin
                   </button>
                   <button
                     onClick={() => setActiveDetail('technicalSpecs')}
@@ -128,19 +128,11 @@ const OfferingDetail = ({ params }: Props) => {
                   >
                     Specifications
                   </button>
-                  <button
-                    onClick={() => setActiveDetail('originFarmInfo')}
-                    className={`py-2 px-4 border-b-2 transition-colors ${
-                      activeDetail === 'originFarmInfo' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
-                    }`}
-                  >
-                    Origin & Farm Info
-                  </button>
                 </div>
                 
                 <div className='py-2 whitespace-pre-line'>
-                  {activeDetail === 'coffeeProfile' && (
-                    <p>{productDetails.coffeeProfile}</p>
+                  {activeDetail === 'coffeeProfileOrigin' && (
+                    <p>{productDetails.coffeeProfileOrigin}</p>
                   )}
                   {activeDetail === 'technicalSpecs' && (
                     <div className='bg-white rounded-lg border border-gray-200 overflow-hidden'>
@@ -179,9 +171,6 @@ const OfferingDetail = ({ params }: Props) => {
                         </tbody>
                       </table>
                     </div>
-                  )}
-                  {activeDetail === 'originFarmInfo' && (
-                    <p>{productDetails.originFarmInfo}</p>
                   )}
                 </div>
               </div>
