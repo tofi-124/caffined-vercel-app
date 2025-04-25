@@ -199,17 +199,6 @@ const Footer = () => {
           <p className="text-sm text-dark/70">
             © {new Date().getFullYear()} Ethio Coffee Import and Export PLC. All rights reserved.
           </p>
-          <p className="mt-3 flex items-center justify-center gap-1 text-sm text-dark/70">
-            <span>made by</span>
-            <a
-              href="mailto:nusey51@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline underline-offset-4 hover:text-dark transition-colors"
-            >
-              nusu
-            </a>
-          </p>
         </div>
       </div>
     </>
