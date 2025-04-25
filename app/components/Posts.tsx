@@ -3,6 +3,10 @@ import {posts} from '../data/data';
 import Link from 'next/link';
 import ResponsiveImage from './ResponsiveImage';
 
+// Define standard image dimensions for blog thumbnails
+const BLOG_THUMBNAIL_WIDTH = 400;
+const BLOG_THUMBNAIL_HEIGHT = 300;
+
 type Props = {
   title: string,
   date: string,
@@ -17,9 +21,9 @@ export const Post = ({ title, date, small_image_url, ind}: Props) => {
             <ResponsiveImage 
               className='rounded-md' 
               src={`/images/${small_image_url}`} 
-              alt={`${small_image_url}`} 
-              width={400}
-              height={300}
+              alt={`${title}`} 
+              width={BLOG_THUMBNAIL_WIDTH}
+              height={BLOG_THUMBNAIL_HEIGHT}
             />
           </div>
           <p className='my-4 text-center text-gray-600 font-inconsolata'>

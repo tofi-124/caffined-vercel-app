@@ -19,34 +19,6 @@ export const posts:Post[] = [
       date: 'Mar 28, 2025',
       title: 'DIRECT TRADE PARTNERSHIPS: SUPPORTING ETHIOPIAN FARMERS',
       desc: 'Our direct relationships with Ethiopian coffee farmers ensure fair compensation while delivering exceptional quality beans to businesses worldwide.'
-    },
-    {
-      small_image_url: 'cofee-blog-3-1.png',
-      large_image_url: 'cofee-blog-3-2.png',
-      date: 'Mar 15, 2025',
-      title: 'THE UNIQUE FLAVOR PROFILES OF YIRGACHEFFE COFFEE',
-      desc: 'Explore the bright, floral, and citrusy notes that make Yirgacheffe one of Ethiopia\'s most distinguished and sought-after coffee regions worldwide.'
-    },
-    {
-      small_image_url: 'cofee-blog-4-1.png',
-      large_image_url: 'cofee-blog-4-2.png',
-      date: 'Feb 28, 2025',
-      title: 'SUSTAINABLE PRACTICES IN ETHIOPIAN COFFEE PRODUCTION',
-      desc: 'Learn how traditional shade-grown methods and eco-friendly processing techniques make Ethiopian coffee both environmentally sustainable and exceptionally flavorful.'
-    },
-    {
-      small_image_url: 'cofee-blog-5-1.png',
-      large_image_url: 'cofee-blog-5-2.png',
-      date: 'Feb 15, 2025',
-      title: 'FROM SIDAMO TO YOUR CUP: THE JOURNEY OF ETHIOPIAN BEANS',
-      desc: 'Follow the fascinating journey of Ethiopian coffee beans from the high-altitude farms of Sidamo region to roasteries and cafés around the world.'
-    },
-    {
-      small_image_url: 'cofee-blog-6-1.png',
-      large_image_url: 'cofee-blog-6-2.png',
-      date: 'Feb 3, 2025',
-      title: 'IMPORTING EXCELLENCE: ETHIO COFFEE\'S QUALITY STANDARDS',
-      desc: 'Discover our rigorous selection process and quality control measures that ensure only the finest Ethiopian coffee beans reach your business.'
     }
 ]
 
