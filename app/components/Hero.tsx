@@ -9,7 +9,7 @@ const Hero = () => {
         
         <div id="hero-heading-wrapper" className='flex flex-col lg:items-start items-center justify-center mx-2 lg:w-1/2'>
           <h1 className='text-5xl max-lg:text-center lg:text-6xl leading-tight text-primary font-bold'>
-            ETHIOPIAN COFFEE EXCELLENCE
+            PREMIUM ETHIOPIAN COFFEE
           </h1>
           <p className='text-primary max-lg:text-center lg:pr-20'>
             Ethio Coffee exports premium Ethiopian coffee beans for specialty cafés and roasters worldwide. Experience the distinctive floral and fruity notes from the birthplace of coffee.
@@ -20,7 +20,7 @@ const Hero = () => {
             bg-primary hover:bg-dark text-dark hover:text-primary
             border hover:border-primary
             rounded-md
-         ' aria-label="Contact us about becoming a wholesale partner">BECOME A WHOLESALE PARTNER</Link>
+         ' aria-label="Contact us about becoming a wholesale partner">REQUEST A SAMPLE</Link>
         </div>
 
         <div id="hero-image-wrapper" className='relative lg:w-1/3 max-sm:m-2'>

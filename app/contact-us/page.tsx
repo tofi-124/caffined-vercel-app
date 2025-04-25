@@ -1,9 +1,10 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import ResponsiveImage from '../components/ResponsiveImage'
 
 const WholesaleInquiryPage = () => {
+  const formRef = useRef<HTMLDivElement>(null);
   const [formData, setFormData] = useState({
     businessName: '',
     contactName: '',
@@ -114,7 +115,7 @@ const WholesaleInquiryPage = () => {
           </div>
         </div>
 
-        <div className='max-w-3xl mx-auto my-16'>
+        <div className='max-w-3xl mx-auto my-16' ref={formRef}>
           <h2 className='text-4xl font-extrabold text-center mb-8'>GET IN TOUCH</h2>
           
           {submitSuccess ? (
