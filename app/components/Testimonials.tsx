@@ -49,7 +49,7 @@ const Testimonials = () => {
     <section id='testimonial-section' className='pt-32 pb-16 flex flex-col items-center justify-center bg-primary'>
       <div className='mb-12 text-center'>
         <h1 className='text-5xl leading-tight text-dark font-bold'>
-          CLIENT TESTIMONIALS
+          OUR TESTIMONIAL
         </h1>
         <p className='mt-4 text-lg max-w-2xl mx-auto'>
           Trusted by coffee businesses worldwide - see what our partners have to say about working with Ethio Coffee
