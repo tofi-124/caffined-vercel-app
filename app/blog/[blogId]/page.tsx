@@ -5,13 +5,6 @@ import { posts } from '@/app/data/data'
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
 
-// Function to tell Next.js which blog IDs (indices) to generate pages for
-export async function generateStaticParams() {
-  return posts.map((post, index) => ({
-    blogId: index.toString(), // Ensure blogId is a string
-  }))
-}
-
 // Define standard image dimensions for all blog posts
 const BLOG_IMAGE_WIDTH = 1000;
 const BLOG_IMAGE_HEIGHT = 600;
@@ -22,7 +15,10 @@ type Props = {
   }
 }
 
-const Blog = ({params:{ blogId }}: Props) => {
+const Blog = ({params}: Props) => {
+  // Accessing params directly for now, but prepared for future Next.js changes
+  const { blogId } = params;
+
   // Add effect to scroll to top when this component loads
   useEffect(() => {
     window.scrollTo(0, 0);

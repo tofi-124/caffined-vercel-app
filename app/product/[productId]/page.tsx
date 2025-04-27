@@ -6,12 +6,7 @@ import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
 import ResponsiveImage from '../../components/ResponsiveImage'
 import Image from 'next/image'
 
-// Function to tell Next.js which product IDs to generate pages for
-export async function generateStaticParams() {
-  return products.map((product) => ({
-    productId: product.id,
-  }))
-}
+// Removing the generateStaticParams function from this client component file
 
 type Props = {
   params: {
@@ -25,7 +20,8 @@ type ProductDetails = {
 }
 
 const OfferingDetail = ({ params }: Props) => {
-  const { productId } = params
+  // Accessing params directly for now, but prepared for future Next.js changes
+  const { productId } = params;
   const product = products.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const productImageRef = useRef<HTMLDivElement>(null);
