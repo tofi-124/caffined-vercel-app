@@ -1,13 +1,29 @@
 "use client"
 
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Post } from '../components/Posts'
 import { posts } from '../data/data'
 
 const BlogPage = () => {
-  // Add effect to scroll to top when this component loads
+  // Create a reference to the posts section for scrolling
+  const postsRef = useRef<HTMLDivElement>(null);
+  
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // Scroll to center the posts section with a slight delay to ensure DOM is fully loaded
+    const timer = setTimeout(() => {
+      if (postsRef.current) {
+        const postsSectionTop = postsRef.current.offsetTop;
+        const windowHeight = window.innerHeight;
+        const scrollToPosition = postsSectionTop - (windowHeight / 4); // Position to show posts in center
+        
+        window.scrollTo({
+          top: scrollToPosition,
+          behavior: 'smooth'
+        });
+      }
+    }, 300);
+    
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -19,8 +35,8 @@ const BlogPage = () => {
         <h1 className='my-16 text-5xl font-extrabold'>
           OUR RECENT POSTS
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-          {posts.map((post, ind) => <Post  key={ind} {...post} ind={ind} />)}
+        <div ref={postsRef} className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          {posts.map((post, ind) => <Post key={ind} {...post} ind={ind} />)}
         </div>
       </section>
     </main>
