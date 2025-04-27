@@ -86,7 +86,7 @@ const WholesaleInquiryPage = () => {
               PREMIUM ETHIOPIAN COFFEE FOR YOUR BUSINESS
             </h2>
             <p className='mb-4'>
-              Ethio Coffee exports the finest Ethiopian coffee beans directly from carefully selected farms and cooperatives. We supply cafés, roasters, and specialty coffee businesses globally with premium, sustainably-sourced coffee.
+              Ethio Coffee Import and Export, operating as Ethio Coffee, exports the finest Ethiopian coffee beans directly from carefully selected farms and cooperatives. We supply cafés, roasters, and specialty coffee businesses globally with premium, sustainably-sourced coffee.
             </p>
             <p className='mb-4'>
               Our beans represent the rich coffee heritage of Ethiopia, the birthplace of coffee, known for its distinctive floral and fruity notes that make Ethiopian coffee world-renowned.

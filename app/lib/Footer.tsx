@@ -130,7 +130,7 @@ const Footer = () => {
         
       <div className='py-6 text-center'>
         <p className="flex items-center justify-center gap-3">
-          © 2025 Ethio Coffee | Premium Ethiopian Coffee Exporters Worldwide
+          © 2025 Ethio Coffee Import and Export. All rights reserved.
           <a 
             href="https://instagram.com/ethiocoffee.et" 
             target="_blank" 

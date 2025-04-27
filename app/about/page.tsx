@@ -49,7 +49,7 @@ const About = () => {
           </div>
           <div className='lg:w-1/2 py-2 lg:py-24 lg:px-12 lg:border-l-2 border-black'>
             <p className='my-2'>
-              Coffee is a popular and beloved beverage that is made from roasted coffee beans, which come from the berries of the Coffee a plant. The drink is enjoyed by millions of people.
+              Ethio Coffee Import and Export, operating under the brand name 'Ethio Coffee,' is a trusted exporter of premium Ethiopian coffee beans. Our coffee is made from carefully selected roasted coffee beans, which come from the berries of the Coffee a plant in the Ethiopian highlands and is enjoyed by coffee enthusiasts worldwide.
             </p>
             <p className='my-4'>
               Coffee is often enjoyed as a morning or afternoon pick-me-up, but it can also be savored as a relaxing and enjoyable beverage. In addition to its taste and aroma, coffee has been shown to have a variety of health benefits, including increased alertness and improved mental focus. It is also a source of antioxidants and other beneficial compounds.
