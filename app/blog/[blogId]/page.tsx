@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect } from 'react'
+import React, { useEffect, use } from 'react'
 import { posts } from '@/app/data/data'
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
@@ -10,14 +10,14 @@ const BLOG_IMAGE_WIDTH = 1000;
 const BLOG_IMAGE_HEIGHT = 600;
 
 type Props = {
-  params: {
+  params: Promise<{
     blogId: string
-  }
+  }>
 }
 
 const Blog = ({params}: Props) => {
-  // Accessing params directly for now, but prepared for future Next.js changes
-  const { blogId } = params;
+  // Using React's use() hook to properly await params
+  const { blogId } = use(params);
 
   // Add effect to scroll to top when this component loads
   useEffect(() => {

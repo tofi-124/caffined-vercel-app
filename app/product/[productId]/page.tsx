@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, use } from 'react'
 import Link from 'next/link'
 import { products } from '../../lib/ProductLine'
 import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
@@ -9,9 +9,9 @@ import Image from 'next/image'
 // Removing the generateStaticParams function from this client component file
 
 type Props = {
-  params: {
+  params: Promise<{
     productId: string
-  }
+  }>
 }
 
 type ProductDetails = {
@@ -20,8 +20,8 @@ type ProductDetails = {
 }
 
 const OfferingDetail = ({ params }: Props) => {
-  // Accessing params directly for now, but prepared for future Next.js changes
-  const { productId } = params;
+  // Using React's use() hook to properly await params
+  const { productId } = use(params);
   const product = products.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const productImageRef = useRef<HTMLDivElement>(null);
