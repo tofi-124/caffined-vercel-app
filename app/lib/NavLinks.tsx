@@ -8,20 +8,24 @@ const NavLinks = () => {
       path: '/'
     },
     {
-      name: 'About',
-      path: '/about'
-    },
-    {
-      name: 'Offerings',
+      name: 'Shop',
       path: '/offerings' 
-    },
-    {
-      name: 'Contact Us',
-      path: '/contact-us'
     },
     {
       name: 'Blog',
       path: '/blog'
+    },
+    {
+      name: 'About',
+      path: '/about'
+    },
+    {
+      name: 'Contact',
+      path: '/contact-us'
+    },
+    {
+      name: 'Cart',
+      path: '/cart'
     },
   ]
   return (

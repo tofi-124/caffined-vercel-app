@@ -1,10 +1,10 @@
 "use client"
-import React, { useState, useEffect, useRef, use } from 'react'
+import React, { useContext, useState, useEffect, useRef, use } from 'react'
 import Link from 'next/link'
 import { products } from '../../lib/ProductLine'
-import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
 import ResponsiveImage from '../../components/ResponsiveImage'
 import Image from 'next/image'
+import CartContext from '../../Context/store'
 
 // Removing the generateStaticParams function from this client component file
 
@@ -23,7 +23,7 @@ const OfferingDetail = ({ params }: Props) => {
   // Using React's use() hook to properly await params
   const { productId } = use(params);
   const product = products.find(p => p.id === productId)
-  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  const { addItem } = useContext(CartContext)
   const productImageRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
@@ -65,13 +65,13 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
     return (
       <main className='bg-primary min-h-screen'>
         <div className='container mx-auto py-16 px-4 text-center'>
-          <h1 className='text-5xl font-extrabold text-dark mb-6'>Offering Not Found</h1>
-          <p className='mb-8'>Sorry, we couldn't find the offering you're looking for.</p>
+          <h1 className='text-5xl font-extrabold text-dark mb-6'>Product Not Found</h1>
+          <p className='mb-8'>Sorry, we couldn't find the coffee you're looking for.</p>
           <Link 
             href="/offerings"
             className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md'
           >
-            RETURN TO OFFERINGS
+            BACK TO SHOP
           </Link>
         </div>
       </main>
@@ -100,8 +100,8 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
           <div className='lg:w-1/2'>
             <h1 className='text-5xl font-extrabold text-dark mb-4'>{product.name}</h1>
             <div className='flex flex-col mb-6'>
-              <p className='text-2xl font-bold'>${product.price}/lb</p>
-              <p className='text-sm text-gray-600 italic'>Price: {product.priceType}</p>
+              <p className='text-2xl font-bold'>${product.price}</p>
+              <p className='text-sm text-gray-600 italic'>12oz bag</p>
             </div>
             
             <div className='mb-8'>
@@ -173,32 +173,35 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
               
               <div className='mb-8'>
                 <h3 className='text-xl font-semibold mb-2'>Available Quantities</h3>
-                <p>5kg, 15kg, 30kg, 60kg</p>
+                <p>12oz, 2lb, 5lb</p>
               </div>
             </div>
             
             <div className='flex flex-wrap gap-4'>
-              <Link 
-                href="/contact-us"
-                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold'
-              >
-                CONTACT US FOR PRICING
-              </Link>
-              
               <button 
-                onClick={() => setIsCheckoutOpen(true)}
+                onClick={() => addItem({
+                  id: product.id,
+                  name: product.name,
+                  price: product.price,
+                  image_url: product.image_url,
+                  selectedOptions: {
+                    size: '12oz',
+                    grind: 'whole-bean',
+                    purchaseType: 'one-time',
+                  },
+                })}
                 className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold cursor-pointer'
               >
-                PURCHASE A SAMPLE
+                ADD TO CART
               </button>
+
+              <Link 
+                href="/cart"
+                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold'
+              >
+                GO TO CART
+              </Link>
               
-              <SampleCheckoutPopup 
-                isOpen={isCheckoutOpen}
-                onClose={() => setIsCheckoutOpen(false)}
-                productName={product.name}
-                productImage={product.image_url}
-                activeDetail={activeDetail}
-              />
             </div>
           </div>
         </div>

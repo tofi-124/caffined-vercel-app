@@ -3,29 +3,21 @@
 import React, { useState, useRef } from 'react'
 import ResponsiveImage from '../components/ResponsiveImage'
 
-const WholesaleInquiryPage = () => {
+const ContactPage = () => {
   const formRef = useRef<HTMLDivElement>(null);
   const [formData, setFormData] = useState({
-    businessName: '',
-    contactName: '',
+    name: '',
     email: '',
-    phone: '',
-    country: '',
-    businessType: '',
-    message: '',
-    requestSamples: false
+    orderNumber: '',
+    message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
   
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
-  }
-  
-  const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData(prev => ({ ...prev, requestSamples: e.target.checked }));
   }
   
   const handleSubmit = async (e: React.FormEvent) => {
@@ -44,7 +36,7 @@ const WholesaleInquiryPage = () => {
         body: JSON.stringify({
           ...formData,
           formType: 'contact',
-          _subject: `New Contact Inquiry from ${formData.businessName || 'Business'}`
+          _subject: `New Customer Message${formData.orderNumber ? ` (Order ${formData.orderNumber})` : ''}`
         }),
       });
       
@@ -53,14 +45,10 @@ const WholesaleInquiryPage = () => {
       if (response.ok) {
         setSubmitSuccess(true);
         setFormData({
-          businessName: '',
-          contactName: '',
+          name: '',
           email: '',
-          phone: '',
-          country: '',
-          businessType: '',
-          message: '',
-          requestSamples: false
+          orderNumber: '',
+          message: ''
         });
       } else {
         setSubmitError(result.error || 'Failed to submit. Please try again.');
@@ -76,30 +64,29 @@ const WholesaleInquiryPage = () => {
   return (
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-bold text-primary'>CONTACT US</h1>
+        <h1 className='text-5xl font-bold text-primary'>CONTACT</h1>
       </header>
       
       <section className='container mx-auto px-4 py-12'>
         <div className='flex max-lg:flex-col items-center justify-center gap-12 mb-16'>
           <div className='lg:w-1/2'>
             <h2 className='text-5xl font-extrabold leading-tight text-dark mb-6'>
-              PREMIUM ETHIOPIAN COFFEE FOR YOUR BUSINESS
+              WE'RE HERE TO HELP
             </h2>
             <p className='mb-4'>
-              Ethio Coffee Import and Export, operating as Ethio Coffee, exports the finest Ethiopian coffee beans directly from carefully selected farms and cooperatives. We supply cafés, roasters, and specialty coffee businesses globally with premium, sustainably-sourced coffee.
+              Questions about an order, shipping, or which coffee to try next? Send us a message and we’ll get back to you.
             </p>
             <p className='mb-4'>
-              Our beans represent the rich coffee heritage of Ethiopia, the birthplace of coffee, known for its distinctive floral and fruity notes that make Ethiopian coffee world-renowned.
+              For faster help, include your order number (if you have one) and a short description of the issue.
             </p>
             <div className='mt-8'>
-              <h3 className='text-2xl font-bold mb-4'>Why Choose Ethio Coffee:</h3>
+              <h3 className='text-2xl font-bold mb-4'>Common Reasons To Reach Out:</h3>
               <ul className='list-disc ml-5 space-y-2'>
-                <li>Direct relationships with Ethiopian farmers</li>
-                <li>Consistent quality and reliable international supply chain</li>
-                <li>Variety of premium Ethiopian coffee regions</li>
-                <li>Customizable order quantities for businesses of all sizes</li>
-                <li>Sample program to test before committing to large orders</li>
-                <li>Global shipping and logistics expertise</li>
+                <li>Order status / delivery questions</li>
+                <li>Product recommendations</li>
+                <li>Damaged or incorrect items</li>
+                <li>Account or checkout help</li>
+                <li>Feedback on a coffee you tried</li>
               </ul>
             </div>
           </div>
@@ -107,7 +94,7 @@ const WholesaleInquiryPage = () => {
           <div className='lg:w-1/2 flex justify-center'>
             <ResponsiveImage 
               src='/images/coffee-pack-1.webp'
-              alt='Ethiopian coffee beans'
+              alt='Ethiopian coffee packaging'
               width={500}
               height={600}
               className='rounded-md'
@@ -121,34 +108,33 @@ const WholesaleInquiryPage = () => {
           {submitSuccess ? (
             <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
               <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
-              <p className='text-green-700'>Your inquiry has been submitted successfully. We'll contact you soon at the email address you provided.</p>
-              <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
+              <p className='text-green-700'>Your message has been sent. We’ll reply to the email address you provided.</p>
+              <p className='mt-4 text-green-700'>You can also email us at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
             </div>
           ) : (
             <form className='space-y-6' onSubmit={handleSubmit}>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 <div>
-                  <label htmlFor='businessName' className='block mb-2 font-bold'>Business Name*</label>
+                  <label htmlFor='name' className='block mb-2 font-bold'>Full Name*</label>
                   <input 
                     type='text' 
-                    id='businessName'
-                    name='businessName'
-                    value={formData.businessName}
+                    id='name'
+                    name='name'
+                    value={formData.name}
                     onChange={handleChange}
                     className='w-full p-3 border border-gray-300 rounded-md bg-white' 
                     required 
                   />
                 </div>
                 <div>
-                  <label htmlFor='contactName' className='block mb-2 font-bold'>Contact Name*</label>
+                  <label htmlFor='orderNumber' className='block mb-2 font-bold'>Order Number (optional)</label>
                   <input 
                     type='text' 
-                    id='contactName'
-                    name='contactName'
-                    value={formData.contactName}
+                    id='orderNumber'
+                    name='orderNumber'
+                    value={formData.orderNumber}
                     onChange={handleChange}
                     className='w-full p-3 border border-gray-300 rounded-md bg-white' 
-                    required 
                   />
                 </div>
                 <div>
@@ -163,56 +149,10 @@ const WholesaleInquiryPage = () => {
                     required 
                   />
                 </div>
-                <div>
-                  <label htmlFor='phone' className='block mb-2 font-bold'>Phone Number*</label>
-                  <input 
-                    type='tel' 
-                    id='phone'
-                    name='phone'
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white' 
-                    required 
-                  />
-                </div>
               </div>
               
               <div>
-                <label htmlFor='country' className='block mb-2 font-bold'>Country*</label>
-                <input 
-                  type='text' 
-                  id='country'
-                  name='country'
-                  value={formData.country}
-                  onChange={handleChange}
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white' 
-                  required 
-                />
-              </div>
-              
-              <div>
-                <label htmlFor='businessType' className='block mb-2 font-bold'>Business Type*</label>
-                <select 
-                  id='businessType'
-                  name='businessType'
-                  value={formData.businessType}
-                  onChange={handleChange}
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white'
-                  required
-                >
-                  <option value=''>Select your business type</option>
-                  <option value='cafe'>Café</option>
-                  <option value='roaster'>Coffee Roaster</option>
-                  <option value='restaurant'>Restaurant</option>
-                  <option value='hotel'>Hotel</option>
-                  <option value='distributor'>Distributor</option>
-                  <option value='office'>Office/Corporate</option>
-                  <option value='other'>Other</option>
-                </select>
-              </div>
-              
-              <div>
-                <label htmlFor='message' className='block mb-2 font-bold'>Additional Information</label>
+                <label htmlFor='message' className='block mb-2 font-bold'>Message*</label>
                 <textarea 
                   id='message'
                   name='message'
@@ -220,21 +160,9 @@ const WholesaleInquiryPage = () => {
                   onChange={handleChange}
                   rows={5} 
                   className='w-full p-3 border border-gray-300 rounded-md bg-white'
-                  placeholder='Tell us about your business needs, volumes required, etc.'
+                  placeholder='How can we help?'
+                  required
                 ></textarea>
-              </div>
-              
-              <div>
-                <label className='flex items-center'>
-                  <input 
-                    type='checkbox' 
-                    name='requestSamples'
-                    checked={formData.requestSamples}
-                    onChange={handleCheckboxChange}
-                    className='mr-2' 
-                  />
-                  <span>I'd like to receive samples before placing an order</span>
-                </label>
               </div>
               
               {submitError && (
@@ -256,7 +184,7 @@ const WholesaleInquiryPage = () => {
                     disabled:opacity-70 disabled:cursor-not-allowed
                   '
                 >
-                  {isSubmitting ? 'SUBMITTING...' : 'SUBMIT INQUIRY'}
+                  {isSubmitting ? 'SENDING...' : 'SEND MESSAGE'}
                 </button>
               </div>
               
@@ -271,4 +199,4 @@ const WholesaleInquiryPage = () => {
   )
 }
 
-export default WholesaleInquiryPage
+export default ContactPage

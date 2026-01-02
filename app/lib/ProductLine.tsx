@@ -1,17 +1,16 @@
 "use client"
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import Link from 'next/link'
-import SampleCheckoutPopup from '../components/SampleCheckoutPopup'
 import ResponsiveImage from '../components/ResponsiveImage'
+import CartContext from '../Context/store'
 
 // Updated product data with Ethiopian coffee varieties and additional technical specifications
 const products = [
   {
     id: 'yirgacheffe',
     name: 'YIRGACHEFFE',
-    price: 12.99,
-    priceType: 'FOB Ethiopia',
+    price: 16.99,
     image_url: 'black.png',
     desc: 'Bright acidity, floral aroma with citrus notes',
     specifications: {
@@ -26,8 +25,7 @@ const products = [
   {
     id: 'sidamo',
     name: 'SIDAMO',
-    price: 14.99,
-    priceType: 'Landed (CAD)',
+    price: 17.99,
     image_url: 'frappe.png',
     desc: 'Wine-like acidity with berry and citrus notes',
     specifications: {
@@ -42,8 +40,7 @@ const products = [
   {
     id: 'harar',
     name: 'HARAR',
-    price: 13.99,
-    priceType: 'FOB Ethiopia',
+    price: 16.49,
     image_url: 'nitro.png',
     desc: 'Rich body with fruity and winey characteristics',
     specifications: {
@@ -58,8 +55,7 @@ const products = [
   {
     id: 'limu',
     name: 'LIMU',
-    price: 12.49,
-    priceType: 'Landed (CAD)',
+    price: 15.99,
     image_url: 'white.png',
     desc: 'Mild, balanced with winey and spicy notes',
     specifications: {
@@ -74,8 +70,7 @@ const products = [
   {
     id: 'guji',
     name: 'GUJI',
-    price: 15.99,
-    priceType: 'FOB Ethiopia',
+    price: 18.49,
     image_url: 'brew.png',
     desc: 'Complex flavor with floral jasmine notes',
     specifications: {
@@ -90,8 +85,7 @@ const products = [
   {
     id: 'lekempti',
     name: 'LEKEMPTI',
-    price: 13.49,
-    priceType: 'Landed (CAD)',
+    price: 15.49,
     image_url: 'mocha.png',
     desc: 'Medium body with earthy and fruity nuances',
     specifications: {
@@ -107,13 +101,23 @@ const products = [
 
 export { products };
 
-const Product = ({id, name, price, priceType, image_url, desc}: any) => {
-  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
-  
-  const handleSamplePurchase = (e: React.MouseEvent) => {
-    e.preventDefault();
-    setIsCheckoutOpen(true);
-  };
+const Product = ({id, name, price, image_url, desc}: any) => {
+  const { addItem } = useContext(CartContext)
+
+  const handleAddToCart = (e: React.MouseEvent) => {
+    e.preventDefault()
+    addItem({
+      id,
+      name,
+      price,
+      image_url,
+      selectedOptions: {
+        size: '12oz',
+        grind: 'whole-bean',
+        purchaseType: 'one-time',
+      },
+    })
+  }
 
   return (
     <div className='flex flex-col text-center items-center border-2 hover:border-dark py-10 px-6 mx-2 w-fit'>
@@ -124,11 +128,9 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
         
         <div>
           <p className='mb-1'>
-            ${price}/lb
+            ${price}
           </p>
-          <p className='text-xs text-gray-600 italic mb-2'>
-            Price: {priceType}
-          </p>
+          <p className='text-xs text-gray-600 italic mb-2'>12oz bag</p>
         </div>
 
         <div className="flex justify-center items-center overflow-hidden">
@@ -145,7 +147,7 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
       </Link>
       
       <button 
-        onClick={handleSamplePurchase}
+        onClick={handleAddToCart}
         className='
           p-10 py-3 mt-2 w-fit
           bg-primary hover:bg-dark text-dark hover:text-primary
@@ -154,15 +156,8 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
           cursor-pointer
         '
       >
-        PURCHASE A SAMPLE
+        ADD TO CART
       </button>
-      
-      <SampleCheckoutPopup 
-        isOpen={isCheckoutOpen}
-        onClose={() => setIsCheckoutOpen(false)}
-        productName={name}
-        productImage={image_url}
-      />
     </div>
   )
 }

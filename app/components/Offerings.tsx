@@ -6,10 +6,10 @@ const Offerings = () => {
   return (
     <section className='flex flex-col items-center py-32 bg-primary'>
       <h1 className='mx-2 text-6xl max-lg:text-center leading-tight text-dark font-bold'>
-        OUR OFFERINGS
+        SHOP COFFEE
       </h1>
       <p className='max-md:text-center m-2'>
-        {`Exceptional coffee beans for discerning cafés and roasters worldwide`}
+        {`Single-origin Ethiopian coffees for your daily brew`}
       </p>
 
       <Link href='/offerings' className='
@@ -18,7 +18,7 @@ const Offerings = () => {
          border border-black 
          rounded-md
       '>
-        VIEW ALL VARIETIES
+        SHOP ALL COFFEES
       </Link>
       <ProductLine />
 

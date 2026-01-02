@@ -1,15 +1,18 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import TopMessage from './TopMessage'
 import NavLinks from './NavLinks'
 import { AnimatePresence, motion } from 'framer-motion'
 import {BiMenuAltRight} from 'react-icons/bi'
 import {AiOutlineClose} from 'react-icons/ai'
+import { AiOutlineShoppingCart } from 'react-icons/ai'
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
+import CartContext from '../Context/store'
 
 const Navbar = () => {
     const [isOpened, setIsOpened] = useState(false);
+    const { itemCount } = useContext(CartContext);
     
     return (
     <>
@@ -34,11 +37,23 @@ const Navbar = () => {
                 </div>
 
                 <div id='search-cart' className='flex gap-5 justify-between items-center'>
+                    <Link
+                        href="/cart"
+                        className='relative p-2 rounded-md text-dark hover:bg-dark/10'
+                        aria-label="View cart"
+                    >
+                        <AiOutlineShoppingCart className='text-2xl' />
+                        {itemCount > 0 && (
+                            <span className='absolute -top-1 -right-1 bg-dark text-primary text-xs font-bold rounded-full min-w-5 h-5 px-1 flex items-center justify-center'>
+                                {itemCount}
+                            </span>
+                        )}
+                    </Link>
                     <Link 
                         href="/contact-us"
                         className='hidden md:block p-2 py-1 bg-dark text-primary rounded-md text-sm hover:bg-primary hover:text-dark hover:border-dark border border-dark transition-colors'
                     >
-                        Contact Us
+                        Contact
                     </Link>
                     
                     <button onClick={(e) => {e.preventDefault(); setIsOpened((prev) => !prev)}} className='lg:hidden text-primary bg-dark p-2 rounded-md'>
@@ -63,7 +78,7 @@ const Navbar = () => {
                                 href="/contact-us"
                                 className='p-2 py-1 mt-4 bg-dark text-primary rounded-md hover:bg-primary hover:text-dark hover:border-dark border border-dark transition-colors'
                             >
-                                Contact Us
+                                Contact
                             </Link>
                         </div>
                     </motion.div>

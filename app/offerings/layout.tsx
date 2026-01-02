@@ -1,12 +1,12 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Our Coffee Offerings | Ethio Coffee',
-  description: 'Explore our premium Ethiopian coffee offerings for wholesale partners. Specialty grade beans with distinctive flavor profiles from the birthplace of coffee.',
-  keywords: 'Ethiopian coffee offerings, coffee blends, specialty coffee, wholesale coffee, coffee varieties',
+  title: 'Shop Coffee | Ethio Coffee',
+  description: 'Shop premium Ethiopian coffee. Bright, floral, fruit-forward coffees from the birthplace of coffee—delivered to your door.',
+  keywords: 'Ethiopian coffee, specialty coffee, coffee beans, buy coffee online',
   openGraph: {
-    title: 'Premium Ethiopian Coffee Offerings | Ethio Coffee',
-    description: 'Explore our premium Ethiopian coffee offerings for wholesale partners.',
+    title: 'Shop Ethiopian Coffee | Ethio Coffee',
+    description: 'Shop premium Ethiopian coffee delivered to your door.',
     url: 'https://ethiocoffee.com/offerings',
   }
 }

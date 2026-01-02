@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import HeadLine from '../lib/Headline'
 
 const headlines = [
@@ -23,7 +23,7 @@ const CofeeDesc = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isIOS, setIsIOS] = useState(false);
   const [hasCheckedDevice, setHasCheckedDevice] = useState(false);
-  const [playAttempts, setPlayAttempts] = useState(0);
+  const playAttemptsRef = useRef(0);
 
   useEffect(() => {
     // Check if the device is mobile and specifically iOS
@@ -39,17 +39,18 @@ const CofeeDesc = () => {
     checkDevice();
   }, []);
 
-  const attemptPlay = () => {
-    if (videoRef.current) {
+  const attemptPlay = useCallback(() => {
+    const currentVideo = videoRef.current;
+    if (currentVideo) {
       // iOS requires both properties to be set explicitly
-      videoRef.current.muted = true;
-      videoRef.current.playsInline = true;
-      videoRef.current.setAttribute('playsinline', '');
-      videoRef.current.setAttribute('webkit-playsinline', '');
+      currentVideo.muted = true;
+      currentVideo.playsInline = true;
+      currentVideo.setAttribute('playsinline', '');
+      currentVideo.setAttribute('webkit-playsinline', '');
       
       // Use a very short timeout before playing (helps on iOS)
       setTimeout(() => {
-        const playPromise = videoRef.current?.play();
+        const playPromise = currentVideo.play();
         
         if (playPromise !== undefined) {
           playPromise.then(() => {
@@ -58,25 +59,25 @@ const CofeeDesc = () => {
             console.log("Video autoplay attempt failed:", e);
             
             // Special handling for iOS
-            if (isIOS && playAttempts < 5) {
+            if (isIOS && playAttemptsRef.current < 5) {
               // iOS often needs multiple attempts with increasing delays
+              playAttemptsRef.current += 1;
               setTimeout(() => {
-                setPlayAttempts(prev => prev + 1);
                 attemptPlay();
-              }, 800 * (playAttempts + 1)); // Increasing delay with each attempt
+              }, 800 * (playAttemptsRef.current + 1)); // Increasing delay with each attempt
             }
           });
         }
       }, 100);
     }
-  };
+  }, [isIOS]);
   
   // Initial play attempt when component mounts
   useEffect(() => {
     if (hasCheckedDevice && videoRef.current) {
       attemptPlay();
     }
-  }, [hasCheckedDevice]);
+  }, [hasCheckedDevice, attemptPlay]);
   
   // iOS-specific event handling
   useEffect(() => {
@@ -120,7 +121,7 @@ const CofeeDesc = () => {
       window.removeEventListener('pageshow', handlePageFocus);
       document.removeEventListener('touchend', enableAudioContext);
     };
-  }, [isIOS, hasCheckedDevice]);
+  }, [isIOS, attemptPlay]);
   
   // General interaction-based play attempts
   useEffect(() => {
@@ -138,6 +139,7 @@ const CofeeDesc = () => {
     
     // IntersectionObserver to play when video is visible
     if (typeof IntersectionObserver !== 'undefined') {
+      const currentVideo = videoRef.current;
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting && videoRef.current) {
@@ -146,13 +148,13 @@ const CofeeDesc = () => {
         });
       }, { threshold: 0.1 });
       
-      if (videoRef.current) {
-        observer.observe(videoRef.current);
+      if (currentVideo) {
+        observer.observe(currentVideo);
       }
       
       // Clean up observer
       return () => {
-        if (videoRef.current) observer.unobserve(videoRef.current);
+        if (currentVideo) observer.unobserve(currentVideo);
       };
     }
     
@@ -168,7 +170,7 @@ const CofeeDesc = () => {
       document.removeEventListener("click", handleUserInteraction);
       document.removeEventListener("scroll", handleUserInteraction);
     };
-  }, [hasCheckedDevice]);
+  }, [hasCheckedDevice, attemptPlay]);
 
   return (
     <section ref={sectionRef} id='coffee-desc' className='flex flex-col items-center py-32 bg-dark text-primary'>
@@ -224,7 +226,7 @@ const CofeeDesc = () => {
             WHY CHOOSE ETHIO COFFEE?
             </h1>
             <p className=''>
-            As a premier Ethiopian coffee exporter, we bridge the gap between Ethiopia's finest coffee producers and quality-focused cafés and roasters around the world. Our business model ensures competitive pricing, consistency, and dedicated support for your business regardless of location.
+            We bring Ethiopia’s most distinctive coffees to home brewers who care about flavor. Expect bright aromatics, fruit-forward cups, and coffees that shine across espresso, pour-over, and drip.
             </p>
           </div>
           
