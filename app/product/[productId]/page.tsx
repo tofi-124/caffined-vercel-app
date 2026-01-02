@@ -101,7 +101,7 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
             <h1 className='text-5xl font-extrabold text-dark mb-4'>{product.name}</h1>
             <div className='flex flex-col mb-6'>
               <p className='text-2xl font-bold'>${product.price}</p>
-              <p className='text-sm text-gray-600 italic'>12oz bag</p>
+              <p className='text-sm text-gray-600 italic'>250g bag</p>
             </div>
             
             <div className='mb-8'>
@@ -141,28 +141,16 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
                         </thead>
                         <tbody className='bg-white divide-y divide-gray-200'>
                           <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Screen Size</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.screenSize}</td>
-                          </tr>
-                          <tr>
                             <td className='py-3 px-4 text-sm font-medium text-gray-900'>Processing Method</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.processingMethod}</td>
+                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications?.processingMethod ?? '—'}</td>
                           </tr>
                           <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Crop Year</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cropYear}</td>
+                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Roast Level</td>
+                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications?.roastLevel ?? '—'}</td>
                           </tr>
                           <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Moisture %</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.moisture}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Defect Count</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.defectCount}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cup Score</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cupScore}</td>
+                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Tasting Notes</td>
+                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications?.tastingNotes ?? '—'}</td>
                           </tr>
                         </tbody>
                       </table>
@@ -173,7 +161,7 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
               
               <div className='mb-8'>
                 <h3 className='text-xl font-semibold mb-2'>Available Quantities</h3>
-                <p>12oz, 2lb, 5lb</p>
+                <p>250g</p>
               </div>
             </div>
             
@@ -185,7 +173,7 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
                   price: product.price,
                   image_url: product.image_url,
                   selectedOptions: {
-                    size: '12oz',
+                    size: '250g',
                     grind: 'whole-bean',
                     purchaseType: 'one-time',
                   },

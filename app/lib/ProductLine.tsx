@@ -6,7 +6,7 @@ import ResponsiveImage from '../components/ResponsiveImage'
 import CartContext from '../Context/store'
 
 // Updated product data with Ethiopian coffee varieties and additional technical specifications
-const products = [
+const products: CatalogProduct[] = [
   {
     id: 'yirgacheffe',
     name: 'YIRGACHEFFE',
@@ -14,12 +14,9 @@ const products = [
     image_url: 'black.png',
     desc: 'Bright acidity, floral aroma with citrus notes',
     specifications: {
-      screenSize: '15+',
       processingMethod: 'Washed',
-      cropYear: '2024/25',
-      moisture: '10.5%',
-      defectCount: '<5 per 300g',
-      cupScore: '86.5'
+      roastLevel: 'Light',
+      tastingNotes: 'Floral, citrus, tea-like'
     }
   },
   {
@@ -29,12 +26,9 @@ const products = [
     image_url: 'frappe.png',
     desc: 'Wine-like acidity with berry and citrus notes',
     specifications: {
-      screenSize: '16+',
       processingMethod: 'Natural',
-      cropYear: '2024/25',
-      moisture: '10.2%',
-      defectCount: '<3 per 300g',
-      cupScore: '87.5'
+      roastLevel: 'Light',
+      tastingNotes: 'Berry, citrus, honey'
     }
   },
   {
@@ -44,12 +38,9 @@ const products = [
     image_url: 'nitro.png',
     desc: 'Rich body with fruity and winey characteristics',
     specifications: {
-      screenSize: '15+',
       processingMethod: 'Natural',
-      cropYear: '2024/25',
-      moisture: '10.7%',
-      defectCount: '<6 per 300g',
-      cupScore: '85.0'
+      roastLevel: 'Medium',
+      tastingNotes: 'Cocoa, dried fruit, spice'
     }
   },
   {
@@ -59,12 +50,9 @@ const products = [
     image_url: 'white.png',
     desc: 'Mild, balanced with winey and spicy notes',
     specifications: {
-      screenSize: '15+',
       processingMethod: 'Washed',
-      cropYear: '2024/25',
-      moisture: '10.4%',
-      defectCount: '<4 per 300g',
-      cupScore: '84.5'
+      roastLevel: 'Medium',
+      tastingNotes: 'Stone fruit, caramel, gentle spice'
     }
   },
   {
@@ -74,12 +62,9 @@ const products = [
     image_url: 'brew.png',
     desc: 'Complex flavor with floral jasmine notes',
     specifications: {
-      screenSize: '16+',
       processingMethod: 'Natural',
-      cropYear: '2024/25',
-      moisture: '10.1%',
-      defectCount: '<2 per 300g',
-      cupScore: '88.0'
+      roastLevel: 'Light',
+      tastingNotes: 'Jasmine, peach, bergamot'
     }
   },
   {
@@ -89,12 +74,9 @@ const products = [
     image_url: 'mocha.png',
     desc: 'Medium body with earthy and fruity nuances',
     specifications: {
-      screenSize: '15+',
       processingMethod: 'Washed',
-      cropYear: '2024/25',
-      moisture: '10.3%',
-      defectCount: '<5 per 300g',
-      cupScore: '85.5'
+      roastLevel: 'Medium',
+      tastingNotes: 'Nutty, cocoa, subtle fruit'
     }
   }
 ]
@@ -112,7 +94,7 @@ const Product = ({id, name, price, image_url, desc}: any) => {
       price,
       image_url,
       selectedOptions: {
-        size: '12oz',
+        size: '250g',
         grind: 'whole-bean',
         purchaseType: 'one-time',
       },
@@ -130,7 +112,7 @@ const Product = ({id, name, price, image_url, desc}: any) => {
           <p className='mb-1'>
             ${price}
           </p>
-          <p className='text-xs text-gray-600 italic mb-2'>12oz bag</p>
+          <p className='text-xs text-gray-600 italic mb-2'>250g bag</p>
         </div>
 
         <div className="flex justify-center items-center overflow-hidden">
