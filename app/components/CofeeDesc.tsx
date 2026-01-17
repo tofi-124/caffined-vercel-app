@@ -194,6 +194,7 @@ const CofeeDesc = () => {
             poster="/images/coffee-pack-1.webp"
             className="w-full h-auto"
           >
+            <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
             <source src='/videos/ethio-coffee.webm' type="video/webm" />
             {/* <source src='/videos/cofee-from-machine.webm' type="video/webm" /> */}
           </video>
@@ -209,6 +210,7 @@ const CofeeDesc = () => {
           preload="auto"
           poster="/images/coffee-pack-1.webp"
         >
+          <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
           <source src='/videos/ethio-coffee.webm' type="video/webm" />
         </video>
       )}
