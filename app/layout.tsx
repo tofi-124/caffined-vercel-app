@@ -65,7 +65,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Ethio Coffee",
               "url": "https://ethiocoffee.com",
-              "logo": "https://ethiocoffee.com/images/cafiend-logo.svg",
+              "logo": "https://ethiocoffee.com/images/new-logo.png",
               "description": "Premium Ethiopian coffee exports for specialty cafés and roasters worldwide.",
               "address": {
                 "@type": "PostalAddress",

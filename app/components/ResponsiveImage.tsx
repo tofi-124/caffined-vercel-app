@@ -39,7 +39,10 @@ const ResponsiveImage = ({
         className={className}
         style={{
           maxWidth: '100%',
+          maxHeight: '100%',
           height: 'auto',
+          objectFit,
+          display: 'block',
           ...style
         }}
       />

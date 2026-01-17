@@ -78,13 +78,13 @@ const Footer = () => {
         </div>
 
         <div id="heading" className='flex flex-col items-center'>
-          <ResponsiveImage 
-            src='/images/cafiend-logo-dark.svg' 
+          <ResponsiveImage
+            src='/images/new-logo.png'
             alt='ethio-coffee-logo'
-            width={160}
-            height={50}
-            style={{ filter: 'brightness(1.05)' }}
-            className="object-contain"
+            fill
+            sizes='200px'
+            className='w-44 h-14'
+            objectFit='contain'
           />
           <p className='my-6 text-center'>
             Premium Ethiopian Coffee for Partners Worldwide

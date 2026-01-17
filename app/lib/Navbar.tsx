@@ -21,17 +21,16 @@ const Navbar = () => {
                     <NavLinks />
                 </div>
 
-                <div className='w-40 h-12 flex items-center justify-center'>
-                    <Link href="/">
-                        <ResponsiveImage 
-                            src='/images/cafiend-logo.svg' 
-                            alt='ethio-coffee-logo' 
-                            width={130} 
-                            height={36} 
-                            style={{ filter: 'brightness(1.05)' }} 
-                        />
-                    </Link>
-                </div>
+                <Link href="/" className='flex items-center justify-center'>
+                    <ResponsiveImage
+                        src='/images/new-logo.png'
+                        alt='ethio-coffee-logo'
+                        fill
+                        sizes='160px'
+                        className='w-40 h-12'
+                        objectFit='contain'
+                    />
+                </Link>
 
                 <div id='search-cart' className='flex gap-5 justify-between items-center'>
                     <Link 

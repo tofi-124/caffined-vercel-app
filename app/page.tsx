@@ -12,8 +12,8 @@ export default function Home() {
       <Hero />
       <Offerings />
       <CofeeDesc />
-      <Testimonials />
       <Posts />
+      <Testimonials />
 
     </main>
   )
