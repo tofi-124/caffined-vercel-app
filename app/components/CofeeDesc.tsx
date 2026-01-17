@@ -190,12 +190,10 @@ const CofeeDesc = () => {
             webkit-playsinline="true"
             autoPlay
             loop
-            controls={isMobile}
             preload="auto"
             poster="/images/coffee-pack-1.webp"
             className="w-full h-auto"
           >
-            {/* iOS prefers MP4 over WebM */}
             <source src='/videos/ethio-coffee.webm' type="video/webm" />
             {/* <source src='/videos/cofee-from-machine.webm' type="video/webm" /> */}
           </video>
@@ -208,7 +206,6 @@ const CofeeDesc = () => {
           muted 
           loop
           playsInline
-          controls={isMobile}
           preload="auto"
           poster="/images/coffee-pack-1.webp"
         >
