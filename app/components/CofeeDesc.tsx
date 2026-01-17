@@ -39,35 +39,49 @@ const CofeeDesc = () => {
     checkDevice();
   }, []);
 
-  const attemptPlay = useCallback(() => {
+  const attemptPlay = useCallback((options?: { fromUserGesture?: boolean }) => {
     if (videoRef.current) {
+      const fromUserGesture = options?.fromUserGesture === true;
+
       // iOS requires both properties to be set explicitly
       videoRef.current.muted = true;
+      videoRef.current.defaultMuted = true;
       videoRef.current.playsInline = true;
       videoRef.current.setAttribute('playsinline', '');
       videoRef.current.setAttribute('webkit-playsinline', '');
+      videoRef.current.setAttribute('muted', '');
+      videoRef.current.setAttribute('autoplay', '');
       
-      // Use a very short timeout before playing (helps on iOS)
-      setTimeout(() => {
+      const runPlay = () => {
         const playPromise = videoRef.current?.play();
-        
+
         if (playPromise !== undefined) {
-          playPromise.then(() => {
-            console.log("Video autoplay successful");
-          }).catch(e => {
-            console.log("Video autoplay attempt failed:", e);
-            
-            // Special handling for iOS
-            if (isIOS && playAttempts < 5) {
-              // iOS often needs multiple attempts with increasing delays
-              setTimeout(() => {
-                setPlayAttempts(prev => prev + 1);
-                attemptPlay();
-              }, 800 * (playAttempts + 1)); // Increasing delay with each attempt
-            }
-          });
+          playPromise
+            .then(() => {
+              console.log("Video autoplay successful");
+            })
+            .catch(e => {
+              console.log("Video autoplay attempt failed:", e);
+
+              // Special handling for iOS
+              if (isIOS && playAttempts < 5) {
+                // iOS often needs multiple attempts with increasing delays
+                setTimeout(() => {
+                  setPlayAttempts(prev => prev + 1);
+                  attemptPlay();
+                }, 800 * (playAttempts + 1));
+              }
+            });
         }
-      }, 100);
+      };
+
+      // If we're inside a user gesture (touch/click), keep play() synchronous.
+      if (fromUserGesture) {
+        runPlay();
+      } else {
+        // Small delay can help initial page-load timing.
+        setTimeout(runPlay, 100);
+      }
     }
   }, [isIOS, playAttempts]);
   
@@ -105,7 +119,7 @@ const CofeeDesc = () => {
       }
       
       // Now try to play the video again
-      attemptPlay();
+      attemptPlay({ fromUserGesture: true });
     };
     
     // Add iOS-specific event listeners
@@ -131,6 +145,12 @@ const CofeeDesc = () => {
     };
     
     const handleUserInteraction = () => {
+      if (videoRef.current) {
+        attemptPlay({ fromUserGesture: true });
+      }
+    };
+
+    const handleVideoCanPlay = () => {
       if (videoRef.current) {
         attemptPlay();
       }
@@ -160,12 +180,14 @@ const CofeeDesc = () => {
     document.addEventListener("touchstart", handleUserInteraction, { once: true });
     document.addEventListener("click", handleUserInteraction, { once: true });
     document.addEventListener("scroll", handleUserInteraction, { once: true });
+    videoRef.current?.addEventListener("canplay", handleVideoCanPlay);
     
     return () => {
       document.removeEventListener("visibilitychange", handleVisibilityChange);
       document.removeEventListener("touchstart", handleUserInteraction);
       document.removeEventListener("click", handleUserInteraction);
       document.removeEventListener("scroll", handleUserInteraction);
+      videoRef.current?.removeEventListener("canplay", handleVideoCanPlay);
     };
   }, [attemptPlay, hasCheckedDevice]);
 
