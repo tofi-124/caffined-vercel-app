@@ -99,10 +99,10 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
           
           <div className='lg:w-1/2'>
             <h1 className='text-5xl font-extrabold text-dark mb-4'>{product.name}</h1>
-            <div className='flex flex-col mb-6'>
+            {/* <div className='flex flex-col mb-6'>
               <p className='text-2xl font-bold'>${product.price}/lb</p>
               <p className='text-sm text-gray-600 italic'>Price: {product.priceType}</p>
-            </div>
+            </div> */}
             
             <div className='mb-8'>
               {/* Product Details Section with combined options */}

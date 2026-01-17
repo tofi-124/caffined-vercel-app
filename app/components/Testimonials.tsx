@@ -1,59 +1,51 @@
 "use client"
-import { FaQuoteRight, FaMapMarkerAlt } from 'react-icons/fa';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
+import { FaMapMarkerAlt } from 'react-icons/fa'
 import Carousel from 'better-react-carousel';
-import { testimonials } from '../data/data';
 
-type Props = {
-  name: string
-  position: string
-  quote: string
+type Partner = {
+  placeAndLocation: string
 }
 
-const TestimonialCard = ({ name, position, quote }: Props) => {
-  // Extract company and location from position
-  const positionParts = position.split(', ');
-  const role = positionParts[0];
-  const company = positionParts[1] || '';
-  const location = positionParts[2] || '';
+const PartnerCard = ({ placeAndLocation }: Partner) => {
+  const [placePart, ...locationParts] = placeAndLocation.split(',')
+  const place = placePart?.trim()
+  const location = locationParts.join(',').trim()
 
   return (
     <div className='flex flex-col items-center justify-center px-8 md:px-20 pb-12'>
-      <FaQuoteRight className='mt-12 mb-4 text-5xl text-dark' />
-      <p className='my-6 text-center text-dark text-lg leading-relaxed'>
-        &quot; {quote} &quot;
-      </p>
-      <div className='flex flex-col items-center mt-6 border-t pt-6 border-gray-300 w-1/2'>
-        <h3 className='text-xl font-extrabold'>
-          {name}
+      <div className='mt-12 border-t pt-10 border-gray-300 w-1/2 flex items-center justify-center'>
+        <h3 className='text-center text-2xl font-extrabold text-dark'>
+          {location ? (
+            <span className='flex flex-col items-center'>
+              <span>{place || placeAndLocation}</span>
+              <span className='mt-2 inline-flex items-center gap-1 text-base font-semibold text-gray-600'>
+                <FaMapMarkerAlt />
+                <span>{location}</span>
+              </span>
+            </span>
+          ) : (
+            placeAndLocation
+          )}
         </h3>
-        <p className='mt-2 font-medium'>
-          {role}
-        </p>
-        <p className='text-center font-semibold text-gray-700'>
-          {company}
-        </p>
-        {location && (
-          <div className='flex items-center mt-2 text-gray-600'>
-            <FaMapMarkerAlt className='mr-1' />
-            <span>{location}</span>
-          </div>
-        )}
       </div>
     </div>
   )
 }
       
 const Testimonials = () => {
+  const partners: Partner[] = [
+    { placeAndLocation: 'Artisan Coffee House, Seattle' },
+    { placeAndLocation: 'Abebe Coffee House, Seattle' },
+    { placeAndLocation: 'Abebe Coffee House, Seattle' },
+  ]
+
   return (
-    <section id='testimonial-section' className='pt-32 pb-16 flex flex-col items-center justify-center bg-primary'>
+    <section id='partners-section' className='pt-32 pb-16 flex flex-col items-center justify-center bg-primary'>
       <div className='mb-12 text-center'>
         <h1 className='text-5xl leading-tight text-dark font-bold'>
-          OUR TESTIMONIAL
+          OUR PARTNERS
         </h1>
-        <p className='mt-4 text-lg max-w-2xl mx-auto'>
-          Trusted by coffee businesses worldwide - see what our partners have to say about working with Ethio Coffee
-        </p>
       </div>
 
       <div className='md:w-4/5 max-w-5xl'>
@@ -65,7 +57,7 @@ const Testimonials = () => {
           loop
           containerStyle={{
             display: 'flex', 
-            flexDirection: 'col', 
+            flexDirection: 'column', 
             justifyContent: 'center',
             padding: '2rem 0',
           }}
@@ -82,9 +74,9 @@ const Testimonials = () => {
             />
           }
         >
-          {testimonials.map((testimonial, ind) => (
+          {partners.map((partner, ind) => (
             <Carousel.Item key={ind}>
-              <TestimonialCard {...testimonial} />
+              <PartnerCard {...partner} />
             </Carousel.Item>
           ))}
         </Carousel>

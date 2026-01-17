@@ -10,8 +10,8 @@ const products = [
   {
     id: 'yirgacheffe',
     name: 'YIRGACHEFFE',
-    price: 12.99,
-    priceType: 'FOB Ethiopia',
+    // price: 12.99,
+    // priceType: 'FOB Ethiopia',
     image_url: 'black.png',
     desc: 'Bright acidity, floral aroma with citrus notes',
     specifications: {
@@ -26,8 +26,8 @@ const products = [
   {
     id: 'sidamo',
     name: 'SIDAMO',
-    price: 14.99,
-    priceType: 'Landed (CAD)',
+    // price: 14.99,
+    // priceType: 'Landed (CAD)',
     image_url: 'frappe.png',
     desc: 'Wine-like acidity with berry and citrus notes',
     specifications: {
@@ -42,8 +42,8 @@ const products = [
   {
     id: 'harar',
     name: 'HARAR',
-    price: 13.99,
-    priceType: 'FOB Ethiopia',
+    // price: 13.99,
+    // priceType: 'FOB Ethiopia',
     image_url: 'nitro.png',
     desc: 'Rich body with fruity and winey characteristics',
     specifications: {
@@ -58,8 +58,8 @@ const products = [
   {
     id: 'limu',
     name: 'LIMU',
-    price: 12.49,
-    priceType: 'Landed (CAD)',
+    // price: 12.49,
+    // priceType: 'Landed (CAD)',
     image_url: 'white.png',
     desc: 'Mild, balanced with winey and spicy notes',
     specifications: {
@@ -74,8 +74,8 @@ const products = [
   {
     id: 'guji',
     name: 'GUJI',
-    price: 15.99,
-    priceType: 'FOB Ethiopia',
+    // price: 15.99,
+    // priceType: 'FOB Ethiopia',
     image_url: 'brew.png',
     desc: 'Complex flavor with floral jasmine notes',
     specifications: {
@@ -90,8 +90,8 @@ const products = [
   {
     id: 'lekempti',
     name: 'LEKEMPTI',
-    price: 13.49,
-    priceType: 'Landed (CAD)',
+    // price: 13.49,
+    // priceType: 'Landed (CAD)',
     image_url: 'mocha.png',
     desc: 'Medium body with earthy and fruity nuances',
     specifications: {
@@ -116,20 +116,20 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
   };
 
   return (
-    <div className='flex flex-col text-center items-center border-2 hover:border-dark py-10 px-6 mx-2 w-fit'>
-      <Link href={`/product/${id}`} className='hover:opacity-90 flex flex-col items-center'>
+    <div className='flex flex-col text-center items-center border-2 hover:border-dark py-10 px-6 w-full max-w-xs h-full'>
+      <Link href={`/product/${id}`} className='hover:opacity-90 flex flex-col items-center flex-1 w-full'>
         <h2 className='text-3xl font-extrabold'>
           {name}
         </h2>
         
-        <div>
+        {/* <div>
           <p className='mb-1'>
             ${price}/lb
           </p>
           <p className='text-xs text-gray-600 italic mb-2'>
             Price: {priceType}
           </p>
-        </div>
+        </div> */}
 
         <div className="flex justify-center items-center overflow-hidden">
           <ResponsiveImage 
@@ -147,7 +147,7 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
       <button 
         onClick={handleSamplePurchase}
         className='
-          p-10 py-3 mt-2 w-fit
+          p-10 py-3 mt-auto w-fit
           bg-primary hover:bg-dark text-dark hover:text-primary
           border border-black 
           rounded-md
@@ -169,7 +169,7 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
 
 const ProductLine = () => {
   return (
-    <div className='flex flex-wrap items-center gap-10 justify-center'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center items-stretch'>
       {products.map((product, index) => (<Product key={index} {...product} />))}
     </div>
   )

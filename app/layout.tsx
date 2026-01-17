@@ -73,7 +73,6 @@ export default function RootLayout({
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+1-647-555-1212",
                 "contactType": "Customer Service",
                 "email": "info@ethiocoffee.et"
               },
