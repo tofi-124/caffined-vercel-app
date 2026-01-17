@@ -213,7 +213,7 @@ const CofeeDesc = () => {
             autoPlay
             loop
             preload="auto"
-            poster="/images/coffee-pack-1.webp"
+            poster="/images/cover.png"
             className="w-full h-auto"
           >
             <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
@@ -226,11 +226,11 @@ const CofeeDesc = () => {
         <video 
           ref={videoRef}
           autoPlay
-          muted 
+          muted
           loop
           playsInline
           preload="auto"
-          poster="/images/coffee-pack-1.webp"
+          poster="/images/cover.png"
         >
           <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
           <source src='/videos/ethio-coffee.webm' type="video/webm" />
