@@ -1,111 +1,11 @@
 "use client"
-import Image from 'next/image'
 import React, { useState } from 'react'
 import Link from 'next/link'
 import SampleCheckoutPopup from '../components/SampleCheckoutPopup'
 import ResponsiveImage from '../components/ResponsiveImage'
+import { offerings } from '../data/offerings'
 
-// Updated product data with Ethiopian coffee varieties and additional technical specifications
-const products = [
-  {
-    id: 'yirgacheffe',
-    name: 'YIRGACHEFFE',
-    // price: 12.99,
-    // priceType: 'FOB Ethiopia',
-    image_url: 'black.png',
-    desc: 'Bright acidity, floral aroma with citrus notes',
-    specifications: {
-      screenSize: '15+',
-      processingMethod: 'Washed',
-      cropYear: '2024/25',
-      moisture: '10.5%',
-      defectCount: '<5 per 300g',
-      cupScore: '86.5'
-    }
-  },
-  {
-    id: 'sidamo',
-    name: 'SIDAMO',
-    // price: 14.99,
-    // priceType: 'Landed (CAD)',
-    image_url: 'frappe.png',
-    desc: 'Wine-like acidity with berry and citrus notes',
-    specifications: {
-      screenSize: '16+',
-      processingMethod: 'Natural',
-      cropYear: '2024/25',
-      moisture: '10.2%',
-      defectCount: '<3 per 300g',
-      cupScore: '87.5'
-    }
-  },
-  {
-    id: 'harar',
-    name: 'HARAR',
-    // price: 13.99,
-    // priceType: 'FOB Ethiopia',
-    image_url: 'nitro.png',
-    desc: 'Rich body with fruity and winey characteristics',
-    specifications: {
-      screenSize: '15+',
-      processingMethod: 'Natural',
-      cropYear: '2024/25',
-      moisture: '10.7%',
-      defectCount: '<6 per 300g',
-      cupScore: '85.0'
-    }
-  },
-  {
-    id: 'limu',
-    name: 'LIMU',
-    // price: 12.49,
-    // priceType: 'Landed (CAD)',
-    image_url: 'white.png',
-    desc: 'Mild, balanced with winey and spicy notes',
-    specifications: {
-      screenSize: '15+',
-      processingMethod: 'Washed',
-      cropYear: '2024/25',
-      moisture: '10.4%',
-      defectCount: '<4 per 300g',
-      cupScore: '84.5'
-    }
-  },
-  {
-    id: 'guji',
-    name: 'GUJI',
-    // price: 15.99,
-    // priceType: 'FOB Ethiopia',
-    image_url: 'brew.png',
-    desc: 'Complex flavor with floral jasmine notes',
-    specifications: {
-      screenSize: '16+',
-      processingMethod: 'Natural',
-      cropYear: '2024/25',
-      moisture: '10.1%',
-      defectCount: '<2 per 300g',
-      cupScore: '88.0'
-    }
-  },
-  {
-    id: 'lekempti',
-    name: 'LEKEMPTI',
-    // price: 13.49,
-    // priceType: 'Landed (CAD)',
-    image_url: 'mocha.png',
-    desc: 'Medium body with earthy and fruity nuances',
-    specifications: {
-      screenSize: '15+',
-      processingMethod: 'Washed',
-      cropYear: '2024/25',
-      moisture: '10.3%',
-      defectCount: '<5 per 300g',
-      cupScore: '85.5'
-    }
-  }
-]
-
-export { products };
+export { offerings as products };
 
 const Product = ({id, name, price, priceType, image_url, desc}: any) => {
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
@@ -116,9 +16,9 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
   };
 
   return (
-    <div className='flex flex-col text-center items-center border-2 hover:border-dark py-10 px-6 w-full max-w-xs h-full'>
-      <Link href={`/product/${id}`} className='hover:opacity-90 flex flex-col items-center flex-1 w-full'>
-        <h2 className='text-3xl font-extrabold'>
+    <div className='flex flex-col border-2 hover:border-dark py-10 px-6 w-full max-w-sm h-full'>
+      <Link href={`/product/${id}`} className='hover:opacity-90 flex flex-col flex-1 w-full text-left'>
+        <h2 className='text-2xl md:text-3xl font-extrabold leading-tight break-words'>
           {name}
         </h2>
         
@@ -131,7 +31,7 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
           </p>
         </div> */}
 
-        <div className="flex justify-center items-center overflow-hidden">
+        <div className='flex justify-center items-center overflow-hidden mt-4'>
           <ResponsiveImage 
             src={`/images/${image_url}`} 
             alt={name} 
@@ -141,7 +41,7 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
           />
         </div>
         
-        <p className='my-4 text-sm max-w-xs'>{desc}</p>
+        <p className='my-4 text-sm text-gray-700'>{desc}</p>
       </Link>
       
       <button 
@@ -167,10 +67,11 @@ const Product = ({id, name, price, priceType, image_url, desc}: any) => {
   )
 }
 
-const ProductLine = () => {
+const ProductLine = ({ limit }: { limit?: number }) => {
+  const visibleOfferings = typeof limit === 'number' ? offerings.slice(0, limit) : offerings
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center items-stretch'>
-      {products.map((product, index) => (<Product key={index} {...product} />))}
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center items-stretch w-full'>
+      {visibleOfferings.map((product, index) => (<Product key={index} {...product} />))}
     </div>
   )
 }

@@ -74,11 +74,6 @@ const Footer = () => {
                 info@ethiocoffee.et
               </p>
             </li>
-            <li className='my-3'>
-              <p>
-                +1 (647) 555-1212
-              </p>
-            </li>
           </ul>
         </div>
 

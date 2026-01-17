@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useRef } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import ResponsiveImage from '../components/ResponsiveImage'
 
 const WholesaleInquiryPage = () => {
@@ -18,6 +18,23 @@ const WholesaleInquiryPage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (!formRef.current) return
+
+      // Account for sticky header (TopMessage + navbar)
+      const headerOffset = 96
+      const y = formRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
+
+      window.scrollTo({
+        top: Math.max(0, y),
+        behavior: 'smooth',
+      })
+    }, 300)
+
+    return () => clearTimeout(timer)
+  }, [])
   
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;

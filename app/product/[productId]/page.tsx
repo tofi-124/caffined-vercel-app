@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect, useRef, use } from 'react'
 import Link from 'next/link'
-import { products } from '../../lib/ProductLine'
+import { offerings } from '../../data/offerings'
 import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
 import ResponsiveImage from '../../components/ResponsiveImage'
 import Image from 'next/image'
@@ -22,7 +22,7 @@ type ProductDetails = {
 const OfferingDetail = ({ params }: Props) => {
   // Using React's use() hook to properly await params
   const { productId } = use(params);
-  const product = products.find(p => p.id === productId)
+  const product = offerings.find(p => p.id === productId)
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const productImageRef = useRef<HTMLDivElement>(null);
   
@@ -140,6 +140,10 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
                           </tr>
                         </thead>
                         <tbody className='bg-white divide-y divide-gray-200'>
+                          <tr>
+                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Grade</td>
+                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.grade}</td>
+                          </tr>
                           <tr>
                             <td className='py-3 px-4 text-sm font-medium text-gray-900'>Screen Size</td>
                             <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.screenSize}</td>

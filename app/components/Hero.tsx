@@ -15,12 +15,12 @@ const Hero = () => {
             Ethio Coffee exports premium Ethiopian coffee beans for specialty cafés and roasters worldwide. Experience the distinctive floral and fruity notes from the birthplace of coffee.
           </p>
 
-          <Link href="/contact-us" className='
+          <Link href="/offerings" className='
             p-10 py-4 mt-6 w-fit
             bg-primary hover:bg-dark text-dark hover:text-primary
             border hover:border-primary
             rounded-md
-         ' aria-label="Contact us about becoming a wholesale partner">REQUEST A COFFEE SAMPLE</Link>
+         ' aria-label="Check out our coffees">CHECK OUT OUR COFFEES</Link>
         </div>
 
         <div id="hero-image-wrapper" className='relative lg:w-1/3 max-sm:m-2'>

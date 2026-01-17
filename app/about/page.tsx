@@ -1,6 +1,7 @@
 import React from 'react'
 import Testimonials from '../components/Testimonials'
 import ResponsiveImage from '../components/ResponsiveImage'
+import AutoScrollTo from '../components/AutoScrollTo'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -36,11 +37,12 @@ const timeline = [
 const About = () => {
   return (
     <main id='about-main' className='bg-primary'>
+      <AutoScrollTo targetId='about-content' />
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
         <h1 className='text-5xl font-bold text-primary'>ABOUT US</h1>
       </header>
       
-      <section className='container mx-auto px-4'>
+      <section id='about-content' className='container mx-auto px-4'>
         <div className='flex max-lg:flex-col items-center justify-center'>
           <div className='lg:w-1/2'>
             <h2 className='py-12 lg:py-24 text-5xl font-extrabold leading-tight text-dark'>
