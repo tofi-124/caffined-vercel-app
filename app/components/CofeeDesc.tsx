@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import HeadLine from '../lib/Headline'
 
 const headlines = [
@@ -39,7 +39,7 @@ const CofeeDesc = () => {
     checkDevice();
   }, []);
 
-  const attemptPlay = () => {
+  const attemptPlay = useCallback(() => {
     if (videoRef.current) {
       // iOS requires both properties to be set explicitly
       videoRef.current.muted = true;
@@ -69,14 +69,14 @@ const CofeeDesc = () => {
         }
       }, 100);
     }
-  };
+  }, [isIOS, playAttempts]);
   
   // Initial play attempt when component mounts
   useEffect(() => {
     if (hasCheckedDevice && videoRef.current) {
       attemptPlay();
     }
-  }, [hasCheckedDevice]);
+  }, [attemptPlay, hasCheckedDevice]);
   
   // iOS-specific event handling
   useEffect(() => {
@@ -120,7 +120,7 @@ const CofeeDesc = () => {
       window.removeEventListener('pageshow', handlePageFocus);
       document.removeEventListener('touchend', enableAudioContext);
     };
-  }, [isIOS, hasCheckedDevice]);
+  }, [attemptPlay, isIOS, hasCheckedDevice]);
   
   // General interaction-based play attempts
   useEffect(() => {
@@ -145,14 +145,13 @@ const CofeeDesc = () => {
           }
         });
       }, { threshold: 0.1 });
-      
-      if (videoRef.current) {
-        observer.observe(videoRef.current);
-      }
+
+      const videoEl = videoRef.current;
+      if (videoEl) observer.observe(videoEl);
       
       // Clean up observer
       return () => {
-        if (videoRef.current) observer.unobserve(videoRef.current);
+        if (videoEl) observer.unobserve(videoEl);
       };
     }
     
@@ -168,7 +167,7 @@ const CofeeDesc = () => {
       document.removeEventListener("click", handleUserInteraction);
       document.removeEventListener("scroll", handleUserInteraction);
     };
-  }, [hasCheckedDevice]);
+  }, [attemptPlay, hasCheckedDevice]);
 
   return (
     <section ref={sectionRef} id='coffee-desc' className='flex flex-col items-center py-32 bg-dark text-primary'>
@@ -197,8 +196,8 @@ const CofeeDesc = () => {
             className="w-full h-auto"
           >
             {/* iOS prefers MP4 over WebM */}
-            <source src='/videos/cofee-from-machine.mp4' type="video/mp4" />
-            <source src='/videos/cofee-from-machine.webm' type="video/webm" />
+            <source src='/videos/ethio-coffee.webm' type="video/webm" />
+            {/* <source src='/videos/cofee-from-machine.webm' type="video/webm" /> */}
           </video>
         </div>
       ) : (
@@ -213,7 +212,7 @@ const CofeeDesc = () => {
           preload="auto"
           poster="/images/coffee-pack-1.webp"
         >
-          <source src='/videos/cofee-from-machine.webm' type="video/webm" />
+          <source src='/videos/ethio-coffee.webm' type="video/webm" />
         </video>
       )}
        
