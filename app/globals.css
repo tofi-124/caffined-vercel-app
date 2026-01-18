@@ -72,3 +72,25 @@ button{
   background: #010101;
   border: none;
 }
+
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+    transform: none;
+  }
+}
