@@ -20,7 +20,7 @@ export const offerings: Offering[] = [
   {
     id: 'yirgacheffe',
     name: 'Ethiopia Gedeb 1 Washed Reku Habtamu',
-    image_url: 'black.png',
+    image_url: 'product-img.png',
     desc: 'Bright acidity, floral aroma with citrus notes',
     specifications: {
       grade: 'G1',
@@ -35,7 +35,7 @@ export const offerings: Offering[] = [
   {
     id: 'sidamo',
     name: 'SIDAMO',
-    image_url: 'frappe.png',
+    image_url: 'product-img.png',
     desc: 'Wine-like acidity with berry and citrus notes',
     specifications: {
       grade: 'G1',
@@ -50,7 +50,7 @@ export const offerings: Offering[] = [
   {
     id: 'harar',
     name: 'HARAR',
-    image_url: 'nitro.png',
+    image_url: 'product-img.png',
     desc: 'Rich body with fruity and winey characteristics',
     specifications: {
       grade: 'G1',
@@ -65,7 +65,7 @@ export const offerings: Offering[] = [
   {
     id: 'limu',
     name: 'LIMU',
-    image_url: 'white.png',
+    image_url: 'product-img.png',
     desc: 'Mild, balanced with winey and spicy notes',
     specifications: {
       grade: 'G1',
@@ -80,7 +80,7 @@ export const offerings: Offering[] = [
   {
     id: 'guji',
     name: 'GUJI',
-    image_url: 'brew.png',
+    image_url: 'product-img.png',
     desc: 'Complex flavor with floral jasmine notes',
     specifications: {
       grade: 'G1',
@@ -95,7 +95,7 @@ export const offerings: Offering[] = [
   {
     id: 'lekempti',
     name: 'LEKEMPTI',
-    image_url: 'mocha.png',
+    image_url: 'product-img.png',
     desc: 'Medium body with earthy and fruity nuances',
     specifications: {
       grade: 'G1',

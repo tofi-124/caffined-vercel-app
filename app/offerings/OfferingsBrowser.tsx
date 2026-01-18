@@ -11,7 +11,7 @@ type Filters = {
   grade: string
   processingMethod: string
   cropYear: string
-  screenSize: string
+  minScore: string
 }
 
 const normalize = (value: string) => value.trim().toLowerCase()
@@ -64,16 +64,12 @@ const OfferingsBrowser = () => {
     return Array.from(new Set(offerings.map((o) => o.specifications.cropYear))).sort()
   }, [])
 
-  const screenSizeOptions = useMemo(() => {
-    return Array.from(new Set(offerings.map((o) => o.specifications.screenSize))).sort()
-  }, [])
-
   const [draft, setDraft] = useState<Filters>({
     keyword: '',
     grade: '',
     processingMethod: '',
     cropYear: '',
-    screenSize: '',
+    minScore: '',
   })
 
   const [applied, setApplied] = useState<Filters>(draft)
@@ -84,7 +80,12 @@ const OfferingsBrowser = () => {
       if (applied.grade && o.specifications.grade !== applied.grade) return false
       if (applied.processingMethod && o.specifications.processingMethod !== applied.processingMethod) return false
       if (applied.cropYear && o.specifications.cropYear !== applied.cropYear) return false
-      if (applied.screenSize && o.specifications.screenSize !== applied.screenSize) return false
+
+      if (applied.minScore) {
+        const minScore = Number(applied.minScore)
+        const score = Number.parseFloat(o.specifications.cupScore)
+        if (Number.isFinite(minScore) && Number.isFinite(score) && score < minScore) return false
+      }
       return true
     })
   }, [applied])
@@ -113,7 +114,7 @@ const OfferingsBrowser = () => {
   const [quoteFor, setQuoteFor] = useState<Offering | null>(null)
 
   const clearFilters = () => {
-    const cleared: Filters = { keyword: '', grade: '', processingMethod: '', cropYear: '', screenSize: '' }
+    const cleared: Filters = { keyword: '', grade: '', processingMethod: '', cropYear: '', minScore: '' }
     setDraft(cleared)
     setApplied(cleared)
   }
@@ -194,19 +195,25 @@ const OfferingsBrowser = () => {
               </div>
 
               <div>
-                <label className='block text-sm font-bold mb-2'>Screen Size</label>
-                <select
-                  value={draft.screenSize}
-                  onChange={(e) => setDraft((p) => ({ ...p, screenSize: e.target.value }))}
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white'
-                >
-                  <option value=''>All</option>
-                  {screenSizeOptions.map((v) => (
-                    <option key={v} value={v}>
-                      {v}
-                    </option>
-                  ))}
-                </select>
+                <label className='block text-sm font-bold mb-2'>Cup Score</label>
+                <div className='flex items-center justify-between text-sm text-gray-700'>
+                  <span>Any</span>
+                  <span className='font-bold text-dark'>{draft.minScore ? `${draft.minScore}+` : 'Any'}</span>
+                  <span>100</span>
+                </div>
+                <input
+                  type='range'
+                  min={0}
+                  max={100}
+                  step={0.5}
+                  value={draft.minScore === '' ? 0 : Number(draft.minScore)}
+                  onChange={(e) => {
+                    const v = Number(e.target.value)
+                    setDraft((p) => ({ ...p, minScore: v <= 0 ? '' : String(v) }))
+                  }}
+                  className='w-full range-accent-dark'
+                  aria-label='Minimum cup score'
+                />
               </div>
 
               <div className='flex gap-3 pt-2'>
@@ -256,7 +263,6 @@ const OfferingsBrowser = () => {
           </div>
         </div>
       </div>
-
       <QuoteRequestPopup
         isOpen={Boolean(quoteFor)}
         onClose={() => setQuoteFor(null)}

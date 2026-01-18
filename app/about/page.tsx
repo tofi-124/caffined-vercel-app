@@ -65,11 +65,6 @@ const About = () => {
             <p className='my-4 font-inconsolata text-sm text-gray-700'>
               For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC). References on this page to “we”, “our”, or “the company” refer to Ethio Coffee Import and Export PLC and its team.
             </p>
-            <div id="images" className='w-full flex items-center justify-end static'>
-              <div className="absolute right-[20%]">
-                <ResponsiveImage src="/images/signatures.webp" alt="signature" width={200} height={20} />
-              </div>
-            </div>
           </div>
         </div>
       </section>   

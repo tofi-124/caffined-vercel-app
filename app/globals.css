@@ -53,3 +53,17 @@ button{
   animation: loading 0.8s ease-in-out;
   width: 100%;
 }
+
+/* Range slider: match dark button color */
+.range-accent-dark {
+  accent-color: #010101;
+}
+
+.range-accent-dark::-webkit-slider-thumb {
+  background: #010101;
+}
+
+.range-accent-dark::-moz-range-thumb {
+  background: #010101;
+  border: none;
+}
