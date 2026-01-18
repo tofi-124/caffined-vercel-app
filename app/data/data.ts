@@ -26,6 +26,14 @@ export const posts:Post[] = [
       date: 'Jan 18, 2026',
       title: 'THE FUTURE IS FLORAL: 5 SPECIALTY COFFEE TRENDS DEFINING 2026',
       category: 'Market Insights / Sourcing',
-      desc: 'Five specialty coffee trends shaping 2026—hyper-traceability, experimental processing, climate resilience, flash chill growth, and story-driven premiumization—and why Ethiopian origins are positioned to lead.'
+      desc: 'Five specialty coffee trends shaping 2026-hyper-traceability, experimental processing, climate resilience, flash chill growth, and story-driven premiumization-and why Ethiopian origins are positioned to lead.'
+    },
+    {
+      small_image_url: 'Ethiopia_Coffee_Map.png',
+      large_image_url: 'Ethiopia_Coffee_Map.png',
+      date: 'Jan 18, 2026',
+      title: 'A PRACTICAL GUIDE TO ETHIOPIAN GREEN COFFEE ORIGINS',
+      category: 'Market Insights / Sourcing',
+      desc: 'A buyer-friendly overview of Ethiopia’s key coffee regions, what “origin” means in practice, and how to source green coffee with better clarity on processing, profile, and traceability.'
     }
 ]

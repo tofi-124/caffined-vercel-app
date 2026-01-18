@@ -40,7 +40,7 @@ export const Post = ({ title, date, small_image_url, ind, showDate = true }: Pro
   )
 }
 
-const featuredHomePostIds = [0, 1, 2]
+const featuredHomePostIds = [0, 1, 2, 4]
 
 const Posts = () => {
   return (
@@ -52,7 +52,7 @@ const Posts = () => {
         
         <div className="w-24 h-1 bg-dark mx-auto mb-16"></div>
 
-        <div id="blogs-container" className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center'>
+        <div id="blogs-container" className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center'>
           {featuredHomePostIds
             .map((id) => ({ id, post: posts[id] }))
             .filter((x) => Boolean(x.post))
