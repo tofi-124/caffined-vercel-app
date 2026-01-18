@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Ethio Coffee | Our Story & Commitment',
     description: 'The story behind Ethio Coffee Import and Export PLC from farmer relationships to global exports.',
-    url: 'https://ethiocoffee.com/about',
+    url: 'https://ethiocoffee.et/about',
   }
 }
 

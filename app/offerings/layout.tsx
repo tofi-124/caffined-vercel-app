@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Premium Ethiopian Coffee Offerings | Ethio Coffee',
     description: 'Explore our premium Ethiopian coffee offerings for wholesale partners.',
-    url: 'https://ethiocoffee.com/offerings',
+    url: 'https://ethiocoffee.et/offerings',
   }
 }
 

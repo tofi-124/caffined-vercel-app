@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://ethiocoffee.com/sitemap.xml',
+    sitemap: 'https://ethiocoffee.et/sitemap.xml',
   }
 }

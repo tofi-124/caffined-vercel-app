@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter, Oswald } from 'next/font/google'
+import { Oswald } from 'next/font/google'
 import Navbar from './lib/Navbar'
 import Footer from './lib/Footer'
 import Script from 'next/script'
@@ -12,18 +12,19 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ethiocoffee.et'),
   title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
   description: 'Premium Ethiopian coffee exports for specialty cafés and roasters worldwide. Experience distinctive floral and fruity notes from the birthplace of coffee.',
   keywords: 'Ethiopian coffee, specialty coffee, coffee exports, wholesale coffee, coffee exporters, arabica coffee',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
   alternates: {
-    canonical: 'https://ethiocoffee.com',
+    canonical: 'https://ethiocoffee.et',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://ethiocoffee.com',
+    url: 'https://ethiocoffee.et',
     title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
     description: 'Premium Ethiopian coffee exports for specialty markets worldwide.',
     siteName: 'Ethio Coffee',
@@ -54,7 +55,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <Script
           id="structured-data"
           type="application/ld+json"
@@ -63,13 +63,39 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Ethio Coffee",
-              "url": "https://ethiocoffee.com",
-              "logo": "https://ethiocoffee.com/images/new-logo.png",
+              "legalName": "Ethio Coffee Import and Export PLC",
+              "url": "https://ethiocoffee.et",
+              "logo": "https://ethiocoffee.et/images/new-logo.png",
               "description": "Premium Ethiopian coffee exports for specialty cafés and roasters worldwide.",
               "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "Global Headquarters"
+                "streetAddress": "Lideta",
+                "addressLocality": "Addis Ababa",
+                "addressCountry": "Ethiopia"
               },
+              "hasPOS": [
+                {
+                  "@type": "Place",
+                  "name": "Addis Ababa Office",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Lideta",
+                    "addressLocality": "Addis Ababa",
+                    "addressCountry": "Ethiopia"
+                  }
+                },
+                {
+                  "@type": "Place",
+                  "name": "Hamilton Warehouse",
+                  "description": "Warehouse and logistics point",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Hamilton",
+                    "addressRegion": "ON",
+                    "addressCountry": "CA"
+                  }
+                }
+              ],
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "Customer Service",
