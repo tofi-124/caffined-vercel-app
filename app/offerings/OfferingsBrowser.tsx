@@ -121,7 +121,16 @@ const OfferingsBrowser = () => {
   return (
     <section className='w-full'>
       <div className='container mx-auto px-4 py-12'>
-        <div className='flex flex-col lg:flex-row gap-10'>
+        <div className='flex items-end justify-between gap-4 mb-6'>
+          <div>
+            <h2 className='text-2xl font-extrabold text-dark'>Available Offerings</h2>
+            <p className='text-sm text-gray-700'>Showing {filtered.length} of {offerings.length}</p>
+          </div>
+        </div>
+
+        <div ref={resultsTopRef} />
+
+        <div className='flex flex-col lg:flex-row gap-10 items-start'>
           <aside className='w-full lg:w-80 border border-dark rounded-md p-6 h-fit lg:sticky lg:top-24 self-start'>
             <h2 className='text-xl font-extrabold text-dark mb-4'>Filter By</h2>
 
@@ -218,15 +227,6 @@ const OfferingsBrowser = () => {
           </aside>
 
           <div className='flex-1'>
-            <div className='flex items-end justify-between gap-4 mb-6'>
-              <div>
-                <h2 className='text-2xl font-extrabold text-dark'>Available Offerings</h2>
-                <p className='text-sm text-gray-700'>Showing {filtered.length} of {offerings.length}</p>
-              </div>
-            </div>
-
-            <div ref={resultsTopRef} />
-
             <div className='flex flex-col gap-6'>
               <OfferingsResultsList items={paged} showActions onRequestQuote={(o) => setQuoteFor(o)} />
             </div>
