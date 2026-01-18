@@ -57,6 +57,11 @@ button{
 /* Range slider: match dark button color */
 .range-accent-dark {
   accent-color: #010101;
+  /* Mobile: allow thumb dragging (horizontal) without the page stealing the gesture */
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .range-accent-dark::-webkit-slider-thumb {
