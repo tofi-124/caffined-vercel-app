@@ -81,6 +81,7 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[250px] flex flex-col items-center justify-center'>
         <h1 className='text-5xl font-bold text-primary'>{product.name}</h1>
+        <p className='mt-3 text-primary font-inconsolata'>Sold out - now accepting inquiries for the 2026 crop only.</p>
       </header>
       
       <section className='container mx-auto py-16 px-4'>
@@ -98,6 +99,12 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
           
           <div className='lg:w-1/2'>
             <h1 className='text-5xl font-extrabold text-dark mb-4'>{product.name}</h1>
+            <div className='mb-6 flex flex-wrap items-center gap-2'>
+              <span className='inline-flex items-center px-3 py-1 rounded-md bg-dark text-primary border border-dark text-xs font-bold'>
+                SOLD OUT
+              </span>
+              <span className='text-sm text-gray-700'>Sold out — now accepting inquiries for the 2026 crop only.</span>
+            </div>
             {/* <div className='flex flex-col mb-6'>
               <p className='text-2xl font-bold'>${product.price}/lb</p>
               <p className='text-sm text-gray-600 italic'>Price: {product.priceType}</p>

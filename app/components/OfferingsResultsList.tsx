@@ -29,6 +29,12 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
               <Link href={`/product/${o.id}`} className='hover:opacity-90'>
                 <h3 className='text-2xl font-extrabold text-dark break-words'>{o.name}</h3>
               </Link>
+              <div className='mt-2 flex flex-wrap items-center gap-2'>
+                <span className='inline-flex items-center px-3 py-1 rounded-md bg-dark text-primary border border-dark text-xs font-bold'>
+                  SOLD OUT
+                </span>
+                <span className='text-sm text-gray-700'>Sold out - now accepting inquiries for the 2026 crop only.</span>
+              </div>
               <p className='mt-2'>{o.desc}</p>
 
               <div className='mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-700'>
