@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link'
 import OfferingsResultsList from './OfferingsResultsList'
 import { offerings } from '../data/offerings'
@@ -10,7 +9,7 @@ const Offerings = () => {
         OUR CURRENT OFFERINGS
       </h1>
       <p className='max-md:text-center m-2'>
-        {`Exceptional coffee beans for discerning cafés and roasters worldwide`}
+        {`Ethiopian lots selected for cafés and roasters worldwide`}
       </p>
 
       <div className='container mx-auto px-4 mt-12 w-full'>

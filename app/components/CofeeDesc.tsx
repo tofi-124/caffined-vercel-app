@@ -5,15 +5,30 @@ import HeadLine from '../lib/Headline'
 const headlines = [
   {
     title: 'ETHIOPIAN ORIGIN',
-    items: ['Birthplace of Arabica coffee', 'High-altitude growing regions', 'Unique terroir', 'Heirloom varietals']
+    items: [
+      'Arabica’s original home, told in every cup',
+      'High‑altitude coffees with clean structure and aromatics',
+      'Distinct micro‑regions and lots you can explain to customers',
+      'Heirloom varietals with character roasters seek out'
+    ]
   },
   {
     title: 'SUSTAINABLE SOURCING',
-    items: ['Direct farmer relationships', 'Fair trade practices', 'Eco-friendly processing', 'Community support']
+    items: [
+      'Relationships built on years of working alongside growers',
+      'Transparent, long‑term buying that rewards quality and effort',
+      'Processing choices that protect quality and reduce waste',
+      'Cooperative partnerships that keep value closer to origin'
+    ]
   },
   {
     title: 'PREMIUM QUALITY',
-    items: ['Specialty-grade beans', 'Consistent cup profiles', 'Proper storage & shipping', 'Expert quality control']
+    items: [
+      'Export‑ready preparation and careful lot separation',
+      'Consistent profiles supported by sampling and documentation',
+      'Moisture‑safe storage and shipping that protects freshness',
+      'Quality control at each hand‑off from parchment to container'
+    ]
   }
 ]
 
@@ -199,7 +214,7 @@ const CofeeDesc = () => {
           THE ETHIOPIAN DIFFERENCE
         </h1>
         <p className='text-center m-4'>
-          Ethiopian coffee is renowned worldwide for its distinctive floral and fruity flavor profiles. Grown in ideal high-altitude conditions by farmers with generations of expertise, these beans showcase the true heritage of coffee.
+          Ethiopian coffee is famous for its floral and fruity profiles but the real difference is the people behind it. In the same high-altitude regions where coffee has been part of daily life for generations, farmers turn careful picking and processing into cups that feel unmistakably “origin.” Our work starts there: with relationships, consistency, and respect for the craft.
         </p>
       </div>
 
@@ -245,7 +260,7 @@ const CofeeDesc = () => {
             WHY CHOOSE ETHIO COFFEE?
             </h1>
             <p className=''>
-            As a premier Ethiopian coffee exporter, we bridge the gap between Ethiopia's finest coffee producers and quality-focused cafés and roasters around the world. Our business model ensures competitive pricing, consistency, and dedicated support for your business regardless of location.
+            We’re built on a family coffee journey that started long before export paperwork back when our work was simply moving through coffee regions, meeting farmers, and seeing how easily great coffee can lose value between the farm gate and the market. That experience shapes how we operate today: we source from our own estates and trusted cooperatives, keep lots clearly documented, and focus on the details that matter for roasters clean preparation, consistent profiles, and reliable shipping and communication. The goal is simple: strengthen the relationship between grower and buyer so your customers taste Ethiopia at its best.
             </p>
           </div>
           

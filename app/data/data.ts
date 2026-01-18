@@ -11,7 +11,7 @@ export const posts:Post[] = [
       large_image_url: 'cofee-blog-2-2.jpg',
       date: 'Apr 10, 2025',
       title: 'ETHIOPIAN COFFEE CEREMONIES: TRADITION MEETS BUSINESS',
-      desc: 'Ethiopia\'s traditional coffee ceremony is more than just brewing—it\'s a cultural ritual that informs how coffee is respected and handled throughout the supply chain from farm to cup.'
+      desc: 'Ethiopia\'s traditional coffee ceremony is more than just brewing it\'s a cultural ritual that informs how coffee is respected and handled throughout the supply chain from farm to cup.'
     },
     {
       small_image_url: 'cofee-blog-7-1.png',

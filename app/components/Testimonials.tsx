@@ -14,12 +14,12 @@ const PartnerCard = ({ placeAndLocation }: Partner) => {
 
   return (
     <div className='flex flex-col items-center justify-center px-8 md:px-20 pb-12'>
-      <div className='mt-12 border-t pt-10 border-gray-300 w-1/2 flex items-center justify-center'>
-        <h3 className='text-center text-2xl font-extrabold text-dark'>
+      <div className='mt-12 border-t pt-10 border-primary w-1/2 flex items-center justify-center'>
+        <h3 className='text-center text-2xl font-extrabold text-primary'>
           {location ? (
             <span className='flex flex-col items-center'>
               <span>{place || placeAndLocation}</span>
-              <span className='mt-2 inline-flex items-center gap-1 text-base font-semibold text-gray-600'>
+              <span className='mt-2 inline-flex items-center gap-1 text-base font-semibold text-primary'>
                 <FaMapMarkerAlt />
                 <span>{location}</span>
               </span>
@@ -41,9 +41,9 @@ const Testimonials = () => {
   ]
 
   return (
-    <section id='partners-section' className='pt-32 pb-16 flex flex-col items-center justify-center bg-primary'>
+    <section id='partners-section' className='pt-32 pb-16 flex flex-col items-center justify-center bg-dark text-primary'>
       <div className='mb-12 text-center'>
-        <h1 className='text-5xl leading-tight text-dark font-bold'>
+        <h1 className='text-5xl leading-tight text-primary font-bold'>
           WHO HAVE WE WORKED WITH?
         </h1>
       </div>
@@ -64,13 +64,13 @@ const Testimonials = () => {
           arrowLeft={
             <AiOutlineLeft
               size={50}
-              className='absolute top-1/2 left-[-35px] z-1 -translate-y-1/2 cursor-pointer rounded-md bg-primary border border-dark text-2xl hover:bg-gray-100 transition-colors'
+              className='absolute top-1/2 left-[-35px] z-1 -translate-y-1/2 cursor-pointer rounded-md bg-primary border border-dark text-2xl text-dark hover:bg-gray-100 transition-colors'
             />
           }
           arrowRight={
             <AiOutlineRight
               size={50}
-              className='absolute top-1/2 right-[-35px] -translate-y-1/2 cursor-pointer rounded-md bg-primary border border-dark text-2xl hover:bg-gray-100 transition-colors'
+              className='absolute top-1/2 right-[-35px] -translate-y-1/2 cursor-pointer rounded-md bg-primary border border-dark text-2xl text-dark hover:bg-gray-100 transition-colors'
             />
           }
         >

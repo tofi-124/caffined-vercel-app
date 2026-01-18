@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from './ResponsiveImage'
 
@@ -12,7 +11,7 @@ const Hero = () => {
             ETHIOPIAN COFFEE
           </h1>
           <p className='text-primary max-lg:text-center lg:pr-20'>
-            Directly Sourced from Our Farms & Community. We combine the harvest of our own estates with the best from local cooperatives and neighboring farmers. We take immense pride in the unwavering consistency of our quality coffees, ensuring specialty roasters worldwide receive the true, reliable taste of origin in every shipment.
+            Built from a family coffee story in Ethiopia shaped by years of walking farm roads, listening to growers, and seeing firsthand how often value gets lost between the cherry and the market. Today, we combine the harvest of our own estates with the best from cooperatives and neighboring farmers, so cafés and roasters worldwide receive a consistent, true taste of origin in every shipment.
           </p>
 
           <Link href="/offerings" className='
