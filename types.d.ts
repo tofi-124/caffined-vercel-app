@@ -3,7 +3,8 @@ type Post = {
       large_image_url: string,
       date: string,
       title: string,
-      desc: string
+  desc: string,
+  category?: string
 
 }
 

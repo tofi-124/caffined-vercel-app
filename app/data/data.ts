@@ -19,5 +19,13 @@ export const posts:Post[] = [
       date: 'Mar 28, 2025',
       title: 'DIRECT TRADE PARTNERSHIPS: SUPPORTING ETHIOPIAN FARMERS',
       desc: 'Our direct relationships with Ethiopian coffee farmers ensure fair compensation while delivering exceptional quality beans to businesses worldwide.'
+    },
+    {
+      small_image_url: 'cofee-blog-3-1.png',
+      large_image_url: 'cofee-blog-3-1.png',
+      date: 'Jan 18, 2026',
+      title: 'THE FUTURE IS FLORAL: 5 SPECIALTY COFFEE TRENDS DEFINING 2026',
+      category: 'Market Insights / Sourcing',
+      desc: 'Five specialty coffee trends shaping 2026—hyper-traceability, experimental processing, climate resilience, flash chill growth, and story-driven premiumization—and why Ethiopian origins are positioned to lead.'
     }
 ]

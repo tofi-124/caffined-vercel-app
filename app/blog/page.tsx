@@ -4,6 +4,11 @@ import React, { useEffect, useRef } from 'react'
 import { Post } from '../components/Posts'
 import { posts } from '../data/data'
 
+const parsePostDate = (value: string) => {
+  const t = Date.parse(value)
+  return Number.isFinite(t) ? t : 0
+}
+
 const BlogPage = () => {
   // Create a reference to the posts section for scrolling
   const postsRef = useRef<HTMLDivElement>(null);
@@ -36,7 +41,12 @@ const BlogPage = () => {
           OUR RECENT POSTS
         </h1>
         <div ref={postsRef} className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-          {posts.map((post, ind) => <Post key={ind} {...post} ind={ind} />)}
+          {posts
+            .map((post, id) => ({ post, id }))
+            .sort((a, b) => parsePostDate(b.post.date) - parsePostDate(a.post.date))
+            .map(({ post, id }) => (
+              <Post key={id} {...post} ind={id} />
+            ))}
         </div>
       </section>
     </main>
