@@ -35,9 +35,12 @@ const PartnerCard = ({ placeAndLocation }: Partner) => {
       
 const Testimonials = () => {
   const partners: Partner[] = [
-    { placeAndLocation: 'Artisan Coffee House, Seattle' },
-    { placeAndLocation: 'Abebe Coffee House, Seattle' },
-    { placeAndLocation: 'Abebe Coffee House, Seattle' },
+    { placeAndLocation: 'CHINALIGHT GENERAL MERCHANDISE IMP EXP, CHINA' },
+    { placeAndLocation: 'AL NAMLAH AND FOR TRADING AND SERVICES, JEDDAH' },
+    { placeAndLocation: 'HONGKONG NATURAL RESOURCES TRADING, HONGKONG' },
+    { placeAndLocation: 'AL NAMLAH AND FOR TRADING AND SERVICES JEDDAH, JEDDAH' },
+    { placeAndLocation: 'YIWU IMTON YOUPING INTERNATIONAL TRADE, CHINA' },
+    { placeAndLocation: 'ZHONG YUN SUPPLY CHAIN MANAGEMENT SDN BHD, CHINA' },
   ]
 
   return (
