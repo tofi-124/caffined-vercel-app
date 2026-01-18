@@ -142,7 +142,7 @@ const CofeeDesc = () => {
     window.addEventListener('pageshow', handlePageFocus);
     
     // These events help "warm up" the audio context on iOS
-    document.addEventListener('touchend', enableAudioContext, { once: true });
+    document.addEventListener('touchend', enableAudioContext, { once: true, passive: true });
     
     return () => {
       window.removeEventListener('focus', handlePageFocus);
@@ -193,9 +193,9 @@ const CofeeDesc = () => {
     // Add multiple event listeners for different user interactions
     const videoEl = videoRef.current;
     document.addEventListener("visibilitychange", handleVisibilityChange);
-    document.addEventListener("touchstart", handleUserInteraction, { once: true });
+    document.addEventListener("touchstart", handleUserInteraction, { once: true, passive: true });
     document.addEventListener("click", handleUserInteraction, { once: true });
-    document.addEventListener("scroll", handleUserInteraction, { once: true });
+    document.addEventListener("scroll", handleUserInteraction, { once: true, passive: true });
     videoEl?.addEventListener("canplay", handleVideoCanPlay);
     
     return () => {
@@ -260,7 +260,7 @@ const CofeeDesc = () => {
             WHY CHOOSE ETHIO COFFEE?
             </h1>
             <p className=''>
-            We’re built on a family coffee journey that started long before export paperwork back when our work was simply moving through coffee regions, meeting farmers, and seeing how easily great coffee can lose value between the farm gate and the market. That experience shapes how we operate today: we source from our own estates and trusted cooperatives, keep lots clearly documented, and focus on the details that matter for roasters clean preparation, consistent profiles, and reliable shipping and communication. The goal is simple: strengthen the relationship between grower and buyer so your customers taste Ethiopia at its best.
+            We’re built on a family coffee journey that started long before export paperwork back when our work was simply moving through coffee regions, meeting farmers, and seeing how easily great coffee can lose value between the farm gate and the market. That experience shapes how we operate today: we source from our own estates and trusted cooperatives, keep lots clearly documented, and focus on the details that matter for roasters clean preparation, consistent profiles, and reliable shipping and communication.
             </p>
           </div>
           

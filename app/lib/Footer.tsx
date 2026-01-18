@@ -1,6 +1,4 @@
 "use client"
-import React from 'react'
-import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
 import { FaInstagram } from 'react-icons/fa'
 
@@ -58,34 +56,40 @@ const Footer = () => {
           <InstaImages />
         </div>
       </div>
-      <div className='flex max-sm:flex-col mx-12 lg:mx-48 my-12 justify-between items-center md:items-start'>
-        <div id="address" className='mx-4 text-center md:text-left'>
+      <div className='mx-auto my-12 flex max-w-6xl flex-col items-center justify-between gap-12 px-6 md:flex-row md:items-start'>
+        <div id="address" className='w-full text-center md:w-1/3 md:text-left'>
           <h3 className=' font-extrabold text-2xl'>
           CONTACT US
           </h3>
           <ul>
             <li className='my-3'>
-              <p>
-                Ethio Coffee, Global Headquarters
-              </p>
+              <address className='not-italic'>
+                Ethio Coffee Import and Export PLC, Lideta, Addis Ababa, Ethiopia
+              </address>
             </li>
             <li className='my-3'>
-              <p>
+              <a
+                href="mailto:info@ethiocoffee.et"
+                className="hover:text-primary/80 transition-colors"
+                aria-label="Email Ethio Coffee at info@ethiocoffee.et"
+              >
                 info@ethiocoffee.et
-              </p>
+              </a>
             </li>
           </ul>
         </div>
 
-        <div id="heading" className='flex flex-col items-center'>
-          <ResponsiveImage
-            src='/images/new-logo.png'
-            alt='ethio-coffee-logo'
-            fill
-            sizes='200px'
-            className='w-44 h-14'
-            objectFit='contain'
-          />
+        <div id="heading" className='flex w-full flex-col items-center md:w-1/3'>
+          <div className='relative w-44 h-14'>
+            <ResponsiveImage
+              src='/images/new-logo.png'
+              alt='Ethio Coffee logo'
+              fill
+              sizes='200px'
+              className='w-44 h-14'
+              objectFit='contain'
+            />
+          </div>
           <p className='my-6 text-center'>
             Premium Ethiopian Coffee for Partners Worldwide
           </p>
@@ -103,7 +107,7 @@ const Footer = () => {
           </a>
         </div>
         
-        <div id="timings" className='text-center md:text-right'>
+        <div id="timings" className='w-full text-center md:w-1/3 md:text-right'>
           <h3 className='font-extrabold text-2xl'> 
             BUSINESS HOURS
           </h3>
@@ -125,7 +129,7 @@ const Footer = () => {
         
       <div className='py-6 text-center'>
         <p className="flex items-center justify-center gap-3">
-          © 2026 Ethio Coffee Import and Export. All rights reserved.
+          © 2026 Ethio Coffee Import and Export PLC. All rights reserved.
           <a 
             href="https://instagram.com/ethiocoffee.et" 
             target="_blank" 
