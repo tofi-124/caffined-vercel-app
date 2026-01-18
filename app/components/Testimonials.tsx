@@ -35,10 +35,9 @@ const PartnerCard = ({ placeAndLocation }: Partner) => {
       
 const Testimonials = () => {
   const partners: Partner[] = [
-    { placeAndLocation: 'CHINALIGHT GENERAL MERCHANDISE IMP EXP, CHINA' },
+    { placeAndLocation: 'CRYSTAL GENERAL TRADING LLC, UAE' },
     { placeAndLocation: 'AL NAMLAH AND FOR TRADING AND SERVICES, JEDDAH' },
     { placeAndLocation: 'HONGKONG NATURAL RESOURCES TRADING, HONGKONG' },
-    { placeAndLocation: 'AL NAMLAH AND FOR TRADING AND SERVICES JEDDAH, JEDDAH' },
     { placeAndLocation: 'YIWU IMTON YOUPING INTERNATIONAL TRADE, CHINA' },
     { placeAndLocation: 'ZHONG YUN SUPPLY CHAIN MANAGEMENT SDN BHD, CHINA' },
   ]
