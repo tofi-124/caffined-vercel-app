@@ -22,14 +22,15 @@ const Navbar = () => {
                 </div>
 
                 <Link href="/" className='flex items-center justify-center'>
-                    <ResponsiveImage
-                        src='/images/new-logo.png'
-                        alt='ethio-coffee-logo'
-                        fill
-                        sizes='160px'
-                        className='w-40 h-12'
-                        objectFit='contain'
-                    />
+                    <div className='relative w-40 h-12'>
+                        <ResponsiveImage
+                            src='/images/new-logo.png'
+                            alt='ethio-coffee-logo'
+                            fill
+                            sizes='160px'
+                            objectFit='contain'
+                        />
+                    </div>
                 </Link>
 
                 <div id='search-cart' className='flex gap-5 justify-between items-center'>
