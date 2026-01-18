@@ -21,6 +21,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: Quote
   })
 
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitSuccess, setSubmitSuccess] = useState(false)
   const [submitError, setSubmitError] = useState('')
 
   if (!isOpen) return null
@@ -34,6 +35,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: Quote
     e.preventDefault()
     setIsSubmitting(true)
     setSubmitError('')
+    setSubmitSuccess(false)
 
     try {
       const response = await fetch('https://formspree.io/f/xkgrnlve', {
@@ -53,8 +55,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: Quote
       const result = await response.json()
 
       if (response.ok) {
-        alert('Your quote request has been sent. Thank you.')
-        onClose()
+        setSubmitSuccess(true)
         setFormData({
           businessName: '',
           contactName: '',
@@ -84,22 +85,39 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: Quote
           </button>
         </div>
 
-        <form onSubmit={handleSubmit} className='space-y-4'>
-          <div className='flex flex-col md:flex-row gap-6 mb-6'>
-            <div className='md:w-1/3'>
-              <ResponsiveImage
-                src={`/images/${productImage}`}
-                alt={productName}
-                width={200}
-                height={200}
-                className='mx-auto'
-              />
-            </div>
-            <div className='md:w-2/3'>
-              <h3 className='text-xl font-bold'>{productName}</h3>
-              <p className='text-sm'>Request wholesale pricing, availability, and lead times.</p>
+        {submitSuccess ? (
+          <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
+            <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
+            <p className='text-green-700'>Your quote request has been submitted successfully. We'll contact you soon at the email address you provided.</p>
+            <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
+
+            <div className='flex justify-center pt-6'>
+              <button
+                type='button'
+                onClick={onClose}
+                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold'
+              >
+                CLOSE
+              </button>
             </div>
           </div>
+        ) : (
+          <form onSubmit={handleSubmit} className='space-y-4'>
+            <div className='flex flex-col md:flex-row gap-6 mb-6'>
+              <div className='md:w-1/3'>
+                <ResponsiveImage
+                  src={`/images/${productImage}`}
+                  alt={productName}
+                  width={200}
+                  height={200}
+                  className='mx-auto'
+                />
+              </div>
+              <div className='md:w-2/3'>
+                <h3 className='text-xl font-bold'>{productName}</h3>
+                <p className='text-sm'>Request wholesale pricing, availability, and lead times.</p>
+              </div>
+            </div>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
             <div>
@@ -172,23 +190,24 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: Quote
             </div>
           )}
 
-          <div className='flex justify-end gap-3 pt-2'>
-            <button
-              type='button'
-              onClick={onClose}
-              className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold'
-            >
-              CANCEL
-            </button>
-            <button
-              type='submit'
-              disabled={isSubmitting}
-              className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold disabled:opacity-70 disabled:cursor-not-allowed'
-            >
-              {isSubmitting ? 'SENDING...' : 'SEND REQUEST'}
-            </button>
-          </div>
-        </form>
+            <div className='flex justify-end gap-3 pt-2'>
+              <button
+                type='button'
+                onClick={onClose}
+                className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold'
+              >
+                CANCEL
+              </button>
+              <button
+                type='submit'
+                disabled={isSubmitting}
+                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold disabled:opacity-70 disabled:cursor-not-allowed'
+              >
+                {isSubmitting ? 'SENDING...' : 'SEND REQUEST'}
+              </button>
+            </div>
+          </form>
+        )}
       </div>
     </div>
   )
