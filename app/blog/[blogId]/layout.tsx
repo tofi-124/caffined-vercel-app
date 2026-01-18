@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import { posts } from '@/app/data/data'
 
 type Props = {
-  params: { blogId: string }
+  params: Promise<{ blogId: string }>
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const index = Number.parseInt(params.blogId, 10)
+  const { blogId } = await params
+  const index = Number.parseInt(blogId, 10)
   const post = Number.isFinite(index) ? posts[index] : undefined
 
   if (!post) {
@@ -24,12 +25,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `https://ethiocoffee.et/blog/${params.blogId}`,
+      canonical: `https://ethiocoffee.et/blog/${blogId}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://ethiocoffee.et/blog/${params.blogId}`,
+      url: `https://ethiocoffee.et/blog/${blogId}`,
       images: [{ url: `/images/${post.large_image_url}` }],
     },
   }

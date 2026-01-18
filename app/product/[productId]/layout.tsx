@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import { offerings } from '@/app/data/offerings'
 
 type Props = {
-  params: { productId: string }
+  params: Promise<{ productId: string }>
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const product = offerings.find((o) => o.id === params.productId)
+  const { productId } = await params
+  const product = offerings.find((o) => o.id === productId)
 
   if (!product) {
     return {
