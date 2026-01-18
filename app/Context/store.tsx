@@ -1,6 +1,6 @@
 "use client"
 
-import { createContext, Dispatch, SetStateAction, use, useEffect, useState } from "react"
+import { createContext, Dispatch, SetStateAction, useEffect, useState } from "react"
 
 type ContextProps = {
     cart: Cart,
@@ -45,5 +45,3 @@ export const CartProvider = ({children}: any) => {
         </CartContext.Provider>
     )
 }
-
-export default CartContext

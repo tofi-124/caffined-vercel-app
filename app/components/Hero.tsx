@@ -9,10 +9,10 @@ const Hero = () => {
         
         <div id="hero-heading-wrapper" className='flex flex-col lg:items-start items-center justify-center mx-2 lg:w-1/2'>
           <h1 className='text-5xl max-lg:text-center lg:text-6xl leading-tight text-primary font-bold'>
-            PREMIUM ETHIOPIAN COFFEE
+            ETHIOPIAN COFFEE
           </h1>
           <p className='text-primary max-lg:text-center lg:pr-20'>
-            Ethio Coffee exports premium Ethiopian coffee beans for specialty cafés and roasters worldwide. Experience the distinctive floral and fruity notes from the birthplace of coffee.
+            Directly Sourced from Our Farms & Community. We combine the harvest of our own estates with the best from local cooperatives and neighboring farmers. We take immense pride in the unwavering consistency of our quality coffees, ensuring specialty roasters worldwide receive the true, reliable taste of origin in every shipment.
           </p>
 
           <Link href="/offerings" className='

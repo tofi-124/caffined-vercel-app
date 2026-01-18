@@ -1,8 +1,7 @@
 "use client"
 
-import React, { useEffect, use } from 'react'
+import { useEffect, use } from 'react'
 import { posts } from '@/app/data/data'
-import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
 
 // Define standard image dimensions for all blog posts
@@ -47,7 +46,7 @@ const Blog = ({params}: Props) => {
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            Explore the Origins, Culture, and Global Legacy of Ethiopian Coffee
+            A warm, grounded intro to where coffee began
           </h2>
 
           <figure>
@@ -67,29 +66,35 @@ const Blog = ({params}: Props) => {
           </p>
           
           <p className='my-4'>
-            Coffee is more than a beverage—it's a story. And that story begins in Ethiopia, the birthplace of Arabica coffee and the heart of a centuries-old coffee culture that continues to shape the world's favorite drink.
+            If you’ve ever taken a sip and thought, “Wait why does this taste like jasmine?” you’ve already met a little piece of Ethiopia.
+            Coffee (specifically Coffea arabica) is widely traced back to Ethiopia, with the Kaffa region often mentioned as its homeland.
           </p>
 
           <p className='my-4'>
-            At Ethiocoffee, we proudly honor this legacy by exporting the finest Ethiopian coffee beans, cultivated in harmony with tradition, terroir, and time.
-          </p>
-
-          <h3 className='text-2xl font-extrabold mt-8'>
-            Where Coffee Was Born
-          </h3>
-          <p className='my-4'>
-            Legend has it that a 9th-century goat herder named Kaldi first discovered coffee in the Ethiopian highlands when he noticed his goats becoming unusually energetic after eating red berries from a certain tree. That tree was the wild Arabica coffee plant—Coffea arabica—and Ethiopia has nurtured it ever since.
-          </p>
-
-          <p className='my-4'>
-            Today, Ethiopia remains home to thousands of unique, indigenous coffee varietals found nowhere else on Earth. Regions like Yirgacheffe, Sidama, Harrar, and Guji are globally recognized for their vibrant, complex flavors—ranging from floral and citrusy to deep and chocolaty.
+            This post isn’t here to sell you a fantasy. It’s here to give you a real, human starting point: a place, a culture, and a set of traditions that still shape how Ethiopian coffee is grown and shared today.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            A Culture Rooted in Coffee
+            The Origin Story (And the Legend)
           </h3>
           <p className='my-4'>
-            In Ethiopia, coffee isn't just a crop—it's a ritual. The traditional Ethiopian coffee ceremony is a deeply social and spiritual experience. Beans are roasted in front of guests, ground by hand, and brewed in a jebena (a clay pot). This custom reflects hospitality, respect, and the bond between people and their land.
+            There’s a popular legend about a goat herder named Kaldi noticing his goats perk up after eating red berries.
+            It’s a great story but historians also note the tale shows up in writing much later.
+            Either way, the point lands: the plant’s roots are in Ethiopia.
+          </p>
+
+          <p className='my-4'>
+            Ethiopia’s coffee is closely tied to place. Names like Yirgacheffe and Sidama aren’t just “flavor notes” they’re real growing regions.
+            Many Ethiopian coffees grow at high elevations, where cherries ripen more slowly and develop more complexity.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Coffee as Hospitality, Not a Hack
+          </h3>
+          <p className='my-4'>
+            In Ethiopia (and Eritrea), coffee is also a social language.
+            The traditional coffee ceremony isn’t rushed: green beans are roasted over an open flame, ground with a mortar and pestle, and brewed in a clay pot called a jebena.
+            It’s a gathering people talk, laugh, and check in with each other.
           </p>
 
           <p className='my-4 font-medium'>
@@ -99,10 +104,11 @@ const Blog = ({params}: Props) => {
           <iframe className='w-full h-[450px] my-6' src="https://www.youtube.com/embed/voMC-eICDrg" title="Ethiopia - The Birthplace of Coffee" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           
           <h3 className='text-2xl font-extrabold mt-8'>
-            From Heritage to Global Excellence
+            What This Means for Your Cup
           </h3>
           <p className='my-4'>
-            At Ethiocoffee, we believe that preserving Ethiopia's coffee heritage also means sharing it. That's why we work directly with local farmers and cooperatives to export traceable, specialty-grade Ethiopian coffee beans to roasters, cafés, and wholesalers around the world.
+            Here’s the practical takeaway: Ethiopian coffee can taste wildly different depending on origin and processing.
+            When buyers care about traceability and quality, farmers and cooperatives have more reason (and room) to invest in careful harvesting and processing.
           </p>
 
           <p className='my-2'>
@@ -121,14 +127,16 @@ const Blog = ({params}: Props) => {
           </ul>
 
           <p className='my-4'>
-            Every shipment we send carries with it the essence of Ethiopia's land, people, and passion.
+            If you’re building a menu or sourcing for a roastery, the “Ethiopian difference” is often in the details: origin clarity, processing choices, and respect for the people doing the work by hand.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            Taste the Legacy
+            A Simple Way to Taste It
           </h3>
           <p className='my-4'>
-            Ethiopian coffee is not just about taste—it's about history in every cup. When you serve or sell coffee from Ethiopia, you're inviting your customers to experience a rich cultural legacy, the origin of coffee itself, and the gold standard of Arabica beans.
+            Try this: brew two Ethiopian coffees side by side (even from two different washing stations) and write down what you notice.
+            One might lean floral and tea-like; another might be more citrus-forward.
+            Same country, completely different personality.
           </p>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -147,7 +155,7 @@ const Blog = ({params}: Props) => {
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            How Ethiopia's Most Sacred Ritual Fuels Global Coffee Culture
+            Why this tradition still matters (even for modern buyers)
           </h2>
 
           <figure>
@@ -167,45 +175,35 @@ const Blog = ({params}: Props) => {
           </p>
           
           <p className='my-4'>
-            In Ethiopia, coffee is far more than a beverage—it's a ritual, a language of hospitality, and a symbol of unity. The Ethiopian coffee ceremony is one of the most iconic cultural practices in the world, passed down through generations and still practiced today in homes, communities, and even businesses.
+            If you grew up around Ethiopian coffee, you know it’s not a “grab-and-go” thing.
+            The coffee ceremony is time set aside on purpose an excuse to be present with people.
           </p>
 
           <p className='my-4'>
-            At Ethiocoffee, we honor this tradition not only as part of our heritage, but also as a key element of the coffee story we share with global partners.
+            And the steps are wonderfully tangible: roast green beans over a flame, grind them (often with a traditional mortar and pestle), then brew in a jebena.
+            The aroma is part of the point.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            More Than a Brew: The Ceremony of Connection
+            The Part People Miss: It’s Three Rounds
           </h3>
           <p className='my-4'>
-            The Ethiopian coffee ceremony is a three-part experience that begins with roasting green coffee beans over an open flame, followed by grinding with a mortar and pestle, and finally brewing in a jebena, a traditional clay pot. The coffee is served in three rounds—abol, tona, and bereka—each symbolizing progression, community, and blessing.
+            The ceremony is commonly served in three rounds.
+            In Amharic, you’ll often hear abol, tona, and baraka.
+            The idea isn’t “more caffeine” it’s a rhythm: brew, talk, refill, talk again.
           </p>
 
           <p className='my-4'>
-            What sets this ceremony apart is its deliberate pace and focus on human connection. Neighbors gather. Conversations flow. Respect is given. It's a moment of pause in a fast-paced world—a value that resonates deeply in modern business culture.
+            What sets this ceremony apart is its deliberate pace and focus on human connection. Neighbors gather. Conversations flow. Respect is given. It's a moment of pause in a fast-paced world a value that resonates deeply in modern business culture.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            The Ceremony as a Brand Ambassador
+            Why This Matters in Business
           </h3>
           <p className='my-4'>
-            For Ethiocoffee, the traditional coffee ceremony isn't just cultural—it's a brand asset. When we introduce our beans to global clients, we also introduce the ceremony behind them. This cultural context helps:
+            When buyers understand the culture around a product, they tend to treat it with more respect.
+            That can show up as better sourcing questions, more patience for seasonality, and more interest in how (and by whom) the coffee was processed.
           </p>
-
-          <ul className='font-inconsolata my-4 list-disc ml-5'>
-            <li className='my-2'>
-              Educate buyers on the origin and value of Ethiopian coffee
-            </li>
-            <li className='my-2'>
-              Reinforce authenticity and traceability
-            </li>
-            <li className='my-2'>
-              Create emotional resonance around the product
-            </li>
-            <li className='my-2'>
-              Differentiate us in a competitive market
-            </li>
-          </ul>
 
           <p className='my-4'>
             In many international trade shows and client meetings, we present a miniature version of the ceremony to let people experience the warmth and depth of Ethiopian hospitality firsthand.
@@ -220,10 +218,12 @@ const Blog = ({params}: Props) => {
           </div>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            Where Heritage Meets Opportunity
+            A Small Detail That Sticks
           </h3>
           <p className='my-4'>
-            As the demand for origin-specific, traceable, and ethically sourced coffee grows, so does the interest in stories that connect product to place. The Ethiopian coffee ceremony gives businesses a meaningful narrative—one that blends centuries-old tradition with today's demand for experience-driven consumption.
+            One detail I love: the host often pours from a height into small cups, steadily, without stopping.
+            It’s equal parts skill and hospitality.
+            The ceremony is basically saying, “You matter enough for me to slow down.”
           </p>
 
           <p className='my-4'>
@@ -243,10 +243,11 @@ const Blog = ({params}: Props) => {
           </ul>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            Brewing Relationships, Not Just Coffee
+            A Better Way to Tell the Story
           </h3>
           <p className='my-4'>
-            The heart of Ethiopia's coffee ceremony is relationship. And at Ethiocoffee, we take that seriously. From farmer to exporter, roaster to café, our mission is to cultivate lasting partnerships that reflect the same principles of respect, presence, and connection found in every traditional ceremony.
+            Instead of “heritage” as a buzzword, tell one real thing: what was roasted, how it was brewed, why the third round is called baraka (a blessing).
+            Those specifics feel human because they are.
           </p>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -265,7 +266,7 @@ const Blog = ({params}: Props) => {
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            How Ethiocoffee Builds Sustainable, Transparent Relationships from Farm to Cup
+            What it is, what it isn’t, and why transparency matters
           </h2>
 
           <figure>
@@ -285,18 +286,21 @@ const Blog = ({params}: Props) => {
           </p>
           
           <p className='my-4'>
-            Behind every extraordinary cup of Ethiopian coffee is a farmer—and at Ethiocoffee, we believe that farmer deserves more than just recognition. They deserve partnership.
+            “Direct trade” is one of those phrases you’ll hear everywhere in specialty coffee.
+            Sometimes it means something real. Sometimes it’s just a label.
           </p>
 
           <p className='my-4'>
-            That's why we're committed to direct trade partnerships—a sourcing model that puts people before profit, shortens the supply chain, and ensures that the hard work of Ethiopian farmers is fairly rewarded and globally respected.
+            At its best, direct trade is about direct relationships between buyers and producers, with prices and support tied to quality and long-term trust.
+            The tricky part: there’s no single global standard for what counts.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            What Is Direct Trade?
+            So… What Is Direct Trade?
           </h3>
           <p className='my-4'>
-            Unlike traditional commodity trading, direct trade cuts out unnecessary middlemen and builds transparent, traceable relationships between coffee producers and buyers. It's a business model built on:
+            Think of it as a sourcing approach where the roaster/buyer builds a direct relationship with the farmer, cooperative, or processor.
+            Many direct-trade programs emphasize higher premiums, clearer quality expectations, and more information sharing.
           </p>
 
           <ul className='font-inconsolata my-4 list-disc ml-5'>
@@ -315,7 +319,7 @@ const Blog = ({params}: Props) => {
           </ul>
 
           <p className='my-4'>
-            At Ethiocoffee, we work directly with farmer cooperatives, smallholder producers, and local washing stations across Ethiopia's finest coffee regions—from Yirgacheffe to Guji.
+            The part we like most is the accountability: if you use the term, you should be able to explain your prices, your quality goals, and what “direct” really means in your chain.
           </p>
 
           <div className='bg-amber-100 p-6 rounded-lg my-8'>
@@ -326,10 +330,12 @@ const Blog = ({params}: Props) => {
           </div>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            Empowering the Backbone of the Industry
+            The Honest Caveat
           </h3>
           <p className='my-4'>
-            Ethiopia is home to over 15 million people who depend on coffee for their livelihoods, many of them smallholder farmers with deep-rooted knowledge passed through generations.
+            Because direct trade isn’t a certified standard, critics often point out a real risk: big brands can market the term without showing evidence.
+            The fix is simple (but not always easy): publish more.
+            Transparency reports, pricing ranges, who you buy from anything that lets a customer verify you’re doing what you say.
           </p>
 
           <p className='my-4'>
@@ -358,10 +364,11 @@ const Blog = ({params}: Props) => {
           <iframe className='w-full h-[450px] my-6' src="https://www.youtube.com/embed/Dmpnrtey3YU" title="Direct Trade Coffee Sourcing" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            Better Coffee Begins with Better Relationships
+            What “Better” Can Look Like
           </h3>
           <p className='my-4'>
-            Direct trade isn't just better for farmers—it's better for roasters, cafés, and coffee consumers, too. By working closely with producers, we can:
+            When it’s done well, direct trade can create room for better wages and better processing, and it can make quality improvements feel worth the effort.
+            But it only works if the relationship is real and the numbers aren’t hidden.
           </p>
 
           <ul className='font-inconsolata my-4 list-disc ml-5'>
@@ -379,15 +386,11 @@ const Blog = ({params}: Props) => {
             </li>
           </ul>
 
-          <p className='my-4'>
-            It's how we ensure our clients receive not only top-grade Ethiopian Arabica beans, but also a meaningful supply chain story to share with their customers.
-          </p>
-
           <h3 className='text-2xl font-extrabold mt-8'>
             Join the Direct Trade Movement
           </h3>
           <p className='my-4'>
-            At Ethiocoffee, we believe in brewing better futures—one handshake, one harvest, one container at a time. Our direct trade model is proof that commerce and compassion can thrive side by side.
+            At Ethiocoffee, we believe in brewing better futures one handshake, one harvest, one container at a time. Our direct trade model is proof that commerce and compassion can thrive side by side.
           </p>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>

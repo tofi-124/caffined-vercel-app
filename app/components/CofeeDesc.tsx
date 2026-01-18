@@ -176,18 +176,19 @@ const CofeeDesc = () => {
     }
     
     // Add multiple event listeners for different user interactions
+    const videoEl = videoRef.current;
     document.addEventListener("visibilitychange", handleVisibilityChange);
     document.addEventListener("touchstart", handleUserInteraction, { once: true });
     document.addEventListener("click", handleUserInteraction, { once: true });
     document.addEventListener("scroll", handleUserInteraction, { once: true });
-    videoRef.current?.addEventListener("canplay", handleVideoCanPlay);
+    videoEl?.addEventListener("canplay", handleVideoCanPlay);
     
     return () => {
       document.removeEventListener("visibilitychange", handleVisibilityChange);
       document.removeEventListener("touchstart", handleUserInteraction);
       document.removeEventListener("click", handleUserInteraction);
       document.removeEventListener("scroll", handleUserInteraction);
-      videoRef.current?.removeEventListener("canplay", handleVideoCanPlay);
+      videoEl?.removeEventListener("canplay", handleVideoCanPlay);
     };
   }, [attemptPlay, hasCheckedDevice]);
 
