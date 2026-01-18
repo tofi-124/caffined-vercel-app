@@ -19,7 +19,7 @@ const Hero = () => {
             bg-primary hover:bg-dark text-dark hover:text-primary
             border hover:border-primary
             rounded-md
-         ' aria-label="Check out our coffees">CHECK OUT OUR COFFEES</Link>
+         ' aria-label="Check out our coffees">CURRENT OFFERINGS</Link>
         </div>
 
         <div id="hero-image-wrapper" className='relative lg:w-1/3 max-sm:m-2'>
