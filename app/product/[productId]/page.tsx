@@ -54,9 +54,7 @@ const OfferingDetail = ({ params }: Props) => {
   
   // Product details with combined coffee profile and origin info
   const productDetails: ProductDetails = {
-    coffeeProfileOrigin: `${product?.name} offers vibrant notes of ripe berries, dark chocolate, and a hint of citrus zest. The cup is well-balanced with medium acidity, a velvety body, and a pleasant sweetness that lingers in the finish. It delivers a clean, bright flavor profile characteristic of premium Ethiopian coffees from the high-altitude regions.
-
-Sourced from small-holder farms in the highlands of Ethiopia, at elevations between 1,800-2,200 meters. These farms practice traditional organic methods passed down through generations. The farmers hand-pick only the ripest cherries, ensuring exceptional quality. The community-based washing stations employ sustainable processing methods that conserve water while enhancing the beans' natural qualities. We maintain direct relationships with these farming communities to ensure fair compensation and sustainable practices.`,
+    coffeeProfileOrigin: `${product?.profile ?? ''}${product?.profile && product?.origin ? '\n\n' : ''}${product?.origin ?? ''}`.trim(),
     technicalSpecs: ''  // This will be dynamically rendered from product specs
   };
   
@@ -103,7 +101,7 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
               <span className='inline-flex items-center px-3 py-1 rounded-md bg-dark text-primary border border-dark text-xs font-bold'>
                 SOLD OUT
               </span>
-              <span className='text-sm text-gray-700'>Sold out — now accepting inquiries for the 2026 crop only.</span>
+              <span className='text-sm text-gray-700'>Sold out - now accepting inquiries for the 2026 crop only.</span>
             </div>
             {/* <div className='flex flex-col mb-6'>
               <p className='text-2xl font-bold'>${product.price}/lb</p>
