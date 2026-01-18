@@ -121,6 +121,18 @@ const Footer = () => {
         <p className="flex items-center justify-center gap-3">
           © 2026 Ethio Coffee Import and Export PLC. All rights reserved.
         </p>
+        <p className="mt-2 flex items-center justify-center gap-1 text-sm text-white/80">
+          <span>made by</span>
+          <a
+            href="https://github.com/nusu97"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 hover:text-primary/80 transition-colors"
+          >
+            nusu97
+          </a>
+          <span>with ❤️</span>
+        </p>
       </div>
     </footer>
   )
