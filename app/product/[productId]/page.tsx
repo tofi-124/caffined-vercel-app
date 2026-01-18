@@ -175,8 +175,8 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
               </div>
               
               <div className='mb-8'>
-                <h3 className='text-xl font-semibold mb-2'>Available Quantities</h3>
-                <p>5kg, 15kg, 30kg, 60kg</p>
+                <h3 className='text-xl font-semibold mb-2'> Bag details</h3>
+                <p>Custom bags</p>
               </div>
             </div>
             

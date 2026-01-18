@@ -12,15 +12,3 @@ type Testimonial = {
   position: string,
   quote: string
 }
-
-type Product = {
-  name: string,
-  price: number,
-  image_url: string
-};
-
-type CartItem = {
-  quantity: number,
-} & Product;
-
-type Cart = CartItem[];

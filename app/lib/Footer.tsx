@@ -130,15 +130,6 @@ const Footer = () => {
       <div className='py-6 text-center'>
         <p className="flex items-center justify-center gap-3">
           © 2026 Ethio Coffee Import and Export PLC. All rights reserved.
-          <a 
-            href="https://instagram.com/ethiocoffee.et" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center hover:text-primary/80 transition-colors"
-            aria-label="Follow Ethio Coffee on Instagram"
-          >
-            <FaInstagram className="text-xl" />
-          </a>
         </p>
       </div>
     </footer>
