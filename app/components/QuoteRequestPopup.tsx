@@ -154,7 +154,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: Quote
           </div>
 
           <div>
-            <label htmlFor='message' className='block text-sm font-medium'>Message (optional)</label>
+            <label htmlFor='message' className='block text-sm font-medium'>Message</label>
             <textarea
               id='message'
               name='message'

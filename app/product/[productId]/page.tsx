@@ -1,10 +1,9 @@
 "use client"
-import React, { useState, useEffect, useRef, use } from 'react'
+import { useEffect, useRef, useState, use } from 'react'
 import Link from 'next/link'
 import { offerings } from '../../data/offerings'
-import SampleCheckoutPopup from '../../components/SampleCheckoutPopup'
-import ResponsiveImage from '../../components/ResponsiveImage'
 import Image from 'next/image'
+import QuoteRequestPopup from '../../components/QuoteRequestPopup'
 
 // Removing the generateStaticParams function from this client component file
 
@@ -23,7 +22,7 @@ const OfferingDetail = ({ params }: Props) => {
   // Using React's use() hook to properly await params
   const { productId } = use(params);
   const product = offerings.find(p => p.id === productId)
-  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  const [isQuoteOpen, setIsQuoteOpen] = useState(false)
   const productImageRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
@@ -190,18 +189,17 @@ Sourced from small-holder farms in the highlands of Ethiopia, at elevations betw
               </Link>
               
               <button 
-                onClick={() => setIsCheckoutOpen(true)}
+                onClick={() => setIsQuoteOpen(true)}
                 className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold cursor-pointer'
               >
-                PURCHASE A SAMPLE
+                GET A QUOTE
               </button>
-              
-              <SampleCheckoutPopup 
-                isOpen={isCheckoutOpen}
-                onClose={() => setIsCheckoutOpen(false)}
+
+              <QuoteRequestPopup
+                isOpen={isQuoteOpen}
+                onClose={() => setIsQuoteOpen(false)}
                 productName={product.name}
                 productImage={product.image_url}
-                activeDetail={activeDetail}
               />
             </div>
           </div>
