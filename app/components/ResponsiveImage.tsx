@@ -51,7 +51,7 @@ const ResponsiveImage = ({
 
   // If fill mode is requested or no dimensions are provided, use fill mode
   return (
-    <div className={`relative ${className}`}>
+    <div className={`relative w-full h-full ${className}`}> 
       <Image
         src={src}
         alt={alt}

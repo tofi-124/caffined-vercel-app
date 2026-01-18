@@ -17,23 +17,15 @@ const images = [
   'insta-6.webp',
 ]
 
-// Define fixed dimensions for Instagram images
-const INSTA_IMAGE_WIDTH = 500;
-const INSTA_IMAGE_HEIGHT = 482;
-
 const InstaImage = ({image_url}: Props) => {
   return (
-    <div className="relative w-[317px] h-[317px] overflow-hidden">
-      <ResponsiveImage 
-        src={`/images/${image_url}`} 
-        alt={`Ethiopian coffee image ${image_url}`} 
-        width={INSTA_IMAGE_WIDTH}
-        height={INSTA_IMAGE_HEIGHT}
-        style={{
-          objectFit: 'cover',
-          width: '100%',
-          height: '100%'
-        }}
+    <div className='relative w-full aspect-square overflow-hidden'>
+      <ResponsiveImage
+        src={`/images/${image_url}`}
+        alt={`Ethiopian coffee image ${image_url}`}
+        fill
+        objectFit='cover'
+        sizes='(min-width: 1024px) 16.66vw, (min-width: 768px) 33vw, 100vw'
       />
     </div>
   )
@@ -41,7 +33,7 @@ const InstaImage = ({image_url}: Props) => {
 
 const InstaImages = () => {
   return (
-    <div id="insta-images" className='mb-16 flex flex-wrap justify-center items-center overflow-hidden'>
+    <div id='insta-images' className='mb-16 w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6'>
       {images.map((image, ind) => ( <InstaImage key={ind} image_url={image} /> ))}
     </div>
   )
@@ -52,9 +44,7 @@ const Footer = () => {
   return (
     <footer className='bg-dark text-primary'>
       <div id="instaimages">
-        <div className='flex items-center'>
-          <InstaImages />
-        </div>
+        <InstaImages />
       </div>
       <div className='mx-auto my-12 flex max-w-6xl flex-col items-center justify-between gap-12 px-6 md:flex-row md:items-start'>
         <div id="address" className='w-full text-center md:w-1/3 md:text-left'>
