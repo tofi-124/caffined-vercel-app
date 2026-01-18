@@ -1,38 +1,58 @@
 import { MetadataRoute } from 'next'
+import { offerings } from './data/offerings'
+import { posts } from './data/data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://ethiocoffee.et'
+  const now = new Date()
   
-  return [
+  const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/offerings`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: `${baseUrl}/blog`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.7,
     },
     {
       url: `${baseUrl}/contact-us`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.6,
     },
   ]
+
+  const productRoutes: MetadataRoute.Sitemap = offerings.map((o) => ({
+    url: `${baseUrl}/product/${o.id}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }))
+
+  // Blog detail pages are indexed routes: /blog/0, /blog/1, ...
+  const blogRoutes: MetadataRoute.Sitemap = posts.map((_, index) => ({
+    url: `${baseUrl}/blog/${index}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }))
+
+  return [...staticRoutes, ...productRoutes, ...blogRoutes]
 }
