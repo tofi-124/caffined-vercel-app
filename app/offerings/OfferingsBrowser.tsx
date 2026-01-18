@@ -31,18 +31,22 @@ const matchesKeyword = (offering: Offering, keyword: string) => {
 const OfferingsBrowser = () => {
   const resultsTopRef = useRef<HTMLDivElement>(null)
 
+  const scrollToResultsTop = () => {
+    if (!resultsTopRef.current) return
+
+    // Account for the sticky navbar (TopMessage + navbar height)
+    const headerOffset = 96
+    const y = resultsTopRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
+
+    window.scrollTo({
+      top: Math.max(0, y),
+      behavior: 'smooth',
+    })
+  }
+
   useEffect(() => {
     const timer = setTimeout(() => {
-      if (!resultsTopRef.current) return
-
-      // Account for the sticky navbar (TopMessage + navbar height)
-      const headerOffset = 96
-      const y = resultsTopRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
-
-      window.scrollTo({
-        top: Math.max(0, y),
-        behavior: 'smooth',
-      })
+      scrollToResultsTop()
     }, 300)
 
     return () => clearTimeout(timer)
@@ -84,6 +88,27 @@ const OfferingsBrowser = () => {
       return true
     })
   }, [applied])
+
+  const PAGE_SIZE = 4
+  const [page, setPage] = useState(1)
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
+  const safePage = Math.min(page, totalPages)
+
+  const paged = useMemo(() => {
+    const start = (safePage - 1) * PAGE_SIZE
+    return filtered.slice(start, start + PAGE_SIZE)
+  }, [filtered, safePage])
+
+  useEffect(() => {
+    // Reset to first page whenever the filter set changes
+    setPage(1)
+  }, [applied])
+
+  useEffect(() => {
+    // Keep current page valid if the result count shrinks
+    if (page !== safePage) setPage(safePage)
+  }, [page, safePage])
 
   const [quoteFor, setQuoteFor] = useState<Offering | null>(null)
 
@@ -203,8 +228,31 @@ const OfferingsBrowser = () => {
             <div ref={resultsTopRef} />
 
             <div className='flex flex-col gap-6'>
-              <OfferingsResultsList items={filtered} showActions onRequestQuote={(o) => setQuoteFor(o)} />
+              <OfferingsResultsList items={paged} showActions onRequestQuote={(o) => setQuoteFor(o)} />
             </div>
+
+            {totalPages > 1 && (
+              <div className='mt-10 flex flex-wrap justify-center gap-3'>
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                  <button
+                    key={p}
+                    type='button'
+                    onClick={() => {
+                      setPage(p)
+                      scrollToResultsTop()
+                    }}
+                    className={
+                      p === safePage
+                        ? 'px-4 py-2 bg-dark text-primary border border-dark rounded-md font-bold'
+                        : 'px-4 py-2 bg-primary text-dark border border-dark rounded-md font-bold hover:bg-dark hover:text-primary'
+                    }
+                    aria-label={`Go to page ${p}`}
+                  >
+                    {p}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
