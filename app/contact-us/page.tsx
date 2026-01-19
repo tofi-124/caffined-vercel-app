@@ -134,6 +134,30 @@ const WholesaleInquiryPage = () => {
 
         <div className='max-w-3xl mx-auto my-16' ref={formRef}>
           <h2 className='text-4xl font-extrabold text-center mb-8'>GET IN TOUCH</h2>
+
+          <div className='mb-10 rounded-lg border border-black/10 bg-white/60 p-6'>
+            <h3 className='text-xl font-bold text-dark'>Direct Contact</h3>
+            <div className='mt-4 grid grid-cols-1 gap-6 md:grid-cols-2'>
+              <div>
+                <p className='text-xs uppercase tracking-widest text-gray-700'>Ethiopia</p>
+                <address className='not-italic text-dark'>
+                  <span className='font-semibold'>Ethio Coffee Import and Export PLC</span>
+                  <br />
+                  Lideta, Addis Ababa, Ethiopia
+                </address>
+              </div>
+              <div>
+                <p className='text-xs uppercase tracking-widest text-gray-700'>Canada</p>
+                <address className='not-italic text-dark'>Toronto, Canada</address>
+              </div>
+            </div>
+            <p className='mt-6 text-dark'>
+              Email:{' '}
+              <a href="mailto:info@ethiocoffee.et" className='underline underline-offset-4 font-semibold'>
+                info@ethiocoffee.et
+              </a>
+            </p>
+          </div>
           
           {submitSuccess ? (
             <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>

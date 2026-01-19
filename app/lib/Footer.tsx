@@ -1,6 +1,6 @@
 "use client"
 import ResponsiveImage from '../components/ResponsiveImage'
-import { FaInstagram } from 'react-icons/fa'
+import { FaEnvelope, FaInstagram } from 'react-icons/fa'
 
 
 type Props = {
@@ -46,82 +46,82 @@ const Footer = () => {
       <div id="instaimages">
         <InstaImages />
       </div>
-      <div className='mx-auto my-12 flex max-w-6xl flex-col items-center justify-between gap-12 px-6 md:flex-row md:items-start'>
-        <div id="address" className='w-full text-center md:w-1/3 md:text-left'>
-          <h3 className=' font-extrabold text-2xl'>
+      <div className='mx-auto my-12 max-w-6xl px-6'>
+        <div className='grid grid-cols-1 gap-12 md:grid-cols-3 md:items-start'>
+        <div id="address" className='flex flex-col text-center md:text-left'>
+          <h3 className='text-2xl font-extrabold tracking-tight'>
           CONTACT US
           </h3>
-          <ul>
-            <li className='my-3'>
-              <address className='not-italic'>
-                Ethio Coffee Import and Export PLC, Lideta, Addis Ababa, Ethiopia
-              </address>
-            </li>
-            <li className='my-3'>
+          <ul className='mt-4 space-y-4 text-primary/90'>
+            <li>
               <a
                 href="mailto:info@ethiocoffee.et"
-                className="hover:text-primary/80 transition-colors"
+                className="inline-flex items-center gap-2 underline underline-offset-4 hover:text-primary/80 transition-colors"
                 aria-label="Email Ethio Coffee at info@ethiocoffee.et"
               >
+                <FaEnvelope className="text-2xl" />
                 info@ethiocoffee.et
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/ethiocoffee.et"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 underline underline-offset-4 hover:text-primary/80 transition-colors"
+                aria-label="Follow us on Instagram @ethiocoffee.et"
+              >
+                <FaInstagram className="text-2xl" />
+                <span>@ethiocoffee.et</span>
               </a>
             </li>
           </ul>
         </div>
 
-        <div id="heading" className='flex w-full flex-col items-center md:w-1/3'>
-          <div className='relative w-44 h-14'>
-            <ResponsiveImage
-              src='/images/new-logo.png'
-              alt='Ethio Coffee logo'
-              fill
-              sizes='200px'
-              className='w-44 h-14'
-              objectFit='contain'
-            />
-          </div>
-          <p className='my-6 text-center'>
-            Premium Ethiopian Coffee for Partners Worldwide
-          </p>
-          
-          {/* Instagram Link */}
-          <a 
-            href="https://instagram.com/ethiocoffee.et" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="mt-2 flex items-center gap-2 hover:text-primary/80 transition-colors"
-            aria-label="Follow us on Instagram @ethiocoffee.et"
-          >
-            <FaInstagram className="text-2xl" />
-            <span>@ethiocoffee.et</span>
-          </a>
+        <div id="locations" className='flex flex-col text-center md:text-left'>
+          <h3 className='text-2xl font-extrabold tracking-tight'>
+            OUR OFFICE LOCATIONS
+          </h3>
+          <ul className='mt-4 space-y-4 text-primary/90'>
+            <li>
+              <p className='text-xs uppercase tracking-widest text-primary/70'>Ethiopia</p>
+              <address className='not-italic font-medium text-primary'>
+                Ethio Coffee Import and Export PLC
+                <br />
+                Lideta, Addis Ababa, Ethiopia
+              </address>
+            </li>
+            <li>
+              <p className='text-xs uppercase tracking-widest text-primary/70'>Canada</p>
+              <address className='not-italic font-medium text-primary'>Toronto, Canada</address>
+            </li>
+          </ul>
         </div>
         
-        <div id="timings" className='w-full text-center md:w-1/3 md:text-right'>
-          <h3 className='font-extrabold text-2xl'> 
+        <div id="timings" className='flex flex-col text-center md:text-left'>
+          <h3 className='text-2xl font-extrabold tracking-tight'> 
             BUSINESS HOURS
           </h3>
-          <ul>
-            <li className='my-3'>
-              <p>
-                Monday-Friday: 09:00-17:00
-              </p> 
+          <ul className='mt-4 space-y-4 text-primary/90'>
+            <li>
+              <p className='text-xs uppercase tracking-widest text-primary/70'>Office</p>
+              <p className='font-medium text-primary'>Monday–Friday: 09:00–17:00</p>
             </li>
-            <li className='my-3'>
-              <p>
-                International Business Hours
-              </p>
+            <li>
+              <p className='text-xs uppercase tracking-widest text-primary/70'>Notes</p>
+              <p className='font-medium text-primary'>International business hours available</p>
             </li>
           </ul>
         </div>
       </div>
+      </div>
       <div className='h-0.5 w-full bg-white/20' />
         
-      <div className='py-6 text-center'>
-        <p className="flex items-center justify-center gap-3">
+      <div className='py-8 text-center'>
+        <p className="flex items-center justify-center gap-3 text-primary/90">
           © 2026 Ethio Coffee Import and Export PLC. All rights reserved.
         </p>
-        <p className="mt-2 flex items-center justify-center gap-1 text-sm text-white/80">
+        <p className="mt-3 flex items-center justify-center gap-1 text-sm text-white/75">
           <span>made by</span>
           <a
             href="https://github.com/nusu97"
