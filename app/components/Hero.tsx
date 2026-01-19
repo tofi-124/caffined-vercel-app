@@ -10,8 +10,11 @@ const Hero = () => {
           <h1 className='text-5xl max-lg:text-center lg:text-6xl leading-tight text-primary font-bold'>
             ETHIOPIAN COFFEE
           </h1>
+          <p className='text-primary/90 max-lg:text-center text-sm uppercase tracking-widest mt-3'>
+            From Our Farms in Ethiopia to Canada and Beyond
+          </p>
           <p className='text-primary max-lg:text-center lg:pr-20'>
-            Built from a family coffee story in Ethiopia shaped by years of walking farm roads, listening to growers, and seeing firsthand how often value gets lost between the cherry and the market. Today, we combine the harvest of our own estates with the best from cooperatives and neighboring farmers, so cafés and roasters worldwide receive a consistent, true taste of origin in every shipment.
+            We are an Ethiopia- and Canada-based coffee exporter and importer, supplying traceable Ethiopian coffee to roasters, cafés, and wholesale partners. Built from a family coffee story in Ethiopia, shaped by years of walking farm roads, listening to growers, and seeing firsthand how often value is lost between the cherry and the market, we export coffee directly from our own estates and trusted partner farms in Ethiopia to buyers worldwide. For Canadian businesses, we import coffee into our own warehouses in Canada. By managing every step in between, we preserve quality, traceability, and consistency from origin to your door. Today, we combine the harvest of our own farms with coffees from cooperatives and neighboring farmers to deliver a dependable supply and a true taste of origin in every shipment.
           </p>
 
           <Link href="/offerings" className='

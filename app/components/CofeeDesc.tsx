@@ -260,8 +260,10 @@ const CofeeDesc = () => {
             WHY CHOOSE ETHIO COFFEE?
             </h1>
             <p className=''>
-            We’re built on a family coffee journey that started long before export paperwork back when our work was simply moving through coffee regions, meeting farmers, and seeing how easily great coffee can lose value between the farm gate and the market. That experience shapes how we operate today: we source from our own estates and trusted cooperatives, keep lots clearly documented, and focus on the details that matter for roasters clean preparation, consistent profiles, and reliable shipping and communication.
-            </p>
+            We’re built on a family coffee journey that started long before export paperwork back when our work was simply moving through coffee regions, meeting farmers, and seeing how easily great coffee can lose value between the farm gate and the market. That experience shapes how we operate today. We source from our own estates and trusted cooperatives, keep lots clearly documented, and focus on what matters for roasters: clean preparation, consistent profiles, and dependable communication.
+            <br />
+            <br />
+            If you’re a Canadian business, our Canada-based operations give you real advantages. We import coffee directly into our Canadian warehouses, manage logistics locally, and help you build a dependable supply plan you can count on.            </p>
           </div>
           
           <div id='desc-right' className='flex flex-col gap-5 lg:w-1/2 lg:pl-32'>
