@@ -17,23 +17,23 @@ export const metadata: Metadata = {
 const timeline = [
   {
     year: 'A childhood on the road',
-    description: 'Our story starts with my father raised traveling across Ethiopia with his own father (my grandfather), a trader moving between regions. Those early journeys built a deep respect for people, place, and the work behind every crop.'
+    description: 'Our foundation isn\'t corporate; it\'s familial. My father spent his childhood traveling across Ethiopia with my grandfather a local trader. Moving from region to region, he didn\'t just see the land; he learned the rhythm of trade and developed a profound respect for the communities cultivating the crops.'
   },
   {
-    year: 'A coffee journey begins (~40 years ago)',
-    description: 'While my grandfather traded many commodities, coffee stayed with my father. About 40 years ago he noticed a painful gap: farmers did the hardest work, but often saw the smallest share of the value.'
+    year: 'A coffee journey begins',
+    description: 'While my grandfather traded various goods, it was coffee that captured my father’s heart. However, nearly 40 years ago, he recognized a troubling disparity: the farmers pouring their sweat into the soil were often the ones receiving the least reward.'
   },
   {
     year: 'Building with farmers',
-    description: 'He began working directly with farmers and helped initiate and strengthen cooperatives focused on fairer market access, better coordination, and improving how value flows back to the people who grow the coffee.'
+    description: 'Determined to make a difference, he immersed himself in the farming communities. He didn\'t just buy coffee; he purchased his own farm and worked the land alongside his neighbors, while partnering with them to establish and strengthen cooperatives. His mission was clear: improve market access and ensure that the value returned to the hands that planted the seeds.'
   },
   {
     year: 'Formally registered in 2020',
-    description: 'My brother and I formed Ethio Coffee Import and Export PLC and formally registered the company as an exporter in 2020 so we could carry this work beyond the local market and into long-term export partnerships.'
+    description: 'Inspired by his dedication, my brother and I formally established Ethio Coffee Import and Export PLC in 2020. Our goal was to expand this vision beyond local markets, creating long-term international partnerships that honor the legacy of fairness and quality.'
   },
   {
     year: 'Today',
-    description: 'With our father’s guidance, we continue the legacy: ethically sourcing quality Ethiopian coffee, prioritizing strong relationships, and doing our best to ensure farmers benefit meaningfully from what they produce.'
+    description: 'Guided by our father’s wisdom, we continue the tradition: ethically sourcing premium Ethiopian coffee, fostering transparent relationships, and ensuring that every cup exported supports the livelihoods of the farmers who made it possible.'
   }
 ]
 
@@ -54,13 +54,13 @@ const About = () => {
           </div>
           <div className='lg:w-1/2 py-2 lg:py-24 lg:px-12 lg:border-l-2 border-black'>
             <p className='my-2'>
-              Ethio Coffee Import and Export PLC ("Ethio Coffee") is a family-built Ethiopian coffee exporter.
-              We didn’t start with a marketing plan we started with a relationship: my father’s decades of working side-by-side with farmers and seeing, firsthand, how often the people who do the work end up with the smallest reward.
+              Ethio Coffee Import and Export PLC ("Ethio Coffee") is more than a business; it is a legacy.
+              We didn’t begin with a business plan, but with a deep-rooted relationship grounded in my father’s decades of work with farmers and local markets. He witnessed firsthand the disparity in the industry where those who worked the hardest often reaped the littlest reward and vowed to change it.
             </p>
             <p className='my-4'>
-              Growing up alongside him, I learned that coffee is not just a product it’s people, seasons, and trust.
-              That’s what motivated my brother and me to formally register Ethio Coffee Import and Export PLC as an exporter in 2020 and continue this work with integrity.
-              Our focus is simple: source quality coffee with care, export it responsibly, and keep farmer benefit at the center of the business.
+              Growing up in his shadow, I learned that coffee is not merely a commodity; it represents people, seasons, and unwavering trust.
+              Inspired by his dedication, my brother and I formally established Ethio Coffee Import and Export PLC in 2020. We are taking his legacy forward, striving to fill the gap in the international market just as he did for the local market.
+              Our mission is direct: source exceptional coffee from our own farms and partner growers with integrity, export responsibly, and ensure that farmers remain the heart of our success.
             </p>
             <p className='my-4 font-inconsolata text-sm text-gray-700'>
               For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC). References on this page to “we”, “our”, or “the company” refer to Ethio Coffee Import and Export PLC and its team.
