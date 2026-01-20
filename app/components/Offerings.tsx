@@ -6,7 +6,7 @@ const Offerings = () => {
   return (
     <section className='flex flex-col items-center py-32 bg-primary'>
       <h1 className='mx-2 text-6xl max-lg:text-center leading-tight text-dark font-bold'>
-        Coffee Lineup
+        COFFEE LINEUP
       </h1>
       <p className='max-md:text-center m-2'>
         {`Ethiopian lots selected for cafés and roasters worldwide`}
