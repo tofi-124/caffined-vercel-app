@@ -210,10 +210,10 @@ const CofeeDesc = () => {
   return (
     <section ref={sectionRef} id='coffee-desc' className='flex flex-col items-center py-32 bg-dark text-primary'>
       <div id="container" className='mb-20 lg:px-72'>
-        <h1 className='text-6xl leading-tight font-bold text-center'>
+        <h1 className='text-6xl leading-tight font-bold text-left'>
           THE ETHIOPIAN DIFFERENCE
         </h1>
-        <p className='text-center m-4'>
+        <p className='text-left m-4'>
           Ethiopian coffee is famous for its floral and fruity profiles but the real difference is the people behind it. In the same high-altitude regions where coffee has been part of daily life for generations, farmers turn careful picking and processing into cups that feel unmistakably “origin.” Our work starts there: with relationships, consistency, and respect for the craft.
         </p>
       </div>
