@@ -556,7 +556,7 @@ const Blog = ({params}: Props) => {
               Ethiopia’s coffee map is a great starting point - but sourcing decisions are made in the details.
             </figcaption>
 
-            <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-white/70 p-2'>
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
               <ResponsiveImage
                 src={`/images/${large_image_url}`}
                 alt='Map of Ethiopian coffee regions'

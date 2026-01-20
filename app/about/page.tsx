@@ -32,8 +32,8 @@ const timeline = [
     description: 'For the last 30 years, our father has worked with many farmers and local buyers across Ethiopia, moving coffee season after season. He learned what buyers need, what farmers face, and how small details in picking, drying, sorting, and storage decide whether a lot stays great or loses value. That long, practical experience is the foundation we stand on today.'
   },
   {
-    year: 'In 2020, we took it international',
-    description: 'Our father built his reputation in local trade, supplying coffee through relationships he earned over decades. In 2020, we formalized Ethio Coffee Import and Export PLC to take that foundation to the international market, building an export-ready operation with clearer communication, better transparency, and quality our partners can plan around.'
+    year: 'In  2022, we took it international',
+    description: 'Our father built his reputation in local trade, supplying coffee through relationships he earned over decades. In  2022, we formalized Ethio Coffee Import and Export PLC to take that foundation to the international market, building an export-ready operation with clearer communication, better transparency, and quality our partners can plan around.'
   },
   {
     year: 'Today, we export with purpose',
@@ -61,7 +61,7 @@ const About = () => {
               Ethio Coffee Import and Export PLC (“Ethio Coffee”) is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide. We combine generational relationships with farmers, ethical sourcing, and export-ready quality so that every shipment we deliver is consistent, transparent, and built for business.
             </p>
             <p className='my-4'>
-              Founded in 2020 by brothers carrying forward a legacy of integrity in coffee, our roots trace back to years of hands-on work in Ethiopian coffee regions. Our father dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the market. That experience shaped our mission: to cut out unnecessary layers, honor farmers, and deliver real value from farm to export container.
+              Founded in  2022 by brothers carrying forward a legacy of integrity in coffee, our roots trace back to years of hands-on work in Ethiopian coffee regions. Our father dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the market. That experience shaped our mission: to cut out unnecessary layers, honor farmers, and deliver real value from farm to export container.
             </p>
 
             <h3 className='mt-8 text-3xl font-extrabold text-dark'>What We Do</h3>

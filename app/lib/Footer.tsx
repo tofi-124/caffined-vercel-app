@@ -88,12 +88,18 @@ const Footer = () => {
               <address className='not-italic font-medium text-primary'>
                 Ethio Coffee Import and Export PLC
                 <br />
+                Yesak Building, 3rd Floor, Office 301
+                <br />
                 Lideta, Addis Ababa, Ethiopia
               </address>
             </li>
             <li>
               <p className='text-xs uppercase tracking-widest text-primary/70'>Canada</p>
-              <address className='not-italic font-medium text-primary'>Toronto, Canada</address>
+              <address className='not-italic font-medium text-primary'>
+                Adelaide St W & Spadina Ave
+                <br />
+                Toronto, Canada
+              </address>
             </li>
           </ul>
         </div>
@@ -105,11 +111,17 @@ const Footer = () => {
           <ul className='mt-4 space-y-4 text-primary/90'>
             <li>
               <p className='text-xs uppercase tracking-widest text-primary/70'>Office</p>
-              <p className='font-medium text-primary'>Monday–Friday: 09:00–17:00</p>
+              <address className='not-italic font-medium text-primary'>
+                Monday - Friday
+                <br />
+                09:00 - 17:00
+              </address>
             </li>
             <li>
               <p className='text-xs uppercase tracking-widest text-primary/70'>Notes</p>
-              <p className='font-medium text-primary'>International business hours available</p>
+              <address className='not-italic font-medium text-primary'>
+                International business hours available
+              </address>
             </li>
           </ul>
         </div>
