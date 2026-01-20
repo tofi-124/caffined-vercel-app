@@ -210,7 +210,7 @@ const CofeeDesc = () => {
   return (
     <section ref={sectionRef} id='coffee-desc' className='flex flex-col items-center py-32 bg-dark text-primary'>
       <div id="container" className='mb-20 lg:px-72'>
-        <h1 className='text-6xl leading-tight font-bold text-left'>
+        <h1 className='text-6xl leading-tight font-bold text-center'>
           THE ETHIOPIAN DIFFERENCE
         </h1>
         <p className='text-left m-4'>
