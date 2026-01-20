@@ -1,6 +1,7 @@
 "use client"
 import ResponsiveImage from '../components/ResponsiveImage'
 import { FaEnvelope, FaInstagram } from 'react-icons/fa'
+import Link from 'next/link'
 
 
 type Props = {
@@ -130,8 +131,15 @@ const Footer = () => {
       <div className='h-0.5 w-full bg-white/20' />
         
       <div className='py-8 text-center'>
-        <p className="flex items-center justify-center gap-3 text-primary/90">
+        <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-primary/90">
           © 2026 Ethio Coffee Import and Export PLC. All rights reserved.
+          <span className='text-primary/50'>|</span>
+          <Link
+            href='/terms'
+            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
+          >
+            Terms of Service
+          </Link>
         </p>
         <p className="mt-3 flex items-center justify-center gap-1 text-sm text-white/75">
           <span>made by</span>

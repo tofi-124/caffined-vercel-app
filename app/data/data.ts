@@ -31,7 +31,7 @@ export const posts:Post[] = [
     {
       small_image_url: 'Ethiopia_Coffee_Map.png',
       large_image_url: 'Ethiopia_Coffee_Map.png',
-      date: 'Jan 18, 2026',
+      date: 'Jan 20, 2026',
       title: 'A PRACTICAL GUIDE TO ETHIOPIAN GREEN COFFEE ORIGINS',
       category: 'Market Insights / Sourcing',
       desc: 'A buyer-friendly overview of Ethiopia’s key coffee regions, what “origin” means in practice, and how to source green coffee with better clarity on processing, profile, and traceability.'
