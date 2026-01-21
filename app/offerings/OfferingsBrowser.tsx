@@ -268,6 +268,7 @@ const OfferingsBrowser = () => {
         onClose={() => setQuoteFor(null)}
         productName={quoteFor?.name || ''}
         productImage={quoteFor?.image_url || ''}
+        isAllocationList={quoteFor?.isSoldOut ?? true}
       />
     </section>
   )

@@ -79,7 +79,7 @@ const OfferingDetail = ({ params }: Props) => {
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[250px] flex flex-col items-center justify-center'>
         <h1 className='text-5xl font-bold text-primary'>{product.name}</h1>
-        <p className='mt-3 text-primary font-inconsolata'>Sold out - now accepting inquiries for the 2026 crop only.</p>
+        <p className='mt-3 text-primary font-inconsolata'></p>
       </header>
       
       <section className='container mx-auto py-16 px-4'>
@@ -97,12 +97,14 @@ const OfferingDetail = ({ params }: Props) => {
           
           <div className='lg:w-1/2'>
             <h1 className='text-5xl font-extrabold text-dark mb-4'>{product.name}</h1>
-            <div className='mb-6 flex flex-wrap items-center gap-2'>
-              <span className='inline-flex items-center px-3 py-1 rounded-md bg-dark text-primary border border-dark text-xs font-bold'>
-                SOLD OUT
-              </span>
-              <span className='text-sm text-gray-700'>Sold out - now accepting inquiries for the 2026 crop only.</span>
-            </div>
+            {product.isSoldOut && (
+              <div className='mb-6 flex flex-wrap items-center gap-2'>
+                <span className='inline-flex items-center px-3 py-1 rounded-md bg-dark text-primary border border-dark text-xs font-bold'>
+                  SOLD OUT
+                </span>
+                <span className='text-sm text-gray-700'>Sold out - now accepting inquiries for the 2026 crop only.</span>
+              </div>
+            )}
             {/* <div className='flex flex-col mb-6'>
               <p className='text-2xl font-bold'>${product.price}/lb</p>
               <p className='text-sm text-gray-600 italic'>Price: {product.priceType}</p>
@@ -188,16 +190,16 @@ const OfferingDetail = ({ params }: Props) => {
             <div className='flex flex-wrap gap-4'>
               <Link 
                 href="/contact-us"
-                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold'
+                className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold'
               >
-                CONTACT US FOR PRICING
+                CONTACT US
               </Link>
               
               <button 
                 onClick={() => setIsQuoteOpen(true)}
-                className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold cursor-pointer'
+                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold cursor-pointer'
               >
-                GET A QUOTE
+                {product.isSoldOut ? 'JOIN ALLOCATION LIST' : 'GET A QUOTE'}
               </button>
 
               <QuoteRequestPopup
@@ -205,6 +207,7 @@ const OfferingDetail = ({ params }: Props) => {
                 onClose={() => setIsQuoteOpen(false)}
                 productName={product.name}
                 productImage={product.image_url}
+                isAllocationList={product.isSoldOut}
               />
             </div>
           </div>

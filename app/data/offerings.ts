@@ -16,6 +16,7 @@ export type Offering = {
   profile: string
   origin: string
   specifications: OfferingSpecifications
+  isSoldOut?: boolean
 }
 
 export const offerings: Offering[] = [
@@ -37,6 +38,7 @@ export const offerings: Offering[] = [
       defectCount: 'Low (Grade 1 standard; lot-dependent)',
       cupScore: '86.0',
     },
+    isSoldOut: false,
   },
   {
     id: 'sidamo',
@@ -56,6 +58,7 @@ export const offerings: Offering[] = [
       defectCount: 'Low (Grade 1 standard; lot-dependent)',
       cupScore: '86.0',
     },
+    isSoldOut: true,
   },
   {
     id: 'harar',
@@ -75,6 +78,7 @@ export const offerings: Offering[] = [
       defectCount: 'Low (Grade 1 standard; lot-dependent)',
       cupScore: '85.0',
     },
+    isSoldOut: true,
   },
   {
     id: 'limu',
@@ -94,6 +98,7 @@ export const offerings: Offering[] = [
       defectCount: 'Low (Grade 1 standard; lot-dependent)',
       cupScore: '84.5',
     },
+    isSoldOut: true,
   },
   {
     id: 'guji',
@@ -113,6 +118,7 @@ export const offerings: Offering[] = [
       defectCount: 'Low (Grade 1 standard; lot-dependent)',
       cupScore: '87.0',
     },
+    isSoldOut: true,
   },
   {
     id: 'lekempti',
@@ -132,5 +138,6 @@ export const offerings: Offering[] = [
       defectCount: 'Low (Grade 1 standard; lot-dependent)',
       cupScore: '84.5',
     },
+    isSoldOut: true,
   },
 ]

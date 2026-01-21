@@ -8,9 +8,10 @@ type QuoteRequestPopupProps = {
   onClose: () => void
   productName: string
   productImage: string
+  isAllocationList?: boolean
 }
 
-const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: QuoteRequestPopupProps) => {
+const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAllocationList = false }: QuoteRequestPopupProps) => {
   const [formData, setFormData] = useState({
     businessName: '',
     contactName: '',
@@ -79,7 +80,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: Quote
     <div className='fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center'>
       <div className='bg-primary p-6 rounded-md max-w-2xl w-full max-h-[90vh] overflow-y-auto'>
         <div className='flex justify-between items-center mb-6'>
-          <h2 className='text-2xl font-bold'>Get a Quote</h2>
+          <h2 className='text-2xl font-bold'>{isAllocationList ? 'Join Allocation List' : 'Get a Quote'}</h2>
           <button onClick={onClose} className='text-2xl font-bold'>
             &times;
           </button>
@@ -88,7 +89,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage }: Quote
         {submitSuccess ? (
           <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
             <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
-            <p className='text-green-700'>Your quote request has been submitted successfully. We'll contact you soon at the email address you provided.</p>
+            <p className='text-green-700'>Your request has been submitted successfully. We'll contact you soon at the email address you provided.</p>
             <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
 
             <div className='flex justify-center pt-6'>

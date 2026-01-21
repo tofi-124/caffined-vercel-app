@@ -29,12 +29,14 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
               <Link href={`/product/${o.id}`} className='hover:opacity-90'>
                 <h3 className='text-2xl font-extrabold text-dark break-words'>{o.name}</h3>
               </Link>
-              <div className='mt-2 flex flex-wrap items-center gap-2'>
-                <span className='inline-flex items-center px-3 py-1 rounded-md bg-dark text-primary border border-dark text-xs font-bold'>
-                  SOLD OUT
-                </span>
-                <span className='text-sm text-gray-700'>Sold out - now accepting inquiries for the 2026 crop only.</span>
-              </div>
+              {o.isSoldOut && (
+                <div className='mt-2 flex flex-wrap items-center gap-2'>
+                  <span className='inline-flex items-center px-3 py-1 rounded-md bg-dark text-primary border border-dark text-xs font-bold'>
+                    SOLD OUT
+                  </span>
+                  <span className='text-sm text-gray-700'>Sold out - now accepting inquiries for the 2026 crop only.</span>
+                </div>
+              )}
               <p className='mt-2'>{o.desc}</p>
 
               <div className='mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-700'>
@@ -56,16 +58,10 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
               <div className='w-full md:w-56 flex md:flex-col gap-3 md:items-end'>
                 <button
                   onClick={() => onRequestQuote?.(o)}
-                  className='p-10 py-3 bg-primary hover:bg-dark text-dark hover:text-primary border border-dark rounded-md font-bold w-fit'
+                  className='px-6 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold whitespace-nowrap'
                 >
-                  GET A QUOTE
+                  {o.isSoldOut ? 'JOIN ALLOCATION LIST' : 'GET A QUOTE'}
                 </button>
-                <Link
-                  href='/contact-us'
-                  className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold w-fit'
-                >
-                  CONTACT US
-                </Link>
               </div>
             )}
           </div>
