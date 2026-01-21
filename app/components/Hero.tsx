@@ -29,7 +29,7 @@ const Hero = () => {
             bg-accent hover:bg-dark text-white hover:text-primary
             border border-accent hover:border-primary
             rounded-md
-         ' aria-label="Check out our coffees">BUY COFFEE</Link>
+         ' aria-label="Check out our coffees">BUY GREEN COFFEE</Link>
         </div>
 
         <div id="hero-image-wrapper" className='relative flex w-full justify-center lg:w-1/3'>
