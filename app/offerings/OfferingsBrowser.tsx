@@ -120,6 +120,7 @@ const OfferingsBrowser = () => {
   }, [page, safePage])
 
   const [quoteFor, setQuoteFor] = useState<Offering | null>(null)
+  const [isFilterOpen, setIsFilterOpen] = useState(false)
 
   const clearFilters = () => {
     const cleared: Filters = { keyword: '', grade: '', processingMethod: '', cropYear: '', minScore: '', availability: '' }
@@ -139,8 +140,158 @@ const OfferingsBrowser = () => {
 
         <div ref={resultsTopRef} />
 
+        {/* Mobile filter button - fixed at bottom */}
+        <button
+          onClick={() => setIsFilterOpen(true)}
+          className='lg:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex items-center gap-2 px-6 py-3 bg-dark text-primary rounded-full shadow-lg hover:bg-accent transition-all'
+        >
+          <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z' />
+          </svg>
+          <span className='font-bold'>Filters</span>
+        </button>
+
+        {/* Mobile filter overlay */}
+        {isFilterOpen && (
+          <div className='lg:hidden fixed inset-0 z-50'>
+            {/* Backdrop */}
+            <div 
+              className='absolute inset-0 bg-black/50' 
+              onClick={() => setIsFilterOpen(false)}
+            />
+            {/* Bottom sheet */}
+            <div className='absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl max-h-[85vh] overflow-y-auto animate-slide-up'>
+              {/* Handle bar */}
+              <div className='sticky top-0 bg-white pt-3 pb-2 border-b border-gray-100'>
+                <div className='w-12 h-1.5 bg-gray-300 rounded-full mx-auto mb-3'></div>
+                <div className='flex items-center justify-between px-6'>
+                  <h2 className='text-xl font-bold text-dark'>Filters</h2>
+                  <button 
+                    onClick={() => setIsFilterOpen(false)}
+                    className='p-2 hover:bg-gray-100 rounded-full transition-colors'
+                  >
+                    <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                      <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M6 18L18 6M6 6l12 12' />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              
+              <div className='p-6 space-y-4'>
+                <div>
+                  <label className='block text-sm font-medium text-gray-700 mb-1.5'>Keyword</label>
+                  <input
+                    value={draft.keyword}
+                    onChange={(e) => setDraft((p) => ({ ...p, keyword: e.target.value }))}
+                    placeholder='Search offerings'
+                    className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                  />
+                </div>
+
+                <div className='grid grid-cols-2 gap-4'>
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700 mb-1.5'>Grade</label>
+                    <select
+                      value={draft.grade}
+                      onChange={(e) => setDraft((p) => ({ ...p, grade: e.target.value }))}
+                      className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
+                    >
+                      <option value=''>All</option>
+                      {gradeOptions.map((v) => (
+                        <option key={v} value={v}>{v}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700 mb-1.5'>Process</label>
+                    <select
+                      value={draft.processingMethod}
+                      onChange={(e) => setDraft((p) => ({ ...p, processingMethod: e.target.value }))}
+                      className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
+                    >
+                      <option value=''>All</option>
+                      {processingOptions.map((v) => (
+                        <option key={v} value={v}>{v}</option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+
+                <div className='grid grid-cols-2 gap-4'>
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700 mb-1.5'>Availability</label>
+                    <select
+                      value={draft.availability}
+                      onChange={(e) => setDraft((p) => ({ ...p, availability: e.target.value }))}
+                      className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
+                    >
+                      <option value=''>All</option>
+                      <option value='in-stock'>In Stock</option>
+                      <option value='sold-out'>Sold Out</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className='block text-sm font-medium text-gray-700 mb-1.5'>Crop Year</label>
+                    <select
+                      value={draft.cropYear}
+                      onChange={(e) => setDraft((p) => ({ ...p, cropYear: e.target.value }))}
+                      className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
+                    >
+                      <option value=''>All</option>
+                      {cropYearOptions.map((v) => (
+                        <option key={v} value={v}>{v}</option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label className='block text-sm font-medium text-gray-700 mb-1.5'>Cup Score</label>
+                  <div className='flex items-center justify-between text-sm text-gray-600'>
+                    <span>Any</span>
+                    <span className='font-bold text-dark'>{draft.minScore ? `${draft.minScore}+` : 'Any'}</span>
+                    <span>100</span>
+                  </div>
+                  <input
+                    type='range'
+                    min={0}
+                    max={100}
+                    step={0.5}
+                    value={draft.minScore === '' ? 0 : Number(draft.minScore)}
+                    onChange={(e) => {
+                      const v = Number(e.target.value)
+                      setDraft((p) => ({ ...p, minScore: v <= 0 ? '' : String(v) }))
+                    }}
+                    className='w-full range-accent-dark'
+                    aria-label='Minimum cup score'
+                  />
+                </div>
+
+                <div className='flex gap-3 pt-4 pb-6'>
+                  <button
+                    onClick={() => {
+                      setApplied(draft)
+                      setIsFilterOpen(false)
+                    }}
+                    className='flex-1 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-lg font-bold transition-all'
+                  >
+                    Show Results
+                  </button>
+                  <button
+                    onClick={clearFilters}
+                    className='flex-1 py-3 bg-gray-100 hover:bg-gray-200 text-dark rounded-lg font-medium transition-all'
+                  >
+                    Clear
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         <div className='flex flex-col lg:flex-row gap-10 items-start'>
-          <aside className='w-full lg:w-72 bg-white border border-gray-200 rounded-2xl p-6 h-fit lg:sticky lg:top-24 self-start shadow-sm'>
+          {/* Desktop sidebar filter */}
+          <aside className='hidden lg:block w-72 bg-white border border-gray-200 rounded-2xl p-6 h-fit sticky top-24 self-start shadow-sm'>
             <h2 className='text-xl font-bold text-dark mb-4'>Filter By</h2>
 
             <div className='space-y-4'>
@@ -239,7 +390,10 @@ const OfferingsBrowser = () => {
 
               <div className='flex gap-3 pt-4'>
                 <button
-                  onClick={() => setApplied(draft)}
+                  onClick={() => {
+                    setApplied(draft)
+                    setIsFilterOpen(false)
+                  }}
                   className='flex-1 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-lg font-bold transition-all'
                 >
                   Apply
