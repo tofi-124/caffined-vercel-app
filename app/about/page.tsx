@@ -133,23 +133,27 @@ const About = () => {
         </div>
           
       </section> 
-      <section className='bg-primary text-dark flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-extrabold'>
-          OUR STORY, IN MILESTONES
-        </h1>
-       {
-          timeline.map((item, index) => (
-            <div key={index} className='container flex flex-col items-center align-center my-8'>
-              <h2 className='text-3xl font-extrabold text-center my-2 max-w-3xl'>
-                {item.year}
-              </h2>
-              <p className='text-center max-w-xl'>
-                {item.description}
-              </p>
-            </div>
-          ))
-       }
-
+      <section className='bg-primary text-dark py-20'>
+        <div className='container mx-auto px-4'>
+          <h1 className='text-5xl font-extrabold text-center mb-4'>
+            OUR STORY, IN MILESTONES
+          </h1>
+          <div className='w-24 h-1 bg-accent mx-auto mb-16'></div>
+          
+          <div className='max-w-4xl mx-auto'>
+            {timeline.map((item, index) => (
+              <div key={index} className='relative pl-8 pb-12 border-l-2 border-secondary/30 last:pb-0'>
+                <div className='absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-secondary'></div>
+                <h2 className='text-2xl font-extrabold text-dark mb-3'>
+                  {item.year}
+                </h2>
+                <p className='text-gray-700 leading-relaxed'>
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
       <Testimonials />
     </main>

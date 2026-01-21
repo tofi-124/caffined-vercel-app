@@ -176,7 +176,7 @@ const WholesaleInquiryPage = () => {
                     name='businessName'
                     value={formData.businessName}
                     onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white' 
+                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
                     required 
                   />
                 </div>
@@ -188,7 +188,7 @@ const WholesaleInquiryPage = () => {
                     name='contactName'
                     value={formData.contactName}
                     onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white' 
+                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
                     required 
                   />
                 </div>
@@ -200,7 +200,7 @@ const WholesaleInquiryPage = () => {
                     name='email'
                     value={formData.email}
                     onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white' 
+                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
                     required 
                   />
                 </div>
@@ -212,7 +212,7 @@ const WholesaleInquiryPage = () => {
                     name='phone'
                     value={formData.phone}
                     onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white' 
+                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
                     required 
                   />
                 </div>
@@ -226,7 +226,7 @@ const WholesaleInquiryPage = () => {
                   name='country'
                   value={formData.country}
                   onChange={handleChange}
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white' 
+                  className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
                   required 
                 />
               </div>
@@ -238,7 +238,7 @@ const WholesaleInquiryPage = () => {
                   name='businessType'
                   value={formData.businessType}
                   onChange={handleChange}
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white'
+                  className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
                   required
                 >
                   <option value=''>Select your business type</option>
@@ -260,7 +260,7 @@ const WholesaleInquiryPage = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={5} 
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white'
+                  className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
                   placeholder='Tell us about your business needs, volumes required, etc.'
                 ></textarea>
               </div>

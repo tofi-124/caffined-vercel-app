@@ -32,15 +32,16 @@ const BlogPage = () => {
   }, []);
 
   return (
-    <main>
+    <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
         <h1 className='text-5xl font-bold text-primary'>BLOG</h1>
       </header>
-      <section className='flex flex-col justify-center items-center bg-primary'>
-        <h1 className='my-16 text-5xl font-extrabold'>
+      <section className='flex flex-col justify-center items-center bg-primary pb-16'>
+        <h1 className='my-16 text-5xl font-extrabold text-dark'>
           OUR RECENT POSTS
         </h1>
-        <div ref={postsRef} className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+        <p className='text-gray-600 max-w-2xl text-center mb-12 px-4'>Insights, stories, and updates from the world of Ethiopian coffee</p>
+        <div ref={postsRef} className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 px-4">
           {posts
             .map((post, id) => ({ post, id }))
             .sort((a, b) => parsePostDate(b.post.date) - parsePostDate(a.post.date))
