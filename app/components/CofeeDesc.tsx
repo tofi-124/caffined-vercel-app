@@ -234,7 +234,6 @@ const CofeeDesc = () => {
           >
             <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
             <source src='/videos/ethio-coffee.webm' type="video/webm" />
-            {/* <source src='/videos/cofee-from-machine.webm' type="video/webm" /> */}
           </video>
         </div>
       ) : (
