@@ -96,7 +96,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
               <button
                 type='button'
                 onClick={onClose}
-                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold'
+                className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold'
               >
                 CLOSE
               </button>
@@ -202,7 +202,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
               <button
                 type='submit'
                 disabled={isSubmitting}
-                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold disabled:opacity-70 disabled:cursor-not-allowed'
+                className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold disabled:opacity-70 disabled:cursor-not-allowed'
               >
                 {isSubmitting ? 'SENDING...' : 'SEND REQUEST'}
               </button>

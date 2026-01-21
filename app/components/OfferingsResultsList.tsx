@@ -37,7 +37,9 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
                   <span className='text-sm text-gray-700'>Sold out - now accepting inquiries for the 2026 crop only.</span>
                 </div>
               )}
-              <p className='mt-2'>{o.desc}</p>
+              <div className='mt-3 p-4 bg-gray-100/50 rounded-md'>
+                <p className='text-dark/80 italic text-sm'><span className='font-semibold'>Cupping note:</span> {o.desc.replace(/,/g, ' •')}</p>
+              </div>
 
               <div className='mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-700'>
                 <div><span className='font-bold'>Grade:</span> {o.specifications.grade}</div>
@@ -58,7 +60,7 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
               <div className='w-full md:w-56 flex md:flex-col gap-3 md:items-end'>
                 <button
                   onClick={() => onRequestQuote?.(o)}
-                  className='px-6 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold whitespace-nowrap'
+                  className='px-6 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold whitespace-nowrap'
                 >
                   {o.isSoldOut ? 'JOIN ALLOCATION LIST' : 'GET A QUOTE'}
                 </button>

@@ -24,8 +24,8 @@ const Offerings = () => {
 
       <Link href='/offerings' className='
         p-10 py-3 mt-12 w-fit font-inconsolata
-        bg-primary hover:bg-dark text-dark hover:text-primary
-         border border-black 
+        bg-accent hover:bg-dark text-white hover:text-primary
+         border border-accent hover:border-dark
          rounded-md
       '>
         VIEW ALL OUR OFFERINGS

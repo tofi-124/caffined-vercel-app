@@ -219,7 +219,7 @@ const OfferingsBrowser = () => {
               <div className='flex gap-3 pt-2'>
                 <button
                   onClick={() => setApplied(draft)}
-                  className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold'
+                  className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold'
                 >
                   APPLY
                 </button>
@@ -250,8 +250,8 @@ const OfferingsBrowser = () => {
                     }}
                     className={
                       p === safePage
-                        ? 'px-4 py-2 bg-dark text-primary border border-dark rounded-md font-bold'
-                        : 'px-4 py-2 bg-primary text-dark border border-dark rounded-md font-bold hover:bg-dark hover:text-primary'
+                        ? 'px-4 py-2 bg-accent text-white border border-accent rounded-md font-bold'
+                        : 'px-4 py-2 bg-primary text-dark border border-dark rounded-md font-bold hover:bg-accent hover:text-white hover:border-accent'
                     }
                     aria-label={`Go to page ${p}`}
                   >

@@ -290,8 +290,8 @@ const WholesaleInquiryPage = () => {
                   disabled={isSubmitting}
                   className='
                     p-10 py-4 mt-6 w-fit
-                    bg-dark hover:bg-primary text-primary hover:text-dark
-                    border border-dark hover:border-dark
+                    bg-accent hover:bg-dark text-white hover:text-primary
+                    border border-accent hover:border-dark
                     rounded-md
                     font-bold text-xl
                     disabled:opacity-70 disabled:cursor-not-allowed

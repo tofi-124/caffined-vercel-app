@@ -21,10 +21,12 @@ const config: Config = {
 
       },
       colors: {
-        'primary' : '#FFF2E6',
+        'primary' : '#FFF9F5',
         'black': '#000',
-        'dark': '#010101',
-        'white': '#FFF'
+        'dark': '#1B3A4B',
+        'white': '#FFF',
+        'accent': '#E07B58',
+        'secondary': '#4A9B9B'
       },
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],

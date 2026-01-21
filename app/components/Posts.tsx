@@ -50,7 +50,7 @@ const Posts = () => {
           OUR RECENT POSTS
         </h1>
         
-        <div className="w-24 h-1 bg-dark mx-auto mb-16"></div>
+        <div className="w-24 h-1 bg-accent mx-auto mb-16"></div>
 
         <div id="blogs-container" className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center'>
           {featuredHomePostIds
@@ -64,7 +64,7 @@ const Posts = () => {
         <div className='flex justify-center mt-10'>
           <Link
             href='/blog'
-            className='px-5 py-2 border border-dark rounded-md font-inconsolata text-sm bg-primary hover:bg-dark text-dark hover:text-primary'
+            className='px-5 py-2 border border-accent rounded-md font-inconsolata text-sm bg-accent hover:bg-dark text-white hover:text-primary'
           >
             VIEW ALL BLOGS
           </Link>

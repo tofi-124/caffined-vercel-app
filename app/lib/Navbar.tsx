@@ -36,12 +36,12 @@ const Navbar = () => {
                 <div id='search-cart' className='flex gap-5 justify-between items-center'>
                     <Link 
                         href="/contact-us"
-                        className='hidden md:block p-2 py-1 bg-dark text-primary rounded-md text-sm hover:bg-primary hover:text-dark hover:border-dark border border-dark transition-colors'
+                        className='hidden md:block p-2 py-1 bg-accent text-white rounded-md text-sm hover:bg-dark hover:text-primary border border-accent hover:border-dark transition-colors'
                     >
                         Contact Us
                     </Link>
                     
-                    <button onClick={(e) => {e.preventDefault(); setIsOpened((prev) => !prev)}} className='lg:hidden text-primary bg-dark p-2 rounded-md'>
+                    <button onClick={(e) => {e.preventDefault(); setIsOpened((prev) => !prev)}} className='lg:hidden text-white bg-dark p-2 rounded-md'>
                         {isOpened ? (<AiOutlineClose type='button' className='text-xl'/>) : (<BiMenuAltRight type='button' className='text-xl' />) }
                     </button>
                 </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
                             <NavLinks />
                             <Link 
                                 href="/contact-us"
-                                className='p-2 py-1 mt-4 bg-dark text-primary rounded-md hover:bg-primary hover:text-dark hover:border-dark border border-dark transition-colors'
+                                className='p-2 py-1 mt-4 bg-accent text-white rounded-md hover:bg-dark hover:text-primary border border-accent hover:border-dark transition-colors'
                             >
                                 Contact Us
                             </Link>

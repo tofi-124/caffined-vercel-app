@@ -66,7 +66,7 @@ const OfferingDetail = ({ params }: Props) => {
           <p className='mb-8'>Sorry, we couldn't find the offering you're looking for.</p>
           <Link 
             href="/offerings"
-            className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md'
+            className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md'
           >
             RETURN TO OFFERINGS
           </Link>
@@ -197,7 +197,7 @@ const OfferingDetail = ({ params }: Props) => {
               
               <button 
                 onClick={() => setIsQuoteOpen(true)}
-                className='p-10 py-3 bg-dark hover:bg-primary text-primary hover:text-dark border border-dark rounded-md font-bold cursor-pointer'
+                className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold cursor-pointer'
               >
                 {product.isSoldOut ? 'JOIN ALLOCATION LIST' : 'GET A QUOTE'}
               </button>
