@@ -13,8 +13,8 @@ const Navbar = () => {
     
     return (
     <>
-        <TopMessage />
         <header id='header' className='sticky top-0 z-20'>
+            <TopMessage />
             <nav id='nav' className='bg-primary flex justify-between max-lg:px-2 px-40 items-center gap py-1 px-3 shadow-md h-16'>
                 
                 <div id="nav-links" className='flex justify-between max-lg:hidden items-center text-xl gap-5 font-bold'>

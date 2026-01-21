@@ -1,7 +1,7 @@
 import React from 'react'
 
 const TopMessage = () => {
-  const text = 'FARMER-FIRST ETHIOPIAN COFFEE 🫘 Empowering Growers, Delivering Excellence.  Traceable Micro-lots | 2025/2026 Harvest Samples Available ☕ | Free Samples Available For Qualified Wholesale Buyers, Roasters and Cafe Owners'
+  const text = 'DIRECT FROM ETHIOPIAN FARMS | Premium Traceable Green Coffee for Roasters & Cafés | 2025/2026 Harvest Now Available | Request Free Samples Today'
 
   return (
     <div className='p-2 text-white bg-accent overflow-hidden'>
