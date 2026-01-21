@@ -12,6 +12,7 @@ type Filters = {
   processingMethod: string
   cropYear: string
   minScore: string
+  availability: string
 }
 
 const normalize = (value: string) => value.trim().toLowerCase()
@@ -22,6 +23,9 @@ const matchesKeyword = (offering: Offering, keyword: string) => {
   return (
     normalize(offering.name).includes(q) ||
     normalize(offering.desc).includes(q) ||
+    normalize(offering.region).includes(q) ||
+    normalize(offering.variety).includes(q) ||
+    offering.flavorNotes.some((note) => normalize(note).includes(q)) ||
     normalize(offering.specifications.grade).includes(q) ||
     normalize(offering.specifications.processingMethod).includes(q) ||
     normalize(offering.specifications.cropYear).includes(q)
@@ -70,6 +74,7 @@ const OfferingsBrowser = () => {
     processingMethod: '',
     cropYear: '',
     minScore: '',
+    availability: '',
   })
 
   const [applied, setApplied] = useState<Filters>(draft)
@@ -80,6 +85,9 @@ const OfferingsBrowser = () => {
       if (applied.grade && o.specifications.grade !== applied.grade) return false
       if (applied.processingMethod && o.specifications.processingMethod !== applied.processingMethod) return false
       if (applied.cropYear && o.specifications.cropYear !== applied.cropYear) return false
+
+      if (applied.availability === 'in-stock' && o.isSoldOut) return false
+      if (applied.availability === 'sold-out' && !o.isSoldOut) return false
 
       if (applied.minScore) {
         const minScore = Number(applied.minScore)
@@ -114,7 +122,7 @@ const OfferingsBrowser = () => {
   const [quoteFor, setQuoteFor] = useState<Offering | null>(null)
 
   const clearFilters = () => {
-    const cleared: Filters = { keyword: '', grade: '', processingMethod: '', cropYear: '', minScore: '' }
+    const cleared: Filters = { keyword: '', grade: '', processingMethod: '', cropYear: '', minScore: '', availability: '' }
     setDraft(cleared)
     setApplied(cleared)
   }
@@ -175,6 +183,19 @@ const OfferingsBrowser = () => {
                       {v}
                     </option>
                   ))}
+                </select>
+              </div>
+
+              <div>
+                <label className='block text-sm font-medium text-gray-700 mb-1.5'>Availability</label>
+                <select
+                  value={draft.availability}
+                  onChange={(e) => setDraft((p) => ({ ...p, availability: e.target.value }))}
+                  className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
+                >
+                  <option value=''>All</option>
+                  <option value='in-stock'>In Stock</option>
+                  <option value='sold-out'>Sold Out</option>
                 </select>
               </div>
 
