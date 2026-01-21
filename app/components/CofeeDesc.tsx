@@ -220,7 +220,7 @@ const CofeeDesc = () => {
 
       {isIOS ? (
         // Special handling for iOS devices
-        <div className="video-container w-full">
+        <div className="video-container w-full bg-dark">
           <video 
             ref={videoRef}
             muted 
@@ -230,7 +230,7 @@ const CofeeDesc = () => {
             loop
             preload="auto"
             poster="/images/cover.png"
-            className="w-full h-auto"
+            className="w-full h-auto bg-dark"
           >
             <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
             <source src='/videos/ethio-coffee.webm' type="video/webm" />
@@ -247,6 +247,7 @@ const CofeeDesc = () => {
           playsInline
           preload="auto"
           poster="/images/cover.png"
+          className="bg-dark"
         >
           <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
           <source src='/videos/ethio-coffee.webm' type="video/webm" />
