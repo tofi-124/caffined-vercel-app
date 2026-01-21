@@ -220,7 +220,7 @@ const OfferingDetail = ({ params }: Props) => {
                       activeDetail === 'technicalSpecs' ? 'border-dark font-semibold' : 'border-transparent hover:border-gray-300'
                     }`}
                   >
-                    Technical Specifications
+                    Specifications
                   </button>
                 </div>
                 
