@@ -98,7 +98,7 @@ const OfferingsBrowser = () => {
     })
   }, [applied])
 
-  const PAGE_SIZE = 4
+  const PAGE_SIZE = 6
   const [page, setPage] = useState(1)
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))

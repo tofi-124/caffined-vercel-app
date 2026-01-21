@@ -1,10 +1,10 @@
 export type OfferingSpecifications = {
   grade: string
-  screenSize: string
+  screenSize: string | null
   processingMethod: string
   cropYear: string
-  moisture: string
-  defectCount: string
+  moisture: string | null
+  defectCount: string | null
   cupScore: string
 }
 
@@ -210,5 +210,35 @@ export const offerings: Offering[] = [
     lotNumber: 'ETH-2025-LEK-006',
     certifications: [],
     flavorNotes: ['Cocoa', 'Mild Fruit', 'Spice', 'Nutty'],
+  },
+  {
+    id: 'yirgacheffe-002',
+    name: 'YIRGACHEFFE',
+    image_url: 'product-img.png',
+    desc: 'Delicate jasmine, rose-like florals, bright lemon zest, natural berry sweetness.',
+    profile:
+      'Yirgacheffe Green Coffee Beans, a single-origin specialty for home roasters as well as coffee roasters seeking delicate floral elegance. These raw coffee beans are ideal for creating a refined, bright lemon zest and berry-sweet cup at home.',
+    origin:
+      'Yirgacheffe is known for high-altitude lots that cup very clean when washed. Lot character can shift by kebele, washing-station practices, and drying conditions, so the exact notes may vary from shipment to shipment.',
+    specifications: {
+      grade: 'G2',
+      screenSize: null,
+      processingMethod: 'Washed',
+      cropYear: '2025',
+      moisture: null,
+      defectCount: null,
+      cupScore: '84.0',
+    },
+    isSoldOut: false,
+    altitude: '1,900 - 2,200 masl',
+    region: 'Yirgacheffe Zone, SNNPR',
+    producer: 'Smallholder farmers',
+    variety: 'Heirloom Ethiopian varieties',
+    bagSize: 'Available in different bag sizes',
+    availableBags: null,
+    warehouseLocation: 'Addis Ababa, Ethiopia',
+    lotNumber: 'ETH-2025-YRG-002',
+    certifications: [],
+    flavorNotes: ['Jasmine', 'Lemon Zest', 'Berry'],
   },
 ]
