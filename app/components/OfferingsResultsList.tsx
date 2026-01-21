@@ -28,9 +28,13 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
                 className='object-contain group-hover:scale-105 transition-transform duration-500'
               />
             </div>
-            {o.isSoldOut && (
+            {o.isSoldOut ? (
               <span className='absolute top-4 right-4 px-3 py-1.5 rounded-full bg-dark text-white text-xs font-bold uppercase tracking-wide'>
                 Sold Out
+              </span>
+            ) : o.availableBags !== null && (
+              <span className='absolute top-4 right-4 px-3 py-1.5 rounded-full bg-green-600 text-white text-xs font-bold uppercase tracking-wide'>
+                {o.availableBags} bags
               </span>
             )}
           </Link>
@@ -43,10 +47,26 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
               </h3>
             </Link>
             
-            {/* Cupping Notes */}
-            <p className='mt-3 text-sm text-gray-600 italic line-clamp-2'>
-              {o.desc.replace(/,/g, ' • ')}
+            {/* Region */}
+            <p className='mt-1 text-sm text-gray-500'>
+              {o.region}
             </p>
+
+            {/* Flavor Notes */}
+            {o.flavorNotes.length > 0 && (
+              <div className='mt-3 flex flex-wrap gap-1.5'>
+                {o.flavorNotes.slice(0, 3).map((note, index) => (
+                  <span key={index} className='px-2 py-0.5 bg-accent/10 rounded-full text-xs font-medium text-accent'>
+                    {note}
+                  </span>
+                ))}
+                {o.flavorNotes.length > 3 && (
+                  <span className='px-2 py-0.5 text-xs text-gray-400'>
+                    +{o.flavorNotes.length - 3} more
+                  </span>
+                )}
+              </div>
+            )}
 
             {/* Quick Specs */}
             <div className='mt-4 flex flex-wrap gap-2'>
@@ -54,7 +74,7 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
                 {o.specifications.processingMethod}
               </span>
               <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
-                {o.specifications.grade}
+                {o.altitude}
               </span>
               <span className='px-2.5 py-1 bg-accent/10 rounded-full text-xs font-semibold text-accent'>
                 {o.specifications.cupScore} pts
