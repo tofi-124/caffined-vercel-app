@@ -11,69 +11,84 @@ type Props = {
 
 const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Props) => {
   return (
-    <div className='flex flex-col gap-6 w-full'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full'>
       {items.map((o) => (
-        <div key={o.id} className='border border-dark rounded-md p-6 bg-primary'>
-          <div className='flex flex-col md:flex-row gap-6 items-start'>
-            <div className='w-full md:w-40 flex justify-center'>
+        <div 
+          key={o.id} 
+          className='group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col'
+        >
+          {/* Image Container */}
+          <Link href={`/product/${o.id}`} className='relative overflow-hidden bg-gradient-to-b from-gray-50 to-white p-6'>
+            <div className='relative w-full aspect-square flex items-center justify-center'>
               <ResponsiveImage
                 src={`/images/${o.image_url}`}
                 alt={o.name}
-                width={140}
-                height={180}
-                className='object-contain'
+                width={280}
+                height={280}
+                className='object-contain group-hover:scale-105 transition-transform duration-500'
               />
             </div>
+            {o.isSoldOut && (
+              <span className='absolute top-4 right-4 px-3 py-1.5 rounded-full bg-dark text-white text-xs font-bold uppercase tracking-wide'>
+                Sold Out
+              </span>
+            )}
+          </Link>
 
-            <div className='flex-1'>
-              <Link href={`/product/${o.id}`} className='hover:opacity-90'>
-                <h3 className='text-2xl font-extrabold text-dark break-words'>{o.name}</h3>
-              </Link>
-              {o.isSoldOut && (
-                <div className='mt-2 flex flex-wrap items-center gap-2'>
-                  <span className='inline-flex items-center px-3 py-1 rounded-md bg-dark text-primary border border-dark text-xs font-bold'>
-                    SOLD OUT
-                  </span>
-                  <span className='text-sm text-gray-700'>Sold out - now accepting inquiries for the 2026 crop only.</span>
-                </div>
-              )}
-              <div className='mt-3 p-4 bg-gray-100/50 rounded-md'>
-                <p className='text-dark/80 italic text-sm'><span className='font-semibold'>Cupping note:</span> {o.desc.replace(/,/g, ' •')}</p>
-              </div>
+          {/* Content Container */}
+          <div className='flex flex-col flex-1 p-6 pt-2'>
+            <Link href={`/product/${o.id}`} className='group/title'>
+              <h3 className='text-xl font-bold text-dark group-hover/title:text-accent transition-colors duration-200 line-clamp-2'>
+                {o.name}
+              </h3>
+            </Link>
+            
+            {/* Cupping Notes */}
+            <p className='mt-3 text-sm text-gray-600 italic line-clamp-2'>
+              {o.desc.replace(/,/g, ' • ')}
+            </p>
 
-              <div className='mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-700'>
-                <div><span className='font-bold'>Grade:</span> {o.specifications.grade}</div>
-                <div><span className='font-bold'>Process:</span> {o.specifications.processingMethod}</div>
-                <div><span className='font-bold'>Crop Year:</span> {o.specifications.cropYear}</div>
-                <div><span className='font-bold'>Screen:</span> {o.specifications.screenSize}</div>
-                <div><span className='font-bold'>Cup Score:</span> {o.specifications.cupScore}</div>
-              </div>
-
-              <div className='mt-4'>
-                <Link href={`/product/${o.id}`} className='underline font-bold'>
-                  VIEW DETAILS
-                </Link>
-              </div>
+            {/* Quick Specs */}
+            <div className='mt-4 flex flex-wrap gap-2'>
+              <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
+                {o.specifications.processingMethod}
+              </span>
+              <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
+                {o.specifications.grade}
+              </span>
+              <span className='px-2.5 py-1 bg-accent/10 rounded-full text-xs font-semibold text-accent'>
+                {o.specifications.cupScore} pts
+              </span>
             </div>
 
-            {showActions && (
-              <div className='w-full md:w-56 flex md:flex-col gap-3 md:items-end'>
+            {/* Spacer to push button to bottom */}
+            <div className='flex-1 min-h-4'></div>
+
+            {/* Actions */}
+            <div className='mt-4 flex flex-col gap-2'>
+              {showActions && (
                 <button
                   onClick={() => onRequestQuote?.(o)}
-                  className='px-6 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold whitespace-nowrap'
+                  className='w-full py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-lg font-bold transition-all duration-200'
                 >
-                  {o.isSoldOut ? 'JOIN ALLOCATION LIST' : 'GET A QUOTE'}
+                  {o.isSoldOut ? 'JOIN WAITLIST' : 'GET A QUOTE'}
                 </button>
-              </div>
-            )}
+              )}
+              <Link 
+                href={`/product/${o.id}`} 
+                className='w-full py-2.5 text-center border border-dark/20 hover:border-dark hover:bg-dark hover:text-white rounded-lg font-medium text-dark transition-all duration-200'
+              >
+                View Details
+              </Link>
+            </div>
           </div>
         </div>
       ))}
 
       {items.length === 0 && (
-        <div className='border border-dark rounded-md p-8 text-center'>
-          <h3 className='text-2xl font-extrabold text-dark'>No results</h3>
-          <p className='mt-2'>Try adjusting your filters.</p>
+        <div className='col-span-full border border-dark/20 rounded-2xl p-12 text-center bg-white'>
+          <h3 className='text-2xl font-bold text-dark'>No results found</h3>
+          <p className='mt-2 text-gray-600'>Try adjusting your filters to find what you're looking for.</p>
         </div>
       )}
     </div>

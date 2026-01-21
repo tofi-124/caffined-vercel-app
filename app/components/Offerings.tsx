@@ -10,26 +10,41 @@ const Offerings = () => {
   const [allocationFor, setAllocationFor] = useState<Offering | null>(null)
 
   return (
-    <section className='flex flex-col items-center py-32 bg-primary'>
-      <h1 className='mx-2 text-6xl max-lg:text-center leading-tight text-dark font-bold'>
-        COFFEE LINEUP
-      </h1>
-      <p className='max-md:text-center m-2'>
-        {`Ethiopian lots selected for cafés and roasters worldwide`}
-      </p>
+    <section className='py-24 lg:py-32 bg-primary'>
+      <div className='container mx-auto px-4'>
+        {/* Header */}
+        <div className='text-center mb-16'>
+          <span className='inline-block px-4 py-1.5 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-4'>
+            Our Collection
+          </span>
+          <h1 className='text-5xl lg:text-6xl leading-tight text-dark font-bold'>
+            COFFEE LINEUP
+          </h1>
+          <p className='mt-4 text-lg text-gray-600 max-w-2xl mx-auto'>
+            Ethiopian lots selected for cafés and roasters worldwide — traceable, consistent, and ready to ship.
+          </p>
+        </div>
 
-      <div className='container mx-auto px-4 mt-12 w-full'>
-        <OfferingsResultsList items={offerings.slice(0, 3)} showActions onRequestQuote={(o) => setAllocationFor(o)} />
+        {/* Products Grid */}
+        <div className='max-w-6xl mx-auto'>
+          <OfferingsResultsList items={offerings.slice(0, 3)} showActions onRequestQuote={(o) => setAllocationFor(o)} />
+        </div>
+
+        {/* CTA */}
+        <div className='text-center mt-16'>
+          <Link href='/offerings' className='
+            inline-flex items-center gap-2 px-8 py-4 font-semibold
+            bg-accent hover:bg-dark text-white hover:text-primary
+            border border-accent hover:border-primary
+            rounded-full transition-all duration-300
+          '>
+            VIEW ALL OFFERINGS
+            <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17 8l4 4m0 0l-4 4m4-4H3' />
+            </svg>
+          </Link>
+        </div>
       </div>
-
-      <Link href='/offerings' className='
-        p-10 py-3 mt-12 w-fit font-inconsolata
-        bg-accent hover:bg-dark text-white hover:text-primary
-         border border-accent hover:border-dark
-         rounded-md
-      '>
-        VIEW ALL OUR OFFERINGS
-      </Link>
 
       {allocationFor && (
         <QuoteRequestPopup
