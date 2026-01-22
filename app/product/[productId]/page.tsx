@@ -109,7 +109,7 @@ const OfferingDetail = ({ params }: Props) => {
               </span>
             </div>
             
-            <h1 className='text-5xl font-extrabold text-dark mb-2'>{product.name}</h1>
+            <h2 className='text-5xl font-extrabold text-dark mb-2'>{product.name}</h2>
             <p className='text-lg text-gray-600 mb-4'>{product.region}</p>
             
             {/* Flavor notes as prominent badges */}

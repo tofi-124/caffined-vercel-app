@@ -45,9 +45,9 @@ const Testimonials = () => {
   return (
     <section id='partners-section' className='pt-32 pb-16 flex flex-col items-center justify-center bg-dark text-primary overflow-x-hidden'>
       <div className='mb-12 text-center'>
-        <h1 className='text-5xl leading-tight text-primary font-bold'>
+        <h2 className='text-5xl leading-tight text-primary font-bold'>
           VALUED RELATIONSHIPS
-        </h1>
+        </h2>
       </div>
 
       <div className='relative w-full max-w-5xl px-6 md:w-4/5 md:px-0'>

@@ -32,7 +32,7 @@ const headlines = [
   }
 ]
 
-const CofeeDesc = () => {
+const CoffeeDesc = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
   const [isMobile, setIsMobile] = useState(false);
@@ -210,9 +210,9 @@ const CofeeDesc = () => {
   return (
     <section ref={sectionRef} id='coffee-desc' className='flex flex-col items-center py-32 bg-dark text-primary'>
       <div id="container" className='mb-20 lg:px-72'>
-        <h1 className='text-6xl leading-tight font-bold text-center'>
+        <h2 className='text-6xl leading-tight font-bold text-center'>
           THE ETHIOPIAN DIFFERENCE
-        </h1>
+        </h2>
         <p className='text-left m-4'>
           Ethiopian coffee is famous for its floral and fruity profiles but the real difference is the people behind it. In the same high-altitude regions where coffee has been part of daily life for generations, farmers turn careful picking and processing into cups that feel unmistakably “origin.” Our work starts there: with relationships, consistency, and respect for the craft. 
           <br />
@@ -259,9 +259,9 @@ const CofeeDesc = () => {
       <div id='desc-wrapper' className='m-10 lg:m-40 mb-0 flex flex-col items-center justify-center gap-5'>
         <div id='desc-container' className='flex max-lg:flex-col'>
           <div id='desc-left' className='gap-5 lg:w-1/2 h-fit sticky max-lg:static top-24'>
-            <h1 className='text-5xl leading-tight font-bold text-left'>
+            <h2 className='text-5xl leading-tight font-bold text-left'>
             WHY CHOOSE ETHIO COFFEE?
-            </h1>
+            </h2>
             <p className=''>
             We are built on a family legacy that began long before export paperwork back when our work was simply walking the coffee regions, meeting farmers, and seeing firsthand how easily great coffee loses value between the farm gate and the market.
             <br />
@@ -269,7 +269,7 @@ const CofeeDesc = () => {
             Today, we close that gap by managing every step ourselves. We source directly from our own estates, smallholder farmers, and trusted cooperatives. These harvests are exported to our buyers worldwide under our ECX-registered PLC, Ethio Coffee Import and Export. By maintaining this direct control at the source, we ensure clean preparation, consistent profiles, and the dependable communication roasters need.
             <br />
             <br />
-            If you’re a North American business, our Canada-based operations give you real advantages. We import coffee directly into our Canadian warehouses under our Canadian company, Ethio Coffee Co., manage logistics locally, and help you build a dependable supply plan you can count on.            
+            If you're a North American business, our Canada-based operations give you real advantages. We import coffee directly into our Canadian warehouses under our Canadian company, Ethio Coffee Company Inc., manage logistics locally, and help you build a dependable supply plan you can count on.
             </p>
           </div>
           
@@ -282,4 +282,4 @@ const CofeeDesc = () => {
   )
 }
 
-export default CofeeDesc
+export default CoffeeDesc

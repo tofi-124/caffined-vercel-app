@@ -79,18 +79,19 @@ export default function RootLayout({
                   "name": "Addis Ababa Office",
                   "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "Lideta",
+                    "streetAddress": "Yesak Building, 3rd Floor, Office 301, Lideta",
                     "addressLocality": "Addis Ababa",
                     "addressCountry": "Ethiopia"
                   }
                 },
                 {
                   "@type": "Place",
-                  "name": "Hamilton Warehouse",
-                  "description": "Warehouse and logistics point",
+                  "name": "Toronto Office",
+                  "description": "Canada operations office",
                   "address": {
                     "@type": "PostalAddress",
-                    "addressLocality": "Hamilton",
+                    "streetAddress": "Adelaide St W & Spadina Ave",
+                    "addressLocality": "Toronto",
                     "addressRegion": "ON",
                     "addressCountry": "CA"
                   }

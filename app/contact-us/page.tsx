@@ -143,12 +143,18 @@ const WholesaleInquiryPage = () => {
                 <address className='not-italic text-dark'>
                   <span className='font-semibold'>Ethio Coffee Import and Export PLC</span>
                   <br />
+                  Yesak Building, 3rd Floor, Office 301
+                  <br />
                   Lideta, Addis Ababa, Ethiopia
                 </address>
               </div>
               <div>
                 <p className='text-xs uppercase tracking-widest text-gray-700'>Canada</p>
-                <address className='not-italic text-dark'>Toronto, Canada</address>
+                <address className='not-italic text-dark'>
+                  Adelaide St W & Spadina Ave
+                  <br />
+                  Toronto, Canada
+                </address>
               </div>
             </div>
             <p className='mt-6 text-dark'>
