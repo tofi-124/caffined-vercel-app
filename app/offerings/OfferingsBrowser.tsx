@@ -408,7 +408,7 @@ const OfferingsBrowser = () => {
             </div>
           </aside>
 
-          <div className='flex-1'>
+          <div className='max-w-6xl mx-auto'>
             <OfferingsResultsList items={paged} showActions onRequestQuote={(o) => setQuoteFor(o)} />
 
             {totalPages > 1 && (
