@@ -74,7 +74,7 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
                 {o.specifications.processingMethod}
               </span>
               <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
-                {o.altitude}
+                {o.specifications.grade}
               </span>
               <span className='px-2.5 py-1 bg-accent/10 rounded-full text-xs font-semibold text-accent'>
                 {o.specifications.cupScore} pts
