@@ -49,11 +49,32 @@ const OfferingsBrowser = () => {
   }
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      scrollToResultsTop()
-    }, 300)
+    try {
+      const already = sessionStorage.getItem('offeringsAutoScrolled') === '1'
+      if (already) return
 
-    return () => clearTimeout(timer)
+      // consider referrer; if it clearly came from a product page, skip auto-scroll
+      let cameFromProduct = false
+      if (document.referrer) {
+        try {
+          const refPath = new URL(document.referrer).pathname
+          if (refPath.startsWith('/product/') || refPath.includes('/product/')) cameFromProduct = true
+        } catch (e) {
+          // ignore
+        }
+      }
+
+      if (!cameFromProduct) {
+        const timer = setTimeout(() => {
+          scrollToResultsTop()
+          sessionStorage.setItem('offeringsAutoScrolled', '1')
+        }, 300)
+
+        return () => clearTimeout(timer)
+      }
+    } catch (e) {
+      // ignore errors
+    }
   }, [])
 
   const gradeOptions = useMemo(() => {
