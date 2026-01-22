@@ -4,30 +4,30 @@ import HeadLine from '../lib/Headline'
 
 const headlines = [
   {
-    title: 'ETHIOPIAN ORIGIN',
+    title: 'VERTICAL INTEGRATION',
     items: [
-      'Arabica’s original home, told in every cup',
-      'High‑altitude coffees with clean structure and aromatics',
-      'Distinct micro‑regions and lots you can explain to customers',
-      'Heirloom varietals with character roasters seek out'
+      'Direct oversight from our family estates to our Canadian warehouses',
+      'Seamless chain of custody via our Ethiopian PLC and Canadian corporation',
+      'Eliminated intermediaries to ensure maximum value at both ends',
+      'End-to-end quality control at every hand-off in the supply chain'
     ]
   },
   {
-    title: 'SUSTAINABLE SOURCING',
+    title: 'TRACEABLE HERITAGE',
     items: [
-      'Relationships built on years of working alongside growers',
-      'Transparent, long‑term buying that rewards quality and effort',
-      'Processing choices that protect quality and reduce waste',
-      'Cooperative partnerships that keep value closer to origin'
+      'Authentic heirloom varietals harvested from Arabica’s original home',
+      'Farm-gate transparency with detailed micro-region documentation',
+      'Generational relationships with smallholders and trusted cooperatives',
+      'Sourcing models that prioritize coffee quality and grower equity'
     ]
   },
   {
-    title: 'PREMIUM QUALITY',
+    title: 'ROASTER-READY LOGISTICS',
     items: [
-      'Export‑ready preparation and careful lot separation',
-      'Consistent profiles supported by sampling and documentation',
-      'Moisture‑safe storage and shipping that protects freshness',
-      'Quality control at each hand‑off from parchment to container'
+      'Fresh, high-quality inventory available year-round',
+      'Strict sample-to-bag consistency through rigorous QC protocols',
+      'Advanced moisture-safe packaging to preserve origin character',
+      'Predictable supply planning with localized North American distribution'
     ]
   }
 ]
@@ -260,10 +260,14 @@ const CofeeDesc = () => {
             WHY CHOOSE ETHIO COFFEE?
             </h1>
             <p className=''>
-            We’re built on a family coffee journey that started long before export paperwork back when our work was simply moving through coffee regions, meeting farmers, and seeing how easily great coffee can lose value between the farm gate and the market. That experience shapes how we operate today. We source from our own estates and trusted cooperatives, keep lots clearly documented, and focus on what matters for roasters: clean preparation, consistent profiles, and dependable communication.
+            We are built on a family legacy that began long before export paperwork—back when our work was simply walking the coffee regions, meeting farmers, and seeing firsthand how easily great coffee loses value between the farm gate and the market.
             <br />
             <br />
-            If you’re a Canadian business, our Canada-based operations give you real advantages. We import coffee directly into our Canadian warehouses, manage logistics locally, and help you build a dependable supply plan you can count on.            </p>
+            Today, we close that gap by managing every step ourselves. We source directly from our own estates, smallholder farmers, and trusted cooperatives. These harvests are exported to our buyers worldwide under our ECX-registered PLC, Ethio Coffee Import and Export. By maintaining this direct control at the source, we ensure clean preparation, consistent profiles, and the dependable communication roasters need.
+            <br />
+            <br />
+            If you’re a North American business, our Canada-based operations give you real advantages. We import coffee directly into our Canadian warehouses under our Canadian company, Ethiopia Coffee Imports Inc, manage logistics locally, and help you build a dependable supply plan you can count on.            
+            </p>
           </div>
           
           <div id='desc-right' className='flex flex-col gap-5 lg:w-1/2 lg:pl-32'>

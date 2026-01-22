@@ -9,18 +9,15 @@ const Hero = () => {
 
         <div id="hero-heading-wrapper" className='mx-auto flex w-full max-w-prose flex-col items-start justify-center lg:mx-0 lg:w-1/2 lg:max-w-none'>
           <h1 className='text-5xl lg:text-6xl leading-tight text-primary font-bold'>
-            ETHIOPIAN COFFEE
+            ETHIO COFFEE
           </h1>
             <p className='text-primary/90 text-sm uppercase tracking-widest mt-3'>
             From Our Farms in Ethiopia to Canada and Beyond
             </p>
 
             <div className='mt-6 text-primary lg:pr-20 leading-relaxed space-y-6'>
-              <p>
-                We are an Ethiopia- and Canada-based coffee exporter and importer, supplying fully traceable Ethiopian coffee to roasters, cafés, and wholesale partners. Rooted in a family coffee legacy in Ethiopia and shaped by years spent walking farm roads and listening to growers, we saw firsthand how value is often lost between the cherry and the market.
-              </p>
-              <p>
-                Today, we export coffee directly from our own estates and trusted partner farms in Ethiopia to buyers worldwide, and import into our own Canadian warehouses for partners across Canada. By managing every step in between, we protect quality, traceability, and consistency from origin to your door. Combining harvests from our farms with coffees from cooperatives and neighboring farmers, we offer a dependable supply and a true expression of origin in every shipment
+              <p className='max-w-[65ch]'>
+                We are an Ethiopia- and Canada-based coffee producer, exporter, and importer supplying fully traceable beans to roasters, cafés, and wholesalers. Rooted in a family legacy, we export directly from our own estates and trusted farms to buyers worldwide, while importing to our own warehouses for seamless distribution across North America.
               </p>
             </div>
 
