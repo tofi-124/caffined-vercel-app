@@ -266,7 +266,7 @@ const CofeeDesc = () => {
             Today, we close that gap by managing every step ourselves. We source directly from our own estates, smallholder farmers, and trusted cooperatives. These harvests are exported to our buyers worldwide under our ECX-registered PLC, Ethio Coffee Import and Export. By maintaining this direct control at the source, we ensure clean preparation, consistent profiles, and the dependable communication roasters need.
             <br />
             <br />
-            If you’re a North American business, our Canada-based operations give you real advantages. We import coffee directly into our Canadian warehouses under our Canadian company, Ethiopia Coffee Imports Inc, manage logistics locally, and help you build a dependable supply plan you can count on.            
+            If you’re a North American business, our Canada-based operations give you real advantages. We import coffee directly into our Canadian warehouses under our Canadian company, Ethio Coffee Co., manage logistics locally, and help you build a dependable supply plan you can count on.            
             </p>
           </div>
           
