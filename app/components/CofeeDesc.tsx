@@ -7,7 +7,7 @@ const headlines = [
     title: 'VERTICAL INTEGRATION',
     items: [
       'Direct oversight from our family estates to our Canadian warehouses',
-      'Seamless chain of custody via our Ethiopian PLC and Canadian corporation',
+      'Seamless chain of custody via our Ethiopian PLC and Canadian company',
       'Eliminated intermediaries to ensure maximum value at both ends',
       'End-to-end quality control at every hand-off in the supply chain'
     ]
