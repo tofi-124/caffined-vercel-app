@@ -7,24 +7,24 @@ import ResponsiveImage from '@/app/components/ResponsiveImage'
 
 type Props = {
   params: Promise<{
-    blogId: string
+    insightId: string
   }>
 }
 
-const Blog = ({params}: Props) => {
+const Insight = ({params}: Props) => {
   // Using React's use() hook to properly await params
-  const { blogId } = use(params);
+  const { insightId } = use(params);
 
   // Add effect to scroll to top when this component loads
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [blogId]); // Re-run when blogId changes
+  }, [insightId]); // Re-run when insightId changes
 
-  let ind = (parseInt(blogId) >= 0 && parseInt(blogId) < posts.length) ? parseInt(blogId) : -1
+  let ind = (parseInt(insightId) >= 0 && parseInt(insightId) < posts.length) ? parseInt(insightId) : -1
   if(ind === -1){
     const Content = (
       <h1 className=' bg-primary flex flex-col font-extrabold text-6xl h-[40vh] text-red-500 text-center justify-center'>
-        Blog not found
+        Insight not found
       </h1>
     )
   return Content;
@@ -32,7 +32,7 @@ const Blog = ({params}: Props) => {
   else {
     const { title, date, large_image_url } = posts[ind]
     
-    // Blog post content based on the ID
+    // Insight post content based on the ID
     let blogContent;
     
     if (ind === 0) {
@@ -689,7 +689,7 @@ const Blog = ({params}: Props) => {
         </>
       );
     } else {
-      // Fallback for any blog posts without custom content
+      // Fallback for any insight articles without custom content
       blogContent = (
         <>
           <h1 className='text-5xl font-extrabold text-dark leading-tight'>
@@ -704,7 +704,7 @@ const Blog = ({params}: Props) => {
             <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
               <ResponsiveImage
                 src={`/images/${large_image_url}`}
-                alt={`${title} - Ethiopian coffee blog article`}
+                alt={`${title} - Ethiopian coffee insight article`}
                 fill
                 objectFit='cover'
                 className='w-full h-full'
@@ -726,7 +726,7 @@ const Blog = ({params}: Props) => {
               In the meantime, explore our other articles or get in touch to discuss your sourcing needs.
             </p>
             <div className='flex gap-4 mt-4'>
-              <Link href='/blog' className='underline font-bold'>
+              <Link href='/insights' className='underline font-bold'>
                 VIEW ALL POSTS
               </Link>
               <Link href='/contact-us' className='underline font-bold'>
@@ -739,7 +739,7 @@ const Blog = ({params}: Props) => {
     }
 
     const Content = (
-      <section id='blog-content' className='p-4 flex flex-col items-center justify-center bg-primary text-dark'>
+      <section id='insight-content' className='p-4 flex flex-col items-center justify-center bg-primary text-dark'>
         <div className="container max-w-4xl">
           {blogContent}
         </div>
@@ -749,4 +749,4 @@ const Blog = ({params}: Props) => {
   }
 }
 
-export default Blog
+export default Insight

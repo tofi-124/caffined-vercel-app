@@ -3,19 +3,19 @@ import { posts } from '@/app/data/data'
 import Script from 'next/script'
 
 type Props = {
-  params: Promise<{ blogId: string }>
+  params: Promise<{ insightId: string }>
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { blogId } = await params
-  const index = Number.parseInt(blogId, 10)
+  const { insightId } = await params
+  const index = Number.parseInt(insightId, 10)
   const post = Number.isFinite(index) ? posts[index] : undefined
 
   if (!post) {
     return {
-      title: 'Blog Post Not Found | Ethio Coffee',
-      description: 'The blog post you are looking for does not exist.',
-      alternates: { canonical: 'https://ethiocoffee.et/blog' },
+      title: 'Insight Not Found | Ethio Coffee',
+      description: 'The insight you are looking for does not exist.',
+      alternates: { canonical: 'https://ethiocoffee.et/insights' },
     }
   }
 
@@ -27,13 +27,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     keywords: post.keywords?.join(', '),
     alternates: {
-      canonical: `https://ethiocoffee.et/blog/${blogId}`,
+      canonical: `https://ethiocoffee.et/insights/${insightId}`,
     },
     openGraph: {
       title,
       description,
       type: 'article',
-      url: `https://ethiocoffee.et/blog/${blogId}`,
+      url: `https://ethiocoffee.et/insights/${insightId}`,
       images: [{ url: `/images/${post.large_image_url}` }],
       publishedTime: new Date(post.date).toISOString(),
       authors: ['Ethio Coffee'],
@@ -41,12 +41,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default function BlogPostLayout({ 
+export default function InsightPostLayout({ 
   children,
   params 
 }: { 
   children: React.ReactNode
-  params: Promise<{ blogId: string }>
+  params: Promise<{ insightId: string }>
 }) {
   // We need to handle this synchronously for the layout
   // The structured data will be added in a client component or we use a different approach
@@ -58,9 +58,9 @@ export default function BlogPostLayout({
   )
 }
 
-async function ArticleSchema({ params }: { params: Promise<{ blogId: string }> }) {
-  const { blogId } = await params
-  const index = Number.parseInt(blogId, 10)
+async function ArticleSchema({ params }: { params: Promise<{ insightId: string }> }) {
+  const { insightId } = await params
+  const index = Number.parseInt(insightId, 10)
   const post = Number.isFinite(index) ? posts[index] : undefined
 
   if (!post) return null
@@ -88,7 +88,7 @@ async function ArticleSchema({ params }: { params: Promise<{ blogId: string }> }
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://ethiocoffee.et/blog/${blogId}`,
+      '@id': `https://ethiocoffee.et/insights/${insightId}`,
     },
     keywords: post.keywords?.join(', '),
   }

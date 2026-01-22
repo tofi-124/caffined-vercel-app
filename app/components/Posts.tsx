@@ -3,9 +3,9 @@ import {posts} from '../data/data';
 import Link from 'next/link';
 import ResponsiveImage from './ResponsiveImage';
 
-// Define standard image dimensions for blog thumbnails
-const BLOG_THUMBNAIL_WIDTH = 400;
-const BLOG_THUMBNAIL_HEIGHT = 300;
+// Define standard image dimensions for insight thumbnails
+const INSIGHT_THUMBNAIL_WIDTH = 400;
+const INSIGHT_THUMBNAIL_HEIGHT = 300;
 
 type Props = {
   title: string,
@@ -17,8 +17,8 @@ type Props = {
 
 export const Post = ({ title, date, small_image_url, ind, showDate = true }: Props) => {
   return (
-        <Link href={`/blog/${ind}`} id="blog-card" className="photo overflow-clip mx-auto flex flex-col items-center">
-          <div className="blog-img w-full max-w-[400px] aspect-[4/3] overflow-hidden rounded-md shadow-md hover:shadow-lg transition-shadow duration-300">
+        <Link href={`/insights/${ind}`} id="insight-card" className="photo overflow-clip mx-auto flex flex-col items-center">
+          <div className="insight-img w-full max-w-[400px] aspect-[4/3] overflow-hidden rounded-md shadow-md hover:shadow-lg transition-shadow duration-300">
             <ResponsiveImage
               src={`/images/${small_image_url}`}
               alt={`${title}`}
@@ -63,7 +63,7 @@ const Posts = () => {
 
         <div className='flex justify-center mt-10'>
           <Link
-            href='/blog'
+            href='/insights'
             className='px-5 py-2 border border-accent rounded-md font-inconsolata text-sm bg-accent hover:bg-dark text-white hover:text-primary'
           >
             VIEW ALL POSTS

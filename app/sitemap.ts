@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/blog`,
+      url: `${baseUrl}/insights`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.7,
@@ -52,13 +52,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  // Blog detail pages are indexed routes: /blog/0, /blog/1, ...
-  const blogRoutes: MetadataRoute.Sitemap = posts.map((_, index) => ({
-    url: `${baseUrl}/blog/${index}`,
+  // Insights detail pages are indexed routes: /insights/0, /insights/1, ...
+  const insightsRoutes: MetadataRoute.Sitemap = posts.map((_, index) => ({
+    url: `${baseUrl}/insights/${index}`,
     lastModified: now,
     changeFrequency: 'monthly',
     priority: 0.6,
   }))
 
-  return [...staticRoutes, ...productRoutes, ...blogRoutes]
+  return [...staticRoutes, ...productRoutes, ...insightsRoutes]
 }

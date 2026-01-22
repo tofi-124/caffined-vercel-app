@@ -24,8 +24,8 @@ const NavLinks = () => {
       path: '/contact-us'
     },
     {
-      name: 'Blog',
-      path: '/blog'
+      name: 'Insights',
+      path: '/insights'
     },
   ]
   return (

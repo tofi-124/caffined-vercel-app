@@ -6,7 +6,7 @@ A modern, responsive coffee shop website built with Next.js, showcasing premium 
 
 - **Modern Design**: Clean, responsive UI built with Tailwind CSS
 - **Product Showcase**: Beautiful product galleries with detailed descriptions
-- **Blog Section**: Coffee-related articles and brewing guides
+- **Insights Section**: Coffee-related articles and sourcing guides
 - **About Us**: Company story and mission
 - **Contact**: Easy way for customers to get in touch
 - **Animated UI**: Smooth animations powered by Framer Motion
@@ -29,7 +29,7 @@ A modern, responsive coffee shop website built with Next.js, showcasing premium 
 caffined-vercel-app/
 ├── app/                    # Next.js App Router
 │   ├── about/             # About page
-│   ├── blog/              # Blog section
+│   ├── insights/          # Insights section
 │   ├── components/        # Reusable components
 │   ├── contact-us/        # Contact page
 │   ├── Context/           # React context providers

@@ -9,7 +9,7 @@ const parsePostDate = (value: string) => {
   return Number.isFinite(t) ? t : 0
 }
 
-const BlogPage = () => {
+const InsightsPage = () => {
   // Create a reference to the posts section for scrolling
   const postsRef = useRef<HTMLDivElement>(null);
   
@@ -34,7 +34,7 @@ const BlogPage = () => {
   return (
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-bold text-primary'>BLOG</h1>
+        <h1 className='text-5xl font-bold text-primary'>INSIGHTS</h1>
       </header>
       <section className='flex flex-col justify-center items-center bg-primary pb-16'>
         <h2 className='my-16 text-5xl font-extrabold text-dark'>
@@ -54,4 +54,4 @@ const BlogPage = () => {
   )
 }
 
-export default BlogPage
+export default InsightsPage
