@@ -49,46 +49,23 @@ const OfferingsBrowser = () => {
   }
 
   useEffect(() => {
-    try {
-      // Skip auto-scroll if:
-      // 1. User navigated back/forward (browser history navigation)
-      // 2. Coming from a product page via link click
-      
-      // Check for back/forward navigation
-      const navEntries = performance.getEntriesByType('navigation') as PerformanceNavigationTiming[]
-      const navType = navEntries.length > 0 ? navEntries[0].type : null
-      
-      if (navType === 'back_forward') {
-        // User hit back/forward button - don't auto-scroll
-        return
+    // Simple and reliable approach:
+    // On back navigation, the browser restores scroll position BEFORE our code runs.
+    // We use a short delay to let the browser restore scroll position first.
+    // If scrollY is still near the top after the delay, it's a fresh navigation - scroll to results.
+    // If scrollY is already scrolled down, browser restored position - don't interfere.
+    
+    const timer = setTimeout(() => {
+      // If user is near the top of the page, it's likely a fresh navigation
+      // Scroll to the results section
+      if (window.scrollY < 150) {
+        scrollToResultsTop()
       }
-
-      // Check if coming from a product page via link click
-      let cameFromProduct = false
-      if (document.referrer) {
-        try {
-          const refUrl = new URL(document.referrer)
-          const refPath = refUrl.pathname
-          // Only skip if referrer is from the same origin AND is a product page
-          if (refUrl.origin === window.location.origin && 
-              (refPath.startsWith('/product/') || refPath.includes('/product/'))) {
-            cameFromProduct = true
-          }
-        } catch (e) {
-          // ignore URL parsing errors
-        }
-      }
-
-      if (!cameFromProduct) {
-        const timer = setTimeout(() => {
-          scrollToResultsTop()
-        }, 300)
-
-        return () => clearTimeout(timer)
-      }
-    } catch (e) {
-      // ignore errors
-    }
+      // If scrollY >= 150, browser has restored scroll position from back/forward navigation
+      // Don't override the restored position
+    }, 100) // Short delay to let browser restore scroll position first
+    
+    return () => clearTimeout(timer)
   }, [])
 
   const gradeOptions = useMemo(() => {
@@ -443,7 +420,7 @@ const OfferingsBrowser = () => {
             </div>
           </aside>
 
-          <div className='max-w-6xl mx-auto'>
+          <div className='flex-1 w-full'>
             <OfferingsResultsList items={paged} showActions onRequestQuote={(o) => setQuoteFor(o)} />
 
             {totalPages > 1 && (

@@ -11,29 +11,30 @@ type Props = {
 
 const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Props) => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 w-full'>
       {items.map((o) => (
         <div 
           key={o.id} 
           className='group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col'
         >
           {/* Image Container */}
-          <Link href={`/product/${o.id}`} className='relative overflow-hidden bg-gradient-to-b from-gray-50 to-white p-6'>
+          <Link href={`/product/${o.id}`} className='relative overflow-hidden bg-gradient-to-b from-gray-50 to-white p-4 sm:p-6'>
             <div className='relative w-full aspect-square flex items-center justify-center'>
               <ResponsiveImage
                 src={`/images/${o.image_url}`}
                 alt={o.name}
-                width={280}
-                height={280}
-                className='object-contain group-hover:scale-105 transition-transform duration-500'
+                width={400}
+                height={400}
+                className='object-contain w-full h-full max-w-[280px] sm:max-w-none group-hover:scale-105 transition-transform duration-500'
+                sizes='(max-width: 640px) 80vw, (max-width: 768px) 45vw, (max-width: 1024px) 30vw, 280px'
               />
             </div>
             {o.isSoldOut ? (
-              <span className='absolute top-4 right-4 px-3 py-1.5 rounded-full bg-dark text-white text-xs font-bold uppercase tracking-wide'>
+              <span className='absolute top-3 right-3 sm:top-4 sm:right-4 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full bg-dark text-white text-xs font-bold uppercase tracking-wide'>
                 Sold Out
               </span>
             ) : o.availableBags !== null && (
-              <span className='absolute top-4 right-4 px-3 py-1.5 rounded-full bg-green-600 text-white text-xs font-bold uppercase tracking-wide'>
+              <span className='absolute top-3 right-3 sm:top-4 sm:right-4 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full bg-green-600 text-white text-xs font-bold uppercase tracking-wide'>
                 {o.availableBags} bags
               </span>
             )}
