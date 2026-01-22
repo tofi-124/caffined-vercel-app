@@ -82,11 +82,11 @@ const About = () => {
 
             <h3 className='mt-8 text-3xl font-extrabold text-dark'>Canada and Beyond</h3>
             <p className='my-4'>
-              If you’re buying in Canada, our Canada-based operations make sourcing Ethiopian coffee simpler. We can import the coffee ourselves into our Canadian warehouses or supply it directly to you, while providing clear lot information, consistent sampling, and coordinated logistics that reduce surprises and make supply planning easier. For our international partners, we will work with you directly through our export programs and international shipping support.
+              If you’re buying in Canada, our Canada-based operations make sourcing Ethiopian coffee simpler. We import coffee directly into our Canadian warehouses under our Canadian company, Ethiopia Coffee Imports Inc, and manage logistics locally so you receive clear lot information, consistent sampling, and coordinated shipping that reduce surprises and make supply planning easier. For our international partners, we will work with you directly through our export programs and international shipping support.
             </p>
 
             <p className='my-4 font-inconsolata text-sm text-gray-700'>
-              For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC). References on this page to “we”, “our”, or “the company” refer to Ethio Coffee Import and Export PLC and its team.
+              For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to “we”, “our”, or “the company” refer to Ethio Coffee Import and Export PLC and its team.
             </p>
           </div>
         </div>
