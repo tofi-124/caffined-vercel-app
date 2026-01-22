@@ -50,7 +50,20 @@ const OfferingsBrowser = () => {
 
   useEffect(() => {
     try {
-      // Check if coming from a product page - if so, skip auto-scroll
+      // Skip auto-scroll if:
+      // 1. User navigated back/forward (browser history navigation)
+      // 2. Coming from a product page via link click
+      
+      // Check for back/forward navigation
+      const navEntries = performance.getEntriesByType('navigation') as PerformanceNavigationTiming[]
+      const navType = navEntries.length > 0 ? navEntries[0].type : null
+      
+      if (navType === 'back_forward') {
+        // User hit back/forward button - don't auto-scroll
+        return
+      }
+
+      // Check if coming from a product page via link click
       let cameFromProduct = false
       if (document.referrer) {
         try {

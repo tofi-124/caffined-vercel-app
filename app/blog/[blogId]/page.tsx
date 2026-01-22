@@ -689,8 +689,7 @@ const Blog = ({params}: Props) => {
         </>
       );
     } else {
-      // This else clause should no longer be needed since we only have 3 blog posts now
-      // but keeping it as a fallback for any unexpected cases
+      // Fallback for any blog posts without custom content
       blogContent = (
         <>
           <h1 className='text-5xl font-extrabold text-dark leading-tight'>
@@ -699,13 +698,13 @@ const Blog = ({params}: Props) => {
 
           <figure>
             <figcaption className='font-inconsolata my-2'>
-              Coffee is a popular beverage enjoyed by millions of people around the world.
+              Insights from Ethiopian coffee sourcing and the specialty coffee industry.
             </figcaption>
 
             <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
               <ResponsiveImage
                 src={`/images/${large_image_url}`}
-                alt='blog-img'
+                alt={`${title} - Ethiopian coffee blog article`}
                 fill
                 objectFit='cover'
                 className='w-full h-full'
@@ -718,8 +717,23 @@ const Blog = ({params}: Props) => {
           </p>
           
           <p className='my-4'>
-            Content coming soon...
+            This article is being prepared. Check back soon for insights on Ethiopian coffee sourcing, 
+            industry trends, and practical guidance for roasters and café partners.
           </p>
+          
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <p className='my-2 font-medium'>
+              In the meantime, explore our other articles or get in touch to discuss your sourcing needs.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/blog' className='underline font-bold'>
+                VIEW ALL POSTS
+              </Link>
+              <Link href='/contact-us' className='underline font-bold'>
+                CONTACT US
+              </Link>
+            </div>
+          </div>
         </>
       );
     }

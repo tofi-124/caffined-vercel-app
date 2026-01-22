@@ -158,7 +158,7 @@ const Footer = () => {
         <p className="mt-3 flex items-center justify-center gap-1 text-sm text-white/75">
           <span>made by</span>
           <a
-            href="https://github.com/nusu97"
+            href="mailto:nusey51@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-4 hover:text-primary/80 transition-colors"
