@@ -1,4 +1,4 @@
-import CofeeDesc from "./components/CofeeDesc";
+import CoffeeDesc from "./components/CoffeeDesc";
 import Hero from "./components/Hero";
 import Posts from "./components/Posts";
 import Offerings from "./components/Offerings";
@@ -11,7 +11,7 @@ export default function Home() {
        
       <Hero />
       <Offerings />
-      <CofeeDesc />
+      <CoffeeDesc />
       <Posts />
       <Testimonials />
 

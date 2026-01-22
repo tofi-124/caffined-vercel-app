@@ -50,24 +50,25 @@ const OfferingsBrowser = () => {
 
   useEffect(() => {
     try {
-      const already = sessionStorage.getItem('offeringsAutoScrolled') === '1'
-      if (already) return
-
-      // consider referrer; if it clearly came from a product page, skip auto-scroll
+      // Check if coming from a product page - if so, skip auto-scroll
       let cameFromProduct = false
       if (document.referrer) {
         try {
-          const refPath = new URL(document.referrer).pathname
-          if (refPath.startsWith('/product/') || refPath.includes('/product/')) cameFromProduct = true
+          const refUrl = new URL(document.referrer)
+          const refPath = refUrl.pathname
+          // Only skip if referrer is from the same origin AND is a product page
+          if (refUrl.origin === window.location.origin && 
+              (refPath.startsWith('/product/') || refPath.includes('/product/'))) {
+            cameFromProduct = true
+          }
         } catch (e) {
-          // ignore
+          // ignore URL parsing errors
         }
       }
 
       if (!cameFromProduct) {
         const timer = setTimeout(() => {
           scrollToResultsTop()
-          sessionStorage.setItem('offeringsAutoScrolled', '1')
         }, 300)
 
         return () => clearTimeout(timer)
@@ -294,13 +295,13 @@ const OfferingsBrowser = () => {
                       setApplied(draft)
                       setIsFilterOpen(false)
                     }}
-                    className='flex-1 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-lg font-bold transition-all'
+                    className='flex-1 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-md font-bold transition-all'
                   >
                     Show Results
                   </button>
                   <button
                     onClick={clearFilters}
-                    className='flex-1 py-3 bg-gray-100 hover:bg-gray-200 text-dark rounded-lg font-medium transition-all'
+                    className='flex-1 py-3 bg-gray-100 hover:bg-gray-200 text-dark rounded-md font-medium transition-all'
                   >
                     Clear
                   </button>
@@ -415,13 +416,13 @@ const OfferingsBrowser = () => {
                     setApplied(draft)
                     setIsFilterOpen(false)
                   }}
-                  className='flex-1 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-lg font-bold transition-all'
+                  className='flex-1 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-md font-bold transition-all'
                 >
                   Apply
                 </button>
                 <button
                   onClick={clearFilters}
-                  className='flex-1 py-3 bg-gray-100 hover:bg-gray-200 text-dark rounded-lg font-medium transition-all'
+                  className='flex-1 py-3 bg-gray-100 hover:bg-gray-200 text-dark rounded-md font-medium transition-all'
                 >
                   Clear
                 </button>

@@ -263,7 +263,7 @@ const CofeeDesc = () => {
             WHY CHOOSE ETHIO COFFEE?
             </h1>
             <p className=''>
-            We are built on a family legacy that began long before export paperwork—back when our work was simply walking the coffee regions, meeting farmers, and seeing firsthand how easily great coffee loses value between the farm gate and the market.
+            We are built on a family legacy that began long before export paperwork back when our work was simply walking the coffee regions, meeting farmers, and seeing firsthand how easily great coffee loses value between the farm gate and the market.
             <br />
             <br />
             Today, we close that gap by managing every step ourselves. We source directly from our own estates, smallholder farmers, and trusted cooperatives. These harvests are exported to our buyers worldwide under our ECX-registered PLC, Ethio Coffee Import and Export. By maintaining this direct control at the source, we ensure clean preparation, consistent profiles, and the dependable communication roasters need.

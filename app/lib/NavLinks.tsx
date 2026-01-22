@@ -12,6 +12,10 @@ const NavLinks = () => {
       path: '/offerings' 
     },
     {
+      name: 'Ordering Info',
+      path: '/ordering-info'
+    },
+    {
       name: 'About',
       path: '/about'
     },

@@ -81,7 +81,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
       <div className='bg-primary p-6 rounded-md max-w-2xl w-full max-h-[90vh] overflow-y-auto'>
         <div className='flex justify-between items-center mb-6'>
           <h2 className='text-2xl font-bold'>{isAllocationList ? 'Join Allocation List' : 'Get a Quote'}</h2>
-          <button onClick={onClose} className='text-2xl font-bold'>
+          <button onClick={onClose} className='text-2xl font-bold' aria-label='Close dialog'>
             &times;
           </button>
         </div>

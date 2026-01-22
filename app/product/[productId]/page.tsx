@@ -77,7 +77,7 @@ const OfferingDetail = ({ params }: Props) => {
 
   return (
     <main className='bg-primary'>
-      <header className='bg-[url(/images/about-us.webp)] w-full h-[250px] flex flex-col items-center justify-center'>
+      <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
         <h1 className='text-5xl font-bold text-primary'>{product.name}</h1>
         <p className='mt-3 text-primary font-inconsolata'></p>
       </header>
@@ -87,7 +87,7 @@ const OfferingDetail = ({ params }: Props) => {
           <div ref={productImageRef} className='lg:w-1/2 flex justify-center items-start pt-4'>
             <Image
               src={`/images/${product.image_url}`}
-              alt={product.name}
+              alt={`${product.name} - ${product.specifications.processingMethod} processed Ethiopian green coffee from ${product.region}`}
               width={400}
               height={500}
               className='object-contain'

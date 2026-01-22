@@ -135,6 +135,20 @@ const Footer = () => {
           © 2026 Ethio Coffee Import and Export PLC. All rights reserved.
           <span className='text-primary/50'>|</span>
           <Link
+            href='/blog'
+            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
+          >
+            Blog
+          </Link>
+          <span className='text-primary/50'>|</span>
+          <Link
+            href='/ordering-info'
+            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
+          >
+            Ordering Info
+          </Link>
+          <span className='text-primary/50'>|</span>
+          <Link
             href='/terms'
             className='underline underline-offset-4 hover:text-primary/80 transition-colors'
           >

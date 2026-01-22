@@ -274,6 +274,25 @@ export default function TermsPage() {
               </p>
             </Section>
           </div>
+
+          {/* Call to Action */}
+          <div className='mt-12 text-center'>
+            <p className='text-gray-700 mb-6'>Ready to source premium Ethiopian green coffee?</p>
+            <div className='flex flex-wrap justify-center gap-4'>
+              <Link
+                href='/offerings'
+                className='px-6 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-md font-bold transition-colors'
+              >
+                Browse Offerings
+              </Link>
+              <Link
+                href='/contact-us'
+                className='px-6 py-3 border border-dark hover:bg-dark hover:text-white rounded-md font-bold transition-colors'
+              >
+                Contact Us
+              </Link>
+            </div>
+          </div>
         </article>
       </section>
     </main>
