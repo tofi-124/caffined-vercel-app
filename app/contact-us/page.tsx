@@ -12,6 +12,7 @@ const WholesaleInquiryPage = () => {
     phone: '',
     country: '',
     businessType: '',
+    referralSource: '',
     message: '',
     requestSamples: false
   });
@@ -76,6 +77,7 @@ const WholesaleInquiryPage = () => {
           phone: '',
           country: '',
           businessType: '',
+          referralSource: '',
           message: '',
           requestSamples: false
         });
@@ -92,31 +94,47 @@ const WholesaleInquiryPage = () => {
   
   return (
     <main className='bg-primary'>
-      <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-bold text-primary'>CONTACT US</h1>
+      <header className='bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative'>
+        <div className='absolute inset-0 bg-black/40'></div>
+        <h1 className='text-5xl md:text-6xl font-bold text-primary relative z-10 tracking-wide'>LET&apos;S WORK TOGETHER</h1>
+        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>From our farms in Ethiopia to your roastery  - start your partnership today</p>
       </header>
       
       <section className='container mx-auto px-4 py-12'>
         <div className='flex max-lg:flex-col items-center justify-center gap-12 mb-16'>
           <div className='lg:w-1/2'>
-            <h2 className='text-5xl font-extrabold leading-tight text-dark mb-6'>
-              PREMIUM ETHIOPIAN COFFEE FOR YOUR BUSINESS
+            <h2 className='text-4xl md:text-5xl font-extrabold leading-tight text-dark mb-6'>
+              TRACEABLE ETHIOPIAN COFFEE FOR ROASTERS & CAFÉS
             </h2>
-            <p className='mb-4'>
-              Ethio Coffee Import and Export, operating as Ethio Coffee, exports the finest Ethiopian coffee beans directly from carefully selected farms and cooperatives. We supply cafés, roasters, and specialty coffee businesses globally with premium, sustainably-sourced coffee.
+            <p className='mb-4 text-gray-700'>
+              Ethio Coffee Import and Export PLC is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide through ethical sourcing, export-ready quality, and long-term relationships.
             </p>
-            <p className='mb-4'>
-              Our beans represent the rich coffee heritage of Ethiopia, the birthplace of coffee, known for its distinctive floral and fruity notes that make Ethiopian coffee world-renowned.
+            <p className='mb-4 text-gray-700'>
+              We are an Ethiopia- and Canada-based coffee producer and exporter supplying fully traceable beans from our own estates and trusted partner farms across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa regions.
             </p>
             <div className='mt-8'>
-              <h3 className='text-2xl font-bold mb-4'>Why Choose Ethio Coffee:</h3>
-              <ul className='list-disc ml-5 space-y-2'>
-                <li>Direct relationships with Ethiopian farmers</li>
-                <li>Consistent quality and reliable international supply chain</li>
-                <li>Variety of premium Ethiopian coffee regions</li>
-                <li>Customizable order quantities for businesses of all sizes</li>
-                <li>Sample program to test before committing to large orders</li>
-                <li>Global shipping and logistics expertise</li>
+              <h3 className='text-2xl font-bold mb-4'>Why Partner With Us:</h3>
+              <ul className='space-y-3'>
+                <li className='flex items-start gap-3'>
+                  <span className='text-accent font-bold'>✓</span>
+                  <span><strong>Vertical Integration</strong>  - Direct oversight from family estates to your door, eliminating intermediaries</span>
+                </li>
+                <li className='flex items-start gap-3'>
+                  <span className='text-accent font-bold'>✓</span>
+                  <span><strong>Traceable Heritage</strong>  - Authentic heirloom varietals with farm-gate transparency</span>
+                </li>
+                <li className='flex items-start gap-3'>
+                  <span className='text-accent font-bold'>✓</span>
+                  <span><strong>Roaster-Ready Logistics</strong>  - Year-round inventory with strict sample-to-bag consistency</span>
+                </li>
+                <li className='flex items-start gap-3'>
+                  <span className='text-accent font-bold'>✓</span>
+                  <span><strong>Free Sample Program</strong>  - Evaluate quality before committing to orders</span>
+                </li>
+                <li className='flex items-start gap-3'>
+                  <span className='text-accent font-bold'>✓</span>
+                  <span><strong>North American Distribution</strong>  - Canadian warehousing for seamless fulfillment</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -124,45 +142,54 @@ const WholesaleInquiryPage = () => {
           <div className='lg:w-1/2 flex justify-center'>
             <ResponsiveImage 
               src='/images/coffee-pack-1.webp'
-              alt='Ethiopian coffee beans'
+              alt='Premium Ethiopian green coffee beans from Ethio Coffee'
               width={500}
               height={600}
-              className='rounded-md'
+              className='rounded-md shadow-lg'
             />
           </div>
         </div>
 
         <div className='max-w-3xl mx-auto my-16' ref={formRef}>
-          <h2 className='text-4xl font-extrabold text-center mb-8'>GET IN TOUCH</h2>
+          <h2 className='text-4xl font-extrabold text-center mb-4'>GET IN TOUCH</h2>
+          <p className='text-center text-gray-600 mb-8 max-w-xl mx-auto'>Fill out the form below and our team will get back to you within 24-48 hours.</p>
 
-          <div className='mb-10 rounded-lg border border-black/10 bg-white/60 p-6'>
-            <h3 className='text-xl font-bold text-dark'>Direct Contact</h3>
-            <div className='mt-4 grid grid-cols-1 gap-6 md:grid-cols-2'>
-              <div>
-                <p className='text-xs uppercase tracking-widest text-gray-700'>Ethiopia</p>
+          <div className='mb-10 rounded-lg border border-black/10 bg-white/70 p-6 shadow-sm'>
+            <h3 className='text-xl font-bold text-dark mb-4'>Our Offices</h3>
+            <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
+              <div className='p-4 bg-primary/50 rounded-md'>
+                <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Ethiopia (Headquarters)</p>
                 <address className='not-italic text-dark'>
-                  <span className='font-semibold'>Ethio Coffee Import and Export PLC</span>
+                  <span className='font-bold'>Ethio Coffee Import and Export PLC</span>
                   <br />
                   Yesak Building, 3rd Floor, Office 301
                   <br />
                   Lideta, Addis Ababa, Ethiopia
                 </address>
               </div>
-              <div>
-                <p className='text-xs uppercase tracking-widest text-gray-700'>Canada</p>
+              <div className='p-4 bg-primary/50 rounded-md'>
+                <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Canada</p>
                 <address className='not-italic text-dark'>
+                  <span className='font-bold'>Ethio Coffee Company Inc.</span>
+                  <br />
                   Adelaide St W & Spadina Ave
                   <br />
                   Toronto, Canada
                 </address>
               </div>
             </div>
-            <p className='mt-6 text-dark'>
-              Email:{' '}
-              <a href="mailto:info@ethiocoffee.et" className='underline underline-offset-4 font-semibold'>
-                info@ethiocoffee.et
-              </a>
-            </p>
+            <div className='mt-6 pt-4 border-t border-black/10 grid grid-cols-1 md:grid-cols-2 gap-4'>
+              <div>
+                <p className='text-sm text-gray-600'>Email</p>
+                <a href="mailto:info@ethiocoffee.et" className='text-dark font-semibold hover:text-accent transition-colors'>
+                  info@ethiocoffee.et
+                </a>
+              </div>
+              <div>
+                <p className='text-sm text-gray-600'>Business Hours</p>
+                <p className='text-dark font-semibold'>Mon - Fri, 09:00 - 17:00 (EAT)</p>
+              </div>
+            </div>
           </div>
           
           {submitSuccess ? (
@@ -237,25 +264,48 @@ const WholesaleInquiryPage = () => {
                 />
               </div>
               
-              <div>
-                <label htmlFor='businessType' className='block mb-2 font-bold'>Business Type*</label>
-                <select 
-                  id='businessType'
-                  name='businessType'
-                  value={formData.businessType}
-                  onChange={handleChange}
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
-                  required
-                >
-                  <option value=''>Select your business type</option>
-                  <option value='cafe'>Café</option>
-                  <option value='roaster'>Coffee Roaster</option>
-                  <option value='restaurant'>Restaurant</option>
-                  <option value='hotel'>Hotel</option>
-                  <option value='distributor'>Distributor</option>
-                  <option value='office'>Office/Corporate</option>
-                  <option value='other'>Other</option>
-                </select>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                <div>
+                  <label htmlFor='businessType' className='block mb-2 font-bold'>Business Type*</label>
+                  <select 
+                    id='businessType'
+                    name='businessType'
+                    value={formData.businessType}
+                    onChange={handleChange}
+                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                    required
+                  >
+                    <option value=''>Select your business type</option>
+                    <option value='cafe'>Café</option>
+                    <option value='roaster'>Coffee Roaster</option>
+                    <option value='restaurant'>Restaurant</option>
+                    <option value='hotel'>Hotel</option>
+                    <option value='distributor'>Distributor</option>
+                    <option value='office'>Office/Corporate</option>
+                    <option value='other'>Other</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor='referralSource' className='block mb-2 font-bold'>Where did you hear about us?</label>
+                  <select 
+                    id='referralSource'
+                    name='referralSource'
+                    value={formData.referralSource}
+                    onChange={handleChange}
+                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                  >
+                    <option value=''>Select an option (optional)</option>
+                    <option value='google'>Google Search</option>
+                    <option value='social-media'>Social Media</option>
+                    <option value='trade-show'>Trade Show / Exhibition</option>
+                    <option value='referral'>Friend / Business Referral</option>
+                    <option value='linkedin'>LinkedIn</option>
+                    <option value='industry-publication'>Industry Publication</option>
+                    <option value='existing-customer'>Existing Customer</option>
+                    <option value='other'>Other</option>
+                  </select>
+                </div>
               </div>
               
               <div>
@@ -290,25 +340,27 @@ const WholesaleInquiryPage = () => {
                 </div>
               )}
               
-              <div className='text-center'>
+              <div className='text-center pt-4'>
                 <button 
                   type='submit'
                   disabled={isSubmitting}
                   className='
-                    p-10 py-4 mt-6 w-fit
+                    px-12 py-4 mt-2 w-full md:w-auto
                     bg-accent hover:bg-dark text-white hover:text-primary
                     border border-accent hover:border-dark
                     rounded-md
                     font-bold text-xl
                     disabled:opacity-70 disabled:cursor-not-allowed
+                    transition-all duration-300
+                    shadow-md hover:shadow-lg
                   '
                 >
                   {isSubmitting ? 'SUBMITTING...' : 'SUBMIT INQUIRY'}
                 </button>
               </div>
               
-              <div className='text-center mt-4 text-gray-600'>
-                <p>You can also contact us directly at: <a href="mailto:info@ethiocoffee.et" className='text-dark underline'>info@ethiocoffee.et</a></p>
+              <div className='text-center mt-6 text-gray-600 text-sm'>
+                <p>You can also contact us directly at: <a href="mailto:info@ethiocoffee.et" className='text-dark underline hover:text-accent transition-colors'>info@ethiocoffee.et</a></p>
               </div>
             </form>
           )}
