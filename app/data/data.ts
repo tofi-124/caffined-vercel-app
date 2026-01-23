@@ -11,6 +11,26 @@ export type Post = {
 
 export const posts: Post[] = [
     {
+      small_image_url: 'launch.webp',
+      large_image_url: 'launch.webp',
+      date: 'Jan 01, 2026',
+      title: 'ETHIO COFFEE LAUNCHES CANADIAN OPERATIONS: BRINGING ETHIOPIA\'S FINEST TO NORTH AMERICA',
+      slug: 'ethio-coffee-canada-operations-launch',
+      category: 'Company News',
+      keywords: [
+        'Ethiopian coffee Canada',
+        'green coffee supplier Canada',
+        'Ethiopian coffee importer',
+        'specialty coffee wholesale Canada',
+        'Ethio Coffee Canada',
+        'Ethiopian green beans Toronto',
+        'coffee roasters Canada',
+        'direct trade coffee Canada',
+        'African coffee supplier North America'
+      ],
+      desc: 'Ethio Coffee officially launches Canadian operations through Ethio Coffee Company Inc., making premium Ethiopian green coffee more accessible to roasters and cafés across Canada with local warehousing, simplified logistics, and direct-from-origin traceability.'
+    },
+    {
       small_image_url: 'cofee-blog-1-1.png',
       large_image_url: 'cofee-blog-1-2.png',
       date: 'Apr 20, 2025',

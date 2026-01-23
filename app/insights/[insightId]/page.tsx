@@ -36,6 +36,199 @@ const Insight = ({params}: Props) => {
     let blogContent;
     
     if (ind === 0) {
+      // Content for "Ethio Coffee Launches Canadian Operations"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            {title}
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Premium Ethiopian green coffee is now closer than ever for Canadian roasters
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Ethio Coffee Company Inc. brings Ethiopia&apos;s legendary coffee heritage directly to Canadian shores.
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt='Ethio Coffee Canadian operations launch'
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+          
+          <p className='my-4'>
+            We&apos;re excited to announce that <span className='font-bold'>Ethio Coffee Company Inc.</span>, the Canadian subsidiary of <span className='font-bold'>Ethio Coffee Import and Export PLC</span> (our Ethiopia-based parent company), is officially open for business. We&apos;re bringing premium Ethiopian green coffee directly to roasters, cafés, and specialty coffee businesses across Canada.
+          </p>
+
+          <p className='my-4'>
+            For years, Canadian roasters who wanted exceptional Ethiopian coffee faced a familiar challenge: navigating complex import logistics, dealing with inconsistent quality from middlemen, and struggling to build direct relationships with origin. We&apos;re here to change that.
+          </p>
+
+          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              📋 <span className='font-bold'>2025 harvest is sold out.</span> We&apos;re now accepting allocations for the 2026 Ethiopian coffee harvest. <Link href='/contact-us' className='underline'>Contact us</Link> to reserve your supply.
+            </p>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            The Story Behind Ethio Coffee
+          </h3>
+          <p className='my-4'>
+            Our roots run deep in Ethiopian coffee. Our father spent over 30 years traveling across Ethiopia&apos;s coffee regions. He wasn&apos;t just buying coffee; he was learning how it&apos;s grown, processed, and cared for at every step. He built relationships with farmers, invested in his own farm, and worked to ensure that the people doing the hardest work received fair value for their exceptional coffee. For decades, he operated locally within Ethiopia, supplying domestic buyers and building a reputation for quality and integrity.
+          </p>
+
+          <p className='my-4'>
+            In 2022, we decided it was time to share this legacy with the world. We formalized the business into <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, registered with the Ethiopian Commodity Exchange, to bring our father&apos;s relationship-driven approach to the international market for the first time. Today, we source from our own estates and a network of trusted partner growers across Ethiopia&apos;s most celebrated coffee regions.
+          </p>
+
+          <p className='my-4'>
+            Now, with the launch of our Canadian subsidiary, we&apos;re bringing that same commitment to quality, traceability, and respect for farmers directly to North America.
+          </p>
+
+          <div className='my-6'>
+            <Link href='/about' className='inline-flex items-center gap-2 bg-amber-100 hover:bg-amber-200 text-dark px-5 py-3 rounded-lg font-bold transition'>
+              Read Our Full Story
+              <span aria-hidden='true'>→</span>
+            </Link>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Why Ethiopian Coffee?
+          </h3>
+          <p className='my-4'>
+            If you&apos;ve ever tasted a coffee that made you stop mid-sip, something unexpectedly floral, bursting with blueberry, or carrying a complexity you couldn&apos;t quite name, there&apos;s a good chance it came from Ethiopia.
+          </p>
+
+          <p className='my-4'>
+            Ethiopia isn&apos;t just another origin. It&apos;s <span className='font-bold'>the</span> origin - the birthplace of Coffea arabica, home to over 10,000 heirloom varieties found nowhere else on Earth. The genetic diversity here is unmatched: bright, jasmine-scented Yirgacheffe; bold, berry-forward Sidamo; intensely aromatic Guji; wine-like, legendary Harar.
+          </p>
+
+          <p className='my-4'>
+            For roasters, this means one thing: <span className='font-bold'>options</span>. Whether your customers love delicate pour-over florals or need a fruit-bomb natural for espresso, Ethiopian coffee delivers.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            What We&apos;re Offering Canadian Roasters
+          </h3>
+          <p className='my-4'>
+            We&apos;ve built our Canadian operations specifically to solve the pain points roasters face when sourcing Ethiopian coffee:
+          </p>
+
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>Local Warehousing:</span> Green coffee stored in Canada, ready for quick fulfillment. No waiting weeks for international shipments.</li>
+            <li><span className='font-bold'>Full Traceability:</span> Every lot comes with complete documentation: region, cooperative, washing station, processing method, and cup score.</li>
+            <li><span className='font-bold'>Sample Programs:</span> Taste before you commit. We offer curated sample sets from Ethiopia&apos;s premier growing regions.</li>
+            <li><span className='font-bold'>Flexible Order Sizes:</span> From single-bag samples to full container orders, we work with roasters of every scale.</li>
+            <li><span className='font-bold'>Quality Verified:</span> Every lot is cupped by our team before export, so the coffee that arrives matches the profile you ordered.</li>
+          </ul>
+
+          <div className='my-6'>
+            <Link href='/ordering-info' className='inline-flex items-center gap-2 bg-amber-100 hover:bg-amber-200 text-dark px-5 py-3 rounded-lg font-bold transition'>
+              See Our Full Ordering Process & Logistics
+              <span aria-hidden='true'>→</span>
+            </Link>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Available Origins for 2026
+          </h3>
+          <p className='my-4'>
+            We source from Ethiopia&apos;s most celebrated coffee-growing regions. Here&apos;s what&apos;s available for 2026 allocation:
+          </p>
+
+          <div className='grid md:grid-cols-2 gap-5 my-6'>
+            <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
+              <h4 className='font-bold text-lg mb-1'>Yirgacheffe</h4>
+              <p className='font-inconsolata text-sm text-gray-600 mb-2'>Washed | G2 | 84+ Cup Score</p>
+              <p className='text-sm'>The world&apos;s most iconic Ethiopian origin. Jasmine aromatics, bright citrus acidity, and a delicate tea-like body that defines specialty coffee.</p>
+            </div>
+            <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
+              <h4 className='font-bold text-lg mb-1'>Sidamo</h4>
+              <p className='font-inconsolata text-sm text-gray-600 mb-2'>Natural | G1 | 86+ Cup Score</p>
+              <p className='text-sm'>Berry-forward and crowd-pleasing. Blueberry, strawberry, wine-like acidity, and rich chocolate undertones. Perfect for espresso or single-origin.</p>
+            </div>
+            <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
+              <h4 className='font-bold text-lg mb-1'>Guji</h4>
+              <p className='font-inconsolata text-sm text-gray-600 mb-2'>Natural | G1 | 87+ Cup Score</p>
+              <p className='text-sm'>Ethiopia&apos;s rising star. Stone fruit, floral complexity, and syrupy sweetness. Consistently produces some of the country&apos;s highest-scoring lots.</p>
+            </div>
+            <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
+              <h4 className='font-bold text-lg mb-1'>Harar</h4>
+              <p className='font-inconsolata text-sm text-gray-600 mb-2'>Natural | G1 | 85+ Cup Score</p>
+              <p className='text-sm'>Legendary and unmistakable. Dried fruit, wine notes, and the distinctive &quot;mocha&quot; character that made Ethiopian coffee famous centuries ago.</p>
+            </div>
+            <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
+              <h4 className='font-bold text-lg mb-1'>Limu</h4>
+              <p className='font-inconsolata text-sm text-gray-600 mb-2'>Washed | G2 | 84+ Cup Score</p>
+              <p className='text-sm'>Balanced and approachable. Bright citrus, wine-like undertones, and sweet spice. A great entry point for Ethiopian specialty.</p>
+            </div>
+            <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
+              <h4 className='font-bold text-lg mb-1'>Lekempti (Wollega)</h4>
+              <p className='font-inconsolata text-sm text-gray-600 mb-2'>Washed | G2 | 84+ Cup Score</p>
+              <p className='text-sm'>Western Ethiopia&apos;s hidden gem. Tropical fruit, mango, cocoa depth, and smooth body. A unique alternative to classic southern origins.</p>
+            </div>
+          </div>
+
+          <div className='my-6'>
+            <Link href='/offerings' className='inline-flex items-center gap-2 bg-amber-100 hover:bg-amber-200 text-dark px-5 py-3 rounded-lg font-bold transition'>
+              View All Offerings With Full Specifications
+              <span aria-hidden='true'>→</span>
+            </Link>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Our Commitment to Farmers
+          </h3>
+          <p className='my-4'>
+            When you source from Ethio Coffee, you&apos;re not just getting great coffee. You&apos;re supporting a supply chain built on respect and transparency.
+          </p>
+
+          <p className='my-4'>
+            We pay premium prices to our farming partners, maintain long-term relationships that provide stability, and ensure that the communities growing this exceptional coffee share in the value it creates. It&apos;s the approach our father built over three decades, and it&apos;s how we continue to operate today.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Coffee?</h4>
+            <p className='my-2'>
+              Whether you&apos;re a micro-roaster adding your first Ethiopian single-origin or a larger operation seeking consistent, traceable supply, we&apos;d love to work with you.
+            </p>
+            <p className='my-2'>
+              Request samples, ask questions, or reserve your 2026 allocation.
+            </p>
+            <div className='flex flex-wrap gap-4 mt-4'>
+              <Link href='/contact-us' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+                Contact Us
+              </Link>
+              <Link href='/offerings' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+                View Offerings
+              </Link>
+              <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+                How to Order
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Import and Export PLC is an Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters and cafés worldwide. Ethio Coffee Company Inc. is our Canadian subsidiary providing local warehousing and logistics for the North American market.
+            </p>
+            <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+              <Link href='/about' className='underline'>Our Story</Link> · <Link href='/offerings' className='underline'>Offerings</Link> · <Link href='/ordering-info' className='underline'>Ordering Info</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+            </p>
+          </div>
+        </>
+      );
+    } else if (ind === 1) {
       // Content for "The Birthplace of Coffee: Ethiopia's Rich Heritage"
       blogContent = (
         <>
@@ -148,7 +341,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 1) {
+    } else if (ind === 2) {
       // Content for "Ethiopian Coffee Ceremonies: Tradition Meets Business"
       blogContent = (
         <>
@@ -263,7 +456,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 2) {
+    } else if (ind === 3) {
       // Content for "Direct Trade Partnerships: Supporting Ethiopian Farmers"
       blogContent = (
         <>
@@ -540,7 +733,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 4) {
+    } else if (ind === 5) {
       // Ethiopian green coffee origins guide (formatted)
       blogContent = (
         <>
@@ -688,7 +881,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 5) {
+    } else if (ind === 6) {
       // Content for "How to Source Green Coffee from Ethiopia: A Complete Buyer's Guide"
       blogContent = (
         <>
@@ -756,7 +949,7 @@ const Insight = ({params}: Props) => {
             </ul>
           </div>
           <p className='my-4'>
-            At Ethio Coffee, we export all grades (G1-G4) to meet diverse buyer needs—from specialty roasters seeking premium G1 single-origins to commercial buyers requiring volume G3/G4 for blends.
+            At Ethio Coffee, we export all grades (G1-G4) to meet diverse buyer needs from specialty roasters seeking premium G1 single-origins to commercial buyers requiring volume G3/G4 for blends.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
@@ -839,7 +1032,7 @@ const Insight = ({params}: Props) => {
             <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples before committing to a purchase.</li>
             <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to our Canadian warehouse for North American buyers.</li>
             <li className='my-2'><span className='font-bold'>Responsive Support:</span> Our team helps with everything from lot selection to shipping coordination.</li>
-            <li className='my-2'><span className='font-bold'>All Grades Available:</span> We export G1, G2, G3, and G4—specialty to commercial grades for any buyer need.</li>
+            <li className='my-2'><span className='font-bold'>All Grades Available:</span> We export G1, G2, G3, and G4 specialty to commercial grades for any buyer need.</li>
           </ul>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -854,7 +1047,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 6) {
+    } else if (ind === 7) {
       // Content for "Yirgacheffe vs Sidamo vs Guji"
       blogContent = (
         <>
@@ -1052,7 +1245,7 @@ const Insight = ({params}: Props) => {
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source All Three from Ethio Coffee</h4>
             <p className='my-2 font-medium'>
-              We export Grades 1-4 from Yirgacheffe, Sidamo, and Guji—specialty and commercial grades with full traceability.
+              We export Grades 1-4 from Yirgacheffe, Sidamo, and Guji specialty and commercial grades with full traceability.
               Request samples to compare and find the right fit for your roastery or blend program.
             </p>
             <Link href='/contact-us' className='underline font-bold'>
@@ -1061,7 +1254,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 7) {
+    } else if (ind === 8) {
       // Content for "Washed vs Natural Ethiopian Coffee: What Roasters Need to Know"
       blogContent = (
         <>
