@@ -688,6 +688,568 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
+    } else if (ind === 5) {
+      // Content for "How to Source Green Coffee from Ethiopia: A Complete Buyer's Guide"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            {title}
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Everything roasters and cafés need to know about buying Ethiopian green coffee
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Sourcing green coffee directly from Ethiopia gives roasters access to some of the world's most distinctive specialty coffees.
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt='Ethiopian green coffee beans ready for export to roasters worldwide'
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <p className='my-4'>
+            If you're a coffee roaster, café owner, or wholesale buyer looking to source green coffee from Ethiopia, you're tapping into the birthplace of Arabica coffee and some of the most sought-after specialty beans in the world.
+          </p>
+
+          <p className='my-4'>
+            But sourcing Ethiopian green coffee can feel complex: navigating export regulations, understanding quality grades, finding reliable suppliers, and managing international logistics.
+            This guide breaks it down step by step.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Why Source Green Coffee from Ethiopia?
+          </h3>
+          <p className='my-4'>
+            Ethiopia produces some of the most unique and flavorful coffees on the planet. Here's why specialty roasters prioritize Ethiopian origins:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Unmatched Genetic Diversity:</span> Ethiopia is home to thousands of heirloom Arabica varieties found nowhere else, producing flavor profiles impossible to replicate.</li>
+            <li className='my-2'><span className='font-bold'>Distinctive Flavor Profiles:</span> From the jasmine-floral notes of Yirgacheffe to the berry-forward Sidamo and the winey Harar, Ethiopian coffees offer remarkable variety.</li>
+            <li className='my-2'><span className='font-bold'>High-Altitude Growing:</span> Most Ethiopian coffee grows between 1,500–2,300 meters, where cherries ripen slowly and develop complex sugars and acids.</li>
+            <li className='my-2'><span className='font-bold'>Customer Demand:</span> Specialty coffee consumers actively seek Ethiopian origins for their unique cup experience.</li>
+          </ul>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Understanding Ethiopian Coffee Grades
+          </h3>
+          <p className='my-4'>
+            Ethiopian coffee is graded on a scale from Grade 1 to Grade 9, based on defect count and cup quality. For specialty buyers, here's what matters:
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <ul className='font-inconsolata list-none'>
+              <li className='my-3'><span className='font-bold'>Grade 1:</span> Specialty grade with 0-3 defects per 300g. Best for single-origin offerings and premium roasts.</li>
+              <li className='my-3'><span className='font-bold'>Grade 2:</span> 4-12 defects per 300g. Good quality for blends and slightly lower-priced specialty offerings.</li>
+              <li className='my-3'><span className='font-bold'>Grade 3-4:</span> Commercial grades, typically not used for specialty coffee.</li>
+            </ul>
+          </div>
+          <p className='my-4'>
+            When buying from an Ethiopian green coffee supplier, always request Grade 1 for single-origin specialty programs and Grade 2 for blend components where cost matters.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Direct Trade vs. Traditional Sourcing
+          </h3>
+          <p className='my-4'>
+            There are two main ways to buy Ethiopian green coffee:
+          </p>
+
+          <h4 className='text-xl font-bold mt-6'>Option 1: Direct Trade with Ethiopian Exporters</h4>
+          <p className='my-4'>
+            Working directly with an Ethiopian coffee exporter gives you better traceability, relationship-based pricing, and access to specific lots. This approach is ideal for roasters who want to:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'>Tell a compelling origin story to customers</li>
+            <li className='my-2'>Lock in consistent supply from specific washing stations</li>
+            <li className='my-2'>Access micro-lots and experimental processing</li>
+            <li className='my-2'>Build long-term partnerships with producers</li>
+          </ul>
+
+          <h4 className='text-xl font-bold mt-6'>Option 2: Buying Through Importers</h4>
+          <p className='my-4'>
+            If you need smaller quantities or prefer domestic warehousing, working with an importer who has already brought Ethiopian coffee into your country can simplify logistics.
+            Look for importers with strong origin relationships and lot-level traceability.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Key Questions to Ask Your Ethiopian Green Coffee Supplier
+          </h3>
+          <p className='my-4'>
+            Before committing to a supplier, make sure you can answer these questions:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Traceability:</span> Can they identify the region, washing station, and processing method?</li>
+            <li className='my-2'><span className='font-bold'>Samples:</span> Will they provide pre-shipment samples for cupping evaluation?</li>
+            <li className='my-2'><span className='font-bold'>Documentation:</span> Can they provide phytosanitary certificates, ICO certificates, and quality reports?</li>
+            <li className='my-2'><span className='font-bold'>Minimum Order:</span> What's their MOQ? Can they accommodate smaller trial orders?</li>
+            <li className='my-2'><span className='font-bold'>Shipping:</span> Do they handle export logistics, or will you need a freight forwarder?</li>
+            <li className='my-2'><span className='font-bold'>Communication:</span> Are they responsive and transparent about lead times and crop conditions?</li>
+          </ul>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Shipping and Logistics: What to Expect
+          </h3>
+          <p className='my-4'>
+            Ethiopian green coffee is typically shipped in 60kg jute bags lined with GrainPro or similar moisture-barrier materials. Here's what the logistics look like:
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <ul className='font-inconsolata list-none'>
+              <li className='my-3'><span className='font-bold'>Container Size:</span> A standard 20-foot container holds approximately 275-300 bags (60kg each).</li>
+              <li className='my-3'><span className='font-bold'>Lead Time:</span> From order confirmation to arrival at port, expect 6-10 weeks depending on destination and shipping route.</li>
+              <li className='my-3'><span className='font-bold'>Payment Terms:</span> Most exporters require a deposit (often 30-50%) with balance due before or upon shipment.</li>
+              <li className='my-3'><span className='font-bold'>Insurance:</span> Marine cargo insurance is highly recommended for international shipments.</li>
+            </ul>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Best Ethiopian Coffee Regions for Specialty Roasters
+          </h3>
+          <p className='my-4'>
+            Different regions suit different roasting and menu needs:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Yirgacheffe:</span> Floral, tea-like, citrus. Best for light roasts and pour-over menus.</li>
+            <li className='my-2'><span className='font-bold'>Sidamo:</span> Berry, wine, cocoa finish. Versatile for filter and espresso.</li>
+            <li className='my-2'><span className='font-bold'>Guji:</span> Stone fruit, jasmine, syrupy body. Excellent for single-origin espresso.</li>
+            <li className='my-2'><span className='font-bold'>Harar:</span> Bold, winey, dried fruit. Great for dark roast lovers and unique blends.</li>
+            <li className='my-2'><span className='font-bold'>Limu:</span> Balanced, citrus, caramel. Reliable everyday offering.</li>
+          </ul>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            How Ethio Coffee Simplifies Sourcing for Roasters
+          </h3>
+          <p className='my-4'>
+            At Ethio Coffee Import and Export PLC, we make sourcing Ethiopian green coffee straightforward:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from our own estates and trusted partner farms across Ethiopia's top growing regions.</li>
+            <li className='my-2'><span className='font-bold'>Complete Traceability:</span> Every lot comes with origin details, processing information, and quality documentation.</li>
+            <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples before committing to a purchase.</li>
+            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to our Canadian warehouse for North American buyers.</li>
+            <li className='my-2'><span className='font-bold'>Responsive Support:</span> Our team helps with everything from lot selection to shipping coordination.</li>
+          </ul>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Green Coffee?</h4>
+            <p className='my-2 font-medium'>
+              Whether you need a full container of Grade 1 Yirgacheffe or want to start with a sample order, we're here to help.
+              Get in touch to discuss your sourcing needs and request current lot availability.
+            </p>
+            <Link href='/contact-us' className='underline font-bold'>
+              CONTACT US FOR SAMPLES
+            </Link>
+          </div>
+        </>
+      );
+    } else if (ind === 6) {
+      // Content for "Yirgacheffe vs Sidamo vs Guji"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            {title}
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            A head-to-head comparison of Ethiopia's most popular specialty coffee origins
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Yirgacheffe, Sidamo, and Guji are the three most sought-after Ethiopian coffee origins in the specialty market.
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt='Comparison of Yirgacheffe, Sidamo, and Guji Ethiopian coffee regions'
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <p className='my-4'>
+            When specialty coffee roasters think "Ethiopian coffee," three names come up more than any others: Yirgacheffe, Sidamo, and Guji.
+            But which one is right for your roastery? And what actually makes them different?
+          </p>
+
+          <p className='my-4'>
+            This guide compares all three origins side-by-side covering flavor profiles, processing methods, altitude, and best use cases so you can make an informed sourcing decision.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Quick Comparison Table
+          </h3>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+              <thead className='bg-dark text-primary'>
+                <tr>
+                  <th className='border border-gray-300 p-3 text-left'>Factor</th>
+                  <th className='border border-gray-300 p-3 text-left'>Yirgacheffe</th>
+                  <th className='border border-gray-300 p-3 text-left'>Sidamo</th>
+                  <th className='border border-gray-300 p-3 text-left'>Guji</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Region</td>
+                  <td className='border border-gray-300 p-3'>Gedeo Zone, SNNPR</td>
+                  <td className='border border-gray-300 p-3'>Sidama Zone, SNNPR</td>
+                  <td className='border border-gray-300 p-3'>Guji Zone, Oromia</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Altitude</td>
+                  <td className='border border-gray-300 p-3'>1,700–2,200m</td>
+                  <td className='border border-gray-300 p-3'>1,600–2,200m</td>
+                  <td className='border border-gray-300 p-3'>1,900–2,300m</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Primary Processing</td>
+                  <td className='border border-gray-300 p-3'>Washed (naturals available)</td>
+                  <td className='border border-gray-300 p-3'>Natural & Washed</td>
+                  <td className='border border-gray-300 p-3'>Natural & Washed</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Key Flavor Notes</td>
+                  <td className='border border-gray-300 p-3'>Jasmine, lemon, bergamot, tea-like</td>
+                  <td className='border border-gray-300 p-3'>Blueberry, strawberry, cocoa, wine</td>
+                  <td className='border border-gray-300 p-3'>Peach, apricot, jasmine, syrupy</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Body</td>
+                  <td className='border border-gray-300 p-3'>Light, silky, tea-like</td>
+                  <td className='border border-gray-300 p-3'>Medium, round</td>
+                  <td className='border border-gray-300 p-3'>Medium-full, syrupy</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Acidity</td>
+                  <td className='border border-gray-300 p-3'>Bright, citric</td>
+                  <td className='border border-gray-300 p-3'>Balanced, fruity</td>
+                  <td className='border border-gray-300 p-3'>Bright, complex</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Best For</td>
+                  <td className='border border-gray-300 p-3'>Pour-over, light roast</td>
+                  <td className='border border-gray-300 p-3'>Filter, espresso blends</td>
+                  <td className='border border-gray-300 p-3'>Single-origin espresso</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Yirgacheffe: The Floral Classic
+          </h3>
+          <p className='my-4'>
+            Yirgacheffe is arguably the most famous Ethiopian coffee region in the world and for good reason.
+            Washed Yirgacheffe coffees are prized for their delicate floral aromatics, tea-like body, and bright citrus acidity.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Yirgacheffe Flavor Profile</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'>Jasmine and bergamot aromatics</li>
+              <li className='my-2'>Lemon and citrus zest acidity</li>
+              <li className='my-2'>Light honey sweetness</li>
+              <li className='my-2'>Clean, tea-like finish</li>
+            </ul>
+          </div>
+          <p className='my-4'>
+            <span className='font-bold'>Best for:</span> Roasters who want a benchmark specialty Ethiopian for pour-over programs. Yirgacheffe rewards light roasting and showcases what "Ethiopian coffee" means to most consumers.
+          </p>
+          <p className='my-4'>
+            <span className='font-bold'>Roasting tip:</span> Keep it light (City to City+). Over-roasting will destroy the delicate florals that make Yirgacheffe special.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Sidamo: The Fruit-Forward Versatile Choice
+          </h3>
+          <p className='my-4'>
+            Sidamo (or Sidama, as the region is now officially known) is a larger growing region that produces some of Ethiopia's most fruit-forward coffees.
+            Natural processed Sidamo is famous for intense blueberry and strawberry notes, while washed lots offer more balanced citrus and floral character.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Sidamo Flavor Profile</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'>Blueberry and strawberry (especially naturals)</li>
+              <li className='my-2'>Wine-like acidity</li>
+              <li className='my-2'>Cocoa and brown sugar finish</li>
+              <li className='my-2'>Medium, rounded body</li>
+            </ul>
+          </div>
+          <p className='my-4'>
+            <span className='font-bold'>Best for:</span> Roasters who want versatility. Sidamo works beautifully as a single-origin for filter brewing, but also adds fruit complexity to espresso blends.
+          </p>
+          <p className='my-4'>
+            <span className='font-bold'>Roasting tip:</span> Natural Sidamo can handle slightly more development than washed lots. Aim for light-to-medium (City to City+) to balance fruit intensity with sweetness.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Guji: The Rising Star for Specialty Espresso
+          </h3>
+          <p className='my-4'>
+            Guji has rapidly become one of the most exciting Ethiopian coffee regions for specialty roasters.
+            Known for its high altitude, excellent infrastructure of washing stations, and distinctive stone-fruit sweetness, Guji coffees often score among the highest in Ethiopian Cup of Excellence competitions.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Guji Flavor Profile</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'>Peach and apricot stone fruit</li>
+              <li className='my-2'>Jasmine-like floral lift</li>
+              <li className='my-2'>Syrupy, full body</li>
+              <li className='my-2'>Complex, lingering sweetness</li>
+            </ul>
+          </div>
+          <p className='my-4'>
+            <span className='font-bold'>Best for:</span> Roasters looking for a standout single-origin espresso. Guji's combination of fruit, florals, and body translates beautifully under pressure.
+          </p>
+          <p className='my-4'>
+            <span className='font-bold'>Roasting tip:</span> Light-to-medium roast brings out the best in Guji. Naturals especially benefit from careful heat application to preserve fruit without developing roasty bitterness.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Which Origin Should You Choose?
+          </h3>
+          <p className='my-4'>
+            Here's a quick decision framework based on your menu needs:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>You want a classic Ethiopian for pour-over:</span> Washed Yirgacheffe</li>
+            <li className='my-2'><span className='font-bold'>You want intense fruit for a unique single-origin:</span> Natural Sidamo</li>
+            <li className='my-2'><span className='font-bold'>You need an espresso that stands alone:</span> Guji (washed or natural)</li>
+            <li className='my-2'><span className='font-bold'>You want versatility for blends and filter:</span> Sidamo</li>
+            <li className='my-2'><span className='font-bold'>You want the highest-scoring lots for competitions:</span> Guji micro-lots</li>
+          </ul>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Can You Offer All Three?
+          </h3>
+          <p className='my-4'>
+            Many successful roasteries carry 2-3 Ethiopian origins to offer variety to their customers. A common approach:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Core offering:</span> Washed Yirgacheffe (the accessible classic)</li>
+            <li className='my-2'><span className='font-bold'>Seasonal rotation:</span> Natural Sidamo (for fruit lovers)</li>
+            <li className='my-2'><span className='font-bold'>Premium single-origin espresso:</span> Guji (for the adventurous)</li>
+          </ul>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <h4 className='font-bold text-xl mb-3'>Source All Three from Ethio Coffee</h4>
+            <p className='my-2 font-medium'>
+              We export Grade 1 lots from Yirgacheffe, Sidamo, and Guji all with full traceability to the washing station level.
+              Request samples to compare and find the right fit for your roastery.
+            </p>
+            <Link href='/contact-us' className='underline font-bold'>
+              REQUEST SAMPLES
+            </Link>
+          </div>
+        </>
+      );
+    } else if (ind === 7) {
+      // Content for "Washed vs Natural Ethiopian Coffee: What Roasters Need to Know"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            {title}
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            How processing method shapes the cup and what that means for your roasting decisions
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              The processing method is one of the biggest factors determining how Ethiopian coffee tastes in the cup.
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt='Washed and natural processed Ethiopian coffee beans comparison'
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <p className='my-4'>
+            When you're buying Ethiopian green coffee, one of the most important decisions isn't the region it's the processing method.
+            Washed and natural processed coffees from the same farm can taste dramatically different.
+          </p>
+
+          <p className='my-4'>
+            Understanding these differences helps you make better sourcing decisions, adjust your roasting approach, and set accurate customer expectations.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            What is Washed (Wet) Processing?
+          </h3>
+          <p className='my-4'>
+            In washed processing, the coffee cherry's fruit is removed from the seed (the coffee bean) immediately after harvesting.
+            The beans are then fermented in water tanks to break down the remaining mucilage before being washed clean and dried on raised beds.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Washed Ethiopian Coffee Characteristics</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Flavor:</span> Clean, bright, with pronounced acidity</li>
+              <li className='my-2'><span className='font-bold'>Aromatics:</span> Floral, citrus, tea-like</li>
+              <li className='my-2'><span className='font-bold'>Body:</span> Light to medium, silky</li>
+              <li className='my-2'><span className='font-bold'>Finish:</span> Crisp, transparent</li>
+              <li className='my-2'><span className='font-bold'>Best regions:</span> Yirgacheffe, Limu (though washed lots exist everywhere)</li>
+            </ul>
+          </div>
+          <p className='my-4'>
+            <span className='font-bold'>Why roasters love it:</span> Washed processing creates consistency and clarity. You taste the terroir (altitude, soil, variety) more directly because the fruit isn't masking the bean's inherent character.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            What is Natural (Dry) Processing?
+          </h3>
+          <p className='my-4'>
+            Natural processing is the oldest coffee processing method and it's still widely used in Ethiopia.
+            The whole cherry is dried on raised beds or patios with the fruit still attached to the bean. As it dries, the fruit sugars ferment and infuse into the seed.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Natural Ethiopian Coffee Characteristics</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Flavor:</span> Fruit-forward, jammy, complex</li>
+              <li className='my-2'><span className='font-bold'>Aromatics:</span> Berry, wine, tropical fruit</li>
+              <li className='my-2'><span className='font-bold'>Body:</span> Medium to full, syrupy</li>
+              <li className='my-2'><span className='font-bold'>Finish:</span> Long, sweet, sometimes boozy</li>
+              <li className='my-2'><span className='font-bold'>Best regions:</span> Sidamo, Guji, Harar</li>
+            </ul>
+          </div>
+          <p className='my-4'>
+            <span className='font-bold'>Why roasters love it:</span> Natural processing creates bold, memorable cups. A well-processed natural Ethiopian can taste like blueberry jam, strawberry wine, or tropical fruit flavors that wow customers.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Side-by-Side Comparison
+          </h3>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+              <thead className='bg-dark text-primary'>
+                <tr>
+                  <th className='border border-gray-300 p-3 text-left'>Factor</th>
+                  <th className='border border-gray-300 p-3 text-left'>Washed</th>
+                  <th className='border border-gray-300 p-3 text-left'>Natural</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Acidity</td>
+                  <td className='border border-gray-300 p-3'>Bright, citric, sparkling</td>
+                  <td className='border border-gray-300 p-3'>Softer, fruity, wine-like</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Body</td>
+                  <td className='border border-gray-300 p-3'>Light, clean, tea-like</td>
+                  <td className='border border-gray-300 p-3'>Full, syrupy, round</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Sweetness</td>
+                  <td className='border border-gray-300 p-3'>Honey, floral sugar</td>
+                  <td className='border border-gray-300 p-3'>Jam, dried fruit, brown sugar</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Consistency</td>
+                  <td className='border border-gray-300 p-3'>More consistent lot-to-lot</td>
+                  <td className='border border-gray-300 p-3'>Can vary more (quality dependent)</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Best Brew Method</td>
+                  <td className='border border-gray-300 p-3'>Pour-over, filter, Chemex</td>
+                  <td className='border border-gray-300 p-3'>Espresso, immersion, cold brew</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Roast Approach</td>
+                  <td className='border border-gray-300 p-3'>Light (preserve clarity)</td>
+                  <td className='border border-gray-300 p-3'>Light-medium (balance fruit/body)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Roasting Washed Ethiopian Coffee
+          </h3>
+          <p className='my-4'>
+            Washed Ethiopian coffees are prized for their delicate flavors which means they're easy to over-roast.
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Target roast:</span> Light (City to City+)</li>
+            <li className='my-2'><span className='font-bold'>First crack:</span> End development shortly after first crack (30-60 seconds)</li>
+            <li className='my-2'><span className='font-bold'>What to avoid:</span> Going too dark kills the florals and turns citrus into generic "coffee" flavor</li>
+            <li className='my-2'><span className='font-bold'>Pro tip:</span> Lower charge temperatures and gentle heat application preserve aromatics</li>
+          </ul>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Roasting Natural Ethiopian Coffee
+          </h3>
+          <p className='my-4'>
+            Natural processed coffees have more sugar from the dried fruit, which affects how they caramelize during roasting.
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Target roast:</span> Light-medium (City to Full City-)</li>
+            <li className='my-2'><span className='font-bold'>First crack:</span> Can extend development slightly longer than washed (60-90 seconds post-crack)</li>
+            <li className='my-2'><span className='font-bold'>What to avoid:</span> Under-developing creates sour, green notes; over-roasting makes it taste burnt and loses fruit character</li>
+            <li className='my-2'><span className='font-bold'>Pro tip:</span> Naturals benefit from slightly higher airflow to prevent scorching from sugar carbonization</li>
+          </ul>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Which Should You Stock?
+          </h3>
+          <p className='my-4'>
+            Most successful specialty roasteries carry both washed and natural Ethiopian coffees. Here's a framework:
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Washed Ethiopian:</span> Your accessible, everyday specialty option. Great for customers new to Ethiopian coffee.</li>
+              <li className='my-2'><span className='font-bold'>Natural Ethiopian:</span> Your "wow factor" offering. Use for limited releases, subscriptions, and customers who want something bold.</li>
+            </ul>
+          </div>
+          <p className='my-4'>
+            Some roasteries position washed as their "light and bright" option and natural as their "fruit bomb" and let customers choose their adventure.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            What About Honey Process?
+          </h3>
+          <p className='my-4'>
+            While less common in Ethiopia than in Central America, honey processed coffees (where some mucilage is left on the bean during drying) do exist.
+            They fall somewhere between washed and natural with more body than washed but more clarity than natural.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <h4 className='font-bold text-xl mb-3'>Source Both Processing Methods from Ethio Coffee</h4>
+            <p className='my-2 font-medium'>
+              We export washed and natural processed coffees from Ethiopia's top growing regions.
+              Request samples of both to taste the difference for yourself and find the right fit for your roastery's menu.
+            </p>
+            <Link href='/contact-us' className='underline font-bold'>
+              REQUEST SAMPLES
+            </Link>
+          </div>
+        </>
+      );
     } else {
       // Fallback for any insight articles without custom content
       blogContent = (

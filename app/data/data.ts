@@ -56,5 +56,62 @@ export const posts: Post[] = [
       category: 'Market Insights / Sourcing',
       keywords: ['Ethiopian coffee regions', 'Yirgacheffe', 'Sidamo', 'Guji', 'green coffee buying guide', 'coffee traceability'],
       desc: 'A buyer-friendly overview of Ethiopia\'s key coffee regions, what "origin" means in practice, and how to source green coffee with better clarity on processing, profile, and traceability.'
+    },
+    {
+      small_image_url: 'green-coffee-sourcing.webp',
+      large_image_url: 'green-coffee-sourcing.webp',
+      date: 'Aug 10, 2025',
+      title: 'HOW TO SOURCE GREEN COFFEE FROM ETHIOPIA: A COMPLETE BUYER\'S GUIDE FOR ROASTERS',
+      slug: 'how-to-source-green-coffee-from-ethiopia',
+      category: 'Sourcing Guide',
+      keywords: [
+        'how to source green coffee from Ethiopia',
+        'Ethiopian green coffee supplier',
+        'buy green coffee beans wholesale',
+        'Ethiopian coffee for roasters',
+        'green coffee importing',
+        'wholesale Ethiopian coffee beans',
+        'direct trade Ethiopian coffee',
+        'specialty green coffee supplier'
+      ],
+      desc: 'A complete guide for roasters and cafés on how to source green coffee from Ethiopia covering direct trade, quality grades, shipping logistics, and what to look for in an Ethiopian green coffee supplier.'
+    },
+    {
+      small_image_url: 'yirgacheffe-vs-sidamo.webp',
+      large_image_url: 'yirgacheffe-vs-sidamo.webp',
+      date: 'May 23, 2025',
+      title: 'YIRGACHEFFE VS SIDAMO VS GUJI: WHICH ETHIOPIAN COFFEE IS RIGHT FOR YOUR ROASTERY?',
+      slug: 'yirgacheffe-vs-sidamo-vs-guji-comparison',
+      category: 'Coffee Profiles',
+      keywords: [
+        'Yirgacheffe vs Sidamo',
+        'Guji coffee profile',
+        'Ethiopian coffee regions comparison',
+        'best Ethiopian coffee for espresso',
+        'Ethiopian coffee flavor profiles',
+        'specialty coffee buying guide',
+        'Ethiopian single origin coffee',
+        'wholesale Yirgacheffe coffee'
+      ],
+      desc: 'Compare Ethiopia\'s top coffee regions Yirgacheffe, Sidamo, and Guji to find the best origin for your roastery\'s needs. Includes flavor profiles, processing methods, and wholesale buying tips.'
+    },
+    {
+      small_image_url: 'washed-vs-natural.webp',
+      large_image_url: 'washed-vs-natural.webp',
+      date: 'Jun 02, 2025',
+      title: 'WASHED VS NATURAL PROCESSED ETHIOPIAN COFFEE: WHAT ROASTERS NEED TO KNOW',
+      slug: 'washed-vs-natural-ethiopian-coffee-processing',
+      category: 'Processing Methods',
+      keywords: [
+        'washed vs natural coffee',
+        'Ethiopian coffee processing methods',
+        'natural processed Ethiopian coffee',
+        'washed Ethiopian coffee',
+        'coffee processing for roasters',
+        'green coffee processing methods',
+        'specialty coffee processing',
+        'Ethiopian natural coffee flavor'
+      ],
+      desc: 'Understand the key differences between washed and natural processed Ethiopian coffee how each method affects flavor, roasting, and what your customers will taste in the cup.'
     }
 ]
