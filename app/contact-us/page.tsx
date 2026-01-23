@@ -97,7 +97,7 @@ const WholesaleInquiryPage = () => {
       <header className='bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative'>
         <div className='absolute inset-0 bg-black/40'></div>
         <h1 className='text-5xl md:text-6xl font-bold text-primary relative z-10 tracking-wide'>LET&apos;S WORK TOGETHER</h1>
-        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>From our farms in Ethiopia to your roastery  - start your partnership today</p>
+        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>From our farms in Ethiopia to your roastery. Start your partnership today.</p>
       </header>
       
       <section className='container mx-auto px-4 py-12'>
@@ -117,23 +117,23 @@ const WholesaleInquiryPage = () => {
               <ul className='space-y-3'>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Vertical Integration</strong>  - Direct oversight from family estates to your door, eliminating intermediaries</span>
+                  <span><strong>Vertical Integration:</strong> Direct oversight from family estates to your door, eliminating intermediaries</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Traceable Heritage</strong>  - Authentic heirloom varietals with farm-gate transparency</span>
+                  <span><strong>Traceable Heritage:</strong> Authentic heirloom varietals with farm-gate transparency</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Roaster-Ready Logistics</strong>  - Year-round inventory with strict sample-to-bag consistency</span>
+                  <span><strong>Roaster-Ready Logistics:</strong> Year-round inventory with strict sample-to-bag consistency</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Free Sample Program</strong>  - Evaluate quality before committing to orders</span>
+                  <span><strong>Free Sample Program:</strong> Evaluate quality before committing to orders</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>North American Distribution</strong>  - Canadian warehousing for seamless fulfillment</span>
+                  <span><strong>North American Distribution:</strong> Canadian warehousing for seamless fulfillment</span>
                 </li>
               </ul>
             </div>
