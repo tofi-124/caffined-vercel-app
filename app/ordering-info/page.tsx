@@ -108,7 +108,7 @@ const faqData: FAQSection[] = [
         question: 'Can I request a sample before placing a larger order?',
         answer: (
           <p>
-            Yes! We offer 100–300g samples for roast profiling and cupping. Sample costs and shipping fees may apply depending on whether you qualify for our <strong>free sample policy</strong> ask us when requesting a quote.
+            Yes! We offer 100-300g samples for roast profiling and cupping. Sample costs and shipping fees may apply depending on whether you qualify for our <strong>free sample policy</strong>. Ask us when requesting a quote.
           </p>
         ),
       },
@@ -358,7 +358,7 @@ const faqData: FAQSection[] = [
         question: 'How do you handle quality disputes?',
         answer: (
           <p>
-            Most issues are resolved through direct discussion and sample comparison. For formal disputes, we follow GCA arbitration procedures. Proactive communication prevents most problems we encourage feedback at every stage.
+            Most issues are resolved through direct discussion and sample comparison. For formal disputes, we follow GCA arbitration procedures. Proactive communication prevents most problems. We encourage feedback at every stage.
           </p>
         ),
       },
@@ -486,7 +486,7 @@ export default function OrderingInfoPage() {
                 <span className='font-bold'>Browse Offerings:</span> Explore our current lots with detailed profiles, cup scores, and availability status.
               </li>
               <li>
-                <span className='font-bold'>Request Samples:</span> Try before you commit we offer samples for evaluation and roast profiling.
+                <span className='font-bold'>Request Samples:</span> Try before you commit. We offer samples for evaluation and roast profiling.
               </li>
               <li>
                 <span className='font-bold'>Get a Quote:</span> Tell us what you need and we'll provide a transparent, itemized quotation.
