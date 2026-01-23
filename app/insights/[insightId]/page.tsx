@@ -745,17 +745,18 @@ const Insight = ({params}: Props) => {
             Understanding Ethiopian Coffee Grades
           </h3>
           <p className='my-4'>
-            Ethiopian coffee is graded on a scale from Grade 1 to Grade 9, based on defect count and cup quality. For specialty buyers, here's what matters:
+            Ethiopian coffee is graded on a scale from Grade 1 to Grade 9, based on defect count and cup quality. Here's what each export-grade level offers:
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <ul className='font-inconsolata list-none'>
-              <li className='my-3'><span className='font-bold'>Grade 1:</span> Specialty grade with 0-3 defects per 300g. Best for single-origin offerings and premium roasts.</li>
-              <li className='my-3'><span className='font-bold'>Grade 2:</span> 4-12 defects per 300g. Good quality for blends and slightly lower-priced specialty offerings.</li>
-              <li className='my-3'><span className='font-bold'>Grade 3-4:</span> Commercial grades, typically not used for specialty coffee.</li>
+              <li className='my-3'><span className='font-bold'>Grade 1 (G1):</span> Specialty grade with 0-3 defects per 300g. Best for single-origin offerings and premium roasts.</li>
+              <li className='my-3'><span className='font-bold'>Grade 2 (G2):</span> 4-12 defects per 300g. Good quality for blends and slightly lower-priced specialty offerings.</li>
+              <li className='my-3'><span className='font-bold'>Grade 3 (G3):</span> 13-25 defects per 300g. Commercial grade suitable for blends, institutional buyers, and price-sensitive markets.</li>
+              <li className='my-3'><span className='font-bold'>Grade 4 (G4):</span> 26-45 defects per 300g. Commercial grade ideal for large-volume buyers, instant coffee production, and budget blends.</li>
             </ul>
           </div>
           <p className='my-4'>
-            When buying from an Ethiopian green coffee supplier, always request Grade 1 for single-origin specialty programs and Grade 2 for blend components where cost matters.
+            At Ethio Coffee, we export all grades (G1-G4) to meet diverse buyer needs—from specialty roasters seeking premium G1 single-origins to commercial buyers requiring volume G3/G4 for blends.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
@@ -838,12 +839,13 @@ const Insight = ({params}: Props) => {
             <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples before committing to a purchase.</li>
             <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to our Canadian warehouse for North American buyers.</li>
             <li className='my-2'><span className='font-bold'>Responsive Support:</span> Our team helps with everything from lot selection to shipping coordination.</li>
+            <li className='my-2'><span className='font-bold'>All Grades Available:</span> We export G1, G2, G3, and G4—specialty to commercial grades for any buyer need.</li>
           </ul>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Green Coffee?</h4>
             <p className='my-2 font-medium'>
-              Whether you need a full container of Grade 1 Yirgacheffe or want to start with a sample order, we're here to help.
+              Whether you need specialty Grade 1 Yirgacheffe for single-origin or commercial Grade 3/4 for blends, we're here to help.
               Get in touch to discuss your sourcing needs and request current lot availability.
             </p>
             <Link href='/contact-us' className='underline font-bold'>
@@ -1050,8 +1052,8 @@ const Insight = ({params}: Props) => {
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source All Three from Ethio Coffee</h4>
             <p className='my-2 font-medium'>
-              We export Grade 1 lots from Yirgacheffe, Sidamo, and Guji all with full traceability to the washing station level.
-              Request samples to compare and find the right fit for your roastery.
+              We export Grades 1-4 from Yirgacheffe, Sidamo, and Guji—specialty and commercial grades with full traceability.
+              Request samples to compare and find the right fit for your roastery or blend program.
             </p>
             <Link href='/contact-us' className='underline font-bold'>
               REQUEST SAMPLES

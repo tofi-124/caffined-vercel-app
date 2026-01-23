@@ -13,9 +13,9 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ethiocoffee.et'),
-  title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
-  description: 'Premium Ethiopian coffee exports for specialty cafés and roasters worldwide. Experience distinctive floral and fruity notes from the birthplace of coffee.',
-  keywords: 'Ethiopian coffee, specialty coffee, coffee exports, wholesale coffee, coffee exporters, arabica coffee',
+  title: 'Ethiopian Green Coffee Supplier | Wholesale Exports for Roasters | Ethio Coffee',
+  description: 'Buy Ethiopian green coffee beans direct from origin. Ethio Coffee exports Grade 1-4 Yirgacheffe, Sidamo & Guji to roasters and cafés worldwide. Specialty to commercial grades, traceable sourcing.',
+  keywords: 'Ethiopian green coffee supplier, buy Ethiopian coffee wholesale, Ethiopian coffee exporter, green coffee beans wholesale, Yirgacheffe coffee supplier, Sidamo coffee, Guji coffee, direct trade Ethiopian coffee, coffee for roasters',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
   alternates: {
@@ -104,7 +104,43 @@ export default function RootLayout({
               },
               "sameAs": [
                 "https://instagram.com/ethiocoffee.et"
+              ],
+              "areaServed": {
+                "@type": "GeoCircle",
+                "geoMidpoint": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 9.0054,
+                  "longitude": 38.7636
+                },
+                "geoRadius": "50000"
+              },
+              "knowsAbout": [
+                "Ethiopian Coffee",
+                "Green Coffee Beans",
+                "Coffee Export",
+                "Yirgacheffe Coffee",
+                "Sidamo Coffee",
+                "Guji Coffee",
+                "Direct Trade Coffee"
               ]
+            })
+          }}
+        />
+        {/* Website Schema for Sitelinks */}
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Ethio Coffee",
+              "url": "https://ethiocoffee.et",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://ethiocoffee.et/offerings?search={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
             })
           }}
         />

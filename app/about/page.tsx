@@ -1,18 +1,9 @@
+'use client'
+
 import Testimonials from '../components/Testimonials'
 import ResponsiveImage from '../components/ResponsiveImage'
 import AutoScrollTo from '../components/AutoScrollTo'
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'About Ethio Coffee | Our Story & Commitment',
-  description: 'Ethio Coffee Import and Export PLC is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide through ethical sourcing, export-ready quality, and long-term relationships.',
-  keywords: 'Ethio Coffee Import and Export PLC, Ethiopian coffee exporter, green coffee supplier, traceable Ethiopian coffee, wholesale coffee, roasters, ethical sourcing, farmer partnerships',
-  openGraph: {
-    title: 'About Ethio Coffee | Our Story & Commitment',
-    description: 'A family-built Ethiopian origin coffee company importing into Canada and supporting buyers beyond Canada with traceable sourcing, export-ready preparation, and consistent quality.',
-    url: 'https://ethiocoffee.et/about',
-  }
-}
+import Link from 'next/link'
 
 const timeline = [
   {
@@ -155,6 +146,28 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      {/* CTA to Ordering Info */}
+      <section className='bg-secondary py-16'>
+        <div className='container mx-auto px-4 text-center'>
+          <h2 className='text-3xl md:text-4xl font-extrabold text-primary mb-4'>
+            Ready to Source Ethiopian Coffee?
+          </h2>
+          <p className='text-primary/80 mb-8 max-w-2xl mx-auto'>
+            Learn about our ordering process, minimum quantities, shipping options, and everything you need to know to get started.
+          </p>
+          <Link 
+            href="/ordering-info"
+            className='inline-flex items-center gap-3 bg-primary text-dark px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors shadow-lg hover:shadow-xl'
+          >
+            Learn How to Order
+            <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17 8l4 4m0 0l-4 4m4-4H3' />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
       <Testimonials />
     </main>
   )

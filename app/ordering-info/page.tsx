@@ -11,8 +11,6 @@ import {
   HiOutlineShieldCheck, 
   HiOutlineUserGroup,
   HiOutlineEnvelope,
-  HiOutlineArchiveBox,
-  HiOutlineBuildingOffice2,
   HiOutlineDocumentText,
   HiOutlineNewspaper
 } from 'react-icons/hi2'
@@ -506,32 +504,34 @@ export default function OrderingInfoPage() {
         </div>
       </section>
 
-      {/* Quick Links Section - Dark background */}
-      <section className='bg-dark text-primary py-16'>
-        <div className='container mx-auto px-4'>
-          <h2 className='text-4xl font-extrabold text-center mb-8'>Quick Links</h2>
-          <div className='max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
-            <Link
-              href='/offerings'
-              className='flex items-center gap-3 bg-white/10 rounded-lg p-4 hover:bg-white/20 transition-colors'
+      {/* FAQ Header Section - Dark background */}
+      <section className='bg-dark text-primary py-12'>
+        <div className='container mx-auto px-4 text-center'>
+          <h2 className='text-4xl font-extrabold mb-4'>Frequently Asked Questions</h2>
+          <div className='w-24 h-1 bg-secondary mx-auto mb-4'></div>
+          <p className='text-lg text-primary/80 mb-8'>
+            Find answers to common questions about ordering, shipping, payment, and more.
+          </p>
+          {/* Expand/Collapse Controls */}
+          <div className='flex gap-4 justify-center flex-wrap'>
+            <button
+              onClick={expandAll}
+              className='inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg text-sm font-semibold text-primary transition-all'
             >
-              <GiCoffeeBeans className='text-2xl' />
-              <span className='font-bold'>View Offerings</span>
-            </Link>
-            <Link
-              href='/about'
-              className='flex items-center gap-3 bg-white/10 rounded-lg p-4 hover:bg-white/20 transition-colors'
+              <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4' />
+              </svg>
+              Expand All
+            </button>
+            <button
+              onClick={collapseAll}
+              className='inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg text-sm font-semibold text-primary transition-all'
             >
-              <HiOutlineBuildingOffice2 className='text-2xl' />
-              <span className='font-bold'>About Us</span>
-            </Link>
-            <Link
-              href='/contact-us'
-              className='flex items-center gap-3 bg-white/10 rounded-lg p-4 hover:bg-white/20 transition-colors'
-            >
-              <HiOutlineArchiveBox className='text-2xl' />
-              <span className='font-bold'>Request Samples</span>
-            </Link>
+              <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25' />
+              </svg>
+              Collapse All
+            </button>
           </div>
         </div>
       </section>
@@ -539,30 +539,6 @@ export default function OrderingInfoPage() {
       {/* FAQ Sections */}
       <section className='container mx-auto px-4 py-16'>
         <div className='max-w-4xl mx-auto'>
-          <div className='text-center mb-12'>
-            <h2 className='text-4xl font-extrabold text-dark mb-4'>Frequently Asked Questions</h2>
-            <div className='w-24 h-1 bg-secondary mx-auto mb-6'></div>
-            <p className='text-lg text-dark/80'>
-              Find answers to common questions about ordering, shipping, payment, and more.
-            </p>
-          </div>
-
-          {/* Expand/Collapse Controls */}
-          <div className='flex gap-4 mb-8 justify-center'>
-            <button
-              onClick={expandAll}
-              className='text-sm font-semibold text-dark hover:text-dark/70 underline underline-offset-4 transition-colors'
-            >
-              Expand All Questions
-            </button>
-            <span className='text-dark/30'>|</span>
-            <button
-              onClick={collapseAll}
-              className='text-sm font-semibold text-dark hover:text-dark/70 underline underline-offset-4 transition-colors'
-            >
-              Collapse All
-            </button>
-          </div>
 
           {faqData.map((section) => (
             <FAQSectionComponent

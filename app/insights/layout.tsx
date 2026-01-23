@@ -1,16 +1,17 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Insights | Ethio Coffee',
+  title: 'Ethiopian Coffee Blog | Sourcing Guides & Industry Insights | Ethio Coffee',
   description:
-    'Stories from Ethiopian coffee origin: culture, sourcing, and practical guidance for roasters and café partners.',
+    'Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends. Expert guides for roasters, cafés, and green coffee buyers.',
+  keywords: 'Ethiopian coffee blog, coffee sourcing guide, Ethiopian coffee regions, green coffee buying guide, coffee industry insights, roaster resources',
   alternates: {
     canonical: 'https://ethiocoffee.et/insights',
   },
   openGraph: {
-    title: 'Insights | Ethio Coffee',
+    title: 'Ethiopian Coffee Blog | Sourcing Guides & Industry Insights',
     description:
-      'Stories from Ethiopian coffee origin: culture, sourcing, and practical guidance for roasters and café partners.',
+      'Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends.',
     url: 'https://ethiocoffee.et/insights',
   },
 }

@@ -1,16 +1,17 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Ethio Coffee',
+  title: 'Request Ethiopian Coffee Samples & Pricing | Contact Ethio Coffee',
   description:
-    'Request pricing, samples, and availability for Ethiopian green coffee exports. Tell us your needs and we will respond with next steps.',
+    'Get a quote for Ethiopian green coffee exports. Request samples of Yirgacheffe, Sidamo, or Guji. We ship worldwide to roasters and cafés. Fast response guaranteed.',
+  keywords: 'Ethiopian coffee samples, green coffee pricing, Ethiopian coffee quote, wholesale coffee inquiry, coffee supplier contact',
   alternates: {
     canonical: 'https://ethiocoffee.et/contact-us',
   },
   openGraph: {
-    title: 'Contact Us | Ethio Coffee',
+    title: 'Request Ethiopian Coffee Samples & Pricing | Ethio Coffee',
     description:
-      'Request pricing, samples, and availability for Ethiopian green coffee exports.',
+      'Get a quote for Ethiopian green coffee exports. Request samples of Yirgacheffe, Sidamo, or Guji.',
     url: 'https://ethiocoffee.et/contact-us',
   },
 }
