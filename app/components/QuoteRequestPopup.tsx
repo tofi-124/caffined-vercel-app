@@ -39,11 +39,10 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
     setSubmitSuccess(false)
 
     try {
-      const response = await fetch('https://formspree.io/f/xkgrnlve', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json',
         },
         body: JSON.stringify({
           ...formData,

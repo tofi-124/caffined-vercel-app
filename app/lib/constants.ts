@@ -1,8 +1,5 @@
 // Centralized constants for the application
 
-// Form submission endpoint
-export const FORMSPREE_URL = 'https://formspree.io/f/xkgrnlve'
-
 // Header offset for scroll calculations (TopMessage + navbar height)
 export const HEADER_OFFSET = 96
 

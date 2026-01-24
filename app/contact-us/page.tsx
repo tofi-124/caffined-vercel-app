@@ -52,12 +52,11 @@ const WholesaleInquiryPage = () => {
     setSubmitError('');
     
     try {
-      // Send the form data to Formspree
-      const response = await fetch('https://formspree.io/f/xkgrnlve', {
+      // Send the form data to our API route
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json'
         },
         body: JSON.stringify({
           ...formData,
