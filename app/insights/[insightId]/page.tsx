@@ -4,6 +4,7 @@ import { useEffect, use } from 'react'
 import Link from 'next/link'
 import { posts } from '@/app/data/data'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { HiOutlineCalendarDays } from 'react-icons/hi2'
 
 type Props = {
   params: Promise<{
@@ -75,8 +76,9 @@ const Insight = ({params}: Props) => {
           </p>
 
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
-            <p className='font-medium'>
-              📋 <span className='font-bold'>2025 harvest is sold out.</span> We&apos;re now accepting allocations for the 2026 Ethiopian coffee harvest. <Link href='/contact-us' className='underline'>Contact us</Link> to reserve your supply.
+            <p className='font-medium flex items-center gap-2'>
+              <HiOutlineCalendarDays className='text-xl flex-shrink-0' />
+              <span><span className='font-bold'>2025 harvest is sold out.</span> Check out our <Link href='/offerings' className='underline'>offerings</Link> and join the 2026 allocation list to reserve your next premium green coffee from the origin.</span>
             </p>
           </div>
 
