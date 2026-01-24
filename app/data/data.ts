@@ -14,7 +14,7 @@ export const posts: Post[] = [
       small_image_url: 'launch.webp',
       large_image_url: 'launch.webp',
       date: 'Jan 01, 2026',
-      title: 'ETHIO COFFEE LAUNCHES CANADIAN OPERATIONS: BRINGING ETHIOPIA\'S FINEST TO NORTH AMERICA',
+      title: 'ETHIO COFFEE LAUNCHES CANADIAN OPERATIONS',
       slug: 'ethio-coffee-canada-operations-launch',
       category: 'Company News',
       keywords: [
