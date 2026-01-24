@@ -8,6 +8,14 @@ export type OfferingSpecifications = {
   cupScore: string
 }
 
+export type OfferingPricing = {
+  fobPricePerKg: number // FOB price in USD per kg
+  fobPricePerLb: number // FOB price in USD per lb
+  priceYear: number // Year the price is based on (2025)
+  minimumOrder: string | null // e.g., "1 container (275 bags)" or null if not specified
+  priceNote: string // Additional pricing context
+}
+
 export type Offering = {
   id: string
   name: string
@@ -16,6 +24,7 @@ export type Offering = {
   profile: string
   origin: string
   specifications: OfferingSpecifications
+  pricing: OfferingPricing
   isSoldOut?: boolean
   // New fields for B2B buyers
   altitude: string
@@ -49,6 +58,13 @@ export const offerings: Offering[] = [
       defectCount: '4-12 per 300g',
       cupScore: '84+',
     },
+    pricing: {
+      fobPricePerKg: 9.50,
+      fobPricePerLb: 4.31,
+      priceYear: 2025,
+      minimumOrder: null,
+      priceNote: '2025 crop  •  Washed G2  •   FCL Pricing - Inquire for Smaller Lots',
+    },
     isSoldOut: true,
     altitude: '1,750 - 2,200 masl',
     region: 'Gedeo Zone, SNNPR, Ethiopia',
@@ -78,6 +94,13 @@ export const offerings: Offering[] = [
       moisture: '10-12%',
       defectCount: '0-3 per 300g',
       cupScore: '86+',
+    },
+    pricing: {
+      fobPricePerKg: 10.80,
+      fobPricePerLb: 4.90,
+      priceYear: 2025,
+      minimumOrder: null,
+      priceNote: '2025 crop  •  Natural G1  •   FCL Pricing - Inquire for Smaller Lots',
     },
     isSoldOut: true,
     altitude: '1,550 - 2,200 masl',
@@ -109,6 +132,13 @@ export const offerings: Offering[] = [
       defectCount: '0-3 per 300g',
       cupScore: '87+',
     },
+    pricing: {
+      fobPricePerKg: 11.50,
+      fobPricePerLb: 5.22,
+      priceYear: 2025,
+      minimumOrder: null,
+      priceNote: '2025 crop  •  Natural G1  •   FCL Pricing - Inquire for Smaller Lots',
+    },
     isSoldOut: true,
     altitude: '1,800 - 2,300 masl',
     region: 'Guji Zone, Oromia Region, Ethiopia',
@@ -138,6 +168,13 @@ export const offerings: Offering[] = [
       moisture: '10-12%',
       defectCount: '0-5 per 300g',
       cupScore: '85+',
+    },
+    pricing: {
+      fobPricePerKg: 10.20,
+      fobPricePerLb: 4.63,
+      priceYear: 2025,
+      minimumOrder: null,
+      priceNote: '2025 crop  •  Natural G1  •   FCL Pricing - Inquire for Smaller Lots',
     },
     isSoldOut: true,
     altitude: '1,500 - 2,100 masl',
@@ -169,6 +206,13 @@ export const offerings: Offering[] = [
       defectCount: '4-12 per 300g',
       cupScore: '84+',
     },
+    pricing: {
+      fobPricePerKg: 9.20,
+      fobPricePerLb: 4.17,
+      priceYear: 2025,
+      minimumOrder: null,
+      priceNote: '2025 crop  •  Washed G2  •   FCL Pricing - Inquire for Smaller Lots',
+    },
     isSoldOut: true,
     altitude: '1,400 - 2,100 masl',
     region: 'Jimma Zone (Limu Woreda), Oromia Region, Ethiopia',
@@ -198,6 +242,13 @@ export const offerings: Offering[] = [
       moisture: '10-12%',
       defectCount: '4-12 per 300g',
       cupScore: '84+',
+    },
+    pricing: {
+      fobPricePerKg: 9.00,
+      fobPricePerLb: 4.08,
+      priceYear: 2025,
+      minimumOrder: null,
+      priceNote: '2025 crop  •  Washed G2  •   FCL Pricing - Inquire for Smaller Lots',
     },
     isSoldOut: true,
     altitude: '1,500 - 2,100 masl',

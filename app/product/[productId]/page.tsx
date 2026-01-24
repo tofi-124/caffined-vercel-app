@@ -127,6 +127,30 @@ const OfferingDetail = ({ params }: Props) => {
                 </div>
               </div>
             )}
+
+            {/* Pricing Section */}
+            <div className='mb-6 p-5 rounded-xl bg-gradient-to-br from-accent/5 to-secondary/5 border border-accent/20'>
+              <div className='flex items-baseline gap-2 mb-3'>
+                <span className='text-3xl font-bold text-dark'>${product.pricing.fobPricePerLb.toFixed(2)}</span>
+                <span className='text-lg text-gray-600'>USD per pound</span>
+              </div>
+              <div className='text-sm text-gray-500 mb-3'>
+                ${product.pricing.fobPricePerKg.toFixed(2)} USD per kg
+              </div>
+              <div className='flex flex-wrap items-center gap-2 text-xs text-gray-500'>
+                <span className='inline-flex items-center px-2 py-1 rounded bg-white border border-gray-200'>
+                  FOB Ethiopia
+                </span>
+                <span className='inline-flex items-center px-2 py-1 rounded bg-white border border-gray-200'>
+                  {product.pricing.priceNote}
+                </span>
+              </div>
+              {product.pricing.minimumOrder && (
+                <p className='mt-3 text-xs text-gray-400'>
+                  Min. order for FOB price: {product.pricing.minimumOrder}
+                </p>
+              )}
+            </div>
             
             {/* Availability indicator */}
             <div className='mb-6 p-4 rounded-lg bg-white border border-gray-200'>
