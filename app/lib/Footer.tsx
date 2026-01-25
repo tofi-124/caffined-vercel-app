@@ -97,7 +97,7 @@ const Footer = () => {
             <li>
               <p className='text-xs uppercase tracking-widest text-primary/70'>Canada</p>
               <address className='not-italic font-medium text-primary'>
-                Adelaide St W & Spadina Ave
+                Financial District
                 <br />
                 Toronto, Canada
               </address>

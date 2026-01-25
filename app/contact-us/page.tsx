@@ -171,7 +171,7 @@ const WholesaleInquiryPage = () => {
                 <address className='not-italic text-dark'>
                   <span className='font-bold'>Ethio Coffee Company Inc.</span>
                   <br />
-                  Adelaide St W & Spadina Ave
+                  Financial District
                   <br />
                   Toronto, Canada
                 </address>

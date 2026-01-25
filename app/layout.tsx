@@ -92,7 +92,7 @@ export default function RootLayout({
                   "description": "Canada operations office",
                   "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "Adelaide St W & Spadina Ave",
+                    "streetAddress": "Financial District",
                     "addressLocality": "Toronto",
                     "addressRegion": "ON",
                     "addressCountry": "CA"
