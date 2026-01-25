@@ -8,8 +8,8 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { insightId } = await params
-  const index = Number.parseInt(insightId, 10)
-  const post = Number.isFinite(index) ? posts[index] : undefined
+  // Find post by slug
+  const post = posts.find(p => p.slug === insightId)
 
   if (!post) {
     return {
@@ -60,8 +60,8 @@ export default function InsightPostLayout({
 
 async function ArticleSchema({ params }: { params: Promise<{ insightId: string }> }) {
   const { insightId } = await params
-  const index = Number.parseInt(insightId, 10)
-  const post = Number.isFinite(index) ? posts[index] : undefined
+  // Find post by slug
+  const post = posts.find(p => p.slug === insightId)
 
   if (!post) return null
 
