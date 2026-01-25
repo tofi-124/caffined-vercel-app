@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
 }
 
-const EFFECTIVE_DATE = 'January 20, 2026'
+const EFFECTIVE_DATE = 'January 25, 2026'
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -61,6 +61,10 @@ export default function TermsPage() {
                 The Site is operated by <strong>Ethio Coffee Import and Export PLC</strong> (operating as{' '}
                 <strong>Ethio Coffee</strong>) ("Ethio Coffee", "we", "us", or "our"). We provide information about
                 Ethiopian coffee offerings and facilitate business-to-business inquiries for coffee export supply.
+              </p>
+              <p>
+                For Canadian customers, transactions may be handled through our Canadian subsidiary,{' '}
+                <strong>Ethio Coffee Company Inc.</strong>, which maintains local inventory and logistics.
               </p>
             </Section>
 
@@ -116,12 +120,19 @@ export default function TermsPage() {
             <Section title='7) Pricing, Payment, and Taxes'>
               <p>
                 Prices and payment terms are determined on a case-by-case basis and will be stated in the applicable
-                Order Terms. Unless stated otherwise, prices may exclude shipping, insurance, banking fees, customs
-                duties, taxes, tariffs, and other charges.
+                Order Terms. Standard payment terms for new customers are 50% deposit with 50% due against shipping
+                documents. Established customers may qualify for Net 30/60 terms. Letters of Credit are accepted
+                from recognized banks.
               </p>
               <p>
-                You are responsible for any taxes, duties, or government charges associated with importation or
-                receipt of goods in your jurisdiction, unless the applicable Order Terms expressly provide otherwise.
+                Our standard invoicing currency is <strong>USD</strong>. Canadian partners may transact in{' '}
+                <strong>CAD</strong> through our Canadian entity. We may also invoice in EUR or GBP for international buyers.
+              </p>
+              <p>
+                Unless stated otherwise, prices may exclude shipping, insurance, banking fees, customs
+                duties, taxes, tariffs, and other charges. You are responsible for any taxes, duties, or government
+                charges associated with importation or receipt of goods in your jurisdiction, unless the applicable
+                Order Terms expressly provide otherwise.
               </p>
             </Section>
 
@@ -145,9 +156,10 @@ export default function TermsPage() {
                 that every shipment will match a particular flavor note description.
               </p>
               <p>
-                If you believe goods are non-conforming, you must notify us promptly and within any inspection/claim
-                window specified in the Order Terms (or, if not specified, within a reasonable time after receipt)
-                and provide supporting documentation reasonably requested by us.
+                If you believe goods are non-conforming or damaged, you must notify us within{' '}
+                <strong>seven (7) days</strong> of receipt with photos, cupping notes, and supporting documentation.
+                We retain samples from every lot for comparison. Resolution options may include price adjustments,
+                replacement coffee, or third-party arbitration.
               </p>
             </Section>
 
@@ -244,11 +256,16 @@ export default function TermsPage() {
               </p>
             </Section>
 
-            <Section title='20) Governing Law and Venue'>
+            <Section title='20) Governing Law and Dispute Resolution'>
               <p>
                 These Terms are governed by the laws of the Federal Democratic Republic of Ethiopia, without regard
                 to conflict of law principles. Any dispute arising out of or relating to these Terms will be brought
                 in the courts located in Addis Ababa, Ethiopia, unless mandatory law provides otherwise.
+              </p>
+              <p>
+                For disputes related to coffee quality or contract performance, we follow{' '}
+                <strong>Green Coffee Association (GCA) arbitration procedures</strong> when applicable. Most issues
+                are resolved through direct discussion and sample comparison before formal proceedings.
               </p>
             </Section>
 
