@@ -133,5 +133,37 @@ export const posts: Post[] = [
         'Ethiopian natural coffee flavor'
       ],
       desc: 'Understand the key differences between washed and natural processed Ethiopian coffee how each method affects flavor, roasting, and what your customers will taste in the cup.'
+    },
+    {
+      small_image_url: 'ethiopian-coffee-exporter-2025.webp',
+      large_image_url: 'ethiopian-coffee-exporter-2025.webp',
+      date: 'Jan 15, 2025',
+      title: 'BEST ETHIOPIAN COFFEE EXPORTER, IMPORTER & SUPPLIER FOR ROASTERS WORLDWIDE',
+      slug: 'best-ethiopian-coffee-exporter-importer-supplier',
+      category: 'Company / Sourcing',
+      keywords: [
+        'ethio coffee',
+        'ethiocoffee',
+        'ethiopian coffee importers',
+        'ethiopian coffee suppliers',
+        'ethiopian coffee distributors',
+        'ethiopian coffee company',
+        'ethio cafe',
+        'coffee suppliers ethiopia',
+        'ethiopian coffee exporter',
+        'green coffee exporter ethiopia',
+        'best ethiopian coffee supplier',
+        'wholesale ethiopian coffee',
+        'ethiopian coffee beans wholesale',
+        'buy ethiopian green coffee',
+        'ethiopian coffee for roasters',
+        'direct trade ethiopian coffee',
+        'specialty coffee ethiopia',
+        'ethiopian arabica supplier',
+        'yirgacheffe coffee exporter',
+        'sidamo coffee supplier',
+        'guji coffee exporter'
+      ],
+      desc: 'Looking for a trusted Ethiopian coffee exporter, importer, or supplier? Ethio Coffee delivers premium green beans from Yirgacheffe, Sidamo, Guji, and more directly to roasters worldwide with full traceability and competitive pricing.'
     }
 ]
