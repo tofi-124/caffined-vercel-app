@@ -6,6 +6,7 @@ import Footer from './lib/Footer'
 import Script from 'next/script'
 import ScrollToTop from './components/ScrollToTop'
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const oswald = Oswald({ 
   subsets: ['latin'],
@@ -152,6 +153,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
