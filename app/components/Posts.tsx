@@ -11,13 +11,13 @@ type Props = {
   title: string,
   date: string,
   small_image_url: string,
-  ind: number,
+  slug: string,
   showDate?: boolean
 }
 
-export const Post = ({ title, date, small_image_url, ind, showDate = true }: Props) => {
+export const Post = ({ title, date, small_image_url, slug, showDate = true }: Props) => {
   return (
-        <Link href={`/insights/${ind}`} id="insight-card" className="photo overflow-clip mx-auto flex flex-col items-center">
+        <Link href={`/insights/${slug}`} id="insight-card" className="photo overflow-clip mx-auto flex flex-col items-center">
           <div className="insight-img w-full max-w-[400px] aspect-[4/3] overflow-hidden rounded-md shadow-md hover:shadow-lg transition-shadow duration-300">
             <ResponsiveImage
               src={`/images/${small_image_url}`}
@@ -57,7 +57,7 @@ const Posts = () => {
             .map((id) => ({ id, post: posts[id] }))
             .filter((x) => Boolean(x.post))
             .map(({ id, post }) => (
-              <Post key={id} {...post} ind={id} showDate={false} />
+              <Post key={id} {...post} slug={post.slug || ''} showDate={false} />
             ))}
         </div>
 

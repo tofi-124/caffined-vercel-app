@@ -21,7 +21,8 @@ const Insight = ({params}: Props) => {
     window.scrollTo(0, 0);
   }, [insightId]); // Re-run when insightId changes
 
-  let ind = (parseInt(insightId) >= 0 && parseInt(insightId) < posts.length) ? parseInt(insightId) : -1
+  // Find post by slug (insightId is now a slug)
+  const ind = posts.findIndex(post => post.slug === insightId);
   if(ind === -1){
     const Content = (
       <h1 className=' bg-primary flex flex-col font-extrabold text-6xl h-[40vh] text-red-500 text-center justify-center'>

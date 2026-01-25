@@ -43,7 +43,7 @@ const InsightsPage = () => {
             .map((post, id) => ({ post, id }))
             .sort((a, b) => parsePostDate(b.post.date) - parsePostDate(a.post.date))
             .map(({ post, id }) => (
-              <Post key={id} {...post} ind={id} />
+              <Post key={id} {...post} slug={post.slug || ''} />
             ))}
         </div>
       </section>

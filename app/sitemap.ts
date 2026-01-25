@@ -52,9 +52,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  // Insights detail pages are indexed routes: /insights/0, /insights/1, ...
-  const insightsRoutes: MetadataRoute.Sitemap = posts.map((_, index) => ({
-    url: `${baseUrl}/insights/${index}`,
+  // Insights detail pages use SEO-friendly slugs: /insights/ethio-coffee-canada-operations-launch, etc.
+  const insightsRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
+    url: `${baseUrl}/insights/${post.slug}`,
     lastModified: now,
     changeFrequency: 'monthly',
     priority: 0.6,
