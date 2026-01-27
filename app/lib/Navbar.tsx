@@ -7,6 +7,7 @@ import {BiMenuAltRight} from 'react-icons/bi'
 import {AiOutlineClose} from 'react-icons/ai'
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
+import CartIcon from '../components/CartIcon'
 
 const Navbar = () => {
     const [isOpened, setIsOpened] = useState(false);
@@ -33,13 +34,17 @@ const Navbar = () => {
                     </div>
                 </Link>
 
-                <div id='search-cart' className='flex gap-5 justify-between items-center'>
+                <div id='search-cart' className='flex gap-3 justify-between items-center'>
                     <Link 
-                        href="/contact-us"
+                        href="/shop"
                         className='hidden md:block p-2 py-1 bg-accent text-white rounded-md text-sm hover:bg-dark hover:text-primary border border-accent hover:border-dark transition-colors'
                     >
-                        Contact Us
+                        Shop Now
                     </Link>
+                    
+                    <div className="bg-dark rounded-full p-1">
+                        <CartIcon />
+                    </div>
                     
                     <button onClick={(e) => {e.preventDefault(); setIsOpened((prev) => !prev)}} className='lg:hidden text-white bg-dark p-2 rounded-md'>
                         {isOpened ? (<AiOutlineClose type='button' className='text-xl'/>) : (<BiMenuAltRight type='button' className='text-xl' />) }
@@ -60,10 +65,10 @@ const Navbar = () => {
                         <div id="nav-links" className='flex flex-col justify-between items-center text-xl gap-5 font-bold'>
                             <NavLinks />
                             <Link 
-                                href="/contact-us"
+                                href="/shop"
                                 className='p-2 py-1 mt-4 bg-accent text-white rounded-md hover:bg-dark hover:text-primary border border-accent hover:border-dark transition-colors'
                             >
-                                Contact Us
+                                Shop Now
                             </Link>
                         </div>
                     </motion.div>

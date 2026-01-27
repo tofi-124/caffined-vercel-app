@@ -1,7 +1,8 @@
-import CoffeeDesc from "./components/CoffeeDesc";
-import Hero from "./components/Hero";
-import Posts from "./components/Posts";
-import Offerings from "./components/Offerings";
+import HeroConsumer from "./components/HeroConsumer";
+import FeaturedProducts from "./components/FeaturedProducts";
+import WhyChooseUs from "./components/WhyChooseUs";
+import CoffeeRegions from "./components/CoffeeRegions";
+import CtaBanner from "./components/CtaBanner";
 import Testimonials from "./components/Testimonials";
 
 
@@ -9,11 +10,12 @@ export default function Home() {
   return (
     <main className="">
        
-      <Hero />
-      <Offerings />
-      <CoffeeDesc />
-      <Posts />
+      <HeroConsumer />
+      <FeaturedProducts />
+      <CoffeeRegions />
+      <WhyChooseUs />
       <Testimonials />
+      <CtaBanner />
 
     </main>
   )

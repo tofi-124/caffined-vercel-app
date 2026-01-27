@@ -5,7 +5,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
+      disallow: ['/api/', '/checkout'],
     },
-    sitemap: 'https://ethiocoffee.et/sitemap.xml',
+    sitemap: 'https://ethiocoffee.co/sitemap.xml',
   }
 }

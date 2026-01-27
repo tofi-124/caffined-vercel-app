@@ -1,20 +1,17 @@
 "use client"
 
 import React, { useEffect, useState, useRef } from 'react'
-import ResponsiveImage from '../components/ResponsiveImage'
+import { FaEnvelope, FaMapMarkerAlt, FaClock, FaInstagram } from 'react-icons/fa'
+import Link from 'next/link'
 
-const WholesaleInquiryPage = () => {
+const ContactPage = () => {
   const formRef = useRef<HTMLDivElement>(null);
   const [formData, setFormData] = useState({
-    businessName: '',
-    contactName: '',
+    name: '',
     email: '',
-    phone: '',
-    country: '',
-    businessType: '',
-    referralSource: '',
+    orderNumber: '',
+    subject: '',
     message: '',
-    requestSamples: false
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
@@ -23,17 +20,13 @@ const WholesaleInquiryPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       if (!formRef.current) return
-
-      // Account for sticky header (TopMessage + navbar)
       const headerOffset = 96
       const y = formRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
-
       window.scrollTo({
         top: Math.max(0, y),
         behavior: 'smooth',
       })
     }, 300)
-
     return () => clearTimeout(timer)
   }, [])
   
@@ -42,17 +35,12 @@ const WholesaleInquiryPage = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   }
   
-  const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData(prev => ({ ...prev, requestSamples: e.target.checked }));
-  }
-  
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitError('');
     
     try {
-      // Send the form data to our API route
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
@@ -60,8 +48,8 @@ const WholesaleInquiryPage = () => {
         },
         body: JSON.stringify({
           ...formData,
-          formType: 'contact',
-          _subject: `New Contact Inquiry from ${formData.businessName || 'Business'}`
+          formType: 'customer-contact',
+          _subject: `Customer Inquiry: ${formData.subject}`
         }),
       });
       
@@ -70,303 +58,250 @@ const WholesaleInquiryPage = () => {
       if (response.ok) {
         setSubmitSuccess(true);
         setFormData({
-          businessName: '',
-          contactName: '',
+          name: '',
           email: '',
-          phone: '',
-          country: '',
-          businessType: '',
-          referralSource: '',
+          orderNumber: '',
+          subject: '',
           message: '',
-          requestSamples: false
         });
       } else {
         setSubmitError(result.error || 'Failed to submit. Please try again.');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      setSubmitError('There was an error submitting your inquiry. Please try again later.');
+      setSubmitError('There was an error submitting your message. Please try again later.');
     } finally {
       setIsSubmitting(false);
     }
   }
   
   return (
-    <main className='bg-primary'>
-      <header className='bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative'>
-        <div className='absolute inset-0 bg-black/40'></div>
-        <h1 className='text-5xl md:text-6xl font-bold text-primary relative z-10 tracking-wide'>LET&apos;S WORK TOGETHER</h1>
-        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>From our farms in Ethiopia to your roastery. Start your partnership today.</p>
+    <main className='bg-primary min-h-screen'>
+      <header className='bg-dark w-full py-20 flex flex-col items-center justify-center'>
+        <h1 className='text-5xl md:text-6xl font-bold text-primary tracking-wide'>CONTACT US</h1>
+        <p className='text-primary/80 mt-3 text-lg text-center px-4'>We're here to help with any questions</p>
       </header>
       
       <section className='container mx-auto px-4 py-12'>
-        <div className='flex max-lg:flex-col items-center justify-center gap-12 mb-16'>
-          <div className='lg:w-1/2'>
-            <h2 className='text-4xl md:text-5xl font-extrabold leading-tight text-dark mb-6'>
-              TRACEABLE ETHIOPIAN COFFEE FOR ROASTERS & CAFÉS
-            </h2>
-            <p className='mb-4 text-gray-700'>
-              Ethio Coffee Import and Export PLC is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide through ethical sourcing, export-ready quality, and long-term relationships.
-            </p>
-            <p className='mb-4 text-gray-700'>
-              We are an Ethiopia- and Canada-based coffee producer and exporter supplying fully traceable beans from our own estates and trusted partner farms across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa regions.
-            </p>
-            <div className='mt-8'>
-              <h3 className='text-2xl font-bold mb-4'>Why Partner With Us:</h3>
-              <ul className='space-y-3'>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Vertical Integration:</strong> Direct oversight from family estates to your door, eliminating intermediaries</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Traceable Heritage:</strong> Authentic heirloom varietals with farm-gate transparency</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Roaster-Ready Logistics:</strong> Year-round inventory with strict sample-to-bag consistency</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Free Sample Program:</strong> Evaluate quality before committing to orders</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>North American Distribution:</strong> Canadian warehousing for seamless fulfillment</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className='lg:w-1/2 flex justify-center'>
-            <ResponsiveImage 
-              src='/images/coffee-pack-1.webp'
-              alt='Premium Ethiopian green coffee beans from Ethio Coffee'
-              width={500}
-              height={600}
-              className='rounded-md shadow-lg'
-            />
+        {/* Quick Links */}
+        <div className='max-w-4xl mx-auto mb-12'>
+          <h2 className='text-2xl font-bold text-dark mb-6 text-center'>How Can We Help?</h2>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+            <Link href="/shop" className='p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow text-center'>
+              <h3 className='font-bold text-dark mb-2'>Browse Our Coffee</h3>
+              <p className='text-sm text-gray-600'>Explore our selection of Ethiopian coffees</p>
+            </Link>
+            <Link href="/about" className='p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow text-center'>
+              <h3 className='font-bold text-dark mb-2'>Our Story</h3>
+              <p className='text-sm text-gray-600'>Learn about our journey and values</p>
+            </Link>
+            <Link href="/terms" className='p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow text-center'>
+              <h3 className='font-bold text-dark mb-2'>Shipping & Returns</h3>
+              <p className='text-sm text-gray-600'>View our policies and FAQ</p>
+            </Link>
           </div>
         </div>
 
-        <div className='max-w-3xl mx-auto my-16' ref={formRef}>
-          <h2 className='text-4xl font-extrabold text-center mb-4'>GET IN TOUCH</h2>
-          <p className='text-center text-gray-600 mb-8 max-w-xl mx-auto'>Fill out the form below and our team will get back to you within 24-48 hours.</p>
-
-          <div className='mb-10 rounded-lg border border-black/10 bg-white/70 p-6 shadow-sm'>
-            <h3 className='text-xl font-bold text-dark mb-4'>Our Offices</h3>
-            <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
-              <div className='p-4 bg-primary/50 rounded-md'>
-                <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Ethiopia (Headquarters)</p>
-                <address className='not-italic text-dark'>
-                  <span className='font-bold'>Ethio Coffee Import and Export PLC</span>
-                  <br />
-                  Yesak Building, 3rd Floor, Office 301
-                  <br />
-                  Lideta, Addis Ababa, Ethiopia
-                </address>
+        <div className='flex max-lg:flex-col gap-12 max-w-5xl mx-auto'>
+          {/* Contact Info */}
+          <div className='lg:w-1/3'>
+            <h2 className='text-3xl font-extrabold text-dark mb-6'>Get In Touch</h2>
+            
+            <div className='space-y-6'>
+              <div className='flex items-start gap-4'>
+                <div className='w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0'>
+                  <FaEnvelope className='text-white text-lg' />
+                </div>
+                <div>
+                  <h3 className='font-bold text-dark'>Email Us</h3>
+                  <a href="mailto:hello@ethiocoffee.co" className='text-accent hover:underline'>
+                    hello@ethiocoffee.co
+                  </a>
+                  <p className='text-sm text-gray-500 mt-1'>We respond within 24 hours</p>
+                </div>
               </div>
-              <div className='p-4 bg-primary/50 rounded-md'>
-                <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Canada</p>
-                <address className='not-italic text-dark'>
-                  <span className='font-bold'>Ethio Coffee Company Inc.</span>
-                  <br />
-                  Financial District
-                  <br />
-                  Toronto, Canada
-                </address>
+              
+              <div className='flex items-start gap-4'>
+                <div className='w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0'>
+                  <FaInstagram className='text-white text-lg' />
+                </div>
+                <div>
+                  <h3 className='font-bold text-dark'>Follow Us</h3>
+                  <a href="https://instagram.com/ethiocoffee.co" target="_blank" rel="noopener noreferrer" className='text-accent hover:underline'>
+                    @ethiocoffee.co
+                  </a>
+                  <p className='text-sm text-gray-500 mt-1'>DM us anytime</p>
+                </div>
               </div>
-            </div>
-            <div className='mt-6 pt-4 border-t border-black/10 grid grid-cols-1 md:grid-cols-2 gap-4'>
-              <div>
-                <p className='text-sm text-gray-600'>Email</p>
-                <a href="mailto:info@ethiocoffee.et" className='text-dark font-semibold hover:text-accent transition-colors'>
-                  info@ethiocoffee.et
-                </a>
+              
+              <div className='flex items-start gap-4'>
+                <div className='w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0'>
+                  <FaMapMarkerAlt className='text-white text-lg' />
+                </div>
+                <div>
+                  <h3 className='font-bold text-dark'>Ships From</h3>
+                  <p className='text-gray-600'>Toronto, Canada</p>
+                  <p className='text-sm text-gray-500 mt-1'>Free shipping over $75 CAD</p>
+                </div>
               </div>
-              <div>
-                <p className='text-sm text-gray-600'>Business Hours</p>
-                <p className='text-dark font-semibold'>Mon - Fri, 09:00 - 17:00 (EAT)</p>
+              
+              <div className='flex items-start gap-4'>
+                <div className='w-12 h-12 bg-accent rounded-full flex items-center justify-center flex-shrink-0'>
+                  <FaClock className='text-white text-lg' />
+                </div>
+                <div>
+                  <h3 className='font-bold text-dark'>Response Time</h3>
+                  <p className='text-gray-600'>Within 24 hours</p>
+                  <p className='text-sm text-gray-500 mt-1'>Monday - Friday</p>
+                </div>
               </div>
             </div>
           </div>
-          
-          {submitSuccess ? (
-            <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
-              <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
-              <p className='text-green-700'>Your inquiry has been submitted successfully. We'll contact you soon at the email address you provided.</p>
-              <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
-            </div>
-          ) : (
-            <form className='space-y-6' onSubmit={handleSubmit}>
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                <div>
-                  <label htmlFor='businessName' className='block mb-2 font-bold'>Business Name*</label>
-                  <input 
-                    type='text' 
-                    id='businessName'
-                    name='businessName'
-                    value={formData.businessName}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                    required 
-                  />
-                </div>
-                <div>
-                  <label htmlFor='contactName' className='block mb-2 font-bold'>Contact Name*</label>
-                  <input 
-                    type='text' 
-                    id='contactName'
-                    name='contactName'
-                    value={formData.contactName}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                    required 
-                  />
-                </div>
-                <div>
-                  <label htmlFor='email' className='block mb-2 font-bold'>Email Address*</label>
-                  <input 
-                    type='email' 
-                    id='email'
-                    name='email'
-                    value={formData.email}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                    required 
-                  />
-                </div>
-                <div>
-                  <label htmlFor='phone' className='block mb-2 font-bold'>Phone Number*</label>
-                  <input 
-                    type='tel' 
-                    id='phone'
-                    name='phone'
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                    required 
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor='country' className='block mb-2 font-bold'>Country*</label>
-                <input 
-                  type='text' 
-                  id='country'
-                  name='country'
-                  value={formData.country}
-                  onChange={handleChange}
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                  required 
-                />
-              </div>
-              
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                <div>
-                  <label htmlFor='businessType' className='block mb-2 font-bold'>Business Type*</label>
-                  <select 
-                    id='businessType'
-                    name='businessType'
-                    value={formData.businessType}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
-                    required
-                  >
-                    <option value=''>Select your business type</option>
-                    <option value='cafe'>Café</option>
-                    <option value='roaster'>Coffee Roaster</option>
-                    <option value='restaurant'>Restaurant</option>
-                    <option value='hotel'>Hotel</option>
-                    <option value='distributor'>Distributor</option>
-                    <option value='office'>Office/Corporate</option>
-                    <option value='other'>Other</option>
-                  </select>
-                </div>
 
-                <div>
-                  <label htmlFor='referralSource' className='block mb-2 font-bold'>Where did you hear about us?</label>
-                  <select 
-                    id='referralSource'
-                    name='referralSource'
-                    value={formData.referralSource}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+          {/* Contact Form */}
+          <div className='lg:w-2/3' ref={formRef}>
+            <div className='bg-white rounded-lg shadow-sm p-8'>
+              <h2 className='text-2xl font-extrabold text-dark mb-2'>Send Us a Message</h2>
+              <p className='text-gray-600 mb-6'>Have a question about an order or our coffee? We'd love to hear from you.</p>
+
+              {submitSuccess ? (
+                <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
+                  <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
+                  <p className='text-green-700'>Your message has been sent. We'll get back to you within 24 hours.</p>
+                </div>
+              ) : (
+                <form className='space-y-5' onSubmit={handleSubmit}>
+                  <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+                    <div>
+                      <label htmlFor='name' className='block mb-2 font-medium text-dark'>Your Name *</label>
+                      <input 
+                        type='text' 
+                        id='name'
+                        name='name'
+                        value={formData.name}
+                        onChange={handleChange}
+                        className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
+                        required 
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor='email' className='block mb-2 font-medium text-dark'>Email Address *</label>
+                      <input 
+                        type='email' 
+                        id='email'
+                        name='email'
+                        value={formData.email}
+                        onChange={handleChange}
+                        className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
+                        required 
+                      />
+                    </div>
+                  </div>
+                  
+                  <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+                    <div>
+                      <label htmlFor='orderNumber' className='block mb-2 font-medium text-dark'>Order Number (if applicable)</label>
+                      <input 
+                        type='text' 
+                        id='orderNumber'
+                        name='orderNumber'
+                        value={formData.orderNumber}
+                        onChange={handleChange}
+                        placeholder='e.g., EC-12345'
+                        className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor='subject' className='block mb-2 font-medium text-dark'>Subject *</label>
+                      <select 
+                        id='subject'
+                        name='subject'
+                        value={formData.subject}
+                        onChange={handleChange}
+                        className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                        required
+                      >
+                        <option value=''>Select a topic</option>
+                        <option value='order-inquiry'>Order Inquiry</option>
+                        <option value='shipping'>Shipping Question</option>
+                        <option value='product-question'>Product Question</option>
+                        <option value='returns'>Returns & Refunds</option>
+                        <option value='feedback'>Feedback</option>
+                        <option value='other'>Other</option>
+                      </select>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <label htmlFor='message' className='block mb-2 font-medium text-dark'>Your Message *</label>
+                    <textarea 
+                      id='message'
+                      name='message'
+                      value={formData.message}
+                      onChange={handleChange}
+                      rows={5} 
+                      className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                      placeholder='How can we help you?'
+                      required
+                    ></textarea>
+                  </div>
+                  
+                  {submitError && (
+                    <div className='p-4 bg-red-50 border border-red-200 rounded-lg text-red-700'>
+                      {submitError}
+                    </div>
+                  )}
+                  
+                  <button 
+                    type='submit'
+                    disabled={isSubmitting}
+                    className='
+                      px-8 py-3 w-full md:w-auto
+                      bg-accent hover:bg-dark text-white
+                      rounded-md font-bold
+                      disabled:opacity-70 disabled:cursor-not-allowed
+                      transition-all duration-300
+                    '
                   >
-                    <option value=''>Select an option (optional)</option>
-                    <option value='google'>Google Search</option>
-                    <option value='social-media'>Social Media</option>
-                    <option value='trade-show'>Trade Show / Exhibition</option>
-                    <option value='referral'>Friend / Business Referral</option>
-                    <option value='linkedin'>LinkedIn</option>
-                    <option value='industry-publication'>Industry Publication</option>
-                    <option value='existing-customer'>Existing Customer</option>
-                    <option value='other'>Other</option>
-                  </select>
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor='message' className='block mb-2 font-bold'>Additional Information</label>
-                <textarea 
-                  id='message'
-                  name='message'
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={5} 
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
-                  placeholder='Tell us about your business needs, volumes required, etc.'
-                ></textarea>
-              </div>
-              
-              <div>
-                <label className='flex items-center'>
-                  <input 
-                    type='checkbox' 
-                    name='requestSamples'
-                    checked={formData.requestSamples}
-                    onChange={handleCheckboxChange}
-                    className='mr-2' 
-                  />
-                  <span>I'd like to receive samples before placing an order</span>
-                </label>
-              </div>
-              
-              {submitError && (
-                <div className='p-4 bg-red-50 border border-red-200 rounded-lg text-red-700'>
-                  {submitError}
-                </div>
+                    {isSubmitting ? 'Sending...' : 'Send Message'}
+                  </button>
+                </form>
               )}
-              
-              <div className='text-center pt-4'>
-                <button 
-                  type='submit'
-                  disabled={isSubmitting}
-                  className='
-                    px-12 py-4 mt-2 w-full md:w-auto
-                    bg-accent hover:bg-dark text-white hover:text-primary
-                    border border-accent hover:border-dark
-                    rounded-md
-                    font-bold text-xl
-                    disabled:opacity-70 disabled:cursor-not-allowed
-                    transition-all duration-300
-                    shadow-md hover:shadow-lg
-                  '
-                >
-                  {isSubmitting ? 'SUBMITTING...' : 'SUBMIT INQUIRY'}
-                </button>
-              </div>
-              
-              <div className='text-center mt-6 text-gray-600 text-sm'>
-                <p>You can also contact us directly at: <a href="mailto:info@ethiocoffee.et" className='text-dark underline hover:text-accent transition-colors'>info@ethiocoffee.et</a></p>
-              </div>
-            </form>
-          )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className='bg-gray-50 py-16'>
+        <div className='container mx-auto px-4'>
+          <h2 className='text-3xl font-extrabold text-dark text-center mb-8'>Frequently Asked Questions</h2>
+          
+          <div className='max-w-3xl mx-auto space-y-4'>
+            <div className='bg-white rounded-lg p-6 shadow-sm'>
+              <h3 className='font-bold text-dark mb-2'>How long does shipping take?</h3>
+              <p className='text-gray-600'>Orders are roasted fresh and typically ship within 1-2 business days. Delivery takes 3-7 business days depending on your location in Canada.</p>
+            </div>
+            
+            <div className='bg-white rounded-lg p-6 shadow-sm'>
+              <h3 className='font-bold text-dark mb-2'>Is shipping free?</h3>
+              <p className='text-gray-600'>Yes! We offer free shipping on all orders over $75 CAD. Orders under $75 have a flat shipping rate of $9.99.</p>
+            </div>
+            
+            <div className='bg-white rounded-lg p-6 shadow-sm'>
+              <h3 className='font-bold text-dark mb-2'>What is your return policy?</h3>
+              <p className='text-gray-600'>If you're not satisfied with your coffee, contact us within 14 days of delivery and we'll make it right with a replacement or refund.</p>
+            </div>
+            
+            <div className='bg-white rounded-lg p-6 shadow-sm'>
+              <h3 className='font-bold text-dark mb-2'>How should I store my coffee?</h3>
+              <p className='text-gray-600'>Store your coffee in a cool, dry place away from direct sunlight. For best flavor, use within 4 weeks of the roast date printed on your bag.</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
   )
 }
 
-export default WholesaleInquiryPage
+export default ContactPage

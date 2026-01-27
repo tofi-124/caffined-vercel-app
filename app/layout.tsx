@@ -7,6 +7,8 @@ import Script from 'next/script'
 import ScrollToTop from './components/ScrollToTop'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { CartProvider } from './context/CartContext'
+import CartDrawer from './components/CartDrawer'
 
 const oswald = Oswald({ 
   subsets: ['latin'],
@@ -14,21 +16,21 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ethiocoffee.et'),
-  title: 'Ethiopian Green Coffee Supplier | Wholesale Exports for Roasters | Ethio Coffee',
-  description: 'Buy Ethiopian green coffee beans direct from origin. Ethio Coffee exports Grade 1-4 Yirgacheffe, Sidamo & Guji to roasters and cafés worldwide. Specialty to commercial grades, traceable sourcing.',
-  keywords: 'Ethiopian green coffee supplier, buy Ethiopian coffee wholesale, Ethiopian coffee exporter, green coffee beans wholesale, Yirgacheffe coffee supplier, Sidamo coffee, Guji coffee, direct trade Ethiopian coffee, coffee for roasters',
+  metadataBase: new URL('https://ethiocoffee.co'),
+  title: 'Ethiopian Coffee Online | Premium Roasted Coffee Beans | Ethio Coffee',
+  description: 'Shop premium Ethiopian coffee beans online. Fresh roasted Yirgacheffe, Sidamo, Guji & more. Direct from Ethiopia to your cup. Free shipping on orders over $75.',
+  keywords: 'Ethiopian coffee online, buy Ethiopian coffee, Yirgacheffe coffee, Sidamo coffee, Guji coffee, premium coffee beans, roasted coffee, specialty coffee, Ethiopian coffee shop',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
   alternates: {
-    canonical: 'https://ethiocoffee.et',
+    canonical: 'https://ethiocoffee.co',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://ethiocoffee.et',
-    title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
-    description: 'Premium Ethiopian coffee exports for specialty markets worldwide.',
+    url: 'https://ethiocoffee.co',
+    title: 'Ethio Coffee - Premium Ethiopian Coffee Online',
+    description: 'Shop premium Ethiopian coffee beans. Fresh roasted and delivered to your door.',
     siteName: 'Ethio Coffee',
     images: [
       {
@@ -41,8 +43,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
-    description: 'Premium Ethiopian coffee exports for specialty markets worldwide.',
+    title: 'Ethio Coffee - Premium Ethiopian Coffee Online',
+    description: 'Shop premium Ethiopian coffee beans. Fresh roasted and delivered to your door.',
     images: ['/images/coffee-pack-1.webp'],
     creator: '@ethiocoffee',
   },
@@ -65,15 +67,16 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Ethio Coffee",
-              "legalName": "Ethio Coffee Import and Export PLC",
-              "url": "https://ethiocoffee.et",
-              "logo": "https://ethiocoffee.et/images/new-logo.png",
-              "description": "Premium Ethiopian coffee exports for specialty cafés and roasters worldwide.",
+              "legalName": "Ethio Coffee Company Inc.",
+              "url": "https://ethiocoffee.co",
+              "logo": "https://ethiocoffee.co/images/new-logo.png",
+              "description": "Premium Ethiopian coffee roasted and delivered fresh to coffee lovers across Canada.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Lideta",
-                "addressLocality": "Addis Ababa",
-                "addressCountry": "Ethiopia"
+                "streetAddress": "Financial District",
+                "addressLocality": "Toronto",
+                "addressRegion": "ON",
+                "addressCountry": "Canada"
               },
               "hasPOS": [
                 {
@@ -137,10 +140,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Ethio Coffee",
-              "url": "https://ethiocoffee.et",
+              "url": "https://ethiocoffee.co",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://ethiocoffee.et/offerings?search={search_term_string}",
+                "target": "https://ethiocoffee.co/shop?search={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             })
@@ -148,10 +151,13 @@ export default function RootLayout({
         />
       </head>
       <body className={oswald.className}>
-        <ScrollToTop />
-        <Navbar />
-        {children}
-        <Footer />
+        <CartProvider>
+          <ScrollToTop />
+          <Navbar />
+          <CartDrawer />
+          {children}
+          <Footer />
+        </CartProvider>
         <Analytics />
         <SpeedInsights />
       </body>

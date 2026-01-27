@@ -1,9 +1,8 @@
 import { MetadataRoute } from 'next'
-import { offerings } from './data/offerings'
-import { posts } from './data/data'
+import { products } from './data/products'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://ethiocoffee.et'
+  const baseUrl = 'https://ethiocoffee.co'
   const now = new Date()
   
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -14,27 +13,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/about`,
+      url: `${baseUrl}/shop`,
       lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/offerings`,
-      lastModified: now,
-      changeFrequency: 'weekly',
+      changeFrequency: 'daily',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/ordering-info`,
+      url: `${baseUrl}/about`,
       lastModified: now,
       changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/insights`,
-      lastModified: now,
-      changeFrequency: 'weekly',
       priority: 0.7,
     },
     {
@@ -43,22 +30,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: now,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
   ]
 
-  const productRoutes: MetadataRoute.Sitemap = offerings.map((o) => ({
-    url: `${baseUrl}/product/${o.id}`,
+  const productRoutes: MetadataRoute.Sitemap = products.map((p) => ({
+    url: `${baseUrl}/shop/${p.slug}`,
     lastModified: now,
-    changeFrequency: 'weekly',
+    changeFrequency: 'weekly' as const,
     priority: 0.8,
   }))
 
-  // Insights detail pages use SEO-friendly slugs: /insights/ethio-coffee-canada-operations-launch, etc.
-  const insightsRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${baseUrl}/insights/${post.slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: 0.6,
-  }))
-
-  return [...staticRoutes, ...productRoutes, ...insightsRoutes]
+  return [...staticRoutes, ...productRoutes]
 }

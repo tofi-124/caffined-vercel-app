@@ -5,15 +5,15 @@ import type { ReactNode } from 'react'
 export const metadata: Metadata = {
   title: 'Terms of Service | Ethio Coffee',
   description:
-    'Terms of Service for Ethio Coffee (Ethio Coffee Import and Export PLC), including website use, wholesale inquiries, quotes, and business-to-business orders.',
+    'Terms of Service for Ethio Coffee, including website use, online purchases, shipping, returns, and consumer rights.',
   alternates: {
-    canonical: 'https://ethiocoffee.et/terms',
+    canonical: 'https://ethiocoffee.co/terms',
   },
   openGraph: {
     title: 'Terms of Service | Ethio Coffee',
     description:
-      'Terms of Service for Ethio Coffee (Ethio Coffee Import and Export PLC), including website use, wholesale inquiries, quotes, and business-to-business orders.',
-    url: 'https://ethiocoffee.et/terms',
+      'Terms of Service for Ethio Coffee, including website use, online purchases, shipping, returns, and consumer rights.',
+    url: 'https://ethiocoffee.co/terms',
     type: 'article',
   },
 }
@@ -41,266 +41,199 @@ export default function TermsPage() {
           <div className='mb-8'>
             <p className='text-sm text-gray-700'>Effective date: {EFFECTIVE_DATE}</p>
             <p className='mt-2 text-gray-800'>
-              These Terms of Service ("Terms") govern your access to and use of the website located at{' '}
+              These Terms of Service (&quot;Terms&quot;) govern your access to and use of the website located at{' '}
               <a
-                href='https://ethiocoffee.et'
+                href='https://ethiocoffee.co'
                 className='underline underline-offset-4'
                 rel='noopener noreferrer'
                 target='_blank'
               >
-                https://ethiocoffee.et
+                https://ethiocoffee.co
               </a>{' '}
-              (the "Site") and any inquiries, quote requests, sample requests, or communications submitted through the
-              Site.
+              (the &quot;Site&quot;) and any purchases made through our online store.
             </p>
           </div>
 
           <div className='space-y-12'>
             <Section title='1) Who We Are'>
               <p>
-                The Site is operated by <strong>Ethio Coffee Import and Export PLC</strong> (operating as{' '}
-                <strong>Ethio Coffee</strong>) ("Ethio Coffee", "we", "us", or "our"). We provide information about
-                Ethiopian coffee offerings and facilitate business-to-business inquiries for coffee export supply.
+                The Site is operated by <strong>Ethio Coffee Company Inc.</strong> (operating as{' '}
+                <strong>Ethio Coffee</strong>) (&quot;Ethio Coffee&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). We are a Canadian company that sources, 
+                roasts, and sells premium Ethiopian coffee directly to consumers.
               </p>
               <p>
-                For Canadian customers, transactions may be handled through our Canadian subsidiary,{' '}
-                <strong>Ethio Coffee Company Inc.</strong>, which maintains local inventory and logistics.
+                Our headquarters and roasting facility are located in Toronto, Ontario, Canada.
               </p>
             </Section>
 
             <Section title='2) Acceptance of These Terms'>
               <p>
-                By accessing or using the Site, you agree to these Terms. If you do not agree, do not use the Site.
-                If you are using the Site on behalf of a company or other entity, you represent that you have
-                authority to bind that entity and that entity agrees to these Terms.
+                By accessing or using the Site, or by placing an order, you agree to these Terms. If you do not agree, 
+                please do not use the Site or make purchases.
               </p>
             </Section>
 
-            <Section title='3) Business-to-Business Use'>
+            <Section title='3) Products and Orders'>
               <p>
-                The Site is intended primarily for <strong>business customers</strong> (e.g., cafés, roasters, importers,
-                distributors, hospitality groups) seeking wholesale coffee supply information and quotes. The Site is
-                not intended for consumer retail purchases.
+                All products displayed on our Site are subject to availability. We reserve the right to limit quantities, 
+                refuse orders, or discontinue products at any time without prior notice.
+              </p>
+              <p>
+                When you place an order, you will receive an email confirmation. This confirmation acknowledges receipt 
+                of your order but does not constitute acceptance. We reserve the right to cancel orders due to pricing 
+                errors, inventory issues, or suspected fraud.
               </p>
             </Section>
 
-            <Section title='4) Information Only; No Online Checkout'>
+            <Section title='4) Pricing and Payment'>
               <p>
-                Product descriptions, profiles, origin notes, specifications, and availability shown on the Site are
-                for informational purposes. They may change and may vary by lot, season, and shipment. The Site does
-                not provide a checkout feature. Purchases (if any) are completed through an off-site, written
-                commercial process (e.g., via email, invoice, purchase order, and/or contract).
+                All prices are displayed in <strong>Canadian Dollars (CAD)</strong> and include applicable taxes for 
+                Canadian customers. Prices are subject to change without notice.
+              </p>
+              <p>
+                We accept major credit cards (Visa, Mastercard, American Express) and other payment methods as 
+                displayed at checkout. Payment is processed at the time of order.
+              </p>
+              <p>
+                For orders shipped within Canada, <strong>13% HST</strong> (Harmonized Sales Tax) will be applied at checkout.
               </p>
             </Section>
 
-            <Section title='5) Inquiries, Quote Requests, and Samples'>
+            <Section title='5) Shipping and Delivery'>
               <p>
-                You may submit inquiries or quote requests via the Site. Any response, quotation, or indication of
-                availability we provide is <strong>non-binding</strong> unless and until confirmed by written acceptance,
-                invoice, or contract signed/issued by us.
+                We currently ship within <strong>Canada only</strong>. Orders are typically processed within 1-2 business 
+                days and delivered within 3-7 business days, depending on your location.
               </p>
               <p>
-                Sample requests are subject to availability and may require additional information. Shipping costs,
-                handling fees, and/or sample charges may apply, as communicated to you.
-              </p>
-            </Section>
-
-            <Section title='6) Orders, Contracts, and Priority of Terms'>
-              <p>
-                If you place an order with us, the governing terms for that transaction will be set out in the written
-                documents applicable to that order (e.g., quotation, pro forma invoice, commercial invoice, purchase
-                order acceptance, and/or a separate supply agreement) ("Order Terms").
+                <strong>Free shipping</strong> is available on orders over $75 CAD. For orders under $75 CAD, a flat 
+                shipping rate of $9.99 applies.
               </p>
               <p>
-                If there is any conflict between these Terms and the Order Terms, the Order Terms control for that
-                transaction.
+                Delivery times are estimates and not guaranteed. We are not responsible for delays caused by shipping 
+                carriers, weather, or other circumstances beyond our control.
               </p>
             </Section>
 
-            <Section title='7) Pricing, Payment, and Taxes'>
+            <Section title='6) Freshness Guarantee'>
               <p>
-                Prices and payment terms are determined on a case-by-case basis and will be stated in the applicable
-                Order Terms. Standard payment terms for new customers are 50% deposit with 50% due against shipping
-                documents. Established customers may qualify for Net 30/60 terms. Letters of Credit are accepted
-                from recognized banks.
+                All our coffee is <strong>roasted to order</strong> and shipped within days of roasting to ensure 
+                maximum freshness. Each bag includes a roast date for your reference.
               </p>
               <p>
-                Our standard invoicing currency is <strong>USD</strong>. Canadian partners may transact in{' '}
-                <strong>CAD</strong> through our Canadian entity. We may also invoice in EUR or GBP for international buyers.
-              </p>
-              <p>
-                Unless stated otherwise, prices may exclude shipping, insurance, banking fees, customs
-                duties, taxes, tariffs, and other charges. You are responsible for any taxes, duties, or government
-                charges associated with importation or receipt of goods in your jurisdiction, unless the applicable
-                Order Terms expressly provide otherwise.
+                For the best experience, we recommend consuming your coffee within 4-6 weeks of the roast date and 
+                storing it in a cool, dry place away from direct sunlight.
               </p>
             </Section>
 
-            <Section title='8) Shipping, Delivery, and Risk of Loss'>
+            <Section title='7) Returns and Refunds'>
               <p>
-                Shipping terms (including Incoterms®, freight arrangements, insurance, delivery timelines, and
-                transfer of risk) will be set out in the applicable Order Terms. Delivery dates and lead times are
-                estimates unless expressly agreed in writing.
+                Due to the perishable nature of coffee, we generally do not accept returns. However, if you receive 
+                damaged, defective, or incorrect products, please contact us within <strong>7 days</strong> of delivery 
+                with photos and a description of the issue.
               </p>
               <p>
-                Export and international logistics may be affected by events outside our control (including port
-                delays, customs holds, carrier disruptions, or force majeure events). We are not responsible for
-                delays caused by third parties or governmental actions.
-              </p>
-            </Section>
-
-            <Section title='9) Quality, Lot Variation, and Claims'>
-              <p>
-                Coffee is an agricultural product; characteristics can vary by harvest, lot, processing, storage, and
-                transport conditions. Except as expressly stated in the applicable Order Terms, we do not guarantee
-                that every shipment will match a particular flavor note description.
+                If we determine the product was damaged or defective, we will offer a replacement or full refund at 
+                our discretion. Refunds will be processed to the original payment method within 5-10 business days.
               </p>
               <p>
-                If you believe goods are non-conforming or damaged, you must notify us within{' '}
-                <strong>seven (7) days</strong> of receipt with photos, cupping notes, and supporting documentation.
-                We retain samples from every lot for comparison. Resolution options may include price adjustments,
-                replacement coffee, or third-party arbitration.
+                If you are unsatisfied with your purchase for any other reason, please contact us. We value your 
+                satisfaction and will work with you to find a resolution.
               </p>
             </Section>
 
-            <Section title='10) Returns, Cancellations, and Refunds'>
+            <Section title='8) Cancellations'>
               <p>
-                Because coffee and related goods are commonly handled and stored under variable conditions, returns
-                are generally not accepted unless expressly agreed in writing or required by applicable law. Any
-                approved returns, credits, cancellations, or refunds will be handled according to the Order Terms.
+                You may cancel your order within <strong>1 hour</strong> of placing it by contacting us immediately. 
+                Once an order has been processed or shipped, it cannot be cancelled.
               </p>
             </Section>
 
-            <Section title='11) Acceptable Use'>
+            <Section title='9) Account Registration'>
+              <p>
+                You may browse our Site without creating an account. If you choose to create an account, you are 
+                responsible for maintaining the confidentiality of your login credentials and for all activities 
+                under your account.
+              </p>
+            </Section>
+
+            <Section title='10) Privacy'>
+              <p>
+                Your privacy is important to us. We collect and use your personal information only as necessary to 
+                fulfill orders, improve our services, and communicate with you. We do not sell your personal 
+                information to third parties.
+              </p>
+              <p>
+                For more details, please review our Privacy Policy (coming soon).
+              </p>
+            </Section>
+
+            <Section title='11) Intellectual Property'>
+              <p>
+                All content on the Site, including text, images, logos, and design, is owned by or licensed to 
+                Ethio Coffee and protected by intellectual property laws. You may not copy, reproduce, or distribute 
+                our content without written permission.
+              </p>
+            </Section>
+
+            <Section title='12) Acceptable Use'>
               <p>You agree not to:</p>
               <ul className='list-disc pl-6 space-y-2'>
-                <li>Use the Site for any unlawful, fraudulent, or misleading purpose.</li>
-                <li>Attempt to gain unauthorized access to the Site or its systems.</li>
-                <li>Interfere with the Site’s operation (including introducing malware or abuse of forms).</li>
-                <li>Scrape, harvest, or collect information from the Site at scale without our permission.</li>
-                <li>Use the Site to infringe any person’s intellectual property or privacy rights.</li>
+                <li>Use the Site for any unlawful or fraudulent purpose</li>
+                <li>Attempt to gain unauthorized access to our systems</li>
+                <li>Interfere with the Site&apos;s operation or security</li>
+                <li>Submit false information or impersonate others</li>
+                <li>Use automated tools to scrape or collect data from the Site</li>
               </ul>
             </Section>
 
-            <Section title='12) Intellectual Property'>
-              <p>
-                The Site and its content (including text, images, graphics, logos, and design) are owned by or
-                licensed to Ethio Coffee and are protected by applicable intellectual property laws. You may view and
-                use the Site for your internal business evaluation purposes. You may not copy, reproduce, distribute,
-                or create derivative works from the Site content without our prior written permission, except as
-                permitted by law.
-              </p>
-            </Section>
-
-            <Section title='13) Third-Party Services and Links'>
-              <p>
-                The Site may link to third-party websites or services. We do not control and are not responsible for
-                third-party content, policies, or practices. Your use of third-party services is at your own risk.
-              </p>
-            </Section>
-
-            <Section title='14) Privacy and Communications'>
-              <p>
-                When you submit a contact or quote request, you provide information that we use to respond to you,
-                evaluate your request, and conduct business communications. You agree that we may contact you at the
-                email address and/or phone number you provide.
-              </p>
-              <p>
-                Do not submit sensitive personal data (such as government ID numbers or payment card details) through
-                the Site’s forms.
-              </p>
-            </Section>
-
-            <Section title='15) Disclaimers'>
+            <Section title='13) Limitation of Liability'>
               <p className='font-semibold uppercase'>
-                The site is provided on an “as is” and “as available” basis. To the maximum extent permitted by law,
-                we disclaim all warranties, express or implied, including implied warranties of merchantability,
-                fitness for a particular purpose, and non-infringement.
-              </p>
-            </Section>
-
-            <Section title='16) Limitation of Liability'>
-              <p className='font-semibold uppercase'>
-                To the maximum extent permitted by law, Ethio Coffee will not be liable for any indirect, incidental,
-                consequential, special, or punitive damages, or any loss of profits, revenue, data, or goodwill,
-                arising out of or related to your use of (or inability to use) the site.
-              </p>
-              <p className='font-semibold uppercase'>
-                If you enter into an order with us, any liability related to that order will be governed by the order
-                terms.
-              </p>
-            </Section>
-
-            <Section title='17) Indemnification'>
-              <p>
-                You agree to indemnify and hold harmless Ethio Coffee and its officers, directors, employees, and
-                agents from and against claims, liabilities, damages, losses, and expenses (including reasonable
-                legal fees) arising out of or related to your use of the Site, your violation of these Terms, or your
-                violation of any rights of another.
-              </p>
-            </Section>
-
-            <Section title='18) Compliance With Laws'>
-              <p>
-                You are responsible for complying with all laws and regulations applicable to your use of the Site
-                and any importation, resale, labeling, and marketing of products you purchase from us, including
-                customs, food safety, and sanctions/export-control requirements where applicable.
-              </p>
-            </Section>
-
-            <Section title='19) Force Majeure'>
-              <p>
-                We will not be liable for any failure or delay in performance to the extent caused by circumstances
-                beyond our reasonable control, including natural disasters, war, terrorism, labor disputes,
-                government actions, supply chain interruptions, carrier delays, and port congestion.
-              </p>
-            </Section>
-
-            <Section title='20) Governing Law and Dispute Resolution'>
-              <p>
-                These Terms are governed by the laws of the Federal Democratic Republic of Ethiopia, without regard
-                to conflict of law principles. Any dispute arising out of or relating to these Terms will be brought
-                in the courts located in Addis Ababa, Ethiopia, unless mandatory law provides otherwise.
+                To the maximum extent permitted by law, Ethio Coffee will not be liable for any indirect, incidental, 
+                consequential, or punitive damages arising from your use of the Site or purchase of products.
               </p>
               <p>
-                For disputes related to coffee quality or contract performance, we follow{' '}
-                <strong>Green Coffee Association (GCA) arbitration procedures</strong> when applicable. Most issues
-                are resolved through direct discussion and sample comparison before formal proceedings.
+                Our total liability for any claim related to your purchase will not exceed the amount you paid for 
+                the product(s) in question.
               </p>
             </Section>
 
-            <Section title='21) Changes to These Terms'>
+            <Section title='14) Governing Law'>
               <p>
-                We may update these Terms from time to time. The “Effective date” above indicates when these Terms
-                were last updated. Your continued use of the Site after changes become effective constitutes
-                acceptance of the updated Terms.
+                These Terms are governed by the laws of the Province of Ontario and the federal laws of Canada 
+                applicable therein. Any disputes will be resolved in the courts of Ontario, Canada.
               </p>
             </Section>
 
-            <Section title='22) Contact'>
+            <Section title='15) Changes to These Terms'>
+              <p>
+                We may update these Terms from time to time. The &quot;Effective date&quot; above indicates when these Terms 
+                were last updated. Continued use of the Site after changes constitutes acceptance of the updated Terms.
+              </p>
+            </Section>
+
+            <Section title='16) Contact Us'>
               <p>
                 Questions about these Terms? Contact us at{' '}
-                <a href='mailto:info@ethiocoffee.et' className='underline underline-offset-4'>
-                  info@ethiocoffee.et
+                <a href='mailto:hello@ethiocoffee.co' className='underline underline-offset-4'>
+                  hello@ethiocoffee.co
                 </a>{' '}
                 or visit our{' '}
                 <Link href='/contact-us' className='underline underline-offset-4'>
-                  Contact Us
+                  Contact
                 </Link>{' '}
                 page.
               </p>
             </Section>
           </div>
 
-          {/* Call to Action */}
           <div className='mt-12 text-center'>
-            <p className='text-gray-700 mb-6'>Ready to source premium Ethiopian green coffee?</p>
+            <p className='text-gray-700 mb-6'>Ready to try our premium Ethiopian coffee?</p>
             <div className='flex flex-wrap justify-center gap-4'>
               <Link
-                href='/offerings'
+                href='/shop'
                 className='px-6 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-md font-bold transition-colors'
               >
-                Browse Offerings
+                Shop Now
               </Link>
               <Link
                 href='/contact-us'
