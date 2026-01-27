@@ -24,11 +24,11 @@ const matchesKeyword = (offering: Offering, keyword: string) => {
     normalize(offering.name).includes(q) ||
     normalize(offering.desc).includes(q) ||
     normalize(offering.region).includes(q) ||
-    normalize(offering.variety).includes(q) ||
+    normalize(offering.variety ?? '').includes(q) ||
     offering.flavorNotes.some((note) => normalize(note).includes(q)) ||
-    normalize(offering.specifications.grade).includes(q) ||
-    normalize(offering.specifications.processingMethod).includes(q) ||
-    normalize(offering.specifications.cropYear).includes(q)
+    normalize(offering.specifications.grade ?? '').includes(q) ||
+    normalize(offering.specifications.processingMethod ?? '').includes(q) ||
+    normalize(offering.specifications.cropYear ?? '').includes(q)
   )
 }
 
@@ -69,15 +69,15 @@ const OfferingsBrowser = () => {
   }, [])
 
   const gradeOptions = useMemo(() => {
-    return Array.from(new Set(offerings.map((o) => o.specifications.grade))).sort()
+    return Array.from(new Set(offerings.map((o) => o.specifications.grade).filter((v): v is string => v !== null))).sort()
   }, [])
 
   const processingOptions = useMemo(() => {
-    return Array.from(new Set(offerings.map((o) => o.specifications.processingMethod))).sort()
+    return Array.from(new Set(offerings.map((o) => o.specifications.processingMethod).filter((v): v is string => v !== null))).sort()
   }, [])
 
   const cropYearOptions = useMemo(() => {
-    return Array.from(new Set(offerings.map((o) => o.specifications.cropYear))).sort()
+    return Array.from(new Set(offerings.map((o) => o.specifications.cropYear).filter((v): v is string => v !== null))).sort()
   }, [])
 
   const [draft, setDraft] = useState<Filters>({
@@ -103,7 +103,7 @@ const OfferingsBrowser = () => {
 
       if (applied.minScore) {
         const minScore = Number(applied.minScore)
-        const score = Number.parseFloat(o.specifications.cupScore)
+        const score = Number.parseFloat(o.specifications.cupScore ?? '0')
         if (Number.isFinite(minScore) && Number.isFinite(score) && score < minScore) return false
       }
       return true
