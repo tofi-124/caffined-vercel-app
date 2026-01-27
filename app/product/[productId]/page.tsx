@@ -98,15 +98,21 @@ const OfferingDetail = ({ params }: Props) => {
           <div className='lg:w-1/2'>
             {/* Top info bar with key details */}
             <div className='flex flex-wrap items-center gap-3 mb-4'>
-              <span className='inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium'>
-                {product.specifications.processingMethod}
-              </span>
-              <span className='inline-flex items-center px-3 py-1 rounded-full bg-dark/10 text-dark text-sm font-medium'>
-                Score: {product.specifications.cupScore}
-              </span>
-              <span className='inline-flex items-center px-3 py-1 rounded-full bg-dark/10 text-dark text-sm font-medium'>
-                Grade {product.specifications.grade}
-              </span>
+              {product.specifications.processingMethod && (
+                <span className='inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium'>
+                  {product.specifications.processingMethod}
+                </span>
+              )}
+              {product.specifications.cupScore && (
+                <span className='inline-flex items-center px-3 py-1 rounded-full bg-dark/10 text-dark text-sm font-medium'>
+                  Score: {product.specifications.cupScore}
+                </span>
+              )}
+              {product.specifications.grade && (
+                <span className='inline-flex items-center px-3 py-1 rounded-full bg-dark/10 text-dark text-sm font-medium'>
+                  Grade {product.specifications.grade}
+                </span>
+              )}
             </div>
             
             <h2 className='text-5xl font-extrabold text-dark mb-2'>{product.name}</h2>
@@ -262,46 +268,66 @@ const OfferingDetail = ({ params }: Props) => {
                           </tr>
                         </thead>
                         <tbody className='bg-white divide-y divide-gray-200'>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Grade</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.grade}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Screen Size</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.screenSize}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Processing Method</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.processingMethod}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Crop Year</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cropYear}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Moisture %</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.moisture}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Defect Count</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.defectCount}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cup Score</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cupScore}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Altitude</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.altitude}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Variety</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.variety}</td>
-                          </tr>
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Bag Size</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.bagSize}</td>
-                          </tr>
+                          {product.specifications.grade && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Grade</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.grade}</td>
+                            </tr>
+                          )}
+                          {product.specifications.screenSize && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Screen Size</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.screenSize}</td>
+                            </tr>
+                          )}
+                          {product.specifications.processingMethod && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Processing Method</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.processingMethod}</td>
+                            </tr>
+                          )}
+                          {product.specifications.cropYear && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Crop Year</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cropYear}</td>
+                            </tr>
+                          )}
+                          {product.specifications.moisture && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Moisture %</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.moisture}</td>
+                            </tr>
+                          )}
+                          {product.specifications.defectCount && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Defect Count</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.defectCount}</td>
+                            </tr>
+                          )}
+                          {product.specifications.cupScore && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cup Score</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cupScore}</td>
+                            </tr>
+                          )}
+                          {product.altitude && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Altitude</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.altitude}</td>
+                            </tr>
+                          )}
+                          {product.variety && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Variety</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.variety}</td>
+                            </tr>
+                          )}
+                          {product.bagSize && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Bag Size</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.bagSize}</td>
+                            </tr>
+                          )}
                         </tbody>
                       </table>
                     </div>

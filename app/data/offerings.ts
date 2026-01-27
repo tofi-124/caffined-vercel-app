@@ -1,11 +1,11 @@
 export type OfferingSpecifications = {
-  grade: string
+  grade: string | null
   screenSize: string | null
-  processingMethod: string
-  cropYear: string
+  processingMethod: string | null
+  cropYear: string | null
   moisture: string | null
   defectCount: string | null
-  cupScore: string
+  cupScore: string | null
 }
 
 export type OfferingPricing = {
@@ -27,11 +27,11 @@ export type Offering = {
   pricing: OfferingPricing
   isSoldOut?: boolean
   // New fields for B2B buyers
-  altitude: string
+  altitude: string | null
   region: string
   producer: string
-  variety: string
-  bagSize: string
+  variety: string | null
+  bagSize: string | null
   availableBags: number | null // null = contact for availability
   warehouseLocation: string
   lotNumber: string
@@ -51,11 +51,11 @@ export const offerings: Offering[] = [
       'Yirgacheffe is located within the Gedeo Zone of the Southern Nations, Nationalities, and Peoples\' Region (SNNPR). The area\'s high altitude (1,750-2,200m), fertile volcanic soil, and ideal climate create perfect conditions for slow cherry maturation. Coffee here is predominantly grown by smallholder farmers on plots averaging less than 2 hectares, with cherries delivered to local washing stations for wet processing.',
     specifications: {
       grade: 'G2',
-      screenSize: '14-16',
+      screenSize: null,
       processingMethod: 'Washed',
       cropYear: '2025',
-      moisture: '10-12%',
-      defectCount: '4-12 per 300g',
+      moisture: null,
+      defectCount: null,
       cupScore: '84+',
     },
     pricing: {
@@ -88,11 +88,11 @@ export const offerings: Offering[] = [
       'Sidama is one of Ethiopia\'s largest and most established coffee-growing regions, located in the fertile highlands south of Addis Ababa. The region gained its own administrative status (Sidama Regional State) in 2020, reflecting its cultural and economic importance. Coffee cultivation here dates back centuries, with the region\'s name trademarked alongside Yirgacheffe and Harar as protected Ethiopian coffee origins. Growing conditions include rich volcanic soil, ample rainfall, and optimal temperatures.',
     specifications: {
       grade: 'G1',
-      screenSize: '15-18',
+      screenSize: null,
       processingMethod: 'Natural (Sun-dried)',
       cropYear: '2025',
-      moisture: '10-12%',
-      defectCount: '0-3 per 300g',
+      moisture: null,
+      defectCount: null,
       cupScore: '86+',
     },
     pricing: {
@@ -125,11 +125,11 @@ export const offerings: Offering[] = [
       'Guji Zone was historically considered part of the broader Sidamo region but has gained recognition as a distinct origin due to its exceptional cup quality. Located in the Oromia Region of southern Ethiopia, Guji\'s coffee grows at some of the country\'s highest elevations. The zone includes famous sub-regions like Shakiso, Uraga, and Hambela, each producing distinct micro-lot profiles. Indigenous forest shade and heirloom genetics contribute to Guji\'s complex character.',
     specifications: {
       grade: 'G1',
-      screenSize: '15-18',
+      screenSize: null,
       processingMethod: 'Natural (Sun-dried)',
       cropYear: '2025',
-      moisture: '10-12%',
-      defectCount: '0-3 per 300g',
+      moisture: null,
+      defectCount: null,
       cupScore: '87+',
     },
     pricing: {
@@ -162,11 +162,11 @@ export const offerings: Offering[] = [
       'Harar (Harrar) coffee comes from the eastern highlands of Ethiopia, around the ancient walled city of Harar a UNESCO World Heritage Site and historically one of Islam\'s holiest cities. Coffee has been cultivated here for over 500 years, making it one of the oldest coffee trade names in existence. The region\'s dry climate necessitates natural (dry) processing, with cherries sun-dried on raised beds. Harar\'s unique terroir and processing traditions create its signature bold, fruity character.',
     specifications: {
       grade: 'G1',
-      screenSize: '14-17',
+      screenSize: null,
       processingMethod: 'Natural (Dry-processed)',
       cropYear: '2025',
-      moisture: '10-12%',
-      defectCount: '0-5 per 300g',
+      moisture: null,
+      defectCount: null,
       cupScore: '85+',
     },
     pricing: {
@@ -199,11 +199,11 @@ export const offerings: Offering[] = [
       'Limu is located in the Jimma Zone of the Oromia Region in southwestern Ethiopia. The area is characterized by lush, forested highlands with significant rainfall and rich, volcanic soil. Limu coffee has been commercially cultivated since the early 20th century and was among the first Ethiopian coffees to gain international recognition. The region\'s washed coffees are known for their consistency and quality, making Limu a reliable choice for roasters seeking dependable Ethiopian character.',
     specifications: {
       grade: 'G2',
-      screenSize: '14-16',
+      screenSize: null,
       processingMethod: 'Washed',
       cropYear: '2025',
-      moisture: '10-12%',
-      defectCount: '4-12 per 300g',
+      moisture: null,
+      defectCount: null,
       cupScore: '84+',
     },
     pricing: {
@@ -236,11 +236,11 @@ export const offerings: Offering[] = [
       'Lekempti coffee originates from the Wollega (Wellega) Zone in western Ethiopia\'s Oromia Region, centered around the town of Nekemte. This area represents one of Ethiopia\'s oldest coffee-producing regions, with wild coffee still growing in the indigenous forests. The western highlands receive abundant rainfall and feature rich, red volcanic soil ideal for coffee cultivation. Both natural and washed processing are common, with each method producing distinct cup profiles.',
     specifications: {
       grade: 'G2',
-      screenSize: '14-16',
+      screenSize: null,
       processingMethod: 'Washed',
       cropYear: '2025',
-      moisture: '10-12%',
-      defectCount: '4-12 per 300g',
+      moisture: null,
+      defectCount: null,
       cupScore: '84+',
     },
     pricing: {

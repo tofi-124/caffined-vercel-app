@@ -71,15 +71,21 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
 
             {/* Quick Specs */}
             <div className='mt-4 flex flex-wrap gap-2'>
-              <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
-                {o.specifications.processingMethod}
-              </span>
-              <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
-                {o.specifications.grade}
-              </span>
-              <span className='px-2.5 py-1 bg-accent/10 rounded-full text-xs font-semibold text-accent'>
-                {o.specifications.cupScore} pts
-              </span>
+              {o.specifications.processingMethod && (
+                <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
+                  {o.specifications.processingMethod}
+                </span>
+              )}
+              {o.specifications.grade && (
+                <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
+                  {o.specifications.grade}
+                </span>
+              )}
+              {o.specifications.cupScore && (
+                <span className='px-2.5 py-1 bg-accent/10 rounded-full text-xs font-semibold text-accent'>
+                  {o.specifications.cupScore} pts
+                </span>
+              )}
             </div>
 
             {/* Pricing */}
