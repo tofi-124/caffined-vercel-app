@@ -76,10 +76,10 @@ const About = () => {
               We know international sourcing can be a hassle. That's why we set up local operations in two key regions:
             </p>
             <p className='my-4'>
-              <strong>In the Middle East,</strong> our Saudi Arabia company <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span> (Ethio Coffee Import), based in Riyadh, makes it easier for roasters across the GCC to work with us - local support, straightforward documentation, and coffee that's already nearby.
+              <strong>In the Middle East,</strong> <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span> (Ethio Coffee Import) in Riyadh makes it easier for roasters across the GCC to work with us - local support, straightforward documentation, and coffee that's already nearby.
             </p>
             <p className='my-4'>
-              <strong>In North America,</strong> our Canadian company Ethio Coffee Company Inc. does the same for roasters in Canada and the U.S. We import directly into Canadian warehouses so you get clear lot information, consistent samples, and shipping that actually makes sense.
+              <strong>In North America,</strong> Ethio Coffee Company Inc. in Canada does the same for roasters in Canada and the U.S. We import directly into Canadian warehouses so you get clear lot information, consistent samples, and shipping that actually makes sense.
             </p>
             <p className='my-4'>
               If you're somewhere else in the world, don't worry - we work with you directly through our export programs and will figure out the best way to get coffee to you.
