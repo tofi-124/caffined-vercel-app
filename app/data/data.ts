@@ -165,5 +165,28 @@ export const posts: Post[] = [
         'guji coffee exporter'
       ],
       desc: 'Looking for a trusted Ethiopian coffee exporter, importer, or supplier? Ethio Coffee delivers premium green beans from Yirgacheffe, Sidamo, Guji, and more directly to roasters worldwide with full traceability and competitive pricing.'
+    },
+    {
+      small_image_url: 'coffee-plant-taxonomy.webp',
+      large_image_url: 'coffee-plant-taxonomy.webp',
+      date: 'Jan 28, 2026',
+      title: 'COFFEE IS A PLANT: UNDERSTANDING TAXONOMY, SPECIES & VARIETIES',
+      slug: 'coffee-plant-taxonomy-species-varieties',
+      category: 'Coffee Education',
+      keywords: [
+        'coffee plant',
+        'coffee taxonomy',
+        'Arabica vs Robusta',
+        'coffee species',
+        'coffee varieties',
+        'coffee anatomy',
+        'Coffea Arabica',
+        'coffee genetics',
+        'coffee botany',
+        'heirloom coffee varieties',
+        'Ethiopian coffee genetics',
+        'coffee plant science'
+      ],
+      desc: 'Before coffee is ever a drink, it\'s a plant. Explore coffee\'s taxonomy, anatomy, the fascinating science behind Arabica and Robusta species, variety groups, and why understanding coffee as an agricultural product deepens your appreciation for every cup.'
     }
 ]

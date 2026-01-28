@@ -1610,6 +1610,500 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
+    } else if (ind === 10) {
+      // Content for "Coffee Is A Plant: Understanding Taxonomy, Species & Varieties"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            {title}
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Before coffee is ever a drink, it&apos;s a plant - and understanding that plant changes everything
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Coffee is an agricultural product first - a tropical woody understory perennial with a fascinating evolutionary history.
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt='Coffee plant taxonomy and botany'
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <p className='my-4'>
+            What is coffee? Ask ten people and you&apos;ll get ten different answers: a beverage, a morning ritual, 
+            a way of life, happiness, livelihood, community. All of these are true - but they all branch from one 
+            fundamental fact that often gets overlooked: <span className='font-bold'>coffee is a plant</span>.
+          </p>
+
+          <p className='my-4'>
+            Before it&apos;s ever roasted, brewed, or poured into a cup, coffee is an agricultural product - a living 
+            organism with specific needs, a complex anatomy, and a fascinating evolutionary history. Understanding 
+            coffee as a plant deepens our appreciation for every cup and helps us grasp the challenges facing coffee 
+            production worldwide.
+          </p>
+
+          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              <span className='font-bold'>In this article:</span> We&apos;ll explore coffee&apos;s taxonomy and anatomy, 
+              compare Arabica and Robusta species, examine Arabica&apos;s unique hybrid origin and the genetic challenges 
+              it faces, and look at the major variety groups grown around the world.
+            </p>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Section 1: Coffee Taxonomy & Anatomy
+          </h3>
+          <p className='my-4'>
+            Taxonomy is the system of classifying organisms. Coffee has been studied taxonomically since 1713, when 
+            French naturalist Antoine de Jussieu first described it in the Botanical Gardens of Amsterdam, calling 
+            it <em>Jasminum arabicum</em> (meaning &quot;white flowers from Arabia&quot;). In 1737, Carl Linnaeus - the father 
+            of modern taxonomy - placed coffee in its own genus: <span className='font-bold'>Coffea</span>.
+          </p>
+
+          <h4 className='text-xl font-bold mt-6'>
+            From Kingdom to Genus
+          </h4>
+          <p className='my-4'>
+            Let&apos;s trace coffee through its taxonomic classification:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>Kingdom Plantae:</span> Coffee is a land plant - pretty straightforward.</li>
+            <li><span className='font-bold'>Phylum Tracheophyta:</span> Coffee is an angiosperm with roots, stems, leaves, and reproduces with seeds. It has vascular tissue (xylem and phloem) that transports water, sugars, and nutrients throughout the plant.</li>
+            <li><span className='font-bold'>Class Magnoliopsida:</span> Coffee is a flowering dicotyledon - it germinates with two seed leaves and produces flowers. All flowering plants bear fruit.</li>
+            <li><span className='font-bold'>Order Gentianales:</span> Plants in this order have opposing leaves - wherever one leaf sprouts, another sprouts from the same point.</li>
+            <li><span className='font-bold'>Family Rubiaceae:</span> The fourth-largest flowering plant family, containing 600 to 13,000 species including cinchona (which produces quinine), kratom, gardenia, and various timber trees.</li>
+            <li><span className='font-bold'>Genus Coffea:</span> Plants with elliptical, waxy leaves, an orthotropic (central) stem, and opposing primary branches.</li>
+          </ul>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Is Coffee a Tree, Shrub, or Herb?</h4>
+            <p className='my-2'>
+              Technically, coffee is a <span className='font-bold'>tree</span> - specifically a &quot;treelet&quot; or small tree. 
+              Here&apos;s the difference: herbs are not woody (no bark, no tree rings). Shrubs have multiple branches 
+              from the base with no primary trunk. Trees have one primary trunk from which all branches grow - 
+              and that&apos;s what coffee has.
+            </p>
+          </div>
+
+          <h4 className='text-xl font-bold mt-6'>
+            Coffee Plant Characteristics
+          </h4>
+          <p className='my-4'>
+            Plants within the genus Coffea share these characteristics:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>Evergreen leaves:</span> The leaves don&apos;t change colors throughout the year.</li>
+            <li><span className='font-bold'>White, fragrant flowers:</span> Five-petaled, tubular flowers with radial symmetry. They open after a rainy season and last only a few days.</li>
+            <li><span className='font-bold'>Opposing branches:</span> Primary branches grow in opposing pairs, with secondary and tertiary growth possible.</li>
+            <li><span className='font-bold'>Tropical woody understory perennials:</span> We&apos;ll come back to this phrase - it perfectly describes coffee&apos;s habitat.</li>
+          </ul>
+
+          <h4 className='text-xl font-bold mt-6'>
+            Coffee Root Structure
+          </h4>
+          <p className='my-4'>
+            Roots anchor the plant, uptake water and nutrients, and store energy. Coffee roots include:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>Central tap root:</span> Goes 0.5 to 1 meter (1.5 to 3 feet) deep.</li>
+            <li><span className='font-bold'>Lateral roots:</span> Spread across the top 2-8 inches of topsoil.</li>
+            <li><span className='font-bold'>Axial roots:</span> Branch from the central tap root.</li>
+            <li><span className='font-bold'>Feeder roots and root hairs:</span> Responsible for 98% of water uptake. Root hairs constantly shed and regrow daily.</li>
+          </ul>
+
+          <h4 className='text-xl font-bold mt-6'>
+            The Coffee Fruit (Cherry)
+          </h4>
+          <p className='my-4'>
+            What we commonly call a &quot;coffee cherry&quot; is technically a <span className='font-bold'>drupe</span> - a 
+            stone fruit like plums, cherries, almonds, or olives. Drupes are fleshy fruits with a thin skin 
+            containing a stone that holds a seed.
+          </p>
+          <p className='my-4'>
+            The anatomy of a coffee cherry:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>Exocarp (skin):</span> The protective outer layer, green for most of the cherry&apos;s life, turning yellow then red as it ripens.</li>
+            <li><span className='font-bold'>Mesocarp (mucilage):</span> The fruit layer - a hydrogel rich in sugars, pectin, acids, and oils. Higher altitudes increase dry matter content, which is why higher-grown coffee often scores better in the cup.</li>
+            <li><span className='font-bold'>Endocarp (parchment):</span> A shell of crisscrossing cellulose material that protects the seed and holds moisture necessary for germination.</li>
+            <li><span className='font-bold'>Perisperm (silver skin):</span> A thin nutritive layer that aids in transporting compounds from fruit to seed. Its color helps identify ripeness during sorting.</li>
+          </ul>
+
+          <h4 className='text-xl font-bold mt-6'>
+            The Coffee Seed
+          </h4>
+          <p className='my-4'>
+            The endosperm - the main tissue of the seed - is living tissue that forms cell walls containing chemical 
+            substances that feed the embryo. These substances are the precursors to everything we taste in coffee.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <p className='my-2'>
+              <span className='font-bold'>What makes coffee unique:</span> Most plant seeds contain mainly starch, oil, 
+              and protein. Coffee is anomalously abundant in the variety of compounds within its cell walls. This is 
+              why coffee is one of the most complex ingredients on Earth - you can&apos;t just roast other seeds and 
+              get something similar. Coffee is truly an anomaly.
+            </p>
+          </div>
+          <p className='my-4'>
+            The embryo, contained in the lower portion of the seed, grows into a new organism of root, stem, and 
+            leaves. The entire system - roots, vascular tissue, fruit, seed - works together to deliver nutrients 
+            to the embryo so the species can survive and reproduce.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Section 2: Coffee Species - Arabica vs. Robusta
+          </h3>
+          <p className='my-4'>
+            How many coffee species are there? Genetic studies have been continually expanding the list. A 1997 
+            study identified 37 species within Rubiaceae. A 2007 study adopted an entire subgenus into Coffea. 
+            Twenty species have been identified in the last 15 years alone. Current consensus puts the number 
+            around <span className='font-bold'>131 species</span>.
+          </p>
+          <p className='my-4'>
+            But commercially, two species dominate: <span className='font-bold'>Coffea arabica</span> (Arabica) 
+            and <span className='font-bold'>Coffea canephora</span> (Robusta).
+          </p>
+
+          <h4 className='text-xl font-bold mt-6'>
+            Arabica vs. Robusta at a Glance
+          </h4>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300'>
+              <thead>
+                <tr className='bg-amber-50'>
+                  <th className='border border-gray-300 p-3 text-left'>Characteristic</th>
+                  <th className='border border-gray-300 p-3 text-left'>Arabica</th>
+                  <th className='border border-gray-300 p-3 text-left'>Robusta</th>
+                </tr>
+              </thead>
+              <tbody className='font-inconsolata'>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>World Production</td>
+                  <td className='border border-gray-300 p-3'>~55-60%</td>
+                  <td className='border border-gray-300 p-3'>~40-45%</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Elevation</td>
+                  <td className='border border-gray-300 p-3'>Higher (1,000-2,000m+)</td>
+                  <td className='border border-gray-300 p-3'>Lower (0-800m)</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Temperature</td>
+                  <td className='border border-gray-300 p-3'>Lower (15-24°C)</td>
+                  <td className='border border-gray-300 p-3'>Higher (24-30°C)</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Shade Requirement</td>
+                  <td className='border border-gray-300 p-3'>More shade</td>
+                  <td className='border border-gray-300 p-3'>Less shade</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Pest Resistance</td>
+                  <td className='border border-gray-300 p-3'>Lower</td>
+                  <td className='border border-gray-300 p-3'>Higher</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Caffeine Content</td>
+                  <td className='border border-gray-300 p-3'>0.8-1.4%</td>
+                  <td className='border border-gray-300 p-3'>1.7-4%</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Chlorogenic Acids</td>
+                  <td className='border border-gray-300 p-3'>Lower</td>
+                  <td className='border border-gray-300 p-3'>Higher</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Sucrose Content</td>
+                  <td className='border border-gray-300 p-3'>6-9%</td>
+                  <td className='border border-gray-300 p-3'>3-7%</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Flavor Profile</td>
+                  <td className='border border-gray-300 p-3'>More complex, sweeter</td>
+                  <td className='border border-gray-300 p-3'>More bitter, earthy</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className='my-4'>
+            Caffeine and chlorogenic acids are natural pest repellents - this is why Robusta has higher disease 
+            resistance but also more bitterness in the cup. Arabica&apos;s higher sugar content contributes to its 
+            more broadly appreciated flavor profile.
+          </p>
+          <p className='my-4'>
+            <span className='font-bold'>Important trend:</span> Ten years ago, Arabica comprised about 70% of 
+            world production. That&apos;s now approaching 55/45 - not because Arabica production is declining, but 
+            because climate pressure is making Robusta easier to grow. Some scientists predict that growing 
+            Arabica may become unsustainable by 2050.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Section 3: The Arabica Story - A Unique Hybrid
+          </h3>
+          <p className='my-4'>
+            Here&apos;s something that surprised many coffee professionals: <span className='font-bold'>Arabica is a 
+            hybrid</span>. It&apos;s a hybridized species of Coffea canephora (Robusta) and Coffea eugenioides.
+          </p>
+          <p className='my-4'>
+            This single hybridization event occurred between 1.08 million and 543,000 years ago - which sounds 
+            like a long time, but in evolutionary terms, Arabica is the <span className='font-bold'>youngest 
+            species within the Coffea genus</span>.
+          </p>
+
+          <h4 className='text-xl font-bold mt-6'>
+            The Genetics of Arabica
+          </h4>
+          <p className='my-4'>
+            All coffee species except Arabica are <span className='font-bold'>diploids</span> - they have 22 
+            chromosomes. When Robusta and eugenioides hybridized, Arabica inherited both sets of chromosomes, 
+            making it an <span className='font-bold'>allotetraploid</span> - the only one in the Coffea genus - 
+            with 44 chromosomes.
+          </p>
+          <p className='my-4'>
+            This also made Arabica the only <span className='font-bold'>self-compatible</span> species, meaning 
+            it can reproduce by itself without requiring cross-pollination. This is why it became ecologically 
+            divergent from its parent species.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <p className='my-2'>
+              <span className='font-bold'>Where did this happen?</span> Genetic studies suggest Robusta and 
+              eugenioides originated west of modern Ethiopia, with crossover occurring in what is now Uganda. 
+              The resulting Arabica species then migrated to the southwestern Ethiopian highlands - its 
+              &quot;primary center of diversity&quot; where the most diverse wild Arabica plants are found today.
+            </p>
+          </div>
+
+          <h4 className='text-xl font-bold mt-6'>
+            The Arabica Problem: A Genetic Bottleneck
+          </h4>
+          <p className='my-4'>
+            This unique origin creates a significant challenge for coffee&apos;s future:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>Single speciation event:</span> All Arabica today traces back to one hybridization - possibly one plant.</li>
+            <li><span className='font-bold'>Limited gene pool:</span> Those 44 chromosomes contain all the traits every Arabica variety will ever have.</li>
+            <li><span className='font-bold'>Ecological divergence:</span> After speciation, Arabica grew isolated in Ethiopia, not adapting to many different environments.</li>
+            <li><span className='font-bold'>Recent domestication:</span> Wheat was domesticated 10,000 years ago. Coffee wasn&apos;t widely cultivated outside Ethiopia until the 1600s.</li>
+            <li><span className='font-bold'>Wild Arabica at risk:</span> The wild Arabica in Ethiopia is now in danger of extinction.</li>
+          </ul>
+          <p className='my-4'>
+            Scientists have not been able to reproduce this speciation event in a lab or in nature. This genetic 
+            bottleneck makes it very difficult for Arabica to adapt to climate change - and is a major reason 
+            some predict coffee production could become unsustainable.
+          </p>
+
+          <h4 className='text-xl font-bold mt-6'>
+            How Scientists Are Responding
+          </h4>
+          <p className='my-4'>
+            Researchers at World Coffee Research, UC Davis, Oxford, and coffee institutes worldwide are working to address these challenges:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li>Discovering wild varieties and ancient Arabica populations</li>
+            <li>Creating hybrids to introduce new genetic diversity</li>
+            <li>Sequencing the Arabica genome (UC Davis sequenced Gesha in 2022)</li>
+            <li>Attempting to reproduce the speciation event</li>
+          </ul>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Section 4: Coffee Varieties
+          </h3>
+          <p className='my-4'>
+            Varieties are groups of plants at the lowest taxonomic rank, defined by reproducible genetic 
+            characteristics. Think of apple varieties: Gala, Granny Smith, Red Delicious - different expressions 
+            of the same species.
+          </p>
+
+          <h4 className='text-xl font-bold mt-6'>
+            Types of Varieties
+          </h4>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>Cultivar:</span> A cultivated variety, reproduced by humans for desired traits.</li>
+            <li><span className='font-bold'>Hybrid:</span> A cross between two varieties, multiple varieties, or a variety and a species.</li>
+            <li><span className='font-bold'>Heirloom:</span> A cultivar maintained for 50-100+ years.</li>
+            <li><span className='font-bold'>Landrace:</span> A domesticated, localized variety that evolved through natural or agricultural techniques.</li>
+          </ul>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <p className='my-2'>
+              <span className='font-bold'>Variety vs. Varietal:</span> &quot;Variety&quot; is a noun; &quot;varietal&quot; is an adjective. 
+              The confusion comes from wine, where a &quot;varietal wine&quot; contains 75%+ of one grape variety. In coffee, 
+              we say &quot;Gesha variety&quot; not &quot;Gesha varietal.&quot; Using correct scientific language promotes understanding 
+              and legitimacy in our industry.
+            </p>
+          </div>
+
+          <h4 className='text-xl font-bold mt-6'>
+            The Four Major Variety Groups
+          </h4>
+          <p className='my-4'>
+            Based on World Coffee Research&apos;s coffee family tree, here are the four major groups of Arabica varieties:
+          </p>
+
+          <div className='space-y-6 my-6'>
+            <div className='bg-amber-50 p-6 rounded-lg border border-amber-200'>
+              <h5 className='font-bold text-lg mb-2'>1. Ethiopian Landraces</h5>
+              <p className='my-2'>
+                Some of the oldest varieties, estimated at 10,000-15,000 landraces and heirlooms in Ethiopia alone. 
+                These evolved from the original Arabica plant in the forests where it speciated.
+              </p>
+              <p className='my-2 font-inconsolata'>
+                <span className='font-bold'>Characteristics:</span> High cup quality, lower yields<br/>
+                <span className='font-bold'>Examples:</span> Rume Sudan, Gesha, Java
+              </p>
+            </div>
+
+            <div className='bg-amber-50 p-6 rounded-lg border border-amber-200'>
+              <h5 className='font-bold text-lg mb-2'>2. Bourbon & Typica Group</h5>
+              <p className='my-2'>
+                The most commercial group. Trees that went from Ethiopia to Yemen, then dispersed to Amsterdam, 
+                Réunion Island (formerly Bourbon), and eventually throughout Central and South America.
+              </p>
+              <p className='my-2 font-inconsolata'>
+                <span className='font-bold'>Scale:</span> 97.5% of cultivars in Brazil are from this group<br/>
+                <span className='font-bold'>Bourbon examples:</span> Pacas, Kent, Caturra<br/>
+                <span className='font-bold'>Typica examples:</span> Maragogype, Pache, Blue Mountain, Kona
+              </p>
+            </div>
+
+            <div className='bg-amber-50 p-6 rounded-lg border border-amber-200'>
+              <h5 className='font-bold text-lg mb-2'>3. Introgressed Varieties (Catimor & Sarchimor Groups)</h5>
+              <p className='my-2'>
+                Arabica varieties hybridized with Robusta, originating from Timor (a Southeast Asian island). 
+                The goal: inherit Robusta&apos;s disease resistance and yield potential while retaining Arabica cup quality.
+              </p>
+              <p className='my-2 font-inconsolata'>
+                <span className='font-bold'>Catimor examples:</span> IHCAFE 90, Costa Rica 95<br/>
+                <span className='font-bold'>Sarchimor examples:</span> Parainema, Obatã
+              </p>
+            </div>
+
+            <div className='bg-amber-50 p-6 rounded-lg border border-amber-200'>
+              <h5 className='font-bold text-lg mb-2'>4. F1 Hybrids</h5>
+              <p className='my-2'>
+                First-generation hybrids of two genetically uniform varieties, often crossing old Ethiopian 
+                landraces with varieties having desirable traits. These exhibit &quot;hybrid vigor&quot; - the best traits 
+                of both parents.
+              </p>
+              <p className='my-2 font-inconsolata'>
+                <span className='font-bold'>Multiplication:</span> Hand pollination or cloning (seeds create unstable F2 generation)<br/>
+                <span className='font-bold'>Trade-off:</span> Expensive, labor-intensive, not self-sustaining<br/>
+                <span className='font-bold'>Examples:</span> Mundo Maya, Centroamericano, Milenio
+              </p>
+            </div>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Section 5: Coffee&apos;s Habitat & Geography
+          </h3>
+          <p className='my-4'>
+            Remember &quot;tropical woody understory perennial&quot;? Let&apos;s break that down:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>Tropical:</span> High temperatures year-round, no winter, high humidity, distinct rainy season.</li>
+            <li><span className='font-bold'>Woody:</span> Has bark, secondary growth, tree rings.</li>
+            <li><span className='font-bold'>Understory:</span> Grows beneath the forest canopy but above the forest floor - higher humidity, less temperature variation, lower light. Most Arabica varieties thrive in shade.</li>
+            <li><span className='font-bold'>Perennial:</span> Lives longer than two years - coffee can live 100+ years but is most productive from years 7-20.</li>
+          </ul>
+
+          <h4 className='text-xl font-bold mt-6'>
+            Coffee&apos;s Expansion
+          </h4>
+          <p className='my-4'>
+            The journey of Coffea arabica:
+          </p>
+          <ol className='font-inconsolata my-4 list-decimal ml-5 space-y-2'>
+            <li><span className='font-bold'>Origin:</span> Southwestern Ethiopian highlands, Eastern Sudan (Boma Plateau), Northern Kenya (Mount Marsabit) - coffee&apos;s &quot;primary center of diversity.&quot;</li>
+            <li><span className='font-bold'>575 AD or earlier:</span> Ethiopia to Yemen, developing Typica from allegedly one parent plant.</li>
+            <li><span className='font-bold'>1690:</span> Plants from Mocha travel to Réunion Island (developing Bourbon) and to India/Java (Typica).</li>
+            <li><span className='font-bold'>1706-1710:</span> Typica reaches Amsterdam&apos;s botanical gardens.</li>
+            <li><span className='font-bold'>~1720:</span> Coffee reaches Suriname, then spreads to Brazil, Martinique, and throughout the Americas.</li>
+          </ol>
+
+          <h4 className='text-xl font-bold mt-6'>
+            The Coffee Belt Today
+          </h4>
+          <p className='my-4'>
+            Coffee production overlaps almost entirely with the tropics - the &quot;coffee belt&quot; between the Tropic 
+            of Cancer and Tropic of Capricorn. About 70 countries produce coffee, with around 50 exporting.
+          </p>
+          <p className='my-4'>
+            But climate change is shifting these boundaries. Production is increasing in places like China and 
+            California. Scientists predict that by 2050, coffee farmland within the traditional coffee belt 
+            could decrease by 50%.
+          </p>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Why This Matters for Coffee Lovers & Professionals
+          </h3>
+          <p className='my-4'>
+            Understanding coffee as a plant isn&apos;t just academic - it changes how we appreciate and work with coffee:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
+            <li><span className='font-bold'>For roasters:</span> Understanding genetics and processing helps you communicate variety characteristics to customers.</li>
+            <li><span className='font-bold'>For buyers:</span> Knowing variety groups helps you diversify sourcing and understand flavor potential.</li>
+            <li><span className='font-bold'>For everyone:</span> Appreciating coffee&apos;s fragility motivates support for sustainable sourcing and farmer relationships.</li>
+          </ul>
+
+          <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+            <h4 className='font-bold text-xl mb-3'>Coffee is a Gift</h4>
+            <p className='my-2'>
+              Coffee&apos;s seed contains compounds that most other seeds simply don&apos;t. It was produced almost by 
+              chance - a single hybridization event potentially from a single plant. Understanding this makes 
+              coffee feel less like a commodity and more like what it is: an anomaly, a gift from nature that 
+              we should never take for granted.
+            </p>
+          </div>
+
+          <h3 className='text-2xl font-extrabold mt-8'>
+            Ethiopian Coffee: Where It All Began
+          </h3>
+          <p className='my-4'>
+            Ethiopia holds a unique place in coffee&apos;s story. It&apos;s not just another origin - it&apos;s <span className='font-bold'>the</span> origin. 
+            Home to Arabica&apos;s speciation and 10,000-15,000 heirloom varieties found nowhere else on Earth.
+          </p>
+          <p className='my-4'>
+            When you source Ethiopian coffee, you&apos;re accessing genetic diversity that simply doesn&apos;t exist 
+            anywhere else. The floral Yirgacheffe, fruit-forward Guji, complex Sidamo - these aren&apos;t just 
+            flavor profiles. They&apos;re expressions of the plant&apos;s original home.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Ethio Coffee</h4>
+            <p className='my-2'>
+              We export premium Ethiopian green coffee from the birthplace of Arabica - with full traceability, 
+              direct farmer relationships, and the genetic diversity that makes Ethiopian coffee unique.
+            </p>
+            <div className='flex flex-wrap gap-4 mt-4'>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+              <Link href='/contact-us' className='underline font-bold'>
+                CONTACT US
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
+              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
+              research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
+        </>
+      );
     } else {
       // Fallback for any insight articles without custom content
       blogContent = (
