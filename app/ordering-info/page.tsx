@@ -501,7 +501,7 @@ export default function OrderingInfoPage() {
 
             <h3 className='mt-8 text-3xl font-extrabold text-dark'>Closer to You</h3>
             <p className='my-4'>
-              If you're in the Middle East, our Saudi Arabia team at <strong dir="rtl" lang="ar">إثيو كوفي للاستيراد</strong> can help. If you're in North America, <strong>Ethio Coffee Company Inc.</strong> in Canada has you covered. Either way, you get local warehousing, 1-bag minimums, local currency options, and none of the usual importing complexity.
+              If you're in the Middle East, <strong dir="rtl" lang="ar">إثيو كوفي للاستيراد</strong> in Saudi Arabia can help. If you're in North America, <strong>Ethio Coffee Company Inc.</strong> in Canada has you covered. Either way, you get local warehousing, 1-bag minimums, local currency options, and none of the usual importing complexity.
             </p>
           </div>
         </div>

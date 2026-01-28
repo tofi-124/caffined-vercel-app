@@ -86,7 +86,7 @@ const About = () => {
             </p>
 
             <p className='my-4 font-inconsolata text-sm text-gray-700'>
-              For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Import and Export PLC and our regional teams.
+              For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Import and Export PLC and our regional operations.
             </p>
           </div>
         </div>
