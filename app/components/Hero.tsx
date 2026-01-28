@@ -12,7 +12,7 @@ const Hero = () => {
             ETHIO COFFEE
           </h1>
             <p className='text-primary/90 text-sm uppercase tracking-widest mt-3'>
-            Curating the Birthplace: Specialty Ethiopian Coffee, Locally Stocked.
+             From Ethiopian Farms to Global Roasters
             </p>
 
             <div className='mt-6 text-primary lg:pr-20 leading-relaxed space-y-6'>
