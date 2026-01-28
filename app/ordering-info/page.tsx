@@ -193,7 +193,7 @@ const faqData: FAQSection[] = [
               <strong>Ethiopia:</strong> Climate-controlled warehouses in Addis Ababa maintain optimal conditions during pre-export.
             </p>
             <p>
-              <strong>Middle East:</strong> <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>, our dedicated presence in Saudi Arabia, maintains qualified food-safe warehouse facilities in Riyadh for regional spot inventory, enabling smaller orders with faster delivery for Middle East and GCC roasters.
+              <strong>Middle East:</strong> <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span> in Saudi Arabia maintains qualified food-safe warehouse facilities in Riyadh for regional spot inventory, enabling smaller orders with faster delivery for Middle East and GCC roasters.
             </p>
             <p>
               <strong>North America:</strong> Qualified food-safe warehouse in Canada for spot inventory enabling smaller orders with faster delivery for North American roasters.
@@ -312,7 +312,7 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              <strong>USD</strong> is our standard invoicing currency. <strong>Middle East partners:</strong> Transact in <strong>SAR</strong> through our Saudi entity (<span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>). <strong>Canadian partners:</strong> Transact in <strong>CAD</strong> through our Canadian entity (Ethio Coffee Company Inc.) - no currency conversion fees. We may also invoice in EUR or GBP for international buyers.
+              <strong>USD</strong> is our standard invoicing currency. <strong>Middle East partners:</strong> Transact in <strong>SAR</strong> through <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span> in Saudi Arabia. <strong>Canadian partners:</strong> Transact in <strong>CAD</strong> through Ethio Coffee Company Inc. in Canada - no currency conversion fees. We may also invoice in EUR or GBP for international buyers.
             </p>
           </>
         ),

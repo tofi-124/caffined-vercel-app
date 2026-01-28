@@ -149,7 +149,7 @@ const WholesaleInquiryPage = () => {
           </div>
         </div>
 
-        <div className='max-w-3xl mx-auto my-16' ref={formRef}>
+        <div className='max-w-3xl mx-auto my-16'>
           <h2 className='text-4xl font-extrabold text-center mb-4'>GET IN TOUCH</h2>
           <p className='text-center text-gray-600 mb-8 max-w-xl mx-auto'>Fill out the form below and our team will get back to you within 24-48 hours.</p>
 
@@ -201,21 +201,22 @@ const WholesaleInquiryPage = () => {
             </div>
           </div>
           
-          {submitSuccess ? (
-            <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
-              <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
-              <p className='text-green-700'>Your inquiry has been submitted successfully. We'll contact you soon at the email address you provided.</p>
-              <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
-            </div>
-          ) : (
-            <form className='space-y-6' onSubmit={handleSubmit}>
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                <div>
-                  <label htmlFor='businessName' className='block mb-2 font-bold'>Business Name*</label>
-                  <input 
-                    type='text' 
-                    id='businessName'
-                    name='businessName'
+          <div ref={formRef}>
+            {submitSuccess ? (
+              <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
+                <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
+                <p className='text-green-700'>Your inquiry has been submitted successfully. We'll contact you soon at the email address you provided.</p>
+                <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
+              </div>
+            ) : (
+              <form className='space-y-6' onSubmit={handleSubmit}>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                  <div>
+                    <label htmlFor='businessName' className='block mb-2 font-bold'>Business Name*</label>
+                    <input 
+                      type='text' 
+                      id='businessName'
+                      name='businessName'
                     value={formData.businessName}
                     onChange={handleChange}
                     className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
@@ -372,7 +373,8 @@ const WholesaleInquiryPage = () => {
                 <p>You can also contact us directly at: <a href="mailto:info@ethiocoffee.et" className='text-dark underline hover:text-accent transition-colors'>info@ethiocoffee.et</a></p>
               </div>
             </form>
-          )}
+            )}
+          </div>
         </div>
       </section>
     </main>
