@@ -1030,7 +1030,7 @@ const Insight = ({params}: Props) => {
             At Ethio Coffee Import and Export PLC, we make sourcing Ethiopian green coffee straightforward:
           </p>
           <ul className='font-inconsolata my-4 list-disc ml-5'>
-            <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from our own estates and trusted partner farms across Ethiopia's top growing regions.</li>
+            <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from our own estates and trusted partner producers across Ethiopia's top growing regions.</li>
             <li className='my-2'><span className='font-bold'>Complete Traceability:</span> Every lot comes with origin details, processing information, and quality documentation.</li>
             <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples before committing to a purchase.</li>
             <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to regional warehouses in Saudi Arabia and Canada for Middle East and North American buyers.</li>

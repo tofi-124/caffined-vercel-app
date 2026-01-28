@@ -96,7 +96,7 @@ const WholesaleInquiryPage = () => {
       <header className='bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative'>
         <div className='absolute inset-0 bg-black/40'></div>
         <h1 className='text-5xl md:text-6xl font-bold text-primary relative z-10 tracking-wide'>LET&apos;S WORK TOGETHER</h1>
-        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>From our farms in Ethiopia to your roastery. Start your partnership today.</p>
+        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>From the origin to your roastery. Start your partnership today.</p>
       </header>
       
       <section className='container mx-auto px-4 py-12'>
@@ -109,7 +109,7 @@ const WholesaleInquiryPage = () => {
               Ethio Coffee Import and Export PLC is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide through ethical sourcing, export-ready quality, and long-term relationships.
             </p>
             <p className='mb-4 text-gray-700'>
-              We're based in Ethiopia with a dedicated presence in Saudi Arabia and Canada, so we can work with you wherever you are. Our coffee comes from our own estates and trusted partner farms across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa - all fully traceable back to the source.
+              We're based in Ethiopia with a dedicated presence in Saudi Arabia and Canada, so we can work with you wherever you are. Our coffee comes from our own estates and trusted partner producers across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa - all fully traceable back to the source.
             </p>
             <div className='mt-8'>
               <h3 className='text-2xl font-bold mb-4'>Why Partner With Us:</h3>
