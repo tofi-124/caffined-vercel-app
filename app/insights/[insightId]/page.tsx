@@ -69,7 +69,7 @@ const Insight = ({params}: Props) => {
           </p>
           
           <p className='my-4'>
-            We&apos;re excited to announce that <span className='font-bold'>Ethio Coffee Company Inc.</span>, our dedicated presence in Canada representing <span className='font-bold'>Ethio Coffee Import and Export PLC</span> (our Ethiopia-based company), is officially open for business. We&apos;re bringing premium Ethiopian green coffee directly to roasters, cafés, and specialty coffee businesses across Canada.
+            We&apos;re excited to announce that <span className='font-bold'>Ethio Coffee Company Inc.</span> is officially open for business - our way of bringing Ethio Coffee closer to Canadian roasters. We offer premium Ethiopian green coffee directly to roasters, cafés, and specialty coffee businesses across Canada.
           </p>
 
           <p className='my-4'>
@@ -79,7 +79,7 @@ const Insight = ({params}: Props) => {
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
             <p className='font-medium flex items-center gap-2'>
               <HiOutlineCalendarDays className='text-xl flex-shrink-0' />
-              <span><span className='font-bold'>2025 harvest is sold out.</span> Check out our <Link href='/offerings' className='underline'>offerings</Link> and join the 2026 allocation list to reserve your next premium green coffee from the origin.</span>
+              <span><span className='font-bold'>2025 harvest is sold out.</span> Check out our <Link href='/offerings' className='underline'>offerings</Link> and join the 2026 allocation list to reserve your next premium green coffee directly from Ethiopia.</span>
             </p>
           </div>
 
@@ -223,7 +223,7 @@ const Insight = ({params}: Props) => {
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Import and Export PLC is an Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters and cafés worldwide. Ethio Coffee Company Inc. is our dedicated presence in Canada, providing local warehousing and logistics for the North American market.
+              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Import and Export PLC is an Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters and cafés worldwide. Ethio Coffee Company Inc. handles local warehousing and logistics for the North American market.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/about' className='underline'>Our Story</Link> · <Link href='/offerings' className='underline'>Offerings</Link> · <Link href='/ordering-info' className='underline'>Ordering Info</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
