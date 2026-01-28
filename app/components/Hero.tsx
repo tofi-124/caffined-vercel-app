@@ -12,12 +12,12 @@ const Hero = () => {
             ETHIO COFFEE
           </h1>
             <p className='text-primary/90 text-sm uppercase tracking-widest mt-3'>
-            From Our Farms in Ethiopia to Canada and Beyond
+            From Our Farms in Ethiopia to Saudi Arabia, Canada, and Beyond
             </p>
 
             <div className='mt-6 text-primary lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
-                We are an Ethiopia- and Canada-based coffee producer, exporter, and importer supplying fully traceable beans to roasters, cafés, and wholesalers. Rooted in a family legacy, we export directly from our own estates and trusted farms to buyers worldwide, while importing to our own warehouses for seamless distribution across North America.
+                We're an Ethiopian coffee producer and exporter with local teams in Saudi Arabia and Canada. Rooted in a family legacy, we work directly with our own estates and trusted farms to bring you fully traceable beans - whether you're a roaster down the street or across the world.
               </p>
             </div>
 

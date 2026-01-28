@@ -95,8 +95,18 @@ const Footer = () => {
               </address>
             </li>
             <li>
+              <p className='text-xs uppercase tracking-widest text-primary/70'>Saudi Arabia</p>
+              <address className='not-italic font-medium text-primary'>
+                <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>
+                <br />
+                Riyadh, Kingdom of Saudi Arabia
+              </address>
+            </li>
+            <li>
               <p className='text-xs uppercase tracking-widest text-primary/70'>Canada</p>
               <address className='not-italic font-medium text-primary'>
+                Ethio Coffee Company Inc.
+                <br />
                 Financial District
                 <br />
                 Toronto, Canada

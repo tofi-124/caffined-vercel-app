@@ -63,6 +63,8 @@ export default function TermsPage() {
                 Ethiopian coffee offerings and facilitate business-to-business inquiries for coffee export supply.
               </p>
               <p>
+                For Middle East customers, transactions may be handled through our Saudi Arabia subsidiary,{' '}
+                <strong dir="rtl" lang="ar">إثيو كوفي للاستيراد</strong> (Ethio Coffee Import), which maintains regional inventory and logistics.
                 For Canadian customers, transactions may be handled through our Canadian subsidiary,{' '}
                 <strong>Ethio Coffee Company Inc.</strong>, which maintains local inventory and logistics.
               </p>
@@ -125,7 +127,8 @@ export default function TermsPage() {
                 from recognized banks.
               </p>
               <p>
-                Our standard invoicing currency is <strong>USD</strong>. Canadian partners may transact in{' '}
+                Our standard invoicing currency is <strong>USD</strong>. Middle East partners may transact in{' '}
+                <strong>SAR</strong> through our Saudi entity. Canadian partners may transact in{' '}
                 <strong>CAD</strong> through our Canadian entity. We may also invoice in EUR or GBP for international buyers.
               </p>
               <p>

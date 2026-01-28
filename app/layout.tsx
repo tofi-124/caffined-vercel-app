@@ -88,6 +88,16 @@ export default function RootLayout({
                 },
                 {
                   "@type": "Place",
+                  "name": "Riyadh Office",
+                  "description": "Saudi Arabia operations office - إثيو كوفي للاستيراد",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Riyadh",
+                    "addressCountry": "SA"
+                  }
+                },
+                {
+                  "@type": "Place",
                   "name": "Toronto Office",
                   "description": "Canada operations office",
                   "address": {

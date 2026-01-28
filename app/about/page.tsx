@@ -49,7 +49,7 @@ const About = () => {
           </div>
           <div className='lg:w-1/2 py-2 lg:py-24 lg:px-12 lg:border-l-2 border-black'>
             <p className='my-2'>
-              Ethio Coffee Import and Export PLC (“Ethio Coffee”) is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide. We combine generational relationships with farmers, ethical sourcing, and export-ready quality so that every shipment we deliver is consistent, transparent, and built for business.
+              Ethio Coffee is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide. We've built local teams in Saudi Arabia and Canada to make working with us easier, but at our core, we're about one thing: getting great Ethiopian coffee to people who appreciate it, while making sure farmers share in the value they create.
             </p>
             <p className='my-4'>
               Founded in 2022 by brothers carrying forward a legacy of integrity in coffee, our roots trace back to years of hands-on work in Ethiopian coffee regions. Our father dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the market. That experience shaped our mission: to cut out unnecessary layers, honor farmers, and deliver real value from farm to export container.
@@ -71,13 +71,22 @@ const About = () => {
               </li>
             </ul>
 
-            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Canada and Beyond</h3>
+            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Closer to Where You Are</h3>
             <p className='my-4'>
-              If you're buying in Canada, our Canada-based operations make sourcing Ethiopian coffee simpler. We import coffee directly into our Canadian warehouses under our Canadian company, Ethio Coffee Company Inc., and manage logistics locally so you receive clear lot information, consistent sampling, and coordinated shipping that reduce surprises and make supply planning easier. For our international partners, we will work with you directly through our export programs and international shipping support.
+              We know international sourcing can be a hassle. That's why we set up local operations in two key regions:
+            </p>
+            <p className='my-4'>
+              <strong>In the Middle East,</strong> our Saudi Arabia company <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span> (Ethio Coffee Import), based in Riyadh, makes it easier for roasters across the GCC to work with us - local support, straightforward documentation, and coffee that's already nearby.
+            </p>
+            <p className='my-4'>
+              <strong>In North America,</strong> our Canadian company Ethio Coffee Company Inc. does the same for roasters in Canada and the U.S. We import directly into Canadian warehouses so you get clear lot information, consistent samples, and shipping that actually makes sense.
+            </p>
+            <p className='my-4'>
+              If you're somewhere else in the world, don't worry - we work with you directly through our export programs and will figure out the best way to get coffee to you.
             </p>
 
             <p className='my-4 font-inconsolata text-sm text-gray-700'>
-              For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to “we”, “our”, or “the company” refer to Ethio Coffee Import and Export PLC and its team.
+              For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to “we”, “our”, or “the company” refer to Ethio Coffee Import and Export PLC and its subsidiaries.
             </p>
           </div>
         </div>

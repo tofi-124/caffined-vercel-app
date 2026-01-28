@@ -35,10 +35,9 @@ const PartnerCard = ({ placeAndLocation }: Partner) => {
       
 const Testimonials = () => {
   const partners: Partner[] = [
-    { placeAndLocation: 'CRYSTAL GENERAL TRADING LLC, UAE' },
-    { placeAndLocation: 'AL NAMLAH AND FOR TRADING AND SERVICES, JEDDAH' },
-    { placeAndLocation: 'HONGKONG NATURAL RESOURCES TRADING, HONGKONG' },
-    { placeAndLocation: 'YIWU IMTON YOUPING INTERNATIONAL TRADE, CHINA' },
+    { placeAndLocation: 'النملة للتجارة والخدمات , جدة' },
+    { placeAndLocation: 'VIDYA GLOBAL, UAE' },
+    { placeAndLocation: 'ؤسسة المستنير للتجارة الدولية , جدة ' },
     { placeAndLocation: 'ZHONG YUN SUPPLY CHAIN MANAGEMENT SDN BHD, CHINA' },
   ]
 

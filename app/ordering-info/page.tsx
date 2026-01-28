@@ -125,7 +125,7 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              <strong>For North American partners:</strong> We import and stock coffee in our Canadian warehouse, making it easy to order smaller quantities. The minimum order is just <strong>1 bag (60 kg)</strong> for coffees available in our North American inventory perfect for roasters who want to test a lot or maintain flexible inventory.
+              <strong>For Middle East & North American partners:</strong> We import and stock coffee through our regional subsidiaries in Saudi Arabia (<span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>) and Canada (Ethio Coffee Company Inc.), making it easy to order smaller quantities. The minimum order is just <strong>1 bag (60 kg)</strong> for coffees available in our regional inventory - perfect for roasters who want to test a lot or maintain flexible inventory.
             </p>
             <p>
               <strong>For direct export orders:</strong> We recommend a minimum of <strong>half a container</strong> (approximately 10 metric tons) or <strong>one full container</strong> (approximately 19–21 metric tons, around 320 bags of 60 kg). Full containers are the most cost-effective option for international shipping.
@@ -193,6 +193,9 @@ const faqData: FAQSection[] = [
               <strong>Ethiopia:</strong> Climate-controlled warehouses in Addis Ababa maintain optimal conditions during pre-export.
             </p>
             <p>
+              <strong>Middle East:</strong> Our Saudi Arabia subsidiary (<span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>) maintains qualified food-safe warehouse facilities in Riyadh for regional spot inventory, enabling smaller orders with faster delivery for Middle East and GCC roasters.
+            </p>
+            <p>
               <strong>North America:</strong> Qualified food-safe warehouse in Canada for spot inventory enabling smaller orders with faster delivery for North American roasters.
             </p>
           </>
@@ -231,7 +234,7 @@ const faqData: FAQSection[] = [
               <li><strong>FOB Djibouti:</strong> You arrange ocean freight</li>
               <li><strong>CFR/CIF:</strong> We arrange freight to your port</li>
               <li><strong>DAP:</strong> Door delivery, you clear customs</li>
-              <li><strong>DDP (North America only):</strong> Full door-to-door, we handle everything</li>
+              <li><strong>DDP (Middle East & North America):</strong> Full door-to-door through our regional subsidiaries, we handle everything</li>
             </ul>
           </>
         ),
@@ -309,7 +312,7 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              <strong>USD</strong> is our standard invoicing currency. <strong>Canadian partners:</strong> Transact in <strong>CAD</strong> through our Canadian entity (Ethio Coffee Company Inc.) no currency conversion fees. We may also invoice in EUR or GBP for international buyers.
+              <strong>USD</strong> is our standard invoicing currency. <strong>Middle East partners:</strong> Transact in <strong>SAR</strong> through our Saudi entity (<span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>). <strong>Canadian partners:</strong> Transact in <strong>CAD</strong> through our Canadian entity (Ethio Coffee Company Inc.) - no currency conversion fees. We may also invoice in EUR or GBP for international buyers.
             </p>
           </>
         ),
@@ -496,9 +499,9 @@ export default function OrderingInfoPage() {
               </li>
             </ul>
 
-            <h3 className='mt-8 text-3xl font-extrabold text-dark'>North America Advantage</h3>
+            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Closer to You</h3>
             <p className='my-4'>
-              Canadian and U.S. roasters benefit from our local operations through <strong>Ethio Coffee Company Inc.</strong> Purchase from our Canadian warehouse with 1-bag minimums, pay in CAD/USD, and skip the complexities of international importing.
+              If you're in the Middle East, our Saudi Arabia team at <strong dir="rtl" lang="ar">إثيو كوفي للاستيراد</strong> can help. If you're in North America, <strong>Ethio Coffee Company Inc.</strong> in Canada has you covered. Either way, you get local warehousing, 1-bag minimums, local currency options, and none of the usual importing complexity.
             </p>
           </div>
         </div>

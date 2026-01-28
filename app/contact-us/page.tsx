@@ -109,7 +109,7 @@ const WholesaleInquiryPage = () => {
               Ethio Coffee Import and Export PLC is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide through ethical sourcing, export-ready quality, and long-term relationships.
             </p>
             <p className='mb-4 text-gray-700'>
-              We are an Ethiopia- and Canada-based coffee producer and exporter supplying fully traceable beans from our own estates and trusted partner farms across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa regions.
+              We're based in Ethiopia with local teams in Saudi Arabia and Canada, so we can work with you wherever you are. Our coffee comes from our own estates and trusted partner farms across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa - all fully traceable back to the source.
             </p>
             <div className='mt-8'>
               <h3 className='text-2xl font-bold mb-4'>Why Partner With Us:</h3>
@@ -132,7 +132,7 @@ const WholesaleInquiryPage = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>North American Distribution:</strong> Canadian warehousing for seamless fulfillment</span>
+                  <span><strong>Middle East & North American Distribution:</strong> Regional warehousing in Saudi Arabia and Canada for seamless fulfillment</span>
                 </li>
               </ul>
             </div>
@@ -155,7 +155,7 @@ const WholesaleInquiryPage = () => {
 
           <div className='mb-10 rounded-lg border border-black/10 bg-white/70 p-6 shadow-sm'>
             <h3 className='text-xl font-bold text-dark mb-4'>Our Offices</h3>
-            <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
+            <div className='grid grid-cols-1 gap-6 md:grid-cols-3'>
               <div className='p-4 bg-primary/50 rounded-md'>
                 <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Ethiopia (Headquarters)</p>
                 <address className='not-italic text-dark'>
@@ -164,6 +164,16 @@ const WholesaleInquiryPage = () => {
                   Yesak Building, 3rd Floor, Office 301
                   <br />
                   Lideta, Addis Ababa, Ethiopia
+                </address>
+              </div>
+              <div className='p-4 bg-primary/50 rounded-md'>
+                <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Saudi Arabia</p>
+                <address className='not-italic text-dark'>
+                  <span className='font-bold' dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>
+                  <br />
+                  (Ethio Coffee Import)
+                  <br />
+                  Riyadh, Kingdom of Saudi Arabia
                 </address>
               </div>
               <div className='p-4 bg-primary/50 rounded-md'>

@@ -1033,7 +1033,7 @@ const Insight = ({params}: Props) => {
             <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from our own estates and trusted partner farms across Ethiopia's top growing regions.</li>
             <li className='my-2'><span className='font-bold'>Complete Traceability:</span> Every lot comes with origin details, processing information, and quality documentation.</li>
             <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples before committing to a purchase.</li>
-            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to our Canadian warehouse for North American buyers.</li>
+            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to our regional warehouses in Saudi Arabia and Canada for Middle East and North American buyers.</li>
             <li className='my-2'><span className='font-bold'>Responsive Support:</span> Our team helps with everything from lot selection to shipping coordination.</li>
             <li className='my-2'><span className='font-bold'>All Grades Available:</span> We export G1, G2, G3, and G4 specialty to commercial grades for any buyer need.</li>
           </ul>
@@ -1461,7 +1461,7 @@ const Insight = ({params}: Props) => {
 
           <figure>
             <figcaption className='font-inconsolata my-2'>
-              Premium Ethiopian green coffee from Yirgacheffe, Sidamo, Guji, and beyond — sourced direct and shipped worldwide.
+              Premium Ethiopian green coffee from Yirgacheffe, Sidamo, Guji, and beyond - sourced direct and shipped worldwide.
             </figcaption>
 
             <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -1485,8 +1485,8 @@ const Insight = ({params}: Props) => {
           </p>
 
           <p className='my-4'>
-            <span className='font-bold'>Ethio Coffee</span> is different. We're not a broker — we're an Ethiopian coffee company with
-            boots on the ground in Ethiopia and operations in Canada, built to serve roasters who demand quality, transparency, and consistency.
+            <span className='font-bold'>Ethio Coffee</span> is different. We're not a broker - we're an Ethiopian coffee company with
+            boots on the ground in Ethiopia and operations in Saudi Arabia and Canada, built to serve roasters who demand quality, transparency, and consistency.
           </p>
 
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -1500,7 +1500,7 @@ const Insight = ({params}: Props) => {
             Who We Are: Ethiopian Coffee Exporters with a Family Legacy
           </h3>
           <p className='my-4'>
-            Our father spent over 30 years working in Ethiopia's coffee regions — not just trading, but learning how coffee is
+            Our father spent over 30 years working in Ethiopia's coffee regions - not just trading, but learning how coffee is
             grown, processed, and cared for at every step. He built relationships with farming communities, invested in his own
             estate, and operated locally within Ethiopia for decades.
           </p>
@@ -1523,17 +1523,17 @@ const Insight = ({params}: Props) => {
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <ul className='font-inconsolata list-disc ml-5'>
-              <li className='my-2'><span className='font-bold'>Yirgacheffe</span> — Floral, citrus, tea-like. The benchmark for washed Ethiopian coffee.</li>
-              <li className='my-2'><span className='font-bold'>Sidamo (Sidama)</span> — Berry, wine, balanced. Versatile across roast profiles.</li>
-              <li className='my-2'><span className='font-bold'>Guji</span> — Complex, fruity, heavy body. Gaining rapid recognition in specialty markets.</li>
-              <li className='my-2'><span className='font-bold'>Limu</span> — Winey, spicy, balanced. Excellent for espresso blends.</li>
-              <li className='my-2'><span className='font-bold'>Harrar</span> — Wild, fruity, distinctive. Sun-dried naturals with bold character.</li>
-              <li className='my-2'><span className='font-bold'>Jimma</span> — Earthy, full-bodied. Strong commercial grade performer.</li>
+              <li className='my-2'><span className='font-bold'>Yirgacheffe</span> - Floral, citrus, tea-like. The benchmark for washed Ethiopian coffee.</li>
+              <li className='my-2'><span className='font-bold'>Sidamo (Sidama)</span> - Berry, wine, balanced. Versatile across roast profiles.</li>
+              <li className='my-2'><span className='font-bold'>Guji</span> - Complex, fruity, heavy body. Gaining rapid recognition in specialty markets.</li>
+              <li className='my-2'><span className='font-bold'>Limu</span> - Winey, spicy, balanced. Excellent for espresso blends.</li>
+              <li className='my-2'><span className='font-bold'>Harrar</span> - Wild, fruity, distinctive. Sun-dried naturals with bold character.</li>
+              <li className='my-2'><span className='font-bold'>Jimma</span> - Earthy, full-bodied. Strong commercial grade performer.</li>
             </ul>
           </div>
           <p className='my-4'>
             We offer both <span className='font-bold'>washed and natural processed</span> coffees, with grades ranging from
-            Grade 1 specialty to Grade 4 commercial — whatever your roastery or blend program requires.
+            Grade 1 specialty to Grade 4 commercial - whatever your roastery or blend program requires.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
@@ -1544,26 +1544,26 @@ const Insight = ({params}: Props) => {
           </p>
           <ul className='font-inconsolata my-4 list-disc ml-5'>
             <li className='my-2'><span className='font-bold'>Full Traceability:</span> Know exactly which region, washing station, and (where possible) cooperative your coffee comes from.</li>
-            <li className='my-2'><span className='font-bold'>Direct Sourcing:</span> We work directly with farmers and our own estates — no middlemen inflating prices.</li>
+            <li className='my-2'><span className='font-bold'>Direct Sourcing:</span> We work directly with farmers and our own estates - no middlemen inflating prices.</li>
             <li className='my-2'><span className='font-bold'>Competitive Pricing:</span> Because we control the supply chain from farm to export, we offer fair pricing for roasters without sacrificing farmer compensation.</li>
             <li className='my-2'><span className='font-bold'>Sample Before You Buy:</span> Request roast-ready samples from current lots before committing to a container.</li>
             <li className='my-2'><span className='font-bold'>Flexible Order Sizes:</span> From sample lots to full container shipments, we work with roasters of all sizes.</li>
-            <li className='my-2'><span className='font-bold'>Logistics Support:</span> FOB Djibouti, CIF to your port, or delivered to our Canadian warehouse — we handle the complexity so you don't have to.</li>
+            <li className='my-2'><span className='font-bold'>Logistics Support:</span> FOB Djibouti, CIF to your port, or delivered to our regional warehouses in Saudi Arabia or Canada - we handle the complexity so you don't have to.</li>
           </ul>
 
           <h3 className='text-2xl font-extrabold mt-8'>
             Serving Roasters Worldwide
           </h3>
           <p className='my-4'>
-            Whether you're a specialty roaster in Toronto, a café chain in Europe, or a coffee company in Asia looking for
+            Whether you're a specialty roaster in Toronto, a café chain in Riyadh, or a coffee company in Europe looking for
             <span className='font-bold'> Ethiopian coffee importers</span> you can trust, we're built to serve you:
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <ul className='font-inconsolata list-disc ml-5'>
-              <li className='my-2'><span className='font-bold'>North America:</span> Local warehousing in Canada. Simplified importing. Faster lead times.</li>
+              <li className='my-2'><span className='font-bold'>Middle East & GCC:</span> Local warehousing in Saudi Arabia through <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>. Regional support and simplified importing.</li>
+              <li className='my-2'><span className='font-bold'>North America:</span> Local warehousing in Canada through Ethio Coffee Company Inc. Simplified importing. Faster lead times.</li>
               <li className='my-2'><span className='font-bold'>Europe:</span> Direct container shipments via Djibouti. Full export documentation.</li>
-              <li className='my-2'><span className='font-bold'>Asia & Middle East:</span> Growing demand met with reliable supply. Contact us for current availability.</li>
-              <li className='my-2'><span className='font-bold'>Australia & New Zealand:</span> Specialty lots available. Inquire about shipping timelines.</li>
+              <li className='my-2'><span className='font-bold'>Asia & Rest of World:</span> Growing demand met with reliable supply. Contact us for current availability.</li>
             </ul>
           </div>
 

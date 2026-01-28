@@ -7,6 +7,7 @@ export const HEADER_OFFSET = 96
 export const COMPANY_NAME = 'Ethio Coffee'
 export const COMPANY_LEGAL_NAME = 'Ethio Coffee Import and Export PLC'
 export const COMPANY_CANADIAN_NAME = 'Ethio Coffee Company Inc.'
+export const COMPANY_SAUDI_NAME = 'إثيو كوفي للاستيراد' // Ethio Coffee Import (Arabic)
 export const COMPANY_EMAIL = 'info@ethiocoffee.et'
 export const COMPANY_INSTAGRAM = '@ethiocoffee.et'
 export const COMPANY_WEBSITE = 'https://ethiocoffee.et'
