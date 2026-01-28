@@ -63,10 +63,10 @@ export default function TermsPage() {
                 Ethiopian coffee offerings and facilitate business-to-business inquiries for coffee export supply.
               </p>
               <p>
-                For Middle East customers, transactions may be handled through our Saudi Arabia subsidiary,{' '}
-                <strong dir="rtl" lang="ar">إثيو كوفي للاستيراد</strong> (Ethio Coffee Import), which maintains regional inventory and logistics.
-                For Canadian customers, transactions may be handled through our Canadian subsidiary,{' '}
-                <strong>Ethio Coffee Company Inc.</strong>, which maintains local inventory and logistics.
+                For Middle East customers, transactions may be handled through{' '}
+                <strong dir="rtl" lang="ar">إثيو كوفي للاستيراد</strong> (Ethio Coffee Import), our dedicated presence in Saudi Arabia, which maintains regional inventory and logistics.
+                For Canadian customers, transactions may be handled through{' '}
+                <strong>Ethio Coffee Company Inc.</strong>, our dedicated presence in Canada, which maintains local inventory and logistics.
               </p>
             </Section>
 

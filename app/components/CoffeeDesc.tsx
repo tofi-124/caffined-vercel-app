@@ -8,7 +8,7 @@ const headlines = [
     title: 'VERTICAL INTEGRATION',
     items: [
       'Direct oversight from our family estates to regional warehouses in Saudi Arabia and Canada',
-      'Seamless chain of custody via our Ethiopian PLC and regional subsidiaries',
+      'Seamless chain of custody via our Ethiopian PLC and local operations',
       'Eliminated intermediaries to ensure maximum value at both ends',
       'End-to-end quality control at every hand-off in the supply chain'
     ]
@@ -270,7 +270,7 @@ const CoffeeDesc = () => {
             Today, we close that gap by managing every step ourselves. We source directly from our own estates, smallholder farmers, and trusted cooperatives. These harvests are exported to our buyers worldwide under our ECX-registered PLC, Ethio Coffee Import and Export. By maintaining this direct control at the source, we ensure clean preparation, consistent profiles, and the dependable communication roasters need.
             <br />
             <br />
-            If you're a business in the Middle East or North America, we've made things easier for you. We set up local operations in Saudi Arabia (<span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>) and Canada (Ethio Coffee Company Inc.) so you can buy from nearby warehouses, work with a local team, and skip the headaches of international importing. It's the same great coffee, just closer to you.
+            If you're a business in the Middle East or North America, we've made things easier for you. We set up local operations in Saudi Arabia (<span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>) and Canada (Ethio Coffee Company Inc.) so you can buy from nearby warehouses and skip the headaches of international importing. It's the same great coffee, just closer to you.
             </p>
           </div>
           

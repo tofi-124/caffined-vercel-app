@@ -69,7 +69,7 @@ const Insight = ({params}: Props) => {
           </p>
           
           <p className='my-4'>
-            We&apos;re excited to announce that <span className='font-bold'>Ethio Coffee Company Inc.</span>, the Canadian subsidiary of <span className='font-bold'>Ethio Coffee Import and Export PLC</span> (our Ethiopia-based parent company), is officially open for business. We&apos;re bringing premium Ethiopian green coffee directly to roasters, cafés, and specialty coffee businesses across Canada.
+            We&apos;re excited to announce that <span className='font-bold'>Ethio Coffee Company Inc.</span>, our dedicated presence in Canada representing <span className='font-bold'>Ethio Coffee Import and Export PLC</span> (our Ethiopia-based company), is officially open for business. We&apos;re bringing premium Ethiopian green coffee directly to roasters, cafés, and specialty coffee businesses across Canada.
           </p>
 
           <p className='my-4'>
@@ -95,7 +95,7 @@ const Insight = ({params}: Props) => {
           </p>
 
           <p className='my-4'>
-            Now, with the launch of our Canadian subsidiary, we&apos;re bringing that same commitment to quality, traceability, and respect for farmers directly to North America.
+            Now, with our Canadian presence through <span className='font-bold'>Ethio Coffee Company Inc.</span>, we&apos;re bringing that same commitment to quality, traceability, and respect for farmers directly to North America.
           </p>
 
           <div className='my-6'>
@@ -223,7 +223,7 @@ const Insight = ({params}: Props) => {
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Import and Export PLC is an Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters and cafés worldwide. Ethio Coffee Company Inc. is our Canadian subsidiary providing local warehousing and logistics for the North American market.
+              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Import and Export PLC is an Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters and cafés worldwide. Ethio Coffee Company Inc. is our dedicated presence in Canada, providing local warehousing and logistics for the North American market.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/about' className='underline'>Our Story</Link> · <Link href='/offerings' className='underline'>Offerings</Link> · <Link href='/ordering-info' className='underline'>Ordering Info</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
@@ -1033,7 +1033,7 @@ const Insight = ({params}: Props) => {
             <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from our own estates and trusted partner farms across Ethiopia's top growing regions.</li>
             <li className='my-2'><span className='font-bold'>Complete Traceability:</span> Every lot comes with origin details, processing information, and quality documentation.</li>
             <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples before committing to a purchase.</li>
-            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to our regional warehouses in Saudi Arabia and Canada for Middle East and North American buyers.</li>
+            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to regional warehouses in Saudi Arabia and Canada for Middle East and North American buyers.</li>
             <li className='my-2'><span className='font-bold'>Responsive Support:</span> Our team helps with everything from lot selection to shipping coordination.</li>
             <li className='my-2'><span className='font-bold'>All Grades Available:</span> We export G1, G2, G3, and G4 specialty to commercial grades for any buyer need.</li>
           </ul>
@@ -1510,7 +1510,7 @@ const Insight = ({params}: Props) => {
             Today, we source from our own estates and a network of trusted partner growers across Ethiopia's celebrated coffee regions.
           </p>
           <p className='my-4'>
-            With our Canadian subsidiary, <span className='font-bold'>Ethio Coffee Company Inc.</span>, we now offer roasters in
+            With <span className='font-bold'>Ethio Coffee Company Inc.</span>, our dedicated presence in Canada, we now offer roasters in
             North America faster logistics, local warehousing, and a direct line to origin.
           </p>
 

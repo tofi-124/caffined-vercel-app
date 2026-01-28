@@ -17,7 +17,7 @@ const Hero = () => {
 
             <div className='mt-6 text-primary lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
-                We're an Ethiopian coffee producer and exporter with local teams in Saudi Arabia and Canada. Rooted in a family legacy, we work directly with our own estates and trusted farms to bring you fully traceable beans - whether you're a roaster down the street or across the world.
+                We're an Ethiopian coffee producer and exporter with a dedicated presence in Saudi Arabia and Canada. Rooted in a family legacy, we work directly with our own estates and trusted farms to bring you fully traceable beans - whether you're a roaster down the street or across the world.
               </p>
             </div>
 
