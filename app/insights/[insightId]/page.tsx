@@ -2216,6 +2216,9 @@ const Insight = ({params}: Props) => {
             Welcome to the second part of our "Coffee Is" series, where we explore coffee through different lenses. This chapter focuses on coffee as agriculture a complex system shaped by science, tradition, ecology, and economics.
           </p>
           <p className='my-4'>
+            For background on the plant itself, see <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline font-bold'>Coffee is a Plant</Link>. If you're evaluating origin lots, pair this farming overview with our <Link href='/insights/guide-ethiopian-coffee-origins' className='underline font-bold'>Practical Guide to Ethiopian Green Coffee Origins</Link> and our sourcing guide <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>How to Source Green Coffee from Ethiopia</Link>.
+          </p>
+          <p className='my-4'>
             For roasters, baristas, and coffee enthusiasts alike, understanding how coffee is grown adds essential context to what ends up in the cup. Every flavor note begins long before roasting deep in the soil, under shade trees, in the hands of farmers.
           </p>
 
@@ -2502,6 +2505,9 @@ const Insight = ({params}: Props) => {
           <p className='my-4'>
             Washed coffees are known for their delicate, articulate flavors, crisp acidity, and clean mouthfeel. They require significant water and infrastructure but offer consistency and efficiency.
           </p>
+          <p className='my-4'>
+            For a deeper comparison of processed styles and how they appear in Ethiopian lots, see our guide <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>Washed vs Natural Processed Ethiopian Coffee</Link> and our regional comparison <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline font-bold'>Yirgacheffe vs Sidamo vs Guji</Link>.
+          </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Honey Coffee Processing</h3>
           <p className='my-4'>
@@ -2543,6 +2549,9 @@ const Insight = ({params}: Props) => {
           </p>
           <p className='my-4'>
             Practical tip: When evaluating natural-processed lots, ask for a detailed drying log (days on bed, average sun hours, and sorting regimes) — these details often explain differences between similarly scored lots.
+          </p>
+          <p className='my-4'>
+            If you're buying, pair this with our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>complete buyer's guide</Link> to understand sourcing and quality checks at origin.
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Fermentation in Coffee Processing</h2>
@@ -2701,6 +2710,9 @@ const Insight = ({params}: Props) => {
           </ul>
           <p className='my-4'>
             The C market represents 90-95% of global coffee trade, providing stability for large-scale operations but often failing to reward quality or sustainability. In contrast, specialty coffee emerges as a reaction to this commoditization, emphasizing distinctiveness and ethical sourcing.
+          </p>
+          <p className='my-4'>
+            To learn how specialty buyers operate in practice, see our buyer-friendly guides: <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>How to Source Green Coffee from Ethiopia</Link> and <Link href='/insights/best-ethiopian-coffee-exporter-importer-supplier' className='underline font-bold'>Best Ethiopian Coffee Exporter, Importer & Supplier</Link>.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Case Study: 2024 Price Volatility and What It Meant</h3>
@@ -2881,6 +2893,9 @@ const Insight = ({params}: Props) => {
           <p className='my-4'>
             From green coffee analysis to the intricate world of cupping coffee, understanding the science behind coffee compounds and flavor perception transforms how we appreciate and evaluate this remarkable beverage. Every sip represents the culmination of scientific principles applied throughout the supply chain.
           </p>
+          <p className='my-4'>
+            For how these compounds interact with processing styles, see <Link href='/insights/coffee-is-processing-drying-milling' className='underline font-bold'>Coffee is a Process</Link> and the practical <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>Washed vs Natural</Link> comparison — both are useful when mapping chemistry to cup.
+          </p>
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
             <p className='font-medium'>
               <span className='font-bold'>In this article:</span> We examine green coffee physicals, key chemical compounds, sensory science and cupping methodology — plus practical lab and cupping examples you can use to evaluate lots more effectively.
@@ -2949,6 +2964,9 @@ const Insight = ({params}: Props) => {
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Lab &amp; Field Tools for Green Coffee Analysis</h3>
           <p className='my-4'>
             Useful tools include moisture meters (for immediate QC), bulk density kits (predict roast behavior), and spectrophotometry/HPLC for deep chemistry when available. Even simple, repeatable cupping protocols provide high-value information for buying decisions.
+          </p>
+          <p className='my-4'>
+            If you source, pair lab checks with our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>sourcing guide</Link> and our regional origin map <Link href='/insights/guide-ethiopian-coffee-origins' className='underline font-bold'>Practical Guide to Ethiopian Green Coffee Origins</Link>.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Minerals, Sugars, and Bitter Components</h3>
@@ -3125,6 +3143,9 @@ const Insight = ({params}: Props) => {
           </p>
           <p className='my-4'>
             Coffee art combines scientific understanding with creative imagination, requiring practice, knowledge, and experimentation to achieve perfect extraction and flavor harmony. Every roast curve and brew represents the conscious application of skill in the coffee roasting and coffee brewing process.
+          </p>
+          <p className='my-4'>
+            To connect roast and origin, review <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline font-bold'>Coffee is a Science</Link> for compound mapping and <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline font-bold'>our regional comparison</Link> to tailor roast and brew recipes to origin characteristics.
           </p>
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
             <p className='font-medium'>
