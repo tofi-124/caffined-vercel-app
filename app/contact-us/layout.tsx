@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Request Ethiopian Coffee Samples & Pricing | Contact Ethio Coffee',
   description:
-    'Get a quote for Ethiopian green coffee exports. Request samples of Yirgacheffe, Sidamo, or Guji. We ship worldwide to roasters and cafés. Fast response guaranteed.',
+    'Get a quote for Ethiopian green coffee exports. Request samples of Yirgacheffe, Sidamo, or Guji. Professional export service for importers worldwide. Fast response guaranteed.',
   keywords: 'Ethiopian coffee samples, green coffee pricing, Ethiopian coffee quote, wholesale coffee inquiry, coffee supplier contact',
   alternates: {
     canonical: 'https://ethiocoffee.et/contact-us',

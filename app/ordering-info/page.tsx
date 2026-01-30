@@ -125,13 +125,16 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              <strong>For Middle East & North American partners:</strong> We import and stock coffee through our local operations in Saudi Arabia (<span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>) and Canada (Ethio Coffee Company Inc.), making it easy to order smaller quantities. The minimum order is just <strong>1 bag (60 kg)</strong> for coffees available in our regional inventory - perfect for roasters who want to test a lot or maintain flexible inventory.
+              <strong>For full container orders:</strong> We recommend a minimum of <strong>one full container</strong> (approximately 19–21 metric tons, around 320 bags of 60 kg). Full containers are the most cost-effective option for international shipping.
             </p>
             <p>
-              <strong>For direct export orders:</strong> We recommend a minimum of <strong>half a container</strong> (approximately 10 metric tons) or <strong>one full container</strong> (approximately 19–21 metric tons, around 320 bags of 60 kg). Full containers are the most cost-effective option for international shipping.
+              <strong>Half container:</strong> We can arrange <strong>half container</strong> shipments (approximately 10 metric tons) for importers building relationships or testing new origins.
             </p>
             <p>
-              <strong>LCL (Less than Container Load):</strong> For international buyers needing smaller volumes, we can arrange consolidated shipments subject to shipping schedules.
+              <strong>LCL (Less than Container Load):</strong> For importers needing smaller volumes, we can arrange consolidated shipments subject to shipping schedules and additional logistics costs.
+            </p>
+            <p>
+              <strong>Sample orders:</strong> For evaluation purposes, we offer sample shipments - contact us to discuss your needs.
             </p>
           </>
         ),
@@ -190,13 +193,10 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              <strong>Ethiopia:</strong> Climate-controlled warehouses in Addis Ababa maintain optimal conditions during pre-export.
+              <strong>Ethiopia:</strong> Climate-controlled warehouses in Addis Ababa maintain optimal conditions during pre-export staging. All coffee is stored in GrainPro-lined bags to preserve quality until shipment.
             </p>
             <p>
-              <strong>Middle East:</strong> <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span> in Saudi Arabia maintains qualified food-safe warehouse facilities in Riyadh for regional spot inventory, enabling smaller orders with faster delivery for Middle East and GCC roasters.
-            </p>
-            <p>
-              <strong>North America:</strong> Qualified food-safe warehouse in Canada for spot inventory enabling smaller orders with faster delivery for North American roasters.
+              Once shipped, coffee is delivered directly to your designated port or warehouse. We coordinate with your freight forwarder to ensure smooth handoff and can recommend trusted logistics partners if needed.
             </p>
           </>
         ),
@@ -234,7 +234,7 @@ const faqData: FAQSection[] = [
               <li><strong>FOB Djibouti:</strong> You arrange ocean freight</li>
               <li><strong>CFR/CIF:</strong> We arrange freight to your port</li>
               <li><strong>DAP:</strong> Door delivery, you clear customs</li>
-              <li><strong>DDP (Middle East & North America):</strong> Full door-to-door through our local operations, we handle everything</li>
+              <li><strong>DDP:</strong> Full door-to-door service, we handle everything including customs clearance</li>
             </ul>
           </>
         ),
@@ -312,7 +312,7 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              <strong>USD</strong> is our standard invoicing currency. <strong>Middle East partners:</strong> Transact in <strong>SAR</strong> through <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span> in Saudi Arabia. <strong>Canadian partners:</strong> Transact in <strong>CAD</strong> through Ethio Coffee Company Inc. in Canada - no currency conversion fees. We may also invoice in EUR or GBP for international buyers.
+              <strong>USD</strong> is our standard invoicing currency for all export transactions. We may also invoice in <strong>EUR</strong> or <strong>GBP</strong> for European buyers upon request. All pricing and contracts are denominated in the agreed currency to provide clarity and avoid conversion surprises.
             </p>
           </>
         ),
@@ -375,7 +375,7 @@ const faqData: FAQSection[] = [
         question: 'Who does Ethio Coffee work with?',
         answer: (
           <p>
-            Specialty roasters, importers, café chains, private labels, distributors, and industrial buyers. Whether you need one container a year or one container a month, we're interested in building a relationship with you.
+            Coffee importers, trading companies, specialty roasters with import capability, café chains, private labels, and distributors. Whether you need one container a year or one container a month, we're interested in building a relationship with you.
           </p>
         ),
       },
@@ -473,7 +473,7 @@ export default function OrderingInfoPage() {
           </div>
           <div className='lg:w-1/2 py-2 lg:py-24 lg:px-12 lg:border-l-2 border-black'>
             <p className='my-2'>
-              Everything you need to know about buying premium Ethiopian green coffee from us. Whether you're a first-time importer or an experienced roaster, we're here to make sourcing Ethiopian coffee straightforward and transparent.
+              Everything you need to know about sourcing premium Ethiopian green coffee from us. Whether you're an established importer or exploring Ethiopian origins for the first time, we're here to make the export process straightforward and transparent.
             </p>
             <p className='my-4'>
               Simply visit our{' '}
@@ -489,19 +489,19 @@ export default function OrderingInfoPage() {
                 <span className='font-bold'>Browse Offerings:</span> Explore our current lots with detailed profiles, cup scores, and availability status.
               </li>
               <li>
-                <span className='font-bold'>Request Samples:</span> Try before you commit. We offer samples for evaluation and roast profiling.
+                <span className='font-bold'>Request Samples:</span> Try before you commit. We offer samples for evaluation and cupping.
               </li>
               <li>
-                <span className='font-bold'>Get a Quote:</span> Tell us what you need and we'll provide a transparent, itemized quotation.
+                <span className='font-bold'>Get a Quote:</span> Tell us what you need and we'll provide a transparent, itemized quotation with clear shipping terms.
               </li>
               <li>
-                <span className='font-bold'>We Handle the Rest:</span> From documentation to logistics, we make importing Ethiopian coffee easy.
+                <span className='font-bold'>We Handle the Export:</span> Complete documentation, quality control, and coordination with your freight forwarder.
               </li>
             </ul>
 
-            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Closer to You</h3>
+            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Professional Export Service</h3>
             <p className='my-4'>
-              If you're in the Middle East, <strong dir="rtl" lang="ar">إثيو كوفي للاستيراد</strong> in Saudi Arabia can help. If you're in North America, <strong>Ethio Coffee Company Inc.</strong> in Canada has you covered. Either way, you get local warehousing, 1-bag minimums, local currency options, and none of the usual importing complexity.
+              Founded by two brothers - one on the ground in Ethiopia, one Ethiopian-Canadian with international business experience - we bridge the gap between Ethiopian coffee origins and global markets. You get clear communication, professional documentation, and the reliability that comes from working with a dedicated export partner.
             </p>
           </div>
         </div>

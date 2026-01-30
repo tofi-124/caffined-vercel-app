@@ -15,9 +15,9 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ethiocoffee.et'),
-  title: 'Ethiopian Green Coffee Supplier | Wholesale Exports for Roasters | Ethio Coffee',
-  description: 'Buy Ethiopian green coffee beans direct from origin. Ethio Coffee exports Grade 1-4 Yirgacheffe, Sidamo & Guji to roasters and cafés worldwide. Specialty to commercial grades, traceable sourcing.',
-  keywords: 'Ethiopian green coffee supplier, buy Ethiopian coffee wholesale, Ethiopian coffee exporter, green coffee beans wholesale, Yirgacheffe coffee supplier, Sidamo coffee, Guji coffee, direct trade Ethiopian coffee, coffee for roasters',
+  title: 'Ethiopian Coffee Exporter | Green Coffee for Importers Worldwide | Ethio Coffee',
+  description: 'Ethiopian coffee exporter serving importers worldwide. Ethio Coffee Export PLC offers Grade 1-4 green coffee from Yirgacheffe, Sidamo & Guji. Direct from origin, professional export service, traceable sourcing.',
+  keywords: 'Ethiopian coffee exporter, green coffee exporter Ethiopia, Ethiopian coffee supplier, green coffee beans wholesale, Yirgacheffe coffee exporter, Sidamo coffee, Guji coffee, direct trade Ethiopian coffee, coffee for importers',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
   alternates: {
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://ethiocoffee.et',
-    title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
-    description: 'Premium Ethiopian coffee exports for specialty markets worldwide.',
+    title: 'Ethio Coffee - Ethiopian Coffee Exporter for Importers Worldwide',
+    description: 'Premium Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
     siteName: 'Ethio Coffee',
     images: [
       {
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethio Coffee - Premium Ethiopian Coffee exports',
-    description: 'Premium Ethiopian coffee exports for specialty markets worldwide.',
+    title: 'Ethio Coffee - Ethiopian Coffee Exporter for Importers Worldwide',
+    description: 'Premium Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
     images: ['/images/coffee-pack-1.webp'],
     creator: '@ethiocoffee',
   },
@@ -65,13 +65,13 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Ethio Coffee",
-              "legalName": "Ethio Coffee Import and Export PLC",
+              "legalName": "Ethio Coffee Export PLC",
               "url": "https://ethiocoffee.et",
               "logo": "https://ethiocoffee.et/images/new-logo.png",
-              "description": "Premium Ethiopian coffee exports for specialty cafés and roasters worldwide.",
+              "description": "Ethiopian coffee exporter serving importers worldwide with premium, traceable green coffee.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Lideta",
+                "streetAddress": "Yesak Building, 3rd Floor, Office 301, Lideta",
                 "addressLocality": "Addis Ababa",
                 "addressCountry": "Ethiopia"
               },
@@ -84,28 +84,6 @@ export default function RootLayout({
                     "streetAddress": "Yesak Building, 3rd Floor, Office 301, Lideta",
                     "addressLocality": "Addis Ababa",
                     "addressCountry": "Ethiopia"
-                  }
-                },
-                {
-                  "@type": "Place",
-                  "name": "Riyadh Office",
-                  "description": "Saudi Arabia operations office - إثيو كوفي للاستيراد",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Riyadh",
-                    "addressCountry": "SA"
-                  }
-                },
-                {
-                  "@type": "Place",
-                  "name": "Toronto Office",
-                  "description": "Canada operations office",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Financial District",
-                    "addressLocality": "Toronto",
-                    "addressRegion": "ON",
-                    "addressCountry": "CA"
                   }
                 }
               ],

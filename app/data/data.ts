@@ -13,22 +13,22 @@ export const posts: Post[] = [
     {
       small_image_url: 'launch.webp',
       large_image_url: 'launch.webp',
-      date: 'Jan 01, 2026',
-      title: 'ETHIO COFFEE LAUNCHES CANADIAN OPERATIONS',
-      slug: 'ethio-coffee-canada-operations-launch',
+      date: 'Jan 01, 2022',
+      title: 'ETHIO COFFEE LAUNCHES: YOUR TRUSTED ETHIOPIAN EXPORT PARTNER',
+      slug: 'ethio-coffee-export-launch',
       category: 'Company News',
       keywords: [
-        'Ethiopian coffee Canada',
-        'green coffee supplier Canada',
-        'Ethiopian coffee importer',
-        'specialty coffee wholesale Canada',
-        'Ethio Coffee Canada',
-        'Ethiopian green beans Toronto',
-        'coffee roasters Canada',
-        'direct trade coffee Canada',
-        'African coffee supplier North America'
+        'Ethiopian coffee exporter',
+        'green coffee supplier Ethiopia',
+        'Ethiopian coffee for importers',
+        'specialty coffee export Ethiopia',
+        'Ethio Coffee Export',
+        'Ethiopian green beans wholesale',
+        'coffee importers worldwide',
+        'direct trade coffee Ethiopia',
+        'African coffee exporter'
       ],
-      desc: 'Ethio Coffee officially launches Canadian operations through Ethio Coffee Company Inc., making premium Ethiopian green coffee more accessible to roasters and cafés across Canada with local warehousing, simplified logistics, and direct-from-origin traceability.'
+      desc: 'Ethio Coffee Export PLC officially launches, bringing premium Ethiopian green coffee to importers worldwide. Founded by two brothers with deep roots in Ethiopian coffee, we offer traceable sourcing, professional export service, and the reliability importers need.'
     },
     {
       small_image_url: 'cofee-blog-1-1.png',
@@ -81,26 +81,26 @@ export const posts: Post[] = [
       small_image_url: 'green-coffee-sourcing.webp',
       large_image_url: 'green-coffee-sourcing.webp',
       date: 'Aug 10, 2025',
-      title: 'HOW TO SOURCE GREEN COFFEE FROM ETHIOPIA: A COMPLETE BUYER\'S GUIDE FOR ROASTERS',
+      title: 'SOURCING GREEN COFFEE FROM ETHIOPIA',
       slug: 'how-to-source-green-coffee-from-ethiopia',
       category: 'Sourcing Guide',
       keywords: [
         'how to source green coffee from Ethiopia',
         'Ethiopian green coffee supplier',
         'buy green coffee beans wholesale',
-        'Ethiopian coffee for roasters',
+        'Ethiopian coffee for importers',
         'green coffee importing',
         'wholesale Ethiopian coffee beans',
         'direct trade Ethiopian coffee',
         'specialty green coffee supplier'
       ],
-      desc: 'A complete guide for roasters and cafés on how to source green coffee from Ethiopia covering direct trade, quality grades, shipping logistics, and what to look for in an Ethiopian green coffee supplier.'
+      desc: 'A complete guide for importers on how to source green coffee from Ethiopia covering direct trade, quality grades, shipping logistics, and what to look for in an Ethiopian green coffee exporter.'
     },
     {
       small_image_url: 'yirgacheffe-vs-sidamo.webp',
       large_image_url: 'yirgacheffe-vs-sidamo.webp',
       date: 'May 23, 2025',
-      title: 'YIRGACHEFFE VS SIDAMO VS GUJI: WHICH ETHIOPIAN COFFEE IS RIGHT FOR YOUR ROASTERY?',
+      title: 'YIRGACHEFFE VS SIDAMO VS GUJI: WHICH ETHIOPIAN COFFEE IS RIGHT FOR YOU?',
       slug: 'yirgacheffe-vs-sidamo-vs-guji-comparison',
       category: 'Coffee Profiles',
       keywords: [
@@ -113,7 +113,7 @@ export const posts: Post[] = [
         'Ethiopian single origin coffee',
         'wholesale Yirgacheffe coffee'
       ],
-      desc: 'Compare Ethiopia\'s top coffee regions Yirgacheffe, Sidamo, and Guji to find the best origin for your roastery\'s needs. Includes flavor profiles, processing methods, and wholesale buying tips.'
+      desc: 'Compare Ethiopia\'s top coffee regions Yirgacheffe, Sidamo, and Guji to find the best origin for your needs. Includes flavor profiles, processing methods, and wholesale buying tips.'
     },
     {
       small_image_url: 'washed-vs-natural.webp',
@@ -138,33 +138,32 @@ export const posts: Post[] = [
       small_image_url: 'ethiopian-coffee-exporter-2025.webp',
       large_image_url: 'ethiopian-coffee-exporter-2025.webp',
       date: 'Jan 15, 2025',
-      title: 'BEST ETHIOPIAN COFFEE EXPORTER, IMPORTER & SUPPLIER FOR ROASTERS WORLDWIDE',
-      slug: 'best-ethiopian-coffee-exporter-importer-supplier',
+      title: 'BEST ETHIOPIAN COFFEE EXPORTER FOR IMPORTERS WORLDWIDE',
+      slug: 'best-ethiopian-coffee-exporter-for-importers',
       category: 'Company / Sourcing',
       keywords: [
         'ethio coffee',
         'ethiocoffee',
-        'ethiopian coffee importers',
+        'ethiopian coffee exporters',
         'ethiopian coffee suppliers',
-        'ethiopian coffee distributors',
+        'ethiopian coffee for importers',
         'ethiopian coffee company',
-        'ethio cafe',
-        'coffee suppliers ethiopia',
+        'coffee exporters ethiopia',
         'ethiopian coffee exporter',
         'green coffee exporter ethiopia',
-        'best ethiopian coffee supplier',
+        'best ethiopian coffee exporter',
         'wholesale ethiopian coffee',
         'ethiopian coffee beans wholesale',
         'buy ethiopian green coffee',
-        'ethiopian coffee for roasters',
+        'ethiopian coffee for importers',
         'direct trade ethiopian coffee',
         'specialty coffee ethiopia',
-        'ethiopian arabica supplier',
+        'ethiopian arabica exporter',
         'yirgacheffe coffee exporter',
-        'sidamo coffee supplier',
+        'sidamo coffee exporter',
         'guji coffee exporter'
       ],
-      desc: 'Looking for a trusted Ethiopian coffee exporter, importer, or supplier? Ethio Coffee delivers premium green beans from Yirgacheffe, Sidamo, Guji, and more directly to roasters worldwide with full traceability and competitive pricing.'
+      desc: 'Looking for a trusted Ethiopian coffee exporter? Ethio Coffee Export PLC delivers premium green beans from Yirgacheffe, Sidamo, Guji, and more directly to importers worldwide with full traceability, professional documentation, and competitive pricing.'
     },
     {
       small_image_url: 'coffee-plant-taxonomy.webp',

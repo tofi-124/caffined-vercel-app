@@ -81,35 +81,17 @@ const Footer = () => {
 
         <div id="locations" className='flex flex-col text-center md:text-left'>
           <h3 className='text-2xl font-extrabold tracking-tight'>
-            OUR OFFICE LOCATIONS
+            OUR OFFICE
           </h3>
           <ul className='mt-4 space-y-4 text-primary/90'>
             <li>
-              <p className='text-xs uppercase tracking-widest text-primary/70'>Ethiopia</p>
+              <p className='text-xs uppercase tracking-widest text-primary/70'>Ethiopia (Headquarters)</p>
               <address className='not-italic font-medium text-primary'>
-                Ethio Coffee Import and Export PLC
+                Ethio Coffee Export PLC
                 <br />
                 Yesak Building, 3rd Floor, Office 301
                 <br />
                 Lideta, Addis Ababa, Ethiopia
-              </address>
-            </li>
-            <li>
-              <p className='text-xs uppercase tracking-widest text-primary/70'>Saudi Arabia</p>
-              <address className='not-italic font-medium text-primary'>
-                <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>
-                <br />
-                Riyadh, Kingdom of Saudi Arabia
-              </address>
-            </li>
-            <li>
-              <p className='text-xs uppercase tracking-widest text-primary/70'>Canada</p>
-              <address className='not-italic font-medium text-primary'>
-                Ethio Coffee Company Inc.
-                <br />
-                Financial District
-                <br />
-                Toronto, Canada
               </address>
             </li>
           </ul>
@@ -142,7 +124,7 @@ const Footer = () => {
         
       <div className='py-8 text-center'>
         <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-primary/90">
-          © 2026 Ethio Coffee Import and Export PLC. All rights reserved.
+          © 2026 Ethio Coffee Export PLC. All rights reserved.
           <span className='text-primary/50'>|</span>
           <Link
             href='/insights'

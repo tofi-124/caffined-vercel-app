@@ -40,7 +40,7 @@ export const Post = ({ title, date, small_image_url, slug, showDate = true }: Pr
   )
 }
 
-const featuredHomePostIds = [0, 5, 1, 2]
+const featuredHomePostIds = [5, 1, 2, 6]
 
 const Posts = () => {
   return (

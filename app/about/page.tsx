@@ -24,7 +24,7 @@ const timeline = [
   },
   {
     year: 'In 2022, we took it international',
-    description: 'Our father built his reputation in local trade, supplying coffee through relationships he earned over decades. In 2022, we formalized Ethio Coffee Import and Export PLC to take that foundation to the international market, building an export-ready operation with clearer communication, better transparency, and quality our partners can plan around.'
+    description: 'Our father built his reputation in local trade, supplying coffee through relationships he earned over decades. In 2022, we formalized Ethio Coffee Export PLC to take that foundation to the international market, building an export-ready operation with clearer communication, better transparency, and quality our partners can plan around.'
   },
   {
     year: 'Today, we export with purpose',
@@ -49,10 +49,10 @@ const About = () => {
           </div>
           <div className='lg:w-1/2 py-2 lg:py-24 lg:px-12 lg:border-l-2 border-black'>
             <p className='my-2'>
-              Ethio Coffee is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide. We have a dedicated presence in Saudi Arabia and Canada to make working with us easier, but at our core, we're about one thing: getting great Ethiopian coffee to people who appreciate it, while making sure farmers share in the value they create.
+              Ethio Coffee Export is a dedicated Ethiopian coffee exporter connecting premium, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
             </p>
             <p className='my-4'>
-              Founded in 2022 by brothers carrying forward a legacy of integrity in coffee, our roots trace back to years of hands-on work in Ethiopian coffee regions. Our father dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the market. That experience shaped our mission: to cut out unnecessary layers, honor farmers, and deliver real value from farm to export container.
+              Established in 2022, our roots trace back to our father's lifetime of hands-on work in Ethiopian coffee regions. He dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the international market. That experience shaped our mission: to be the trusted export partner that importers can rely on for consistent quality, transparent sourcing, and professional service.
             </p>
 
             <h3 className='mt-8 text-3xl font-extrabold text-dark'>What We Do</h3>
@@ -61,32 +61,32 @@ const About = () => {
                 <span className='font-bold'>Direct Origin Sourcing:</span> We work with our own estates and a network of trusted partner growers in Ethiopia’s renowned coffee regions to source high-grade beans with traceable provenance.
               </li>
               <li>
-                <span className='font-bold'>Consistent Quality:</span> Every lot is carefully documented, sorted, and prepared to meet export standards so you can count on consistent cup profiles and reliable supply.
+                <span className='font-bold'>Export-Ready Quality:</span> Every lot is carefully documented, sorted, and prepared to meet international export standards so importers can count on consistent cup profiles and reliable supply.
               </li>
               <li>
                 <span className='font-bold'>Sustainable & Ethical Trade:</span> By sourcing from our estates, cooperatives, and smallholder farmers, we help ensure fair pricing, transparent relationships, and long-term community support.
               </li>
               <li>
-                <span className='font-bold'>Partner-Focused Logistics:</span> From sample programs and tailored offers to international logistics and shipping support, we work to make sourcing Ethiopian coffee easy and effective for your business.
+                <span className='font-bold'>Importer-Focused Service:</span> From sample programs and tailored offers to export documentation and shipping coordination, we make sourcing Ethiopian coffee straightforward for importers worldwide.
               </li>
             </ul>
 
-            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Closer to Where You Are</h3>
+            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Built for Importers</h3>
             <p className='my-4'>
-              We know international sourcing can be a hassle. That's why we set up local operations in two key regions:
+              We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
             </p>
             <p className='my-4'>
-              <strong>In the Middle East,</strong> <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span> (Ethio Coffee Import) in Riyadh makes it easier for roasters across the GCC to work with us - local support, straightforward documentation, and coffee that's already nearby.
+              <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
             </p>
             <p className='my-4'>
-              <strong>In North America,</strong> Ethio Coffee Company Inc. in Canada does the same for roasters in Canada and the U.S. We import directly into Canadian warehouses so you get clear lot information, consistent samples, and shipping that actually makes sense.
+              <strong>Professional Documentation:</strong> Complete export documentation, phytosanitary certificates, ICO certificates, and quality reports - everything you need for smooth customs clearance in your destination country.
             </p>
             <p className='my-4'>
-              If you're somewhere else in the world, don't worry - we work with you directly through our export programs and will figure out the best way to get coffee to you.
+              <strong>Flexible Shipping:</strong> We work with your preferred freight forwarders or can recommend trusted logistics partners. FOB Djibouti or Addis Ababa dry port - whatever works best for your supply chain.
             </p>
 
             <p className='my-4 font-inconsolata text-sm text-gray-700'>
-              For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Import and Export PLC and our regional operations.
+              For clarity: Ethio Coffee Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Export PLC.
             </p>
           </div>
         </div>

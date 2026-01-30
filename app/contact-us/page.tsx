@@ -96,27 +96,27 @@ const WholesaleInquiryPage = () => {
       <header className='bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative'>
         <div className='absolute inset-0 bg-black/40'></div>
         <h1 className='text-5xl md:text-6xl font-bold text-primary relative z-10 tracking-wide'>LET&apos;S WORK TOGETHER</h1>
-        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>From the origin to your roastery. Start your partnership today.</p>
+        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>Direct from Ethiopia to importers worldwide. Start your partnership today.</p>
       </header>
       
       <section className='container mx-auto px-4 py-12'>
         <div className='flex max-lg:flex-col items-center justify-center gap-12 mb-16'>
           <div className='lg:w-1/2'>
             <h2 className='text-4xl md:text-5xl font-extrabold leading-tight text-dark mb-6'>
-              TRACEABLE ETHIOPIAN COFFEE FOR ROASTERS & CAFÉS
+              PREMIUM ETHIOPIAN COFFEE FOR IMPORTERS WORLDWIDE
             </h2>
             <p className='mb-4 text-gray-700'>
-              Ethio Coffee Import and Export PLC is a trusted Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters, cafés, and wholesale partners worldwide through ethical sourcing, export-ready quality, and long-term relationships.
+              Ethio Coffee Export PLC is a dedicated Ethiopian coffee exporter connecting premium, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local knowledge with international business experience.
             </p>
             <p className='mb-4 text-gray-700'>
-              We're based in Ethiopia with a dedicated presence in Saudi Arabia and Canada, so we can work with you wherever you are. Our coffee comes from our own estates and trusted partner producers across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa - all fully traceable back to the source.
+              We're based in Addis Ababa, Ethiopia, exporting directly to importers around the globe. Our coffee comes from our own estates and trusted partner producers across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa - all fully traceable back to the source.
             </p>
             <div className='mt-8'>
               <h3 className='text-2xl font-bold mb-4'>Why Partner With Us:</h3>
               <ul className='space-y-3'>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Vertical Integration:</strong> Direct oversight from family estates to your door, eliminating intermediaries</span>
+                  <span><strong>Direct from Origin:</strong> Full oversight from family estates to your port of destination</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
@@ -124,7 +124,7 @@ const WholesaleInquiryPage = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Roaster-Ready Logistics:</strong> Year-round inventory with strict sample-to-bag consistency</span>
+                  <span><strong>Export-Ready Quality:</strong> Rigorous QC protocols ensuring sample-to-bag consistency</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
@@ -132,7 +132,7 @@ const WholesaleInquiryPage = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Middle East & North American Distribution:</strong> Regional warehousing in Saudi Arabia and Canada for seamless fulfillment</span>
+                  <span><strong>Clear Communication:</strong> One brother in Ethiopia, one Ethiopian-Canadian - bridging origin and international markets</span>
                 </li>
               </ul>
             </div>
@@ -154,36 +154,16 @@ const WholesaleInquiryPage = () => {
           <p className='text-center text-gray-600 mb-8 max-w-xl mx-auto'>Fill out the form below and our team will get back to you within 24-48 hours.</p>
 
           <div className='mb-10 rounded-lg border border-black/10 bg-white/70 p-6 shadow-sm'>
-            <h3 className='text-xl font-bold text-dark mb-4'>Our Offices</h3>
-            <div className='grid grid-cols-1 gap-6 md:grid-cols-3'>
+            <h3 className='text-xl font-bold text-dark mb-4'>Our Office</h3>
+            <div className='grid grid-cols-1 gap-6'>
               <div className='p-4 bg-primary/50 rounded-md'>
                 <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Ethiopia (Headquarters)</p>
                 <address className='not-italic text-dark'>
-                  <span className='font-bold'>Ethio Coffee Import and Export PLC</span>
+                  <span className='font-bold'>Ethio Coffee Export PLC</span>
                   <br />
                   Yesak Building, 3rd Floor, Office 301
                   <br />
                   Lideta, Addis Ababa, Ethiopia
-                </address>
-              </div>
-              <div className='p-4 bg-primary/50 rounded-md'>
-                <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Saudi Arabia</p>
-                <address className='not-italic text-dark'>
-                  <span className='font-bold' dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>
-                  <br />
-                  (Ethio Coffee Import)
-                  <br />
-                  Riyadh, Kingdom of Saudi Arabia
-                </address>
-              </div>
-              <div className='p-4 bg-primary/50 rounded-md'>
-                <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Canada</p>
-                <address className='not-italic text-dark'>
-                  <span className='font-bold'>Ethio Coffee Company Inc.</span>
-                  <br />
-                  Financial District
-                  <br />
-                  Toronto, Canada
                 </address>
               </div>
             </div>
@@ -286,12 +266,12 @@ const WholesaleInquiryPage = () => {
                     required
                   >
                     <option value=''>Select your business type</option>
-                    <option value='cafe'>Café</option>
-                    <option value='roaster'>Coffee Roaster</option>
-                    <option value='restaurant'>Restaurant</option>
-                    <option value='hotel'>Hotel</option>
-                    <option value='distributor'>Distributor</option>
-                    <option value='office'>Office/Corporate</option>
+                    <option value='importer'>Coffee Importer</option>
+                    <option value='trading-company'>Trading Company</option>
+                    <option value='roaster-importer'>Roaster with Import License</option>
+                    <option value='distributor'>Green Coffee Distributor</option>
+                    <option value='broker'>Coffee Broker / Agent</option>
+                    <option value='cooperative'>Roaster Cooperative</option>
                     <option value='other'>Other</option>
                   </select>
                 </div>

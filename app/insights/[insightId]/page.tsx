@@ -38,25 +38,25 @@ const Insight = ({params}: Props) => {
     let blogContent;
     
     if (ind === 0) {
-      // Content for "Ethio Coffee Launches Canadian Operations"
+      // Content for "Ethio Coffee Export Launch"
       blogContent = (
         <>
           <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            Premium Ethiopian green coffee is now closer than ever for Canadian roasters
+            Premium Ethiopian green coffee for importers worldwide
           </h2>
 
           <figure>
             <figcaption className='font-inconsolata my-2'>
-              Ethio Coffee Company Inc. brings Ethiopia&apos;s legendary coffee heritage directly to Canadian shores.
+              Ethio Coffee Export PLC brings Ethiopia&apos;s legendary coffee heritage directly to importers around the globe.
             </figcaption>
 
             <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
               <ResponsiveImage
                 src={`/images/${large_image_url}`}
-                alt='Ethio Coffee Canadian operations launch'
+                alt='Ethio Coffee Export launch'
                 fill
                 objectFit='cover'
                 className='w-full h-full'
@@ -76,40 +76,13 @@ const Insight = ({params}: Props) => {
             <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline ml-2'>Science</Link>
             <Link href='/insights/coffee-is-art-roasting-brewing' className='underline ml-2'>Art</Link>
           </div>
-
-          <div className='my-4 text-sm'>
-            <span className='font-semibold'>Series:</span>
-            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline ml-2'>Coffee is a Plant</Link>
-            <Link href='/insights/coffee-is-processing-drying-milling' className='underline ml-2'>Processing</Link>
-            <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline ml-2'>Commerce</Link>
-            <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline ml-2'>Science</Link>
-            <Link href='/insights/coffee-is-art-roasting-brewing' className='underline ml-2'>Art</Link>
-          </div>
-
-          <div className='my-4 text-sm'>
-            <span className='font-semibold'>Series:</span>
-            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline ml-2'>Coffee is a Plant</Link>
-            <Link href='/insights/coffee-is-processing-drying-milling' className='underline ml-2'>Processing</Link>
-            <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline ml-2'>Commerce</Link>
-            <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline ml-2'>Science</Link>
-            <Link href='/insights/coffee-is-art-roasting-brewing' className='underline ml-2'>Art</Link>
-          </div>
-
-          <div className='my-4 text-sm'>
-            <span className='font-semibold'>Series:</span>
-            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline ml-2'>Coffee is a Plant</Link>
-            <Link href='/insights/coffee-is-processing-drying-milling' className='underline ml-2'>Processing</Link>
-            <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline ml-2'>Commerce</Link>
-            <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline ml-2'>Science</Link>
-            <Link href='/insights/coffee-is-art-roasting-brewing' className='underline ml-2'>Art</Link>
-          </div>
           
           <p className='my-4'>
-            We&apos;re excited to announce that <span className='font-bold'>Ethio Coffee Company Inc.</span> is officially open for business - our way of bringing Ethio Coffee closer to Canadian roasters. We offer premium Ethiopian green coffee directly to roasters, cafés, and specialty coffee businesses across Canada.
+            We&apos;re proud to announce the official launch of <span className='font-bold'>Ethio Coffee Export PLC</span> - your trusted Ethiopian coffee export partner. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we bring premium Ethiopian green coffee to importers worldwide with the professionalism, traceability, and reliability you need.
           </p>
 
           <p className='my-4'>
-            For years, Canadian roasters who wanted exceptional Ethiopian coffee faced a familiar challenge: navigating complex import logistics, dealing with inconsistent quality from middlemen, and struggling to build direct relationships with origin. We&apos;re here to change that.
+            For years, importers who wanted exceptional Ethiopian coffee faced familiar challenges: inconsistent communication from origin suppliers, unreliable quality control, and difficulty building direct relationships. We&apos;re here to change that.
           </p>
 
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -127,11 +100,11 @@ const Insight = ({params}: Props) => {
           </p>
 
           <p className='my-4'>
-            In 2022, we decided it was time to share this legacy with the world. We formalized the business into <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, registered with the Ethiopian Commodity Exchange, to bring our father&apos;s relationship-driven approach to the international market for the first time. Today, we source from our own estates and a network of trusted partner growers across Ethiopia&apos;s most celebrated coffee regions.
+            In 2022, we decided it was time to share this legacy with the world. We established <span className='font-bold'>Ethio Coffee Export PLC</span>, registered with the Ethiopian Commodity Exchange, to bring our father&apos;s relationship-driven approach to the international market. Today, we source from our own estates and a network of trusted partner growers across Ethiopia&apos;s most celebrated coffee regions.
           </p>
 
           <p className='my-4'>
-            Now, with our Canadian presence through <span className='font-bold'>Ethio Coffee Company Inc.</span>, we&apos;re bringing that same commitment to quality, traceability, and respect for farmers directly to North America.
+            With one brother on the ground in Ethiopia managing sourcing and quality, and one Ethiopian-Canadian brother handling international relationships and communication, we bridge the gap that often frustrates importers working with origin suppliers.
           </p>
 
           <div className='my-6'>
@@ -157,18 +130,19 @@ const Insight = ({params}: Props) => {
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            What We&apos;re Offering Canadian Roasters
+            What We Offer Importers Worldwide
           </h3>
           <p className='my-4'>
-            We&apos;ve built our Canadian operations specifically to solve the pain points roasters face when sourcing Ethiopian coffee:
+            We&apos;ve built our export operation specifically to serve importers&apos; needs:
           </p>
 
           <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
-            <li><span className='font-bold'>Local Warehousing:</span> Green coffee stored in Canada, ready for quick fulfillment. No waiting weeks for international shipments.</li>
+            <li><span className='font-bold'>Professional Export Service:</span> Complete documentation, phytosanitary certificates, ICO certificates, and quality reports for smooth customs clearance.</li>
             <li><span className='font-bold'>Full Traceability:</span> Every lot comes with complete documentation: region, cooperative, washing station, processing method, and cup score.</li>
             <li><span className='font-bold'>Sample Programs:</span> Taste before you commit. We offer curated sample sets from Ethiopia&apos;s premier growing regions.</li>
-            <li><span className='font-bold'>Flexible Order Sizes:</span> From single-bag samples to full container orders, we work with roasters of every scale.</li>
+            <li><span className='font-bold'>Flexible Shipping:</span> FOB Djibouti or Addis Ababa dry port - we work with your preferred freight forwarder or can recommend trusted logistics partners.</li>
             <li><span className='font-bold'>Quality Verified:</span> Every lot is cupped by our team before export, so the coffee that arrives matches the profile you ordered.</li>
+            <li><span className='font-bold'>Clear Communication:</span> With one foot in Ethiopia and one in the international market, we provide the responsive communication importers expect.</li>
           </ul>
 
           <div className='my-6'>
@@ -239,7 +213,7 @@ const Insight = ({params}: Props) => {
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Coffee?</h4>
             <p className='my-2'>
-              Whether you&apos;re a micro-roaster adding your first Ethiopian single-origin or a larger operation seeking consistent, traceable supply, we&apos;d love to work with you.
+              Whether you&apos;re an established importer or sourcing Ethiopian coffee for the first time, we&apos;d love to work with you.
             </p>
             <p className='my-2'>
               Request samples, ask questions, or reserve your 2026 allocation.
@@ -257,49 +231,9 @@ const Insight = ({params}: Props) => {
             </div>
           </div>
 
-          <h2 className='text-2xl font-bold mt-8 mb-4'>FAQ — Coffee Art (Roasting & Brewing)</h2>
-          <div className='prose max-w-none'>
-            <h3>Q: How do I choose a roast degree for an origin?</h3>
-            <p>A: Start light to preserve origin acidity, then increase development time if you need more body or sweetness — always cup samples at each stage.</p>
-            <h3>Q: What's a reliable V60 baseline?</h3>
-            <p>A: 16g:250g, 94°C, 2:30–3:00 total time with a 30s bloom is a reproducible starting point for evaluation.</p>
-            <h3>Q: How important is water quality?</h3>
-            <p>A: Very — mineral balance affects extraction and perceived sweetness; use filtered water with moderate mineral content for consistent results.</p>
-          </div>
-
-          <h2 className='text-2xl font-bold mt-8 mb-4'>FAQ — Coffee Science</h2>
-          <div className='prose max-w-none'>
-            <h3>Q: What is the easiest lab test for quick QC?</h3>
-            <p>A: A calibrated moisture meter paired with bulk density gives high-impact insight on roast behavior and storage risk.</p>
-            <h3>Q: How many cupping reps are enough?</h3>
-            <p>A: At least three independent cuppings gives more statistical confidence; blind samples reduce bias.</p>
-            <h3>Q: Do volatile compounds always mean better coffee?</h3>
-            <p>A: Not always — volatile complexity is desirable when balanced; off-aromatic volatiles indicate poor processing or storage issues.</p>
-          </div>
-
-          <h2 className='text-2xl font-bold mt-8 mb-4'>FAQ — Coffee Commerce</h2>
-          <div className='prose max-w-none'>
-            <h3>Q: How does the C market affect smallholders?</h3>
-            <p>A: The C market sets commodity pricing that often doesn't reflect quality or input costs; smallholders can be exposed to price swings unless they access forward contracts or specialty premiums.</p>
-            <h3>Q: What is FOB vs EXW?</h3>
-            <p>A: FOB covers costs to load onto the ship at origin; EXW is a seller quotation delivering goods at the seller's premises — buyers often handle more logistics with EXW.</p>
-            <h3>Q: How can roasters support price stability?</h3>
-            <p>A: Multi-year contracts, early payments, and transparent premiums help stabilize incomes for producers and build long-term supply relationships.</p>
-          </div>
-
-          <h2 className='text-2xl font-bold mt-8 mb-4'>FAQ — Coffee Processing</h2>
-          <div className='prose max-w-none'>
-            <h3>Q: Which processing method preserves origin clarity?</h3>
-            <p>A: Washed processing generally highlights origin character and acidity; naturals emphasize fruity sweetness.</p>
-            <h3>Q: How long should drying take?</h3>
-            <p>A: Slow, controlled drying (2–3 weeks on raised beds) usually preserves aromatics better than fast mechanical drying.</p>
-            <h3>Q: Should I worry about anaerobic fermentation?</h3>
-            <p>A: Anaerobic methods can produce unique flavors but require strict controls and consistent monitoring to avoid off-flavors.</p>
-          </div>
-
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Import and Export PLC is an Ethiopian coffee exporter connecting premium, traceable origin coffee with roasters and cafés worldwide. Ethio Coffee Company Inc. handles local warehousing and logistics for the North American market.
+              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Export PLC is an Ethiopian coffee exporter connecting premium, traceable origin coffee with importers worldwide.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/about' className='underline'>Our Story</Link> · <Link href='/offerings' className='underline'>Offerings</Link> · <Link href='/ordering-info' className='underline'>Ordering Info</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
@@ -968,12 +902,12 @@ const Insight = ({params}: Props) => {
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            Everything roasters and cafés need to know about buying Ethiopian green coffee
+            Everything importers need to know about buying Ethiopian green coffee
           </h2>
 
           <figure>
             <figcaption className='font-inconsolata my-2'>
-              Sourcing green coffee directly from Ethiopia gives roasters access to some of the world's most distinctive specialty coffees.
+              Sourcing green coffee directly from Ethiopia gives importers access to some of the world's most distinctive specialty coffees.
             </figcaption>
 
             <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -1104,17 +1038,17 @@ const Insight = ({params}: Props) => {
           </ul>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            How Ethio Coffee Simplifies Sourcing for Roasters
+            How Ethio Coffee Simplifies Sourcing for Importers
           </h3>
           <p className='my-4'>
-            At Ethio Coffee Import and Export PLC, we make sourcing Ethiopian green coffee straightforward:
+            At Ethio Coffee Export PLC, we make sourcing Ethiopian green coffee straightforward for importers worldwide:
           </p>
           <ul className='font-inconsolata my-4 list-disc ml-5'>
             <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from our own estates and trusted partner producers across Ethiopia's top growing regions.</li>
             <li className='my-2'><span className='font-bold'>Complete Traceability:</span> Every lot comes with origin details, processing information, and quality documentation.</li>
             <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples before committing to a purchase.</li>
-            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> We export directly from Ethiopia and import to regional warehouses in Saudi Arabia and Canada for Middle East and North American buyers.</li>
-            <li className='my-2'><span className='font-bold'>Responsive Support:</span> Our team helps with everything from lot selection to shipping coordination.</li>
+            <li className='my-2'><span className='font-bold'>Professional Export Service:</span> Complete documentation, flexible shipping terms (FOB Djibouti or Addis dry port), and coordination with your freight forwarder.</li>
+            <li className='my-2'><span className='font-bold'>Responsive Support:</span> With one brother in Ethiopia and one Ethiopian-Canadian, we bridge the communication gap and provide the responsive service importers expect.</li>
             <li className='my-2'><span className='font-bold'>All Grades Available:</span> We export G1, G2, G3, and G4 specialty to commercial grades for any buyer need.</li>
           </ul>
 
@@ -1529,14 +1463,14 @@ const Insight = ({params}: Props) => {
         </>
       );
     } else if (ind === 9) {
-      // Content for "Best Ethiopian Coffee Exporter, Importer & Supplier for Roasters Worldwide"
+      // Content for "Best Ethiopian Coffee Exporter for Importers Worldwide"
       blogContent = (
         <>
           <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            Direct-from-origin green coffee for roasters, cafés, and specialty coffee businesses worldwide
+            Direct-from-origin green coffee for importers, trading companies, and specialty coffee businesses worldwide
           </h2>
 
           <figure>
@@ -1565,14 +1499,14 @@ const Insight = ({params}: Props) => {
           </p>
 
           <p className='my-4'>
-            <span className='font-bold'>Ethio Coffee</span> is different. We're not a broker - we're an Ethiopian coffee company with
-            boots on the ground in Ethiopia and operations in Saudi Arabia and Canada, built to serve roasters who demand quality, transparency, and consistency.
+            <span className='font-bold'>Ethio Coffee</span> is different. We're not a broker - we're an Ethiopian coffee export company founded by two brothers, with
+            direct operations in Ethiopia, built to serve importers who demand quality, transparency, and consistency.
           </p>
 
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
             <p className='font-medium'>
-              <span className='font-bold'>Why roasters choose Ethio Coffee:</span> Direct relationships with farmers,
-              full lot traceability, competitive FOB and landed pricing, and a team that actually understands what specialty roasters need.
+              <span className='font-bold'>Why importers choose Ethio Coffee:</span> Direct relationships with farmers,
+              full lot traceability, competitive FOB pricing, professional documentation, and a team that bridges Ethiopian origin with international markets.
             </p>
           </div>
 
@@ -1585,13 +1519,13 @@ const Insight = ({params}: Props) => {
             estate, and operated locally within Ethiopia for decades.
           </p>
           <p className='my-4'>
-            In 2022, we formalized this legacy into <span className='font-bold'>Ethio Coffee Import and Export PLC</span>,
-            registered with the Ethiopian Commodity Exchange, to bring our relationship-driven approach to the international market.
+            In 2022, we established <span className='font-bold'>Ethio Coffee Export PLC</span>,
+            registered with the Ethiopian Commodity Exchange, to bring our relationship-driven approach to importers worldwide.
             Today, we source from our own estates and a network of trusted partner growers across Ethiopia's celebrated coffee regions.
           </p>
           <p className='my-4'>
-            With <span className='font-bold'>Ethio Coffee Company Inc.</span>, our dedicated presence in Canada, we now offer roasters in
-            North America faster logistics, local warehousing, and a direct line to origin.
+            With one brother on the ground in Ethiopia and one Ethiopian-Canadian handling international relationships, we bridge
+            the gap that often frustrates importers working with origin suppliers.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
@@ -1617,7 +1551,7 @@ const Insight = ({params}: Props) => {
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            Why Work with an Ethiopian Coffee Importer Like Us?
+            Why Work with Ethio Coffee Export?
           </h3>
           <p className='my-4'>
             Unlike generic <span className='font-bold'>Ethiopian coffee distributors</span> or commodity traders, we offer:
@@ -1625,24 +1559,24 @@ const Insight = ({params}: Props) => {
           <ul className='font-inconsolata my-4 list-disc ml-5'>
             <li className='my-2'><span className='font-bold'>Full Traceability:</span> Know exactly which region, washing station, and (where possible) cooperative your coffee comes from.</li>
             <li className='my-2'><span className='font-bold'>Direct Sourcing:</span> We work directly with farmers and our own estates - no middlemen inflating prices.</li>
-            <li className='my-2'><span className='font-bold'>Competitive Pricing:</span> Because we control the supply chain from farm to export, we offer fair pricing for roasters without sacrificing farmer compensation.</li>
-            <li className='my-2'><span className='font-bold'>Sample Before You Buy:</span> Request roast-ready samples from current lots before committing to a container.</li>
-            <li className='my-2'><span className='font-bold'>Flexible Order Sizes:</span> From sample lots to full container shipments, we work with roasters of all sizes.</li>
-            <li className='my-2'><span className='font-bold'>Logistics Support:</span> FOB Djibouti, CIF to your port, or delivered to our regional warehouses in Saudi Arabia or Canada - we handle the complexity so you don't have to.</li>
+            <li className='my-2'><span className='font-bold'>Competitive Pricing:</span> Because we control the supply chain from farm to export, we offer fair pricing without sacrificing farmer compensation.</li>
+            <li className='my-2'><span className='font-bold'>Sample Before You Buy:</span> Request samples from current lots before committing to a container.</li>
+            <li className='my-2'><span className='font-bold'>Flexible Shipping:</span> FOB Djibouti or Addis dry port - we work with your freight forwarder or can recommend trusted logistics partners.</li>
+            <li className='my-2'><span className='font-bold'>Professional Documentation:</span> Complete export docs, phytosanitary certificates, ICO certificates, and quality reports for smooth customs clearance.</li>
           </ul>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            Serving Roasters Worldwide
+            Serving Importers Worldwide
           </h3>
           <p className='my-4'>
-            Whether you're a specialty roaster in Toronto, a café chain in Riyadh, or a coffee company in Europe looking for
-            <span className='font-bold'> Ethiopian coffee importers</span> you can trust, we're built to serve you:
+            Whether you're an importer in North America, Europe, the Middle East, or Asia looking for
+            <span className='font-bold'> a trusted Ethiopian coffee exporter</span>, we're built to serve you:
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <ul className='font-inconsolata list-disc ml-5'>
-              <li className='my-2'><span className='font-bold'>Middle East & GCC:</span> Local warehousing in Saudi Arabia through <span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>. Regional support and simplified importing.</li>
-              <li className='my-2'><span className='font-bold'>North America:</span> Local warehousing in Canada through Ethio Coffee Company Inc. Simplified importing. Faster lead times.</li>
-              <li className='my-2'><span className='font-bold'>Europe:</span> Direct container shipments via Djibouti. Full export documentation.</li>
+              <li className='my-2'><span className='font-bold'>North America:</span> Direct container shipments with complete documentation. Clear communication from our Ethiopian-Canadian co-founder.</li>
+              <li className='my-2'><span className='font-bold'>Europe:</span> Direct container shipments via Djibouti. Full export documentation for EU customs requirements.</li>
+              <li className='my-2'><span className='font-bold'>Middle East & GCC:</span> Established shipping routes. Export documentation for regional customs requirements.</li>
               <li className='my-2'><span className='font-bold'>Asia & Rest of World:</span> Growing demand met with reliable supply. Contact us for current availability.</li>
             </ul>
           </div>
@@ -3603,7 +3537,7 @@ const Insight = ({params}: Props) => {
           
           <p className='my-4'>
             This article is being prepared. Check back soon for insights on Ethiopian coffee sourcing, 
-            industry trends, and practical guidance for roasters and café partners.
+            industry trends, and practical guidance for importers.
           </p>
           
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>

@@ -21,7 +21,7 @@ const Offerings = () => {
             COFFEE LINEUP
           </h1>
           <p className='mt-4 text-lg text-gray-600 max-w-2xl mx-auto'>
-            Ethiopian lots selected for cafés and roasters worldwide. Traceable, consistent, and ready to ship.
+            Ethiopian lots selected for importers worldwide. Traceable, consistent, and ready to ship.
           </p>
         </div>
 

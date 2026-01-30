@@ -5,14 +5,14 @@ import type { ReactNode } from 'react'
 export const metadata: Metadata = {
   title: 'Terms of Service | Ethio Coffee',
   description:
-    'Terms of Service for Ethio Coffee (Ethio Coffee Import and Export PLC), including website use, wholesale inquiries, quotes, and business-to-business orders.',
+    'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
   alternates: {
     canonical: 'https://ethiocoffee.et/terms',
   },
   openGraph: {
     title: 'Terms of Service | Ethio Coffee',
     description:
-      'Terms of Service for Ethio Coffee (Ethio Coffee Import and Export PLC), including website use, wholesale inquiries, quotes, and business-to-business orders.',
+      'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
     url: 'https://ethiocoffee.et/terms',
     type: 'article',
   },
@@ -58,15 +58,12 @@ export default function TermsPage() {
           <div className='space-y-12'>
             <Section title='1) Who We Are'>
               <p>
-                The Site is operated by <strong>Ethio Coffee Import and Export PLC</strong> (operating as{' '}
-                <strong>Ethio Coffee</strong>) ("Ethio Coffee", "we", "us", or "our"). We provide information about
-                Ethiopian coffee offerings and facilitate business-to-business inquiries for coffee export supply.
+                The Site is operated by <strong>Ethio Coffee Export PLC</strong> (operating as{' '}
+                <strong>Ethio Coffee</strong>) ("Ethio Coffee", "we", "us", or "our"). We are an Ethiopian coffee exporter providing information about
+                Ethiopian coffee offerings and facilitating business-to-business inquiries for coffee export supply to importers worldwide.
               </p>
               <p>
-                For Middle East customers, transactions may be handled through{' '}
-                <strong dir="rtl" lang="ar">إثيو كوفي للاستيراد</strong> (Ethio Coffee Import), our dedicated presence in Saudi Arabia, which maintains regional inventory and logistics.
-                For Canadian customers, transactions may be handled through{' '}
-                <strong>Ethio Coffee Company Inc.</strong>, our dedicated presence in Canada, which maintains local inventory and logistics.
+                Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - Ethio Coffee Export PLC is registered with the Ethiopian Commodity Exchange (ECX) for coffee export.
               </p>
             </Section>
 
@@ -80,8 +77,8 @@ export default function TermsPage() {
 
             <Section title='3) Business-to-Business Use'>
               <p>
-                The Site is intended primarily for <strong>business customers</strong> (e.g., cafés, roasters, importers,
-                distributors, hospitality groups) seeking wholesale coffee supply information and quotes. The Site is
+                The Site is intended primarily for <strong>business customers</strong> (e.g., importers, trading companies, roasters with import capability,
+                distributors, café chains) seeking Ethiopian green coffee export supply information and quotes. The Site is
                 not intended for consumer retail purchases.
               </p>
             </Section>
@@ -127,9 +124,8 @@ export default function TermsPage() {
                 from recognized banks.
               </p>
               <p>
-                Our standard invoicing currency is <strong>USD</strong>. Middle East partners may transact in{' '}
-                <strong>SAR</strong> through our Saudi entity. Canadian partners may transact in{' '}
-                <strong>CAD</strong> through our Canadian entity. We may also invoice in EUR or GBP for international buyers.
+                Our standard invoicing currency is <strong>USD</strong>. We may also invoice in{' '}
+                <strong>EUR</strong> or <strong>GBP</strong> for European buyers upon request.
               </p>
               <p>
                 Unless stated otherwise, prices may exclude shipping, insurance, banking fees, customs

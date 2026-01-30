@@ -5,12 +5,12 @@ import HeadLine from '../lib/Headline'
 
 const headlines = [
   {
-    title: 'VERTICAL INTEGRATION',
+    title: 'DIRECT FROM ORIGIN',
     items: [
-      'Direct oversight from our family estates to regional warehouses in Saudi Arabia and Canada',
-      'Seamless chain of custody via our Ethiopian PLC and local operations',
-      'Eliminated intermediaries to ensure maximum value at both ends',
-      'End-to-end quality control at every hand-off in the supply chain'
+      'Direct oversight from our family estates to export-ready shipments',
+      'Seamless chain of custody through our Ethiopian export operation',
+      'Eliminated intermediaries to ensure maximum value for importers',
+      'End-to-end quality control from farm to port'
     ]
   },
   {
@@ -23,12 +23,12 @@ const headlines = [
     ]
   },
   {
-    title: 'ROASTER-READY LOGISTICS',
+    title: 'IMPORTER-READY EXPORTS',
     items: [
       'Fresh, high-quality inventory available year-round',
       'Strict sample-to-bag consistency through rigorous QC protocols',
       'Advanced moisture-safe packaging to preserve origin character',
-      'Predictable supply planning with localized Middle East and North American distribution'
+      'Flexible shipping terms: FOB Djibouti, CFR, CIF, or DAP to your port'
     ]
   }
 ]
@@ -215,7 +215,7 @@ const CoffeeDesc = () => {
           THE ETHIOPIAN DIFFERENCE
         </h2>
         <p className='text-left m-4'>
-          Ethiopian coffee is famous for its floral and fruity profiles but the real difference is the people behind it. In the same high-altitude regions where coffee has been part of daily life for generations, farmers turn careful picking and processing into cups that feel unmistakably “origin.” Our work starts there: with relationships, consistency, and respect for the craft. 
+          Ethiopian coffee is famous for its floral and fruity profiles, but the real difference is the people behind it. In the same high-altitude regions where coffee has been part of daily life for generations, farmers turn careful picking and processing into cups that feel unmistakably "origin." Our work starts there: with relationships, consistency, and respect for the craft. 
           <br />
           <br />
           Learn about Ethiopian coffee origins: <Link href="/insights/guide-ethiopian-coffee-origins" className='underline'>Coffee Regions</Link>
@@ -264,13 +264,13 @@ const CoffeeDesc = () => {
             WHY CHOOSE ETHIO COFFEE?
             </h2>
             <p className=''>
-            We are built on a family legacy that began long before export paperwork back when our work was simply walking the coffee regions, meeting farmers, and seeing firsthand how easily great coffee loses value between the farm gate and the market.
+            Our story started long before export paperwork - it began on the road. Our father spent his youth traveling Ethiopia's coffee regions with our grandfather, learning how communities work and how much care goes into what the land produces. Coffee captured his attention and never let go. For 30 years, he worked directly with farmers and local markets, watching how great coffee often lost value between the farm gate and international buyers.
             <br />
             <br />
-            Today, we close that gap by managing every step ourselves. We source directly from our own estates, smallholder farmers, and trusted cooperatives. These harvests are exported to our buyers worldwide under our ECX-registered PLC, Ethio Coffee Import and Export. By maintaining this direct control at the source, we ensure clean preparation, consistent profiles, and the dependable communication roasters need.
+            In 2022, we - two brothers, one based in Ethiopia, one Ethiopian-Canadian - formalized what our father built into Ethio Coffee Export PLC. We took decades of relationships, hard-earned trust, and hands-on experience and built an export operation around it. Today, we source from our own estates and trusted partners, prepare lots with the care our father taught us, and export to importers who value traceability and consistency.
             <br />
             <br />
-            If you're a business in the Middle East or North America, we've made things easier for you. We set up local operations in Saudi Arabia (<span dir="rtl" lang="ar">إثيو كوفي للاستيراد</span>) and Canada (Ethio Coffee Company Inc.) so you can buy from nearby warehouses and skip the headaches of international importing. It's the same great coffee, just closer to you.
+            Whether you're an established importer or sourcing Ethiopian coffee for the first time, we make it straightforward: professional documentation, flexible shipping terms, and the kind of clear communication that comes from having one foot in Ethiopia and one in the international market.
             </p>
           </div>
           

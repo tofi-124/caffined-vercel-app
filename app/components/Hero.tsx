@@ -12,12 +12,12 @@ const Hero = () => {
             ETHIO COFFEE
           </h1>
             <p className='text-primary/90 text-sm uppercase tracking-widest mt-3'>
-             From Ethiopian Farms to Global Roasters
+             Your Trusted Ethiopian Coffee Export Partner
             </p>
 
             <div className='mt-6 text-primary lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
-                We're an Ethiopian coffee producer and exporter with a dedicated presence in Saudi Arabia and Canada. Rooted in a family legacy, we work directly with our own estates and trusted partner producers to bring you fully traceable beans - whether you're a roaster down the street or across the world.
+                We're a dedicated Ethiopian coffee exporter, founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian. We serve importers worldwide with premium, traceable green coffee from our own estates and trusted partner producers. Professional export service, consistent quality, clear communication.
               </p>
             </div>
 

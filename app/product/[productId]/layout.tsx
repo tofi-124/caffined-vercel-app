@@ -57,7 +57,7 @@ export default async function ProductLayout({ params, children }: Props) {
     },
     "manufacturer": {
       "@type": "Organization",
-      "name": "Ethio Coffee Import and Export PLC"
+      "name": "Ethio Coffee Export PLC"
     },
     "category": "Green Coffee Beans",
     "material": "100% Arabica Coffee",
@@ -97,7 +97,7 @@ export default async function ProductLayout({ params, children }: Props) {
       "priceCurrency": "USD",
       "seller": {
         "@type": "Organization",
-        "name": "Ethio Coffee Import and Export PLC"
+        "name": "Ethio Coffee Export PLC"
       }
     }
   } : null
