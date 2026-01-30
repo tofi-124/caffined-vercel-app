@@ -33,7 +33,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'cofee-blog-1-1.png',
       large_image_url: 'cofee-blog-1-2.png',
-      date: 'Apr 20, 2025',
+      date: 'May 15, 2025',
       title: 'THE BIRTHPLACE OF COFFEE: ETHIOPIA\'S RICH HERITAGE',
       slug: 'birthplace-of-coffee-ethiopia',
       keywords: ['Ethiopian coffee origin', 'Arabica coffee history', 'Kaffa region', 'coffee birthplace', 'Ethiopian highlands'],
@@ -42,7 +42,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'cofee-blog-2-1.png',
       large_image_url: 'cofee-blog-2-2.jpg',
-      date: 'Apr 10, 2025',
+      date: 'Feb 01, 2025',
       title: 'ETHIOPIAN COFFEE CEREMONIES: TRADITION MEETS BUSINESS',
       slug: 'ethiopian-coffee-ceremony',
       keywords: ['Ethiopian coffee ceremony', 'jebena', 'coffee culture', 'traditional brewing', 'coffee hospitality'],
@@ -51,7 +51,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'cofee-blog-7-1.png',
       large_image_url: 'cofee-blog-7-2.jpg',
-      date: 'Mar 28, 2025',
+      date: 'Feb 07, 2025',
       title: 'DIRECT TRADE PARTNERSHIPS: SUPPORTING ETHIOPIAN FARMERS',
       slug: 'direct-trade-ethiopian-farmers',
       keywords: ['direct trade coffee', 'Ethiopian farmers', 'fair trade', 'coffee sourcing', 'farmer partnerships'],
@@ -212,5 +212,97 @@ export const posts: Post[] = [
         'monoculture coffee'
       ],
       desc: 'Dive deep into coffee as agriculture: from soil science and plant biology to harvesting techniques, farming systems, and the environmental challenges facing coffee production worldwide.'
+    },
+    {
+      small_image_url: 'coffee-processing.webp',
+      large_image_url: 'coffee-processing.webp',
+      date: 'Mar 15, 2025',
+      title: 'COFFEE IS PROCESSING: THE COMPLETE GUIDE TO COFFEE PROCESSING, DRYING, AND MILLING',
+      slug: 'coffee-is-processing-drying-milling',
+      category: 'Coffee Education',
+      keywords: [
+        'coffee processing',
+        'coffee drying',
+        'coffee milling',
+        'washed coffee',
+        'natural coffee',
+        'honey process',
+        'fermentation in coffee',
+        'Ethiopian coffee processing',
+        'specialty coffee processing',
+        'coffee fermentation',
+        'coffee parchment',
+        'green bean processing'
+      ],
+      desc: 'Explore the transformative steps of coffee processing: from post-harvest methods like washed, honey, and natural processing to drying techniques, fermentation, and milling that prepare green beans for export and roasting.'
+    },
+    {
+      small_image_url: 'coffee-commerce.webp',
+      large_image_url: 'coffee-commerce.webp',
+      date: 'Mar 30, 2025',
+      title: 'COFFEE IS COMMERCE: THE COMPLETE GUIDE TO COFFEE EXPORTING, IMPORTING, AND BUYING',
+      slug: 'coffee-is-commerce-exporting-importing-buying',
+      category: 'Coffee Education',
+      keywords: [
+        'coffee commerce',
+        'coffee exporting',
+        'coffee importing',
+        'C market',
+        'specialty coffee',
+        'green coffee buying',
+        'coffee transparency',
+        'coffee supply chain',
+        'coffee pricing',
+        'direct trade coffee',
+        'coffee logistics',
+        'Ethiopian coffee trade'
+      ],
+      desc: 'Navigate the global coffee market: understand the C market vs specialty coffee, exporting and importing logistics, green coffee buying strategies, and the importance of transparency in ethical coffee commerce.'
+    },
+    {
+      small_image_url: 'coffee-science.webp',
+      large_image_url: 'coffee-science.webp',
+      date: 'Apr 15, 2025',
+      title: 'COFFEE IS A SCIENCE: THE COMPLETE GUIDE TO COFFEE ANALYSIS, COMPOUNDS, AND EVALUATION',
+      slug: 'coffee-is-science-analysis-compounds-evaluation',
+      category: 'Coffee Education',
+      keywords: [
+        'coffee science',
+        'green coffee analysis',
+        'coffee compounds',
+        'coffee evaluation',
+        'cupping coffee',
+        'coffee flavor',
+        'coffee chemistry',
+        'specialty coffee grading',
+        'coffee sensory analysis',
+        'coffee aroma compounds',
+        'coffee tasting',
+        'Ethiopian coffee quality'
+      ],
+      desc: 'Delve into the scientific foundations of coffee: physical characteristics of green beans, chemical compounds, flavor perception, sensory evaluation, and the systematic methods used to assess and grade specialty coffee.'
+    },
+    {
+      small_image_url: 'coffee-art.webp',
+      large_image_url: 'coffee-art.webp',
+      date: 'Apr 30, 2025',
+      title: 'COFFEE IS AN ART: THE COMPLETE GUIDE TO COFFEE ROASTING AND BREWING',
+      slug: 'coffee-is-art-roasting-brewing',
+      category: 'Coffee Education',
+      keywords: [
+        'coffee art',
+        'coffee roasting',
+        'coffee brewing',
+        'coffee extraction',
+        'roast curve',
+        'brewing techniques',
+        'coffee heat transfer',
+        'espresso brewing',
+        'pour over coffee',
+        'coffee roasting science',
+        'coffee brewing methods',
+        'specialty coffee preparation'
+      ],
+      desc: 'Master the artistic and technical aspects of coffee: from heat transfer in roasting and roast curve development to brewing fundamentals, extraction theory, and the creative techniques that transform green beans into exceptional cups.'
     }
 ]

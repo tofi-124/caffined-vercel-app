@@ -2315,6 +2315,1029 @@ const Insight = ({params}: Props) => {
               </Link>
             </div>
           </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
+              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
+              research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
+
+        </>
+      );
+    } else if (ind === 12) {
+      // Content for "Coffee is Processing: The Complete Guide to Coffee Processing, Drying, and Milling"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            Coffee Is A Process: The Complete Guide to Coffee Processing, Drying, and Milling
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Understanding the science, art, and techniques of transforming coffee cherries into green beans
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Ethiopian coffee processing insights
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt={`Coffee is Processing - Ethiopian coffee processing insight`}
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: The Art and Science of Coffee Processing</h2>
+          <p className='my-4'>
+            Welcome to the third installment of our "Coffee Is" series, exploring coffee through its various dimensions. In this chapter, we delve into coffee processing, the transformative steps that turn freshly harvested coffee cherries into the green beans ready for roasting and brewing.
+          </p>
+          <p className='my-4'>
+            Coffee processing is where science meets artistry, where microbial activity, mechanical operations, and human decisions shape the final flavor profile. From the ancient natural methods in Ethiopia to modern controlled fermentations, processing determines much of what ends up in your cup.
+          </p>
+          <p className='my-4'>
+            Understanding coffee processing reveals the infinite variables that make each coffee unique, highlighting the creativity and experimentation in specialty coffee production.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>What is Coffee Processing?</h2>
+          <p className='my-4'>
+            Processing refers to the post-harvest steps taken to remove or retain the fruit layers around the coffee seed, preparing it for drying and export. At its core, processing involves a series of mechanical or chemical operations to change and preserve the coffee seed.
+          </p>
+          <p className='my-4'>
+            The primary goal is to transform the coffee cherry, which contains about 50% moisture, into a stable green bean with 9-14% moisture content, ready for milling and export. This process influences the coffee's flavor, shelf life, and roastability.
+          </p>
+          <p className='my-4'>
+            Key factors in processing include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Fruit removal:</strong> Deciding how much fruit to keep or remove</li>
+            <li><strong>Fermentation:</strong> Controlled microbial activity to break down mucilage</li>
+            <li><strong>Drying:</strong> Reducing moisture while preserving quality</li>
+            <li><strong>Milling:</strong> Removing the parchment and cleaning the beans</li>
+          </ul>
+          <p className='my-4'>
+            These decisions are influenced by tradition, market trends, environmental factors, and the producer's goals, making processing a highly variable and creative process.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Anatomy of a Coffee Cherry</h2>
+          <p className='my-4'>
+            To understand processing, we must first examine the coffee cherry's structure. The cherry consists of multiple layers:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Exocarp (skin):</strong> The outer protective layer</li>
+            <li><strong>Mesocarp (fruit/mucilage):</strong> The sticky, sugary layer containing sugars, acids, and compounds that influence flavor</li>
+            <li><strong>Pectin layer:</strong> A thin barrier between the fruit and parchment</li>
+            <li><strong>Endocarp (parchment):</strong> The protective shell around the seed</li>
+            <li><strong>Silver skin:</strong> The innermost papery layer on the bean</li>
+            <li><strong>Endosperm:</strong> The actual coffee bean</li>
+          </ul>
+          <p className='my-4'>
+            Processing primarily manipulates the outer layers (skin, mucilage, and pectin), determining what remains on the seed during drying and how it affects the final flavor.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Core Processing Methods: Washed, Honey, and Natural</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Washed Coffee Processing</h3>
+          <p className='my-4'>
+            Washed processing, also known as wet processing, is the most common method globally. It involves removing all fruit layers before drying, resulting in clean, bright coffees.
+          </p>
+          <p className='my-4'>
+            Steps include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li>Depulping to remove the skin</li>
+            <li>Fermentation to break down mucilage</li>
+            <li>Washing to remove remaining fruit</li>
+            <li>Drying the parchment-covered beans</li>
+          </ul>
+          <p className='my-4'>
+            Washed coffees are known for their delicate, articulate flavors, crisp acidity, and clean mouthfeel. They require significant water and infrastructure but offer consistency and efficiency.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Honey Coffee Processing</h3>
+          <p className='my-4'>
+            Honey processing, popularized in Costa Rica, removes the skin but leaves some or all of the mucilage on the beans during drying. The term "honey" refers to the sticky, honey-like appearance of the beans.
+          </p>
+          <p className='my-4'>
+            Variations include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>White honey:</strong> Most mucilage removed</li>
+            <li><strong>Yellow honey:</strong> Moderate mucilage</li>
+            <li><strong>Red honey:</strong> Significant mucilage</li>
+            <li><strong>Black honey:</strong> All mucilage retained</li>
+          </ul>
+          <p className='my-4'>
+            Honey-processed coffees offer fuller body, sweeter notes, and complex fruitiness. Drying takes longer (2-4 weeks) and requires careful monitoring to avoid over-fermentation.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Natural Coffee Processing</h3>
+          <p className='my-4'>
+            Natural processing, the oldest method originating in Ethiopia, dries the whole cherry without removing any fruit layers. The beans ferment inside the cherry as it dries.
+          </p>
+          <p className='my-4'>
+            This method:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li>Requires no water or depulping equipment</li>
+            <li>Takes 3-4 weeks to dry</li>
+            <li>Produces bold, fruity, and complex flavors</li>
+            <li>Carries higher risk of defects if not managed properly</li>
+          </ul>
+          <p className='my-4'>
+            Natural coffees often feature intense sweetness, wine-like notes, and heavy body, but consistency can be challenging due to variable fermentation.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Fermentation in Coffee Processing</h2>
+          <p className='my-4'>
+            Fermentation is a controlled microbial process that breaks down the mucilage layer and influences flavor development. It occurs through glycolysis, where microorganisms consume sugars and produce byproducts like acids, alcohols, and volatile aromatics.
+          </p>
+          <p className='my-4'>
+            Key aspects include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Aerobic vs. Anaerobic:</strong> Oxygen presence affects microbial activity</li>
+            <li><strong>Spontaneous vs. Inoculated:</strong> Natural microbes or added starter cultures</li>
+            <li><strong>Variables:</strong> Time, temperature, pH, and additives</li>
+          </ul>
+          <p className='my-4'>
+            Modern fermentation techniques like anaerobic processing and carbonic maceration allow producers to experiment with unique flavor profiles, adding complexity to washed, honey, and natural methods.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Coffee Drying: Preserving Quality</h2>
+          <p className='my-4'>
+            Drying reduces the coffee's moisture from 50% to 9-14%, making it shelf-stable. The method and duration significantly impact flavor by affecting water activity and volatile compound retention.
+          </p>
+          <p className='my-4'>
+            Common drying methods:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Patio drying:</strong> Beans spread on concrete surfaces, turned regularly</li>
+            <li><strong>Raised beds:</strong> Improved air flow and consistency</li>
+            <li><strong>Parabolic dryers:</strong> Greenhouse-like structures for controlled drying</li>
+            <li><strong>Mechanical dryers:</strong> Fast but can damage flavor precursors if too hot</li>
+          </ul>
+          <p className='my-4'>
+            Slower drying generally preserves more quality, with studies showing longer drying times and more retained fruit correlate with higher volatile aromatic content.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Coffee Milling: Final Preparation</h2>
+          <p className='my-4'>
+            Milling removes the parchment layer and cleans the green beans for export. This step ensures uniformity and prevents defects.
+          </p>
+          <p className='my-4'>
+            Key milling steps:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Hulling:</strong> Removing parchment with minimal friction</li>
+            <li><strong>Cleaning:</strong> Removing dust, stones, and debris</li>
+            <li><strong>Sorting:</strong> By size, density, and color using screens, tables, and optical sorters</li>
+            <li><strong>Polishing (optional):</strong> Removing silver skin for a cleaner appearance</li>
+          </ul>
+          <p className='my-4'>
+            Proper milling maintains bean integrity and roastability, with modern technology improving efficiency and quality control.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: The Infinite Possibilities of Coffee Processing</h2>
+          <p className='my-4'>
+            Coffee processing is a testament to the beverage's complexity, where biological processes, human creativity, and environmental factors converge to create unique flavor experiences. From traditional Ethiopian naturals to experimental anaerobic fermentations, processing showcases the endless innovation in specialty coffee.
+          </p>
+          <p className='my-4'>
+            At Ethio Coffee, we celebrate this diversity by sourcing coffees processed with care and expertise, ensuring exceptional quality from cherry to cup.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <p className='my-2 font-medium'>
+              Discover how processing influences flavor in our Ethiopian coffees. Contact us to explore our range of washed, honey, and natural-processed offerings.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                GET IN TOUCH
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
+              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
+              research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
+        </>
+      );
+    } else if (ind === 13) {
+      // Content for "Coffee is Commerce: The Complete Guide to Coffee Exporting, Importing, and Buying"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            Coffee is Commerce: The Complete Guide to Coffee Exporting, Importing, and Buying
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Navigating the global coffee market, C market, specialty coffee, and transparency in coffee trade
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Ethiopian coffee commerce insights
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt={`${title} - Ethiopian coffee commerce insight`}
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee as a Global Industry</h2>
+          <p className='my-4'>
+            Welcome to the fourth installment of our "Coffee Is" series, where we delve into coffee through the lens of commerce. Coffee commerce encompasses the intricate web of exporting, importing, and trading that transforms harvested beans into the cups we cherish. This chapter explores the dynamics of the C market versus specialty coffee, the logistics of green coffee buying, and the critical role of transparency in ensuring fair and sustainable coffee trade.
+          </p>
+          <p className='my-4'>
+            Understanding coffee commerce is essential for roasters, importers, and enthusiasts alike. It reveals how global markets influence prices, how specialty coffee differentiates itself from commodity trading, and why ethical practices in exporting and importing are vital for the industry's future. From the bustling ports of origin countries to the warehouses of importing nations, coffee commerce drives the economic engine of this beloved beverage.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The C Market: Commodity Coffee Trading</h2>
+          <p className='my-4'>
+            At the heart of coffee commerce lies the C market, a standardized global marketplace for trading coffee futures contracts. Established in 1968, the C market operates out of New York and serves as a benchmark for coffee prices worldwide. Unlike specialty coffee, the C market treats all coffee as a commodity, focusing on contracts for commercial washed coffee delivered in specific quantities and qualities.
+          </p>
+          <p className='my-4'>
+            Key aspects of the C market include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Futures Contracts:</strong> Buyers and sellers trade contracts for coffee to be delivered in the future, allowing hedging against price volatility.</li>
+            <li><strong>Price Discovery:</strong> Supply and demand, influenced by factors like Brazil's harvest cycles, determine spot prices that can fluctuate dramatically.</li>
+            <li><strong>Volatility:</strong> Prices have ranged from 41 cents to over $4 per pound in recent years, impacting global coffee economics.</li>
+          </ul>
+          <p className='my-4'>
+            The C market represents 90-95% of global coffee trade, providing stability for large-scale operations but often failing to reward quality or sustainability. In contrast, specialty coffee emerges as a reaction to this commoditization, emphasizing distinctiveness and ethical sourcing.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Specialty Coffee: Differentiated and Transparent</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Defining Specialty Coffee</h3>
+          <p className='my-4'>
+            Specialty coffee transcends the C market by recognizing coffee's unique qualities, origins, and processing methods. It prioritizes traceability, cup excellence, and relationships over standardized contracts. Specialty coffee scoring, using tools like the SCA cupping form, evaluates attributes such as sweetness, balance, and distinctiveness, often scoring 80+ points.
+          </p>
+          <p className='my-4'>
+            Unlike the C market's anonymity, specialty coffee involves direct connections between producers, exporters, importers, and roasters. This approach ensures that premiums are paid for exceptional quality, social programs, and environmental stewardship, fostering a more equitable coffee commerce ecosystem.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>C Market vs. Specialty: Key Differences</h3>
+          <p className='my-4'>
+            The C market and specialty coffee operate on fundamentally different principles:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Standardization:</strong> C market coffee is uniform; specialty celebrates diversity in flavor and origin.</li>
+            <li><strong>Pricing:</strong> C market prices are volatile and low; specialty commands premiums based on quality differentials.</li>
+            <li><strong>Traceability:</strong> C market lacks origin details; specialty emphasizes transparency from farm to cup.</li>
+          </ul>
+          <p className='my-4'>
+            Specialty coffee's growth to 5-10% of global volume highlights a shift toward value-driven commerce, where consumers and buyers seek meaningful connections and sustainable practices.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Coffee Exporting and Importing: Logistics of Global Trade</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The Export Process</h3>
+          <p className='my-4'>
+            Coffee exporting begins after milling, where green beans are prepared for international shipment. Exporters, ranging from government-run entities to private companies, source coffee from producers, cooperatives, or mills. They handle logistics like bagging, quality control, and transportation to ports.
+          </p>
+          <p className='my-4'>
+            Key steps in exporting include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Sourcing:</strong> Collecting coffee in parchment or green bean form from various entities.</li>
+            <li><strong>Processing:</strong> Milling, sorting, and bagging into jute bags for shipment.</li>
+            <li><strong>Shipping:</strong> Transporting via truck to ports, then by sea freight to importing countries.</li>
+          </ul>
+          <p className='my-4'>
+            Free on Board (FOB) pricing covers costs from sourcing to loading onto ships, ensuring exporters profit while supporting upstream partners.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The Import Process</h3>
+          <p className='my-4'>
+            Importing coffee involves receiving shipments at destination ports and managing customs, warehousing, and distribution. Importers like Cafe Imports purchase from exporters, handle logistics, and provide services such as financing and quality assurance.
+          </p>
+          <p className='my-4'>
+            The import journey includes:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Receiving:</strong> Offloading containers and clearing customs.</li>
+            <li><strong>Quality Checks:</strong> Sampling and approving pre-ship samples before final payment.</li>
+            <li><strong>Distribution:</strong> Warehousing and shipping to roasters via Ex Works (EXW) pricing.</li>
+          </ul>
+          <p className='my-4'>
+            Effective coffee importing requires trust, efficient logistics, and a commitment to fair pricing to maintain supply chain integrity.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Green Coffee Buying: Strategies and Transparency</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Entities in Green Buying</h3>
+          <p className='my-4'>
+            Green coffee buying involves producers, cooperatives, exporters, importers, and roasters. Producers sell at farmgate prices, cooperatives aggregate for market access, and exporters facilitate international trade. Importers and roasters negotiate based on quality, origin, and impact.
+          </p>
+          <p className='my-4'>
+            Pricing tiers include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Farmgate:</strong> Paid to producers, covering production and living costs.</li>
+            <li><strong>FOB:</strong> Exporter pricing, including sourcing and logistics.</li>
+            <li><strong>EXW:</strong> Importer pricing, delivering to roasters.</li>
+          </ul>
+          <p className='my-4'>
+            Specialty premiums reward quality, social programs, and certifications, bridging the gap between C market baselines and differentiated value.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The Buying Timeline</h3>
+          <p className='my-4'>
+            Green buying follows a structured process: receiving offers, cupping samples, drafting contracts, milling, approving pre-ship samples, booking logistics, and final payment via cash-against-documents systems. This ensures quality and timely delivery in coffee commerce.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Transparency in Coffee Trade: Building Trust and Accountability</h2>
+          <p className='my-4'>
+            Transparency in coffee commerce means sharing information about pricing, origins, and impacts to foster accountability. It addresses challenges like undocumented farmgate prices and power imbalances, promoting fair compensation and sustainable practices.
+          </p>
+          <p className='my-4'>
+            Key transparency practices include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Data Sharing:</strong> Providing breakdowns of payments to producers and supply chain partners.</li>
+            <li><strong>Third-Party Verification:</strong> Using certifications like B Corp for social and environmental impact.</li>
+            <li><strong>Relationship Building:</strong> Aligning with partners who share values in ethical coffee commerce.</li>
+          </ul>
+          <p className='my-4'>
+            By prioritizing transparency, the industry can ensure that coffee commerce uplifts producers, protects the environment, and delivers value to consumers, moving beyond extractive practices toward mutual benefit.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: The Future of Coffee Commerce</h2>
+          <p className='my-4'>
+            Coffee commerce is more than transactions; it's a system of relationships, logistics, and ethics that connects global communities. From the volatility of the C market to the nuanced world of specialty coffee, understanding exporting, importing, and green buying empowers stakeholders to drive positive change. Transparency remains the cornerstone, ensuring that every cup reflects fair trade and sustainable practices.
+          </p>
+          <p className='my-4'>
+            At Ethio Coffee, we champion ethical coffee commerce by sourcing directly from Ethiopian producers, prioritizing transparency, and supporting specialty coffee's growth. Join us in building a more equitable industry.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <p className='my-2 font-medium'>
+              Ready to explore premium Ethiopian coffee through transparent commerce? Contact us to discover our direct trade partnerships and commitment to fair pricing.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                GET IN TOUCH
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
+              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
+              research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
+        </>
+      );
+    } else if (ind === 14) {
+      // Content for "Coffee is a Science: The Complete Guide to Coffee Analysis, Compounds, and Evaluation"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            Coffee is a Science: The Complete Guide to Coffee Analysis, Compounds, and Evaluation
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Exploring the physical characteristics, chemical compounds, and sensory evaluation of coffee
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Coffee science insights from green bean analysis to sensory evaluation
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt={`${title} - Coffee science analysis and evaluation insight`}
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee as a Scientific Endeavor</h2>
+          <p className='my-4'>
+            Welcome to the fifth installment of our "Coffee Is" series, where we delve into coffee through multifaceted perspectives. In this chapter, we explore coffee is a science - a systematic pursuit of knowledge about the physical attributes, chemical composition, and sensory evaluation that define exceptional coffee quality.
+          </p>
+          <p className='my-4'>
+            From green coffee analysis to the intricate world of cupping coffee, understanding the science behind coffee compounds and flavor perception transforms how we appreciate and evaluate this remarkable beverage. Every sip represents the culmination of scientific principles applied throughout the supply chain.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Science of Green Coffee Evaluation</h2>
+          <p className='my-4'>
+            Green coffee analysis begins with systematic evaluation of physical characteristics that influence roasting and final flavor. This coffee science approach ensures consistency and quality in specialty coffee production.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Physical Characteristics of Green Beans</h3>
+          <p className='my-4'>
+            Green coffee grading evaluates several key physical attributes using standardized methods:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Screen Size:</strong> Measuring bean size through mesh screens, typically ranging from 14-19 64th inch increments</li>
+            <li><strong>Density:</strong> Assessing cellular structure through bulk density or liquid displacement methods</li>
+            <li><strong>Moisture Content:</strong> Maintaining optimal 9-12% moisture for quality preservation and microbial stability</li>
+            <li><strong>Defect Analysis:</strong> Identifying physical imperfections that impact coffee evaluation</li>
+          </ul>
+          <p className='my-4'>
+            These physical characteristics directly influence roasting profiles and help predict potential flavor outcomes in coffee compounds analysis.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Defect Classification in Specialty Coffee</h3>
+          <p className='my-4'>
+            Specialty coffee standards require zero Category 1 defects and fewer than 5 Category 2 defects per 350g sample:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Category 1:</strong> Full blacks, full sours, severe insect damage, foreign matter</li>
+            <li><strong>Category 2:</strong> Partial defects, immature beans, parchment, floaters, withered beans</li>
+          </ul>
+          <p className='my-4'>
+            Understanding these defects is crucial for green coffee analysis and maintaining specialty grade quality standards.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Chemical Compounds in Green Coffee</h2>
+          <p className='my-4'>
+            The science of coffee compounds reveals a complex biochemical profile that transforms during roasting. Green coffee contains various compound categories that contribute to flavor development.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Organic Acids and Flavor Foundation</h3>
+          <p className='my-4'>
+            Organic acids make up approximately 5% of green coffee by weight and provide the foundation for acidity and tartness:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Simple Organic Acids:</strong> Citric, malic, acetic, and quinic acids that survive roasting</li>
+            <li><strong>Chlorogenic Acids:</strong> Complex acid chains that break down into various flavor compounds during roasting</li>
+          </ul>
+          <p className='my-4'>
+            These coffee compounds are highly extractable and contribute significantly to the perceived brightness and complexity in coffee flavor.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Minerals, Sugars, and Bitter Components</h3>
+          <p className='my-4'>
+            Additional compound categories include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Minerals and Salts:</strong> Potassium, magnesium, calcium providing subtle saltiness (1% by weight)</li>
+            <li><strong>Sugars:</strong> Sucrose (8-12% by weight) that caramelizes and contributes sweetness</li>
+            <li><strong>Bitter Compounds:</strong> Caffeine, trigonelline, and chlorogenic acids creating complexity</li>
+          </ul>
+          <p className='my-4'>
+            These elements interact during roasting to develop the balanced flavor profile characteristic of quality coffee.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Aroma Precursors and Textural Elements</h3>
+          <p className='my-4'>
+            Volatile compounds and structural components complete the green coffee composition:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Aroma Precursors:</strong> Aldehydes, ketones, furans, pyrazines forming the basis of coffee flavor notes</li>
+            <li><strong>Lipids and Amino Acids:</strong> Providing body, texture, and nutty characteristics</li>
+            <li><strong>Structural Components:</strong> Cellulose, hemicellulose, lignin maintaining bean integrity</li>
+          </ul>
+          <p className='my-4'>
+            These compounds transform dramatically during roasting, creating the thousands of aroma compounds that define coffee science.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Flavor Perception and Sensory Science</h2>
+          <p className='my-4'>
+            Coffee flavor perception involves complex interactions between chemical compounds and human sensory systems. Understanding this science enhances coffee evaluation techniques.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The Components of Flavor</h3>
+          <p className='my-4'>
+            Flavor in coffee comprises three primary elements:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Taste:</strong> Chemical detection of sweet, sour, salty, bitter, umami on the tongue</li>
+            <li><strong>Aroma:</strong> Olfactory perception through the nose, the dominant contributor to flavor</li>
+            <li><strong>Body/Texture:</strong> Tactile sensation of weight, viscosity, and mouthfeel</li>
+          </ul>
+          <p className='my-4'>
+            Aroma, processed through olfactory neurons and the brain's limbic system, provides the majority of flavor complexity in coffee evaluation.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sensory Errors and Bias in Tasting</h3>
+          <p className='my-4'>
+            Scientific sensory analysis identifies common errors that affect coffee flavor perception:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Adaptation:</strong> Reduced sensitivity after repeated exposure to intense flavors</li>
+            <li><strong>Contrast Effects:</strong> Perception changes based on preceding samples</li>
+            <li><strong>Expectation Bias:</strong> Preconceived notions influencing flavor interpretation</li>
+            <li><strong>Context Effects:</strong> Environmental factors impacting sensory experience</li>
+          </ul>
+          <p className='my-4'>
+            Recognizing these physiological and psychological factors improves the accuracy of coffee evaluation methods.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Cupping Coffee: The Art of Sensory Evaluation</h2>
+          <p className='my-4'>
+            Cupping represents the systematic sensory evaluation of coffee, combining scientific methodology with skilled assessment. This coffee science approach standardizes flavor analysis across the industry.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The Cupping Protocol</h3>
+          <p className='my-4'>
+            Professional cupping follows established procedures:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Sample Preparation:</strong> Light roasting, grinding, and brewing with consistent ratios</li>
+            <li><strong>Evaluation Framework:</strong> Assessing fragrance, aroma, flavor, aftertaste, acidity, body, balance, sweetness, uniformity, clean cup, overall</li>
+            <li><strong>Scoring System:</strong> Numerical ratings from 1-10 across quality attributes</li>
+          </ul>
+          <p className='my-4'>
+            Modern cupping incorporates new forms like the Coffee Value Assessment (CVA) that separate descriptive and scoring functions.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Best Practices for Accurate Evaluation</h3>
+          <p className='my-4'>
+            Scientific cupping methodology includes:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Blind Tasting:</strong> Randomized sample presentation to minimize bias</li>
+            <li><strong>Reference Standards:</strong> Using baseline coffees for calibration</li>
+            <li><strong>Replication:</strong> Multiple evaluations for statistical reliability</li>
+            <li><strong>Controlled Environment:</strong> Consistent conditions for valid comparisons</li>
+          </ul>
+          <p className='my-4'>
+            These practices ensure objective coffee evaluation that supports quality assessment and pricing decisions.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: The Scientific Foundation of Coffee Excellence</h2>
+          <p className='my-4'>
+            Coffee is a science that demands systematic knowledge of physical characteristics, chemical compounds, and sensory evaluation. Understanding green coffee analysis, flavor perception, and cupping methodology provides the foundation for appreciating and producing exceptional coffee.
+          </p>
+          <p className='my-4'>
+            At Ethio Coffee, we apply rigorous scientific principles to every aspect of our sourcing and evaluation process, ensuring that our partners receive coffee of the highest quality and consistency.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <p className='my-2 font-medium'>
+              Ready to experience the science of exceptional Ethiopian coffee? Contact us to learn about our rigorous quality evaluation and sourcing process.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                GET IN TOUCH
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
+              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
+              research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
+        </>
+      );
+    } else if (ind === 15) {
+      // Content for "Coffee is an Art: The Complete Guide to Coffee Roasting and Brewing"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            Coffee is an Art: The Complete Guide to Coffee Roasting and Brewing
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Mastering the creative and technical aspects of transforming green beans into exceptional cups
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Coffee art insights from roasting techniques to brewing mastery
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt={`${title} - Coffee art roasting and brewing guide`}
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee as an Artistic Endeavor</h2>
+          <p className='my-4'>
+            Welcome to the sixth installment of our "Coffee Is" series, where we explore coffee through multifaceted perspectives. In this chapter, we delve into coffee is an art - the creative and technical mastery of transforming green beans into exceptional cups through skilled coffee roasting and precise coffee brewing techniques.
+          </p>
+          <p className='my-4'>
+            Coffee art combines scientific understanding with creative imagination, requiring practice, knowledge, and experimentation to achieve perfect extraction and flavor harmony. Every roast curve and brew represents the conscious application of skill in the coffee roasting and coffee brewing process.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Art of Coffee Roasting: Heat Transfer and Control</h2>
+          <p className='my-4'>
+            Coffee roasting is the intentional application of heat to create profound physical and chemical changes in coffee beans. This coffee art process transforms green coffee into roasted coffee through controlled heat transfer and precise temperature management.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Roaster Components and Technical Specifications</h3>
+          <p className='my-4'>
+            Modern coffee roasters feature several key components that enable precise control over the roasting process:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Hopper:</strong> Green bean storage and loading mechanism for consistent feed rates</li>
+            <li><strong>Drum or Fluid Bed:</strong> Primary roasting chamber where heat transfer occurs through conduction, convection, or hot air</li>
+            <li><strong>Chaff Collector:</strong> Vacuum system that removes silver skin and prevents combustion</li>
+            <li><strong>Control Panel:</strong> Interface for monitoring and adjusting roast parameters</li>
+            <li><strong>Cooling Tray:</strong> Rapid cooling system to halt roasting reactions</li>
+            <li><strong>Airflow System:</strong> Fan and ducting that control air velocity and volume within the roast chamber</li>
+          </ul>
+          <p className='my-4'>
+            Coffee roasting equipment ranges from small 50-gram sample roasters to massive 100-kilogram production units, each designed for specific heat transfer methods and capacity requirements.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sensors and Data-Driven Roasting</h3>
+          <p className='my-4'>
+            Advanced coffee roasting relies on comprehensive sensor data to monitor and control the roast curve:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Bean Temperature Probe:</strong> Measures internal bean temperature for precise roast development</li>
+            <li><strong>Inlet Temperature:</strong> Monitors heat source temperature entering the roast chamber</li>
+            <li><strong>Drum Surface Temperature:</strong> Tracks conductive heat transfer from the drum</li>
+            <li><strong>Exhaust Temperature:</strong> Indicates roast progression and airflow efficiency</li>
+            <li><strong>Airflow Velocity and Volume:</strong> Controls convection heating and moisture removal</li>
+            <li><strong>Crack Detection:</strong> Audio sensors that identify first and second crack events</li>
+          </ul>
+          <p className='my-4'>
+            These sensors enable roasters to create precise roast curves that optimize flavor development and consistency in coffee roasting.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sample vs. Production Roasting Techniques</h3>
+          <p className='my-4'>
+            Coffee art requires different approaches for sample and production roasting:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Sample Roasting:</strong> Small-batch roasting (50g-1kg) for quality assessment and profile development</li>
+            <li><strong>Production Roasting:</strong> Large-scale roasting requiring consistent heat transfer and airflow management</li>
+            <li><strong>Heat Transfer Methods:</strong> Drum roasters use conductive heating, fluid bed roasters rely on convective hot air</li>
+            <li><strong>Energy Sources:</strong> Gas burners for direct flame heating or electric elements for precise temperature control</li>
+          </ul>
+          <p className='my-4'>
+            Understanding these differences is crucial for scaling coffee roasting techniques from development to commercial production.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Chemical Transformations in Roasted Coffee</h2>
+          <p className='my-4'>
+            The coffee roasting process fundamentally alters the chemical composition of green coffee, creating the foundation for exceptional flavor through controlled chemical reactions.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Roast Development and Compound Changes</h3>
+          <p className='my-4'>
+            Heat application during coffee roasting triggers multiple chemical transformations:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Moisture Evaporation:</strong> Initial drying phase removes 10-15% water content</li>
+            <li><strong>Maillard Reactions:</strong> Complex browning reactions between amino acids and sugars create flavor compounds</li>
+            <li><strong>Caramelization:</strong> Sugar breakdown produces sweetness and color changes</li>
+            <li><strong>Pyrolysis:</strong> Thermal decomposition of chlorogenic acids and other compounds</li>
+            <li><strong>Volatilization:</strong> Release of aromatic compounds that contribute to coffee aroma</li>
+          </ul>
+          <p className='my-4'>
+            These transformations convert green coffee compounds into the complex flavor profile of roasted coffee, requiring precise control of the roast curve.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Roast Degrees and Flavor Profiles</h3>
+          <p className='my-4'>
+            Different roast levels achieve distinct chemical balances:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Light Roast:</strong> Preserves more origin characteristics with higher acidity and complex flavors</li>
+            <li><strong>Medium Roast:</strong> Balanced development of sweetness and body with moderate roast character</li>
+            <li><strong>Dark Roast:</strong> Enhanced roast flavors with reduced acidity and increased bitterness</li>
+            <li><strong>Roast Curve Control:</strong> Temperature ramping that determines the final compound composition</li>
+          </ul>
+          <p className='my-4'>
+            Mastering coffee roasting involves understanding how heat transfer affects these chemical changes throughout the roast process.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Art of Coffee Brewing: Fundamentals of Extraction</h2>
+          <p className='my-4'>
+            Coffee brewing represents the final artistic expression, where roasted coffee compounds are extracted through water to create the perfect cup. This coffee extraction process requires understanding solubility, time, temperature, and technique.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Brewing Fundamentals and Water Chemistry</h3>
+          <p className='my-4'>
+            Successful coffee brewing depends on fundamental principles:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Water Temperature:</strong> Optimal range of 195-205°F (91-96°C) for balanced extraction</li>
+            <li><strong>Water Quality:</strong> Proper mineral content and pH for efficient compound dissolution</li>
+            <li><strong>Grind Size:</strong> Particle size affects surface area and extraction rate</li>
+            <li><strong>Brew Time:</strong> Duration that allows complete but not over-extraction</li>
+            <li><strong>Agitation:</strong> Water flow and turbulence that promote even extraction</li>
+          </ul>
+          <p className='my-4'>
+            These brewing techniques form the foundation for consistent and flavorful coffee extraction.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Extraction Theory and Compound Solubility</h3>
+          <p className='my-4'>
+            Coffee extraction involves dissolving soluble compounds from ground coffee:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Soluble Solids:</strong> Target extraction of 18-22% total dissolved solids</li>
+            <li><strong>Flavor Compounds:</strong> Balanced extraction of acids, sugars, and bitter compounds</li>
+            <li><strong>Over-extraction:</strong> Excessive contact time leading to bitterness and astringency</li>
+            <li><strong>Under-extraction:</strong> Insufficient extraction resulting in weak, sour flavors</li>
+            <li><strong>Flow Rate Control:</strong> Managing water contact time for optimal compound dissolution</li>
+          </ul>
+          <p className='my-4'>
+            Understanding coffee extraction principles enables roasters and baristas to develop precise brewing techniques.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Advanced Brewing Methods and Techniques</h3>
+          <p className='my-4'>
+            Various brewing methods offer different approaches to coffee extraction:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Immersion Brewing:</strong> French press and cold brew methods with extended contact time</li>
+            <li><strong>Drip Brewing:</strong> Pour-over and automatic drip systems with controlled flow rates</li>
+            <li><strong>Pressure Brewing:</strong> Espresso extraction using high pressure for concentrated results</li>
+            <li><strong>Alternative Methods:</strong> AeroPress, siphon, and Turkish coffee techniques</li>
+            <li><strong>Ratio Optimization:</strong> Coffee-to-water ratios that achieve target extraction percentages</li>
+          </ul>
+          <p className='my-4'>
+            Each brewing technique requires specific knowledge of coffee extraction dynamics to achieve optimal flavor balance.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Mastering the Art of Coffee Excellence</h2>
+          <p className='my-4'>
+            Coffee is an art that combines scientific understanding with creative skill in roasting and brewing. Mastering heat transfer, roast curves, and extraction principles allows coffee professionals to transform green beans into exceptional cups through deliberate practice and experimentation.
+          </p>
+          <p className='my-4'>
+            At Ethio Coffee, we embrace the artistic aspects of coffee roasting and brewing, applying our expertise to create unique flavor profiles that showcase the best of Ethiopian coffee heritage.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <p className='my-2 font-medium'>
+              Ready to experience the art of exceptional Ethiopian coffee? Contact us to discover our masterful roasting and brewing techniques.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                GET IN TOUCH
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
+              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
+              research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
+        </>
+      );
+    } else if (ind === 16) {
+      // Content for "Coffee is Processing: The Complete Guide to Coffee Processing, Drying, and Milling"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            Coffee is Processing: The Complete Guide to Coffee Processing, Drying, and Milling
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Understanding the science, art, and techniques of transforming coffee cherries into green beans
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Ethiopian coffee processing insights
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt={`Coffee is Processing - Ethiopian coffee processing insight`}
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: The Art and Science of Coffee Processing</h2>
+          <p className='my-4'>
+            Welcome to the third installment of our "Coffee Is" series, exploring coffee through its various dimensions. In this chapter, we delve into coffee processing, the transformative steps that turn freshly harvested coffee cherries into the green beans ready for roasting and brewing.
+          </p>
+          <p className='my-4'>
+            Coffee processing is where science meets artistry, where microbial activity, mechanical operations, and human decisions shape the final flavor profile. From the ancient natural methods in Ethiopia to modern controlled fermentations, processing determines much of what ends up in your cup.
+          </p>
+          <p className='my-4'>
+            Understanding coffee processing reveals the infinite variables that make each coffee unique, highlighting the creativity and experimentation in specialty coffee production.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>What is Coffee Processing?</h2>
+          <p className='my-4'>
+            Processing refers to the post-harvest steps taken to remove or retain the fruit layers around the coffee seed, preparing it for drying and export. At its core, processing involves a series of mechanical or chemical operations to change and preserve the coffee seed.
+          </p>
+          <p className='my-4'>
+            The primary goal is to transform the coffee cherry, which contains about 50% moisture, into a stable green bean with 9-14% moisture content, ready for milling and export. This process influences the coffee's flavor, shelf life, and roastability.
+          </p>
+          <p className='my-4'>
+            Key factors in processing include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Fruit removal:</strong> Deciding how much fruit to keep or remove</li>
+            <li><strong>Fermentation:</strong> Controlled microbial activity to break down mucilage</li>
+            <li><strong>Drying:</strong> Reducing moisture while preserving quality</li>
+            <li><strong>Milling:</strong> Removing the parchment and cleaning the beans</li>
+          </ul>
+          <p className='my-4'>
+            These decisions are influenced by tradition, market trends, environmental factors, and the producer's goals, making processing a highly variable and creative process.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Anatomy of a Coffee Cherry</h2>
+          <p className='my-4'>
+            To understand processing, we must first examine the coffee cherry's structure. The cherry consists of multiple layers:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Exocarp (skin):</strong> The outer protective layer</li>
+            <li><strong>Mesocarp (fruit/mucilage):</strong> The sticky, sugary layer containing sugars, acids, and compounds that influence flavor</li>
+            <li><strong>Pectin layer:</strong> A thin barrier between the fruit and parchment</li>
+            <li><strong>Endocarp (parchment):</strong> The protective shell around the seed</li>
+            <li><strong>Silver skin:</strong> The innermost papery layer on the bean</li>
+            <li><strong>Endosperm:</strong> The actual coffee bean</li>
+          </ul>
+          <p className='my-4'>
+            Processing primarily manipulates the outer layers (skin, mucilage, and pectin), determining what remains on the seed during drying and how it affects the final flavor.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Core Processing Methods: Washed, Honey, and Natural</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Washed Coffee Processing</h3>
+          <p className='my-4'>
+            Washed processing, also known as wet processing, is the most common method globally. It involves removing all fruit layers before drying, resulting in clean, bright coffees.
+          </p>
+          <p className='my-4'>
+            Steps include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li>Depulping to remove the skin</li>
+            <li>Fermentation to break down mucilage</li>
+            <li>Washing to remove remaining fruit</li>
+            <li>Drying the parchment-covered beans</li>
+          </ul>
+          <p className='my-4'>
+            Washed coffees are known for their delicate, articulate flavors, crisp acidity, and clean mouthfeel. They require significant water and infrastructure but offer consistency and efficiency.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Honey Coffee Processing</h3>
+          <p className='my-4'>
+            Honey processing, popularized in Costa Rica, removes the skin but leaves some or all of the mucilage on the beans during drying. The term "honey" refers to the sticky, honey-like appearance of the beans.
+          </p>
+          <p className='my-4'>
+            Variations include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>White honey:</strong> Most mucilage removed</li>
+            <li><strong>Yellow honey:</strong> Moderate mucilage</li>
+            <li><strong>Red honey:</strong> Significant mucilage</li>
+            <li><strong>Black honey:</strong> All mucilage retained</li>
+          </ul>
+          <p className='my-4'>
+            Honey-processed coffees offer fuller body, sweeter notes, and complex fruitiness. Drying takes longer (2-4 weeks) and requires careful monitoring to avoid over-fermentation.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Natural Coffee Processing</h3>
+          <p className='my-4'>
+            Natural processing, the oldest method originating in Ethiopia, dries the whole cherry without removing any fruit layers. The beans ferment inside the cherry as it dries.
+          </p>
+          <p className='my-4'>
+            This method:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li>Requires no water or depulping equipment</li>
+            <li>Takes 3-4 weeks to dry</li>
+            <li>Produces bold, fruity, and complex flavors</li>
+            <li>Carries higher risk of defects if not managed properly</li>
+          </ul>
+          <p className='my-4'>
+            Natural coffees often feature intense sweetness, wine-like notes, and heavy body, but consistency can be challenging due to variable fermentation.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Fermentation in Coffee Processing</h2>
+          <p className='my-4'>
+            Fermentation is a controlled microbial process that breaks down the mucilage layer and influences flavor development. It occurs through glycolysis, where microorganisms consume sugars and produce byproducts like acids, alcohols, and volatile aromatics.
+          </p>
+          <p className='my-4'>
+            Key aspects include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Aerobic vs. Anaerobic:</strong> Oxygen presence affects microbial activity</li>
+            <li><strong>Spontaneous vs. Inoculated:</strong> Natural microbes or added starter cultures</li>
+            <li><strong>Variables:</strong> Time, temperature, pH, and additives</li>
+          </ul>
+          <p className='my-4'>
+            Modern fermentation techniques like anaerobic processing and carbonic maceration allow producers to experiment with unique flavor profiles, adding complexity to washed, honey, and natural methods.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Coffee Drying: Preserving Quality</h2>
+          <p className='my-4'>
+            Drying reduces the coffee's moisture from 50% to 9-14%, making it shelf-stable. The method and duration significantly impact flavor by affecting water activity and volatile compound retention.
+          </p>
+          <p className='my-4'>
+            Common drying methods:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Patio drying:</strong> Beans spread on concrete surfaces, turned regularly</li>
+            <li><strong>Raised beds:</strong> Improved air flow and consistency</li>
+            <li><strong>Parabolic dryers:</strong> Greenhouse-like structures for controlled drying</li>
+            <li><strong>Mechanical dryers:</strong> Fast but can damage flavor precursors if too hot</li>
+          </ul>
+          <p className='my-4'>
+            Slower drying generally preserves more quality, with studies showing longer drying times and more retained fruit correlate with higher volatile aromatic content.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Coffee Milling: Final Preparation</h2>
+          <p className='my-4'>
+            Milling removes the parchment layer and cleans the green beans for export. This step ensures uniformity and prevents defects.
+          </p>
+          <p className='my-4'>
+            Key milling steps:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Hulling:</strong> Removing parchment with minimal friction</li>
+            <li><strong>Cleaning:</strong> Removing dust, stones, and debris</li>
+            <li><strong>Sorting:</strong> By size, density, and color using screens, tables, and optical sorters</li>
+            <li><strong>Polishing (optional):</strong> Removing silver skin for a cleaner appearance</li>
+          </ul>
+          <p className='my-4'>
+            Proper milling maintains bean integrity and roastability, with modern technology improving efficiency and quality control.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: The Infinite Possibilities of Coffee Processing</h2>
+          <p className='my-4'>
+            Coffee processing is a testament to the beverage's complexity, where biological processes, human creativity, and environmental factors converge to create unique flavor experiences. From traditional Ethiopian naturals to experimental anaerobic fermentations, processing showcases the endless innovation in specialty coffee.
+          </p>
+          <p className='my-4'>
+            At Ethio Coffee, we celebrate this diversity by sourcing coffees processed with care and expertise, ensuring exceptional quality from cherry to cup.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <p className='my-2 font-medium'>
+              Discover how processing influences flavor in our Ethiopian coffees. Contact us to explore our range of washed, honey, and natural-processed offerings.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                GET IN TOUCH
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
+              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
+              research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
         </>
       );
     } else {

@@ -1,0 +1,775 @@
+0:00  welcome to um another ed andu class I really really appreciate you joining us
+0:05  um Ed andu is uh just named for the the idea that uh coffee education can be
+0:12  hard to find um coffee is changing constantly um there's always new things
+0:17  to learn and we're discovering so much about coffee all the time and so um the idea is to again not provide something
+0:23  that might be Earth shattering right but just an updated as accurate as we can kind of synopsis of of specialty coffee
+0:32  um and practices throughout the supply chain um and I really hope to to turn
+0:37  this platform into a a place where people can go to learn um but then also utilize these classes and and teach from
+0:44  these classes yourself so you have full permission to download the stuff and use it as you need that's what it's designed
+0:50  for so um like I said this first series of classes we are launching with is is
+0:55  called coffee is we're exploring all the things that coffee is right you ask the question what is coffee to anybody
+1:01  you're going to get a lot of different answers based on on their experiences with it whether they're um part of the
+1:07  industry or not then if they work in the industry what part of the industry right and so we're exploring um all the things
+1:14  that coffee is throughout the supply chain within this series this is part three of six um in part one coffee is a
+1:22  plant we're really focused on the biology of Cafe Arabica specifically
+1:27  we're looking at all its biological characteristics ICS um its speciation where rabo came from how it expanded
+1:33  throughout the world its natural habitat that it thrives in in part two coffee is
+1:39  agriculture we then introduce farming right so taking this species of plant
+1:44  and and and how is it um how is it produced um so we talk about the steps
+1:51  of coffee production um from seed to harvest um and relate that to the life
+1:57  cycle of the plant and all the different kind of tasks per year a producer is undertaking um class three we're picking
+2:06  up where we left off we left off in our last class at Harvest so post Pro or
+2:12  post Harvest steps right we're talking about processing drying and then Milling the coffee before export um like the
+2:21  previous class we're not really talking about commercializing the coffee is kind of part of this process the next class
+2:27  is all about coffee commercialization um this class is very focused on the um the biological the
+2:33  mechanical steps involved with taking that fruit and converting it into that
+2:39  raw green coffee product that's ready for export ready for roasting right so
+2:46  like with every class um there's a huge amount of variance in practices
+2:51  depending on where you are in the world right there's no way we can kind of encapsulate um all of the Nuance of
+2:57  processing in all these different places but hopefully we can kind of you know peek through um the keyhole into the
+3:04  World Behind this door um to just have a greater understanding of like how much freedom and experimentation is within
+3:11  processing um but also looking at like what has been practiced for a long long long time that has kind of laid the
+3:17  foundation for all the processing um innovations that are taking place today right and then just the importance of
+3:23  Milling the impact that that has on the cup um and and maybe the Little Steps
+3:30  within Milling that we might not often hear about you know Milling isn't something that I knew a ton about when I first started in coffee I heard a lot
+3:37  about processing not as much about Milling so hopefully we we get a good coverage um of kind of both of these
+3:44  processes that happened post Harvest right so what is a process is the
+3:50  question we're asking here just like what is coffee here we are asking what is a process so we're going to kind of
+3:56  start in a very generic level just look at a basic definition of process um and then we'll dive into applying
+4:03  that word to coffee so a process as a noun is the
+4:08  series of actions or steps taken to achieve a particular end um to process
+4:15  um which is usually kind of how we're using it right as a verb a a um something we are doing to the coffee
+4:21  when we are processing the coffee we are performing a series of mechanical or chemical operations on something to
+4:28  change and or preserve it and I think this is a great definition because of that change in preserve aspect both of
+4:34  these are things are happening to Coffee throughout the processing throughout the drying and throughout the Milling we are
+4:42  changing um the makeup of the seed right um at a mechanical level and at a
+4:49  chemical level and then we are preserving that seed to make it ready for export to make it um you know easier
+4:55  to roast um which then leads to the Brewing right coffee is constantly going
+5:00  through change and preservation throughout really every step You could argue right um but as we discussed in
+5:07  class to the way coffee is handled in its processing and in its Milling is subject to many human decisions right so
+5:14  kind of going back to that first definition that particular end lots of things influence What that particular
+5:20  end goal is with this coffee right there's tradition creativity tried andrue methods market trends um
+5:28  fluctuations in the market environmental restrictions how much space um uh a producer has or um
+5:37  efficiency is a massive factor in processing costs which change year to year to year right all of these things
+5:43  will kind of um move that goalpost on like what is trying to be achieved with
+5:48  this coffee um in particular right and so again there's a million tiny
+5:55  variables we can't capture in one two hour class absolutely but hopefully
+6:00  again we kind of um start at a very simple level and then we can kind of see the layers of complexity and nuance and
+6:06  creativity that can then take place upon like the most kind of essential concepts of processing first so what is
+6:13  processing um these are kind of the the two parts of the class we're going to look at where there's a little third part there in the middle between these
+6:19  two that we'll discuss as well but processing is post Harvest so this the the fruit is Harvest what are the steps
+6:27  taken to remove or keep the fruit layers around that seed and then drying that
+6:33  coffee seed before milling and exporting right so that is kind of a basic definition of
+6:41  coffee processing right we keep in mind that kind of verb definition we discussed earlier this series of actions
+6:47  to change and preserve it um processing is a lot of change and then in the
+6:52  drawing phase we are preserving it and then Milling is kind of the continuous a the continuation of that preservation
+6:59  right so Milling is postprocessing so after that seed has been um thoroughly
+7:04  dried the post-processing steps to remove the last final parchment layer
+7:09  around the seed and then cleaning sorting grating those green coffee seeds
+7:15  into bagged Lots ready for export all right so we're going to kind of dive into all these little individual steps
+7:21  um Within These two basic definitions and then extrapolate from there but again that kind of change and
+7:27  preservation this is something we'll keep in mind is we're going throughout this um uh change in preservation occur
+7:34  throughout all the post Harvest processes um the way coffee is processed
+7:39  in particular the way that fruit is removed or maintained can often dictate
+7:44  kind of like that loudness of flavor right the approach to processing really
+7:49  does change um what is held within that seed um and we're going to kind of dive
+7:55  into that um while Milling contributes to the shelf life the roast ability of
+8:00  the coffee um so I know I keep saying it but there's an infinite number of variables at play um that can be
+8:07  slightly tweaked or adjusted that might change all the other levers in the room um throughout coffee's Journey right all
+8:14  this impacts the flavor in the Final Cup it's hard to say a plus b equals c in terms of flavor um uh and these
+8:22  decisions are really complex but our our goal today outline the most kind of common practices and then the impact
+8:30  those steps have on the cup and then hopefully kind of open our minds to the amount of variation that can that can
+8:35  take place from region to region Farm to farm Harvest to harvest plant to plant
+8:40  right um and that's that's kind of the most beautiful thing about coffee is the infinite of it and how unique every
+8:46  experience is and processing and Milling absolutely a kind of a tribute um to
+8:51  that spectrum of coffee and and why it's why it's such a loved product right so
+8:57  um uh basic basic kind of objectives for today we're going to look at the
+9:03  essential processing methods washed honey natural outline those then after
+9:08  that we'll kind of uh layer on that when we talk about fermentation discussing what fermentation is and what the key
+9:15  variables um are involved in fermentation and then how that fermentation can be applied to those
+9:20  kind of core washed honey and natural processes um and that's objective three
+9:26  fermentation points within washed honey and natural to kind of um manipulate those processes then we'll look at
+9:33  drawing methods materials and impact then we'll look at Milling what are the Milling steps why are they important so
+9:40  processing fermentation drying and Milling those are the four big things we're going through today um so as we
+9:47  get into this here um again ask questions at any time use the chat
+9:53  however you'd like to communicate we'll take some breaks there's some videos in here hopefully we've got great pictures
+9:58  um and illustrations to kind of help us um put these things together processing for for me feels like a step one step
+10:06  two step three right but it's very much not like that it's a kind of continuous
+10:11  ebbing and flowing um you know slightly different from place to place process and it's
+10:17  kind of hard to connect between step one two and three what are all the little variations or what is the movement from
+10:24  place to place of coffee right it's one of those things that until you see it firsthand um um it might be hard to
+10:30  grasp everything involved with it but hopefully these these videos and photos kind of help maybe um fill in some of
+10:37  those little gaps between the steps that we're talking about today and that's the hardest thing to communicate um uh but
+10:44  processing um is is is really complex and super different depending on where you are so um real quick let's talk
+10:51  about the people behind processing um is there one word that you could use to describe the farmer
+10:58  producer and processor um is a question um this is kind of what this is speaking
+11:04  to these aren't like you know industry standard words farmer producer processor right these are ways that we have
+11:11  defined these words for ourselves um especially when it comes to our like our impact standards and how we're buying
+11:18  coffee and how we are labeling things um we we have somebody who doesn't process
+11:25  but grows coffee as a farmer a producer being someone who GR grows and processes
+11:30  coffee and then a processor um is a person or entity that processes coffee
+11:36  but doesn't grow right they might collect Cherry from Farmers and then process it right so that is another kind
+11:42  of complex Factor within processing and Milling is who are the actors involved right is it one person who's growing and
+11:49  processing coffee or is it Changing Hands one or multiple times throughout these steps um this is something you
+11:56  could like spend a lot of time charting out from country to to Country to country but um there's lots of different
+12:02  practices so um kind of applying this to maybe different entities within a place
+12:08  um who is processing a producer somebody who grows and processes the coffee maybe
+12:14  a neighboring producer so if somebody farms and maybe takes Cherry to a neighbor who processes a wet Mill or a
+12:21  processor there's multiple names for this kind of entity right we think of like Ethiopia for example where there's
+12:27  wet Mills in different areas that serve a village or a few different Villages right small farmers bringing all of
+12:34  their cherry to one Central wet Mill and that wet Mill processes the coffee then
+12:39  that coffee moves on to the next entity right um these could be private or
+12:44  government own maybe a private company goes and establishes a wet Mill super focused on um you know high quality
+12:52  coffees so they say we're going to build a wet Mill in this area serve these producers um and and you know give
+12:59  producers a a way to process and Market their coffees through a private company
+13:05  right um exporters kind of a similar thing that I was just talking to but they also take that processed coffee
+13:12  maybe Mill it and Export it right so they handle the shipping of it inhouse um cooperatives or associations
+13:20  right groups of producers who come together they have a wet Mill so all their coffee is processed there right
+13:26  like this is where it's hard to kind of outline all these changing of hands the supply chain is often far more complex
+13:33  than we think of it is kind of the main point here right um but kind of keeping
+13:38  that in mind let's now kind of get into the premise of processing as a whole and then washed honey and natural so
+13:46  revisiting the anatomy of a coffee fruit many many many layers right there's um
+13:52  the fruit skin on the very outside the exocarp um there's the melage so that
+13:59  shiny dense fruit surrounding the seed remember that mucilage is extremely
+14:04  stuck to the seed right like you could squeeze seeds out of a fruit put those seeds in your mouth and chew and chew
+14:10  try and scrape that fruit off but it's very strong it's hard to like break down that fruit in your mouth in a short
+14:17  amount of time it's not like fruit that just comes off the seed like other fruits right so the skin the melage and
+14:23  then the pectin layer the thin layer under the melage which is still um kind of part of that fruit
+14:29  um all those things that pectin melage are very stuck to the seed these are kind of like the main three things that
+14:37  we are involved in processing right these are the layers we are either removing or keeping before drying and
+14:43  we're going to get into that so those three are highlighted there um underneath that you have the parchment
+14:49  the parchment is like a shell around the seed um the MU just stuck to that
+14:55  parchment but that parchment is a protective layer of the seed itself right right you've got the silver skin
+15:01  which is the very thin papery layer on the seed the endosperm is kind of the seed structure itself and then the
+15:07  endosperm fold there in the middle but those four layers are not really
+15:14  involved in processing um these three layers are what we are manipulating in the
+15:21  processing steps right so we're going to kind of keep that skin and fruit in mind um as we move into these ones here so
+15:29  what layers are removed before drying how are they removed that's the basic pre premise of processing right what are
+15:36  we drawing on the seed once that coffee goes to being laid out to dry in washed
+15:43  coffee we are removing the skin and the melage so um we're basically taking
+15:50  everything off the seed and then drying it in honey processing we are removing the skin but we are leaving the melage
+15:57  intact on the seene so some of the fruit is drying on the coffee seed in natural
+16:03  processing we are leaving all of the fruit on the seed right so there's
+16:08  really kind of two layers skin and the fruit um if we take off the skin and fruit it's washed if we take off the
+16:16  skin but leave the fruit it's honey and if we leave everything on it's a natural
+16:22  um I feel like washed honey natural are pretty common words um nowadays uh the
+16:29  terms used to be wet and dry wet being washed dry being natural semi-washed
+16:35  being honey um again this is kind of where language naming um is all kind of
+16:41  like a madeup thing in coffee right it's constantly evolving as new methods come about um but you know there's also
+16:50  really old methods that are more localize I might have basic similar steps as these
+16:57  um uh but we'll have a chart that kind of breaks down a lot of coton processing here in a little bit um but what fruit
+17:05  is being removed what fruit is left on at the seed when it comes to drying
+17:10  right so that's where we kind of picking up from Harvest sorting the fruit out and then it goes through whichever
+17:17  process so now we're going to kind of get deeper into the steps of washed honey in natural here what happens to
+17:23  the removed material that's another really great question um we'll kind of touch
+17:29  on uh by products as we're going through each of these steps so bear with me here
+17:35  um and and we'll kind of touch touch on that removed material those waste
+17:42  products so this is where we get to our videos um I thought about if you've seen
+17:48  these processing videos before um I'm sorry but they're good Refreshers if you haven't seen these these again are on
+17:54  our YouTube um let me make sure I have my computer set to share audio
+17:59  um you might have to play with your volume I'm going to try to not talk during these um just in case like volume
+18:06  is really weird I'm also going to drop the YouTube link so if I start it and you don't hear it you can just open this
+18:13  on YouTube and go and watch it um yourself and then meet back here with us
+18:18  um but we're going to watch these I think video you know again it's a great way to kind of see the Nuance of these
+18:24  steps in one particular place and then we'll kind of look more Broad ly at these steps so let's go ahead sit back
+18:32  watch these videos um this one's all about wash processing I'll double check
+18:38  to make sure it works for you here in a
+18:49  second all right so again great video to kind of show all these little steps that
+18:56  we aren't even outlining in these flowcharts we're going to look at now but basic idea of washed remove the skin
+19:03  remove the mucilage dry the coffee right and so this is where you can see like
+19:08  there's there's lots of variation that can occur this producer in particular depulped the coffee to remove the Skin
+19:14  So a deper is just kind of like a grinder right it uh squeezes the seeds
+19:19  separates the skin um from those seeds the seeds still have the mucilage this producer in particular kind of piles the
+19:27  seeds in a tank with no water to ferment um so it's kind of like a an open air
+19:34  just pile fermentation no water involved and that breaks down the melage you may see producers add water at the very
+19:41  beginning of of this fermentation and it ferments in water you'll see plenty of
+19:47  vessels different kinds of vessels the coffee might be fermented in we'll talk more about that in a little bit but
+19:53  we're removing the skin and then the washing um the fermentation and actual
+19:58  washing to remove the melage sorting and drying right so there's plenty of steps
+20:04  you could break this down into as well there's also mechanical Demus linator they're basically deers right they're
+20:11  just calibrated more closely to grind off the skin and the fruit um those will
+20:16  go even quicker right they're a lot more efficient um in terms of like you're not doing a fermentation time but you risk
+20:24  kind of breaking seeds and damage um that way but there's kind of multiple has there that you could go to remove
+20:30  the melage right but deul the skin wash off the melage dry the coffee so lots of
+20:38  costs involved right we talk about this method being very efficient um for a
+20:43  long time uh in many countries most coffee that was exported was washed
+20:49  because it's considered very clean you have minimal risk of you know over
+20:54  fermenting the coffee if there's fruit remaining on the coffee while it dries
+20:59  um but it requires equipment it requires water it requires um places to hold that
+21:05  coffee while it is with water right tanks channels whatever the means might be um so constructing an actual wet Mill
+21:14  to do this can be expensive right and then maintaining that wet Mill you also have byproducts you have fruit skin and
+21:20  used water this video kind of spoke to it the fruit skin you're either just discarding it or you can compost it um
+21:28  maybe even make a fertilizer like an organic kind of fertilizer to apply to the farm um the used water yeah it needs
+21:35  to be clean it needs to be filtered out um to be usable again you don't want to just drain it into groundw um or uh uh
+21:44  natural water nearby um because that is not great for the environment right and
+21:50  so that water and that fruit skin has to go somewhere and it needs to go somewhere carefully um dry time is
+21:58  pretty quick because you're just drying the seeds there's not layers of fruit on the seed it can dry like on a patio in that
+22:04  example maybe one to two weeks depending on uh the conditions it's drying in uh
+22:10  we'll kind of speak more to that later um and flavor profile wise what we have listed you know is um a coffee that
+22:17  comes out not super heavy right it's not a super heavy texture you know very
+22:23  fruit forward it's a little more delicate um wide spectrum of potential fruit is it ities articulate flavors we
+22:30  think of kind of like more the crisp complex um brighter coffees um depending
+22:35  on how it's roasted obviously right um but more delicate cups overall in terms
+22:42  of flavor intensity and mouth feel so that's wash processing now we're going
+22:47  to get into honey right so with honey we are removing the skin but we are leaving
+22:52  some amount of mucilage on the scene so said we're kind of going through these
+22:58  videos first and then we'll kind of tie it all here together at the end here's the link for the honey
+23:04  processing video um and I will let this one run um
+23:09  and again if you have questions in between or during these videos throw them in the chat we will definitely get to
+23:19  them all right so honey processing um honey processing was like heavily
+23:26  popularized by coaster Rican producers um kind of like
+23:32  2012 I think was like one of the first honey Lots won a cup of Excellence
+23:37  competition there and from there it really took off La candelia was one of the first micro Mills um that really
+23:44  popularized it and then uh the the Chon at lost Laos have have really taken off
+23:50  with it as well um but as it was said it's kind of this like almost 5050 this
+23:56  compromise between a washed coffee and and a fully natural coffee right we're leaving some mucilage on or all of the
+24:03  melage on to dry the coffee so you're still depulping the coffee you're still
+24:09  getting the fruit skin off um but then you're leaving that mucilage layer
+24:14  intact and sugars fats acids Esters um within that fruit layer
+24:21  they're fermenting on the seed during the drying and those components those compounds may be absorbed into the seed
+24:29  um changing that coffee as it dries right resulting in a really big spectrum
+24:34  of of flavor profiles you could get from honey processing um we talked about how if you remove most of that melage in the
+24:40  duling might be a white honey to Yellow to red and then a black honey would be leaving all of the melage on it turns
+24:47  like a black color as it as it dries on the patio right so costs you still have
+24:54  equipment um the drying time is extended and again when you leave fruit on the
+25:00  seed laying out in the sun there is a chance of over fermentation essentially rotting right so you are are at risk um
+25:08  more risk for defect forming during just that drying step um you will still have
+25:13  fruit skin and maybe water as a byproduct um and that drying time extends uh you know from 1 to two weeks
+25:20  to now two to three even four weeks depending on you know if it's covered or open different things like that but you
+25:27  know as it talked about in the video pretty big gamut of flavor profiles you can get but they tend to be a little fruer they tend to be a little heavier
+25:34  in texture um you may get more kind of caramelized notes um you know more more
+25:41  inyour face sweetness than you would with a washed coffee especially depending on kind of the grade of honey
+25:46  that is being produced here right but big idea removing the skin keeping the
+25:52  melage so now we get to the oldest processing method natural processing um
+25:58  um right we're just drying the seed with all of the fruit left on it so you're drying whole cherries in natural
+26:04  processing um again natural is kind of the oldest way washed kind of became the
+26:10  Standard Bearing way uh for many places and nowadays almost all these coffee
+26:17  producing countries that export coffee will export any of these methods and then there's more methods from here
+26:22  right as we're going to dive into fermentation but let's watch our natural process video
+26:29  and then we'll kind of get back to uh back to the slideshow
+26:34  here this video is great again it kind of shows where coffee comes from Ethiopia oldest
+26:41  processing method these places a lot of these places in Ethiopia really have it perfected so um another example of
+26:48  different drying elements too right we're going to talk about drying more in depth but you can see at lost laus
+26:54  totally different drawing areas for different outcomes um same with that washed coffee
+26:59  and PR and now you're going to get a lot of different kind of uh you know manipulation and the drying step here in
+27:06  Ethiopia so let's watch this
+27:19  one all right so natural processing right it's fairly straightforward um
+27:25  just drying this drying the full cherries right but the uh the complexity of natural comes in controlling the drying right just lay
+27:32  it out put it all in a pile you're it's going to develop um mold or just over
+27:39  ferment becoming super sour almost alcoholic you know in the final flavor profile um it takes a long time to dry
+27:47  Naturals right um it takes up a lot more space to dry Naturals so there's kind of
+27:52  like the amount of real estate and the amount of time you have processing and drying in particular is always a bottle
+27:59  um in terms of exporting coffee right um it's going to take an x amount of time
+28:04  to dry the coffee so how much space do you have kind of balancing that right so
+28:09  those are the costs here you don't have as many byproducts you know at the processing level um all that stuff will
+28:16  be um holed off in the Milling step um uh so space and drawing time are really
+28:23  the greatest kind of cost factors here um drawing time around four weeks depending on the methods um and then you
+28:30  know if it's exposed fully to Sun how humid it is um Etc often times with
+28:36  drying and this goes for really all processes overnight temperatures get cool like no drying is happening
+28:43  throughout the night there's no moisture reliefs at night but then during the day it'll re accelerate constant turning the
+28:49  coffee over to make sure all sides are drying evenly um is really really important here so um Michael makes the
+28:57  note seems more labor in intensive um yeah I think you could argue like all of
+29:02  these there's a lot of movement there could be equipment or not as much equipment involved um but there's a lot
+29:10  of transporting between all of these steps right depending on how much coffee is moving through a washing station it
+29:15  is a lot of labor for sure and and the processing itself you know one place
+29:21  I've been to processing is kind of 3 months long basically until like the actual wet Mill part is done and coffe
+29:28  is just finally laying out to dry but it's kind of a uh almost a 24-hour a day operation depending how big of a mill it
+29:35  is so like in a place like Ethiopia it's almost constant work probably going on to produce those those washed and those
+29:42  natural coffees um depending on how much they're collecting right so those are
+29:48  our basic processes kind of the calling them like our core three that we're kind of kind of kind of build on these and we
+29:54  talk about fermentation Harvest and sort if it goes to washing you're depulping the skin removing the melage Via
+30:01  fermentation and washing sorting and drawing if it's going the honey route you're going to deul still so you still
+30:08  have that equipment involved but then it goes to drawing and then if it's natural you're skipping the depulping going
+30:15  straight to drying right but like we've seen there's tons of nuance at and in
+30:20  between each and every one of these steps right so this is where we get into fir
+30:28  fermentation fermentation is really where we start to hear a lot more about different kinds of processing methods
+30:34  right we talk about aerobic anerobic Carbonic mation co-fermented all of these different
+30:40  things so we're going to kind of dive dive into um the complexity of
+30:47  fermentation kind of where creativity um and maybe a lot more um Innovation is
+30:53  coming into coffee processing right um f a is really fascinating we know about
+31:00  fermentation from different foods that we eat fermentation is a very old method
+31:06  of preserving and changing food right so fermentation is almost kind of like a
+31:11  process in terms of that transform or change and preserve thing we were talking about at the beginning of the
+31:17  class but within coffee processing fermentation is usually kind of like one isolated step within those greater
+31:24  processes right so we've kind of started out with washed honey and natural and now we're going to Deep dive into
+31:30  fermentation and then see the different ways fermentation can be used within those processes to kind of modulate or
+31:37  alter um that core processing method so we're going to start out more basic
+31:42  discussing what fermentation is kind of on a cellular level because that's where fermentation happens and then we'll look
+31:49  at the different kind of variables applied to Coffee processing um and and
+31:54  and how fermentation can be used in coffee so these are different definitions of
+32:01  fermentation uh the the definition of fermentation is changing constantly um
+32:06  there's there's one really uh kind of great paper on fermentation and kind of how it's used nowadays that outlines all
+32:14  these different uh definitions um it's in the uh uh the the sided sources for
+32:20  this class um which which I will give you access to here in a second it's in that link but let's go through these so
+32:27  so 1300s is kind of the first written definition of it uh fervor is Latin it
+32:34  meant to boil so ancient Romans you know they saw grapes in Vats spontaneously
+32:40  start bubbling it looks like boiling so that's where kind of the root word comes from um uh in uh the
+32:49  1850s um Lou pasture you know known for his discoveries in terms of you know
+32:55  vaccinations microbial fermentation and pasteurization he describes fermentation as life in the presence of oxygen or in
+33:02  the absence of oxygen excuse me um which is a really great simple definition of
+33:09  fermentation um and we're going to talk about how that works um but nowadays we
+33:14  think of fermentation as a way to transform food uh by using microorganisms like bacteria yeast and
+33:20  mold right kimchi miso kombucha soy sauce sourdough bread cheese Al coholic
+33:28  beverages they are all products where fermentation is integral in creating
+33:33  them right those are all products of fermentation um uh fermentation like
+33:40  drying smoking and salting is one of the oldest methods of of changing and
+33:46  preserving food and beverages right um and it's a way of improving food's nutritional value so in that sense
+33:53  fermentation is in the food World a biotechnology right promotes controls
+33:58  the growth of microorganisms um at a biological level and this is what uh Pastor is talking
+34:05  about it is a pathway for a cell to perform respiration without oxygen so
+34:12  let's look really quick at cellular respiration um because I think it kind of helps us understand just how complex
+34:18  fermentation is as a single step of processing so cellular respiration is a
+34:24  three-step process glycolysis where glucose or sugars are consumed that
+34:31  produces pyruvate pyruvate helps power the Krebs cycle which produces CO2 as a
+34:39  byproduct and then the remaining molecules go through the electron transport chain and all of this works
+34:47  together to create ATP adenosine triphosphate ATP is basically like
+34:53  packages of energy for our cells to continue doing whatever our cells need to do right so it helps cells survive or
+35:02  respirate right so this requires oxygen cellular respiration needs oxygen in
+35:09  this last step to produce all of that cellular energy basically um so the
+35:17  question here is what happens when there's no Oxygen we talked about fermentation being life in the absence
+35:23  of oxygen if there is no oxygen available to a cell there's two
+35:29  different routes that cell can go anerobic respiration which will basically do all of the same steps but
+35:36  replace oxygen with a different electronic scepter at the end but that only produces 2 ATP so not very much
+35:44  adenosine triphosphate so when there's no Oxygen cells creating energy um is a
+35:51  lot less efficient um so that's anerobic respiration or a cell might start doing
+35:58  fermentation which still only produces two oxygen but rather than doing those
+36:04  three steps they will just perform glycolysis over and over so it's
+36:09  consuming sugar um and producing two ATP
+36:14  constantly while also producing another byproduct that other
+36:20  byproduct let's see here in two um different fermentation examples might be
+36:26  ethanol so that's alcoholic fermentation right beer wine this is the glycolysis
+36:33  producing ethanol to ATP and that cycle just kind of going over and over again
+36:39  and then there's lactic acid fermentation um we think of like yogurt
+36:45  um this is the pathway to perform glycolysis producing ATP and to lactate
+36:52  so fermentation to kind of wrap it up is a metabolic process where a
+36:58  microorganism um right only specific cells can do fermentation bacteria yeast
+37:04  and molds most commonly can do fermentation they're able to basically produce energy without oxygen by
+37:11  performing glycolysis over and over so what this requires is sugar there has to
+37:16  be a fuel source there has to be food for that cell to consume perform
+37:22  glycolysis they get that cellular energy but there's also that byproduct that waste product so this is the lactic acid
+37:30  pathway this is the alcoholic pathway there's multiple different kinds of
+37:35  fermentation that produce multiple um byproducts right so but you can kind of
+37:43  see the mechanics here it's this NAD plus is needed to restart basically this
+37:49  pyruvate is split into lactate NAD plus and ATP and that allows it to then just
+37:55  trigger all over again right um so that
+38:01  product that we get in the outcome like lactic or acetic acid or ethanol that's
+38:06  really in coffee processing what we want in the fermentation right um we want
+38:12  those byproducts um along with lots of Esters are produced in this things that become volatile
+38:18  aromatics those are the things that transform the food essentially right so
+38:25  we're going to start applying this to coffee here in a minute but this is a really great chart that shows all the
+38:30  different Pathways so we just looked at alcoholic lactic acid these are these
+38:35  colors represent other Pathways basically different byproducts different
+38:41  kinds of cells will produce in their fermentation right and then there's two main ways for fermentation to go there
+38:49  can be spontaneous or wild fermentations right so this is just indigenous um like native or indigenous
+38:57  micro mlora um triggering fermentation or you
+39:02  can add starter cultures right culture dependent fermentations where you are intentionally adding a population of
+39:09  bacteria yeast or mold to kind of control the fermentation control the outcome right in a spontaneous
+39:17  fermentation whatever microbes are present they're going to produce whatever they produce right you won't be
+39:22  able to predict the outcome as much but yeah these colors represent different path ways different
+39:29  interactions um resulting in different final products and the amount of microbes that
+39:36  exist is huge right there's tons of yeast bacterias and molds out there so
+39:41  these colors again represent what we just looked at on the last chart um and these yeah are different populations of
+39:47  organisms that can go through fermentation then all the different things they can consume and then produce
+39:55  so when we think about a coffee Farm you think about a wet Mill all the microbes
+40:02  that are present in those areas right microbes are on every single surface all
+40:07  of those things are at play when it comes to fermentation in one of those videos it mentioned that as soon as
+40:12  coffee is picked right as soon as it's harvested there's a hole in the Cherry
+40:17  any bacteria that can get through that entry point it will start fermenting the fruit inside of that fruit right
+40:25  so in my mind you know fermentation is kind of a miraculous thing right there's
+40:31  an extreme number of these organisms that can ferment and they all produce
+40:37  different byproducts depending on their environment right so um the other part
+40:44  is many organisms can be active at the same time in one kind of you know localized fermentation place right
+40:54  so fermentation and processing with kind of tie this back into
+40:59  processing first big Point fermentation occurs in all processing methods right
+41:04  we just spoke to that as soon as microbes have an entry point to fruit Which con contains sugar they can begin
+41:12  fermenting right intentional fermentation is a step within a greater
+41:20  process often we hear maybe the term anerobic fermentation um or anerobic process and
+41:26  we kind of think like okay this process is all about the fermentation but that doesn't really tell us all the other
+41:32  steps that became before or after the fermentation right you can ferment
+41:38  coffee in a oxygen-free environment in a washed honey or a natural process so
+41:45  fermentation is not a process in and of itself but it's a step or it could be multiple steps within a greater
+41:52  process so point three I want to make here is that process processing methods
+41:58  especially the newer processing methods they're often named for intentional manipulations of a single step kind of
+42:04  leaving all of the other steps to be assumed right um so a lot of times when
+42:10  we hear about a new fermentation process we are being told what maybe the environment was like right what the
+42:17  fermentation step was like and then we're just kind of left to guess what the rest of the stuff was but
+42:23  historically the primary purpose of fermentation and processing is to break
+42:29  down that melage layer right fermentation is really really effective at breaking down mucilage but
+42:37  when fermentation is controlled it can add a ton of uh flavor compounds right
+42:43  volatile aromatics new acids to the coffee in a desirable way and so that's
+42:48  where we get into like more controlled fermentations bringing something new to
+42:54  the coffee so before we watch this video Thomas asked Are there specific bacteria
+43:00  added to the coffee to control flavors or is it only bacteria already in or on the fruit there are instances of both uh
+43:07  usually like in the washed video we just washed or the natural um that coffee
+43:13  isn't put in a specific environment and a yeast or a starter culture isn't added to it so that is just a spontaneous
+43:22  fermentation in most instances but there are producers
+43:27  processors who are making starter dependent cultures adding those to the
+43:33  fermentation step to kind of get a desired outcome there's like citric fermentations lactic fermentations
+43:40  acidic fermentations where they're controlling the populations of microbes
+43:45  to kind of get those things to be produced essentially um but more often than not you are either seeing
+43:53  spontaneous fermentation or maybe kind of a combination of both right so fermentation again it's kind of like
+44:00  there's no rules uh we're going to look at variables that can be
+44:06  manipulated um to kind of alter the conditions to where certain bacterias or
+44:13  or things may Thrive um but uh yeah we're going to watch a video on Anor
+44:19  robic fermentation because this has become a pretty common term right a pretty common practice um in specialty
+44:26  coffee see one instance of it then we can kind of extrapolate from there Simon says there are producers that do
+44:32  inoculant koi is another example exactly um when you inoculate something you are
+44:38  adding a community of microbes that new community overwhelms the other microbes
+44:44  and that Community kind of takes control over the entire fermentation to get something you want out of it um in the
+44:52  uh the sided sources which I can drop the uh the link to this
+44:59  presentation at the end all the sided sources are there with the links you can visit them um there's a couple different
+45:06  articles about inoculant and kind of how it works um to get certain outcomes um
+45:12  and there's a couple people on Instagram and YouTube who are making videos on this too that are really really good I think I have a couple of them linked
+45:19  there as well uh but let's watch this anerobic uh fermentation video together
+45:25  that'll be it for the videos today um and then we'll we'll keep rolling here um but yeah any other questions
+45:31  throw them in here's the anerobic link all right let's play this
+45:53  one all right so yeah I think that video is a great way of showing just like one
+45:59  very specific way of doing a specific kind of fermentation and how that could be applied to any of the greater kind of
+46:05  core processes we've talked about right um and we're going to get into kind of
+46:12  the variables that can be manipulated um within a fermentation step um but again
+46:18  it's kind of it's It's vast in terms of like what microbes are present in a specific area what thrives in a certain
+46:26  condition um and what works best with your particular coffee your particular variety right it requires a lot of
+46:33  experimentation um to really kind of find a recipe that works right um and
+46:40  and that firm in particular they have their recipe they choose to dry it natural they could do washer honey um
+46:47  and you could insert that step into a lot of different areas within one of those processes we've talked about right
+46:54  so commonly you can see a fermentation step um done to the whole fruit right
+47:01  before anything else is done with it and then it could keep following the normal track right so in an anerobic washed for
+47:10  example you could ferment the whole fruit deul it remove the mucilage through another fermentation just you
+47:17  know kind of agitation in water maybe sort it and dry it right in Honey
+47:22  processing you could ferment it before depulping you could skip that you could deul and then ferment it in a tank then
+47:29  you could dry it right so you could do before or after or you could do a combination of both right there's no
+47:35  rules it's all about kind of coming up with again that recipe in natural coffee like we just saw ferment it and then dry
+47:43  it right so there's multiple points of fermentation um in each step um that you
+47:49  could that you could apply to any processing method so the process what will be on the seed once that seed dries
+47:56  wash honey natural right the modulation is kind of what I'm calling this fermenting step when and how will the
+48:03  coffee be fermented and often times these newer processing um processing
+48:08  methods are named for the modulation rather than the entire process but that might not tell us the full story of what
+48:15  that coffee underwent right but many processing modulations kind of stem from the core concept of what is on the seed
+48:22  when that coffee dries that fermentation will totally alter that flavor profile
+48:27  and the outcome right so um that is let's see what do we have
+48:35  next let's just go to the next slide so talking about some variables with fermentation removing kind of microflora
+48:42  from the picture right now right what is at the farm what is at the processing site what are the microbes that are
+48:49  present other variables that are that can be like manipulated the environment
+48:55  the amount of time the temperature of the fermentation area inoculant and
+49:01  additives right so with the environment the environment is going to kind of determine a lot of the other variables
+49:08  for sure right it heavily changes kind of the kinetics of the fermentation how
+49:13  well it holds temperature um how well it holds in or
+49:18  lets out um oxygen or gases um and all
+49:24  of that is going to impact the time that the coffee ferments right so you have open tanks um that tank could be made
+49:31  with concrete could be made with tile closed tanks uh plastic bags just piling
+49:38  the coffee up um in a tank or on a patio right so fermentation like we've talked
+49:44  about it's going to happen um and you can allow that fermentation to happen any place in particular right the amount
+49:51  of time time is really a predetermined thing with fermentation uh you're not going to get the exact same rate of
+49:58  fermentation every batch um so the time is going to change you can draw out by
+50:05  manipulating temperature right higher temperature usually means a quicker fermentation a cooler temperature might
+50:11  Bean a slower fermentation adding water um all those kinds of things are going to manipulate the time but the things
+50:18  that are going to be tracked are these measurables here right pH some producers
+50:23  might track the bricks throughout the fermentation uh the temperature the color taste um of
+50:30  the byproduct like that water that was drained out right the bubble activity all of these things are indicators of
+50:37  kind of when that fermentation is getting going and then when it's coming to an end right and so all that kind of
+50:43  comes down to that particular recipe when you decide to pull that coffee from the fermentation uh but you're you're
+50:49  tracking it constantly um uh next you have temperature
+50:55  different temperatures are going to fade different organisms and then how quickly that organism can proliferate in terms
+51:01  of its fermentation right um so temperature can be something you intentionally control for an outcome we
+51:08  see that with like a oh what's a the process I'm thinking of um I'll pull it
+51:14  up here in a second let me go to it real quick yeah like thermal shock where you are fermenting the coffee and then you
+51:22  are adding cold water to like shock the fermentation to make it come to a complete halt uh so you can manipulate
+51:29  the temperature and then inoculant or additives right inoculant being adding
+51:35  microorganisms um a population of microorganisms or adding non- coffee products right fruit spices juices the
+51:44  microorganisms will use that as fuel which will produce more stuff in the fermentation right and so um you know
+51:53  there are some practices too that might feel bra new that have been practiced for years one of our our green buyers
+52:00  Omar in columia um said you know there's a place where coffee's been being produced for a long time the producers
+52:06  there have been doing anerobic fermentation for Generations but it was never marketed that way right and so
+52:13  different producers find different recipes they just find things that work with their coffee um but introducing a
+52:19  totally new fermentation technique can be really expensive right um it can take a lot of time and a lot of material
+52:27  um and there's a risk that that method might not be as in high demand in years to come right so this is another kind of
+52:34  like assumed risk um by the processor to try these new fermentation methods
+52:40  experimentation is key um in producing a good recipe right so um I forgot to
+52:46  click through these different pictures here but lots of different environments lots of different recipes that can be
+52:52  come up with that work um but here's kind of a chart of different fermentation methods right anerobic like
+52:59  we just looked at aerobic which is just an open air um kind of
+53:05  environment uh Carbonic mation which is a method uh pulled from
+53:12  the wine industry right and applied to Coffee um thermal shock lactic acid and
+53:20  yeast ferments those rely on on starter cultures um and then coof ferments and
+53:27  there's many many others that are coming out these are just some of like the more common ones that we hear of uh nowadays
+53:34  when it comes to fermentation so kind of continuing on this track
+53:41  before we get into Dragon Milling which we'll go fairly quick through just to kind of break it all down everything
+53:47  we've talked about thinking about one fermentation environment there's kind of three three steps going on within a
+53:54  fermentation environment step one the fermentation itself where you know the
+54:00  microbes are present what microbes will Thrive and then what kind of sugar is
+54:06  available that kind of determines what fermentation pathway is going to start
+54:11  happening with that in environment right then there's diffusion so all of these
+54:17  new molecules are being generated in the fermentation these new compounds what is
+54:22  produced are those things small enough to travel into the seed right some
+54:27  things that are produced in the fermentation those molecules will be too large to travel into the membrane and
+54:34  then there's how long does diffusion take how long does it take for those new things generated to get into the seed is
+54:41  that seed in the environment long enough to absorb those new things um and then Pathways does the
+54:48  molecule change as it's diffusing into the seed right as it's going from high
+54:54  concentration to low concentration some compounds might not change some
+54:59  compounds might be consumed by the seed's metabolism and change they might be consumed by other microbes and turn
+55:07  into another new thing um and they might chemically react with what's already around it right so all this to say is
+55:15  like we can do lots of tests and Labs that's not always going to translate to the environment right things are
+55:23  constantly changing throughout the fermentation and then those things have to get into the seed right to impact the
+55:30  cup so it's hard to track all of these tiny infinite changes that are going on
+55:35  within a fermentation environment um so lots of complexity very hard to
+55:42  replicate um but these are these are kind of the big three mechanics that work right so this study does a really
+55:49  good job of of of indicating that this is also something you can go read um
+55:54  this is 10 Farm in Brazil that were studied they were
+55:59  able to find out what are all of the bacteria and and fungi that are active
+56:06  um on these Farms um what was the rate of
+56:11  consumption of glucose and fructose in the fermentation environment and then
+56:16  what was produced in that fermentation environment of ethanol lactic acid
+56:21  acetic acid and citric acid and then and they were able to
+56:28  identify volatile compounds produced in the fermentation and then kind of uh say
+56:34  whether those were derived from plant microbes or microbes in the fermentation
+56:41  environment and then they kind of interl all of it right so I'm not going in depth into this but it's a great way of
+56:48  kind of illustrating again that kind of the complexity of the relationships everything's kind of tied together when
+56:54  you change one variable it's going to going to change this entire picture right of the volatile compounds and
+57:00  major compounds produced in the fermentation so um Innovative fermentation techniques
+57:08  while they are you know potentially effective at increasing coffee qualities
+57:13  they do require farmers who may not be earning a livable income to invest further into their facilities to be able
+57:20  to do these things right um and so uh Market man market demand like we talked
+57:26  about market demand changes um and that can expose Farmers to risk um so
+57:33  managing all of these risks learning new processes um it's easier said than done
+57:38  doing these things right um but uh fermentation has become um a thing that
+57:47  is really really changing coffee and coffee profiles and what we expect to drink from coffee and it's part of what
+57:53  makes this time period the best time to be a coffee drinker we're getting so many new flavor experiences and we can
+57:59  attribute a lot of that to to fermentation cool
+58:04  so that closes up that section little synopsis of fermentation we're going to go through drying and Milling we got 30
+58:11  minutes left here in this class I appreciate y'all hanging in there with me again I know these virtual classes
+58:16  aren't always the most engaging but hopefully there's something interesting in here and then again I will point you
+58:22  to uh all the all the sighted sources uh where if you want to do any more reading
+58:27  on these topics I have all those listed out for you so drying what is dry we've talked about
+58:35  dry a lot already we're just going to kind of put a bow on it give us a new way to hopefully think about drying um
+58:43  but drying is that final step of processing right you're laying that coffee out to dry however much fruit is
+58:48  on it when you pick a coffee Cherry it's around 50% moisture content in the dry
+58:54  step we're trying to get that coffee into a band somewhere between 9 and 14%
+59:00  you're just going to see under 12% like 11% kind of being that ideal drying spot
+59:06  for the coffee scene so um measuring the moisture content 11% of a coffee seed
+59:13  being water you can think of drying like curing right we're drying moisture out of a food product making it inhospitable
+59:21  to bacteria and other microbes that might cause the food to spoil right so this is BAS basically making the coffee
+59:27  shelf stable until it makes its way to a rooster can be held by a rooster until
+59:33  it's roasted right where the seed is reaching an equilibrium where with an environment where it's not changing um
+59:39  or susceptible to microbial growth um so lots of variables in drying we've
+59:47  seen a lot of different dry methods um surfaces facilities um we've talked about how the
+59:54  amount of fruit remaining and then all the kind of ambient variables the temperature humidity direct light all of
+1:00:01  those things are going to slow down or speed up the drying right like we've
+1:00:06  also talked about drying is a bottleneck it takes a long time so here's some of the main methods for drying coffee I'm
+1:00:12  going to take a drink real fast so you have patio drying right the
+1:00:19  surface is concrete low air flow you have to constantly turn this coffee over
+1:00:24  especially in the first half of the Dr drying time the temperature is susceptible to fluctuation because it's
+1:00:30  just outside uh humidity is region and weather dependent if it's really humid
+1:00:36  it takes a long time to dry and then direct light is shown to really take moisture out of coffee very very quickly
+1:00:43  right so you are you are open to direct light which can help speed up the drying
+1:00:48  um the biggest risk here is inconsistency in drying right you're very susceptible to whatever the
+1:00:54  elements whatever the weather does does raised beds you're basically
+1:01:01  improving the air flow right the surface that it's drwing on it's off the ground you have some sort of mesh or woven um
+1:01:09  woven stuff under the coffee so you get better air flow which can help for more consistent drying um still pretty
+1:01:16  exposed to the elements so that will determine a lot of your drying time
+1:01:21  right then you have parabolic dryers so this one these are raised beds but
+1:01:27  they're under like these green houses right there's a lot of different materials you can use to cover up the
+1:01:32  coffee but the main thing you're eliminating here is one you're having good air flow um and then two you are
+1:01:39  adding a little bit of control to the temperature and the direct light right so typically parabolic dryers slow the
+1:01:47  drying way way way down and then you've got mechanical
+1:01:53  dryers which is on the opposite end it makes drying coffee really really really fast you see this more often with
+1:02:00  commodity coffee you might see it in areas where the humidity is really high and it's like impossible to dry coffee
+1:02:07  to that 11% moisture content you might start it on a drying bed then finish it in a mechanical dryer but it's like a
+1:02:14  roaster that kind of sits you know at a certain temperature rotates the coffee around and just dries it out right um it
+1:02:22  has been shown that temperatures over 100° f flavor precursors start to get damaged
+1:02:29  right so you don't want the temperature too hot otherwise you're just kind of pre- roasting the coffee in a way so the
+1:02:37  big kind of lesson um with drying is typically the slower
+1:02:43  is better the quicker you remove moisture uh you kind of rip that moisture from the seed structure you
+1:02:50  tend to also hurt all of those flavor precursors within the coffee you you tend to lose some of those so usually
+1:02:58  slower holds quality more intact but that means it's on the drying surface for a longer amount of time right is the
+1:03:06  natural coffee dried again after Milling so the natural is going to fully dry the seed content moisture content will fully
+1:03:13  dry to that correct percent so it it doesn't need to be dried again after it's milled no it's a good question
+1:03:19  though Thomas they'll basically be taking seeds
+1:03:24  from the drying table and pulling them from uh from the skin and then measuring their moisture
+1:03:31  content as it's going to know once it's done so good way to think about dry um a lot
+1:03:40  of this information come came from our sensory team uh who studied water activity and water activities uh impact
+1:03:47  on coffee I'm not bringing up water activity to say this is something that should be measured by all producers
+1:03:54  because it's expensive to me measure it um but it's a really good way of kind of understanding what equilibrium with the
+1:04:01  environment means right why is 11% just kind of like that sweet spot
+1:04:07  for coffee water activity kind of tells us why so we're going to Define wa
+1:04:13  moisture content and water activity moisture content is again just the amount of water in the seed right how
+1:04:21  much water is in this thing uh by percentage of its weight right so that's
+1:04:26  what we're measuring that kind of 9 to 14% that means 11% of this thing's weight is
+1:04:35  moisture water activity is a way of measuring the energy state of that
+1:04:40  moisture in the seed right so if you zoom in on a seed seeds are kind of made up of this
+1:04:46  cellulose material right interconnected but there's these Open Spaces those Open
+1:04:53  Spaces hold stuff throughout the seed's life like moisture so that the seed can survive right so when we talk about the
+1:05:01  energy state of the water we're basically talking about how free that water is right is it just hanging out in
+1:05:08  the open space or is that moisture integrated into the cellular structure
+1:05:13  of the seed water activity is basically a measurement of kind of the state of the moisture right how free versus kind
+1:05:21  of locked in that moisture is a great way to think about it is like a Spong right you soak a sponge in water you
+1:05:28  absorb water into it when you take that sponge out if you squeeze that sponge a lot of it falls out right a lot of that
+1:05:35  water is free to just squeeze out of the sponge but some moisture will still be kind of locked into the structure of the
+1:05:42  sponge so that's kind of a good way to think about water activity right uh how
+1:05:48  much of this moisture is kind of integrated into the product right the
+1:05:53  more free water in a product the closer you get to a 1.0 water
+1:05:59  activity 0 to one is how it's measured so the smaller the number the more
+1:06:05  integrated that moisture is in that food product right the big thing is that the
+1:06:13  higher the water activity or the more free water there is the more risk you
+1:06:19  have for microbial activity molds microtox sins that's where in coffee you
+1:06:25  can get oxidation of fats or lipids like if a coffee is exported and its water
+1:06:30  activity is too high you can lose a lot of flavor precursors or take on new
+1:06:36  flavors right so in coffee 7 is kind of like the sweet spot
+1:06:43  we found just on our our personal account if the moisture or the water
+1:06:49  activity is under 7 most microbial activity is stopped um mold spores can't
+1:06:56  proliferate and what we see is that under 12% moisture content usually means
+1:07:02  you are under s water activity right so it's kind of like a way of basically
+1:07:08  reconning why 12% moisture content is kind of that natural number that's
+1:07:13  usually where the water activity is low enough to stop microbial activity right
+1:07:19  so another good way to think about this is which product a raisin or a SE cereal
+1:07:26  has higher moisture content a raisin has a lot more moisture within it right
+1:07:31  cereal is pretty dry raisins are pretty moist products but then if you think
+1:07:37  about which product molds easier right cereal tends to develop mold much better
+1:07:45  or much more quickly than a raisin will right you can store a raisin for a long time so even though there's more
+1:07:51  moisture in a raisin its water activity is lower that moisture is more integrated into the product versus
+1:07:58  Cereal where there's not as much moisture but what moisture is there is pretty free to microbial activity right
+1:08:06  so um coffee needs a little bit of moisture um but we don't want to remove
+1:08:12  moisture that is integrated in the seed that hurts the structure of the seed but
+1:08:18  we don't want so much moisture in the seed that microbial growth can start to take place right um
+1:08:27  so that's kind of what we're talking about with drying right slow even drying
+1:08:33  tends to produce a better product right getting coffee under 12% moisture
+1:08:39  content limits water activity that equals a more shelf stable product right
+1:08:46  when we talk about stable it means it's at equilibrium with its environment it's not at risk to microbial growth
+1:08:53  so um that's kind of coffee drying in a nutshell right multiple ways to get to
+1:09:00  that final product um we're not talking much about like Flavor precursors in
+1:09:05  drying right there um I'll show a little chart in a minute to how that correlates right length of dry time how that
+1:09:12  relates to flavor but if you want to learn more about water activity we've published a study on a on our website
+1:09:19  it's on the sensory analysis section it's really really interesting to learn about
+1:09:26  so keep it going on these steps after coffee is dried it usually rests one to
+1:09:33  four weeks at the farm or at the wet Mill before it goes to the dry Mill
+1:09:39  where it will be milled and bagged um there's not a lot of research on this like really specific small step but the
+1:09:46  coffee's taken off the drying beds maybe put in sacks for delivery but it just
+1:09:52  sits at the farm for a little bit longer before it transports um in our experience usually
+1:09:59  one week to one month seems to kind of be the average amount of time before that coffee is delivered just to kind of
+1:10:04  let it rest for a little bit and then it is time for Milling so
+1:10:11  um considerations with drawing we've talked a lot about these what processing methods do you have therefore how long
+1:10:18  will it take those lots to dry how many Lots do you have how much space do you have and then the lower moisture content
+1:10:27  usually means that coffee weigh less um so it's going to take longer and you'll
+1:10:32  need more seeds to fill a bag to kind of hit that weight of the bag right so it
+1:10:39  takes a long time to really thoroughly dry coffee
+1:10:45  well so to kind of tie processing drying and flavor Al together uh at World of
+1:10:52  coffee this past year uh zah coffee excellence Center um and Zurich
+1:10:57  presented a new study that they're about to put out um where they looked at
+1:11:02  processing method and drying time in Kenya and their effect on the presence of volatile aromatics in green coffee um
+1:11:10  I'm excited for the full thing to come out but what they found is that like the more fruit left on the seed and the
+1:11:17  longer the drawing time the greater the presence of volatile aromatics right so that's a big takeaway here the more
+1:11:24  fruit you have or the longer the fermentation and then the longer the drawing time you tend to
+1:11:30  keep more aromatics intact so this is like a quick washed a honey a natural
+1:11:38  and then an extended drying uh natural and it took the longest amount of time
+1:11:45  it has the most am amount of volatile aromatic so um it's a really interesting study I'll definitely uh we'll keep
+1:11:52  people updated when it's out because it was it was really well done um and a good look at fermentation and drying at
+1:11:58  an actual farm and not in a lab but uh yeah longer drying more fruit usually
+1:12:05  results in more volatile aromatics that doesn't mean the coffee's better it just means it's going to have more of these
+1:12:11  flavor compounds that can be played with in a coffee rooster right so wrapping up
+1:12:20  here losing my voice for some reason haven't taught a class in a month I
+1:12:26  guess uh you've got Milling so um Milling again is that kind of
+1:12:34  final step before export you basically you have dried seeds the seeds still
+1:12:39  have the shell or the parchment attached right they have this shell around them and the actual green coffee seed is
+1:12:46  within this shell we need to get that parchment shell off get those seeds
+1:12:51  cleaned sorted graded and bagged up so they can be exported so here's our
+1:12:57  flowchart for it oh who is Milling kind of like who is processing um who is Milling the
+1:13:04  producer may be Milling if they have a mill so this is what we see in Costa Rica micro Mills where producers grow
+1:13:13  coffee they process coffee and they have their own Mills that they export the coffee out of
+1:13:19  um uh but more often it's going to be maybe an association or a cooperative so
+1:13:25  again a group of producers who have a facility together a dry Mill collector
+1:13:31  or supplier different names for different areas of the world but it's basically a place where coffee that has
+1:13:36  been processed and dried is delivered to be M um and then exported out of uh so
+1:13:44  there's kind of like contracts uh for that step to happen right those different delivery points um or again an
+1:13:51  exporter right these dry Mills collectors suppliers exporters that could be government or private owned um
+1:13:59  again lots of changing of hands Could Happen Milling steps so after that
+1:14:07  coffee is dried it is delivered to a mill who collects it they will sample that coffee and then store that coffee
+1:14:15  um typically it's better to store a coffee in parchment up until it is sold
+1:14:20  once the coffee is sold then it will go through the Milling steps and export immediately um parchment is a good
+1:14:27  protective layer for coffee so it's good to keep the coffee in parchment rather than Milling it immediately and then uh
+1:14:35  storing it that way it's just a little safer to store it in its parchment so you'll store it once the coffee is sold
+1:14:42  clean off the parchment uh or you'll clean the coffee hole off the parchment polish which is
+1:14:50  becoming less common sort the coffee bag it and Export it we're going to look at
+1:14:55  each of these steps real quick here so collecting the coffee a coffee
+1:15:02  is processed and dried wherever that coffee is coming from it will be received at the Mill it will sort that
+1:15:09  coffee and then Warehouse or Silo that coffee until it's sold during this time
+1:15:16  while it's stored some coffee will be pulled from those bags to be sampled
+1:15:21  right those samples will be shipped or CED uh trying to find a buyer right so
+1:15:28  they'll pull the sample they will Mill the coffee um I'm actually going to turn off the sound
+1:15:36  because this is really loud but this is a a tiny little Mill right it's like
+1:15:42  another deper where it's just grinding off those husks grinding off that parchment and then you get the green
+1:15:49  coffee seeds so Mill it screen sort it right so screen sorting is basically
+1:15:57  like we saw in that washed video it's like a screen with holes in it and you will shake the coffee through these
+1:16:03  screens to kind of get the ratio of larger medium small siiz seeds a lot of
+1:16:09  times uh different Lots will just want certain screen sizes so you'll find out
+1:16:16  what percentage of this sample is too big or too small to make it to the final
+1:16:23  lot then you will Green green grade that screen sorted coffee right looking for
+1:16:29  any defects visual defects right whether it's um bug damage over fermented
+1:16:37  blackened or immature chipped broken um these different visual defects
+1:16:44  so you will then find out what percentage of this sample is defective versus
+1:16:53  acceptable and basically with all of that you'll determine like what the final lot size is right so screen
+1:16:59  sorting and defect sorting you'll determine the final lot size then you'll sample roast cup that coffee evaluate it
+1:17:08  send off samples to sell that coffee right so you're kind of getting all the technical data on the coffee while it's
+1:17:15  in storage to sell that coffee once the coffee is sold it's time
+1:17:20  to Mill the coffee so that coffee will be taken out of storage right
+1:17:25  so in this small Mill it's a nice little blueprint to show all the different steps there's a receiving
+1:17:32  Hopper so the coffee will be dumped into here it's taken by elevators to the
+1:17:37  holing machine this H holder is connected to a pre- clean vacuum so it
+1:17:42  is pulling dust um and any small debris out of that coffee the coffee is getting
+1:17:48  hold removing the parchment layer a Pneumatic conveyor will continue to kind of sort that coffee
+1:17:55  sort out any Stones Metals materials like that there might be a magnet
+1:18:00  attached to this pneumatic conveyor to pull out any metal material and then
+1:18:06  there's a handful of sorting machines that coffee might go through depending on the mill this is another area where
+1:18:12  new technology new new equipment is coming out all the time so there could
+1:18:17  be a screen sorting machine a density sorting machine which is kind of those tables that shake and separate coffee by
+1:18:25  weight it's a way to get rid of defective coffee um same with screen sorting then there might be an optical
+1:18:32  sorter which uses imaging technology to kind of take pictures of the coffee and
+1:18:38  kick out anything that's too dark or too light in color right so all of this is
+1:18:43  ways of getting rid of any defective coffee or too small or too big of coffee
+1:18:49  there might be hand sorting at the end maybe not depending on what Machinery is there and then collecting that coffee
+1:18:57  and bagging it up for export right so here's some pictures of each of those steps PR cleaning could be a vacuum
+1:19:05  gravimetric table dster a magnet different ways to kind of clean those
+1:19:11  seeds before it's being Mill pull out any debris then Hing the coffee getting the
+1:19:19  parchment off right it's kind of like a grinder that just uh chips away the parch M getting the green seeds
+1:19:28  out and then sorting that coffee right lots of different sorting mechanisms
+1:19:33  density sorder a table density being weight screen sorder right setting the
+1:19:39  parameters to get certain screen sizes out optical sorder here's a video of an
+1:19:46  optical sorder
+1:19:58  so you can see in that video like coffee is kind of going down these shoots
+1:20:03  pictures are being taken and little puffs of air being used to kick anything out that doesn't sit in the parameter
+1:20:10  that you've set on the computer uh hand
+1:20:15  sorting and bagging the coffee loading it up for delivery to the port city
+1:20:22  right to where it's going to be exported so lots of steps in Milling the main
+1:20:28  thing with Milling is the more friction and huling the
+1:20:34  harder it is on the coffee right so new machines are very good at trying to eliminate heat and friction because that
+1:20:40  can damage the coffee um you also want the coffee to be at a good dry point um
+1:20:45  and for it to go quickly through these steps right before export so wrapping up
+1:20:52  the entire class basically there the big flowchart kind of of everything we've talked about right after harvest you got
+1:20:58  washed honey natural different steps fermentation points then you've got the drawing all
+1:21:05  the different variables we talked about there then you've got the Milling steps right so next class we get into the
+1:21:12  commercialization of coffee right the actual selling the coffee coffee markets
+1:21:18  exporting importing all that sort of stuff this is where our class ends for today um but
+1:21:25  to me to kind of put a bow on everything we've talked about uh when I think about
+1:21:30  processing and Milling as those steps or those actions taken to achieve whatever
+1:21:36  desired end there is for that coffee it's really it's a series of biological
+1:21:42  Miracles right this plant that kind of aim to produce a seed that tastes good
+1:21:49  when you roast it and Brew it right these biological Miracles between uh plant
+1:21:55  between man between a man's environment the microbes in that environment and all
+1:22:01  of these steps taken right all of that and then kind of the name of changing and preserving that coffee um and all of
+1:22:08  that contributing to the emergence that coffee is it's like my favorite word to describe coffee as emergent right all
+1:22:15  these properties joining together to create something holistic something new
+1:22:20  and coffee is always providing us with a new experience right so this these post Harvest steps are huge
+1:22:28  in in kind of adding to that complexity and that potential of what a coffee can become right so closing thoughts
+1:22:36  processing and Milling transforms and preserves coffee there's an Infinite combination of actors variables and
+1:22:42  outcomes from these steps um and I hope you learned something new or a new way to think about these steps right you
+1:22:49  might know a lot about these steps already uh but hopefully there's a new way to think about it there um or it
+1:22:54  helped Define something more clearly or helped you visualize a step um more clearly so if you have any thoughts on
+1:23:03  anything you want to learn more about related to this again I'm going to drop these helpful links here I'd love to
+1:23:09  hear from you we have a uh we have a survey form too we'd
+1:23:14  appreciate your feedback link uh if you want to fill out a survey for me I'd appreciate it um like I said these
+1:23:20  classes are going on to our YouTube you can watch them there they're also on our Ed and new homepage and then uh if you
+1:23:27  want to read any of the references from today here's a full list if you go to the download the
+1:23:32  presentation you can copy and paste any of these references um and you can go and check
+1:23:40  them out yourself I made sure all these ones um they're accessible uh and you
+1:23:47  can go through and read them and they're they're kind of broken down by by section we went through so um yeah
+1:23:53  highly recommend check those out uh if you want to learn more based on what we talked about today um but overall thank
+1:23:59  you all again I'm happy to hang out and answer questions um if you have any questions if you don't I'll let you go
+1:24:07  right here but uh yeah I really really appreciate you
