@@ -67,6 +67,42 @@ const Insight = ({params}: Props) => {
           <p className='my-2 text-gray-600 font-inconsolata'>
             {date}
           </p>
+
+          <div className='my-4 text-sm'>
+            <span className='font-semibold'>Series:</span>
+            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline ml-2'>Coffee is a Plant</Link>
+            <Link href='/insights/coffee-is-processing-drying-milling' className='underline ml-2'>Processing</Link>
+            <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline ml-2'>Commerce</Link>
+            <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline ml-2'>Science</Link>
+            <Link href='/insights/coffee-is-art-roasting-brewing' className='underline ml-2'>Art</Link>
+          </div>
+
+          <div className='my-4 text-sm'>
+            <span className='font-semibold'>Series:</span>
+            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline ml-2'>Coffee is a Plant</Link>
+            <Link href='/insights/coffee-is-processing-drying-milling' className='underline ml-2'>Processing</Link>
+            <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline ml-2'>Commerce</Link>
+            <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline ml-2'>Science</Link>
+            <Link href='/insights/coffee-is-art-roasting-brewing' className='underline ml-2'>Art</Link>
+          </div>
+
+          <div className='my-4 text-sm'>
+            <span className='font-semibold'>Series:</span>
+            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline ml-2'>Coffee is a Plant</Link>
+            <Link href='/insights/coffee-is-processing-drying-milling' className='underline ml-2'>Processing</Link>
+            <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline ml-2'>Commerce</Link>
+            <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline ml-2'>Science</Link>
+            <Link href='/insights/coffee-is-art-roasting-brewing' className='underline ml-2'>Art</Link>
+          </div>
+
+          <div className='my-4 text-sm'>
+            <span className='font-semibold'>Series:</span>
+            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline ml-2'>Coffee is a Plant</Link>
+            <Link href='/insights/coffee-is-processing-drying-milling' className='underline ml-2'>Processing</Link>
+            <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline ml-2'>Commerce</Link>
+            <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline ml-2'>Science</Link>
+            <Link href='/insights/coffee-is-art-roasting-brewing' className='underline ml-2'>Art</Link>
+          </div>
           
           <p className='my-4'>
             We&apos;re excited to announce that <span className='font-bold'>Ethio Coffee Company Inc.</span> is officially open for business - our way of bringing Ethio Coffee closer to Canadian roasters. We offer premium Ethiopian green coffee directly to roasters, cafés, and specialty coffee businesses across Canada.
@@ -219,6 +255,46 @@ const Insight = ({params}: Props) => {
                 How to Order
               </Link>
             </div>
+          </div>
+
+          <h2 className='text-2xl font-bold mt-8 mb-4'>FAQ — Coffee Art (Roasting & Brewing)</h2>
+          <div className='prose max-w-none'>
+            <h3>Q: How do I choose a roast degree for an origin?</h3>
+            <p>A: Start light to preserve origin acidity, then increase development time if you need more body or sweetness — always cup samples at each stage.</p>
+            <h3>Q: What's a reliable V60 baseline?</h3>
+            <p>A: 16g:250g, 94°C, 2:30–3:00 total time with a 30s bloom is a reproducible starting point for evaluation.</p>
+            <h3>Q: How important is water quality?</h3>
+            <p>A: Very — mineral balance affects extraction and perceived sweetness; use filtered water with moderate mineral content for consistent results.</p>
+          </div>
+
+          <h2 className='text-2xl font-bold mt-8 mb-4'>FAQ — Coffee Science</h2>
+          <div className='prose max-w-none'>
+            <h3>Q: What is the easiest lab test for quick QC?</h3>
+            <p>A: A calibrated moisture meter paired with bulk density gives high-impact insight on roast behavior and storage risk.</p>
+            <h3>Q: How many cupping reps are enough?</h3>
+            <p>A: At least three independent cuppings gives more statistical confidence; blind samples reduce bias.</p>
+            <h3>Q: Do volatile compounds always mean better coffee?</h3>
+            <p>A: Not always — volatile complexity is desirable when balanced; off-aromatic volatiles indicate poor processing or storage issues.</p>
+          </div>
+
+          <h2 className='text-2xl font-bold mt-8 mb-4'>FAQ — Coffee Commerce</h2>
+          <div className='prose max-w-none'>
+            <h3>Q: How does the C market affect smallholders?</h3>
+            <p>A: The C market sets commodity pricing that often doesn't reflect quality or input costs; smallholders can be exposed to price swings unless they access forward contracts or specialty premiums.</p>
+            <h3>Q: What is FOB vs EXW?</h3>
+            <p>A: FOB covers costs to load onto the ship at origin; EXW is a seller quotation delivering goods at the seller's premises — buyers often handle more logistics with EXW.</p>
+            <h3>Q: How can roasters support price stability?</h3>
+            <p>A: Multi-year contracts, early payments, and transparent premiums help stabilize incomes for producers and build long-term supply relationships.</p>
+          </div>
+
+          <h2 className='text-2xl font-bold mt-8 mb-4'>FAQ — Coffee Processing</h2>
+          <div className='prose max-w-none'>
+            <h3>Q: Which processing method preserves origin clarity?</h3>
+            <p>A: Washed processing generally highlights origin character and acidity; naturals emphasize fruity sweetness.</p>
+            <h3>Q: How long should drying take?</h3>
+            <p>A: Slow, controlled drying (2–3 weeks on raised beds) usually preserves aromatics better than fast mechanical drying.</p>
+            <h3>Q: Should I worry about anaerobic fermentation?</h3>
+            <p>A: Anaerobic methods can produce unique flavors but require strict controls and consistent monitoring to avoid off-flavors.</p>
           </div>
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
@@ -2367,6 +2443,11 @@ const Insight = ({params}: Props) => {
           <p className='my-4'>
             Understanding coffee processing reveals the infinite variables that make each coffee unique, highlighting the creativity and experimentation in specialty coffee production.
           </p>
+          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              <span className='font-bold'>In this article:</span> We break down core processing methods, fermentation science, drying strategies, and milling decisions — with a practical case study from Ethiopian naturals and notes on how these choices map to cup profile.
+            </p>
+          </div>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>What is Coffee Processing?</h2>
           <p className='my-4'>
@@ -2456,6 +2537,14 @@ const Insight = ({params}: Props) => {
             Natural coffees often feature intense sweetness, wine-like notes, and heavy body, but consistency can be challenging due to variable fermentation.
           </p>
 
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Case Study: Guji Natural Processing</h3>
+          <p className='my-4'>
+            Many Guji producers dry whole cherries on raised beds for 2–3 weeks. Typical handling includes frequent turning during the first 10 days, slower turns as sugars concentrate, and careful sorting to remove over-fermented fruit. The result is often a layered cup with strawberry, black tea, and molasses notes — a useful concrete example of how drying technique affects aroma and sweetness.
+          </p>
+          <p className='my-4'>
+            Practical tip: When evaluating natural-processed lots, ask for a detailed drying log (days on bed, average sun hours, and sorting regimes) — these details often explain differences between similarly scored lots.
+          </p>
+
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Fermentation in Coffee Processing</h2>
           <p className='my-4'>
             Fermentation is a controlled microbial process that breaks down the mucilage layer and influences flavor development. It occurs through glycolysis, where microorganisms consume sugars and produce byproducts like acids, alcohols, and volatile aromatics.
@@ -2507,6 +2596,23 @@ const Insight = ({params}: Props) => {
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: The Infinite Possibilities of Coffee Processing</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Processing Checklist (For Buyers)</h3>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Processing method:</strong> Washed / Honey / Natural and exact variant (e.g., black honey)</li>
+            <li><strong>Fermentation details:</strong> Aerobic/anaerobic, duration, temperature control, inoculants used</li>
+            <li><strong>Drying details:</strong> Raised bed vs patio, average sun hours per day, turning regimen, days to target moisture</li>
+            <li><strong>Moisture target:</strong> Final % and measurement method</li>
+            <li><strong>Sorting & grading:</strong> Screen sizes, defect counts, and whether optical sorting was applied</li>
+            <li><strong>Storage:</strong> On-farm resting period, warehouse conditions, and packaging (jute vs. grainpro)</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Drying Monitoring Metrics</h3>
+          <p className='my-4'>Trackable metrics that predict cup quality:</p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Daily moisture decline:</strong> % moisture drop per day on raised beds</li>
+            <li><strong>Average sun exposure:</strong> Hours of direct sun per day</li>
+            <li><strong>Sorting yield:</strong> % of lot passing initial QA at day 10 and day 20</li>
+          </ul>
           <p className='my-4'>
             Coffee processing is a testament to the beverage's complexity, where biological processes, human creativity, and environmental factors converge to create unique flavor experiences. From traditional Ethiopian naturals to experimental anaerobic fermentations, processing showcases the endless innovation in specialty coffee.
           </p>
@@ -2575,6 +2681,11 @@ const Insight = ({params}: Props) => {
           <p className='my-4'>
             Understanding coffee commerce is essential for roasters, importers, and enthusiasts alike. It reveals how global markets influence prices, how specialty coffee differentiates itself from commodity trading, and why ethical practices in exporting and importing are vital for the industry's future. From the bustling ports of origin countries to the warehouses of importing nations, coffee commerce drives the economic engine of this beloved beverage.
           </p>
+          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              <span className='font-bold'>In this article:</span> We cover the C market, specialty coffee dynamics, exporting and importing logistics, green buying strategies, and transparency practices — plus a short case study on recent price volatility and its impact for producers.
+            </p>
+          </div>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The C Market: Commodity Coffee Trading</h2>
           <p className='my-4'>
@@ -2590,6 +2701,14 @@ const Insight = ({params}: Props) => {
           </ul>
           <p className='my-4'>
             The C market represents 90-95% of global coffee trade, providing stability for large-scale operations but often failing to reward quality or sustainability. In contrast, specialty coffee emerges as a reaction to this commoditization, emphasizing distinctiveness and ethical sourcing.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Case Study: 2024 Price Volatility and What It Meant</h3>
+          <p className='my-4'>
+            The 2024 season saw one of the sharpest price swings in recent memory. Producers who had little access to price risk-management tools experienced sudden income spikes followed by rapid declines. For many smallholders this translated into impossible planning for inputs and labor. Specialty buyers who maintained forward contracts and transparent premiums were able to provide more stable income and preserve long-term partnerships.
+          </p>
+          <p className='my-4'>
+            Practical takeaway: roasters should consider multi-year contracts or early-payment options to smooth income for producers and secure reliable supply for their roasteries.
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Specialty Coffee: Differentiated and Transparent</h2>
@@ -2686,6 +2805,14 @@ const Insight = ({params}: Props) => {
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: The Future of Coffee Commerce</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Buyer Checklist & Pricing Waterfall</h3>
+          <p className='my-4'>A short checklist and quick pricing waterfall to understand how money flows:</p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Ask for:</strong> Farmgate price, premiums, FOB, and any quality bonuses</li>
+            <li><strong>Understand:</strong> Exporter costs (milling, testing, logistics) versus importer/roaster margins</li>
+            <li><strong>Pricing waterfall:</strong> Farmgate → Local logistics/milling → Exporter margin → Freight/insurance → Importer margin → Roaster price</li>
+          </ul>
+          <p className='my-4'>Transparency here is crucial—request a payment breakdown when possible to ensure fair share for producers.</p>
           <p className='my-4'>
             Coffee commerce is more than transactions; it's a system of relationships, logistics, and ethics that connects global communities. From the volatility of the C market to the nuanced world of specialty coffee, understanding exporting, importing, and green buying empowers stakeholders to drive positive change. Transparency remains the cornerstone, ensuring that every cup reflects fair trade and sustainable practices.
           </p>
@@ -2754,6 +2881,11 @@ const Insight = ({params}: Props) => {
           <p className='my-4'>
             From green coffee analysis to the intricate world of cupping coffee, understanding the science behind coffee compounds and flavor perception transforms how we appreciate and evaluate this remarkable beverage. Every sip represents the culmination of scientific principles applied throughout the supply chain.
           </p>
+          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              <span className='font-bold'>In this article:</span> We examine green coffee physicals, key chemical compounds, sensory science and cupping methodology — plus practical lab and cupping examples you can use to evaluate lots more effectively.
+            </p>
+          </div>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Science of Green Coffee Evaluation</h2>
           <p className='my-4'>
@@ -2801,6 +2933,22 @@ const Insight = ({params}: Props) => {
           </ul>
           <p className='my-4'>
             These coffee compounds are highly extractable and contribute significantly to the perceived brightness and complexity in coffee flavor.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Practical Example: Mapping Compounds to Tasting Notes</h3>
+          <p className='my-4'>
+            Want a quick mental model? Use this mapping when cupping or sourcing:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Citric &amp; malic acids:</strong> Bright, citrus and apple-like acidity</li>
+            <li><strong>Sucrose breakdown:</strong> Sweetness and caramel notes after roasting</li>
+            <li><strong>Chlorogenic acid derivatives:</strong> Bitterness and body components when over-extracted</li>
+            <li><strong>Volatile esters and aldehydes:</strong> Fruity and floral aromatics often associated with naturals</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Lab &amp; Field Tools for Green Coffee Analysis</h3>
+          <p className='my-4'>
+            Useful tools include moisture meters (for immediate QC), bulk density kits (predict roast behavior), and spectrophotometry/HPLC for deep chemistry when available. Even simple, repeatable cupping protocols provide high-value information for buying decisions.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Minerals, Sugars, and Bitter Components</h3>
@@ -2894,6 +3042,22 @@ const Insight = ({params}: Props) => {
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: The Scientific Foundation of Coffee Excellence</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Quick Lab Protocol (Moisture & Density)</h3>
+          <p className='my-4'>A repeatable, low-cost protocol for quick green QC:</p>
+          <ol className='list-decimal ml-5 my-4'>
+            <li>Collect a 350g representative sample from multiple bags.</li>
+            <li>Measure moisture with a calibrated moisture meter (record three readings, average).</li>
+            <li>Measure bulk density using a standardized cylinder or displacement kit.</li>
+            <li>Record screen size distribution and note any visible defects.</li>
+            <li>Roast a small 50–100g sample using your sample roaster and cup for initial acceptance.</li>
+          </ol>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Mini Glossary</h3>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Screen Size:</strong> Mesh measurement for bean size (64th inch units)</li>
+            <li><strong>Bulk Density:</strong> Predictive of roast behavior and end yield</li>
+            <li><strong>Cupping:</strong> Standardized sensory evaluation method for coffee</li>
+          </ul>
           <p className='my-4'>
             Coffee is a science that demands systematic knowledge of physical characteristics, chemical compounds, and sensory evaluation. Understanding green coffee analysis, flavor perception, and cupping methodology provides the foundation for appreciating and producing exceptional coffee.
           </p>
@@ -2962,6 +3126,11 @@ const Insight = ({params}: Props) => {
           <p className='my-4'>
             Coffee art combines scientific understanding with creative imagination, requiring practice, knowledge, and experimentation to achieve perfect extraction and flavor harmony. Every roast curve and brew represents the conscious application of skill in the coffee roasting and coffee brewing process.
           </p>
+          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              <span className='font-bold'>In this article:</span> We cover roaster hardware, roast development, a sample roast profile, and practical brewing recipes for common methods so you can apply artistic technique to highlight origin character.
+            </p>
+          </div>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Art of Coffee Roasting: Heat Transfer and Control</h2>
           <p className='my-4'>
@@ -3048,6 +3217,21 @@ const Insight = ({params}: Props) => {
             Mastering coffee roasting involves understanding how heat transfer affects these chemical changes throughout the roast process.
           </p>
 
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sample Roast Profile (Development Example)</h3>
+          <p className='my-4'>
+            Example profile for a light-plus origin roast (50kg drum):
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Charge:</strong> 180°C, 50kg in drum</li>
+            <li><strong>Early ramp:</strong> +1.5–2°C/sec to 150°C over first 3 minutes</li>
+            <li><strong>First crack:</strong> Target at 8:30–9:00 minutes, hold mild ramp</li>
+            <li><strong>Development time:</strong> 1:15–1:45 minutes (light-plus) to preserve origin acidity</li>
+            <li><strong>Drop temp:</strong> Rapid cooling to stop reactions and preserve aromatics</li>
+          </ul>
+          <p className='my-4'>
+            Note: This is a starting template. Sensory verification (sample roasts and cupping) is essential to refine any roast curve for a given lot.
+          </p>
+
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Art of Coffee Brewing: Fundamentals of Extraction</h2>
           <p className='my-4'>
             Coffee brewing represents the final artistic expression, where roasted coffee compounds are extracted through water to create the perfect cup. This coffee extraction process requires understanding solubility, time, temperature, and technique.
@@ -3066,6 +3250,18 @@ const Insight = ({params}: Props) => {
           </ul>
           <p className='my-4'>
             These brewing techniques form the foundation for consistent and flavorful coffee extraction.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Brewing Recipe Examples</h3>
+          <p className='my-4'>
+            Two practical recipes to try when assessing a new lot:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>V60 (balance):</strong> 16g coffee / 250g water, 94°C, 2:30–3:00 total time, bloom 30s with 40g — pour in thirds.</li>
+            <li><strong>Espresso (clarity):</strong> 18g in / 36g out, 25–30s, dose and grind to taste — adjust yield to balance sweetness and acidity.</li>
+          </ul>
+          <p className='my-4'>
+            These recipes provide a repeatable baseline for comparing lots and developing recipes that highlight origin character.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Extraction Theory and Compound Solubility</h3>
@@ -3099,6 +3295,18 @@ const Insight = ({params}: Props) => {
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Mastering the Art of Coffee Excellence</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Roast Troubleshooting (Quick Tips)</h3>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Too sour/underdeveloped:</strong> Increase development time after first crack or slightly raise final roast temperature.</li>
+            <li><strong>Too bitter/ashtray:</strong> Reduce development time or lower charge temp; check for over-aggressive airflow.</li>
+            <li><strong>Uneven roast:</strong> Check drum flow, charge distribution, and bean moisture variability.</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>More Brewing Recipes</h3>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Cold Brew (clarity):</strong> 1:8 ratio, steep 16–18 hours at room temp, filter and dilute to taste.</li>
+            <li><strong>AeroPress (bright & clean):</strong> 18g coffee, 220g water at 92°C, 1:30–1:45 total time using inverted method for fuller body.</li>
+          </ul>
           <p className='my-4'>
             Coffee is an art that combines scientific understanding with creative skill in roasting and brewing. Mastering heat transfer, roast curves, and extraction principles allows coffee professionals to transform green beans into exceptional cups through deliberate practice and experimentation.
           </p>

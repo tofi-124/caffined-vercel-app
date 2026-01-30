@@ -217,7 +217,7 @@ export const posts: Post[] = [
       small_image_url: 'coffee-processing.webp',
       large_image_url: 'coffee-processing.webp',
       date: 'Mar 15, 2025',
-      title: 'COFFEE IS PROCESSING: THE COMPLETE GUIDE TO COFFEE PROCESSING, DRYING, AND MILLING',
+      title: 'COFFEE IS A PROCESS: THE COMPLETE GUIDE TO COFFEE PROCESSING, DRYING, AND MILLING',
       slug: 'coffee-is-processing-drying-milling',
       category: 'Coffee Education',
       keywords: [
