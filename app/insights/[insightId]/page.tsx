@@ -2104,6 +2104,219 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
+    } else if (ind === 11) {
+      // Content for "Coffee is Agriculture: The Complete Guide to Coffee Production and Farming"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            {title}
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Understanding the science, art, and challenges of growing coffee from seed to harvest
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Ethiopian coffee agriculture insights
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt={`${title} - Ethiopian coffee agriculture insight`}
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee Begins on the Farm</h2>
+          <p className='my-4'>
+            Welcome to the second part of our "Coffee Is" series, where we explore coffee through different lenses. This chapter focuses on coffee as agriculture a complex system shaped by science, tradition, ecology, and economics.
+          </p>
+          <p className='my-4'>
+            For roasters, baristas, and coffee enthusiasts alike, understanding how coffee is grown adds essential context to what ends up in the cup. Every flavor note begins long before roasting deep in the soil, under shade trees, in the hands of farmers.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>What Does Agriculture Mean in Coffee?</h2>
+          <p className='my-4'>
+            Webster's Dictionary defines agriculture as "the science, art, or practice of cultivating soil, producing crops, and raising livestock." Coffee fits this definition perfectly.
+          </p>
+          <p className='my-4'>
+            Coffee agriculture is:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>A science:</strong> soil chemistry, plant biology, pest management, and climate interaction</li>
+            <li><strong>An art:</strong> intuition, generational knowledge, and reading the land</li>
+            <li><strong>A business:</strong> production, processing, and global trade</li>
+          </ul>
+          <p className='my-4'>
+            In specialty coffee, producers constantly balance quality, sustainability, and long-term farm health. In Ethiopia the birthplace of Arabica traditional systems like forest and garden coffee reflect centuries of agricultural wisdom rooted in biodiversity and resilience.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>A Brief History of Agriculture and Coffee</h2>
+          <p className='my-4'>
+            Human agriculture began over 12,000 years ago, evolving from controlled burning and foraging into structured farming systems. Major turning points include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>The British Agricultural Revolution (1500s):</strong> Global crop exchange and commercialization</li>
+            <li><strong>The Green Revolution (1950s):</strong> Synthetic fertilizers, pesticides, and monoculture farming</li>
+          </ul>
+          <p className='my-4'>
+            Coffee followed a similar trajectory. Originating in Ethiopia, it spread to Yemen in the 6th century, Indonesia by 1690, and the Americas by the 1700s.
+          </p>
+          <p className='my-4'>
+            Today, climate change is forcing a return to polyculture and agroforestry, as monoculture systems prove fragile under rising temperatures and erratic rainfall.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Global Coffee Production Today</h2>
+          <p className='my-4'>
+            Coffee is now one of the world's most important agricultural commodities:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li>10.5 million metric tons produced annually</li>
+            <li>60% grown by smallholder farmers (under 5 hectares)</li>
+            <li>Ethiopia accounts for nearly half of Africa's smallholder coffee production</li>
+          </ul>
+          <p className='my-4'>
+            While specialty coffee represents only ~5% of global volume, it's growing rapidly projected to reach 10% by 2028.
+          </p>
+          <p className='my-4'>
+            Yet the economics remain stark:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li>44% of smallholders live below the international poverty line</li>
+            <li>Many earn less than $100 per year from coffee</li>
+          </ul>
+          <p className='my-4'>
+            This disconnect highlights why understanding coffee as agriculture not just a beverage is essential.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Coffee Farming Ecosystem</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Soil: The Foundation of Quality</h3>
+          <p className='my-4'>
+            Healthy coffee starts with healthy soil. Ideal coffee soils are loamy, balancing:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Sand</strong> for drainage</li>
+            <li><strong>Silt</strong> for water retention</li>
+            <li><strong>Clay</strong> for nutrient storage</li>
+          </ul>
+          <p className='my-4'>
+            Key nutrients include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Macronutrients:</strong> Nitrogen (N), Phosphorus (P), Potassium (K)</li>
+            <li><strong>Secondary nutrients:</strong> Calcium, Magnesium, Sulfur</li>
+            <li><strong>Micronutrients:</strong> Iron, Zinc, Boron</li>
+          </ul>
+          <p className='my-4'>
+            Optimal soil pH ranges from 5.5 to 6.5, allowing efficient nutrient uptake.
+          </p>
+          <p className='my-4'>
+            Crucially, soil is alive. Microorganisms break down organic matter and unlock nutrients without them, coffee plants cannot thrive.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Encouraging Soil Life</h3>
+          <p className='my-4'>
+            Modern coffee agriculture increasingly prioritizes soil biology through practices such as:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Composting</strong> organic waste</li>
+            <li><strong>Culturing microbes</strong> to multiply beneficial microorganisms</li>
+            <li><strong>Mulching</strong> with plant material to feed microbes</li>
+            <li><strong>Intercropping</strong> for biodiversity</li>
+          </ul>
+          <p className='my-4'>
+            Producers in Ethiopia and Colombia often say: "Everything the plant needs already exists on the farm we just need to unlock it."
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Life Cycle of the Coffee Plant</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Germination & Nursery</h3>
+          <p className='my-4'>
+            Coffee production starts with seeds. After harvesting, seeds are tested for moisture content (they need at least 20% to germinate) and soaked overnight. They're planted in raised nursery beds with a mix of sand and peat for excellent drainage and aeration.
+          </p>
+          <p className='my-4'>
+            Germination takes about a week: the root emerges first, followed by the shoot pushing upward. Within two weeks, the first true leaves (cotyledons) appear. Seedlings spend 9 months in the nursery, developing 9-12 leaf pairs before transplanting. During this time, they're kept shaded and watered regularly, with constant monitoring for pests and diseases.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Transplanting & Early Growth</h3>
+          <p className='my-4'>
+            Transplanting happens at the start of the rainy season. Farmers:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li>Prepare soil with organic matter</li>
+            <li>Mulch to retain moisture</li>
+            <li>Gradually reduce shade</li>
+          </ul>
+          <p className='my-4'>
+            Coffee plants take 2-3 years to produce fruit. Early harvests are small, but yields increase as plants mature.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Flowering, Fruiting & Harvest</h3>
+          <p className='my-4'>
+            Flowering follows dry-season stress. Blooms last 3-4 days, attracting pollinators. While Arabica self-pollinates, cross-pollination improves yield and resilience.
+          </p>
+          <p className='my-4'>
+            Fruit development takes ~8 months, transitioning from green to deep red-purple. Specialty coffee relies on selective hand-picking, often across multiple harvest passes.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Annual Coffee Farm Management</h2>
+          <p className='my-4'>
+            Key yearly tasks include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Post-harvest pruning</strong> to remove unproductive growth</li>
+            <li><strong>Fertilization</strong> with NPK and organic amendments during wet seasons</li>
+            <li><strong>Weed control</strong> to manage competition</li>
+            <li><strong>Organic pest and disease management</strong> using beneficial insects and copper fungicides</li>
+            <li><strong>Shade regulation</strong> and facility maintenance</li>
+          </ul>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Coffee Farming Systems</h2>
+          <p className='my-4'>
+            Coffee farming systems range from rustic polyculture (integrating with natural forests) to unshaded monoculture plantations. Shaded systems common in Ethiopia provide biodiversity, erosion control, and climate resilience. Polyculture, growing coffee with other crops, is gaining traction against climate change, offering economic diversification and ecological benefits.
+          </p>
+          <p className='my-4'>
+            Agroforestry intentional tree integration offers ecological services like carbon sequestration and wildlife habitat while providing economic diversification through timber and other products.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Environmental Pressures on Coffee</h2>
+          <p className='my-4'>
+            Climate change poses the greatest threat to coffee. Rising temperatures and erratic rains could reduce suitable growing land by up to 50% by 2050. Pests like coffee leaf rust thrive in stressed environments, spreading rapidly.
+          </p>
+          <p className='my-4'>
+            Ethiopia's polyculture traditions provide resilience, but global coffee production needs systemic changes. Supporting smallholders through fair pricing, sustainable practices, and innovation is crucial for the industry's future.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Why Coffee Agriculture Matters</h2>
+          <p className='my-4'>
+            Coffee is not just a drink it's agriculture shaped by science, tradition, and human labor. Understanding how coffee is grown deepens respect for producers and reinforces the importance of ethical sourcing and sustainable practices.
+          </p>
+          <p className='my-4'>
+            At Ethio Coffee, we work directly with Ethiopian farmers to honor this agricultural heritage and deliver exceptional coffee to roasters worldwide.
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <p className='my-2 font-medium'>
+              Ready to source premium Ethiopian coffee? Contact us to learn about our direct trade partnerships and how we support sustainable agriculture.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                GET IN TOUCH
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+            </div>
+          </div>
+        </>
+      );
     } else {
       // Fallback for any insight articles without custom content
       blogContent = (

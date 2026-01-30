@@ -169,7 +169,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'coffee-plant-taxonomy.webp',
       large_image_url: 'coffee-plant-taxonomy.webp',
-      date: 'Jan 28, 2026',
+      date: 'Feb 09, 2025',
       title: 'COFFEE IS A PLANT: UNDERSTANDING TAXONOMY, SPECIES & VARIETIES',
       slug: 'coffee-plant-taxonomy-species-varieties',
       category: 'Coffee Education',
@@ -188,5 +188,29 @@ export const posts: Post[] = [
         'coffee plant science'
       ],
       desc: 'Before coffee is ever a drink, it\'s a plant. Explore coffee\'s taxonomy, anatomy, the fascinating science behind Arabica and Robusta species, variety groups, and why understanding coffee as an agricultural product deepens your appreciation for every cup.'
+    },
+    {
+      small_image_url: 'coffee-agriculture.webp',
+      large_image_url: 'coffee-agriculture.webp',
+      date: 'Feb 29, 2025',
+      title: 'COFFEE IS AGRICULTURE: THE COMPLETE GUIDE TO COFFEE PRODUCTION AND FARMING',
+      slug: 'coffee-is-agriculture-production-farming',
+      category: 'Coffee Education',
+      keywords: [
+        'coffee agriculture',
+        'coffee production',
+        'coffee farming',
+        'specialty coffee production',
+        'coffee plant lifecycle',
+        'Ethiopian coffee farming',
+        'shade grown coffee',
+        'coffee ecosystem',
+        'climate change coffee',
+        'coffee harvesting',
+        'coffee soil science',
+        'polyculture coffee',
+        'monoculture coffee'
+      ],
+      desc: 'Dive deep into coffee as agriculture: from soil science and plant biology to harvesting techniques, farming systems, and the environmental challenges facing coffee production worldwide.'
     }
 ]
