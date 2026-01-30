@@ -32,7 +32,7 @@ const Insight = ({params}: Props) => {
   return Content;
   }
   else {
-    const { title, date, large_image_url } = posts[ind]
+    const { title, date, large_image_url, slug } = posts[ind]
     
     // Insight post content based on the ID
     let blogContent;
@@ -3801,6 +3801,802 @@ const Insight = ({params}: Props) => {
               <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
               materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
               research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
+        </>
+      );
+    } else if (slug === 'ethiopian-coffee-harvest-2025-season-outlook') {
+      // Content for "Ethiopian Coffee Harvest 2025: Season Outlook"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            Ethiopian Coffee Harvest 2025: Season Outlook, Quality Expectations & Buyer Planning Guide
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Regional forecasts, pricing trends, and a timeline for importers sourcing green coffee from Ethiopia
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              The 2025 Ethiopian coffee harvest brings promising conditions across most growing regions.
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt='Ethiopian coffee harvest 2025 - coffee cherries being picked in Yirgacheffe'
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+            <p className='font-medium flex items-center gap-2'>
+              <HiOutlineCalendarDays className='text-xl flex-shrink-0' />
+              <span><span className='font-bold'>2025 Harvest Update:</span> Peak harvest is underway across most Ethiopian coffee regions. Contact us now to secure your allocation before the best lots are committed.</span>
+            </p>
+          </div>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: What the 2025 Season Means for Importers</h2>
+          <p className='my-4'>
+            Every year, the Ethiopian coffee harvest represents one of the most anticipated events in specialty coffee. As the <Link href='/insights/birthplace-of-coffee-ethiopia' className='underline'>birthplace of Arabica coffee</Link>, Ethiopia produces some of the world&apos;s most distinctive and sought-after green beans—from the floral elegance of Yirgacheffe to the explosive fruit character of Guji naturals.
+          </p>
+          <p className='my-4'>
+            For importers, roasters, and green coffee buyers worldwide, understanding the Ethiopian harvest cycle is essential for strategic sourcing. This comprehensive 2025 harvest report covers regional outlooks, quality expectations, pricing dynamics, and a practical timeline to help you plan your Ethiopian coffee purchases with confidence.
+          </p>
+          <p className='my-4'>
+            Whether you&apos;re a first-time buyer exploring <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>how to source Ethiopian green coffee</Link> or an experienced importer looking for this season&apos;s exceptional lots, this guide provides the market intelligence you need.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Ethiopian Coffee Harvest Calendar: When Coffee Is Picked</h2>
+          <p className='my-4'>
+            Unlike many coffee-producing countries with clearly defined wet and dry seasons, Ethiopia&apos;s diverse geography creates a staggered harvest across regions. Understanding this timeline is crucial for importers planning their buying windows.
+          </p>
+          
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+              <thead className='bg-dark text-primary'>
+                <tr>
+                  <th className='border border-gray-300 p-3 text-left'>Region</th>
+                  <th className='border border-gray-300 p-3 text-left'>Harvest Period</th>
+                  <th className='border border-gray-300 p-3 text-left'>Processing Window</th>
+                  <th className='border border-gray-300 p-3 text-left'>Export Availability</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Yirgacheffe</td>
+                  <td className='border border-gray-300 p-3'>October – January</td>
+                  <td className='border border-gray-300 p-3'>November – February</td>
+                  <td className='border border-gray-300 p-3'>February – May</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Sidamo</td>
+                  <td className='border border-gray-300 p-3'>October – January</td>
+                  <td className='border border-gray-300 p-3'>November – February</td>
+                  <td className='border border-gray-300 p-3'>February – May</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Guji</td>
+                  <td className='border border-gray-300 p-3'>October – December</td>
+                  <td className='border border-gray-300 p-3'>November – January</td>
+                  <td className='border border-gray-300 p-3'>January – April</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Harrar</td>
+                  <td className='border border-gray-300 p-3'>November – February</td>
+                  <td className='border border-gray-300 p-3'>December – March</td>
+                  <td className='border border-gray-300 p-3'>March – June</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Limu</td>
+                  <td className='border border-gray-300 p-3'>November – January</td>
+                  <td className='border border-gray-300 p-3'>December – February</td>
+                  <td className='border border-gray-300 p-3'>February – May</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Jimma</td>
+                  <td className='border border-gray-300 p-3'>October – January</td>
+                  <td className='border border-gray-300 p-3'>November – February</td>
+                  <td className='border border-gray-300 p-3'>February – May</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p className='my-4'>
+            The 2025 harvest began on schedule in most regions, with early pickings in Guji and Yirgacheffe starting in late September. Favorable rainfall patterns during the growing season have set the stage for what could be an excellent crop year.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Regional Harvest Outlooks for 2025</h2>
+          
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Yirgacheffe: Exceptional Conditions for Floral Complexity</h3>
+          <p className='my-4'>
+            The Gedeo Zone&apos;s famous Yirgacheffe micro-region is reporting one of its most promising harvests in recent years. Adequate rainfall during the flowering period (March-April) combined with moderate temperatures during cherry development has created ideal conditions for the delicate floral compounds that make <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline'>Yirgacheffe coffee</Link> legendary.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Yirgacheffe 2025 Outlook</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Slightly above average (+5-8% vs. 2024)</li>
+              <li className='my-2'><span className='font-bold'>Quality:</span> Excellent potential for G1 washed lots</li>
+              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Pronounced jasmine, bergamot, lemon zest</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Premium pricing expected due to global demand</li>
+              <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Secure washed G1 early; competition is intense</li>
+            </ul>
+          </div>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sidamo: Strong Naturals, Consistent Washed</h3>
+          <p className='my-4'>
+            Sidamo—now officially known as Sidama after gaining regional autonomy—continues to deliver the fruit-forward naturals and balanced washed coffees the region is known for. The 2025 harvest shows particular strength in natural processed lots, with extended dry periods during processing creating ideal conditions for slow, even drying.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Sidamo 2025 Outlook</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Average to slightly above</li>
+              <li className='my-2'><span className='font-bold'>Quality:</span> Naturals showing exceptional fruit clarity</li>
+              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Blueberry, strawberry, wine notes in naturals</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; naturals commanding premium</li>
+              <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Great value in G2 naturals for blend enhancement</li>
+            </ul>
+          </div>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Guji: The Rising Star Delivers Again</h3>
+          <p className='my-4'>
+            Guji has rapidly become one of the most exciting Ethiopian origins, and the 2025 harvest reinforces why. Higher altitudes in areas like Shakiso, Uraga, and Hambela are producing coffees with remarkable complexity—the signature stone fruit and jasmine aromatics that have made Guji a darling of specialty roasters.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Guji 2025 Outlook</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Strong production year</li>
+              <li className='my-2'><span className='font-bold'>Quality:</span> Competition-grade lots available</li>
+              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Peach, apricot, jasmine, syrupy body</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Premium prices; high demand from specialty buyers</li>
+              <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Excellent for single-origin espresso programs</li>
+            </ul>
+          </div>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Harrar: Traditional Character, Variable Lots</h3>
+          <p className='my-4'>
+            Eastern Ethiopia&apos;s Harrar region produces some of the most distinctive coffees in the world—bold, winey naturals with dried fruit character. The 2025 harvest faces some challenges from inconsistent rainfall, but top lots from established producers maintain the quality Harrar is known for.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Harrar 2025 Outlook</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Slightly below average due to weather</li>
+              <li className='my-2'><span className='font-bold'>Quality:</span> Variable; careful lot selection essential</li>
+              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Dried fruit, cocoa, wine, spice</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; premium for verified quality</li>
+              <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Request samples; lot variation is significant</li>
+            </ul>
+          </div>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Quality Expectations: What Buyers Should Know</h2>
+          <p className='my-4'>
+            Several factors are shaping the quality profile of the 2025 Ethiopian harvest:
+          </p>
+          
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Climate Conditions</h3>
+          <p className='my-4'>
+            The 2024 growing season saw generally favorable weather across Ethiopia&apos;s coffee belt. The Belg (short) rains arrived on time in March-April, supporting healthy flowering. The Meher (main) rains from June-September provided adequate moisture without the excess that can promote fungal disease.
+          </p>
+          <p className='my-4'>
+            Temperature patterns remained within optimal ranges for Arabica development (15-24°C). Importantly, there were no significant frost events in highland areas—a risk that can devastate quality in high-altitude regions.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Processing Infrastructure Improvements</h3>
+          <p className='my-4'>
+            Ethiopian washing stations continue to invest in <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing infrastructure</Link>. New fermentation tanks, improved raised drying beds, and better water management systems are raising the floor on quality. This is particularly evident in Guji and parts of Sidamo, where private washing stations are competing intensely for cherry supply by offering farmers premium prices for ripe, well-sorted cherry.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Grading and Defect Expectations</h3>
+          <p className='my-4'>
+            Based on early-season arrivals, we&apos;re seeing:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>G1 Washed:</span> Excellent availability; clean cups with pronounced terroir</li>
+            <li className='my-2'><span className='font-bold'>G1 Natural:</span> Strong lots from premium stations; some variation</li>
+            <li className='my-2'><span className='font-bold'>G2 Washed:</span> Good value tier; slight increase in minor defects</li>
+            <li className='my-2'><span className='font-bold'>G2 Natural:</span> Abundant; excellent for blends and price-sensitive buyers</li>
+            <li className='my-2'><span className='font-bold'>G3/G4:</span> Commercial grades available for volume buyers</li>
+          </ul>
+          <p className='my-4'>
+            Understanding <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline'>Ethiopian coffee grading standards</Link> is essential for setting realistic expectations and negotiating fair prices.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Pricing Trends and Market Dynamics</h2>
+          <p className='my-4'>
+            The 2025 Ethiopian coffee market reflects broader trends in global specialty coffee:
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Price Drivers for 2025</h3>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Global Demand:</span> Specialty coffee consumption continues growing 5-7% annually</li>
+            <li className='my-2'><span className='font-bold'>Ethiopian Birr Dynamics:</span> Currency fluctuations affect FOB pricing</li>
+            <li className='my-2'><span className='font-bold'>Logistics Costs:</span> Shipping rates have stabilized but remain elevated</li>
+            <li className='my-2'><span className='font-bold'>Competition:</span> More buyers pursuing limited exceptional lots</li>
+            <li className='my-2'><span className='font-bold'>Farm-level Economics:</span> Rising production costs passed to exporters</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Expected Price Ranges (FOB Djibouti)</h3>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+              <thead className='bg-dark text-primary'>
+                <tr>
+                  <th className='border border-gray-300 p-3 text-left'>Grade/Origin</th>
+                  <th className='border border-gray-300 p-3 text-left'>2024 Range</th>
+                  <th className='border border-gray-300 p-3 text-left'>2025 Expected</th>
+                  <th className='border border-gray-300 p-3 text-left'>Trend</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Yirgacheffe G1 Washed</td>
+                  <td className='border border-gray-300 p-3'>$4.80 – $6.50/kg</td>
+                  <td className='border border-gray-300 p-3'>$5.00 – $7.00/kg</td>
+                  <td className='border border-gray-300 p-3'>↑ Moderate increase</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Guji G1 Natural</td>
+                  <td className='border border-gray-300 p-3'>$4.50 – $6.00/kg</td>
+                  <td className='border border-gray-300 p-3'>$4.80 – $6.50/kg</td>
+                  <td className='border border-gray-300 p-3'>↑ Strong demand</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Sidamo G2 Natural</td>
+                  <td className='border border-gray-300 p-3'>$3.20 – $4.20/kg</td>
+                  <td className='border border-gray-300 p-3'>$3.40 – $4.50/kg</td>
+                  <td className='border border-gray-300 p-3'>↑ Slight increase</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Limu G2 Washed</td>
+                  <td className='border border-gray-300 p-3'>$3.00 – $3.80/kg</td>
+                  <td className='border border-gray-300 p-3'>$3.10 – $4.00/kg</td>
+                  <td className='border border-gray-300 p-3'>→ Stable</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Commercial G4</td>
+                  <td className='border border-gray-300 p-3'>$2.20 – $2.80/kg</td>
+                  <td className='border border-gray-300 p-3'>$2.30 – $3.00/kg</td>
+                  <td className='border border-gray-300 p-3'>→ Stable</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className='my-4 text-sm text-gray-600'>
+            *Prices are indicative and subject to change based on lot quality, volume, and market conditions. Contact us for current pricing.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Buyer Planning Timeline: When to Act</h2>
+          <p className='my-4'>
+            Successful Ethiopian coffee sourcing requires planning ahead. Here&apos;s a practical timeline for the 2025 harvest:
+          </p>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-4'>2025 Ethiopian Coffee Buying Timeline</h4>
+            <ul className='font-inconsolata list-none space-y-4'>
+              <li className='flex gap-4'>
+                <span className='font-bold min-w-[140px]'>Sep – Oct 2025:</span>
+                <span>Pre-season planning. Review previous year&apos;s performance, set budgets, communicate requirements to suppliers.</span>
+              </li>
+              <li className='flex gap-4'>
+                <span className='font-bold min-w-[140px]'>Nov – Dec 2025:</span>
+                <span>Early harvest arrivals. Request type samples, evaluate early lots, make commitments on exceptional finds.</span>
+              </li>
+              <li className='flex gap-4'>
+                <span className='font-bold min-w-[140px]'>Jan – Feb 2026:</span>
+                <span>Peak buying window. Best selection available. Confirm orders and shipping schedules.</span>
+              </li>
+              <li className='flex gap-4'>
+                <span className='font-bold min-w-[140px]'>Mar – Apr 2026:</span>
+                <span>Main shipments depart. Pre-shipment samples, final documentation, logistics coordination.</span>
+              </li>
+              <li className='flex gap-4'>
+                <span className='font-bold min-w-[140px]'>May – Jul 2026:</span>
+                <span>Late season. Limited selection but possible deals. Good for fill-in orders.</span>
+              </li>
+            </ul>
+          </div>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>How Ethio Coffee Supports Your 2025 Sourcing</h2>
+          <p className='my-4'>
+            At <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='underline'>Ethio Coffee Export PLC</Link>, we&apos;re positioned to help importers navigate the 2025 harvest with confidence:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Regional Coverage:</span> We source from all major Ethiopian growing regions</li>
+            <li className='my-2'><span className='font-bold'>Quality Focus:</span> Rigorous <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline'>quality control</Link> at every stage</li>
+            <li className='my-2'><span className='font-bold'>Transparent Pricing:</span> Clear FOB quotes with full documentation</li>
+            <li className='my-2'><span className='font-bold'>Sample Programs:</span> Type samples and pre-shipment samples available</li>
+            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> Ship FOB Djibouti or Addis dry port</li>
+            <li className='my-2'><span className='font-bold'>Responsive Communication:</span> Real-time updates on availability and shipping</li>
+          </ul>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: A Promising Year for Ethiopian Coffee</h2>
+          <p className='my-4'>
+            The 2025 Ethiopian coffee harvest offers excellent opportunities for importers seeking quality, diversity, and value. Favorable growing conditions, continued investment in processing, and strong production volumes across most regions create a buyer-friendly environment—though competition for top lots remains intense.
+          </p>
+          <p className='my-4'>
+            For importers committed to Ethiopian specialty coffee, now is the time to engage with suppliers, review samples, and secure allocations. The unique <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline'>genetic diversity of Ethiopian heirloom varieties</Link>, combined with traditional farming practices and improving processing standards, ensures that Ethiopian coffee remains among the most exciting origins on Earth.
+          </p>
+          <p className='my-4'>
+            Whether you&apos;re sourcing your first Ethiopian container or building on years of partnership, understanding the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural realities</Link> and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial dynamics</Link> of Ethiopian coffee helps you make better decisions and build stronger relationships at origin.
+          </p>
+
+          <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+            <h4 className='font-bold text-xl mb-3'>Reserve Your 2025 Ethiopian Coffee</h4>
+            <p className='my-2'>
+              Don&apos;t miss the best lots from this year&apos;s harvest. Contact us today to discuss your sourcing needs, request samples, and secure your allocation.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                REQUEST SAMPLES
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW CURRENT OFFERINGS
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>About This Report:</span> This harvest outlook is based on field reports from our sourcing network, 
+              early-season sample evaluations, and market intelligence gathered from industry contacts. Conditions and pricing are subject 
+              to change. Last updated: September 2025.
+            </p>
+          </div>
+        </>
+      );
+    } else if (slug === 'green-coffee-quality-control-defects-grading') {
+      // Content for "Green Coffee Quality Control: Defects, Grading & What Importers Should Inspect"
+      blogContent = (
+        <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            Green Coffee Quality Control: Defects, Grading Systems & What Importers Should Inspect
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            A practical guide to evaluating green coffee quality before you buy
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Understanding green coffee defects and grading is essential for making informed purchasing decisions.
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt='Green coffee quality control - sorting and inspecting Ethiopian coffee beans'
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+          <p className='my-2 text-gray-600 font-inconsolata'>
+            {date}
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Why Quality Control Matters</h2>
+          <p className='my-4'>
+            For importers and roasters, understanding green coffee quality control isn&apos;t optional—it&apos;s fundamental to your business. A single defective lot can damage customer relationships, waste roasting capacity, and erode margins. Conversely, developing strong QC skills helps you identify exceptional value, negotiate fair prices, and build confidence in your sourcing decisions.
+          </p>
+          <p className='my-4'>
+            This guide covers the essential elements of green coffee quality control: defect identification, grading systems (with a focus on Ethiopian standards), physical measurements, and practical inspection protocols. Whether you&apos;re evaluating samples from a new supplier or conducting pre-shipment inspection, these fundamentals will serve you well.
+          </p>
+          <p className='my-4'>
+            Quality control connects directly to everything else in the supply chain—from the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link> that produce coffee to the <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing methods</Link> that prepare it for export. Understanding QC helps you appreciate what&apos;s happening at origin and communicate more effectively with your <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Ethiopian coffee suppliers</Link>.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Understanding Coffee Defects</h2>
+          <p className='my-4'>
+            Coffee defects are imperfections in green beans that can negatively affect cup quality, roast consistency, or shelf life. The Specialty Coffee Association (SCA) and various origin-country grading systems categorize defects by severity and impact.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Category 1 Defects (Primary/Full Defects)</h3>
+          <p className='my-4'>
+            These are severe defects that significantly impact cup quality. A single Category 1 defect can ruin an entire cup. In SCA specialty grading, <span className='font-bold'>zero</span> Category 1 defects are allowed in a 350g sample.
+          </p>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+              <thead className='bg-dark text-primary'>
+                <tr>
+                  <th className='border border-gray-300 p-3 text-left'>Defect</th>
+                  <th className='border border-gray-300 p-3 text-left'>Description</th>
+                  <th className='border border-gray-300 p-3 text-left'>Cause</th>
+                  <th className='border border-gray-300 p-3 text-left'>Cup Impact</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Full Black</td>
+                  <td className='border border-gray-300 p-3'>Completely black, opaque bean</td>
+                  <td className='border border-gray-300 p-3'>Over-fermentation, fungal infection, dead cherry</td>
+                  <td className='border border-gray-300 p-3'>Fermented, rotten, sour flavors</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Full Sour</td>
+                  <td className='border border-gray-300 p-3'>Light brown to yellowish, waxy surface</td>
+                  <td className='border border-gray-300 p-3'>Delayed processing, contaminated water</td>
+                  <td className='border border-gray-300 p-3'>Sour, vinegary, fermented taste</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Dried Cherry/Pod</td>
+                  <td className='border border-gray-300 p-3'>Bean still in dried cherry or parchment</td>
+                  <td className='border border-gray-300 p-3'>Incomplete hulling</td>
+                  <td className='border border-gray-300 p-3'>Fermented, musty off-flavors</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Fungus Damaged</td>
+                  <td className='border border-gray-300 p-3'>Visible fungal growth, powdery spores</td>
+                  <td className='border border-gray-300 p-3'>Improper drying, storage in humid conditions</td>
+                  <td className='border border-gray-300 p-3'>Musty, moldy, potentially toxic</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Foreign Matter</td>
+                  <td className='border border-gray-300 p-3'>Stones, sticks, metal, other debris</td>
+                  <td className='border border-gray-300 p-3'>Poor sorting, contamination</td>
+                  <td className='border border-gray-300 p-3'>Equipment damage, safety hazard</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Severe Insect Damage</td>
+                  <td className='border border-gray-300 p-3'>Multiple bore holes (&gt;3), extensive damage</td>
+                  <td className='border border-gray-300 p-3'>Coffee berry borer (broca), other pests</td>
+                  <td className='border border-gray-300 p-3'>Dirty, musty flavors; inconsistent roast</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Category 2 Defects (Secondary Defects)</h3>
+          <p className='my-4'>
+            These defects have less severe but still measurable impact on cup quality. SCA allows a maximum of <span className='font-bold'>five</span> Category 2 defects in a 350g specialty-grade sample.
+          </p>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+              <thead className='bg-dark text-primary'>
+                <tr>
+                  <th className='border border-gray-300 p-3 text-left'>Defect</th>
+                  <th className='border border-gray-300 p-3 text-left'>Description</th>
+                  <th className='border border-gray-300 p-3 text-left'>Cause</th>
+                  <th className='border border-gray-300 p-3 text-left'>Cup Impact</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Partial Black</td>
+                  <td className='border border-gray-300 p-3'>Partially blackened bean</td>
+                  <td className='border border-gray-300 p-3'>Partial fermentation, drought stress</td>
+                  <td className='border border-gray-300 p-3'>Ferment notes if present in quantity</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Partial Sour</td>
+                  <td className='border border-gray-300 p-3'>Partially affected by sour</td>
+                  <td className='border border-gray-300 p-3'>Partial fermentation issues</td>
+                  <td className='border border-gray-300 p-3'>Light sour/ferment if concentrated</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Parchment</td>
+                  <td className='border border-gray-300 p-3'>Dried parchment still attached</td>
+                  <td className='border border-gray-300 p-3'>Incomplete hulling</td>
+                  <td className='border border-gray-300 p-3'>Papery taste; uneven roast</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Floater/Faded</td>
+                  <td className='border border-gray-300 p-3'>Pale, bleached appearance, low density</td>
+                  <td className='border border-gray-300 p-3'>Over-drying, age, improper storage</td>
+                  <td className='border border-gray-300 p-3'>Flat, stale, lacking vibrancy</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Immature/Quaker</td>
+                  <td className='border border-gray-300 p-3'>Small, pale, often wrinkled surface</td>
+                  <td className='border border-gray-300 p-3'>Unripe cherry picked too early</td>
+                  <td className='border border-gray-300 p-3'>Grassy, peanutty, astringent</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Withered</td>
+                  <td className='border border-gray-300 p-3'>Shriveled, wrinkled surface</td>
+                  <td className='border border-gray-300 p-3'>Drought stress during development</td>
+                  <td className='border border-gray-300 p-3'>Grassy, straw-like notes</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Shell/Ear</td>
+                  <td className='border border-gray-300 p-3'>Malformed bean, often hollow</td>
+                  <td className='border border-gray-300 p-3'>Genetic or pollination issues</td>
+                  <td className='border border-gray-300 p-3'>Uneven roast; burns easily</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Broken/Chipped</td>
+                  <td className='border border-gray-300 p-3'>Mechanically damaged bean</td>
+                  <td className='border border-gray-300 p-3'>Aggressive hulling or handling</td>
+                  <td className='border border-gray-300 p-3'>Uneven roast; can burn</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Slight Insect Damage</td>
+                  <td className='border border-gray-300 p-3'>1-3 small bore holes</td>
+                  <td className='border border-gray-300 p-3'>Coffee berry borer</td>
+                  <td className='border border-gray-300 p-3'>Minimal if isolated</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Ethiopian Coffee Grading System</h2>
+          <p className='my-4'>
+            Ethiopia uses its own grading system that differs from the SCA framework, though both assess defect count and cup quality. Understanding Ethiopian grades is essential when <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='underline'>sourcing from the current harvest</Link>.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Ethiopian Grade Classifications</h3>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+              <thead className='bg-dark text-primary'>
+                <tr>
+                  <th className='border border-gray-300 p-3 text-left'>Grade</th>
+                  <th className='border border-gray-300 p-3 text-left'>Defects (per 300g)</th>
+                  <th className='border border-gray-300 p-3 text-left'>Quality Level</th>
+                  <th className='border border-gray-300 p-3 text-left'>Typical Use</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Grade 1</td>
+                  <td className='border border-gray-300 p-3'>0-3 defects</td>
+                  <td className='border border-gray-300 p-3'>Specialty</td>
+                  <td className='border border-gray-300 p-3'>Single-origin, competition lots</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Grade 2</td>
+                  <td className='border border-gray-300 p-3'>4-12 defects</td>
+                  <td className='border border-gray-300 p-3'>Specialty/Premium</td>
+                  <td className='border border-gray-300 p-3'>Quality single-origin, premium blends</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Grade 3</td>
+                  <td className='border border-gray-300 p-3'>13-25 defects</td>
+                  <td className='border border-gray-300 p-3'>Commercial+</td>
+                  <td className='border border-gray-300 p-3'>Quality blends, some single-origin</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Grade 4</td>
+                  <td className='border border-gray-300 p-3'>26-45 defects</td>
+                  <td className='border border-gray-300 p-3'>Commercial</td>
+                  <td className='border border-gray-300 p-3'>Standard blends, volume market</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Grade 5</td>
+                  <td className='border border-gray-300 p-3'>46-100 defects</td>
+                  <td className='border border-gray-300 p-3'>Below Commercial</td>
+                  <td className='border border-gray-300 p-3'>Domestic market, instant coffee</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Washed vs. Natural Grade Expectations</h3>
+          <p className='my-4'>
+            It&apos;s important to understand that <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline'>washed and natural processed coffees</Link> often have different defect profiles:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Washed coffees</span> typically have more uniform appearance and fewer fermentation-related defects, making G1 more achievable</li>
+            <li className='my-2'><span className='font-bold'>Natural processed coffees</span> may show more variation in color and occasional fruit remnants; G1 naturals command significant premiums</li>
+            <li className='my-2'><span className='font-bold'>Regional variations:</span> <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline'>Yirgacheffe washed G1</Link> vs. Sidamo natural G1 will look quite different</li>
+          </ul>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Physical Quality Measurements</h2>
+          <p className='my-4'>
+            Beyond defect counts, several physical measurements help assess green coffee quality:
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Moisture Content</h3>
+          <p className='my-4'>
+            Moisture content is critical for storage stability and roast consistency. The <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline'>science of coffee preservation</Link> starts here.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Moisture Guidelines</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Optimal range:</span> 10-12% for Arabica</li>
+              <li className='my-2'><span className='font-bold'>Acceptable:</span> 9-13%</li>
+              <li className='my-2'><span className='font-bold'>Too low (&lt;9%):</span> Faded flavors, brittle beans, poor roast development</li>
+              <li className='my-2'><span className='font-bold'>Too high (&gt;13%):</span> Risk of mold, fermentation, rapid quality degradation</li>
+              <li className='my-2'><span className='font-bold'>Measurement:</span> Use calibrated moisture meter; measure multiple samples per lot</li>
+            </ul>
+          </div>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Water Activity (aw)</h3>
+          <p className='my-4'>
+            Water activity measures the &quot;free&quot; water available for microbial growth and chemical reactions. It&apos;s increasingly used alongside moisture content for quality assessment.
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Target range:</span> 0.50-0.60 aw</li>
+            <li className='my-2'><span className='font-bold'>Above 0.70 aw:</span> Significant mold risk</li>
+            <li className='my-2'><span className='font-bold'>Below 0.45 aw:</span> May indicate over-drying</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Screen Size</h3>
+          <p className='my-4'>
+            Screen size indicates bean size and can affect roast uniformity. Ethiopian coffees are graded by screen size as part of quality assessment.
+          </p>
+          <div className='overflow-x-auto my-6'>
+            <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+              <thead className='bg-dark text-primary'>
+                <tr>
+                  <th className='border border-gray-300 p-3 text-left'>Screen Size</th>
+                  <th className='border border-gray-300 p-3 text-left'>Hole Diameter</th>
+                  <th className='border border-gray-300 p-3 text-left'>Bean Size</th>
+                  <th className='border border-gray-300 p-3 text-left'>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Screen 18+</td>
+                  <td className='border border-gray-300 p-3'>7.14mm+</td>
+                  <td className='border border-gray-300 p-3'>Large</td>
+                  <td className='border border-gray-300 p-3'>Premium, commands higher price</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Screen 16-17</td>
+                  <td className='border border-gray-300 p-3'>6.35-6.75mm</td>
+                  <td className='border border-gray-300 p-3'>Medium-Large</td>
+                  <td className='border border-gray-300 p-3'>Standard specialty size</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Screen 14-15</td>
+                  <td className='border border-gray-300 p-3'>5.56-5.95mm</td>
+                  <td className='border border-gray-300 p-3'>Medium</td>
+                  <td className='border border-gray-300 p-3'>Common for Ethiopian heirlooms</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Screen 13-</td>
+                  <td className='border border-gray-300 p-3'>&lt;5.16mm</td>
+                  <td className='border border-gray-300 p-3'>Small</td>
+                  <td className='border border-gray-300 p-3'>Peaberry or undersized</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className='my-4'>
+            Note: Ethiopian heirloom varieties naturally produce smaller beans than many other origins. A screen 15 Ethiopian may cup better than a screen 18 from elsewhere. <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline'>Understanding coffee varieties</Link> helps contextualize screen size expectations.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Density</h3>
+          <p className='my-4'>
+            Bean density correlates with altitude, ripeness, and potential cup quality. Higher-density beans typically come from higher altitudes and develop more complex flavor compounds.
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>High density:</span> &gt;680 g/L - typically high-altitude, specialty grade</li>
+            <li className='my-2'><span className='font-bold'>Medium density:</span> 620-680 g/L - standard quality range</li>
+            <li className='my-2'><span className='font-bold'>Low density:</span> &lt;620 g/L - lower altitude or quality issues</li>
+          </ul>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Sensory Evaluation: The Cup Test</h2>
+          <p className='my-4'>
+            Physical inspection tells part of the story, but <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline'>sensory evaluation through cupping</Link> reveals how the coffee actually tastes. The SCA cupping protocol is the industry standard.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>SCA Cupping Basics</h3>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Sample prep:</span> Light roast (Agtron 58-63), 8.25g coffee to 150ml water</li>
+            <li className='my-2'><span className='font-bold'>Water:</span> 200°F (93°C), clean, neutral (125-175 ppm TDS)</li>
+            <li className='my-2'><span className='font-bold'>Steep time:</span> 4 minutes before breaking crust</li>
+            <li className='my-2'><span className='font-bold'>Evaluation:</span> Score fragrance/aroma, flavor, aftertaste, acidity, body, balance, uniformity, clean cup, sweetness, overall</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Specialty Grade Cupping Requirements</h3>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>SCA Specialty Grade Requirements</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Cupping score:</span> 80+ points (out of 100)</li>
+              <li className='my-2'><span className='font-bold'>Category 1 defects:</span> Zero allowed</li>
+              <li className='my-2'><span className='font-bold'>Category 2 defects:</span> Maximum 5 in 350g sample</li>
+              <li className='my-2'><span className='font-bold'>Quakers in roasted:</span> Maximum 3 in 100g</li>
+              <li className='my-2'><span className='font-bold'>Moisture:</span> 10-12%</li>
+            </ul>
+          </div>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Practical Inspection Protocol for Importers</h2>
+          <p className='my-4'>
+            Here&apos;s a systematic approach to evaluating green coffee samples:
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Step 1: Visual Inspection</h3>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'>Examine overall color consistency (blue-green for fresh washed, yellow-brown for naturals)</li>
+            <li className='my-2'>Look for obvious defects, foreign matter, broken beans</li>
+            <li className='my-2'>Assess uniformity of size and shape</li>
+            <li className='my-2'>Note any unusual odors (musty, fermented, chemical)</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Step 2: Defect Count</h3>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'>Weigh out 300-350g representative sample</li>
+            <li className='my-2'>Sort and count Category 1 defects separately</li>
+            <li className='my-2'>Sort and count Category 2 defects</li>
+            <li className='my-2'>Calculate defect score per 300g or 350g as appropriate</li>
+            <li className='my-2'>Compare against grade specifications</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Step 3: Physical Measurements</h3>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'>Measure moisture content (multiple readings)</li>
+            <li className='my-2'>Check water activity if equipment available</li>
+            <li className='my-2'>Screen size distribution if relevant to spec</li>
+            <li className='my-2'>Density measurement for altitude confirmation</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Step 4: Roast and Cup</h3>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'>Sample roast to light/medium (Agtron 58-63)</li>
+            <li className='my-2'>Count quakers in roasted sample</li>
+            <li className='my-2'>Conduct proper cupping evaluation</li>
+            <li className='my-2'>Score according to SCA protocol</li>
+            <li className='my-2'>Note any cup defects or off-flavors</li>
+          </ul>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Red Flags: When to Reject a Lot</h2>
+          <p className='my-4'>
+            Not every lot that meets grade specifications will work for your needs. Watch for these warning signs:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Any Category 1 defects</span> in specialty-grade samples</li>
+            <li className='my-2'><span className='font-bold'>Moisture above 13%</span> - storage risk too high</li>
+            <li className='my-2'><span className='font-bold'>Musty or chemical odors</span> in green - won&apos;t roast out</li>
+            <li className='my-2'><span className='font-bold'>Significant variation</span> between sample and pre-shipment</li>
+            <li className='my-2'><span className='font-bold'>Excessive quakers</span> in roasted sample (&gt;5% of beans)</li>
+            <li className='my-2'><span className='font-bold'>Cup defects</span> like ferment, phenol, or rio</li>
+            <li className='my-2'><span className='font-bold'>Sample doesn&apos;t match</span> documented origin/process</li>
+          </ul>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Working with Your Supplier on Quality</h2>
+          <p className='my-4'>
+            Quality control is a partnership between buyer and supplier. Here&apos;s how to build productive relationships:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Communicate specifications clearly</span> - grade, moisture range, screen size requirements</li>
+            <li className='my-2'><span className='font-bold'>Request type samples</span> before committing to volume</li>
+            <li className='my-2'><span className='font-bold'>Require pre-shipment samples</span> that match the actual lot</li>
+            <li className='my-2'><span className='font-bold'>Provide feedback</span> on arrivals - positive and negative</li>
+            <li className='my-2'><span className='font-bold'>Build long-term relationships</span> with reliable suppliers</li>
+          </ul>
+          <p className='my-4'>
+            At Ethio Coffee Export, we welcome detailed QC discussions. Understanding what our buyers need helps us select the right lots and maintain the <Link href='/insights/direct-trade-ethiopian-farmers' className='underline'>direct relationships with farmers</Link> that ensure consistent quality.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Quality as a Competitive Advantage</h2>
+          <p className='my-4'>
+            Developing strong green coffee quality control skills isn&apos;t just about avoiding bad lots—it&apos;s about building the confidence to identify exceptional value and make decisions that strengthen your business. Whether you&apos;re evaluating your first Ethiopian samples or refining an established QC program, the fundamentals remain the same: systematic inspection, proper measurement, and honest sensory evaluation.
+          </p>
+          <p className='my-4'>
+            Understanding quality control also deepens your appreciation for what happens at origin. The <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link>, <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing decisions</Link>, and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial logistics</Link> that bring Ethiopian coffee to your door all influence the quality you receive. The more you understand these connections, the better partner you become—for your suppliers and your customers.
+          </p>
+          <p className='my-4'>
+            Quality coffee is never an accident. It results from intentional decisions at every stage of the supply chain. By investing in your QC capabilities, you honor that effort and ensure the exceptional coffees of Ethiopia reach consumers as their producers intended.
+          </p>
+
+          <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+            <h4 className='font-bold text-xl mb-3'>Source Quality Ethiopian Coffee</h4>
+            <p className='my-2'>
+              Ready to experience Ethiopian coffee quality firsthand? Contact us to request samples, discuss specifications, and learn how our QC processes ensure the quality you expect.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                REQUEST SAMPLES
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References:</span> This guide draws from SCA Green Coffee Grading Protocols, 
+              Ethiopian Commodity Exchange (ECX) grading standards, CQI Q-Grader curriculum, and industry best practices 
+              for green coffee quality assessment.
             </p>
           </div>
         </>
