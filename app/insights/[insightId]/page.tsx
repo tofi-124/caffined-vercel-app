@@ -1049,6 +1049,10 @@ const Insight = ({params}: Props) => {
             <li className='my-2'>Build long-term partnerships with producers</li>
           </ul>
 
+          <p className='my-4'>
+            For a practical, step-by-step buyer's playbook on sourcing from Ethiopia, see <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>How to Source Green Coffee from Ethiopia</Link>. If you want a vetted list of exporters, importers, and suppliers we work with, check our supplier guide <Link href='/insights/best-ethiopian-coffee-exporter-importer-supplier' className='underline font-bold'>Best Ethiopian Coffee Exporter, Importer & Supplier</Link>.
+          </p>
+
           <h4 className='text-xl font-bold mt-6'>Option 2: Buying Through Importers</h4>
           <p className='my-4'>
             If you need smaller quantities or prefer domestic warehousing, working with an importer who has already brought Ethiopian coffee into your country can simplify logistics.
