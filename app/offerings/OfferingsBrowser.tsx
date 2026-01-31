@@ -175,7 +175,7 @@ const OfferingsBrowser = () => {
         </div>
 
         {/* Mobile action buttons - sticky at top left */}
-        <div className='lg:hidden sticky top-20 left-0 z-40 flex gap-2 mb-6'>
+        <div className='lg:hidden sticky top-24 left-0 z-30 flex gap-2 mb-6'>
           <button
             onClick={() => setIsFilterOpen(true)}
             className='flex items-center gap-2 px-4 py-3 bg-dark hover:bg-accent text-primary border-2 border-dark hover:border-accent rounded-xl shadow-lg hover:shadow-xl font-bold transition-all'
@@ -196,13 +196,10 @@ const OfferingsBrowser = () => {
                     : 'ETHIO COFFEE_All_Offerings'
                 generateMultipleProductsPDF(filtered, title)
               }}
-              className='flex items-center justify-center px-4 py-3 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-lg hover:shadow-xl'
+              className='flex items-center justify-center px-4 py-3 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-lg hover:shadow-xl text-sm'
               title='Download filtered products as PDF'
             >
-              <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' />
-              </svg>
-              <span className='sr-only'>Download PDF</span>
+              PDF
             </button>
           )}
         </div>
