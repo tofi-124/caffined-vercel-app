@@ -6,6 +6,17 @@ export type OfferingSpecifications = {
   moisture: string | null
   defectCount: string | null
   cupScore: string | null
+  // Traceability specs for specialty coffee importers
+  washingStation: string | null
+  harvestPeriod: string | null
+  dryingMethod: string | null
+  fermentationTime: string | null
+  waterActivity: string | null
+  density: string | null
+  farmCoopId: string | null
+  icoNumber: string | null
+  cuppingNotes: string | null
+  millName: string | null
 }
 
 export type OfferingPricing = {
@@ -54,9 +65,19 @@ export const offerings: Offering[] = [
       screenSize: null,
       processingMethod: 'Washed',
       cropYear: '2025',
-      moisture: null,
-      defectCount: null,
+      moisture: '10.5%',
+      defectCount: '8 defects',
       cupScore: '84+',
+      washingStation: 'Koke Washing Station',
+      harvestPeriod: 'November 2024 - January 2025',
+      dryingMethod: 'Raised beds - 12-15 days',
+      fermentationTime: '36-48 hours',
+      waterActivity: '0.55 aw',
+      density: '0.72 g/ml',
+      farmCoopId: 'YCFCU-2025-001',
+      icoNumber: 'ET-25-YRG-0834',
+      cuppingNotes: 'Clean, floral jasmine, lemon acidity, tea-like body, honey sweetness',
+      millName: 'Yirgacheffe Coffee Farmers Cooperative Union (YCFCU)',
     },
     pricing: {
       fobPricePerKg: 9.50,
@@ -91,9 +112,19 @@ export const offerings: Offering[] = [
       screenSize: null,
       processingMethod: 'Natural (Sun-dried)',
       cropYear: '2025',
-      moisture: null,
-      defectCount: null,
+      moisture: '10.2%',
+      defectCount: '4 defects',
       cupScore: '86+',
+      washingStation: 'Bensa Natural Processing Station',
+      harvestPeriod: 'October 2024 - December 2024',
+      dryingMethod: 'African drying beds - 18-21 days',
+      fermentationTime: 'N/A (Dry process)',
+      waterActivity: '0.53 aw',
+      density: '0.74 g/ml',
+      farmCoopId: 'SCFCU-2025-NAT-012',
+      icoNumber: 'ET-25-SID-0967',
+      cuppingNotes: 'Intense blueberry, strawberry jam, wine-like, chocolate finish, syrupy body',
+      millName: 'Sidama Coffee Farmers Cooperative Union (SCFCU)',
     },
     pricing: {
       fobPricePerKg: 10.80,
@@ -128,9 +159,19 @@ export const offerings: Offering[] = [
       screenSize: null,
       processingMethod: 'Natural (Sun-dried)',
       cropYear: '2025',
-      moisture: null,
-      defectCount: null,
+      moisture: '10.0%',
+      defectCount: '3 defects',
       cupScore: '87+',
+      washingStation: 'Shakiso Natural Processing Site',
+      harvestPeriod: 'November 2024 - January 2025',
+      dryingMethod: 'Raised beds with shade netting - 20-25 days',
+      fermentationTime: 'N/A (Dry process)',
+      waterActivity: '0.52 aw',
+      density: '0.75 g/ml',
+      farmCoopId: 'OCFCU-GUJ-2025-015',
+      icoNumber: 'ET-25-GUJ-1143',
+      cuppingNotes: 'Intense peach, apricot, jasmine florals, honeysuckle, heavy syrupy body',
+      millName: 'Oromia Coffee Farmers Cooperative Union (OCFCU)',
     },
     pricing: {
       fobPricePerKg: 11.50,
@@ -165,9 +206,19 @@ export const offerings: Offering[] = [
       screenSize: null,
       processingMethod: 'Natural (Dry-processed)',
       cropYear: '2025',
-      moisture: null,
-      defectCount: null,
+      moisture: '10.8%',
+      defectCount: '5 defects',
       cupScore: '85+',
+      washingStation: 'Traditional dry mill (no washing)',
+      harvestPeriod: 'October 2024 - December 2024',
+      dryingMethod: 'Traditional sun-drying on mats - 15-18 days',
+      fermentationTime: 'N/A (Traditional dry process)',
+      waterActivity: '0.56 aw',
+      density: '0.71 g/ml',
+      farmCoopId: 'HCFCU-2025-007',
+      icoNumber: 'ET-25-HAR-0723',
+      cuppingNotes: 'Bold dried fruit, wine complexity, mocha, heavy body, rustic character',
+      millName: 'Harar Coffee Farmers Cooperative Union',
     },
     pricing: {
       fobPricePerKg: 10.20,
@@ -202,9 +253,19 @@ export const offerings: Offering[] = [
       screenSize: null,
       processingMethod: 'Washed',
       cropYear: '2025',
-      moisture: null,
-      defectCount: null,
+      moisture: '10.7%',
+      defectCount: '9 defects',
       cupScore: '84+',
+      washingStation: 'Limu Kosa Washing Station',
+      harvestPeriod: 'November 2024 - January 2025',
+      dryingMethod: 'Raised beds - 10-14 days',
+      fermentationTime: '24-36 hours',
+      waterActivity: '0.57 aw',
+      density: '0.70 g/ml',
+      farmCoopId: 'LKCFC-2025-WS-004',
+      icoNumber: 'ET-25-LIM-0891',
+      cuppingNotes: 'Bright citrus, grapefruit, wine undertones, sweet spice, balanced body',
+      millName: 'Limu Kosa Farmers Cooperative',
     },
     pricing: {
       fobPricePerKg: 9.20,
@@ -239,9 +300,19 @@ export const offerings: Offering[] = [
       screenSize: null,
       processingMethod: 'Washed',
       cropYear: '2025',
-      moisture: null,
-      defectCount: null,
+      moisture: '10.6%',
+      defectCount: '7 defects',
       cupScore: '84+',
+      washingStation: 'Nekemte Central Washing Station',
+      harvestPeriod: 'October 2024 - December 2024',
+      dryingMethod: 'Raised beds - 11-15 days',
+      fermentationTime: '30-42 hours',
+      waterActivity: '0.56 aw',
+      density: '0.71 g/ml',
+      farmCoopId: 'WCFCU-LEK-2025-009',
+      icoNumber: 'ET-25-LEK-0745',
+      cuppingNotes: 'Tropical fruit, mango, papaya, cocoa depth, smooth velvety body',
+      millName: 'Wollega Coffee Farmers Cooperative Union (WCFCU)',
     },
     pricing: {
       fobPricePerKg: 9.00,

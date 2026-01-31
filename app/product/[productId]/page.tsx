@@ -292,10 +292,52 @@ const OfferingDetail = ({ params }: Props) => {
                               <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cropYear}</td>
                             </tr>
                           )}
+                          {product.specifications.harvestPeriod && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Harvest Period</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.harvestPeriod}</td>
+                            </tr>
+                          )}
+                          {product.specifications.washingStation && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Washing Station</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.washingStation}</td>
+                            </tr>
+                          )}
+                          {product.specifications.millName && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Mill / Processing Facility</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.millName}</td>
+                            </tr>
+                          )}
+                          {product.specifications.dryingMethod && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Drying Method</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.dryingMethod}</td>
+                            </tr>
+                          )}
+                          {product.specifications.fermentationTime && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Fermentation Time</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.fermentationTime}</td>
+                            </tr>
+                          )}
                           {product.specifications.moisture && (
                             <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Moisture %</td>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Moisture Content</td>
                               <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.moisture}</td>
+                            </tr>
+                          )}
+                          {product.specifications.waterActivity && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Water Activity (aw)</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.waterActivity}</td>
+                            </tr>
+                          )}
+                          {product.specifications.density && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Density</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.density}</td>
                             </tr>
                           )}
                           {product.specifications.defectCount && (
@@ -308,6 +350,12 @@ const OfferingDetail = ({ params }: Props) => {
                             <tr>
                               <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cup Score</td>
                               <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cupScore}</td>
+                            </tr>
+                          )}
+                          {product.specifications.cuppingNotes && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cupping Notes</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cuppingNotes}</td>
                             </tr>
                           )}
                           {product.altitude && (
@@ -326,6 +374,18 @@ const OfferingDetail = ({ params }: Props) => {
                             <tr>
                               <td className='py-3 px-4 text-sm font-medium text-gray-900'>Bag Size</td>
                               <td className='py-3 px-4 text-sm text-gray-700'>{product.bagSize}</td>
+                            </tr>
+                          )}
+                          {product.specifications.farmCoopId && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Farm/Coop ID</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.farmCoopId}</td>
+                            </tr>
+                          )}
+                          {product.specifications.icoNumber && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>ICO Number</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.icoNumber}</td>
                             </tr>
                           )}
                         </tbody>
