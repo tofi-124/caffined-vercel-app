@@ -150,6 +150,7 @@ const WholesaleInquiryPage = () => {
         </div>
 
         <div className='max-w-3xl mx-auto my-16'>
+          <div ref={formRef}></div>
           <h2 className='text-4xl font-extrabold text-center mb-4'>GET IN TOUCH</h2>
           <p className='text-center text-gray-600 mb-8 max-w-xl mx-auto'>Fill out the form below and our team will get back to you within 24-48 hours.</p>
 
@@ -181,8 +182,7 @@ const WholesaleInquiryPage = () => {
             </div>
           </div>
           
-          <div ref={formRef}>
-            {submitSuccess ? (
+          {submitSuccess ? (
               <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
                 <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
                 <p className='text-green-700'>Your inquiry has been submitted successfully. We'll contact you soon at the email address you provided.</p>
@@ -353,8 +353,7 @@ const WholesaleInquiryPage = () => {
                 <p>You can also contact us directly at: <a href="mailto:info@ethiocoffee.et" className='text-dark underline hover:text-accent transition-colors'>info@ethiocoffee.et</a></p>
               </div>
             </form>
-            )}
-          </div>
+          )}
         </div>
       </section>
     </main>

@@ -358,7 +358,7 @@ const OfferingDetail = ({ params }: Props) => {
             {/* Pricing & Availability Section - Combined */}
             <div className='mb-8 p-6 rounded-xl bg-white border-2 border-gray-200 shadow-sm'>
               {/* Pricing Info */}
-              <div className='mb-5 pb-5 border-b border-gray-200'>
+              <div>
                 <div className='flex items-baseline gap-2 mb-2'>
                   <span className='text-2xl font-bold text-dark'>${product.pricing.fobPricePerLb.toFixed(2)}</span>
                   <span className='text-sm text-gray-600'>per lb</span>
@@ -379,52 +379,6 @@ const OfferingDetail = ({ params }: Props) => {
                     Minimum order: {product.pricing.minimumOrder}
                   </p>
                 )}
-              </div>
-              
-              {/* Availability Info */}
-              {product.isSoldOut ? (
-                <div className='flex items-center gap-3'>
-                  <span className='inline-flex items-center px-3 py-1.5 rounded-lg bg-red-100 text-red-800 text-xs font-bold'>
-                    SOLD OUT
-                  </span>
-                  <span className='text-sm text-gray-700'>Accepting inquiries for 2026 crop</span>
-                </div>
-              ) : (
-                <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3'>
-                  <div className='flex items-center gap-3'>
-                    <span className='inline-flex items-center px-3 py-1.5 rounded-lg bg-green-100 text-green-800 text-xs font-bold'>
-                      IN STOCK
-                    </span>
-                    <span className='text-sm text-gray-700'>
-                      {product.availableBags !== null ? (
-                        <><strong className='text-dark'>{product.availableBags}</strong> bags available</>
-                      ) : (
-                        'Contact for availability'
-                      )}
-                    </span>
-                  </div>
-                  <span className='text-sm text-gray-500 font-medium'>{product.bagSize}</span>
-                </div>
-              )}
-            </div>
-            
-            {/* Key details grid */}
-            <div className='grid grid-cols-2 gap-4 mb-8'>
-              <div className='p-4 bg-white rounded-xl border border-gray-200 hover:border-accent/30 transition-colors'>
-                <p className='text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1.5'>Altitude</p>
-                <p className='font-bold text-dark text-sm'>{product.altitude}</p>
-              </div>
-              <div className='p-4 bg-white rounded-xl border border-gray-200 hover:border-accent/30 transition-colors'>
-                <p className='text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1.5'>Variety</p>
-                <p className='font-bold text-dark text-sm'>{product.variety}</p>
-              </div>
-              <div className='p-4 bg-white rounded-xl border border-gray-200 hover:border-accent/30 transition-colors'>
-                <p className='text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1.5'>Producer</p>
-                <p className='font-bold text-dark text-sm'>{product.producer}</p>
-              </div>
-              <div className='p-4 bg-white rounded-xl border border-gray-200 hover:border-accent/30 transition-colors'>
-                <p className='text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1.5'>Lot Number</p>
-                <p className='font-bold text-dark text-sm'>{product.lotNumber}</p>
               </div>
             </div>
             

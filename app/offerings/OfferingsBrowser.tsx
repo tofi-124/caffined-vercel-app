@@ -144,6 +144,8 @@ const OfferingsBrowser = () => {
   return (
     <section className='w-full'>
       <div className='container mx-auto px-4 py-12'>
+        <div ref={resultsTopRef} />
+        
         <div className='flex items-end justify-between gap-4 mb-8'>
           <div>
             <h2 className='text-3xl font-bold text-dark'>Available Offerings</h2>
@@ -172,8 +174,6 @@ const OfferingsBrowser = () => {
             </button>
           )}
         </div>
-
-        <div ref={resultsTopRef} />
 
         {/* Mobile filter button - fixed at bottom */}
         <button
