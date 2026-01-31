@@ -174,16 +174,16 @@ const OfferingsBrowser = () => {
           )}
         </div>
 
-        {/* Mobile action buttons - fixed at bottom */}
-        <div className='lg:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex gap-3'>
+        {/* Mobile action buttons - sticky at top left */}
+        <div className='lg:hidden sticky top-20 left-0 z-40 flex gap-2 mb-6'>
           <button
             onClick={() => setIsFilterOpen(true)}
-            className='flex items-center gap-2 px-6 py-4 bg-dark hover:bg-accent text-primary border-2 border-dark hover:border-accent rounded-xl shadow-sm hover:shadow-md font-bold transition-all'
+            className='flex items-center gap-2 px-4 py-3 bg-dark hover:bg-accent text-primary border-2 border-dark hover:border-accent rounded-xl shadow-lg hover:shadow-xl font-bold transition-all'
           >
             <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z' />
             </svg>
-            <span className='font-bold'>Filters</span>
+            <span className='text-sm font-bold'>Filters</span>
           </button>
           
           {filtered.length > 0 && (
@@ -196,7 +196,7 @@ const OfferingsBrowser = () => {
                     : 'ETHIO COFFEE_All_Offerings'
                 generateMultipleProductsPDF(filtered, title)
               }}
-              className='flex items-center justify-center gap-2 px-6 py-4 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-sm hover:shadow-md'
+              className='flex items-center justify-center px-4 py-3 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-lg hover:shadow-xl'
               title='Download filtered products as PDF'
             >
               <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
