@@ -45,6 +45,7 @@ const OfferingDetail = ({ params }: Props) => {
   
   // Default values for product details
   const [activeDetail, setActiveDetail] = useState<string>('coffeeProfileOrigin');
+  const [isSpecsExpanded, setIsSpecsExpanded] = useState(false);
   
   // Product details with combined coffee profile and origin info
   const productDetails: ProductDetails = {
@@ -167,137 +168,188 @@ const OfferingDetail = ({ params }: Props) => {
                   <p className='text-gray-700 leading-relaxed whitespace-pre-line'>{productDetails.coffeeProfileOrigin}</p>
                 )}
                 {activeDetail === 'technicalSpecs' && (
-                  <div className='overflow-x-auto'>
-                    <table className='min-w-full'>
-                      <thead className='bg-gray-50'>
-                        <tr>
-                          <th className='py-3 px-4 text-left text-xs font-bold text-gray-700 uppercase tracking-wider'>Specification</th>
-                          <th className='py-3 px-4 text-left text-xs font-bold text-gray-700 uppercase tracking-wider'>Value</th>
-                        </tr>
-                      </thead>
-                      <tbody className='bg-white divide-y divide-gray-100'>
-                        {product.specifications.grade && (
+                  <div>
+                    <div className='overflow-x-auto'>
+                      <table className='min-w-full'>
+                        <thead className='bg-gray-50'>
                           <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Grade</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.grade}</td>
+                            <th className='py-3 px-4 text-left text-xs font-bold text-gray-700 uppercase tracking-wider'>Specification</th>
+                            <th className='py-3 px-4 text-left text-xs font-bold text-gray-700 uppercase tracking-wider'>Value</th>
                           </tr>
+                        </thead>
+                        <tbody className='bg-white divide-y divide-gray-100'>
+                          {/* Primary specs - always shown */}
+                          {product.specifications.grade && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Grade</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.grade}</td>
+                            </tr>
+                          )}
+                          {product.specifications.cupScore && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cup Score</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cupScore}</td>
+                            </tr>
+                          )}
+                          {product.specifications.processingMethod && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Processing Method</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.processingMethod}</td>
+                            </tr>
+                          )}
+                          {product.variety && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Variety</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.variety}</td>
+                            </tr>
+                          )}
+                          {product.region && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Region</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.region}</td>
+                            </tr>
+                          )}
+                          {product.altitude && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Altitude</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.altitude}</td>
+                            </tr>
+                          )}
+                          {product.specifications.washingStation && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Washing Station</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.washingStation}</td>
+                            </tr>
+                          )}
+                          {product.specifications.harvestPeriod && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Harvest Period</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.harvestPeriod}</td>
+                            </tr>
+                          )}
+                          
+                          {/* Additional specs - shown when expanded */}
+                          {isSpecsExpanded && (
+                            <>
+                              {product.specifications.screenSize && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Screen Size</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.screenSize}</td>
+                                </tr>
+                              )}
+                              {product.specifications.cropYear && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Crop Year</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cropYear}</td>
+                                </tr>
+                              )}
+                              {product.specifications.millName && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Mill / Processing Facility</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.millName}</td>
+                                </tr>
+                              )}
+                              {product.specifications.dryingMethod && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Drying Method</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.dryingMethod}</td>
+                                </tr>
+                              )}
+                              {product.specifications.fermentationTime && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Fermentation Time</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.fermentationTime}</td>
+                                </tr>
+                              )}
+                              {product.specifications.moisture && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Moisture Content</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.moisture}</td>
+                                </tr>
+                              )}
+                              {product.specifications.waterActivity && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Water Activity (aw)</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.waterActivity}</td>
+                                </tr>
+                              )}
+                              {product.specifications.density && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Density</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.density}</td>
+                                </tr>
+                              )}
+                              {product.specifications.defectCount && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Defect Count</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.defectCount}</td>
+                                </tr>
+                              )}
+                              {product.bagSize && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Bag Size</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.bagSize}</td>
+                                </tr>
+                              )}
+                              {product.specifications.cuppingNotes && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cupping Notes</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cuppingNotes}</td>
+                                </tr>
+                              )}
+                              {product.specifications.farmCoopId && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Farm/Coop ID</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.farmCoopId}</td>
+                                </tr>
+                              )}
+                              {product.specifications.icoNumber && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>ICO Number</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.icoNumber}</td>
+                                </tr>
+                              )}
+                              {product.producer && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Producer</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.producer}</td>
+                                </tr>
+                              )}
+                              {product.lotNumber && (
+                                <tr>
+                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Lot Number</td>
+                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.lotNumber}</td>
+                                </tr>
+                              )}
+                            </>
+                          )}
+                        </tbody>
+                      </table>
+                    </div>
+                    
+                    {/* Show More/Less Button */}
+                    <div className='mt-4 text-center'>
+                      <button
+                        onClick={() => setIsSpecsExpanded(!isSpecsExpanded)}
+                        className='inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-accent hover:text-white bg-white hover:bg-accent border-2 border-accent rounded-lg transition-all shadow-sm hover:shadow-md'
+                      >
+                        {isSpecsExpanded ? (
+                          <>
+                            <span>Show Less</span>
+                            <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M5 15l7-7 7 7' />
+                            </svg>
+                          </>
+                        ) : (
+                          <>
+                            <span>Show More Specifications</span>
+                            <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M19 9l-7 7-7-7' />
+                            </svg>
+                          </>
                         )}
-                        {product.specifications.screenSize && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Screen Size</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.screenSize}</td>
-                          </tr>
-                        )}
-                        {product.specifications.processingMethod && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Processing Method</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.processingMethod}</td>
-                          </tr>
-                        )}
-                        {product.specifications.cropYear && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Crop Year</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cropYear}</td>
-                          </tr>
-                        )}
-                        {product.specifications.harvestPeriod && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Harvest Period</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.harvestPeriod}</td>
-                          </tr>
-                        )}
-                        {product.specifications.washingStation && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Washing Station</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.washingStation}</td>
-                          </tr>
-                        )}
-                        {product.specifications.millName && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Mill / Processing Facility</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.millName}</td>
-                          </tr>
-                        )}
-                        {product.specifications.dryingMethod && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Drying Method</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.dryingMethod}</td>
-                          </tr>
-                        )}
-                        {product.specifications.fermentationTime && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Fermentation Time</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.fermentationTime}</td>
-                          </tr>
-                        )}
-                        {product.specifications.moisture && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Moisture Content</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.moisture}</td>
-                          </tr>
-                        )}
-                        {product.specifications.waterActivity && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Water Activity (aw)</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.waterActivity}</td>
-                          </tr>
-                        )}
-                        {product.specifications.density && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Density</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.density}</td>
-                          </tr>
-                        )}
-                        {product.specifications.defectCount && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Defect Count</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.defectCount}</td>
-                          </tr>
-                        )}
-                        {product.specifications.cupScore && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cup Score</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cupScore}</td>
-                          </tr>
-                        )}
-                        {product.specifications.cuppingNotes && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cupping Notes</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cuppingNotes}</td>
-                          </tr>
-                        )}
-                        {product.altitude && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Altitude</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.altitude}</td>
-                          </tr>
-                        )}
-                        {product.variety && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Variety</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.variety}</td>
-                          </tr>
-                        )}
-                        {product.bagSize && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Bag Size</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.bagSize}</td>
-                          </tr>
-                        )}
-                        {product.specifications.farmCoopId && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>Farm/Coop ID</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.farmCoopId}</td>
-                          </tr>
-                        )}
-                        {product.specifications.icoNumber && (
-                          <tr>
-                            <td className='py-3 px-4 text-sm font-medium text-gray-900'>ICO Number</td>
-                            <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.icoNumber}</td>
-                          </tr>
-                        )}
-                      </tbody>
-                    </table>
+                      </button>
+                    </div>
                   </div>
                 )}
               </div>
