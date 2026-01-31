@@ -573,5 +573,28 @@ export const posts: Post[] = [
         'specialty coffee netherlands'
       ],
       desc: 'Practical guide to importing Ethiopian green coffee via Rotterdam covering EU food-safety rules, NVWA controls, Dutch customs procedures, VAT treatment, bonded storage strategies, cost example for a 20ft container, and practical tips for Benelux distribution.'
-    }
+    },
+    {
+      small_image_url: 'world-best-coffee-shops.webp',
+      large_image_url: 'world-best-coffee-shops.webp',
+      date: 'Jan 28, 2026',
+      title: 'TOP 10 SPECIALTY COFFEE SHOPS AROUND THE WORLD',
+      slug: 'top-10-specialty-coffee-shops-world',
+      category: 'Global Insights / Coffee Culture / Retail Trends',
+      keywords: [
+        'best coffee shops world',
+        'specialty coffee guide',
+        'third wave coffee shops',
+        'tim wendelboe oslo',
+        'koffee mameya tokyo',
+        'ethiopian coffee sourcing',
+        'coffee roasters guide',
+        'scandinavian roast',
+        'luxury coffee experience',
+        'global coffee culture',
+        'coffee tourism',
+        'green coffee quality'
+      ],
+  desc: 'A curated list of the world\'s most influential specialty coffee shops—from Oslo to Tokyo—defining the standards of roasting, service, and sourcing. Discover why the top industry leaders rely on Ethiopian origins to set themselves apart.'
+}
 ]
