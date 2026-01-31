@@ -22,7 +22,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee entering Hamburg gateway to Europe&apos;s most sophisticated coffee market
+          Insights from Ethiopian coffee sourcing and the specialty coffee industry.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>

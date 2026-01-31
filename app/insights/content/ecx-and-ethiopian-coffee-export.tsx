@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineShieldCheck, HiOutlineScale } from 'react-icons/hi2'
+import { HiOutlineCalendarDays, HiOutlineShieldCheck, HiOutlineScale, HiOutlineCheckCircle, HiOutlineXCircle, HiOutlineDocumentText } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -22,7 +22,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          The Ethiopia Commodity Exchange (ECX) warehouse where Ethiopian coffee is graded, certified, and prepared for export to international markets.
+          The Ethiopia Commodity Exchange (ECX) main building where Ethiopian coffee is auctioned.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -84,7 +84,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       </p>
 
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
-        <h4 className='font-bold text-lg mb-2'>📍 ECX by the Numbers</h4>
+        <h4 className='font-bold text-lg mb-2'><HiOutlineDocumentText className='inline mr-2' />ECX by the Numbers</h4>
         <ul className='text-sm space-y-1 list-disc ml-5'>
           <li>Established: April 2008</li>
           <li>Headquarters: Addis Ababa, Ethiopia</li>
@@ -203,7 +203,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold text-lg mb-2'>💡 For Importers: What to Ask About Traceability</h4>
+        <h4 className='font-bold text-lg mb-2'><HiOutlineDocumentText className='inline mr-2' />For Importers: What to Ask About Traceability</h4>
         <p className='text-sm mb-3'>When sourcing from an Ethiopian exporter, clarify:</p>
         <ul className='text-sm space-y-2 list-disc ml-5'>
           <li><span className='font-bold'>Is this ECX coffee or DSL (direct)?</span> DSL offers farm/cooperative-level traceability</li>
@@ -223,32 +223,32 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
 
       <div className='grid md:grid-cols-2 gap-5 my-6'>
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>✅ Quality Assurance</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineCheckCircle className='inline mr-2' />Quality Assurance</h4>
           <p className='text-sm'>ECX grading provides standardized quality metrics. When you order G1 Yirgacheffe washed, you know exactly what defect count and cup profile to expect.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>✅ Legal Compliance</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineCheckCircle className='inline mr-2' />Legal Compliance</h4>
           <p className='text-sm'>ECX-registered exporters have proper licensing, export permits, and documentation. Reduces risk of shipment holds at customs.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>✅ Price Transparency</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineCheckCircle className='inline mr-2' />Price Transparency</h4>
           <p className='text-sm'>ECX pricing is market-driven and transparent. You can verify that you&apos;re paying fair market rates for the grade and origin you&apos;re purchasing.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>✅ Documentation Ready</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineCheckCircle className='inline mr-2' />Documentation Ready</h4>
           <p className='text-sm'>ECX coffee comes with quality certificates, origin documentation, ICO certificates, and phytosanitary certificates required for import.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>✅ Fraud Protection</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineCheckCircle className='inline mr-2' />Fraud Protection</h4>
           <p className='text-sm'>The ECX system prevents common fraud issues you&apos;re dealing with vetted, licensed exporters who must maintain their registration.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>✅ Supply Chain Integrity</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineCheckCircle className='inline mr-2' />Supply Chain Integrity</h4>
           <p className='text-sm'>Coffee handled through ECX maintains chain of custody documentation from origin to export, providing accountability at every stage.</p>
         </div>
       </div>
@@ -259,22 +259,22 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       
       <div className='space-y-4 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-2'>❌ Myth: "ECX coffee has no traceability"</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineXCircle className='inline mr-2' />Myth: "ECX coffee has no traceability"</h4>
           <p className='text-sm'><span className='font-bold'>Reality:</span> While early ECX systems limited traceability, reforms now allow much better origin documentation, especially for specialty lots. DSL (Direct Specialty License) provides full farm-level traceability outside ECX auction.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-2'>❌ Myth: "All Ethiopian coffee must go through ECX"</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineXCircle className='inline mr-2' />Myth: "All Ethiopian coffee must go through ECX"</h4>
           <p className='text-sm'><span className='font-bold'>Reality:</span> Specialty coffee scoring 85+ can be exported via DSL with direct cooperative/farm sourcing. Estate-grown coffee from private farms can also bypass ECX. However, most commercial-volume coffee does go through ECX.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-2'>❌ Myth: "ECX grades are all that matters for quality"</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineXCircle className='inline mr-2' />Myth: "ECX grades are all that matters for quality"</h4>
           <p className='text-sm'><span className='font-bold'>Reality:</span> ECX grades (G1/G2/G3) measure defect count, not cup quality. A G2 with 86+ cupping score is better than a G1 with 83 score. Always ask for cupping reports, not just grade.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-2'>❌ Myth: "ECX adds cost without value"</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineXCircle className='inline mr-2' />Myth: "ECX adds cost without value"</h4>
           <p className='text-sm'><span className='font-bold'>Reality:</span> ECX fees are modest (typically &lt;1% of transaction value). The quality assurance, documentation, payment clearing, and legal framework provide significant value that reduces risk and simplifies international trade.</p>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee being prepared for export to the United States market, from ECX-certified green beans to US customs clearance.
+          Insights from Ethiopian coffee sourcing and the specialty coffee industry.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>

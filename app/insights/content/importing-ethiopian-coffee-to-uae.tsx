@@ -22,7 +22,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee entering Dubai, UAE serving the Middle East's most dynamic coffee market and regional re-export hub
+          Insights from Ethiopian coffee sourcing and the specialty coffee industry.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>

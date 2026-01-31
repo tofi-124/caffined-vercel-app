@@ -22,7 +22,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee entering the Kingdom of Saudi Arabia meeting the demands of the Middle East's fastest-growing coffee market
+          Insights from Ethiopian coffee sourcing and the specialty coffee industry.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>

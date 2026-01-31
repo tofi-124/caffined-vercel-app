@@ -550,4 +550,28 @@ export const posts: Post[] = [
       ],
       desc: 'Complete guide to importing Ethiopian specialty coffee to Germany and the EU covering EU food safety regulations, BVL compliance, German customs procedures, Kaffeesteuer (coffee tax), Form A GSP+ duty-free treatment, shipping to Hamburg port, bonded warehouse strategies, cost analysis, and partnering with Ethio Coffee Export for successful German/EU market entry.'
     }
+    ,
+    {
+      small_image_url: 'rotterdam-coffee-import.webp',
+      large_image_url: 'rotterdam-coffee-import.webp',
+      date: 'Jan 27, 2026',
+      title: 'IMPORTING ETHIOPIAN COFFEE TO THE NETHERLANDS: ROTTERDAM GUIDE',
+      slug: 'importing-ethiopian-coffee-to-holland',
+      category: 'Import Guide / Netherlands & EU Market',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to netherlands',
+        'import ethiopian coffee rotterdam',
+        'rotterdam port coffee',
+        'netherlands coffee import regulations',
+        'eu coffee import',
+        'nvwa coffee import',
+        'vat coffee netherlands',
+        'rotterdam bonded warehouse',
+        'benelux coffee distribution',
+        'specialty coffee netherlands'
+      ],
+      desc: 'Practical guide to importing Ethiopian green coffee via Rotterdam covering EU food-safety rules, NVWA controls, Dutch customs procedures, VAT treatment, bonded storage strategies, cost example for a 20ft container, and practical tips for Benelux distribution.'
+    }
 ]

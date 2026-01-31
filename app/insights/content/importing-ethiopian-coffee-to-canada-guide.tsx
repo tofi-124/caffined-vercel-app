@@ -22,7 +22,7 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee arriving at Canadian ports ready for roasters who value quality, traceability, and direct relationships with origin.
+          Insights from Ethiopian coffee sourcing and the specialty coffee industry.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
