@@ -125,13 +125,13 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              <strong>For full container orders:</strong> We recommend a minimum of <strong>one full container</strong> (approximately 19–21 metric tons, around 320 bags of 60 kg). Full containers are the most cost-effective option for international shipping.
+              Our <strong>minimum order quantity is one full container</strong> (approximately 19–21 metric tons, around 275-320 bags depending on bag size). This is the most cost-effective option for international shipping.
             </p>
             <p>
-              <strong>Half container:</strong> We can arrange <strong>half container</strong> shipments (approximately 10 metric tons) for importers building relationships or testing new origins.
+              <strong>Mix and match:</strong> You can fill a full container with <strong>different coffee types and grades</strong> to create a diverse selection that meets your customers' needs.
             </p>
             <p>
-              <strong>LCL (Less than Container Load):</strong> For importers needing smaller volumes, we can arrange consolidated shipments subject to shipping schedules and additional logistics costs.
+              <strong>Less than full load:</strong> While we can ship less than a full container load in a full container, our strong recommendation is to maximize value by ordering a full container. Partial loads may incur additional per-unit costs.
             </p>
             <p>
               <strong>Sample orders:</strong> For evaluation purposes, we offer sample shipments - contact us to discuss your needs.
