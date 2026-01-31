@@ -562,13 +562,13 @@ export default function OrderingInfoPage() {
           <div className='flex flex-col sm:flex-row gap-4 justify-center'>
             <Link
               href='/contact-us'
-              className='inline-block bg-dark text-primary font-bold px-8 py-3 rounded hover:bg-dark/80 transition-colors'
+              className='inline-block bg-dark hover:bg-dark/90 text-primary font-bold px-6 py-4 border-2 border-dark rounded-xl transition-all shadow-sm hover:shadow-md'
             >
               Contact Us
             </Link>
             <Link
               href='/offerings'
-              className='inline-block border-2 border-dark text-dark font-bold px-8 py-3 rounded hover:bg-dark hover:text-primary transition-colors'
+              className='inline-block bg-white hover:bg-dark text-dark hover:text-primary font-bold px-6 py-4 border-2 border-dark rounded-xl transition-all shadow-sm hover:shadow-md'
             >
               View Offerings
             </Link>

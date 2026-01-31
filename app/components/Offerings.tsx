@@ -33,10 +33,13 @@ const Offerings = () => {
         {/* CTA */}
         <div className='text-center mt-16'>
           <Link href='/offerings' className='
-            inline-flex items-center gap-2 px-8 py-4 font-semibold
-            bg-accent hover:bg-dark text-white hover:text-primary
-            border border-accent hover:border-primary
-            rounded-full transition-all duration-300
+            inline-flex items-center gap-2 px-6 py-4
+            bg-accent hover:bg-accent/90 text-white
+            border-2 border-accent
+            rounded-xl
+            font-bold
+            transition-all
+            shadow-sm hover:shadow-md
           '>
             VIEW ALL OFFERINGS
             <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>

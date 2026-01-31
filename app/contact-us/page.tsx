@@ -335,14 +335,14 @@ const WholesaleInquiryPage = () => {
                   type='submit'
                   disabled={isSubmitting}
                   className='
-                    px-12 py-4 mt-2 w-full md:w-auto
-                    bg-accent hover:bg-dark text-white hover:text-primary
-                    border border-accent hover:border-dark
-                    rounded-md
-                    font-bold text-xl
+                    px-6 py-4 mt-2 w-full md:w-auto
+                    bg-accent hover:bg-accent/90 text-white
+                    border-2 border-accent
+                    rounded-xl
+                    font-bold
                     disabled:opacity-70 disabled:cursor-not-allowed
-                    transition-all duration-300
-                    shadow-md hover:shadow-lg
+                    transition-all
+                    shadow-sm hover:shadow-md
                   '
                 >
                   {isSubmitting ? 'SUBMITTING...' : 'SUBMIT INQUIRY'}

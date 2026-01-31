@@ -105,14 +105,14 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
               {showActions && (
                 <button
                   onClick={() => onRequestQuote?.(o)}
-                  className='w-full py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md font-bold transition-all duration-200'
+                  className='w-full px-6 py-4 bg-accent hover:bg-accent/90 text-white border-2 border-accent rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
                 >
                   {o.isSoldOut ? 'JOIN WAITLIST' : 'GET A QUOTE'}
                 </button>
               )}
               <Link 
                 href={`/product/${o.id}`} 
-                className='w-full py-2.5 text-center border border-dark/20 hover:border-dark hover:bg-dark hover:text-white rounded-md font-medium text-dark transition-all duration-200'
+                className='w-full px-6 py-4 text-center bg-white hover:bg-dark text-dark hover:text-primary border-2 border-dark rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
               >
                 View Details
               </Link>

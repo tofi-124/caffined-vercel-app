@@ -163,7 +163,7 @@ const OfferingsBrowser = () => {
                     : 'ETHIO COFFEE_All_Offerings'
                 generateMultipleProductsPDF(filtered, title)
               }}
-              className='flex items-center gap-2 px-4 py-2 bg-secondary hover:bg-dark text-white rounded-md font-bold cursor-pointer transition-all'
+              className='flex items-center gap-2 px-6 py-4 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-sm hover:shadow-md'
               title='Download filtered products as PDF'
             >
               <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
@@ -178,7 +178,7 @@ const OfferingsBrowser = () => {
         {/* Mobile filter button - fixed at bottom */}
         <button
           onClick={() => setIsFilterOpen(true)}
-          className='lg:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex items-center gap-2 px-6 py-3 bg-dark text-primary rounded-full shadow-lg hover:bg-accent transition-all'
+          className='lg:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex items-center gap-2 px-6 py-4 bg-dark hover:bg-accent text-primary border-2 border-dark hover:border-accent rounded-xl shadow-sm hover:shadow-md font-bold transition-all'
         >
           <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
             <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z' />
@@ -308,13 +308,13 @@ const OfferingsBrowser = () => {
                       setApplied(draft)
                       setIsFilterOpen(false)
                     }}
-                    className='flex-1 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-md font-bold transition-all'
+                    className='flex-1 px-6 py-4 bg-accent hover:bg-accent/90 text-white border-2 border-accent rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
                   >
                     Show Results
                   </button>
                   <button
                     onClick={clearFilters}
-                    className='flex-1 py-3 bg-gray-100 hover:bg-gray-200 text-dark rounded-md font-medium transition-all'
+                    className='flex-1 px-6 py-4 bg-white hover:bg-gray-50 text-dark border-2 border-gray-300 hover:border-gray-400 rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
                   >
                     Clear
                   </button>
@@ -429,13 +429,13 @@ const OfferingsBrowser = () => {
                     setApplied(draft)
                     setIsFilterOpen(false)
                   }}
-                  className='flex-1 py-3 bg-accent hover:bg-dark text-white hover:text-primary rounded-md font-bold transition-all'
+                  className='flex-1 px-6 py-4 bg-accent hover:bg-accent/90 text-white border-2 border-accent rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
                 >
                   Apply
                 </button>
                 <button
                   onClick={clearFilters}
-                  className='flex-1 py-3 bg-gray-100 hover:bg-gray-200 text-dark rounded-md font-medium transition-all'
+                  className='flex-1 px-6 py-4 bg-white hover:bg-gray-50 text-dark border-2 border-gray-300 hover:border-gray-400 rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
                 >
                   Clear
                 </button>

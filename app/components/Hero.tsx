@@ -22,10 +22,13 @@ const Hero = () => {
             </div>
 
           <Link href="/offerings" className='
-            p-10 py-4 mt-6 w-fit
-            bg-accent hover:bg-dark text-white hover:text-primary
-            border border-accent hover:border-primary
-            rounded-md
+            px-6 py-4 mt-6 w-fit
+            bg-accent hover:bg-accent/90 text-white
+            border-2 border-accent
+            rounded-xl
+            font-bold
+            transition-all
+            shadow-sm hover:shadow-md
          ' aria-label="Check out our coffees">BUY GREEN COFFEE</Link>
         </div>
 
