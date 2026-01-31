@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { offerings } from '../../data/offerings'
 import Image from 'next/image'
 import QuoteRequestPopup from '../../components/QuoteRequestPopup'
+import { generateProductPDF } from '../../lib/pdfGenerator'
 
 // Removing the generateStaticParams function from this client component file
 
@@ -83,19 +84,20 @@ const OfferingDetail = ({ params }: Props) => {
       </header>
       
       <section className='container mx-auto py-16 px-4'>
-        <div className='flex max-lg:flex-col items-start justify-center gap-12'>
-          <div ref={productImageRef} className='lg:w-1/2 flex justify-center items-start pt-4'>
-            <Image
-              src={`/images/${product.image_url}`}
-              alt={`${product.name} - ${product.specifications.processingMethod} processed Ethiopian green coffee from ${product.region}`}
-              width={400}
-              height={500}
-              className='object-contain'
-              priority
-            />
-          </div>
-          
-          <div className='lg:w-1/2'>
+        {/* Centered wide product image */}
+        <div ref={productImageRef} className='flex justify-center items-center mb-12'>
+          <Image
+            src={`/images/${product.image_url}`}
+            alt={`${product.name} - ${product.specifications.processingMethod} processed Ethiopian green coffee from ${product.region}`}
+            width={700}
+            height={700}
+            className='object-contain max-w-full h-auto'
+            priority
+          />
+        </div>
+        
+        {/* Product details below image */}
+        <div className='max-w-4xl mx-auto'>
             {/* Top info bar with key details */}
             <div className='flex flex-wrap items-center gap-3 mb-4'>
               {product.specifications.processingMethod && (
@@ -411,6 +413,17 @@ const OfferingDetail = ({ params }: Props) => {
                 {product.isSoldOut ? 'JOIN ALLOCATION LIST' : 'GET A QUOTE'}
               </button>
 
+              <button 
+                onClick={() => generateProductPDF(product)}
+                className='p-10 py-3 bg-secondary hover:bg-dark text-white hover:text-primary border border-secondary hover:border-dark rounded-md font-bold cursor-pointer flex items-center gap-2'
+                title='Download Product Sheet PDF'
+              >
+                <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' />
+                </svg>
+                DOWNLOAD PDF
+              </button>
+
               <QuoteRequestPopup
                 isOpen={isQuoteOpen}
                 onClose={() => setIsQuoteOpen(false)}
@@ -420,7 +433,6 @@ const OfferingDetail = ({ params }: Props) => {
               />
             </div>
           </div>
-        </div>
       </section>
     </main>
   )

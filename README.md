@@ -26,7 +26,7 @@ A modern, responsive coffee shop website built with Next.js, showcasing premium 
 ## 🏗️ Project Structure
 
 ```
-caffined-vercel-app/
+ETHIO COFFEE-vercel-app/
 ├── app/                    # Next.js App Router
 │   ├── about/             # About page
 │   ├── insights/          # Insights section
