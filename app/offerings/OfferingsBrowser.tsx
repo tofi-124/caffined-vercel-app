@@ -152,7 +152,7 @@ const OfferingsBrowser = () => {
             <p className='text-gray-600 mt-1'>Showing {filtered.length} of {offerings.length} coffees</p>
           </div>
           
-          {/* Download PDF button */}
+          {/* Download PDF button - Desktop only */}
           {filtered.length > 0 && (
             <button
               onClick={() => {
@@ -163,28 +163,49 @@ const OfferingsBrowser = () => {
                     : 'ETHIO COFFEE_All_Offerings'
                 generateMultipleProductsPDF(filtered, title)
               }}
-              className='flex items-center gap-2 px-6 py-4 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-sm hover:shadow-md'
+              className='hidden lg:flex items-center gap-2 px-6 py-4 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-sm hover:shadow-md'
               title='Download filtered products as PDF'
             >
               <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
                 <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' />
               </svg>
-              <span className='max-sm:hidden'>DOWNLOAD AS PDF</span>
-              <span className='sm:hidden'>PDF</span>
+              <span>DOWNLOAD AS PDF</span>
             </button>
           )}
         </div>
 
-        {/* Mobile filter button - fixed at bottom */}
-        <button
-          onClick={() => setIsFilterOpen(true)}
-          className='lg:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex items-center gap-2 px-6 py-4 bg-dark hover:bg-accent text-primary border-2 border-dark hover:border-accent rounded-xl shadow-sm hover:shadow-md font-bold transition-all'
-        >
-          <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z' />
-          </svg>
-          <span className='font-bold'>Filters</span>
-        </button>
+        {/* Mobile action buttons - fixed at bottom */}
+        <div className='lg:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex gap-3'>
+          <button
+            onClick={() => setIsFilterOpen(true)}
+            className='flex items-center gap-2 px-6 py-4 bg-dark hover:bg-accent text-primary border-2 border-dark hover:border-accent rounded-xl shadow-sm hover:shadow-md font-bold transition-all'
+          >
+            <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z' />
+            </svg>
+            <span className='font-bold'>Filters</span>
+          </button>
+          
+          {filtered.length > 0 && (
+            <button
+              onClick={() => {
+                const title = applied.keyword 
+                  ? `ETHIO COFFEE_${applied.keyword}_Offerings` 
+                  : applied.grade || applied.processingMethod || applied.availability
+                    ? 'ETHIO COFFEE_Filtered_Offerings'
+                    : 'ETHIO COFFEE_All_Offerings'
+                generateMultipleProductsPDF(filtered, title)
+              }}
+              className='flex items-center justify-center gap-2 px-6 py-4 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-sm hover:shadow-md'
+              title='Download filtered products as PDF'
+            >
+              <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' />
+              </svg>
+              <span className='sr-only'>Download PDF</span>
+            </button>
+          )}
+        </div>
 
         {/* Mobile filter overlay */}
         {isFilterOpen && (
