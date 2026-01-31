@@ -140,7 +140,7 @@ const WholesaleInquiryPage = () => {
 
           <div className='lg:w-1/2 flex justify-center'>
             <ResponsiveImage 
-              src='/images/coffee-pack-1.webp'
+              src='/images/coffee-sacks.webp'
               alt='Premium Ethiopian green coffee beans from Ethio Coffee'
               width={500}
               height={600}
