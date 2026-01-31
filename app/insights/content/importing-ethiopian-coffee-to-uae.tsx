@@ -17,12 +17,12 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Your complete roadmap to importing premium Ethiopian green coffee into the UAE—Dubai Customs procedures, ESMA requirements, free zone advantages, and market opportunities in the region's specialty coffee hub
+        Your complete roadmap to importing premium Ethiopian green coffee into the UAE Dubai Customs procedures, ESMA requirements, free zone advantages, and market opportunities in the region's specialty coffee hub
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee entering Dubai, UAE—serving the Middle East's most dynamic coffee market and regional re-export hub
+          Ethiopian specialty coffee entering Dubai, UAE serving the Middle East's most dynamic coffee market and regional re-export hub
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -47,21 +47,21 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
       </div>
       
       <p className='my-4'>
-        The United Arab Emirates—particularly Dubai and Abu Dhabi—has become the Middle East&apos;s undisputed specialty coffee capital. With over 1,500 cafes across the Emirates, a thriving expatriate community (over 85% of the population), and a strategic position as the GCC&apos;s logistics hub, the UAE offers unparalleled opportunities for <span className='font-bold'>Ethiopian coffee importers</span>.
+        The United Arab Emirates particularly Dubai and Abu Dhabi has become the Middle East&apos;s undisputed specialty coffee capital. With over 1,500 cafes across the Emirates, a thriving expatriate community (over 85% of the population), and a strategic position as the GCC&apos;s logistics hub, the UAE offers unparalleled opportunities for <span className='font-bold'>Ethiopian coffee importers</span>.
       </p>
 
       <p className='my-4'>
-        Dubai&apos;s Jebel Ali Port—the world&apos;s 9th busiest container port—handles more coffee than any other Middle Eastern facility. Combined with free zone incentives, 5% VAT (recoverable), zero coffee import duty, and world-class infrastructure, the UAE provides an ideal gateway not just for local distribution but for re-exporting <span className='font-bold'>Ethiopian specialty coffee</span> throughout the GCC, East Africa, and beyond.
+        Dubai&apos;s Jebel Ali Port the world&apos;s 9th busiest container port handles more coffee than any other Middle Eastern facility. Combined with free zone incentives, 5% VAT (recoverable), zero coffee import duty, and world-class infrastructure, the UAE provides an ideal gateway not just for local distribution but for re-exporting <span className='font-bold'>Ethiopian specialty coffee</span> throughout the GCC, East Africa, and beyond.
       </p>
 
       <p className='my-4'>
-        Whether you&apos;re a Dubai-based roaster, cafe chain operator, or regional coffee distributor, this guide covers everything you need to know about importing Ethiopian green coffee into the UAE—from <span className='font-bold'>ESMA certification</span> to <span className='font-bold'>Dubai Customs clearance</span>, free zone advantages, and partnering with <span className='font-bold'>Ethio Coffee Export PLC</span>.
+        Whether you&apos;re a Dubai-based roaster, cafe chain operator, or regional coffee distributor, this guide covers everything you need to know about importing Ethiopian green coffee into the UAE from <span className='font-bold'>ESMA certification</span> to <span className='font-bold'>Dubai Customs clearance</span>, free zone advantages, and partnering with <span className='font-bold'>Ethio Coffee Export PLC</span>.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Insight:</span> The UAE offers zero import duty on coffee, 5% VAT (fully recoverable), streamlined customs via Dubai Trade, free zone options (0% tax, 100% foreign ownership), and the region's best logistics infrastructure—making it the optimal base for Ethiopian coffee import and regional distribution.</span>
+          <span><span className='font-bold'>Key Insight:</span> The UAE offers zero import duty on coffee, 5% VAT (fully recoverable), streamlined customs via Dubai Trade, free zone options (0% tax, 100% foreign ownership), and the region's best logistics infrastructure making it the optimal base for Ethiopian coffee import and regional distribution.</span>
         </p>
       </div>
 
@@ -77,7 +77,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <li><span className='font-bold'>Jebel Ali Port:</span> World-class container handling, 3-7 day transit from Djibouti, weekly sailings</li>
         <li><span className='font-bold'>Free zone advantages:</span> JAFZA, DMCC, DAFZA offer 0% corporate tax, 100% foreign ownership, simplified customs</li>
         <li><span className='font-bold'>Re-export hub:</span> Seamless GCC distribution (Saudi, Kuwait, Qatar, Oman), Africa, South Asia markets</li>
-        <li><span className='font-bold'>Specialty coffee culture:</span> Dubai's cafe scene rivals European capitals—demand for single-origin, traceable coffee is high</li>
+        <li><span className='font-bold'>Specialty coffee culture:</span> Dubai's cafe scene rivals European capitals demand for single-origin, traceable coffee is high</li>
         <li><span className='font-bold'>Ethiopian community:</span> Large Ethiopian diaspora (50,000+) creates cultural familiarity and demand</li>
         <li><span className='font-bold'>Business-friendly:</span> English widely spoken, transparent regulations, efficient bureaucracy</li>
       </ul>
@@ -470,7 +470,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
             <li><span className='font-bold'>Quality consistency:</span> Pre-shipment samples match container quality</li>
             <li><span className='font-bold'>Responsive service:</span> Same-day email responses, WhatsApp communication available</li>
             <li><span className='font-bold'>Transparent pricing:</span> Clear FOB quotes with no hidden fees</li>
-            <li><span className='font-bold'>Re-export support:</span> We understand UAE's role as GCC distribution hub—documentation supports onward shipment</li>
+            <li><span className='font-bold'>Re-export support:</span> We understand UAE's role as GCC distribution hub documentation supports onward shipment</li>
           </ul>
         </div>
       </div>
@@ -551,9 +551,9 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <ul className='text-sm space-y-2 list-disc ml-5'>
           <li><span className='font-bold'>Air conditioning mandatory:</span> Maintain 15-22°C (59-72°F). UAE summer temps (45°C+) will destroy coffee quality without AC</li>
           <li><span className='font-bold'>Dehumidification:</span> Keep humidity 50-60% RH. Coastal areas (Dubai, Abu Dhabi) have higher humidity (70-80% in summer) than interior desert</li>
-          <li><span className='font-bold'>GrainPro/Ecotact bags:</span> Essential moisture barrier protection—UAE's humidity swings stress coffee</li>
+          <li><span className='font-bold'>GrainPro/Ecotact bags:</span> Essential moisture barrier protection UAE's humidity swings stress coffee</li>
           <li><span className='font-bold'>Avoid ground-level:</span> Pallet storage 15cm+ off floor to prevent moisture absorption</li>
-          <li><span className='font-bold'>Dust control:</span> Desert dust infiltration—sealed warehouse spaces preferred</li>
+          <li><span className='font-bold'>Dust control:</span> Desert dust infiltration sealed warehouse spaces preferred</li>
           <li><span className='font-bold'>FIFO rotation:</span> Use older stock first. Green coffee shelf life: 6-12 months optimal (shorter if not properly stored)</li>
           <li><span className='font-bold'>Professional warehousing:</span> DMCC Coffee Centre or dedicated coffee warehouses offer proper climate control (~AED 50-150/sqm/year)</li>
         </ul>
@@ -585,7 +585,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
             <HiOutlineExclamationTriangle className='text-xl text-amber-600' />
             Challenge: Summer Heat Degradation
           </h4>
-          <p className='text-sm'><span className='font-bold'>Solution:</span> Never store coffee in non-AC warehouse in UAE—it's not optional. Even short-term storage (1-2 weeks) in summer heat (June-September) can destroy flavor. Invest in proper climate-controlled warehouse space from day one.</p>
+          <p className='text-sm'><span className='font-bold'>Solution:</span> Never store coffee in non-AC warehouse in UAE it's not optional. Even short-term storage (1-2 weeks) in summer heat (June-September) can destroy flavor. Invest in proper climate-controlled warehouse space from day one.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
@@ -622,13 +622,13 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
       </h3>
       
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Dubai Customs:</span> dubaicustoms.gov.ae — Tariff information, procedures, Dubai Trade portal</li>
-        <li><span className='font-bold'>Dubai Trade Portal:</span> dubaitrade.ae — Electronic customs declarations, license applications</li>
-        <li><span className='font-bold'>ESMA:</span> esma.gov.ae — Food safety standards, conformity assessment</li>
-        <li><span className='font-bold'>Federal Tax Authority (FTA):</span> tax.gov.ae — VAT registration, filing, guidance</li>
-        <li><span className='font-bold'>DMCC Coffee Centre:</span> dmcc.ae/business-sectors/coffee — Free zone setup, warehousing, trading facilities</li>
-        <li><span className='font-bold'>Dubai Economy (DED):</span> dubaided.gov.ae — Mainland business licensing</li>
-        <li><span className='font-bold'>UAE Ministry of Economy:</span> moec.gov.ae — Trade policies, import/export regulations</li>
+        <li><span className='font-bold'>Dubai Customs:</span> dubaicustoms.gov.ae   Tariff information, procedures, Dubai Trade portal</li>
+        <li><span className='font-bold'>Dubai Trade Portal:</span> dubaitrade.ae   Electronic customs declarations, license applications</li>
+        <li><span className='font-bold'>ESMA:</span> esma.gov.ae   Food safety standards, conformity assessment</li>
+        <li><span className='font-bold'>Federal Tax Authority (FTA):</span> tax.gov.ae   VAT registration, filing, guidance</li>
+        <li><span className='font-bold'>DMCC Coffee Centre:</span> dmcc.ae/business-sectors/coffee   Free zone setup, warehousing, trading facilities</li>
+        <li><span className='font-bold'>Dubai Economy (DED):</span> dubaided.gov.ae   Mainland business licensing</li>
+        <li><span className='font-bold'>UAE Ministry of Economy:</span> moec.gov.ae   Trade policies, import/export regulations</li>
       </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -654,7 +654,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to the United Arab Emirates—Dubai Customs procedures, ESMA requirements, free zone vs. mainland setup, VAT structure, Jebel Ali Port logistics, DMCC Coffee Centre facilities, cost analysis, and partnering with Ethio Coffee Export for UAE market entry and regional distribution.
+          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to the United Arab Emirates Dubai Customs procedures, ESMA requirements, free zone vs. mainland setup, VAT structure, Jebel Ali Port logistics, DMCC Coffee Centre facilities, cost analysis, and partnering with Ethio Coffee Export for UAE market entry and regional distribution.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline'>Understanding ECX</Link> · <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Sourcing Guide</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

@@ -17,12 +17,12 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Your comprehensive guide to importing premium Ethiopian green coffee into Japan—MHLW food safety compliance, customs procedures, shipping logistics, and market entry strategies for the world's third-largest specialty coffee market
+        Your comprehensive guide to importing premium Ethiopian green coffee into Japan MHLW food safety compliance, customs procedures, shipping logistics, and market entry strategies for the world's third-largest specialty coffee market
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee entering Japan—meeting the exacting quality standards of the world's most discerning coffee market
+          Ethiopian specialty coffee entering Japan meeting the exacting quality standards of the world's most discerning coffee market
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -51,13 +51,13 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       </p>
 
       <p className='my-4'>
-        Ethiopian coffee—with its inherent complexity, diverse regional profiles, and origin authenticity—aligns perfectly with Japanese coffee culture&apos;s emphasis on craftsmanship and terroir. However, entering the Japanese market requires navigating strict food safety regulations, meticulous documentation, and understanding unique business practices. This comprehensive guide covers everything <span className='font-bold'>Japanese coffee importers</span>, roasters, and cafe operators need to know about sourcing <span className='font-bold'>Ethiopian specialty coffee</span>.
+        Ethiopian coffee with its inherent complexity, diverse regional profiles, and origin authenticity aligns perfectly with Japanese coffee culture&apos;s emphasis on craftsmanship and terroir. However, entering the Japanese market requires navigating strict food safety regulations, meticulous documentation, and understanding unique business practices. This comprehensive guide covers everything <span className='font-bold'>Japanese coffee importers</span>, roasters, and cafe operators need to know about sourcing <span className='font-bold'>Ethiopian specialty coffee</span>.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Insight:</span> Japan offers zero import duty on coffee, sophisticated logistics infrastructure, and the world's highest willingness to pay premium prices for quality—but requires MHLW food safety compliance, Japanese language documentation, and relationship-based business practices. Success requires quality consistency and long-term commitment.</span>
+          <span><span className='font-bold'>Key Insight:</span> Japan offers zero import duty on coffee, sophisticated logistics infrastructure, and the world's highest willingness to pay premium prices for quality but requires MHLW food safety compliance, Japanese language documentation, and relationship-based business practices. Success requires quality consistency and long-term commitment.</span>
         </p>
       </div>
 
@@ -69,8 +69,8 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Quality-first culture:</span> Japanese consumers pay premium prices for exceptional quality—single-origin Ethiopian coffees routinely sell for ¥3,000-6,000/250g retail</li>
-        <li><span className='font-bold'>Origin storytelling:</span> Japanese coffee culture values terroir and production stories—Ethiopia&apos;s coffee birthplace narrative resonates strongly</li>
+        <li><span className='font-bold'>Quality-first culture:</span> Japanese consumers pay premium prices for exceptional quality single-origin Ethiopian coffees routinely sell for ¥3,000-6,000/250g retail</li>
+        <li><span className='font-bold'>Origin storytelling:</span> Japanese coffee culture values terroir and production stories Ethiopia&apos;s coffee birthplace narrative resonates strongly</li>
         <li><span className='font-bold'>Processing appreciation:</span> Japanese roasters were early adopters of Ethiopian natural processing, valuing fruit-forward complexity</li>
         <li><span className='font-bold'>Hand-pour tradition:</span> Japanese pour-over culture (Hario V60, Kalita Wave) showcases Ethiopian coffee&apos;s clarity and nuance perfectly</li>
         <li><span className='font-bold'>Market size:</span> 126 million population with 400+ cups per capita annual consumption</li>
@@ -95,7 +95,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
           <ul className='text-sm space-y-2 list-disc ml-5'>
             <li><span className='font-bold'>Food Sanitation Law Compliance:</span> All food imports must meet Japanese food safety standards</li>
             <li><span className='font-bold'>Import Notification (Todokede):</span> Mandatory electronic notification via FAINS (Food Automated Import Notification and Inspection System) before each shipment</li>
-            <li><span className='font-bold'>No Pre-Registration Required:</span> Unlike pharmaceutical products, coffee doesn&apos;t require advance product registration—notification per shipment is sufficient</li>
+            <li><span className='font-bold'>No Pre-Registration Required:</span> Unlike pharmaceutical products, coffee doesn&apos;t require advance product registration notification per shipment is sufficient</li>
             <li><span className='font-bold'>Pesticide Residue Standards:</span> Coffee must meet Japan&apos;s strict MRL (Maximum Residue Limits) for pesticides</li>
             <li><span className='font-bold'>Aflatoxin Testing:</span> Random inspection for aflatoxin contamination (especially for first-time importers)</li>
             <li><span className='font-bold'>Certificate of Origin:</span> Required from Ethiopian authorities</li>
@@ -245,7 +245,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
               <span className='font-bold'>Port of Yokohama (Tokyo Bay):</span>
               <p className='text-gray-600 mt-1'>Transit: <span className='font-bold'>25-35 days</span> from Djibouti (Red Sea → Suez Canal → Indian Ocean → Malacca Strait → East Asia)</p>
               <p className='text-gray-600'>Freight cost: $5,000-$7,000 per 20ft container</p>
-              <p className='text-gray-600'>Closest to Tokyo—Japan&apos;s largest coffee market. Excellent handling efficiency</p>
+              <p className='text-gray-600'>Closest to Tokyo Japan&apos;s largest coffee market. Excellent handling efficiency</p>
               <p className='text-gray-600'>Best for: Tokyo, Yokohama, Kawasaki roasters</p>
             </li>
             <li>
@@ -279,7 +279,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
             <p className='font-bold'>20ft Container (FCL - Full Container Load):</p>
             <p className='text-gray-600'>Capacity: ~300 bags (60kg each) = 18,000 kg / 39,683 lbs</p>
             <p className='text-gray-600'>Ideal for: Established roasters, multi-location operators</p>
-            <p className='text-gray-600'>Note: Japan prefers smaller bags (30kg, 40kg) for easier handling—specify during container stuffing</p>
+            <p className='text-gray-600'>Note: Japan prefers smaller bags (30kg, 40kg) for easier handling specify during container stuffing</p>
           </div>
           <div>
             <p className='font-bold'>40ft Container (FCL):</p>
@@ -296,7 +296,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
           <div>
             <p className='font-bold'>Air Freight (for samples/urgent orders):</p>
             <p className='text-gray-600'>Transit: 2-3 days Addis Ababa → Tokyo (via Ethiopian Airlines or cargo services)</p>
-            <p className='text-gray-600'>Cost: $6-10/kg (expensive—only for samples or emergency orders)</p>
+            <p className='text-gray-600'>Cost: $6-10/kg (expensive only for samples or emergency orders)</p>
           </div>
         </div>
       </div>
@@ -389,11 +389,11 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-lg mb-3'>Japanese Business Culture Considerations</h4>
         <ul className='text-sm space-y-2 list-disc ml-5'>
-          <li><span className='font-bold'>Meticulous documentation:</span> Japanese customs expect perfect documentation—no errors, inconsistencies, or missing information</li>
-          <li><span className='font-bold'>Quality consistency critical:</span> First shipment sets expectations—subsequent shipments must match or exceed initial quality</li>
+          <li><span className='font-bold'>Meticulous documentation:</span> Japanese customs expect perfect documentation no errors, inconsistencies, or missing information</li>
+          <li><span className='font-bold'>Quality consistency critical:</span> First shipment sets expectations subsequent shipments must match or exceed initial quality</li>
           <li><span className='font-bold'>Long-term relationships valued:</span> Japanese buyers seek stable, multi-year partnerships rather than transactional spot purchases</li>
           <li><span className='font-bold'>Communication style:</span> Formal, respectful communication. Business card exchange important. Email preferred over phone for initial contact</li>
-          <li><span className='font-bold'>Decision-making pace:</span> Slower than Western markets—consensus-based decisions, multiple approvals. Be patient</li>
+          <li><span className='font-bold'>Decision-making pace:</span> Slower than Western markets consensus-based decisions, multiple approvals. Be patient</li>
           <li><span className='font-bold'>Sample evaluation:</span> Expect extensive cupping and analysis before purchase orders. Japanese roasters are thorough</li>
         </ul>
       </div>
@@ -424,11 +424,11 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold text-lg mb-3'>Why Japanese Buyers Choose Us</h4>
           <ul className='text-sm space-y-2 list-disc ml-5'>
-            <li><span className='font-bold'>Quality consistency:</span> Sample quality matches container quality—no surprises</li>
+            <li><span className='font-bold'>Quality consistency:</span> Sample quality matches container quality no surprises</li>
             <li><span className='font-bold'>Traceability:</span> Full ECX documentation trail from farm to export</li>
             <li><span className='font-bold'>Regulatory compliance:</span> Experience with MHLW documentation requirements</li>
             <li><span className='font-bold'>Long-term reliability:</span> Consistent supply, year-round availability across origins</li>
-            <li><span className='font-bold'>Quality-first approach:</span> We understand Japanese expectations—quality is non-negotiable</li>
+            <li><span className='font-bold'>Quality-first approach:</span> We understand Japanese expectations quality is non-negotiable</li>
             <li><span className='font-bold'>Transparent pricing:</span> Clear FOB quotes, no hidden costs or quality downgrades</li>
             <li><span className='font-bold'>Professional communication:</span> Prompt, respectful, detail-oriented correspondence</li>
           </ul>
@@ -485,19 +485,19 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'>Strategy 1: Premium Single-Origin Positioning</h4>
           <p className='text-sm'><span className='font-bold'>Target:</span> Tokyo, Osaka specialty cafes and high-end retail</p>
-          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Import ECX G1 Yirgacheffe natural or Guji washed as limited-edition micro-lots. Position as ultra-premium (¥3,000-6,000/250g retail). Emphasize terroir story, cupping scores 85+, direct exporter relationship. Japanese consumers pay for exceptional quality—don&apos;t compete on price.</p>
+          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Import ECX G1 Yirgacheffe natural or Guji washed as limited-edition micro-lots. Position as ultra-premium (¥3,000-6,000/250g retail). Emphasize terroir story, cupping scores 85+, direct exporter relationship. Japanese consumers pay for exceptional quality don&apos;t compete on price.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'>Strategy 2: Kisaten (Traditional Coffee House) Supply</h4>
           <p className='text-sm'><span className='font-bold'>Target:</span> Traditional Japanese coffee houses with loyal local clientele</p>
-          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Supply consistent, reliable Ethiopian blend components (Sidamo washed as bright acidity component, Harrar for body). Kisaten value consistency over novelty—once they trust your quality, relationships last decades. Wholesale to small roasters serving kisaten networks.</p>
+          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Supply consistent, reliable Ethiopian blend components (Sidamo washed as bright acidity component, Harrar for body). Kisaten value consistency over novelty once they trust your quality, relationships last decades. Wholesale to small roasters serving kisaten networks.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'>Strategy 3: Direct-to-Consumer E-Commerce</h4>
           <p className='text-sm'><span className='font-bold'>Target:</span> Japanese online consumers seeking origin authenticity</p>
-          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Import Ethiopian coffee, roast, package with Japanese language labels (required), sell via Rakuten, Amazon Japan, or own e-commerce site. Subscription coffee box model popular in Japan. Leverage Ethiopia&apos;s origin story—Japanese consumers appreciate authenticity.</p>
+          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Import Ethiopian coffee, roast, package with Japanese language labels (required), sell via Rakuten, Amazon Japan, or own e-commerce site. Subscription coffee box model popular in Japan. Leverage Ethiopia&apos;s origin story Japanese consumers appreciate authenticity.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
@@ -520,7 +520,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
           Japan-Specific Storage Guidelines
         </h4>
         <ul className='text-sm space-y-2 list-disc ml-5'>
-          <li><span className='font-bold'>Temperature control:</span> Maintain 15-22°C (59-72°F) year-round. Japanese summers (June-September) are hot and humid—AC essential</li>
+          <li><span className='font-bold'>Temperature control:</span> Maintain 15-22°C (59-72°F) year-round. Japanese summers (June-September) are hot and humid AC essential</li>
           <li><span className='font-bold'>Humidity management critical:</span> Japan&apos;s humidity (60-90% in summer, especially Tokyo, Osaka) requires dehumidification. Target 50-60% RH</li>
           <li><span className='font-bold'>GrainPro bags mandatory:</span> Moisture-barrier protection essential in Japan&apos;s humid climate</li>
           <li><span className='font-bold'>Seasonal considerations:</span> Tsuyu (rainy season, June-July) brings extreme humidity. Monitor closely during this period</li>
@@ -549,7 +549,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
             <HiOutlineExclamationTriangle className='text-xl text-amber-600' />
             Challenge: High Quality Expectations
           </h4>
-          <p className='text-sm'><span className='font-bold'>Solution:</span> Japanese buyers have zero tolerance for quality inconsistency. Work only with reputable exporters like Ethio Coffee who provide pre-shipment samples that match container quality. Request cupping samples from actual export lot before container stuffing—not generic samples.</p>
+          <p className='text-sm'><span className='font-bold'>Solution:</span> Japanese buyers have zero tolerance for quality inconsistency. Work only with reputable exporters like Ethio Coffee who provide pre-shipment samples that match container quality. Request cupping samples from actual export lot before container stuffing not generic samples.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
@@ -577,12 +577,12 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li>You can deliver <span className='font-bold'>exceptional, consistent quality</span>—Japan rewards quality but punishes inconsistency</li>
-        <li>You&apos;re committed to <span className='font-bold'>long-term relationships</span>—Japanese buyers seek stable partnerships, not transactional spot sales</li>
-        <li>You can justify <span className='font-bold'>premium pricing</span>—Japan pays top dollar for quality but expects corresponding excellence</li>
+        <li>You can deliver <span className='font-bold'>exceptional, consistent quality</span> Japan rewards quality but punishes inconsistency</li>
+        <li>You&apos;re committed to <span className='font-bold'>long-term relationships</span> Japanese buyers seek stable partnerships, not transactional spot sales</li>
+        <li>You can justify <span className='font-bold'>premium pricing</span> Japan pays top dollar for quality but expects corresponding excellence</li>
         <li>You have <span className='font-bold'>proper documentation and compliance</span> capability (MHLW, FAINS, etc.)</li>
         <li>You can manage <span className='font-bold'>10-14 week lead times</span> and plan inventory cycles accordingly</li>
-        <li>You understand or can adapt to <span className='font-bold'>Japanese business culture</span>—formality, patience, relationship-building</li>
+        <li>You understand or can adapt to <span className='font-bold'>Japanese business culture</span> formality, patience, relationship-building</li>
         <li>You have <span className='font-bold'>climate-controlled storage</span> to handle Japan&apos;s humid seasons</li>
       </ul>
 
@@ -595,12 +595,12 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       </h3>
       
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>MHLW (Ministry of Health, Labour and Welfare):</span> mhlw.go.jp/english — Food safety regulations, import procedures</li>
-        <li><span className='font-bold'>FAINS System:</span> fains.mhlw.go.jp — Import notification filing (requires broker or registration)</li>
-        <li><span className='font-bold'>Japan Customs:</span> customs.go.jp/english — Tariff information, NACCS system, procedures</li>
-        <li><span className='font-bold'>JETRO (Japan External Trade Organization):</span> jetro.go.jp/en — Trade promotion, import guidance, market information</li>
-        <li><span className='font-bold'>SCAJ (Specialty Coffee Association of Japan):</span> scaj.org — Industry organization, networking, market trends</li>
-        <li><span className='font-bold'>National Tax Agency:</span> nta.go.jp/english — Consumption tax registration and filing</li>
+        <li><span className='font-bold'>MHLW (Ministry of Health, Labour and Welfare):</span> mhlw.go.jp/english   Food safety regulations, import procedures</li>
+        <li><span className='font-bold'>FAINS System:</span> fains.mhlw.go.jp   Import notification filing (requires broker or registration)</li>
+        <li><span className='font-bold'>Japan Customs:</span> customs.go.jp/english   Tariff information, NACCS system, procedures</li>
+        <li><span className='font-bold'>JETRO (Japan External Trade Organization):</span> jetro.go.jp/en   Trade promotion, import guidance, market information</li>
+        <li><span className='font-bold'>SCAJ (Specialty Coffee Association of Japan):</span> scaj.org   Industry organization, networking, market trends</li>
+        <li><span className='font-bold'>National Tax Agency:</span> nta.go.jp/english   Consumption tax registration and filing</li>
       </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -626,7 +626,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Japan—MHLW food safety compliance, FAINS notification system, Japan Customs procedures, consumption tax structure, shipping to Tokyo/Yokohama/Kobe ports, Japanese business culture considerations, cost analysis, and partnering with Ethio Coffee Export for successful Japanese market entry.
+          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Japan MHLW food safety compliance, FAINS notification system, Japan Customs procedures, consumption tax structure, shipping to Tokyo/Yokohama/Kobe ports, Japanese business culture considerations, cost analysis, and partnering with Ethio Coffee Export for successful Japanese market entry.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline'>Understanding ECX</Link> · <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Sourcing Guide</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

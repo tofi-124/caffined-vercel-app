@@ -521,5 +521,33 @@ export const posts: Post[] = [
         'asia coffee import'
       ],
       desc: 'Comprehensive guide to importing Ethiopian specialty coffee to Japan covering MHLW food safety compliance, FAINS notification system, Japan Customs procedures, consumption tax structure, shipping to Tokyo/Yokohama/Kobe ports, Japanese business culture, cost analysis, and partnering with Ethio Coffee Export for successful Japanese market entry.'
+    },
+    {
+      small_image_url: 'germany-coffee-import.webp',
+      large_image_url: 'germany-coffee-import.webp',
+      date: 'Jan 26, 2026',
+      title: 'IMPORTING ETHIOPIAN COFFEE TO GERMANY: COMPLETE EU MARKET ENTRY GUIDE',
+      slug: 'importing-ethiopian-coffee-to-germany',
+      category: 'Import Guide / Germany & EU Market',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to germany',
+        'import ethiopian coffee germany',
+        'hamburg port coffee',
+        'germany coffee import regulations',
+        'eu coffee import',
+        'bvl coffee import',
+        'kaffeesteuer coffee tax',
+        'german coffee market',
+        'specialty coffee germany',
+        'eu customs coffee',
+        'gsp plus ethiopia',
+        'form a certificate coffee',
+        'bonded warehouse hamburg',
+        'european coffee import',
+        'german coffee roasters'
+      ],
+      desc: 'Complete guide to importing Ethiopian specialty coffee to Germany and the EU covering EU food safety regulations, BVL compliance, German customs procedures, Kaffeesteuer (coffee tax), Form A GSP+ duty-free treatment, shipping to Hamburg port, bonded warehouse strategies, cost analysis, and partnering with Ethio Coffee Export for successful German/EU market entry.'
     }
 ]

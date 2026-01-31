@@ -17,12 +17,12 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Complete guide to importing premium Ethiopian green coffee into Saudi Arabia—SFDA requirements, customs procedures, shipping logistics, and market opportunities in the Kingdom's booming coffee sector
+        Complete guide to importing premium Ethiopian green coffee into Saudi Arabia SFDA requirements, customs procedures, shipping logistics, and market opportunities in the Kingdom's booming coffee sector
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee entering the Kingdom of Saudi Arabia—meeting the demands of the Middle East's fastest-growing coffee market
+          Ethiopian specialty coffee entering the Kingdom of Saudi Arabia meeting the demands of the Middle East's fastest-growing coffee market
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -47,17 +47,17 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       </div>
       
       <p className='my-4'>
-        Saudi Arabia&apos;s coffee culture has transformed dramatically over the past decade. What was once a nation primarily associated with traditional Arabic coffee (qahwa) has become one of the Middle East&apos;s most dynamic specialty coffee markets. Riyadh, Jeddah, and Dammam now host hundreds of third-wave cafes, and Saudi consumers—particularly the country&apos;s young, affluent population—are seeking premium single-origin coffees with transparent sourcing and distinctive flavor profiles.
+        Saudi Arabia&apos;s coffee culture has transformed dramatically over the past decade. What was once a nation primarily associated with traditional Arabic coffee (qahwa) has become one of the Middle East&apos;s most dynamic specialty coffee markets. Riyadh, Jeddah, and Dammam now host hundreds of third-wave cafes, and Saudi consumers particularly the country&apos;s young, affluent population are seeking premium single-origin coffees with transparent sourcing and distinctive flavor profiles.
       </p>
 
       <p className='my-4'>
-        Ethiopian coffee, with its historic connection to the Arab world through centuries of trade, natural wine-like complexity, and recognizable origin story, is perfectly positioned for the Saudi market. But if you&apos;re a Saudi coffee roaster, cafe owner, or importer wondering how to navigate the import process, this comprehensive guide covers everything you need to know—from <span className='font-bold'>SFDA certification</span> to clearing <span className='font-bold'>Saudi Customs (Zatca)</span>, shipping through Jeddah port, and partnering with trusted <span className='font-bold'>Ethiopian coffee exporters</span> like <span className='font-bold'>Ethio Coffee Export PLC</span>.
+        Ethiopian coffee, with its historic connection to the Arab world through centuries of trade, natural wine-like complexity, and recognizable origin story, is perfectly positioned for the Saudi market. But if you&apos;re a Saudi coffee roaster, cafe owner, or importer wondering how to navigate the import process, this comprehensive guide covers everything you need to know from <span className='font-bold'>SFDA certification</span> to clearing <span className='font-bold'>Saudi Customs (Zatca)</span>, shipping through Jeddah port, and partnering with trusted <span className='font-bold'>Ethiopian coffee exporters</span> like <span className='font-bold'>Ethio Coffee Export PLC</span>.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Insight:</span> Importing Ethiopian coffee to Saudi Arabia requires SFDA food registration, customs clearance through Zatca, and proper documentation—but the Kingdom offers zero import duty on coffee, streamlined GCC trade facilitation, and access to one of the world's fastest-growing specialty coffee markets.</span>
+          <span><span className='font-bold'>Key Insight:</span> Importing Ethiopian coffee to Saudi Arabia requires SFDA food registration, customs clearance through Zatca, and proper documentation but the Kingdom offers zero import duty on coffee, streamlined GCC trade facilitation, and access to one of the world's fastest-growing specialty coffee markets.</span>
         </p>
       </div>
 
@@ -498,7 +498,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'>Consumer Preferences in the Kingdom</h4>
-          <p className='text-sm'>Saudi consumers favor lighter roasts, fruit-forward profiles, and V60/pour-over preparation. Ethiopian naturals (with berry notes) perform exceptionally well. Price sensitivity is lower than Western markets—quality trumps cost for affluent Saudi consumers.</p>
+          <p className='text-sm'>Saudi consumers favor lighter roasts, fruit-forward profiles, and V60/pour-over preparation. Ethiopian naturals (with berry notes) perform exceptionally well. Price sensitivity is lower than Western markets quality trumps cost for affluent Saudi consumers.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
@@ -526,7 +526,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
           <li><span className='font-bold'>Low humidity advantage:</span> Saudi's naturally dry climate (20-40% RH) reduces mold/moisture risks compared to humid regions</li>
           <li><span className='font-bold'>GrainPro bags:</span> Still recommended despite low humidity to protect from dust and temperature fluctuations</li>
           <li><span className='font-bold'>Pallet storage:</span> Elevate bags off ground, ensure airflow between stacks</li>
-          <li><span className='font-bold'>Dust management:</span> Saudi climate can introduce dust—keep warehouse sealed and filtered</li>
+          <li><span className='font-bold'>Dust management:</span> Saudi climate can introduce dust keep warehouse sealed and filtered</li>
           <li><span className='font-bold'>FIFO rotation:</span> Use older stock first. Green coffee shelf life: 6-12 months optimal</li>
         </ul>
       </div>
@@ -596,10 +596,10 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>SFDA Portal:</span> sfda.gov.sa/en — Product registration, import licenses, guidelines</li>
-        <li><span className='font-bold'>SABER Platform:</span> saber.sa — Conformity assessment and certificates</li>
-        <li><span className='font-bold'>Zatca (Saudi Customs):</span> zatca.gov.sa — Tariff finder, FASAH customs platform</li>
-        <li><span className='font-bold'>Saudi Ministry of Commerce:</span> mc.gov.sa — Business registration, commercial services</li>
+        <li><span className='font-bold'>SFDA Portal:</span> sfda.gov.sa/en   Product registration, import licenses, guidelines</li>
+        <li><span className='font-bold'>SABER Platform:</span> saber.sa   Conformity assessment and certificates</li>
+        <li><span className='font-bold'>Zatca (Saudi Customs):</span> zatca.gov.sa   Tariff finder, FASAH customs platform</li>
+        <li><span className='font-bold'>Saudi Ministry of Commerce:</span> mc.gov.sa   Business registration, commercial services</li>
         <li><span className='font-bold'>Saudi Specialty Coffee Association:</span> Industry networking and market insights</li>
       </ul>
 
@@ -626,7 +626,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Saudi Arabia—SFDA product registration, Zatca customs requirements, SABER conformity, VAT structure, Red Sea shipping logistics, cost analysis, and partnering with Ethio Coffee Export for Saudi market entry.
+          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Saudi Arabia SFDA product registration, Zatca customs requirements, SABER conformity, VAT structure, Red Sea shipping logistics, cost analysis, and partnering with Ethio Coffee Export for Saudi market entry.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline'>Understanding ECX</Link> · <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Sourcing Guide</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
