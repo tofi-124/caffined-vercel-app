@@ -111,6 +111,22 @@ const OfferingsBrowser = () => {
     })
   }, [applied])
 
+  // Scroll to results when filters are applied/removed
+  useEffect(() => {
+    // Only scroll if we're not on initial load (check if any filter is active)
+    const hasActiveFilters = applied.keyword || applied.grade || applied.processingMethod || 
+                             applied.cropYear || applied.minScore || applied.availability
+    
+    // Scroll whenever filtered results change, but add a small delay to let the DOM update
+    const timer = setTimeout(() => {
+      if (hasActiveFilters || filtered.length !== offerings.length) {
+        scrollToResultsTop()
+      }
+    }, 100)
+    
+    return () => clearTimeout(timer)
+  }, [filtered])
+
   const PAGE_SIZE = 6
   const [page, setPage] = useState(1)
 
