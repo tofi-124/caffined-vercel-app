@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCheckCircle, HiOutlineCube, HiOutlineLightBulb, HiOutlineGlobeAlt } from 'react-icons/hi2'
+import { HiOutlineCalendarDays, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCheckCircle, HiOutlineCube, HiOutlineLightBulb, HiOutlineGlobeAlt, HiOutlineXCircle } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -315,7 +315,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold text-lg mb-2'>📅 Green Coffee Shelf Life</h4>
+        <h4 className='font-bold text-lg mb-2'><HiOutlineCalendarDays className='inline mr-2' />Green Coffee Shelf Life</h4>
         <p className='text-sm'>Ethiopian specialty coffee maintains optimal quality for 6-12 months when stored properly. After 12 months, expect some fading of floral/fruit notes. Plan inventory accordingly.</p>
       </div>
 
@@ -328,7 +328,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
 
       <div className='grid md:grid-cols-2 gap-5 my-6'>
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>🇪🇹 What We Handle (Ethiopia Side)</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineGlobeAlt className='inline mr-2' />What We Handle (Ethiopia Side)</h4>
           <ul className='text-sm space-y-1 list-disc ml-5'>
             <li>ECX coffee sourcing & quality verification</li>
             <li>Complete export documentation</li>
@@ -391,22 +391,22 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       
       <div className='space-y-4 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-2'>❌ Mistake: "I'll figure out logistics after ordering"</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineXCircle className='inline mr-2' />Mistake: "I'll figure out logistics after ordering"</h4>
           <p className='text-sm'><span className='font-bold'>Solution:</span> Arrange customs broker, freight forwarder, and warehouse BEFORE placing your order. Lead times require advance planning.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-2'>❌ Mistake: "I don't need a customs broker"</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineXCircle className='inline mr-2' />Mistake: "I don't need a customs broker"</h4>
           <p className='text-sm'><span className='font-bold'>Solution:</span> Unless you have customs clearance experience, use a broker. The cost is minimal compared to potential delays or penalties from incorrect filing.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-2'>❌ Mistake: "I'll store green coffee in my garage"</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineXCircle className='inline mr-2' />Mistake: "I'll store green coffee in my garage"</h4>
           <p className='text-sm'><span className='font-bold'>Solution:</span> Green coffee is hygroscopic and sensitive to humidity/temperature. Invest in proper storage or use a third-party coffee warehouse.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-2'>❌ Mistake: "I'll order one bag to test"</h4>
+          <h4 className='font-bold text-lg mb-2'><HiOutlineXCircle className='inline mr-2' />Mistake: "I'll order one bag to test"</h4>
           <p className='text-sm'><span className='font-bold'>Solution:</span> Container shipping makes single-bag imports prohibitively expensive. Order samples first, then commit to at least 50-100 bags or join an LCL consolidation.</p>
         </div>
       </div>
