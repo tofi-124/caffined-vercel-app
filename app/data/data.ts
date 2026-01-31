@@ -382,5 +382,60 @@ export const posts: Post[] = [
         'Ethiopian coffee trade'
       ],
       desc: 'A comprehensive guide to the Ethiopia Commodity Exchange (ECX), its role in Ethiopian coffee export, the grading system (G1, G2, G3), traceability, export process, and what international buyers need to know when sourcing from ECX-registered exporters.'
+    },
+    {
+      small_image_url: 'usa-coffee-import.webp',
+      large_image_url: 'usa-coffee-import.webp',
+      date: 'Jan 21, 2026',
+      title: 'HOW TO IMPORT ETHIOPIAN SPECIALTY COFFEE TO THE UNITED STATES: COMPLETE GUIDE',
+      slug: 'how-to-import-ethiopian-coffee-to-usa',
+      category: 'Import Guide / US Market',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to united states',
+        'import ethiopian coffee to usa',
+        'ethiopian coffee to america',
+        'us coffee import regulations',
+        'import green coffee usa',
+        'ethiopian coffee exporter usa',
+        'coffee customs clearance usa',
+        'fda coffee import',
+        'usda coffee import',
+        'ethiopian coffee shipping usa',
+        'coffee import duties usa',
+        'agoa coffee import',
+        'import specialty coffee',
+        'ethiopian coffee for us roasters'
+      ],
+      desc: 'Complete guide to importing Ethiopian specialty coffee to the United States covering FDA regulations, customs documentation, shipping logistics, USDA requirements, cost breakdown, and working with Ethio Coffee Export for smooth US imports.'
+    },
+    {
+      small_image_url: 'canada-coffee-import.webp',
+      large_image_url: 'canada-coffee-import.webp',
+      date: 'Jan 22, 2026',
+      title: 'IMPORTING ETHIOPIAN SPECIALTY COFFEE TO CANADA: THE COMPLETE PRACTICAL GUIDE',
+      slug: 'importing-ethiopian-coffee-to-canada-guide',
+      category: 'Import Guide / Canadian Market',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to canada',
+        'import ethiopian coffee canada',
+        'ethiopian coffee to canada',
+        'cfia coffee import',
+        'cbsa coffee regulations',
+        'canadian coffee import',
+        'import green coffee canada',
+        'ethiopian coffee exporter canada',
+        'coffee customs clearance canada',
+        'coffee import duties canada',
+        'gst hst coffee import',
+        'sfcr coffee license',
+        'vancouver coffee import',
+        'montreal coffee import',
+        'canadian roasters ethiopian coffee'
+      ],
+      desc: 'Your practical guide to importing Ethiopian specialty coffee to Canada covering CFIA regulations, CBSA customs, duty rates, GST/HST, SFCR licensing, shipping logistics to Vancouver and Montreal, cost breakdowns, and working with Ethio Coffee Export for Canadian market entry.'
     }
 ]
