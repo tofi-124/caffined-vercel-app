@@ -125,7 +125,7 @@ const OfferingsBrowser = () => {
     }, 100)
     
     return () => clearTimeout(timer)
-  }, [filtered])
+  }, [filtered, applied])
 
   const PAGE_SIZE = 6
   const [page, setPage] = useState(1)

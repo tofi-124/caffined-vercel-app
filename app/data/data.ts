@@ -120,7 +120,7 @@ export const posts: Post[] = [
         'Ethiopian coffee exporter update',
         'coffee harvest timeline Ethiopia'
       ],
-      desc: 'Our comprehensive 2025 Ethiopian coffee harvest report covering regional outlooks for Yirgacheffe, Sidamo, Guji, and Harrar—plus quality expectations, pricing trends, and a planning timeline for importers and roasters sourcing green coffee from Ethiopia.'
+      desc: 'Our comprehensive 2025 Ethiopian coffee harvest report covering regional outlooks for Yirgacheffe, Sidamo, Guji, and Harrar plus quality expectations, pricing trends, and a planning timeline for importers and roasters sourcing green coffee from Ethiopia.'
     },
     {
       small_image_url: 'coffee-quality-defects.webp',
@@ -147,7 +147,7 @@ export const posts: Post[] = [
         'coffee QC for importers',
         'Ethiopian coffee quality standards'
       ],
-      desc: 'A practical guide for importers and roasters on green coffee quality control—understanding defect categories, Ethiopian grading standards, moisture and density testing, and what to inspect before committing to a lot from your Ethiopian coffee supplier.'
+      desc: 'A practical guide for importers and roasters on green coffee quality control understanding defect categories, Ethiopian grading standards, moisture and density testing, and what to inspect before committing to a lot from your Ethiopian coffee supplier.'
     },
     {
       small_image_url: 'yirgacheffe-vs-sidamo.webp',
@@ -356,5 +356,31 @@ export const posts: Post[] = [
         'specialty coffee preparation'
       ],
       desc: 'Master the artistic and technical aspects of coffee: from heat transfer in roasting and roast curve development to brewing fundamentals, extraction theory, and the creative techniques that transform green beans into exceptional cups.'
+    },
+    {
+      small_image_url: 'ecx-coffee-export.webp',
+      large_image_url: 'ecx-coffee-export.webp',
+      date: 'Jan 31, 2026',
+      title: 'THE ETHIOPIA COMMODITY EXCHANGE (ECX) AND ETHIOPIAN COFFEE EXPORT',
+      slug: 'ecx-and-ethiopian-coffee-export',
+      category: 'Coffee Trade & Export',
+      keywords: [
+        'Ethiopia Commodity Exchange',
+        'ECX coffee',
+        'ECX coffee export',
+        'ECX registered coffee exporter',
+        'Ethiopian coffee grading system',
+        'ECX coffee grades G1 G2 G3',
+        'Ethiopian coffee export process',
+        'ECX coffee traceability',
+        'Ethiopian coffee quality control',
+        'ECX coffee auction',
+        'Ethiopian coffee regulations',
+        'ECX direct specialty license',
+        'Ethiopian coffee documentation',
+        'how ECX works',
+        'Ethiopian coffee trade'
+      ],
+      desc: 'A comprehensive guide to the Ethiopia Commodity Exchange (ECX), its role in Ethiopian coffee export, the grading system (G1, G2, G3), traceability, export process, and what international buyers need to know when sourcing from ECX-registered exporters.'
     }
 ]

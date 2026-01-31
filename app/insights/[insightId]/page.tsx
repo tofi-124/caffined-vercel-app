@@ -1,10 +1,11 @@
 "use client"
 
-import { useEffect, use } from 'react'
+import { useEffect, use, useState } from 'react'
 import Link from 'next/link'
 import { posts } from '@/app/data/data'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
 import { HiOutlineCalendarDays } from 'react-icons/hi2'
+import { insightContentMap, hasContentFile } from '../content'
 
 type Props = {
   params: Promise<{
@@ -15,11 +16,21 @@ type Props = {
 const Insight = ({params}: Props) => {
   // Using React's use() hook to properly await params
   const { insightId } = use(params);
+  const [DynamicContent, setDynamicContent] = useState<React.ComponentType<any> | null>(null);
 
   // Add effect to scroll to top when this component loads
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [insightId]); // Re-run when insightId changes
+
+  // Load dynamic content if available
+  useEffect(() => {
+    if (hasContentFile(insightId)) {
+      insightContentMap[insightId]().then(component => {
+        setDynamicContent(() => component);
+      });
+    }
+  }, [insightId]);
 
   // Find post by slug (insightId is now a slug)
   const ind = posts.findIndex(post => post.slug === insightId);
@@ -37,7 +48,12 @@ const Insight = ({params}: Props) => {
     // Insight post content based on the ID
     let blogContent;
     
-    if (ind === 0) {
+    // PRIORITY 1: Check if there's a dedicated content file for this insight
+    if (DynamicContent) {
+      blogContent = <DynamicContent title={title} date={date} large_image_url={large_image_url} />;
+    }
+    // PRIORITY 2: Fall back to hardcoded content for existing insights
+    else if (ind === 0) {
       // Content for "Ethio Coffee Export Launch"
       blogContent = (
         <>
@@ -2566,7 +2582,7 @@ const Insight = ({params}: Props) => {
 
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
             <p className='font-medium'>
-              <span className='font-bold'>In this article:</span> We break down core processing methods, fermentation science, drying strategies, and milling decisions — with a practical case study from Ethiopian naturals and notes on how these choices map to cup profile.
+              <span className='font-bold'>In this article:</span> We break down core processing methods, fermentation science, drying strategies, and milling decisions   with a practical case study from Ethiopian naturals and notes on how these choices map to cup profile.
             </p>
           </div>
 
@@ -2663,10 +2679,10 @@ const Insight = ({params}: Props) => {
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Case Study: Guji Natural Processing</h3>
           <p className='my-4'>
-            Many Guji producers dry whole cherries on raised beds for 2–3 weeks. Typical handling includes frequent turning during the first 10 days, slower turns as sugars concentrate, and careful sorting to remove over-fermented fruit. The result is often a layered cup with strawberry, black tea, and molasses notes — a useful concrete example of how drying technique affects aroma and sweetness.
+            Many Guji producers dry whole cherries on raised beds for 2–3 weeks. Typical handling includes frequent turning during the first 10 days, slower turns as sugars concentrate, and careful sorting to remove over-fermented fruit. The result is often a layered cup with strawberry, black tea, and molasses notes   a useful concrete example of how drying technique affects aroma and sweetness.
           </p>
           <p className='my-4'>
-            Practical tip: When evaluating natural-processed lots, ask for a detailed drying log (days on bed, average sun hours, and sorting regimes) — these details often explain differences between similarly scored lots.
+            Practical tip: When evaluating natural-processed lots, ask for a detailed drying log (days on bed, average sun hours, and sorting regimes)   these details often explain differences between similarly scored lots.
           </p>
           <p className='my-4'>
             If you're buying, pair this with our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>complete buyer's guide</Link> to understand sourcing and quality checks at origin.
@@ -2833,7 +2849,7 @@ const Insight = ({params}: Props) => {
 
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
             <p className='font-medium'>
-              <span className='font-bold'>In this article:</span> We cover the C market, specialty coffee dynamics, exporting and importing logistics, green buying strategies, and transparency practices — plus a short case study on recent price volatility and its impact for producers.
+              <span className='font-bold'>In this article:</span> We cover the C market, specialty coffee dynamics, exporting and importing logistics, green buying strategies, and transparency practices   plus a short case study on recent price volatility and its impact for producers.
             </p>
           </div>
 
@@ -2976,7 +2992,7 @@ const Insight = ({params}: Props) => {
             <li><strong>Understand:</strong> Exporter costs (milling, testing, logistics) versus importer/roaster margins</li>
             <li><strong>Pricing waterfall:</strong> Farmgate → Local logistics/milling → Exporter margin → Freight/insurance → Importer margin → Roaster price</li>
           </ul>
-          <p className='my-4'>Transparency here is crucial—request a payment breakdown when possible to ensure fair share for producers.</p>
+          <p className='my-4'>Transparency here is crucial request a payment breakdown when possible to ensure fair share for producers.</p>
           <p className='my-4'>
             Coffee commerce is more than transactions; it's a system of relationships, logistics, and ethics that connects global communities. From the volatility of the C market to the nuanced world of specialty coffee, understanding exporting, importing, and green buying empowers stakeholders to drive positive change. Transparency remains the cornerstone, ensuring that every cup reflects fair trade and sustainable practices.
           </p>
@@ -3056,7 +3072,7 @@ const Insight = ({params}: Props) => {
             From green coffee analysis to the intricate world of cupping coffee, understanding the science behind coffee compounds and flavor perception transforms how we appreciate and evaluate this remarkable beverage. Every sip represents the culmination of scientific principles applied throughout the supply chain.
           </p>
           <p className='my-4'>
-            For how these compounds interact with processing styles, see <Link href='/insights/coffee-is-processing-drying-milling' className='underline font-bold'>Coffee is a Process</Link> and the practical <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>Washed vs Natural</Link> comparison — both are useful when mapping chemistry to cup.
+            For how these compounds interact with processing styles, see <Link href='/insights/coffee-is-processing-drying-milling' className='underline font-bold'>Coffee is a Process</Link> and the practical <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>Washed vs Natural</Link> comparison   both are useful when mapping chemistry to cup.
           </p>
 
           <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
@@ -3073,7 +3089,7 @@ const Insight = ({params}: Props) => {
 
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
             <p className='font-medium'>
-              <span className='font-bold'>In this article:</span> We examine green coffee physicals, key chemical compounds, sensory science and cupping methodology — plus practical lab and cupping examples you can use to evaluate lots more effectively.
+              <span className='font-bold'>In this article:</span> We examine green coffee physicals, key chemical compounds, sensory science and cupping methodology   plus practical lab and cupping examples you can use to evaluate lots more effectively.
             </p>
           </div>
 
@@ -3486,8 +3502,8 @@ const Insight = ({params}: Props) => {
             Two practical recipes to try when assessing a new lot:
           </p>
           <ul className='list-disc ml-5 my-4'>
-            <li><strong>V60 (balance):</strong> 16g coffee / 250g water, 94°C, 2:30–3:00 total time, bloom 30s with 40g — pour in thirds.</li>
-            <li><strong>Espresso (clarity):</strong> 18g in / 36g out, 25–30s, dose and grind to taste — adjust yield to balance sweetness and acidity.</li>
+            <li><strong>V60 (balance):</strong> 16g coffee / 250g water, 94°C, 2:30–3:00 total time, bloom 30s with 40g   pour in thirds.</li>
+            <li><strong>Espresso (clarity):</strong> 18g in / 36g out, 25–30s, dose and grind to taste   adjust yield to balance sweetness and acidity.</li>
           </ul>
           <p className='my-4'>
             These recipes provide a repeatable baseline for comparing lots and developing recipes that highlight origin character.
@@ -3845,7 +3861,7 @@ const Insight = ({params}: Props) => {
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: What the 2025 Season Means for Importers</h2>
           <p className='my-4'>
-            Every year, the Ethiopian coffee harvest represents one of the most anticipated events in specialty coffee. As the <Link href='/insights/birthplace-of-coffee-ethiopia' className='underline'>birthplace of Arabica coffee</Link>, Ethiopia produces some of the world&apos;s most distinctive and sought-after green beans—from the floral elegance of Yirgacheffe to the explosive fruit character of Guji naturals.
+            Every year, the Ethiopian coffee harvest represents one of the most anticipated events in specialty coffee. As the <Link href='/insights/birthplace-of-coffee-ethiopia' className='underline'>birthplace of Arabica coffee</Link>, Ethiopia produces some of the world&apos;s most distinctive and sought-after green beans from the floral elegance of Yirgacheffe to the explosive fruit character of Guji naturals.
           </p>
           <p className='my-4'>
             For importers, roasters, and green coffee buyers worldwide, understanding the Ethiopian harvest cycle is essential for strategic sourcing. This comprehensive 2025 harvest report covers regional outlooks, quality expectations, pricing dynamics, and a practical timeline to help you plan your Ethiopian coffee purchases with confidence.
@@ -3933,7 +3949,7 @@ const Insight = ({params}: Props) => {
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sidamo: Strong Naturals, Consistent Washed</h3>
           <p className='my-4'>
-            Sidamo—now officially known as Sidama after gaining regional autonomy—continues to deliver the fruit-forward naturals and balanced washed coffees the region is known for. The 2025 harvest shows particular strength in natural processed lots, with extended dry periods during processing creating ideal conditions for slow, even drying.
+            Sidamo now officially known as Sidama after gaining regional autonomy continues to deliver the fruit-forward naturals and balanced washed coffees the region is known for. The 2025 harvest shows particular strength in natural processed lots, with extended dry periods during processing creating ideal conditions for slow, even drying.
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <h4 className='font-bold text-lg mb-2'>Sidamo 2025 Outlook</h4>
@@ -3948,7 +3964,7 @@ const Insight = ({params}: Props) => {
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Guji: The Rising Star Delivers Again</h3>
           <p className='my-4'>
-            Guji has rapidly become one of the most exciting Ethiopian origins, and the 2025 harvest reinforces why. Higher altitudes in areas like Shakiso, Uraga, and Hambela are producing coffees with remarkable complexity—the signature stone fruit and jasmine aromatics that have made Guji a darling of specialty roasters.
+            Guji has rapidly become one of the most exciting Ethiopian origins, and the 2025 harvest reinforces why. Higher altitudes in areas like Shakiso, Uraga, and Hambela are producing coffees with remarkable complexity the signature stone fruit and jasmine aromatics that have made Guji a darling of specialty roasters.
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <h4 className='font-bold text-lg mb-2'>Guji 2025 Outlook</h4>
@@ -3963,7 +3979,7 @@ const Insight = ({params}: Props) => {
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Harrar: Traditional Character, Variable Lots</h3>
           <p className='my-4'>
-            Eastern Ethiopia&apos;s Harrar region produces some of the most distinctive coffees in the world—bold, winey naturals with dried fruit character. The 2025 harvest faces some challenges from inconsistent rainfall, but top lots from established producers maintain the quality Harrar is known for.
+            Eastern Ethiopia&apos;s Harrar region produces some of the most distinctive coffees in the world bold, winey naturals with dried fruit character. The 2025 harvest faces some challenges from inconsistent rainfall, but top lots from established producers maintain the quality Harrar is known for.
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <h4 className='font-bold text-lg mb-2'>Harrar 2025 Outlook</h4>
@@ -3986,7 +4002,7 @@ const Insight = ({params}: Props) => {
             The 2024 growing season saw generally favorable weather across Ethiopia&apos;s coffee belt. The Belg (short) rains arrived on time in March-April, supporting healthy flowering. The Meher (main) rains from June-September provided adequate moisture without the excess that can promote fungal disease.
           </p>
           <p className='my-4'>
-            Temperature patterns remained within optimal ranges for Arabica development (15-24°C). Importantly, there were no significant frost events in highland areas—a risk that can devastate quality in high-altitude regions.
+            Temperature patterns remained within optimal ranges for Arabica development (15-24°C). Importantly, there were no significant frost events in highland areas a risk that can devastate quality in high-altitude regions.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Processing Infrastructure Improvements</h3>
@@ -4118,7 +4134,7 @@ const Insight = ({params}: Props) => {
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: A Promising Year for Ethiopian Coffee</h2>
           <p className='my-4'>
-            The 2025 Ethiopian coffee harvest offers excellent opportunities for importers seeking quality, diversity, and value. Favorable growing conditions, continued investment in processing, and strong production volumes across most regions create a buyer-friendly environment—though competition for top lots remains intense.
+            The 2025 Ethiopian coffee harvest offers excellent opportunities for importers seeking quality, diversity, and value. Favorable growing conditions, continued investment in processing, and strong production volumes across most regions create a buyer-friendly environment though competition for top lots remains intense.
           </p>
           <p className='my-4'>
             For importers committed to Ethiopian specialty coffee, now is the time to engage with suppliers, review samples, and secure allocations. The unique <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline'>genetic diversity of Ethiopian heirloom varieties</Link>, combined with traditional farming practices and improving processing standards, ensures that Ethiopian coffee remains among the most exciting origins on Earth.
@@ -4184,13 +4200,13 @@ const Insight = ({params}: Props) => {
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Why Quality Control Matters</h2>
           <p className='my-4'>
-            For importers and roasters, understanding green coffee quality control isn&apos;t optional—it&apos;s fundamental to your business. A single defective lot can damage customer relationships, waste roasting capacity, and erode margins. Conversely, developing strong QC skills helps you identify exceptional value, negotiate fair prices, and build confidence in your sourcing decisions.
+            For importers and roasters, understanding green coffee quality control isn&apos;t optional it&apos;s fundamental to your business. A single defective lot can damage customer relationships, waste roasting capacity, and erode margins. Conversely, developing strong QC skills helps you identify exceptional value, negotiate fair prices, and build confidence in your sourcing decisions.
           </p>
           <p className='my-4'>
             This guide covers the essential elements of green coffee quality control: defect identification, grading systems (with a focus on Ethiopian standards), physical measurements, and practical inspection protocols. Whether you&apos;re evaluating samples from a new supplier or conducting pre-shipment inspection, these fundamentals will serve you well.
           </p>
           <p className='my-4'>
-            Quality control connects directly to everything else in the supply chain—from the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link> that produce coffee to the <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing methods</Link> that prepare it for export. Understanding QC helps you appreciate what&apos;s happening at origin and communicate more effectively with your <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Ethiopian coffee suppliers</Link>.
+            Quality control connects directly to everything else in the supply chain from the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link> that produce coffee to the <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing methods</Link> that prepare it for export. Understanding QC helps you appreciate what&apos;s happening at origin and communicate more effectively with your <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Ethiopian coffee suppliers</Link>.
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Understanding Coffee Defects</h2>
@@ -4568,10 +4584,10 @@ const Insight = ({params}: Props) => {
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Quality as a Competitive Advantage</h2>
           <p className='my-4'>
-            Developing strong green coffee quality control skills isn&apos;t just about avoiding bad lots—it&apos;s about building the confidence to identify exceptional value and make decisions that strengthen your business. Whether you&apos;re evaluating your first Ethiopian samples or refining an established QC program, the fundamentals remain the same: systematic inspection, proper measurement, and honest sensory evaluation.
+            Developing strong green coffee quality control skills isn&apos;t just about avoiding bad lots it&apos;s about building the confidence to identify exceptional value and make decisions that strengthen your business. Whether you&apos;re evaluating your first Ethiopian samples or refining an established QC program, the fundamentals remain the same: systematic inspection, proper measurement, and honest sensory evaluation.
           </p>
           <p className='my-4'>
-            Understanding quality control also deepens your appreciation for what happens at origin. The <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link>, <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing decisions</Link>, and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial logistics</Link> that bring Ethiopian coffee to your door all influence the quality you receive. The more you understand these connections, the better partner you become—for your suppliers and your customers.
+            Understanding quality control also deepens your appreciation for what happens at origin. The <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link>, <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing decisions</Link>, and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial logistics</Link> that bring Ethiopian coffee to your door all influence the quality you receive. The more you understand these connections, the better partner you become for your suppliers and your customers.
           </p>
           <p className='my-4'>
             Quality coffee is never an accident. It results from intentional decisions at every stage of the supply chain. By investing in your QC capabilities, you honor that effort and ensure the exceptional coffees of Ethiopia reach consumers as their producers intended.
