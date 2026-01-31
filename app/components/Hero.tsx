@@ -29,7 +29,7 @@ const Hero = () => {
             font-bold
             transition-all
             shadow-sm hover:shadow-md
-         ' aria-label="Check out our coffees">BUY GREEN COFFEE</Link>
+         ' aria-label="Check out our coffees">SEE OUR CURRENT LOTS</Link>
         </div>
 
         <div id="hero-image-wrapper" className='relative flex w-full justify-center lg:w-1/3'>
