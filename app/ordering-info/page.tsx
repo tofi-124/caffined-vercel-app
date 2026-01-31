@@ -232,7 +232,7 @@ const faqData: FAQSection[] = [
             </p>
             <ul className='list-disc pl-5 space-y-1'>
               <li><strong>FOB Djibouti:</strong> You arrange ocean freight</li>
-              <li><strong>CFR:</strong> We could arrange freight to your port</li>
+              <li><strong>CIF:</strong> We could arrange freight to your port</li>
             </ul>
           </>
         ),
