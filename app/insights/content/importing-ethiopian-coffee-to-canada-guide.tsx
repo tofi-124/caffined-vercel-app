@@ -17,7 +17,7 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Your practical roadmap to bringing premium Ethiopian green coffee into Canada regulations, paperwork, costs, and real-world advice
+        Your practical roadmap to bringing speciality Ethiopian green coffee into Canada regulations, paperwork, costs, and real-world advice
       </h2>
 
       <figure>
@@ -535,7 +535,7 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Canada?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> has successfully shipped hundreds of containers to Canadian roasters across Vancouver, Toronto, Montreal, and beyond. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji) with CFIA-compliant documentation, ECX quality reports, and the responsive communication Canadian buyers expect.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> is able to successfully ship hundreds of containers to Canadian roasters across Vancouver, Toronto, Montreal, and beyond. We provide speciality Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji) with CFIA-compliant documentation, ECX quality reports, and the responsive communication Canadian buyers expect.
         </p>
         <p className='my-2'>
           Whether it&apos;s your first import or you&apos;re looking for a more reliable Ethiopian partner, we make the process straightforward and transparent.

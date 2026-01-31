@@ -17,7 +17,7 @@ const Hero = () => {
 
             <div className='mt-6 text-primary lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
-                We're a dedicated Ethiopian coffee exporter, founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian. We serve importers worldwide with premium, traceable green coffee from our own estates and trusted partner producers. Professional export service, consistent quality, clear communication.
+                We're a dedicated Ethiopian coffee exporter, founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian. We serve importers worldwide with speciality, traceable green coffee from our own estates and trusted partner producers. Professional export service, consistent quality, clear communication.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ const Hero = () => {
         <div id="hero-image-wrapper" className='relative flex w-full justify-center lg:w-1/3'>
           <ResponsiveImage 
             src='/images/coffee-pack-1.webp' 
-            alt='Premium Ethiopian coffee packaging featuring specialty grade beans for wholesale partners' 
+            alt='Speciality Ethiopian coffee packaging featuring specialty grade beans for wholesale partners' 
             width={900}
             height={600}
             className='w-full max-w-[400px]'

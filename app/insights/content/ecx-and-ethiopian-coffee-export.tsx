@@ -109,7 +109,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
             <div className='bg-white p-4 rounded border border-amber-300'>
               <h5 className='font-bold text-lg'>Grade 1 (G1) - Specialty</h5>
               <p className='text-gray-600 mt-1'><span className='font-bold'>0-3 defects</span> per 300g sample</p>
-              <p className='mt-2'>The highest quality Ethiopian coffee. Clean cup, no defects, vibrant flavor. Typically scores 85+ on SCA cupping protocol. Premium pricing.</p>
+              <p className='mt-2'>The highest quality Ethiopian coffee. Clean cup, no defects, vibrant flavor. Typically scores 85+ on SCA cupping protocol. Speciality pricing.</p>
             </div>
 
             <div className='bg-white p-4 rounded border border-amber-300'>
@@ -322,7 +322,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Coffee from an ECX-Registered Exporter?</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we&apos;re ECX-registered and licensed to export premium Ethiopian green coffee to importers worldwide. From Grade 1 Yirgacheffe to natural processed Sidamo, we offer full traceability, professional export documentation, quality reports, and the responsive communication international buyers need.
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we&apos;re ECX-registered and licensed to export Ethiopian green coffee to importers worldwide. From Grade 1 Yirgacheffe to natural processed Sidamo, we offer full traceability, professional export documentation, quality reports, and the responsive communication international buyers need.
         </p>
         <p className='my-2'>
           Whether you&apos;re sourcing for the first time or looking for a more reliable Ethiopian supplier, we understand the ECX system inside and out and we make the export process transparent and hassle-free.

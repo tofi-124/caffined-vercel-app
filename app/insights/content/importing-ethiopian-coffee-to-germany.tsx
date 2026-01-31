@@ -17,7 +17,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Your complete guide to importing premium Ethiopian green coffee into Germany and the European Union EU customs procedures, BVL compliance, Hamburg port logistics, coffee tax (Kaffeesteuer), and market strategies for Europe&apos;s largest coffee importing nation
+        Your complete guide to importing speciality Ethiopian green coffee into Germany and the European Union EU customs procedures, BVL compliance, Hamburg port logistics, coffee tax (Kaffeesteuer), and market strategies for Europe&apos;s largest coffee importing nation
       </h2>
 
       <figure>
@@ -509,7 +509,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>Strategy 3: Organic/Certified Premium Positioning</h4>
+          <h4 className='font-bold text-lg mb-2'>Strategy 3: Organic/Certified Speciality Positioning</h4>
           <p className='text-sm'><span className='font-bold'>Target:</span> German organic/sustainable market segment</p>
           <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Import organic-certified Ethiopian coffee (EU organic regulation 2018/848 compliant). German consumers pay significant premiums for certified organic coffee (€30-50/kg retail vs €15-25 for conventional). Certifications valued: EU Organic, Rainforest Alliance, Fair Trade, Demeter. Ethiopia&apos;s predominantly smallholder, shade-grown production aligns with German sustainability expectations.</p>
         </div>
@@ -623,7 +623,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Germany?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> has been successfully supplying German and European roasters with premium Ethiopian specialty coffee for years. We understand EU regulatory requirements, German quality expectations, and the critical importance of proper documentation (Form A, OTA testing, traceability). We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete EU compliance, consistent quality, and the professional reliability German business culture demands.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> is able to successfully supply German and European roasters with speciality Ethiopian specialty coffee for years. We understand EU regulatory requirements, German quality expectations, and the critical importance of proper documentation (Form A, OTA testing, traceability). We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete EU compliance, consistent quality, and the professional reliability German business culture demands.
         </p>
         <p className='my-2'>
           Whether you&apos;re establishing a specialty roastery in Berlin, building an EU-wide distribution business from Hamburg, or supplying German cafe chains with signature single-origin coffee, we deliver the quality, safety certification, and consistent supply you need to succeed in Europe&apos;s most important coffee market.

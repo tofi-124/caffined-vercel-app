@@ -471,7 +471,7 @@ export default function OrderingInfoPage() {
           </div>
           <div className='lg:w-1/2 py-2 lg:py-24 lg:px-12 lg:border-l-2 border-black'>
             <p className='my-2'>
-              Everything you need to know about sourcing premium Ethiopian green coffee from us. Whether you're an established importer or exploring Ethiopian origins for the first time, we're here to make the export process straightforward and transparent.
+              Everything you need to know about sourcing speciality Ethiopian green coffee from us. Whether you're an established importer or exploring Ethiopian origins for the first time, we're here to make the export process straightforward and transparent.
             </p>
             <p className='my-4'>
               Simply visit our{' '}

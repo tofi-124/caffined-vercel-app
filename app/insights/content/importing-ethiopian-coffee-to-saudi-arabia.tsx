@@ -17,7 +17,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Complete guide to importing premium Ethiopian green coffee into Saudi Arabia SFDA requirements, customs procedures, shipping logistics, and market opportunities in the Kingdom's booming coffee sector
+        Complete guide to importing speciality Ethiopian green coffee into Saudi Arabia SFDA requirements, customs procedures, shipping logistics, and market opportunities in the Kingdom's booming coffee sector
       </h2>
 
       <figure>
@@ -47,7 +47,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       </div>
       
       <p className='my-4'>
-        Saudi Arabia&apos;s coffee culture has transformed dramatically over the past decade. What was once a nation primarily associated with traditional Arabic coffee (qahwa) has become one of the Middle East&apos;s most dynamic specialty coffee markets. Riyadh, Jeddah, and Dammam now host hundreds of third-wave cafes, and Saudi consumers particularly the country&apos;s young, affluent population are seeking premium single-origin coffees with transparent sourcing and distinctive flavor profiles.
+        Saudi Arabia&apos;s coffee culture has transformed dramatically over the past decade. What was once a nation primarily associated with traditional Arabic coffee (qahwa) has become one of the Middle East&apos;s most dynamic specialty coffee markets. Riyadh, Jeddah, and Dammam now host hundreds of third-wave cafes, and Saudi consumers particularly the country&apos;s young, affluent population are seeking speciality single-origin coffees with transparent sourcing and distinctive flavor profiles.
       </p>
 
       <p className='my-4'>
@@ -606,7 +606,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Saudi Arabia?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> has successfully shipped to Saudi importers in Riyadh, Jeddah, and Dammam for years. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with SFDA-compliant documentation, fast Red Sea shipping, and the responsive, reliable service Saudi businesses expect.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> is able to successfully supply Saudi importers in Riyadh, Jeddah, and Dammam for years. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with SFDA-compliant documentation, fast Red Sea shipping, and the responsive, reliable service Saudi businesses expect.
         </p>
         <p className='my-2'>
           Whether you&apos;re launching your first Saudi roastery, expanding an existing cafe chain, or building an import/distribution business for the GCC, we make Ethiopian coffee import straightforward and profitable.

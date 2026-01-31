@@ -17,7 +17,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Your complete roadmap to importing premium Ethiopian green coffee into the UAE Dubai Customs procedures, ESMA requirements, free zone advantages, and market opportunities in the region's specialty coffee hub
+        Your complete roadmap to importing speciality Ethiopian green coffee into the UAE Dubai Customs procedures, ESMA requirements, free zone advantages, and market opportunities in the region's specialty coffee hub
       </h2>
 
       <figure>
@@ -517,7 +517,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'>Strategy 1: Direct UAE Market Sales (Mainland Company)</h4>
           <p className='text-sm'><span className='font-bold'>Target:</span> Dubai/Abu Dhabi specialty cafes, hotel F&B departments, roasters</p>
-          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Set up mainland company with import/distribution license. Focus on single-origin Ethiopian coffees for premium positioning. Leverage Ethiopian diaspora community for cultural authenticity. Price: Premium tier (AED 80-120/kg wholesale).</p>
+          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Set up mainland company with import/distribution license. Focus on single-origin Ethiopian coffees for premium positioning. Leverage Ethiopian diaspora community for cultural authenticity. Price: Premium (AED 80-120/kg wholesale).</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
@@ -634,7 +634,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to the UAE?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> has been successfully supplying UAE importers, DMCC traders, and Dubai roasters for years. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with UAE-compliant documentation, fast Red Sea shipping to Jebel Ali, and the professional service Dubai's sophisticated coffee market demands.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> is able to successfully supply UAE importers, DMCC traders, and Dubai roasters for years. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with UAE-compliant documentation, fast Red Sea shipping to Jebel Ali, and the professional service Dubai's sophisticated coffee market demands.
         </p>
         <p className='my-2'>
           Whether you&apos;re establishing a DMCC free zone operation, launching a Dubai cafe chain, or building a regional coffee distribution business, we deliver the quality, consistency, and reliability you need to succeed in the UAE market.

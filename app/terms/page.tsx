@@ -293,7 +293,7 @@ export default function TermsPage() {
 
           {/* Call to Action */}
           <div className='mt-12 text-center'>
-            <p className='text-gray-700 mb-6'>Ready to source premium Ethiopian green coffee?</p>
+            <p className='text-gray-700 mb-6'>Ready to source speciality Ethiopian green coffee?</p>
             <div className='flex flex-wrap justify-center gap-4'>
               <Link
                 href='/offerings'

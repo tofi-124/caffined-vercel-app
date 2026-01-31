@@ -1,6 +1,6 @@
-# ☕ Ethio Coffee - Premium Ethiopian Coffee Experience
+# ☕ Ethio Coffee - Speciality Ethiopian Coffee Experience
 
-A modern, responsive coffee shop website built with Next.js, showcasing premium Ethiopian coffee products and providing an exceptional user experience.
+A modern, responsive coffee shop website built with Next.js, showcasing speciality Ethiopian coffee products and providing an exceptional user experience.
 
 ## 🌟 Features
 

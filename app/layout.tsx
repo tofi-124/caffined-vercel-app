@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://ethiocoffee.et',
     title: 'Ethio Coffee - Ethiopian Coffee Exporter for Importers Worldwide',
-    description: 'Premium Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
+    description: 'Speciality Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
     siteName: 'Ethio Coffee',
     images: [
       {
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ethio Coffee - Ethiopian Coffee Exporter for Importers Worldwide',
-    description: 'Premium Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
+    description: 'Speciality Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
     images: ['/images/coffee-pack-1.webp'],
     creator: '@ethiocoffee',
   },
@@ -68,7 +68,7 @@ export default function RootLayout({
               "legalName": "Ethio Coffee Export PLC",
               "url": "https://ethiocoffee.et",
               "logo": "https://ethiocoffee.et/images/new-logo.png",
-              "description": "Ethiopian coffee exporter serving importers worldwide with premium, traceable green coffee.",
+              "description": "Ethiopian coffee exporter serving importers worldwide with speciality, traceable green coffee.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Yesak Building, 3rd Floor, Office 301, Lideta",

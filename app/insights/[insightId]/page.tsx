@@ -61,7 +61,7 @@ const Insight = ({params}: Props) => {
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            Premium Ethiopian green coffee for importers worldwide
+            Speciality Ethiopian green coffee for importers worldwide
           </h2>
 
           <figure>
@@ -94,7 +94,7 @@ const Insight = ({params}: Props) => {
           </div>
           
           <p className='my-4'>
-            We&apos;re proud to announce the official launch of <span className='font-bold'>Ethio Coffee Export PLC</span> - your trusted Ethiopian coffee export partner. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we bring premium Ethiopian green coffee to importers worldwide with the professionalism, traceability, and reliability you need.
+            We&apos;re proud to announce the official launch of <span className='font-bold'>Ethio Coffee Export PLC</span> - your trusted Ethiopian coffee export partner. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we bring speciality Ethiopian green coffee to importers worldwide with the professionalism, traceability, and reliability you need.
           </p>
 
           <p className='my-4'>
@@ -104,7 +104,7 @@ const Insight = ({params}: Props) => {
           <div className='bg-dark text-primary p-6 rounded-lg my-6'>
             <p className='font-medium flex items-center gap-2'>
               <HiOutlineCalendarDays className='text-xl flex-shrink-0' />
-              <span><span className='font-bold'>2025 harvest is sold out.</span> Check out our <Link href='/offerings' className='underline'>offerings</Link> and join the 2026 allocation list to reserve your next premium green coffee directly from Ethiopia.</span>
+              <span><span className='font-bold'>2025 harvest is sold out.</span> Check out our <Link href='/offerings' className='underline'>offerings</Link> and join the 2026 allocation list to reserve your next speciality green coffee directly from Ethiopia.</span>
             </p>
           </div>
 
@@ -223,7 +223,7 @@ const Insight = ({params}: Props) => {
           </p>
 
           <p className='my-4'>
-            We pay premium prices to our farming partners, maintain long-term relationships that provide stability, and ensure that the communities growing this exceptional coffee share in the value it creates. It&apos;s the approach our father built over three decades, and it&apos;s how we continue to operate today.
+            We pay speciality prices to our farming partners, maintain long-term relationships that provide stability, and ensure that the communities growing this exceptional coffee share in the value it creates. It&apos;s the approach our father built over three decades, and it&apos;s how we continue to operate today.
           </p>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -249,7 +249,7 @@ const Insight = ({params}: Props) => {
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Export PLC is an Ethiopian coffee exporter connecting premium, traceable origin coffee with importers worldwide.
+              <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Export PLC is an Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/about' className='underline'>Our Story</Link> · <Link href='/offerings' className='underline'>Offerings</Link> · <Link href='/ordering-info' className='underline'>Ordering Info</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
@@ -575,7 +575,7 @@ const Insight = ({params}: Props) => {
 
           <ul className='font-inconsolata my-4 list-disc ml-5'>
             <li className='my-2'>
-              Paying premium prices that reflect the quality of their beans
+              Paying speciality prices that reflect the quality of their beans
             </li>
             <li className='my-2'>
               Offering long-term contracts that provide financial stability
@@ -626,7 +626,7 @@ const Insight = ({params}: Props) => {
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <p className='my-2 font-medium'>
-              Are you a roaster or coffee buyer looking to source ethical, premium Ethiopian coffee?<br/>
+              Are you a roaster or coffee buyer looking to source ethical, speciality Ethiopian coffee?<br/>
               Connect with Ethiocoffee to learn more about our direct trade partnerships and how you can support Ethiopian farmers while growing your business.
             </p>
           </div>
@@ -730,7 +730,7 @@ const Insight = ({params}: Props) => {
           </h3>
           <p className='my-4'>
             With the cost of living and doing business rising globally, coffee lovers are buying less-but they are buying better.
-            They are willing to pay a premium, but only if the product moves them emotionally. They are looking for the soul of the bean.
+            They are willing to pay a speciality, but only if the product moves them emotionally. They are looking for the soul of the bean.
           </p>
           <p className='my-4'>
             <span className='font-bold'>Our shared narrative:</span> This is where Ethiopia stands alone.
@@ -971,14 +971,14 @@ const Insight = ({params}: Props) => {
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <ul className='font-inconsolata list-none'>
-              <li className='my-3'><span className='font-bold'>Grade 1 (G1):</span> Specialty grade with 0-3 defects per 300g. Best for single-origin offerings and premium roasts.</li>
+              <li className='my-3'><span className='font-bold'>Grade 1 (G1):</span> Specialty grade with 0-3 defects per 300g. Best for single-origin offerings and speciality roasts.</li>
               <li className='my-3'><span className='font-bold'>Grade 2 (G2):</span> 4-12 defects per 300g. Good quality for blends and slightly lower-priced specialty offerings.</li>
               <li className='my-3'><span className='font-bold'>Grade 3 (G3):</span> 13-25 defects per 300g. Commercial grade suitable for blends, institutional buyers, and price-sensitive markets.</li>
               <li className='my-3'><span className='font-bold'>Grade 4 (G4):</span> 26-45 defects per 300g. Commercial grade ideal for large-volume buyers, instant coffee production, and budget blends.</li>
             </ul>
           </div>
           <p className='my-4'>
-            At Ethio Coffee, we export all grades (G1-G4) to meet diverse buyer needs from specialty roasters seeking premium G1 single-origins to commercial buyers requiring volume G3/G4 for blends.
+            At Ethio Coffee, we export all grades (G1-G4) to meet diverse buyer needs from specialty roasters seeking speciality G1 single-origins to commercial buyers requiring volume G3/G4 for blends.
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
@@ -1272,7 +1272,7 @@ const Insight = ({params}: Props) => {
           <ul className='font-inconsolata my-4 list-disc ml-5'>
             <li className='my-2'><span className='font-bold'>Core offering:</span> Washed Yirgacheffe (the accessible classic)</li>
             <li className='my-2'><span className='font-bold'>Seasonal rotation:</span> Natural Sidamo (for fruit lovers)</li>
-            <li className='my-2'><span className='font-bold'>Premium single-origin espresso:</span> Guji (for the adventurous)</li>
+            <li className='my-2'><span className='font-bold'>Speciality single-origin espresso:</span> Guji (for the adventurous)</li>
           </ul>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -1491,7 +1491,7 @@ const Insight = ({params}: Props) => {
 
           <figure>
             <figcaption className='font-inconsolata my-2'>
-              Premium Ethiopian green coffee from Yirgacheffe, Sidamo, Guji, and beyond - sourced direct and shipped worldwide.
+              Speciality Ethiopian green coffee from Yirgacheffe, Sidamo, Guji, and beyond - sourced direct and shipped worldwide.
             </figcaption>
 
             <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -1545,7 +1545,7 @@ const Insight = ({params}: Props) => {
           </p>
 
           <h3 className='text-2xl font-extrabold mt-8'>
-            What We Export: Premium Ethiopian Green Coffee
+            What We Export: Speciality Ethiopian Green Coffee
           </h3>
           <p className='my-4'>
             As one of the leading <span className='font-bold'>coffee suppliers in Ethiopia</span>, we export specialty and
@@ -1623,7 +1623,7 @@ const Insight = ({params}: Props) => {
           </p>
 
           <div className='bg-dark text-primary p-6 rounded-lg my-8'>
-            <h4 className='font-bold text-xl mb-3'>Ready to Source Premium Ethiopian Green Coffee?</h4>
+            <h4 className='font-bold text-xl mb-3'>Ready to Source Speciality Ethiopian Green Coffee?</h4>
             <p className='my-2 font-medium'>
               Whether you're searching for an <span className='font-bold'>Ethiopian coffee exporter</span>, a reliable
               <span className='font-bold'> Ethiopian coffee supplier</span>, or a trusted <span className='font-bold'>ethio coffee</span> partner,
@@ -2214,7 +2214,7 @@ const Insight = ({params}: Props) => {
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Ethio Coffee</h4>
             <p className='my-2'>
-              We export premium Ethiopian green coffee from the birthplace of Arabica - with full traceability, 
+              We export speciality Ethiopian green coffee from the birthplace of Arabica - with full traceability, 
               direct farmer relationships, and the genetic diversity that makes Ethiopian coffee unique.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
@@ -2504,7 +2504,7 @@ const Insight = ({params}: Props) => {
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <p className='my-2 font-medium'>
-              Ready to source premium Ethiopian coffee? Contact us to learn about our direct trade partnerships and how we support sustainable agriculture.
+              Ready to source speciality Ethiopian coffee? Contact us to learn about our direct trade partnerships and how we support sustainable agriculture.
             </p>
             <div className='flex gap-4 mt-4'>
               <Link href='/contact-us' className='underline font-bold'>
@@ -2894,7 +2894,7 @@ const Insight = ({params}: Props) => {
             <Link href='/insights/guide-ethiopian-coffee-origins' className='underline'> Yirgacheffe or Guji</Link>, 
             you&apos;re not just buying beans - you&apos;re buying a story: the specific washing station, the 
             processing method, the altitude, the harvest date. This information enables roasters to communicate 
-            value to their customers and justify premium pricing. It also creates accountability that benefits 
+            value to their customers and justify speciality pricing. It also creates accountability that benefits 
             farmers - when quality commands premiums, there&apos;s incentive to invest in better 
             <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'> agricultural practices</Link> and 
             <Link href='/insights/coffee-is-processing-drying-milling' className='underline'> processing infrastructure</Link>.
@@ -3012,7 +3012,7 @@ const Insight = ({params}: Props) => {
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <p className='my-2 font-medium'>
-              Ready to explore premium Ethiopian coffee through transparent commerce? Contact us to discover our direct trade partnerships and commitment to fair pricing.
+              Ready to explore speciality Ethiopian coffee through transparent commerce? Contact us to discover our direct trade partnerships and commitment to fair pricing.
             </p>
             <div className='flex gap-4 mt-4'>
               <Link href='/contact-us' className='underline font-bold'>
@@ -3942,7 +3942,7 @@ const Insight = ({params}: Props) => {
               <li className='my-2'><span className='font-bold'>Volume:</span> Slightly above average (+5-8% vs. 2024)</li>
               <li className='my-2'><span className='font-bold'>Quality:</span> Excellent potential for G1 washed lots</li>
               <li className='my-2'><span className='font-bold'>Expected Profile:</span> Pronounced jasmine, bergamot, lemon zest</li>
-              <li className='my-2'><span className='font-bold'>Price Trend:</span> Premium pricing expected due to global demand</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Speciality pricing expected due to global demand</li>
               <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Secure washed G1 early; competition is intense</li>
             </ul>
           </div>
@@ -3957,7 +3957,7 @@ const Insight = ({params}: Props) => {
               <li className='my-2'><span className='font-bold'>Volume:</span> Average to slightly above</li>
               <li className='my-2'><span className='font-bold'>Quality:</span> Naturals showing exceptional fruit clarity</li>
               <li className='my-2'><span className='font-bold'>Expected Profile:</span> Blueberry, strawberry, wine notes in naturals</li>
-              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; naturals commanding premium</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; naturals commanding speciality</li>
               <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Great value in G2 naturals for blend enhancement</li>
             </ul>
           </div>
@@ -3972,7 +3972,7 @@ const Insight = ({params}: Props) => {
               <li className='my-2'><span className='font-bold'>Volume:</span> Strong production year</li>
               <li className='my-2'><span className='font-bold'>Quality:</span> Competition-grade lots available</li>
               <li className='my-2'><span className='font-bold'>Expected Profile:</span> Peach, apricot, jasmine, syrupy body</li>
-              <li className='my-2'><span className='font-bold'>Price Trend:</span> Premium prices; high demand from specialty buyers</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Speciality prices; high demand from specialty buyers</li>
               <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Excellent for single-origin espresso programs</li>
             </ul>
           </div>
@@ -3987,7 +3987,7 @@ const Insight = ({params}: Props) => {
               <li className='my-2'><span className='font-bold'>Volume:</span> Slightly below average due to weather</li>
               <li className='my-2'><span className='font-bold'>Quality:</span> Variable; careful lot selection essential</li>
               <li className='my-2'><span className='font-bold'>Expected Profile:</span> Dried fruit, cocoa, wine, spice</li>
-              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; premium for verified quality</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; speciality for verified quality</li>
               <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Request samples; lot variation is significant</li>
             </ul>
           </div>
@@ -4007,7 +4007,7 @@ const Insight = ({params}: Props) => {
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Processing Infrastructure Improvements</h3>
           <p className='my-4'>
-            Ethiopian washing stations continue to invest in <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing infrastructure</Link>. New fermentation tanks, improved raised drying beds, and better water management systems are raising the floor on quality. This is particularly evident in Guji and parts of Sidamo, where private washing stations are competing intensely for cherry supply by offering farmers premium prices for ripe, well-sorted cherry.
+            Ethiopian washing stations continue to invest in <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing infrastructure</Link>. New fermentation tanks, improved raised drying beds, and better water management systems are raising the floor on quality. This is particularly evident in Guji and parts of Sidamo, where private washing stations are competing intensely for cherry supply by offering farmers speciality prices for ripe, well-sorted cherry.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Grading and Defect Expectations</h3>
@@ -4016,7 +4016,7 @@ const Insight = ({params}: Props) => {
           </p>
           <ul className='font-inconsolata my-4 list-disc ml-5'>
             <li className='my-2'><span className='font-bold'>G1 Washed:</span> Excellent availability; clean cups with pronounced terroir</li>
-            <li className='my-2'><span className='font-bold'>G1 Natural:</span> Strong lots from premium stations; some variation</li>
+            <li className='my-2'><span className='font-bold'>G1 Natural:</span> Strong lots from speciality stations; some variation</li>
             <li className='my-2'><span className='font-bold'>G2 Washed:</span> Good value tier; slight increase in minor defects</li>
             <li className='my-2'><span className='font-bold'>G2 Natural:</span> Abundant; excellent for blends and price-sensitive buyers</li>
             <li className='my-2'><span className='font-bold'>G3/G4:</span> Commercial grades available for volume buyers</li>
@@ -4368,8 +4368,8 @@ const Insight = ({params}: Props) => {
                 <tr className='bg-gray-50'>
                   <td className='border border-gray-300 p-3 font-bold'>Grade 2</td>
                   <td className='border border-gray-300 p-3'>4-12 defects</td>
-                  <td className='border border-gray-300 p-3'>Specialty/Premium</td>
-                  <td className='border border-gray-300 p-3'>Quality single-origin, premium blends</td>
+                  <td className='border border-gray-300 p-3'>Specialty/Speciality</td>
+                  <td className='border border-gray-300 p-3'>Quality single-origin, speciality blends</td>
                 </tr>
                 <tr>
                   <td className='border border-gray-300 p-3 font-bold'>Grade 3</td>
@@ -4452,7 +4452,7 @@ const Insight = ({params}: Props) => {
                   <td className='border border-gray-300 p-3 font-bold'>Screen 18+</td>
                   <td className='border border-gray-300 p-3'>7.14mm+</td>
                   <td className='border border-gray-300 p-3'>Large</td>
-                  <td className='border border-gray-300 p-3'>Premium, commands higher price</td>
+                  <td className='border border-gray-300 p-3'>Speciality, commands higher price</td>
                 </tr>
                 <tr className='bg-gray-50'>
                   <td className='border border-gray-300 p-3 font-bold'>Screen 16-17</td>

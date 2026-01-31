@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   keywords: 'Ethiopian coffee exporter, about Ethio Coffee, Ethiopian green coffee supplier, direct trade coffee Ethiopia, family coffee business Ethiopia, ethical coffee sourcing',
   openGraph: {
     title: 'About Ethio Coffee | Ethiopian Coffee Exporter for Importers',
-    description: 'A family-built Ethiopian coffee export company founded by two brothers, connecting premium traceable coffee with importers worldwide.',
+    description: 'A family-built Ethiopian coffee export company founded by two brothers, connecting speciality traceable coffee with importers worldwide.',
     url: 'https://ethiocoffee.et/about',
   }
 }
