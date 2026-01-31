@@ -81,7 +81,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         Understanding Saudi Food Import Regulations
       </h3>
       <p className='my-4'>
-        Coffee imports into Saudi Arabia are regulated primarily by the <span className='font-bold'>Saudi Food and Drug Authority (SFDA)</span> and <span className='font-bold'>Saudi Customs (Zatca, formerly known as GAZT)</span>. Here&apos;s what you need to know:
+        Coffee imports into Saudi Arabia are regulated primarily by the <span className='font-bold'><a href='https://www.sfda.gov.sa/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Saudi Food and Drug Authority (SFDA)</a></span> and <span className='font-bold'><a href='https://zatca.gov.sa/en/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Saudi Customs (Zatca)</a></span> (formerly known as GAZT). Here&apos;s what you need to know:
       </p>
 
       <div className='space-y-6 my-8'>
@@ -596,10 +596,10 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>SFDA Portal:</span> sfda.gov.sa/en   Product registration, import licenses, guidelines</li>
-        <li><span className='font-bold'>SABER Platform:</span> saber.sa   Conformity assessment and certificates</li>
-        <li><span className='font-bold'>Zatca (Saudi Customs):</span> zatca.gov.sa   Tariff finder, FASAH customs platform</li>
-        <li><span className='font-bold'>Saudi Ministry of Commerce:</span> mc.gov.sa   Business registration, commercial services</li>
+        <li><span className='font-bold'><a href='https://www.sfda.gov.sa/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>SFDA Portal</a>:</span> Product registration, import licenses, guidelines</li>
+        <li><span className='font-bold'><a href='https://saber.sa/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>SABER Platform</a>:</span> Conformity assessment and certificates</li>
+        <li><span className='font-bold'><a href='https://zatca.gov.sa/en/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Zatca (Saudi Customs)</a>:</span> Tariff finder, FASAH customs platform</li>
+        <li><span className='font-bold'><a href='https://mc.gov.sa/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Saudi Ministry of Commerce</a>:</span> Business registration, commercial services</li>
         <li><span className='font-bold'>Saudi Specialty Coffee Association:</span> Industry networking and market insights</li>
       </ul>
 

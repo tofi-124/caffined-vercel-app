@@ -98,9 +98,9 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
         <h4 className='font-bold text-lg mb-2'>Key US Agencies Involved</h4>
         <ul className='text-sm space-y-2 list-disc ml-5'>
-          <li><span className='font-bold'>US Customs and Border Protection (CBP):</span> Handles customs clearance, duties, and tariffs</li>
-          <li><span className='font-bold'>USDA APHIS (Animal and Plant Health Inspection Service):</span> Inspects for plant pests and diseases</li>
-          <li><span className='font-bold'>FDA (Food and Drug Administration):</span> Oversees food safety regulations (minimal for green coffee)</li>
+          <li><span className='font-bold'><a href='https://www.cbp.gov/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>US Customs and Border Protection (CBP)</a>:</span> Handles customs clearance, duties, and tariffs</li>
+          <li><span className='font-bold'><a href='https://www.aphis.usda.gov/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>USDA APHIS (Animal and Plant Health Inspection Service)</a>:</span> Inspects for plant pests and diseases</li>
+          <li><span className='font-bold'><a href='https://www.fda.gov/food' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>FDA (Food and Drug Administration)</a>:</span> Oversees food safety regulations (minimal for green coffee)</li>
         </ul>
       </div>
 
@@ -446,6 +446,18 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       <p className='my-4'>
         If you&apos;re a smaller roaster (under 500 lbs/month), consider buying from US-based importers initially, then graduate to direct imports as your volume grows.
       </p>
+
+      <h3 className='text-2xl font-extrabold mt-8'>
+        Key Resources for US Coffee Importers
+      </h3>
+      
+      <ul className='my-4 list-disc ml-5 space-y-2'>
+        <li><span className='font-bold'><a href='https://www.fda.gov/food' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>FDA Food Safety</a>:</span> Food import regulations and guidance</li>
+        <li><span className='font-bold'><a href='https://www.aphis.usda.gov/aphis/ourfocus/planthealth' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>USDA APHIS</a>:</span> Plant health import requirements</li>
+        <li><span className='font-bold'><a href='https://www.cbp.gov/trade/basic-import-export' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>CBP Import Information</a>:</span> Customs procedures, AGOA benefits, HTS code lookup</li>
+        <li><span className='font-bold'><a href='https://hts.usitc.gov/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>US Harmonized Tariff Schedule</a>:</span> Search HTS code 0901.11 for coffee duty rates</li>
+        <li><span className='font-bold'><a href='https://agoa.info/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>AGOA Information</a>:</span> African Growth and Opportunity Act duty-free benefits</li>
+      </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to the United States?</h4>

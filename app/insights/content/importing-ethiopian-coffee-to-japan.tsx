@@ -82,7 +82,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         Understanding Japanese Coffee Import Regulations
       </h3>
       <p className='my-4'>
-        Coffee imports into Japan are regulated by the <span className='font-bold'>Ministry of Health, Labour and Welfare (MHLW)</span> for food safety and <span className='font-bold'>Japan Customs</span> for trade compliance. Japan&apos;s regulatory framework is strict but transparent:
+        Coffee imports into Japan are regulated by the <span className='font-bold'><a href='https://www.mhlw.go.jp/english/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Ministry of Health, Labour and Welfare (MHLW)</a></span> for food safety and <span className='font-bold'><a href='https://www.customs.go.jp/english/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Japan Customs</a></span> for trade compliance. Japan&apos;s regulatory framework is strict but transparent:
       </p>
 
       <div className='space-y-6 my-8'>
@@ -595,12 +595,12 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       </h3>
       
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>MHLW (Ministry of Health, Labour and Welfare):</span> mhlw.go.jp/english   Food safety regulations, import procedures</li>
-        <li><span className='font-bold'>FAINS System:</span> fains.mhlw.go.jp   Import notification filing (requires broker or registration)</li>
-        <li><span className='font-bold'>Japan Customs:</span> customs.go.jp/english   Tariff information, NACCS system, procedures</li>
-        <li><span className='font-bold'>JETRO (Japan External Trade Organization):</span> jetro.go.jp/en   Trade promotion, import guidance, market information</li>
-        <li><span className='font-bold'>SCAJ (Specialty Coffee Association of Japan):</span> scaj.org   Industry organization, networking, market trends</li>
-        <li><span className='font-bold'>National Tax Agency:</span> nta.go.jp/english   Consumption tax registration and filing</li>
+        <li><span className='font-bold'><a href='https://www.mhlw.go.jp/english/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>MHLW (Ministry of Health, Labour and Welfare)</a>:</span> Food safety regulations, import procedures</li>
+        <li><span className='font-bold'><a href='https://www.fains.mhlw.go.jp/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>FAINS System</a>:</span> Import notification filing (requires broker or registration)</li>
+        <li><span className='font-bold'><a href='https://www.customs.go.jp/english/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Japan Customs</a>:</span> Tariff information, NACCS system, procedures</li>
+        <li><span className='font-bold'><a href='https://www.jetro.go.jp/en/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>JETRO (Japan External Trade Organization)</a>:</span> Trade promotion, import guidance, market information</li>
+        <li><span className='font-bold'><a href='https://scaj.org/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>SCAJ (Specialty Coffee Association of Japan)</a>:</span> Industry organization, networking, market trends</li>
+        <li><span className='font-bold'><a href='https://www.nta.go.jp/english/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>National Tax Agency</a>:</span> Consumption tax registration and filing</li>
       </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>

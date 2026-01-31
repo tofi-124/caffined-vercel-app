@@ -84,7 +84,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         Understanding EU & German Import Regulations
       </h3>
       <p className='my-4'>
-        Coffee imports into Germany are governed by EU-wide regulations (European Commission) and enforced by German federal authorities. The regulatory framework emphasizes <span className='font-bold'>food safety</span>, <span className='font-bold'>traceability</span>, and <span className='font-bold'>contaminant control</span>:
+        Coffee imports into Germany are governed by EU-wide regulations (<a href='https://food.ec.europa.eu/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>European Commission</a>) and enforced by German federal authorities. The regulatory framework emphasizes <span className='font-bold'>food safety</span>, <span className='font-bold'>traceability</span>, and <span className='font-bold'>contaminant control</span>:
       </p>
 
       <div className='space-y-6 my-8'>
@@ -112,8 +112,8 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
           </h4>
           <p className='text-sm mb-3'>German agencies enforce EU regulations:</p>
           <ul className='text-sm space-y-2 list-disc ml-5'>
-            <li><span className='font-bold'>BVL (Bundesamt für Verbraucherschutz):</span> Federal Office of Consumer Protection and Food Safety oversees food import compliance, coordinates with EU RASFF (Rapid Alert System for Food and Feed)</li>
-            <li><span className='font-bold'>German Customs (Zoll):</span> Manages customs clearance, collects Kaffeesteuer (coffee tax), enforces trade regulations</li>
+            <li><span className='font-bold'><a href='https://www.bvl.bund.de/EN' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>BVL (Bundesamt für Verbraucherschutz)</a>:</span> Federal Office of Consumer Protection and Food Safety oversees food import compliance, coordinates with EU RASFF (Rapid Alert System for Food and Feed)</li>
+            <li><span className='font-bold'><a href='https://www.zoll.de/EN' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>German Customs (Zoll)</a>:</span> Manages customs clearance, collects Kaffeesteuer (coffee tax), enforces trade regulations</li>
             <li><span className='font-bold'>EORI Number Required:</span> Economic Operators Registration and Identification number needed to import into EU</li>
             <li><span className='font-bold'>HS Code Classification:</span> Green coffee: 0901.11 (not decaffeinated) or 0901.12 (decaffeinated)</li>
             <li><span className='font-bold'>Veterinary Border Inspection (if applicable):</span> Not required for coffee, but organic-certified coffee may need additional documentation</li>
@@ -610,14 +610,14 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
       </h3>
       
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>BVL (Federal Office of Consumer Protection):</span> bvl.bund.de/EN   EU food safety regulations, import requirements</li>
-        <li><span className='font-bold'>German Customs (Zoll):</span> zoll.de/EN   EORI registration, Kaffeesteuer information, ATLAS system</li>
-        <li><span className='font-bold'>European Commission Food Safety:</span> ec.europa.eu/food   MRLs, contaminant limits, General Food Law</li>
-        <li><span className='font-bold'>RASFF (Rapid Alert System):</span> ec.europa.eu/food/safety/rasff   Track food safety alerts, border rejections</li>
-        <li><span className='font-bold'>Hamburg Port Authority:</span> hamburg-port-authority.de/en   Port logistics, bonded warehouse directory</li>
-        <li><span className='font-bold'>German Coffee Association:</span> kaffeeverband.de   Industry statistics, market information</li>
-        <li><span className='font-bold'>IHK Hamburg (Chamber of Commerce):</span> hk24.de/en   Business registration, import guidance for Hamburg</li>
-        <li><span className='font-bold'>TARIC (EU Customs Tariff Database):</span> ec.europa.eu/taxation_customs/dds2/taric   HS codes, duty rates, GSP+ information</li>
+        <li><span className='font-bold'><a href='https://www.bvl.bund.de/EN' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>BVL (Federal Office of Consumer Protection)</a>:</span> EU food safety regulations, import requirements</li>
+        <li><span className='font-bold'><a href='https://www.zoll.de/EN' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>German Customs (Zoll)</a>:</span> EORI registration, Kaffeesteuer information, ATLAS system</li>
+        <li><span className='font-bold'><a href='https://food.ec.europa.eu/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>European Commission Food Safety</a>:</span> MRLs, contaminant limits, General Food Law</li>
+        <li><span className='font-bold'><a href='https://ec.europa.eu/food/safety/rasff_en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>RASFF (Rapid Alert System)</a>:</span> Track food safety alerts, border rejections</li>
+        <li><span className='font-bold'><a href='https://www.hamburg-port-authority.de/en/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Hamburg Port Authority</a>:</span> Port logistics, bonded warehouse directory</li>
+        <li><span className='font-bold'><a href='https://www.kaffeeverband.de/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>German Coffee Association</a>:</span> Industry statistics, market information</li>
+        <li><span className='font-bold'><a href='https://www.hk24.de/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>IHK Hamburg (Chamber of Commerce)</a>:</span> Business registration, import guidance for Hamburg</li>
+        <li><span className='font-bold'><a href='https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>TARIC (EU Customs Tariff Database)</a>:</span> HS codes, duty rates, GSP+ information</li>
       </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>

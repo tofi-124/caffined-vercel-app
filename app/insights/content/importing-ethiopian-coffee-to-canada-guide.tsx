@@ -80,7 +80,7 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         Canadian Import Regulations: What You Need to Know
       </h3>
       <p className='my-4'>
-        Canada&apos;s coffee import regulations are managed primarily by two federal agencies: <span className='font-bold'>CFIA (Canadian Food Inspection Agency)</span> and <span className='font-bold'>CBSA (Canada Border Services Agency)</span>.
+        Canada&apos;s coffee import regulations are managed primarily by two federal agencies: <span className='font-bold'><a href='https://inspection.canada.ca/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>CFIA (Canadian Food Inspection Agency)</a></span> and <span className='font-bold'><a href='https://www.cbsa-asfc.gc.ca/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>CBSA (Canada Border Services Agency)</a></span>.
       </p>
 
       <div className='space-y-6 my-8'>
@@ -517,11 +517,19 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         Key Canadian government resources for coffee importers:
       </p>
 
+      <h3 className='text-2xl font-extrabold mt-8'>
+        Key Resources for Canadian Coffee Importers
+      </h3>
+      <p className='my-4'>
+        Key Canadian government resources for coffee importers:
+      </p>
+
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>CFIA Import Portal:</span> inspection.canada.ca   SFCR registration, import requirements</li>
-        <li><span className='font-bold'>CBSA Assessment & Revenue Management:</span> cbsa-asfc.gc.ca   tariff classification, duty rates</li>
-        <li><span className='font-bold'>Canadian Tariff Finder:</span> Search HS code 0901.11 for current duty rates</li>
-        <li><span className='font-bold'>ISED Business Registration:</span> Get your Business Number (BN) for importing</li>
+        <li><span className='font-bold'><a href='https://inspection.canada.ca/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>CFIA Import Portal</a>:</span> SFCR registration, import requirements</li>
+        <li><span className='font-bold'><a href='https://www.cbsa-asfc.gc.ca/trade-commerce/menu-eng.html' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>CBSA Assessment & Revenue Management</a>:</span> Tariff classification, duty rates</li>
+        <li><span className='font-bold'><a href='https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/menu-eng.html' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Canadian Tariff Finder</a>:</span> Search HS code 0901.11 for current duty rates</li>
+        <li><span className='font-bold'><a href='https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses.html' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>CRA GST/HST Information</a>:</span> Input Tax Credit recovery guidance</li>
+        <li><span className='font-bold'><a href='https://ised-isde.canada.ca/site/corporations-canada/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>ISED Business Registration</a>:</span> Get your Business Number (BN) for importing</li>
       </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>

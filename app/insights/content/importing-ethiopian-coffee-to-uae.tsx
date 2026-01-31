@@ -86,7 +86,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         UAE Coffee Import Regulations & Authorities
       </h3>
       <p className='my-4'>
-        Coffee imports into the UAE are regulated by <span className='font-bold'>Dubai Customs (and respective emirate customs)</span>, <span className='font-bold'>ESMA (Emirates Authority for Standardization and Metrology)</span>, and <span className='font-bold'>MOCCAE (Ministry of Climate Change and Environment)</span> for certain certificates. Here&apos;s the regulatory landscape:
+        Coffee imports into the UAE are regulated by <span className='font-bold'><a href='https://www.dubaicustoms.gov.ae/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Dubai Customs</a></span> (and respective emirate customs), <span className='font-bold'><a href='https://www.esma.gov.ae/en-us' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>ESMA (Emirates Authority for Standardization and Metrology)</a></span>, and <span className='font-bold'><a href='https://www.moccae.gov.ae/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>MOCCAE (Ministry of Climate Change and Environment)</a></span> for certain certificates. Here&apos;s the regulatory landscape:
       </p>
 
       <div className='space-y-6 my-8'>
@@ -622,13 +622,13 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
       </h3>
       
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Dubai Customs:</span> dubaicustoms.gov.ae   Tariff information, procedures, Dubai Trade portal</li>
-        <li><span className='font-bold'>Dubai Trade Portal:</span> dubaitrade.ae   Electronic customs declarations, license applications</li>
-        <li><span className='font-bold'>ESMA:</span> esma.gov.ae   Food safety standards, conformity assessment</li>
-        <li><span className='font-bold'>Federal Tax Authority (FTA):</span> tax.gov.ae   VAT registration, filing, guidance</li>
-        <li><span className='font-bold'>DMCC Coffee Centre:</span> dmcc.ae/business-sectors/coffee   Free zone setup, warehousing, trading facilities</li>
-        <li><span className='font-bold'>Dubai Economy (DED):</span> dubaided.gov.ae   Mainland business licensing</li>
-        <li><span className='font-bold'>UAE Ministry of Economy:</span> moec.gov.ae   Trade policies, import/export regulations</li>
+        <li><span className='font-bold'><a href='https://www.dubaicustoms.gov.ae/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Dubai Customs</a>:</span> Tariff information, procedures, Dubai Trade portal</li>
+        <li><span className='font-bold'><a href='https://www.dubaitrade.ae/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Dubai Trade Portal</a>:</span> Electronic customs declarations, license applications</li>
+        <li><span className='font-bold'><a href='https://www.esma.gov.ae/en-us' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>ESMA</a>:</span> Food safety standards, conformity assessment</li>
+        <li><span className='font-bold'><a href='https://tax.gov.ae/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Federal Tax Authority (FTA)</a>:</span> VAT registration, filing, guidance</li>
+        <li><span className='font-bold'><a href='https://www.dmcc.ae/business-sectors/coffee' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>DMCC Coffee Centre</a>:</span> Free zone setup, warehousing, trading facilities</li>
+        <li><span className='font-bold'><a href='https://www.dubaided.gov.ae/English' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Dubai Economy (DED)</a>:</span> Mainland business licensing</li>
+        <li><span className='font-bold'><a href='https://www.moec.gov.ae/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>UAE Ministry of Economy</a>:</span> Trade policies, import/export regulations</li>
       </ul>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
