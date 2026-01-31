@@ -232,9 +232,7 @@ const faqData: FAQSection[] = [
             </p>
             <ul className='list-disc pl-5 space-y-1'>
               <li><strong>FOB Djibouti:</strong> You arrange ocean freight</li>
-              <li><strong>CFR/CIF:</strong> We arrange freight to your port</li>
-              <li><strong>DAP:</strong> Door delivery, you clear customs</li>
-              <li><strong>DDP:</strong> Full door-to-door service, we handle everything including customs clearance</li>
+              <li><strong>CFR:</strong> We could arrange freight to your port</li>
             </ul>
           </>
         ),

@@ -28,7 +28,7 @@ const headlines = [
       'Fresh, high-quality inventory available year-round',
       'Strict sample-to-bag consistency through rigorous QC protocols',
       'Advanced moisture-safe packaging to preserve origin character',
-      'Flexible shipping terms: FOB Djibouti, CFR, CIF, or DAP to your port'
+      'Flexible shipping terms: FOB Djibouti Or CIF, which ever works best for you'
     ]
   }
 ]
