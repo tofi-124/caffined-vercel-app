@@ -630,6 +630,49 @@ export const posts: Post[] = [
         'specialty coffee importers guide',
         'coffee export quality control'
       ],
-      desc: 'Understanding the SCA Coffee Value Assessment (CVA)—the next-generation specialty coffee quality evaluation system that goes beyond the traditional 100-point score. Essential guide for Ethiopian coffee exporters, importers, and specialty coffee buyers on new grading standards, cupping protocols, and quality assessment methods.'
+      desc: 'Understanding the SCA Coffee Value Assessment (CVA) the next-generation specialty coffee quality evaluation system that goes beyond the traditional 100-point score. Essential guide for Ethiopian coffee exporters, importers, and specialty coffee buyers on new grading standards, cupping protocols, and quality assessment methods.'
+    },
+    {
+      small_image_url: 'coffee-education-guide.webp',
+      large_image_url: 'coffee-education-guide.webp',
+      date: 'Feb 01, 2026',
+      title: 'THE COMPLETE GUIDE TO UNDERSTANDING COFFEE: FROM SEED TO CUP',
+      slug: 'complete-guide-to-understanding-coffee',
+      category: 'Coffee Education / Complete Guide',
+      keywords: [
+        'learn about coffee',
+        'coffee education',
+        'coffee guide',
+        'understanding coffee',
+        'coffee basics',
+        'how coffee is made',
+        'coffee from seed to cup',
+        'specialty coffee guide',
+        'specialty coffee education',
+        'coffee origins Ethiopia',
+        'Ethiopian coffee history',
+        'Ethiopian coffee guide',
+        'coffee plant',
+        'Arabica vs Robusta',
+        'coffee processing methods',
+        'washed vs natural coffee',
+        'coffee roasting explained',
+        'coffee brewing guide',
+        'how to taste coffee',
+        'coffee cupping guide',
+        'coffee grading system',
+        'specialty coffee vs commercial',
+        'coffee supply chain',
+        'coffee terroir',
+        'coffee varieties',
+        'coffee growing regions',
+        'coffee belt',
+        'green coffee export',
+        'Ethiopian coffee export',
+        'coffee sustainability',
+        'future of coffee',
+        'coffee climate change'
+      ],
+      desc: 'The ultimate guide to understanding coffee from its Ethiopian origins to your cup. Learn about coffee species, varieties, growing regions, processing methods, grading, roasting, brewing, and sustainability. Essential reading for coffee lovers, buyers, roasters, and industry professionals.'
     }
 ]

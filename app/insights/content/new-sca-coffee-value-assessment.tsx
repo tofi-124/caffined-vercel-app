@@ -66,7 +66,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineSparkles className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Insight:</span> The CVA doesn't replace the traditional cupping form—it expands it. This is about adding dimensions to how we evaluate coffee, giving buyers, roasters, and producers a much richer language to describe what makes a coffee special.</span>
+          <span><span className='font-bold'>Key Insight:</span> The CVA doesn't replace the traditional cupping form it expands it. This is about adding dimensions to how we evaluate coffee, giving buyers, roasters, and producers a much richer language to describe what makes a coffee special.</span>
         </p>
       </div>
 
@@ -81,7 +81,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         <li><span className='font-bold'>Single-dimensional scoring:</span> A final score of 87.5 tells you the coffee is "very good," but it doesn't tell you <em>why</em> or what makes it unique</li>
         <li><span className='font-bold'>Loss of detail:</span> Reducing 10+ sensory attributes to one aggregate number obscures what makes each coffee distinctive</li>
         <li><span className='font-bold'>Limited descriptive vocabulary:</span> Traditional forms don't capture the full complexity of flavor profiles emerging from experimental processing methods</li>
-        <li><span className='font-bold'>Ignores context and story:</span> The traditional form doesn't account for traceability, sustainability practices, or producer relationships—all things buyers increasingly value</li>
+        <li><span className='font-bold'>Ignores context and story:</span> The traditional form doesn't account for traceability, sustainability practices, or producer relationships all things buyers increasingly value</li>
         <li><span className='font-bold'>Calibration challenges:</span> Even experienced Q Graders can score the same coffee differently, creating confusion in the supply chain</li>
       </ul>
 
@@ -126,7 +126,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
           </p>
           <div className='text-sm'>
             <p className='font-bold mb-1'>Key Innovation:</p>
-            <p>Uses the <span className='font-bold'>World Coffee Research Sensory Lexicon</span>—a scientifically validated vocabulary of 110+ flavor and aroma attributes. This gives evaluators a shared language that's far more precise than subjective descriptors.</p>
+            <p>Uses the <span className='font-bold'>World Coffee Research Sensory Lexicon</span> a scientifically validated vocabulary of 110+ flavor and aroma attributes. This gives evaluators a shared language that's far more precise than subjective descriptors.</p>
           </div>
         </div>
 
@@ -144,7 +144,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
           </p>
           <div className='text-sm'>
             <p className='font-bold mb-1'>Why This Matters:</p>
-            <p>Different buyers value different things. A Nordic roaster might prize bright, tea-like acidity that an Italian roaster would find unbalanced. The CVA allows both assessments to coexist—the coffee is objectively described, then subjectively evaluated based on intended use.</p>
+            <p>Different buyers value different things. A Nordic roaster might prize bright, tea-like acidity that an Italian roaster would find unbalanced. The CVA allows both assessments to coexist the coffee is objectively described, then subjectively evaluated based on intended use.</p>
           </div>
         </div>
 
@@ -155,7 +155,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
             <h4 className='text-xl font-bold'>Extrinsic Assessment (Beta)</h4>
           </div>
           <p className='mb-3'>
-            <span className='font-bold'>Purpose:</span> Record non-sensory information that influences a coffee's value—story, sustainability, traceability, impact.
+            <span className='font-bold'>Purpose:</span> Record non-sensory information that influences a coffee's value story, sustainability, traceability, impact.
           </p>
           <p className='text-sm bg-gray-50 p-4 rounded border border-gray-200 mb-3'>
             This groundbreaking component recognizes that coffee value extends beyond the cup. It captures information about farm practices, processing innovations, producer relationships, certifications, carbon footprint, and social impact. Released in beta in 2024, it's the most innovative aspect of the CVA.
@@ -221,13 +221,13 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         </h4>
         <ul className='space-y-3 ml-5'>
           <li>
-            <span className='font-bold'>Better storytelling:</span> Ethiopian coffees often have incredible stories—ancient varieties, traditional processing, specific terroir. The extrinsic assessment finally gives these stories a formal place in quality evaluation.
+            <span className='font-bold'>Better storytelling:</span> Ethiopian coffees often have incredible stories ancient varieties, traditional processing, specific terroir. The extrinsic assessment finally gives these stories a formal place in quality evaluation.
           </li>
           <li>
             <span className='font-bold'>Differentiation beyond score:</span> Instead of competing solely on an 86 vs. 87 point score, Ethiopian coffees can be differentiated by their unique descriptive profiles and origin narratives.
           </li>
           <li>
-            <span className='font-bold'>Premium justification:</span> When buyers can see the complete value picture—exceptional cup quality plus sustainable practices plus rare variety preservation—they're more likely to pay premium prices.
+            <span className='font-bold'>Premium justification:</span> When buyers can see the complete value picture exceptional cup quality plus sustainable practices plus rare variety preservation they're more likely to pay premium prices.
           </li>
           <li>
             <span className='font-bold'>Experimental processing recognition:</span> Ethiopia's growing innovation in processing (anaerobic, carbonic maceration, extended fermentation) produces complex flavor profiles that the CVA's detailed descriptive system can capture better than traditional cupping.
@@ -347,7 +347,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         </div>
         <div className='flex gap-3 items-start'>
           <span className='font-bold text-amber-600 flex-shrink-0'>June 2024:</span>
-          <span>Next phase announced—three standards (CVA 102, 103, 104) submitted for official adoption, extrinsic assessment beta released</span>
+          <span>Next phase announced three standards (CVA 102, 103, 104) submitted for official adoption, extrinsic assessment beta released</span>
         </div>
         <div className='flex gap-3 items-start'>
           <span className='font-bold text-amber-600 flex-shrink-0'>Late 2024/Early 2025:</span>
@@ -407,7 +407,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
       </ul>
 
       <p className='my-4'>
-        For Ethiopian coffee—with its unmatched diversity of flavors, processing traditions, and cultural significance—this shift could not come at a better time. The CVA finally provides a framework that can capture what makes Ethiopian coffee truly special.
+        For Ethiopian coffee with its unmatched diversity of flavors, processing traditions, and cultural significance this shift could not come at a better time. The CVA finally provides a framework that can capture what makes Ethiopian coffee truly special.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -416,7 +416,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
           Bottom Line for Ethiopian Coffee Stakeholders
         </h4>
         <p className='mb-3'>
-          The Coffee Value Assessment isn't just a new form—it's a new language for communicating coffee quality and value. For Ethiopian exporters, it's an opportunity to differentiate beyond basic grades and tell the full story of your coffees. For importers and roasters, it's a tool for making more informed sourcing decisions and building stronger producer relationships.
+          The Coffee Value Assessment isn't just a new form it's a new language for communicating coffee quality and value. For Ethiopian exporters, it's an opportunity to differentiate beyond basic grades and tell the full story of your coffees. For importers and roasters, it's a tool for making more informed sourcing decisions and building stronger producer relationships.
         </p>
         <p>
           The CVA won't replace traditional cupping overnight, but it represents where the industry is heading: toward more transparency, more detail, and more recognition of everything that makes great coffee great.

@@ -121,7 +121,7 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
         </div>
         <h3 className='text-2xl font-extrabold text-dark'>Proud Mary / Aunty Peg&apos;s</h3>
         <p className='my-4'>
-          Melbourne is the capital of cafe culture, and Proud Mary is its king. Their cellar door, "Aunty Peg&apos;s," functions as a dedicated coffee bar with no milk and no sugar allowed—only pure expression of the bean. They are famous for their "deluxe" coffee menu featuring rare Geshas.
+          Melbourne is the capital of cafe culture, and Proud Mary is its king. Their cellar door, "Aunty Peg&apos;s," functions as a dedicated coffee bar with no milk and no sugar allowed only pure expression of the bean. They are famous for their "deluxe" coffee menu featuring rare Geshas.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> They successfully sell cups of coffee for $50+, proving consumers will pay premium prices for exceptional quality and storytelling.</p>
@@ -214,7 +214,7 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
           La Cabra treats coffee like a culinary ingredient. Known for their bakery as much as their roastery, they look for "brightness" in the cup. Their approach is minimalist and modern, and they have successfully expanded to New York and Bangkok.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> They mastered the "omni-roast" style—roasting beans that taste good as both espresso and filter coffee.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> They mastered the "omni-roast" style roasting beans that taste good as both espresso and filter coffee.</p>
         </div>
       </div>
 
@@ -229,7 +229,7 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
           Led by Joanna Alm, a multi-time roasting champion, Drop Coffee focuses on sweetness and clarity. Their distinct boxy packaging and welcoming atmosphere make them a staple of the Scandinavian scene.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> Their consistency is legendary. If you buy a bag of Drop Coffee, you know exactly what you are getting—a sweet, clean, perfectly roasted cup.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> Their consistency is legendary. If you buy a bag of Drop Coffee, you know exactly what you are getting a sweet, clean, perfectly roasted cup.</p>
         </div>
       </div>
 
