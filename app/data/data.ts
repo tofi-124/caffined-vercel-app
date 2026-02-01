@@ -595,6 +595,41 @@ export const posts: Post[] = [
         'coffee tourism',
         'green coffee quality'
       ],
-  desc: 'A curated list of the world\'s most influential specialty coffee shops—from Oslo to Tokyo—defining the standards of roasting, service, and sourcing. Discover why the top industry leaders rely on Ethiopian origins to set themselves apart.'
-}
+      desc: 'A curated list of the world\'s most influential specialty coffee shops—from Oslo to Tokyo—defining the standards of roasting, service, and sourcing. Discover why the top industry leaders rely on Ethiopian origins to set themselves apart.'
+    },
+    {
+      small_image_url: 'coffee-cupping-quality.webp',
+      large_image_url: 'coffee-cupping-quality.webp',
+      date: 'Jan 29, 2026',
+      title: 'THE NEW SCA COFFEE VALUE ASSESSMENT: BEYOND THE 100-POINT CUPPING SCORE',
+      slug: 'new-sca-coffee-value-assessment',
+      category: 'Quality & Grading / Industry Standards',
+      keywords: [
+        'SCA Coffee Value Assessment',
+        'CVA coffee grading',
+        'new SCA grading system',
+        'specialty coffee grading',
+        'specialty coffee quality assessment',
+        'specialty coffee evaluation',
+        'Ethiopian coffee grading CVA',
+        'Ethiopian coffee quality standards',
+        'Ethiopian coffee exporters grading',
+        'coffee export quality standards',
+        'specialty coffee export grading',
+        'coffee cupping protocols',
+        'coffee quality assessment 2024',
+        'descriptive coffee assessment',
+        'affective coffee assessment',
+        'extrinsic coffee value',
+        'coffee sensory evaluation',
+        'Q grader vs CVA',
+        'coffee quality standards',
+        'SCA cupping form update',
+        'coffee value beyond score',
+        'Ethiopian specialty coffee grading',
+        'specialty coffee importers guide',
+        'coffee export quality control'
+      ],
+      desc: 'Understanding the SCA Coffee Value Assessment (CVA)—the next-generation specialty coffee quality evaluation system that goes beyond the traditional 100-point score. Essential guide for Ethiopian coffee exporters, importers, and specialty coffee buyers on new grading standards, cupping protocols, and quality assessment methods.'
+    }
 ]
