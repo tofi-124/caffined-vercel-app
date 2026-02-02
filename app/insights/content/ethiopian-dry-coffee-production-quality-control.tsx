@@ -86,7 +86,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          The <strong>quality of dry coffee</strong> directly determines the final grade and value of Ethiopian green coffee at auction and export. Issues during drying—uneven moisture, mold development, over-fermentation, contamination—become permanent defects that cannot be corrected during milling. This is why Ethiopian coffee authorities place such emphasis on quality control during dry coffee preparation.
+          The <strong>quality of dry coffee</strong> directly determines the final grade and value of Ethiopian green coffee at auction and export. Issues during drying-uneven moisture, mold development, over-fermentation, contamination-become permanent defects that cannot be corrected during milling. This is why Ethiopian coffee authorities place such emphasis on quality control during dry coffee preparation.
         </p>
 
         <p className="text-lg leading-relaxed">
@@ -291,7 +291,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          Mr. Asrat Mekuria's emphasis on <em>"identifying gaps that still need to be corrected"</em> reflects a data-driven approach to quality improvement. Training participants—including zone and city administration sector leaders, woreda coffee team leaders, and processing facility experts—receive documentation focusing on <strong>dry coffee production preparation and quality maintenance</strong> prepared by Authority specialists.
+          Mr. Asrat Mekuria's emphasis on <em>"identifying gaps that still need to be corrected"</em> reflects a data-driven approach to quality improvement. Training participants-including zone and city administration sector leaders, woreda coffee team leaders, and processing facility experts-receive documentation focusing on <strong>dry coffee production preparation and quality maintenance</strong> prepared by Authority specialists.
         </p>
 
         <p className="text-lg leading-relaxed">
@@ -404,7 +404,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </p>
 
         <p className="text-lg leading-relaxed">
-          Mr. Asrat Mekuria's call for <em>"in-depth discussion"</em> and <em>"common solutions"</em> reflects recognition that quality improvement requires collaboration between government authorities, processing facilities, cooperatives, and farmers—not just top-down mandates.
+          Mr. Asrat Mekuria's call for <em>"in-depth discussion"</em> and <em>"common solutions"</em> reflects recognition that quality improvement requires collaboration between government authorities, processing facilities, cooperatives, and farmers-not just top-down mandates.
         </p>
       </section>
 
@@ -446,7 +446,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          Director General Mr. Asrat Mekuria's leadership emphasizes <strong>coordination between all structures</strong>—recognizing that quality coffee production requires alignment between federal authorities setting standards, regional authorities providing training and oversight, zonal offices coordinating across districts, woreda agricultural teams supporting local facilities, and processing facilities implementing best practices.
+          Director General Mr. Asrat Mekuria's leadership emphasizes <strong>coordination between all structures</strong>-recognizing that quality coffee production requires alignment between federal authorities setting standards, regional authorities providing training and oversight, zonal offices coordinating across districts, woreda agricultural teams supporting local facilities, and processing facilities implementing best practices.
         </p>
 
         <p className="text-lg leading-relaxed">
@@ -495,7 +495,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          ECTA training emphasizes that <strong>quality control must occur at every processing stage</strong>, not just final inspection before market delivery. Problems identified during intake inspection or grading typically originated days or weeks earlier during fermentation, drying, or storage—when prevention would have been far easier than correction.
+          ECTA training emphasizes that <strong>quality control must occur at every processing stage</strong>, not just final inspection before market delivery. Problems identified during intake inspection or grading typically originated days or weeks earlier during fermentation, drying, or storage-when prevention would have been far easier than correction.
         </p>
       </section>
 
@@ -611,7 +611,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          Quality exporters like <strong>Ethio Coffee Export PLC</strong> maintain direct relationships with processing facilities, conduct pre-shipment quality verification, and provide complete documentation and traceability for every lot—ensuring that the careful quality management during dry coffee preparation translates into consistent quality for international roasters and importers.
+          Quality exporters like <strong>Ethio Coffee Export PLC</strong> maintain direct relationships with processing facilities, conduct pre-shipment quality verification, and provide complete documentation and traceability for every lot-ensuring that the careful quality management during dry coffee preparation translates into consistent quality for international roasters and importers.
         </p>
       </section>
 
@@ -651,7 +651,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          The collaboration between government authorities (ECTA, regional authorities), development programs (FSRP), private exporters, cooperatives, and processors creates a comprehensive ecosystem supporting quality improvement. As Mr. Asrat Mekuria emphasized, success requires <strong>"all structures working in coordination"</strong>—recognizing that Ethiopian coffee quality is a shared responsibility and competitive advantage.
+          The collaboration between government authorities (ECTA, regional authorities), development programs (FSRP), private exporters, cooperatives, and processors creates a comprehensive ecosystem supporting quality improvement. As Mr. Asrat Mekuria emphasized, success requires <strong>"all structures working in coordination"</strong>-recognizing that Ethiopian coffee quality is a shared responsibility and competitive advantage.
         </p>
 
         <p className="text-lg leading-relaxed">
@@ -664,7 +664,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
             The Quality Imperative
           </h3>
           <p className="text-gray-800">
-            Ethiopian coffee's global reputation depends on maintaining the quality standards that make it exceptional. From careful cherry selection at harvest through controlled processing to proper dry coffee preparation and market delivery, every step requires attention, expertise, and commitment. The ECTA training programs, regional authority oversight, and continuous improvement initiatives ensure that Ethiopia's coffee—whether destined for ECX auction or direct specialty export—meets the rigorous standards that buyers worldwide expect from the birthplace of arabica.
+            Ethiopian coffee's global reputation depends on maintaining the quality standards that make it exceptional. From careful cherry selection at harvest through controlled processing to proper dry coffee preparation and market delivery, every step requires attention, expertise, and commitment. The ECTA training programs, regional authority oversight, and continuous improvement initiatives ensure that Ethiopia's coffee-whether destined for ECX auction or direct specialty export-meets the rigorous standards that buyers worldwide expect from the birthplace of arabica.
           </p>
         </div>
       </section>

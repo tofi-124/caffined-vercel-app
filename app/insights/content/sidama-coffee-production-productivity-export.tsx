@@ -107,7 +107,7 @@ export default function SidamaCoffeeProductionProductivityExport() {
         </p>
 
         <p className="text-lg leading-relaxed">
-          Chief Director Mesfin Qare emphasized that harvesting is <em>"being carried out extensively in the highlands and Weina Dega (mid-altitude) areas,"</em> indicating that Sidama's diverse altitude zones—ranging from 1,500 to 2,200 meters above sea level—are all contributing to the region's impressive production volumes.
+          Chief Director Mesfin Qare emphasized that harvesting is <em>"being carried out extensively in the highlands and Weina Dega (mid-altitude) areas,"</em> indicating that Sidama's diverse altitude zones-ranging from 1,500 to 2,200 meters above sea level-are all contributing to the region's impressive production volumes.
         </p>
 
         <div className="bg-blue-50 p-6 rounded-lg">
@@ -389,7 +389,7 @@ export default function SidamaCoffeeProductionProductivityExport() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          The integrated approach to agricultural modernization—combining pruning, variety improvement, and organic soil management—addresses multiple productivity constraints simultaneously. This holistic strategy is key to Sidama region's achievement of 10+ quintals per hectare average productivity.
+          The integrated approach to agricultural modernization-combining pruning, variety improvement, and organic soil management-addresses multiple productivity constraints simultaneously. This holistic strategy is key to Sidama region's achievement of 10+ quintals per hectare average productivity.
         </p>
       </section>
 
@@ -515,7 +515,7 @@ export default function SidamaCoffeeProductionProductivityExport() {
         </div>
         
         <p className="text-lg leading-relaxed">
-          While all Ethiopian coffee origins share certain characteristics—complex flavor profiles, bright acidity, floral and fruity notes—Sidama has distinctive qualities that set it apart from neighboring regions like Yirgacheffe, Guji, and Harrar.
+          While all Ethiopian coffee origins share certain characteristics-complex flavor profiles, bright acidity, floral and fruity notes-Sidama has distinctive qualities that set it apart from neighboring regions like Yirgacheffe, Guji, and Harrar.
         </p>
 
         <div className="bg-pink-50 border-l-4 border-pink-600 p-6 rounded-r-lg">
@@ -584,7 +584,7 @@ export default function SidamaCoffeeProductionProductivityExport() {
         </div>
 
         <p className="text-lg leading-relaxed mt-4">
-          Sidama's <strong>versatility</strong>—excelling in both washed and natural processing—makes it particularly attractive for roasters seeking a balanced, accessible Ethiopian profile that performs well across brewing methods and roast levels. The region's high productivity and organized farmer clusters also ensure more consistent supply compared to some neighboring origins.
+          Sidama's <strong>versatility</strong>-excelling in both washed and natural processing-makes it particularly attractive for roasters seeking a balanced, accessible Ethiopian profile that performs well across brewing methods and roast levels. The region's high productivity and organized farmer clusters also ensure more consistent supply compared to some neighboring origins.
         </p>
       </section>
 
@@ -624,7 +624,7 @@ export default function SidamaCoffeeProductionProductivityExport() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          The Sidama Regional Coffee, Fruit, and Spices Authority's initiatives—farmer cluster organization, variety improvement programs, direct export licensing—address many of these challenges by <strong>improving economic returns, building resilience through knowledge sharing, and attracting younger farmers through better market access and income opportunities</strong>.
+          The Sidama Regional Coffee, Fruit, and Spices Authority's initiatives-farmer cluster organization, variety improvement programs, direct export licensing-address many of these challenges by <strong>improving economic returns, building resilience through knowledge sharing, and attracting younger farmers through better market access and income opportunities</strong>.
         </p>
 
         <div className="bg-blue-50 p-6 rounded-lg">

@@ -74,7 +74,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           Why This Competition Matters
         </p>
         <p className='mb-3'>
-          Dr. Adunya Debela, Chief Director of the Ethiopian Coffee and Tea Authority, emphasizes that the Taste of Harvest competition is not just about winning awards—it's about demonstrating Ethiopia's:
+          Dr. Adunya Debela, Chief Director of the Ethiopian Coffee and Tea Authority, emphasizes that the Taste of Harvest competition is not just about winning awards-it's about demonstrating Ethiopia's:
         </p>
         <ul className='space-y-2 text-sm'>
           <li>• <span className='font-bold'>World-class coffee quality</span> across multiple processing methods</li>
@@ -190,7 +190,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <h4 className='text-xl font-bold mt-8 mb-3'>Why Ethiopia Is an Ideal Host for AFCA Events</h4>
 
       <p className='my-4'>
-        Dr. Adunya emphasizes that Ethiopia—particularly Addis Ababa—offers exceptional conditions for hosting international coffee events:
+        Dr. Adunya emphasizes that Ethiopia-particularly Addis Ababa-offers exceptional conditions for hosting international coffee events:
       </p>
 
       <div className='grid md:grid-cols-2 gap-4 my-6'>
@@ -215,7 +215,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </div>
 
       <p className='my-4'>
-        Addis Ababa's nickname—which means "New Flower"—symbolically represents Ethiopia's coffee industry: traditional yet constantly renewing and modernizing.
+        Addis Ababa's nickname-which means "New Flower"-symbolically represents Ethiopia's coffee industry: traditional yet constantly renewing and modernizing.
       </p>
 
       {/* SECTION 3: 2026 COMPETITION */}
@@ -343,7 +343,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
         <p className='font-bold mb-2'>Why Processing Diversity Matters:</p>
         <p className='text-sm'>
-          The wide range of processing methods (natural, washed, honey, experimental) demonstrates Ethiopian producers' increasing sophistication and responsiveness to specialty market demands. Experimental processing—representing 20% of submissions—shows Ethiopia's commitment to innovation while maintaining traditional quality standards.
+          The wide range of processing methods (natural, washed, honey, experimental) demonstrates Ethiopian producers' increasing sophistication and responsiveness to specialty market demands. Experimental processing-representing 20% of submissions-shows Ethiopia's commitment to innovation while maintaining traditional quality standards.
         </p>
       </div>
 
@@ -534,7 +534,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </h3>
 
       <p className='my-4'>
-        Coffees that succeed in Phase 2 receive official AFCA recognition and certification—a credential with significant market value.
+        Coffees that succeed in Phase 2 receive official AFCA recognition and certification-a credential with significant market value.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>What AFCA Certification Provides</h4>
@@ -631,7 +631,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h5 className='font-bold mb-3'>2. Buyer Participation</h5>
           <p className='text-sm'>
-            International specialty coffee buyers—roasters, importers, and traders—access the platform to:
+            International specialty coffee buyers-roasters, importers, and traders-access the platform to:
           </p>
           <ul className='space-y-1 text-sm ml-4 mt-2'>
             <li>• Review detailed coffee profiles and cupping notes</li>
@@ -760,7 +760,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
         <div className='border-l-4 border-blue-500 pl-4'>
           <h5 className='font-bold'>Transparent Information</h5>
-          <p className='text-sm text-gray-700'>Detailed profiles include sensory notes, scores, origin data, and processing information—all the details buyers need for informed decisions.</p>
+          <p className='text-sm text-gray-700'>Detailed profiles include sensory notes, scores, origin data, and processing information-all the details buyers need for informed decisions.</p>
         </div>
         <div className='border-l-4 border-green-500 pl-4'>
           <h5 className='font-bold'>Direct Sourcing</h5>
@@ -796,7 +796,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </h3>
 
       <p className='my-4'>
-        The 2026 AFCA Taste of Harvest competition and Ethiopia's hosting of the conference represent more than a one-time event—they signal important developments for Ethiopian coffee's future.
+        The 2026 AFCA Taste of Harvest competition and Ethiopia's hosting of the conference represent more than a one-time event-they signal important developments for Ethiopian coffee's future.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Strategic Benefits for Ethiopia</h4>
@@ -858,7 +858,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           Conclusion: Competition Success Drives Coffee Excellence
         </h4>
         <p className='mb-3'>
-          The AFCA Taste of Harvest competition represents far more than awards and recognition—it's a mechanism for driving quality improvement, connecting exceptional Ethiopian coffees with discerning global buyers, and demonstrating Ethiopia's continued evolution as a modern, sophisticated coffee origin.
+          The AFCA Taste of Harvest competition represents far more than awards and recognition-it's a mechanism for driving quality improvement, connecting exceptional Ethiopian coffees with discerning global buyers, and demonstrating Ethiopia's continued evolution as a modern, sophisticated coffee origin.
         </p>
         <p className='mb-3'>
           For producers and cooperatives, participation offers pathways to premium markets and fair compensation for quality efforts. For exporters, award-winning lots provide competitive differentiation and buyer demand. For international buyers, AFCA-certified coffees deliver pre-vetted quality and compelling stories.
@@ -911,7 +911,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Competition success drives quality culture, producer incentives, and market access—benefiting Ethiopia's entire coffee value chain</p>
+          <p>Competition success drives quality culture, producer incentives, and market access-benefiting Ethiopia's entire coffee value chain</p>
         </div>
       </div>
 

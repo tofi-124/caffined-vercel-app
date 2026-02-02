@@ -58,11 +58,11 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        If you've been sourcing <span className='font-bold'>Ethiopian specialty coffee</span> recently, you've likely noticed something significant: <span className='font-bold'>prices are rising</span>. And they're not just creeping up—they're climbing at rates not seen in years. In early 2026, Arabica coffee futures have reached levels that are making headlines worldwide, and Ethiopian coffee, already prized for its exceptional quality, is commanding premium prices that reflect both global market forces and unique local factors.
+        If you've been sourcing <span className='font-bold'>Ethiopian specialty coffee</span> recently, you've likely noticed something significant: <span className='font-bold'>prices are rising</span>. And they're not just creeping up-they're climbing at rates not seen in years. In early 2026, Arabica coffee futures have reached levels that are making headlines worldwide, and Ethiopian coffee, already prized for its exceptional quality, is commanding premium prices that reflect both global market forces and unique local factors.
       </p>
 
       <p className='my-4'>
-        For importers, roasters, and coffee businesses worldwide, understanding <span className='font-bold'>why Ethiopian coffee prices are increasing</span> isn't just about budgeting—it's about strategic planning, supplier relationships, and maintaining quality while navigating an increasingly volatile market.
+        For importers, roasters, and coffee businesses worldwide, understanding <span className='font-bold'>why Ethiopian coffee prices are increasing</span> isn't just about budgeting-it's about strategic planning, supplier relationships, and maintaining quality while navigating an increasingly volatile market.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -117,7 +117,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
         <h4 className='font-bold text-lg mb-3 text-red-900'>Historic Price Levels in 2026</h4>
         <p className='mb-4'>
-          As of early 2026, Arabica coffee futures are trading at approximately <span className='font-bold'>348 cents per pound</span>—levels not consistently seen since the early 2010s. This represents increases of over 80-100% compared to 2020-2021 levels.
+          As of early 2026, Arabica coffee futures are trading at approximately <span className='font-bold'>348 cents per pound</span>-levels not consistently seen since the early 2010s. This represents increases of over 80-100% compared to 2020-2021 levels.
         </p>
         <p className='text-sm'>
           For context: Between 2015-2020, the C-market averaged 110-150 cents per pound. The current prices represent a fundamental shift in coffee economics globally.
@@ -129,7 +129,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='space-y-4 my-6'>
         <div className='border-l-4 border-red-500 pl-4'>
           <h5 className='font-bold'>Supply Shortages</h5>
-          <p className='text-sm text-gray-700'>Multiple major producing countries—Brazil, Vietnam, Colombia—have experienced production shortfalls due to drought, frost, and disease. Global coffee stocks have declined to concerning levels.</p>
+          <p className='text-sm text-gray-700'>Multiple major producing countries-Brazil, Vietnam, Colombia-have experienced production shortfalls due to drought, frost, and disease. Global coffee stocks have declined to concerning levels.</p>
         </div>
         <div className='border-l-4 border-orange-500 pl-4'>
           <h5 className='font-bold'>Climate Volatility</h5>
@@ -152,7 +152,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Brazil produces approximately 35-40% of the world's coffee</span>, making it the single most influential player in global coffee markets. When Brazil sneezes, the entire coffee world catches a cold—and Brazil has been battling serious production challenges.
+        <span className='font-bold'>Brazil produces approximately 35-40% of the world's coffee</span>, making it the single most influential player in global coffee markets. When Brazil sneezes, the entire coffee world catches a cold-and Brazil has been battling serious production challenges.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>The Brazilian Coffee Crisis (2021-2026)</h4>
@@ -197,7 +197,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       </h3>
 
       <p className='my-4'>
-        While market forces create short-term volatility, <span className='font-bold'>climate change represents the most significant long-term threat to coffee production</span>—and the most persistent driver of rising prices.
+        While market forces create short-term volatility, <span className='font-bold'>climate change represents the most significant long-term threat to coffee production</span>-and the most persistent driver of rising prices.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Climate Change Impacts on Coffee Production</h4>
@@ -233,14 +233,14 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
 
       <ul className='space-y-3 my-6 list-disc ml-6'>
         <li><span className='font-bold'>Highland Dependence:</span> Ethiopian coffee grows at 1,500-2,200+ meters. There's limited "higher ground" available as temperatures rise.</li>
-        <li><span className='font-bold'>Rainfall Variability:</span> Recent years have seen erratic rainfall—severe droughts followed by intense rains—disrupting traditional production cycles.</li>
+        <li><span className='font-bold'>Rainfall Variability:</span> Recent years have seen erratic rainfall-severe droughts followed by intense rains-disrupting traditional production cycles.</li>
         <li><span className='font-bold'>Smallholder Vulnerability:</span> Over 90% of Ethiopian coffee is produced by smallholder farmers with limited resources to adapt to climate challenges.</li>
         <li><span className='font-bold'>Wild Coffee Forests:</span> Ethiopia's unique wild coffee populations face existential threats from temperature increases.</li>
       </ul>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium'>
-          <span className='font-bold'>Long-Term Price Implication:</span> Climate change isn't a temporary challenge—it's a structural shift reducing global coffee supply while demand continues growing. This fundamental supply-demand imbalance suggests that higher prices aren't a temporary spike but a "new normal" for the coffee industry.
+          <span className='font-bold'>Long-Term Price Implication:</span> Climate change isn't a temporary challenge-it's a structural shift reducing global coffee supply while demand continues growing. This fundamental supply-demand imbalance suggests that higher prices aren't a temporary spike but a "new normal" for the coffee industry.
         </p>
       </div>
 
@@ -251,7 +251,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       </h3>
 
       <p className='my-4'>
-        Currency dynamics play a crucial—and often misunderstood—role in Ethiopian coffee pricing. While the global C-market trades in US dollars, <span className='font-bold'>Ethiopian producers and exporters operate in Ethiopian Birr (ETB)</span>, creating complex pricing dynamics.
+        Currency dynamics play a crucial-and often misunderstood-role in Ethiopian coffee pricing. While the global C-market trades in US dollars, <span className='font-bold'>Ethiopian producers and exporters operate in Ethiopian Birr (ETB)</span>, creating complex pricing dynamics.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Understanding the Birr Devaluation</h4>
@@ -363,7 +363,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
           When you aggregate all these cost increases, Ethiopian coffee exporters are facing <span className='font-bold'>40-70% higher costs of operation</span> compared to 2020-2021 baseline levels. These costs must be recovered through export prices to maintain viable business operations.
         </p>
         <p className='text-sm'>
-          This is not price gouging or opportunism—it's economic reality. Ethiopian exporters operate on relatively thin margins, and cost increases must be passed through the supply chain.
+          This is not price gouging or opportunism-it's economic reality. Ethiopian exporters operate on relatively thin margins, and cost increases must be passed through the supply chain.
         </p>
       </div>
 
@@ -458,7 +458,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium'>
-          <span className='font-bold'>Key Insight:</span> The specialty premium isn't inflated or artificial—it reflects real value creation through quality, traceability, and sustainability. When you pay $6.50/lb FOB for Ethiopian G1 washed coffee versus $4.50/lb for commercial grade, you're paying for measurably superior quality that your customers will taste in the cup.
+          <span className='font-bold'>Key Insight:</span> The specialty premium isn't inflated or artificial-it reflects real value creation through quality, traceability, and sustainability. When you pay $6.50/lb FOB for Ethiopian G1 washed coffee versus $4.50/lb for commercial grade, you're paying for measurably superior quality that your customers will taste in the cup.
         </p>
       </div>
 
@@ -489,7 +489,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <h4 className='text-xl font-bold mt-8 mb-3'>ECX Price Dynamics in a Rising Market</h4>
 
       <p className='my-4'>
-        When global coffee prices rise (as in 2024-2026), ECX auction prices typically follow—but not always immediately or proportionally. This creates interesting dynamics:
+        When global coffee prices rise (as in 2024-2026), ECX auction prices typically follow-but not always immediately or proportionally. This creates interesting dynamics:
       </p>
 
       <div className='space-y-4 my-6'>
@@ -878,7 +878,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <h4 className='font-bold text-xl mb-3'>The Bottom Line</h4>
         <p className='mb-3'>
-          Ethiopian coffee prices are rising due to a perfect storm of global supply challenges, climate change, currency dynamics, cost inflation, and growing specialty demand. This isn't a temporary blip—it represents a fundamental repricing of coffee that reflects its true value and the real costs of sustainable production.
+          Ethiopian coffee prices are rising due to a perfect storm of global supply challenges, climate change, currency dynamics, cost inflation, and growing specialty demand. This isn't a temporary blip-it represents a fundamental repricing of coffee that reflects its true value and the real costs of sustainable production.
         </p>
         <p>
           For importers and roasters, adapting to this "higher for longer" reality requires strategic thinking, strong supply partnerships, transparent customer communication, and a commitment to value rather than just low cost. Those who embrace quality, traceability, and fair pricing will thrive in this new era of coffee economics.

@@ -60,11 +60,11 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        If you're exporting Ethiopian coffee to European Union countries—or planning to—you need to understand a critical new regulation that will fundamentally change how coffee exports to Europe work: the <span className='font-bold'>EU Deforestation Regulation (EUDR)</span>.
+        If you're exporting Ethiopian coffee to European Union countries-or planning to-you need to understand a critical new regulation that will fundamentally change how coffee exports to Europe work: the <span className='font-bold'>EU Deforestation Regulation (EUDR)</span>.
       </p>
 
       <p className='my-4'>
-        Effective December 30, 2024 (with enforcement beginning December 30, 2025 for large operators), the EUDR requires that all coffee entering EU markets must be <span className='font-bold'>deforestation-free</span> and produced in compliance with the laws of the country of origin. This means Ethiopian coffee exporters must prove—with documented evidence and geolocation data—that their coffee was not grown on land deforested after December 31, 2020.
+        Effective December 30, 2024 (with enforcement beginning December 30, 2025 for large operators), the EUDR requires that all coffee entering EU markets must be <span className='font-bold'>deforestation-free</span> and produced in compliance with the laws of the country of origin. This means Ethiopian coffee exporters must prove-with documented evidence and geolocation data-that their coffee was not grown on land deforested after December 31, 2020.
       </p>
 
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
@@ -85,7 +85,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </div>
 
       <p className='my-4'>
-        For Ethiopian coffee exporters, importers, and roasters targeting EU markets, understanding and preparing for EUDR compliance is not optional—it's essential for maintaining access to one of the world's most important coffee markets.
+        For Ethiopian coffee exporters, importers, and roasters targeting EU markets, understanding and preparing for EUDR compliance is not optional-it's essential for maintaining access to one of the world's most important coffee markets.
       </p>
 
       {/* TABLE OF CONTENTS */}
@@ -225,7 +225,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>The Stakes Are High:</span> Failure to achieve EUDR compliance doesn't just mean individual shipments being rejected—it means potentially losing access to the EU market entirely. For Ethiopian exporters, this would mean losing 30-40% of export revenue and the premium prices EU buyers pay for quality Ethiopian coffee.</span>
+          <span><span className='font-bold'>The Stakes Are High:</span> Failure to achieve EUDR compliance doesn't just mean individual shipments being rejected-it means potentially losing access to the EU market entirely. For Ethiopian exporters, this would mean losing 30-40% of export revenue and the premium prices EU buyers pay for quality Ethiopian coffee.</span>
         </p>
       </div>
 
@@ -281,7 +281,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
             <li>• Farm registration data cross-referenced with forest monitoring systems</li>
           </ul>
           <p className='text-sm mt-3'>
-            <span className='font-bold'>Ethiopia's Advantage:</span> Most Ethiopian coffee is grown in long-established farming areas or forest systems that predate the cutoff date, providing a natural compliance advantage—if properly documented.
+            <span className='font-bold'>Ethiopia's Advantage:</span> Most Ethiopian coffee is grown in long-established farming areas or forest systems that predate the cutoff date, providing a natural compliance advantage-if properly documented.
           </p>
         </div>
 
@@ -575,7 +575,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
 
         <div className='bg-yellow-50 p-5 rounded-lg border border-yellow-200'>
           <h5 className='font-bold mb-2 text-yellow-900'>Cost Burden</h5>
-          <p className='text-sm'>Compliance costs (GPS mapping, documentation, certification) are typically borne by exporters, cooperatives, or government—not individual farmers. However, farmers may face opportunity costs (time spent on data collection instead of farm work).</p>
+          <p className='text-sm'>Compliance costs (GPS mapping, documentation, certification) are typically borne by exporters, cooperatives, or government-not individual farmers. However, farmers may face opportunity costs (time spent on data collection instead of farm work).</p>
         </div>
 
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
@@ -697,7 +697,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </h3>
 
       <p className='my-4'>
-        While EUDR's primary focus is deforestation, the <span className='font-bold'>legality requirement</span> extends to all relevant laws—including labor laws. This means coffee must be produced without child labor or other labor rights violations.
+        While EUDR's primary focus is deforestation, the <span className='font-bold'>legality requirement</span> extends to all relevant laws-including labor laws. This means coffee must be produced without child labor or other labor rights violations.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Labor Rights Requirements</h4>
@@ -912,7 +912,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
           <h5 className='font-bold mb-2 text-blue-900'>Market Differentiation</h5>
-          <p className='text-sm'>EUDR compliance demonstrates professionalism, transparency, and commitment to sustainability—qualities that distinguish premium suppliers in competitive markets.</p>
+          <p className='text-sm'>EUDR compliance demonstrates professionalism, transparency, and commitment to sustainability-qualities that distinguish premium suppliers in competitive markets.</p>
         </div>
 
         <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
@@ -955,7 +955,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           Conclusion: EUDR Compliance Is Essential and Achievable
         </h4>
         <p className='mb-3'>
-          The EU Deforestation Regulation represents a fundamental shift in international coffee trade. For Ethiopian coffee exporters, EUDR compliance is not just a regulatory checkbox—it's a strategic imperative that will determine market access, profitability, and competitiveness in the coming years.
+          The EU Deforestation Regulation represents a fundamental shift in international coffee trade. For Ethiopian coffee exporters, EUDR compliance is not just a regulatory checkbox-it's a strategic imperative that will determine market access, profitability, and competitiveness in the coming years.
         </p>
         <p className='mb-3'>
           While the requirements are substantial, they are achievable with proper planning, investment in traceability systems, and coordination across the supply chain. The one-year extension provides valuable time, but that time must be used proactively.
@@ -976,7 +976,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Enforcement begins December 30, 2025 for large operators; June 30, 2026 for small/micro enterprises—preparation must start immediately</p>
+          <p>Enforcement begins December 30, 2025 for large operators; June 30, 2026 for small/micro enterprises-preparation must start immediately</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
@@ -984,11 +984,11 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopia is building a national coffee database to register farms and issue deforestation-free certificates—but exporters should not wait for completion</p>
+          <p>Ethiopia is building a national coffee database to register farms and issue deforestation-free certificates-but exporters should not wait for completion</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Smallholder farmers (90%+ of Ethiopian production) face challenges in documentation, GPS data collection, and awareness—requiring coordinated support</p>
+          <p>Smallholder farmers (90%+ of Ethiopian production) face challenges in documentation, GPS data collection, and awareness-requiring coordinated support</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
@@ -996,7 +996,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Legality requirements include labor rights compliance—Ethiopia is coordinating with Ministry of Labor to address child labor concerns</p>
+          <p>Legality requirements include labor rights compliance-Ethiopia is coordinating with Ministry of Labor to address child labor concerns</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
