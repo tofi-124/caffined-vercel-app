@@ -98,28 +98,6 @@ const OfferingDetail = ({ params }: Props) => {
                   priority
                 />
               </div>
-              
-              {/* Key specs grid below image */}
-              <div className='mt-6 grid grid-cols-2 gap-4'>
-                {product.altitude && (
-                  <div className='bg-white rounded-2xl p-4 border border-gray-100'>
-                    <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Altitude</span>
-                    <span className='text-sm font-bold text-dark'>{product.altitude}</span>
-                  </div>
-                )}
-                {product.specifications.harvestPeriod && (
-                  <div className='bg-white rounded-2xl p-4 border border-gray-100'>
-                    <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Harvest</span>
-                    <span className='text-sm font-bold text-dark'>{product.specifications.harvestPeriod}</span>
-                  </div>
-                )}
-                {product.variety && (
-                  <div className='bg-white rounded-2xl p-4 border border-gray-100 col-span-2'>
-                    <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Variety</span>
-                    <span className='text-sm font-bold text-dark'>{product.variety}</span>
-                  </div>
-                )}
-              </div>
             </div>
           </div>
         
@@ -269,6 +247,12 @@ const OfferingDetail = ({ params }: Props) => {
                         <div className='p-4 bg-stone-50 rounded-2xl'>
                           <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Process</span>
                           <span className='text-sm font-bold text-dark'>{product.specifications.processingMethod}</span>
+                        </div>
+                      )}
+                      {product.variety && (
+                        <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-3'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Variety</span>
+                          <span className='text-sm font-bold text-dark'>{product.variety}</span>
                         </div>
                       )}
                       {product.region && (

@@ -72,28 +72,28 @@ const OfferingsResultsList = ({ items }: Props) => {
 
             {/* Specs grid */}
             <div className='mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-xs'>
-              {o.altitude && (
-                <div className='flex flex-col'>
-                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Altitude</span>
-                  <span className='text-dark font-semibold'>{o.altitude}</span>
-                </div>
-              )}
               {o.specifications.grade && (
                 <div className='flex flex-col'>
                   <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Grade</span>
                   <span className='text-dark font-semibold'>{o.specifications.grade}</span>
                 </div>
               )}
-              {o.specifications.cropYear && (
-                <div className='flex flex-col'>
-                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Harvest</span>
-                  <span className='text-dark font-semibold'>{o.specifications.cropYear}</span>
-                </div>
-              )}
               {o.specifications.cupScore && (
                 <div className='flex flex-col'>
                   <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Cup Score</span>
                   <span className='text-accent font-bold'>{o.specifications.cupScore} pts</span>
+                </div>
+              )}
+              {o.altitude && (
+                <div className='flex flex-col col-span-2'>
+                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Altitude</span>
+                  <span className='text-dark font-semibold'>{o.altitude}</span>
+                </div>
+              )}
+              {o.variety && (
+                <div className='flex flex-col col-span-2'>
+                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Variety</span>
+                  <span className='text-dark font-semibold line-clamp-1'>{o.variety}</span>
                 </div>
               )}
             </div>
