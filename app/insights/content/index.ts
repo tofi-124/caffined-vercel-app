@@ -28,6 +28,10 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./rising-ethiopian-coffee-prices-explained').then(mod => mod.default),
   'eu-deforestation-regulation-ethiopian-coffee-compliance': () => 
     import('./eu-deforestation-regulation-ethiopian-coffee-compliance').then(mod => mod.default),
+  'afca-taste-of-harvest-ethiopian-coffee-competition': () => 
+    import('./afca-taste-of-harvest-ethiopian-coffee-competition').then(mod => mod.default),
+  'ethiopian-dry-coffee-production-quality-control': () => 
+    import('./ethiopian-dry-coffee-production-quality-control').then(mod => mod.default),
   // Add more insights here as you create them:
   // 'next-insight-slug': () => import('./next-insight-file').then(mod => mod.default),
 }

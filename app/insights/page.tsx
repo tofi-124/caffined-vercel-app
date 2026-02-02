@@ -47,7 +47,7 @@ const InsightsPage = () => {
     }
   }, [searchParams])
 
-  const PAGE_SIZE = 6
+  const PAGE_SIZE = 9
   const [page, setPage] = useState(1)
 
   const sortedPosts = useMemo(() => {
