@@ -697,6 +697,38 @@ export const posts: Post[] = [
       ],
       desc: 'Complete guide to importing Ethiopian specialty coffee to the UAE covering Dubai Customs procedures, ESMA requirements, free zone vs. mainland setup, VAT structure, Jebel Ali Port shipping, DMCC Coffee Centre facilities, cost breakdown, and working with Ethio Coffee Export for successful UAE market entry and GCC distribution.'
     },
+    // Europe
+    {
+      small_image_url: 'insights/uk-coffee-import.webp',
+      large_image_url: 'insights/uk-coffee-import.webp',
+      date: 'Jan 08, 2026',
+      title: 'IMPORTING ETHIOPIAN COFFEE TO UK: COMPLETE POST-BREXIT GUIDE',
+      slug: 'importing-ethiopian-coffee-to-uk',
+      category: 'Import Guide / UK Market',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to uk',
+        'import ethiopian coffee uk',
+        'uk coffee import regulations',
+        'post-brexit coffee import',
+        'hmrc coffee import',
+        'fsa coffee regulations',
+        'felixstowe port coffee',
+        'london gateway coffee',
+        'uk coffee market',
+        'specialty coffee uk',
+        'eori number coffee',
+        'ethiopian coffee to uk',
+        'uk coffee roasters',
+        'british coffee market',
+        'customs declaration service',
+        'uk vat coffee',
+        'import green coffee uk',
+        'uk specialty coffee roasters'
+      ],
+      desc: 'Complete post-Brexit guide to importing Ethiopian specialty coffee to the United Kingdom covering HMRC customs procedures, FSA food safety requirements, EORI registration, zero duty and VAT structure, shipping to Felixstowe and London Gateway ports, UK coffee market insights, cost breakdown, and partnering with Ethio Coffee Export for successful UK market entry.'
+    },
     // Asia
     {
       small_image_url: 'insights/south-korea-coffee-import.webp',
