@@ -24,6 +24,8 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./new-sca-coffee-value-assessment').then(mod => mod.default),
   'complete-guide-to-understanding-coffee': () => 
     import('./complete-guide-to-understanding-coffee').then(mod => mod.default),
+  'rising-ethiopian-coffee-prices-explained': () => 
+    import('./rising-ethiopian-coffee-prices-explained').then(mod => mod.default),
   // Add more insights here as you create them:
   // 'next-insight-slug': () => import('./next-insight-file').then(mod => mod.default),
 }
