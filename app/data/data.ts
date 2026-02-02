@@ -13,8 +13,8 @@ export type Post = {
 export const posts: Post[] = [
     // ===== COMPANY NEWS (Oldest - Foundational) =====
     {
-      small_image_url: 'launch.webp',
-      large_image_url: 'launch.webp',
+      small_image_url: 'insights/launch.webp',
+      large_image_url: 'insights/launch.webp',
       date: 'Jan 01, 2022',
       title: 'ETHIO COFFEE LAUNCHES: YOUR TRUSTED ETHIOPIAN EXPORT PARTNER',
       slug: 'ethio-coffee-export-launch',
@@ -33,8 +33,8 @@ export const posts: Post[] = [
       desc: 'Ethio Coffee Export PLC officially launches, bringing speciality Ethiopian green coffee to importers worldwide. Founded by two brothers with deep roots in Ethiopian coffee, we offer traceable sourcing, professional export service, and the reliability importers need.'
     },
     {
-      small_image_url: 'ethiopian-coffee-exporter-2025.webp',
-      large_image_url: 'ethiopian-coffee-exporter-2025.webp',
+      small_image_url: 'insights/ethiopian-coffee-exporter-2025.webp',
+      large_image_url: 'insights/ethiopian-coffee-exporter-2025.webp',
       date: 'Jan 15, 2025',
       title: 'BEST ETHIOPIAN COFFEE EXPORTER FOR IMPORTERS WORLDWIDE',
       slug: 'best-ethiopian-coffee-exporter-for-importers',
@@ -66,8 +66,8 @@ export const posts: Post[] = [
     // ===== COFFEE CULTURE & HERITAGE (Foundation) =====
     {
       id: 2,
-      small_image_url: 'cofee-blog-1-1.png',
-      large_image_url: 'cofee-blog-1-2.png',
+      small_image_url: 'insights/cofee-blog-1-1.png',
+      large_image_url: 'insights/cofee-blog-1-2.png',
       date: 'Jun 01, 2025',
       title: 'THE BIRTHPLACE OF COFFEE: ETHIOPIA\'S RICH HERITAGE',
       slug: 'birthplace-of-coffee-ethiopia',
@@ -77,8 +77,8 @@ export const posts: Post[] = [
     },
     {
       id: 3,
-      small_image_url: 'cofee-blog-2-1.png',
-      large_image_url: 'cofee-blog-2-2.jpg',
+      small_image_url: 'insights/cofee-blog-2-1.png',
+      large_image_url: 'insights/cofee-blog-2-2.jpg',
       date: 'Jun 15, 2025',
       title: 'ETHIOPIAN COFFEE CEREMONIES: TRADITION MEETS BUSINESS',
       slug: 'ethiopian-coffee-ceremony',
@@ -87,8 +87,8 @@ export const posts: Post[] = [
       desc: 'Ethiopia\'s traditional coffee ceremony is more than just brewing it\'s a cultural ritual that informs how coffee is respected and handled throughout the supply chain from farm to cup.'
     },
     {
-      small_image_url: 'cofee-blog-7-1.png',
-      large_image_url: 'cofee-blog-7-2.jpg',
+      small_image_url: 'insights/cofee-blog-7-1.png',
+      large_image_url: 'insights/cofee-blog-7-2.jpg',
       date: 'Jul 01, 2025',
       title: 'DIRECT TRADE PARTNERSHIPS: SUPPORTING ETHIOPIAN FARMERS',
       slug: 'direct-trade-ethiopian-farmers',
@@ -98,8 +98,8 @@ export const posts: Post[] = [
     },
     // ===== COFFEE EDUCATION SERIES (Sequential Learning Path) =====
     {
-      small_image_url: 'coffee-plant-taxonomy.webp',
-      large_image_url: 'coffee-plant-taxonomy.webp',
+      small_image_url: 'insights/coffee-plant-taxonomy.webp',
+      large_image_url: 'insights/coffee-plant-taxonomy.webp',
       date: 'Jul 15, 2025',
       title: 'COFFEE IS A PLANT: UNDERSTANDING TAXONOMY, SPECIES & VARIETIES',
       slug: 'coffee-plant-taxonomy-species-varieties',
@@ -121,8 +121,8 @@ export const posts: Post[] = [
       desc: 'Before coffee is ever a drink, it\'s a plant. Explore coffee\'s taxonomy, anatomy, the fascinating science behind Arabica and Robusta species, variety groups, and why understanding coffee as an agricultural product deepens your appreciation for every cup.'
     },
     {
-      small_image_url: 'coffee-agriculture.webp',
-      large_image_url: 'coffee-agriculture.webp',
+      small_image_url: 'insights/coffee-agriculture.webp',
+      large_image_url: 'insights/coffee-agriculture.webp',
       date: 'Aug 01, 2025',
       title: 'COFFEE IS AGRICULTURE: THE COMPLETE GUIDE TO COFFEE PRODUCTION AND FARMING',
       slug: 'coffee-is-agriculture-production-farming',
@@ -145,8 +145,8 @@ export const posts: Post[] = [
       desc: 'Dive deep into coffee as agriculture: from soil science and plant biology to harvesting techniques, farming systems, and the environmental challenges facing coffee production worldwide.'
     },
     {
-      small_image_url: 'coffee-processing.webp',
-      large_image_url: 'coffee-processing.webp',
+      small_image_url: 'insights/coffee-processing.webp',
+      large_image_url: 'insights/coffee-processing.webp',
       date: 'Aug 15, 2025',
       title: 'COFFEE IS A PROCESS: THE COMPLETE GUIDE TO COFFEE PROCESSING, DRYING, AND MILLING',
       slug: 'coffee-is-processing-drying-milling',
@@ -168,8 +168,8 @@ export const posts: Post[] = [
       desc: 'Explore the transformative steps of coffee processing: from post-harvest methods like washed, honey, and natural processing to drying techniques, fermentation, and milling that prepare green beans for export and roasting.'
     },
     {
-      small_image_url: 'coffee-commerce.webp',
-      large_image_url: 'coffee-commerce.webp',
+      small_image_url: 'insights/coffee-commerce.webp',
+      large_image_url: 'insights/coffee-commerce.webp',
       date: 'Sep 01, 2025',
       title: 'COFFEE IS COMMERCE: THE COMPLETE GUIDE TO COFFEE EXPORTING, IMPORTING, AND BUYING',
       slug: 'coffee-is-commerce-exporting-importing-buying',
@@ -191,8 +191,8 @@ export const posts: Post[] = [
       desc: 'Navigate the global coffee market: understand the C market vs specialty coffee, exporting and importing logistics, green coffee buying strategies, and the importance of transparency in ethical coffee commerce.'
     },
     {
-      small_image_url: 'coffee-science.webp',
-      large_image_url: 'coffee-science.webp',
+      small_image_url: 'insights/coffee-science.webp',
+      large_image_url: 'insights/coffee-science.webp',
       date: 'Sep 15, 2025',
       title: 'COFFEE IS A SCIENCE: THE COMPLETE GUIDE TO COFFEE ANALYSIS, COMPOUNDS, AND EVALUATION',
       slug: 'coffee-is-science-analysis-compounds-evaluation',
@@ -214,8 +214,8 @@ export const posts: Post[] = [
       desc: 'Delve into the scientific foundations of coffee: physical characteristics of green beans, chemical compounds, flavor perception, sensory evaluation, and the systematic methods used to assess and grade specialty coffee.'
     },
     {
-      small_image_url: 'coffee-art.webp',
-      large_image_url: 'coffee-art.webp',
+      small_image_url: 'insights/coffee-art.webp',
+      large_image_url: 'insights/coffee-art.webp',
       date: 'Oct 01, 2025',
       title: 'COFFEE IS AN ART: THE COMPLETE GUIDE TO COFFEE ROASTING AND BREWING',
       slug: 'coffee-is-art-roasting-brewing',
@@ -237,8 +237,8 @@ export const posts: Post[] = [
       desc: 'Master the artistic and technical aspects of coffee: from heat transfer in roasting and roast curve development to brewing fundamentals, extraction theory, and the creative techniques that transform green beans into exceptional cups.'
     },
     {
-      small_image_url: 'coffee-education-guide.webp',
-      large_image_url: 'coffee-education-guide.webp',
+      small_image_url: 'insights/coffee-education-guide.webp',
+      large_image_url: 'insights/coffee-education-guide.webp',
       date: 'Oct 15, 2025',
       title: 'THE COMPLETE GUIDE TO UNDERSTANDING COFFEE: FROM SEED TO CUP',
       slug: 'complete-guide-to-understanding-coffee',
@@ -281,8 +281,8 @@ export const posts: Post[] = [
     },
     // ===== SOURCING & QUALITY GUIDES (Practical Buyer Information) =====
     {
-      small_image_url: 'sidama-coffee-production.webp',
-      large_image_url: 'sidama-coffee-production.webp',
+      small_image_url: 'insights/sidama-coffee-production.webp',
+      large_image_url: 'insights/sidama-coffee-production.webp',
       date: 'Oct 20, 2025',
       title: 'SIDAMA REGION COFFEE PRODUCTION: ACHIEVING 10+ QUINTALS PER HECTARE & NEW EXPORT OPPORTUNITIES',
       slug: 'sidama-coffee-production-productivity-export',
@@ -329,8 +329,8 @@ export const posts: Post[] = [
     },
     {
       id: 4,
-      small_image_url: 'green-coffee-sourcing.webp',
-      large_image_url: 'green-coffee-sourcing.webp',
+      small_image_url: 'insights/green-coffee-sourcing.webp',
+      large_image_url: 'insights/green-coffee-sourcing.webp',
       date: 'Nov 01, 2025',
       title: 'SOURCING GREEN COFFEE FROM ETHIOPIA',
       slug: 'how-to-source-green-coffee-from-ethiopia',
@@ -349,8 +349,8 @@ export const posts: Post[] = [
     },
     {
       id: 1,
-      small_image_url: 'Ethiopia_Coffee_Map.png',
-      large_image_url: 'Ethiopia_Coffee_Map.png',
+      small_image_url: 'insights/Ethiopia_Coffee_Map.png',
+      large_image_url: 'insights/Ethiopia_Coffee_Map.png',
       date: 'Nov 15, 2025',
       title: 'A PRACTICAL GUIDE TO ETHIOPIAN GREEN COFFEE ORIGINS',
       slug: 'guide-ethiopian-coffee-origins',
@@ -359,8 +359,8 @@ export const posts: Post[] = [
       desc: 'A buyer-friendly overview of Ethiopia\'s key coffee regions, what "origin" means in practice, and how to source green coffee with better clarity on processing, profile, and traceability.'
     },
     {
-      small_image_url: 'yirgacheffe-vs-sidamo.webp',
-      large_image_url: 'yirgacheffe-vs-sidamo.webp',
+      small_image_url: 'insights/yirgacheffe-vs-sidamo.webp',
+      large_image_url: 'insights/yirgacheffe-vs-sidamo.webp',
       date: 'Nov 20, 2025',
       title: 'YIRGACHEFFE VS SIDAMO VS GUJI: WHICH ETHIOPIAN COFFEE IS RIGHT FOR YOU?',
       slug: 'yirgacheffe-vs-sidamo-vs-guji-comparison',
@@ -378,8 +378,8 @@ export const posts: Post[] = [
       desc: 'Compare Ethiopia\'s top coffee regions Yirgacheffe, Sidamo, and Guji to find the best origin for your needs. Includes flavor profiles, processing methods, and wholesale buying tips.'
     },
     {
-      small_image_url: 'washed-vs-natural.webp',
-      large_image_url: 'washed-vs-natural.webp',
+      small_image_url: 'insights/washed-vs-natural.webp',
+      large_image_url: 'insights/washed-vs-natural.webp',
       date: 'Nov 25, 2025',
       title: 'WASHED VS NATURAL PROCESSED ETHIOPIAN COFFEE: WHAT ROASTERS NEED TO KNOW',
       slug: 'washed-vs-natural-ethiopian-coffee-processing',
@@ -397,8 +397,8 @@ export const posts: Post[] = [
       desc: 'Understand the key differences between washed and natural processed Ethiopian coffee how each method affects flavor, roasting, and what your customers will taste in the cup.'
     },
     {
-      small_image_url: 'coffee-quality-defects.webp',
-      large_image_url: 'coffee-quality-defects.webp',
+      small_image_url: 'insights/coffee-quality-defects.webp',
+      large_image_url: 'insights/coffee-quality-defects.webp',
       date: 'Dec 01, 2025',
       title: 'GREEN COFFEE QUALITY CONTROL: DEFECTS, GRADING SYSTEMS & WHAT IMPORTERS SHOULD INSPECT',
       slug: 'green-coffee-quality-control-defects-grading',
@@ -424,8 +424,8 @@ export const posts: Post[] = [
       desc: 'A practical guide for importers and roasters on green coffee quality control understanding defect categories, Ethiopian grading standards, moisture and density testing, and what to inspect before committing to a lot from your Ethiopian coffee supplier.'
     },
     {
-      small_image_url: 'dry-coffee-processing-ethiopia.webp',
-      large_image_url: 'dry-coffee-processing-ethiopia.webp',
+      small_image_url: 'insights/dry-coffee-processing-ethiopia.webp',
+      large_image_url: 'insights/dry-coffee-processing-ethiopia.webp',
       date: 'Dec 05, 2025',
       title: 'ETHIOPIAN DRY COFFEE PRODUCTION: COMPLETE QUALITY CONTROL & PROCESSING GUIDE FOR EXPORTERS',
       slug: 'ethiopian-dry-coffee-production-quality-control',
@@ -471,8 +471,8 @@ export const posts: Post[] = [
       desc: 'Comprehensive guide to Ethiopian dry coffee production and quality control. Learn about ECTA training programs, quality standards, common defects and prevention, processing infrastructure, central market requirements, and the Ethiopian Coffee Authority\'s initiatives to maintain excellence from cherry to export-ready green coffee for international specialty buyers.'
     },
     {
-      small_image_url: 'coffee-cupping-quality.webp',
-      large_image_url: 'coffee-cupping-quality.webp',
+      small_image_url: 'insights/coffee-cupping-quality.webp',
+      large_image_url: 'insights/coffee-cupping-quality.webp',
       date: 'Dec 08, 2025',
       title: 'THE NEW SCA COFFEE VALUE ASSESSMENT: BEYOND THE 100-POINT CUPPING SCORE',
       slug: 'new-sca-coffee-value-assessment',
@@ -506,8 +506,8 @@ export const posts: Post[] = [
       desc: 'Understanding the SCA Coffee Value Assessment (CVA) the next-generation specialty coffee quality evaluation system that goes beyond the traditional 100-point score. Essential guide for Ethiopian coffee exporters, importers, and specialty coffee buyers on new grading standards, cupping protocols, and quality assessment methods.'
     },
     {
-      small_image_url: 'ecx-coffee-export.webp',
-      large_image_url: 'ecx-coffee-export.webp',
+      small_image_url: 'insights/ecx-coffee-export.webp',
+      large_image_url: 'insights/ecx-coffee-export.webp',
       date: 'Dec 15, 2025',
       title: 'THE ETHIOPIA COMMODITY EXCHANGE (ECX) AND ETHIOPIAN COFFEE EXPORT',
       slug: 'ecx-and-ethiopian-coffee-export',
@@ -534,8 +534,8 @@ export const posts: Post[] = [
     // ===== IMPORT GUIDES BY COUNTRY (Grouped by Region) =====
     // North America
     {
-      small_image_url: 'usa-coffee-import.webp',
-      large_image_url: 'usa-coffee-import.webp',
+      small_image_url: 'insights/usa-coffee-import.webp',
+      large_image_url: 'insights/usa-coffee-import.webp',
       date: 'Dec 20, 2025',
       title: 'HOW TO IMPORT ETHIOPIAN SPECIALTY COFFEE TO THE UNITED STATES: COMPLETE GUIDE',
       slug: 'how-to-import-ethiopian-coffee-to-usa',
@@ -561,8 +561,8 @@ export const posts: Post[] = [
       desc: 'Complete guide to importing Ethiopian specialty coffee to the United States covering FDA regulations, customs documentation, shipping logistics, USDA requirements, cost breakdown, and working with Ethio Coffee Export for smooth US imports.'
     },
     {
-      small_image_url: 'canada-coffee-import.webp',
-      large_image_url: 'canada-coffee-import.webp',
+      small_image_url: 'insights/canada-coffee-import.webp',
+      large_image_url: 'insights/canada-coffee-import.webp',
       date: 'Dec 22, 2025',
       title: 'IMPORTING ETHIOPIAN SPECIALTY COFFEE TO CANADA: THE COMPLETE PRACTICAL GUIDE',
       slug: 'importing-ethiopian-coffee-to-canada-guide',
@@ -590,8 +590,8 @@ export const posts: Post[] = [
     },
     // Europe
     {
-      small_image_url: 'germany-coffee-import.webp',
-      large_image_url: 'germany-coffee-import.webp',
+      small_image_url: 'insights/germany-coffee-import.webp',
+      large_image_url: 'insights/germany-coffee-import.webp',
       date: 'Dec 26, 2025',
       title: 'IMPORTING ETHIOPIAN COFFEE TO GERMANY: COMPLETE EU MARKET ENTRY GUIDE',
       slug: 'importing-ethiopian-coffee-to-germany',
@@ -618,8 +618,8 @@ export const posts: Post[] = [
       desc: 'Complete guide to importing Ethiopian specialty coffee to Germany and the EU covering EU food safety regulations, BVL compliance, German customs procedures, Kaffeesteuer (coffee tax), Form A GSP+ duty-free treatment, shipping to Hamburg port, bonded warehouse strategies, cost analysis, and partnering with Ethio Coffee Export for successful German/EU market entry.'
     },
     {
-      small_image_url: 'rotterdam-coffee-import.webp',
-      large_image_url: 'rotterdam-coffee-import.webp',
+      small_image_url: 'insights/rotterdam-coffee-import.webp',
+      large_image_url: 'insights/rotterdam-coffee-import.webp',
       date: 'Dec 28, 2025',
       title: 'IMPORTING ETHIOPIAN COFFEE TO THE NETHERLANDS: ROTTERDAM GUIDE',
       slug: 'importing-ethiopian-coffee-to-holland',
@@ -642,8 +642,8 @@ export const posts: Post[] = [
     },
     // Middle East
     {
-      small_image_url: 'saudi-coffee-import.webp',
-      large_image_url: 'saudi-coffee-import.webp',
+      small_image_url: 'insights/saudi-coffee-import.webp',
+      large_image_url: 'insights/saudi-coffee-import.webp',
       date: 'Jan 02, 2026',
       title: 'HOW TO IMPORT ETHIOPIAN COFFEE TO SAUDI ARABIA: COMPLETE KSA IMPORT GUIDE',
       slug: 'importing-ethiopian-coffee-to-saudi-arabia',
@@ -670,8 +670,8 @@ export const posts: Post[] = [
       desc: 'Complete guide to importing Ethiopian specialty coffee to Saudi Arabia covering SFDA product registration, Zatca customs clearance, SABER conformity, VAT structure, Red Sea shipping from Djibouti to Jeddah, cost analysis, and working with Ethio Coffee Export for successful Saudi market entry.'
     },
     {
-      small_image_url: 'uae-coffee-import.webp',
-      large_image_url: 'uae-coffee-import.webp',
+      small_image_url: 'insights/uae-coffee-import.webp',
+      large_image_url: 'insights/uae-coffee-import.webp',
       date: 'Jan 04, 2026',
       title: 'IMPORTING ETHIOPIAN COFFEE TO UAE: COMPLETE DUBAI IMPORT GUIDE',
       slug: 'importing-ethiopian-coffee-to-uae',
@@ -699,8 +699,8 @@ export const posts: Post[] = [
     },
     // Asia
     {
-      small_image_url: 'japan-coffee-import.webp',
-      large_image_url: 'japan-coffee-import.webp',
+      small_image_url: 'insights/japan-coffee-import.webp',
+      large_image_url: 'insights/japan-coffee-import.webp',
       date: 'Jan 06, 2026',
       title: 'IMPORTING ETHIOPIAN COFFEE TO JAPAN: COMPLETE MARKET ENTRY GUIDE',
       slug: 'importing-ethiopian-coffee-to-japan',
@@ -728,8 +728,8 @@ export const posts: Post[] = [
     },
     // ===== MARKET INSIGHTS & TRENDS (Timely Content) =====
     {
-      small_image_url: 'ethiopia-china-coffee-trade.webp',
-      large_image_url: 'ethiopia-china-coffee-trade.webp',
+      small_image_url: 'insights/ethiopia-china-coffee-trade.webp',
+      large_image_url: 'insights/ethiopia-china-coffee-trade.webp',
       date: 'Nov 10, 2025',
       title: 'ETHIOPIA-CHINA COFFEE TRADE PARTNERSHIP: FROM 33RD TO 4TH LARGEST EXPORT DESTINATION',
       slug: 'ethiopia-china-coffee-trade-partnership',
@@ -775,8 +775,8 @@ export const posts: Post[] = [
       desc: 'Comprehensive analysis of Ethiopia-China coffee trade partnership that elevated China from 33rd to 4th largest Ethiopian coffee export destination. Learn about free tariff opportunities, technology transfer, e-commerce integration, government cooperation initiatives, Chinese market growth trends, and strategic sourcing opportunities for buyers and exporters in this rapidly expanding bilateral coffee corridor.'
     },
     {
-      small_image_url: 'ethiopian-harvest-2025.webp',
-      large_image_url: 'ethiopian-harvest-2025.webp',
+      small_image_url: 'insights/ethiopian-harvest-2025.webp',
+      large_image_url: 'insights/ethiopian-harvest-2025.webp',
       date: 'Jan 08, 2026',
       title: 'ETHIOPIAN COFFEE HARVEST 2025: SEASON OUTLOOK, QUALITY EXPECTATIONS & BUYER PLANNING GUIDE',
       slug: 'ethiopian-coffee-harvest-2025-season-outlook',
@@ -801,8 +801,8 @@ export const posts: Post[] = [
       desc: 'Our comprehensive 2025 Ethiopian coffee harvest report covering regional outlooks for Yirgacheffe, Sidamo, Guji, and Harrar plus quality expectations, pricing trends, and a planning timeline for importers and roasters sourcing green coffee from Ethiopia.'
     },
     {
-      small_image_url: 'world-best-coffee-shops.webp',
-      large_image_url: 'world-best-coffee-shops.webp',
+      small_image_url: 'insights/world-best-coffee-shops.webp',
+      large_image_url: 'insights/world-best-coffee-shops.webp',
       date: 'Jan 12, 2026',
       title: 'TOP 10 SPECIALTY COFFEE SHOPS AROUND THE WORLD',
       slug: 'top-10-specialty-coffee-shops-world',
@@ -824,8 +824,8 @@ export const posts: Post[] = [
       desc: 'A curated list of the world\'s most influential specialty coffee shops from Oslo to Tokyo defining the standards of roasting, service, and sourcing. Discover why the top industry leaders rely on Ethiopian origins to set themselves apart.'
     },
     {
-      small_image_url: 'cofee-blog-3-1.png',
-      large_image_url: 'cofee-blog-3-1.png',
+      small_image_url: 'insights/cofee-blog-3-1.png',
+      large_image_url: 'insights/cofee-blog-3-1.png',
       date: 'Jan 18, 2026',
       title: 'THE FUTURE IS FLORAL: 5 SPECIALTY COFFEE TRENDS DEFINING 2026',
       slug: 'specialty-coffee-trends-2026',
@@ -834,8 +834,8 @@ export const posts: Post[] = [
       desc: 'Five specialty coffee trends shaping 2026-hyper-traceability, experimental processing, climate resilience, flash chill growth, and story-driven premiumization-and why Ethiopian origins are positioned to lead.'
     },
     {
-      small_image_url: 'rising-coffee-prices.webp',
-      large_image_url: 'rising-coffee-prices.webp',
+      small_image_url: 'insights/rising-coffee-prices.webp',
+      large_image_url: 'insights/rising-coffee-prices.webp',
       date: 'Jan 22, 2026',
       title: 'THE STORY BEHIND RISING ETHIOPIAN COFFEE PRICES: COMPREHENSIVE MARKET ANALYSIS',
       slug: 'rising-ethiopian-coffee-prices-explained',
@@ -882,8 +882,8 @@ export const posts: Post[] = [
     },
     // ===== REGULATIONS & COMPLIANCE (Most Recent/Timely) =====
     {
-      small_image_url: 'eu-deforestation-regulation.webp',
-      large_image_url: 'eu-deforestation-regulation.webp',
+      small_image_url: 'insights/eu-deforestation-regulation.webp',
+      large_image_url: 'insights/eu-deforestation-regulation.webp',
       date: 'Jan 28, 2026',
       title: 'EU DEFORESTATION REGULATION (EUDR) AND ETHIOPIAN COFFEE: COMPLETE COMPLIANCE GUIDE FOR EXPORTERS',
       slug: 'eu-deforestation-regulation-ethiopian-coffee-compliance',
@@ -929,8 +929,8 @@ export const posts: Post[] = [
       desc: 'Complete guide to the EU Deforestation Regulation (EUDR) for Ethiopian coffee exporters and EU importers. Understand requirements, timelines, traceability systems, geolocation data, compliance steps, and how Ethiopia is preparing to meet deforestation-free certification standards for coffee exports to European markets.'
     },
     {
-      small_image_url: 'afca-competition-coffee.webp',
-      large_image_url: 'afca-competition-coffee.webp',
+      small_image_url: 'insights/afca-competition-coffee.webp',
+      large_image_url: 'insights/afca-competition-coffee.webp',
       date: 'Jan 30, 2026',
       title: 'AFCA TASTE OF HARVEST: ETHIOPIAN COFFEE COMPETITION, CERTIFICATION & AUCTION OPPORTUNITIES',
       slug: 'afca-taste-of-harvest-ethiopian-coffee-competition',
