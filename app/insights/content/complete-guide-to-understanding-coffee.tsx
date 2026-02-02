@@ -15,8 +15,25 @@ import {
   HiOutlineScale,
   HiOutlineStar,
   HiOutlineArrowPath,
-  HiOutlineCube
+  HiOutlineCube,
+  HiOutlineBookOpen,
+  HiOutlineSun,
+  HiOutlineMoon,
+  HiOutlineCloud,
+  HiOutlineBanknotes,
+  HiOutlineExclamationTriangle,
+  HiOutlineUserGroup,
+  HiOutlineSquare3Stack3D
 } from 'react-icons/hi2'
+import { 
+  PiTree, 
+  PiLeaf, 
+  PiFlowerLotus, 
+  PiDropHalfBottom,
+  PiThermometerHot,
+  PiCloudRain,
+  PiMountains
+} from 'react-icons/pi'
 
 type InsightContentProps = {
   title: string
@@ -62,7 +79,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       {/* Table of Contents */}
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
-        <h3 className='text-xl font-bold mb-4'>📖 Table of Contents</h3>
+        <h3 className='text-xl font-bold mb-4 flex items-center gap-2'><HiOutlineBookOpen className='text-amber-600' /> Table of Contents</h3>
         <ol className='space-y-2 text-sm'>
           <li><a href="#origins" className='text-blue-600 hover:underline'>1. The Origins of Coffee: Ethiopia's Gift to the World</a></li>
           <li><a href="#coffee-plant" className='text-blue-600 hover:underline'>2. Understanding the Coffee Plant</a></li>
@@ -169,7 +186,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <div className='grid md:grid-cols-2 gap-6 my-6'>
         <div className='border border-gray-200 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-2'>🌳 The Tree</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><PiTree className='text-green-600' /> The Tree</h5>
           <ul className='space-y-2 text-sm'>
             <li>• Can grow up to 9 meters (30 feet) tall, but usually pruned to 2-3 meters for harvesting</li>
             <li>• Lives 20-30 years commercially; can live 100+ years in the wild</li>
@@ -178,7 +195,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-2'>🍃 The Leaves</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><PiLeaf className='text-green-600' /> The Leaves</h5>
           <ul className='space-y-2 text-sm'>
             <li>• Dark green, waxy, elliptical leaves</li>
             <li>• Grow in pairs along the branches</li>
@@ -187,7 +204,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-2'>🌸 The Flowers</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><PiFlowerLotus className='text-pink-500' /> The Flowers</h5>
           <ul className='space-y-2 text-sm'>
             <li>• Small, white, jasmine-scented flowers</li>
             <li>• Bloom after rainfall (triggering the harvest cycle)</li>
@@ -196,7 +213,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-2'>🍒 The Cherry (Fruit)</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><HiOutlineSparkles className='text-red-500' /> The Cherry (Fruit)</h5>
           <ul className='space-y-2 text-sm'>
             <li>• Takes 7-9 months to ripen (Arabica) or 9-11 months (Robusta)</li>
             <li>• Turns from green to yellow to bright red when ripe</li>
@@ -380,7 +397,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <div className='grid md:grid-cols-3 gap-6 my-6'>
         <div className='border border-gray-200 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-2 text-amber-700'>🌍 Africa & Arabia</h5>
+          <h5 className='font-bold text-lg mb-2 text-amber-700 flex items-center gap-2'><HiOutlineGlobeAlt /> Africa & Arabia</h5>
           <p className='text-sm mb-3'>The birthplace of coffee, known for distinctive, complex profiles.</p>
           <ul className='space-y-1 text-sm'>
             <li><span className='font-bold'>Ethiopia:</span> Floral, fruity, wine-like</li>
@@ -392,7 +409,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-2 text-green-700'>🌎 The Americas</h5>
+          <h5 className='font-bold text-lg mb-2 text-green-700 flex items-center gap-2'><HiOutlineGlobeAlt /> The Americas</h5>
           <p className='text-sm mb-3'>The largest producing region, known for balanced, approachable profiles.</p>
           <ul className='space-y-1 text-sm'>
             <li><span className='font-bold'>Brazil:</span> Nutty, chocolatey, low acidity</li>
@@ -404,7 +421,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-2 text-blue-700'>🌏 Asia & Pacific</h5>
+          <h5 className='font-bold text-lg mb-2 text-blue-700 flex items-center gap-2'><HiOutlineGlobeAlt /> Asia & Pacific</h5>
           <p className='text-sm mb-3'>Diverse region with unique processing traditions.</p>
           <ul className='space-y-1 text-sm'>
             <li><span className='font-bold'>Indonesia:</span> Earthy, herbal, full-bodied</li>
@@ -460,7 +477,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <div className='space-y-6 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold text-lg mb-2'>🏔️ Altitude</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><PiMountains className='text-gray-600' /> Altitude</h5>
           <p className='mb-3'>Perhaps the most critical factor for quality. Higher altitudes mean cooler temperatures, slower cherry maturation, and denser beans with more complex sugars.</p>
           <ul className='text-sm space-y-1'>
             <li><span className='font-bold'>Low (below 1,000m):</span> Softer beans, milder flavor, less acidity</li>
@@ -471,22 +488,22 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold text-lg mb-2'>🌡️ Temperature & Climate</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><PiThermometerHot className='text-orange-500' /> Temperature & Climate</h5>
           <p className='mb-3'>Arabica thrives between 15-24°C (59-75°F). Consistent temperatures without frost are essential. Diurnal variation (temperature difference between day and night) enhances flavor development.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold text-lg mb-2'>🌧️ Rainfall</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><PiCloudRain className='text-blue-500' /> Rainfall</h5>
           <p className='mb-3'>Coffee needs 1,500-2,000mm of rainfall annually, ideally with a distinct dry season for harvesting. Too much rain during harvest causes quality problems; too little stresses the plant.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold text-lg mb-2'>🪨 Soil</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><HiOutlineSquare3Stack3D className='text-amber-700' /> Soil</h5>
           <p className='mb-3'>Volcanic soils are prized for their mineral content and drainage. Different soil compositions contribute different mineral profiles to the cup. Ethiopian soils are particularly diverse due to the country&apos;s geological history.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold text-lg mb-2'>☀️ Sun Exposure</h5>
+          <h5 className='font-bold text-lg mb-2 flex items-center gap-2'><HiOutlineSun className='text-yellow-500' /> Sun Exposure</h5>
           <p className='mb-3'>Coffee naturally grows as an understory plant in forests. Shade-grown coffee matures more slowly, developing more complex flavors. Full-sun cultivation increases yields but may reduce quality and requires more inputs.</p>
         </div>
       </div>
@@ -555,7 +572,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       <div className='space-y-6 my-6'>
         {/* Washed */}
         <div className='border border-blue-200 rounded-lg p-6 bg-blue-50'>
-          <h5 className='font-bold text-xl mb-3 text-blue-800'>💧 Washed (Wet) Processing</h5>
+          <h5 className='font-bold text-xl mb-3 text-blue-800 flex items-center gap-2'><PiDropHalfBottom /> Washed (Wet) Processing</h5>
           <p className='mb-4'>
             The most common method for specialty coffee. Produces clean, bright cups that clearly express terroir and variety characteristics.
           </p>
@@ -575,7 +592,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
         {/* Natural */}
         <div className='border border-red-200 rounded-lg p-6 bg-red-50'>
-          <h5 className='font-bold text-xl mb-3 text-red-800'>☀️ Natural (Dry) Processing</h5>
+          <h5 className='font-bold text-xl mb-3 text-red-800 flex items-center gap-2'><HiOutlineSun /> Natural (Dry) Processing</h5>
           <p className='mb-4'>
             The oldest method, predating washed processing. The whole cherry dries intact, allowing fruit sugars to infuse the bean.
           </p>
@@ -594,7 +611,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
         {/* Honey */}
         <div className='border border-amber-200 rounded-lg p-6 bg-amber-50'>
-          <h5 className='font-bold text-xl mb-3 text-amber-800'>🍯 Honey (Pulped Natural) Processing</h5>
+          <h5 className='font-bold text-xl mb-3 text-amber-800 flex items-center gap-2'><HiOutlineSparkles /> Honey (Pulped Natural) Processing</h5>
           <p className='mb-4'>
             A hybrid method where skin is removed but some or all mucilage remains during drying. Creates a spectrum of results.
           </p>
@@ -759,22 +776,22 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <div className='grid md:grid-cols-2 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2'>☀️ Light Roast</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineSun className='text-yellow-400' /> Light Roast</h5>
           <p className='text-sm mb-2'>Stopped at or shortly after first crack.</p>
           <p className='text-sm'><span className='font-bold'>Character:</span> Highest acidity, most origin character, fruity, floral, tea-like. Preferred for specialty single origins.</p>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2'>🌤️ Medium Roast</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineCloud className='text-amber-400' /> Medium Roast</h5>
           <p className='text-sm mb-2'>Between first and second crack.</p>
           <p className='text-sm'><span className='font-bold'>Character:</span> Balanced acidity and body, origin and roast flavors blend. Good for versatile brewing.</p>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2'>🌅 Medium-Dark Roast</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineFire className='text-orange-500' /> Medium-Dark Roast</h5>
           <p className='text-sm mb-2'>At or just into second crack.</p>
           <p className='text-sm'><span className='font-bold'>Character:</span> Lower acidity, fuller body, chocolate and caramel notes, some origin character remains.</p>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2'>🌑 Dark Roast</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineMoon className='text-gray-700' /> Dark Roast</h5>
           <p className='text-sm mb-2'>Well into or past second crack.</p>
           <p className='text-sm'><span className='font-bold'>Character:</span> Very low acidity, heavy body, smoky, bitter, charred notes. Origin characteristics largely obscured.</p>
         </div>
@@ -1090,19 +1107,19 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <div className='space-y-4 my-6'>
         <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
-          <h5 className='font-bold text-red-800 mb-2'>🌡️ Climate Change</h5>
+          <h5 className='font-bold text-red-800 mb-2 flex items-center gap-2'><PiThermometerHot /> Climate Change</h5>
           <p className='text-sm'>Rising temperatures are pushing viable coffee-growing zones higher in altitude. By 2050, up to 50% of current Arabica-growing land may become unsuitable. Ethiopia&apos;s highlands are among the most vulnerable.</p>
         </div>
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold text-amber-800 mb-2'>💰 Price Volatility</h5>
+          <h5 className='font-bold text-amber-800 mb-2 flex items-center gap-2'><HiOutlineBanknotes /> Price Volatility</h5>
           <p className='text-sm'>Commodity prices fluctuate wildly, making it difficult for farmers to plan and invest. Many smallholders earn below the cost of production, leading to farm abandonment and aging farmer populations.</p>
         </div>
         <div className='bg-orange-50 p-5 rounded-lg border border-orange-200'>
-          <h5 className='font-bold text-orange-800 mb-2'>🦠 Disease Pressure</h5>
+          <h5 className='font-bold text-orange-800 mb-2 flex items-center gap-2'><HiOutlineExclamationTriangle /> Disease Pressure</h5>
           <p className='text-sm'>Coffee Leaf Rust (la roya) and Coffee Berry Disease threaten crops globally. Arabica&apos;s limited genetic diversity makes it particularly vulnerable. Climate change is expanding disease ranges.</p>
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-2'>👥 Labor Challenges</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineUserGroup className='text-gray-600' /> Labor Challenges</h5>
           <p className='text-sm'>Younger generations are leaving coffee farming for urban opportunities. Harvesting remains labor-intensive and seasonal. Fair wages and working conditions remain issues in many regions.</p>
         </div>
       </div>
