@@ -48,7 +48,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Everything you need to know about coffee—from its Ethiopian origins to your cup. A comprehensive guide for coffee lovers, buyers, roasters, and industry professionals.
+        Everything you need to know about coffee from its Ethiopian origins to your cup. A comprehensive guide for coffee lovers, buyers, roasters, and industry professionals.
       </h2>
 
       <figure>
@@ -109,7 +109,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineSparkles className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Why This Matters:</span> Coffee is the world&apos;s second most traded commodity after oil. Over 2.25 billion cups are consumed every day. Yet most people know surprisingly little about what goes into producing the coffee they drink. Knowledge is the key to appreciation—and to making better choices.</span>
+          <span><span className='font-bold'>Why This Matters:</span> Coffee is the world&apos;s second most traded commodity after oil. Over 2.25 billion cups are consumed every day. Yet most people know surprisingly little about what goes into producing the coffee they drink. Knowledge is the key to appreciation and to making better choices.</span>
         </p>
       </div>
 
@@ -120,13 +120,13 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </h3>
       
       <p className='my-4'>
-        The story of coffee begins in the ancient forests of <span className='font-bold'>Ethiopia</span>—the birthplace of Arabica coffee. Legend tells of a goat herder named Kaldi who noticed his goats becoming unusually energetic after eating red berries from a certain tree. This discovery, dating back over 1,000 years, would eventually change the world.
+        The story of coffee begins in the ancient forests of <span className='font-bold'>Ethiopia</span> the birthplace of Arabica coffee. Legend tells of a goat herder named Kaldi who noticed his goats becoming unusually energetic after eating red berries from a certain tree. This discovery, dating back over 1,000 years, would eventually change the world.
       </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-lg mb-3'>The Ethiopian Coffee Origin Story</h4>
         <p className='mb-3'>
-          Ethiopia&apos;s southwestern highlands—the Kaffa region (from which the word "coffee" derives)—contain the only place on Earth where coffee grows wild in its natural state. These ancient coffee forests are genetically diverse beyond anything found elsewhere, containing thousands of unique varieties that scientists are still cataloging.
+          Ethiopia&apos;s southwestern highlands the Kaffa region (from which the word "coffee" derives) contain the only place on Earth where coffee grows wild in its natural state. These ancient coffee forests are genetically diverse beyond anything found elsewhere, containing thousands of unique varieties that scientists are still cataloging.
         </p>
         <p>
           From Ethiopia, coffee spread to Yemen in the 15th century, where it was first cultivated and traded. From there, it traveled through the Ottoman Empire to Europe, and eventually to every corner of the globe.
@@ -470,7 +470,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Terroir</span> (pronounced ter-WAHR) is a French term borrowed from wine that describes how a coffee&apos;s environment—its specific place of origin—shapes its flavor. The same variety grown in different locations will taste distinctly different.
+        <span className='font-bold'>Terroir</span> (pronounced ter-WAHR) is a French term borrowed from wine that describes how a coffee&apos;s environment its specific place of origin shapes its flavor. The same variety grown in different locations will taste distinctly different.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Key Terroir Factors</h4>
@@ -515,7 +515,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        Coffee cherries don&apos;t ripen uniformly—even on the same branch, you&apos;ll find cherries at different stages. How they&apos;re harvested significantly impacts quality.
+        Coffee cherries don&apos;t ripen uniformly even on the same branch, you&apos;ll find cherries at different stages. How they&apos;re harvested significantly impacts quality.
       </p>
 
       <div className='grid md:grid-cols-2 gap-6 my-6'>
@@ -564,7 +564,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Processing</span> is how the coffee cherry is transformed into green (exportable) coffee. It&apos;s one of the most significant factors affecting flavor—the same beans processed differently will taste entirely different.
+        <span className='font-bold'>Processing</span> is how the coffee cherry is transformed into green (exportable) coffee. It&apos;s one of the most significant factors affecting flavor the same beans processed differently will taste entirely different.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>The Three Primary Processing Methods</h4>
@@ -900,7 +900,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h5 className='font-bold text-lg mb-2'>2. Grind Size</h5>
-          <p className='text-sm mb-2'>Affects extraction rate—finer = faster extraction:</p>
+          <p className='text-sm mb-2'>Affects extraction rate finer = faster extraction:</p>
           <ul className='text-sm space-y-1'>
             <li>• <span className='font-bold'>Coarse:</span> French press, cold brew</li>
             <li>• <span className='font-bold'>Medium:</span> Pour over, drip</li>
@@ -1088,7 +1088,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           <span className='bg-amber-500 text-white font-bold w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0'>8</span>
           <div>
             <h5 className='font-bold'>Consumer</h5>
-            <p className='text-sm'>Enjoys the final cup—the end of a journey that started on a farm often thousands of miles away.</p>
+            <p className='text-sm'>Enjoys the final cup the end of a journey that started on a farm often thousands of miles away.</p>
           </div>
         </div>
       </div>
@@ -1161,7 +1161,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           Coffee is one of the most complex, fascinating products humans have ever created. From its discovery in Ethiopia&apos;s ancient forests to the cutting-edge science of modern roasting and brewing, every cup represents an extraordinary journey of transformation.
         </p>
         <p className='mb-3'>
-          Understanding coffee deeply—its origins, cultivation, processing, trading, roasting, and brewing—transforms how you experience it. You&apos;re no longer just drinking a beverage; you&apos;re participating in a global story that connects millions of farmers, traders, roasters, and coffee lovers.
+          Understanding coffee deeply its origins, cultivation, processing, trading, roasting, and brewing transforms how you experience it. You&apos;re no longer just drinking a beverage; you&apos;re participating in a global story that connects millions of farmers, traders, roasters, and coffee lovers.
         </p>
         <p>
           Whether you&apos;re a casual coffee drinker looking to appreciate your morning cup more fully, or a professional seeking to deepen your expertise, the journey of coffee knowledge never ends. There&apos;s always more to learn, taste, and discover.
@@ -1174,7 +1174,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       <div className='my-6 space-y-3'>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Coffee originated in Ethiopia and spread globally over 1,000+ years—Ethiopian coffee forests contain irreplaceable genetic diversity</p>
+          <p>Coffee originated in Ethiopia and spread globally over 1,000+ years Ethiopian coffee forests contain irreplaceable genetic diversity</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
@@ -1182,7 +1182,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Terroir (altitude, climate, soil) significantly affects coffee flavor—high-altitude Ethiopian coffees are prized worldwide</p>
+          <p>Terroir (altitude, climate, soil) significantly affects coffee flavor high-altitude Ethiopian coffees are prized worldwide</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
@@ -1194,7 +1194,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Roasting transforms green coffee through chemical reactions—lighter roasts preserve origin character</p>
+          <p>Roasting transforms green coffee through chemical reactions lighter roasts preserve origin character</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
@@ -1202,7 +1202,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Climate change, price volatility, and disease pressure threaten coffee&apos;s future—supporting quality and sustainability matters</p>
+          <p>Climate change, price volatility, and disease pressure threaten coffee&apos;s future supporting quality and sustainability matters</p>
         </div>
       </div>
 
@@ -1304,7 +1304,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </div>
 
       <p className='my-4 text-sm text-gray-600 italic'>
-        This guide was written by the team at <span className='font-semibold'>Ethio Coffee Export PLC</span>—coffee professionals with years of experience in Ethiopian specialty coffee export. We&apos;re committed to sharing knowledge that helps the global coffee community understand and appreciate Ethiopian coffee. For questions about sourcing, partnerships, or anything coffee-related, <Link href="/contact-us" className='text-blue-600 underline'>get in touch with us</Link>.
+        This guide was written by the team at <span className='font-semibold'>Ethio Coffee Export PLC</span> coffee professionals with years of experience in Ethiopian specialty coffee export. We&apos;re committed to sharing knowledge that helps the global coffee community understand and appreciate Ethiopian coffee. For questions about sourcing, partnerships, or anything coffee-related, <Link href="/contact-us" className='text-blue-600 underline'>get in touch with us</Link>.
       </p>
     </>
   )

@@ -60,7 +60,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
       </p>
 
       <p className='my-4'>
-        Enter the <span className='font-bold'>Coffee Value Assessment (CVA)</span>—the Specialty Coffee Association's next-generation evaluation system that's fundamentally changing how we measure, communicate, and understand coffee quality. Officially advancing to its next phase in June 2024, the CVA represents the most significant update to coffee evaluation protocols in a generation.
+        Enter the <span className='font-bold'>Coffee Value Assessment (CVA)</span> the Specialty Coffee Association's next-generation evaluation system that's fundamentally changing how we measure, communicate, and understand coffee quality. Officially advancing to its next phase in June 2024, the CVA represents the most significant update to coffee evaluation protocols in a generation.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>

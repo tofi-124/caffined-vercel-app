@@ -595,7 +595,7 @@ export const posts: Post[] = [
         'coffee tourism',
         'green coffee quality'
       ],
-      desc: 'A curated list of the world\'s most influential specialty coffee shops—from Oslo to Tokyo—defining the standards of roasting, service, and sourcing. Discover why the top industry leaders rely on Ethiopian origins to set themselves apart.'
+      desc: 'A curated list of the world\'s most influential specialty coffee shops from Oslo to Tokyo defining the standards of roasting, service, and sourcing. Discover why the top industry leaders rely on Ethiopian origins to set themselves apart.'
     },
     {
       small_image_url: 'coffee-cupping-quality.webp',
