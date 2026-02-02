@@ -1206,21 +1206,105 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
       </div>
 
-      <hr className="my-8 border-gray-200" />
+      {/* ETHIO COFFEE EXPORT CTA */}
+      <div className='bg-gradient-to-br from-amber-900 to-amber-800 text-white p-8 rounded-lg my-8'>
+        <h3 className='text-2xl font-extrabold mb-4'>
+          Ready to Source Premium Ethiopian Coffee?
+        </h3>
+        <p className='mb-4'>
+          <span className='font-bold'>Ethio Coffee Export PLC</span> is your trusted partner for sourcing specialty-grade Ethiopian green coffee. From the floral heights of Yirgacheffe to the fruity depths of Guji, we connect importers worldwide with Ethiopia&apos;s finest origins.
+        </p>
+        <ul className='space-y-2 mb-6'>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Direct sourcing</span> from Ethiopian farmers and cooperatives</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Full traceability</span> from farm to port with ECX-registered exports</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Specialty grades</span> G1 and G2 washed and natural processed</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Professional service</span> including documentation, shipping coordination, and quality assurance</span>
+          </li>
+        </ul>
+        <div className='flex flex-wrap gap-4'>
+          <Link 
+            href="/contact-us" 
+            className='bg-white text-amber-900 px-6 py-3 rounded-lg font-bold hover:bg-amber-100 transition-colors inline-block'
+          >
+            Request a Quote
+          </Link>
+          <Link 
+            href="/offerings" 
+            className='border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block'
+          >
+            View Our Offerings
+          </Link>
+        </div>
+      </div>
 
-      <div className='bg-gray-50 p-6 rounded-lg my-6'>
-        <h4 className='font-bold text-lg mb-3'>Continue Your Coffee Education:</h4>
-        <ul className='space-y-2 text-sm'>
-          <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 underline'>The New SCA Coffee Value Assessment: Beyond the 100-Point Score</Link></li>
-          <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 underline'>Understanding the Ethiopia Commodity Exchange (ECX)</Link></li>
-          <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 underline'>Green Coffee Quality Control: Defects, Grading & What to Inspect</Link></li>
-          <li>• <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className='text-blue-600 underline'>Yirgacheffe vs. Sidamo vs. Guji: Which Ethiopian Coffee Is Right for You?</Link></li>
-          <li>• <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className='text-blue-600 underline'>Washed vs. Natural Processed Ethiopian Coffee</Link></li>
+      {/* MORE RESOURCES */}
+      <h3 className='text-2xl font-extrabold mt-10 mb-4'>
+        Explore More Resources
+      </h3>
+      
+      <div className='grid md:grid-cols-2 gap-4 my-6'>
+        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
+          <h4 className='font-bold mb-2'>For Importers</h4>
+          <ul className='space-y-1 text-sm'>
+            <li>• <Link href="/insights/how-to-import-ethiopian-coffee-to-usa" className='text-blue-600 hover:underline'>Import Guide: USA</Link></li>
+            <li>• <Link href="/insights/importing-ethiopian-coffee-to-canada-guide" className='text-blue-600 hover:underline'>Import Guide: Canada</Link></li>
+            <li>• <Link href="/insights/importing-ethiopian-coffee-to-germany" className='text-blue-600 hover:underline'>Import Guide: Germany & EU</Link></li>
+            <li>• <Link href="/insights/importing-ethiopian-coffee-to-japan" className='text-blue-600 hover:underline'>Import Guide: Japan</Link></li>
+            <li>• <Link href="/insights/importing-ethiopian-coffee-to-uae" className='text-blue-600 hover:underline'>Import Guide: UAE</Link></li>
+          </ul>
+        </div>
+        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
+          <h4 className='font-bold mb-2'>Coffee Education Series</h4>
+          <ul className='space-y-1 text-sm'>
+            <li>• <Link href="/insights/coffee-plant-taxonomy-species-varieties" className='text-blue-600 hover:underline'>Coffee Is a Plant: Taxonomy & Varieties</Link></li>
+            <li>• <Link href="/insights/coffee-is-agriculture-production-farming" className='text-blue-600 hover:underline'>Coffee Is Agriculture: Production & Farming</Link></li>
+            <li>• <Link href="/insights/coffee-is-processing-drying-milling" className='text-blue-600 hover:underline'>Coffee Is a Process: Processing & Milling</Link></li>
+            <li>• <Link href="/insights/coffee-is-commerce-exporting-importing-buying" className='text-blue-600 hover:underline'>Coffee Is Commerce: Export & Import</Link></li>
+            <li>• <Link href="/insights/coffee-is-art-roasting-brewing" className='text-blue-600 hover:underline'>Coffee Is an Art: Roasting & Brewing</Link></li>
+          </ul>
+        </div>
+      </div>
+
+      <div className='border border-gray-200 rounded-lg p-4 my-6 hover:border-amber-400 transition-colors'>
+        <h4 className='font-bold mb-2'>Quality & Sourcing</h4>
+        <ul className='space-y-1 text-sm grid md:grid-cols-2 gap-x-4'>
+          <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+          <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 hover:underline'>Ethiopia Commodity Exchange (ECX) Guide</Link></li>
+          <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+          <li>• <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className='text-blue-600 hover:underline'>Yirgacheffe vs. Sidamo vs. Guji</Link></li>
+          <li>• <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className='text-blue-600 hover:underline'>Washed vs. Natural Processing</Link></li>
+          <li>• <Link href="/insights/how-to-source-green-coffee-from-ethiopia" className='text-blue-600 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
         </ul>
       </div>
 
+      <hr className="my-8 border-gray-200" />
+
+      <div className='bg-gray-100 p-6 rounded-lg my-6 text-center'>
+        <p className='font-bold text-lg mb-2'>Have Questions About Ethiopian Coffee?</p>
+        <p className='text-gray-700 mb-4'>
+          Our team of coffee professionals is ready to help you source the perfect Ethiopian green coffee for your business.
+        </p>
+        <Link 
+          href="/contact-us" 
+          className='bg-dark text-primary px-6 py-3 rounded-lg font-bold hover:bg-gray-800 transition-colors inline-block'
+        >
+          Contact Ethio Coffee Export
+        </Link>
+      </div>
+
       <p className='my-4 text-sm text-gray-600 italic'>
-        This guide was written by coffee professionals with years of experience in Ethiopian coffee export and specialty coffee sourcing. For questions about sourcing Ethiopian green coffee, <Link href="/contact-us" className='text-blue-600 underline'>contact our team</Link>.
+        This guide was written by the team at <span className='font-semibold'>Ethio Coffee Export PLC</span>—coffee professionals with years of experience in Ethiopian specialty coffee export. We&apos;re committed to sharing knowledge that helps the global coffee community understand and appreciate Ethiopian coffee. For questions about sourcing, partnerships, or anything coffee-related, <Link href="/contact-us" className='text-blue-600 underline'>get in touch with us</Link>.
       </p>
     </>
   )
