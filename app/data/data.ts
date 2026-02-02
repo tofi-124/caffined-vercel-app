@@ -699,6 +699,37 @@ export const posts: Post[] = [
     },
     // Asia
     {
+      small_image_url: 'insights/south-korea-coffee-import.webp',
+      large_image_url: 'insights/south-korea-coffee-import.webp',
+      date: 'Jan 07, 2026',
+      title: 'IMPORTING ETHIOPIAN COFFEE TO SOUTH KOREA: COMPLETE MARKET GUIDE',
+      slug: 'importing-ethiopian-coffee-to-south-korea',
+      category: 'Import Guide / South Korea Market',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to south korea',
+        'import ethiopian coffee korea',
+        'korea coffee import regulations',
+        'mfds coffee import',
+        'south korea coffee market',
+        'busan port coffee',
+        'incheon port coffee',
+        'korean coffee market',
+        'specialty coffee korea',
+        'korea customs coffee',
+        'ethiopian coffee to korea',
+        'seoul coffee roasters',
+        'korean cafe culture',
+        'uni-pass customs system',
+        'korea vat coffee',
+        'asia coffee import',
+        'gangnam coffee shops',
+        'korean specialty coffee'
+      ],
+      desc: 'Complete guide to importing Ethiopian specialty coffee to South Korea covering MFDS (Ministry of Food and Drug Safety) compliance, Korea Customs procedures, UNI-PASS electronic system, zero import duty, VAT structure, shipping to Busan and Incheon ports, Korean coffee market trends, cafe culture insights, cost breakdown, and partnering with Ethio Coffee Export for successful Korean market entry.'
+    },
+    {
       small_image_url: 'insights/japan-coffee-import.webp',
       large_image_url: 'insights/japan-coffee-import.webp',
       date: 'Jan 06, 2026',
