@@ -1105,7 +1105,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/ethiopian-coffee-certifications.webp',
       large_image_url: 'insights/ethiopian-coffee-certifications.webp',
-      date: 'Feb 02, 2026',
+      date: 'Jan 31, 2026',
       title: 'ETHIOPIAN COFFEE CERTIFICATIONS GUIDE: ORGANIC, FAIR TRADE, RAINFOREST ALLIANCE & MORE',
       slug: 'ethiopian-coffee-certifications-organic-fairtrade-rainforest',
       category: 'Certifications & Sustainability / Sourcing Guide',
