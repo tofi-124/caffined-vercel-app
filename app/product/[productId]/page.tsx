@@ -28,7 +28,7 @@ const OfferingDetail = ({ params }: Props) => {
   const specsSectionRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
-    // Scroll to show product image and name nicely in viewport
+    // Scroll to show product section nicely in viewport
     const timer = setTimeout(() => {
       if (productImageRef.current) {
         const productSectionTop = productImageRef.current.offsetTop;
@@ -56,15 +56,23 @@ const OfferingDetail = ({ params }: Props) => {
   
   if (!product) {
     return (
-      <main className='bg-primary min-h-screen'>
-        <div className='container mx-auto py-16 px-4 text-center'>
-          <h1 className='text-5xl font-extrabold text-dark mb-6'>Offering Not Found</h1>
-          <p className='mb-8'>Sorry, we couldn't find the offering you're looking for.</p>
+      <main className='bg-stone-50 min-h-screen'>
+        <div className='container mx-auto py-24 px-4 text-center'>
+          <div className='w-20 h-20 mx-auto mb-6 rounded-full bg-gray-100 flex items-center justify-center'>
+            <svg className='w-10 h-10 text-gray-400' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={1.5} d='M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+            </svg>
+          </div>
+          <h1 className='text-4xl font-bold text-dark mb-4'>Offering Not Found</h1>
+          <p className='text-gray-500 mb-8'>Sorry, we couldn't find the coffee you're looking for.</p>
           <Link 
             href="/offerings"
-            className='p-10 py-3 bg-accent hover:bg-dark text-white hover:text-primary border border-accent hover:border-dark rounded-md'
+            className='inline-flex items-center gap-2 px-8 py-4 bg-dark hover:bg-accent text-white rounded-full font-semibold transition-all'
           >
-            RETURN TO OFFERINGS
+            <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M10 19l-7-7m0 0l7-7m-7 7h18' />
+            </svg>
+            Return to Offerings
           </Link>
         </div>
       </main>
@@ -72,43 +80,44 @@ const OfferingDetail = ({ params }: Props) => {
   }
 
   return (
-    <main className='bg-primary'>
-      <header className='bg-[url(/images/about-us.webp)] w-full h-[280px] flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-bold text-primary'>{product.name}</h1>
-        <p className='mt-3 text-primary font-inconsolata text-lg'>{product.subRegion ? `${product.subRegion}, ${product.region}` : product.region}</p>
-      </header>
-      
-      <section className='container mx-auto py-16 px-4'>
+    <main className='bg-stone-50'>
+      <section ref={productImageRef} className='container mx-auto py-12 md:py-16 px-4'>
         {/* Two column layout on desktop */}
-        <div className='flex flex-col lg:flex-row gap-12 lg:gap-16 max-w-7xl mx-auto'>
+        <div className='flex flex-col lg:flex-row gap-10 lg:gap-16 max-w-7xl mx-auto'>
           {/* Left column - Image */}
-          <div ref={productImageRef} className='lg:w-[45%] flex-shrink-0'>
-            <div className='sticky top-24 bg-white rounded-2xl shadow-lg p-8 border border-gray-100'>
-              <Image
-                src={`/images/${product.image_url}`}
-                alt={`${product.name} - ${product.specifications.processingMethod} processed Ethiopian green coffee from ${product.subRegion ? `${product.subRegion}, ${product.region}` : product.region}`}
-                width={600}
-                height={600}
-                className='object-contain w-full h-auto'
-                priority
-              />
+          <div className='lg:w-[42%] flex-shrink-0'>
+            <div className='lg:sticky lg:top-24'>
+              {/* Main image card */}
+              <div className='bg-gradient-to-br from-white via-stone-50 to-stone-100 rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100/80'>
+                <Image
+                  src={`/images/${product.image_url}`}
+                  alt={`${product.name} - ${product.specifications.processingMethod} processed Ethiopian green coffee from ${product.subRegion ? `${product.subRegion}, ${product.region}` : product.region}`}
+                  width={600}
+                  height={600}
+                  className='object-contain w-full h-auto'
+                  priority
+                />
+              </div>
               
-              {/* Quick badges below image */}
-              <div className='flex flex-wrap items-center justify-center gap-2 mt-6 pt-6 border-t border-gray-100'>
-                {product.specifications.processingMethod && (
-                  <span className='inline-flex items-center px-3 py-1.5 rounded-full bg-secondary/10 text-secondary text-xs font-semibold'>
-                    {product.specifications.processingMethod}
-                  </span>
+              {/* Key specs grid below image */}
+              <div className='mt-6 grid grid-cols-2 gap-4'>
+                {product.altitude && (
+                  <div className='bg-white rounded-2xl p-4 border border-gray-100'>
+                    <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Altitude</span>
+                    <span className='text-sm font-bold text-dark'>{product.altitude}</span>
+                  </div>
                 )}
-                {product.specifications.cupScore && (
-                  <span className='inline-flex items-center px-3 py-1.5 rounded-full bg-accent/10 text-accent text-xs font-semibold'>
-                    {product.specifications.cupScore}
-                  </span>
+                {product.specifications.harvestPeriod && (
+                  <div className='bg-white rounded-2xl p-4 border border-gray-100'>
+                    <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Harvest</span>
+                    <span className='text-sm font-bold text-dark'>{product.specifications.harvestPeriod}</span>
+                  </div>
                 )}
-                {product.specifications.grade && (
-                  <span className='inline-flex items-center px-3 py-1.5 rounded-full bg-dark/10 text-dark text-xs font-semibold'>
-                    Grade {product.specifications.grade}
-                  </span>
+                {product.variety && (
+                  <div className='bg-white rounded-2xl p-4 border border-gray-100 col-span-2'>
+                    <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Variety</span>
+                    <span className='text-sm font-bold text-dark'>{product.variety}</span>
+                  </div>
                 )}
               </div>
             </div>
@@ -116,21 +125,56 @@ const OfferingDetail = ({ params }: Props) => {
         
           {/* Right column - Details */}
           <div className='lg:flex-1'>
-            {/* Product name and description */}
-            <div className='mb-8'>
-              <h2 className='text-4xl font-extrabold text-dark mb-3'>{product.name}</h2>
-              <p className='text-lg text-gray-700 leading-relaxed'>{product.desc}</p>
-            </div>
+            {/* Breadcrumb */}
+            <nav className='flex items-center gap-2 text-sm text-gray-400 mb-4'>
+              <Link href='/offerings' className='hover:text-accent transition-colors'>Our Offerings</Link>
+              <span>·</span>
+              <span className='text-gray-500'>{product.region}</span>
+              {product.subRegion && (
+                <>
+                  <span>·</span>
+                  <span className='text-dark'>{product.subRegion}</span>
+                </>
+              )}
+            </nav>
             
-            {/* Flavor notes as prominent badges */}
+            {/* Product title and description */}
+            <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold text-dark tracking-tight mb-4'>{product.name}</h1>
+            <p className='text-lg text-gray-600 leading-relaxed mb-6'>{product.desc}</p>
+            
+            {/* Quick stats badges */}
+            <div className='flex flex-wrap gap-2 mb-10'>
+              {product.specifications.processingMethod && (
+                <span className='px-4 py-2 rounded-full bg-stone-100 text-dark text-sm font-medium border border-stone-200'>
+                  {product.specifications.processingMethod}
+                </span>
+              )}
+              {product.specifications.grade && (
+                <span className='px-4 py-2 rounded-full bg-stone-100 text-dark text-sm font-medium border border-stone-200'>
+                  Grade {product.specifications.grade}
+                </span>
+              )}
+              {product.specifications.cupScore && (
+                <span className='px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-semibold border border-accent/20'>
+                  {product.specifications.cupScore} Cup Score
+                </span>
+              )}
+              {product.isSoldOut && (
+                <span className='px-4 py-2 rounded-full bg-dark text-white text-sm font-semibold'>
+                  Sold Out
+                </span>
+              )}
+            </div>
+
+            {/* Flavor notes section */}
             {product.flavorNotes.length > 0 && (
-              <div className='mb-8'>
-                <h3 className='text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3'>Flavor Profile</h3>
+              <div className='mb-10'>
+                <h3 className='text-[11px] font-semibold uppercase tracking-widest text-gray-400 mb-4'>Cup Profile</h3>
                 <div className='flex flex-wrap gap-2'>
                   {product.flavorNotes.map((note, index) => (
                     <span 
                       key={index}
-                      className='inline-flex items-center px-4 py-2 rounded-lg bg-accent/10 text-accent text-sm font-semibold border border-accent/20 hover:bg-accent/20 transition-colors'
+                      className='px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-semibold border border-accent/20 hover:bg-accent hover:text-white transition-all duration-300'
                     >
                       {note}
                     </span>
@@ -139,236 +183,229 @@ const OfferingDetail = ({ params }: Props) => {
               </div>
             )}
 
-            {/* Product Details Section with tabs - MOVED TO TOP */}
-            <div ref={specsSectionRef} className='mb-8 bg-white rounded-xl border-2 border-gray-200 overflow-hidden shadow-sm'>
-              <div className='flex border-b border-gray-200 bg-gray-50'>
+            {/* Product Details Section with elegant tabs */}
+            <div ref={specsSectionRef} className='mb-10 bg-white rounded-3xl border border-gray-200 overflow-hidden shadow-sm'>
+              <div className='flex border-b border-gray-200'>
                 <button
                   onClick={() => setActiveDetail('coffeeProfileOrigin')}
-                  className={`flex-1 py-4 px-6 text-sm font-bold transition-all ${
+                  className={`flex-1 py-5 px-6 text-sm font-semibold transition-all relative ${
                     activeDetail === 'coffeeProfileOrigin' 
-                      ? 'bg-white border-b-2 border-accent text-accent' 
-                      : 'text-gray-600 hover:text-dark hover:bg-gray-100'
+                      ? 'text-dark' 
+                      : 'text-gray-400 hover:text-dark'
                   }`}
                 >
-                  Coffee Profile & Origin
+                  About This Coffee
+                  {activeDetail === 'coffeeProfileOrigin' && (
+                    <span className='absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-0.5 bg-accent rounded-full'></span>
+                  )}
                 </button>
                 <button
                   onClick={() => setActiveDetail('technicalSpecs')}
-                  className={`flex-1 py-4 px-6 text-sm font-bold transition-all ${
+                  className={`flex-1 py-5 px-6 text-sm font-semibold transition-all relative ${
                     activeDetail === 'technicalSpecs' 
-                      ? 'bg-white border-b-2 border-accent text-accent' 
-                      : 'text-gray-600 hover:text-dark hover:bg-gray-100'
+                      ? 'text-dark' 
+                      : 'text-gray-400 hover:text-dark'
                   }`}
                 >
-                  Technical Specifications
+                  Specifications
+                  {activeDetail === 'technicalSpecs' && (
+                    <span className='absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-0.5 bg-accent rounded-full'></span>
+                  )}
                 </button>
               </div>
                 
-              <div className='p-6 min-h-[200px]'>
+<div className='p-6 md:p-8 min-h-[200px]'>
                 {activeDetail === 'coffeeProfileOrigin' && (
-                  <div className='space-y-6'>
+                  <div className='space-y-8'>
                     {/* Coffee Profile Section */}
                     {product.profile && (
                       <div>
-                        <div className='flex items-center gap-2 mb-3'>
-                          <svg className='w-5 h-5 text-accent flex-shrink-0' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z' />
-                          </svg>
+                        <div className='flex items-center gap-3 mb-4'>
+                          <div className='w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center'>
+                            <svg className='w-5 h-5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z' />
+                            </svg>
+                          </div>
                           <h3 className='text-lg font-bold text-dark'>Flavor Profile</h3>
                         </div>
-                        <p className='text-gray-700 leading-relaxed pl-7'>{product.profile}</p>
+                        <p className='text-gray-600 leading-relaxed'>{product.profile}</p>
                       </div>
                     )}
                     
                     {/* Origin Section */}
                     {product.origin && (
                       <div>
-                        <div className='flex items-center gap-2 mb-3'>
-                          <svg className='w-5 h-5 text-accent flex-shrink-0' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' />
-                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' />
-                          </svg>
+                        <div className='flex items-center gap-3 mb-4'>
+                          <div className='w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center'>
+                            <svg className='w-5 h-5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' />
+                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' />
+                            </svg>
+                          </div>
                           <h3 className='text-lg font-bold text-dark'>Origin Story</h3>
                         </div>
-                        <p className='text-gray-700 leading-relaxed pl-7'>{product.origin}</p>
+                        <p className='text-gray-600 leading-relaxed'>{product.origin}</p>
                       </div>
                     )}
                   </div>
                 )}
                 {activeDetail === 'technicalSpecs' && (
                   <div>
-                    <div className='overflow-x-auto'>
-                      <table className='min-w-full'>
-                        <thead className='bg-gray-50'>
-                          <tr>
-                            <th className='py-3 px-4 text-left text-xs font-bold text-gray-700 uppercase tracking-wider'>Specification</th>
-                            <th className='py-3 px-4 text-left text-xs font-bold text-gray-700 uppercase tracking-wider'>Value</th>
-                          </tr>
-                        </thead>
-                        <tbody className='bg-white divide-y divide-gray-100'>
-                          {/* Primary specs - always shown */}
-                          {product.specifications.grade && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Grade</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.grade}</td>
-                            </tr>
-                          )}
-                          {product.specifications.cupScore && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cup Score</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cupScore}</td>
-                            </tr>
-                          )}
-                          {product.specifications.processingMethod && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Processing Method</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.processingMethod}</td>
-                            </tr>
-                          )}
-                          {product.variety && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Variety</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.variety}</td>
-                            </tr>
-                          )}
-                          {product.region && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Region</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.region}</td>
-                            </tr>
-                          )}
-                          {product.subRegion && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Sub-Region</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.subRegion}</td>
-                            </tr>
-                          )}
-                          {product.altitude && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Altitude</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.altitude}</td>
-                            </tr>
-                          )}
-                          {product.specifications.washingStation && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Washing Station</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.washingStation}</td>
-                            </tr>
-                          )}
-                          {product.specifications.harvestPeriod && (
-                            <tr>
-                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Harvest Period</td>
-                              <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.harvestPeriod}</td>
-                            </tr>
-                          )}
-                          
-                          {/* Additional specs - shown when expanded */}
-                          {isSpecsExpanded && (
-                            <>
-                              {product.specifications.screenSize && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Screen Size</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.screenSize}</td>
-                                </tr>
-                              )}
-                              {product.specifications.cropYear && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Crop Year</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cropYear}</td>
-                                </tr>
-                              )}
-                              {product.specifications.millName && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Mill / Processing Facility</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.millName}</td>
-                                </tr>
-                              )}
-                              {product.specifications.dryingMethod && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Drying Method</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.dryingMethod}</td>
-                                </tr>
-                              )}
-                              {product.specifications.fermentationTime && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Fermentation Time</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.fermentationTime}</td>
-                                </tr>
-                              )}
-                              {product.specifications.moisture && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Moisture Content</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.moisture}</td>
-                                </tr>
-                              )}
-                              {product.specifications.waterActivity && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Water Activity (aw)</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.waterActivity}</td>
-                                </tr>
-                              )}
-                              {product.specifications.density && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Density</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.density}</td>
-                                </tr>
-                              )}
-                              {product.specifications.defectCount && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Defect Count</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.defectCount}</td>
-                                </tr>
-                              )}
-                              {product.bagSize && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Bag Size</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.bagSize}</td>
-                                </tr>
-                              )}
-                              {product.specifications.cuppingNotes && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Cupping Notes</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.cuppingNotes}</td>
-                                </tr>
-                              )}
-                              {product.specifications.farmCoopId && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Farm/Coop ID</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.farmCoopId}</td>
-                                </tr>
-                              )}
-                              {product.specifications.icoNumber && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>ICO Number</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.specifications.icoNumber}</td>
-                                </tr>
-                              )}
-                              {product.producer && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Producer</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.producer}</td>
-                                </tr>
-                              )}
-                              {product.lotNumber && (
-                                <tr>
-                                  <td className='py-3 px-4 text-sm font-medium text-gray-900'>Lot Number</td>
-                                  <td className='py-3 px-4 text-sm text-gray-700'>{product.lotNumber}</td>
-                                </tr>
-                              )}
-                            </>
-                          )}
-                        </tbody>
-                      </table>
+                    {/* Specs grid layout */}
+                    <div className='grid grid-cols-2 md:grid-cols-3 gap-4 mb-6'>
+                      {product.specifications.grade && (
+                        <div className='p-4 bg-stone-50 rounded-2xl'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Grade</span>
+                          <span className='text-sm font-bold text-dark'>{product.specifications.grade}</span>
+                        </div>
+                      )}
+                      {product.specifications.cupScore && (
+                        <div className='p-4 bg-accent/5 rounded-2xl'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Cup Score</span>
+                          <span className='text-sm font-bold text-accent'>{product.specifications.cupScore}</span>
+                        </div>
+                      )}
+                      {product.specifications.processingMethod && (
+                        <div className='p-4 bg-stone-50 rounded-2xl'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Process</span>
+                          <span className='text-sm font-bold text-dark'>{product.specifications.processingMethod}</span>
+                        </div>
+                      )}
+                      {product.region && (
+                        <div className='p-4 bg-stone-50 rounded-2xl'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Region</span>
+                          <span className='text-sm font-bold text-dark'>{product.region}</span>
+                        </div>
+                      )}
+                      {product.subRegion && (
+                        <div className='p-4 bg-stone-50 rounded-2xl'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Sub-Region</span>
+                          <span className='text-sm font-bold text-dark'>{product.subRegion}</span>
+                        </div>
+                      )}
+                      {product.altitude && (
+                        <div className='p-4 bg-stone-50 rounded-2xl'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Altitude</span>
+                          <span className='text-sm font-bold text-dark'>{product.altitude}</span>
+                        </div>
+                      )}
+                      {product.specifications.washingStation && (
+                        <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Washing Station</span>
+                          <span className='text-sm font-bold text-dark'>{product.specifications.washingStation}</span>
+                        </div>
+                      )}
+                      {product.specifications.harvestPeriod && (
+                        <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Harvest Period</span>
+                          <span className='text-sm font-bold text-dark'>{product.specifications.harvestPeriod}</span>
+                        </div>
+                      )}
                     </div>
                     
+                    {/* Expanded specs */}
+                    {isSpecsExpanded && (
+                      <div className='grid grid-cols-2 md:grid-cols-3 gap-4 mb-6 pt-6 border-t border-gray-200'>
+                        {product.specifications.screenSize && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Screen Size</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.screenSize}</span>
+                          </div>
+                        )}
+                        {product.specifications.cropYear && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Crop Year</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.cropYear}</span>
+                          </div>
+                        )}
+                        {product.specifications.millName && (
+                          <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Mill</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.millName}</span>
+                          </div>
+                        )}
+                        {product.specifications.dryingMethod && (
+                          <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Drying Method</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.dryingMethod}</span>
+                          </div>
+                        )}
+                        {product.specifications.fermentationTime && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Fermentation</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.fermentationTime}</span>
+                          </div>
+                        )}
+                        {product.specifications.moisture && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Moisture</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.moisture}</span>
+                          </div>
+                        )}
+                        {product.specifications.waterActivity && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Water Activity</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.waterActivity}</span>
+                          </div>
+                        )}
+                        {product.specifications.density && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Density</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.density}</span>
+                          </div>
+                        )}
+                        {product.specifications.defectCount && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Defect Count</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.defectCount}</span>
+                          </div>
+                        )}
+                        {product.bagSize && (
+                          <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Bag Size</span>
+                            <span className='text-sm font-bold text-dark'>{product.bagSize}</span>
+                          </div>
+                        )}
+                        {product.specifications.cuppingNotes && (
+                          <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-3'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Cupping Notes</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.cuppingNotes}</span>
+                          </div>
+                        )}
+                        {product.specifications.farmCoopId && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Farm/Coop ID</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.farmCoopId}</span>
+                          </div>
+                        )}
+                        {product.specifications.icoNumber && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>ICO Number</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.icoNumber}</span>
+                          </div>
+                        )}
+                        {product.producer && (
+                          <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Producer</span>
+                            <span className='text-sm font-bold text-dark'>{product.producer}</span>
+                          </div>
+                        )}
+                        {product.lotNumber && (
+                          <div className='p-4 bg-stone-50 rounded-2xl'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Lot Number</span>
+                            <span className='text-sm font-bold text-dark'>{product.lotNumber}</span>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                    
                     {/* Show More/Less Button */}
-                    <div className='mt-4 text-center'>
+                    <div className='text-center'>
                       <button
                         onClick={() => {
                           const willCollapse = isSpecsExpanded;
                           setIsSpecsExpanded(!isSpecsExpanded);
                           
-                          // When collapsing, scroll to keep the specs section in view
                           if (willCollapse && specsSectionRef.current) {
                             setTimeout(() => {
                               if (specsSectionRef.current) {
@@ -382,7 +419,7 @@ const OfferingDetail = ({ params }: Props) => {
                             }, 50);
                           }
                         }}
-                        className='inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-accent hover:text-white bg-white hover:bg-accent border-2 border-accent rounded-lg transition-all shadow-sm hover:shadow-md'
+                        className='inline-flex items-center gap-2 text-sm font-semibold text-accent hover:text-dark transition-colors'
                       >
                         {isSpecsExpanded ? (
                           <>
@@ -393,7 +430,7 @@ const OfferingDetail = ({ params }: Props) => {
                           </>
                         ) : (
                           <>
-                            <span>Show More Specifications</span>
+                            <span>Show All Specifications</span>
                             <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
                               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M19 9l-7 7-7-7' />
                             </svg>
@@ -406,42 +443,51 @@ const OfferingDetail = ({ params }: Props) => {
               </div>
             </div>
 
-            {/* Pricing & Availability Section - Combined */}
-            <div className='mb-8 p-6 rounded-xl bg-white border-2 border-gray-200 shadow-sm'>
-              {/* Pricing Info */}
-              <div>
-                <div className='flex items-baseline gap-2 mb-2'>
-                  <span className='text-2xl font-bold text-dark'>${product.pricing.fobPricePerLb.toFixed(2)}</span>
-                  <span className='text-sm text-gray-600'>per lb</span>
-                  <span className='text-gray-400'>•</span>
-                  <span className='text-lg font-semibold text-gray-700'>${product.pricing.fobPricePerKg.toFixed(2)}</span>
-                  <span className='text-sm text-gray-600'>per kg</span>
+            {/* Pricing & Availability Section */}
+            <div className='mb-10 p-6 md:p-8 rounded-3xl bg-white border border-gray-200 shadow-sm'>
+              <div className='flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4'>
+                <div>
+                  <span className='text-[11px] font-semibold uppercase tracking-widest text-gray-400 block mb-2'>FOB Price</span>
+                  <div className='flex items-baseline gap-3'>
+                    <span className='text-3xl font-bold text-dark'>${product.pricing.fobPricePerLb.toFixed(2)}</span>
+                    <span className='text-sm text-gray-500'>per lb</span>
+                    <span className='text-gray-300'>·</span>
+                    <span className='text-xl font-semibold text-gray-600'>${product.pricing.fobPricePerKg.toFixed(2)}</span>
+                    <span className='text-sm text-gray-500'>per kg</span>
+                  </div>
                 </div>
-                <div className='flex flex-wrap items-center gap-2 text-xs text-gray-500'>
-                  <span className='inline-flex items-center px-2 py-1 rounded bg-gray-50 border border-gray-200'>
-                    FOB Ethiopia
-                  </span>
-                  <span className='inline-flex items-center px-2 py-1 rounded bg-gray-50 border border-gray-200'>
-                    {product.pricing.priceNote}
-                  </span>
-                </div>
+                {product.availableBags !== null && !product.isSoldOut && (
+                  <div className='flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 border border-emerald-200'>
+                    <span className='w-2 h-2 rounded-full bg-emerald-500 animate-pulse'></span>
+                    <span className='text-sm font-semibold text-emerald-700'>{product.availableBags} bags available</span>
+                  </div>
+                )}
+              </div>
+              
+              <div className='mt-4 pt-4 border-t border-gray-100 flex flex-wrap gap-2'>
+                <span className='px-3 py-1.5 rounded-full bg-stone-100 text-xs font-medium text-gray-600'>
+                  FOB Ethiopia
+                </span>
+                <span className='px-3 py-1.5 rounded-full bg-stone-100 text-xs font-medium text-gray-600'>
+                  {product.pricing.priceNote}
+                </span>
                 {product.pricing.minimumOrder && (
-                  <p className='text-xs text-gray-500 mt-2'>
-                    Minimum order: {product.pricing.minimumOrder}
-                  </p>
+                  <span className='px-3 py-1.5 rounded-full bg-stone-100 text-xs font-medium text-gray-600'>
+                    Min: {product.pricing.minimumOrder}
+                  </span>
                 )}
               </div>
             </div>
             
             {/* Certifications if any */}
             {product.certifications.length > 0 && (
-              <div className='mb-8'>
-                <h3 className='text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3'>Certifications</h3>
+              <div className='mb-10'>
+                <h3 className='text-[11px] font-semibold uppercase tracking-widest text-gray-400 mb-4'>Certifications</h3>
                 <div className='flex flex-wrap gap-2'>
                   {product.certifications.map((cert, index) => (
                     <span 
                       key={index}
-                      className='inline-flex items-center px-4 py-2 rounded-lg bg-green-50 text-green-700 text-sm font-semibold border border-green-200'
+                      className='px-4 py-2 rounded-full bg-emerald-50 text-emerald-700 text-sm font-semibold border border-emerald-200'
                     >
                       {cert}
                     </span>
@@ -451,40 +497,37 @@ const OfferingDetail = ({ params }: Props) => {
             )}
             
             {/* Warehouse info */}
-            <div className='mb-8 flex items-center gap-2 text-sm text-gray-600 bg-gray-50 p-4 rounded-lg border border-gray-200'>
-              <svg className='w-5 h-5 text-accent flex-shrink-0' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' />
-                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' />
-              </svg>
-              <span className='font-medium'>Ships from: <strong className='text-dark'>{product.warehouseLocation}</strong></span>
+            <div className='mb-10 flex items-center gap-3 text-sm text-gray-600 bg-white p-5 rounded-2xl border border-gray-200'>
+              <div className='w-10 h-10 rounded-full bg-stone-100 flex items-center justify-center flex-shrink-0'>
+                <svg className='w-5 h-5 text-gray-500' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' />
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' />
+                </svg>
+              </div>
+              <div>
+                <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block'>Ships From</span>
+                <span className='font-semibold text-dark'>{product.warehouseLocation}</span>
+              </div>
             </div>
             
             {/* Action buttons */}
-            <div className='flex flex-wrap gap-4'>
-              <Link 
-                href="/contact-us"
-                className='flex-1 min-w-[160px] text-center px-6 py-4 bg-white hover:bg-dark text-dark hover:text-primary border-2 border-dark rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
-              >
-                CONTACT US
-              </Link>
-              
+            <div className='flex flex-col sm:flex-row gap-3'>
               <button 
                 onClick={() => setIsQuoteOpen(true)}
-                className='flex-1 min-w-[160px] px-6 py-4 bg-accent hover:bg-accent/90 text-white border-2 border-accent rounded-xl font-bold transition-all shadow-sm hover:shadow-md cursor-pointer'
+                className='flex-1 px-8 py-4 bg-accent hover:bg-dark text-white rounded-full font-semibold transition-all duration-300 shadow-sm hover:shadow-lg'
               >
-                {product.isSoldOut ? 'JOIN ALLOCATION LIST' : 'GET A QUOTE'}
+                {product.isSoldOut ? 'Join Allocation List' : 'Request a Quote'}
               </button>
-
+              
               <button 
                 onClick={() => generateProductPDF(product)}
-                className='flex-1 min-w-[160px] px-6 py-4 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold transition-all shadow-sm hover:shadow-md cursor-pointer flex items-center justify-center gap-2'
+                className='flex items-center justify-center gap-2 px-6 py-4 bg-white hover:bg-stone-50 text-dark border border-gray-200 rounded-full font-semibold transition-all'
                 title='Download Product Sheet PDF'
               >
                 <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' />
                 </svg>
-                <span className='max-sm:hidden'>DOWNLOAD PDF</span>
-                <span className='sm:hidden'>PDF</span>
+                <span>Download PDF</span>
               </button>
 
               <QuoteRequestPopup
