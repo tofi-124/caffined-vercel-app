@@ -3,7 +3,7 @@ import { offerings } from './data/offerings'
 import { posts } from './data/data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://ethiocoffee.et'
+  const baseUrl = 'https://www.ethiocoffee.et'
   const now = new Date()
   
   const staticRoutes: MetadataRoute.Sitemap = [
