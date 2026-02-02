@@ -3,9 +3,9 @@ import ResponsiveImage from './ResponsiveImage'
 
 const Hero = () => {
   return (
-    <section id='hero' className='relative min-h-screen overflow-hidden pt-36 lg:pt-40 bg-primary' aria-label="Hero section">
+    <section id='hero' className='relative overflow-hidden pt-20 lg:pt-24 bg-primary' aria-label="Hero section">
       {/* Content */}
-      <div className='container relative z-20 mx-auto px-4 py-16 lg:py-20'>
+      <div className='container relative z-20 mx-auto px-4 py-8 lg:py-12'>
         <div className="flex flex-col items-center justify-center gap-10 lg:flex-row lg:gap-12">
 
         <div id="hero-heading-wrapper" className='mx-auto flex w-full max-w-prose flex-col items-start justify-center lg:mx-0 lg:w-1/2 lg:max-w-none'>
