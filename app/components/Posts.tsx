@@ -50,7 +50,7 @@ const Posts = () => {
     <section id='posts' className='py-32 flex flex-col bg-primary text-dark'>
       <div className="container mx-auto px-4">
         <h2 className='text-5xl leading-tight text-center font-bold mb-12'>
-          FEATURED POSTS
+          FEATURED INSIGHTS
         </h2>
         
         <div className="w-24 h-1 bg-accent mx-auto mb-16"></div>
@@ -66,7 +66,7 @@ const Posts = () => {
             href='/insights'
             className='px-5 py-2 border border-accent rounded-md font-inconsolata text-sm bg-accent hover:bg-dark text-white hover:text-primary'
           >
-            VIEW ALL POSTS
+            ALL INSIGHTS
           </Link>
         </div>
       </div>
