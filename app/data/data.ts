@@ -531,6 +531,37 @@ export const posts: Post[] = [
       ],
       desc: 'A comprehensive guide to the Ethiopia Commodity Exchange (ECX), its role in Ethiopian coffee export, the grading system (G1, G2, G3), traceability, export process, and what international buyers need to know when sourcing from ECX-registered exporters.'
     },
+    {
+      small_image_url: 'insights/moq-ethiopian-coffee.webp',
+      large_image_url: 'insights/moq-ethiopian-coffee.webp',
+      date: 'Feb 02, 2026',
+      title: 'MINIMUM ORDER QUANTITIES (MOQ) FOR ETHIOPIAN GREEN COFFEE: WHAT IMPORTERS NEED TO KNOW',
+      slug: 'minimum-order-quantities-ethiopian-coffee-moq',
+      category: 'Coffee Trade & Import Guide',
+      keywords: [
+        'Ethiopian coffee MOQ',
+        'minimum order quantity coffee',
+        'Ethiopian green coffee import',
+        'coffee container load',
+        'small batch coffee import',
+        'coffee roaster importing',
+        'Ethiopian coffee exporter MOQ',
+        'LCL coffee shipping',
+        'container consolidation coffee',
+        'coffee import small quantities',
+        'Ethiopian coffee bags minimum',
+        'specialty coffee MOQ',
+        'coffee sample orders',
+        'how many bags coffee container',
+        'coffee import strategy',
+        'Ethiopian coffee for small roasters',
+        'coffee buying groups',
+        'green coffee import costs',
+        'Ethiopian coffee pricing volume',
+        'coffee importer guide MOQ'
+      ],
+      desc: 'Complete guide to understanding minimum order quantities for Ethiopian green coffee imports: typical MOQs from exporters, container math and capacity, strategies for small roasters, LCL consolidation options, pricing by volume, negotiation tactics that work, and sample vs. commercial order programs.'
+    },
     // ===== IMPORT GUIDES BY COUNTRY (Grouped by Region) =====
     // North America
     {
