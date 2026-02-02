@@ -3,19 +3,20 @@ import ResponsiveImage from './ResponsiveImage'
 
 const Hero = () => {
   return (
-    <section id='hero' className='min-h-screen bg-dark py-24 lg:py-[7.5rem]' aria-label="Hero section">
-      <div className='container mx-auto px-4'>
+    <section id='hero' className='relative min-h-screen overflow-hidden pt-36 lg:pt-40 bg-primary' aria-label="Hero section">
+      {/* Content */}
+      <div className='container relative z-20 mx-auto px-4 py-16 lg:py-20'>
         <div className="flex flex-col items-center justify-center gap-10 lg:flex-row lg:gap-12">
 
         <div id="hero-heading-wrapper" className='mx-auto flex w-full max-w-prose flex-col items-start justify-center lg:mx-0 lg:w-1/2 lg:max-w-none'>
-          <h1 className='text-5xl lg:text-6xl leading-tight text-primary font-bold'>
+          <h1 className='text-5xl lg:text-6xl leading-tight text-dark font-bold'>
             ETHIO COFFEE
           </h1>
-            <p className='text-primary/90 text-sm uppercase tracking-widest mt-3'>
+            <p className='text-dark/90 text-sm uppercase tracking-widest mt-3'>
              Your Trusted Ethiopian Coffee Export Partner
             </p>
 
-            <div className='mt-6 text-primary lg:pr-20 leading-relaxed space-y-6'>
+            <div className='mt-6 text-dark lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
                 We're a dedicated Ethiopian coffee exporter, founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian. We serve importers worldwide with speciality, traceable green coffee from our own estates and trusted partner producers. Professional export service, consistent quality, clear communication.
               </p>

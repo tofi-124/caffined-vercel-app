@@ -135,7 +135,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={oswald.className}>
+      <body className={`${oswald.className} bg-primary`}>
         <ScrollToTop />
         <Navbar />
         {children}
