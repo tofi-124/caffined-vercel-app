@@ -72,7 +72,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           "Hi, we're a small specialty roaster interested in sourcing Ethiopian Yirgacheffe. Can we start with 5 bags to test the market? What's your best price?"
         </p>
         <p className='text-sm mt-3'>
-          If you've sent an email like this to Ethiopian coffee exporters, you've probably received responses ranging from "Yes, but at a higher price" to complete silence. Understanding <span className='font-bold'>Minimum Order Quantities (MOQ)</span> is one of the most important—and often most frustrating—aspects of starting to import Ethiopian coffee. Let's break down exactly what MOQ means, why it exists, and most importantly, how to navigate it successfully.
+          If you've sent an email like this to Ethiopian coffee exporters, you've probably received responses ranging from "Yes, but at a higher price" to complete silence. Understanding <span className='font-bold'>Minimum Order Quantities (MOQ)</span> is one of the most important-and often most frustrating-aspects of starting to import Ethiopian coffee. Let's break down exactly what MOQ means, why it exists, and most importantly, how to navigate it successfully.
         </p>
       </div>
 
@@ -169,7 +169,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       </h3>
 
       <p className='my-4'>
-        Before you get frustrated with MOQ requirements, it helps to understand <span className='font-bold'>why exporters implement them</span>. It's not arbitrary—there are genuine economic and logistical reasons:
+        Before you get frustrated with MOQ requirements, it helps to understand <span className='font-bold'>why exporters implement them</span>. It's not arbitrary-there are genuine economic and logistical reasons:
       </p>
 
       <div className='space-y-6 my-8'>
@@ -316,7 +316,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium'>
-          <span className='font-bold'>Real Talk:</span> If you're a first-time importer reaching out to large Ethiopian exporters asking for 5 bags, you'll likely either be ignored or quoted a price 30-50% higher than container pricing. This isn't personal—it's economics. Target exporters whose business model matches your order size.
+          <span className='font-bold'>Real Talk:</span> If you're a first-time importer reaching out to large Ethiopian exporters asking for 5 bags, you'll likely either be ignored or quoted a price 30-50% higher than container pricing. This isn't personal-it's economics. Target exporters whose business model matches your order size.
         </p>
       </div>
 
@@ -390,7 +390,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           <li><span className='font-bold'>30kg bags:</span> Rare, sometimes used for high-value micro-lots or specific buyer requests</li>
         </ul>
         <p className='text-xs mt-3 italic'>
-          Always clarify bag weight when discussing MOQ and pricing—"10 bags" means very different things at 30kg vs 70kg!
+          Always clarify bag weight when discussing MOQ and pricing-"10 bags" means very different things at 30kg vs 70kg!
         </p>
       </div>
 
@@ -563,7 +563,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             <li>Multiple buyers order from same exporter (or exporter coordinates multiple buyers)</li>
             <li>Exporter consolidates all coffees into one container at origin</li>
             <li>Container ships as normal FCL (Full Container Load) to destination port</li>
-            <li>At destination, container is "deconsolidated"—each buyer's coffee separated</li>
+            <li>At destination, container is "deconsolidated"-each buyer's coffee separated</li>
             <li>Each buyer arranges pickup of their portion or uses freight forwarder for delivery</li>
           </ol>
         </div>
@@ -588,7 +588,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           <li><span className='font-bold'>Timing dependency:</span> You may wait for exporter to fill container with other buyers' orders (2-6 week delays possible)</li>
           <li><span className='font-bold'>Route restrictions:</span> LCL only works to major ports with consolidation services (not all destinations)</li>
           <li><span className='font-bold'>Less flexibility:</span> Harder to change order details once consolidation is scheduled</li>
-          <li><span className='font-bold'>Quality risk:</span> Your coffee shares container with others—poor storage of others' coffee could affect yours (rare but possible)</li>
+          <li><span className='font-bold'>Quality risk:</span> Your coffee shares container with others-poor storage of others' coffee could affect yours (rare but possible)</li>
         </ul>
       </div>
 
@@ -906,7 +906,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           <li>• Want to test multiple origins simultaneously (5 bags each of 3 origins = 15 bags)</li>
         </ul>
         <p className='text-xs mt-3 italic'>
-          Pricing for small commercial orders typically runs $5.00-7.00/kg—notably better than samples but higher than full commercial containers.
+          Pricing for small commercial orders typically runs $5.00-7.00/kg-notably better than samples but higher than full commercial containers.
         </p>
       </div>
 
@@ -941,7 +941,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       </h3>
 
       <p className='my-4'>
-        MOQ doesn't have to be a barrier to importing Ethiopian coffee—it just requires strategic planning:
+        MOQ doesn't have to be a barrier to importing Ethiopian coffee-it just requires strategic planning:
       </p>
 
       <div className='grid md:grid-cols-2 gap-6 my-8'>
