@@ -1,14 +1,10 @@
 'use client'
 
-import { useState } from 'react'
 import Link from 'next/link'
 import OfferingsResultsList from './OfferingsResultsList'
-import QuoteRequestPopup from './QuoteRequestPopup'
-import { offerings, type Offering } from '../data/offerings'
+import { offerings } from '../data/offerings'
 
 const Offerings = () => {
-  const [allocationFor, setAllocationFor] = useState<Offering | null>(null)
-
   return (
     <section className='bg-primary'>
       {/* Navy Header Section */}
@@ -31,7 +27,7 @@ const Offerings = () => {
 
         {/* Products Grid */}
         <div className='max-w-6xl mx-auto'>
-          <OfferingsResultsList items={offerings.slice(0, 3)} showActions onRequestQuote={(o) => setAllocationFor(o)} />
+          <OfferingsResultsList items={offerings.slice(0, 3)} />
         </div>
 
         {/* CTA */}
@@ -52,16 +48,6 @@ const Offerings = () => {
           </Link>
         </div>
       </div>
-
-      {allocationFor && (
-        <QuoteRequestPopup
-          isOpen={Boolean(allocationFor)}
-          onClose={() => setAllocationFor(null)}
-          productName={allocationFor.name}
-          productImage={allocationFor.image_url}
-          isAllocationList={allocationFor.isSoldOut}
-        />
-      )}
     </section>
   )
 }
