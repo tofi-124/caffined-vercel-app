@@ -13,12 +13,12 @@ const Hero = () => {
             ETHIO COFFEE
           </h1>
             <p className='text-dark/90 text-sm uppercase tracking-widest mt-3'>
-             Your Trusted Ethiopian Coffee Export Partner
+             Your Gateway to Ethiopia’s Finest Specialty Coffee
             </p>
 
             <div className='mt-6 text-dark lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
-                We're a dedicated Ethiopian coffee exporter, founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian. We serve importers worldwide with speciality, traceable green coffee from our own estates and trusted partner producers. Professional export service, consistent quality, clear communication.
+                We are a dedicated Ethiopian coffee exporter founded by two brothers - one rooted in Ethiopia, the other in Canada. This unique partnership allows us to bridge the gap between origin and the global market. We provide importers worldwide with traceable, specialty green coffee sourced directly from our own estates and a network of trusted partner producers. At our core, we combine a deep love for Ethiopian coffee with a commitment to professional service, consistent quality, and transparent communication.
               </p>
             </div>
 

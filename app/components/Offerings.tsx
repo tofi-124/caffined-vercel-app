@@ -21,7 +21,7 @@ const Offerings = () => {
             FEATURED LOTS
           </h1>
           <p className='mt-4 text-lg text-primary/80 max-w-2xl mx-auto'>
-            Ethiopian beans selected for importers worldwide. Traceable, consistent, and ready to ship.
+            Curated Ethiopian specialty coffee for global importers. Traceable, consistent, and ready for export.
           </p>
         </div>
       </div>

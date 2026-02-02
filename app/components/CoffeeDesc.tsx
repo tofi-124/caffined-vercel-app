@@ -215,7 +215,7 @@ const CoffeeDesc = () => {
           THE ETHIOPIAN DIFFERENCE
         </h2>
         <p className='text-left m-4'>
-          Ethiopian coffee is famous for its floral and fruity profiles, but the real difference is the people behind it. In the same high-altitude regions where coffee has been part of daily life for generations, farmers turn careful picking and processing into cups that feel unmistakably "origin." Our work starts there: with relationships, consistency, and respect for the craft. 
+          Ethiopian coffee is celebrated for its vibrant floral and fruity profiles, but the true distinction lies in the people behind the harvest. In the same high-altitude regions where coffee has been a way of life for generations, farmers transform meticulous picking and processing into a cup that is unmistakably "origin." Our work begins at the source: built on deep-rooted relationships, unwavering consistency, and a profound respect for the craft.
           <br />
           <br />
           Learn about Ethiopian coffee origins: <Link href="/insights/guide-ethiopian-coffee-origins" className='underline'>Coffee Regions</Link>
