@@ -14,7 +14,7 @@ const OfferingsResultsList = ({ items }: Props) => {
         <Link 
           key={o.id} 
           href={`/product/${o.id}`}
-          className='group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100/80 flex flex-col'
+          className='group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-[#1e3a5f] hover:border-accent flex flex-col'
         >
           {/* Image Container with elegant overlay */}
           <div className='relative overflow-hidden bg-gradient-to-br from-stone-100 via-stone-50 to-white'>
@@ -100,7 +100,7 @@ const OfferingsResultsList = ({ items }: Props) => {
 
             {/* Flavor profile */}
             {o.flavorNotes.length > 0 && (
-              <div className='mt-4 pt-4 border-t border-gray-200'>
+              <div className='mt-4 pt-4 border-t border-gray-300'>
                 <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium block mb-2'>Cup Profile</span>
                 <p className='text-sm text-gray-600 leading-relaxed line-clamp-2'>
                   {o.flavorNotes.join(', ')}
@@ -112,7 +112,7 @@ const OfferingsResultsList = ({ items }: Props) => {
             <div className='flex-1 min-h-3'></div>
 
             {/* Footer with price and CTA */}
-            <div className='mt-4 pt-4 border-t border-gray-200 flex items-end justify-between'>
+            <div className='mt-4 pt-4 border-t border-gray-300 flex items-end justify-between'>
               <div>
                 <span className='text-2xl font-bold text-dark'>${o.pricing.fobPricePerLb.toFixed(2)}</span>
                 <span className='text-xs text-gray-400 ml-1'>/lb FOB</span>
