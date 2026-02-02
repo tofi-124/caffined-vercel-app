@@ -18,10 +18,10 @@ const Offerings = () => {
             Our Collection
           </span>
           <h1 className='text-5xl lg:text-6xl leading-tight text-primary font-bold'>
-            COFFEE LINEUP
+            FEATURED LOTS
           </h1>
           <p className='mt-4 text-lg text-primary/80 max-w-2xl mx-auto'>
-            Ethiopian lots selected for importers worldwide. Traceable, consistent, and ready to ship.
+            Ethiopian beans selected for importers worldwide. Traceable, consistent, and ready to ship.
           </p>
         </div>
       </div>
