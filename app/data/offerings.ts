@@ -39,7 +39,8 @@ export type Offering = {
   isSoldOut?: boolean
   // New fields for B2B buyers
   altitude: string | null
-  region: string
+  region: string // Primary region (e.g., "Oromia", "SNNPR", "Sidama")
+  subRegion: string | null// Sub-region/zone (e.g., "Yirgacheffe", "Guji", "Bensa")
   producer: string
   variety: string | null
   bagSize: string | null
@@ -88,7 +89,8 @@ export const offerings: Offering[] = [
     },
     isSoldOut: false,
     altitude: '1,750 - 2,200 masl',
-    region: 'Gedeo Zone, SNNPR, Ethiopia',
+    region: 'Yirgacheffe',
+    subRegion: 'Kochere',
     producer: 'Smallholder farmers via local washing stations',
     variety: 'Indigenous Ethiopian Heirloom varieties (JARC selections, local landraces)',
     bagSize: '60 kg GrainPro lined jute bags',
@@ -135,7 +137,8 @@ export const offerings: Offering[] = [
     },
     isSoldOut: false,
     altitude: '1,550 - 2,200 masl',
-    region: 'Sidama Regional State, Ethiopia',
+    region: 'Sidama',
+    subRegion: 'Bensa',
     producer: 'Sidama Coffee Farmers Cooperative Union (SCFCU)',
     variety: 'Indigenous Ethiopian Heirloom varieties',
     bagSize: '60 kg GrainPro lined jute bags',
@@ -182,7 +185,8 @@ export const offerings: Offering[] = [
     },
     isSoldOut: false,
     altitude: '1,800 - 2,300 masl',
-    region: 'Guji Zone, Oromia Region, Ethiopia',
+    region: 'Guji',
+    subRegion: 'Shakiso',
     producer: 'Guji Highland Smallholder Farmers',
     variety: 'Indigenous Ethiopian Heirloom varieties (Kurume, Dega, Wolisho)',
     bagSize: '60 kg GrainPro lined jute bags',
@@ -229,7 +233,8 @@ export const offerings: Offering[] = [
     },
     isSoldOut: false,
     altitude: '1,500 - 2,100 masl',
-    region: 'Hararghe (East & West), Oromia Region, Ethiopia',
+    region: 'Hararghe',
+    subRegion: 'East Hararghe',
     producer: 'Harar Highland Coffee Farmers',
     variety: 'Indigenous Harar Heirloom varieties (Harar-type cultivars)',
     bagSize: '60 kg GrainPro lined jute bags',
@@ -276,7 +281,8 @@ export const offerings: Offering[] = [
     },
     isSoldOut: false,
     altitude: '1,400 - 2,100 masl',
-    region: 'Jimma Zone (Limu Woreda), Oromia Region, Ethiopia',
+    region: 'Jimma/Limu',
+    subRegion: 'Limu Kosa',
     producer: 'Limu Kosa Farmers Cooperative',
     variety: 'Indigenous Ethiopian Heirloom varieties',
     bagSize: '60 kg GrainPro lined jute bags',
@@ -323,7 +329,8 @@ export const offerings: Offering[] = [
     },
     isSoldOut: false,
     altitude: '1,500 - 2,100 masl',
-    region: 'Wollega Zone (East & West), Oromia Region, Ethiopia',
+    region: 'Wollega/Lekempti',
+    subRegion: 'East Wollega',
     producer: 'Lekempti Area Smallholder Farmers',
     variety: 'Indigenous Ethiopian Heirloom varieties',
     bagSize: '60 kg GrainPro lined jute bags',

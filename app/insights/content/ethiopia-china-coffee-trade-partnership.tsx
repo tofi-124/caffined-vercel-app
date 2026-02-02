@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { HiOutlineGlobeAlt, HiOutlineArrowTrendingUp, HiOutlineUserGroup, HiOutlineShoppingCart, HiOutlineCurrencyDollar, HiOutlineBeaker, HiOutlineChartBar, HiOutlineRocketLaunch, HiOutlineMapPin, HiOutlineBuildingOffice, HiOutlineLightBulb } from 'react-icons/hi2'
 import { PiCoffee, PiPlantFill } from 'react-icons/pi'
 
@@ -608,19 +609,19 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
               <h4 className="font-semibold text-gray-900 mb-2">Market Insights</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="/insights/rising-ethiopian-coffee-prices-explained" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/rising-ethiopian-coffee-prices-explained" className="text-green-600 hover:text-green-700">
                     Understanding Rising Ethiopian Coffee Prices
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/insights/specialty-coffee-trends-2026" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/specialty-coffee-trends-2026" className="text-green-600 hover:text-green-700">
                     Specialty Coffee Trends Defining 2026
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/insights/ethiopian-coffee-harvest-2025-season-outlook" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/ethiopian-coffee-harvest-2025-season-outlook" className="text-green-600 hover:text-green-700">
                     Ethiopian Coffee Harvest Season Outlook
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -628,19 +629,19 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
               <h4 className="font-semibold text-gray-900 mb-2">Import Guides</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="/insights/importing-ethiopian-coffee-to-japan" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/importing-ethiopian-coffee-to-japan" className="text-green-600 hover:text-green-700">
                     How to Import Ethiopian Coffee to Japan
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/insights/ecx-and-ethiopian-coffee-export" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-green-600 hover:text-green-700">
                     Understanding the Ethiopia Commodity Exchange
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/insights/guide-ethiopian-coffee-origins" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/guide-ethiopian-coffee-origins" className="text-green-600 hover:text-green-700">
                     Guide to Ethiopian Coffee Origins
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -648,19 +649,19 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
               <h4 className="font-semibold text-gray-900 mb-2">Quality & Sourcing</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="/insights/green-coffee-quality-control-defects-grading" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/green-coffee-quality-control-defects-grading" className="text-green-600 hover:text-green-700">
                     Green Coffee Quality Control & Grading
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className="text-green-600 hover:text-green-700">
                     Yirgacheffe vs Sidamo vs Guji Comparison
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/insights/washed-vs-natural-ethiopian-coffee-processing" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className="text-green-600 hover:text-green-700">
                     Washed vs Natural Processing Methods
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -668,19 +669,19 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
               <h4 className="font-semibold text-gray-900 mb-2">Regulations & Compliance</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="/insights/eu-deforestation-regulation-ethiopian-coffee-compliance" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/eu-deforestation-regulation-ethiopian-coffee-compliance" className="text-green-600 hover:text-green-700">
                     EU Deforestation Regulation Compliance
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/insights/afca-taste-of-harvest-ethiopian-coffee-competition" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/afca-taste-of-harvest-ethiopian-coffee-competition" className="text-green-600 hover:text-green-700">
                     AFCA Coffee Competition & Certification
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/insights/new-sca-coffee-value-assessment" className="text-green-600 hover:text-green-700">
+                  <Link href="/insights/new-sca-coffee-value-assessment" className="text-green-600 hover:text-green-700">
                     New SCA Coffee Value Assessment System
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -50,7 +50,7 @@ const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Pr
             
             {/* Region */}
             <p className='mt-1 text-sm text-gray-500'>
-              {o.region}
+              {o.subRegion ? `${o.subRegion}, ${o.region}` : o.region}
             </p>
 
             {/* Flavor Notes */}

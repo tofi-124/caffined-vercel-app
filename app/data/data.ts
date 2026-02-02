@@ -7,6 +7,7 @@ export type Post = {
   category?: string
   keywords?: string[]
   slug?: string
+  id?: number
 }
 
 export const posts: Post[] = [
@@ -64,6 +65,7 @@ export const posts: Post[] = [
     },
     // ===== COFFEE CULTURE & HERITAGE (Foundation) =====
     {
+      id: 2,
       small_image_url: 'cofee-blog-1-1.png',
       large_image_url: 'cofee-blog-1-2.png',
       date: 'Jun 01, 2025',
@@ -74,6 +76,7 @@ export const posts: Post[] = [
       desc: 'Discover the ancient origins of coffee in Ethiopia, where the Arabica coffee plant was first discovered over a thousand years ago in the lush forests of the southwestern highlands.'
     },
     {
+      id: 3,
       small_image_url: 'cofee-blog-2-1.png',
       large_image_url: 'cofee-blog-2-2.jpg',
       date: 'Jun 15, 2025',
@@ -325,6 +328,7 @@ export const posts: Post[] = [
       desc: 'Comprehensive guide to Sidama region\'s exceptional coffee production achieving 10+ quintals per hectare. Learn about 239 farmer clusters, agricultural modernization initiatives, 495 new direct export licenses for smallholder farmers, highland and Weina Dega production zones, and sourcing opportunities for international specialty coffee buyers.'
     },
     {
+      id: 4,
       small_image_url: 'green-coffee-sourcing.webp',
       large_image_url: 'green-coffee-sourcing.webp',
       date: 'Nov 01, 2025',
@@ -344,6 +348,7 @@ export const posts: Post[] = [
       desc: 'A complete guide for importers on how to source green coffee from Ethiopia covering direct trade, quality grades, shipping logistics, and what to look for in an Ethiopian green coffee exporter.'
     },
     {
+      id: 1,
       small_image_url: 'Ethiopia_Coffee_Map.png',
       large_image_url: 'Ethiopia_Coffee_Map.png',
       date: 'Nov 15, 2025',

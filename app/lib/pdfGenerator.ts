@@ -52,7 +52,8 @@ export const generateProductPDF = (product: Offering) => {
   doc.setFontSize(12)
   doc.setTextColor(GRAY_600)
   doc.setFont('helvetica', 'normal')
-  doc.text(product.region, margin, 73)
+  const regionText = product.subRegion ? `${product.subRegion}, ${product.region}` : product.region
+  doc.text(regionText, margin, 73)
 
   let yPos = 85
 
@@ -83,98 +84,98 @@ export const generateProductPDF = (product: Offering) => {
   doc.text(descLines, margin, yPos + 6)
   yPos += 6 + (descLines.length * 5) + 8
 
-  // Pricing Box
-  doc.setFillColor(248, 247, 245)
-  doc.roundedRect(margin, yPos, pageWidth - 2 * margin, 28, 3, 3, 'F')
-  
-  doc.setFontSize(22)
+  // Pricing - Compact inline format matching specs style
+  doc.setFontSize(10)
   doc.setTextColor(BRAND_DARK)
   doc.setFont('helvetica', 'bold')
-  doc.text(`$${product.pricing.fobPricePerLb.toFixed(2)}`, margin + 5, yPos + 12)
+  doc.text('PRICING (FOB Ethiopia)', margin, yPos)
   
-  doc.setFontSize(10)
+  doc.setFontSize(9)
   doc.setTextColor(GRAY_600)
   doc.setFont('helvetica', 'normal')
-  doc.text('USD per pound', margin + 5, yPos + 19)
+  doc.text(`$${product.pricing.fobPricePerLb.toFixed(2)} USD/lb  •  $${product.pricing.fobPricePerKg.toFixed(2)} USD/kg  •  ${product.pricing.priceYear} crop`, margin, yPos + 6)
   
-  doc.setFontSize(9)
-  doc.text(`$${product.pricing.fobPricePerKg.toFixed(2)} USD/kg • FOB Ethiopia`, margin + 5, yPos + 25)
-  
-  yPos += 36
+  yPos += 14
 
-  // Availability
-  const availStatus = product.isSoldOut ? 'SOLD OUT' : 'IN STOCK'
-  const availColor: [number, number, number] = product.isSoldOut ? [185, 28, 28] : [21, 128, 61]
-  
-  doc.setFillColor(availColor[0], availColor[1], availColor[2])
-  doc.roundedRect(margin, yPos, 30, 7, 2, 2, 'F')
-  doc.setFontSize(9)
-  doc.setTextColor(255, 255, 255)
+  // Availability - Compact inline format
+  doc.setFontSize(10)
+  doc.setTextColor(BRAND_DARK)
   doc.setFont('helvetica', 'bold')
-  doc.text(availStatus, margin + 15, yPos + 5, { align: 'center' })
+  doc.text('AVAILABILITY', margin, yPos)
   
+  const availStatus = product.isSoldOut ? 'SOLD OUT' : 'IN STOCK'
   doc.setFontSize(9)
+  doc.setTextColor(product.isSoldOut ? '#B91C1C' : '#15803D')
+  doc.setFont('helvetica', 'bold')
+  doc.text(availStatus, margin, yPos + 6)
+  
   doc.setTextColor(GRAY_600)
   doc.setFont('helvetica', 'normal')
   const availText = product.isSoldOut 
-    ? 'Now accepting inquiries for 2026 crop' 
+    ? '  •  Now accepting inquiries for 2026 crop' 
     : product.availableBags !== null 
-      ? `${product.availableBags} bags available • ${product.bagSize}` 
-      : `Contact for availability • ${product.bagSize}`
-  doc.text(availText, margin + 35, yPos + 5)
+      ? `  •  ${product.availableBags} bags available  •  ${product.bagSize}` 
+      : `  •  Contact for availability  •  ${product.bagSize}`
+  doc.text(availText, margin + doc.getTextWidth(availStatus), yPos + 6)
   
-  yPos += 15
+  yPos += 14
 
-  // Technical Specifications
+  // Technical Specifications - Organized in logical groups matching product page order
   doc.setFontSize(12)
   doc.setTextColor(BRAND_DARK)
   doc.setFont('helvetica', 'bold')
   doc.text('TECHNICAL SPECIFICATIONS', margin, yPos)
   yPos += 8
 
+  // Specs ordered to match product page: Primary specs first, then expanded specs
   const specs = [
+    // Primary Specs (always visible on product page)
     { label: 'Grade', value: product.specifications.grade },
-    { label: 'Processing Method', value: product.specifications.processingMethod },
-    { label: 'Crop Year', value: product.specifications.cropYear },
     { label: 'Cup Score', value: product.specifications.cupScore },
-    { label: 'Harvest Period', value: product.specifications.harvestPeriod },
+    { label: 'Processing Method', value: product.specifications.processingMethod },
+    { label: 'Variety', value: product.variety },
+    { label: 'Region', value: product.region },
+    { label: 'Sub-Region', value: product.subRegion },
+    { label: 'Altitude', value: product.altitude },
     { label: 'Washing Station', value: product.specifications.washingStation },
-    { label: 'Mill Name', value: product.specifications.millName },
+    { label: 'Harvest Period', value: product.specifications.harvestPeriod },
+    // Extended Specs (expanded section on product page)
+    { label: 'Screen Size', value: product.specifications.screenSize },
+    { label: 'Crop Year', value: product.specifications.cropYear },
+    { label: 'Mill / Processing Facility', value: product.specifications.millName },
     { label: 'Drying Method', value: product.specifications.dryingMethod },
     { label: 'Fermentation Time', value: product.specifications.fermentationTime },
     { label: 'Moisture Content', value: product.specifications.moisture },
-    { label: 'Water Activity', value: product.specifications.waterActivity },
+    { label: 'Water Activity (aw)', value: product.specifications.waterActivity },
     { label: 'Density', value: product.specifications.density },
     { label: 'Defect Count', value: product.specifications.defectCount },
-    { label: 'Altitude', value: product.altitude },
-    { label: 'Variety', value: product.variety },
-    { label: 'Producer', value: product.producer },
+    { label: 'Bag Size', value: product.bagSize },
     { label: 'Farm/Coop ID', value: product.specifications.farmCoopId },
     { label: 'ICO Number', value: product.specifications.icoNumber },
+    { label: 'Producer', value: product.producer },
     { label: 'Lot Number', value: product.lotNumber },
     { label: 'Warehouse Location', value: product.warehouseLocation },
+    { label: 'Certifications', value: product.certifications.length > 0 ? product.certifications.join(', ') : null },
   ]
 
+  // Filter out specs with no value
+  const filteredSpecs = specs.filter(spec => spec.value)
+  
   doc.setFontSize(9)
-  let col1X = margin
-  let col2X = pageWidth / 2 + 5
+  const col1X = margin
+  const col2X = pageWidth / 2 + 5
   let specYPos = yPos
 
-  specs.filter(spec => spec.value).forEach((spec, index) => {
+  filteredSpecs.forEach((spec, index) => {
     const isLeftColumn = index % 2 === 0
     const xPos = isLeftColumn ? col1X : col2X
-    
-    if (!isLeftColumn) {
-      specYPos = yPos + Math.floor(index / 2) * 7
-    } else {
-      specYPos = yPos + Math.floor(index / 2) * 7
-    }
+    specYPos = yPos + Math.floor(index / 2) * 7
 
     // Check if we need a new page
     if (specYPos > pageHeight - 40) {
       doc.addPage()
       yPos = 20
-      specYPos = yPos
+      specYPos = yPos + Math.floor((index - filteredSpecs.findIndex((_, i) => yPos + Math.floor(i / 2) * 7 > pageHeight - 40)) / 2) * 7
     }
 
     doc.setTextColor(BRAND_DARK)
@@ -184,13 +185,14 @@ export const generateProductPDF = (product: Offering) => {
     doc.setTextColor(GRAY_600)
     doc.setFont('helvetica', 'normal')
     const labelWidth = doc.getTextWidth(`${spec.label}:`) + 2
-    const valueLines = doc.splitTextToSize(spec.value || '', (pageWidth / 2) - margin - labelWidth - 10)
-    doc.text(valueLines, xPos + labelWidth, specYPos)
+    const maxValueWidth = (pageWidth / 2) - margin - labelWidth - 5
+    const valueLines = doc.splitTextToSize(spec.value || '', maxValueWidth)
+    doc.text(valueLines[0], xPos + labelWidth, specYPos) // Only first line to keep grid aligned
   })
 
   yPos = specYPos + 15
 
-  // Cupping Notes if available
+  // Cupping Notes if available - Full width section for better readability
   if (product.specifications.cuppingNotes && yPos < pageHeight - 50) {
     doc.setFontSize(10)
     doc.setTextColor(BRAND_DARK)
@@ -264,7 +266,7 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
 
   products.forEach((product, index) => {
     // Check if we need a new page
-    if (yPos > pageHeight - 80) {
+    if (yPos > pageHeight - 85) {
       doc.addPage()
       yPos = 20
     }
@@ -272,7 +274,7 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     // Product box with border
     doc.setDrawColor(BRAND_ACCENT)
     doc.setLineWidth(0.5)
-    doc.roundedRect(margin, yPos, pageWidth - 2 * margin, 65, 2, 2, 'S')
+    doc.roundedRect(margin, yPos, pageWidth - 2 * margin, 70, 2, 2, 'S')
 
     // Product name
     doc.setFontSize(16)
@@ -280,11 +282,12 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     doc.setFont('helvetica', 'bold')
     doc.text(product.name, margin + 5, yPos + 8)
 
-    // Region
+    // Region with sub-region
     doc.setFontSize(9)
     doc.setTextColor(GRAY_600)
     doc.setFont('helvetica', 'normal')
-    doc.text(product.region, margin + 5, yPos + 14)
+    const regionDisplay = product.subRegion ? `${product.subRegion}, ${product.region}` : product.region
+    doc.text(regionDisplay, margin + 5, yPos + 14)
 
     // Flavor notes
     if (product.flavorNotes.length > 0) {
@@ -294,28 +297,20 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
       doc.text(flavors, margin + 5, yPos + 20)
     }
 
-    // Key specs in two columns
+    // Key specs in two columns - ordered to match product page priority
     const leftColX = margin + 5
     const rightColX = pageWidth / 2 + 5
     let infoY = yPos + 28
 
     doc.setFontSize(8)
     
-    // Left column
-    doc.setTextColor(BRAND_DARK)
-    doc.setFont('helvetica', 'bold')
-    doc.text('Processing:', leftColX, infoY)
-    doc.setTextColor(GRAY_600)
-    doc.setFont('helvetica', 'normal')
-    doc.text(product.specifications.processingMethod || 'N/A', leftColX + 20, infoY)
-
-    infoY += 5
+    // Left column - Primary quality specs
     doc.setTextColor(BRAND_DARK)
     doc.setFont('helvetica', 'bold')
     doc.text('Grade:', leftColX, infoY)
     doc.setTextColor(GRAY_600)
     doc.setFont('helvetica', 'normal')
-    doc.text(product.specifications.grade || 'N/A', leftColX + 20, infoY)
+    doc.text(product.specifications.grade || 'N/A', leftColX + 14, infoY)
 
     infoY += 5
     doc.setTextColor(BRAND_DARK)
@@ -328,12 +323,20 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     infoY += 5
     doc.setTextColor(BRAND_DARK)
     doc.setFont('helvetica', 'bold')
+    doc.text('Processing:', leftColX, infoY)
+    doc.setTextColor(GRAY_600)
+    doc.setFont('helvetica', 'normal')
+    doc.text(product.specifications.processingMethod || 'N/A', leftColX + 20, infoY)
+
+    infoY += 5
+    doc.setTextColor(BRAND_DARK)
+    doc.setFont('helvetica', 'bold')
     doc.text('Altitude:', leftColX, infoY)
     doc.setTextColor(GRAY_600)
     doc.setFont('helvetica', 'normal')
-    doc.text(product.altitude || 'N/A', leftColX + 20, infoY)
+    doc.text(product.altitude || 'N/A', leftColX + 17, infoY)
 
-    // Right column
+    // Right column - Pricing & logistics
     infoY = yPos + 28
     
     doc.setTextColor(BRAND_DARK)
@@ -341,7 +344,7 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     doc.text('Price/lb:', rightColX, infoY)
     doc.setTextColor(BRAND_ACCENT)
     doc.setFont('helvetica', 'bold')
-    doc.text(`$${product.pricing.fobPricePerLb.toFixed(2)}`, rightColX + 15, infoY)
+    doc.text(`$${product.pricing.fobPricePerLb.toFixed(2)}`, rightColX + 16, infoY)
 
     infoY += 5
     doc.setTextColor(BRAND_DARK)
@@ -349,7 +352,7 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     doc.text('Crop Year:', rightColX, infoY)
     doc.setTextColor(GRAY_600)
     doc.setFont('helvetica', 'normal')
-    doc.text(product.specifications.cropYear || 'N/A', rightColX + 18, infoY)
+    doc.text(product.specifications.cropYear || 'N/A', rightColX + 20, infoY)
 
     infoY += 5
     doc.setTextColor(BRAND_DARK)
@@ -365,16 +368,16 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     doc.text('Lot #:', rightColX, infoY)
     doc.setTextColor(GRAY_600)
     doc.setFont('helvetica', 'normal')
-    doc.text(product.lotNumber || 'N/A', rightColX + 12, infoY)
+    doc.text(product.lotNumber?.trim() || 'N/A', rightColX + 12, infoY)
 
     // Description
     doc.setFontSize(8)
     doc.setTextColor(GRAY_600)
     doc.setFont('helvetica', 'normal')
     const descLines = doc.splitTextToSize(product.desc, pageWidth - 2 * margin - 10)
-    doc.text(descLines.slice(0, 2), margin + 5, yPos + 52) // Limit to 2 lines
+    doc.text(descLines.slice(0, 2), margin + 5, yPos + 55) // Limit to 2 lines
 
-    yPos += 72
+    yPos += 77
   })
 
   // Footer on last page

@@ -74,7 +74,7 @@ const OfferingDetail = ({ params }: Props) => {
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[280px] flex flex-col items-center justify-center'>
         <h1 className='text-5xl font-bold text-primary'>{product.name}</h1>
-        <p className='mt-3 text-primary font-inconsolata text-lg'>{product.region}</p>
+        <p className='mt-3 text-primary font-inconsolata text-lg'>{product.subRegion ? `${product.subRegion}, ${product.region}` : product.region}</p>
       </header>
       
       <section className='container mx-auto py-16 px-4'>
@@ -85,7 +85,7 @@ const OfferingDetail = ({ params }: Props) => {
             <div className='sticky top-24 bg-white rounded-2xl shadow-lg p-8 border border-gray-100'>
               <Image
                 src={`/images/${product.image_url}`}
-                alt={`${product.name} - ${product.specifications.processingMethod} processed Ethiopian green coffee from ${product.region}`}
+                alt={`${product.name} - ${product.specifications.processingMethod} processed Ethiopian green coffee from ${product.subRegion ? `${product.subRegion}, ${product.region}` : product.region}`}
                 width={600}
                 height={600}
                 className='object-contain w-full h-auto'
@@ -234,6 +234,12 @@ const OfferingDetail = ({ params }: Props) => {
                             <tr>
                               <td className='py-3 px-4 text-sm font-medium text-gray-900'>Region</td>
                               <td className='py-3 px-4 text-sm text-gray-700'>{product.region}</td>
+                            </tr>
+                          )}
+                          {product.subRegion && (
+                            <tr>
+                              <td className='py-3 px-4 text-sm font-medium text-gray-900'>Sub-Region</td>
+                              <td className='py-3 px-4 text-sm text-gray-700'>{product.subRegion}</td>
                             </tr>
                           )}
                           {product.altitude && (

@@ -9,6 +9,7 @@ import { generateMultipleProductsPDF } from '../lib/pdfGenerator'
 
 type Filters = {
   keyword: string
+  region: string
   grade: string
   processingMethod: string
   cropYear: string
@@ -25,6 +26,7 @@ const matchesKeyword = (offering: Offering, keyword: string) => {
     normalize(offering.name).includes(q) ||
     normalize(offering.desc).includes(q) ||
     normalize(offering.region).includes(q) ||
+    normalize(offering.subRegion ?? '').includes(q) ||
     normalize(offering.variety ?? '').includes(q) ||
     offering.flavorNotes.some((note) => normalize(note).includes(q)) ||
     normalize(offering.specifications.grade ?? '').includes(q) ||
@@ -81,8 +83,13 @@ const OfferingsBrowser = () => {
     return Array.from(new Set(offerings.map((o) => o.specifications.cropYear).filter((v): v is string => v !== null))).sort()
   }, [])
 
+  const regionOptions = useMemo(() => {
+    return Array.from(new Set(offerings.map((o) => o.region))).sort()
+  }, [])
+
   const [draft, setDraft] = useState<Filters>({
     keyword: '',
+    region: '',
     grade: '',
     processingMethod: '',
     cropYear: '',
@@ -95,6 +102,7 @@ const OfferingsBrowser = () => {
   const filtered = useMemo(() => {
     return offerings.filter((o) => {
       if (!matchesKeyword(o, applied.keyword)) return false
+      if (applied.region && o.region !== applied.region) return false
       if (applied.grade && o.specifications.grade !== applied.grade) return false
       if (applied.processingMethod && o.specifications.processingMethod !== applied.processingMethod) return false
       if (applied.cropYear && o.specifications.cropYear !== applied.cropYear) return false
@@ -114,7 +122,7 @@ const OfferingsBrowser = () => {
   // Scroll to results when filters are applied/removed
   useEffect(() => {
     // Only scroll if we're not on initial load (check if any filter is active)
-    const hasActiveFilters = applied.keyword || applied.grade || applied.processingMethod || 
+    const hasActiveFilters = applied.keyword || applied.region || applied.grade || applied.processingMethod || 
                              applied.cropYear || applied.minScore || applied.availability
     
     // Scroll whenever filtered results change, but add a small delay to let the DOM update
@@ -152,7 +160,7 @@ const OfferingsBrowser = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
 
   const clearFilters = () => {
-    const cleared: Filters = { keyword: '', grade: '', processingMethod: '', cropYear: '', minScore: '', availability: '' }
+    const cleared: Filters = { keyword: '', region: '', grade: '', processingMethod: '', cropYear: '', minScore: '', availability: '' }
     setDraft(cleared)
     setApplied(cleared)
   }
@@ -257,6 +265,20 @@ const OfferingsBrowser = () => {
                     placeholder='Search offerings'
                     className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
                   />
+                </div>
+
+                <div>
+                  <label className='block text-sm font-medium text-gray-700 mb-1.5'>Region</label>
+                  <select
+                    value={draft.region}
+                    onChange={(e) => setDraft((p) => ({ ...p, region: e.target.value }))}
+                    className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
+                  >
+                    <option value=''>All Regions</option>
+                    {regionOptions.map((v) => (
+                      <option key={v} value={v}>{v}</option>
+                    ))}
+                  </select>
                 </div>
 
                 <div className='grid grid-cols-2 gap-4'>
@@ -374,6 +396,22 @@ const OfferingsBrowser = () => {
                   placeholder='Search offerings'
                   className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
                 />
+              </div>
+
+              <div>
+                <label className='block text-sm font-medium text-gray-700 mb-1.5'>Region</label>
+                <select
+                  value={draft.region}
+                  onChange={(e) => setDraft((p) => ({ ...p, region: e.target.value }))}
+                  className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
+                >
+                  <option value=''>All Regions</option>
+                  {regionOptions.map((v) => (
+                    <option key={v} value={v}>
+                      {v}
+                    </option>
+                  ))}
+                </select>
               </div>
 
               <div>

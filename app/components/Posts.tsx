@@ -40,9 +40,12 @@ export const Post = ({ title, date, small_image_url, slug, showDate = true }: Pr
   )
 }
 
-const featuredHomePostIds = [5, 1, 2, 6]
+const featuredHomePostIds = [1,2,3,4]
 
 const Posts = () => {
+  // Filter posts that have an id matching the featured ids
+  const featuredPosts = posts.filter(post => post.id !== undefined && featuredHomePostIds.includes(post.id))
+  
   return (
     <section id='posts' className='py-32 flex flex-col bg-primary text-dark'>
       <div className="container mx-auto px-4">
@@ -53,12 +56,9 @@ const Posts = () => {
         <div className="w-24 h-1 bg-accent mx-auto mb-16"></div>
 
         <div id="blogs-container" className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center'>
-          {featuredHomePostIds
-            .map((id) => ({ id, post: posts[id] }))
-            .filter((x) => Boolean(x.post))
-            .map(({ id, post }) => (
-              <Post key={id} {...post} slug={post.slug || ''} showDate={false} />
-            ))}
+          {featuredPosts.map((post) => (
+            <Post key={post.id} {...post} slug={post.slug || ''} showDate={false} />
+          ))}
         </div>
 
         <div className='flex justify-center mt-10'>
