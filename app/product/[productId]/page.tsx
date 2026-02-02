@@ -25,6 +25,7 @@ const OfferingDetail = ({ params }: Props) => {
   const product = offerings.find(p => p.id === productId)
   const [isQuoteOpen, setIsQuoteOpen] = useState(false)
   const productImageRef = useRef<HTMLDivElement>(null);
+  const specsSectionRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
     // Scroll to show product image and name nicely in viewport
@@ -139,7 +140,7 @@ const OfferingDetail = ({ params }: Props) => {
             )}
 
             {/* Product Details Section with tabs - MOVED TO TOP */}
-            <div className='mb-8 bg-white rounded-xl border-2 border-gray-200 overflow-hidden shadow-sm'>
+            <div ref={specsSectionRef} className='mb-8 bg-white rounded-xl border-2 border-gray-200 overflow-hidden shadow-sm'>
               <div className='flex border-b border-gray-200 bg-gray-50'>
                 <button
                   onClick={() => setActiveDetail('coffeeProfileOrigin')}
@@ -363,7 +364,24 @@ const OfferingDetail = ({ params }: Props) => {
                     {/* Show More/Less Button */}
                     <div className='mt-4 text-center'>
                       <button
-                        onClick={() => setIsSpecsExpanded(!isSpecsExpanded)}
+                        onClick={() => {
+                          const willCollapse = isSpecsExpanded;
+                          setIsSpecsExpanded(!isSpecsExpanded);
+                          
+                          // When collapsing, scroll to keep the specs section in view
+                          if (willCollapse && specsSectionRef.current) {
+                            setTimeout(() => {
+                              if (specsSectionRef.current) {
+                                const headerOffset = 100;
+                                const elementTop = specsSectionRef.current.getBoundingClientRect().top + window.scrollY;
+                                window.scrollTo({
+                                  top: Math.max(0, elementTop - headerOffset),
+                                  behavior: 'smooth'
+                                });
+                              }
+                            }, 50);
+                          }
+                        }}
                         className='inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-accent hover:text-white bg-white hover:bg-accent border-2 border-accent rounded-lg transition-all shadow-sm hover:shadow-md'
                       >
                         {isSpecsExpanded ? (

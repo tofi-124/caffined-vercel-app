@@ -155,9 +155,8 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="underline underline-offset-4 hover:text-primary/80 transition-colors"
           >
-            nusu97
+            nusu.m
           </a>
-          <span>with ❤️</span>
         </p>
       </div>
     </footer>
