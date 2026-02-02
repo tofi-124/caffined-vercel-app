@@ -5,126 +5,138 @@ import type { Offering } from '../data/offerings'
 
 type Props = {
   items: Offering[]
-  showActions?: boolean
-  onRequestQuote?: (offering: Offering) => void
 }
 
-const OfferingsResultsList = ({ items, showActions = false, onRequestQuote }: Props) => {
+const OfferingsResultsList = ({ items }: Props) => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 w-full'>
       {items.map((o) => (
-        <div 
+        <Link 
           key={o.id} 
-          className='group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col'
+          href={`/product/${o.id}`}
+          className='group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-gray-100/80 flex flex-col'
         >
-          {/* Image Container */}
-          <Link href={`/product/${o.id}`} className='relative overflow-hidden bg-gradient-to-b from-gray-50 to-white p-4 sm:p-6'>
-            <div className='relative w-full aspect-square flex items-center justify-center'>
+          {/* Image Container with elegant overlay */}
+          <div className='relative overflow-hidden bg-gradient-to-br from-stone-100 via-stone-50 to-white'>
+            <div className='relative w-full aspect-[4/3] flex items-center justify-center p-6'>
               <ResponsiveImage
                 src={`/images/${o.image_url}`}
                 alt={o.name}
                 width={400}
-                height={400}
-                className='object-contain w-full h-full max-w-[280px] sm:max-w-none group-hover:scale-105 transition-transform duration-500'
+                height={300}
+                className='object-contain w-full h-full max-w-[240px] group-hover:scale-110 transition-transform duration-700 ease-out'
                 sizes='(max-width: 640px) 80vw, (max-width: 768px) 45vw, (max-width: 1024px) 30vw, 280px'
               />
             </div>
+            
+            {/* Status badge */}
             {o.isSoldOut ? (
-              <span className='absolute top-3 right-3 sm:top-4 sm:right-4 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full bg-dark text-white text-xs font-bold uppercase tracking-wide'>
+              <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-dark/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>
                 Sold Out
               </span>
             ) : o.availableBags !== null && (
-              <span className='absolute top-3 right-3 sm:top-4 sm:right-4 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full bg-green-600 text-white text-xs font-bold uppercase tracking-wide'>
-                {o.availableBags} bags
+              <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-emerald-600/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>
+                {o.availableBags} bags available
               </span>
             )}
-          </Link>
+
+            {/* Processing method badge */}
+            {o.specifications.processingMethod && (
+              <span className='absolute top-4 right-4 px-3 py-1.5 rounded-full bg-white/90 backdrop-blur-sm text-dark text-[10px] font-bold uppercase tracking-wider border border-gray-200/50'>
+                {o.specifications.processingMethod}
+              </span>
+            )}
+          </div>
 
           {/* Content Container */}
-          <div className='flex flex-col flex-1 p-6 pt-2'>
-            <Link href={`/product/${o.id}`} className='group/title'>
-              <h3 className='text-xl font-bold text-dark group-hover/title:text-accent transition-colors duration-200 line-clamp-2'>
-                {o.name}
-              </h3>
-            </Link>
-            
-            {/* Region */}
-            <p className='mt-1 text-sm text-gray-500'>
-              {o.subRegion ? `${o.subRegion}, ${o.region}` : o.region}
-            </p>
+          <div className='flex flex-col flex-1 p-6'>
+            {/* Region label */}
+            <div className='flex items-center gap-2 mb-2'>
+              <span className='text-[11px] font-semibold uppercase tracking-widest text-accent'>
+                {o.region}
+              </span>
+              {o.subRegion && (
+                <>
+                  <span className='text-gray-300'>·</span>
+                  <span className='text-[11px] font-medium uppercase tracking-wide text-gray-500'>
+                    {o.subRegion}
+                  </span>
+                </>
+              )}
+            </div>
 
-            {/* Flavor Notes */}
+            {/* Title */}
+            <h3 className='text-lg font-bold text-dark group-hover:text-accent transition-colors duration-300 line-clamp-2 leading-snug'>
+              {o.name}
+            </h3>
+
+            {/* Specs grid */}
+            <div className='mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-xs'>
+              {o.altitude && (
+                <div className='flex flex-col'>
+                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Altitude</span>
+                  <span className='text-dark font-semibold'>{o.altitude}</span>
+                </div>
+              )}
+              {o.specifications.grade && (
+                <div className='flex flex-col'>
+                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Grade</span>
+                  <span className='text-dark font-semibold'>{o.specifications.grade}</span>
+                </div>
+              )}
+              {o.specifications.cropYear && (
+                <div className='flex flex-col'>
+                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Harvest</span>
+                  <span className='text-dark font-semibold'>{o.specifications.cropYear}</span>
+                </div>
+              )}
+              {o.specifications.cupScore && (
+                <div className='flex flex-col'>
+                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Cup Score</span>
+                  <span className='text-accent font-bold'>{o.specifications.cupScore} pts</span>
+                </div>
+              )}
+            </div>
+
+            {/* Flavor profile */}
             {o.flavorNotes.length > 0 && (
-              <div className='mt-3 flex flex-wrap gap-1.5'>
-                {o.flavorNotes.slice(0, 3).map((note, index) => (
-                  <span key={index} className='px-2 py-0.5 bg-accent/10 rounded-full text-xs font-medium text-accent'>
-                    {note}
-                  </span>
-                ))}
-                {o.flavorNotes.length > 3 && (
-                  <span className='px-2 py-0.5 text-xs text-gray-400'>
-                    +{o.flavorNotes.length - 3} more
-                  </span>
-                )}
+              <div className='mt-4 pt-4 border-t border-gray-200'>
+                <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium block mb-2'>Cup Profile</span>
+                <p className='text-sm text-gray-600 leading-relaxed line-clamp-2'>
+                  {o.flavorNotes.join(', ')}
+                </p>
               </div>
             )}
 
-            {/* Quick Specs */}
-            <div className='mt-4 flex flex-wrap gap-2'>
-              {o.specifications.processingMethod && (
-                <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
-                  {o.specifications.processingMethod}
-                </span>
-              )}
-              {o.specifications.grade && (
-                <span className='px-2.5 py-1 bg-primary rounded-full text-xs font-medium text-dark'>
-                  {o.specifications.grade}
-                </span>
-              )}
-              {o.specifications.cupScore && (
-                <span className='px-2.5 py-1 bg-accent/10 rounded-full text-xs font-semibold text-accent'>
-                  {o.specifications.cupScore} pts
-                </span>
-              )}
-            </div>
+            {/* Spacer */}
+            <div className='flex-1 min-h-3'></div>
 
-            {/* Pricing */}
-            <div className='mt-4 pt-4 border-t border-gray-100'>
-              <div className='flex items-baseline gap-1'>
+            {/* Footer with price and CTA */}
+            <div className='mt-4 pt-4 border-t border-gray-200 flex items-end justify-between'>
+              <div>
                 <span className='text-2xl font-bold text-dark'>${o.pricing.fobPricePerLb.toFixed(2)}</span>
-                <span className='text-sm text-gray-500'>USD per pound</span>
+                <span className='text-xs text-gray-400 ml-1'>/lb FOB</span>
               </div>
-              <p className='text-xs text-gray-400 mt-1'>FOB Ethiopia &bull; {o.pricing.priceYear} crop</p>
-            </div>
-
-            {/* Spacer to push button to bottom */}
-            <div className='flex-1 min-h-4'></div>
-
-            {/* Actions */}
-            <div className='mt-4 flex flex-col gap-2'>
-              {showActions && (
-                <button
-                  onClick={() => onRequestQuote?.(o)}
-                  className='w-full px-6 py-4 bg-accent hover:bg-accent/90 text-white border-2 border-accent rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
-                >
-                  {o.isSoldOut ? 'JOIN WAITLIST' : 'GET A QUOTE'}
-                </button>
-              )}
-              <Link 
-                href={`/product/${o.id}`} 
-                className='w-full px-6 py-4 text-center bg-white hover:bg-dark text-dark hover:text-primary border-2 border-dark rounded-xl font-bold transition-all shadow-sm hover:shadow-md'
-              >
-                View Details
-              </Link>
+              <span className='inline-flex items-center gap-1 text-sm font-semibold text-accent group-hover:gap-2 transition-all duration-300'>
+                View details
+                <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5l7 7-7 7' />
+                </svg>
+              </span>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
 
       {items.length === 0 && (
-        <div className='col-span-full border border-dark/20 rounded-2xl p-12 text-center bg-white'>
-          <h3 className='text-2xl font-bold text-dark'>No results found</h3>
-          <p className='mt-2 text-gray-600'>Try adjusting your filters to find what you're looking for.</p>
+        <div className='col-span-full border border-gray-200 rounded-3xl p-16 text-center bg-white'>
+          <div className='w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center'>
+            <svg className='w-8 h-8 text-gray-400' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={1.5} d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
+            </svg>
+          </div>
+          <h3 className='text-xl font-bold text-dark'>No coffees found</h3>
+          <p className='mt-2 text-gray-500'>Try adjusting your filters to discover more offerings.</p>
         </div>
       )}
     </div>

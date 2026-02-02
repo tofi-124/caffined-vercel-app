@@ -1,8 +1,6 @@
 "use client"
 
 import React, { useEffect, useMemo, useRef, useState } from 'react'
-import Link from 'next/link'
-import QuoteRequestPopup from '../components/QuoteRequestPopup'
 import OfferingsResultsList from '../components/OfferingsResultsList'
 import { offerings, Offering } from '../data/offerings'
 import { generateMultipleProductsPDF } from '../lib/pdfGenerator'
@@ -156,7 +154,6 @@ const OfferingsBrowser = () => {
     if (page !== safePage) setPage(safePage)
   }, [page, safePage])
 
-  const [quoteFor, setQuoteFor] = useState<Offering | null>(null)
   const [isFilterOpen, setIsFilterOpen] = useState(false)
 
   const clearFilters = () => {
@@ -518,7 +515,7 @@ const OfferingsBrowser = () => {
           </aside>
 
           <div className='flex-1 w-full'>
-            <OfferingsResultsList items={paged} showActions onRequestQuote={(o) => setQuoteFor(o)} />
+            <OfferingsResultsList items={paged} />
 
             {totalPages > 1 && (
               <div className='mt-12 flex flex-wrap justify-center gap-2'>
@@ -545,13 +542,6 @@ const OfferingsBrowser = () => {
           </div>
         </div>
       </div>
-      <QuoteRequestPopup
-        isOpen={Boolean(quoteFor)}
-        onClose={() => setQuoteFor(null)}
-        productName={quoteFor?.name || ''}
-        productImage={quoteFor?.image_url || ''}
-        isAllocationList={quoteFor?.isSoldOut ?? true}
-      />
     </section>
   )
 }
