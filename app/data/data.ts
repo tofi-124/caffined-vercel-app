@@ -974,5 +974,53 @@ export const posts: Post[] = [
         'Ethiopian coffee modernization'
       ],
       desc: 'Comprehensive guide to AFCA\'s Taste of Harvest coffee competition and Ethiopia\'s participation. Learn about the two-phase competition system, AFCA certification process, auction opportunities for award-winning coffees, Ethiopia\'s modern coffee laboratory facilities, how producers and cooperatives can participate, and benefits for international specialty coffee buyers seeking exceptional Ethiopian coffee.'
+    },
+    // ===== CERTIFICATIONS & SUSTAINABILITY =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-certifications.webp',
+      large_image_url: 'insights/ethiopian-coffee-certifications.webp',
+      date: 'Feb 02, 2026',
+      title: 'ETHIOPIAN COFFEE CERTIFICATIONS GUIDE: ORGANIC, FAIR TRADE, RAINFOREST ALLIANCE & MORE',
+      slug: 'ethiopian-coffee-certifications-organic-fairtrade-rainforest',
+      category: 'Certifications & Sustainability / Sourcing Guide',
+      keywords: [
+        'Ethiopian coffee certifications',
+        'organic Ethiopian coffee',
+        'fair trade Ethiopian coffee',
+        'Rainforest Alliance Ethiopian coffee',
+        'certified Ethiopian coffee',
+        'USDA organic coffee Ethiopia',
+        'EU organic coffee Ethiopia',
+        'Fairtrade coffee Ethiopia',
+        'UTZ certified Ethiopian coffee',
+        'Bird Friendly coffee Ethiopia',
+        'sustainable Ethiopian coffee',
+        'Ethiopian coffee sustainability',
+        'coffee certification guide',
+        'organic coffee importers',
+        'fair trade coffee buyers',
+        'certified green coffee',
+        'Ethiopian cooperative coffee',
+        'OCFCU organic coffee',
+        'YCFCU fair trade',
+        'Sidama certified coffee',
+        'Yirgacheffe organic coffee',
+        'Guji certified coffee',
+        'direct trade vs certification',
+        'coffee certification costs',
+        'coffee certification premiums',
+        'Ethiopian coffee traceability',
+        'sustainable coffee sourcing',
+        'ethical coffee Ethiopia',
+        'shade grown Ethiopian coffee',
+        'forest coffee certification',
+        'coffee certification comparison',
+        'best coffee certification',
+        'dual certified coffee',
+        'triple certified coffee',
+        'JAS organic coffee Ethiopia',
+        'coffee sustainability standards'
+      ],
+      desc: 'The definitive guide to coffee certifications for Ethiopian green coffee: understanding Organic (USDA, EU, JAS), Fair Trade, Rainforest Alliance, UTZ, and Bird Friendly certifications. Learn what each certification means, costs and premiums, how to source certified Ethiopian coffee, and which certification aligns with your business values and customer expectations.'
     }
 ]
