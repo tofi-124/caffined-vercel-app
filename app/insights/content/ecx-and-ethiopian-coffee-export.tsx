@@ -340,12 +340,37 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         </div>
       </div>
 
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Import Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>How to Import Ethiopian Coffee to USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Trade & Quality</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Quality Control</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities (MOQ)</Link></li>
+              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Ethiopian Coffee Prices Explained</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
           <span className='font-bold'>About This Insight:</span> This guide explains the Ethiopia Commodity Exchange (ECX) system, its role in Ethiopian coffee export, grading standards, traceability, and what international buyers need to know when sourcing from ECX-registered suppliers.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Sourcing Guide</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

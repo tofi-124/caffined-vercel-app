@@ -1000,14 +1000,35 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         </div>
       </div>
 
-      <div className='border border-gray-200 rounded-lg p-4 my-6 hover:border-amber-400 transition-colors'>
-        <h4 className='font-bold mb-2'>Quality & Market Analysis</h4>
-        <ul className='space-y-1 text-sm grid md:grid-cols-2 gap-x-4'>
-          <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 hover:underline'>New SCA Coffee Value Assessment</Link></li>
-          <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
-          <li>• <Link href="/insights/ethiopian-coffee-harvest-2025-season-outlook" className='text-blue-600 hover:underline'>Ethiopian Coffee Harvest 2025 Outlook</Link></li>
-          <li>• <Link href="/insights/specialty-coffee-trends-2026" className='text-blue-600 hover:underline'>Specialty Coffee Trends 2026</Link></li>
-        </ul>
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-3 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Trade & Economics</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding ECX</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
+              <li>• <Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>Ethiopia-China Partnership</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Import Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Production & Quality</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Production</Link></li>
+              <li>• <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee Production</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Varieties</Link></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <hr className="my-8 border-gray-200" />

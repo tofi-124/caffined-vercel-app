@@ -708,11 +708,14 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
             <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
               → The Ethiopia Commodity Exchange (ECX) and Ethiopian Coffee Export
             </Link>
-            <Link href="/insights/coffee-is-processing-drying-milling" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → Coffee is a Process: Complete Guide to Coffee Processing, Drying, and Milling
+            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
+              → Understanding ECX and Ethiopian Coffee Export
             </Link>
-            <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → Washed vs Natural Processed Ethiopian Coffee: What Roasters Need to Know
+            <Link href="/insights/rising-ethiopian-coffee-prices-explained" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
+              → Rising Ethiopian Coffee Prices Explained
+            </Link>
+            <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
+              → Ethiopian Coffee Certifications Guide
             </Link>
             <Link href="/insights/afca-taste-of-harvest-ethiopian-coffee-competition" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
               → AFCA Taste of Harvest: Ethiopian Coffee Competition & Quality Recognition

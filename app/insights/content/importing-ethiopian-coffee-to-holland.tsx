@@ -277,6 +277,37 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         <p className='font-medium'><span className='font-bold'>Tip:</span> Use Rotterdam bonded storage to smooth cash flow and simplify cross-border distribution into Belgium and Germany   many traders import via Rotterdam even when final markets are elsewhere.</p>
       </div>
 
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-3 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>EU Import Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
+              <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Trade & Logistics</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding ECX</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
+              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Coffee Prices Explained</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality & Sourcing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Varieties</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Certifications Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Quality Control</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <p className='my-6'>
         For specific questions about pricing examples, bonded warehouse providers in Rotterdam, or a checklist for your first shipment, <Link href='/contact-us' className='text-amber-700 hover:underline'>contact our export team</Link> and we can help arrange logistics and documentation support.
       </p>

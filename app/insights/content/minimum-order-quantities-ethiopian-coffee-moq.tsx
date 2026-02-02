@@ -1065,23 +1065,32 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       {/* RELATED ARTICLES */}
       <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>
         <h4 className='font-bold text-lg mb-4'>Related Articles</h4>
-        <ul className='space-y-2 text-sm'>
-          <li>
-            <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>
-              → How to Import Ethiopian Coffee to USA: Complete Guide
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>
-              → Understanding Ethiopian Coffee Prices: Market Analysis
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline'>
-              → Complete Guide to Understanding Coffee Quality and Grading
-            </Link>
-          </li>
-        </ul>
+        <div className='grid md:grid-cols-3 gap-4'>
+          <div>
+            <h5 className='font-semibold mb-2 text-sm'>Import Guides</h5>
+            <ul className='space-y-1.5 text-sm'>
+              <li><Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>→ Importing to USA</Link></li>
+              <li><Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>→ Importing to Canada</Link></li>
+              <li><Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>→ Importing to UK</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h5 className='font-semibold mb-2 text-sm'>Trade & Economics</h5>
+            <ul className='space-y-1.5 text-sm'>
+              <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>→ Coffee Prices Explained</Link></li>
+              <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>→ Understanding ECX</Link></li>
+              <li><Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>→ Ethiopia-China Partnership</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h5 className='font-semibold mb-2 text-sm'>Quality & Sourcing</h5>
+            <ul className='space-y-1.5 text-sm'>
+              <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>→ Heirloom Varieties</Link></li>
+              <li><Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>→ Certifications Guide</Link></li>
+              <li><Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline'>→ Complete Coffee Guide</Link></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   )

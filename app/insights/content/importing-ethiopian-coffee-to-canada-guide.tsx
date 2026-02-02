@@ -553,12 +553,44 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         </div>
       </div>
 
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-3 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Other Import Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Trade & Logistics</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding ECX</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
+              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Coffee Prices Explained</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality & Sourcing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Varieties</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Certifications Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Quality Control</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
           <span className='font-bold'>About This Guide:</span> This practical resource covers importing Ethiopian specialty coffee to Canada CFIA regulations, CBSA customs requirements, duty rates, GST/HST, shipping logistics, cost breakdowns, and working with Ethio Coffee Export for Canadian market entry.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline'>Understanding ECX</Link> · <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Sourcing Guide</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>
