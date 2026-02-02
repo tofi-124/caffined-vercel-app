@@ -729,6 +729,38 @@ export const posts: Post[] = [
       ],
       desc: 'Complete post-Brexit guide to importing Ethiopian specialty coffee to the United Kingdom covering HMRC customs procedures, FSA food safety requirements, EORI registration, zero duty and VAT structure, shipping to Felixstowe and London Gateway ports, UK coffee market insights, cost breakdown, and partnering with Ethio Coffee Export for successful UK market entry.'
     },
+    // Asia Pacific
+    {
+      small_image_url: 'insights/australia-coffee-import.webp',
+      large_image_url: 'insights/australia-coffee-import.webp',
+      date: 'Jan 09, 2026',
+      title: 'IMPORTING ETHIOPIAN COFFEE TO AUSTRALIA: COMPLETE BIOSECURITY & CUSTOMS GUIDE',
+      slug: 'importing-ethiopian-coffee-to-australia',
+      category: 'Import Guide / Australian Market',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to australia',
+        'import ethiopian coffee australia',
+        'australian coffee import',
+        'daff biosecurity coffee',
+        'australian border force coffee',
+        'abf customs coffee',
+        'melbourne coffee import',
+        'sydney coffee import',
+        'australian coffee market',
+        'specialty coffee australia',
+        'abn coffee import',
+        'ethiopian coffee to australia',
+        'australian coffee roasters',
+        'melbourne coffee culture',
+        'phytosanitary certificate australia',
+        'australian coffee regulations',
+        'gst coffee import',
+        'australian specialty coffee'
+      ],
+      desc: 'Complete guide to importing Ethiopian specialty coffee to Australia covering DAFF biosecurity requirements, Australian Border Force customs procedures, phytosanitary certificates, zero duty and GST structure, shipping to Melbourne and Sydney ports, Australian coffee market insights (world\'s most quality-focused), cost breakdown, and partnering with Ethio Coffee Export for successful Australian market entry.'
+    },
     // Asia
     {
       small_image_url: 'insights/south-korea-coffee-import.webp',

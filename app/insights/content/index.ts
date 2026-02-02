@@ -22,6 +22,8 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./importing-ethiopian-coffee-to-holland').then(mod => mod.default),
   'importing-ethiopian-coffee-to-uk': () => 
     import('./importing-ethiopian-coffee-to-uk').then(mod => mod.default),
+  'importing-ethiopian-coffee-to-australia': () => 
+    import('./importing-ethiopian-coffee-to-australia').then(mod => mod.default),
   'top-10-specialty-coffee-shops-world': () => 
     import('./top-10-specialty-coffee-shops-world').then(mod => mod.default),
   'new-sca-coffee-value-assessment': () => 

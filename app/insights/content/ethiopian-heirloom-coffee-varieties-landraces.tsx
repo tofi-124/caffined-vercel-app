@@ -329,7 +329,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
 
       <div className='space-y-6 my-8'>
         <div className='bg-green-50 p-6 rounded-lg border border-green-200'>
-          <h5 className='font-bold text-lg mb-3 text-green-800'>🌳 Yirgacheffe Region</h5>
+          <h5 className='font-bold text-lg mb-3 text-green-800 flex items-center gap-2'><HiOutlineMapPin className='text-green-600' /> Yirgacheffe Region</h5>
           <div className='grid md:grid-cols-2 gap-4 text-sm'>
             <div>
               <p className='font-bold mb-2'>Genetic Characteristics:</p>
@@ -353,7 +353,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </div>
 
         <div className='bg-amber-50 p-6 rounded-lg border border-amber-200'>
-          <h5 className='font-bold text-lg mb-3 text-amber-800'>☀️ Sidama Region</h5>
+          <h5 className='font-bold text-lg mb-3 text-amber-800 flex items-center gap-2'><HiOutlineMapPin className='text-amber-600' /> Sidama Region</h5>
           <div className='grid md:grid-cols-2 gap-4 text-sm'>
             <div>
               <p className='font-bold mb-2'>Genetic Characteristics:</p>
@@ -377,7 +377,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </div>
 
         <div className='bg-blue-50 p-6 rounded-lg border border-blue-200'>
-          <h5 className='font-bold text-lg mb-3 text-blue-800'>🏔️ Guji Zone</h5>
+          <h5 className='font-bold text-lg mb-3 text-blue-800 flex items-center gap-2'><HiOutlineMapPin className='text-blue-600' /> Guji Zone</h5>
           <div className='grid md:grid-cols-2 gap-4 text-sm'>
             <div>
               <p className='font-bold mb-2'>Genetic Characteristics:</p>
@@ -401,7 +401,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </div>
 
         <div className='bg-purple-50 p-6 rounded-lg border border-purple-200'>
-          <h5 className='font-bold text-lg mb-3 text-purple-800'>🌲 Kaffa, Bench Maji, Illubabor (Forest Coffee)</h5>
+          <h5 className='font-bold text-lg mb-3 text-purple-800 flex items-center gap-2'><HiOutlineMapPin className='text-purple-600' /> Kaffa, Bench Maji, Illubabor (Forest Coffee)</h5>
           <div className='grid md:grid-cols-2 gap-4 text-sm'>
             <div>
               <p className='font-bold mb-2'>Genetic Characteristics:</p>
@@ -425,7 +425,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </div>
 
         <div className='bg-red-50 p-6 rounded-lg border border-red-200'>
-          <h5 className='font-bold text-lg mb-3 text-red-800'>☕ Harar Region (Eastern Highlands)</h5>
+          <h5 className='font-bold text-lg mb-3 text-red-800 flex items-center gap-2'><HiOutlineCube className='text-red-600' /> Harar Region (Eastern Highlands)</h5>
           <div className='grid md:grid-cols-2 gap-4 text-sm'>
             <div>
               <p className='font-bold mb-2'>Genetic Characteristics:</p>

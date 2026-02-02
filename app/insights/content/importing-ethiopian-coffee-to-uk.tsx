@@ -17,7 +17,9 @@ import {
   HiOutlineClipboardDocumentList,
   HiOutlineMapPin,
   HiOutlineArrowTrendingUp,
-  HiOutlineLightBulb
+  HiOutlineLightBulb,
+  HiOutlineClock,
+  HiOutlineMagnifyingGlass
 } from 'react-icons/hi2'
 
 type InsightContentProps = {
@@ -146,11 +148,11 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h5 className='font-bold mb-3'>Business Drivers</h5>
           <ul className='space-y-2 text-sm'>
-            <li>✓ <span className='font-bold'>Differentiation:</span> Ethiopian coffee helps independent roasters compete with chains</li>
-            <li>✓ <span className='font-bold'>Premium positioning:</span> Yirgacheffe, Guji command premium retail prices</li>
-            <li>✓ <span className='font-bold'>Competition trends:</span> Leading UK roasters (Square Mile, Has Bean, Origin) champion Ethiopian origins</li>
-            <li>✓ <span className='font-bold'>Retail growth:</span> Specialty coffee retail (beans, subscriptions) booming in UK</li>
-            <li>✓ <span className='font-bold'>Cafe culture:</span> Third-wave cafes proliferating beyond London to regional cities</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Differentiation:</span> Ethiopian coffee helps independent roasters compete with chains</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Premium positioning:</span> Yirgacheffe, Guji command premium retail prices</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Competition trends:</span> Leading UK roasters (Square Mile, Has Bean, Origin) champion Ethiopian origins</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Retail growth:</span> Specialty coffee retail (beans, subscriptions) booming in UK</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Cafe culture:</span> Third-wave cafes proliferating beyond London to regional cities</li>
           </ul>
         </div>
       </div>
@@ -173,7 +175,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
 
       <div className='grid md:grid-cols-2 gap-6 my-8'>
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold text-lg mb-3'>🏛️ Food Standards Agency (FSA)</h5>
+          <h5 className='font-bold text-lg mb-3 flex items-center gap-2'><HiOutlineBuildingOffice className='text-amber-600' /> Food Standards Agency (FSA)</h5>
           <p className='text-sm mb-3'><span className='font-bold'>Website:</span> <a href='https://www.food.gov.uk' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>food.gov.uk</a></p>
           <p className='text-sm mb-2'><span className='font-bold'>Responsibilities:</span></p>
           <ul className='text-xs space-y-1'>
@@ -188,7 +190,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </div>
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold text-lg mb-3'>🛃 HMRC (His Majesty's Revenue and Customs)</h5>
+          <h5 className='font-bold text-lg mb-3 flex items-center gap-2'><HiOutlineBuildingOffice className='text-blue-600' /> HMRC (His Majesty's Revenue and Customs)</h5>
           <p className='text-sm mb-3'><span className='font-bold'>Website:</span> <a href='https://www.gov.uk/government/organisations/hm-revenue-customs' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:underline'>gov.uk/hmrc</a></p>
           <p className='text-sm mb-2'><span className='font-bold'>Responsibilities:</span></p>
           <ul className='text-xs space-y-1'>
@@ -208,12 +210,12 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
           Post-Brexit Changes: What's Different Now
         </p>
         <ul className='space-y-2 text-sm'>
-          <li>✗ <span className='font-bold'>No more EU single market access:</span> UK imports from Ethiopia now require full customs declarations</li>
-          <li>✗ <span className='font-bold'>EORI number required:</span> Must obtain UK EORI number (separate from EU EORI)</li>
-          <li>✗ <span className='font-bold'>Customs declarations:</span> Every shipment requires customs declaration (even for goods under £135)</li>
-          <li>✗ <span className='font-bold'>Health certificates:</span> Different format and requirements than EU</li>
-          <li>✓ <span className='font-bold text-green-700'>Still zero duty on coffee:</span> UK maintains WTO MFN zero duty rate</li>
-          <li>✓ <span className='font-bold text-green-700'>Independent trade policy:</span> UK can negotiate bilateral trade agreements</li>
+          <li><HiOutlineExclamationTriangle className='inline mr-2 text-red-600' /> <span className='font-bold'>No more EU single market access:</span> UK imports from Ethiopia now require full customs declarations</li>
+          <li><HiOutlineExclamationTriangle className='inline mr-2 text-red-600' /> <span className='font-bold'>EORI number required:</span> Must obtain UK EORI number (separate from EU EORI)</li>
+          <li><HiOutlineExclamationTriangle className='inline mr-2 text-red-600' /> <span className='font-bold'>Customs declarations:</span> Every shipment requires customs declaration (even for goods under £135)</li>
+          <li><HiOutlineExclamationTriangle className='inline mr-2 text-red-600' /> <span className='font-bold'>Health certificates:</span> Different format and requirements than EU</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold text-green-700'>Still zero duty on coffee:</span> UK maintains WTO MFN zero duty rate</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold text-green-700'>Independent trade policy:</span> UK can negotiate bilateral trade agreements</li>
         </ul>
       </div>
 
@@ -457,7 +459,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
 
       <div className='space-y-4 my-8'>
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2'>📄 From Ethiopian Exporter</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineDocumentText className='text-amber-600' /> From Ethiopian Exporter</h5>
           <ul className='text-sm space-y-1'>
             <li>• <span className='font-bold'>Commercial Invoice:</span> FOB value, product description, HS code, exporter/importer details</li>
             <li>• <span className='font-bold'>Packing List:</span> Detailed breakdown of containers, bags, weights (net/gross)</li>
@@ -470,7 +472,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </div>
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2'>🚢 From Shipping Company/Freight Forwarder</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineTruck className='text-blue-600' /> From Shipping Company/Freight Forwarder</h5>
           <ul className='text-sm space-y-1'>
             <li>• <span className='font-bold'>Bill of Lading (B/L):</span> Ocean B/L as proof of shipment</li>
             <li>• <span className='font-bold'>Arrival Notice:</span> Notification of vessel arrival at UK port</li>
@@ -480,7 +482,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </div>
 
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2'>🇬🇧 UK Documentation (Importer/Broker)</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineGlobeAlt className='text-green-600' /> UK Documentation (Importer/Broker)</h5>
           <ul className='text-sm space-y-1'>
             <li>• <span className='font-bold'>UK EORI Number:</span> Your GB EORI for customs clearance</li>
             <li>• <span className='font-bold'>Customs Declaration:</span> Full import declaration via CDS (done by customs broker)</li>
@@ -874,14 +876,14 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
         <h5 className='font-bold mb-3'>What UK Importers Should Look For</h5>
         <ul className='space-y-2 text-sm'>
-          <li>✓ <span className='font-bold'>UK/EU Export Experience:</span> Familiarity with UK documentation requirements, English language proficiency</li>
-          <li>✓ <span className='font-bold'>Quality Consistency:</span> Established QC systems, cupping protocols, sample roasting</li>
-          <li>✓ <span className='font-bold'>Full Documentation:</span> Can provide all UK-required certificates (COO, quality certs, phyto if needed)</li>
-          <li>✓ <span className='font-bold'>Communication:</span> Responsive, English-speaking staff, understands UK market</li>
-          <li>✓ <span className='font-bold'>Transparency:</span> Farm-level or cooperative-level traceability (critical for UK consumers)</li>
-          <li>✓ <span className='font-bold'>Sample Program:</span> Pre-shipment samples for UK approval before container shipment</li>
-          <li>✓ <span className='font-bold'>Flexible Terms:</span> Payment options (LC, TT, potentially escrow)</li>
-          <li>✓ <span className='font-bold'>Container Consolidation:</span> Options for smaller orders (5-10 bags) if you're starting small</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>UK/EU Export Experience:</span> Familiarity with UK documentation requirements, English language proficiency</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Quality Consistency:</span> Established QC systems, cupping protocols, sample roasting</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Full Documentation:</span> Can provide all UK-required certificates (COO, quality certs, phyto if needed)</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Communication:</span> Responsive, English-speaking staff, understands UK market</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Transparency:</span> Farm-level or cooperative-level traceability (critical for UK consumers)</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Sample Program:</span> Pre-shipment samples for UK approval before container shipment</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Flexible Terms:</span> Payment options (LC, TT, potentially escrow)</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Container Consolidation:</span> Options for smaller orders (5-10 bags) if you're starting small</li>
         </ul>
       </div>
 
@@ -891,14 +893,14 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
           Ethio Coffee Export specializes in serving the UK specialty coffee market with full understanding of post-Brexit requirements:
         </p>
         <ul className='space-y-2 mb-4'>
-          <li>✓ Complete UK import documentation (COO, quality certificates, certificates of analysis)</li>
-          <li>✓ Experience with HMRC and FSA compliance requirements</li>
-          <li>✓ Specialty-grade Ethiopian coffee from all major regions (Yirgacheffe, Sidamo, Guji, Harrar)</li>
-          <li>✓ Pre-shipment sample program for UK roasters</li>
-          <li>✓ Container consolidation for smaller orders</li>
-          <li>✓ English communication and UK business hours compatibility</li>
-          <li>✓ Transparent pricing, farm-level traceability, sustainability documentation</li>
-          <li>✓ Established shipping routes to Felixstowe, London Gateway, Southampton</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Complete UK import documentation (COO, quality certificates, certificates of analysis)</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Experience with HMRC and FSA compliance requirements</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Specialty-grade Ethiopian coffee from all major regions (Yirgacheffe, Sidamo, Guji, Harrar)</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Pre-shipment sample program for UK roasters</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Container consolidation for smaller orders</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> English communication and UK business hours compatibility</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Transparent pricing, farm-level traceability, sustainability documentation</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Established shipping routes to Felixstowe, London Gateway, Southampton</li>
         </ul>
         <p>
           <Link href='/contact-us' className='font-bold underline'>Contact us</Link> to discuss sourcing Ethiopian specialty coffee for the UK market.
@@ -928,17 +930,17 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </div>
 
         <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h5 className='font-bold mb-2'>🎯 Start with London, Expand to Regions</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineMapPin className='text-purple-600' /> Start with London, Expand to Regions</h5>
           <p className='text-sm'>London has highest concentration of specialty cafes, but don't overlook regional cities. Manchester, Edinburgh, Bristol, Birmingham have vibrant coffee scenes with less competition than London.</p>
         </div>
 
         <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
-          <h5 className='font-bold mb-2'>⏱️ Plan Around Ethiopian Harvest</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineClock className='text-red-600' /> Plan Around Ethiopian Harvest</h5>
           <p className='text-sm'>Ethiopian harvest October-February means freshest coffee lands in UK February-April. Plan inventory and marketing around fresh crop arrival – UK consumers value recently-harvested coffee.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-2'>🔍 Triple-Check Documentation</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineMagnifyingGlass className='text-gray-600' /> Triple-Check Documentation</h5>
           <p className='text-sm'>Post-Brexit, documentation errors cause delays. Ensure your EORI is correct (starts with "GB"), commodity code is accurate (0901 11 00 00), and all exporter details match exactly across documents.</p>
         </div>
       </div>

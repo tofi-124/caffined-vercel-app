@@ -17,7 +17,14 @@ import {
   HiOutlineClipboardDocumentList,
   HiOutlineMapPin,
   HiOutlineArrowTrendingUp,
-  HiOutlineLightBulb
+  HiOutlineLightBulb,
+  HiOutlineChartBarSquare,
+  HiOutlineBuildingStorefront,
+  HiOutlineUsers,
+  HiOutlineStar,
+  HiOutlineDevicePhoneMobile,
+  HiOutlineClock,
+  HiOutlineMagnifyingGlass
 } from 'react-icons/hi2'
 
 type InsightContentProps = {
@@ -119,13 +126,13 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
       <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
         <h5 className='font-bold mb-3'>Korean Coffee Market Statistics</h5>
         <ul className='space-y-2 text-sm'>
-          <li>📊 <span className='font-bold'>Market Size:</span> $8+ billion USD coffee market (2024-2026)</li>
-          <li>☕ <span className='font-bold'>Consumption:</span> 353 cups per capita annually (2nd highest globally after Finland)</li>
-          <li>🏪 <span className='font-bold'>Cafe Density:</span> 100,000+ cafes nationwide (highest per capita globally)</li>
-          <li>📈 <span className='font-bold'>Growth Rate:</span> Specialty coffee segment growing 15-20% annually</li>
-          <li>👥 <span className='font-bold'>Demographics:</span> 52 million population, 85% urbanized, high disposable income</li>
-          <li>💰 <span className='font-bold'>Spending:</span> Average Korean spends $400-600 annually on coffee</li>
-          <li>🌍 <span className='font-bold'>Import Volume:</span> 150,000+ tons of green coffee annually (6th largest Asian importer)</li>
+          <li><HiOutlineChartBarSquare className='inline mr-2 text-blue-600' /> <span className='font-bold'>Market Size:</span> $8+ billion USD coffee market (2024-2026)</li>
+          <li><HiOutlineCube className='inline mr-2 text-blue-600' /> <span className='font-bold'>Consumption:</span> 353 cups per capita annually (2nd highest globally after Finland)</li>
+          <li><HiOutlineBuildingStorefront className='inline mr-2 text-blue-600' /> <span className='font-bold'>Cafe Density:</span> 100,000+ cafes nationwide (highest per capita globally)</li>
+          <li><HiOutlineArrowTrendingUp className='inline mr-2 text-blue-600' /> <span className='font-bold'>Growth Rate:</span> Specialty coffee segment growing 15-20% annually</li>
+          <li><HiOutlineUsers className='inline mr-2 text-blue-600' /> <span className='font-bold'>Demographics:</span> 52 million population, 85% urbanized, high disposable income</li>
+          <li><HiOutlineCurrencyDollar className='inline mr-2 text-blue-600' /> <span className='font-bold'>Spending:</span> Average Korean spends $400-600 annually on coffee</li>
+          <li><HiOutlineGlobeAlt className='inline mr-2 text-blue-600' /> <span className='font-bold'>Import Volume:</span> 150,000+ tons of green coffee annually (6th largest Asian importer)</li>
         </ul>
       </div>
 
@@ -135,22 +142,22 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
           <h5 className='font-bold mb-3'>Consumer Preferences</h5>
           <ul className='space-y-2 text-sm'>
-            <li>✓ <span className='font-bold'>Bright, fruity profiles:</span> Korean consumers prefer lighter roasts with vibrant acidity – Ethiopian coffees excel</li>
-            <li>✓ <span className='font-bold'>Floral notes:</span> Jasmine, bergamot, and tea-like qualities highly valued</li>
-            <li>✓ <span className='font-bold'>Instagram culture:</span> Visually appealing specialty coffee drives social media engagement</li>
-            <li>✓ <span className='font-bold'>Origin storytelling:</span> Ethiopia's "birthplace of coffee" narrative appeals to Korean consumers</li>
-            <li>✓ <span className='font-bold'>Natural processing:</span> Fruit-forward natural Ethiopian coffees match Korean taste profiles</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Bright, fruity profiles:</span> Korean consumers prefer lighter roasts with vibrant acidity – Ethiopian coffees excel</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Floral notes:</span> Jasmine, bergamot, and tea-like qualities highly valued</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Instagram culture:</span> Visually appealing specialty coffee drives social media engagement</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Origin storytelling:</span> Ethiopia's "birthplace of coffee" narrative appeals to Korean consumers</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> <span className='font-bold'>Natural processing:</span> Fruit-forward natural Ethiopian coffees match Korean taste profiles</li>
           </ul>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h5 className='font-bold mb-3'>Business Drivers</h5>
           <ul className='space-y-2 text-sm'>
-            <li>✓ <span className='font-bold'>Differentiation:</span> Ethiopian coffee helps cafes stand out in crowded market</li>
-            <li>✓ <span className='font-bold'>Premium positioning:</span> Single-origin Ethiopian commands higher prices</li>
-            <li>✓ <span className='font-bold'>Competition trends:</span> Major Korean roasters (Fritz, Anthracite, Coffee Libre) feature Ethiopian origins</li>
-            <li>✓ <span className='font-bold'>Cafe culture:</span> Pour-over and hand-drip methods showcase Ethiopian complexity</li>
-            <li>✓ <span className='font-bold'>Retail packaging:</span> Ethiopian coffee sells well as premium retail product</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Differentiation:</span> Ethiopian coffee helps cafes stand out in crowded market</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Premium positioning:</span> Single-origin Ethiopian commands higher prices</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Competition trends:</span> Major Korean roasters (Fritz, Anthracite, Coffee Libre) feature Ethiopian origins</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Cafe culture:</span> Pour-over and hand-drip methods showcase Ethiopian complexity</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> <span className='font-bold'>Retail packaging:</span> Ethiopian coffee sells well as premium retail product</li>
           </ul>
         </div>
       </div>
@@ -173,7 +180,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
 
       <div className='grid md:grid-cols-2 gap-6 my-8'>
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold text-lg mb-3'>🏛️ Ministry of Food and Drug Safety (MFDS)</h5>
+          <h5 className='font-bold text-lg mb-3'><HiOutlineBuildingOffice className='inline mr-2' /> Ministry of Food and Drug Safety (MFDS)</h5>
           <p className='text-sm mb-2'>식품의약품안전처 (Sikpum Uiyakpum Anjeoncheо)</p>
           <p className='text-sm mb-3'><span className='font-bold'>Website:</span> <a href='https://www.mfds.go.kr/eng/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>mfds.go.kr/eng</a></p>
           <p className='text-sm mb-2'><span className='font-bold'>Responsibilities:</span></p>
@@ -188,7 +195,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
         </div>
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold text-lg mb-3'>🛃 Korea Customs Service (KCS)</h5>
+          <h5 className='font-bold text-lg mb-3'><HiOutlineBuildingOffice className='inline mr-2' /> Korea Customs Service (KCS)</h5>
           <p className='text-sm mb-2'>관세청 (Gwanse-cheong)</p>
           <p className='text-sm mb-3'><span className='font-bold'>Website:</span> <a href='https://www.customs.go.kr/english/' target='_blank' rel='noopener noreferrer' className='text-blue-700 hover:underline'>customs.go.kr/english</a></p>
           <p className='text-sm mb-2'><span className='font-bold'>Responsibilities:</span></p>
@@ -314,12 +321,12 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
           Korea uses <span className='font-bold'>UNI-PASS</span> (Customs Clearance Uni-Network System) for all import/export declarations. The system is highly automated and efficient:
         </p>
         <ul className='space-y-2 text-sm'>
-          <li>✓ <span className='font-bold'>Electronic Filing:</span> All customs declarations submitted online</li>
-          <li>✓ <span className='font-bold'>Real-Time Processing:</span> Most declarations processed within 1-2 hours</li>
-          <li>✓ <span className='font-bold'>Risk Assessment:</span> Automated system flags high-risk shipments for inspection</li>
-          <li>✓ <span className='font-bold'>Duty Payment:</span> Electronic payment through bank transfer</li>
-          <li>✓ <span className='font-bold'>Document Upload:</span> All supporting documents uploaded digitally</li>
-          <li>✓ <span className='font-bold'>Status Tracking:</span> Real-time tracking of clearance status</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> <span className='font-bold'>Electronic Filing:</span> All customs declarations submitted online</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> <span className='font-bold'>Real-Time Processing:</span> Most declarations processed within 1-2 hours</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> <span className='font-bold'>Risk Assessment:</span> Automated system flags high-risk shipments for inspection</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> <span className='font-bold'>Duty Payment:</span> Electronic payment through bank transfer</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> <span className='font-bold'>Document Upload:</span> All supporting documents uploaded digitally</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> <span className='font-bold'>Status Tracking:</span> Real-time tracking of clearance status</li>
         </ul>
       </div>
 

@@ -248,7 +248,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
 
       <div className='grid md:grid-cols-3 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800'>🇺🇸 USDA Organic</h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> USDA Organic</h5>
           <p className='text-sm mb-2'>Required for US market sales</p>
           <ul className='text-xs space-y-1'>
             <li>• Administered by USDA National Organic Program (NOP)</li>
@@ -258,7 +258,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800'>🇪🇺 EU Organic</h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> EU Organic</h5>
           <p className='text-sm mb-2'>Required for European Union sales</p>
           <ul className='text-xs space-y-1'>
             <li>• Governed by EU Regulation 2018/848</li>
@@ -268,7 +268,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800'>🇯🇵 JAS Organic</h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> JAS Organic</h5>
           <p className='text-sm mb-2'>Required for Japanese market</p>
           <ul className='text-xs space-y-1'>
             <li>• Japanese Agricultural Standards</li>
@@ -553,7 +553,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           </ul>
         </div>
         <div className='bg-blue-50 border border-blue-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800'>👥 Social</h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineUserGroup className='text-blue-600' /> Social</h5>
           <ul className='text-xs space-y-1'>
             <li>• Freedom from forced labor</li>
             <li>• Freedom from child labor</li>
@@ -566,7 +566,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           </ul>
         </div>
         <div className='bg-amber-50 border border-amber-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-amber-800'>💰 Economic</h5>
+          <h5 className='font-bold mb-2 text-amber-800 flex items-center gap-2'><HiOutlineCurrencyDollar className='text-amber-600' /> Economic</h5>
           <ul className='text-xs space-y-1'>
             <li>• Sustainability Differential payment</li>
             <li>• Sustainability Investment payment</li>
@@ -1026,44 +1026,44 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         <div className='bg-gray-50 p-6 rounded-lg border border-gray-200'>
           <h4 className='font-bold text-lg mb-3'>Choose Organic If...</h4>
           <ul className='text-sm space-y-2'>
-            <li>✓ Your customers prioritize health and environmental concerns</li>
-            <li>✓ You sell through health food stores or organic retailers</li>
-            <li>✓ You're targeting the US or EU markets where organic labeling matters</li>
-            <li>✓ You want the most widely recognized sustainability certification</li>
-            <li>✓ You're marketing to environmentally-conscious consumers</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-gray-600' /> Your customers prioritize health and environmental concerns</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-gray-600' /> You sell through health food stores or organic retailers</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-gray-600' /> You're targeting the US or EU markets where organic labeling matters</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-gray-600' /> You want the most widely recognized sustainability certification</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-gray-600' /> You're marketing to environmentally-conscious consumers</li>
           </ul>
         </div>
 
         <div className='bg-blue-50 p-6 rounded-lg border border-blue-200'>
           <h4 className='font-bold text-lg mb-3'>Choose Fair Trade If...</h4>
           <ul className='text-sm space-y-2'>
-            <li>✓ Your customers care deeply about farmer welfare</li>
-            <li>✓ You want to communicate social responsibility simply</li>
-            <li>✓ Your business emphasizes community development stories</li>
-            <li>✓ You're selling to socially-conscious retail chains</li>
-            <li>✓ You want price floor protection during market downturns</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> Your customers care deeply about farmer welfare</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> You want to communicate social responsibility simply</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> Your business emphasizes community development stories</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> You're selling to socially-conscious retail chains</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-blue-600' /> You want price floor protection during market downturns</li>
           </ul>
         </div>
 
         <div className='bg-green-50 p-6 rounded-lg border border-green-200'>
           <h4 className='font-bold text-lg mb-3'>Choose Rainforest Alliance If...</h4>
           <ul className='text-sm space-y-2'>
-            <li>✓ You're a large-volume buyer needing broad supply</li>
-            <li>✓ Environmental/biodiversity protection is your priority</li>
-            <li>✓ You need certification at lower premium cost</li>
-            <li>✓ You're working with corporate sustainability requirements</li>
-            <li>✓ You need flexibility in supply chain structure</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> You're a large-volume buyer needing broad supply</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> Environmental/biodiversity protection is your priority</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> You need certification at lower premium cost</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> You're working with corporate sustainability requirements</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /> You need flexibility in supply chain structure</li>
           </ul>
         </div>
 
         <div className='bg-amber-50 p-6 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-3'>Choose Bird Friendly If...</h4>
           <ul className='text-sm space-y-2'>
-            <li>✓ Your brand emphasizes environmental stewardship</li>
-            <li>✓ You target environmentally-engaged niche consumers</li>
-            <li>✓ You want the most rigorous shade-grown standard</li>
-            <li>✓ You're willing to pay premium prices for premium positioning</li>
-            <li>✓ Your marketing emphasizes biodiversity and conservation</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> Your brand emphasizes environmental stewardship</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> You target environmentally-engaged niche consumers</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> You want the most rigorous shade-grown standard</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> You're willing to pay premium prices for premium positioning</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-amber-600' /> Your marketing emphasizes biodiversity and conservation</li>
           </ul>
         </div>
       </div>
@@ -1222,12 +1222,12 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           Looking for certified Ethiopian green coffee? Ethio Coffee Export sources from certified cooperatives across Ethiopia's premier growing regions. We can provide:
         </p>
         <ul className='space-y-2 mb-4'>
-          <li>✓ Organic certified (USDA/EU) Ethiopian coffees</li>
-          <li>✓ Fair Trade certified coffees from major unions</li>
-          <li>✓ Rainforest Alliance certified options</li>
-          <li>✓ Dual and triple certified lots</li>
-          <li>✓ Full documentation and transaction certificates</li>
-          <li>✓ Direct relationships with transparent pricing</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Organic certified (USDA/EU) Ethiopian coffees</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Fair Trade certified coffees from major unions</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Rainforest Alliance certified options</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Dual and triple certified lots</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Full documentation and transaction certificates</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-primary' /> Direct relationships with transparent pricing</li>
         </ul>
         <p>
           <Link href='/contact-us' className='font-bold underline'>Contact us</Link> to discuss your certification requirements and request current availability and pricing for certified Ethiopian specialty coffee.
