@@ -94,7 +94,7 @@ const Navbar = () => {
                                     : 'bg-dark text-white hover:bg-accent'
                             }`}
                         >
-                            Get a Quote
+                            Contact Us
                         </Link>
                     </div>
 
