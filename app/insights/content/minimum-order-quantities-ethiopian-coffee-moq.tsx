@@ -58,6 +58,25 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </figcaption>
       </figure>
 
+      {/* FURTHER READING / AUTHORITATIVE LINKS (SEO) */}
+      <div className='my-4 text-sm text-gray-700'>
+        <p className='font-semibold mb-1'>Further reading:</p>
+        <ul className='list-disc ml-5 space-y-1'>
+          <li>
+            <a href='https://www.ico.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>International Coffee Organization (ICO)</a> - global coffee market data and export guidance.
+          </li>
+          <li>
+            <a href='https://sca.coffee' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Specialty Coffee Association (SCA)</a> - standards, sample programs, and importing best practices.
+          </li>
+          <li>
+            <a href='https://www.freightos.com/freight-resources/what-is-lcl/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Freightos LCL guide</a> - explanation of Less Than Container Load (LCL) and consolidation costs.
+          </li>
+          <li>
+            <a href='https://www.trade.gov/importing-us' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Trade.gov - importing into the United States</a> - practical import documentation and compliance information.
+          </li>
+        </ul>
+      </div>
+
       <p className='text-xs mt-4 flex items-center gap-1.5 text-gray-600'>
         <HiOutlineCalendarDays className='inline' />
         <span>Last updated: {date}</span>
@@ -183,7 +202,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           </p>
           <ul className='text-sm space-y-1 ml-5'>
             <li>• Export documentation (commercial invoice, certificate of origin, quality certificate, phytosanitary certificate)</li>
-            <li>• Ethiopian Coffee Authority (ECA) inspection and certification fees</li>
+            <li>• <a href='https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Ethiopian Coffee Authority (ECA)</a> inspection and certification fees</li>
             <li>• Bank fees for letters of credit or wire transfers</li>
             <li>• Warehouse handling and loading costs</li>
             <li>• Administrative time (emails, contracts, coordination)</li>
@@ -553,7 +572,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       <h4 className='text-xl font-bold mt-8 mb-4'>LCL (Less Than Container Load) Shipping</h4>
 
       <p className='my-4'>
-        <span className='font-bold'>LCL</span> is standard shipping industry terminology for consolidating multiple shippers' cargo. In coffee:
+        <span className='font-bold'>LCL</span> is standard shipping industry terminology for consolidating multiple shippers' cargo (see the <a href='https://www.freightos.com/freight-resources/what-is-lcl/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Freightos LCL guide</a>). In coffee:
       </p>
 
       <div className='grid md:grid-cols-2 gap-6 my-6'>

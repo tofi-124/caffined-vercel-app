@@ -896,12 +896,12 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         <div className='space-y-4 my-6'>
         <div className='border-l-4 border-green-500 pl-4'>
           <h5 className='font-bold'>Coffee Genome Sequencing (2014)</h5>
-          <p className='text-sm'>The arabica coffee genome and related genomic research provide a reference for genetic studies and variety identification — see <a href="https://worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>World Coffee Research</a> for ongoing summaries of coffee genetic research.</p>
+          <p className='text-sm'>The arabica coffee genome and related genomic research provide a reference for genetic studies and variety identification - see <a href="https://worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>World Coffee Research</a> for ongoing summaries of coffee genetic research.</p>
         </div>
 
         <div className='border-l-4 border-blue-500 pl-4'>
           <h5 className='font-bold'>Ethiopian Diversity Studies</h5>
-          <p className='text-sm'>Multiple research institutions (including World Coffee Research and Ethiopian universities) are conducting genetic diversity surveys of Ethiopian coffee populations — see <a href="https://worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>World Coffee Research</a> for project links and publications.</p>
+          <p className='text-sm'>Multiple research institutions (including World Coffee Research and Ethiopian universities) are conducting genetic diversity surveys of Ethiopian coffee populations - see <a href="https://worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>World Coffee Research</a> for project links and publications.</p>
         </div>
 
         <div className='border-l-4 border-purple-500 pl-4'>

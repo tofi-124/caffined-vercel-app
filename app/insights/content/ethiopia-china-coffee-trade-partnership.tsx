@@ -464,7 +464,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
 
               <h3 className="text-2xl font-semibold text-gray-800 mb-3 mt-6">Leveraging Ethiopian Quality Improvements</h3>
               <p className="text-gray-700 leading-relaxed">
-                The agricultural modernization initiatives driven by China cooperation—technology transfer, processing infrastructure, and quality control systems—benefit all Ethiopian coffee buyers. Importers in North America, Europe, and other markets gain access to improved Ethiopian coffee quality resulting from these investments, making Ethiopian coffee increasingly competitive and consistent. For industry standards and training resources, see the <a href="https://sca.coffee/" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Specialty Coffee Association</a>.
+                The agricultural modernization initiatives driven by China cooperation-technology transfer, processing infrastructure, and quality control systems-benefit all Ethiopian coffee buyers. Importers in North America, Europe, and other markets gain access to improved Ethiopian coffee quality resulting from these investments, making Ethiopian coffee increasingly competitive and consistent. For industry standards and training resources, see the <a href="https://sca.coffee/" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Specialty Coffee Association</a>.
               </p>
             </div>
           </div>
