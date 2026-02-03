@@ -762,7 +762,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 5) {
+    } else if (ind === 15) {
       // Ethiopian green coffee origins guide (formatted)
       blogContent = (
         <>
