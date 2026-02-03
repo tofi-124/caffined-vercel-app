@@ -1067,6 +1067,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
           <h4 className='font-bold mb-2'>Export & Compliance Guides</h4>
           <ul className='space-y-1 text-sm'>
+            <li>• <Link href="/insights/navigating-2026-ethiopian-specialty-coffee-exporters" className='text-blue-600 hover:underline'>Ethiopian Specialty Coffee Exporters 2026</Link></li>
             <li>• <Link href="/insights/importing-ethiopian-coffee-to-germany" className='text-blue-600 hover:underline'>Import Ethiopian Coffee to Germany/EU</Link></li>
             <li>• <Link href="/insights/importing-ethiopian-coffee-to-holland" className='text-blue-600 hover:underline'>Import Ethiopian Coffee to Netherlands</Link></li>
             <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 hover:underline'>Understanding the Ethiopian ECX System</Link></li>
