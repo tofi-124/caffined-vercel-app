@@ -20,9 +20,6 @@ export const metadata: Metadata = {
   keywords: 'Ethiopian coffee exporter, green coffee exporter Ethiopia, Ethiopian coffee supplier, green coffee beans wholesale, Yirgacheffe coffee exporter, Sidamo coffee, Guji coffee, direct trade Ethiopian coffee, coffee for importers',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
-  alternates: {
-    canonical: 'https://www.ethiocoffee.et',
-  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

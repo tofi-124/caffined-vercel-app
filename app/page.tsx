@@ -3,7 +3,13 @@ import Hero from "./components/Hero";
 import Posts from "./components/Posts";
 import Offerings from "./components/Offerings";
 import Testimonials from "./components/Testimonials";
+import type { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+}
 
 export default function Home() {
   return (
