@@ -47,7 +47,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </div>
       
       <p className='my-4'>
-        As global demand for specialty coffee continues to surge, <span className='font-bold'>Ethiopia stands at the epicenter of unprecedented growth opportunities</span>. For investors, importers, and stakeholders in the coffee industry, Ethiopian coffee production presents a unique convergence of heritage authenticity, quality excellence, and market expansion potential that is rarely found in today&apos;s competitive agricultural landscape.
+        As global demand for specialty coffee continues to surge, <a href="https://en.wikipedia.org/wiki/Ethiopian_coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Ethiopian coffee</a> stands at the epicenter of unprecedented growth opportunities. For investors, importers, and stakeholders in the coffee industry, <a href="https://en.wikipedia.org/wiki/Ethiopian_coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Ethiopian coffee</a> production presents a unique convergence of heritage authenticity, quality excellence, and market expansion potential that is rarely found in today&apos;s competitive agricultural landscape.
       </p>
 
       <p className='my-4'>
@@ -118,7 +118,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       <ul className='my-4 list-disc ml-5 space-y-2'>
         <li><span className='font-bold'>Foreign investment incentives:</span> Tax holidays, duty exemptions on machinery imports, and streamlined licensing</li>
         <li><span className='font-bold'>Land lease programs:</span> Long-term agricultural land leases available for commercial coffee farming</li>
-        <li><span className='font-bold'>ECX modernization:</span> The Ethiopia Commodity Exchange provides market transparency and quality assurance</li>
+        <li><span className='font-bold'>ECX modernization:</span> The <a href="https://www.ecx.com.et" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Ethiopia Commodity Exchange</a> provides market transparency and quality assurance</li>
         <li><span className='font-bold'>Export infrastructure:</span> Improved port access through Djibouti and expanded logistics networks</li>
         <li><span className='font-bold'>Financial services:</span> Growing access to agricultural credit and insurance products</li>
       </ul>
@@ -186,7 +186,8 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
             <span className='font-bold block'>Certified and Specialty Coffee Premium</span>
             <ul className='list-disc ml-5 mt-1 text-sm space-y-1'>
               <li>Organic certification: +20-35% premium</li>
-              <li>Fair Trade certification: +15-25% premium</li>
+              <li><a href="https://www.fairtrade.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Fair Trade</a> certification: +15-25% premium</li>
+              <li><a href="https://www.rainforest-alliance.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Rainforest Alliance</a> certification: +20-35% premium</li>
               <li>Specialty grade (85+ cupping score): +50-150% premium</li>
             </ul>
           </li>

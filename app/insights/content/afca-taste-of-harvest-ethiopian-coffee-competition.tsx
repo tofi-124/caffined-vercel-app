@@ -35,7 +35,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopia's AFCA Taste of Harvest competition showcases the country's exceptional coffee quality and modern laboratory capabilities to the global specialty coffee market.
+          Ethiopia's <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA</a> Taste of Harvest competition showcases the country's exceptional coffee quality and modern laboratory capabilities to the global specialty coffee market.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
