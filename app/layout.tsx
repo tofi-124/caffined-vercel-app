@@ -59,6 +59,8 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href="/apple-icon.png" sizes="180x180" />
+      </head>
+      <body className={`${oswald.className} bg-primary`}>
         <Script
           id="structured-data"
           type="application/ld+json"
@@ -218,8 +220,6 @@ export default function RootLayout({
             })
           }}
         />
-      </head>
-      <body className={`${oswald.className} bg-primary`}>
         <ScrollToTop />
         <Navbar />
         {children}
