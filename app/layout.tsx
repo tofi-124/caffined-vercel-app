@@ -203,24 +203,30 @@ export default function RootLayout({
                 {
                   "@type": "ListItem",
                   "position": 2,
+                  "name": "Ethiopian Coffee Export",
+                  "item": "https://www.ethiocoffee.et/ethiopian-coffee-export"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
                   "name": "Offerings",
                   "item": "https://www.ethiocoffee.et/offerings"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 3,
+                  "position": 4,
                   "name": "Insights",
                   "item": "https://www.ethiocoffee.et/insights"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 4,
+                  "position": 5,
                   "name": "About",
                   "item": "https://www.ethiocoffee.et/about"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 5,
+                  "position": 6,
                   "name": "Contact",
                   "item": "https://www.ethiocoffee.et/contact-us"
                 }
