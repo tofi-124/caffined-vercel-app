@@ -788,6 +788,16 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
         <h4 className='text-xl font-bold mb-4'>Related Articles</h4>
         <div className='grid md:grid-cols-2 gap-4'>
           <Link 
+            href="/insights/private-vs-cooperative-ethiopian-coffee-exporters" 
+            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
+          >
+            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
+              <HiOutlineBuildingOffice2 className='text-xl' />
+              Private vs Cooperative Exporters
+            </p>
+            <p className='text-sm text-gray-600'>Strategic guide comparing private coffee exporters and cooperative unions for sourcing Ethiopian Arabica in 2026</p>
+          </Link>
+          <Link 
             href="/insights/eu-deforestation-regulation-ethiopian-coffee-compliance" 
             className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
           >
