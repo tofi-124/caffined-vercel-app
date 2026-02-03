@@ -2,15 +2,15 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'About Ethio Coffee | Ethiopian Coffee Exporter for Importers Worldwide',
-  description: 'Ethiopian coffee exporter founded by two brothers with 30+ years family legacy. We serve importers worldwide with traceable Grade 1-4 green coffee.',
-  keywords: 'Ethiopian coffee exporter, about Ethio Coffee, Ethiopian green coffee supplier, direct trade coffee Ethiopia, family coffee business Ethiopia, ethical coffee sourcing',
+  title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
+  description: 'Leading Ethiopian coffee export company with 30+ years family legacy. We export specialty green coffee from Ethiopia to importers worldwide. Grade 1-4 available.',
+  keywords: 'Ethiopian coffee export company, Ethiopian coffee exporter, about Ethio Coffee, export coffee from Ethiopia, Ethiopian green coffee supplier, direct trade coffee Ethiopia, family coffee business Ethiopia, coffee export Ethiopia',
   alternates: {
     canonical: 'https://www.ethiocoffee.et/about',
   },
   openGraph: {
-    title: 'About Ethio Coffee | Ethiopian Coffee Exporter for Importers',
-    description: 'A family-built Ethiopian coffee export company founded by two brothers, connecting speciality traceable coffee with importers worldwide.',
+    title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
+    description: 'Family-built Ethiopian coffee export company founded by two brothers, connecting specialty traceable green coffee with importers worldwide.',
     url: 'https://www.ethiocoffee.et/about',
   }
 }

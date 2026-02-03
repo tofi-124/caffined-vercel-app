@@ -15,31 +15,31 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.ethiocoffee.et'),
-  title: 'Top Specialty Ethiopian Coffee Exporter | Ethio Coffee',
-  description: 'Premium Ethiopian coffee exporter for specialty importers worldwide. Grade 1-4 from Yirgacheffe, Sidamo & Guji. Direct sourcing with full traceability.',
-  keywords: 'Ethiopian coffee exporter, green coffee exporter Ethiopia, Ethiopian coffee supplier, green coffee beans wholesale, Yirgacheffe coffee exporter, Sidamo coffee, Guji coffee, direct trade Ethiopian coffee, coffee for importers',
+  title: 'Ethiopian Coffee Exporter | Export Green Coffee from Ethiopia | Ethio Coffee',
+  description: 'Leading Ethiopian coffee exporter shipping specialty green coffee worldwide. We export Grade 1-4 Yirgacheffe, Sidamo & Guji direct from Ethiopia. Request samples today.',
+  keywords: 'Ethiopian coffee exporter, Ethiopian coffee export, export coffee from Ethiopia, green coffee exporter Ethiopia, Ethiopian coffee supplier, Ethiopian green coffee beans, coffee export Ethiopia, Yirgacheffe exporter, Sidamo exporter, Guji exporter, specialty coffee Ethiopia, buy Ethiopian coffee wholesale',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.ethiocoffee.et',
-    title: 'Top Specialty Ethiopian Coffee Exporter | Ethio Coffee',
-    description: 'Speciality Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
+    title: 'Ethiopian Coffee Exporter | Export Green Coffee from Ethiopia | Ethio Coffee',
+    description: 'Leading Ethiopian coffee exporter shipping specialty green coffee worldwide. We export Grade 1-4 Yirgacheffe, Sidamo & Guji direct from Ethiopia.',
     siteName: 'Ethio Coffee',
     images: [
       {
         url: '/images/coffee-pack-1.webp',
         width: 900,
         height: 600,
-        alt: 'Ethiopian Coffee Packaging',
+        alt: 'Ethiopian green coffee beans for export - specialty grade',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Top Specialty Ethiopian Coffee Exporter | Ethio Coffee',
-    description: 'Speciality Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
+    title: 'Ethiopian Coffee Exporter | Export Green Coffee from Ethiopia | Ethio Coffee',
+    description: 'Leading Ethiopian coffee exporter shipping specialty green coffee worldwide. We export Grade 1-4 Yirgacheffe, Sidamo & Guji direct from Ethiopia.',
     images: ['/images/coffee-pack-1.webp'],
     creator: '@ethiocoffee',
   },
@@ -65,8 +65,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": ["Organization", "LocalBusiness"],
-              "name": "Ethio Coffee",
+              "name": "Ethio Coffee - Ethiopian Coffee Exporter",
               "legalName": "Ethio Coffee Export PLC",
+              "alternateName": ["Ethiopian Coffee Exporter", "Ethio Coffee", "Ethiopia Coffee Export"],
               "url": "https://www.ethiocoffee.et",
               "logo": {
                 "@type": "ImageObject",
@@ -75,7 +76,8 @@ export default function RootLayout({
                 "height": "60"
               },
               "image": "https://www.ethiocoffee.et/images/new-logo.png",
-              "description": "Ethiopian coffee exporter serving importers worldwide with speciality, traceable green coffee.",
+              "description": "Leading Ethiopian coffee exporter specializing in export of specialty green coffee beans from Ethiopia to importers worldwide. Grade 1-4 Yirgacheffe, Sidamo, Guji available.",
+              "slogan": "Your Gateway to Ethiopia's Finest Specialty Green Coffee",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Yesak Building, 3rd Floor, Office 301, Lideta",

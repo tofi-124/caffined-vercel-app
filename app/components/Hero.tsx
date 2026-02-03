@@ -10,15 +10,15 @@ const Hero = () => {
 
         <div id="hero-heading-wrapper" className='mx-auto flex w-full max-w-prose flex-col items-start justify-center lg:mx-0 lg:w-1/2 lg:max-w-none'>
           <h1 className='text-5xl lg:text-6xl leading-tight text-dark font-bold'>
-            ETHIO COFFEE
+            ETHIOPIAN COFFEE
           </h1>
             <p className='text-dark/90 text-sm uppercase tracking-widest mt-3'>
-             Your Gateway to Ethiopia’s Finest Specialty Coffee
+             Ethio Coffee — Your Gateway to Ethiopia's Finest Specialty Green Coffee
             </p>
 
             <div className='mt-6 text-dark lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
-                We are a dedicated Ethiopian coffee exporter founded by two brothers - one rooted in Ethiopia, the other in Canada. This unique partnership allows us to bridge the gap between origin and the global market. We provide importers worldwide with traceable, specialty green coffee sourced directly from our own estates and a network of trusted partner producers. At our core, we combine a deep love for Ethiopian coffee with a commitment to professional service, consistent quality, and transparent communication.
+                We are a dedicated <strong>Ethiopian coffee exporter</strong> founded by two brothers - one rooted in Ethiopia, the other in Canada. This unique partnership allows us to bridge the gap between origin and the global market. We <strong>export Ethiopian green coffee</strong> to importers worldwide — traceable, specialty-grade beans sourced directly from our own estates and a network of trusted partner producers. At our core, we combine a deep love for Ethiopian coffee with a commitment to professional service, consistent quality, and transparent communication.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Hero = () => {
         <div id="hero-image-wrapper" className='relative flex w-full justify-center lg:w-1/3'>
           <ResponsiveImage 
             src='/images/coffee-pack-1.webp' 
-            alt='Speciality Ethiopian coffee packaging featuring specialty grade beans for wholesale partners' 
+            alt='Ethiopian coffee exporter - premium green coffee beans packaged for export to importers worldwide' 
             width={900}
             height={600}
             className='w-full max-w-[400px]'
