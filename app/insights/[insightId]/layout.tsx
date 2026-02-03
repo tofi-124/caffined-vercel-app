@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title: 'Insight Not Found | Ethio Coffee',
       description: 'The insight you are looking for does not exist.',
-      alternates: { canonical: 'https://ethiocoffee.et/insights' },
+      alternates: { canonical: 'https://www.ethiocoffee.et/insights' },
     }
   }
 
@@ -27,13 +27,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     keywords: post.keywords?.join(', '),
     alternates: {
-      canonical: `https://ethiocoffee.et/insights/${insightId}`,
+      canonical: `https://www.ethiocoffee.et/insights/${insightId}`,
     },
     openGraph: {
       title,
       description,
       type: 'article',
-      url: `https://ethiocoffee.et/insights/${insightId}`,
+      url: `https://www.ethiocoffee.et/insights/${insightId}`,
       images: [{ url: `/images/${post.large_image_url}` }],
       publishedTime: new Date(post.date).toISOString(),
       authors: ['Ethio Coffee'],
@@ -70,25 +70,25 @@ async function ArticleSchema({ params }: { params: Promise<{ insightId: string }
     '@type': 'Article',
     headline: post.title,
     description: post.desc,
-    image: `https://ethiocoffee.et/images/${post.large_image_url}`,
+    image: `https://www.ethiocoffee.et/images/${post.large_image_url}`,
     datePublished: new Date(post.date).toISOString(),
     dateModified: new Date(post.date).toISOString(),
     author: {
       '@type': 'Organization',
       name: 'Ethio Coffee',
-      url: 'https://ethiocoffee.et',
+      url: 'https://www.ethiocoffee.et',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Ethio Coffee',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://ethiocoffee.et/images/new-logo.png',
+        url: 'https://www.ethiocoffee.et/images/new-logo.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://ethiocoffee.et/insights/${insightId}`,
+      '@id': `https://www.ethiocoffee.et/insights/${insightId}`,
     },
     keywords: post.keywords?.join(', '),
   }

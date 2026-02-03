@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   keywords:
     'Ethiopian coffee ordering, green coffee FAQ, coffee shipping, wholesale coffee order, coffee payment terms, coffee samples, Ethiopian coffee export, coffee import guide',
   alternates: {
-    canonical: 'https://ethiocoffee.et/ordering-info',
+    canonical: 'https://www.ethiocoffee.et/ordering-info',
   },
   openGraph: {
     title: 'Ordering Info & FAQ | Ethio Coffee',
     description:
       'Complete guide to ordering speciality Ethiopian green coffee. Shipping, payment, samples, quality standards, and more.',
-    url: 'https://ethiocoffee.et/ordering-info',
+    url: 'https://www.ethiocoffee.et/ordering-info',
     type: 'website',
   },
 }

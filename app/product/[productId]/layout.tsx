@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title: 'Offering Not Found | Ethio Coffee',
       description: 'The offering you are looking for is not available.',
-      alternates: { canonical: 'https://ethiocoffee.et/offerings' },
+      alternates: { canonical: 'https://www.ethiocoffee.et/offerings' },
     }
   }
 
@@ -29,12 +29,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     keywords: `${product.name} coffee, Ethiopian ${product.name.toLowerCase()}, ${product.specifications.processingMethod} Ethiopian coffee, ${product.region} coffee, buy ${product.name.toLowerCase()} green coffee, ${product.flavorNotes.join(', ')}`,
     alternates: {
-      canonical: `https://ethiocoffee.et/product/${product.id}`,
+      canonical: `https://www.ethiocoffee.et/product/${product.id}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://ethiocoffee.et/product/${product.id}`,
+      url: `https://www.ethiocoffee.et/product/${product.id}`,
       images: [{ url: `/images/${product.image_url}` }],
     },
   }
@@ -50,7 +50,7 @@ export default async function ProductLayout({ params, children }: Props) {
     "@type": "Product",
     "name": `${product.name} Ethiopian Green Coffee`,
     "description": product.desc,
-    "image": `https://ethiocoffee.et/images/${product.image_url}`,
+    "image": `https://www.ethiocoffee.et/images/${product.image_url}`,
     "brand": {
       "@type": "Brand",
       "name": "Ethio Coffee"

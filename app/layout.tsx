@@ -14,19 +14,19 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ethiocoffee.et'),
+  metadataBase: new URL('https://www.ethiocoffee.et'),
   title: 'Ethiopian Coffee Exporter | Green Coffee for Importers Worldwide | Ethio Coffee',
   description: 'Ethiopian coffee exporter serving importers worldwide. Ethio Coffee Export PLC offers Grade 1-4 green coffee from Yirgacheffe, Sidamo & Guji. Direct from origin, professional export service, traceable sourcing.',
   keywords: 'Ethiopian coffee exporter, green coffee exporter Ethiopia, Ethiopian coffee supplier, green coffee beans wholesale, Yirgacheffe coffee exporter, Sidamo coffee, Guji coffee, direct trade Ethiopian coffee, coffee for importers',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
   alternates: {
-    canonical: 'https://ethiocoffee.et',
+    canonical: 'https://www.ethiocoffee.et',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://ethiocoffee.et',
+    url: 'https://www.ethiocoffee.et',
     title: 'Ethio Coffee - Ethiopian Coffee Exporter for Importers Worldwide',
     description: 'Speciality Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
     siteName: 'Ethio Coffee',
@@ -66,8 +66,8 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Ethio Coffee",
               "legalName": "Ethio Coffee Export PLC",
-              "url": "https://ethiocoffee.et",
-              "logo": "https://ethiocoffee.et/images/new-logo.png",
+              "url": "https://www.ethiocoffee.et",
+              "logo": "https://www.ethiocoffee.et/images/new-logo.png",
               "description": "Ethiopian coffee exporter serving importers worldwide with speciality, traceable green coffee.",
               "address": {
                 "@type": "PostalAddress",
@@ -125,10 +125,10 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Ethio Coffee",
-              "url": "https://ethiocoffee.et",
+              "url": "https://www.ethiocoffee.et",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://ethiocoffee.et/offerings?search={search_term_string}",
+                "target": "https://www.ethiocoffee.et/offerings?search={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             })

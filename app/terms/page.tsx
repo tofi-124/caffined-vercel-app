@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
   alternates: {
-    canonical: 'https://ethiocoffee.et/terms',
+    canonical: 'https://www.ethiocoffee.et/terms',
   },
   openGraph: {
     title: 'Terms of Service | Ethio Coffee',
     description:
       'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
-    url: 'https://ethiocoffee.et/terms',
+    url: 'https://www.ethiocoffee.et/terms',
     type: 'article',
   },
 }
@@ -43,12 +43,12 @@ export default function TermsPage() {
             <p className='mt-2 text-gray-800'>
               These Terms of Service ("Terms") govern your access to and use of the website located at{' '}
               <a
-                href='https://ethiocoffee.et'
+                href='https://www.ethiocoffee.et'
                 className='underline underline-offset-4'
                 rel='noopener noreferrer'
                 target='_blank'
               >
-                https://ethiocoffee.et
+                https://www.ethiocoffee.et
               </a>{' '}
               (the "Site") and any inquiries, quote requests, sample requests, or communications submitted through the
               Site.

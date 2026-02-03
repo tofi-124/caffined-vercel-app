@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Ethio Coffee | Ethiopian Coffee Exporter for Importers',
     description: 'A family-built Ethiopian coffee export company founded by two brothers, connecting speciality traceable coffee with importers worldwide.',
-    url: 'https://ethiocoffee.et/about',
+    url: 'https://www.ethiocoffee.et/about',
   }
 }
 
