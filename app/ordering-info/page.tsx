@@ -4,6 +4,7 @@ import { useState, ReactNode } from 'react'
 import Link from 'next/link'
 import AutoScrollTo from '../components/AutoScrollTo'
 import ResponsiveImage from '../components/ResponsiveImage'
+import Script from 'next/script'
 import { 
   HiOutlineCube, 
   HiOutlineGlobeAmericas, 
@@ -454,8 +455,89 @@ export default function OrderingInfoPage() {
     setOpenItems(new Set())
   }
 
+  // Create FAQ schema for all questions
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqData.flatMap(section => 
+      section.items.map(item => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": typeof item.answer === 'string' ? item.answer : 
+            // For React nodes, we'll extract a simple text version
+            item.question.includes('buy green coffee') ? 
+              'Browse our Current Offerings, then request a quote for the coffees you are interested in. From there, we will provide a formal quotation, finalize terms, and handle all export documentation and logistics coordination.' :
+            item.question.includes('sample before') ? 
+              'Yes! We offer 100-300g samples for roast profiling and cupping. Sample costs and shipping fees may apply depending on whether you qualify for our free sample policy.' :
+            item.question.includes('packaged') ? 
+              'Green coffee ships in GrainPro hermetic liners inside jute bags. Standard sizes are 60 kg or 30 kg bags. Vacuum-sealed options available for micro-lots.' :
+            item.question.includes('minimum order') ? 
+              'Our minimum order quantity is one full container (approximately 19-21 metric tons, around 275-320 bags). You can mix and match different coffee types and grades to create a diverse selection.' :
+            item.question.includes('certified coffees') ? 
+              'Yes, depending on availability, we offer Organic (USDA/EU), Fair Trade, and Rainforest Alliance certified coffees. Certified lots have limited availability and may require advance booking.' :
+            item.question.includes('traceability') ? 
+              'Each lot includes: region/woreda, washing station or cooperative, altitude, variety, processing method, harvest season, and cup score (when available).' :
+            item.question.includes('coffee regions') ? 
+              'We source from Ethiopias premier growing regions: Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa.' :
+            item.question.includes('verify quality') ? 
+              'We provide pre-shipment samples (PSS), SCA cupping scores, detailed tasting notes, physical analysis, and third-party inspection available if required.' :
+            item.question.includes('stored') ? 
+              'Climate-controlled warehouses in Addis Ababa maintain optimal conditions during pre-export staging. All coffee is stored in GrainPro-lined bags to preserve quality.' :
+            item.question.includes('processing methods') ? 
+              'We offer Washed (clean, bright acidity), Natural (fruity, full-bodied), and Honey (balanced sweetness) processed coffees.' :
+            item.question.includes('ship to') ? 
+              'We ship worldwide, with established routes to North America, Europe, Asia, Middle East, and Australia. We work with trusted freight forwarders and can arrange delivery to your designated port.' :
+            item.question.includes('How long') ? 
+              'Transit time depends on destination. Typical shipping times are 4-6 weeks to North America, 3-5 weeks to Europe, 3-4 weeks to Middle East, and 4-5 weeks to Asia/Australia.' :
+            item.question.includes('Who handles') ? 
+              'We handle all export documentation from Ethiopia, including phytosanitary certificates, certificates of origin, and bill of lading. You are responsible for import clearance in your country.' :
+            item.question.includes('Incoterms') ? 
+              'We typically quote FOB (Free on Board) Djibouti Port or CIF (Cost, Insurance, Freight) to your destination port. Other terms can be discussed.' :
+            item.question.includes('tracking') ? 
+              'Yes, we provide full shipment tracking from warehouse to port, including container number, vessel name, and estimated arrival dates.' :
+            item.question.includes('payment methods') ? 
+              'We accept wire transfer (T/T), Letter of Credit (L/C), and for established customers, extended payment terms may be available.' :
+            item.question.includes('payment terms') ? 
+              'Standard terms are 50% deposit upon order confirmation, 50% balance before shipment. For L/C, we follow standard documentary credit procedures.' :
+            item.question.includes('pricing') ? 
+              'Pricing is based on current market rates, coffee grade, processing method, and order volume. Request a quote for current pricing on specific lots.' :
+            item.question.includes('currency') ? 
+              'All quotes and invoices are in USD (United States Dollars).' :
+            item.question.includes('price fluctuate') ? 
+              'Yes, prices can change based on market conditions, harvest yields, and demand. We honor quoted prices for a limited period (typically 7-14 days).' :
+            item.question.includes('forward contracts') ? 
+              'Yes, we offer forward contracts for future harvests. This allows you to lock in pricing and secure allocation before coffee is harvested.' :
+            item.question.includes('quality standards') ? 
+              'All coffee is graded according to Ethiopian Commodity Exchange (ECX) standards. We provide physical and cup quality analysis for every lot.' :
+            item.question.includes('defect') ? 
+              'If coffee arrives with quality issues not disclosed in pre-shipment documentation, we will work with you to resolve it, including replacement, credit, or partial refund as appropriate.' :
+            item.question.includes('claims') ? 
+              'Quality claims must be submitted within 14 days of arrival with supporting documentation (photos, cupping notes, third-party inspection if applicable).' :
+            item.question.includes('pre-shipment samples') ? 
+              'Yes, we provide pre-shipment samples (PSS) before finalizing the shipment. This allows you to approve the exact lot you will receive.' :
+            item.question.includes('new customers') ? 
+              'We welcome new importers! Start by browsing our offerings, request samples, and reach out with questions. We are here to make your first Ethiopian coffee import smooth and successful.' :
+            item.question.includes('established importers') ? 
+              'We offer volume discounts, priority allocation for new lots, flexible payment terms, and dedicated account management for regular customers.' :
+            item.question.includes('communicate') ? 
+              'Email is our primary communication channel. We respond within 24 hours (usually much faster) and provide regular updates throughout the ordering and shipping process.' :
+            item.question.includes('origin visit') ? 
+              'Yes, we welcome buyer visits to Ethiopia to tour washing stations, meet producers, and cup coffees at origin. Contact us to arrange your visit.' :
+            'Contact us for more information about this topic.'
+        }
+      }))
+    )
+  }
+
   return (
     <main className='bg-primary'>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <AutoScrollTo targetId='faq-content' />
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
         <h1 className='text-5xl font-bold text-primary text-center px-4'>ORDERING INFO & FAQ</h1>

@@ -4,6 +4,7 @@ import Testimonials from '../components/Testimonials'
 import ResponsiveImage from '../components/ResponsiveImage'
 import AutoScrollTo from '../components/AutoScrollTo'
 import Link from 'next/link'
+import Script from 'next/script'
 
 const timeline = [
   {
@@ -33,8 +34,41 @@ const timeline = [
 ]
 
 const About = () => {
+  const aboutPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "mainEntity": {
+      "@type": "Organization",
+      "@id": "https://www.ethiocoffee.et/#organization",
+      "name": "Ethio Coffee Export PLC",
+      "foundingDate": "2022",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "Ethio Coffee Founders",
+          "description": "Two brothers - one rooted in Ethiopia, the other in Canada"
+        }
+      ],
+      "description": "Family-built Ethiopian coffee export company connecting specialty traceable coffee with importers worldwide",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": "30+"
+      }
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Ethiopian Coffee Export",
+      "description": "Direct trade Ethiopian coffee sourcing and export with 30+ years of family legacy"
+    }
+  }
+
   return (
     <main id='about-main' className='bg-primary'>
+      <Script
+        id="about-page-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageSchema) }}
+      />
       <AutoScrollTo targetId='about-content' />
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
         <h1 className='text-5xl font-bold text-primary'>ABOUT US</h1>
