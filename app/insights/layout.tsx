@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Coffee Blog | Sourcing Guides & Industry Insights | Ethio Coffee',
+  title: 'Ethiopian Coffee Blog | Ethio Coffee',
   description:
     'Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends. Expert guides for importers and green coffee buyers.',
   keywords: 'Ethiopian coffee blog, coffee sourcing guide, Ethiopian coffee regions, green coffee buying guide, coffee industry insights, importer resources',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.ethiocoffee.et/insights',
   },
   openGraph: {
-    title: 'Ethiopian Coffee Blog | Sourcing Guides & Industry Insights',
+    title: 'Ethiopian Coffee Blog | Ethio Coffee',
     description:
       'Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends.',
     url: 'https://www.ethiocoffee.et/insights',

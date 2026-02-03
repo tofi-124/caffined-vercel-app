@@ -13,9 +13,9 @@ const Offerings = () => {
           <span className='inline-block px-4 py-1.5 bg-accent/20 text-accent rounded-full text-sm font-semibold mb-4'>
             Our Collection
           </span>
-          <h1 className='text-5xl lg:text-6xl leading-tight text-primary font-bold'>
+          <h2 className='text-5xl lg:text-6xl leading-tight text-primary font-bold'>
             FEATURED LOTS
-          </h1>
+          </h2>
           <p className='mt-4 text-lg text-primary/80 max-w-2xl mx-auto'>
             Curated Ethiopian specialty coffee for global importers. Traceable, consistent, and ready for export.
           </p>

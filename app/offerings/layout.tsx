@@ -1,15 +1,15 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Green Coffee Offerings | Yirgacheffe, Sidamo, Guji | Ethio Coffee',
-  description: 'Browse our Ethiopian green coffee offerings (Grades 1-4): Yirgacheffe, Sidamo, Guji, Harar & Limu. Specialty and commercial grades, washed and natural processed. Export direct from Ethiopia.',
+  title: 'Ethiopian Green Coffee Offerings | Ethio Coffee',
+  description: 'Browse Ethiopian green coffee offerings (Grades 1-4): Yirgacheffe, Sidamo, Guji, Harar & Limu. Specialty and commercial grades available.',
   keywords: 'buy Ethiopian green coffee, Yirgacheffe coffee wholesale, Sidamo green coffee, Guji coffee beans, Ethiopian coffee for importers, specialty green coffee, Grade 1 Ethiopian coffee, commercial grade coffee',
   alternates: {
     canonical: 'https://www.ethiocoffee.et/offerings',
   },
   openGraph: {
-    title: 'Ethiopian Green Coffee Offerings | Grades 1-4 | Ethio Coffee',
-    description: 'Browse our Ethiopian green coffee offerings (Grades 1-4): Yirgacheffe, Sidamo, Guji, Harar & Limu.',
+    title: 'Ethiopian Green Coffee Offerings | Ethio Coffee',
+    description: 'Browse Ethiopian green coffee offerings (Grades 1-4): Yirgacheffe, Sidamo, Guji, Harar & Limu. Specialty and commercial grades available.',
     url: 'https://www.ethiocoffee.et/offerings',
   }
 }

@@ -20,9 +20,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   // SEO-optimized title with keywords
-  const title = `${product.name} Ethiopian Green Coffee | Grade ${product.specifications.grade} ${product.specifications.processingMethod} | Ethio Coffee`
-  // Longer, keyword-rich description
-  const description = `Buy ${product.name} Ethiopian green coffee beans. ${product.specifications.processingMethod} processed, Grade ${product.specifications.grade}, ${product.altitude} altitude. Flavor notes: ${product.flavorNotes.join(', ')}. Request samples from Ethio Coffee.`
+  const title = `${product.name} Grade ${product.specifications.grade} | Ethio Coffee`
+  // Concise description under 160 characters
+  const description = `${product.name} Ethiopian green coffee, Grade ${product.specifications.grade}, ${product.specifications.processingMethod}. ${product.flavorNotes.slice(0, 2).join(', ')}. Request samples.`
 
   return {
     title,

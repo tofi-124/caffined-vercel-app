@@ -15,8 +15,8 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.ethiocoffee.et'),
-  title: 'Ethiopian Coffee Exporter | Green Coffee for Importers Worldwide | Ethio Coffee',
-  description: 'Ethiopian coffee exporter serving importers worldwide. Ethio Coffee Export PLC offers Grade 1-4 green coffee from Yirgacheffe, Sidamo & Guji. Direct from origin, professional export service, traceable sourcing.',
+  title: 'Ethiopian Coffee Exporter | Ethio Coffee',
+  description: 'Ethiopian coffee exporter serving importers worldwide. Grade 1-4 green coffee from Yirgacheffe, Sidamo & Guji. Direct from origin with full traceability.',
   keywords: 'Ethiopian coffee exporter, green coffee exporter Ethiopia, Ethiopian coffee supplier, green coffee beans wholesale, Yirgacheffe coffee exporter, Sidamo coffee, Guji coffee, direct trade Ethiopian coffee, coffee for importers',
   authors: [{ name: 'Ethio Coffee' }],
   robots: 'index, follow',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.ethiocoffee.et',
-    title: 'Ethio Coffee - Ethiopian Coffee Exporter for Importers Worldwide',
+    title: 'Ethiopian Coffee Exporter | Ethio Coffee',
     description: 'Speciality Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
     siteName: 'Ethio Coffee',
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethio Coffee - Ethiopian Coffee Exporter for Importers Worldwide',
+    title: 'Ethiopian Coffee Exporter | Ethio Coffee',
     description: 'Speciality Ethiopian green coffee exports for importers worldwide. Direct from origin with full traceability.',
     images: ['/images/coffee-pack-1.webp'],
     creator: '@ethiocoffee',
