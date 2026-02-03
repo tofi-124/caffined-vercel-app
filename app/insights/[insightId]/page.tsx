@@ -3587,6 +3587,11 @@ const Insight = ({params}: Props) => {
             <li><span className='font-bold'>Coffee Is Art</span> - The creative mastery of roasting and brewing (You are here)</li>
           </ul>
 
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>See Art in Action</h3>
+          <p className='my-4'>
+            Curious how the world&apos;s best coffee professionals apply these principles? Explore our guide to the <Link href='/insights/top-10-specialty-coffee-shops-world' className='underline font-bold'>Top 10 Specialty Coffee Shops Around the World</Link> - showcasing roasters and baristas who have mastered the art of coffee roasting and brewing, many featuring exceptional Ethiopian origins.
+          </p>
+
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <p className='my-2 font-medium'>
               Ready to experience the art of exceptional Ethiopian coffee? Contact us to discover our masterful roasting and brewing techniques.

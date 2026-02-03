@@ -623,6 +623,11 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
                     Ethiopian Coffee Harvest Season Outlook
                   </Link>
                 </li>
+                <li>
+                  <Link href="/insights/benefits-investing-ethiopian-coffee-production" className="text-green-600 hover:text-green-700">
+                    Benefits of Investing in Ethiopian Coffee
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
@@ -631,6 +636,11 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
                 <li>
                   <Link href="/insights/importing-ethiopian-coffee-to-japan" className="text-green-600 hover:text-green-700">
                     How to Import Ethiopian Coffee to Japan
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/insights/importing-ethiopian-coffee-to-saudi-arabia" className="text-green-600 hover:text-green-700">
+                    Importing Ethiopian Coffee to Saudi Arabia
                   </Link>
                 </li>
                 <li>
@@ -656,6 +666,11 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
                 <li>
                   <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className="text-green-600 hover:text-green-700">
                     Yirgacheffe vs Sidamo vs Guji Comparison
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/insights/sidama-coffee-production-productivity-export" className="text-green-600 hover:text-green-700">
+                    Sidama Region Coffee Production Guide
                   </Link>
                 </li>
                 <li>

@@ -156,6 +156,38 @@ const About = () => {
         </div>
       </section>
 
+      {/* Related Insights Section */}
+      <section className='bg-primary py-16'>
+        <div className='container mx-auto px-4'>
+          <h2 className='text-3xl md:text-4xl font-extrabold text-dark text-center mb-8'>
+            Learn More About Our Journey
+          </h2>
+          <div className='grid md:grid-cols-3 gap-6 max-w-4xl mx-auto'>
+            <Link 
+              href='/insights/ethio-coffee-export-launch'
+              className='bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100'
+            >
+              <h3 className='font-bold text-lg mb-2'>Our Launch Story</h3>
+              <p className='text-gray-600 text-sm'>Read about how Ethio Coffee Export PLC officially launched to bring speciality Ethiopian green coffee to importers worldwide.</p>
+            </Link>
+            <Link 
+              href='/insights/ethiopian-coffee-ceremony'
+              className='bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100'
+            >
+              <h3 className='font-bold text-lg mb-2'>Ethiopian Coffee Ceremonies</h3>
+              <p className='text-gray-600 text-sm'>Discover the cultural ritual that informs how coffee is respected throughout the Ethiopian supply chain.</p>
+            </Link>
+            <Link 
+              href='/insights/benefits-investing-ethiopian-coffee-production'
+              className='bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100'
+            >
+              <h3 className='font-bold text-lg mb-2'>Investment Opportunities</h3>
+              <p className='text-gray-600 text-sm'>Explore the benefits of investing in Ethiopian coffee production and partnership opportunities.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA to Ordering Info */}
       <section className='bg-secondary py-16'>
         <div className='container mx-auto px-4 text-center'>

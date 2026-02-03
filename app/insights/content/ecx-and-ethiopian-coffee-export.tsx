@@ -351,6 +351,8 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
             </ul>
           </div>
           <div>
@@ -360,6 +362,8 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities (MOQ)</Link></li>
               <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Ethiopian Coffee Prices Explained</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage & Freight Logistics</Link></li>
+              <li>• <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee Production Guide</Link></li>
             </ul>
           </div>
         </div>

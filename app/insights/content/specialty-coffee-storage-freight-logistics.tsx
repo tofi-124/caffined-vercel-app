@@ -582,6 +582,22 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
              </div>
              <p className='text-xs text-gray-500'>Why the genetics of Ethiopian coffee are more sensitive to transport than commercial cultivars.</p>
           </Link>
+
+          <Link href='/insights/importing-ethiopian-coffee-to-australia' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
+             <div className="flex items-center justify-between mb-2">
+                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Importing to Australia</span>
+                <HiOutlineTruck className='text-gray-300 group-hover:text-blue-500 transition-colors' />
+             </div>
+             <p className='text-xs text-gray-500'>Complete biosecurity and customs guide for Australian importers.</p>
+          </Link>
+
+          <Link href='/insights/sidama-coffee-production-productivity-export' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
+             <div className="flex items-center justify-between mb-2">
+                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Sidama Production Guide</span>
+                <HiOutlineGlobeAlt className='text-gray-300 group-hover:text-blue-500 transition-colors' />
+             </div>
+             <p className='text-xs text-gray-500'>Deep dive into Sidama region&apos;s exceptional coffee production and export opportunities.</p>
+          </Link>
         </div>
       </aside>
     </article>
