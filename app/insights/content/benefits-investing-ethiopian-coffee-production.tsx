@@ -51,7 +51,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </p>
 
       <p className='my-4'>
-        This comprehensive analysis explores the strategic advantages, financial benefits, and long-term value proposition of investing in Ethiopian coffee production—from direct farm investments to supply chain partnerships and export relationships.
+        This comprehensive analysis explores the strategic advantages, financial benefits, and long-term value proposition of investing in Ethiopian coffee production-from direct farm investments to supply chain partnerships and export relationships.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -67,7 +67,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </h3>
       
       <p className='my-4'>
-        Ethiopia isn&apos;t just another coffee-producing country—it&apos;s the <span className='font-bold'>birthplace of Arabica coffee</span> and home to the most genetically diverse coffee ecosystem on the planet. This foundational advantage creates investment opportunities that simply don&apos;t exist elsewhere.
+        Ethiopia isn&apos;t just another coffee-producing country-it&apos;s the <span className='font-bold'>birthplace of Arabica coffee</span> and home to the most genetically diverse coffee ecosystem on the planet. This foundational advantage creates investment opportunities that simply don&apos;t exist elsewhere.
       </p>
 
       <h4 className='text-xl font-bold mt-6'>
@@ -79,7 +79,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Natural differentiation:</span> Each region—Yirgacheffe, Sidama, Guji, Harrar, Limu—produces distinctly different flavor profiles</li>
+        <li><span className='font-bold'>Natural differentiation:</span> Each region-Yirgacheffe, Sidama, Guji, Harrar, Limu-produces distinctly different flavor profiles</li>
         <li><span className='font-bold'>Premium positioning:</span> Ethiopian coffees consistently command higher prices in specialty markets</li>
         <li><span className='font-bold'>Climate resilience:</span> Heirloom varieties show superior adaptation to climate variations</li>
         <li><span className='font-bold'>Market exclusivity:</span> True Ethiopian heirlooms cannot be grown with the same character outside Ethiopia</li>
@@ -660,7 +660,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </p>
 
       <p className='my-4'>
-        The question isn&apos;t whether to invest in Ethiopian coffee—it&apos;s how to structure that investment for maximum impact and returns.
+        The question isn&apos;t whether to invest in Ethiopian coffee-it&apos;s how to structure that investment for maximum impact and returns.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>

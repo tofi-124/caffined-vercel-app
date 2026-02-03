@@ -556,6 +556,16 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
 
       <h4 className='text-xl font-bold mt-8 mb-4'>Shipping Route: Ethiopia to UK</h4>
 
+      <div className='bg-dark text-primary p-6 rounded-lg my-6 shadow-lg border-l-4 border-amber-500'>
+        <p className='font-medium flex items-start gap-3'>
+          <HiOutlineShieldCheck className='text-3xl flex-shrink-0' />
+          <span>
+            <span className='font-bold block text-lg mb-1'>Quality Preservation During Transit</span>
+            Long transit times (35-45 days) across varying climate zones can degrade specialty coffee. We utilize advanced hermetic liners and strategic vessel stowage to protect your Ethiopian beans. Learn more about our <Link href='/insights/specialty-coffee-storage-freight-logistics' className='underline text-amber-400 font-bold'>Precision Logistics & Freight Storage Science</Link> to ensure your coffee arrives in UK ports with its 90+ point profile intact.
+          </span>
+        </p>
+      </div>
+
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
         <h5 className='font-bold mb-3'>Typical Shipping Timeline</h5>
         <ol className='space-y-3 text-sm'>

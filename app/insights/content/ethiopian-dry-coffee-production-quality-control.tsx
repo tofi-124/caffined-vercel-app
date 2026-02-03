@@ -40,7 +40,7 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
       {/* Featured Image */}
       <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
         <Image
-          src="/images/dry-coffee-processing-ethiopia.webp"
+          src="/images/insights/dry-coffee-processing-ethiopia.webp"
           alt="Ethiopian dry coffee production and quality control processing facilities"
           fill
           className="object-cover"

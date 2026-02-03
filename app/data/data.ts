@@ -96,6 +96,37 @@ export const posts: Post[] = [
       keywords: ['direct trade coffee', 'Ethiopian farmers', 'fair trade', 'coffee sourcing', 'farmer partnerships'],
       desc: 'Our direct relationships with Ethiopian coffee farmers ensure fair compensation while delivering exceptional quality beans to businesses worldwide.'
     },
+    {
+      small_image_url: 'insights/coffee-logistics-freight.webp',
+      large_image_url: 'insights/coffee-logistics-freight.webp',
+      date: 'Jan 12, 2026',
+      title: 'PRECISION LOGISTICS: THE SCIENCE OF SPECIALTY COFFEE STORAGE DURING SEA FREIGHT',
+      slug: 'specialty-coffee-storage-freight-logistics',
+      category: 'Logistics / Quality Control',
+      keywords: [
+        'specialty coffee storage',
+        'coffee freight logistics',
+        'green coffee transit architecture',
+        'GrainPro coffee storage technology',
+        'Ecotact high-barrier liners',
+        'container sweat prevention guide',
+        'protecting green coffee quality 2026',
+        'shipping specialty coffee best practices',
+        'Ethiopian coffee logistics infrastructure',
+        'coffee moisture equilibrium science',
+        'sea freight coffee storage optimization',
+        'coffee container ventilation systems',
+        'water activity in green coffee freight',
+        'lipid oxidation coffee storage',
+        'IoT coffee shipment monitoring',
+        'cold chain coffee freight',
+        'hermetic coffee packaging science',
+        'preventing baggy coffee taints',
+        'specialty coffee supply chain transparency',
+        'vessel stowage for coffee quality'
+      ],
+      desc: 'Master the technical dynamics of intercontinental coffee transport. Explore the science of moisture equilibrium, hermetic packaging, and strategic vessel stowage to protect 90+ point specialty coffee from lipid oxidation and moisture-related taints during global sea freight.'
+    },
     // ===== COFFEE EDUCATION SERIES (Sequential Learning Path) =====
     {
       small_image_url: 'insights/coffee-plant-taxonomy.webp',
