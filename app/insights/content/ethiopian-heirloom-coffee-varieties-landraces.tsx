@@ -19,7 +19,8 @@ import {
   HiOutlineChartBar
 } from 'react-icons/hi2'
 import { GiCoffeeBeans, GiDna2, GiForestCamp, GiTreeBranch } from 'react-icons/gi'
-import { FaLeaf, FaSeedling, FaDna, FaTree } from 'react-icons/fa'
+import { FaLeaf, FaSeedling, FaDna, FaTree, FaUsers, FaDollarSign, FaUniversity } from 'react-icons/fa'
+import { TbTemperature, TbPlant2 } from 'react-icons/tb'
 
 type InsightContentProps = {
   title: string
@@ -954,20 +955,25 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
 
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
         <ul className='space-y-3 text-sm'>
-          <li>
-            <span className='font-bold'>🌳 Deforestation:</span> Wild coffee forests in southwestern Ethiopia are shrinking due to agricultural expansion and logging, threatening wild populations
+          <li className='flex items-start gap-2'>
+            <FaTree className='text-red-600 flex-shrink-0 mt-0.5' />
+            <div><span className='font-bold'>Deforestation:</span> Wild coffee forests in southwestern Ethiopia are shrinking due to agricultural expansion and logging, threatening wild populations</div>
           </li>
-          <li>
-            <span className='font-bold'>🌡️ Climate Change:</span> Rising temperatures and changing rainfall patterns threaten coffee-growing zones and forest ecosystems
+          <li className='flex items-start gap-2'>
+            <TbTemperature className='text-red-600 flex-shrink-0 mt-0.5' />
+            <div><span className='font-bold'>Climate Change:</span> Rising temperatures and changing rainfall patterns threaten coffee-growing zones and forest ecosystems</div>
           </li>
-          <li>
-            <span className='font-bold'>🌾 Variety Replacement:</span> Government programs promoting uniform "improved" varieties could reduce landrace diversity
+          <li className='flex items-start gap-2'>
+            <TbPlant2 className='text-red-600 flex-shrink-0 mt-0.5' />
+            <div><span className='font-bold'>Variety Replacement:</span> Government programs promoting uniform "improved" varieties could reduce landrace diversity</div>
           </li>
-          <li>
-            <span className='font-bold'>👨‍🌾 Generational Change:</span> Young farmers may abandon traditional varieties for higher-yielding alternatives
+          <li className='flex items-start gap-2'>
+            <FaUsers className='text-red-600 flex-shrink-0 mt-0.5' />
+            <div><span className='font-bold'>Generational Change:</span> Young farmers may abandon traditional varieties for higher-yielding alternatives</div>
           </li>
-          <li>
-            <span className='font-bold'>💰 Economic Pressure:</span> Low coffee prices can push farmers to convert land to other crops
+          <li className='flex items-start gap-2'>
+            <FaDollarSign className='text-red-600 flex-shrink-0 mt-0.5' />
+            <div><span className='font-bold'>Economic Pressure:</span> Low coffee prices can push farmers to convert land to other crops</div>
           </li>
         </ul>
       </div>
@@ -977,25 +983,40 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
         <h5 className='font-bold mb-3'>Active Conservation Initiatives</h5>
         <div className='space-y-3 text-sm'>
-          <div>
-            <p className='font-bold'>🏛️ National Gene Bank</p>
-            <p>Ethiopian Biodiversity Institute maintains germplasm collections of Ethiopian coffee varieties</p>
+          <div className='flex items-start gap-2'>
+            <FaUniversity className='text-green-600 flex-shrink-0 mt-0.5' />
+            <div>
+              <p className='font-bold'>National Gene Bank</p>
+              <p>Ethiopian Biodiversity Institute maintains germplasm collections of Ethiopian coffee varieties</p>
+            </div>
           </div>
-          <div>
-            <p className='font-bold'>🌲 Forest Coffee Conservation</p>
-            <p>Programs protecting wild coffee forests in Kaffa, Illubabor, and Bench Maji</p>
+          <div className='flex items-start gap-2'>
+            <GiForestCamp className='text-green-600 flex-shrink-0 mt-0.5' />
+            <div>
+              <p className='font-bold'>Forest Coffee Conservation</p>
+              <p>Programs protecting wild coffee forests in Kaffa, Illubabor, and Bench Maji</p>
+            </div>
           </div>
-          <div>
-            <p className='font-bold'>🔬 Research Collections</p>
-            <p>JARC and international research institutions maintain living collections of Ethiopian germplasm</p>
+          <div className='flex items-start gap-2'>
+            <HiOutlineBeaker className='text-green-600 flex-shrink-0 mt-0.5' />
+            <div>
+              <p className='font-bold'>Research Collections</p>
+              <p>JARC and international research institutions maintain living collections of Ethiopian germplasm</p>
+            </div>
           </div>
-          <div>
-            <p className='font-bold'>🌍 International Collaboration</p>
-            <p>World Coffee Research, CATIE, and other institutions preserve Ethiopian varieties globally</p>
+          <div className='flex items-start gap-2'>
+            <HiOutlineGlobeAlt className='text-green-600 flex-shrink-0 mt-0.5' />
+            <div>
+              <p className='font-bold'>International Collaboration</p>
+              <p>World Coffee Research, CATIE, and other institutions preserve Ethiopian varieties globally</p>
+            </div>
           </div>
-          <div>
-            <p className='font-bold'>💚 Market-Based Conservation</p>
-            <p>Specialty coffee premiums incentivize farmers to maintain traditional varieties and forest systems</p>
+          <div className='flex items-start gap-2'>
+            <HiOutlineShieldCheck className='text-green-600 flex-shrink-0 mt-0.5' />
+            <div>
+              <p className='font-bold'>Market-Based Conservation</p>
+              <p>Specialty coffee premiums incentivize farmers to maintain traditional varieties and forest systems</p>
+            </div>
           </div>
         </div>
       </div>

@@ -534,7 +534,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/moq-ethiopian-coffee.webp',
       large_image_url: 'insights/moq-ethiopian-coffee.webp',
-      date: 'Feb 02, 2026',
+      date: 'Jan 06, 2026',
       title: 'MINIMUM ORDER QUANTITIES (MOQ) FOR ETHIOPIAN GREEN COFFEE: WHAT IMPORTERS NEED TO KNOW',
       slug: 'minimum-order-quantities-ethiopian-coffee-moq',
       category: 'Coffee Trade & Import Guide',
@@ -903,7 +903,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/ethiopian-harvest-2025.webp',
       large_image_url: 'insights/ethiopian-harvest-2025.webp',
-      date: 'Jan 08, 2026',
+      date: 'Jan 07, 2026',
       title: 'ETHIOPIAN COFFEE HARVEST 2025: SEASON OUTLOOK, QUALITY EXPECTATIONS & BUYER PLANNING GUIDE',
       slug: 'ethiopian-coffee-harvest-2025-season-outlook',
       category: 'Market Insights / Harvest Reports',
