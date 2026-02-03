@@ -60,11 +60,11 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        If you're exporting Ethiopian coffee to European Union countries-or planning to-you need to understand a critical new regulation that will fundamentally change how coffee exports to Europe work: the <span className='font-bold'>EU Deforestation Regulation (EUDR)</span>.
+        If you're exporting Ethiopian coffee to European Union countries-or planning to-you need to understand a critical new regulation that will fundamentally change how coffee exports to Europe work: the <a href="https://environment.ec.europa.eu/industry-biodiversity/eu-action-against-deforestation/eu-regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation (EUDR)</a>.
       </p>
 
       <p className='my-4'>
-        Effective December 30, 2024 (with enforcement beginning December 30, 2025 for large operators), the EUDR requires that all coffee entering EU markets must be <span className='font-bold'>deforestation-free</span> and produced in compliance with the laws of the country of origin. This means Ethiopian coffee exporters must prove-with documented evidence and geolocation data-that their coffee was not grown on land deforested after December 31, 2020.
+        Effective December 30, 2024 (with enforcement beginning December 30, 2025 for large operators), the <a href="https://environment.ec.europa.eu/industry-biodiversity/eu-action-against-deforestation/eu-regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EUDR</a> requires that all coffee entering EU markets must be <span className='font-bold'>deforestation-free</span> and produced in compliance with the laws of the country of origin. This means Ethiopian coffee exporters must prove-with documented evidence and geolocation data-that their coffee was not grown on land deforested after December 31, 2020.
       </p>
 
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
@@ -95,7 +95,9 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           In This Guide
         </h3>
         <ol className='space-y-2 text-sm'>
-          <li><a href="#what-is-eudr" className='text-blue-600 hover:underline'>1. What Is the EU Deforestation Regulation (EUDR)?</a></li>
+          <li>• Document every stage: farms → collectors → cooperatives → washing stations → <a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>ECX</a> → export</li>
+          <li>• Dry Mill → <a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>ECX</a>/Warehouse (with ECX documentation)</li>
+          <li>• <a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>ECX</a>/Warehouse → Exporter (with purchase contracts)</li>
           <li><a href="#why-matters" className='text-blue-600 hover:underline'>2. Why This Matters for Ethiopian Coffee</a></li>
           <li><a href="#key-requirements" className='text-blue-600 hover:underline'>3. Key Requirements: What Coffee Exporters Must Prove</a></li>
           <li><a href="#timeline" className='text-blue-600 hover:underline'>4. EUDR Timeline and Enforcement Dates</a></li>
@@ -117,7 +119,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </h3>
 
       <p className='my-4'>
-        The <span className='font-bold'>EU Deforestation Regulation</span> (Regulation 2023/1115) is a comprehensive European Union law designed to minimize the EU's contribution to global deforestation and forest degradation by ensuring that products placed on the EU market are deforestation-free.
+        The <a href="https://environment.ec.europa.eu/industry-biodiversity/eu-action-against-deforestation/eu-regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation</a> (<a href="https://eur-lex.europa.eu/eli/reg/2023/1115/oj" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Regulation 2023/1115</a>) is a comprehensive European Union law designed to minimize the EU's contribution to global deforestation and forest degradation by ensuring that products placed on the EU market are deforestation-free.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Regulated Products</h4>
@@ -275,7 +277,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
             <span className='font-bold'>How to Prove:</span>
           </p>
           <ul className='space-y-2 text-sm ml-4'>
-            <li>• Satellite imagery analysis showing land use before and after December 31, 2020</li>
+            <li>• <a href="https://www.copernicus.eu/en" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Satellite imagery</a> analysis showing land use before and after December 31, 2020</li>
             <li>• Historical land use documentation</li>
             <li>• Government or third-party certification confirming no deforestation</li>
             <li>• Farm registration data cross-referenced with forest monitoring systems</li>
@@ -321,7 +323,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
             5. Supply Chain Traceability
           </h5>
           <p className='text-sm'>
-            Complete documentation of the supply chain from farm to export, including all intermediaries (collectors, cooperatives, washing stations, traders, ECX transactions, exporters). This ensures coffee can be traced back to specific farms/plots.
+            Complete documentation of the supply chain from farm to export, including all intermediaries (collectors, cooperatives, washing stations, traders, <a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>ECX</a> transactions, exporters). This ensures coffee can be traced back to specific farms/plots.
           </p>
         </div>
       </div>
@@ -387,8 +389,8 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         5. How Ethiopia Is Preparing: National Database and Certification
       </h3>
 
-      <p className='my-4'>
-        The Ethiopian government, through the <span className='font-bold'>Ethiopian Coffee, Tea and Spice Authority</span>, is actively working to prepare the country's coffee sector for EUDR compliance.
+        <p className='my-4'>
+        The Ethiopian government, through the <a href="https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>Ethiopian Coffee, Tea and Spice Authority</a>, is actively working to prepare the country's coffee sector for EUDR compliance.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>National Coffee Database Initiative</h4>
@@ -515,7 +517,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           <ul className='space-y-1 text-sm ml-4'>
             <li>• Mobile apps for field data collection (GPS coordinates, farmer data)</li>
             <li>• Database systems for storing and managing traceability data</li>
-            <li>• Blockchain or similar technologies for immutable supply chain records (optional but increasingly common)</li>
+            <li>• <a href="https://en.wikipedia.org/wiki/Blockchain" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Blockchain</a> or similar technologies for immutable supply chain records (optional but increasingly common)</li>
             <li>• Integration with Ethiopia's national coffee database (once available)</li>
           </ul>
         </div>
@@ -540,7 +542,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           </div>
           <div>
             <p className='font-semibold'>4. Specialized Traceability Platforms</p>
-            <p>Commercial platforms (Farmer Connect, Open SC, Transparency-One) offer end-to-end traceability solutions including GPS collection, but come with subscription costs.</p>
+            <p>Commercial platforms (<a href="https://farmerconnect.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Farmer Connect</a>, <a href="https://opensc.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>OpenSC</a>, <a href="https://www.transparencyone.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Transparency-One</a>) offer end-to-end traceability solutions including GPS collection, but come with subscription costs.</p>
           </div>
         </div>
       </div>

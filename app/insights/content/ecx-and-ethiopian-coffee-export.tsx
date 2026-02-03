@@ -47,7 +47,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       </div>
       
       <p className='my-4'>
-        If you&apos;ve ever tried to import Ethiopian coffee, you&apos;ve likely encountered the <span className='font-bold'>Ethiopia Commodity Exchange (ECX)</span>. For international buyers, the ECX can seem like a mysterious black box a regulatory layer that adds complexity to sourcing. For Ethiopian exporters, it&apos;s the backbone of legitimacy, quality control, and market access.
+        If you&apos;ve ever tried to import Ethiopian coffee, you&apos;ve likely encountered the <a href="https://www.ecx.com.et" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">Ethiopia Commodity Exchange (ECX)</a>. For international buyers, the ECX can seem like a mysterious black box a regulatory layer that adds complexity to sourcing. For Ethiopian exporters, it&apos;s the backbone of legitimacy, quality control, and market access.
       </p>
 
       <p className='my-4'>
@@ -65,7 +65,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         What is the Ethiopia Commodity Exchange (ECX)?
       </h3>
       <p className='my-4'>
-        The <span className='font-bold'>Ethiopia Commodity Exchange (ECX)</span> was established in 2008 as Africa&apos;s first commodity exchange, created to modernize Ethiopia&apos;s agricultural markets and address long-standing inefficiencies in the country&apos;s commodity trading system. Coffee is one of its primary commodities, alongside sesame, wheat, maize, and haricot beans.
+        The <a href="https://www.ecx.com.et" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">Ethiopia Commodity Exchange (ECX)</a> was established in 2008 as Africa&apos;s first commodity exchange, created to modernize Ethiopia&apos;s agricultural markets and address long-standing inefficiencies in the country&apos;s commodity trading system. Coffee is one of its primary commodities, alongside sesame, wheat, maize, and haricot beans.
       </p>
 
       <p className='my-4'>
@@ -107,9 +107,9 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
           <h4 className='font-bold text-xl mb-3 text-dark'>Ethiopian Coffee Grades</h4>
           <div className='space-y-3 text-sm'>
             <div className='bg-white p-4 rounded border border-amber-300'>
-              <h5 className='font-bold text-lg'>Grade 1 (G1) - Specialty</h5>
-              <p className='text-gray-600 mt-1'><span className='font-bold'>0-3 defects</span> per 300g sample</p>
-              <p className='mt-2'>The highest quality Ethiopian coffee. Clean cup, no defects, vibrant flavor. Typically scores 85+ on SCA cupping protocol. Speciality pricing.</p>
+                  <h5 className='font-bold text-lg'>Grade 1 (G1) - Specialty</h5>
+                  <p className='text-gray-600 mt-1'><span className='font-bold'>0-3 defects</span> per 300g sample</p>
+                  <p className='mt-2'>The highest quality Ethiopian coffee. Clean cup, no defects, vibrant flavor. Typically scores 85+ on <a href="https://sca.coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SCA cupping protocol</a>. Speciality pricing.</p>
             </div>
 
             <div className='bg-white p-4 rounded border border-amber-300'>
@@ -134,7 +134,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
 
         <div className='bg-gray-50 p-6 rounded-lg border border-gray-200'>
           <h4 className='font-bold text-lg mb-3'>What Counts as a "Defect"?</h4>
-          <p className='text-sm mb-3'>The ECX uses the SCA (Specialty Coffee Association) defect classification system:</p>
+          <p className='text-sm mb-3'>The ECX uses the <a href="https://sca.coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SCA (Specialty Coffee Association)</a> defect classification system:</p>
           <ul className='text-sm space-y-2 list-disc ml-5'>
             <li><span className='font-bold'>Category 1 defects (full defects):</span> Black beans, sour beans, fungus-damaged beans, foreign matter</li>
             <li><span className='font-bold'>Category 2 defects (partial defects):</span> Broken/chipped beans, insect damage, immature beans, withered beans, floaters</li>
@@ -153,7 +153,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       <ol className='my-6 space-y-4 list-decimal ml-5 font-medium'>
         <li>
           <span className='font-bold'>Farmers/Cooperatives deliver cherry to washing stations</span>
-          <p className='font-normal text-sm mt-1'>Coffee is processed (washed, natural, honey) and dried. Parchment coffee is milled to remove outer layers, producing green beans.</p>
+          <p className='font-normal text-sm mt-1'>Coffee is processed (washed, natural, honey) and dried. Parchment coffee is milled to remove outer layers, producing green beans. Learn more about coffee processing <a href="https://en.wikipedia.org/wiki/Processing_of_coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">here</a>.</p>
         </li>
         <li>
           <span className='font-bold'>Coffee is delivered to ECX warehouses</span>
@@ -169,15 +169,15 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         </li>
         <li>
           <span className='font-bold'>Licensed exporters purchase coffee lots</span>
-          <p className='font-normal text-sm mt-1'>Exporters registered with the ECX and Ethiopian Coffee & Tea Authority can buy coffee for international sale. Payment clears within 24 hours.</p>
+          <p className='font-normal text-sm mt-1'>Exporters registered with the ECX and <a href="https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">Ethiopian Coffee &amp; Tea Authority</a> can buy coffee for international sale. Payment clears within 24 hours.</p>
         </li>
         <li>
           <span className='font-bold'>Coffee is prepared for export</span>
-          <p className='font-normal text-sm mt-1'>Exporters arrange bagging (typically 60kg jute/GrainPro bags), documentation (ICO certificate, phytosanitary certificate, quality reports), and shipping logistics.</p>
+          <p className='font-normal text-sm mt-1'>Exporters arrange bagging (typically 60kg jute/<a href="https://grainpro.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">GrainPro</a> bags), documentation (<a href="https://www.ico.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ICO certificate</a>, <a href="https://www.ippc.int" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">phytosanitary certificate</a>, quality reports), and shipping logistics.</p>
         </li>
         <li>
           <span className='font-bold'>Coffee ships from Djibouti port</span>
-          <p className='font-normal text-sm mt-1'>Most Ethiopian coffee exports via Djibouti (FOB Djibouti). Some exporters use Addis Ababa dry port for containerized shipments.</p>
+          <p className='font-normal text-sm mt-1'>Most Ethiopian coffee exports via <a href="https://en.wikipedia.org/wiki/Port_of_Djibouti" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Djibouti</a> (FOB Djibouti). Some exporters use the <a href="https://en.wikipedia.org/wiki/Addis_Ababa_Dry_Port" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Addis Ababa dry port</a> for containerized shipments.</p>
         </li>
       </ol>
 
@@ -206,7 +206,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         <h4 className='font-bold text-lg mb-2'><HiOutlineDocumentText className='inline mr-2' />For Importers: What to Ask About Traceability</h4>
         <p className='text-sm mb-3'>When sourcing from an Ethiopian exporter, clarify:</p>
         <ul className='text-sm space-y-2 list-disc ml-5'>
-          <li><span className='font-bold'>Is this ECX coffee or DSL (direct)?</span> DSL offers farm/cooperative-level traceability</li>
+              <li><span className='font-bold'>Is this ECX coffee or DSL (direct)?</span> DSL offers farm/cooperative-level traceability</li>
           <li><span className='font-bold'>What region and sub-region?</span> Even ECX coffee can specify areas like "Yirgacheffe Kochere" vs just "Yirgacheffe"</li>
           <li><span className='font-bold'>Washing station or cooperative name?</span> Available for DSL and increasingly for ECX specialty lots</li>
           <li><span className='font-bold'>Processing details?</span> Fermentation time, drying method, etc.</li>

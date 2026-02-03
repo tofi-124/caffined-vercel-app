@@ -70,7 +70,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       </p>
 
       <p className='my-4'>
-        The term <span className='font-bold'>"Ethiopian Heirloom"</span> is used to describe the <span className='font-bold'>indigenous landrace coffee varieties</span> native to Ethiopia – the only place in the world where Arabica coffee grows wild and has evolved naturally for thousands of years. These varieties represent the <span className='font-bold'>most genetically diverse coffee population on Earth</span>, encompassing thousands of distinct genetic variations that can differ dramatically from farm to farm, region to region, and forest to forest.
+        The term <span className='font-bold'>"Ethiopian Heirloom"</span> is used to describe the <span className='font-bold'>indigenous landrace coffee varieties</span> native to Ethiopia – the only place in the world where <a href="https://en.wikipedia.org/wiki/Coffea_arabica" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>Arabica coffee</a> grows wild and has evolved naturally for thousands of years. These varieties represent the <span className='font-bold'>most genetically diverse coffee population on Earth</span>, encompassing thousands of distinct genetic variations that can differ dramatically from farm to farm, region to region, and forest to forest.
       </p>
 
       <p className='my-4'>
@@ -537,7 +537,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       </h3>
 
       <p className='my-4'>
-        Ethiopia <span className='font-bold'>does</span> have officially named and registered coffee varieties, developed by the <span className='font-bold'>Jimma Agricultural Research Center (JARC)</span>, part of the Ethiopian Institute of Agricultural Research (EIAR).
+        Ethiopia <span className='font-bold'>does</span> have officially named and registered coffee varieties, developed by the <a href="https://en.wikipedia.org/wiki/Ethiopian_Institute_of_Agricultural_Research" target="_blank" rel="noopener noreferrer" className='font-bold text-amber-700 hover:underline'>Jimma Agricultural Research Center (JARC)</a>, part of the Ethiopian Institute of Agricultural Research (EIAR).
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>What Are JARC Varieties?</h4>
@@ -636,7 +636,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       </h3>
 
       <p className='my-4'>
-        No discussion of Ethiopian varieties would be complete without addressing <span className='font-bold'>Gesha</span> (also spelled Geisha) – perhaps the most famous and expensive coffee variety in the world.
+        No discussion of Ethiopian varieties would be complete without addressing <a href="https://en.wikipedia.org/wiki/Geisha_(coffee)" target="_blank" rel="noopener noreferrer" className='font-bold text-amber-700 hover:underline'>Gesha</a> (also spelled Geisha) – perhaps the most famous and expensive coffee variety in the world.
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>The Gesha Story</h4>
@@ -893,25 +893,25 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
 
       <h4 className='text-xl font-bold mt-8 mb-4'>Recent Research Advances</h4>
 
-      <div className='space-y-4 my-6'>
+        <div className='space-y-4 my-6'>
         <div className='border-l-4 border-green-500 pl-4'>
           <h5 className='font-bold'>Coffee Genome Sequencing (2014)</h5>
-          <p className='text-sm'>The complete Arabica coffee genome was sequenced, providing a reference for genetic studies and variety identification.</p>
+          <p className='text-sm'>The arabica coffee genome and related genomic research provide a reference for genetic studies and variety identification — see <a href="https://worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>World Coffee Research</a> for ongoing summaries of coffee genetic research.</p>
         </div>
 
         <div className='border-l-4 border-blue-500 pl-4'>
           <h5 className='font-bold'>Ethiopian Diversity Studies</h5>
-          <p className='text-sm'>Multiple research institutions (World Coffee Research, Addis Ababa University, international universities) are conducting genetic diversity surveys of Ethiopian coffee populations.</p>
+          <p className='text-sm'>Multiple research institutions (including World Coffee Research and Ethiopian universities) are conducting genetic diversity surveys of Ethiopian coffee populations — see <a href="https://worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>World Coffee Research</a> for project links and publications.</p>
         </div>
 
         <div className='border-l-4 border-purple-500 pl-4'>
           <h5 className='font-bold'>DNA Fingerprinting Tools</h5>
-          <p className='text-sm'>Molecular markers (SNPs, microsatellites) allow precise variety identification. Several companies now offer DNA testing services for coffee.</p>
+          <p className='text-sm'>Molecular markers (SNPs, microsatellites) allow precise variety identification. Several laboratories and service providers now offer DNA testing for coffee; World Coffee Research publishes resources and best-practice guidance.</p>
         </div>
 
         <div className='border-l-4 border-amber-500 pl-4'>
           <h5 className='font-bold'>Variety Databases</h5>
-          <p className='text-sm'>World Coffee Research's Variety Catalog is being expanded to include Ethiopian germplasm with genetic and phenotypic data.</p>
+          <p className='text-sm'>World Coffee Research maintains a <a href="https://varietycatalog.worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>Variety Catalog</a> that is expanding to include Ethiopian germplasm with genetic and phenotypic data.</p>
         </div>
       </div>
 
@@ -1027,11 +1027,11 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         <p className='font-bold mb-3'>Practical Actions for Coffee Importers & Roasters:</p>
         <ul className='space-y-2 text-sm'>
           <li>✓ Pay premiums for Ethiopian heirloom coffee that reward farmers for maintaining diversity</li>
-          <li>✓ Source forest coffee from protected areas like Kaffa Biosphere Reserve</li>
+          <li>✓ Source forest coffee from protected areas like <a href="https://en.wikipedia.org/wiki/Kafa_Biosphere_Reserve" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>Kaffa Biosphere Reserve</a></li>
           <li>✓ Support certification programs (Bird Friendly, organic) that encourage biodiversity</li>
           <li>✓ Tell the story of Ethiopian genetic diversity to your customers</li>
           <li>✓ Form direct relationships with Ethiopian cooperatives and farmers</li>
-          <li>✓ Support organizations working on Ethiopian coffee conservation</li>
+          <li>✓ Support organizations working on Ethiopian coffee conservation (see <a href="https://worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>World Coffee Research</a>)</li>
           <li>✓ Choose Ethiopian coffee over genetically-narrow alternatives when possible</li>
         </ul>
       </div>

@@ -151,7 +151,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
 
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
           <h5 className='font-bold mb-2 text-green-900'>Market Access</h5>
-          <p className='text-sm'>Provide winning coffees with direct access to AFCA's auction platform, connecting award-winning lots with premium buyers willing to pay for exceptional quality.</p>
+          <p className='text-sm'>Provide winning coffees with direct access to <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's auction platform</a>, connecting award-winning lots with premium buyers willing to pay for exceptional quality.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
@@ -436,7 +436,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           <h5 className='font-bold mb-2 text-blue-900'>State-of-the-Art Equipment</h5>
           <p className='text-sm mb-2'>The Ethiopian Coffee Training Center now features:</p>
           <ul className='space-y-1 text-sm ml-4'>
-            <li>• Professional sample roasting equipment (Ikawa, Probat, or similar)</li>
+            <li>• Professional sample roasting equipment (<a href="https://ikawacoffee.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Ikawa</a>, <a href="https://probat.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Probat</a>, or similar)</li>
             <li>• Standardized cupping laboratories with temperature-controlled environments</li>
             <li>• Water quality testing and treatment systems</li>
             <li>• Green coffee moisture and density analyzers</li>
@@ -460,7 +460,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           <h5 className='font-bold mb-2 text-purple-900'>Training and Capacity Building</h5>
           <p className='text-sm mb-2'>The center serves as a hub for:</p>
           <ul className='space-y-1 text-sm ml-4'>
-            <li>• Q Grader and sensory training courses</li>
+            <li>• <a href="https://www.coffeeinstitute.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Q Grader</a> and sensory training courses</li>
             <li>• Producer education on quality improvement</li>
             <li>• Exporter training on grading and quality control</li>
             <li>• International workshops and knowledge exchange</li>
@@ -509,7 +509,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           <li>• <span className='font-bold'>Continental judging panel</span> evaluates all national winners together</li>
           <li>• <span className='font-bold'>Overall AFCA winners</span> are determined across processing categories and origin types</li>
           <li>• <span className='font-bold'>Winning coffees receive serial numbers</span> and official AFCA recognition</li>
-          <li>• <span className='font-bold'>Award-winning lots</span> gain access to AFCA's direct auction platform</li>
+              <li>• <span className='font-bold'>Award-winning lots</span> gain access to <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's direct auction platform</a></li>
         </ul>
       </div>
 
@@ -616,8 +616,8 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <div className='space-y-6 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h5 className='font-bold mb-3'>1. Auction Listing</h5>
-          <p className='text-sm'>
-            Award-winning coffees are listed on AFCA's auction platform with detailed profiles including:
+            <p className='text-sm'>
+            Award-winning coffees are listed on <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's auction platform</a> with detailed profiles including:
           </p>
           <ul className='space-y-1 text-sm ml-4 mt-2'>
             <li>• Competition scores and sensory descriptors</li>
@@ -895,7 +895,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Certified coffees gain direct access to AFCA's auction platform, connecting producers with international specialty buyers at premium prices</p>
+          <p>Certified coffees gain direct access to <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's auction platform</a>, connecting producers with international specialty buyers at premium prices</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />

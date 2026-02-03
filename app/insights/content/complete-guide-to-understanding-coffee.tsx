@@ -120,7 +120,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </h3>
       
       <p className='my-4'>
-        The story of coffee begins in the ancient forests of <span className='font-bold'>Ethiopia</span> the birthplace of Arabica coffee. Legend tells of a goat herder named Kaldi who noticed his goats becoming unusually energetic after eating red berries from a certain tree. This discovery, dating back over 1,000 years, would eventually change the world.
+        The story of coffee begins in the ancient forests of <a href="https://en.wikipedia.org/wiki/Ethiopian_coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Ethiopia</a>, the birthplace of Arabica coffee. Legend tells of a goat herder named Kaldi who noticed his goats becoming unusually energetic after eating red berries from a certain tree. This discovery, dating back over 1,000 years, would eventually change the world.
       </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
@@ -165,7 +165,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
         <div className='flex gap-4 items-start'>
           <span className='font-bold text-amber-600 w-24 flex-shrink-0'>1970s-Now</span>
-          <span>Specialty coffee movement transforms the industry</span>
+          <span><a href="https://en.wikipedia.org/wiki/Specialty_coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Specialty coffee movement</a> transforms the industry</span>
         </div>
       </div>
 
@@ -261,7 +261,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        There are over 120 species in the Coffea genus, but only two dominate global production: <span className='font-bold'>Arabica</span> and <span className='font-bold'>Robusta</span>. Understanding their differences is fundamental to understanding coffee quality.
+        There are over 120 species in the Coffea genus, but only two dominate global production: <a href="https://en.wikipedia.org/wiki/Arabica_coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Arabica</a> and <a href="https://en.wikipedia.org/wiki/Robusta_coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Robusta</a>. Understanding their differences is fundamental to understanding coffee quality.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Arabica vs. Robusta: The Complete Comparison</h4>

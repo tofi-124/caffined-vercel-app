@@ -45,7 +45,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">From 33rd to 4th: Historic Market Growth in Five Years</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                <strong>The transformation of China into Ethiopia's 4th largest coffee export destination</strong> represents one of the most dramatic shifts in the global coffee trade in recent years. According to the Ethiopian Coffee and Tea Authority, this 29-position jump occurred within just five years-a growth trajectory unprecedented in Ethiopian coffee export history.
+                <strong>The transformation of China into Ethiopia's 4th largest coffee export destination</strong> represents one of the most dramatic shifts in the global coffee trade in recent years. According to the <a href="https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Ethiopian Coffee and Tea Authority</a>, this 29-position jump occurred within just five years-a growth trajectory unprecedented in Ethiopian coffee export history.
               </p>
               
               <h3 className="text-2xl font-semibold text-gray-800 mb-3 mt-6">Market Share Growth Breakdown</h3>
@@ -80,7 +80,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
 
               <h3 className="text-2xl font-semibold text-gray-800 mb-3 mt-6">What Drove This Historic Growth?</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                According to <strong>Dr. Adunya Debela, Director General of the Ethiopian Coffee and Tea Authority</strong>, the meteoric rise was driven by two primary factors:
+                According to <strong>Dr. Adunya Debela, Director General of the <a href="https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Ethiopian Coffee and Tea Authority</a></strong>, the meteoric rise was driven by two primary factors:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
                 <li><strong>Growing Chinese domestic coffee demand:</strong> China's coffee consumption has exploded as urbanization, rising incomes, and Western café culture influence younger demographics</li>
@@ -133,7 +133,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
                   Ethiopia and China are developing <strong>e-commerce links</strong> to streamline coffee procurement and expand market access for Ethiopian exporters. This includes:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                  <li>Integration with Alibaba, JD.com, and other major Chinese e-commerce platforms</li>
+                  <li>Integration with <a href="https://www.alibabagroup.com/" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Alibaba</a>, <a href="https://www.jd.com/" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">JD.com</a>, and other major Chinese e-commerce platforms</li>
                   <li>Digital payment systems facilitating faster transactions</li>
                   <li>Online coffee auctions connecting Ethiopian producers directly with Chinese buyers</li>
                   <li>Traceability systems leveraging blockchain and digital documentation</li>
@@ -369,7 +369,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
                 While China's current per capita coffee consumption remains far below Western markets, the trajectory is unmistakable:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                <li><strong>Market size projections:</strong> Industry analysts forecast China will become one of the world's top 3 coffee markets by 2030</li>
+                <li><strong>Market size projections:</strong> Industry analysts forecast China will become one of the world's top 3 coffee markets by 2030 (see <a href="https://www.brookings.edu/" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Brookings</a>, <a href="https://www.worldbank.org/" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">World Bank</a>)</li>
                 <li><strong>Specialty segment growth:</strong> Premium and specialty coffee growing faster than commodity instant coffee</li>
                 <li><strong>Youth demographic shift:</strong> Gen Z and millennial Chinese consumers driving coffee adoption</li>
                 <li><strong>E-commerce acceleration:</strong> Online coffee sales and subscription models expanding market reach</li>
@@ -464,7 +464,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
 
               <h3 className="text-2xl font-semibold text-gray-800 mb-3 mt-6">Leveraging Ethiopian Quality Improvements</h3>
               <p className="text-gray-700 leading-relaxed">
-                The agricultural modernization initiatives driven by China cooperation-technology transfer, processing infrastructure, quality control systems-benefit all Ethiopian coffee buyers. Importers in North America, Europe, and other markets gain access to improved Ethiopian coffee quality resulting from these investments, making Ethiopian coffee increasingly competitive and consistent.
+                The agricultural modernization initiatives driven by China cooperation—technology transfer, processing infrastructure, and quality control systems—benefit all Ethiopian coffee buyers. Importers in North America, Europe, and other markets gain access to improved Ethiopian coffee quality resulting from these investments, making Ethiopian coffee increasingly competitive and consistent. For industry standards and training resources, see the <a href="https://sca.coffee/" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Specialty Coffee Association</a>.
               </p>
             </div>
           </div>
@@ -482,12 +482,12 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
 
               <h3 className="text-2xl font-semibold text-gray-800 mb-3 mt-6">What to Look for in an Ethiopian Coffee Exporter</h3>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
-                <li><strong>ECX registration and direct specialty licenses:</strong> Ensuring legal compliance and traceability</li>
+                <li><strong>ECX registration and direct specialty licenses:</strong> Ensuring legal compliance and traceability (see <a href="https://en.wikipedia.org/wiki/Ethiopia_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Ethiopian Commodity Exchange (ECX)</a>)</li>
                 <li><strong>Quality control infrastructure:</strong> Modern cupping labs, moisture testing, defect sorting</li>
                 <li><strong>Regional sourcing networks:</strong> Access to multiple Ethiopian origins (Yirgacheffe, Sidamo, Guji, Harrar)</li>
                 <li><strong>Processing method options:</strong> Ability to supply washed, natural, and honey processed coffees</li>
                 <li><strong>Export documentation expertise:</strong> Handling certificates of origin, phytosanitary certificates, and market-specific requirements</li>
-                <li><strong>Container logistics experience:</strong> Managing shipping from Djibouti port to final destination</li>
+                <li><strong>Container logistics experience:</strong> Managing shipping from Djibouti port to final destination (see <a href="https://en.wikipedia.org/wiki/Port_of_Djibouti" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Port of Djibouti</a>)</li>
                 <li><strong>Transparent pricing:</strong> Clear FOB pricing structures and fair premiums for quality</li>
               </ul>
 

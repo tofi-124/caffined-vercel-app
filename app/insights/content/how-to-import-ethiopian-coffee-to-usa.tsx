@@ -115,7 +115,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2 flex items-center gap-2'><HiOutlineCheckCircle className='text-xl text-green-600' /> What to Look For in an Ethiopian Exporter</h4>
           <ul className='text-sm space-y-2 list-disc ml-5'>
-            <li><span className='font-bold'>ECX Registration:</span> Ensures legal compliance and quality standards</li>
+            <li><span className='font-bold'><a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:text-amber-900 underline'>ECX Registration</a>:</span> Ensures legal compliance and quality standards</li>
             <li><span className='font-bold'>US Export Experience:</span> Familiarity with US documentation and port requirements</li>
             <li><span className='font-bold'>Sample Programs:</span> Ability to send cupping samples before container commitment</li>
             <li><span className='font-bold'>Quality Reports:</span> Detailed cupping notes, defect counts, and moisture analysis</li>
@@ -143,9 +143,9 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
             <li><span className='font-bold'>Commercial Invoice:</span> Itemized list of goods, quantities, prices, FOB value</li>
             <li><span className='font-bold'>Packing List:</span> Details of bags, weights, container number</li>
             <li><span className='font-bold'>Bill of Lading (BOL):</span> Shipping document from freight forwarder</li>
-            <li><span className='font-bold'>Phytosanitary Certificate:</span> Issued by Ethiopian Ministry of Agriculture confirming pest-free status</li>
-            <li><span className='font-bold'>ICO Certificate of Origin:</span> International Coffee Organization certificate proving Ethiopian origin</li>
-            <li><span className='font-bold'>ECX Quality Certificate:</span> Grading report (G1, G2, etc.) and quality specifications</li>
+            <li><span className='font-bold'><a href="https://www.ippc.int/en/publications/phytosanitary-certificates/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:text-amber-900 underline'>Phytosanitary Certificate</a>:</span> Issued by Ethiopian Ministry of Agriculture confirming pest-free status</li>
+            <li><span className='font-bold'><a href="https://www.ico.org" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:text-amber-900 underline'>ICO Certificate of Origin</a>:</span> International Coffee Organization certificate proving Ethiopian origin</li>
+            <li><span className='font-bold'><a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:text-amber-900 underline'>ECX Quality Certificate</a>:</span> Grading report (G1, G2, etc.) and quality specifications</li>
             <li><span className='font-bold'>Certificate of Origin:</span> Can be used for preferential duty rates under AGOA</li>
           </ul>
         </div>
@@ -171,7 +171,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         Step 4: Shipping & Logistics from Ethiopia to USA
       </h3>
       <p className='my-4'>
-        Most Ethiopian coffee exports to the US via container shipping from the Port of Djibouti.
+        Most Ethiopian coffee exports to the US ship in containers via the <a href="https://en.wikipedia.org/wiki/Port_of_Djibouti" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:text-amber-900 underline'>Port of Djibouti</a>.
       </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
@@ -306,9 +306,9 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         Once your Ethiopian coffee arrives in the US, proper storage is critical to maintaining quality.
       </p>
 
-      <ul className='my-4 list-disc ml-5 space-y-2'>
+        <ul className='my-4 list-disc ml-5 space-y-2'>
         <li><span className='font-bold'>Climate Control:</span> Store at 60-70°F with 50-60% relative humidity</li>
-        <li><span className='font-bold'>GrainPro Bags:</span> Use moisture-barrier bags to protect from humidity fluctuations</li>
+        <li><span className='font-bold'><a href="https://grainpro.com" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:text-amber-900 underline'>GrainPro Bags</a>:</span> Use moisture-barrier bags to protect from humidity fluctuations</li>
         <li><span className='font-bold'>Pallet Storage:</span> Keep bags off ground, away from walls, with airflow between stacks</li>
         <li><span className='font-bold'>Pest Control:</span> Regular monitoring for insects, especially if storing near other grains</li>
         <li><span className='font-bold'>FIFO Rotation:</span> Use First In, First Out inventory management to maintain freshness</li>
@@ -330,9 +330,9 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'><HiOutlineGlobeAlt className='inline mr-2' />What We Handle (Ethiopia Side)</h4>
           <ul className='text-sm space-y-1 list-disc ml-5'>
-            <li>ECX coffee sourcing & quality verification</li>
+            <li><a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:text-amber-900 underline'>ECX</a> coffee sourcing & quality verification</li>
             <li>Complete export documentation</li>
-            <li>Phytosanitary & ICO certificates</li>
+            <li>Phytosanitary & <a href="https://www.ico.org" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:text-amber-900 underline'>ICO</a> certificates</li>
             <li>FOB Djibouti container stuffing</li>
             <li>Bill of Lading coordination</li>
             <li>Commercial invoice & packing lists</li>

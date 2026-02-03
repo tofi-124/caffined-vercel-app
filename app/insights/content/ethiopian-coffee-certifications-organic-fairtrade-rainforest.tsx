@@ -225,7 +225,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Organic certification</span> verifies that coffee was grown and processed without synthetic fertilizers, pesticides, herbicides, or genetically modified organisms (GMOs). It's the most widely recognized and demanded sustainability certification in the coffee industry.
+        <a href="https://www.ams.usda.gov/rules-regulations/organic" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline font-bold'>Organic certification</a> verifies that coffee was grown and processed without synthetic fertilizers, pesticides, herbicides, or genetically modified organisms (GMOs). It's the most widely recognized and demanded sustainability certification in the coffee industry.
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>What Organic Certification Requires</h4>
@@ -248,7 +248,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
 
       <div className='grid md:grid-cols-3 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> USDA Organic</h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> <a href="https://www.ams.usda.gov/" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>USDA Organic</a></h5>
           <p className='text-sm mb-2'>Required for US market sales</p>
           <ul className='text-xs space-y-1'>
             <li>• Administered by USDA National Organic Program (NOP)</li>
@@ -258,7 +258,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> EU Organic</h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> <a href="https://food.ec.europa.eu/plants/plant-based-products/organic-production-and-labelling-products_en" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>EU Organic</a></h5>
           <p className='text-sm mb-2'>Required for European Union sales</p>
           <ul className='text-xs space-y-1'>
             <li>• Governed by EU Regulation 2018/848</li>
@@ -268,7 +268,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> JAS Organic</h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> <a href="https://www.maff.go.jp/e/policies/standard/organic/" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>JAS Organic</a></h5>
           <p className='text-sm mb-2'>Required for Japanese market</p>
           <ul className='text-xs space-y-1'>
             <li>• Japanese Agricultural Standards</li>
@@ -355,7 +355,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Fair Trade certification</span> focuses on the <span className='font-bold'>social and economic</span> dimensions of coffee production, ensuring that farmers receive fair prices, have safe working conditions, and that communities benefit from a social development premium.
+        <a href="https://www.fairtrade.net/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline font-bold'>Fair Trade certification</a> focuses on the <span className='font-bold'>social and economic</span> dimensions of coffee production, ensuring that farmers receive fair prices, have safe working conditions, and that communities benefit from a social development premium.
       </p>
 
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
@@ -366,8 +366,8 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           In 2011, the Fair Trade movement split into two separate organizations with different standards:
         </p>
         <ul className='text-sm space-y-2'>
-          <li><span className='font-bold'>Fairtrade International (FLO):</span> The original global system, dominant in Europe and most markets. Requires certification of producer organizations (cooperatives), not individual farms or estates.</li>
-          <li><span className='font-bold'>Fair Trade USA:</span> Split from FLO in 2011 to allow certification of estates/plantations and individual farmers, not just cooperatives. More common for US market sales.</li>
+          <li><span className='font-bold'><a href="https://www.fairtrade.net/" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>Fairtrade International (FLO)</a>:</span> The original global system, dominant in Europe and most markets. Requires certification of producer organizations (cooperatives), not individual farms or estates.</li>
+          <li><span className='font-bold'><a href="https://www.fairtradecertified.org/" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>Fair Trade USA</a>:</span> Split from FLO in 2011 to allow certification of estates/plantations and individual farmers, not just cooperatives. More common for US market sales.</li>
         </ul>
         <p className='text-sm mt-3 italic'>
           Both systems share similar goals but have different criteria for who can be certified. Most Ethiopian Fair Trade coffee is certified under Fairtrade International (FLO).
@@ -520,7 +520,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Rainforest Alliance certification</span> takes a comprehensive approach to sustainable agriculture, addressing environmental conservation, social equity, and economic viability through a single integrated standard.
+        <a href="https://www.rainforest-alliance.org/" target="_blank" rel="noopener noreferrer" className='text-green-700 hover:underline font-bold'>Rainforest Alliance certification</a> takes a comprehensive approach to sustainable agriculture, addressing environmental conservation, social equity, and economic viability through a single integrated standard.
       </p>
 
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
@@ -528,7 +528,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           UTZ Merger
         </p>
         <p className='text-sm'>
-          In 2018, <span className='font-bold'>Rainforest Alliance merged with UTZ</span>, another major sustainability certification. As of 2020, all coffee is certified under the unified <span className='font-bold'>Rainforest Alliance 2020 Standard</span>. If you encounter "UTZ Certified" Ethiopian coffee from older inventories, it's now equivalent to Rainforest Alliance certification.
+          In 2018, <span className='font-bold'>Rainforest Alliance merged with UTZ</span>, another major sustainability certification. As of 2020, all coffee is certified under the unified <a href="https://www.rainforest-alliance.org/business/certification/standards/" target="_blank" rel="noopener noreferrer" className='text-green-700 hover:underline'>Rainforest Alliance 2020 Standard</a>. If you encounter "UTZ Certified" Ethiopian coffee from older inventories, it's now equivalent to Rainforest Alliance certification.
         </p>
       </div>
 
@@ -684,7 +684,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Bird Friendly certification</span> by the Smithsonian Migratory Bird Center is the most stringent shade-grown coffee certification available. It requires <span className='font-bold'>both organic certification AND specific shade-cover requirements</span> that protect habitat for migratory birds.
+        <a href="https://nationalzoo.si.edu/migratory-bird-center/bird-friendly" target="_blank" rel="noopener noreferrer" className='text-green-600 hover:underline font-bold'>Bird Friendly certification</a> by the Smithsonian Migratory Bird Center is the most stringent shade-grown coffee certification available. It requires <span className='font-bold'>both organic certification AND specific shade-cover requirements</span> that protect habitat for migratory birds.
       </p>
 
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
@@ -960,7 +960,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       <h4 className='text-xl font-bold mt-8 mb-4'>Ethiopian Government & Certification</h4>
 
       <p className='my-4'>
-        The <span className='font-bold'>Ethiopian Coffee and Tea Authority (ECTA)</span> and the government have increasingly supported certification as a strategy for value addition:
+        The <a href="https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority" target="_blank" rel="noopener noreferrer" className='font-bold text-amber-700 hover:underline'>Ethiopian Coffee and Tea Authority (ECTA)</a> and the government have increasingly supported certification as a strategy for value addition:
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
