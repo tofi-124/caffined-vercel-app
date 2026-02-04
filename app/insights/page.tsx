@@ -77,6 +77,27 @@ const InsightsPage = () => {
     })
   }
 
+  const goToPage = (p: number) => {
+    const nextPage = Math.min(Math.max(1, p), totalPages)
+    setPage(nextPage)
+    const params = new URLSearchParams(searchParams.toString())
+    params.set('page', nextPage.toString())
+    router.push(`?${params.toString()}`, { scroll: false })
+
+    // Defer scroll until the new page content has rendered
+    requestAnimationFrame(() => {
+      requestAnimationFrame(scrollToPostsTop)
+    })
+  }
+
+  const maxVisiblePages = 5
+  const startPage = Math.max(
+    1,
+    Math.min(safePage - Math.floor(maxVisiblePages / 2), totalPages - maxVisiblePages + 1)
+  )
+  const endPage = Math.min(totalPages, startPage + maxVisiblePages - 1)
+  const visiblePages = Array.from({ length: endPage - startPage + 1 }, (_, i) => startPage + i)
+
   return (
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
@@ -92,18 +113,25 @@ const InsightsPage = () => {
 
         {totalPages > 1 && (
           <div className='mt-12 flex flex-wrap justify-center gap-2'>
-            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+            <button
+              type='button'
+              onClick={() => goToPage(Math.max(1, safePage - 1))}
+              className={
+                safePage === 1
+                  ? 'w-10 h-10 bg-white text-gray-300 border border-gray-200 rounded-full font-bold cursor-not-allowed'
+                  : 'w-10 h-10 bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover:border-accent transition-all'
+              }
+              aria-label='Go to previous page'
+              disabled={safePage === 1}
+            >
+              &lt;
+            </button>
+
+            {visiblePages.map((p) => (
               <button
                 key={p}
                 type='button'
-                onClick={() => {
-                  setPage(p)
-                  // Update URL with page parameter
-                  const params = new URLSearchParams(searchParams.toString())
-                  params.set('page', p.toString())
-                  router.push(`?${params.toString()}`, { scroll: false })
-                  scrollToPostsTop()
-                }}
+                onClick={() => goToPage(p)}
                 className={
                   p === safePage
                     ? 'w-10 h-10 bg-accent text-white border border-accent rounded-full font-bold'
@@ -114,6 +142,20 @@ const InsightsPage = () => {
                 {p}
               </button>
             ))}
+
+            <button
+              type='button'
+              onClick={() => goToPage(Math.min(totalPages, safePage + 1))}
+              className={
+                safePage === totalPages
+                  ? 'w-10 h-10 bg-white text-gray-300 border border-gray-200 rounded-full font-bold cursor-not-allowed'
+                  : 'w-10 h-10 bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover:border-accent transition-all'
+              }
+              aria-label='Go to next page'
+              disabled={safePage === totalPages}
+            >
+              &gt;
+            </button>
           </div>
         )}
       </section>
