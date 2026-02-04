@@ -121,7 +121,6 @@ export default function RootLayout({
                 {
                   "@type": "Offer",
                   "availability": "https://schema.org/InStock",
-                  "priceCurrency": "USD",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Ethiopian Green Coffee Beans Export",

@@ -94,7 +94,6 @@ export default async function ProductLayout({ params, children }: Props) {
       "availability": product.isSoldOut 
         ? "https://schema.org/OutOfStock" 
         : "https://schema.org/InStock",
-      "priceCurrency": "USD",
       "seller": {
         "@type": "Organization",
         "name": "Ethio Coffee Export PLC"

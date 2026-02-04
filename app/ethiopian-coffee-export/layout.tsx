@@ -60,7 +60,6 @@ export default function EthiopianCoffeeExportLayout({
         {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
-          "priceCurrency": "USD",
           "itemOffered": {
             "@type": "Product",
             "name": "Specialty Yirgacheffe Coffee Export",
@@ -74,7 +73,6 @@ export default function EthiopianCoffeeExportLayout({
         {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
-          "priceCurrency": "USD",
           "itemOffered": {
             "@type": "Product",
             "name": "Specialty Sidamo Coffee Export",
@@ -88,7 +86,6 @@ export default function EthiopianCoffeeExportLayout({
         {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
-          "priceCurrency": "USD",
           "itemOffered": {
             "@type": "Product",
             "name": "Specialty Guji Coffee Export",

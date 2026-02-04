@@ -427,18 +427,12 @@ const OfferingDetail = ({ params }: Props) => {
               </div>
             </div>
 
-            {/* Pricing & Availability Section */}
+            {/* Availability & Quote Section */}
             <div className='mb-10 p-6 md:p-8 rounded-3xl bg-white border border-gray-200 shadow-sm'>
               <div className='flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4'>
                 <div>
-                  <span className='text-[11px] font-semibold uppercase tracking-widest text-gray-400 block mb-2'>FOB Price</span>
-                  <div className='flex items-baseline gap-3'>
-                    <span className='text-3xl font-bold text-dark'>${product.pricing.fobPricePerLb.toFixed(2)}</span>
-                    <span className='text-sm text-gray-500'>per lb</span>
-                    <span className='text-gray-300'>·</span>
-                    <span className='text-xl font-semibold text-gray-600'>${product.pricing.fobPricePerKg.toFixed(2)}</span>
-                    <span className='text-sm text-gray-500'>per kg</span>
-                  </div>
+                  <span className='text-[11px] font-semibold uppercase tracking-widest text-gray-400 block mb-2'>Pricing</span>
+                  <p className='text-lg text-gray-600'>Contact us for current FOB pricing and availability</p>
                 </div>
                 {product.availableBags !== null && !product.isSoldOut && (
                   <div className='flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 border border-emerald-200'>
@@ -451,9 +445,6 @@ const OfferingDetail = ({ params }: Props) => {
               <div className='mt-4 pt-4 border-t border-gray-100 flex flex-wrap gap-2'>
                 <span className='px-3 py-1.5 rounded-full bg-stone-100 text-xs font-medium text-gray-600'>
                   FOB Ethiopia
-                </span>
-                <span className='px-3 py-1.5 rounded-full bg-stone-100 text-xs font-medium text-gray-600'>
-                  {product.pricing.priceNote}
                 </span>
                 {product.pricing.minimumOrder && (
                   <span className='px-3 py-1.5 rounded-full bg-stone-100 text-xs font-medium text-gray-600'>

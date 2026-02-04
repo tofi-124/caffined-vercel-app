@@ -41,8 +41,7 @@ export default function OfferingsLayout({
           "@type": "Offer",
           "availability": product.isSoldOut 
             ? "https://schema.org/OutOfStock" 
-            : "https://schema.org/InStock",
-          "priceCurrency": "USD"
+            : "https://schema.org/InStock"
         }
       }
     }))

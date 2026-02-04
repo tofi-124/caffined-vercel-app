@@ -84,7 +84,7 @@ export const generateProductPDF = (product: Offering) => {
   doc.text(descLines, margin, yPos + 6)
   yPos += 6 + (descLines.length * 5) + 8
 
-  // Pricing - Compact inline format matching specs style
+  // Pricing - Contact for quote
   doc.setFontSize(10)
   doc.setTextColor(BRAND_DARK)
   doc.setFont('helvetica', 'bold')
@@ -93,7 +93,7 @@ export const generateProductPDF = (product: Offering) => {
   doc.setFontSize(9)
   doc.setTextColor(GRAY_600)
   doc.setFont('helvetica', 'normal')
-  doc.text(`$${product.pricing.fobPricePerLb.toFixed(2)} USD/lb  •  $${product.pricing.fobPricePerKg.toFixed(2)} USD/kg  •  ${product.pricing.priceYear} crop`, margin, yPos + 6)
+  doc.text(`Contact us for current pricing  •  ${product.pricing.priceYear} crop`, margin, yPos + 6)
   
   yPos += 14
 
@@ -341,10 +341,10 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     
     doc.setTextColor(BRAND_DARK)
     doc.setFont('helvetica', 'bold')
-    doc.text('Price/lb:', rightColX, infoY)
-    doc.setTextColor(BRAND_ACCENT)
-    doc.setFont('helvetica', 'bold')
-    doc.text(`$${product.pricing.fobPricePerLb.toFixed(2)}`, rightColX + 16, infoY)
+    doc.text('Pricing:', rightColX, infoY)
+    doc.setTextColor(GRAY_600)
+    doc.setFont('helvetica', 'normal')
+    doc.text('Contact for quote', rightColX + 14, infoY)
 
     infoY += 5
     doc.setTextColor(BRAND_DARK)
