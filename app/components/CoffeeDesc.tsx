@@ -5,30 +5,30 @@ import HeadLine from '../lib/Headline'
 
 const headlines = [
   {
-    title: 'DIRECT FROM ORIGIN',
+    title: 'ROOTED IN ORIGIN',
     items: [
-      'Direct oversight from our family estates to export-ready shipments',
-      'Seamless chain of custody through our Ethiopian export operation',
-      'Eliminated intermediaries to ensure maximum value for importers',
-      'End-to-end quality control from farm to port'
+      'Born from the highlands where coffee first grew wild centuries ago',
+      'Direct partnerships with Sidama, Guji, and Yirgacheffe farming communities',
+      'Family relationships spanning generations built on trust and transparency',
+      'Every lot traced back to the hands that picked it'
     ]
   },
   {
-    title: 'TRACEABLE HERITAGE',
+    title: 'IDENTITY PRESERVED',
     items: [
-      'Authentic heirloom varietals harvested from Arabica’s original home',
-      'Farm-gate transparency with detailed micro-region documentation',
+      'Heirloom varietals cultivated nowhere else on earth',
+      'Micro-region character preserved through careful processing and handling',
       'Generational relationships with smallholders and trusted cooperatives',
-      'Sourcing models that prioritize coffee quality and grower equity'
+      'Sample-to-bag consistency ensuring cup profiles match your expectations'
     ]
   },
   {
-    title: 'IMPORTER-READY EXPORTS',
+    title: 'EXPORT-READY AUTHENTICITY',
     items: [
-      'Fresh, high-quality inventory available year-round',
-      'Strict sample-to-bag consistency through rigorous QC protocols',
-      'Advanced moisture-safe packaging to preserve origin character',
-      'Flexible shipping terms: FOB Djibouti Or CIF, which ever works best for you'
+      'Fresh, traceable coffees from Sidama, Guji, and Yirgacheffe year-round',
+      'Rigorous quality control from washing station to export container',
+      'Professional documentation and flexible shipping (FOB Djibouti or CIF)',
+      'Moisture-safe packaging preserving origin character in transit'
     ]
   }
 ]
@@ -261,16 +261,16 @@ const CoffeeDesc = () => {
         <div id='desc-container' className='flex max-lg:flex-col'>
           <div id='desc-left' className='gap-5 lg:w-1/2 h-fit sticky max-lg:static top-24'>
             <h2 className='text-5xl leading-tight font-bold text-left'>
-            WHY CHOOSE ETHIO COFFEE?
+            COFFEE FROM WHERE IT ALL BEGAN
             </h2>
             <p className=''>
-            Our story started long before export paperwork - it began on the road. Our father spent his youth traveling Ethiopia's coffee regions with our grandfather, learning how communities work and how much care goes into what the land produces. Coffee captured his attention and never let go. For 30 years, he worked directly with farmers and local markets, watching how great coffee often lost value between the farm gate and international buyers.
+            Our story didn't start with export licenses - it started in the roads of the vast land of Ethiopia. Our father spent his youth traveling Ethiopia's coffee highlands with our grandfather, drinking buna with farmers, sleeping in villages, and learning what the land means to the people who've worked it for generations. Coffee wasn't a business to him - it was a living tradition. For 30 years, he worked in Ethiopia's local coffee markets, building relationships with producers, understanding quality at its source, and earning trust that can't be manufactured overnight.
             <br />
             <br />
-            In 2022, we - two brothers, one based in Ethiopia, one Ethiopian-Canadian - formalized what our father built into Ethio Coffee Export PLC. We took decades of relationships, hard-earned trust, and hands-on experience and built an export operation around it. Today, we source from our own estates and trusted partners, prepare lots with the care our father taught us, and export to importers who value traceability and consistency.
+            In 2022, we, two brothers - one rooted in Ethiopia, one Ethiopian-Canadian - took what he built locally and made it international. Our father was a trusted local trader; we became Ethio Coffee, operating as semi-producers with direct involvement in production and bridging that expertise to the global market. We're not intermediaries. We're the ones walking the washing stations in Guji during harvest, overseeing processing at partner mills, cupping samples in Addis, and personally ensuring what leaves Ethiopia is what lands in your port with consistent, sample-to-bag accuracy. This is our heritage - the same highlands that gave the world Arabica, the same families our father knew, the same respect for what coffee means here.
             <br />
             <br />
-            Whether you're an established importer or sourcing Ethiopian coffee for the first time, we make it straightforward: professional documentation, flexible shipping terms, and the kind of clear communication that comes from having one foot in Ethiopia and one in the international market.
+            When you source from us, you're not buying a commodity. You're bringing a piece of Ethiopia to your customers - heirloom varietals that exist nowhere else, processing traditions refined over centuries, and the character of a place where coffee is deeply, authentically home. 
             </p>
           </div>
           
