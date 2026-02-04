@@ -59,26 +59,44 @@ export default function EthiopianCoffeeExportLayout({
       "itemListElement": [
         {
           "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "USD",
           "itemOffered": {
             "@type": "Product",
             "name": "Specialty Yirgacheffe Coffee Export",
             "description": "SCA 84+ specialty-grade Yirgacheffe green coffee beans for export"
+          },
+          "seller": {
+            "@type": "Organization",
+            "name": "Ethio Coffee Export PLC"
           }
         },
         {
           "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "USD",
           "itemOffered": {
             "@type": "Product",
             "name": "Specialty Sidamo Coffee Export",
             "description": "SCA 84+ specialty-grade Sidamo green coffee beans for export"
+          },
+          "seller": {
+            "@type": "Organization",
+            "name": "Ethio Coffee Export PLC"
           }
         },
         {
           "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "USD",
           "itemOffered": {
             "@type": "Product",
             "name": "Specialty Guji Coffee Export",
             "description": "SCA 84+ specialty-grade Guji green coffee beans for export"
+          },
+          "seller": {
+            "@type": "Organization",
+            "name": "Ethio Coffee Export PLC"
           }
         }
       ]
