@@ -18,7 +18,7 @@ const Hero = () => {
 
             <div className='mt-6 text-dark lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
-                We are a dedicated <strong>Ethiopian coffee exporter</strong> founded by two brothers - one rooted in Ethiopia, the other in Canada. This unique partnership allows us to bridge the gap between origin and the global market. We <strong>export Ethiopian green coffee</strong> to importers worldwide - traceable, specialty-grade beans sourced directly from our own estates and a network of trusted partner producers. At our core, we combine a deep love for Ethiopian coffee with a commitment to professional service, consistent quality, and transparent communication.
+                We are a dedicated <strong>Ethiopian coffee exporter</strong> founded by two brothers - one rooted in Ethiopia, the other in Canada. This unique partnership allows us to bridge the gap between origin and the global market. We export Ethiopian green coffee to importers worldwide that are traceable, & specialty grade beans sourced directly from our own estates as well as network of trusted partner producers. At our core, we combine a deep love for Ethiopian coffee with a commitment to professional service, consistent quality, and transparent communication.
               </p>
             </div>
 

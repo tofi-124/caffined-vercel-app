@@ -11,6 +11,44 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== MARKET INTELLIGENCE & TRADE DATA =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-importers-2024-2025.webp',
+      large_image_url: 'insights/ethiopian-coffee-importers-2024-2025.webp',
+      date: 'Jan 25, 2025',
+      title: 'TOP ETHIOPIAN COFFEE IMPORTERS AND BUYERS 2024/2025: COMPLETE MARKET ANALYSIS',
+      slug: 'top-ethiopian-coffee-importers-buyers-2024-2025',
+      category: 'Market Intelligence / Trade Data',
+      keywords: [
+        'ethiopian coffee importers',
+        'coffee buyers',
+        'ethiopian coffee trade',
+        'top coffee importers',
+        'specialty coffee buyers',
+        'ethiopian coffee market data',
+        'coffee import statistics',
+        'Volcafe',
+        'Trabocca',
+        'InterAmerican',
+        'coffee trade volume',
+        'coffee import value',
+        'european coffee importers',
+        'middle east coffee buyers',
+        'asian coffee importers',
+        'specialty coffee importers',
+        'commercial coffee buyers',
+        'ethiopian coffee export data',
+        'coffee buyer directory',
+        'coffee importer list',
+        'top 100 coffee importers',
+        'coffee trade partners',
+        'ethiopian coffee market',
+        'coffee importers by country',
+        'coffee import trends 2024',
+        'coffee import trends 2025'
+      ],
+      desc: 'Comprehensive analysis of the top Ethiopian coffee importers and buyers for 2024/2025, featuring detailed import values, volumes, and profiles of the largest traders including Volcafe, Trabocca, InterAmerican, and specialized regional buyers across Europe, Middle East, and Asia.'
+    },
     // ===== COMPANY NEWS (Oldest - Foundational) =====
     {
       small_image_url: 'insights/launch.webp',
