@@ -1,4 +1,3 @@
-"use client"
 import ResponsiveImage from '../components/ResponsiveImage'
 import { FaEnvelope, FaInstagram } from 'react-icons/fa'
 import Link from 'next/link'

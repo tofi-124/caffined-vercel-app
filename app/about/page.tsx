@@ -1,5 +1,3 @@
-'use client'
-
 import Testimonials from '../components/Testimonials'
 import ResponsiveImage from '../components/ResponsiveImage'
 import AutoScrollTo from '../components/AutoScrollTo'

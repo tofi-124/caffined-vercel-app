@@ -1,5 +1,3 @@
-"use client"
-
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
 import { HiOutlineCalendarDays, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCheckCircle, HiOutlineCube, HiOutlineLightBulb, HiOutlineGlobeAlt, HiOutlineXCircle } from 'react-icons/hi2'

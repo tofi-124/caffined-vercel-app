@@ -1,5 +1,3 @@
-"use client"
-
 import Link from 'next/link'
 import Script from 'next/script'
 import ResponsiveImage from '@/app/components/ResponsiveImage'

@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import { HiOutlineGlobeAlt, HiOutlineArrowTrendingUp, HiOutlineUserGroup, HiOutlineShoppingCart, HiOutlineCurrencyDollar, HiOutlineBeaker, HiOutlineChartBar, HiOutlineRocketLaunch, HiOutlineMapPin, HiOutlineBuildingOffice, HiOutlineLightBulb } from 'react-icons/hi2'
 import { PiCoffee, PiPlantFill } from 'react-icons/pi'

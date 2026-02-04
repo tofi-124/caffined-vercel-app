@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import OfferingsResultsList from './OfferingsResultsList'
 import { offerings } from '../data/offerings'
