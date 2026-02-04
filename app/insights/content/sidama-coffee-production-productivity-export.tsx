@@ -38,7 +38,7 @@ export default function SidamaCoffeeProductionProductivityExport() {
       {/* Featured Image */}
       <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
         <Image
-          src="/images/sidama-coffee-production.webp"
+          src="/images/insights/sidama-coffee-production.webp"
           alt="Sidama region coffee production and farmer cooperatives achieving high productivity"
           fill
           className="object-cover"

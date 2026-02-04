@@ -53,7 +53,7 @@ const Insight = ({params}: Props) => {
       blogContent = <DynamicContent title={title} date={date} large_image_url={large_image_url} />;
     }
     // PRIORITY 2: Fall back to hardcoded content for existing insights
-    else if (ind === 0) {
+    else if (slug === 'ethio-coffee-export-launch') {
       // Content for "Ethio Coffee Export Launch"
       blogContent = (
         <>
@@ -257,7 +257,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 1) {
+    } else if (slug === 'birthplace-of-coffee-ethiopia') {
       // Content for "The Birthplace of Coffee: Ethiopia's Rich Heritage"
       blogContent = (
         <>
@@ -370,7 +370,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 2) {
+    } else if (slug === 'ethiopian-coffee-ceremony') {
       // Content for "Ethiopian Coffee Ceremonies: Tradition Meets Business"
       blogContent = (
         <>
@@ -485,7 +485,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 3) {
+    } else if (slug === 'direct-trade-ethiopian-farmers') {
       // Content for "Direct Trade Partnerships: Supporting Ethiopian Farmers"
       blogContent = (
         <>
@@ -632,7 +632,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 3) {
+    } else if (slug === 'specialty-coffee-trends-2026') {
       // Content for "The Future is Floral: 5 Specialty Coffee Trends Defining 2026"
       blogContent = (
         <>
@@ -762,7 +762,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 15) {
+    } else if (slug === 'guide-ethiopian-coffee-origins') {
       // Ethiopian green coffee origins guide (formatted)
       blogContent = (
         <>
@@ -910,7 +910,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 6) {
+    } else if (slug === 'how-to-source-green-coffee-from-ethiopia') {
       // Content for "How to Source Green Coffee from Ethiopia: A Complete Buyer's Guide"
       blogContent = (
         <>
@@ -1080,7 +1080,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 7) {
+    } else if (slug === 'yirgacheffe-vs-sidamo-vs-guji-comparison') {
       // Content for "Yirgacheffe vs Sidamo vs Guji"
       blogContent = (
         <>
@@ -1287,7 +1287,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 8) {
+    } else if (slug === 'washed-vs-natural-ethiopian-coffee-processing') {
       // Content for "Washed vs Natural Ethiopian Coffee: What Roasters Need to Know"
       blogContent = (
         <>
@@ -1478,7 +1478,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 9) {
+    } else if (slug === 'best-ethiopian-coffee-exporter-for-importers') {
       // Content for "Best Ethiopian Coffee Exporter for Importers Worldwide"
       blogContent = (
         <>
@@ -1640,7 +1640,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 10) {
+    } else if (slug === 'coffee-plant-taxonomy-species-varieties') {
       // Content for "Coffee Is A Plant: Understanding Taxonomy, Species & Varieties"
       blogContent = (
         <>
@@ -2236,7 +2236,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 11) {
+    } else if (slug === 'coffee-is-agriculture-production-farming') {
       // Content for "Coffee is Agriculture: The Complete Guide to Coffee Production and Farming"
       blogContent = (
         <>
@@ -2526,7 +2526,7 @@ const Insight = ({params}: Props) => {
 
         </>
       );
-    } else if (ind === 12) {
+    } else if (slug === 'coffee-is-processing-drying-milling') {
       // Content for "Coffee is Processing: The Complete Guide to Coffee Processing, Drying, and Milling"
       blogContent = (
         <>
@@ -2796,7 +2796,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 13) {
+    } else if (slug === 'coffee-is-commerce-exporting-importing-buying') {
       // Content for "Coffee is Commerce: The Complete Guide to Coffee Exporting, Importing, and Buying"
       blogContent = (
         <>
@@ -3033,7 +3033,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 14) {
+    } else if (slug === 'coffee-is-science-analysis-compounds-evaluation') {
       // Content for "Coffee is a Science: The Complete Guide to Coffee Analysis, Compounds, and Evaluation"
       blogContent = (
         <>
@@ -3317,7 +3317,7 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 15) {
+    } else if (slug === 'coffee-is-art-roasting-brewing') {
       // Content for "Coffee is an Art: The Complete Guide to Coffee Roasting and Brewing"
       blogContent = (
         <>
@@ -3615,8 +3615,8 @@ const Insight = ({params}: Props) => {
           </div>
         </>
       );
-    } else if (ind === 16) {
-      // Content for "Coffee is Processing: The Complete Guide to Coffee Processing, Drying, and Milling"
+    } else if (slug === 'complete-guide-to-understanding-coffee') {
+      // Content for "The Complete Guide to Understanding Coffee: From Seed to Cup"
       blogContent = (
         <>
           <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
