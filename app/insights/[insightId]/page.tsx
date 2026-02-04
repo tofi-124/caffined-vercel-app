@@ -252,7 +252,7 @@ const Insight = ({params}: Props) => {
               <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Export PLC is an Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-              <Link href='/about' className='underline'>Our Story</Link> · <Link href='/offerings' className='underline'>Offerings</Link> · <Link href='/ordering-info' className='underline'>Ordering Info</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+              <Link href='/about' className='underline'>Our Story</Link> · <Link href='/offerings' className='underline'>Offerings</Link> · <Link href='/ordering-info' className='underline'>How To Buy</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
             </p>
           </div>
         </>

@@ -15,7 +15,7 @@ const NavLinks = ({ position, mobile, onLinkClick }: NavLinksProps) => {
   const leftLinks = [
     { name: 'Home', path: '/' },
     { name: 'Offerings', path: '/offerings' },
-    { name: 'Ordering Info', path: '/ordering-info' },
+    { name: 'How To Buy', path: '/ordering-info' },
   ]
 
   const rightLinks = [

@@ -220,7 +220,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* CTA to Ordering Info */}
+      {/* CTA to How To Buy */}
       <section className='bg-secondary py-16'>
         <div className='container mx-auto px-4 text-center'>
           <h2 className='text-3xl md:text-4xl font-extrabold text-primary mb-4'>

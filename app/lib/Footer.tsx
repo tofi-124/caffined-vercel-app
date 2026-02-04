@@ -136,7 +136,7 @@ const Footer = () => {
             href='/ordering-info'
             className='underline underline-offset-4 hover:text-primary/80 transition-colors'
           >
-            Ordering Info
+            How To Buy
           </Link>
           <span className='text-primary/50'>|</span>
           <Link
