@@ -79,6 +79,23 @@ const OfferingDetail = ({ params }: Props) => {
     )
   }
 
+  const hasExpandedSpecs = Boolean(
+    product.specifications.screenSize ||
+    product.specifications.millName ||
+    product.specifications.dryingMethod ||
+    product.specifications.fermentationTime ||
+    product.specifications.moisture ||
+    product.specifications.waterActivity ||
+    product.specifications.density ||
+    product.specifications.defectCount ||
+    product.bagSize ||
+    product.specifications.cuppingNotes ||
+    product.specifications.farmCoopId ||
+    product.specifications.icoNumber ||
+    product.producer ||
+    product.lotNumber
+  )
+
   return (
     <main className='bg-stone-50'>
       <section ref={productImageRef} className='container mx-auto py-12 md:py-16 px-4'>
@@ -163,14 +180,19 @@ const OfferingDetail = ({ params }: Props) => {
 
             {/* Product Details Section with elegant tabs */}
             <div ref={specsSectionRef} className='mb-10 bg-white rounded-3xl border border-gray-200 overflow-hidden shadow-sm'>
-              <div className='flex border-b border-gray-200'>
+              <div className='flex border-b border-gray-200' role='tablist' aria-label='Product details'>
                 <button
+                  type='button'
                   onClick={() => setActiveDetail('coffeeProfileOrigin')}
                   className={`flex-1 py-5 px-6 text-sm font-semibold transition-all relative ${
                     activeDetail === 'coffeeProfileOrigin' 
                       ? 'text-dark' 
                       : 'text-gray-400 hover:text-dark'
-                  }`}
+                  } focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2`}
+                  role='tab'
+                  id='about-tab'
+                  aria-controls='about-panel'
+                  aria-selected={activeDetail === 'coffeeProfileOrigin'}
                 >
                   About This Coffee
                   {activeDetail === 'coffeeProfileOrigin' && (
@@ -178,12 +200,17 @@ const OfferingDetail = ({ params }: Props) => {
                   )}
                 </button>
                 <button
+                  type='button'
                   onClick={() => setActiveDetail('technicalSpecs')}
                   className={`flex-1 py-5 px-6 text-sm font-semibold transition-all relative ${
                     activeDetail === 'technicalSpecs' 
                       ? 'text-dark' 
                       : 'text-gray-400 hover:text-dark'
-                  }`}
+                  } focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2`}
+                  role='tab'
+                  id='specs-tab'
+                  aria-controls='specs-panel'
+                  aria-selected={activeDetail === 'technicalSpecs'}
                 >
                   Specifications
                   {activeDetail === 'technicalSpecs' && (
@@ -191,10 +218,10 @@ const OfferingDetail = ({ params }: Props) => {
                   )}
                 </button>
               </div>
-                
-<div className='p-6 md:p-8 min-h-[200px]'>
+
+              <div className='p-6 md:p-8 min-h-[200px]'>
                 {activeDetail === 'coffeeProfileOrigin' && (
-                  <div className='space-y-8'>
+                  <div id='about-panel' role='tabpanel' aria-labelledby='about-tab' className='space-y-8'>
                     {/* Coffee Profile Section */}
                     {product.profile && (
                       <div>
@@ -228,7 +255,7 @@ const OfferingDetail = ({ params }: Props) => {
                   </div>
                 )}
                 {activeDetail === 'technicalSpecs' && (
-                  <div>
+                  <div id='specs-panel' role='tabpanel' aria-labelledby='specs-tab'>
                     {/* Specs grid layout */}
                     <div className='grid grid-cols-2 md:grid-cols-3 gap-4 mb-6'>
                       {product.specifications.grade && (
@@ -289,7 +316,10 @@ const OfferingDetail = ({ params }: Props) => {
                     
                     {/* Expanded specs */}
                     {isSpecsExpanded && (
-                      <div className='grid grid-cols-2 md:grid-cols-3 gap-4 mb-6 pt-6 border-t border-gray-200'>
+                      <div
+                        id='expanded-specs'
+                        className='grid grid-cols-2 md:grid-cols-3 gap-4 mb-6 pt-6 border-t border-gray-200'
+                      >
                         {product.specifications.screenSize && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
                             <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Screen Size</span>
@@ -344,12 +374,6 @@ const OfferingDetail = ({ params }: Props) => {
                             <span className='text-sm font-bold text-dark'>{product.bagSize}</span>
                           </div>
                         )}
-                        {product.specifications.cuppingNotes && (
-                          <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-3'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Cupping Notes</span>
-                            <span className='text-sm font-bold text-dark'>{product.specifications.cuppingNotes}</span>
-                          </div>
-                        )}
                         {product.specifications.farmCoopId && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
                             <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Farm/Coop ID</span>
@@ -374,48 +398,59 @@ const OfferingDetail = ({ params }: Props) => {
                             <span className='text-sm font-bold text-dark'>{product.lotNumber}</span>
                           </div>
                         )}
+                        {product.specifications.cuppingNotes && (
+                          <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-3'>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Cupping Notes</span>
+                            <span className='text-sm font-bold text-dark'>{product.specifications.cuppingNotes}</span>
+                          </div>
+                        )}
                       </div>
                     )}
                     
                     {/* Show More/Less Button */}
-                    <div className='text-center'>
-                      <button
-                        onClick={() => {
-                          const willCollapse = isSpecsExpanded;
-                          setIsSpecsExpanded(!isSpecsExpanded);
-                          
-                          if (willCollapse && specsSectionRef.current) {
-                            setTimeout(() => {
-                              if (specsSectionRef.current) {
-                                const headerOffset = 100;
-                                const elementTop = specsSectionRef.current.getBoundingClientRect().top + window.scrollY;
-                                window.scrollTo({
-                                  top: Math.max(0, elementTop - headerOffset),
-                                  behavior: 'smooth'
-                                });
-                              }
-                            }, 50);
-                          }
-                        }}
-                        className='inline-flex items-center gap-2 text-sm font-semibold text-accent hover:text-dark transition-colors'
-                      >
-                        {isSpecsExpanded ? (
-                          <>
-                            <span>Show Less</span>
-                            <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M5 15l7-7 7 7' />
-                            </svg>
-                          </>
-                        ) : (
-                          <>
-                            <span>Show All Specifications</span>
-                            <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M19 9l-7 7-7-7' />
-                            </svg>
-                          </>
-                        )}
-                      </button>
-                    </div>
+                    {hasExpandedSpecs && (
+                      <div className='text-center'>
+                        <button
+                          type='button'
+                          onClick={() => {
+                            const willCollapse = isSpecsExpanded;
+                            setIsSpecsExpanded(!isSpecsExpanded);
+                            
+                            if (willCollapse && specsSectionRef.current) {
+                              setTimeout(() => {
+                                if (specsSectionRef.current) {
+                                  const headerOffset = 100;
+                                  const elementTop = specsSectionRef.current.getBoundingClientRect().top + window.scrollY;
+                                  window.scrollTo({
+                                    top: Math.max(0, elementTop - headerOffset),
+                                    behavior: 'smooth'
+                                  });
+                                }
+                              }, 50);
+                            }
+                          }}
+                          aria-expanded={isSpecsExpanded}
+                          aria-controls='expanded-specs'
+                          className='inline-flex items-center gap-2 text-sm font-semibold text-accent hover:text-dark transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2'
+                        >
+                          {isSpecsExpanded ? (
+                            <>
+                              <span>Show Less</span>
+                              <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M5 15l7-7 7 7' />
+                              </svg>
+                            </>
+                          ) : (
+                            <>
+                              <span>Show All Specifications</span>
+                              <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M19 9l-7 7-7-7' />
+                              </svg>
+                            </>
+                          )}
+                        </button>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
