@@ -177,7 +177,7 @@ const Navbar = () => {
                                     onClick={() => setIsOpened(false)}
                                     className='block w-full py-4 bg-accent text-white text-center rounded-full font-semibold hover:bg-dark transition-colors shadow-lg'
                                 >
-                                    Get a Quote
+                                    Get in touch
                                 </Link>
                             </div>
                         </motion.div>
