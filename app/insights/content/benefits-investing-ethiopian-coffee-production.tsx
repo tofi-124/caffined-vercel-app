@@ -665,7 +665,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Ready to explore Ethiopian coffee investment opportunities?</span> <Link href="/contact-us" className="underline hover:text-gray-200">Contact our team</Link> to discuss partnership models, sourcing relationships, or investment structures that align with your strategic goals.</span>
+          <span><span className='font-bold'>Ready to explore Ethiopian coffee?</span> <Link href="/contact-us" className="underline hover:text-gray-200">Contact our team</Link> to discuss partnership models or sourcing relationships that align with your strategic goals.</span>
         </p>
       </div>
 
