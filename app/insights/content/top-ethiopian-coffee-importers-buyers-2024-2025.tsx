@@ -253,14 +253,14 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2 font-bold'>3</td>
-                <td className='border border-gray-300 px-4 py-2'>EQUATORIAL TRADERS</td>
+                <td className='border border-gray-300 px-4 py-2'>EQUATORIAL TRADERS (UK)</td>
                 <td className='border border-gray-300 px-4 py-2 font-semibold text-accent'>15,534.96</td>
                 <td className='border border-gray-300 px-4 py-2'>$77.88M</td>
                 <td className='border border-gray-300 px-4 py-2'>Volume Leader</td>
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2 font-bold'>4</td>
-                <td className='border border-gray-300 px-4 py-2'>OLAM INTERNATIONAL</td>
+                <td className='border border-gray-300 px-4 py-2'>OLAM INTERNATIONAL (Singapore)</td>
                 <td className='border border-gray-300 px-4 py-2 font-semibold text-accent'>13,803.15</td>
                 <td className='border border-gray-300 px-4 py-2'>$66.31M</td>
                 <td className='border border-gray-300 px-4 py-2'>Global Trader</td>
@@ -302,7 +302,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2 font-bold'>10</td>
-                <td className='border border-gray-300 px-4 py-2'>ECOM AGROINDUSTRIAL</td>
+                <td className='border border-gray-300 px-4 py-2'>ECOM AGROINDUSTRIAL (Switzerland)</td>
                 <td className='border border-gray-300 px-4 py-2 font-semibold text-accent'>7,638.02</td>
                 <td className='border border-gray-300 px-4 py-2'>$43.29M</td>
                 <td className='border border-gray-300 px-4 py-2'>Global Network</td>
@@ -374,7 +374,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
         <div className='bg-gray-50 p-6 rounded-lg my-6'>
           <h4 className='font-bold text-lg mb-3'>Regional Trend Analysis</h4>
           <p className='text-sm mb-3'>
-            <strong>Europe</strong> remains the dominant destination for Ethiopian coffee, driven by Switzerland's role as a global coffee trading hub (VOLCAFE, Louis Dreyfus, Sucafina all headquartered there) and Germany's position as Europe's largest coffee consumer.
+            <strong>Europe</strong> remains the dominant destination for Ethiopian coffee, driven by Switzerland's role as a global coffee trading hub (many major traders operate from Switzerland) and Germany's position as Europe's largest coffee consumer.
           </p>
           <p className='text-sm mb-3'>
             <strong>Middle East</strong> has emerged as the fastest-growing regional market, with Saudi Arabia leading. Ethiopian coffee's cultural significance in the Gulf region (Ethiopian diaspora communities + traditional coffee culture) drives sustained demand.
@@ -410,42 +410,42 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
             <tbody>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>8</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>FALCON COFFEES</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>FALCON COFFEES (UK)</td>
                 <td className='border border-gray-300 px-4 py-2'>$49.82M</td>
                 <td className='border border-gray-300 px-4 py-2 font-bold text-accent'>$6.97</td>
                 <td className='border border-gray-300 px-4 py-2'>Direct Trade Specialty</td>
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>10</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>TRABOCCA B.V.</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>TRABOCCA B.V. (Netherlands)</td>
                 <td className='border border-gray-300 px-4 py-2'>$43.60M</td>
                 <td className='border border-gray-300 px-4 py-2 font-bold text-accent'>$6.91</td>
                 <td className='border border-gray-300 px-4 py-2'>Specialty Micro-lots</td>
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>12</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>ROYAL COFFEE</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>ROYAL COFFEE (USA)</td>
                 <td className='border border-gray-300 px-4 py-2'>$41.13M</td>
                 <td className='border border-gray-300 px-4 py-2 font-bold text-accent'>$7.04</td>
                 <td className='border border-gray-300 px-4 py-2'>Premium US Market</td>
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>18</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>NURTURE COFFEE</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>NURTURE COFFEE (South Africa)</td>
                 <td className='border border-gray-300 px-4 py-2'>$30.76M</td>
                 <td className='border border-gray-300 px-4 py-2 font-bold text-accent'>$8.00</td>
                 <td className='border border-gray-300 px-4 py-2'>Highest Premium Specialty</td>
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>37</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>INTERAMERICAN COFFEE</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>INTERAMERICAN COFFEE (USA)</td>
                 <td className='border border-gray-300 px-4 py-2'>$14.20M</td>
                 <td className='border border-gray-300 px-4 py-2 font-bold text-accent'>$6.78</td>
                 <td className='border border-gray-300 px-4 py-2'>Specialty & Organic</td>
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>41</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>ATLANTIC SPECIALITY COFFEE</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>ATLANTIC SPECIALITY COFFEE (UK)</td>
                 <td className='border border-gray-300 px-4 py-2'>$13.35M</td>
                 <td className='border border-gray-300 px-4 py-2 font-bold text-accent'>$7.66</td>
                 <td className='border border-gray-300 px-4 py-2'>European Specialty</td>
@@ -459,14 +459,14 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>55</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>CAFE IMPORTS</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>CAFE IMPORTS (USA)</td>
                 <td className='border border-gray-300 px-4 py-2'>$10.17M</td>
                 <td className='border border-gray-300 px-4 py-2 font-bold text-accent'>$9.86</td>
                 <td className='border border-gray-300 px-4 py-2'>Ultra-Premium US</td>
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>60</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>NORDIC APPROACH</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>NORDIC APPROACH (Denmark)</td>
                 <td className='border border-gray-300 px-4 py-2'>$8.24M</td>
                 <td className='border border-gray-300 px-4 py-2 font-bold text-accent'>$9.33</td>
                 <td className='border border-gray-300 px-4 py-2'>Nordic Roasters</td>
@@ -538,7 +538,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>16</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>ALFANOOS INTERNATIONAL</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>ALFANOOS INTERNATIONAL TRADING</td>
                 <td className='border border-gray-300 px-4 py-2'>UAE</td>
                 <td className='border border-gray-300 px-4 py-2'>$33.63M</td>
                 <td className='border border-gray-300 px-4 py-2'>6,839.80</td>
@@ -617,7 +617,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
         </h2>
         
         <p className='my-4'>
-          Asia represents Ethiopian coffee's highest growth potential, with China, Japan, and South Korea driving specialty coffee culture boom. While currently ~18% of total Ethiopian exports, Asian markets are projected to reach 30% by 2028.
+          Asia represents Ethiopian coffee's highest growth potential, with China, Japan, and South Korea driving specialty coffee culture boom. While currently ~18% of total Ethiopian exports, Asian markets are projected to reach 25-30% by 2027-2028.
         </p>
 
         <h3 className='text-xl font-bold mt-8 mb-4'>Leading Asian Ethiopian Coffee Importers</h3>
@@ -664,10 +664,10 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>44</td>
-                <td className='border border-gray-300 px-4 py-2 font-semibold'>TRANSSION TECHNOLOGY</td>
-                <td className='border border-gray-300 px-4 py-2'>China/Singapore</td>
+                <td className='border border-gray-300 px-4 py-2 font-semibold'>TRANSSION TRADING</td>
+                <td className='border border-gray-300 px-4 py-2'>China/Dubai</td>
                 <td className='border border-gray-300 px-4 py-2'>$12.27M</td>
-                <td className='border border-gray-300 px-4 py-2'>Chinese Distribution</td>
+                <td className='border border-gray-300 px-4 py-2'>Chinese/African Distribution</td>
               </tr>
               <tr className='hover:bg-gray-50'>
                 <td className='border border-gray-300 px-4 py-2'>47</td>
@@ -754,7 +754,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
             <h4 className='font-bold text-xl mb-3'>🇩🇪 Germany</h4>
             <ul className='space-y-2 text-sm'>
               <li>• <strong>BERNHARD ROTHFOS</strong> - $37.42M</li>
-              <li>• <strong>HEINRICH CHRISTEN GMBH</strong> - $33.63M</li>
+              <li>• <strong>BERNHARD BENECKE</strong> - $23.41M</li>
               <li>• <strong>ALOIS DALLMAYR KAFFEE</strong> - $32.60M</li>
               <li>• <strong>HAMBURG COFFEE (HACOFCO)</strong> - $12.06M</li>
               <li>• <strong>KAFFEE-IMPORT COMPAGNIE</strong> - $9.32M</li>
@@ -778,8 +778,8 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
           <div className='bg-white p-6 rounded-lg shadow-md border-l-4 border-green-600'>
             <h4 className='font-bold text-xl mb-3'>🇮🇹 Italy</h4>
             <ul className='space-y-2 text-sm'>
-              <li>• <strong>EFICO ITALIELEI</strong> - $24.63M</li>
-              <li>• <strong>ILLYCAFFE</strong> - $9.66M (Premium brand)</li>
+              <li>• <strong>EFICO S.A.</strong> - $24.63M</li>
+              <li>• <strong>illycaffè</strong> - $9.66M (Premium brand)</li>
               <li>• <strong>NKG BERO ITALIA</strong> - $9.95M</li>
               <li>• <strong>AZIENDE RIUNITE CAFFE</strong> - $4.82M</li>
             </ul>
@@ -829,7 +829,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
           <div className='bg-white p-6 rounded-lg shadow-md'>
             <h4 className='font-bold text-lg mb-3'>Regional Market Specialists</h4>
             <ul className='space-y-2 text-sm'>
-              <li>• <strong>UPSTREAM COFFEE IMPORTS</strong> (Rank 159) - Canadian market</li>
+              <li>• <strong>UPSTREAM COFFEE IMPORTS</strong> (Rank 159) - Australian market</li>
               <li>• <strong>KOOKABURRA</strong> (Rank 196) - Australian market</li>
               <li>• <strong>AROMA COFFEE ROASTERY</strong> (Rank 199) - Middle East specialty</li>
               <li>• <strong>COFFEENARA</strong> (Rank 155) - South Korean market</li>
