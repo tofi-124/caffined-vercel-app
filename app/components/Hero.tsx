@@ -12,13 +12,13 @@ const Hero = () => {
           <h1 className='text-5xl lg:text-6xl leading-tight text-dark font-bold'>
             ETHIOPIAN COFFEE
           </h1>
-            <p className='text-dark/90 text-sm uppercase tracking-widest mt-3'>
-             Ethio Coffee - Your Gateway to Ethiopia's Finest Specialty Green Coffee
+            <p className='text-dark/80 text-xs sm:text-sm tracking-wide mt-2 mb-4 leading-relaxed'>
+             Ethio Coffee - Your Gateway to Ethiopia&apos;s Finest Specialty Green Coffee
             </p>
 
             <div className='mt-6 text-dark lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>
-                We are a dedicated <strong>Ethiopian coffee exporter</strong> founded by two brothers - one rooted in Ethiopia, the other in Canada. This unique partnership allows us to bridge the gap between origin and the global market. We export Ethiopian green coffee to importers worldwide that are traceable, & specialty grade beans sourced directly from our own estates as well as network of trusted partner producers. At our core, we combine a deep love for Ethiopian coffee with a commitment to professional service, consistent quality, and transparent communication.
+                We are a dedicated <strong>Ethiopian coffee exporter</strong> founded by two brothers - one rooted in Ethiopia, the other in Canada. This unique partnership allows us to bridge the gap between origin and the global market. We export traceable, specialty grade green coffee to importers worldwide, sourced directly from our own estates and a network of trusted partner producers. At our core, we combine a deep love for Ethiopian coffee with a commitment to professional service, consistent quality, and transparent communication.
               </p>
             </div>
 
