@@ -296,12 +296,6 @@ const OfferingDetail = ({ params }: Props) => {
                             <span className='text-sm font-bold text-dark'>{product.specifications.screenSize}</span>
                           </div>
                         )}
-                        {product.specifications.cropYear && (
-                          <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Crop Year</span>
-                            <span className='text-sm font-bold text-dark'>{product.specifications.cropYear}</span>
-                          </div>
-                        )}
                         {product.specifications.millName && (
                           <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
                             <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Mill</span>

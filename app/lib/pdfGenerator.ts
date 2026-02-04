@@ -141,7 +141,6 @@ export const generateProductPDF = (product: Offering) => {
     { label: 'Harvest Period', value: product.specifications.harvestPeriod },
     // Extended Specs (expanded section on product page)
     { label: 'Screen Size', value: product.specifications.screenSize },
-    { label: 'Crop Year', value: product.specifications.cropYear },
     { label: 'Mill / Processing Facility', value: product.specifications.millName },
     { label: 'Drying Method', value: product.specifications.dryingMethod },
     { label: 'Fermentation Time', value: product.specifications.fermentationTime },
@@ -345,14 +344,6 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     doc.setTextColor(GRAY_600)
     doc.setFont('helvetica', 'normal')
     doc.text('Contact for quote', rightColX + 14, infoY)
-
-    infoY += 5
-    doc.setTextColor(BRAND_DARK)
-    doc.setFont('helvetica', 'bold')
-    doc.text('Crop Year:', rightColX, infoY)
-    doc.setTextColor(GRAY_600)
-    doc.setFont('helvetica', 'normal')
-    doc.text(product.specifications.cropYear || 'N/A', rightColX + 20, infoY)
 
     infoY += 5
     doc.setTextColor(BRAND_DARK)

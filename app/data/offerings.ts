@@ -2,7 +2,6 @@ export type OfferingSpecifications = {
   grade: string | null
   screenSize: string | null
   processingMethod: string | null
-  cropYear: string | null
   moisture: string | null
   defectCount: string | null
   cupScore: string | null
@@ -65,7 +64,6 @@ export const offerings: Offering[] = [
       grade: 'G2',
       screenSize: null,
       processingMethod: 'Washed',
-      cropYear: '2025',
       moisture: '10.5%',
       defectCount: '8 defects',
       cupScore: '84+',
@@ -113,7 +111,6 @@ export const offerings: Offering[] = [
       grade: 'G1',
       screenSize: null,
       processingMethod: 'Natural (Sun-dried)',
-      cropYear: '2025',
       moisture: '10.2%',
       defectCount: '4 defects',
       cupScore: '86+',
@@ -161,7 +158,6 @@ export const offerings: Offering[] = [
       grade: 'G1',
       screenSize: null,
       processingMethod: 'Natural (Sun-dried)',
-      cropYear: '2025',
       moisture: '10.0%',
       defectCount: '3 defects',
       cupScore: '87+',
@@ -209,7 +205,6 @@ export const offerings: Offering[] = [
       grade: 'G1',
       screenSize: null,
       processingMethod: 'Natural (Dry-processed)',
-      cropYear: '2025',
       moisture: '10.8%',
       defectCount: '5 defects',
       cupScore: '85+',
@@ -257,7 +252,6 @@ export const offerings: Offering[] = [
       grade: 'G2',
       screenSize: null,
       processingMethod: 'Washed',
-      cropYear: '2025',
       moisture: '10.7%',
       defectCount: '9 defects',
       cupScore: '84+',
@@ -305,7 +299,6 @@ export const offerings: Offering[] = [
       grade: 'G2',
       screenSize: null,
       processingMethod: 'Washed',
-      cropYear: '2025',
       moisture: '10.6%',
       defectCount: '7 defects',
       cupScore: '84+',

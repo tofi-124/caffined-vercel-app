@@ -10,7 +10,6 @@ type Filters = {
   region: string
   grade: string
   processingMethod: string
-  cropYear: string
   minScore: string
   availability: string
 }
@@ -28,8 +27,7 @@ const matchesKeyword = (offering: Offering, keyword: string) => {
     normalize(offering.variety ?? '').includes(q) ||
     offering.flavorNotes.some((note) => normalize(note).includes(q)) ||
     normalize(offering.specifications.grade ?? '').includes(q) ||
-    normalize(offering.specifications.processingMethod ?? '').includes(q) ||
-    normalize(offering.specifications.cropYear ?? '').includes(q)
+    normalize(offering.specifications.processingMethod ?? '').includes(q)
   )
 }
 
@@ -77,10 +75,6 @@ const OfferingsBrowser = () => {
     return Array.from(new Set(offerings.map((o) => o.specifications.processingMethod).filter((v): v is string => v !== null))).sort()
   }, [])
 
-  const cropYearOptions = useMemo(() => {
-    return Array.from(new Set(offerings.map((o) => o.specifications.cropYear).filter((v): v is string => v !== null))).sort()
-  }, [])
-
   const regionOptions = useMemo(() => {
     return Array.from(new Set(offerings.map((o) => o.region))).sort()
   }, [])
@@ -90,7 +84,6 @@ const OfferingsBrowser = () => {
     region: '',
     grade: '',
     processingMethod: '',
-    cropYear: '',
     minScore: '',
     availability: '',
   })
@@ -103,7 +96,6 @@ const OfferingsBrowser = () => {
       if (applied.region && o.region !== applied.region) return false
       if (applied.grade && o.specifications.grade !== applied.grade) return false
       if (applied.processingMethod && o.specifications.processingMethod !== applied.processingMethod) return false
-      if (applied.cropYear && o.specifications.cropYear !== applied.cropYear) return false
 
       if (applied.availability === 'in-stock' && o.isSoldOut) return false
       if (applied.availability === 'sold-out' && !o.isSoldOut) return false
@@ -121,7 +113,7 @@ const OfferingsBrowser = () => {
   useEffect(() => {
     // Only scroll if we're not on initial load (check if any filter is active)
     const hasActiveFilters = applied.keyword || applied.region || applied.grade || applied.processingMethod || 
-                             applied.cropYear || applied.minScore || applied.availability
+                             applied.minScore || applied.availability
     
     // Scroll whenever filtered results change, but add a small delay to let the DOM update
     const timer = setTimeout(() => {
@@ -157,7 +149,7 @@ const OfferingsBrowser = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
 
   const clearFilters = () => {
-    const cleared: Filters = { keyword: '', region: '', grade: '', processingMethod: '', cropYear: '', minScore: '', availability: '' }
+    const cleared: Filters = { keyword: '', region: '', grade: '', processingMethod: '', minScore: '', availability: '' }
     setDraft(cleared)
     setApplied(cleared)
   }
@@ -320,19 +312,6 @@ const OfferingsBrowser = () => {
                       <option value='sold-out'>Sold Out</option>
                     </select>
                   </div>
-                  <div>
-                    <label className='block text-sm font-medium text-gray-700 mb-1.5'>Crop Year</label>
-                    <select
-                      value={draft.cropYear}
-                      onChange={(e) => setDraft((p) => ({ ...p, cropYear: e.target.value }))}
-                      className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
-                    >
-                      <option value=''>All</option>
-                      {cropYearOptions.map((v) => (
-                        <option key={v} value={v}>{v}</option>
-                      ))}
-                    </select>
-                  </div>
                 </div>
 
                 <div>
@@ -453,22 +432,6 @@ const OfferingsBrowser = () => {
                   <option value=''>All</option>
                   <option value='in-stock'>In Stock</option>
                   <option value='sold-out'>Sold Out</option>
-                </select>
-              </div>
-
-              <div>
-                <label className='block text-sm font-medium text-gray-700 mb-1.5'>Crop Year</label>
-                <select
-                  value={draft.cropYear}
-                  onChange={(e) => setDraft((p) => ({ ...p, cropYear: e.target.value }))}
-                  className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
-                >
-                  <option value=''>All</option>
-                  {cropYearOptions.map((v) => (
-                    <option key={v} value={v}>
-                      {v}
-                    </option>
-                  ))}
                 </select>
               </div>
 
