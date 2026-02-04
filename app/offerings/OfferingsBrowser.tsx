@@ -308,8 +308,8 @@ const OfferingsBrowser = () => {
                       className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
                     >
                       <option value=''>All</option>
-                      <option value='in-stock'>In Stock</option>
-                      <option value='sold-out'>Sold Out</option>
+                      <option value='in-stock'>Current Lots</option>
+                      <option value='sold-out'>Future Lots</option>
                     </select>
                   </div>
                 </div>
@@ -430,8 +430,8 @@ const OfferingsBrowser = () => {
                   className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
                 >
                   <option value=''>All</option>
-                  <option value='in-stock'>In Stock</option>
-                  <option value='sold-out'>Sold Out</option>
+                  <option value='in-stock'>Current Lots</option>
+                  <option value='sold-out'>Future Lots</option>
                 </select>
               </div>
 

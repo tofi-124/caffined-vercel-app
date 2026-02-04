@@ -103,7 +103,7 @@ export const generateProductPDF = (product: Offering) => {
   doc.setFont('helvetica', 'bold')
   doc.text('AVAILABILITY', margin, yPos)
   
-  const availStatus = product.isSoldOut ? 'SOLD OUT' : 'IN STOCK'
+  const availStatus = product.isSoldOut ? 'FUTURE LOT' : 'CURRENT LOT'
   doc.setFontSize(9)
   doc.setTextColor(product.isSoldOut ? '#B91C1C' : '#15803D')
   doc.setFont('helvetica', 'bold')
@@ -351,7 +351,7 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
     doc.text('Status:', rightColX, infoY)
     doc.setTextColor(product.isSoldOut ? '#B91C1C' : '#15803D')
     doc.setFont('helvetica', 'bold')
-    doc.text(product.isSoldOut ? 'SOLD OUT' : 'IN STOCK', rightColX + 14, infoY)
+    doc.text(product.isSoldOut ? 'FUTURE LOT' : 'CURRENT LOT', rightColX + 14, infoY)
 
     infoY += 5
     doc.setTextColor(BRAND_DARK)

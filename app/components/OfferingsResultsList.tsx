@@ -32,11 +32,11 @@ const OfferingsResultsList = ({ items }: Props) => {
             {/* Status badge */}
             {o.isSoldOut ? (
               <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-dark/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>
-                Sold Out
+                Future Lot
               </span>
             ) : o.availableBags !== null && (
               <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-emerald-600/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>
-                {o.availableBags} bags available
+                Current Lots · {o.availableBags} bags
               </span>
             )}
 

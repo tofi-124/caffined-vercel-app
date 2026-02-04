@@ -97,7 +97,7 @@ const faqData: FAQSection[] = [
               <Link href='/contact-us' className='underline underline-offset-4 hover:text-dark/70'>
                 request a quote
               </Link>{' '}
-              for the coffees you're interested in. If a lot is sold out, join our allocation list to be notified when it's available.
+              for the coffees you're interested in. If a lot is listed as Future Lots, join our allocation list to be notified when it's available.
             </p>
             <p>
               From there, we'll provide a formal quotation, finalize terms, and handle all export documentation and logistics coordination.

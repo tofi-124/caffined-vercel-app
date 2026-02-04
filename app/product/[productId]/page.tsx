@@ -154,11 +154,15 @@ const OfferingDetail = ({ params }: Props) => {
                   {product.specifications.cupScore} Cup Score
                 </span>
               )}
-              {product.isSoldOut && (
-                <span className='px-4 py-2 rounded-full bg-dark text-white text-sm font-semibold'>
-                  Sold Out
-                </span>
-              )}
+              <span
+                className={`px-4 py-2 rounded-full text-sm font-semibold ${
+                  product.isSoldOut
+                    ? 'bg-dark text-white'
+                    : 'bg-emerald-50 text-emerald-700 border border-emerald-200'
+                }`}
+              >
+                {product.isSoldOut ? 'Future Lot' : 'Current Lot'}
+              </span>
             </div>
 
             {/* Flavor notes section */}
