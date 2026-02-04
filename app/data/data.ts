@@ -865,7 +865,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/south-korea-coffee-import.webp',
       large_image_url: 'insights/south-korea-coffee-import.webp',
-      date: 'Jan 07, 2026',
+      date: 'Jan 10, 2026',
       title: 'IMPORTING ETHIOPIAN COFFEE TO SOUTH KOREA: COMPLETE MARKET GUIDE',
       slug: 'importing-ethiopian-coffee-to-south-korea',
       category: 'Import Guide / South Korea Market',
@@ -896,7 +896,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/japan-coffee-import.webp',
       large_image_url: 'insights/japan-coffee-import.webp',
-      date: 'Jan 06, 2026',
+      date: 'Jan 05, 2026',
       title: 'IMPORTING ETHIOPIAN COFFEE TO JAPAN: COMPLETE MARKET ENTRY GUIDE',
       slug: 'importing-ethiopian-coffee-to-japan',
       category: 'Import Guide / Japan Market',
@@ -998,7 +998,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/world-best-coffee-shops.webp',
       large_image_url: 'insights/world-best-coffee-shops.webp',
-      date: 'Jan 12, 2026',
+      date: 'Jan 11, 2026',
       title: 'TOP 10 SPECIALTY COFFEE SHOPS AROUND THE WORLD',
       slug: 'top-10-specialty-coffee-shops-world',
       category: 'Global Insights / Coffee Culture / Retail Trends',
