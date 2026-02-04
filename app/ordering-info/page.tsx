@@ -556,11 +556,11 @@ export default function OrderingInfoPage() {
               Everything you need to know about sourcing speciality Ethiopian green coffee from us. Whether you're an established importer or exploring Ethiopian origins for the first time, we're here to make the export process straightforward and transparent.
             </p>
             <p className='my-4'>
-              Simply visit our{' '}
+              Start by visiting our{' '}
               <Link href='/offerings' className='underline underline-offset-4 font-semibold hover:text-dark/70'>
-                Current Offerings
+              Current Offerings
               </Link>{' '}
-              to see which coffees are available. Our offerings page displays all our spot coffees, as well as any coffees currently in transit or available for forward booking.
+              to explore available lots with detailed quality profiles, origin information, and cup scores. Whether you're sourcing for immediate roasting or planning ahead, we have coffees available for immediate shipment, in-transit lots, and forward harvest contracts.
             </p>
 
             <h3 className='mt-8 text-3xl font-extrabold text-dark'>How It Works</h3>
