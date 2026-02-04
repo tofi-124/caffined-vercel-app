@@ -356,6 +356,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Trade & Quality</h4>
             <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/top-ethiopian-coffee-importers-buyers-2024-2025' className='text-amber-700 hover:underline'>Top Ethiopian Coffee Importers 2024/2025</Link></li>
               <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Quality Control</Link></li>
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities (MOQ)</Link></li>
               <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Ethiopian Coffee Prices Explained</Link></li>
