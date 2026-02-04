@@ -123,9 +123,13 @@ export default function RootLayout({
                   "availability": "https://schema.org/InStock",
                   "priceCurrency": "USD",
                   "itemOffered": {
-                    "@type": "Product",
-                    "name": "Ethiopian Green Coffee Beans",
-                    "description": "Premium green coffee beans from Ethiopia"
+                    "@type": "Service",
+                    "name": "Ethiopian Green Coffee Beans Export",
+                    "description": "Premium green coffee beans from Ethiopia",
+                    "provider": {
+                      "@type": "Organization",
+                      "name": "Ethio Coffee Export PLC"
+                    }
                   },
                   "seller": {
                     "@type": "Organization",
