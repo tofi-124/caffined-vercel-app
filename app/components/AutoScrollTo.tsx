@@ -3,7 +3,7 @@
 import { useEffect } from 'react'
 
 type Props = {
-  targetId: string
+  targetId?: string
   headerOffset?: number
   delayMs?: number
 }
@@ -11,6 +11,12 @@ type Props = {
 const AutoScrollTo = ({ targetId, headerOffset = 96, delayMs = 300 }: Props) => {
   useEffect(() => {
     const timer = setTimeout(() => {
+      // If no targetId provided, scroll to top
+      if (!targetId) {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+        return
+      }
+
       const el = document.getElementById(targetId)
       if (!el) return
 

@@ -1,11 +1,10 @@
-"use client"
-
-import { useEffect, use, useState } from 'react'
 import Link from 'next/link'
 import { posts } from '@/app/data/data'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
 import { HiOutlineCalendarDays } from 'react-icons/hi2'
 import { insightContentMap, hasContentFile } from '../content'
+import AutoScrollTo from '@/app/components/AutoScrollTo'
+import { Metadata } from 'next'
 
 type Props = {
   params: Promise<{
@@ -13,25 +12,39 @@ type Props = {
   }>
 }
 
-const Insight = ({params}: Props) => {
-  // Using React's use() hook to properly await params
-  const { insightId } = use(params);
-  const [DynamicContent, setDynamicContent] = useState<React.ComponentType<any> | null>(null);
+// Generate static params for all insight pages
+export async function generateStaticParams() {
+  return posts.map((post) => ({
+    insightId: post.slug || '',
+  }))
+}
 
-  // Add effect to scroll to top when this component loads
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [insightId]); // Re-run when insightId changes
+// Generate metadata for SEO
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { insightId } = await params;
+  const post = posts.find(post => post.slug === insightId);
+  
+  if (!post) {
+    return {
+      title: 'Insight not found',
+    };
+  }
 
-  // Load dynamic content if available
-  useEffect(() => {
-    if (hasContentFile(insightId)) {
-      insightContentMap[insightId]().then(component => {
-        setDynamicContent(() => component);
-      });
-    }
-  }, [insightId]);
+  return {
+    title: post.title,
+    description: post.desc || `${post.title} - Ethiopian coffee insights and industry guidance`,
+    openGraph: {
+      title: post.title,
+      description: post.desc || `${post.title} - Ethiopian coffee insights`,
+      images: [`/images/${post.large_image_url}`],
+    },
+  };
+}
 
+const Insight = async ({params}: Props) => {
+  // Await params in server component
+  const { insightId } = await params;
+  
   // Find post by slug (insightId is now a slug)
   const ind = posts.findIndex(post => post.slug === insightId);
   if(ind === -1){
@@ -42,18 +55,24 @@ const Insight = ({params}: Props) => {
     )
   return Content;
   }
-  else {
-    const { title, date, large_image_url, slug } = posts[ind]
-    
-    // Insight post content based on the ID
-    let blogContent;
-    
-    // PRIORITY 1: Check if there's a dedicated content file for this insight
-    if (DynamicContent) {
-      blogContent = <DynamicContent title={title} date={date} large_image_url={large_image_url} />;
-    }
-    // PRIORITY 2: Fall back to hardcoded content for existing insights
-    else if (slug === 'ethio-coffee-export-launch') {
+  
+  const { title, date, large_image_url, slug } = posts[ind]
+  
+  // Load dynamic content if available (server-side)
+  let DynamicContent = null;
+  if (hasContentFile(insightId)) {
+    DynamicContent = await insightContentMap[insightId]();
+  }
+  
+  // Insight post content based on the ID
+  let blogContent;
+  
+  // PRIORITY 1: Check if there's a dedicated content file for this insight
+  if (DynamicContent) {
+    blogContent = <DynamicContent title={title} date={date} large_image_url={large_image_url} />;
+  }
+  // PRIORITY 2: Fall back to hardcoded content for existing insights
+  else if (slug === 'ethio-coffee-export-launch') {
       // Content for "Ethio Coffee Export Launch"
       blogContent = (
         <>
@@ -4673,14 +4692,16 @@ const Insight = ({params}: Props) => {
     }
 
     const Content = (
-      <section id='insight-content' className='p-4 flex flex-col items-center justify-center bg-primary text-dark'>
-        <div className="container max-w-4xl">
-          {blogContent}
-        </div>
-      </section>
+      <>
+        <AutoScrollTo />
+        <section id='insight-content' className='p-4 flex flex-col items-center justify-center bg-primary text-dark'>
+          <div className="container max-w-4xl">
+            {blogContent}
+          </div>
+        </section>
+      </>
     )
     return Content;
-  }
 }
 
 export default Insight
