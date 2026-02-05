@@ -81,10 +81,10 @@ const About = () => {
           </div>
           <div className='lg:w-1/2 py-2 lg:py-24 lg:px-12 lg:border-l-2 border-black'>
             <p className='my-2'>
-              Ethio Coffee Export is a dedicated Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
+              Ethio Coffee Export is a partner producer and Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
             </p>
             <p className='my-4'>
-              Established in 2022, our roots trace back to our father's lifetime of hands-on work in Ethiopian coffee regions. He dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the international market. That experience shaped our mission: to be the trusted export partner that importers can rely on for consistent quality, transparent sourcing, and professional service.
+              Established in 2022, our roots trace back to our father's lifetime of hands-on work in Ethiopian coffee regions. He dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the commodity market. That experience shaped our mission: to ensure the value stays where it belongs with the growers, while serving as the trusted partner importers rely on for consistent quality, transparent sourcing, and professional service.
             </p>
 
             <h3 className='mt-8 text-3xl font-extrabold text-dark'>What We Do</h3>

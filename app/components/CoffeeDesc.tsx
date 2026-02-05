@@ -10,7 +10,7 @@ const headlines = [
       'Born from the highlands where coffee first grew wild centuries ago',
       'Direct partnerships with Sidama, Guji, and Yirgacheffe farming communities',
       'Family relationships spanning generations built on trust and transparency',
-      'Every lot traced back to the hands that picked it'
+      'Every lot traced back to its point of origin.'
     ]
   },
   {
@@ -264,13 +264,13 @@ const CoffeeDesc = () => {
             COFFEE FROM WHERE IT ALL BEGAN
             </h2>
             <p className=''>
-            Our story didn't start with export licenses - it started in the roads of the vast land of Ethiopia. Our father spent his youth traveling Ethiopia's coffee highlands with our grandfather, drinking buna with farmers, sleeping in villages, and learning what the land means to the people who've worked it for generations. Coffee wasn't a business to him - it was a living tradition. For 30 years, he worked in Ethiopia's local coffee markets, building relationships with producers, understanding quality at its source, and earning trust that can't be manufactured overnight.
+            Our story began on the roads of Ethiopia's coffee highlands, where our father spent his youth traveling with our grandfather who was a small trader. He learned what the land means to the people who have worked it for generations, seeing coffee as a living tradition. For 30 years, he worked in Ethiopia's local coffee markets, building relationships with producers and understanding quality at its source.
             <br />
             <br />
-            In 2022, we, two brothers - one rooted in Ethiopia, one Ethiopian-Canadian - took what he built locally and made it international. Our father was a trusted local trader; we became Ethio Coffee, operating as semi-producers with direct involvement in production and bridging that expertise to the global market. We're not intermediaries. We're the ones walking the washing stations in Guji during harvest, overseeing processing at partner mills, cupping samples in Addis, and personally ensuring what leaves Ethiopia is what lands in your port with consistent, sample-to-bag accuracy. This is our heritage - the same highlands that gave the world Arabica, the same families our father knew, the same respect for what coffee means here.
+            In 2022, we, two brothers, took what he built locally and made it international. We operate as semi-producers with direct involvement in production, bridging that expertise to the global market. We walk the washing stations in Guji during harvest, oversee processing at partner mills, and cup samples in Addis to personally ensure what leaves Ethiopia is what lands in your port with consistent, sample-to-bag accuracy. This is our heritage.
             <br />
             <br />
-            When you source from us, you're not buying a commodity. You're bringing a piece of Ethiopia to your customers - heirloom varietals that exist nowhere else, processing traditions refined over centuries, and the character of a place where coffee is deeply, authentically home. 
+            Sourcing from us connects your customers directly to the heart of Ethiopia. We ensure our partner farmers receive fair and premium payment for their work, honoring the skill and dedication behind every lot. You are sharing a story of heirloom varietals, refined traditions, and the respected hands that make this coffee possible.
             </p>
           </div>
           
