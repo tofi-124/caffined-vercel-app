@@ -93,7 +93,7 @@ const About = () => {
                 <span className='font-bold'>Direct Origin Sourcing:</span> We work with our own estates and a network of trusted partner growers in Ethiopia’s renowned coffee regions to source high-grade beans with traceable provenance.
               </li>
               <li>
-                <span className='font-bold'>Export-Ready Quality:</span> Every lot is carefully documented, sorted, and prepared to meet international export standards so importers can count on consistent cup profiles and reliable supply.
+                <span className='font-bold'>Specialty-Grade, Export-Ready:</span> Every lot is meticulously processed, fully traceable, and quality-controlled to specialty coffee standards, ensuring clean, distinctive cup profiles and consistent performance for international buyers.
               </li>
               <li>
                 <span className='font-bold'>Sustainable & Ethical Trade:</span> By sourcing from our estates, cooperatives, and smallholder farmers, we help ensure fair pricing, transparent relationships, and long-term community support.
@@ -114,7 +114,7 @@ const About = () => {
               <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
             </p>
             <p className='my-4'>
-              <strong>Professional Documentation:</strong> Complete export documentation, phytosanitary certificates, ICO certificates, and quality reports - everything you need for smooth customs clearance in your destination country.
+              <strong>Professional Documentation:</strong> Complete tracebility and export documentation, phytosanitary certificates, ICO certificates, and quality reports - everything you need for smooth customs clearance in your destination country.
             </p>
             <p className='my-4'>
               <strong>Flexible Shipping:</strong> We work with your preferred freight forwarders or can recommend trusted logistics partners. FOB Djibouti or Addis Ababa dry port - whatever works best for your supply chain.
