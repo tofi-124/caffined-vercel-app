@@ -1485,5 +1485,41 @@ export const posts: Post[] = [
         'Ethiopian coffee characteristics'
       ],
       desc: 'Master the art of cupping and evaluating Ethiopian coffee samples with this comprehensive guide for importers. Learn SCA cupping protocols, sample roasting techniques, how to identify Ethiopian flavor profiles, score specialty coffee, detect defects, and make informed purchasing decisions based on sensory evaluation.'
+    },
+    {
+      small_image_url: 'insights/top-premium-coffee-exporters.webp',
+      large_image_url: 'insights/top-premium-coffee-exporters.webp',
+      date: 'Feb 06, 2026',
+      title: 'TOP COFFEE EXPORTERS IN THE WORLD: WHAT MAKES A PREMIUM COFFEE EXPORTER STAND OUT',
+      slug: 'top-premium-coffee-exporters-global-guide',
+      category: 'Market Intelligence / Sourcing Guide / Global Coffee Trade',
+      keywords: [
+        'top coffee exporter',
+        'premium coffee exporter',
+        'world largest coffee exporter',
+        'best coffee exporting countries',
+        'top coffee exporting countries',
+        'premium coffee beans exporter',
+        'specialty coffee exporter',
+        'global coffee exporters ranking',
+        'coffee exporter list',
+        'Ethiopian premium coffee exporter',
+        'top arabica coffee exporter',
+        'coffee export market 2025',
+        'coffee export market 2026',
+        'Brazil coffee exporter',
+        'Colombia coffee exporter',
+        'Ethiopia coffee exporter',
+        'Vietnam coffee exporter',
+        'how to choose coffee exporter',
+        'premium green coffee supplier',
+        'specialty coffee sourcing',
+        'coffee bean exporter wholesale',
+        'best green coffee exporter',
+        'direct trade coffee exporter',
+        'certified coffee exporter',
+        'Ethio Coffee Export'
+      ],
+      desc: 'Comprehensive guide to the world\'s top coffee-exporting countries ranked by volume and specialty reputation. Learn what separates a commodity shipper from a premium coffee exporter, compare Brazil, Colombia, Vietnam, and Ethiopia, and discover how to evaluate and choose the right export partner for your business.'
     }
 ]
