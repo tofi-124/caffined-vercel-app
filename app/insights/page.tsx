@@ -15,6 +15,8 @@ const InsightsPage = () => {
   const postsRef = useRef<HTMLDivElement>(null);
   const searchParams = useSearchParams()
   const router = useRouter()
+  const [page, setPage] = useState(1)
+  const [isInitialLoad, setIsInitialLoad] = useState(true)
   
   useEffect(() => {
     // Simple and reliable approach:
@@ -45,10 +47,22 @@ const InsightsPage = () => {
         setPage(pageNum)
       }
     }
+    setIsInitialLoad(false)
   }, [searchParams])
 
+  // Auto-scroll when page changes (for pagination)
+  useEffect(() => {
+    if (!isInitialLoad && page > 0) {
+      // Use requestAnimationFrame to ensure content has rendered
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          scrollToPostsTop()
+        })
+      })
+    }
+  }, [page, isInitialLoad])
+
   const PAGE_SIZE = 9
-  const [page, setPage] = useState(1)
 
   const sortedPosts = useMemo(() => {
     return posts
@@ -83,11 +97,7 @@ const InsightsPage = () => {
     const params = new URLSearchParams(searchParams.toString())
     params.set('page', nextPage.toString())
     router.push(`?${params.toString()}`, { scroll: false })
-
-    // Defer scroll until the new page content has rendered
-    requestAnimationFrame(() => {
-      requestAnimationFrame(scrollToPostsTop)
-    })
+    // Scroll is now handled by the useEffect that watches page changes
   }
 
   const maxVisiblePages = 5
