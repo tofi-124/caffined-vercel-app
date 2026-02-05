@@ -54,12 +54,13 @@ const InsightsPage = () => {
   // Auto-scroll when page changes (for pagination)
   useEffect(() => {
     if (!isInitialLoad && page > 0) {
-      // Use requestAnimationFrame to ensure content has rendered
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          scrollToPostsTop()
-        })
-      })
+      // Use a longer delay for mobile devices to ensure content is rendered
+      // and layout is complete before scrolling
+      const timer = setTimeout(() => {
+        scrollToPostsTop()
+      }, 150) // Increased delay for mobile compatibility
+      
+      return () => clearTimeout(timer)
     }
   }, [page, isInitialLoad])
 
@@ -84,11 +85,16 @@ const InsightsPage = () => {
 
     // Account for the sticky navbar (TopMessage + navbar height) plus padding
     const headerOffset = 120
-    const y = subtitleRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
+    
+    // For mobile Safari and other mobile browsers, we need to ensure
+    // the element position is calculated after any layout shifts
+    requestAnimationFrame(() => {
+      const y = subtitleRef.current!.getBoundingClientRect().top + window.scrollY - headerOffset
 
-    window.scrollTo({
-      top: Math.max(0, y),
-      behavior: 'smooth',
+      window.scrollTo({
+        top: Math.max(0, y),
+        behavior: 'smooth',
+      })
     })
   }
 
