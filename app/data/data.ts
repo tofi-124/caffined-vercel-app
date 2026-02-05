@@ -1442,7 +1442,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/coffee-cupping-evaluation.webp',
       large_image_url: 'insights/coffee-cupping-evaluation.webp',
-      date: 'Feb 05, 2026',
+      date: 'Feb 01, 2026',
       title: 'HOW TO CUP AND EVALUATE ETHIOPIAN COFFEE SAMPLES: COMPLETE GUIDE FOR IMPORTERS',
       slug: 'how-to-cup-evaluate-ethiopian-coffee-samples',
       category: 'Quality Control / Cupping Guide / Importer Resources',
