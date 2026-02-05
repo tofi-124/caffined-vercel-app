@@ -13,6 +13,7 @@ const parsePostDate = (value: string) => {
 const InsightsPage = () => {
   // Create a reference to the posts section for scrolling
   const postsRef = useRef<HTMLDivElement>(null);
+  const subtitleRef = useRef<HTMLParagraphElement>(null);
   const searchParams = useSearchParams()
   const router = useRouter()
   const [page, setPage] = useState(1)
@@ -79,11 +80,11 @@ const InsightsPage = () => {
   }, [sortedPosts, safePage])
 
   const scrollToPostsTop = () => {
-    if (!postsRef.current) return
+    if (!subtitleRef.current) return
 
-    // Account for the sticky navbar (TopMessage + navbar height)
-    const headerOffset = 96
-    const y = postsRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
+    // Account for the sticky navbar (TopMessage + navbar height) plus padding
+    const headerOffset = 120
+    const y = subtitleRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
 
     window.scrollTo({
       top: Math.max(0, y),
@@ -114,7 +115,7 @@ const InsightsPage = () => {
         <h1 className='text-5xl font-bold text-primary'>INSIGHTS</h1>
       </header>
       <section ref={postsRef} className='flex flex-col justify-center items-center bg-primary pb-16 pt-12'>
-        <p className='text-gray-600 max-w-2xl text-center mb-12 px-4'>Insights, stories, and updates from the world of Ethiopian coffee</p>
+        <p ref={subtitleRef} className='text-gray-600 max-w-2xl text-center mb-12 px-4'>Insights, stories, and updates from the world of Ethiopian coffee</p>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 px-4">
           {pagedPosts.map(({ post, id }) => (
             <Post key={id} {...post} slug={post.slug || ''} />
