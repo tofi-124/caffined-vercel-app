@@ -103,9 +103,12 @@ const About = () => {
               </li>
             </ul>
 
-            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Built for Importers</h3>
+            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Your Partner at Origin</h3>
             <p className='my-4'>
               We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
+            </p>
+            <p className='my-4'>
+              <strong>Farm-First Traceability:</strong> As semi-producers deeply involved with production, we offer unmatched transparency. We are directly involved in the process from the farm to your port, giving you a clear and reliable line of sight into your coffee's journey.
             </p>
             <p className='my-4'>
               <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
