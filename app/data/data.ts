@@ -1442,7 +1442,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/coffee-cupping-evaluation.webp',
       large_image_url: 'insights/coffee-cupping-evaluation.webp',
-      date: 'Feb 01, 2026',
+      date: 'Feb 06, 2026',
       title: 'HOW TO CUP AND EVALUATE ETHIOPIAN COFFEE SAMPLES: COMPLETE GUIDE FOR IMPORTERS',
       slug: 'how-to-cup-evaluate-ethiopian-coffee-samples',
       category: 'Quality Control / Cupping Guide / Importer Resources',
@@ -1489,7 +1489,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/top-premium-coffee-exporters.webp',
       large_image_url: 'insights/top-premium-coffee-exporters.webp',
-      date: 'Feb 06, 2026',
+      date: 'Feb 01, 2026',
       title: 'TOP COFFEE EXPORTERS IN THE WORLD: WHAT MAKES A PREMIUM COFFEE EXPORTER STAND OUT',
       slug: 'top-premium-coffee-exporters-global-guide',
       category: 'Market Intelligence / Sourcing Guide / Global Coffee Trade',
