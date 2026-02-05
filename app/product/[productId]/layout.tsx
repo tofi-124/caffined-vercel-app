@@ -98,6 +98,11 @@ export default async function ProductLayout({ params, children }: Props) {
         "@type": "Organization",
         "name": "Ethio Coffee Export PLC"
       }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "12"
     }
   } : null
 

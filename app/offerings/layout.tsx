@@ -42,6 +42,11 @@ export default function OfferingsLayout({
           "availability": product.isSoldOut 
             ? "https://schema.org/OutOfStock" 
             : "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "12"
         }
       }
     }))

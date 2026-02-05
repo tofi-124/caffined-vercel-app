@@ -52,7 +52,16 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
         }),
       })
 
-      const result = await response.json()
+      let result: any = {}
+      
+      // Only parse JSON if there's content
+      const contentType = response.headers.get('content-type')
+      if (contentType && contentType.includes('application/json')) {
+        const text = await response.text()
+        if (text) {
+          result = JSON.parse(text)
+        }
+      }
 
       if (response.ok) {
         setSubmitSuccess(true)

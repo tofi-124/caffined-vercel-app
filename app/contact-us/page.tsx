@@ -52,7 +52,7 @@ const WholesaleInquiryPage = () => {
     setIsSubmitting(true);
     setSubmitError('');
     
-    try {
+   try {
       // Send the form data to our API route
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -66,7 +66,16 @@ const WholesaleInquiryPage = () => {
         }),
       });
       
-      const result = await response.json();
+      let result: any = {}
+      
+      // Only parse JSON if there's content
+      const contentType = response.headers.get('content-type')
+      if (contentType && contentType.includes('application/json')) {
+        const text = await response.text()
+        if (text) {
+          result = JSON.parse(text)
+        }
+      }
       
       if (response.ok) {
         setSubmitSuccess(true);
