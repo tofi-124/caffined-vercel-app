@@ -117,25 +117,6 @@ export default function RootLayout({
                 {"@type": "Country", "name": "United Arab Emirates"},
                 {"@type": "Country", "name": "Saudi Arabia"}
               ],
-              "makesOffer": [
-                {
-                  "@type": "Offer",
-                  "availability": "https://schema.org/InStock",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Ethiopian Green Coffee Beans Export",
-                    "description": "Premium green coffee beans from Ethiopia",
-                    "provider": {
-                      "@type": "Organization",
-                      "name": "Ethio Coffee Export PLC"
-                    }
-                  },
-                  "seller": {
-                    "@type": "Organization",
-                    "name": "Ethio Coffee Export PLC"
-                  }
-                }
-              ],
               "knowsAbout": [
                 "Ethiopian Coffee",
                 "Green Coffee Beans",
@@ -149,12 +130,7 @@ export default function RootLayout({
                 "Specialty Coffee",
                 "Coffee Sourcing"
               ],
-              "foundingDate": "2022",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "reviewCount": "12"
-              }
+              "foundingDate": "2022"
             })
           }}
         />

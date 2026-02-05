@@ -41,12 +41,13 @@ export default function OfferingsLayout({
           "@type": "Offer",
           "availability": product.isSoldOut 
             ? "https://schema.org/OutOfStock" 
-            : "https://schema.org/InStock"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "12"
+            : "https://schema.org/InStock",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "priceCurrency": "USD",
+            "price": "0"
+          },
+          "url": `https://www.ethiocoffee.et/product/${product.id}`
         }
       }
     }))

@@ -94,15 +94,16 @@ export default async function ProductLayout({ params, children }: Props) {
       "availability": product.isSoldOut 
         ? "https://schema.org/OutOfStock" 
         : "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "USD",
+        "price": "0"
+      },
+      "url": `https://www.ethiocoffee.et/product/${product.id}`,
       "seller": {
         "@type": "Organization",
         "name": "Ethio Coffee Export PLC"
       }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "12"
     }
   } : null
 
