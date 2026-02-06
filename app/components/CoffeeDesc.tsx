@@ -267,7 +267,7 @@ const CoffeeDesc = () => {
         <div id='desc-container' className='flex max-lg:flex-col'>
           <div id='desc-left' className='gap-5 lg:w-1/2 h-fit sticky max-lg:static top-24'>
             <h2 className='text-5xl leading-tight font-bold text-left'>
-            COFFEE FROM WHERE IT ALL BEGAN
+            WHY ETHIO COFFEE?
             </h2>
             <p className=''>
             Our story began on the roads of Ethiopia's coffee highlands, where our father spent his youth traveling with our grandfather who was a small trader. He learned what the land means to the people who have worked it for generations, seeing coffee as a living tradition. For 30 years, he worked in Ethiopia's local coffee markets, building relationships with producers and understanding quality at its source.
