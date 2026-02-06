@@ -269,6 +269,7 @@ const CoffeeDesc = () => {
             <h2 className='text-5xl leading-tight font-bold text-left'>
             WHY ETHIO COFFEE?
             </h2>
+            <br />
             <p className=''>
             Our story began on the roads of Ethiopia's coffee highlands, where our father spent his youth traveling with our grandfather who was a small trader. He learned what the land means to the people who have worked it for generations, seeing coffee as a living tradition. For 30 years, he worked in Ethiopia's local coffee markets, building relationships with producers and understanding quality at its source.
             <br />

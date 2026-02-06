@@ -5,6 +5,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
     import('./rename-coffee-arabica-ethiopian-coffee').then(mod => mod.default),
   'african-coffee-week-2026-addis-ababa': () =>
     import('./african-coffee-week-2026-addis-ababa').then(mod => mod.default),
+  'ethiopia-coffee-production-foreign-exchange-2018': () =>
+    import('./ethiopia-coffee-production-foreign-exchange').then(mod => mod.default),
   // Add more news here:
   // 'slug': () => import('./slug').then(mod => mod.default),
 }

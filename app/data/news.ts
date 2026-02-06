@@ -21,4 +21,11 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The third African Coffee Week and IACO meetings have officially opened in Addis Ababa under the theme "Advancing Climate Resilience & the Transformation of the African Coffee Sector."',
     source: 'IACO / African Coffee Week',
   },
+  {
+    slug: 'ethiopia-coffee-production-foreign-exchange-2018',
+    date: 'Jan 1, 2026',
+    title: 'Ethiopia’s coffee production is creating significant potential for foreign exchange earnings',
+    desc: 'Ethiopia is increasing export competitiveness through improved varieties and technologies, driving higher coffee productivity and export earnings.',
+    source: 'Ethiopian Coffee and Tea Authority',
+  },
 ]
