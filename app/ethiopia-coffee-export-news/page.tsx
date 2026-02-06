@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState, useMemo } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { newsArticles } from '../data/news'
 import Link from 'next/link'
+import { ArrowRight } from '@/app/components/Arrow'
 
 const PAGE_SIZE = 5
 
@@ -118,7 +119,8 @@ const NewsPage = () => {
                 {article.desc.length > 250 ? article.desc.substring(0, 250) + '...' : article.desc}
               </p>
               <Link href={`/ethiopia-coffee-export-news/${article.slug}`} className='text-accent font-bold text-sm hover:underline'>
-                Read full article →
+                <span>Read full article</span>
+                <ArrowRight className='ml-2 inline-block h-4 w-4' />
               </Link>
             </article>
           ))}

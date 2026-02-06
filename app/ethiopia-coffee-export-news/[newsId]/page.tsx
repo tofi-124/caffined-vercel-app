@@ -1,5 +1,6 @@
 import { newsArticles } from '@/app/data/news'
 import Link from 'next/link'
+import { ArrowLeft } from '@/app/components/Arrow'
 import AutoScrollTo from '@/app/components/AutoScrollTo'
 import { newsContentMap, hasNewsContent } from '../content'
 
@@ -53,7 +54,8 @@ const NewsArticlePage = async ({ params }: Props) => {
               href='/ethiopia-coffee-export-news'
               className='text-accent text-sm font-bold hover:underline mb-8 inline-block'
             >
-              &larr; Back to News
+              <ArrowLeft className='mr-2 inline-block h-4 w-4' />
+              Back to News
             </Link>
 
             {NewsContent ? (
@@ -73,7 +75,8 @@ const NewsArticlePage = async ({ params }: Props) => {
                 href='/ethiopia-coffee-export-news'
                 className='text-accent font-bold text-sm hover:underline'
               >
-                &larr; Back to all news
+                <ArrowLeft className='mr-2 inline-block h-4 w-4' />
+                Back to all news
               </Link>
             </div>
           </div>
