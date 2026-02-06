@@ -61,39 +61,60 @@ export default function EthiopianCoffeeExportLayout({
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
           "itemOffered": {
-            "@type": "Service",
+            "@type": "Product",
             "name": "Specialty Yirgacheffe Coffee Export",
-            "description": "SCA 84+ specialty-grade Yirgacheffe green coffee beans for export"
-          },
-          "seller": {
-            "@type": "Organization",
-            "name": "Ethio Coffee Export PLC"
+            "description": "SCA 84+ specialty-grade Yirgacheffe green coffee beans for export",
+            "brand": {"@type": "Brand", "name": "Ethio Coffee"},
+            "category": "Green Coffee Beans",
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "USD",
+              "price": "0",
+              "priceValidUntil": "2027-12-31",
+              "url": "https://www.ethiocoffee.et/contact-us",
+              "seller": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+            }
           }
         },
         {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
           "itemOffered": {
-            "@type": "Service",
+            "@type": "Product",
             "name": "Specialty Sidamo Coffee Export",
-            "description": "SCA 84+ specialty-grade Sidamo green coffee beans for export"
-          },
-          "seller": {
-            "@type": "Organization",
-            "name": "Ethio Coffee Export PLC"
+            "description": "SCA 84+ specialty-grade Sidamo green coffee beans for export",
+            "brand": {"@type": "Brand", "name": "Ethio Coffee"},
+            "category": "Green Coffee Beans",
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "USD",
+              "price": "0",
+              "priceValidUntil": "2027-12-31",
+              "url": "https://www.ethiocoffee.et/contact-us",
+              "seller": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+            }
           }
         },
         {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
           "itemOffered": {
-            "@type": "Service",
+            "@type": "Product",
             "name": "Specialty Guji Coffee Export",
-            "description": "SCA 84+ specialty-grade Guji green coffee beans for export"
-          },
-          "seller": {
-            "@type": "Organization",
-            "name": "Ethio Coffee Export PLC"
+            "description": "SCA 84+ specialty-grade Guji green coffee beans for export",
+            "brand": {"@type": "Brand", "name": "Ethio Coffee"},
+            "category": "Green Coffee Beans",
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "USD",
+              "price": "0",
+              "priceValidUntil": "2027-12-31",
+              "url": "https://www.ethiocoffee.et/contact-us",
+              "seller": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+            }
           }
         }
       ]
