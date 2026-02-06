@@ -35,6 +35,7 @@ const headlines = [
 
 const CoffeeDesc = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
   const [isMobile, setIsMobile] = useState(false);
   const [isIOS, setIsIOS] = useState(false);
@@ -222,39 +223,44 @@ const CoffeeDesc = () => {
         </p>
       </div>
 
-      {isIOS ? (
-        // Special handling for iOS devices
-        <div className="video-container w-full bg-dark">
-          <video 
-            ref={videoRef}
-            muted 
-            playsInline
-            webkit-playsinline="true"
-            autoPlay
-            loop
-            preload="auto"
-            poster="/images/cover.png"
-            className="w-full h-auto bg-dark"
+      {/* Poster + play-button: only load video sources after user clicks */}
+      {!videoLoaded ? (
+        <div className="video-container w-full bg-dark relative">
+          <img
+            src="/images/cover.png"
+            alt="Ethiopia coffee cover"
+            className="w-full h-auto"
+            loading="lazy"
+          />
+
+          <button
+            aria-label="Play video"
+            onClick={() => {
+              setVideoLoaded(true);
+              // attempt play after mounting video element (user gesture)
+              setTimeout(() => attemptPlay({ fromUserGesture: true }), 80);
+            }}
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full bg-black/60 flex items-center justify-center text-white shadow-lg"
           >
-            <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
-            <source src='/videos/ethio-coffee.webm' type="video/webm" />
-          </video>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-8 h-8">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </button>
         </div>
       ) : (
-        // Standard handling for other devices
-        <video 
-          ref={videoRef}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          poster="/images/cover.png"
-          className="bg-dark"
-        >
-          <source src='/videos/ethio-coffee.mp4' type="video/mp4" />
-          <source src='/videos/ethio-coffee.webm' type="video/webm" />
-        </video>
+        <div className="video-container w-full bg-dark">
+          <video
+            ref={videoRef}
+            muted
+            playsInline
+            loop
+            preload="metadata"
+            className="w-full h-auto bg-dark"
+          >
+            <source src="/videos/ethio-coffee.mp4" type="video/mp4" />
+            <source src="/videos/ethio-coffee.webm" type="video/webm" />
+          </video>
+        </div>
       )}
        
       <div id='desc-wrapper' className='m-10 lg:m-40 mb-0 flex flex-col items-center justify-center gap-5'>

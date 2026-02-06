@@ -28,7 +28,7 @@ const ResponsiveImage = ({
 }: ResponsiveImageProps) => {
   // If width and height are provided, use regular Image component with those dimensions
   if (width && height && !fill) {
-    return (
+      return (
       <Image
         src={src}
         alt={alt}
@@ -37,6 +37,7 @@ const ResponsiveImage = ({
         priority={priority}
         sizes={sizes}
         className={className}
+        {...(priority ? {} : { loading: 'lazy' })}
         style={{
           maxWidth: '100%',
           maxHeight: '100%',
@@ -51,13 +52,14 @@ const ResponsiveImage = ({
 
   // If fill mode is requested or no dimensions are provided, use fill mode
   return (
-    <div className={`relative w-full h-full ${className}`}> 
+      <div className={`relative w-full h-full ${className}`}> 
       <Image
         src={src}
         alt={alt}
         fill
         priority={priority}
         sizes={sizes}
+        {...(priority ? {} : { loading: 'lazy' })}
         style={{ 
           objectFit,
           transition: 'transform 0.4s',
