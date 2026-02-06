@@ -1,6 +1,7 @@
 "use client"
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import HeadLine from '../lib/Headline'
 
 const headlines = [
@@ -226,7 +227,7 @@ const CoffeeDesc = () => {
       {/* Poster + play-button: only load video sources after user clicks */}
       {!videoLoaded ? (
         <div className="video-container w-full bg-dark relative">
-          <img
+          <Image
             src="/images/cover.png"
             alt="Ethiopia coffee cover"
             className="w-full h-auto"
