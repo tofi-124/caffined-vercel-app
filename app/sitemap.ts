@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { offerings } from './data/offerings'
 import { posts } from './data/data'
+import { newsArticles } from './data/news'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.ethiocoffee.et'
@@ -49,6 +50,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    {
+      url: `${baseUrl}/ethiopia-coffee-export-news`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.6,
+    },
   ]
 
   const productRoutes: MetadataRoute.Sitemap = offerings.map((o) => ({
@@ -66,5 +73,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  return [...staticRoutes, ...productRoutes, ...insightsRoutes]
+  const newsRoutes: MetadataRoute.Sitemap = newsArticles.map((article) => ({
+    url: `${baseUrl}/ethiopia-coffee-export-news/${article.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.5,
+  }))
+
+  return [...staticRoutes, ...productRoutes, ...insightsRoutes, ...newsRoutes]
 }
