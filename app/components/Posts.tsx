@@ -16,6 +16,11 @@ type Props = {
 }
 
 export const Post = ({ title, date, small_image_url, slug, showDate = true }: Props) => {
+  const formatDate = (value: string) => {
+    const t = Date.parse(value)
+    if (!Number.isFinite(t)) return value
+    return new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  }
   return (
         <Link href={`/insights/${slug}`} id="insight-card" className="photo overflow-clip mx-auto flex flex-col items-center">
           <div className="insight-img w-full max-w-[400px] aspect-[4/3] overflow-hidden rounded-md shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -30,7 +35,7 @@ export const Post = ({ title, date, small_image_url, slug, showDate = true }: Pr
           </div>
           {showDate && (
             <p className='my-4 text-center text-gray-600 font-inconsolata'>
-              {date}
+              {formatDate(date)}
             </p>
           )}
           <h3 className='font-extrabold text-2xl text-center max-w-sm leading-tight'>

@@ -5,14 +5,29 @@ import { useSearchParams, useRouter } from 'next/navigation'
 import { newsArticles } from '../data/news'
 import Link from 'next/link'
 
-const parseDate = (value: string) => {
+const PAGE_SIZE = 5
+
+const parseDateLocal = (value: string) => {
+  const m = /^\s*(\d{4})-(\d{2})-(\d{2})\s*$/.exec(value)
+  if (m) return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3])).getTime()
   const t = Date.parse(value)
   return Number.isFinite(t) ? t : 0
 }
 
+const formatDate = (value: string) => {
+  const m = /^\s*(\d{4})-(\d{2})-(\d{2})\s*$/.exec(value)
+  if (m) {
+    const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]))
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  }
+  const t = Date.parse(value)
+  if (!Number.isFinite(t)) return value
+  return new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+}
+
 const NewsPage = () => {
-  const postsRef = useRef<HTMLDivElement>(null)
-  const subtitleRef = useRef<HTMLParagraphElement>(null)
+  const postsRef = useRef<HTMLElement | null>(null)
+  const subtitleRef = useRef<HTMLParagraphElement | null>(null)
   const searchParams = useSearchParams()
   const router = useRouter()
   const [page, setPage] = useState(1)
@@ -21,7 +36,7 @@ const NewsPage = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       if (window.scrollY < 150) {
-        scrollToTop()
+        scrollToPostsTop()
       }
     }, 100)
     return () => clearTimeout(timer)
@@ -39,27 +54,23 @@ const NewsPage = () => {
   useEffect(() => {
     if (!isInitialLoad && page > 0) {
       const timer = setTimeout(() => {
-        scrollToTop()
+        scrollToPostsTop()
       }, 150)
       return () => clearTimeout(timer)
     }
   }, [page, isInitialLoad])
 
-  const PAGE_SIZE = 5
-
-  const sortedArticles = useMemo(() => {
-    return [...newsArticles].sort((a, b) => parseDate(b.date) - parseDate(a.date))
+  const sorted = useMemo(() => {
+    return [...newsArticles].sort((a, b) => parseDateLocal(b.date) - parseDateLocal(a.date))
   }, [])
 
-  const totalPages = Math.max(1, Math.ceil(sortedArticles.length / PAGE_SIZE))
-  const safePage = Math.min(page, totalPages)
+  const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE))
+  const safePage = Math.min(Math.max(1, page), totalPages)
 
-  const pagedArticles = useMemo(() => {
-    const start = (safePage - 1) * PAGE_SIZE
-    return sortedArticles.slice(start, start + PAGE_SIZE)
-  }, [sortedArticles, safePage])
+  const start = (safePage - 1) * PAGE_SIZE
+  const pagedArticles = sorted.slice(start, start + PAGE_SIZE)
 
-  const scrollToTop = () => {
+  const scrollToPostsTop = () => {
     if (!subtitleRef.current) return
     const headerOffset = 120
     requestAnimationFrame(() => {
@@ -88,7 +99,7 @@ const NewsPage = () => {
         <p className='text-primary/70 mt-3 text-sm tracking-widest uppercase'>Ethiopian Coffee Export Industry</p>
       </header>
 
-      <section ref={postsRef} className='flex flex-col justify-center items-center bg-primary pb-16 pt-12'>
+      <section ref={postsRef as any} className='flex flex-col justify-center items-center bg-primary pb-16 pt-12'>
         <p ref={subtitleRef} className='text-gray-600 max-w-2xl text-center mb-12 px-4'>
           Latest news and updates from the Ethiopian coffee export industry
         </p>
@@ -99,19 +110,14 @@ const NewsPage = () => {
               key={article.slug}
               className='bg-white rounded-lg shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow'
             >
-              <p className='text-xs text-gray-500 uppercase tracking-widest mb-2'>{article.date}</p>
+              <p className='text-xs text-gray-500 uppercase tracking-widest mb-2'>{formatDate(article.date)}</p>
               <Link href={`/ethiopia-coffee-export-news/${article.slug}`}>
                 <h2 className='text-xl font-bold text-dark mb-4 leading-snug hover:text-accent transition-colors'>{article.title}</h2>
               </Link>
               <p className='text-gray-700 text-sm leading-relaxed mb-3'>
-                {article.desc.length > 250
-                  ? article.desc.substring(0, 250) + '...'
-                  : article.desc}
+                {article.desc.length > 250 ? article.desc.substring(0, 250) + '...' : article.desc}
               </p>
-              <Link
-                href={`/ethiopia-coffee-export-news/${article.slug}`}
-                className='text-accent font-bold text-sm hover:underline'
-              >
+              <Link href={`/ethiopia-coffee-export-news/${article.slug}`} className='text-accent font-bold text-sm hover:underline'>
                 Read full article →
               </Link>
             </article>
@@ -142,7 +148,7 @@ const NewsPage = () => {
                 className={
                   p === safePage
                     ? 'w-10 h-10 bg-accent text-white border border-accent rounded-full font-bold'
-                    : 'w-10 h-10 bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover:border-accent transition-all'
+                    : 'w-10 h-10 bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover;border-accent transition-all'
                 }
                 aria-label={`Go to page ${p}`}
               >

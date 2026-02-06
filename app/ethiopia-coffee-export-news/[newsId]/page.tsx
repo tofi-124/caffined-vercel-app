@@ -31,6 +31,18 @@ const NewsArticlePage = async ({ params }: Props) => {
     NewsContent = await newsContentMap[newsId]()
   }
 
+  const formatDate = (value: string) => {
+    // Parse YYYY-MM-DD as local date to avoid timezone shifts
+    const m = /^\s*(\d{4})-(\d{2})-(\d{2})\s*$/.exec(value)
+    if (m) {
+      const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]))
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+    }
+    const t = Date.parse(value)
+    if (!Number.isFinite(t)) return value
+    return new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  }
+
   return (
     <>
       <AutoScrollTo />
@@ -45,10 +57,10 @@ const NewsArticlePage = async ({ params }: Props) => {
             </Link>
 
             {NewsContent ? (
-              <NewsContent title={article.title} date={article.date} source={article.source} />
+              <NewsContent title={article.title} date={formatDate(article.date)} source={article.source} />
             ) : (
               <>
-                <p className='text-xs text-gray-500 uppercase tracking-widest mb-3'>{article.date}</p>
+                <p className='text-xs text-gray-500 uppercase tracking-widest mb-3'>{formatDate(article.date)}</p>
                 <h1 className='text-3xl lg:text-4xl font-extrabold text-dark leading-tight mb-8'>
                   {article.title}
                 </h1>
