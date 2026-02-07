@@ -108,7 +108,7 @@ const About = () => {
             </div>
 
             {/* Image 3 */}
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center mt-20'>
               <ResponsiveImage 
                 className='rounded-lg shadow-lg w-full h-auto object-cover' 
                 src="/images/about-us-3.webp" 
