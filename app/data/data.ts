@@ -1543,7 +1543,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/selective-coffee-harvesting.webp',
       large_image_url: 'insights/selective-coffee-harvesting.webp',
-      date: 'Feb 05, 2026',
+      date: 'Feb 07, 2026',
       title: 'Selective Coffee Harvesting: A Practical Guide',
       slug: 'selective-coffee-harvesting',
       category: 'Farm Practices / Coffee Economics',
