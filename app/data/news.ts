@@ -63,4 +63,12 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The third African Coffee Week and IACO meetings have officially opened in Addis Ababa under the theme "Advancing Climate Resilience & the Transformation of the African Coffee Sector."',
     source: 'IACO / African Coffee Week',
   }
+  ,
+  {
+    slug: 'eu-acknowledges-tangible-progress-deforestation-rules',
+    date: '2026-02-04',
+    title: 'EU Acknowledges “Tangible” Progress in Ethiopia’s Coffee Sector Under Deforestation Rules',
+    desc: 'The European Union says Ethiopia’s coffee sector is making tangible progress in meeting the EU’s deforestation-free supply chain requirements, citing advances in digital traceability systems and land registration in key coffee-producing areas.',
+    source: 'Yared Seyoum',
+  }
 ]
