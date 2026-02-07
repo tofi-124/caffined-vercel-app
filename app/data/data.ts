@@ -1539,5 +1539,23 @@ export const posts: Post[] = [
         'Ethio Coffee Export'
       ],
       desc: 'Comprehensive guide to the world\'s top coffee-exporting countries ranked by volume and specialty reputation. Learn what separates a commodity shipper from a premium coffee exporter, compare Brazil, Colombia, Vietnam, and Ethiopia, and discover how to evaluate and choose the right export partner for your business.'
-    }
+    },
+    {
+      small_image_url: 'insights/selective-coffee-harvesting.webp',
+      large_image_url: 'insights/selective-coffee-harvesting.webp',
+      date: 'Feb 05, 2026',
+      title: 'Selective Coffee Harvesting: A Practical Guide',
+      slug: 'selective-coffee-harvesting',
+      category: 'Farm Practices / Coffee Economics',
+      keywords: [
+        'selective coffee harvesting',
+        'coffee picking methods',
+        'ripe coffee cherries',
+        'strip picking vs selective',
+        'coffee farm labor',
+        'mechanical harvesting',
+        'specialty coffee production'
+      ],
+      desc: 'Selective coffee harvesting explained: why hand-picking ripe cherries matters for quality, picker economics, and sourcing. Read actionable steps for buyers.'
+    },
 ]
