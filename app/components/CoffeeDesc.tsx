@@ -226,11 +226,12 @@ const CoffeeDesc = () => {
 
       {/* Poster + play-button: only load video sources after user clicks */}
       {!videoLoaded ? (
-        <div className="video-container w-full bg-dark relative">
+        <div className="video-container w-full bg-dark relative" style={{ aspectRatio: '16/9' }}>
           <Image
             src="/images/cover.png"
             alt="Ethiopia coffee cover"
-            className="w-full h-auto"
+            fill
+            className="object-cover"
             loading="lazy"
           />
 

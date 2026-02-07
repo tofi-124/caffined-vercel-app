@@ -256,7 +256,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> <a href="https://food.ec.europa.eu/plants/plant-based-products/organic-production-and-labelling-products_en" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>EU Organic</a></h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> <a href="https://agriculture.ec.europa.eu/farming/organic-farming/organic-production-and-products_en" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>EU Organic</a></h5>
           <p className='text-sm mb-2'>Required for European Union sales</p>
           <ul className='text-xs space-y-1'>
             <li>• Governed by EU Regulation 2018/848</li>
@@ -266,7 +266,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> <a href="https://www.maff.go.jp/e/policies/standard/organic/" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>JAS Organic</a></h5>
+          <h5 className='font-bold mb-2 text-blue-800 flex items-center gap-2'><HiOutlineGlobeAlt className='text-blue-600' /> <a href="https://www.maff.go.jp/e/policies/standard/jas/" target="_blank" rel="noopener noreferrer" className='text-blue-800 underline'>JAS Organic</a></h5>
           <p className='text-sm mb-2'>Required for Japanese market</p>
           <ul className='text-xs space-y-1'>
             <li>• Japanese Agricultural Standards</li>
@@ -682,7 +682,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        <a href="https://nationalzoo.si.edu/migratory-bird-center/bird-friendly" target="_blank" rel="noopener noreferrer" className='text-green-600 hover:underline font-bold'>Bird Friendly certification</a> by the Smithsonian Migratory Bird Center is the most stringent shade-grown coffee certification available. It requires <span className='font-bold'>both organic certification AND specific shade-cover requirements</span> that protect habitat for migratory birds.
+        <a href="https://nationalzoo.si.edu/migratory-birds/bird-friendly" target="_blank" rel="noopener noreferrer" className='text-green-600 hover:underline font-bold'>Bird Friendly certification</a> by the Smithsonian Migratory Bird Center is the most stringent shade-grown coffee certification available. It requires <span className='font-bold'>both organic certification AND specific shade-cover requirements</span> that protect habitat for migratory birds.
       </p>
 
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>

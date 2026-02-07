@@ -540,7 +540,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           </div>
           <div>
             <p className='font-semibold'>4. Specialized Traceability Platforms</p>
-            <p>Commercial platforms (<a href="https://farmerconnect.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Farmer Connect</a>, <a href="https://opensc.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>OpenSC</a>, <a href="https://www.transparencyone.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Transparency-One</a>) offer end-to-end traceability solutions including GPS collection, but come with subscription costs.</p>
+            <p>Commercial platforms (<a href="https://farmerconnect.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Farmer Connect</a>, <a href="https://openforis.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Open Foris</a>, <a href="https://www.transparencyone.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Transparency-One</a>) offer end-to-end traceability solutions including GPS collection, but come with subscription costs.</p>
           </div>
         </div>
       </div>
@@ -695,7 +695,6 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         <HiOutlineShieldCheck className='text-amber-600' />
         9. Beyond Deforestation: Labor Rights and Social Compliance
       </h3>
-
       <p className='my-4'>
         While EUDR's primary focus is deforestation, the <span className='font-bold'>legality requirement</span> extends to all relevant laws-including labor laws. This means coffee must be produced without child labor or other labor rights violations.
       </p>
@@ -716,7 +715,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       <h4 className='text-xl font-bold mt-8 mb-3'>Ethiopian Government Response</h4>
 
       <p className='my-4'>
-        According to reports, the Ethiopian Coffee, Tea and Spice Authority is coordinating with the <span className='font-bold'>Ministry of Labor and Social Affairs</span> to:
+          The <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1115" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation</a> (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1115" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Regulation 2023/1115</a>) is a comprehensive European Union law designed to minimize the EU's contribution to global deforestation and forest degradation by ensuring that products placed on the EU market are deforestation-free.
       </p>
 
       <div className='space-y-3 my-6'>

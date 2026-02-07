@@ -67,10 +67,10 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             <a href='https://sca.coffee' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Specialty Coffee Association (SCA)</a> - standards, sample programs, and importing best practices.
           </li>
           <li>
-            <a href='https://www.freightos.com/freight-resources/what-is-lcl/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Freightos LCL guide</a> - explanation of Less Than Container Load (LCL) and consolidation costs.
+            <a href='https://www.freightos.com/freight-resources/what-is-lcl-shipping-the-complete-guide/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Freightos LCL guide</a> - explanation of Less Than Container Load (LCL) and consolidation costs.
           </li>
           <li>
-            <a href='https://www.trade.gov/importing-us' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Trade.gov - importing into the United States</a> - practical import documentation and compliance information.
+            <a href='https://www.trade.gov/import-regulations' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Trade.gov - importing into the United States</a> - practical import documentation and compliance information.
           </li>
         </ul>
       </div>

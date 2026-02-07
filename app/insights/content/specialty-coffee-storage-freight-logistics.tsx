@@ -536,7 +536,7 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
           <Link href='/contact-us' className='bg-amber-600 hover:bg-amber-500 text-white font-bold py-3 px-8 rounded-lg transition-colors text-center'>
             Request a Shipping Quote
           </Link> 
-          <Link href='/products' className='bg-transparent border border-gray-500 hover:border-white text-gray-300 hover:text-white font-bold py-3 px-8 rounded-lg transition-colors text-center'>
+          <Link href='/offerings' className='bg-transparent border border-gray-500 hover:border-white text-gray-300 hover:text-white font-bold py-3 px-8 rounded-lg transition-colors text-center'>
             View Current Offerings
           </Link> 
         </div>
