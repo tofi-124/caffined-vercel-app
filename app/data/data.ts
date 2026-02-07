@@ -1127,7 +1127,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/afca-competition-coffee.webp',
       large_image_url: 'insights/afca-competition-coffee.webp',
       date: 'Jan 30, 2026',
-      title: 'AFCA TASTE OF HARVEST: ETHIOPIAN COFFEE COMPETITION, CERTIFICATION & AUCTION OPPORTUNITIES',
+      title: 'AFCA Taste of Harvest: 2026 Ethiopian Coffee Guide',
       slug: 'afca-taste-of-harvest-ethiopian-coffee-competition',
       category: 'Coffee Competitions / Quality Recognition / AFCA',
       keywords: [
@@ -1168,7 +1168,7 @@ export const posts: Post[] = [
         'coffee export opportunities AFCA',
         'Ethiopian coffee modernization'
       ],
-      desc: 'Comprehensive guide to AFCA\'s Taste of Harvest coffee competition and Ethiopia\'s participation. Learn about the two-phase competition system, AFCA certification process, auction opportunities for award-winning coffees, Ethiopia\'s modern coffee laboratory facilities, how producers and cooperatives can participate, and benefits for international specialty coffee buyers seeking exceptional Ethiopian coffee.'
+      desc: 'AFCA Taste of Harvest 2026: Ethiopia\'s guide to the competition, certification and auctions. Learn how producers enter and how buyers source award-winning coffee.'
     },
     // ===== CERTIFICATIONS & SUSTAINABILITY =====
     {

@@ -27,6 +27,13 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
         {title}
       </h1>
+      <div className='flex items-start gap-4 mb-4'>
+        <div className='text-sm text-gray-600'>
+          <p className='font-semibold'>Ethio Coffee Export PLC — Editorial Team</p>
+          <p className='text-xs'>{date} · Prepared by Ethio Coffee Export PLC</p>
+          <p className='text-xs mt-1'>Ethio Coffee Export PLC: exporters and quality specialists with on-the-ground sourcing and cupping expertise.</p>
+        </div>
+      </div>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
         Everything Ethiopian coffee producers, exporters, and international buyers need to know about the AFCA Taste of Harvest competition, Ethiopia's modern coffee laboratory facilities, the certification process, auction opportunities, and how participating in African coffee quality competitions enhances market access and premiums for exceptional Ethiopian coffees.
       </h2>
@@ -219,7 +226,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       {/* SECTION 3: 2026 COMPETITION */}
       <h3 id="2026-competition" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineTrophy className='text-amber-600' />
-        3. The 2026 AFCA Taste of Harvest Competition in Ethiopia
+        3. The 2026 Taste of Harvest Competition in Ethiopia
       </h3>
 
       <p className='my-4'>
@@ -280,7 +287,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <h4 className='text-xl font-bold mt-6 mb-3'>Sample Submission Statistics</h4>
 
       <p className='my-4'>
-        According to W/ro Bamlack Melese, AFCA Taste of Harvest Program Supervision Coordinator, the competition received coffee samples from producers, exporters, and cooperatives across Ethiopian coffee-producing regions:
+        According to W/ro Bamlack Melese, the Taste of Harvest Program Supervision Coordinator, the competition received coffee samples from producers, exporters, and cooperatives across Ethiopian coffee-producing regions:
       </p>
 
       <div className='bg-gradient-to-r from-amber-50 to-amber-100 p-6 rounded-lg my-6 border border-amber-300'>
@@ -479,7 +486,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </h3>
 
       <p className='my-4'>
-        The AFCA Taste of Harvest operates as a two-phase competition designed to identify the very best coffees across Africa.
+        The Taste of Harvest operates as a two-phase competition designed to identify the very best coffees across Africa.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Phase 1: National Competition (January 2026)</h4>
@@ -686,7 +693,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </h3>
 
       <p className='my-4'>
-        The 2026 competition demonstrates that AFCA Taste of Harvest is open to a wide range of Ethiopian coffee stakeholders.
+        The 2026 competition demonstrates that the Taste of Harvest is open to a wide range of Ethiopian coffee stakeholders.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Who Can Submit Samples</h4>
@@ -794,7 +801,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </h3>
 
       <p className='my-4'>
-        The 2026 AFCA Taste of Harvest competition and Ethiopia's hosting of the conference represent more than a one-time event-they signal important developments for Ethiopian coffee's future.
+        The 2026 Taste of Harvest competition and Ethiopia's hosting of the conference represent more than a one-time event-they signal important developments for Ethiopian coffee's future.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Strategic Benefits for Ethiopia</h4>
@@ -856,7 +863,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           Conclusion: Competition Success Drives Coffee Excellence
         </h4>
         <p className='mb-3'>
-          The AFCA Taste of Harvest competition represents far more than awards and recognition-it's a mechanism for driving quality improvement, connecting exceptional Ethiopian coffees with discerning global buyers, and demonstrating Ethiopia's continued evolution as a modern, sophisticated coffee origin.
+          The Taste of Harvest competition represents far more than awards and recognition-it's a mechanism for driving quality improvement, connecting exceptional Ethiopian coffees with discerning global buyers, and demonstrating Ethiopia's continued evolution as a modern, sophisticated coffee origin.
         </p>
         <p className='mb-3'>
           For producers and cooperatives, participation offers pathways to premium markets and fair compensation for quality efforts. For exporters, award-winning lots provide competitive differentiation and buyer demand. For international buyers, AFCA-certified coffees deliver pre-vetted quality and compelling stories.
@@ -986,22 +993,9 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </div>
 
       <hr className="my-8 border-gray-200" />
-
-      <div className='bg-gray-100 p-6 rounded-lg my-6 text-center'>
-        <p className='font-bold text-lg mb-2'>Interested in AFCA Award-Winning Ethiopian Coffees?</p>
-        <p className='text-gray-700 mb-4'>
-          Our team maintains connections with competition-participating producers and can source exceptional, award-caliber Ethiopian coffee for discerning buyers.
-        </p>
-        <Link 
-          href="/contact-us" 
-          className='bg-dark text-primary px-6 py-3 rounded-lg font-bold hover:bg-gray-800 transition-colors inline-block'
-        >
-          Contact Us About Premium Selections
-        </Link>
-      </div>
-
+      
       <p className='my-4 text-sm text-gray-600 italic'>
-        This guide was prepared by <span className='font-semibold'>Ethio Coffee Export PLC</span> based on the 2026 AFCA Taste of Harvest competition, statements from Ethiopian Coffee and Tea Authority leadership, and our direct involvement in Ethiopia's specialty coffee sector. <Link href="/contact-us" className='text-blue-600 underline'>Contact our team</Link> for more information about accessing award-winning Ethiopian coffees.
+        This guide was prepared by <span className='font-semibold'>Ethio Coffee Export PLC</span> based on the 2026 Taste of Harvest competition, statements from Ethiopian Coffee and Tea Authority leadership, and our direct involvement in Ethiopia's specialty coffee sector. <Link href="/contact-us" className='text-blue-600 underline'>Contact our team</Link> for more information about accessing award-winning Ethiopian coffees.
       </p>
     </>
   )
