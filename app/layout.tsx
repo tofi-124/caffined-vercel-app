@@ -128,28 +128,7 @@ export default function RootLayout({
                 "Direct Trade Coffee",
                 "Specialty Coffee"
               ],
-              "makesOffer": {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Product",
-                  "name": "Ethiopian Green Coffee Beans",
-                  "description": "Premium specialty-grade Ethiopian green coffee beans for export to importers and roasters worldwide. SCA 80+ rated lots from Yirgacheffe, Sidamo, Guji, Harar, and Limu regions.",
-                  "brand": {"@type": "Brand", "name": "Ethio Coffee"},
-                  "category": "Green Coffee Beans",
-                  "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
-                  "image": "https://www.ethiocoffee.et/images/coffee-pack-1.webp",
-                  "url": "https://www.ethiocoffee.et/offerings",
-                  "offers": {
-                    "@type": "Offer",
-                    "availability": "https://schema.org/InStock",
-                    "priceCurrency": "USD",
-                    "price": "0",
-                    "priceValidUntil": "2027-12-31",
-                    "url": "https://www.ethiocoffee.et/contact-us",
-                    "seller": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
-                  }
-                }
-              },
+              
               "foundingDate": "2022"
             })
           }}
