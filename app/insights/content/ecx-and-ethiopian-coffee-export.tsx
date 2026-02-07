@@ -171,7 +171,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         </li>
         <li>
           <span className='font-bold'>Coffee is prepared for export</span>
-          <p className='font-normal text-sm mt-1'>Exporters arrange bagging (typically 60kg jute/<a href="https://grainpro.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">GrainPro</a> bags), documentation (<a href="https://www.ico.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ICO certificate</a>, <a href="https://www.ippc.int" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">phytosanitary certificate</a>, quality reports), and shipping logistics.</p>
+          <p className='font-normal text-sm mt-1'>Exporters arrange bagging (typically 60kg jute/<a href="https://grainpro.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">GrainPro</a> bags), documentation (<a href="https://www.ico.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ICO certificate</a>, <a href="https://www.ippc.int/en/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">phytosanitary certificate</a>, quality reports), and shipping logistics.</p>
         </li>
         <li>
           <span className='font-bold'>Coffee ships from Djibouti port</span>

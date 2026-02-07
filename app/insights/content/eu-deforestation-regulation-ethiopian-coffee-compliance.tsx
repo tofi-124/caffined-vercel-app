@@ -58,11 +58,11 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        If you're exporting Ethiopian coffee to European Union countries-or planning to-you need to understand a critical new regulation that will fundamentally change how coffee exports to Europe work: the <a href="https://environment.ec.europa.eu/industry-biodiversity/eu-action-against-deforestation/eu-regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation (EUDR)</a>.
+        If you're exporting Ethiopian coffee to European Union countries-or planning to-you need to understand a critical new regulation that will fundamentally change how coffee exports to Europe work: the <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation (EUDR)</a>.
       </p>
 
       <p className='my-4'>
-        Effective December 30, 2024 (with enforcement beginning December 30, 2025 for large operators), the <a href="https://environment.ec.europa.eu/industry-biodiversity/eu-action-against-deforestation/eu-regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EUDR</a> requires that all coffee entering EU markets must be <span className='font-bold'>deforestation-free</span> and produced in compliance with the laws of the country of origin. This means Ethiopian coffee exporters must prove-with documented evidence and geolocation data-that their coffee was not grown on land deforested after December 31, 2020.
+        Effective December 30, 2024 (with enforcement beginning December 30, 2025 for large operators), the <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EUDR</a> requires that all coffee entering EU markets must be <span className='font-bold'>deforestation-free</span> and produced in compliance with the laws of the country of origin. This means Ethiopian coffee exporters must prove-with documented evidence and geolocation data-that their coffee was not grown on land deforested after December 31, 2020.
       </p>
 
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
@@ -117,7 +117,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </h3>
 
       <p className='my-4'>
-        The <a href="https://environment.ec.europa.eu/industry-biodiversity/eu-action-against-deforestation/eu-regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation</a> (<a href="https://eur-lex.europa.eu/eli/reg/2023/1115/oj" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Regulation 2023/1115</a>) is a comprehensive European Union law designed to minimize the EU's contribution to global deforestation and forest degradation by ensuring that products placed on the EU market are deforestation-free.
+        The <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation</a> (<a href="https://eur-lex.europa.eu/eli/reg/2023/1115/oj/eng" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Regulation 2023/1115</a>) is a comprehensive European Union law designed to minimize the EU's contribution to global deforestation and forest degradation by ensuring that products placed on the EU market are deforestation-free.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Regulated Products</h4>
@@ -715,7 +715,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       <h4 className='text-xl font-bold mt-8 mb-3'>Ethiopian Government Response</h4>
 
       <p className='my-4'>
-          The <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1115" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation</a> (<a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1115" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Regulation 2023/1115</a>) is a comprehensive European Union law designed to minimize the EU's contribution to global deforestation and forest degradation by ensuring that products placed on the EU market are deforestation-free.
+          The <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1115" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation</a> (<a href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1115" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Regulation 2023/1115</a>) is a comprehensive European Union law designed to minimize the EU's contribution to global deforestation and forest degradation by ensuring that products placed on the EU market are deforestation-free.
       </p>
 
       <div className='space-y-3 my-6'>
