@@ -1487,6 +1487,24 @@ export const posts: Post[] = [
       desc: 'Master the art of cupping and evaluating Ethiopian coffee samples with this comprehensive guide for importers. Learn SCA cupping protocols, sample roasting techniques, how to identify Ethiopian flavor profiles, score specialty coffee, detect defects, and make informed purchasing decisions based on sensory evaluation.'
     },
     {
+      small_image_url: 'insights/coffee-cupping-learn.webp',
+      large_image_url: 'insights/coffee-cupping-learn.webp',
+      date: 'Jan 23, 2026',
+      title: 'The Best Cupping Schools: How to Choose Training That Improves Your Palate and Career',
+      slug: 'best-cupping-school',
+      category: 'Coffee Education / Cupping Training',
+      keywords: [
+        'coffee cupping school',
+        'SCA sensory training',
+        'Q Grader',
+        'coffee sensory course',
+        'best cupping course',
+        'how to learn cupping',
+        'coffee cupping certification'
+      ],
+      desc: 'Practical guide to the best cupping courses and schools. Compare SCA sensory modules, CQI Q Grader, Counter Culture, Barista Hustle, and other providers so you can choose the right training to improve palate, buying decisions, and quality control.',
+    },
+    {
       small_image_url: 'insights/top-premium-coffee-exporters.webp',
       large_image_url: 'insights/top-premium-coffee-exporters.webp',
       date: 'Feb 01, 2026',
