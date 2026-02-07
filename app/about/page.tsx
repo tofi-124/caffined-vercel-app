@@ -75,10 +75,21 @@ const About = () => {
       
       <section id='about-content' className='container mx-auto px-4 py-12 lg:py-20'>
         <div className='flex max-lg:flex-col gap-8 lg:gap-0'>
+          {/* Mobile-only intro: shown first on small screens */}
+          <div className='lg:hidden w-full'>
+            <div className='flex flex-col justify-center'>
+              <p className='mb-4 text-lg leading-relaxed'>
+                Ethio Coffee Export is a partner producer and Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
+              </p>
+              <p className='text-lg leading-relaxed'>
+                Established in 2022, our roots trace back to our father's lifetime of hands-on work in Ethiopian coffee regions. He dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the commodity market. That experience shaped our mission: to ensure the value stays where it belongs with the growers, while serving as the trusted partner importers rely on for consistent quality, transparent sourcing, and professional service.
+              </p>
+            </div>
+          </div>
           {/* Left Column */}
           <div className='lg:w-1/2 lg:pr-8 flex flex-col gap-12 lg:gap-20'>
             {/* Image 1 */}
-            <div className='flex items-center justify-center'>
+            <div className='hidden lg:flex items-center justify-center'>
               <ResponsiveImage 
                 className='rounded-lg shadow-lg w-full h-auto object-cover' 
                 src="/images/about-us-1.webp" 
@@ -108,7 +119,7 @@ const About = () => {
             </div>
 
             {/* Image 3 */}
-            <div className='flex items-center justify-center mt-20'>
+            <div className='hidden lg:flex items-center justify-center mt-20'>
               <ResponsiveImage 
                 className='rounded-lg shadow-lg w-full h-auto object-cover' 
                 src="/images/about-us-3.webp" 
@@ -118,10 +129,35 @@ const About = () => {
               />
             </div>
           </div>
+          {/* Mobile-only Partner block (placed after What We Do on mobile) */}
+          <div className='lg:hidden w-full'>
+            <div className='flex flex-col justify-center'>
+              <h3 className='text-4xl font-extrabold text-dark mb-6'>Your Partner at Origin</h3>
+              <p className='mb-4 leading-relaxed'>
+                We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
+              </p>
+              <p className='mb-4 leading-relaxed'>
+                <strong>Farm-First Traceability:</strong> As semi-producers deeply involved with production, we offer unmatched transparency. We are directly involved in the process from the farm to your port, giving you a clear and reliable line of sight into your coffee's journey.
+              </p>
+              <p className='mb-4 leading-relaxed'>
+                <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
+              </p>
+              <p className='mb-4 leading-relaxed'>
+                <strong>Professional Documentation:</strong> Complete tracebility and export documentation, phytosanitary certificates, ICO certificates, and quality reports - everything you need for smooth customs clearance in your destination country.
+              </p>
+              <p className='mb-4 leading-relaxed'>
+                <strong>Flexible Shipping:</strong> We work with your preferred freight forwarders or can recommend trusted logistics partners. FOB Djibouti or Addis Ababa dry port - whatever works best for your supply chain.
+              </p>
 
-          {/* Right Column with continuous border */}
-          <div className='lg:w-1/2 lg:pl-12 lg:border-l-2 border-black flex flex-col gap-12 lg:gap-20'>
-            {/* Intro Text */}
+              <p className='mt-6 font-inconsolata text-sm text-gray-700'>
+                For clarity: Ethio Coffee Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Export PLC.
+              </p>
+            </div>
+          </div>
+
+          {/* Right Column (desktop only) with continuous border */}
+          <div className='hidden lg:flex lg:w-1/2 lg:pl-12 lg:border-l-2 border-black flex-col gap-12 lg:gap-20'>
+            {/* Intro Text (desktop) */}
             <div className='flex flex-col justify-center'>
               <p className='mb-4 text-lg leading-relaxed'>
                 Ethio Coffee Export is a partner producer and Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
@@ -131,8 +167,8 @@ const About = () => {
               </p>
             </div>
 
-            {/* Image 2 */}
-            <div className='flex items-center justify-center'>
+            {/* Image 2 (desktop only) */}
+            <div className='hidden lg:flex items-center justify-center'>
               <ResponsiveImage 
                 className='rounded-lg shadow-lg w-full h-auto object-cover' 
                 src="/images/about-us-2.webp" 
@@ -142,7 +178,7 @@ const About = () => {
               />
             </div>
 
-            {/* Your Partner at Origin */}
+            {/* Your Partner at Origin (desktop) */}
             <div className='flex flex-col justify-center'>
               <h3 className='text-4xl font-extrabold text-dark mb-6'>Your Partner at Origin</h3>
               <p className='mb-4 leading-relaxed'>
