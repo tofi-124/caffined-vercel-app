@@ -78,6 +78,7 @@ const About = () => {
           {/* Mobile-only intro: shown first on small screens */}
           <div className='lg:hidden w-full'>
             <div className='flex flex-col justify-center'>
+              <h3 className='text-4xl font-extrabold text-dark mb-6'>FROM ETHIOPIA’S ROADS TO THE WORLD’S CUP</h3>
               <p className='mb-4 text-lg leading-relaxed'>
                 Ethio Coffee Export is a partner producer and Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
               </p>
