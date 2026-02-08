@@ -673,22 +673,22 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
         <h4 className='font-bold text-lg mb-3'>Related Articles</h4>
         <ul className='space-y-2'>
           <li>
-            <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-primary hover:underline'>
+            <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-amber-700 hover:underline'>
               Understanding the Ethiopia Commodity Exchange (ECX) and Coffee Export
             </Link>
           </li>
           <li>
-            <Link href="/insights/ethiopian-heirloom-coffee-varieties-landraces" className='text-primary hover:underline'>
+            <Link href="/insights/ethiopian-heirloom-coffee-varieties-landraces" className='text-amber-700 hover:underline'>
               Ethiopian Heirloom Coffee Varieties: What Are Landraces?
             </Link>
           </li>
           <li>
-            <Link href="/insights/minimum-order-quantities-ethiopian-coffee-moq" className='text-primary hover:underline'>
+            <Link href="/insights/minimum-order-quantities-ethiopian-coffee-moq" className='text-amber-700 hover:underline'>
               Minimum Order Quantities for Ethiopian Coffee (MOQ Guide)
             </Link>
           </li>
           <li>
-            <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className='text-primary hover:underline'>
+            <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className='text-amber-700 hover:underline'>
               Ethiopian Coffee Certifications: Organic, Fair Trade, and Rainforest Alliance
             </Link>
           </li>
