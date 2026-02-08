@@ -121,7 +121,7 @@ const InsightsPage = () => {
         <h1 className='text-5xl font-bold text-primary'>INSIGHTS</h1>
       </header>
       <section ref={postsRef} className='flex flex-col justify-center items-center bg-primary pb-16 pt-12'>
-        <p ref={subtitleRef} className='text-gray-600 max-w-2xl text-center mb-12 px-4'>Insights, stories, and updates from the world of Ethiopian coffee</p>
+        <p ref={subtitleRef} className='text-gray-600 max-w-2xl text-center mb-12 px-4'>Insights and stories from the world of Ethiopian coffee</p>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 px-4">
           {pagedPosts.map(({ post, id }) => (
             <Post key={id} {...post} slug={post.slug || ''} />
