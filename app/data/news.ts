@@ -49,12 +49,26 @@ export const newsArticles: NewsArticle[] = [
     desc: 'West Hararge Zone prepares 41+ million improved coffee seedlings to expand production across 12 districts; thousands of farmers participate in nursery and planting activities.',
     source: 'EZEA',
   },
+  {
+    slug: 'tea-seedling-training-gewata',
+    date: '2026-02-08',
+    title: 'Tea seedling training in Gewata supports Rural Transformation Agenda',
+    desc: 'Training on acclimatizing and planting tea seedlings to boost tea cultivation, productivity and market supply in Gewata Woreda.',
+    source: 'ECTA',
+  },
    {
     slug: 'rename-coffee-arabica-ethiopian-coffee',
     date: '2026-02-06',
     title: 'Researcher Proposes Renaming "Coffee Arabica" to "Ethiopian Coffee"',
     desc: 'The name "Coffee Arabica" should be renamed "Ethiopian coffee" to honor Ethiopia\'s historical and scientific contributions as coffee\'s birthplace, said a researcher.',
     source: 'Gazette Plus',
+  },
+  {
+    slug: 'coffee-exports-first-half-2018',
+    date: '2026-02-08',
+    title: 'Ethiopia earns $1.345 billion from coffee exports in first six months of 2018 E.C.',
+    desc: 'The Ethiopian Coffee and Tea Authority reported $1.345 billion earnings from coffee exports in the first half of 2018, noting digitalization and expanded markets as key drivers.',
+    source: 'EZA',
   },
   {
     slug: 'african-coffee-week-addis-ababa',

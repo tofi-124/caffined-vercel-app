@@ -20,6 +20,10 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./premium-price-international-standards').then(mod => mod.default),
     'improved-coffee-varieties-west-hararge': () =>
       import('./improved-coffee-varieties-west-hararge').then(mod => mod.default),
+    'tea-seedling-training-gewata': () =>
+      import('./tea-seedling-training-gewata').then(mod => mod.default),
+    'coffee-exports-first-half-2018': () =>
+      import('./coffee-exports-first-half-2018').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 
