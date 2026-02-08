@@ -75,39 +75,51 @@ const NewsArticlePage = async ({ params }: Props) => {
               </>
             )}
 
-            <div className='mt-12 pt-6 border-t border-gray-200'>
-              <div className='flex items-center justify-between gap-4'>
+            <nav className='mt-12 pt-6 border-t border-gray-200'>
+              <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
                 {prevArticle ? (
                   <Link
                     href={`/ethiopia-coffee-export-news/${prevArticle.slug}`}
-                    className='text-accent font-bold text-sm hover:underline flex items-center'
+                    className='group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-accent/30 hover:bg-accent/5 transition-colors'
                   >
-                    <ArrowLeft className='mr-2 inline-block h-4 w-4' />
-                    <span className='truncate max-w-[18rem]'>{prevArticle.title}</span>
+                    <span className='flex items-center justify-center w-8 h-8 rounded-full bg-accent/10 text-accent flex-shrink-0 group-hover:bg-accent/20 transition-colors'>
+                      <ArrowLeft className='h-4 w-4' />
+                    </span>
+                    <span className='min-w-0'>
+                      <span className='block text-[11px] text-gray-400 uppercase tracking-wider'>Previous</span>
+                      <span className='block text-dark font-semibold text-sm leading-snug line-clamp-2 group-hover:text-accent transition-colors'>{prevArticle.title}</span>
+                    </span>
                   </Link>
                 ) : (
-                  <div />
+                  <span />
                 )}
-
-                <Link
-                  href='/ethiopia-coffee-export-news'
-                  className='text-accent font-bold text-sm hover:underline'
-                >
-                  Back to all news
-                </Link>
 
                 {nextArticle ? (
                   <Link
                     href={`/ethiopia-coffee-export-news/${nextArticle.slug}`}
-                    className='text-accent font-bold text-sm hover:underline flex items-center'
+                    className='group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-accent/30 hover:bg-accent/5 transition-colors sm:flex-row-reverse sm:text-right'
                   >
-                    <span className='truncate max-w-[18rem] text-right'>{nextArticle.title}</span>
-                    <ArrowLeft className='ml-2 inline-block h-4 w-4 rotate-180' />
+                    <span className='flex items-center justify-center w-8 h-8 rounded-full bg-accent/10 text-accent flex-shrink-0 group-hover:bg-accent/20 transition-colors'>
+                      <ArrowLeft className='h-4 w-4 rotate-180' />
+                    </span>
+                    <span className='min-w-0'>
+                      <span className='block text-[11px] text-gray-400 uppercase tracking-wider'>Next</span>
+                      <span className='block text-dark font-semibold text-sm leading-snug line-clamp-2 group-hover:text-accent transition-colors'>{nextArticle.title}</span>
+                    </span>
                   </Link>
                 ) : (
-                  <div />
+                  <span />
                 )}
               </div>
+            </nav>
+
+            <div className='mt-6 text-center'>
+              <Link
+                href='/ethiopia-coffee-export-news'
+                className='text-gray-400 text-xs hover:text-accent transition-colors'
+              >
+                View all news
+              </Link>
             </div>
           </div>
         </section>
