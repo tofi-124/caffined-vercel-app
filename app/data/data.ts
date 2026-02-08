@@ -158,9 +158,10 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-logistics-freight.webp',
       large_image_url: 'insights/coffee-logistics-freight.webp',
       date: 'Jan 12, 2026',
-      title: 'PRECISION LOGISTICS: THE SCIENCE OF SPECIALTY COFFEE STORAGE DURING SEA FREIGHT',
+      title: 'THE SCIENCE OF SPECIALTY COFFEE STORAGE DURING SEA FREIGHT',
       slug: 'specialty-coffee-storage-freight-logistics',
       category: 'Logistics / Quality Control',
+      id: 5,
       keywords: [
         'specialty coffee storage',
         'coffee freight logistics',
