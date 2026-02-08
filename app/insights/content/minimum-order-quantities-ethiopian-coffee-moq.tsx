@@ -200,7 +200,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           </p>
           <ul className='text-sm space-y-1 ml-5'>
             <li>• Export documentation (commercial invoice, certificate of origin, quality certificate, phytosanitary certificate)</li>
-            <li>• <a href='https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Ethiopian Coffee Authority (ECA)</a> inspection and certification fees</li>
+            <li>• <a href='https://share.google/2wukzLJwWhD4ABE9z' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Ethiopian Coffee Authority (ECA)</a> inspection and certification fees</li>
             <li>• Bank fees for letters of credit or wire transfers</li>
             <li>• Warehouse handling and loading costs</li>
             <li>• Administrative time (emails, contracts, coordination)</li>

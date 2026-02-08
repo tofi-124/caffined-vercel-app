@@ -43,7 +43,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">From 33rd to 4th: Historic Market Growth in Five Years</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                <strong>The transformation of China into Ethiopia's 4th largest coffee export destination</strong> represents one of the most dramatic shifts in the global coffee trade in recent years. According to the <a href="https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Ethiopian Coffee and Tea Authority</a>, this 29-position jump occurred within just five years-a growth trajectory unprecedented in Ethiopian coffee export history.
+                <strong>The transformation of China into Ethiopia's 4th largest coffee export destination</strong> represents one of the most dramatic shifts in the global coffee trade in recent years. According to the <a href="https://share.google/2wukzLJwWhD4ABE9z" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Ethiopian Coffee and Tea Authority</a>, this 29-position jump occurred within just five years-a growth trajectory unprecedented in Ethiopian coffee export history.
               </p>
               
               <h3 className="text-2xl font-semibold text-gray-800 mb-3 mt-6">Market Share Growth Breakdown</h3>
@@ -78,7 +78,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
 
               <h3 className="text-2xl font-semibold text-gray-800 mb-3 mt-6">What Drove This Historic Growth?</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                According to <strong>Dr. Adunya Debela, Director General of the <a href="https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Ethiopian Coffee and Tea Authority</a></strong>, the meteoric rise was driven by two primary factors:
+                According to <strong>Dr. Adunya Debela, Director General of the <a href="https://share.google/2wukzLJwWhD4ABE9z" target="_blank" rel="noopener noreferrer" className="text-green-600 underline">Ethiopian Coffee and Tea Authority</a></strong>, the meteoric rise was driven by two primary factors:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
                 <li><strong>Growing Chinese domestic coffee demand:</strong> China's coffee consumption has exploded as urbanization, rising incomes, and Western café culture influence younger demographics</li>

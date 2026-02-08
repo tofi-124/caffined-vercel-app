@@ -167,7 +167,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         </li>
         <li>
           <span className='font-bold'>Licensed exporters purchase coffee lots</span>
-          <p className='font-normal text-sm mt-1'>Exporters registered with the ECX and <a href="https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">Ethiopian Coffee &amp; Tea Authority</a> can buy coffee for international sale. Payment clears within 24 hours.</p>
+          <p className='font-normal text-sm mt-1'>Exporters registered with the ECX and <a href="https://share.google/2wukzLJwWhD4ABE9z" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-bold">Ethiopian Coffee &amp; Tea Authority</a> can buy coffee for international sale. Payment clears within 24 hours.</p>
         </li>
         <li>
           <span className='font-bold'>Coffee is prepared for export</span>

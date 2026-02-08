@@ -958,7 +958,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       <h4 className='text-xl font-bold mt-8 mb-4'>Ethiopian Government & Certification</h4>
 
       <p className='my-4'>
-        The <a href="https://en.wikipedia.org/wiki/Ethiopian_Coffee_and_Tea_Authority" target="_blank" rel="noopener noreferrer" className='font-bold text-amber-700 hover:underline'>Ethiopian Coffee and Tea Authority (ECTA)</a> and the government have increasingly supported certification as a strategy for value addition:
+        The <a href="https://share.google/2wukzLJwWhD4ABE9z" target="_blank" rel="noopener noreferrer" className='font-bold text-amber-700 hover:underline'>Ethiopian Coffee and Tea Authority (ECTA)</a> and the government have increasingly supported certification as a strategy for value addition:
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
