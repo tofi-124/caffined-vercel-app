@@ -114,6 +114,26 @@ export const posts: Post[] = [
       desc: 'Discover the ancient origins of coffee in Ethiopia, where the Arabica coffee plant was first discovered over a thousand years ago in the lush forests of the southwestern highlands.'
     },
     {
+      small_image_url: 'insights/ethiopia-birthplace-of-coffee-1.webp',
+      large_image_url: 'insights/ethiopia-birthplace-of-coffee-2.webp',
+      date: 'Feb 07, 2026',
+      title: 'ETHIOPIA AS THE BIRTHPLACE OF COFFEE',
+      slug: 'ethiopia-birthplace-of-coffee',
+      category: 'Coffee Culture & Heritage',
+      keywords: [
+        'birthplace of coffee',
+        'Coffea arabica origin',
+        'Kaffa',
+        'Kaldi legend',
+        'Ethiopian coffee diversity',
+        'Yirgacheffe',
+        'Sidamo',
+        'Harrar',
+        'Guji'
+      ],
+      desc: 'An overview of Ethiopia as the biological and cultural origin of Coffea arabica, its regional flavour diversity, cultural ceremonies, and economic importance.'
+    },
+    {
       id: 3,
       small_image_url: 'insights/cofee-blog-2-1.png',
       large_image_url: 'insights/cofee-blog-2-2.jpg',
