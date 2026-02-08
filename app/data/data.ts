@@ -116,7 +116,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/ethiopia-birthplace-of-coffee-1.webp',
       large_image_url: 'insights/ethiopia-birthplace-of-coffee-2.webp',
-      date: 'Feb 07, 2026',
+      date: 'Feb 08, 2026',
       title: 'ETHIOPIA AS THE BIRTHPLACE OF COFFEE',
       slug: 'ethiopia-birthplace-of-coffee',
       category: 'Coffee Culture & Heritage',
