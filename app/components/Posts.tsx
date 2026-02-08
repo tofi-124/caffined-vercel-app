@@ -45,7 +45,7 @@ export const Post = ({ title, date, small_image_url, slug, showDate = true }: Pr
   )
 }
 
-const featuredHomePostIds = [1,5,3,4]
+const featuredHomePostIds = [10, 11, 12, 13]
 
 const Posts = () => {
   // Filter posts that have an id matching the featured ids

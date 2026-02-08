@@ -622,6 +622,7 @@ export const posts: Post[] = [
       desc: 'A comprehensive guide to the Ethiopia Commodity Exchange (ECX), its role in Ethiopian coffee export, the grading system (G1, G2, G3), traceability, export process, and what international buyers need to know when sourcing from ECX-registered exporters.'
     },
     {
+      id: 11,
       small_image_url: 'insights/moq-ethiopian-coffee.webp',
       large_image_url: 'insights/moq-ethiopian-coffee.webp',
       date: 'Jan 06, 2026',
@@ -1240,6 +1241,7 @@ export const posts: Post[] = [
       desc: 'The definitive guide to coffee certifications for Ethiopian green coffee: understanding Organic (USDA, EU, JAS), Fair Trade, Rainforest Alliance, UTZ, and Bird Friendly certifications. Learn what each certification means, costs and premiums, how to source certified Ethiopian coffee, and which certification aligns with your business values and customer expectations.'
     },
     {
+      id: 12,
       small_image_url: 'insights/ethiopian-heirloom-varieties.webp',
       large_image_url: 'insights/ethiopian-heirloom-varieties.webp',
       date: 'Feb 03, 2026',
@@ -1339,6 +1341,7 @@ export const posts: Post[] = [
       desc: 'Comprehensive analysis of investment opportunities in Ethiopian coffee production covering farm-level investment, processing infrastructure, export partnerships, cooperative financing, and direct trade relationships. Includes ROI projections, risk mitigation strategies, market dynamics, success stories, and detailed due diligence guidance for investors, importers, and strategic partners in the specialty coffee supply chain.'
     },
     {
+      id: 10,
       small_image_url: 'insights/ethiopian-specialty-exporters-2026.webp',
       large_image_url: 'insights/ethiopian-specialty-exporters-2026.webp',
       date: 'Feb 04, 2026',
@@ -1461,6 +1464,7 @@ export const posts: Post[] = [
       desc: 'Complete strategic guide comparing private coffee exporters vs cooperative unions for sourcing Ethiopian Arabica in 2026. Understand Directive 1106/2025 capital requirements (15M vs 20M birr), EUDR compliance readiness, certification access, logistics capabilities, quality control differences, and which model fits your business needs. Includes detailed comparison table, sourcing analysis, and insights on cherry prices, Grade 1 scarcity, and the hybrid approach combining private exporter efficiency with cooperative traceability.'
     },
     {
+      id: 13,
       small_image_url: 'insights/coffee-cupping-evaluation.webp',
       large_image_url: 'insights/coffee-cupping-evaluation.webp',
       date: 'Feb 06, 2026',
