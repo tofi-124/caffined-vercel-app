@@ -32,6 +32,11 @@ const NewsArticlePage = async ({ params }: Props) => {
     NewsContent = await newsContentMap[newsId]()
   }
 
+  // Determine previous and next articles based on the list order
+  const currentIndex = newsArticles.findIndex(a => a.slug === newsId)
+  const prevArticle = currentIndex > 0 ? newsArticles[currentIndex - 1] : null
+  const nextArticle = currentIndex >= 0 && currentIndex < newsArticles.length - 1 ? newsArticles[currentIndex + 1] : null
+
   const formatDate = (value: string) => {
     // Parse YYYY-MM-DD as local date to avoid timezone shifts
     const m = /^\s*(\d{4})-(\d{2})-(\d{2})\s*$/.exec(value)
@@ -71,13 +76,38 @@ const NewsArticlePage = async ({ params }: Props) => {
             )}
 
             <div className='mt-12 pt-6 border-t border-gray-200'>
-              <Link
-                href='/ethiopia-coffee-export-news'
-                className='text-accent font-bold text-sm hover:underline'
-              >
-                <ArrowLeft className='mr-2 inline-block h-4 w-4' />
-                Back to all news
-              </Link>
+              <div className='flex items-center justify-between gap-4'>
+                {prevArticle ? (
+                  <Link
+                    href={`/ethiopia-coffee-export-news/${prevArticle.slug}`}
+                    className='text-accent font-bold text-sm hover:underline flex items-center'
+                  >
+                    <ArrowLeft className='mr-2 inline-block h-4 w-4' />
+                    <span className='truncate max-w-[18rem]'>{prevArticle.title}</span>
+                  </Link>
+                ) : (
+                  <div />
+                )}
+
+                <Link
+                  href='/ethiopia-coffee-export-news'
+                  className='text-accent font-bold text-sm hover:underline'
+                >
+                  Back to all news
+                </Link>
+
+                {nextArticle ? (
+                  <Link
+                    href={`/ethiopia-coffee-export-news/${nextArticle.slug}`}
+                    className='text-accent font-bold text-sm hover:underline flex items-center'
+                  >
+                    <span className='truncate max-w-[18rem] text-right'>{nextArticle.title}</span>
+                    <ArrowLeft className='ml-2 inline-block h-4 w-4 rotate-180' />
+                  </Link>
+                ) : (
+                  <div />
+                )}
+              </div>
             </div>
           </div>
         </section>
