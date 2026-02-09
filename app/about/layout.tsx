@@ -12,6 +12,21 @@ export const metadata: Metadata = {
     title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
     description: 'Family-built Ethiopian coffee export company founded by two brothers, connecting specialty traceable green coffee with importers worldwide.',
     url: 'https://www.ethiocoffee.et/about',
+    type: 'website',
+    images: [
+      {
+        url: '/images/about-us.webp',
+        width: 1200,
+        height: 630,
+        alt: 'About Ethio Coffee - Ethiopian coffee export company with 30+ years family legacy',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
+    description: 'Family-built Ethiopian coffee export company connecting specialty traceable green coffee with importers worldwide.',
+    images: ['/images/about-us.webp'],
   }
 }
 

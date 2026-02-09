@@ -34,8 +34,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
+      type: 'website',
       url: `https://www.ethiocoffee.et/product/${product.id}`,
       images: [{ url: `/images/${product.image_url}` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`/images/${product.image_url}`],
     },
   }
 }
@@ -94,11 +101,7 @@ export default async function ProductLayout({ params, children }: Props) {
       "availability": product.isSoldOut 
         ? "https://schema.org/OutOfStock" 
         : "https://schema.org/InStock",
-      "priceSpecification": {
-        "@type": "PriceSpecification",
-        "priceCurrency": "USD",
-        "price": "0"
-      },
+      "priceCurrency": "USD",
       "url": `https://www.ethiocoffee.et/product/${product.id}`,
       "seller": {
         "@type": "Organization",

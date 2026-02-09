@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Coffee Exporter | #1 Trusted Coffee Export Company | Ethio Coffee Export PLC',
-  description: 'Ethio Coffee Export PLC — a trusted Ethiopian coffee exporter shipping specialty & commercial green coffee (SCA 80+) to 40+ countries. Yirgacheffe, Sidamo, Guji, Harar & more. Request samples today.',
+  title: 'Ethiopian Coffee Exporter | Trusted Green Coffee Export Company',
+  description: 'Ethio Coffee — trusted Ethiopian coffee exporter shipping specialty green coffee (SCA 80+) worldwide. Yirgacheffe, Sidamo, Guji, Harar available. Request samples.',
   keywords: 'Ethiopian coffee exporter, ethiopian coffee exporter company, coffee exporter ethiopia, ethiopia coffee exporter, best ethiopian coffee exporter, ethiopian green coffee exporter, ethiopian specialty coffee exporter, ethiopian arabica exporter, ethiopian coffee export company, ethiopian coffee supplier, buy ethiopian coffee wholesale, import ethiopian coffee, ethiopian coffee beans exporter, coffee export from ethiopia, green coffee beans ethiopia export',
   alternates: {
     canonical: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter',

@@ -38,6 +38,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: new Date(post.date).toISOString(),
       authors: ['Ethio Coffee'],
     },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`/images/${post.large_image_url}`],
+    },
   }
 }
 

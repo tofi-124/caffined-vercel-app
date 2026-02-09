@@ -30,7 +30,7 @@ const config: Config = {
       },
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],
-        'inconsolata': ['Inconsolata', 'monospace'],
+        'inconsolata': ['var(--font-inconsolata)', 'Inconsolata', 'monospace'],
       },
     },
   },

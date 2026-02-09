@@ -13,6 +13,21 @@ export const metadata: Metadata = {
     title: 'Ethiopian Coffee for Export | Green Coffee Lots | Ethio Coffee',
     description: 'Ethiopian coffee available for export: Yirgacheffe, Sidamo, Guji, Harar & Limu. Grade 1-4 green coffee ready for export.',
     url: 'https://www.ethiocoffee.et/offerings',
+    type: 'website',
+    images: [
+      {
+        url: '/images/coffee-pack-1.webp',
+        width: 900,
+        height: 600,
+        alt: 'Ethiopian green coffee lots available for export - Yirgacheffe, Sidamo, Guji',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ethiopian Coffee for Export | Green Coffee Lots | Ethio Coffee',
+    description: 'Ethiopian coffee available for export: Yirgacheffe, Sidamo, Guji, Harar & Limu.',
+    images: ['/images/coffee-pack-1.webp'],
   }
 }
 
@@ -42,11 +57,7 @@ export default function OfferingsLayout({
           "availability": product.isSoldOut 
             ? "https://schema.org/OutOfStock" 
             : "https://schema.org/InStock",
-          "priceSpecification": {
-            "@type": "PriceSpecification",
-            "priceCurrency": "USD",
-            "price": "0"
-          },
+          "priceCurrency": "USD",
           "url": `https://www.ethiocoffee.et/product/${product.id}`
         }
       }

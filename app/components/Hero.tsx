@@ -10,11 +10,11 @@ const Hero = () => {
 
         <div id="hero-heading-wrapper" className='mx-auto flex w-full max-w-prose flex-col items-start justify-center lg:mx-0 lg:w-1/2 lg:max-w-none'>
           <h1 className='text-5xl lg:text-6xl leading-tight text-dark font-bold'>
-            ETHIOPIAN COFFEE
+            ETHIOPIAN COFFEE EXPORTER
           </h1>
-            <p className='text-dark/80 text-xs sm:text-sm tracking-wide mt-2 mb-4 leading-relaxed'>
-             Ethio Coffee - Direct, Traceable Specialty Green Coffee from Ethiopia
-            </p>
+            <h2 className='text-dark/80 text-xs sm:text-sm tracking-wide mt-2 mb-4 leading-relaxed'>
+             Ethio Coffee — Direct, Traceable Specialty Green Coffee from Ethiopia to Importers Worldwide
+            </h2>
 
             <div className='mt-6 text-dark lg:pr-20 leading-relaxed space-y-6'>
               <p className='max-w-[65ch]'>

@@ -4,7 +4,6 @@ import ResponsiveImage from '@/app/components/ResponsiveImage'
 import { HiOutlineCalendarDays } from 'react-icons/hi2'
 import { insightContentMap, hasContentFile } from '../content'
 import AutoScrollTo from '@/app/components/AutoScrollTo'
-import { Metadata } from 'next'
 
 type Props = {
   params: Promise<{
@@ -19,27 +18,8 @@ export async function generateStaticParams() {
   }))
 }
 
-// Generate metadata for SEO
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { insightId } = await params;
-  const post = posts.find(post => post.slug === insightId);
-  
-  if (!post) {
-    return {
-      title: 'Insight not found',
-    };
-  }
-
-  return {
-    title: post.title,
-    description: post.desc || `${post.title} - Ethiopian coffee insights and industry guidance`,
-    openGraph: {
-      title: post.title,
-      description: post.desc || `${post.title} - Ethiopian coffee insights`,
-      images: [`/images/${post.large_image_url}`],
-    },
-  };
-}
+// Metadata is generated in layout.tsx to avoid duplicate generateMetadata conflicts
+// layout.tsx provides the full metadata including canonical, keywords, OG article type, and publishedTime
 
 const Insight = async ({params}: Props) => {
   // Await params in server component

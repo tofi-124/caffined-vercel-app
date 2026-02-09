@@ -14,6 +14,21 @@ export const metadata: Metadata = {
     description:
       'Get a quote for Ethiopian green coffee. Request samples of Yirgacheffe, Sidamo, or Guji. Professional export service for importers.',
     url: 'https://www.ethiocoffee.et/contact-us',
+    type: 'website',
+    images: [
+      {
+        url: '/images/coffee-pack-1.webp',
+        width: 900,
+        height: 600,
+        alt: 'Request Ethiopian green coffee samples and pricing from Ethio Coffee',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Request Coffee Samples & Pricing | Ethio Coffee',
+    description: 'Get a quote for Ethiopian green coffee. Request samples of Yirgacheffe, Sidamo, or Guji.',
+    images: ['/images/coffee-pack-1.webp'],
   },
 }
 

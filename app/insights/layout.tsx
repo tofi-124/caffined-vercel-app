@@ -15,6 +15,21 @@ export const metadata: Metadata = {
     description:
       'Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends.',
     url: 'https://www.ethiocoffee.et/insights',
+    type: 'website',
+    images: [
+      {
+        url: '/images/coffee-pack-1.webp',
+        width: 900,
+        height: 600,
+        alt: 'Ethiopian coffee industry insights and sourcing guides by Ethio Coffee',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ethiopian Coffee Blog | Ethio Coffee',
+    description: 'Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends.',
+    images: ['/images/coffee-pack-1.webp'],
   },
 }
 

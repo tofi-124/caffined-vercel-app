@@ -75,7 +75,7 @@ const Navbar = () => {
                         <div className='relative w-36 h-11 lg:w-44 lg:h-14'>
                             <ResponsiveImage
                                 src='/images/new-logo.png'
-                                alt='ethio-coffee-logo'
+                                alt='Ethio Coffee - Ethiopian Coffee Exporter'
                                 fill
                                 sizes='(max-width: 1024px) 144px, 176px'
                                 objectFit='contain'
@@ -149,7 +149,7 @@ const Navbar = () => {
                                     <div className='relative w-28 h-10'>
                                         <ResponsiveImage
                                             src='/images/new-logo.png'
-                                            alt='ethio-coffee-logo'
+                                            alt='Ethio Coffee - Ethiopian Coffee Exporter'
                                             fill
                                             sizes='112px'
                                             objectFit='contain'

@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Oswald } from 'next/font/google'
+import { Oswald, Inconsolata } from 'next/font/google'
 import Navbar from './lib/Navbar'
 import Footer from './lib/Footer'
 import Script from 'next/script'
@@ -10,7 +10,14 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const oswald = Oswald({ 
   subsets: ['latin'],
-  display: 'swap'  // Improve font loading performance
+  display: 'swap',
+  variable: '--font-oswald',
+})
+
+const inconsolata = Inconsolata({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inconsolata',
 })
 
 export const metadata: Metadata = {
@@ -57,7 +64,7 @@ export default function RootLayout({
         <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href="/apple-icon.png" sizes="180x180" />
       </head>
-      <body className={`${oswald.className} bg-primary`}>
+      <body className={`${oswald.className} ${inconsolata.variable} bg-primary`}>
         <Script
           id="structured-data"
           type="application/ld+json"
@@ -160,55 +167,7 @@ export default function RootLayout({
             })
           }}
         />
-        {/* BreadcrumbList Schema */}
-        <Script
-          id="breadcrumb-schema"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Home",
-                  "item": "https://www.ethiocoffee.et"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Ethiopian Coffee Exporter",
-                  "item": "https://www.ethiocoffee.et/ethiopian-coffee-exporter"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Offerings",
-                  "item": "https://www.ethiocoffee.et/offerings"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "name": "Insights",
-                  "item": "https://www.ethiocoffee.et/insights"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 5,
-                  "name": "About",
-                  "item": "https://www.ethiocoffee.et/about"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 6,
-                  "name": "Contact",
-                  "item": "https://www.ethiocoffee.et/contact-us"
-                }
-              ]
-            })
-          }}
-        />
+        {/* BreadcrumbList Schema - removed: breadcrumbs should be hierarchical per-page, not flat site-wide */}
         <ScrollToTop />
         <Navbar />
         {children}
