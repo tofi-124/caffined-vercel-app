@@ -11,6 +11,40 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== PRICING & TRADE GUIDANCE =====
+    {
+      small_image_url: 'insights/rising-coffee-prices-2.webp',
+      large_image_url: 'insights/rising-coffee-prices-2.webp',
+      date: 'Feb 09, 2026',
+      title: 'ETHIOPIAN COFFEE PRICING FOR IMPORTERS: FOB COSTS, DIFFERENTIALS, AND WHAT DRIVES THE NUMBERS',
+      slug: 'ethiopian-coffee-pricing-fob-guide',
+      category: 'Trade Guidance / Pricing / Importers',
+      keywords: [
+        'ethiopian coffee price',
+        'ethiopian coffee price per kg',
+        'green coffee pricing',
+        'ethiopian coffee FOB price',
+        'how much does ethiopian coffee cost',
+        'coffee pricing for importers',
+        'FOB Djibouti price',
+        'ethiopian coffee differentials',
+        'C-market coffee price',
+        'coffee FOB vs CIF',
+        'ethiopian coffee export price',
+        'green coffee beans price per kg',
+        'buy ethiopian coffee wholesale',
+        'ethiopian coffee contract',
+        'coffee payment terms importers',
+        'ECX coffee price',
+        'yirgacheffe coffee price',
+        'guji coffee price',
+        'sidamo coffee price',
+        'ethiopian coffee landed cost',
+        'coffee fixed price contract',
+        'ethiopian coffee seasonal pricing'
+      ],
+      desc: 'Practical guide to Ethiopian green coffee pricing for importers: FOB Djibouti costs, C-market differentials, ECX auction dynamics, indicative price ranges by region and grade, shipping terms, contract types, payment methods, and seasonal buying strategies.'
+    },
     // ===== MARKET INTELLIGENCE & TRADE DATA =====
     {
       small_image_url: 'insights/ethiopian-coffee-importers-2024-2025.webp',
