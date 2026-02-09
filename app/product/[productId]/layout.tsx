@@ -110,6 +110,31 @@ export default async function ProductLayout({ params, children }: Props) {
     }
   } : null
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.ethiocoffee.et"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Offerings",
+        "item": "https://www.ethiocoffee.et/offerings"
+      },
+      ...(product ? [{
+        "@type": "ListItem",
+        "position": 3,
+        "name": product.name,
+        "item": `https://www.ethiocoffee.et/product/${product.id}`
+      }] : [])
+    ]
+  }
+
   return (
     <>
       {productSchema && (
@@ -119,6 +144,11 @@ export default async function ProductLayout({ params, children }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
         />
       )}
+      <Script
+        id={`product-breadcrumb-${productId}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {children}
     </>
   )

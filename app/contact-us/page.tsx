@@ -102,34 +102,11 @@ const WholesaleInquiryPage = () => {
     }
   }
   
-  const contactPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "mainEntity": {
-      "@type": "Organization",
-      "@id": "https://www.ethiocoffee.et/#organization",
-      "name": "Ethio Coffee Export PLC",
-      "email": "info@ethiocoffee.et",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Yesak Building, 3rd Floor, Office 301, Lideta",
-        "addressLocality": "Addis Ababa",
-        "addressCountry": "ET"
-      }
-    },
-    "specialty": "Coffee Export and Wholesale Inquiry"
-  }
-
   return (
     <main className='bg-primary'>
-      <Script
-        id="contact-page-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }}
-      />
       <header className='bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative'>
         <div className='absolute inset-0 bg-black/40'></div>
-        <h1 className='text-5xl md:text-6xl font-bold text-primary relative z-10 tracking-wide'>LET&apos;S WORK TOGETHER</h1>
+        <h1 className='text-4xl md:text-5xl font-bold text-primary relative z-10 tracking-wide text-center px-4'>Request Ethiopian Coffee Samples</h1>
         <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>Direct from Ethiopia to importers worldwide. Start your partnership today.</p>
       </header>
       

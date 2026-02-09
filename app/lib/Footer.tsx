@@ -2,27 +2,22 @@ import ResponsiveImage from '../components/ResponsiveImage'
 import { FaEnvelope, FaInstagram } from 'react-icons/fa'
 import Link from 'next/link'
 
-
-type Props = {
-  image_url: string
-}
-
 // Updated to show Ethiopian coffee farms/production
 const images = [
-  'insta-1.webp',
-  'insta-2.webp',
-  'insta-3.webp',
-  'insta-4.webp',
-  'insta-5.webp',
-  'insta-6.webp',
+  { src: 'insta-1.webp', alt: 'Ethiopian green coffee beans drying on raised beds' },
+  { src: 'insta-2.webp', alt: 'Specialty coffee harvest in Sidama, Ethiopia' },
+  { src: 'insta-3.webp', alt: 'Washed Ethiopian coffee processing at Yirgacheffe station' },
+  { src: 'insta-4.webp', alt: 'Grade 1 Ethiopian green coffee ready for export' },
+  { src: 'insta-5.webp', alt: 'Coffee cherry picking in Guji, Ethiopia' },
+  { src: 'insta-6.webp', alt: 'Ethio Coffee Export cupping session for quality control' },
 ]
 
-const InstaImage = ({image_url}: Props) => {
+const InstaImage = ({image_url, alt}: {image_url: string; alt: string}) => {
   return (
     <div className='relative w-full aspect-square overflow-hidden'>
       <ResponsiveImage
         src={`/images/${image_url}`}
-        alt={`Ethiopian green coffee export - specialty beans from Ethiopia by Ethio Coffee`}
+        alt={alt}
         fill
         objectFit='cover'
         sizes='(min-width: 1024px) 16.66vw, (min-width: 768px) 33vw, 100vw'
@@ -34,7 +29,7 @@ const InstaImage = ({image_url}: Props) => {
 const InstaImages = () => {
   return (
     <div id='insta-images' className='mb-16 w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6'>
-      {images.map((image, ind) => ( <InstaImage key={ind} image_url={image} /> ))}
+      {images.map((image, ind) => ( <InstaImage key={ind} image_url={image.src} alt={image.alt} /> ))}
     </div>
   )
 }
@@ -120,7 +115,11 @@ const Footer = () => {
       </div>
       </div>
       <div className='h-0.5 w-full bg-white/20' />
-        
+
+      <p className='py-6 text-center text-sm text-primary/70 max-w-3xl mx-auto leading-relaxed'>
+        Ethio Coffee Export PLC is a family-owned Ethiopian coffee exporter shipping specialty and commercial grade green coffee beans to roasters, importers, and distributors worldwide.
+      </p>
+
       <div className='py-8 text-center'>
         <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-primary/90">
           © 2026 Ethio Coffee Export PLC. All rights reserved.
@@ -130,6 +129,20 @@ const Footer = () => {
             className='underline underline-offset-4 hover:text-primary/80 transition-colors'
           >
             About Us
+          </Link>
+          <span className='text-primary/50'>|</span>
+          <Link
+            href='/offerings'
+            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
+          >
+            Offerings
+          </Link>
+          <span className='text-primary/50'>|</span>
+          <Link
+            href='/contact-us'
+            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
+          >
+            Contact Us
           </Link>
           <span className='text-primary/50'>|</span>
           <Link

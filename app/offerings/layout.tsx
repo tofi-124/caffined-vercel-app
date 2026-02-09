@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.ethiocoffee.et/offerings',
   },
   openGraph: {
-    title: 'Ethiopian Coffee for Export | Green Coffee Lots | Ethio Coffee',
+    title: 'Ethiopian Coffee for Export | Ethio Coffee',
     description: 'Ethiopian coffee available for export: Yirgacheffe, Sidamo, Guji, Harar & Limu. Grade 1-4 green coffee ready for export.',
     url: 'https://www.ethiocoffee.et/offerings',
     type: 'website',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethiopian Coffee for Export | Green Coffee Lots | Ethio Coffee',
+    title: 'Ethiopian Coffee for Export | Ethio Coffee',
     description: 'Ethiopian coffee available for export: Yirgacheffe, Sidamo, Guji, Harar & Limu.',
     images: ['/images/coffee-pack-1.webp'],
   }
@@ -64,12 +64,36 @@ export default function OfferingsLayout({
     }))
   }
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.ethiocoffee.et"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ethiopian Coffee Offerings",
+        "item": "https://www.ethiocoffee.et/offerings"
+      }
+    ]
+  }
+
   return (
     <>
       <Script
         id="offerings-itemlist-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+      <Script
+        id="offerings-breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {children}
     </>

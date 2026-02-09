@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Terms of Service | Ethio Coffee',
   description:
     'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
+  keywords: 'Ethio Coffee terms of service, Ethiopian coffee export terms, coffee business terms',
   alternates: {
     canonical: 'https://www.ethiocoffee.et/terms',
   },
@@ -15,6 +16,12 @@ export const metadata: Metadata = {
       'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
     url: 'https://www.ethiocoffee.et/terms',
     type: 'article',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Terms of Service | Ethio Coffee',
+    description:
+      'Terms of Service for Ethio Coffee Export PLC, covering website use, export inquiries, and B2B orders.',
   },
 }
 

@@ -5,62 +5,67 @@ import { newsArticles } from './data/news'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.ethiocoffee.et'
-  const now = new Date()
   
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-exporter`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'weekly',
       priority: 0.95,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: now,
+      lastModified: new Date('2025-05-01'),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/offerings`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: `${baseUrl}/ordering-info`,
-      lastModified: now,
+      lastModified: new Date('2025-05-01'),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/insights`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'weekly',
       priority: 0.7,
     },
     {
       url: `${baseUrl}/contact-us`,
-      lastModified: now,
+      lastModified: new Date('2025-05-01'),
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
       url: `${baseUrl}/ethiopia-coffee-export-news`,
-      lastModified: now,
+      lastModified: new Date('2025-06-01'),
       changeFrequency: 'weekly',
       priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: new Date('2025-01-01'),
+      changeFrequency: 'yearly',
+      priority: 0.3,
     },
   ]
 
   const productRoutes: MetadataRoute.Sitemap = offerings.map((o) => ({
     url: `${baseUrl}/product/${o.id}`,
-    lastModified: now,
+    lastModified: new Date('2025-06-01'),
     changeFrequency: 'weekly',
     priority: 0.8,
   }))
@@ -68,14 +73,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Insights detail pages use SEO-friendly slugs: /insights/ethio-coffee-canada-operations-launch, etc.
   const insightsRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${baseUrl}/insights/${post.slug}`,
-    lastModified: now,
+    lastModified: new Date(post.date),
     changeFrequency: 'monthly',
     priority: 0.6,
   }))
 
   const newsRoutes: MetadataRoute.Sitemap = newsArticles.map((article) => ({
     url: `${baseUrl}/ethiopia-coffee-export-news/${article.slug}`,
-    lastModified: now,
+    lastModified: new Date(article.date),
     changeFrequency: 'monthly',
     priority: 0.5,
   }))

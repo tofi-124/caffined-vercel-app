@@ -539,8 +539,9 @@ export default function OrderingInfoPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <AutoScrollTo targetId='faq-content' />
-      <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-bold text-primary text-center px-4'>ORDERING INFO & FAQ</h1>
+      <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center px-4'>
+        <h1 className='text-4xl md:text-5xl font-bold text-primary text-center'>How to Buy Ethiopian Green Coffee</h1>
+        <p className='text-primary/80 mt-3 text-sm tracking-widest uppercase text-center'>Ordering Guide &amp; Export FAQ</p>
       </header>
 
       {/* Two-column intro section matching About page style */}

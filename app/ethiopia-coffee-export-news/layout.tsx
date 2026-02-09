@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.ethiocoffee.et/ethiopia-coffee-export-news',
   },
   openGraph: {
-    title: 'Ethiopian Coffee Export News | Industry Updates | Ethio Coffee',
+    title: 'Ethiopian Coffee Export News | Ethio Coffee',
     description:
       'Latest news and updates from the Ethiopian coffee export industry.',
     url: 'https://www.ethiocoffee.et/ethiopia-coffee-export-news',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethiopian Coffee Export News | Industry Updates | Ethio Coffee',
+    title: 'Ethiopian Coffee Export News | Ethio Coffee',
     description: 'Latest news and updates from the Ethiopian coffee export industry.',
     images: ['/images/coffee-pack-1.webp'],
   },
