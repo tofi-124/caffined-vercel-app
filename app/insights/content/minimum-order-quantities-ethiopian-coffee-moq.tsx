@@ -1094,6 +1094,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           <div>
             <h5 className='font-semibold mb-2 text-sm'>Trade & Economics</h5>
             <ul className='space-y-1.5 text-sm'>
+              <li><Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>→ Ethiopian Coffee Exporter</Link></li>
               <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>→ Coffee Prices Explained</Link></li>
               <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>→ Understanding ECX</Link></li>
               <li><Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>→ Ethiopia-China Partnership</Link></li>

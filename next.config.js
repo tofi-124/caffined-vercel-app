@@ -36,6 +36,11 @@ const nextConfig = {
         destination: '/offerings',
         permanent: true,
       },
+      {
+        source: '/ethiopian-coffee-export',
+        destination: '/ethiopian-coffee-exporter',
+        permanent: true,
+      },
       // Redirect old numeric insight URLs to new slug-based URLs
       {
         source: '/insights/0',

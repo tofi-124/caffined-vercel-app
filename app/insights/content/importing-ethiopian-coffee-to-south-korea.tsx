@@ -996,6 +996,11 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
         <h4 className='font-bold text-lg mb-4'>Related Articles</h4>
         <ul className='space-y-2 text-sm'>
           <li>
+            <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>
+              → Ethiopian Coffee Exporter: Your Trusted Export Partner
+            </Link>
+          </li>
+          <li>
             <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>
               → Importing Ethiopian Coffee to Japan: Complete Market Entry Guide
             </Link>

@@ -147,6 +147,13 @@ const Footer = () => {
           </Link>
           <span className='text-primary/50'>|</span>
           <Link
+            href='/ethiopian-coffee-exporter'
+            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
+          >
+            Ethiopian Coffee Exporter
+          </Link>
+          <span className='text-primary/50'>|</span>
+          <Link
             href='/terms'
             className='underline underline-offset-4 hover:text-primary/80 transition-colors'
           >

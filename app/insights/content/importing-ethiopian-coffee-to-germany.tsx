@@ -654,6 +654,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Trade & Logistics</h4>
             <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>Ethiopian Coffee Exporter</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding ECX</Link></li>
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
               <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Coffee Prices Explained</Link></li>
@@ -675,7 +676,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
           <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Germany and the European Union EU food safety regulations, BVL compliance, German customs procedures, Kaffeesteuer (coffee tax), Form A GSP+ duty-free treatment, shipping to Hamburg port, bonded warehouse strategies, cost analysis, German business culture, and partnering with Ethio Coffee Export for successful German/EU market entry.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

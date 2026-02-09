@@ -1087,6 +1087,11 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         <h4 className='font-bold text-lg mb-4'>Related Articles</h4>
         <ul className='space-y-2 text-sm'>
           <li>
+            <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>
+              → Ethiopian Coffee Exporter: Your Trusted Export Partner
+            </Link>
+          </li>
+          <li>
             <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>
               → Coffee Is a Plant: Understanding Taxonomy, Species & Varieties
             </Link>

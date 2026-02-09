@@ -990,6 +990,11 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         <h4 className='font-bold text-lg mb-4'>Related Articles</h4>
         <ul className='space-y-2 text-sm'>
           <li>
+            <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>
+              → Ethiopian Coffee Exporter: Your Trusted Export Partner
+            </Link>
+          </li>
+          <li>
             <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>
               → Importing Ethiopian Coffee to Germany: Complete EU Market Entry Guide
             </Link>

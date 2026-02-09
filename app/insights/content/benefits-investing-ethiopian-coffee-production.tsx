@@ -594,7 +594,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Established exporters:</span> Companies like <Link href="/" className="text-primary hover:underline font-semibold">Ethio Coffee Export PLC</Link> provide market access, regulatory expertise, and operational infrastructure</li>
+        <li><span className='font-bold'>Established exporters:</span> Companies like <Link href="/ethiopian-coffee-exporter" className="text-primary hover:underline font-semibold">Ethio Coffee Export PLC</Link> provide market access, regulatory expertise, and operational infrastructure</li>
         <li><span className='font-bold'>Agricultural consultants:</span> Local agronomists and coffee specialists ensure proper farming practices</li>
         <li><span className='font-bold'>Legal advisors:</span> Ethiopian business law firms navigate regulatory requirements</li>
         <li><span className='font-bold'>Financial partners:</span> Local banks and international development finance institutions provide capital and risk mitigation</li>
@@ -672,6 +672,11 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       <div className='mt-8 pt-6 border-t border-gray-200'>
         <h4 className='font-bold text-lg mb-3'>Related Articles</h4>
         <ul className='space-y-2'>
+          <li>
+            <Link href="/ethiopian-coffee-exporter" className='text-amber-700 hover:underline'>
+              Ethiopian Coffee Exporter: Your Trusted Export Partner
+            </Link>
+          </li>
           <li>
             <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-amber-700 hover:underline'>
               Understanding the Ethiopia Commodity Exchange (ECX) and Coffee Export

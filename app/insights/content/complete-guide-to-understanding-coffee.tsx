@@ -1277,6 +1277,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       <div className='border border-gray-200 rounded-lg p-4 my-6 hover:border-amber-400 transition-colors'>
         <h4 className='font-bold mb-2'>Quality & Sourcing</h4>
         <ul className='space-y-1 text-sm grid md:grid-cols-2 gap-x-4'>
+          <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
           <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 hover:underline'>New SCA Coffee Value Assessment</Link></li>
           <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 hover:underline'>Ethiopia Commodity Exchange (ECX) Guide</Link></li>
           <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 hover:underline'>Green Coffee Quality Control & Grading</Link></li>

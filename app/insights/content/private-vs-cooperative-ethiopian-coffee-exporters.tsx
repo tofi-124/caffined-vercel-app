@@ -591,6 +591,16 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
             </p>
             <p className='text-sm text-gray-600'>Complete guide to EU Deforestation Regulation requirements for Ethiopian coffee exporters</p>
           </Link>
+          <Link 
+            href="/ethiopian-coffee-exporter" 
+            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
+          >
+            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
+              <HiOutlineGlobeAlt className='text-xl' />
+              Ethiopian Coffee Exporter
+            </p>
+            <p className='text-sm text-gray-600'>Your trusted Ethiopian coffee export partner — specialty Arabica from Yirgacheffe, Sidamo, Guji & more</p>
+          </Link>
         </div>
       </div>
     </>

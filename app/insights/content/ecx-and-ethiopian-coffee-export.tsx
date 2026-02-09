@@ -356,6 +356,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Trade & Quality</h4>
             <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>Ethiopian Coffee Exporter</Link></li>
               <li>• <Link href='/insights/top-ethiopian-coffee-importers-buyers-2024-2025' className='text-amber-700 hover:underline'>Top Ethiopian Coffee Importers 2024/2025</Link></li>
               <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Quality Control</Link></li>
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities (MOQ)</Link></li>
@@ -373,7 +374,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
           <span className='font-bold'>About This Insight:</span> This guide explains the Ethiopia Commodity Exchange (ECX) system, its role in Ethiopian coffee export, grading standards, traceability, and what international buyers need to know when sourcing from ECX-registered suppliers.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

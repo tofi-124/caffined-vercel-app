@@ -988,6 +988,10 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
       <section className='my-8'>
         <h3 className='text-2xl font-bold text-dark mb-4'>Related Resources for Ethiopian Coffee Exporters</h3>
         <div className='grid md:grid-cols-2 gap-4'>
+          <Link href='/ethiopian-coffee-exporter' className='p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors'>
+            <h4 className='font-bold text-dark mb-2'>Ethiopian Coffee Exporter</h4>
+            <p className='text-sm text-gray-600'>Your trusted Ethiopian coffee export partner for specialty Arabica from all major origins</p>
+          </Link>
           <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors'>
             <h4 className='font-bold text-dark mb-2'>Navigating 2026: Ethiopian Specialty Coffee Exporters</h4>
             <p className='text-sm text-gray-600'>Understanding how to position your Ethiopian export business for specialty buyers</p>

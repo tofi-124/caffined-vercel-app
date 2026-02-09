@@ -456,6 +456,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
       <div className='bg-gray-50 p-6 rounded-lg my-6'>
         <h4 className='font-bold text-lg mb-3'>Related Resources:</h4>
         <ul className='space-y-2 text-sm'>
+          <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 underline'>Ethiopian Coffee Exporter — Ethio Coffee Export PLC</Link></li>
           <li>• <Link href="https://sca.coffee/value-assessment" className='text-blue-600 underline' target='_blank'>Official SCA Coffee Value Assessment Page</Link></li>
           <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 underline'>Understanding the Ethiopia Commodity Exchange (ECX)</Link></li>
           <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 underline'>Green Coffee Quality Control: Defects, Grading Systems & What Importers Should Inspect</Link></li>

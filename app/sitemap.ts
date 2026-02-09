@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/ethiopian-coffee-export`,
+      url: `${baseUrl}/ethiopian-coffee-exporter`,
       lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.95,

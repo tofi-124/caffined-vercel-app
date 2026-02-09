@@ -178,8 +178,8 @@ export default function RootLayout({
                 {
                   "@type": "ListItem",
                   "position": 2,
-                  "name": "Ethiopian Coffee Export",
-                  "item": "https://www.ethiocoffee.et/ethiopian-coffee-export"
+                  "name": "Ethiopian Coffee Exporter",
+                  "item": "https://www.ethiocoffee.et/ethiopian-coffee-exporter"
                 },
                 {
                   "@type": "ListItem",
