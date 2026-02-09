@@ -117,11 +117,12 @@ const InsightsPage = () => {
 
   return (
     <main className='bg-primary'>
-      <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-bold text-primary'>INSIGHTS</h1>
+      <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center px-4'>
+        <h1 className='text-4xl md:text-5xl font-bold text-primary text-center'>Ethiopian Coffee Insights</h1>
+        <p className='text-primary/80 mt-3 text-sm tracking-widest uppercase text-center'>Sourcing Guides, Industry Trends &amp; Expert Analysis</p>
       </header>
       <section ref={postsRef} className='flex flex-col justify-center items-center bg-primary pb-16 pt-12'>
-        <p ref={subtitleRef} className='text-gray-600 max-w-2xl text-center mb-12 px-4'>Insights and stories from the world of Ethiopian coffee</p>
+        <p ref={subtitleRef} className='text-gray-600 max-w-2xl text-center mb-12 px-4'>Expert guides on Ethiopian coffee sourcing, processing methods, flavor profiles, FOB pricing, and export logistics for importers and specialty roasters worldwide.</p>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 px-4">
           {pagedPosts.map(({ post, id }) => (
             <Post key={id} {...post} slug={post.slug || ''} />

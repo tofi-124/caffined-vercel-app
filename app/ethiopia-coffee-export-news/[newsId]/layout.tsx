@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${article.title} | Ethio Coffee`,
     description: article.desc.substring(0, 160),
-    keywords: 'Ethiopian coffee news, coffee export news, Ethiopian coffee industry, Ethiopian coffee market',
+    keywords: article.keywords || 'Ethiopian coffee news, coffee export news, Ethiopian coffee industry, Ethiopian coffee market',
     alternates: {
       canonical: `https://www.ethiocoffee.et/ethiopia-coffee-export-news/${article.slug}`,
     },
@@ -68,6 +68,12 @@ export default async function NewsArticleLayout({
     "description": article.desc,
     "datePublished": new Date(article.date).toISOString(),
     "dateModified": new Date(article.date).toISOString(),
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://www.ethiocoffee.et/images/coffee-pack-1.webp",
+      "width": 900,
+      "height": 600
+    },
     "author": {
       "@type": "Organization",
       "name": "Ethio Coffee",
@@ -88,12 +94,41 @@ export default async function NewsArticleLayout({
     ...(article.source ? { "sourceOrganization": { "@type": "Organization", "name": article.source } } : {})
   }
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.ethiocoffee.et"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ethiopian Coffee Export News",
+        "item": "https://www.ethiocoffee.et/ethiopia-coffee-export-news"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": article.title
+      }
+    ]
+  }
+
   return (
     <>
       <Script
         id="news-article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(newsArticleSchema) }}
+      />
+      <Script
+        id="news-breadcrumb-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {children}
     </>

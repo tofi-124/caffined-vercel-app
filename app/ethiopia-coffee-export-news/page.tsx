@@ -95,14 +95,14 @@ const NewsPage = () => {
 
   return (
     <main className='bg-primary'>
-      <header className='bg-dark w-full py-20 flex flex-col items-center justify-center'>
-        <h1 className='text-5xl font-bold text-primary'>NEWS</h1>
-        <p className='text-primary/70 mt-3 text-sm tracking-widest uppercase'>Ethiopian Coffee Export Industry</p>
+      <header className='bg-dark w-full py-20 flex flex-col items-center justify-center px-4'>
+        <h1 className='text-4xl md:text-5xl font-bold text-primary text-center'>Ethiopian Coffee Export News</h1>
+        <p className='text-primary/70 mt-3 text-sm tracking-widest uppercase text-center'>Industry Updates, Trade Events &amp; Market Developments</p>
       </header>
 
       <section ref={postsRef as any} className='flex flex-col justify-center items-center bg-primary pb-16 pt-12'>
         <p ref={subtitleRef} className='text-gray-600 max-w-2xl text-center mb-12 px-4'>
-          Latest news and updates from the Ethiopian coffee export industry
+          Stay up to date with the latest Ethiopian coffee export industry news, including policy changes from the Ethiopian Coffee and Tea Authority, African coffee trade events, pricing trends, and new regulations affecting Ethiopian green coffee exporters and importers.
         </p>
 
         <div className='w-full max-w-3xl px-4 space-y-8'>
