@@ -25,7 +25,6 @@ const NavLinks = ({ position, mobile, onLinkClick }: NavLinksProps) => {
     { name: 'Home', path: '/' },
     { name: 'Offerings', path: '/offerings' },
     { name: 'How To Buy', path: '/ordering-info' },
-    { name: 'Why Us', path: '/ethiopian-coffee-exporter' },
   ]
 
   const rightLinks: NavLink[] = [
