@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
 import AutoScrollTo from '../components/AutoScrollTo'
-import { HiOutlineGlobeAmericas, HiOutlineDocumentCheck, HiOutlineTruck, HiOutlineShieldCheck, HiOutlineCube, HiOutlineBeaker, HiOutlineChatBubbleLeftRight, HiOutlineClipboardDocumentCheck } from 'react-icons/hi2'
+import { HiOutlineGlobeAmericas, HiOutlineDocumentCheck, HiOutlineTruck, HiOutlineShieldCheck, HiOutlineCube, HiOutlineBeaker, HiOutlineChatBubbleLeftRight, HiOutlineClipboardDocumentCheck, HiOutlineShoppingBag, HiOutlineClipboardDocumentList, HiOutlineUsers, HiOutlineNewspaper, HiOutlineEnvelope } from 'react-icons/hi2'
 import { GiCoffeeBeans } from 'react-icons/gi'
 
 const exportRegions = [
@@ -760,26 +760,86 @@ const EthiopianCoffeeExporter = () => {
       </section>
 
       {/* Related Links / Internal Linking */}
-      <section className='py-16 bg-stone-100'>
-        <div className='container mx-auto px-4'>
-          <h2 className='text-2xl font-bold text-dark mb-8 text-center'>
+      <section className='py-20 bg-gradient-to-b from-stone-100 to-stone-200'>
+        <div className='container mx-auto px-4 max-w-5xl'>
+          <h2 className='text-3xl font-bold text-dark mb-4 text-center'>
             Explore More About Ethiopian Coffee Export
           </h2>
-          <div className='flex flex-wrap justify-center gap-6'>
-            <Link href='/offerings' className='text-accent hover:underline font-semibold'>
-              Current Coffee Offerings →
+          <p className='text-center text-gray-500 text-sm mb-10'>
+            Dive deeper into our processes, offerings, and the stories behind every bean.
+          </p>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'>
+            <Link
+              href='/offerings'
+              className='group flex items-center gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md border border-stone-200 hover:border-accent transition-all duration-200'
+            >
+              <span className='flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center text-lg group-hover:bg-accent group-hover:text-white transition-colors duration-200'>
+                <HiOutlineShoppingBag className='w-5 h-5' />
+              </span>
+              <span>
+                <span className='block font-semibold text-dark group-hover:text-accent transition-colors'>Current Coffee Offerings</span>
+                <span className='block text-xs text-gray-400 mt-0.5'>Browse available lots &amp; grades</span>
+              </span>
             </Link>
-            <Link href='/ordering-info' className='text-accent hover:underline font-semibold'>
-              How To Buy & Export FAQ →
+            <Link
+              href='/ordering-info'
+              className='group flex items-center gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md border border-stone-200 hover:border-accent transition-all duration-200'
+            >
+              <span className='flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center text-lg group-hover:bg-accent group-hover:text-white transition-colors duration-200'>
+                <HiOutlineClipboardDocumentList className='w-5 h-5' />
+              </span>
+              <span>
+                <span className='block font-semibold text-dark group-hover:text-accent transition-colors'>How To Buy &amp; Export FAQ</span>
+                <span className='block text-xs text-gray-400 mt-0.5'>Ordering, shipping &amp; logistics</span>
+              </span>
             </Link>
-            <Link href='/about' className='text-accent hover:underline font-semibold'>
-              Our Family Story →
+            <Link
+              href='/about'
+              className='group flex items-center gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md border border-stone-200 hover:border-accent transition-all duration-200'
+            >
+              <span className='flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center text-lg group-hover:bg-accent group-hover:text-white transition-colors duration-200'>
+                <HiOutlineUsers className='w-5 h-5' />
+              </span>
+              <span>
+                <span className='block font-semibold text-dark group-hover:text-accent transition-colors'>Our Family Story</span>
+                <span className='block text-xs text-gray-400 mt-0.5'>Three generations of coffee heritage</span>
+              </span>
             </Link>
-            <Link href='/insights' className='text-accent hover:underline font-semibold'>
-              Coffee Industry Insights →
+            <Link
+              href='/insights'
+              className='group flex items-center gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md border border-stone-200 hover:border-accent transition-all duration-200'
+            >
+              <span className='flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center text-lg group-hover:bg-accent group-hover:text-white transition-colors duration-200'>
+                <HiOutlineNewspaper className='w-5 h-5' />
+              </span>
+              <span>
+                <span className='block font-semibold text-dark group-hover:text-accent transition-colors'>Coffee Industry Insights</span>
+                <span className='block text-xs text-gray-400 mt-0.5'>Guides, trends &amp; market analysis</span>
+              </span>
             </Link>
-            <Link href='/contact-us' className='text-accent hover:underline font-semibold'>
-              Contact Our Export Team →
+            <Link
+              href='/ethiopia-coffee-export-news'
+              className='group flex items-center gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md border border-stone-200 hover:border-accent transition-all duration-200'
+            >
+              <span className='flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center text-lg group-hover:bg-accent group-hover:text-white transition-colors duration-200'>
+                <HiOutlineGlobeAmericas className='w-5 h-5' />
+              </span>
+              <span>
+                <span className='block font-semibold text-dark group-hover:text-accent transition-colors'>Ethiopia Coffee Export News</span>
+                <span className='block text-xs text-gray-400 mt-0.5'>Latest industry updates &amp; developments</span>
+              </span>
+            </Link>
+            <Link
+              href='/contact-us'
+              className='group flex items-center gap-4 bg-white rounded-xl p-5 shadow-sm hover:shadow-md border border-stone-200 hover:border-accent transition-all duration-200'
+            >
+              <span className='flex-shrink-0 w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center text-lg group-hover:bg-accent group-hover:text-white transition-colors duration-200'>
+                <HiOutlineEnvelope className='w-5 h-5' />
+              </span>
+              <span>
+                <span className='block font-semibold text-dark group-hover:text-accent transition-colors'>Contact Our Export Team</span>
+                <span className='block text-xs text-gray-400 mt-0.5'>Get a quote or ask a question</span>
+              </span>
             </Link>
           </div>
         </div>

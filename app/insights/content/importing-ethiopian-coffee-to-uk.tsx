@@ -17,8 +17,15 @@ import {
   HiOutlineArrowTrendingUp,
   HiOutlineLightBulb,
   HiOutlineClock,
-  HiOutlineMagnifyingGlass
+  HiOutlineMagnifyingGlass,
+  HiOutlineChartBarSquare,
+  HiOutlineUsers,
+  HiOutlineBuildingStorefront,
+  HiOutlineGlobeAmericas,
+  HiOutlineHandThumbUp,
+  HiOutlineDevicePhoneMobile
 } from 'react-icons/hi2'
+import { GiCoffeeBeans } from 'react-icons/gi'
 
 type InsightContentProps = {
   title: string
@@ -119,13 +126,13 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
       <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
         <h5 className='font-bold mb-3'>UK Coffee Market Statistics</h5>
         <ul className='space-y-2 text-sm'>
-          <li>📊 <span className='font-bold'>Market Size:</span> £4+ billion coffee market (2024-2026)</li>
-          <li>☕ <span className='font-bold'>Consumption:</span> 98+ million cups consumed daily in the UK</li>
-          <li>🏪 <span className='font-bold'>Coffee Shops:</span> 30,000+ coffee shops nationwide (growing 6% annually)</li>
-          <li>📈 <span className='font-bold'>Specialty Growth:</span> Specialty coffee segment growing 10-15% annually</li>
-          <li>👥 <span className='font-bold'>Demographics:</span> 67 million population, 84% urbanized, strong coffee culture in London, Manchester, Edinburgh, Bristol</li>
-          <li>💰 <span className='font-bold'>Spending:</span> Average Brit spends £500+ annually on coffee (higher in urban areas)</li>
-          <li>🌍 <span className='font-bold'>Import Volume:</span> 120,000+ tons of green coffee annually (Europe's 5th largest importer)</li>
+          <li><span className='inline-flex items-center gap-1'><HiOutlineChartBarSquare className='w-4 h-4 text-blue-600 flex-shrink-0' /></span> <span className='font-bold'>Market Size:</span> £4+ billion coffee market (2024-2026)</li>
+          <li><span className='inline-flex items-center gap-1'><GiCoffeeBeans className='w-4 h-4 text-blue-600 flex-shrink-0' /></span> <span className='font-bold'>Consumption:</span> 98+ million cups consumed daily in the UK</li>
+          <li><span className='inline-flex items-center gap-1'><HiOutlineBuildingStorefront className='w-4 h-4 text-blue-600 flex-shrink-0' /></span> <span className='font-bold'>Coffee Shops:</span> 30,000+ coffee shops nationwide (growing 6% annually)</li>
+          <li><span className='inline-flex items-center gap-1'><HiOutlineArrowTrendingUp className='w-4 h-4 text-blue-600 flex-shrink-0' /></span> <span className='font-bold'>Specialty Growth:</span> Specialty coffee segment growing 10-15% annually</li>
+          <li><span className='inline-flex items-center gap-1'><HiOutlineUsers className='w-4 h-4 text-blue-600 flex-shrink-0' /></span> <span className='font-bold'>Demographics:</span> 67 million population, 84% urbanized, strong coffee culture in London, Manchester, Edinburgh, Bristol</li>
+          <li><span className='inline-flex items-center gap-1'><HiOutlineCurrencyDollar className='w-4 h-4 text-blue-600 flex-shrink-0' /></span> <span className='font-bold'>Spending:</span> Average Brit spends £500+ annually on coffee (higher in urban areas)</li>
+          <li><span className='inline-flex items-center gap-1'><HiOutlineGlobeAmericas className='w-4 h-4 text-blue-600 flex-shrink-0' /></span> <span className='font-bold'>Import Volume:</span> 120,000+ tons of green coffee annually (Europe's 5th largest importer)</li>
         </ul>
       </div>
 
@@ -424,7 +431,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
       </div>
 
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
-        <h5 className='font-bold mb-3'>🎉 UK VAT Zero-Rating for Green Coffee</h5>
+        <h5 className='font-bold mb-3 flex items-center gap-2'><HiOutlineHandThumbUp className='text-green-600' /> UK VAT Zero-Rating for Green Coffee</h5>
         <p className='text-sm mb-3'>
           Green coffee imported for commercial use is <span className='font-bold'>zero-rated for VAT</span>:
         </p>
@@ -923,17 +930,17 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
 
       <div className='space-y-4 my-6'>
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2'>📋 Get EORI & Registrations Sorted Early</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineClipboardDocumentList className='text-blue-600' /> Get EORI & Registrations Sorted Early</h5>
           <p className='text-sm'>Don't wait until you're ready to import. Get your UK EORI, food business registration, and VAT registration (if applicable) sorted weeks before your first shipment. Delays in registration mean delays in clearance.</p>
         </div>
 
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2'>🤝 Use Experienced Customs Brokers</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineUsers className='text-green-600' /> Use Experienced Customs Brokers</h5>
           <p className='text-sm'>First-time UK importers should partner with customs brokers experienced in coffee and post-Brexit procedures. They handle CDS declarations, liaise with HMRC, and ensure smooth clearance. Worth the £50-150 fee.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2'>📱 Tell the Ethiopian Story</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineDevicePhoneMobile className='text-amber-600' /> Tell the Ethiopian Story</h5>
           <p className='text-sm'>UK consumers love origin stories, transparency, and connection to farmers. Invest in storytelling, photography from origin, farm-level information. This differentiates you in competitive UK market.</p>
         </div>
 

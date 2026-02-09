@@ -132,7 +132,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           <ul className='space-y-1 text-sm'>
             <li>• <span className='font-bold'>Cattle</span> (beef, leather)</li>
             <li>• <span className='font-bold'>Cocoa</span></li>
-            <li>• <span className='font-bold'>Coffee</span> ☕ (Relevant to Ethiopia)</li>
+            <li>• <span className='font-bold'>Coffee</span> (Relevant to Ethiopia)</li>
             <li>• <span className='font-bold'>Oil palm</span> (palm oil)</li>
             <li>• <span className='font-bold'>Rubber</span></li>
             <li>• <span className='font-bold'>Soya</span></li>

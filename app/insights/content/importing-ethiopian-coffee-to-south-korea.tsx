@@ -930,32 +930,32 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
 
       <div className='space-y-4 my-6'>
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2'>📋 Start with Smaller Test Orders</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineClipboardDocumentList className='text-blue-600' /> Start with Smaller Test Orders</h5>
           <p className='text-sm'>Begin with shared container space (5-10 bags) to test market demand before committing to full containers. Many Korean importers offer consolidation services.</p>
         </div>
 
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2'>🤝 Work with Experienced Customs Brokers</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineUsers className='text-green-600' /> Work with Experienced Customs Brokers</h5>
           <p className='text-sm'>First-time importers should partner with customs brokers experienced in coffee imports. They handle MFDS pre-reports, Korean translations, and UNI-PASS declarations efficiently.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2'>📱 Invest in Marketing & Storytelling</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineDevicePhoneMobile className='text-amber-600' /> Invest in Marketing & Storytelling</h5>
           <p className='text-sm'>Korean consumers respond to origin stories, farmer narratives, and transparency. Invest in Korean-language marketing materials, Instagram content, and packaging that tells the Ethiopian coffee story.</p>
         </div>
 
         <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h5 className='font-bold mb-2'>🎯 Target the Right Segment</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineStar className='text-purple-600' /> Target the Right Segment</h5>
           <p className='text-sm'>Ethiopian coffee performs best in specialty segment (independent cafes, specialty retailers, online) rather than mass market. Focus on quality-conscious customers willing to pay premium.</p>
         </div>
 
         <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
-          <h5 className='font-bold mb-2'>⏱️ Plan for Seasonality</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineClock className='text-red-600' /> Plan for Seasonality</h5>
           <p className='text-sm'>Ethiopian harvest season (October-February) means fresher arrival times if you order November-March. Plan inventory to maintain freshness for Korean consumers who highly value recently-harvested coffee.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-2'>🔍 Get Your Documentation Right</h5>
+          <h5 className='font-bold mb-2 flex items-center gap-2'><HiOutlineMagnifyingGlass className='text-gray-600' /> Get Your Documentation Right</h5>
           <p className='text-sm'>MFDS delays or rejections are almost always due to incomplete or incorrect documentation. Triple-check all certificates, ensure Korean translations are accurate, and maintain digital backups.</p>
         </div>
       </div>
