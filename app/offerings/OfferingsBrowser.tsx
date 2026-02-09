@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useEffect, useMemo, useRef, useState } from 'react'
+import Link from 'next/link'
 import OfferingsResultsList from '../components/OfferingsResultsList'
 import { offerings, Offering } from '../data/offerings'
 import { generateMultipleProductsPDF } from '../lib/pdfGenerator'
@@ -503,6 +504,13 @@ const OfferingsBrowser = () => {
               </div>
             )}
           </div>
+        </div>
+
+        <div className='bg-stone-50 border border-gray-200 rounded-lg p-5 mb-8 flex flex-wrap items-center justify-between gap-4'>
+          <p className='text-gray-700 text-sm'>
+            Ready to order? <Link href='/contact-us' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Request a quote</Link> or read our <Link href='/ordering-info' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>ordering FAQ</Link> for MOQs, shipping, and payment details.
+            New to Ethiopian coffee? Start with our <Link href='/insights/guide-ethiopian-coffee-origins' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>guide to Ethiopian coffee origins</Link>.
+          </p>
         </div>
       </div>
     </section>

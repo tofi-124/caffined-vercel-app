@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -18,7 +20,7 @@ export default function TeaSeedlingTrainingGewata({ title, date, source }: NewsC
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
-          The Southwestern Ethiopian People's Regional State Government Coffee, Tea and Spices Authority provided training to farmers and agricultural experts at the Boginda Tea Seedling Preparation Station in Gewata Woreda, Kafa Zone. The training aimed to create awareness on acclimatizing prepared tea seedlings to the outside air before planting, caring for them, and transporting them to farmers' fields after acclimatization — covering field preparation, planting and harvesting.
+          The Southwestern Ethiopian People’s Regional State Government Coffee, Tea and Spices Authority provided training to farmers and agricultural experts at the Boginda Tea Seedling Preparation Station in Gewata Woreda, Kafa Zone. The training aimed to create awareness on acclimatizing prepared tea seedlings to the outside air before planting, caring for them, and transporting them to farmers’ fields after acclimatization, covering field preparation, planting and harvesting.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -26,7 +28,7 @@ export default function TeaSeedlingTrainingGewata({ title, date, source }: NewsC
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
-          The Regional Coffee, Tea and Spices Authority Director General, Ato Asrat Mekuria, said that to realize rural transformation it is necessary to identify local potential and convert it into results — producing goods that are not only consumed locally but also supplied to central and foreign markets in large quantities and with quality. He emphasized the Tea Leaf Initiative launched in the region and urged using the favorable climate, rainfall distribution and suitable land in the zone appropriately.
+          The Regional Coffee, Tea and Spices Authority Director General, Ato Asrat Mekuria, said that to realize rural transformation it is necessary to identify local potential and convert it into results, producing goods that are not only consumed locally but also supplied to central and foreign markets in large quantities and with quality. He emphasized the Tea Leaf Initiative launched in the region and urged using the favorable climate, rainfall distribution and suitable land in the zone appropriately.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -36,6 +38,14 @@ export default function TeaSeedlingTrainingGewata({ title, date, source }: NewsC
         <p className='text-gray-700 text-sm leading-relaxed'>
           Trainers said the new initiative will fill existing awareness and skill gaps. In his welcoming message, the Chief Administrator of Gewata Woreda, Ato Argaw Haile, thanked the Regional Agriculture Bureau for supporting the initiative. The training was attended by the Deputy Director of the Regional Coffee, Tea and Spices Authority, Ato Belay Kojab, kebele chief administrators, agricultural experts, nursery coordinators and stakeholders from eight kebeles where planting will take place.
         </p>
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/insights/selective-coffee-harvesting' className='text-blue-600 hover:underline'>Selective Coffee Harvesting</Link></li>
+          <li><Link href='/offerings' className='text-blue-600 hover:underline'>View Our Ethiopian Coffee Offerings</Link></li>
+        </ul>
       </div>
 
       {source && (

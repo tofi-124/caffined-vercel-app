@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useEffect, useState, useRef } from 'react'
+import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
 import Script from 'next/script'
 
@@ -180,6 +181,21 @@ const WholesaleInquiryPage = () => {
               className='rounded-md shadow-lg'
             />
           </div>
+        </div>
+
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mb-16 max-w-4xl mx-auto'>
+          <Link href='/offerings' className='bg-white border border-gray-200 rounded-lg p-5 text-center hover:border-accent hover:shadow-md transition-all'>
+            <p className='font-bold text-dark mb-1'>View Available Lots</p>
+            <p className='text-sm text-gray-600'>Browse our current specialty Ethiopian coffee offerings</p>
+          </Link>
+          <Link href='/ordering-info' className='bg-white border border-gray-200 rounded-lg p-5 text-center hover:border-accent hover:shadow-md transition-all'>
+            <p className='font-bold text-dark mb-1'>How to Order</p>
+            <p className='text-sm text-gray-600'>MOQs, shipping, payment terms, and FAQs</p>
+          </Link>
+          <Link href='/about' className='bg-white border border-gray-200 rounded-lg p-5 text-center hover:border-accent hover:shadow-md transition-all'>
+            <p className='font-bold text-dark mb-1'>About Us</p>
+            <p className='text-sm text-gray-600'>Our story, family legacy, and export capabilities</p>
+          </Link>
         </div>
 
         <div className='max-w-3xl mx-auto my-16'>

@@ -80,7 +80,7 @@ const About = () => {
             <div className='flex flex-col justify-center'>
               <h3 className='text-4xl font-extrabold text-dark mb-6'>FROM ETHIOPIA’S ROADS TO THE WORLD’S CUP</h3>
               <p className='mb-4 text-lg leading-relaxed'>
-                Ethio Coffee Export is a partner producer and Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
+                Ethio Coffee Export is a partner producer and <Link href='/ethiopian-coffee-exporter' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Ethiopian coffee exporter</Link> connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
               </p>
               <p className='text-lg leading-relaxed'>
                 Established in 2022, our roots trace back to our father's lifetime of hands-on work in Ethiopian coffee regions. He dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the commodity market. That experience shaped our mission: to ensure the value stays where it belongs with the growers, while serving as the trusted partner importers rely on for consistent quality, transparent sourcing, and professional service.
@@ -117,6 +117,9 @@ const About = () => {
                   <span className='font-bold'>Importer-Focused Service:</span> From sample programs and tailored offers to export documentation and shipping coordination, we make sourcing Ethiopian coffee straightforward for importers worldwide.
                 </li>
               </ul>
+              <p className='mt-6'>
+                Browse our <Link href='/offerings' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>current Ethiopian coffee offerings</Link> or <Link href='/contact-us' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>get in touch</Link> to discuss your requirements.
+              </p>
             </div>
 
             {/* Image 3 */}
@@ -161,7 +164,7 @@ const About = () => {
             {/* Intro Text (desktop) */}
             <div className='flex flex-col justify-center'>
               <p className='mb-4 text-lg leading-relaxed'>
-                Ethio Coffee Export is a partner producer and Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
+                Ethio Coffee Export is a partner producer and <Link href='/ethiopian-coffee-exporter' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Ethiopian coffee exporter</Link> connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
               </p>
               <p className='text-lg leading-relaxed'>
                 Established in 2022, our roots trace back to our father's lifetime of hands-on work in Ethiopian coffee regions. He dedicated his life to working directly with farmers and local markets, witnessing how quality coffee often lost value between the farm gate and the commodity market. That experience shaped our mission: to ensure the value stays where it belongs with the growers, while serving as the trusted partner importers rely on for consistent quality, transparent sourcing, and professional service.
@@ -287,6 +290,33 @@ const About = () => {
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17 8l4 4m0 0l-4 4m4-4H3' />
             </svg>
           </Link>
+        </div>
+      </section>
+
+      {/* Related Reading */}
+      <section className='bg-stone-50 py-16'>
+        <div className='container mx-auto px-4'>
+          <h2 className='text-3xl font-extrabold text-dark mb-8 text-center'>Learn More About Ethiopian Coffee</h2>
+          <div className='max-w-2xl mx-auto'>
+            <ul className='space-y-3'>
+              <li className='flex items-start gap-2'>
+                <span className='text-accent font-bold'>→</span>
+                <Link href='/insights/ethiopia-birthplace-of-coffee' className='underline underline-offset-4 hover:text-dark/70'>Ethiopia: The Birthplace of Coffee</Link>
+              </li>
+              <li className='flex items-start gap-2'>
+                <span className='text-accent font-bold'>→</span>
+                <Link href='/insights/benefits-investing-ethiopian-coffee-production' className='underline underline-offset-4 hover:text-dark/70'>Benefits of Investing in Ethiopian Coffee Production</Link>
+              </li>
+              <li className='flex items-start gap-2'>
+                <span className='text-accent font-bold'>→</span>
+                <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline underline-offset-4 hover:text-dark/70'>Ethiopian Heirloom Coffee Varieties and Landraces</Link>
+              </li>
+              <li className='flex items-start gap-2'>
+                <span className='text-accent font-bold'>→</span>
+                <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline underline-offset-4 hover:text-dark/70'>Ethiopian Coffee Pricing for Importers: FOB Costs and Differentials</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 

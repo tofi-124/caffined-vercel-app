@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -14,7 +16,7 @@ export default function AfricanCoffeeWeek2026AddisAbaba({ title, date, source }:
 
       <div className='space-y-4'>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          ADDIS ABABA, Ethiopia – The third African Coffee Week and Inter-African Coffee Organization (IACO) meetings have officially opened in the Skylight Hotel here in Addis Ababa today. This High-Level Policy Forum is being held under the theme: &quot;Advancing Climate Resilience &amp; the Transformation of the African Coffee Sector&quot; which is Organized by the Inter-African Coffee Organization (IACO)—the African Union&apos;s specialized agency for coffee—in collaboration with UNIDO.
+          ADDIS ABABA, Ethiopia – The third African Coffee Week and Inter-African Coffee Organization (IACO) meetings have officially opened in the Skylight Hotel here in Addis Ababa today. This High-Level Policy Forum is being held under the theme: &quot;Advancing Climate Resilience &amp; the Transformation of the African Coffee Sector&quot; which is Organized by the Inter-African Coffee Organization (IACO), the African Union&apos;s specialized agency for coffee, in collaboration with UNIDO.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -40,6 +42,14 @@ export default function AfricanCoffeeWeek2026AddisAbaba({ title, date, source }:
         <p className='text-gray-700 text-sm leading-relaxed italic'>
           Sahlemariam G/medhin Reported.
         </p>
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='text-blue-600 hover:underline'>AFCA Taste of Harvest Competition</Link></li>
+          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+        </ul>
       </div>
 
       {source && (

@@ -823,7 +823,7 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
               <HiOutlineGlobeAlt className='text-xl' />
               Ethiopian Coffee Exporter
             </p>
-            <p className='text-sm text-gray-600'>Your trusted Ethiopian coffee export partner — specialty Arabica from Yirgacheffe, Sidamo, Guji & more</p>
+            <p className='text-sm text-gray-600'>Your trusted Ethiopian coffee export partner: specialty Arabica from Yirgacheffe, Sidamo, Guji & more</p>
           </Link>
         </div>
       </div>

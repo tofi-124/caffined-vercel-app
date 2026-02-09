@@ -7,7 +7,7 @@ import { GiCoffeeBeans } from 'react-icons/gi'
 const exportRegions = [
   {
     name: 'Yirgacheffe',
-    description: 'World-renowned for its floral and citrus notes, Yirgacheffe coffee (SCA 84-88+) features jasmine aromatics, lemon acidity, and a tea-like body — a favorite among specialty roasters globally.',
+    description: 'World-renowned for its floral and citrus notes, Yirgacheffe coffee (SCA 84-88+) features jasmine aromatics, lemon acidity, and a tea-like body. A favorite among specialty roasters globally.',
     grades: 'Grade 1 & Grade 2',
     processing: 'Washed & Natural',
     cupScore: '84-88+',
@@ -31,7 +31,7 @@ const exportRegions = [
   },
   {
     name: 'Harar',
-    description: 'Ethiopia\'s legendary dry-processed coffee, Harar (Harrar) offers wild berry, wine, and dark chocolate characteristics — one of the world\'s oldest coffee trade varieties.',
+    description: 'Ethiopia\'s legendary dry-processed coffee, Harar (Harrar) offers wild berry, wine, and dark chocolate characteristics. It is one of the world\'s oldest coffee trade varieties.',
     grades: 'Grade 4 & Grade 5',
     processing: 'Natural (Dry)',
     cupScore: '82-86+',
@@ -69,7 +69,7 @@ const exportServices = [
   {
     icon: <HiOutlineDocumentCheck className="w-8 h-8" />,
     title: 'Complete Export Documentation',
-    description: 'ICO certificates, phytosanitary certificates, certificates of origin, weight & quality certificates, commercial invoices — all export paperwork handled end-to-end.',
+    description: 'ICO certificates, phytosanitary certificates, certificates of origin, weight & quality certificates, commercial invoices: all export paperwork handled end-to-end.',
   },
   {
     icon: <HiOutlineTruck className="w-8 h-8" />,
@@ -89,7 +89,7 @@ const exportServices = [
   {
     icon: <HiOutlineChatBubbleLeftRight className="w-8 h-8" />,
     title: 'Dedicated Account Management',
-    description: 'A single point of contact for your account — responsive communication, WhatsApp/email support, and regular updates from sourcing through shipping.',
+    description: 'A single point of contact for your account with responsive communication, WhatsApp/email support, and regular updates from sourcing through shipping.',
   },
   {
     icon: <HiOutlineClipboardDocumentCheck className="w-8 h-8" />,
@@ -108,15 +108,15 @@ const exportStats = [
 const whyChooseUs = [
   {
     title: 'Family-Owned, Origin-Based Ethiopian Exporter',
-    description: 'Unlike trading companies or brokers, we are an Ethiopian family-owned export business based at origin. Our father spent 30+ years building relationships with farming communities across Ethiopia — relationships we maintain to this day.',
+    description: 'Unlike trading companies or brokers, we are an Ethiopian family-owned export business based at origin. Our father spent 30+ years building relationships with farming communities across Ethiopia, relationships we maintain to this day.',
   },
   {
     title: 'Dual Presence: Ethiopia + International',
-    description: 'Founded by two brothers — one in Ethiopia managing sourcing, quality control, and logistics; the other internationally handling sales, communication, and buyer relationships. This dual presence eliminates the communication gaps that frustrate many importers.',
+    description: 'Founded by two brothers: one in Ethiopia managing sourcing, quality control, and logistics; the other internationally handling sales, communication, and buyer relationships. This dual presence eliminates the communication gaps that frustrate many importers.',
   },
   {
     title: 'Specialty-Focused Quality Control',
-    description: 'We are not a volume-first exporter. Every lot is cupped to SCA protocol before export. We reject lots that don\'t meet our standards — protecting your business reputation and ensuring consistent quality shipment after shipment.',
+    description: 'We are not a volume-first exporter. Every lot is cupped to SCA protocol before export. We reject lots that don\'t meet our standards, protecting your business reputation and ensuring consistent quality shipment after shipment.',
   },
   {
     title: 'Full Traceability & Transparency',
@@ -124,7 +124,7 @@ const whyChooseUs = [
   },
   {
     title: 'Competitive Pricing, No Hidden Costs',
-    description: 'Direct sourcing and lean operations mean competitive FOB pricing. We provide clear, all-inclusive pricing with no hidden fees. Our pricing is transparent and consistent — building long-term partnerships, not one-time transactions.',
+    description: 'Direct sourcing and lean operations mean competitive FOB pricing. We provide clear, all-inclusive pricing with no hidden fees. Our pricing is transparent and consistent, building long-term partnerships, not one-time transactions.',
   },
   {
     title: 'Reliable Communication & Responsiveness',
@@ -143,20 +143,20 @@ const EthiopianCoffeeExporter = () => {
           <div className='flex flex-col lg:flex-row items-center gap-12'>
             <div className='lg:w-1/2'>
               <p className='text-accent uppercase tracking-widest text-sm font-bold mb-4'>
-                Trusted Ethiopian Coffee Exporter — Specialty & Commercial Green Coffee
+                Trusted Ethiopian Coffee Exporter: Specialty & Commercial Green Coffee
               </p>
               <h1 className='text-5xl lg:text-6xl font-extrabold leading-tight mb-6'>
                 Ethiopian Coffee Exporter
               </h1>
               <p className='text-xl text-primary/90 mb-6'>
-                We are <strong>Ethio Coffee Export PLC</strong> — a family-owned <strong>Ethiopian coffee exporter</strong> shipping 
+                We are <strong>Ethio Coffee Export PLC</strong>, a family-owned <strong>Ethiopian coffee exporter</strong> shipping 
                 specialty-grade and commercial green coffee to roasters, importers, and distributors in <strong>40+ countries worldwide</strong>.
               </p>
               <p className='text-primary/80 mb-8 max-w-[60ch]'>
                 From the floral highlands of Yirgacheffe to the fruit-forward slopes of Guji, we export 
                 SCA 80+ specialty Ethiopian Arabica with full traceability, professional cupping reports, 
                 and the direct-from-origin pricing that your business needs. As a <strong>licensed Ethiopian 
-                coffee exporter</strong>, we handle everything from sourcing to shipping — so you can focus on 
+                coffee exporter</strong>, we handle everything from sourcing to shipping, so you can focus on 
                 growing your business.
               </p>
               <div className='flex flex-wrap gap-4'>
@@ -213,20 +213,20 @@ const EthiopianCoffeeExporter = () => {
             </h2>
             <div className='prose prose-lg max-w-none text-dark/90 space-y-6'>
               <p>
-                <strong>Ethio Coffee Export PLC</strong> is a licensed Ethiopian coffee exporter founded by two brothers — 
+                <strong>Ethio Coffee Export PLC</strong> is a licensed Ethiopian coffee exporter founded by two brothers: 
                 one based in Ethiopia, the other in Canada. We bridge the gap between Ethiopia's finest coffee-producing 
                 regions and the global specialty market, combining <strong>30+ years of family expertise</strong> at origin 
                 with the communication standards and professionalism that international buyers expect.
               </p>
               <p>
                 Our story starts with our father, who spent over three decades traveling across Ethiopia's coffee 
-                regions — Yirgacheffe, Sidamo, Guji, Harar, Limu, and beyond. He built deep relationships with farming 
+                regions – Yirgacheffe, Sidamo, Guji, Harar, Limu, and beyond. He built deep relationships with farming 
                 communities, invested in his own coffee farm, and developed an intimate knowledge of what makes 
                 Ethiopian coffee exceptional: from cherry selection to drying methods to the subtle quality differences 
                 between microclimates and processing stations.
               </p>
               <p>
-                In <strong>2022</strong>, we formalized this multi-generational expertise into Ethio Coffee Export PLC — 
+                In <strong>2022</strong>, we formalized this multi-generational expertise into Ethio Coffee Export PLC, 
                 a fully licensed Ethiopian coffee exporter registered with the Ethiopian Coffee and Tea Authority. 
                 We specialize in <strong>specialty-grade green coffee export</strong>, focusing on SCA 80+ rated lots 
                 from all major Ethiopian origins.
@@ -239,7 +239,7 @@ const EthiopianCoffeeExporter = () => {
               </p>
               <p className='text-lg font-semibold text-dark'>
                 Today, we export Ethiopian specialty and commercial-grade green coffee to roasters, importers, 
-                and distributors in more than 40 countries — maintaining the quality standards, traceability, and 
+                and distributors in more than 40 countries, maintaining the quality standards, traceability, and 
                 relationship-first approach that our family has practiced for three decades.
               </p>
             </div>
@@ -283,7 +283,7 @@ const EthiopianCoffeeExporter = () => {
         </div>
       </section>
 
-      {/* What is an Ethiopian Coffee Exporter — Educational SEO content */}
+      {/* What is an Ethiopian Coffee Exporter - Educational SEO content */}
       <section className='py-20 bg-primary'>
         <div className='container mx-auto px-4'>
           <div className='max-w-4xl mx-auto'>
@@ -294,7 +294,7 @@ const EthiopianCoffeeExporter = () => {
               <p>
                 An <strong>Ethiopian coffee exporter</strong> is a licensed company that sources, processes, quality-controls, 
                 and ships Ethiopian green coffee beans to international buyers. As the <strong>birthplace of Arabica coffee</strong>, 
-                Ethiopia is the world's 5th largest coffee producer and Africa's #1 coffee exporter — making the role 
+                Ethiopia is the world's 5th largest coffee producer and Africa's #1 coffee exporter, making the role 
                 of a reliable Ethiopian coffee exporter essential for the global specialty coffee supply chain.
               </p>
               <p>
@@ -333,7 +333,7 @@ const EthiopianCoffeeExporter = () => {
                 </li>
               </ul>
               <p>
-                At <strong>Ethio Coffee Export PLC</strong>, we handle all of these responsibilities in-house — giving 
+                At <strong>Ethio Coffee Export PLC</strong>, we handle all of these responsibilities in-house, giving 
                 you a single point of contact from origin to your warehouse. As a <strong>vertically integrated Ethiopian 
                 coffee exporter</strong>, we control quality at every step, which means fewer surprises and more 
                 consistent coffee shipment after shipment.
@@ -397,7 +397,7 @@ const EthiopianCoffeeExporter = () => {
             </h2>
             <p className='text-dark/70 max-w-3xl mx-auto'>
               As a full-service <strong>Ethiopian coffee exporter</strong>, we handle the entire export process 
-              from sourcing to shipping — so you can focus on roasting, selling, and growing your business.
+              from sourcing to shipping, so you can focus on roasting, selling, and growing your business.
             </p>
           </div>
           
@@ -625,7 +625,7 @@ const EthiopianCoffeeExporter = () => {
         </div>
       </section>
 
-      {/* Why Ethiopian Coffee — Informational depth for SEO */}
+      {/* Why Ethiopian Coffee - Informational depth for SEO */}
       <section className='py-20 bg-stone-100'>
         <div className='container mx-auto px-4'>
           <div className='max-w-4xl mx-auto'>
@@ -634,7 +634,7 @@ const EthiopianCoffeeExporter = () => {
             </h2>
             <div className='prose prose-lg max-w-none text-dark/90 space-y-6'>
               <p>
-                Ethiopia is the <strong>birthplace of Coffea Arabica</strong> — the species that accounts for 
+                Ethiopia is the <strong>birthplace of Coffea Arabica</strong>, the species that accounts for 
                 approximately 60-70% of global coffee production and defines the specialty coffee industry. 
                 With an estimated <strong>6,000+ indigenous coffee varieties</strong>, Ethiopia offers a level of genetic 
                 diversity and flavor complexity that no other coffee-producing country can match.
@@ -646,7 +646,7 @@ const EthiopianCoffeeExporter = () => {
                 access to some of the most distinguished and sought-after coffees in the world:
               </p>
               <ul className='space-y-2'>
-                <li><strong>Unmatched flavor diversity:</strong> From the jasmine and bergamot of Yirgacheffe to the blueberry bombs of Guji naturals — Ethiopian coffee offers a flavor palette no other origin can deliver.</li>
+                <li><strong>Unmatched flavor diversity:</strong> From the jasmine and bergamot of Yirgacheffe to the blueberry bombs of Guji naturals, Ethiopian coffee offers a flavor palette no other origin can deliver.</li>
                 <li><strong>Consumer recognition:</strong> "Ethiopian" on a coffee bag signals quality and authenticity to specialty consumers worldwide, commanding premium retail prices.</li>
                 <li><strong>Competitive FOB pricing:</strong> Despite its premium reputation, Ethiopian specialty coffee offers excellent value compared to other high-scoring origins like Kenya, Panama, or Colombia.</li>
                 <li><strong>Year-round availability:</strong> With two main harvest seasons and diverse growing regions, quality Ethiopian coffee is available for export most months of the year.</li>
@@ -710,11 +710,11 @@ const EthiopianCoffeeExporter = () => {
               {[
                 {
                   q: 'How do I find a reliable Ethiopian coffee exporter?',
-                  a: 'Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, provides pre-shipment samples, offers transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria — we are a family-owned, licensed exporter with 30+ years of coffee industry experience.'
+                  a: 'Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, provides pre-shipment samples, offers transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience.'
                 },
                 {
                   q: 'What is the minimum order quantity for Ethiopian coffee export?',
-                  a: 'The standard minimum order for Ethiopian coffee export is one full container load (FCL), which is approximately 19-21 metric tons (275-320 bags of 60kg each). You can mix different origins and grades within one container. For smaller orders or trial shipments, we can discuss LCL (less than container load) options — contact us for details.'
+                  a: 'The standard minimum order for Ethiopian coffee export is one full container load (FCL), which is approximately 19-21 metric tons (275-320 bags of 60kg each). You can mix different origins and grades within one container. For smaller orders or trial shipments, we can discuss LCL (less than container load) options. Contact us for details.'
                 },
                 {
                   q: 'What grades of Ethiopian coffee are available for export?',
@@ -734,7 +734,7 @@ const EthiopianCoffeeExporter = () => {
                 },
                 {
                   q: 'What is the difference between washed and natural Ethiopian coffee?',
-                  a: 'Washed (wet-processed) Ethiopian coffee tends to have cleaner, brighter, and more complex acidity with floral and citrus notes — common in Yirgacheffe and Sidamo. Natural (dry-processed) Ethiopian coffee is typically fruitier, sweeter, and more full-bodied with berry and wine characteristics — common in Harar and Guji naturals. We export both processing types.'
+                  a: 'Washed (wet-processed) Ethiopian coffee tends to have cleaner, brighter, and more complex acidity with floral and citrus notes, common in Yirgacheffe and Sidamo. Natural (dry-processed) Ethiopian coffee is typically fruitier, sweeter, and more full-bodied with berry and wine characteristics, common in Harar and Guji naturals. We export both processing types.'
                 },
                 {
                   q: 'Can you provide certified organic or Fair Trade Ethiopian coffee?',
@@ -742,7 +742,7 @@ const EthiopianCoffeeExporter = () => {
                 },
                 {
                   q: 'What makes Ethiopian coffee different from other origins?',
-                  a: 'Ethiopia is the birthplace and genetic homeland of Arabica coffee, with 6,000+ indigenous heirloom varieties that produce flavor profiles impossible to replicate elsewhere. Ethiopian coffee is known for its exceptional complexity, floral aromatics, fruit-forward notes, and bright acidity — qualities that have made it the most prized origin among specialty coffee roasters worldwide.'
+                  a: 'Ethiopia is the birthplace and genetic homeland of Arabica coffee, with 6,000+ indigenous heirloom varieties that produce flavor profiles impossible to replicate elsewhere. Ethiopian coffee is known for its exceptional complexity, floral aromatics, fruit-forward notes, and bright acidity, qualities that have made it the most prized origin among specialty coffee roasters worldwide.'
                 },
                 {
                   q: 'How do I pay for Ethiopian coffee exports?',

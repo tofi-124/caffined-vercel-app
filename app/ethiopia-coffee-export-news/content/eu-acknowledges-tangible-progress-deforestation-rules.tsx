@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -30,7 +32,7 @@ export default function EUDeforestationProgress({ title, date, source }: NewsCon
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
-          The EUDR, adopted in 2023, is a key element of the EU’s climate and environmental policy aimed at reducing global deforestation linked to consumption within the EU. The regulation requires commodities placed on the EU market—including coffee—to be deforestation-free, legally produced, and fully traceable to their plot of origin.
+          The EUDR, adopted in 2023, is a key element of the EU’s climate and environmental policy aimed at reducing global deforestation linked to consumption within the EU. The regulation requires commodities placed on the EU market, including coffee, to be deforestation-free, legally produced, and fully traceable to their plot of origin.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -52,6 +54,14 @@ export default function EUDeforestationProgress({ title, date, source }: NewsCon
         <p className='text-gray-700 text-sm leading-relaxed'>
           The EU emphasized that continued collaboration among Ethiopian institutions, development partners and the private sector will be essential to ensure compliance with the EUDR while safeguarding Ethiopia’s forests, biodiversity and vital coffee-based livelihoods.
         </p>
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-blue-600 hover:underline'>Full EUDR Compliance Guide for Ethiopian Coffee</Link></li>
+          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+        </ul>
       </div>
 
       {source && (

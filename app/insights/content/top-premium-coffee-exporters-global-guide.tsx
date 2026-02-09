@@ -514,7 +514,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
       <div className='bg-gray-100 p-6 rounded-lg my-6 border border-gray-300 text-sm'>
         <p className='font-bold mb-2'>Further Reading:</p>
         <ul className='list-disc ml-5 space-y-1'>
-          <li><Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:text-amber-900 underline'>Ethiopian Coffee Exporter — Ethio Coffee Export PLC</Link></li>
+          <li><Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:text-amber-900 underline'>Ethiopian Coffee Exporter: Ethio Coffee Export PLC</Link></li>
           <li><Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:text-amber-900 underline'>Best Ethiopian Coffee Exporter for Importers Worldwide</Link></li>
           <li><Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:text-amber-900 underline'>Navigating 2026: Ethiopian Specialty Coffee Exporters</Link></li>
           <li><Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:text-amber-900 underline'>Private vs. Cooperative Ethiopian Coffee Exporters</Link></li>

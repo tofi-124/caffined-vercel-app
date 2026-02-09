@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -14,7 +16,7 @@ export default function DisabledPeoplesCoffeeDevelopment2025({ title, date, sour
 
       <div className='space-y-4'>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          Jima Zone, Seka Chekorsa Woreda — The implementation of the Cafe Project pilot, launched by the indigenous NGO Light for the World, was visited and handed over during a closing ceremony attended by senior officials including Hon. Ato Tagay Nuru, Deputy Director General of the Ethiopian Coffee and Tea Authority.
+          Jima Zone, Seka Chekorsa Woreda - The implementation of the Cafe Project pilot, launched by the indigenous NGO Light for the World, was visited and handed over during a closing ceremony attended by senior officials including Hon. Ato Tagay Nuru, Deputy Director General of the Ethiopian Coffee and Tea Authority.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -36,6 +38,14 @@ export default function DisabledPeoplesCoffeeDevelopment2025({ title, date, sour
         <p className='text-gray-700 text-sm leading-relaxed'>
           Report by: Ashenafi Getahun
         </p>
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Source Ethiopian Coffee Directly</Link></li>
+          <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-blue-600 hover:underline'>How the ECX Works</Link></li>
+        </ul>
       </div>
 
       {source && (

@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -14,7 +16,7 @@ export default function Sidama6000TonsSupplied2026({ title, date, source }: News
 
       <div className='space-y-4'>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          Hawassa — Mesfin Qare, Director General of the Sidama Regional Coffee, Fruits and Spices Authority, said that more than 6,000 tons of coffee were supplied to the central market in the past months of the fiscal year.
+          Hawassa - Mesfin Qare, Director General of the Sidama Regional Coffee, Fruits and Spices Authority, said that more than 6,000 tons of coffee were supplied to the central market in the past months of the fiscal year.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -32,6 +34,14 @@ export default function Sidama6000TonsSupplied2026({ title, date, source }: News
         <p className='text-gray-700 text-sm leading-relaxed'>
           Source: EZEA
         </p>
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/insights/sidama-coffee-production-productivity-export' className='text-blue-600 hover:underline'>Sidama Coffee Production Guide</Link></li>
+          <li><Link href='/offerings' className='text-blue-600 hover:underline'>View Available Sidama Coffee Lots</Link></li>
+        </ul>
       </div>
     </>
   )

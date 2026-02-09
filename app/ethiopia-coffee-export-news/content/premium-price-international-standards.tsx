@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -14,7 +16,7 @@ export default function PremiumPriceInternationalStandards2026({ title, date, so
 
       <div className='space-y-4'>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          Jan 5, 2026 — It has been announced that it is possible to get a good/premium price
+          Jan 5, 2026 - It has been announced that it is possible to get a good/premium price
           as long as it meets international standards. The announcement was made at a workshop organized
           by the Ethiopian Coffee and Tea Authority in collaboration with the EU YAYU DESIRA project,
           supported by the Hans Neumann Foundation.
@@ -48,6 +50,15 @@ export default function PremiumPriceInternationalStandards2026({ title, date, so
           outputs and intellectual property strategies to secure better market prices for Ethiopian coffee.
         </p>
 
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-blue-600 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+          <li><Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-blue-600 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
+          <li><Link href='/contact-us' className='text-blue-600 hover:underline'>Request Pricing from Ethio Coffee</Link></li>
+        </ul>
       </div>
 
       {source && (

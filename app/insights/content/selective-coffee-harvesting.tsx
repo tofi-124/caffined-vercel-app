@@ -26,7 +26,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='Selective coffee harvesting — hand picking ripe red cherries on Ethiopian farm'
+            alt='Selective coffee harvesting: hand picking ripe red cherries on Ethiopian farm'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -45,7 +45,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
       </div>
       
       <p className='my-4'>
-        In the journey from seed to cup, no step is more labor-intensive or critical to flavor than <span className='font-bold'>selective coffee harvesting</span>. Selective coffee harvesting—picking only ripe cherries by hand—directly determines final cup quality and market value. Buyers who prioritize traceability and ripeness consistently receive cleaner, sweeter lots.
+        In the journey from seed to cup, no step is more labor-intensive or critical to flavor than <span className='font-bold'>selective coffee harvesting</span>. Selective coffee harvesting, picking only ripe cherries by hand, directly determines final cup quality and market value. Buyers who prioritize traceability and ripeness consistently receive cleaner, sweeter lots.
       </p>
 
       <p className='my-4'>
@@ -73,7 +73,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
       </h4>
       
       <p className='my-4'>
-        Harvesting is physically demanding work. Pickers navigate steep slopes—often at 45-degree angles—carrying baskets tied to their waists.
+        Harvesting is physically demanding work. Pickers navigate steep slopes, often at 45-degree angles, carrying baskets tied to their waists.
       </p>
 
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
@@ -150,7 +150,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
       <div className='bg-amber-50 p-5 rounded-lg my-6 border border-amber-200'>
         <h5 className='font-bold mb-2 text-amber-800'>The Cost of Perfection</h5>
         <p className='text-sm'>
-          Selective picking is expensive. Returning to a tree five times to pick only the few ready cherries triples the labor cost compared to strip picking. This is why <span className='font-bold'>Specialty Coffee</span> commands a higher price—you are paying for the labor of selection.
+          Selective picking is expensive. Returning to a tree five times to pick only the few ready cherries triples the labor cost compared to strip picking. This is why <span className='font-bold'>Specialty Coffee</span> commands a higher price: you are paying for the labor of selection.
         </p>
       </div>
 
@@ -193,9 +193,9 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
       <div className='my-6'>
         <h3 className='text-2xl font-extrabold mb-3'>Further reading & sources</h3>
         <ul className='list-disc ml-5 space-y-2 text-sm'>
-          <li><a href='https://www.ico.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>International Coffee Organization — market & production data</a></li>
-          <li><a href='https://www.worldcoffeeresearch.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>World Coffee Research — research on coffee production and varieties</a></li>
-          <li><a href='https://www.fao.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>FAO — agriculture and labor reports</a></li>
+          <li><a href='https://www.ico.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>International Coffee Organization: market & production data</a></li>
+          <li><a href='https://www.worldcoffeeresearch.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>World Coffee Research: research on coffee production and varieties</a></li>
+          <li><a href='https://www.fao.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>FAO: agriculture and labor reports</a></li>
         </ul>
       </div>
 

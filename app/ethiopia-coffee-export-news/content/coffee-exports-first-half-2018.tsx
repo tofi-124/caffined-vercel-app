@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -18,7 +20,7 @@ export default function CoffeeExportsFirstHalf2018({ title, date, source }: News
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
-          He cited several strategies driving the results, including increasing productivity and quality, expanding market reach, and implementing digitalization and modern practices. The activities carried out on production volume and quality have increased global demand for Ethiopian coffee; the number of destination countries has increased to 84, and promotional activities—especially in East Asian markets—are proving effective.
+          He cited several strategies driving the results, including increasing productivity and quality, expanding market reach, and implementing digitalization and modern practices. The activities carried out on production volume and quality have increased global demand for Ethiopian coffee; the number of destination countries has increased to 84, and promotional activities, especially in East Asian markets, are proving effective.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -32,6 +34,14 @@ export default function CoffeeExportsFirstHalf2018({ title, date, source }: News
         <p className='text-gray-700 text-sm leading-relaxed'>
           It is known that Ethiopia exported 469,000 tons of coffee in the 2017 fiscal year, earning $2.65 billion.
         </p>
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+          <li><Link href='/insights/benefits-investing-ethiopian-coffee-production' className='text-blue-600 hover:underline'>Benefits of Investing in Ethiopian Coffee</Link></li>
+        </ul>
       </div>
 
       {source && (

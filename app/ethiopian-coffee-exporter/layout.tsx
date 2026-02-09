@@ -3,13 +3,13 @@ import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Coffee Exporter | Trusted Green Coffee Export Company',
-  description: 'Ethio Coffee — trusted Ethiopian coffee exporter shipping specialty green coffee (SCA 80+) worldwide. Yirgacheffe, Sidamo, Guji, Harar available. Request samples.',
+  description: 'Ethio Coffee: trusted Ethiopian coffee exporter shipping specialty green coffee (SCA 80+) worldwide. Yirgacheffe, Sidamo, Guji, Harar available. Request samples.',
   keywords: 'Ethiopian coffee exporter, ethiopian coffee exporter company, coffee exporter ethiopia, ethiopia coffee exporter, best ethiopian coffee exporter, ethiopian green coffee exporter, ethiopian specialty coffee exporter, ethiopian arabica exporter, ethiopian coffee export company, ethiopian coffee supplier, buy ethiopian coffee wholesale, import ethiopian coffee, ethiopian coffee beans exporter, coffee export from ethiopia, green coffee beans ethiopia export',
   alternates: {
     canonical: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter',
   },
   openGraph: {
-    title: 'Ethiopian Coffee Exporter | Ethio Coffee Export PLC — Specialty & Commercial Green Coffee',
+    title: 'Ethiopian Coffee Exporter | Ethio Coffee Export PLC: Specialty & Commercial Green Coffee',
     description: 'Family-owned Ethiopian coffee exporter with 30+ years legacy. We export SCA 80+ specialty green coffee from Ethiopia to importers & roasters worldwide. Yirgacheffe, Sidamo, Guji & more.',
     url: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter',
     type: 'website',
@@ -180,7 +180,7 @@ export default function EthiopianCoffeeExporterLayout({
         "name": "How do I find a reliable Ethiopian coffee exporter?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, provides pre-shipment samples, offers transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria — we are a family-owned, licensed exporter with 30+ years of coffee industry experience."
+          "text": "Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, provides pre-shipment samples, offers transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience."
         }
       },
       {
@@ -228,7 +228,7 @@ export default function EthiopianCoffeeExporterLayout({
         "name": "What is the difference between washed and natural Ethiopian coffee?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Washed (wet-processed) Ethiopian coffee tends to have cleaner, brighter, and more complex acidity with floral and citrus notes — common in Yirgacheffe and Sidamo. Natural (dry-processed) Ethiopian coffee is typically fruitier, sweeter, and more full-bodied with berry and wine characteristics — common in Harar and Guji naturals."
+          "text": "Washed (wet-processed) Ethiopian coffee tends to have cleaner, brighter, and more complex acidity with floral and citrus notes, common in Yirgacheffe and Sidamo. Natural (dry-processed) Ethiopian coffee is typically fruitier, sweeter, and more full-bodied with berry and wine characteristics, common in Harar and Guji naturals."
         }
       },
       {

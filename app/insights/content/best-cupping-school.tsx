@@ -45,11 +45,11 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
       </div>
       
       <p className='my-4'>
-        In the modern coffee industry, "tasting" has evolved from a subjective art into a rigorous, calibrated science. For professionals seeking to advance their careers, attending a top-tier <span className='font-bold'>cupping school</span> is no longer optional—it is a strategic necessity. Whether you are a green buyer managing million-dollar contracts or a head roaster defining a brand&apos;s flavor signature, the ability to objectively quantify quality is the currency of the trade.
+        In the modern coffee industry, "tasting" has evolved from a subjective art into a rigorous, calibrated science. For professionals seeking to advance their careers, attending a top-tier <span className='font-bold'>cupping school</span> is no longer optional; it is a strategic necessity. Whether you are a green buyer managing million-dollar contracts or a head roaster defining a brand&apos;s flavor signature, the ability to objectively quantify quality is the currency of the trade.
       </p>
 
       <p className='my-4'>
-        This comprehensive guide analyzes the world&apos;s most prestigious sensory training institutions. We move beyond basic workshops to identify the "Ivy League" of coffee education—academies that offer <a href="https://www.coffeeinstitute.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Q Grader certification</a>, scientific sensory research, and direct access to industry legends.
+        This comprehensive guide analyzes the world&apos;s most prestigious sensory training institutions. We move beyond basic workshops to identify the "Ivy League" of coffee education: academies that offer <a href="https://www.coffeeinstitute.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Q Grader certification</a>, scientific sensory research, and direct access to industry legends.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -188,7 +188,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
           <div>
             <h6 className='font-bold text-dark flex items-center'><span className='bg-amber-200 text-amber-800 text-xs px-2 py-1 rounded mr-2'>03</span> Triangulation Testing</h6>
             <p className='text-sm mt-1'>
-              The ultimate test of focus. In a set of three cups, two are identical and one is different. The difference might be subtle—a change in roast curve or a different day of harvest. This trains speed and confidence in decision-making.
+              The ultimate test of focus. In a set of three cups, two are identical and one is different. The difference might be subtle: a change in roast curve or a different day of harvest. This trains speed and confidence in decision-making.
             </p>
           </div>
           <div>
@@ -269,7 +269,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
       <div className='bg-gray-50 p-6 rounded-lg my-6'>
         <h4 className='font-bold text-lg mb-3'>Related Resources:</h4>
         <ul className='space-y-2 text-sm'>
-          <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 underline'>Ethiopian Coffee Exporter — Ethio Coffee Export PLC</Link></li>
+          <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 underline'>Ethiopian Coffee Exporter: Ethio Coffee Export PLC</Link></li>
           <li>• <Link href="https://sca.coffee/value-assessment" className='text-blue-600 underline' target='_blank'>Official SCA Coffee Value Assessment Page</Link></li>
           <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 underline'>Green Coffee Quality Control: Defects, Grading Systems & What Importers Should Inspect</Link></li>
         </ul>

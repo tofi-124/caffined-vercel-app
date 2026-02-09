@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -41,6 +43,14 @@ export default function EthiopiaCoffeeProductionForeignExchange({ title, date, s
         <p className='text-gray-700 text-sm leading-relaxed'>
           According to information received from the authority, it is planned to export 600,000 tons of coffee products to the foreign market in the 2018 fiscal year, earning more than $3 billion in foreign exchange.
         </p>
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+          <li><Link href='/insights/benefits-investing-ethiopian-coffee-production' className='text-blue-600 hover:underline'>Benefits of Investing in Ethiopian Coffee</Link></li>
+        </ul>
       </div>
 
       {source && (

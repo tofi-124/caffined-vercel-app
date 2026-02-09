@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -14,7 +16,7 @@ export default function ImprovedCoffeeVarietiesWestHararge2026({ title, date, so
 
       <div className='space-y-4'>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          Jan 6, 2026 — The West Hararge Zone Agriculture and Natural Resources Development Office
+          Jan 6, 2026 - The West Hararge Zone Agriculture and Natural Resources Development Office
           announced that improved coffee seedlings are being prepared to increase coffee productivity.
           Approximately 230,000 farmers cultivate coffee on more than 120,000 hectares, Oluma Bedane,
           head of the office’s Coffee, Tea and Spices Team, told EZEA.
@@ -39,6 +41,14 @@ export default function ImprovedCoffeeVarietiesWestHararge2026({ title, date, so
           coffee seedlings has increased her income over the years.
         </p>
 
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-blue-600 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+          <li><Link href='/offerings' className='text-blue-600 hover:underline'>View Our Ethiopian Coffee Offerings</Link></li>
+        </ul>
       </div>
 
       {source && (

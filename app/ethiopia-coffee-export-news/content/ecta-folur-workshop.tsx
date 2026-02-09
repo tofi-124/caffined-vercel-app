@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 type NewsContentProps = {
   title: string
   date: string
@@ -14,7 +16,7 @@ export default function EctaFolurWorkshop2026({ title, date, source }: NewsConte
 
       <div className='space-y-4'>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          Bishoftu, Ethiopia — In a significant move toward modernizing Ethiopia’s most vital commodity sector, a high-level consultative workshop was held on January 1, 2026, at the Bin International Hotel in Bishoftu to review critical research proposals aimed at transforming the coffee value chain.
+          Bishoftu, Ethiopia - In a significant move toward modernizing Ethiopia’s most vital commodity sector, a high-level consultative workshop was held on January 1, 2026, at the Bin International Hotel in Bishoftu to review critical research proposals aimed at transforming the coffee value chain.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -36,6 +38,14 @@ export default function EctaFolurWorkshop2026({ title, date, source }: NewsConte
         <p className='text-gray-700 text-sm leading-relaxed'>
           Reported by: Tesfu Alemayehu
         </p>
+      </div>
+
+      <div className='mt-8 pt-6 border-t border-gray-200'>
+        <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
+        <ul className='space-y-2 text-sm'>
+          <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-blue-600 hover:underline'>How the ECX Works for Coffee</Link></li>
+          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+        </ul>
       </div>
 
       {source && (
