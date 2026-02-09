@@ -567,6 +567,33 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
         </div>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Private vs Cooperative Ethiopian Coffee Exporters</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the difference between private and cooperative Ethiopian coffee exporters?</h4>
+            <p className="text-sm text-gray-600">Private exporters are independent companies that source coffee from washing stations and farmers, offering flexibility and speed. Cooperative unions aggregate coffee from member cooperatives, often providing direct farmer traceability and certification advantages.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Which is better for sourcing specialty Ethiopian coffee: private exporters or cooperatives?</h4>
+            <p className="text-sm text-gray-600">Both can supply excellent specialty coffee. Private exporters often offer more flexibility on lot sizes, faster communication, and custom processing. Cooperatives provide stronger farmer-level traceability and may carry organic or Fair Trade certifications.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can private Ethiopian coffee exporters provide traceability?</h4>
+            <p className="text-sm text-gray-600">Yes. Many private exporters own or control their washing stations, enabling full traceability from cherry intake to export. Some also provide GPS coordinates and farmer data required for EUDR compliance.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Do cooperative Ethiopian coffee exporters offer better prices for farmers?</h4>
+            <p className="text-sm text-gray-600">Cooperative unions typically return a higher share of the export price to farmers through second payments and dividends. However, private exporters with direct farmer relationships also invest in premium pricing and community programs.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How do I choose between a private exporter and a cooperative union in Ethiopia?</h4>
+            <p className="text-sm text-gray-600">Consider your priorities: volume flexibility, speed, and custom lots favor private exporters. Certification requirements, farmer impact stories, and cooperative premiums favor unions. Many buyers work with both to diversify their supply chain.</p>
+          </div>
+        </div>
+      </section>
+
       {/* RELATED ARTICLES */}
       <div className='mt-12 pt-8 border-t border-gray-200'>
         <h4 className='text-xl font-bold mb-4'>Related Articles</h4>

@@ -494,6 +494,33 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         For the best selection and most competitive pricing, we recommend engaging your Ethiopian coffee exporter between November and February. This gives you first access to new-crop lots, time to request and evaluate samples, and a comfortable shipping window before peak season demand.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Coffee Pricing</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the current FOB price for Ethiopian green coffee?</h4>
+            <p className="text-sm text-gray-600">FOB prices for Ethiopian green coffee typically range from $3.00 to $4.50 per pound for commercial grades, while specialty-grade lots from regions like Yirgacheffe, Sidama, and Guji can command $5.00 to $8.00 or more per pound. Prices fluctuate based on the ICE commodity market (C-price), the specific grade and origin, seasonal availability, and the prevailing differential for Ethiopian coffees. To get an accurate, up-to-date FOB quote, it is best to contact an Ethiopian exporter directly with your volume and quality requirements.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How much does Ethiopian coffee cost per kilogram?</h4>
+            <p className="text-sm text-gray-600">When converted to kilograms, Ethiopian green coffee FOB prices generally fall between $6.60 and $9.90 per kg for commercial grades and between $11.00 and $17.60 or higher per kg for specialty lots. Keep in mind that FOB pricing does not include shipping, insurance, import duties, or destination port fees. Your total landed cost will depend on the Incoterm you negotiate, container size, and destination port logistics.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What factors affect the price of Ethiopian green coffee?</h4>
+            <p className="text-sm text-gray-600">Several key factors influence Ethiopian coffee pricing. The ICE C-price sets the global benchmark for arabica. On top of that, the Ethiopian differential reflects supply, demand, and quality reputation. Coffee grade (ranging from Grade 1 specialty to Grade 5 commercial), processing method (washed vs. natural), geographic origin, and lot size all play a role. Seasonal timing also matters: prices tend to be most competitive early in the harvest season (November to February) and rise as supply tightens later in the year. Currency exchange rates and export regulations can also impact final pricing.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How can I get a pricing quote from an Ethiopian coffee exporter?</h4>
+            <p className="text-sm text-gray-600">To request a quote, reach out to a licensed Ethiopian coffee exporter with details about the grade, origin, processing method, volume, and your preferred Incoterm (FOB, CFR, or CIF). Most exporters will provide indicative pricing based on current market conditions and can send pre-shipment samples for cupping evaluation before you commit. Working with an exporter who offers transparent pricing and clear communication throughout the process will help you secure the best value and avoid unexpected costs.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How do Ethiopian coffee prices compare to other origins?</h4>
+            <p className="text-sm text-gray-600">Ethiopian coffees generally carry a premium over many other origins due to their distinctive flavor profiles, strong market demand, and the country's reputation as the birthplace of arabica coffee. Compared to Brazilian or Colombian commercial-grade coffees, Ethiopian lots often trade at a higher differential above the C-price. However, when measured against other high-end single-origin coffees from countries like Kenya, Panama, or Costa Rica, Ethiopian specialty coffees can offer excellent value, especially given their complex fruit-forward and floral cup characteristics that are highly sought after by roasters worldwide.</p>
+          </div>
+        </div>
+      </section>
+
       {/* ====== CTA ====== */}
 
       <div className='bg-dark text-primary p-8 rounded-lg my-8'>

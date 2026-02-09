@@ -627,7 +627,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </ul>
 
       <h3 className='text-2xl font-extrabold mt-8'>
-        Getting Started: Next Steps for Interested Investors
+        How to Start Investing in Ethiopian Coffee Production
       </h3>
       
       <p className='my-4'>
@@ -647,7 +647,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </div>
 
       <h3 className='text-2xl font-extrabold mt-8'>
-        Conclusion: A Rare Convergence of Opportunity
+        Why Ethiopian Coffee Is a High-Growth Investment Opportunity
       </h3>
       
       <p className='my-4'>
@@ -661,6 +661,29 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       <p className='my-4'>
         The question isn&apos;t whether to invest in Ethiopian coffee-it&apos;s how to structure that investment for maximum impact and returns.
       </p>
+
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Investing in Ethiopian Coffee</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Why is Ethiopian coffee a good investment opportunity?</h4>
+            <p className="text-sm text-gray-600">Ethiopia is the birthplace of Arabica coffee, the world's fifth-largest producer, and home to unmatched genetic diversity. Growing global demand for specialty-grade Ethiopian coffee, combined with ongoing sector reforms, creates strong long-term investment potential.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the expected return on investment for Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Returns vary by investment model, but specialty-grade Ethiopian coffees command significant premiums over commodity prices. Investors with direct partnerships in processing or export can see margins of 15 to 30 percent, depending on quality, volume, and market access.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the main risks of investing in Ethiopian coffee production?</h4>
+            <p className="text-sm text-gray-600">Key risks include price volatility on international markets, climate change affecting yields, regulatory and foreign exchange challenges, and infrastructure limitations in rural producing areas. Working with experienced local partners helps mitigate these risks.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How can foreign investors enter the Ethiopian coffee market?</h4>
+            <p className="text-sm text-gray-600">Foreign investors can enter through joint ventures with licensed Ethiopian exporters, direct sourcing agreements with cooperatives, or by investing in processing infrastructure. Ethiopian investment regulations require working with local entities for coffee export activities.</p>
+          </div>
+        </div>
+      </section>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>

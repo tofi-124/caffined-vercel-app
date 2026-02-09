@@ -68,7 +68,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       </p>
 
       <p className='my-4'>
-        The term <span className='font-bold'>"Ethiopian Heirloom"</span> is used to describe the <span className='font-bold'>indigenous landrace coffee varieties</span> native to Ethiopia – the only place in the world where <a href="https://en.wikipedia.org/wiki/Coffea_arabica" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>Arabica coffee</a> grows wild and has evolved naturally for thousands of years. These varieties represent the <span className='font-bold'>most genetically diverse coffee population on Earth</span>, encompassing thousands of distinct genetic variations that can differ dramatically from farm to farm, region to region, and forest to forest.
+        The term <span className='font-bold'>"Ethiopian Heirloom"</span> is used to describe the <span className='font-bold'>indigenous landrace coffee varieties</span> native to Ethiopia, the only place in the world where <a href="https://en.wikipedia.org/wiki/Coffea_arabica" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>Arabica coffee</a> grows wild and has evolved naturally for thousands of years. These varieties represent the <span className='font-bold'>most genetically diverse coffee population on Earth</span>, encompassing thousands of distinct genetic variations that can differ dramatically from farm to farm, region to region, and forest to forest.
       </p>
 
       <p className='my-4'>
@@ -134,7 +134,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
           Why "Heirloom" Can Be Misleading
         </p>
         <p className='text-sm'>
-          In agriculture, <span className='font-bold'>"heirloom"</span> typically refers to old, open-pollinated varieties that have been preserved unchanged for generations (like heirloom tomatoes). Ethiopian coffee varieties <span className='font-bold'>are not preserved unchanged</span> – they continue to cross-pollinate, mutate, and evolve naturally. A more accurate term would be <span className='font-bold'>"landrace"</span> or <span className='font-bold'>"indigenous varieties,"</span> but "Ethiopian Heirloom" has become the industry-standard terminology.
+          In agriculture, <span className='font-bold'>"heirloom"</span> typically refers to old, open-pollinated varieties that have been preserved unchanged for generations (like heirloom tomatoes). Ethiopian coffee varieties <span className='font-bold'>are not preserved unchanged</span>. They continue to cross-pollinate, mutate, and evolve naturally. A more accurate term would be <span className='font-bold'>"landrace"</span> or <span className='font-bold'>"indigenous varieties,"</span> but "Ethiopian Heirloom" has become the industry-standard terminology.
         </p>
       </div>
 
@@ -250,7 +250,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
 
         <div className='border-l-4 border-amber-500 pl-4'>
           <h5 className='font-bold'>Yemen Export (15th-17th century)</h5>
-          <p className='text-sm'>A small number of Ethiopian coffee seeds/plants were taken to Yemen, then to India, Java, and eventually the Americas. This created a <span className='font-bold'>genetic bottleneck</span> – the entire global coffee industry descended from a tiny fraction of Ethiopian genetic diversity.</p>
+          <p className='text-sm'>A small number of Ethiopian coffee seeds/plants were taken to Yemen, then to India, Java, and eventually the Americas. This created a <span className='font-bold'>genetic bottleneck</span>. The entire global coffee industry descended from a tiny fraction of Ethiopian genetic diversity.</p>
         </div>
 
         <div className='border-l-4 border-blue-500 pl-4'>
@@ -266,7 +266,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium'>
-          <span className='font-bold'>Why This Matters:</span> Ethiopian heirloom varieties possess genetic traits that don't exist anywhere else in the coffee world – disease resistance, drought tolerance, unique flavor compounds, and adaptation potential crucial for coffee's survival in a changing climate. This diversity is irreplaceable.
+          <span className='font-bold'>Why This Matters:</span> Ethiopian heirloom varieties possess genetic traits that don't exist anywhere else in the coffee world: disease resistance, drought tolerance, unique flavor compounds, and adaptation potential crucial for coffee's survival in a changing climate. This diversity is irreplaceable.
         </p>
       </div>
 
@@ -297,7 +297,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
             <span className='font-bold'>Continuous Evolution:</span> Natural cross-pollination means the genetic composition is constantly changing, unlike clonally-propagated cultivars
           </li>
           <li>
-            <span className='font-bold'>Traditional Farming:</span> Ethiopian farmers traditionally haven't selected or propagated specific varieties with precision – they work with the natural population on their land
+            <span className='font-bold'>Traditional Farming:</span> Ethiopian farmers traditionally haven't selected or propagated specific varieties with precision. They work with the natural population on their land
           </li>
           <li>
             <span className='font-bold'>Processing & Trade:</span> Coffee from multiple farms (and thus multiple varieties) is processed together, making single-variety traceability difficult
@@ -311,7 +311,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       <h4 className='text-xl font-bold mt-8 mb-4'>The Practical Reality</h4>
 
       <p className='my-4'>
-        When you purchase Ethiopian green coffee, you're almost always buying a <span className='font-bold'>blend of multiple genetic varieties</span> from the same region. This isn't a quality issue – it's simply the nature of Ethiopian coffee production. In fact, many buyers and roasters appreciate this complexity as it contributes to the layered, intricate flavor profiles Ethiopian coffee is famous for.
+        When you purchase Ethiopian green coffee, you're almost always buying a <span className='font-bold'>blend of multiple genetic varieties</span> from the same region. This is not a quality issue. It is simply the nature of Ethiopian coffee production. In fact, many buyers and roasters appreciate this complexity as it contributes to the layered, intricate flavor profiles Ethiopian coffee is famous for.
       </p>
 
       {/* SECTION 5: REGIONAL VARIATIONS */}
@@ -634,7 +634,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       </h3>
 
       <p className='my-4'>
-        No discussion of Ethiopian varieties would be complete without addressing <a href="https://en.wikipedia.org/wiki/Geisha_(coffee)" target="_blank" rel="noopener noreferrer" className='font-bold text-amber-700 hover:underline'>Gesha</a> (also spelled Geisha) – perhaps the most famous and expensive coffee variety in the world.
+        No discussion of Ethiopian varieties would be complete without addressing <a href="https://en.wikipedia.org/wiki/Geisha_(coffee)" target="_blank" rel="noopener noreferrer" className='font-bold text-amber-700 hover:underline'>Gesha</a> (also spelled Geisha), perhaps the most famous and expensive coffee variety in the world.
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>The Gesha Story</h4>
@@ -760,7 +760,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         <div className='space-y-4'>
           <div>
             <p className='font-bold text-amber-800'>Floral Complexity</p>
-            <p className='text-sm'>Ethiopian varieties produce exceptional levels of floral aromatics – jasmine, bergamot, honeysuckle, lavender. This is genetically encoded in higher terpene production compared to varieties bred elsewhere.</p>
+            <p className='text-sm'>Ethiopian varieties produce exceptional levels of floral aromatics: jasmine, bergamot, honeysuckle, lavender. This is genetically encoded in higher terpene production compared to varieties bred elsewhere.</p>
           </div>
           <div>
             <p className='font-bold text-amber-800'>Fruit-Forward Profiles</p>
@@ -768,15 +768,15 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
           </div>
           <div>
             <p className='font-bold text-amber-800'>Tea-Like Quality</p>
-            <p className='text-sm'>Many Ethiopian heirlooms exhibit delicate, tea-like body with clean, complex flavors – quite different from the fuller-bodied Latin American profiles.</p>
+            <p className='text-sm'>Many Ethiopian heirlooms exhibit delicate, tea-like body with clean, complex flavors, quite different from the fuller-bodied Latin American profiles.</p>
           </div>
           <div>
             <p className='font-bold text-amber-800'>Bright, Complex Acidity</p>
-            <p className='text-sm'>Ethiopian varieties produce vibrant, multi-dimensional acidity – often described as "sparkling" or "phosphoric" – rather than the simpler citric acidity common elsewhere.</p>
+            <p className='text-sm'>Ethiopian varieties produce vibrant, multi-dimensional acidity, often described as "sparkling" or "phosphoric," rather than the simpler citric acidity common elsewhere.</p>
           </div>
           <div>
             <p className='font-bold text-amber-800'>Layered Complexity</p>
-            <p className='text-sm'>Because you're tasting multiple varieties in one lot, Ethiopian coffee often displays layer upon layer of flavor – "complexity" is the defining characteristic.</p>
+            <p className='text-sm'>Because you're tasting multiple varieties in one lot, Ethiopian coffee often displays layer upon layer of flavor. "Complexity" is the defining characteristic.</p>
           </div>
         </div>
       </div>
@@ -795,7 +795,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       </ul>
 
       <p className='my-4'>
-        The result is the <span className='font-bold'>signature complexity</span> Ethiopian coffee is famous for – a complexity that's harder to achieve with single-variety lots from other origins.
+        The result is the <span className='font-bold'>signature complexity</span> Ethiopian coffee is famous for, a complexity that is harder to achieve with single-variety lots from other origins.
       </p>
 
       {/* SECTION 10: SOURCING HEIRLOOM */}
@@ -866,16 +866,16 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
           Questions That Won't Help Much
         </h5>
         <ul className='space-y-2 text-sm'>
-          <li>✗ "What specific variety is this?" – Likely can't be answered with precision</li>
-          <li>✗ "Is this Typica or Bourbon?" – Usually neither, and impossible to verify without DNA</li>
-          <li>✗ "Can I get single-variety Ethiopian coffee?" – Rare and not necessarily better</li>
-          <li>✗ "Why don't you have variety details?" – This isn't a quality issue; it's the nature of Ethiopian coffee</li>
+          <li>✗ "What specific variety is this?" - Likely cannot be answered with precision</li>
+          <li>✗ "Is this Typica or Bourbon?" - Usually neither, and impossible to verify without DNA</li>
+          <li>✗ "Can I get single-variety Ethiopian coffee?" - Rare and not necessarily better</li>
+          <li>✗ "Why don't you have variety details?" - This is not a quality issue; it is the nature of Ethiopian coffee</li>
         </ul>
       </div>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium'>
-          <span className='font-bold'>Best Approach:</span> Focus on region, altitude, processing method, and cup profile rather than pursuing specific variety identification. Ethiopian coffee's strength is its diversity – embrace it rather than trying to reduce it to simple variety names.
+          <span className='font-bold'>Best Approach:</span> Focus on region, altitude, processing method, and cup profile rather than pursuing specific variety identification. Ethiopian coffee's strength is its diversity. Embrace it rather than trying to reduce it to simple variety names.
         </p>
       </div>
 
@@ -1034,13 +1034,40 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </ul>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Heirloom Coffee Varieties</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What does "Ethiopian heirloom" mean on a coffee label?</h4>
+            <p className="text-sm text-gray-600">"Ethiopian heirloom" refers to indigenous landrace coffee varieties that have grown naturally in Ethiopia for centuries. Unlike named single varieties from other origins, Ethiopian heirloom describes a mix of genetically diverse local cultivars from a specific region, not one standardized plant type.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How many coffee varieties exist in Ethiopia?</h4>
+            <p className="text-sm text-gray-600">Ethiopia is home to an estimated 10,000 to 15,000 distinct coffee genotypes, far more than any other country. Most of these remain uncharacterized and are grouped under the "heirloom" label, making Ethiopia the world's most genetically diverse coffee origin.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the difference between Ethiopian heirloom and single variety coffee?</h4>
+            <p className="text-sm text-gray-600">Single variety coffee from countries like Colombia or Kenya comes from one identified cultivar (such as Caturra or SL28). Ethiopian heirloom lots typically contain a mix of indigenous landraces grown together in the same area. Regional terroir and processing method are more reliable flavor indicators than variety names for Ethiopian coffee.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Where did Gesha (Geisha) coffee originate?</h4>
+            <p className="text-sm text-gray-600">Gesha coffee originated in the forests near the town of Gesha in southwestern Ethiopia. Seeds were collected and eventually planted in Panama, where the variety gained worldwide fame for its exceptional floral and jasmine-like cup profile. Gesha is one of Ethiopia's many indigenous landraces.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Why is Ethiopian coffee genetic diversity important for the global coffee industry?</h4>
+            <p className="text-sm text-gray-600">Ethiopia's wild and cultivated coffee populations contain genetic traits for disease resistance, climate adaptation, and flavor complexity that breeders worldwide need to develop resilient new varieties. As climate change threatens coffee production globally, Ethiopia's genetic resources are essential for the long-term survival of Arabica coffee.</p>
+          </div>
+        </div>
+      </section>
+
       {/* CONCLUSION */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6'>
-        Conclusion: Embracing Ethiopian Heirloom Complexity
+        Key Takeaways on Ethiopian Heirloom Coffee Varieties
       </h3>
 
       <p className='my-4'>
-        Ethiopian heirloom varieties defy the simple categorization coffee buyers from other origins might expect. There are no clean variety names, no uniform genetic lines, no predictable plant-to-plant consistency. Instead, there's <span className='font-bold'>magnificent, beautiful, essential diversity</span> – the genetic foundation of all the world's coffee.
+        Ethiopian heirloom varieties defy the simple categorization coffee buyers from other origins might expect. There are no clean variety names, no uniform genetic lines, no predictable plant-to-plant consistency. Instead, there's <span className='font-bold'>magnificent, beautiful, essential diversity</span>, the genetic foundation of all the world's coffee.
       </p>
 
       <p className='my-4'>
@@ -1048,14 +1075,14 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       </p>
 
       <p className='my-4'>
-        As DNA research advances, we'll gain deeper insights into Ethiopian coffee genetics. But the fundamental reality will remain: <span className='font-bold'>Ethiopian coffee is not a single variety or even hundreds of varieties – it's a living, evolving genetic ecosystem that has sustained coffee for millennia and holds the keys to its future.</span>
+        As DNA research advances, we'll gain deeper insights into Ethiopian coffee genetics. But the fundamental reality will remain: <span className='font-bold'>Ethiopian coffee is not a single variety or even hundreds of varieties. It is a living, evolving genetic ecosystem that has sustained coffee for millennia and holds the keys to its future.</span>
       </p>
 
       <div className='bg-gray-100 p-6 rounded-lg my-8 border border-gray-300'>
         <h4 className='font-bold text-lg mb-3'>Key Takeaways</h4>
         <ul className='space-y-2 text-sm'>
           <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /><span className='font-bold'>"Ethiopian Heirloom"</span> describes indigenous landrace varieties, not a single named variety</li>
-          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Ethiopia has <span className='font-bold'>10,000-15,000 distinct genotypes</span> – unmatched global diversity</li>
+          <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Ethiopia has <span className='font-bold'>10,000-15,000 distinct genotypes</span>, representing unmatched global diversity</li>
           <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Most Ethiopian coffee is <span className='font-bold'>mixed varieties</span> from the same region</li>
           <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /><span className='font-bold'>Regional variation</span> is more meaningful than variety names for Ethiopian coffee</li>
           <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /><span className='font-bold'>Genetic diversity = flavor complexity</span> – Ethiopia's strength</li>

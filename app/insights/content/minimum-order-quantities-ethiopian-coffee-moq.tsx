@@ -1079,6 +1079,33 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </p>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Coffee Minimum Order Quantities</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the minimum order quantity for Ethiopian green coffee?</h4>
+            <p className="text-sm text-gray-600">The standard MOQ for Ethiopian green coffee is one full 20-foot container, which holds 275 to 300 bags (each 60kg). Some exporters offer sample lots starting at 5 to 10 bags for first-time buyers.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can I order less than a full container of Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Yes. Some exporters offer LCL (less than container load) shipments, consolidated containers, or work with trading companies that aggregate smaller orders. Expect to pay a premium per kilogram for sub-container quantities.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How much does a full container of Ethiopian coffee cost?</h4>
+            <p className="text-sm text-gray-600">A full 20-foot container of Ethiopian specialty coffee (275 to 300 bags) typically costs between $70,000 and $150,000 FOB Djibouti, depending on grade, origin, and market conditions.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Do Ethiopian coffee exporters offer sample orders before full containers?</h4>
+            <p className="text-sm text-gray-600">Most reputable exporters provide cupping samples (200g to 500g) free of charge. Some also offer trial lots of 5 to 10 bags so buyers can test roast and evaluate before committing to a full container.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the difference between FCL and LCL shipping for Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">FCL (full container load) means you fill an entire container yourself, offering the best per-unit cost. LCL (less than container load) shares container space with other shipments, costing more per bag but requiring lower total investment.</p>
+          </div>
+        </div>
+      </section>
+
       {/* RELATED ARTICLES */}
       <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>
         <h4 className='font-bold text-lg mb-4'>Related Articles</h4>

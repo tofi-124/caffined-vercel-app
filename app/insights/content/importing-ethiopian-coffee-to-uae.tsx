@@ -629,6 +629,33 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <li><span className='font-bold'><a href='https://www.moec.gov.ae/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>UAE Ministry of Economy</a>:</span> Trade policies, import/export regulations</li>
       </ul>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to the UAE</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What permits are needed to import Ethiopian coffee to the UAE?</h4>
+            <p className="text-sm text-gray-600">You need a trade licence (mainland via DED or free zone via DMCC/JAFZA), ESMA food safety registration, a customs code with Dubai Customs, and an import permit. DMCC free zone traders benefit from simplified import procedures.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are ESMA requirements for green coffee imports to the UAE?</h4>
+            <p className="text-sm text-gray-600">ESMA (Emirates Authority for Standardization and Metrology) requires compliance with UAE food safety standards, product testing for contaminants and pesticide residues, proper labeling in Arabic and English, and conformity certificates for each shipment.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in the UAE?</h4>
+            <p className="text-sm text-gray-600">Green coffee beans are subject to a 5% customs duty under the GCC Common External Tariff. A 5% VAT also applies. DMCC free zone operations can defer or eliminate duties on coffee held for re-export.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to the UAE take?</h4>
+            <p className="text-sm text-gray-600">Shipping from Djibouti to Jebel Ali port in Dubai takes approximately 5 to 7 days via the Red Sea and Gulf of Aden. Including customs clearance, total transit time is approximately 10 to 15 days.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the advantages of DMCC free zone for coffee trading in Dubai?</h4>
+            <p className="text-sm text-gray-600">DMCC offers 100% foreign ownership, zero corporate and income tax, dedicated coffee storage and trading facilities, duty deferral on re-exports, and access to a global network of coffee traders. It is the world's largest free zone for commodities trading.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to the UAE?</h4>
         <p className='my-2'>

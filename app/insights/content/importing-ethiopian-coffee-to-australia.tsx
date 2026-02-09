@@ -991,7 +991,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
 
       {/* CONCLUSION */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6'>
-        Conclusion: Australia – The World's Most Quality-Obsessed Coffee Market
+        Key Takeaways for Importing Ethiopian Coffee to Australia
       </h3>
 
       <p className='my-4'>
@@ -1020,6 +1020,33 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
           <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /><span className='font-bold'>Premium market</span> – highest per-capita specialty coffee spending globally</li>
         </ul>
       </div>
+
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to Australia</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in Australia?</h4>
+            <p className="text-sm text-gray-600">No. Green coffee beans enter Australia at zero customs duty. A 10% GST applies at import but is fully recoverable as an input tax credit for GST-registered businesses.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are DAFF biosecurity requirements for importing coffee to Australia?</h4>
+            <p className="text-sm text-gray-600">Australia's Department of Agriculture, Fisheries and Forestry requires an original phytosanitary certificate, clean shipping containers free of contaminants, and may conduct biosecurity inspections at the port. First-time importers face closer scrutiny.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to Australia take?</h4>
+            <p className="text-sm text-gray-600">Transit time from Djibouti to Australian ports (Melbourne or Sydney) typically ranges from 25 to 36 days, including customs clearance and biosecurity processing at arrival.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What phytosanitary certificates are needed for Australian coffee imports?</h4>
+            <p className="text-sm text-gray-600">An original phytosanitary certificate issued by an authorized body in Ethiopia is mandatory. The certificate must confirm the coffee is free from pests and diseases. Copies or digital versions are not accepted.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the landed cost of Ethiopian coffee imported to Australia?</h4>
+            <p className="text-sm text-gray-600">Landed cost is typically 3 to 4% above the FOB price after GST recovery. This includes freight, insurance, port charges, and customs processing. The zero duty rate makes Australia cost-competitive compared to many other markets.</p>
+          </div>
+        </div>
+      </section>
 
       {/* RELATED ARTICLES */}
       <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>

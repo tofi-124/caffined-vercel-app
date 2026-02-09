@@ -972,6 +972,33 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         </div>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Rising Ethiopian Coffee Prices</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Why are Ethiopian coffee prices rising in 2025 and 2026?</h4>
+            <p className="text-sm text-gray-600">Ethiopian coffee prices are rising due to climate-driven supply constraints, increased global demand for specialty Arabica, higher production costs, currency fluctuations, and growing competition from Asian and Middle Eastern buyers.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How much has Ethiopian green coffee increased in price?</h4>
+            <p className="text-sm text-gray-600">Specialty Ethiopian coffee prices have increased 30 to 50% over the past two seasons. Commercial grades (Grade 4 to 5) average $4.50 to $5.50 per kg, while specialty lots (SCA 84+) command $7 to $10 per kg FOB.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Will Ethiopian coffee prices continue to rise?</h4>
+            <p className="text-sm text-gray-600">Market indicators suggest continued upward pressure through 2026. Limited supply growth, rising input costs, and strong specialty demand make significant price declines unlikely in the near term.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How can roasters manage rising Ethiopian coffee costs?</h4>
+            <p className="text-sm text-gray-600">Strategies include locking in prices with forward contracts, building direct relationships with exporters, diversifying across Ethiopian regions for value, and adjusting retail pricing to reflect quality-driven cost increases.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is Ethiopian coffee still worth importing at current prices?</h4>
+            <p className="text-sm text-gray-600">Yes. Ethiopian coffee commands premium retail prices due to its unique origin story, distinctive flavor profiles, and strong consumer recognition. The specialty premium more than compensates for higher green costs for quality-focused roasters.</p>
+          </div>
+        </div>
+      </section>
+
       {/* RELATED ARTICLES */}
       <h3 className='text-2xl font-extrabold mt-10 mb-4'>
         Related Resources

@@ -719,6 +719,33 @@ export default function SidamaCoffeeProductionProductivityExport() {
           </div>
         </div>
 
+        {/* FAQ SECTION */}
+        <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+          <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Sidama Coffee Production and Export</h3>
+          <div className="space-y-6">
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">What makes Sidama coffee unique among Ethiopian origins?</h4>
+              <p className="text-sm text-gray-600">Sidama coffee is known for its balanced acidity, medium body, and flavor notes of citrus, stone fruit, and floral undertones. The region's altitude (1,500 to 2,200 meters), volcanic soil, and traditional shade-growing practices contribute to its distinctive cup profile.</p>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">How much coffee does the Sidama region produce annually?</h4>
+              <p className="text-sm text-gray-600">Sidama produces over 100,000 metric tons of coffee annually, accounting for roughly 25 to 30% of Ethiopia's total coffee output. Recent productivity initiatives have pushed yields above 10 quintals per hectare on improved farms.</p>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">What is the difference between Sidama washed and natural coffee?</h4>
+              <p className="text-sm text-gray-600">Washed Sidama coffees tend to be cleaner with bright citrus acidity and tea-like body. Natural (dry-processed) Sidama coffees are fruitier, heavier-bodied, and often display berry and wine-like flavors. Both styles are popular in specialty markets.</p>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">How can importers source high-quality Sidama coffee?</h4>
+              <p className="text-sm text-gray-600">Work directly with Ethiopian exporters who have washing stations or sourcing relationships in Sidama. Request cupping samples of specific lots, verify SCA scores of 84+, and confirm traceability documentation for the specific kebele or washing station.</p>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">What SCA cupping scores do Sidama specialty coffees achieve?</h4>
+              <p className="text-sm text-gray-600">Top Sidama lots regularly score 85 to 90+ on the SCA scale. Competition-winning lots from sub-regions like Dale, Bensa, and Chire have scored above 88, placing Sidama among Ethiopia's highest-scoring origins.</p>
+            </div>
+          </div>
+        </section>
+
         {/* Related Resources */}
         <div className="bg-gray-50 p-8 rounded-lg border border-gray-200">
           <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">

@@ -857,6 +857,33 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         <li><span className='font-bold'>International collaboration:</span> Strengthening partnerships with global coffee organizations</li>
       </ul>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About AFCA Taste of Harvest and Ethiopian Coffee Competitions</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the AFCA Taste of Harvest coffee competition?</h4>
+            <p className="text-sm text-gray-600">The AFCA Taste of Harvest is Africa's premier coffee quality competition organized by the African Fine Coffees Association. It evaluates coffees from across Africa using international cupping standards, with winning lots auctioned to global buyers at premium prices.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How many samples did Ethiopia submit to the 2026 Taste of Harvest competition?</h4>
+            <p className="text-sm text-gray-600">Ethiopia submitted 226 coffee samples to the 2026 AFCA Taste of Harvest competition, representing diverse origins and processing methods from across the country's major coffee-growing regions.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How are coffees evaluated in the AFCA Taste of Harvest?</h4>
+            <p className="text-sm text-gray-600">Coffees are evaluated by certified Q-graders and international judges using the SCA cupping protocol. Scores are based on fragrance, flavor, aftertaste, acidity, body, balance, uniformity, sweetness, clean cup, and overall impression.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can international buyers purchase AFCA award-winning Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Yes. Winning lots from the Taste of Harvest competition are sold through AFCA's online auction platform, giving international roasters and importers direct access to top-scoring African coffees at market-driven prices.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What role does Ethiopia play in AFCA coffee competitions?</h4>
+            <p className="text-sm text-gray-600">Ethiopia is one of the largest and most consistent participants in AFCA competitions. The country leverages its genetic diversity, established cupping infrastructure, and growing number of Q-graders to submit competitive entries across multiple categories.</p>
+          </div>
+        </div>
+      </section>
+
       {/* CONCLUSION & CTA */}
       <div className='bg-dark text-primary p-6 rounded-lg my-8'>
         <h4 className='font-bold text-xl mb-3'>

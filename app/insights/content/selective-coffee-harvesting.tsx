@@ -200,7 +200,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
       </div>
 
       <h3 className='text-2xl font-extrabold mt-8'>
-        Conclusion: Respect the Hands
+        Why Selective Harvesting Matters for Coffee Quality
       </h3>
       
       <p className='my-4'>
@@ -217,6 +217,29 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
           <span><span className='font-bold'>Looking for ethically harvested coffee?</span> <Link href="/offerings" className="underline hover:text-gray-200">Browse our Offerings collection</Link>, where we detail the harvesting and processing method for every lot we source.</span>
         </p>
       </div>
+
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Selective Coffee Harvesting</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is selective coffee harvesting?</h4>
+            <p className="text-sm text-gray-600">Selective harvesting is the practice of hand-picking only ripe coffee cherries while leaving unripe (green) and overripe cherries on the branch. Pickers return multiple times during the harvest season to collect cherries at peak ripeness.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Why does selective harvesting improve coffee quality?</h4>
+            <p className="text-sm text-gray-600">Ripe cherries contain fully developed sugars, acids, and flavor precursors. Harvesting only ripe cherries eliminates the astringent or grassy flavors caused by unripe fruit, resulting in sweeter, cleaner, and more complex cup profiles.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How much does selective coffee harvesting cost compared to strip picking?</h4>
+            <p className="text-sm text-gray-600">Selective harvesting costs 2 to 3 times more than strip picking due to higher labor requirements and multiple passes. However, the resulting quality premium typically exceeds the additional cost for specialty-grade coffee.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is Ethiopian coffee selectively harvested?</h4>
+            <p className="text-sm text-gray-600">Most specialty Ethiopian coffee is selectively harvested. Ethiopia's smallholder farming model and mountainous terrain make hand-picking the primary harvesting method, contributing to the country's reputation for high cup quality.</p>
+          </div>
+        </div>
+      </section>
 
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>

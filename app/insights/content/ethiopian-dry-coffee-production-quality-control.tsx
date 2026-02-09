@@ -667,6 +667,29 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </div>
       </section>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Dry Coffee Processing and Quality Control</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is dry processed coffee in Ethiopia?</h4>
+            <p className="text-sm text-gray-600">Dry processed (natural) coffee in Ethiopia involves drying whole coffee cherries on raised beds or patios in the sun. The fruit dries around the bean over 15 to 20 days, imparting fruity, wine-like, and full-bodied flavor characteristics that distinguish Ethiopian naturals in the global market.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the most common quality defects in Ethiopian dry processed coffee?</h4>
+            <p className="text-sm text-gray-600">Common defects include over-fermentation from slow or uneven drying, mold development from moisture exposure, foreign matter contamination, insect damage, and inconsistent moisture levels. Proper drying bed management, regular turning, and sorting help minimize these defects.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What moisture content is required for Ethiopian export coffee?</h4>
+            <p className="text-sm text-gray-600">Ethiopian export coffee must reach a target moisture content of 11 to 12 percent before storage and shipment. Moisture levels above 12.5 percent risk mold growth during transit, while levels below 10 percent can damage bean structure and reduce cup quality.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does ECTA improve Ethiopian coffee quality?</h4>
+            <p className="text-sm text-gray-600">The Ethiopian Coffee and Tea Authority (ECTA) runs training programs for processors and cooperatives covering proper drying techniques, defect identification, moisture monitoring, and storage practices. ECTA also conducts performance reviews and oversees quality standards at regional processing facilities.</p>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="space-y-6 mt-12">
         <div className="bg-gradient-to-br from-amber-600 to-amber-800 text-white p-8 rounded-lg shadow-lg">

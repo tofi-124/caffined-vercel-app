@@ -546,7 +546,7 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
           <div className="flex items-start gap-4 mb-6">
             <HiOutlineArrowTrendingUp className="w-8 h-8 text-green-600 flex-shrink-0 mt-1" />
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Conclusion: A New Chapter in Ethiopian Coffee Trade</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Key Takeaways for Ethiopia-China Coffee Trade</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
                 The rise of China from Ethiopia's 33rd to 4th largest coffee export destination represents more than a statistical achievement-it signals a fundamental evolution in how Ethiopia approaches international coffee trade. By moving beyond transactional commodity exports to strategic partnerships encompassing technology transfer, infrastructure development, and market integration, Ethiopia is building a sustainable model for long-term competitiveness in global specialty coffee markets.
               </p>
@@ -556,6 +556,29 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
               <p className="text-gray-700 leading-relaxed">
                 As Dr. Adunya Debela and State Minister Tesfahun Gobezai emphasized, this is just the beginning. With China's coffee market projected to continue explosive growth, Ethiopia's ongoing agricultural modernization, and deepening bilateral cooperation, the Ethiopia-China coffee story will shape the global specialty coffee landscape for decades to come.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ SECTION */}
+        <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+          <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopia-China Coffee Trade</h3>
+          <div className="space-y-6">
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">How much coffee does Ethiopia export to China?</h4>
+              <p className="text-sm text-gray-600">China has risen from Ethiopia's 33rd to 4th largest coffee export destination in recent years. Ethiopian coffee exports to China have grown rapidly, driven by China's expanding specialty coffee consumption and strategic bilateral trade agreements.</p>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">Why is China importing more Ethiopian coffee?</h4>
+              <p className="text-sm text-gray-600">China's coffee market is experiencing explosive growth, especially in specialty and single-origin segments. Ethiopian coffee appeals to Chinese consumers because its floral and tea-like profiles (particularly Yirgacheffe) align well with Chinese tea-drinking preferences and e-commerce distribution channels.</p>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">Is Ethiopian coffee exported to China tariff-free?</h4>
+              <p className="text-sm text-gray-600">Yes. Under bilateral agreements and China's tariff-free access programs for least-developed countries, qualifying Ethiopian coffee exports enter the Chinese market with zero tariffs. This gives Ethiopian coffee a price advantage over competing origins in the Chinese market.</p>
+            </div>
+            <div>
+              <h4 className="font-bold text-gray-800 mb-2">Which Ethiopian coffee regions are most popular in China?</h4>
+              <p className="text-sm text-gray-600">Yirgacheffe is the most popular Ethiopian origin in China due to its floral and citrus profile that resonates with tea culture. Sidamo and Guji are also growing in popularity among Chinese specialty roasters and e-commerce platforms.</p>
             </div>
           </div>
         </section>

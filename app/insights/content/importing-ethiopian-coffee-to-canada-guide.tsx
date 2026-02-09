@@ -530,6 +530,33 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         <li><span className='font-bold'><a href='https://ised-isde.canada.ca/site/corporations-canada/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>ISED Business Registration</a>:</span> Get your Business Number (BN) for importing</li>
       </ul>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to Canada</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What permits are needed to import Ethiopian coffee to Canada?</h4>
+            <p className="text-sm text-gray-600">You need a Business Number (BN) from CRA, CFIA Safe Food for Canadians (SFCR) licence registration, and a customs broker or sufficient knowledge to file CBSA import declarations. A phytosanitary certificate from Ethiopia is also required.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in Canada?</h4>
+            <p className="text-sm text-gray-600">Green (unroasted) coffee beans are duty-free in Canada under HS code 0901.11. GST or HST applies at import but is recoverable as an input tax credit for registered businesses.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are CFIA requirements for importing green coffee beans to Canada?</h4>
+            <p className="text-sm text-gray-600">CFIA requires SFCR licence registration, a preventive control plan, and compliance with the Safe Food for Canadians Regulations. Coffee shipments may be inspected at the border for food safety and pest concerns.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to Canada take?</h4>
+            <p className="text-sm text-gray-600">Ocean freight from Djibouti to Vancouver typically takes 30 to 40 days. Shipments to Montreal or Toronto via the East Coast take approximately 25 to 35 days depending on the route.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Do I need SFCR registration to import coffee to Canada?</h4>
+            <p className="text-sm text-gray-600">Yes. All food importers in Canada must hold a Safe Food for Canadians (SFCR) licence issued by CFIA before importing. The registration process can be completed online through the My CFIA portal.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Canada?</h4>
         <p className='my-2'>

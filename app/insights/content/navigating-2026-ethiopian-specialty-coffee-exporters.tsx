@@ -626,7 +626,7 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
       {/* LOOKING AHEAD */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBar className='text-amber-600' />
-        The Future of Ethiopian Specialty Coffee
+        Ethiopian Specialty Coffee Export Outlook for 2026 and Beyond
       </h3>
 
       <p className='my-4'>
@@ -780,6 +780,29 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
           </Link>
         </div>
       </div>
+
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Specialty Coffee Exporters in 2026</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the biggest challenges for Ethiopian coffee exporters in 2026?</h4>
+            <p className="text-sm text-gray-600">Key challenges include EUDR compliance requirements, rising production costs, climate variability affecting yields, and increased competition from other African origins. Exporters must also invest in traceability systems and digital documentation.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does the EU Deforestation Regulation affect Ethiopian coffee exports?</h4>
+            <p className="text-sm text-gray-600">The EUDR requires Ethiopian exporters to provide GPS coordinates of coffee farms and demonstrate that coffee was not grown on land deforested after December 2020. Exporters need robust traceability from farm to port.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What quality certifications do Ethiopian coffee exporters need in 2026?</h4>
+            <p className="text-sm text-gray-600">Leading exporters maintain organic, Fair Trade, Rainforest Alliance, and UTZ certifications. SCA cupping scores of 84+ are standard for specialty lots. EUDR compliance documentation is now essential for EU market access.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Which Ethiopian coffee regions are most in demand for specialty export?</h4>
+            <p className="text-sm text-gray-600">Yirgacheffe, Guji, and Sidama remain the most sought-after origins. Emerging micro-regions within these zones, along with Limmu and West Arsi, are gaining buyer interest for their unique flavor profiles.</p>
+          </div>
+        </div>
+      </section>
 
       {/* RELATED ARTICLES */}
       <div className='mt-12 pt-8 border-t border-gray-200'>

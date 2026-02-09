@@ -601,6 +601,33 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <li><span className='font-bold'><a href='https://www.nta.go.jp/english/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>National Tax Agency</a>:</span> Consumption tax registration and filing</li>
       </ul>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to Japan</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What permits are needed to import Ethiopian coffee to Japan?</h4>
+            <p className="text-sm text-gray-600">You need a food import notification filed with MHLW (Ministry of Health, Labour and Welfare), a customs broker for NACCS declarations, and a plant quarantine certificate. First-time food importers must also register as a food importer with MHLW.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are MHLW food safety requirements for green coffee imports to Japan?</h4>
+            <p className="text-sm text-gray-600">MHLW requires a food import notification for every shipment, compliance with Japan's Food Sanitation Act, and adherence to maximum residue limits for pesticides. Shipments may be subject to inspection and laboratory testing at the port of entry.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in Japan?</h4>
+            <p className="text-sm text-gray-600">Green (unroasted) coffee beans enter Japan duty-free under HS code 0901.11. A 10% consumption tax applies at import. Roasted coffee and instant coffee are subject to different duty rates.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to Japan take?</h4>
+            <p className="text-sm text-gray-600">Ocean freight from Djibouti to Japanese ports (Yokohama, Kobe, or Nagoya) typically takes 25 to 35 days. Including customs clearance and MHLW inspection, total delivery time is approximately 30 to 40 days.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What residue testing is required for Ethiopian coffee entering Japan?</h4>
+            <p className="text-sm text-gray-600">Japan enforces strict maximum residue limits (MRLs) under its Positive List System. MHLW may conduct pesticide residue testing on any shipment. Exporters should provide pre-shipment test results to avoid delays at the port.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Japan?</h4>
         <p className='my-2'>

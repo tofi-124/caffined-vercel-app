@@ -579,6 +579,33 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
         </div>
       </section>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Cupping and Evaluating Ethiopian Coffee</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the SCA cupping protocol for Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">The SCA protocol uses 8.25 grams of coffee per 150 ml of water at 93 degrees Celsius. Coffees are evaluated on fragrance/aroma, flavor, aftertaste, acidity, body, balance, uniformity, clean cup, sweetness, and overall impression.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What cupping score qualifies Ethiopian coffee as specialty grade?</h4>
+            <p className="text-sm text-gray-600">Coffee scoring 80 points or above on the SCA 100-point scale is considered specialty grade. Many Ethiopian coffees from Yirgacheffe, Guji, and Sidamo regularly score 85 or higher.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are common defects found when cupping Ethiopian coffee samples?</h4>
+            <p className="text-sm text-gray-600">Common defects include ferment or overripe fruit notes from processing issues, baggy or musty flavors from improper storage, phenolic or medicinal taints, and potato defect (primarily in East African washed coffees).</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How do you evaluate washed versus natural Ethiopian coffee during cupping?</h4>
+            <p className="text-sm text-gray-600">Washed Ethiopian coffees are evaluated for clarity, brightness, and clean floral or citrus notes. Natural processed coffees are assessed for fruit intensity, body, and sweetness, with expectations of heavier body and berry or wine-like flavors.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How many cups should you prepare when evaluating Ethiopian coffee samples?</h4>
+            <p className="text-sm text-gray-600">SCA protocol recommends a minimum of five cups per sample to assess uniformity and consistency. This allows cuppers to identify any defective cups and evaluate the lot's overall quality reliably.</p>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="bg-gradient-to-br from-amber-900 to-amber-800 text-white p-8 rounded-lg">
         <h3 className="text-2xl font-extrabold mb-4">

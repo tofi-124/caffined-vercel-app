@@ -29,10 +29,10 @@ export default function EthiopiaBirthplaceOfCoffee({ title, date, large_image_ur
         </div>
       </figure>
 
-      <h2 className="text-2xl font-bold mt-6 mb-3">A Story From the Highlands</h2>
+      <h2 className="text-2xl font-bold mt-6 mb-3">How Coffee Was Discovered in Ethiopia</h2>
 
       <p className="my-4">
-        Picture a misty morning on a highland slope. Smoke rises from a small hearth. Someone is turning green beans over a hot pan while neighbours talk in low voices. A fresh cup is placed between two hands and conversation deepens. Scenes like this happen across Ethiopia every day. Coffee is part of the rhythm of life here.
+        Ethiopia is the birthplace of coffee. Every Arabica coffee plant on earth traces its genetic roots to the wild-growing forests of southwestern Ethiopia. Today, Ethiopia remains the largest coffee producer in Africa and the fifth largest globally, exporting over 300,000 metric tons of green coffee annually.
       </p>
 
       <p className="my-4">
@@ -97,6 +97,29 @@ export default function EthiopiaBirthplaceOfCoffee({ title, date, large_image_ur
         If you are sourcing coffee, consider asking about varietal background, how cherries were processed, and whether producers are receiving transparent prices. Those questions help sustain quality and support the people who make the coffee possible.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopia as the Birthplace of Coffee</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Why is Ethiopia called the birthplace of coffee?</h4>
+            <p className="text-sm text-gray-600">Ethiopia is the only country where Coffea arabica grows wild in its native forest habitat. Genetic research confirms that all the world's Arabica coffee traces back to Ethiopian wild populations, making it the origin point for the species that produces most of the world's coffee.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the legend of Kaldi and the discovery of coffee?</h4>
+            <p className="text-sm text-gray-600">The Kaldi legend describes an Ethiopian goat herder who noticed his goats became unusually energetic after eating berries from a forest shrub. He brought the berries to a local monastery, where monks brewed them into a drink that helped them stay alert during prayers. While the story is likely folklore, it reflects Ethiopia's deep historical connection to coffee.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What does Ethiopian coffee taste like?</h4>
+            <p className="text-sm text-gray-600">Ethiopian coffee flavors vary by region due to the country's enormous genetic diversity. Yirgacheffe coffees are known for floral and citrus notes, Sidamo for berry and wine-like complexity, Guji for tropical fruit and rich body, and Harrar for distinctive blueberry and wild character.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the Ethiopian coffee ceremony?</h4>
+            <p className="text-sm text-gray-600">The Ethiopian coffee ceremony is a traditional social ritual where green coffee beans are roasted, ground, and brewed in front of guests over charcoal. The ceremony typically involves three rounds of brewing and is a central part of Ethiopian hospitality, community gatherings, and daily life.</p>
+          </div>
+        </div>
+      </section>
+
       {/* RELATED ARTICLES */}
       <h3 className='text-2xl font-extrabold mt-10 mb-4'>Related Resources</h3>
       
@@ -131,6 +154,16 @@ export default function EthiopiaBirthplaceOfCoffee({ title, date, large_image_ur
           <li>• <a href="https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Wikipedia: Coffee production in Ethiopia</a></li>
           <li>• <a href="https://www.theguardian.com/global-development/2024/apr/09/coffee-how-rules-made-in-europe-put-ethiopian-farmers-at-risk" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>The Guardian: EU rules and Ethiopian farmers</a></li>
         </ul>
+      </div>
+
+      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+        <h4 className='font-bold text-xl mb-3'>Source Coffee from the Birthplace of Arabica</h4>
+        <p className='mb-4'>
+          Ethio Coffee Export ships traceable Ethiopian green coffee from Yirgacheffe, Sidama, Guji, Harrar, and Kaffa. Request samples or browse our current export offerings.
+        </p>
+        <p>
+          <Link href='/offerings' className='font-bold underline'>View current offerings</Link> | <Link href='/contact-us' className='font-bold underline'>Request samples</Link>
+        </p>
       </div>
 
       <p className="my-4 text-sm text-gray-600 italic">For sourcing, samples, or export enquiries, <Link href="/contact-us" className='text-blue-600 underline'>contact our team</Link>.</p>

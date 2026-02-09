@@ -244,7 +244,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
       </ul>
 
       <h3 className='text-2xl font-extrabold mt-8'>
-        Conclusion: Choosing Your Path
+        Which Coffee Cupping School Is Right for You?
       </h3>
       
       <p className='my-4'>
@@ -259,6 +259,29 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         Sensory analysis is a journey of constant calibration. The school you choose will provide the map, but your daily practice will determine the destination.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Coffee Cupping Schools and Q Grader Certification</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the best coffee cupping school in the world?</h4>
+            <p className="text-sm text-gray-600">The best cupping school depends on your goals. Boot Coffee Campus in the Netherlands excels in commercial training for traders and importers. CoffeeMind in Denmark leads in scientific sensory research. The London School of Coffee offers strong Q Grader preparation with industry connections.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How much does Q Grader certification cost?</h4>
+            <p className="text-sm text-gray-600">Q Grader certification courses typically cost between $2,500 and $4,000 USD depending on the training provider and location. This includes instruction, calibration exercises, and the full suite of CQI exams covering sensory, olfactory, and grading skills.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the difference between SCA sensory courses and Q Grader certification?</h4>
+            <p className="text-sm text-gray-600">SCA sensory courses (Foundation, Intermediate, Professional) teach cupping skills progressively and can be completed individually. Q Grader certification is a comprehensive CQI credential requiring candidates to pass 22 tests across multiple sensory and grading disciplines in a single session.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Do I need Q Grader certification to import or buy specialty coffee?</h4>
+            <p className="text-sm text-gray-600">No, Q Grader certification is not required to buy or import specialty coffee. However, it significantly strengthens your ability to evaluate samples, communicate quality expectations, and negotiate with exporters using a shared professional standard.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
@@ -270,6 +293,10 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         <h4 className='font-bold text-lg mb-3'>Related Resources:</h4>
         <ul className='space-y-2 text-sm'>
           <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 underline'>Ethiopian Coffee Exporter: Ethio Coffee Export PLC</Link></li>
+          <li>• <Link href="/offerings" className='text-blue-600 underline'>Current Ethiopian Green Coffee Offerings</Link></li>
+          <li>• <Link href="/ordering-info" className='text-blue-600 underline'>How to Order Ethiopian Green Coffee</Link></li>
+          <li>• <Link href="/insights/how-to-cup-evaluate-ethiopian-coffee-samples" className='text-blue-600 underline'>How to Cup & Evaluate Ethiopian Coffee Samples</Link></li>
+          <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 underline'>SCA Coffee Value Assessment: What Exporters and Importers Need to Know</Link></li>
           <li>• <Link href="https://sca.coffee/value-assessment" className='text-blue-600 underline' target='_blank'>Official SCA Coffee Value Assessment Page</Link></li>
           <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 underline'>Green Coffee Quality Control: Defects, Grading Systems & What Importers Should Inspect</Link></li>
         </ul>

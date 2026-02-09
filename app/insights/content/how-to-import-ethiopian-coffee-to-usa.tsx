@@ -457,6 +457,33 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         <li><span className='font-bold'><a href='https://ustr.gov/issue-areas/trade-development/preference-programs/african-growth-and-opportunity-act-agoa' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>AGOA Information</a>:</span> African Growth and Opportunity Act duty-free benefits</li>
       </ul>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to the USA</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What permits are needed to import Ethiopian coffee to the USA?</h4>
+            <p className="text-sm text-gray-600">You need an FDA Food Facility Registration, a Customs Bond, and an Importer of Record number. Ethiopian green coffee also requires a phytosanitary certificate and may need a USDA APHIS import permit depending on the shipment.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in the United States?</h4>
+            <p className="text-sm text-gray-600">Green (unroasted) coffee beans enter the US duty-free under HTS code 0901.11. Ethiopia also qualifies for additional duty-free benefits under the African Growth and Opportunity Act (AGOA).</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What FDA requirements apply to importing green coffee beans?</h4>
+            <p className="text-sm text-gray-600">Importers must register with FDA, file Prior Notice before each shipment arrives, and comply with the Food Safety Modernization Act (FSMA). FDA may also conduct inspections or testing at the port of entry.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does it take to ship Ethiopian coffee to the USA?</h4>
+            <p className="text-sm text-gray-600">Ocean freight from Djibouti port to US East Coast ports typically takes 25 to 35 days. West Coast shipments may take 35 to 45 days depending on the route and transshipment schedule.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the minimum order quantity for importing Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">A standard full container load (FCL) is 19.2 metric tons in a 20-foot container. Some exporters offer less than container load (LCL) options, though FCL shipments are more cost-effective per kilogram.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to the United States?</h4>
         <p className='my-2'>

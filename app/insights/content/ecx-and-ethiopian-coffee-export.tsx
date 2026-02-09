@@ -317,6 +317,29 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         For international buyers, these reforms mean better access to traceable, high-quality Ethiopian coffee while maintaining the quality assurance and legal framework the ECX provides.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About the Ethiopia Commodity Exchange and Coffee Export</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the Ethiopia Commodity Exchange (ECX)?</h4>
+            <p className="text-sm text-gray-600">The ECX is Ethiopia's central marketplace for trading agricultural commodities, including coffee. It provides a regulated platform with standardized grading, quality testing, warehousing, and price discovery that all Ethiopian coffee must pass through before export, unless the exporter holds a Direct Specialty License.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does the ECX coffee grading system work?</h4>
+            <p className="text-sm text-gray-600">ECX grades Ethiopian coffee from G1 (highest quality, fewest defects) to G5 (lowest export quality). Grading is based on physical defect counts per 300g sample combined with cupping evaluation. G1 and G2 are considered specialty grade, while G3 through G5 are commercial grade.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is a Direct Specialty License (DSL) in Ethiopian coffee export?</h4>
+            <p className="text-sm text-gray-600">A DSL allows licensed Ethiopian exporters to purchase specialty-grade coffee directly from cooperatives or washing stations, bypassing the ECX auction. This preserves full traceability from farm to export and enables buyers to source single-origin, lot-specific Ethiopian coffees.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can international buyers purchase coffee directly through the ECX?</h4>
+            <p className="text-sm text-gray-600">No. International buyers cannot trade directly on the ECX. They must work with licensed Ethiopian coffee exporters who purchase coffee through the ECX or via DSL channels and then handle export documentation, shipping, and quality verification on behalf of foreign buyers.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Coffee from an ECX-Registered Exporter?</h4>
         <p className='my-2'>

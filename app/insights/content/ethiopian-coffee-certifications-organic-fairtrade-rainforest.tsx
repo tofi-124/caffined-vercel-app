@@ -34,7 +34,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        The definitive guide to coffee certifications for Ethiopian green coffee: understanding Organic, Fair Trade, Rainforest Alliance, UTZ, and Bird Friendly certifications – what they mean, how to source them, their costs, and which certification aligns with your business values and customer expectations.
+        The definitive guide to coffee certifications for Ethiopian green coffee: understanding Organic, Fair Trade, Rainforest Alliance, UTZ, and Bird Friendly certifications: what they mean, how to source them, their costs, and which certification aligns with your business values and customer expectations.
       </h2>
 
       <figure>
@@ -79,7 +79,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Insight:</span> Ethiopia has one of the highest rates of organic coffee production in the world due to traditional farming practices – over 95% of Ethiopian coffee is grown without synthetic inputs, but only a fraction carries official organic certification due to the costs and complexity of the certification process.</span>
+          <span><span className='font-bold'>Key Insight:</span> Ethiopia has one of the highest rates of organic coffee production in the world due to traditional farming practices. Over 95% of Ethiopian coffee is grown without synthetic inputs, but only a fraction carries official organic certification due to the costs and complexity of the certification process.</span>
         </p>
       </div>
 
@@ -172,31 +172,31 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           <tbody>
             <tr>
               <td className='border border-gray-300 p-3 font-bold'>Organic (USDA/EU/JAS)</td>
-              <td className='border border-gray-300 p-3'>Environmental – No synthetic inputs</td>
+              <td className='border border-gray-300 p-3'>Environmental: No synthetic inputs</td>
               <td className='border border-gray-300 p-3'>$0.20-0.50/lb</td>
               <td className='border border-gray-300 p-3 text-green-700'>High availability</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3 font-bold'>Fairtrade International</td>
-              <td className='border border-gray-300 p-3'>Social – Fair prices & labor rights</td>
+              <td className='border border-gray-300 p-3'>Social: Fair prices & labor rights</td>
               <td className='border border-gray-300 p-3'>$0.20/lb minimum + $0.20 social premium</td>
               <td className='border border-gray-300 p-3 text-green-700'>High availability</td>
             </tr>
             <tr>
               <td className='border border-gray-300 p-3 font-bold'>Fair Trade USA</td>
-              <td className='border border-gray-300 p-3'>Social – Broader supply chain</td>
+              <td className='border border-gray-300 p-3'>Social: Broader supply chain</td>
               <td className='border border-gray-300 p-3'>$0.20/lb premium</td>
               <td className='border border-gray-300 p-3 text-amber-700'>Moderate availability</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3 font-bold'>Rainforest Alliance</td>
-              <td className='border border-gray-300 p-3'>Environmental & Social – Sustainable agriculture</td>
+              <td className='border border-gray-300 p-3'>Environmental & Social: Sustainable agriculture</td>
               <td className='border border-gray-300 p-3'>$0.03-0.10/lb</td>
               <td className='border border-gray-300 p-3 text-green-700'>High availability</td>
             </tr>
             <tr>
               <td className='border border-gray-300 p-3 font-bold'>Bird Friendly (Smithsonian)</td>
-              <td className='border border-gray-300 p-3'>Environmental – Shade-grown & organic</td>
+              <td className='border border-gray-300 p-3'>Environmental: Shade-grown & organic</td>
               <td className='border border-gray-300 p-3'>$0.25-0.50/lb</td>
               <td className='border border-gray-300 p-3 text-amber-700'>Limited availability</td>
             </tr>
@@ -500,7 +500,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           <li><HiOutlineExclamationTriangle className='inline mr-2 text-amber-600' /><span className='font-bold'>Minimum price obsolescence:</span> When specialty coffee prices are high (as in 2024-2026), the minimum price becomes irrelevant; farmers get market price regardless</li>
           <li><HiOutlineExclamationTriangle className='inline mr-2 text-amber-600' /><span className='font-bold'>Premium distribution:</span> Questions about whether premiums reach individual farmers vs. staying at cooperative level</li>
           <li><HiOutlineExclamationTriangle className='inline mr-2 text-amber-600' /><span className='font-bold'>Certification costs:</span> Annual fees can burden small cooperatives</li>
-          <li><HiOutlineExclamationTriangle className='inline mr-2 text-amber-600' /><span className='font-bold'>Quality neutrality:</span> Fair Trade doesn't differentiate by quality – premium coffees get same minimum as lower grades</li>
+          <li><HiOutlineExclamationTriangle className='inline mr-2 text-amber-600' /><span className='font-bold'>Quality neutrality:</span> Fair Trade doesn't differentiate by quality, so premium coffees get the same minimum as lower grades</li>
           <li><HiOutlineExclamationTriangle className='inline mr-2 text-amber-600' /><span className='font-bold'>Cooperative-only model:</span> Excludes individual farmers and private estates (under Fairtrade International)</li>
         </ul>
       </div>
@@ -631,7 +631,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3 font-bold'>Minimum price</td>
               <td className='border border-gray-300 p-3'>No minimum price</td>
-              <td className='border border-gray-300 p-3'>Yes – floor price protection</td>
+              <td className='border border-gray-300 p-3'>Yes - floor price protection</td>
             </tr>
             <tr>
               <td className='border border-gray-300 p-3 font-bold'>Premium structure</td>
@@ -701,7 +701,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       <h4 className='text-xl font-bold mt-8 mb-4'>Ethiopian Coffee: Naturally Bird Friendly</h4>
 
       <p className='my-4'>
-        Ethiopia's traditional forest coffee systems are <span className='font-bold'>ideal candidates for Bird Friendly certification</span>. The highlands of southwestern Ethiopia – particularly the Kaffa, Illubabor, and Bench Maji zones – contain the world's last remaining wild Arabica coffee forests, which exceed Bird Friendly shade standards by nature.
+        Ethiopia's traditional forest coffee systems are <span className='font-bold'>ideal candidates for Bird Friendly certification</span>. The highlands of southwestern Ethiopia, particularly the Kaffa, Illubabor, and Bench Maji zones, contain the world's last remaining wild Arabica coffee forests, which exceed Bird Friendly shade standards by nature.
       </p>
 
       <p className='my-4'>
@@ -744,7 +744,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium'>
-          <span className='font-bold'>Sourcing Tip:</span> If you're specifically seeking Bird Friendly Ethiopian coffee, work with exporters who source from forest coffee regions like Kaffa, Bonga, or Sheka. These coffees may meet Bird Friendly standards even if not yet certified – representing an opportunity for buyers to support certification expansion.
+          <span className='font-bold'>Sourcing Tip:</span> If you're specifically seeking Bird Friendly Ethiopian coffee, work with exporters who source from forest coffee regions like Kaffa, Bonga, or Sheka. These coffees may meet Bird Friendly standards even if not yet certified, representing an opportunity for buyers to support certification expansion.
         </p>
       </div>
 
@@ -755,7 +755,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Direct Trade</span> is often mentioned alongside certifications, but it's fundamentally different – it's a <span className='font-bold'>sourcing philosophy, not a certification</span>.
+        <span className='font-bold'>Direct Trade</span> is often mentioned alongside certifications, but it is fundamentally different. It is a <span className='font-bold'>sourcing philosophy, not a certification</span>.
       </p>
 
       <div className='grid md:grid-cols-2 gap-6 my-8'>
@@ -804,7 +804,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           The Direct Trade Caveat
         </p>
         <p className='text-sm'>
-          Because "direct trade" has no official definition or verification, it can be misused. Some buyers use the term loosely for any coffee purchased "directly" from an exporter, even if the exporter is a large commercial trader. <span className='font-bold'>True direct trade requires transparency</span> – credible direct trade roasters publish their pricing, share farmer stories, and can document their supply chain.
+          Because "direct trade" has no official definition or verification, it can be misused. Some buyers use the term loosely for any coffee purchased "directly" from an exporter, even if the exporter is a large commercial trader. <span className='font-bold'>True direct trade requires transparency</span>. Credible direct trade roasters publish their pricing, share farmer stories, and can document their supply chain.
         </p>
       </div>
 
@@ -1189,13 +1189,40 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         </div>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Coffee Certifications</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What certifications are available for Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Ethiopian coffee can be certified under several major programs including USDA Organic, EU Organic, JAS Organic, Fair Trade (Fairtrade International and Fair Trade USA), Rainforest Alliance (which merged with UTZ), and Smithsonian Bird Friendly. Many Ethiopian lots carry dual or triple certifications.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is Ethiopian coffee naturally organic?</h4>
+            <p className="text-sm text-gray-600">Most Ethiopian smallholder coffee is grown using traditional methods with little or no synthetic inputs, making it "organic by default." However, official organic certification still requires third-party audits, documentation, and annual inspections to verify compliance with USDA, EU, or JAS organic standards.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the difference between Fair Trade and Rainforest Alliance coffee certification?</h4>
+            <p className="text-sm text-gray-600">Fair Trade focuses on minimum price guarantees and community development premiums paid to producer cooperatives. Rainforest Alliance (which now includes UTZ) emphasizes environmental sustainability, farm management practices, and biodiversity conservation. Both certifications can be held simultaneously.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How much does coffee certification cost for Ethiopian producers?</h4>
+            <p className="text-sm text-gray-600">Certification costs vary by program and group size. Organic certification typically costs $3,000 to $15,000 annually for cooperatives, covering audit fees, documentation, and internal control systems. Fair Trade and Rainforest Alliance have similar cost structures, though some development programs subsidize initial certification for smallholder groups.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can Ethiopian coffee hold multiple certifications at once?</h4>
+            <p className="text-sm text-gray-600">Yes. Dual and triple certification is common for Ethiopian coffee cooperatives. A single lot can be certified as Organic, Fair Trade, and Rainforest Alliance simultaneously, which strengthens market positioning and can command higher combined premiums from buyers.</p>
+          </div>
+        </div>
+      </section>
+
       {/* CONCLUSION */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6'>
-        Conclusion: Making Certifications Work for Your Business
+        How to Choose the Right Ethiopian Coffee Certification
       </h3>
 
       <p className='my-4'>
-        Coffee certifications are tools – they help communicate values, verify practices, and connect consumers with the farmers who grow their coffee. For Ethiopian coffee specifically, certifications recognize and reward traditional practices that have sustained coffee cultivation for centuries.
+        Coffee certifications are tools that help communicate values, verify practices, and connect consumers with the farmers who grow their coffee. For Ethiopian coffee specifically, certifications recognize and reward traditional practices that have sustained coffee cultivation for centuries.
       </p>
 
       <p className='my-4'>

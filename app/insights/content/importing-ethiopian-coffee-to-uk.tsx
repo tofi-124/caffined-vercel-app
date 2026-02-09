@@ -962,7 +962,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
 
       {/* CONCLUSION */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6'>
-        Conclusion: The UK – A Premium Market for Ethiopian Coffee
+        Key Takeaways for Importing Ethiopian Coffee to the UK
       </h3>
 
       <p className='my-4'>
@@ -991,6 +991,33 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
           <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /><span className='font-bold'>UK consumers demand</span> transparency, sustainability, quality – perfect for Ethiopian coffee</li>
         </ul>
       </div>
+
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to the UK</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What import duty does the UK charge on Ethiopian green coffee?</h4>
+            <p className="text-sm text-gray-600">The UK charges 0% import duty on green (unroasted) coffee beans. VAT is also zero-rated for unroasted coffee, making Ethiopia one of the most cost-effective origins for UK importers.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Do I need a health certificate to import Ethiopian coffee to the UK?</h4>
+            <p className="text-sm text-gray-600">No. Green coffee beans do not require a health certificate for UK import. However, you must register as a food business at least 28 days before your first import.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping take from Ethiopia to the UK?</h4>
+            <p className="text-sm text-gray-600">Transit time from Djibouti port to the UK is typically 17 to 25 days. Felixstowe and London Gateway are the primary coffee import ports.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What documents are required to import Ethiopian coffee into the UK?</h4>
+            <p className="text-sm text-gray-600">You need a UK EORI number, commercial invoice, bill of lading, packing list, certificate of origin, and ICO certificate. A phytosanitary certificate from Ethiopia is also required.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the minimum order quantity to import Ethiopian coffee to the UK?</h4>
+            <p className="text-sm text-gray-600">Most Ethiopian exporters require a minimum of one full container (approximately 275 to 300 bags of 60kg each). Some exporters offer consolidated shipments for smaller buyers.</p>
+          </div>
+        </div>
+      </section>
 
       {/* RELATED ARTICLES */}
       <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>

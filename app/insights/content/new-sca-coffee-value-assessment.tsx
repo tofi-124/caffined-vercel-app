@@ -451,17 +451,51 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         </div>
       </div>
 
+      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+        <h4 className='font-bold text-xl mb-3'>Experience Ethiopian Coffee Evaluated with the CVA</h4>
+        <p className='mb-4'>
+          Ethio Coffee Export provides detailed cupping notes and quality assessments for every lot we offer. Whether you prefer traditional SCA scores or the new Coffee Value Assessment framework, our team can match you with the right Ethiopian green coffee.
+        </p>
+        <p>
+          <Link href='/offerings' className='font-bold underline'>Browse our current offerings</Link> or <Link href='/contact-us' className='font-bold underline'>request samples</Link> to taste the difference.
+        </p>
+      </div>
+
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About the SCA Coffee Value Assessment</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the SCA Coffee Value Assessment (CVA)?</h4>
+            <p className="text-sm text-gray-600">The CVA is the SCA's new evaluation framework that replaces the traditional 100-point cupping score. It assesses coffee across multiple descriptive dimensions rather than assigning a single numeric score, providing richer and more actionable quality information.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Does the CVA replace the traditional SCA cupping score?</h4>
+            <p className="text-sm text-gray-600">Yes. The SCA is transitioning from the legacy 100-point scoring system to the CVA framework. However, many buyers and exporters continue to use traditional scores alongside CVA evaluations during the transition period.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does the Coffee Value Assessment affect Ethiopian coffee grading?</h4>
+            <p className="text-sm text-gray-600">The CVA allows Ethiopian coffees to be evaluated on descriptive qualities like floral, fruity, and complex acidity profiles rather than a single number. This benefits Ethiopian origins known for distinctive flavor characteristics.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Where can I get trained on the SCA Coffee Value Assessment?</h4>
+            <p className="text-sm text-gray-600">The SCA offers a dedicated "CVA for Cuppers" course through its education platform. Training covers the new evaluation methodology, calibration exercises, and practical application for trading and quality control.</p>
+          </div>
+        </div>
+      </section>
+
       <hr className="my-8 border-gray-200" />
 
       <div className='bg-gray-50 p-6 rounded-lg my-6'>
         <h4 className='font-bold text-lg mb-3'>Related Resources:</h4>
         <ul className='space-y-2 text-sm'>
           <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 underline'>Ethiopian Coffee Exporter: Ethio Coffee Export PLC</Link></li>
+          <li>• <Link href="/offerings" className='text-blue-600 underline'>Current Ethiopian Green Coffee Offerings</Link></li>
+          <li>• <Link href="/ordering-info" className='text-blue-600 underline'>How to Order Ethiopian Green Coffee</Link></li>
+          <li>• <Link href="/insights/how-to-cup-evaluate-ethiopian-coffee-samples" className='text-blue-600 underline'>How to Cup & Evaluate Ethiopian Coffee Samples</Link></li>
           <li>• <Link href="https://sca.coffee/value-assessment" className='text-blue-600 underline' target='_blank'>Official SCA Coffee Value Assessment Page</Link></li>
           <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 underline'>Understanding the Ethiopia Commodity Exchange (ECX)</Link></li>
           <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 underline'>Green Coffee Quality Control: Defects, Grading Systems & What Importers Should Inspect</Link></li>
-          <li>• World Coffee Research Sensory Lexicon</li>
-          <li>• CQI Q Grader Program</li>
         </ul>
       </div>
 

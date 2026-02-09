@@ -253,6 +253,29 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
         </p>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About the World's Top Specialty Coffee Shops</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What defines a world-class specialty coffee shop?</h4>
+            <p className="text-sm text-gray-600">World-class specialty shops are distinguished by their sourcing transparency, roasting precision, barista training standards, and commitment to serving coffees scoring 85+ on the SCA scale. They often roast in-house and maintain direct relationships with origin producers.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Which countries have the best specialty coffee scenes?</h4>
+            <p className="text-sm text-gray-600">The Nordic countries (Norway, Denmark, Sweden), Japan, Australia, the United States, and the United Kingdom lead in specialty coffee culture. Cities like Oslo, Melbourne, Tokyo, London, and Portland are recognized as global specialty coffee hubs.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Do top specialty coffee shops serve Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Yes. Ethiopian coffee is among the most featured origins at leading specialty shops worldwide. Its distinctive floral, fruity, and complex profiles make it a staple for filter brewing and seasonal single-origin offerings.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How do specialty coffee shops source their green coffee?</h4>
+            <p className="text-sm text-gray-600">Leading shops source through direct trade relationships, specialty importers, and reputable exporters. They prioritize lot traceability, cupping quality, and sustainable practices in their supply chain decisions.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-dark text-primary p-6 rounded-lg my-8'>
         <h4 className='font-bold text-xl mb-3'>Elevate Your Coffee Program</h4>
         <p className='my-2'>

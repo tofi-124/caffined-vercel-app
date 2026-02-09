@@ -1011,6 +1011,33 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About EUDR and Ethiopian Coffee Compliance</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">When does the EU Deforestation Regulation apply to Ethiopian coffee exports?</h4>
+            <p className="text-sm text-gray-600">The EUDR enforcement begins December 30, 2025 for large operators and June 30, 2026 for small and micro enterprises. All coffee entering EU markets after these dates must be verified as deforestation-free.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What documents do Ethiopian coffee exporters need for EUDR compliance?</h4>
+            <p className="text-sm text-gray-600">Exporters need GPS coordinates of production plots, deforestation-free evidence showing no land conversion after December 31, 2020, legality documentation, and full supply chain traceability records from farm to export.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Does Ethiopian coffee need GPS traceability for the EU Deforestation Regulation?</h4>
+            <p className="text-sm text-gray-600">Yes. EUDR requires geolocation data (GPS coordinates) for all plots of land where coffee was produced. For plots larger than four hectares, polygon boundary coordinates are required.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does EUDR compliance affect Ethiopian coffee prices?</h4>
+            <p className="text-sm text-gray-600">EUDR compliance adds costs for traceability systems and documentation. However, compliant exporters can command premium prices from EU buyers who need verified, deforestation-free supply chains.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can smallholder Ethiopian coffee farmers comply with EUDR requirements?</h4>
+            <p className="text-sm text-gray-600">Yes, though it requires coordinated support. Over 90% of Ethiopian coffee comes from smallholders. Cooperatives and exporters are working to collect GPS data and documentation on behalf of individual farmers.</p>
+          </div>
+        </div>
+      </section>
+
       {/* ETHIO COFFEE EXPORT CTA */}
       <div className='bg-gradient-to-br from-amber-900 to-amber-800 text-white p-8 rounded-lg my-8'>
         <h3 className='text-2xl font-extrabold mb-4'>

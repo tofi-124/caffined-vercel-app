@@ -962,7 +962,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
 
       {/* CONCLUSION */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6'>
-        Conclusion: Korea – A Premium Market for Ethiopian Coffee
+        Key Takeaways for Importing Ethiopian Coffee to South Korea
       </h3>
 
       <p className='my-4'>
@@ -990,6 +990,33 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
           <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' /><span className='font-bold'>Work with experienced exporters</span> who understand Korean documentation requirements</li>
         </ul>
       </div>
+
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to South Korea</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in South Korea?</h4>
+            <p className="text-sm text-gray-600">No. Green coffee beans enter South Korea duty-free under the Korea-Ethiopia trade framework. A 10% VAT applies at import but is fully recoverable as an input tax credit for registered businesses.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are MFDS food safety requirements for coffee imports to South Korea?</h4>
+            <p className="text-sm text-gray-600">Importers must register as a food import business with MFDS, file a pre-import report through the IFIMS system for every shipment, and comply with Korean food safety standards including pesticide residue limits.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to South Korea take?</h4>
+            <p className="text-sm text-gray-600">Ocean freight from Djibouti to Busan port typically takes 19 to 27 days. Including customs clearance and MFDS processing, total delivery time is approximately 25 to 35 days.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What permits are needed to import Ethiopian coffee to South Korea?</h4>
+            <p className="text-sm text-gray-600">You need MFDS food import business registration, a customs broker for Korea Customs Service declarations, and phytosanitary clearance. Each shipment requires a pre-import food report filed through the IFIMS electronic system.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What Ethiopian coffee varieties are most popular in South Korea?</h4>
+            <p className="text-sm text-gray-600">Korean consumers prefer light roast, single-origin coffees with fruity and floral profiles. Yirgacheffe and Guji natural processed coffees are highly popular, along with washed Sidamo for its clean, citrus-forward character.</p>
+          </div>
+        </div>
+      </section>
 
       {/* RELATED ARTICLES */}
       <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>

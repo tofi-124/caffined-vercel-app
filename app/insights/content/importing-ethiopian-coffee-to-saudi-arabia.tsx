@@ -601,6 +601,33 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         <li><span className='font-bold'>Saudi Specialty Coffee Association:</span> Industry networking and market insights</li>
       </ul>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to Saudi Arabia</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What permits are needed to import Ethiopian coffee to Saudi Arabia?</h4>
+            <p className="text-sm text-gray-600">You need a commercial registration (CR) with the Ministry of Commerce, SFDA food establishment registration, and a SABER conformity certificate for each shipment. An import licence and customs registration with ZATCA are also required.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are SFDA requirements for green coffee imports to Saudi Arabia?</h4>
+            <p className="text-sm text-gray-600">SFDA requires food establishment registration, compliance with SASO/GSO standards for coffee, product testing for contaminants and pesticide residues, and proper Arabic labeling. All food imports must pass SFDA inspection at the port of entry.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in Saudi Arabia?</h4>
+            <p className="text-sm text-gray-600">Green coffee beans are subject to a 5% customs duty under the GCC Common External Tariff. A 15% VAT also applies at import. These costs should be factored into landed cost calculations.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to Saudi Arabia take?</h4>
+            <p className="text-sm text-gray-600">Shipping from Djibouti to Jeddah Islamic Port via the Red Sea takes only 3 to 5 days. Including customs clearance, total transit time is approximately 7 to 14 days, making Saudi Arabia one of the fastest destinations for Ethiopian coffee.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Do I need SABER certification for Ethiopian coffee imports to Saudi Arabia?</h4>
+            <p className="text-sm text-gray-600">Yes. SABER is Saudi Arabia's conformity assessment platform. You must obtain a Product Certificate of Conformity (PCOC) and a Shipment Certificate of Conformity (SCOC) through the SABER system before each shipment can clear customs.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Saudi Arabia?</h4>
         <p className='my-2'>

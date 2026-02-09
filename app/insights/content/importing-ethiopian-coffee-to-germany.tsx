@@ -618,6 +618,33 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         <li><span className='font-bold'><a href='https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>TARIC (EU Customs Tariff Database)</a>:</span> HS codes, duty rates, GSP+ information</li>
       </ul>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to Germany</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the German coffee tax (Kaffeesteuer) on green coffee imports?</h4>
+            <p className="text-sm text-gray-600">Germany levies a coffee tax (Kaffeesteuer) of EUR 1.10 per kilogram on roasted coffee. Green (unroasted) coffee beans are exempt from this tax but become liable once roasted within Germany.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is Ethiopian coffee eligible for GSP+ reduced duty in Germany and the EU?</h4>
+            <p className="text-sm text-gray-600">Yes. Ethiopia qualifies for the EU's Generalised Scheme of Preferences (GSP), which provides reduced or zero duty rates on green coffee imports. Importers must present a valid Form A certificate of origin.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What food safety certifications are needed for coffee imports to Germany?</h4>
+            <p className="text-sm text-gray-600">Coffee imports must comply with EU food safety regulations including maximum residue limits (MRLs) for pesticides, ochratoxin A (OTA) testing, and EU contaminant regulations. The German Federal Office for Consumer Protection (BVL) oversees enforcement.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to Hamburg take?</h4>
+            <p className="text-sm text-gray-600">Ocean freight from Djibouti to Hamburg typically takes 18 to 25 days via the Red Sea and Suez Canal route. Including customs clearance in Hamburg, total transit time is approximately 21 to 30 days.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What EU customs procedures apply to Ethiopian coffee imports in Germany?</h4>
+            <p className="text-sm text-gray-600">Importers must file an electronic customs declaration, provide the HS code (0901.11 for green coffee), present Form A for GSP+ benefits, and comply with EUDR traceability requirements. Hamburg port offers bonded warehouse options for deferred duty payment.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Germany?</h4>
         <p className='my-2'>

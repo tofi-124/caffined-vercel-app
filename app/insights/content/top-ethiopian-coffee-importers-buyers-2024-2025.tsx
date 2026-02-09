@@ -982,6 +982,33 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
         </div>
       </section>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Coffee Importers and Buyers</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Who are the largest importers of Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Germany, Saudi Arabia, Japan, the United States, and South Korea are the top importing countries by volume. Major trading companies in these markets import tens of thousands of metric tons annually across both commercial and specialty grades.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How do Ethiopian coffee exporters find international buyers?</h4>
+            <p className="text-sm text-gray-600">Exporters find buyers through trade shows (such as SCA Expo and AFCA), online B2B platforms, Ethiopian trade missions, importer databases, and industry referrals. Building relationships through sample programs and consistent quality is essential.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What do international buyers look for in an Ethiopian coffee supplier?</h4>
+            <p className="text-sm text-gray-600">Buyers prioritize consistent quality, reliable communication, proper documentation, competitive pricing, and the ability to meet delivery timelines. Certifications (organic, Fair Trade) and traceability add significant value.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the average price international buyers pay for Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Commercial Ethiopian coffee (Grade 4 to 5) averages $4.50 to $5.50 per kg FOB. Specialty grades (SCA 84+, Grade 1 to 2) command $7 to $10 per kg, with exceptional micro-lots reaching $15+ per kg at auction.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Which Ethiopian coffee regions are most popular with international buyers?</h4>
+            <p className="text-sm text-gray-600">Yirgacheffe, Sidama, and Guji are the most requested origins for specialty buyers. Harrar and Limu remain popular for commercial and traditional blending markets. Newer micro-regions in Guji and West Arsi are gaining traction.</p>
+          </div>
+        </div>
+      </section>
+
       {/* RELATED RESOURCES */}
       <hr className="my-8 border-gray-200" />
 

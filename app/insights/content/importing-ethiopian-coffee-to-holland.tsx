@@ -275,6 +275,33 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         <p className='font-medium'><span className='font-bold'>Tip:</span> Use Rotterdam bonded storage to smooth cash flow and simplify cross-border distribution into Belgium and Germany   many traders import via Rotterdam even when final markets are elsewhere.</p>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Importing Ethiopian Coffee to the Netherlands</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Why import Ethiopian coffee through Rotterdam?</h4>
+            <p className="text-sm text-gray-600">Rotterdam is Europe's largest port and the primary entry point for coffee into the EU. It offers bonded warehouse facilities, competitive port fees, excellent logistics infrastructure, and easy onward distribution to Belgium, Germany, and the wider EU market.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What customs procedures apply to Ethiopian coffee imports in the Netherlands?</h4>
+            <p className="text-sm text-gray-600">Importers must file an Entry Summary (ENS) before arrival, submit an electronic import declaration through Dutch customs, and present Form A for GSP+ duty reduction. NVWA may request sampling and testing, especially for first-time importers.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Is Ethiopian coffee eligible for GSP+ duty reduction in the Netherlands?</h4>
+            <p className="text-sm text-gray-600">Yes. Ethiopia qualifies for the EU Generalised Scheme of Preferences, which provides reduced or zero duty on green coffee imports. A valid Form A certificate of origin must be attached to the import declaration.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the advantages of bonded storage in Rotterdam for coffee importers?</h4>
+            <p className="text-sm text-gray-600">Bonded warehouses allow importers to defer VAT and duty payments until goods are released for sale. This improves cash flow and simplifies cross-border distribution, as coffee can be re-exported to other EU countries without paying Dutch VAT first.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What food safety requirements apply to coffee imports in the Netherlands?</h4>
+            <p className="text-sm text-gray-600">Coffee must comply with EU food safety regulations including maximum residue limits for pesticides and ochratoxin A limits. The NVWA (Netherlands Food and Consumer Product Safety Authority) conducts inspections and may test incoming shipments.</p>
+          </div>
+        </div>
+      </section>
+
       {/* RELATED ARTICLES */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>

@@ -1204,6 +1204,33 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Coffee Origins, Processing, and Quality</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Where does coffee originally come from?</h4>
+            <p className="text-sm text-gray-600">Coffee originates from Ethiopia, where wild Arabica plants have grown in highland forests for thousands of years. The plant was first cultivated in Ethiopia and Yemen before spreading to tropical regions worldwide during the 17th and 18th centuries.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the difference between Arabica and Robusta coffee?</h4>
+            <p className="text-sm text-gray-600">Arabica (Coffea arabica) produces complex, nuanced flavors and accounts for roughly 60 percent of global production. Robusta (Coffea canephora) has higher caffeine content, a stronger and more bitter taste, and greater disease resistance, making it common in commercial blends and instant coffee.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How is green coffee processed after harvesting?</h4>
+            <p className="text-sm text-gray-600">Coffee cherries are processed using three main methods: washed (wet) processing removes the fruit before drying, natural (dry) processing dries the whole cherry, and honey processing removes the skin but leaves some mucilage during drying. Each method produces distinct flavor characteristics.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What determines specialty coffee grade and quality?</h4>
+            <p className="text-sm text-gray-600">Specialty coffee quality is determined by cupping scores (80 points or above on the SCA scale), defect counts per sample, moisture content, screen size, and sensory attributes including acidity, body, sweetness, and flavor complexity. Growing altitude, processing method, and varietal also play key roles.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does roast level affect coffee flavor?</h4>
+            <p className="text-sm text-gray-600">Lighter roasts preserve origin-specific characteristics such as floral, fruity, and citrus notes. Medium roasts balance origin flavors with caramelization sweetness. Darker roasts emphasize roast-driven flavors like chocolate, smokiness, and bittersweet notes while reducing origin character.</p>
+          </div>
+        </div>
+      </section>
+
       {/* ETHIO COFFEE EXPORT CTA */}
       <div className='bg-gradient-to-br from-amber-900 to-amber-800 text-white p-8 rounded-lg my-8'>
         <h3 className='text-2xl font-extrabold mb-4'>
