@@ -1,4 +1,5 @@
 import ResponsiveImage from '../components/ResponsiveImage'
+import Image from 'next/image'
 import { FaEnvelope, FaInstagram } from 'react-icons/fa'
 import Link from 'next/link'
 
@@ -162,6 +163,17 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+        </div>
+
+        <div className='h-px w-full bg-dark/10' />
+
+        {/* Certification Badges — visible on every page */}
+        <div className='py-6 flex items-center justify-center gap-6 flex-wrap px-4'>
+          <p className='text-dark/40 text-[10px] uppercase tracking-[0.2em] font-bold w-full text-center'>Licensed & Affiliated</p>
+          <Image src='/images/ecta-cert.webp' alt='ECTA certified Ethiopian coffee exporter' width={40} height={40} className='opacity-50 hover:opacity-80 transition-opacity' />
+          <Image src='/images/ecx-cert.webp' alt='ECX registered coffee trader' width={40} height={40} className='opacity-50 hover:opacity-80 transition-opacity' />
+          <Image src='/images/afca-cert.png' alt='AFCA member' width={40} height={40} className='opacity-50 hover:opacity-80 transition-opacity' />
+          <Image src='/images/sca-cert.webp' alt='SCA quality standards' width={40} height={40} className='opacity-50 hover:opacity-80 transition-opacity' />
         </div>
 
         <div className='h-px w-full bg-dark/10' />
