@@ -238,7 +238,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Environmental Pressures on Coffee</h2>
           <p className='my-4'>
-            Climate change poses the greatest threat to coffee. Rising temperatures and erratic rains could reduce suitable growing land by up to 50% by 2050. Pests like coffee leaf rust thrive in stressed environments, spreading rapidly.
+            <Link href='/insights/ethiopian-coffee-climate-change-impact' className='underline font-bold'>Climate change</Link> poses the greatest threat to coffee. Rising temperatures and erratic rains could reduce suitable growing land by up to 50% by 2050. Pests like coffee leaf rust thrive in stressed environments, spreading rapidly.
           </p>
           <p className='my-4'>
             Ethiopia's polyculture traditions provide resilience, but global coffee production needs systemic changes. Supporting smallholders through fair pricing, sustainable practices, and innovation is crucial for the industry's future.

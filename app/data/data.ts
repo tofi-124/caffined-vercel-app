@@ -11,6 +11,40 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== CLIMATE & SUSTAINABILITY =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-climate-change.webp',
+      large_image_url: 'insights/ethiopian-coffee-climate-change.webp',
+      date: 'Feb 10, 2026',
+      title: 'ETHIOPIAN COFFEE AND CLIMATE CHANGE: HOW GLOBAL WARMING IS RESHAPING ETHIOPIA\'S COFFEE REGIONS',
+      slug: 'ethiopian-coffee-climate-change-impact',
+      category: 'Climate & Sustainability / Supply Chain Risk',
+      keywords: [
+        'ethiopian coffee climate change',
+        'climate change coffee production',
+        'climate change effect on coffee',
+        'coffee and global warming',
+        'sustainable coffee sourcing',
+        'climate resilient coffee',
+        'ethiopian coffee growing regions',
+        'arabica coffee temperature',
+        'coffee altitude climate',
+        'coffee farming climate adaptation',
+        'ethiopia coffee drought',
+        'coffee berry borer climate',
+        'shade grown coffee climate',
+        'agroforestry coffee ethiopia',
+        'JARC coffee varieties',
+        'heirloom coffee climate resistance',
+        'future of ethiopian coffee',
+        'green coffee supply chain risk',
+        'coffee sourcing climate risk',
+        'climate smart coffee production',
+        'ethiopian coffee sustainability',
+        'coffee deforestation ethiopia'
+      ],
+      desc: 'How climate change is reshaping Ethiopian coffee: region-by-region impact analysis, genetic diversity advantages, adaptation strategies, pricing implications, and actionable sourcing guidance for importers building climate-resilient portfolios.'
+    },
     // ===== PRICING & TRADE GUIDANCE =====
     {
       small_image_url: 'insights/rising-coffee-prices-2.webp',

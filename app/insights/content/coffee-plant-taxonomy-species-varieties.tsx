@@ -491,8 +491,8 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
 
       <p className='my-4'>
         Ethiopia occupies a unique position within this belt. Its highland plateaus - ranging from 1,500 to 
-        2,200 meters - create microclimates that may remain viable even as lower-altitude regions become 
-        unsuitable for quality Arabica production. The country&apos;s coffee-growing zones, from the lush 
+        2,200 meters - create microclimates that may remain viable even as <Link href='/insights/ethiopian-coffee-climate-change-impact' className='underline'>lower-altitude regions become 
+        unsuitable for quality Arabica production</Link>. The country&apos;s coffee-growing zones, from the lush 
         forests of <Link href='/insights/birthplace-of-coffee-ethiopia' className='underline'>Kaffa (the birthplace of coffee)</Link> to 
         the mineral-rich soils of Guji, represent not just current excellence but potential future refugia 
         for the species. Understanding <Link href='/insights/specialty-coffee-trends-2026' className='underline'>2026 specialty coffee trends</Link> means 

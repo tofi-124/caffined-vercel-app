@@ -296,7 +296,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </ul>
 
       <p className='my-4'>
-        <span className='font-bold'>Ethiopia&apos;s advantage:</span> The country&apos;s highland climate, genetic diversity, and traditional farming systems provide resilience against many of these challenges.
+        <span className='font-bold'>Ethiopia&apos;s advantage:</span> The country&apos;s highland climate, genetic diversity, and traditional farming systems provide <Link href='/insights/ethiopian-coffee-climate-change-impact' className='underline font-bold'>resilience against many of these challenges</Link>.
       </p>
 
       <h4 className='text-xl font-bold mt-6'>
