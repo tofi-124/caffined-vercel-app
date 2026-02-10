@@ -15,6 +15,7 @@ export default function CoffeeExportsFirstHalf2018({ title, date, source }: News
       </h1>
 
       <div className='space-y-4'>
+        <h2 className='text-xl font-bold text-dark mt-6'>$1.345 Billion in Coffee Export Revenue</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           The Ethiopian Coffee and Tea Authority announced that it has earned over $1.3 billion from coffee exports in the first six months of 2018 E.C. According to the Authority’s Director General, Dr. Shafi Omar, special attention is being paid to further enhance the efficiency of the coffee sector.
         </p>
@@ -23,6 +24,7 @@ export default function CoffeeExportsFirstHalf2018({ title, date, source }: News
           He cited several strategies driving the results, including increasing productivity and quality, expanding market reach, and implementing digitalization and modern practices. The activities carried out on production volume and quality have increased global demand for Ethiopian coffee; the number of destination countries has increased to 84, and promotional activities, especially in East Asian markets, are proving effective.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Digital Traceability and Market Expansion</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           In addition to making farmers technology users, the entire coffee marketing process is being modernized with digital technology. A digital tracking system was launched to record where each coffee product originated, which warehouse it entered, and who sent it.
         </p>
@@ -39,8 +41,8 @@ export default function CoffeeExportsFirstHalf2018({ title, date, source }: News
       <div className='mt-8 pt-6 border-t border-gray-200'>
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
-          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
-          <li><Link href='/insights/benefits-investing-ethiopian-coffee-production' className='text-blue-600 hover:underline'>Benefits of Investing in Ethiopian Coffee</Link></li>
+          <li><Link href='/ethiopian-green-coffee-beans' className='text-blue-600 hover:underline'>Ethiopian Green Coffee Beans</Link></li>
+          <li><Link href='/ordering-info' className='text-blue-600 hover:underline'>How to Order Ethiopian Coffee</Link></li>
         </ul>
       </div>
 

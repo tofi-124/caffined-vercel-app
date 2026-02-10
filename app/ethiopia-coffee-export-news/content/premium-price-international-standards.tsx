@@ -15,6 +15,7 @@ export default function PremiumPriceInternationalStandards2026({ title, date, so
       </h1>
 
       <div className='space-y-4'>
+        <h2 className='text-xl font-bold text-dark mt-6'>International Standards for Ethiopian Coffee</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Jan 5, 2026 - It has been announced that it is possible to get a good/premium price
           as long as it meets international standards. The announcement was made at a workshop organized
@@ -29,6 +30,7 @@ export default function PremiumPriceInternationalStandards2026({ title, date, so
           intellectual property / IP-based strategy.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Geographical Indication and IP Strategy</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Presenters explained the unity and differences between a Trade Mark and a Geographical Indication
           (GI), and highlighted the benefits of an updated GI framework for both the country and the
@@ -55,9 +57,9 @@ export default function PremiumPriceInternationalStandards2026({ title, date, so
       <div className='mt-8 pt-6 border-t border-gray-200'>
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
-          <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-blue-600 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+          <li><Link href='/coffee-grading-ethiopia' className='text-blue-600 hover:underline'>Ethiopian Coffee Grading System</Link></li>
           <li><Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-blue-600 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
-          <li><Link href='/contact-us' className='text-blue-600 hover:underline'>Request Pricing from Ethio Coffee</Link></li>
+          <li><Link href='/buy-ethiopian-coffee-wholesale' className='text-blue-600 hover:underline'>Buy Ethiopian Coffee Wholesale</Link></li>
         </ul>
       </div>
 

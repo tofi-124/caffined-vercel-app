@@ -16,6 +16,7 @@ export default function EthiopiaCoffeeProductionForeignExchange({ title, date, s
 
       <div className='space-y-4'>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Rising Export Competitiveness</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           The Ethiopian Coffee and Tea Authority announced that Ethiopia’s coffee production is creating significant potential for foreign exchange earnings by increasing international export competitiveness.
         </p>
@@ -28,9 +29,12 @@ export default function EthiopiaCoffeeProductionForeignExchange({ title, date, s
           According to Shafi Umer, Deputy Director General of the Ethiopian Coffee and Tea Authority, a variety of activities have been carried out to increase coffee production in the past years of change. He stated that the government is playing a major role in contributing to Ethiopia's economic growth by producing coffee in large quantities, with quality and in a manner that meets international demand.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Technology and Reform Driving Productivity</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           He said that the growing culture of replacing old coffee plants with new ones and using technology has enabled significant changes in coffee productivity and foreign exchange earnings. He explained that coffee seedlings planted under the Green Ten Program are creating potential to increase the productivity of the sector.
         </p>
+
+        <h2 className='text-xl font-bold text-dark mt-6'>Record Coffee Export Revenue</h2>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
           He stated that the reform efforts to improve coffee productivity have enabled a significant increase in export earnings. He recalled that when the transitional government began its reform work in 2013, $907 million were earned from coffee exports, and in 2014, the income increased to $1.4 billion. He announced that the successful reform process has helped the sector to earn $1.6 billion in coffee export revenue in the first five months of the 2018 fiscal year.
@@ -49,7 +53,8 @@ export default function EthiopiaCoffeeProductionForeignExchange({ title, date, s
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
           <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
-          <li><Link href='/insights/benefits-investing-ethiopian-coffee-production' className='text-blue-600 hover:underline'>Benefits of Investing in Ethiopian Coffee</Link></li>
+          <li><Link href='/ethiopian-green-coffee-beans' className='text-blue-600 hover:underline'>Ethiopian Green Coffee Beans</Link></li>
+          <li><Link href='/buy-ethiopian-coffee-wholesale' className='text-blue-600 hover:underline'>Buy Ethiopian Coffee Wholesale</Link></li>
         </ul>
       </div>
 

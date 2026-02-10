@@ -15,6 +15,7 @@ export default function RenameCoffeeArabicaEthiopianCoffee({ title, date, source
       </h1>
 
       <div className='space-y-4'>
+        <h2 className='text-xl font-bold text-dark mt-6'>Ethiopia: The True Origin of Coffee Arabica</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           The name &quot;Coffee Arabica&quot; should be renamed &quot;Ethiopian coffee&quot; to honor Ethiopia&apos;s historical and scientific contributions as coffee&apos;s birthplace, said a researcher in the area.
         </p>
@@ -27,6 +28,7 @@ export default function RenameCoffeeArabicaEthiopianCoffee({ title, date, source
           He pointed out that &quot;Coffee Arabica,&quot; native to Ethiopia, is marketed under a name that does not reflect its true source. Solomon criticized other countries for making unsubstantiated claims about being the origin of coffee.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Call for UNESCO Recognition</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           The researcher further urged Ethiopian authorities and stakeholders to leverage the scientifically proven data supporting Ethiopia&apos;s status as the cradle of coffee to secure UNESCO recognition for its coffee heritage.
         </p>
@@ -40,7 +42,8 @@ export default function RenameCoffeeArabicaEthiopianCoffee({ title, date, source
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
           <li><Link href='/insights/ethiopia-birthplace-of-coffee' className='text-blue-600 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
-          <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-blue-600 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+          <li><Link href='/ethiopian-coffee-yirgacheffe' className='text-blue-600 hover:underline'>Ethiopian Yirgacheffe Coffee</Link></li>
+          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
         </ul>
       </div>
 

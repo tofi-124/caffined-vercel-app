@@ -15,6 +15,7 @@ export default function EUDeforestationProgress({ title, date, source }: NewsCon
       </h1>
 
       <div className='space-y-4'>
+        <h2 className='text-xl font-bold text-dark mt-6'>EUDR Compliance Progress in Ethiopian Coffee</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           The European Union says Ethiopia’s coffee sector is making tangible progress in meeting the EU’s deforestation-free supply chain requirements, citing advances in digital traceability systems and land registration in key coffee-producing areas.
         </p>
@@ -23,6 +24,7 @@ export default function EUDeforestationProgress({ title, date, source }: NewsCon
           In a social media statement, the EU said a workshop organized by the Development Fund of Norway brought together more than 60 participants from key stakeholder institutions to assess how Ethiopia’s coffee value chain is advancing toward compliance with the EU Deforestation-free Supply Chain Regulation (EUDR).
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Digital Traceability and Land Registration</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           According to the EU Delegation to Ethiopia, increasing levels of traceability are being achieved through the digitalization of Ethiopia’s coffee value chain. The delegation also highlighted progress in the deployment of cadastre systems in coffee-producing woredas, which are critical for mapping production areas and verifying land use.
         </p>
@@ -39,6 +41,7 @@ export default function EUDeforestationProgress({ title, date, source }: NewsCon
           While the regulation was initially scheduled to take effect at the end of 2025, the European Parliament has postponed its application by one year. Large operators will now be required to comply by December 30, 2026, while micro and small enterprises have until June 30, 2027.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Impact on Ethiopian Coffee Exports to Europe</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Ethiopia, the birthplace of Arabica coffee and Africa’s largest coffee producer, is particularly affected by the regulation. Coffee generates more than USD 2 billion annually, accounts for roughly one-third of the country’s export earnings, and supports the livelihoods of nearly 20 million people, most of them smallholder farmers.
         </p>
@@ -60,6 +63,7 @@ export default function EUDeforestationProgress({ title, date, source }: NewsCon
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
           <li><Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-blue-600 hover:underline'>Full EUDR Compliance Guide for Ethiopian Coffee</Link></li>
+          <li><Link href='/ethiopian-green-coffee-beans' className='text-blue-600 hover:underline'>Ethiopian Green Coffee Beans</Link></li>
           <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
         </ul>
       </div>

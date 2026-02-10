@@ -15,6 +15,7 @@ export default function Sidama6000TonsSupplied2026({ title, date, source }: News
       </h1>
 
       <div className='space-y-4'>
+        <h2 className='text-xl font-bold text-dark mt-6'>Sidama Coffee Market Supply</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Hawassa - Mesfin Qare, Director General of the Sidama Regional Coffee, Fruits and Spices Authority, said that more than 6,000 tons of coffee were supplied to the central market in the past months of the fiscal year.
         </p>
@@ -23,6 +24,7 @@ export default function Sidama6000TonsSupplied2026({ title, date, source }: News
           He announced that activities such as organizing coffee production in clusters, pruning old trees and replacing them with new varieties are underway to increase supplies to the central market. Collaboration with research institutions is expanding improved varieties adapted to local ecologies.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Agricultural Modernization and Organic Farming</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Mr. Mesfin added that over 232 coffee-producing industries are preparing vermicompost and distributing it to farmers. Of the 5.2 million tons of organic fertilizer produced this year, 3.1 million tons have been used, with the remainder earmarked for March planting.
         </p>
@@ -40,7 +42,8 @@ export default function Sidama6000TonsSupplied2026({ title, date, source }: News
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
           <li><Link href='/insights/sidama-coffee-production-productivity-export' className='text-blue-600 hover:underline'>Sidama Coffee Production Guide</Link></li>
-          <li><Link href='/offerings' className='text-blue-600 hover:underline'>View Available Sidama Coffee Lots</Link></li>
+          <li><Link href='/ethiopian-coffee-sidamo' className='text-blue-600 hover:underline'>Ethiopian Sidamo Coffee</Link></li>
+          <li><Link href='/offerings' className='text-blue-600 hover:underline'>View Available Coffee Lots</Link></li>
         </ul>
       </div>
     </>

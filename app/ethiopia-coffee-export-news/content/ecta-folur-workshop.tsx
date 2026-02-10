@@ -15,6 +15,7 @@ export default function EctaFolurWorkshop2026({ title, date, source }: NewsConte
       </h1>
 
       <div className='space-y-4'>
+        <h2 className='text-xl font-bold text-dark mt-6'>Workshop Overview</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Bishoftu, Ethiopia - In a significant move toward modernizing Ethiopia’s most vital commodity sector, a high-level consultative workshop was held on January 1, 2026, at the Bin International Hotel in Bishoftu to review critical research proposals aimed at transforming the coffee value chain.
         </p>
@@ -27,8 +28,9 @@ export default function EctaFolurWorkshop2026({ title, date, source }: NewsConte
           The Guest of Honor, Mr. Tagay Nuru, Deputy Director General of ECTA, opened the workshop and emphasized the importance of harvesting constructive inputs from diverse stakeholders to refine upcoming full-scale research. Presentations included an overview by Dr. Zerihun Kebebew, National Coffee Platform Coordinator for the UNDP FOLUR-Ethiopia project.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Climate Resilience and Export Quality</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          Organizers noted that while initial budget releases caused some delays, technical teams have continued advancing essential proposals. Participants provided rigorous feedback to align the proposals with ECTA’s strategic directions and international sustainability standards.
+          Organizers noted that while initial budget releases caused some delays, technical teams have continued advancing essential proposals. Participants provided rigorous feedback to align the proposals with ECTA&apos;s strategic directions and international sustainability standards.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
@@ -43,8 +45,8 @@ export default function EctaFolurWorkshop2026({ title, date, source }: NewsConte
       <div className='mt-8 pt-6 border-t border-gray-200'>
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
-          <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-blue-600 hover:underline'>How the ECX Works for Coffee</Link></li>
-          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+          <li><Link href='/coffee-grading-ethiopia' className='text-blue-600 hover:underline'>Ethiopian Coffee Grading System</Link></li>
+          <li><Link href='/ethiopian-green-coffee-beans' className='text-blue-600 hover:underline'>Ethiopian Green Coffee Beans</Link></li>
         </ul>
       </div>
 

@@ -15,6 +15,7 @@ export default function AfricanCoffeeWeek2026AddisAbaba({ title, date, source }:
       </h1>
 
       <div className='space-y-4'>
+        <h2 className='text-xl font-bold text-dark mt-6'>Opening of the Third African Coffee Week</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           ADDIS ABABA, Ethiopia – The third African Coffee Week and Inter-African Coffee Organization (IACO) meetings have officially opened in the Skylight Hotel here in Addis Ababa today. This High-Level Policy Forum is being held under the theme: &quot;Advancing Climate Resilience &amp; the Transformation of the African Coffee Sector&quot; which is Organized by the Inter-African Coffee Organization (IACO), the African Union&apos;s specialized agency for coffee, in collaboration with UNIDO.
         </p>
@@ -27,6 +28,7 @@ export default function AfricanCoffeeWeek2026AddisAbaba({ title, date, source }:
           During an opening session, Dr. Meles Mekonnen, State Minister of MoA stated that, the future of coffee is African, but that future will not build itself. It requires bold leadership, coordinated policies, public private partnerships and targeted investment. Let us leave this Forum not with declarations, but with commitments, not with promises, but with partnerships. Ethiopia stands ready to work with IACO-AU, Member States, AFCA, and all stakeholders to turn vision into action. Together, we can build a coffee sector that is climate-resilient, economically vibrant, socially inclusive, and globally competitive.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Ethiopian Coffee Export and the African Market</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Ato Shafi Oumer, Deputy Director General of the Ethiopian Coffee and Tea Authority in his part said that, As Ethiopia is the birthplace of coffee, this commodity is far more than an economic crop, it is a cultural symbol and a pillar of the nation&apos;s economy. According to him, Investment in the African coffee industry is necessary to maximize the benefits of the sector. Value addition is also needed to create more opportunities for African coffee in the international market. This will help to create job opportunities for many unemployed Africans. African countries should work together for this. Forums involving such leaders will create the capacity of coffee-producing countries to address the challenges encounter the sector and seize the opportunities that exist.
         </p>
@@ -48,6 +50,7 @@ export default function AfricanCoffeeWeek2026AddisAbaba({ title, date, source }:
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
           <li><Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='text-blue-600 hover:underline'>AFCA Taste of Harvest Competition</Link></li>
+          <li><Link href='/ethiopian-coffee-guji' className='text-blue-600 hover:underline'>Ethiopian Guji Coffee</Link></li>
           <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
         </ul>
       </div>

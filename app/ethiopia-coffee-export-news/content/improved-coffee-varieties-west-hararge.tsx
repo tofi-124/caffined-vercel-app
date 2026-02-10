@@ -15,6 +15,7 @@ export default function ImprovedCoffeeVarietiesWestHararge2026({ title, date, so
       </h1>
 
       <div className='space-y-4'>
+        <h2 className='text-xl font-bold text-dark mt-6'>41 Million Improved Coffee Seedlings</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Jan 6, 2026 - The West Hararge Zone Agriculture and Natural Resources Development Office
           announced that improved coffee seedlings are being prepared to increase coffee productivity.
@@ -29,6 +30,7 @@ export default function ImprovedCoffeeVarietiesWestHararge2026({ title, date, so
           seven thousand hectares of previously uncultivated land during the summer.
         </p>
 
+        <h2 className='text-xl font-bold text-dark mt-6'>Expanding Harar Coffee Production</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
           Deputy Administrator of Boke Woreda, Mohamedzain Abdella, said efforts are underway to
           distribute improved varieties to expand cultivation. He noted that more than 3 million
@@ -46,8 +48,8 @@ export default function ImprovedCoffeeVarietiesWestHararge2026({ title, date, so
       <div className='mt-8 pt-6 border-t border-gray-200'>
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
-          <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-blue-600 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
-          <li><Link href='/offerings' className='text-blue-600 hover:underline'>View Our Ethiopian Coffee Offerings</Link></li>
+          <li><Link href='/ethiopian-coffee-harar' className='text-blue-600 hover:underline'>Ethiopian Harar Coffee</Link></li>
+          <li><Link href='/ethiopian-green-coffee-beans' className='text-blue-600 hover:underline'>Ethiopian Green Coffee Beans</Link></li>
         </ul>
       </div>
 
