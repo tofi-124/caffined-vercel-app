@@ -1,21 +1,45 @@
 import Link from 'next/link'
-import { HiOutlineGlobeAlt, HiOutlineArrowTrendingUp, HiOutlineUserGroup, HiOutlineShoppingCart, HiOutlineCurrencyDollar, HiOutlineBeaker, HiOutlineChartBar, HiOutlineRocketLaunch, HiOutlineMapPin, HiOutlineBuildingOffice, HiOutlineLightBulb } from 'react-icons/hi2'
+import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { HiOutlineCalendarDays, HiOutlineGlobeAlt, HiOutlineArrowTrendingUp, HiOutlineUserGroup, HiOutlineShoppingCart, HiOutlineCurrencyDollar, HiOutlineBeaker, HiOutlineChartBar, HiOutlineRocketLaunch, HiOutlineMapPin, HiOutlineBuildingOffice, HiOutlineLightBulb } from 'react-icons/hi2'
 import { PiCoffee, PiPlantFill } from 'react-icons/pi'
 
-export default function EthiopiaChinaCoffeeTradePartnership() {
+type InsightContentProps = {
+  title: string
+  date: string
+  large_image_url: string
+}
+
+export default function EthiopiaChinaCoffeeTradePartnership({ title, date, large_image_url }: InsightContentProps) {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      <article className="prose prose-lg max-w-none">
-        
-        {/* Hero Section */}
-        <div className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Ethiopia-China Coffee Trade Partnership: From 33rd to 4th Largest Export Destination
-          </h1>
-          <p className="text-xl text-gray-600 leading-relaxed">
-            Discover how strategic cooperation, free tariff opportunities, and technology transfer have transformed China into Ethiopia's 4th largest coffee export destination-and what this means for international specialty coffee buyers and Ethiopian exporters navigating the world's fastest-growing coffee market.
-          </p>
+    <>
+      <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+        {title}
+      </h1>
+
+      <figure>
+        <figcaption className='font-inconsolata my-2'>
+          How strategic cooperation and free tariff opportunities transformed China into Ethiopia&apos;s 4th largest coffee export destination.
+        </figcaption>
+
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+          <ResponsiveImage
+            src={`/images/${large_image_url}`}
+            alt='Ethiopia China coffee trade partnership'
+            fill
+            objectFit='cover'
+            className='w-full h-full'
+            sizes='(max-width: 768px) 100vw, 768px'
+          />
         </div>
+      </figure>
+
+      <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
+        <span className='font-semibold'>Category:</span>
+        <span className='ml-2'>Market Analysis / Trade Partnership / Ethiopian Coffee</span>
+      </div>
+
+    <div className="max-w-4xl mx-auto">
+      <article className="prose prose-lg max-w-none">
 
         {/* Introduction */}
         <section className="mb-12">
@@ -726,5 +750,6 @@ export default function EthiopiaChinaCoffeeTradePartnership() {
 
       </article>
     </div>
+    </>
   )
 }

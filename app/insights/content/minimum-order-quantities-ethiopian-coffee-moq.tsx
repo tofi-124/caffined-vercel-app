@@ -75,11 +75,6 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </ul>
       </div>
 
-      <p className='text-xs mt-4 flex items-center gap-1.5 text-gray-600'>
-        <HiOutlineCalendarDays className='inline' />
-        <span>Last updated: {date}</span>
-      </p>
-
       {/* OPENING SCENARIO */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border-l-4 border-amber-500'>
         <p className='font-medium text-lg mb-3'>

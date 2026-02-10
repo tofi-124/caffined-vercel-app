@@ -65,10 +65,6 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           />
         </div>
       </figure>
-      <p className='my-2 text-gray-600 font-inconsolata'>
-        <HiOutlineCalendarDays className='inline mr-2' />
-        {date}
-      </p>
 
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>

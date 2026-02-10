@@ -30,7 +30,6 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <div className='flex items-start gap-4 mb-4'>
         <div className='text-sm text-gray-600'>
           <p className='font-semibold'>Ethio Coffee Export PLC, Editorial Team</p>
-          <p className='text-xs'>{date} · Prepared by Ethio Coffee Export PLC</p>
           <p className='text-xs mt-1'>Ethio Coffee Export PLC: exporters and quality specialists with on-the-ground sourcing and cupping expertise.</p>
         </div>
       </div>
@@ -54,10 +53,6 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           />
         </div>
       </figure>
-      <p className='my-2 text-gray-600 font-inconsolata'>
-        <HiOutlineCalendarDays className='inline mr-2' />
-        {date}
-      </p>
 
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>

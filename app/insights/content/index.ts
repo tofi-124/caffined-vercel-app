@@ -70,6 +70,42 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./selective-coffee-harvesting').then(mod => mod.default),
   'ethiopian-coffee-pricing-fob-guide': () =>
     import('./ethiopian-coffee-pricing-fob-guide').then(mod => mod.default),
+  'ethio-coffee-export-launch': () =>
+    import('./ethio-coffee-export-launch').then(mod => mod.default),
+  'birthplace-of-coffee-ethiopia': () =>
+    import('./birthplace-of-coffee-ethiopia').then(mod => mod.default),
+  'ethiopian-coffee-ceremony': () =>
+    import('./ethiopian-coffee-ceremony').then(mod => mod.default),
+  'direct-trade-ethiopian-farmers': () =>
+    import('./direct-trade-ethiopian-farmers').then(mod => mod.default),
+  'specialty-coffee-trends-2026': () =>
+    import('./specialty-coffee-trends-2026').then(mod => mod.default),
+  'guide-ethiopian-coffee-origins': () =>
+    import('./guide-ethiopian-coffee-origins').then(mod => mod.default),
+  'how-to-source-green-coffee-from-ethiopia': () =>
+    import('./how-to-source-green-coffee-from-ethiopia').then(mod => mod.default),
+  'yirgacheffe-vs-sidamo-vs-guji-comparison': () =>
+    import('./yirgacheffe-vs-sidamo-vs-guji-comparison').then(mod => mod.default),
+  'washed-vs-natural-ethiopian-coffee-processing': () =>
+    import('./washed-vs-natural-ethiopian-coffee-processing').then(mod => mod.default),
+  'best-ethiopian-coffee-exporter-for-importers': () =>
+    import('./best-ethiopian-coffee-exporter-for-importers').then(mod => mod.default),
+  'coffee-plant-taxonomy-species-varieties': () =>
+    import('./coffee-plant-taxonomy-species-varieties').then(mod => mod.default),
+  'coffee-is-agriculture-production-farming': () =>
+    import('./coffee-is-agriculture-production-farming').then(mod => mod.default),
+  'coffee-is-processing-drying-milling': () =>
+    import('./coffee-is-processing-drying-milling').then(mod => mod.default),
+  'coffee-is-commerce-exporting-importing-buying': () =>
+    import('./coffee-is-commerce-exporting-importing-buying').then(mod => mod.default),
+  'coffee-is-science-analysis-compounds-evaluation': () =>
+    import('./coffee-is-science-analysis-compounds-evaluation').then(mod => mod.default),
+  'coffee-is-art-roasting-brewing': () =>
+    import('./coffee-is-art-roasting-brewing').then(mod => mod.default),
+  'ethiopian-coffee-harvest-2025-season-outlook': () =>
+    import('./ethiopian-coffee-harvest-2025-season-outlook').then(mod => mod.default),
+  'green-coffee-quality-control-defects-grading': () =>
+    import('./green-coffee-quality-control-defects-grading').then(mod => mod.default),
   // Add more insights here as you create them:
   // 'next-insight-slug': () => import('./next-insight-file').then(mod => mod.default),
 }

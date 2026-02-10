@@ -1,6 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
+import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { HiOutlineCalendarDays } from 'react-icons/hi2'
 import { 
   HiOutlineBeaker,
   HiOutlineAcademicCap,
@@ -17,33 +18,42 @@ import {
 } from 'react-icons/hi2'
 import { PiCoffee, PiPlantFill, PiFactoryFill } from 'react-icons/pi'
 
-export default function EthiopianDryCoffeeProductionQualityControl() {
-  return (
-    <article className="max-w-4xl mx-auto px-4 py-8 space-y-8">
-      {/* Hero Section */}
-      <header className="space-y-4">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-          Ethiopian Dry Coffee Production: Complete Quality Control & Processing Guide for Exporters
-        </h1>
-        <div className="flex items-center gap-4 text-gray-600">
-          <time dateTime="2026-01-20">January 20, 2026</time>
-          <span>•</span>
-          <span>18 min read</span>
-        </div>
-        <p className="text-xl text-gray-700 leading-relaxed">
-          Comprehensive guide to Ethiopian dry coffee production, quality control standards, processing infrastructure, defect management, and the Ethiopian Coffee Authority's initiatives to maintain excellence from cherry to export-ready green coffee.
-        </p>
-      </header>
+type InsightContentProps = {
+  title: string
+  date: string
+  large_image_url: string
+}
 
-      {/* Featured Image */}
-      <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
-        <Image
-          src="/images/insights/dry-coffee-processing-ethiopia.webp"
-          alt="Ethiopian dry coffee production and quality control processing facilities"
-          fill
-          className="object-cover"
-        />
+export default function EthiopianDryCoffeeProductionQualityControl({ title, date, large_image_url }: InsightContentProps) {
+  return (
+    <>
+      <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+        {title}
+      </h1>
+
+      <figure>
+        <figcaption className='font-inconsolata my-2'>
+          Comprehensive guide to Ethiopian dry coffee production, quality control standards, processing infrastructure, defect management, and the Ethiopian Coffee Authority&apos;s initiatives to maintain excellence from cherry to export-ready green coffee.
+        </figcaption>
+
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+          <ResponsiveImage
+            src={`/images/${large_image_url}`}
+            alt='Ethiopian dry coffee production and quality control processing facilities'
+            fill
+            objectFit='cover'
+            className='w-full h-full'
+            sizes='(max-width: 768px) 100vw, 768px'
+          />
+        </div>
+      </figure>
+
+      <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
+        <span className='font-semibold'>Category:</span>
+        <span className='ml-2'>Processing & Quality Control / Ethiopian Coffee</span>
       </div>
+
+    <article className="max-w-4xl mx-auto space-y-8">
 
       {/* Introduction */}
       <section className="prose prose-lg max-w-none space-y-4">
@@ -759,5 +769,6 @@ export default function EthiopianDryCoffeeProductionQualityControl() {
         </Link>
       </section>
     </article>
+    </>
   )
 }

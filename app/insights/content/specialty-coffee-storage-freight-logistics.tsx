@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Script from 'next/script'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
 import { 
   HiOutlineCalendarDays, 
@@ -28,43 +27,9 @@ type InsightContentProps = {
 }
 
 export default function SpecialtyCoffeeFreightStorage({ title, date, large_image_url }: InsightContentProps) {
-  
-  // JSON-LD Structured Data for SEO (Article Schema)
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": title,
-    "image": [
-      `https://www.ethiocoffee.co/images/${large_image_url}`
-    ],
-    "datePublished": date,
-    "dateModified": new Date().toISOString().split('T')[0],
-    "author": [{
-      "@type": "Organization",
-      "name": "Ethio Coffee Export",
-      "url": "https://www.ethiocoffee.co"
-    }],
-    "publisher": {
-      "@type": "Organization",
-      "name": "Ethio Coffee Export",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.ethiocoffee.co/logo.png"
-      }
-    },
-    "description": "A comprehensive guide to green coffee logistics. Learn how to prevent quality fading, control moisture content, and manage container sweat during sea freight.",
-    "articleSection": "Logistics and Quality Control",
-    "keywords": "green coffee storage, specialty coffee logistics, container sweat, moisture content coffee, grainpro, shipping specialty coffee"
-  }
 
   return (
     <article className="max-w-4xl mx-auto">
-      {/* Inject Structured Data */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
 
       <header className="mb-10">
         <h1 className='text-4xl md:text-5xl font-extrabold text-dark leading-tight mb-6'>
@@ -93,11 +58,6 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
         </figure>
 
         <div className="flex flex-wrap gap-4 items-center text-sm text-gray-600 border-b border-gray-200 pb-6">
-          <span className='flex items-center'>
-            <HiOutlineCalendarDays className='mr-2 text-amber-600' />
-            {date}
-          </span>
-          <span className="hidden md:inline text-gray-300">|</span>
           <div className='bg-blue-50 text-blue-800 px-3 py-1 rounded-full text-xs font-semibold border border-blue-200'>
             Logistics / Quality Control
           </div>

@@ -15,7 +15,7 @@ import {
 } from 'react-icons/hi2'
 import { PiCoffee } from 'react-icons/pi'
 
-export type InsightContentProps = {
+type InsightContentProps = {
   title: string
   date: string
   large_image_url: string
@@ -29,11 +29,6 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
           {title}
         </h1>
-        <div className="flex items-center gap-4 text-gray-600">
-          <time dateTime={date}>{date}</time>
-          <span>•</span>
-          <span>22 min read</span>
-        </div>
         <p className="text-xl text-gray-700 leading-relaxed">
           Master the art of cupping and evaluating Ethiopian coffee samples with this comprehensive guide. Learn SCA protocols, sample roasting techniques, how to identify Ethiopian flavor profiles, score specialty coffee, detect defects, and make informed purchasing decisions based on sensory evaluation.
         </p>

@@ -1,0 +1,291 @@
+import Link from 'next/link'
+import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { HiOutlineCalendarDays } from 'react-icons/hi2'
+
+type InsightContentProps = {
+  title: string
+  date: string
+  large_image_url: string
+}
+
+export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date, large_image_url }: InsightContentProps) {
+  return (
+    <>
+          <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+            {title}
+          </h1>
+          <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+            Exploring the physical characteristics, chemical compounds, and sensory evaluation of coffee
+          </h2>
+
+          <figure>
+            <figcaption className='font-inconsolata my-2'>
+              Coffee science insights from green bean analysis to sensory evaluation
+            </figcaption>
+
+            <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+              <ResponsiveImage
+                src={`/images/${large_image_url}`}
+                alt={`${title} - Coffee science analysis and evaluation insight`}
+                fill
+                objectFit='cover'
+                className='w-full h-full'
+                sizes='(max-width: 768px) 100vw, 768px'
+              />
+            </div>
+          </figure>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee as a Scientific Endeavor</h2>
+          <p className='my-4'>
+            Welcome to the fifth installment of our "Coffee Is" series, where we delve into coffee through multifaceted perspectives. In this chapter, we explore coffee is a science - a systematic pursuit of knowledge about the physical attributes, chemical composition, and sensory evaluation that define exceptional coffee quality.
+          </p>
+          <p className='my-4'>
+            From green coffee analysis to the intricate world of cupping coffee, understanding the science behind coffee compounds and flavor perception transforms how we appreciate and evaluate this remarkable beverage. Every sip represents the culmination of scientific principles applied throughout the supply chain.
+          </p>
+          <p className='my-4'>
+            For how these compounds interact with processing styles, see <Link href='/insights/coffee-is-processing-drying-milling' className='underline font-bold'>Coffee is a Process</Link> and the practical <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>Washed vs Natural</Link> comparison   both are useful when mapping chemistry to cup.
+          </p>
+
+          <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
+            <span className='font-semibold'>Part of the &quot;Coffee Is&quot; Series:</span>
+            <div className='flex flex-wrap gap-2 mt-2'>
+              <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline text-xs'>1. Plant</Link>
+              <Link href='/insights/coffee-is-agriculture-production-farming' className='underline text-xs'>2. Agriculture</Link>
+              <Link href='/insights/coffee-is-processing-drying-milling' className='underline text-xs'>3. Processing</Link>
+              <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline text-xs'>4. Commerce</Link>
+              <span className='bg-dark text-primary px-2 py-1 rounded text-xs'>5. Science (You are here)</span>
+              <Link href='/insights/coffee-is-art-roasting-brewing' className='underline text-xs'>6. Art</Link>
+            </div>
+          </div>
+
+          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              <span className='font-bold'>In this article:</span> We examine green coffee physicals, key chemical compounds, sensory science and cupping methodology   plus practical lab and cupping examples you can use to evaluate lots more effectively.
+            </p>
+          </div>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Science of Green Coffee Evaluation</h2>
+          <p className='my-4'>
+            Green coffee analysis begins with systematic evaluation of physical characteristics that influence roasting and final flavor. This coffee science approach ensures consistency and quality in specialty coffee production.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Physical Characteristics of Green Beans</h3>
+          <p className='my-4'>
+            Green coffee grading evaluates several key physical attributes using standardized methods:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Screen Size:</strong> Measuring bean size through mesh screens, typically ranging from 14-19 64th inch increments</li>
+            <li><strong>Density:</strong> Assessing cellular structure through bulk density or liquid displacement methods</li>
+            <li><strong>Moisture Content:</strong> Maintaining optimal 9-12% moisture for quality preservation and microbial stability</li>
+            <li><strong>Defect Analysis:</strong> Identifying physical imperfections that impact coffee evaluation</li>
+          </ul>
+          <p className='my-4'>
+            These physical characteristics directly influence roasting profiles and help predict potential flavor outcomes in coffee compounds analysis.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Defect Classification in Specialty Coffee</h3>
+          <p className='my-4'>
+            Specialty coffee standards require zero Category 1 defects and fewer than 5 Category 2 defects per 350g sample:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Category 1:</strong> Full blacks, full sours, severe insect damage, foreign matter</li>
+            <li><strong>Category 2:</strong> Partial defects, immature beans, parchment, floaters, withered beans</li>
+          </ul>
+          <p className='my-4'>
+            Understanding these defects is crucial for green coffee analysis and maintaining specialty grade quality standards.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Chemical Compounds in Green Coffee</h2>
+          <p className='my-4'>
+            The science of coffee compounds reveals a complex biochemical profile that transforms during roasting. Green coffee contains various compound categories that contribute to flavor development.
+          </p>
+
+          <p className='my-4'>
+            What makes Ethiopian coffee particularly fascinating from a chemical perspective is its genetic diversity. 
+            The 10,000+ heirloom varieties in Ethiopia&apos;s highlands each express slightly different compound 
+            profiles - different ratios of sugars, acids, and aroma precursors. This is why a 
+            <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline'> Yirgacheffe tastes different from a Guji</Link>, 
+            even when processed identically. The <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline'>plant&apos;s genetics</Link> determine 
+            the chemical raw materials; <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing</Link> and 
+            <Link href='/insights/coffee-is-art-roasting-brewing' className='underline'> roasting</Link> transform them.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Organic Acids and Flavor Foundation</h3>
+          <p className='my-4'>
+            Organic acids make up approximately 5% of green coffee by weight and provide the foundation for acidity and tartness:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Simple Organic Acids:</strong> Citric, malic, acetic, and quinic acids that survive roasting</li>
+            <li><strong>Chlorogenic Acids:</strong> Complex acid chains that break down into various flavor compounds during roasting</li>
+          </ul>
+          <p className='my-4'>
+            These coffee compounds are highly extractable and contribute significantly to the perceived brightness and complexity in coffee flavor.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Practical Example: Mapping Compounds to Tasting Notes</h3>
+          <p className='my-4'>
+            Want a quick mental model? Use this mapping when cupping or sourcing:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Citric &amp; malic acids:</strong> Bright, citrus and apple-like acidity</li>
+            <li><strong>Sucrose breakdown:</strong> Sweetness and caramel notes after roasting</li>
+            <li><strong>Chlorogenic acid derivatives:</strong> Bitterness and body components when over-extracted</li>
+            <li><strong>Volatile esters and aldehydes:</strong> Fruity and floral aromatics often associated with naturals</li>
+          </ul>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Lab &amp; Field Tools for Green Coffee Analysis</h3>
+          <p className='my-4'>
+            Useful tools include moisture meters (for immediate QC), bulk density kits (predict roast behavior), and spectrophotometry/HPLC for deep chemistry when available. Even simple, repeatable cupping protocols provide high-value information for buying decisions.
+          </p>
+          <p className='my-4'>
+            If you source, pair lab checks with our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>sourcing guide</Link> and our regional origin map <Link href='/insights/guide-ethiopian-coffee-origins' className='underline font-bold'>Practical Guide to Ethiopian Green Coffee Origins</Link>.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Minerals, Sugars, and Bitter Components</h3>
+          <p className='my-4'>
+            Additional compound categories include:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Minerals and Salts:</strong> Potassium, magnesium, calcium providing subtle saltiness (1% by weight)</li>
+            <li><strong>Sugars:</strong> Sucrose (8-12% by weight) that caramelizes and contributes sweetness</li>
+            <li><strong>Bitter Compounds:</strong> Caffeine, trigonelline, and chlorogenic acids creating complexity</li>
+          </ul>
+          <p className='my-4'>
+            These elements interact during roasting to develop the balanced flavor profile characteristic of quality coffee.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Aroma Precursors and Textural Elements</h3>
+          <p className='my-4'>
+            Volatile compounds and structural components complete the green coffee composition:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Aroma Precursors:</strong> Aldehydes, ketones, furans, pyrazines forming the basis of coffee flavor notes</li>
+            <li><strong>Lipids and Amino Acids:</strong> Providing body, texture, and nutty characteristics</li>
+            <li><strong>Structural Components:</strong> Cellulose, hemicellulose, lignin maintaining bean integrity</li>
+          </ul>
+          <p className='my-4'>
+            These compounds transform dramatically during roasting, creating the thousands of aroma compounds that define coffee science.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Flavor Perception and Sensory Science</h2>
+          <p className='my-4'>
+            Coffee flavor perception involves complex interactions between chemical compounds and human sensory systems. Understanding this science enhances coffee evaluation techniques.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The Components of Flavor</h3>
+          <p className='my-4'>
+            Flavor in coffee comprises three primary elements:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Taste:</strong> Chemical detection of sweet, sour, salty, bitter, umami on the tongue</li>
+            <li><strong>Aroma:</strong> Olfactory perception through the nose, the dominant contributor to flavor</li>
+            <li><strong>Body/Texture:</strong> Tactile sensation of weight, viscosity, and mouthfeel</li>
+          </ul>
+          <p className='my-4'>
+            Aroma, processed through olfactory neurons and the brain's limbic system, provides the majority of flavor complexity in coffee evaluation.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sensory Errors and Bias in Tasting</h3>
+          <p className='my-4'>
+            Scientific sensory analysis identifies common errors that affect coffee flavor perception:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Adaptation:</strong> Reduced sensitivity after repeated exposure to intense flavors</li>
+            <li><strong>Contrast Effects:</strong> Perception changes based on preceding samples</li>
+            <li><strong>Expectation Bias:</strong> Preconceived notions influencing flavor interpretation</li>
+            <li><strong>Context Effects:</strong> Environmental factors impacting sensory experience</li>
+          </ul>
+          <p className='my-4'>
+            Recognizing these physiological and psychological factors improves the accuracy of coffee evaluation methods.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Cupping Coffee: The Art of Sensory Evaluation</h2>
+          <p className='my-4'>
+            Cupping represents the systematic sensory evaluation of coffee, combining scientific methodology with skilled assessment. This coffee science approach standardizes flavor analysis across the industry.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The Cupping Protocol</h3>
+          <p className='my-4'>
+            Professional cupping follows established procedures:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Sample Preparation:</strong> Light roasting, grinding, and brewing with consistent ratios</li>
+            <li><strong>Evaluation Framework:</strong> Assessing fragrance, aroma, flavor, aftertaste, acidity, body, balance, sweetness, uniformity, clean cup, overall</li>
+            <li><strong>Scoring System:</strong> Numerical ratings from 1-10 across quality attributes</li>
+          </ul>
+          <p className='my-4'>
+            Modern cupping incorporates new forms like the Coffee Value Assessment (CVA) that separate descriptive and scoring functions.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Best Practices for Accurate Evaluation</h3>
+          <p className='my-4'>
+            Scientific cupping methodology includes:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Blind Tasting:</strong> Randomized sample presentation to minimize bias</li>
+            <li><strong>Reference Standards:</strong> Using baseline coffees for calibration</li>
+            <li><strong>Replication:</strong> Multiple evaluations for statistical reliability</li>
+            <li><strong>Controlled Environment:</strong> Consistent conditions for valid comparisons</li>
+          </ul>
+          <p className='my-4'>
+            These practices ensure objective coffee evaluation that supports quality assessment and pricing decisions.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: The Scientific Foundation of Coffee Excellence</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Quick Lab Protocol (Moisture & Density)</h3>
+          <p className='my-4'>A repeatable, low-cost protocol for quick green QC:</p>
+          <ol className='list-decimal ml-5 my-4'>
+            <li>Collect a 350g representative sample from multiple bags.</li>
+            <li>Measure moisture with a calibrated moisture meter (record three readings, average).</li>
+            <li>Measure bulk density using a standardized cylinder or displacement kit.</li>
+            <li>Record screen size distribution and note any visible defects.</li>
+            <li>Roast a small 50–100g sample using your sample roaster and cup for initial acceptance.</li>
+          </ol>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Mini Glossary</h3>
+          <ul className='list-disc ml-5 my-4'>
+            <li><strong>Screen Size:</strong> Mesh measurement for bean size (64th inch units)</li>
+            <li><strong>Bulk Density:</strong> Predictive of roast behavior and end yield</li>
+            <li><strong>Cupping:</strong> Standardized sensory evaluation method for coffee</li>
+          </ul>
+          <p className='my-4'>
+            Coffee is a science that demands systematic knowledge of physical characteristics, chemical compounds, and sensory evaluation. Understanding green coffee analysis, flavor perception, and cupping methodology provides the foundation for appreciating and producing exceptional coffee.
+          </p>
+          <p className='my-4'>
+            At Ethio Coffee, we apply rigorous scientific principles to every aspect of our sourcing and evaluation process, ensuring that our partners receive coffee of the highest quality and consistency.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Continue Your Coffee Education</h3>
+          <p className='my-4'>
+            Now that you understand the science behind coffee quality, explore how that knowledge is applied:
+          </p>
+          <ul className='list-disc ml-5 my-4'>
+            <li><Link href='/insights/coffee-is-art-roasting-brewing' className='underline font-bold'>Coffee Is Art</Link> - How roasters use scientific understanding to craft exceptional roast profiles</li>
+            <li><Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>Sourcing Green Coffee</Link> - Apply quality evaluation to your buying decisions</li>
+            <li><Link href='/insights/specialty-coffee-trends-2026' className='underline font-bold'>2026 Specialty Coffee Trends</Link> - See how science is driving innovation in the industry</li>
+          </ul>
+
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+            <p className='my-2 font-medium'>
+              Ready to experience the science of exceptional Ethiopian coffee? Contact us to learn about our rigorous quality evaluation and sourcing process.
+            </p>
+            <div className='flex gap-4 mt-4'>
+              <Link href='/contact-us' className='underline font-bold'>
+                GET IN TOUCH
+              </Link>
+              <Link href='/offerings' className='underline font-bold'>
+                VIEW OFFERINGS
+              </Link>
+            </div>
+          </div>
+
+          <div className='border-t border-gray-300 mt-10 pt-6'>
+            <p className='text-sm text-gray-600 font-inconsolata'>
+              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
+              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
+              research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+          </div>
+    </>
+  )
+}

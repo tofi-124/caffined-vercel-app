@@ -12,8 +12,6 @@ export default function EthiopiaBirthplaceOfCoffee({ title, date, large_image_ur
     <>
       <h1 className="text-4xl font-extrabold text-dark leading-tight mb-4">{title}</h1>
 
-      <p className="text-sm text-gray-600 mb-4">{date}</p>
-
       <figure>
         <figcaption className="font-inconsolata my-2">Ethiopia: the biological and cultural origin of Coffea arabica.</figcaption>
 
