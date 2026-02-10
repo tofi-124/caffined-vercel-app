@@ -27,12 +27,6 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
         {title}
       </h1>
-      <div className='flex items-start gap-4 mb-4'>
-        <div className='text-sm text-gray-600'>
-          <p className='font-semibold'>Ethio Coffee Export PLC, Editorial Team</p>
-          <p className='text-xs mt-1'>Ethio Coffee Export PLC: exporters and quality specialists with on-the-ground sourcing and cupping expertise.</p>
-        </div>
-      </div>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
         Everything Ethiopian coffee producers, exporters, and international buyers need to know about the AFCA Taste of Harvest competition, Ethiopia's modern coffee laboratory facilities, the certification process, auction opportunities, and how participating in African coffee quality competitions enhances market access and premiums for exceptional Ethiopian coffees.
       </h2>
