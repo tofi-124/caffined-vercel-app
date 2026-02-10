@@ -1,5 +1,6 @@
 import { jsPDF } from 'jspdf'
 import { Offering } from '../data/offerings'
+import { COMPANY_NAME, COMPANY_LEGAL_NAME, COMPANY_EMAIL, COMPANY_WEBSITE } from './constants'
 
 // Brand colors
 const BRAND_DARK = '#2B1810'
@@ -27,11 +28,11 @@ export const generateProductPDF = (product: Offering) => {
   doc.setTextColor(255, 255, 255)
   doc.setFontSize(24)
   doc.setFont('helvetica', 'bold')
-  doc.text('ETHIO COFFEE', margin, 20)
+  doc.text(COMPANY_NAME.toUpperCase(), margin, 20)
 
   doc.setFontSize(10)
   doc.setFont('helvetica', 'normal')
-  doc.text('Ethiopian Specialty Coffee', margin, 28)
+  doc.text(COMPANY_LEGAL_NAME, margin, 28)
 
   // Date
   doc.setFontSize(9)
@@ -213,8 +214,8 @@ export const generateProductPDF = (product: Offering) => {
   doc.setFontSize(8)
   doc.setTextColor(GRAY_600)
   doc.setFont('helvetica', 'normal')
-  doc.text('ETHIO COFFEE - Ethiopian Specialty Coffee', margin, pageHeight - 18)
-  doc.text('Contact: info@ETHIO COFFEE.com • www.ETHIO COFFEE.com', margin, pageHeight - 13)
+  doc.text(`${COMPANY_NAME.toUpperCase()} - ${COMPANY_LEGAL_NAME}`, margin, pageHeight - 18)
+  doc.text(`Contact: ${COMPANY_EMAIL} • ${COMPANY_WEBSITE.replace('https://', '')}`, margin, pageHeight - 13)
   doc.text(`Generated on ${today}`, pageWidth - margin, pageHeight - 18, { align: 'right' })
 
   // Save the PDF
@@ -241,11 +242,11 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
   doc.setTextColor(255, 255, 255)
   doc.setFontSize(24)
   doc.setFont('helvetica', 'bold')
-  doc.text('ETHIO COFFEE', margin, 18)
+  doc.text(COMPANY_NAME.toUpperCase(), margin, 18)
 
   doc.setFontSize(10)
   doc.setFont('helvetica', 'normal')
-  doc.text('Ethiopian Specialty Coffee', margin, 26)
+  doc.text(COMPANY_LEGAL_NAME, margin, 26)
 
   // Date
   doc.setFontSize(9)
@@ -381,8 +382,8 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
   doc.setFontSize(8)
   doc.setTextColor(GRAY_600)
   doc.setFont('helvetica', 'normal')
-  doc.text('ETHIO COFFEE - Ethiopian Specialty Coffee', margin, pageHeight - 18)
-  doc.text('Contact: info@ETHIO COFFEE.com • www.ETHIO COFFEE.com', margin, pageHeight - 13)
+  doc.text(`${COMPANY_NAME.toUpperCase()} - ${COMPANY_LEGAL_NAME}`, margin, pageHeight - 18)
+  doc.text(`Contact: ${COMPANY_EMAIL} • ${COMPANY_WEBSITE.replace('https://', '')}`, margin, pageHeight - 13)
   doc.text(`Generated on ${today}`, pageWidth - margin, pageHeight - 18, { align: 'right' })
 
   // Save the PDF
