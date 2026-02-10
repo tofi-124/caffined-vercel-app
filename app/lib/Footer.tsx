@@ -128,23 +128,30 @@ const Footer = () => {
               <ul className='space-y-2 text-dark/70'>
                 <li><Link href='/about' className='hover:text-dark transition-colors'>About Us</Link></li>
                 <li><Link href='/contact-us' className='hover:text-dark transition-colors'>Contact Us</Link></li>
-                <li><Link href='/terms' className='hover:text-dark transition-colors'>Terms of Service</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className='font-bold text-dark uppercase tracking-widest text-xs mb-4'>Buy Coffee</h4>
-              <ul className='space-y-2 text-dark/70'>
-                <li><Link href='/offerings' className='hover:text-dark transition-colors'>Current Offerings</Link></li>
                 <li><Link href='/ordering-info' className='hover:text-dark transition-colors'>How To Buy</Link></li>
-                <li><Link href='/ethiopian-coffee-exporter' className='hover:text-dark transition-colors'>Ethiopian Coffee Exporter</Link></li>
+                <li><Link href='/terms' className='hover:text-dark transition-colors'>Terms of Service</Link></li>
               </ul>
             </div>
             <div>
               <h4 className='font-bold text-dark uppercase tracking-widest text-xs mb-4'>Resources</h4>
               <ul className='space-y-2 text-dark/70'>
-                <li><Link href='/ethiopian-green-coffee-beans' className='hover:text-dark transition-colors'>Ethiopian Green Coffee Beans</Link></li>
+                <li><Link href='/offerings' className='hover:text-dark transition-colors'>Current Offerings</Link></li>
+                <li><Link href='/ethiopian-coffee-exporter' className='hover:text-dark transition-colors'>Ethiopian Coffee Exporter</Link></li>
+                <li><Link href='/ethiopian-green-coffee-beans' className='hover:text-dark transition-colors'>Green Coffee Beans</Link></li>
                 <li><Link href='/buy-ethiopian-coffee-wholesale' className='hover:text-dark transition-colors'>Buy Wholesale</Link></li>
-                <li><Link href='/coffee-grading-ethiopia' className='hover:text-dark transition-colors'>Coffee Grading System</Link></li>
+                <li><Link href='/coffee-grading-ethiopia' className='hover:text-dark transition-colors'>Coffee Grading</Link></li>
+                <li><Link href='/organic-ethiopian-coffee-export' className='hover:text-dark transition-colors'>Organic Export</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className='font-bold text-dark uppercase tracking-widest text-xs mb-4'>Coffee Origins</h4>
+              <ul className='space-y-2 text-dark/70'>
+                <li><Link href='/ethiopian-coffee-yirgacheffe' className='hover:text-dark transition-colors'>Yirgacheffe</Link></li>
+                <li><Link href='/ethiopian-coffee-sidamo' className='hover:text-dark transition-colors'>Sidamo</Link></li>
+                <li><Link href='/ethiopian-coffee-guji' className='hover:text-dark transition-colors'>Guji</Link></li>
+                <li><Link href='/ethiopian-coffee-harar' className='hover:text-dark transition-colors'>Harar</Link></li>
+                <li><Link href='/ethiopian-coffee-limu' className='hover:text-dark transition-colors'>Limu</Link></li>
+                <li><Link href='/ethiopian-coffee-jimma' className='hover:text-dark transition-colors'>Jimma</Link></li>
               </ul>
             </div>
             <div>
