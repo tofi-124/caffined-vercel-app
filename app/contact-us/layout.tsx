@@ -7,13 +7,13 @@ export const metadata: Metadata = {
     'Get a quote for Ethiopian green coffee. Request samples of Yirgacheffe, Sidamo, or Guji. Professional export service for importers worldwide.',
   keywords: 'Ethiopian coffee samples, green coffee pricing, Ethiopian coffee quote, wholesale coffee inquiry, coffee supplier contact',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/contact-us',
+    canonical: 'https://www.ethiocoffee.co/contact-us',
   },
   openGraph: {
     title: 'Request Coffee Samples & Pricing | Ethio Coffee',
     description:
       'Get a quote for Ethiopian green coffee. Request samples of Yirgacheffe, Sidamo, or Guji. Professional export service for importers.',
-    url: 'https://www.ethiocoffee.et/contact-us',
+    url: 'https://www.ethiocoffee.co/contact-us',
     type: 'website',
     images: [
       {
@@ -38,16 +38,16 @@ export default function ContactUsLayout({ children }: { children: React.ReactNod
     "@type": "ContactPage",
     "name": "Contact Ethio Coffee",
     "description": "Get a quote for Ethiopian green coffee. Request samples of Yirgacheffe, Sidamo, or Guji.",
-    "url": "https://www.ethiocoffee.et/contact-us",
+    "url": "https://www.ethiocoffee.co/contact-us",
     "mainEntity": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC",
-      "url": "https://www.ethiocoffee.et",
-      "email": "info@ethiocoffee.et",
+      "url": "https://www.ethiocoffee.co",
+      "email": "coffee@ethiocoffee.co",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "sales",
-        "email": "info@ethiocoffee.et",
+        "email": "coffee@ethiocoffee.co",
         "availableLanguage": ["English", "Amharic"]
       },
       "address": {
@@ -67,13 +67,13 @@ export default function ContactUsLayout({ children }: { children: React.ReactNod
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.ethiocoffee.et"
+        "item": "https://www.ethiocoffee.co"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Contact Us",
-        "item": "https://www.ethiocoffee.et/contact-us"
+        "item": "https://www.ethiocoffee.co/contact-us"
       }
     ]
   }

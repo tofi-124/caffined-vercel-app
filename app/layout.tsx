@@ -21,7 +21,7 @@ const inconsolata = Inconsolata({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.ethiocoffee.et'),
+  metadataBase: new URL('https://www.ethiocoffee.co'),
   title: 'Ethiopian Coffee Exporter | Ethio Coffee',
   description: 'Leading Ethiopian coffee exporter shipping specialty green coffee worldwide. We export Grade 1-4 Yirgacheffe, Sidamo & Guji direct from Ethiopia.',
   keywords: 'Ethiopian coffee exporter, Ethiopian coffee export, export coffee from Ethiopia, green coffee exporter Ethiopia, Ethiopian coffee supplier, Ethiopian green coffee beans, coffee export Ethiopia, Yirgacheffe exporter, Sidamo exporter, Guji exporter, specialty coffee Ethiopia, buy Ethiopian coffee wholesale',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.ethiocoffee.et',
+    url: 'https://www.ethiocoffee.co',
     title: 'Ethiopian Coffee Exporter | Ethio Coffee',
     description: 'Leading Ethiopian coffee exporter shipping specialty green coffee worldwide. We export Grade 1-4 Yirgacheffe, Sidamo & Guji direct from Ethiopia.',
     siteName: 'Ethio Coffee',
@@ -75,14 +75,14 @@ export default function RootLayout({
               "name": "Ethio Coffee - Ethiopian Coffee Exporter",
               "legalName": "Ethio Coffee Export PLC",
               "alternateName": ["Ethiopian Coffee Exporter", "Ethio Coffee", "Ethiopia Coffee Export"],
-              "url": "https://www.ethiocoffee.et",
+              "url": "https://www.ethiocoffee.co",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.ethiocoffee.et/images/new-logo.png",
+                "url": "https://www.ethiocoffee.co/images/new-logo.png",
                 "width": "250",
                 "height": "60"
               },
-              "image": "https://www.ethiocoffee.et/images/new-logo.png",
+              "image": "https://www.ethiocoffee.co/images/new-logo.png",
               "description": "Leading Ethiopian coffee exporter specializing in export of specialty green coffee beans from Ethiopia to importers worldwide. Grade 1-4 Yirgacheffe, Sidamo, Guji available.",
               "slogan": "Your Gateway to Ethiopia's Finest Specialty Green Coffee",
               "address": {
@@ -100,18 +100,18 @@ export default function RootLayout({
                 {
                   "@type": "ContactPoint",
                   "contactType": "customer service",
-                  "email": "info@ethiocoffee.et",
+                  "email": "coffee@ethiocoffee.co",
                   "availableLanguage": ["English", "Amharic"]
                 },
                 {
                   "@type": "ContactPoint",
                   "contactType": "sales",
-                  "email": "info@ethiocoffee.et",
+                  "email": "coffee@ethiocoffee.co",
                   "availableLanguage": ["English", "Amharic"]
                 }
               ],
               "sameAs": [
-                "https://instagram.com/ethiocoffee.et"
+                "https://instagram.com/ethiocoffee.co"
               ],
               "areaServed": [
                 {"@type": "Country", "name": "United States"},
@@ -150,7 +150,7 @@ export default function RootLayout({
               "@type": "WebSite",
               "name": "Ethio Coffee",
               "alternateName": "Ethio Coffee Export PLC",
-              "url": "https://www.ethiocoffee.et",
+              "url": "https://www.ethiocoffee.co",
               "description": "Ethiopian coffee exporter serving importers worldwide",
               "publisher": {
                 "@type": "Organization",
@@ -160,7 +160,7 @@ export default function RootLayout({
                 "@type": "SearchAction",
                 "target": {
                   "@type": "EntryPoint",
-                  "urlTemplate": "https://www.ethiocoffee.et/offerings?search={search_term_string}"
+                  "urlTemplate": "https://www.ethiocoffee.co/offerings?search={search_term_string}"
                 },
                 "query-input": "required name=search_term_string"
               }

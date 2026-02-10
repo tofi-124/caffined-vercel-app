@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Buy Ethiopian Harar (Harrar) coffee beans direct from exporter. Grade 4 & 5 natural dry-processed Harar green coffee. SCA 82-86+. Wild berry, wine, mocha, dark chocolate. FOB Djibouti.',
   keywords: 'harar coffee, harrar coffee, ethiopian harar coffee beans, harar green coffee, buy harar coffee, harar coffee exporter, harar longberry, harar shortberry, harar natural coffee, harar mocha, harar wild berry, ethiopian harrar export',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ethiopian-coffee-harar',
+    canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-harar',
   },
   openGraph: {
     title: 'Ethiopian Harar Coffee Beans | Wild & Exotic Export | Ethio Coffee',
     description: 'Premium Harar green coffee beans from Ethiopia. Natural dry-processed, SCA 82-86+. Wild berry, wine, mocha, dark chocolate. One of the world\'s oldest coffee origins.',
-    url: 'https://www.ethiocoffee.et/ethiopian-coffee-harar',
+    url: 'https://www.ethiocoffee.co/ethiopian-coffee-harar',
     type: 'website',
     images: [
       {
@@ -81,9 +81,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.et' },
-    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter' },
-    { '@type': 'ListItem', position: 3, name: 'Harar Coffee', item: 'https://www.ethiocoffee.et/ethiopian-coffee-harar' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.co' },
+    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter' },
+    { '@type': 'ListItem', position: 3, name: 'Harar Coffee', item: 'https://www.ethiocoffee.co/ethiopian-coffee-harar' },
   ]
 }
 

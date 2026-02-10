@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   keywords:
     'Ethiopian coffee ordering, green coffee FAQ, coffee shipping, wholesale coffee order, coffee payment terms, coffee samples, Ethiopian coffee export, coffee import guide',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ordering-info',
+    canonical: 'https://www.ethiocoffee.co/ordering-info',
   },
   openGraph: {
     title: 'How To Buy & FAQ | Ethio Coffee',
     description:
       'Complete guide to ordering Ethiopian green coffee. Shipping, payment, samples, quality standards, and more.',
-    url: 'https://www.ethiocoffee.et/ordering-info',
+    url: 'https://www.ethiocoffee.co/ordering-info',
     type: 'website',
     images: [
       {
@@ -118,13 +118,13 @@ export default function OrderingInfoLayout({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.ethiocoffee.et"
+        "item": "https://www.ethiocoffee.co"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "How to Buy Ethiopian Coffee",
-        "item": "https://www.ethiocoffee.et/ordering-info"
+        "item": "https://www.ethiocoffee.co/ordering-info"
       }
     ]
   }

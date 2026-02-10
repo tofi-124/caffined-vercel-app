@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Buy Ethiopian Yirgacheffe coffee beans direct from exporter. Grade 1 & 2 washed and natural Yirgacheffe green coffee. SCA 84-88+ scored. Floral, citrus, tea-like. FOB Djibouti.',
   keywords: 'yirgacheffe coffee, ethiopian yirgacheffe coffee beans, yirgacheffe green coffee, buy yirgacheffe coffee, yirgacheffe coffee exporter, yirgacheffe grade 1, yirgacheffe washed coffee, yirgacheffe natural coffee, kochere coffee, gedeo coffee, specialty yirgacheffe coffee export, yirgacheffe coffee flavor profile',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ethiopian-coffee-yirgacheffe',
+    canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-yirgacheffe',
   },
   openGraph: {
     title: 'Ethiopian Yirgacheffe Coffee Beans | Specialty Export | Ethio Coffee',
     description: 'Premium Yirgacheffe green coffee beans from Ethiopia. Grade 1 & 2, SCA 84-88+. Jasmine, bergamot, lemon, tea-like body. Direct from licensed exporter.',
-    url: 'https://www.ethiocoffee.et/ethiopian-coffee-yirgacheffe',
+    url: 'https://www.ethiocoffee.co/ethiopian-coffee-yirgacheffe',
     type: 'website',
     images: [
       {
@@ -81,9 +81,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.et' },
-    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter' },
-    { '@type': 'ListItem', position: 3, name: 'Yirgacheffe Coffee', item: 'https://www.ethiocoffee.et/ethiopian-coffee-yirgacheffe' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.co' },
+    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter' },
+    { '@type': 'ListItem', position: 3, name: 'Yirgacheffe Coffee', item: 'https://www.ethiocoffee.co/ethiopian-coffee-yirgacheffe' },
   ]
 }
 

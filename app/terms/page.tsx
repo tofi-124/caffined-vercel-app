@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
   keywords: 'Ethio Coffee terms of service, Ethiopian coffee export terms, coffee business terms',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/terms',
+    canonical: 'https://www.ethiocoffee.co/terms',
   },
   openGraph: {
     title: 'Terms of Service | Ethio Coffee',
     description:
       'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
-    url: 'https://www.ethiocoffee.et/terms',
+    url: 'https://www.ethiocoffee.co/terms',
     type: 'article',
   },
   twitter: {
@@ -50,12 +50,12 @@ export default function TermsPage() {
             <p className='mt-2 text-gray-800'>
               These Terms of Service ("Terms") govern your access to and use of the website located at{' '}
               <a
-                href='https://www.ethiocoffee.et'
+                href='https://www.ethiocoffee.co'
                 className='underline underline-offset-4'
                 rel='noopener noreferrer'
                 target='_blank'
               >
-                https://www.ethiocoffee.et
+                https://www.ethiocoffee.co
               </a>{' '}
               (the "Site") and any inquiries, quote requests, sample requests, or communications submitted through the
               Site.
@@ -286,8 +286,8 @@ export default function TermsPage() {
             <Section title='22) Contact'>
               <p>
                 Questions about these Terms? Contact us at{' '}
-                <a href='mailto:info@ethiocoffee.et' className='underline underline-offset-4'>
-                  info@ethiocoffee.et
+                <a href='mailto:coffee@ethiocoffee.co' className='underline underline-offset-4'>
+                  coffee@ethiocoffee.co
                 </a>{' '}
                 or visit our{' '}
                 <Link href='/contact-us' className='underline underline-offset-4'>

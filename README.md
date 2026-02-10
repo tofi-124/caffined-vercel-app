@@ -43,4 +43,4 @@ ETHIO COFFEE-vercel-app/
 └── types.d.ts            # TypeScript type definitions
 ```
 
-**Live Site**: [https://www.ethiocoffee.et/](https://www.ethiocoffee.et/)
+**Live Site**: [https://www.ethiocoffee.co/](https://www.ethiocoffee.co/)

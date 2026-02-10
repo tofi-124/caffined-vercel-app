@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description: 'Ethiopian coffee available for export: Yirgacheffe, Sidamo, Guji, Harar & Limu. Grade 1-4 green coffee ready for export to importers worldwide.',
   keywords: 'Ethiopian coffee for export, Ethiopian green coffee export, buy Ethiopian green coffee, Yirgacheffe coffee export, Sidamo green coffee, Guji coffee beans, Ethiopian coffee for importers, specialty green coffee export, Ethiopian coffee wholesale',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/offerings',
+    canonical: 'https://www.ethiocoffee.co/offerings',
   },
   openGraph: {
     title: 'Ethiopian Coffee for Export | Ethio Coffee',
     description: 'Ethiopian coffee available for export: Yirgacheffe, Sidamo, Guji, Harar & Limu. Grade 1-4 green coffee ready for export.',
-    url: 'https://www.ethiocoffee.et/offerings',
+    url: 'https://www.ethiocoffee.co/offerings',
     type: 'website',
     images: [
       {
@@ -50,15 +50,15 @@ export default function OfferingsLayout({
         "@type": "Product",
         "name": product.name,
         "description": product.desc,
-        "image": `https://www.ethiocoffee.et/images/${product.image_url}`,
-        "url": `https://www.ethiocoffee.et/product/${product.id}`,
+        "image": `https://www.ethiocoffee.co/images/${product.image_url}`,
+        "url": `https://www.ethiocoffee.co/product/${product.id}`,
         "offers": {
           "@type": "Offer",
           "availability": product.isSoldOut 
             ? "https://schema.org/OutOfStock" 
             : "https://schema.org/InStock",
           "priceCurrency": "USD",
-          "url": `https://www.ethiocoffee.et/product/${product.id}`
+          "url": `https://www.ethiocoffee.co/product/${product.id}`
         }
       }
     }))
@@ -72,13 +72,13 @@ export default function OfferingsLayout({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.ethiocoffee.et"
+        "item": "https://www.ethiocoffee.co"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Ethiopian Coffee Offerings",
-        "item": "https://www.ethiocoffee.et/offerings"
+        "item": "https://www.ethiocoffee.co/offerings"
       }
     ]
   }

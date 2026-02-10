@@ -197,8 +197,8 @@ const WholesaleInquiryPage = () => {
             <div className='mt-6 pt-4 border-t border-black/10 grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div>
                 <p className='text-sm text-gray-600'>Email</p>
-                <a href="mailto:info@ethiocoffee.et" className='text-dark font-semibold hover:text-accent transition-colors'>
-                  info@ethiocoffee.et
+                <a href="mailto:coffee@ethiocoffee.co" className='text-dark font-semibold hover:text-accent transition-colors'>
+                  coffee@ethiocoffee.co
                 </a>
               </div>
               <div>
@@ -212,7 +212,7 @@ const WholesaleInquiryPage = () => {
               <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
                 <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
                 <p className='text-green-700'>Your inquiry has been submitted successfully. We'll contact you soon at the email address you provided.</p>
-                <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
+                <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:coffee@ethiocoffee.co" className='underline font-bold'>coffee@ethiocoffee.co</a></p>
               </div>
             ) : (
               <form className='space-y-6' onSubmit={handleSubmit}>
@@ -376,7 +376,7 @@ const WholesaleInquiryPage = () => {
               </div>
               
               <div className='text-center mt-6 text-gray-600 text-sm'>
-                <p>You can also contact us directly at: <a href="mailto:info@ethiocoffee.et" className='text-dark underline hover:text-accent transition-colors'>info@ethiocoffee.et</a></p>
+                <p>You can also contact us directly at: <a href="mailto:coffee@ethiocoffee.co" className='text-dark underline hover:text-accent transition-colors'>coffee@ethiocoffee.co</a></p>
               </div>
             </form>
           )}

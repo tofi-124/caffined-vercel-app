@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Buy Ethiopian Jimma (Djimmah) coffee beans direct from exporter. Grade 4 & 5 natural and washed Jimma green coffee. Earthy, full-bodied, blend-friendly. Ethiopia\'s main commercial coffee. FOB Djibouti.',
   keywords: 'jimma coffee, djimmah coffee, ethiopian jimma coffee beans, djimma green coffee, buy jimma coffee, jimma coffee exporter, commercial ethiopian coffee, jimma grade 5, jimma natural coffee, bulk ethiopian coffee export, jimma coffee blend',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ethiopian-coffee-jimma',
+    canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-jimma',
   },
   openGraph: {
     title: 'Ethiopian Jimma (Djimmah) Coffee Beans | Commercial Export | Ethio Coffee',
     description: 'Jimma/Djimmah green coffee beans from Ethiopia. Grade 4 & 5, earthy, full-bodied, consistent. Ethiopia\'s main commercial export grade. Direct from licensed exporter.',
-    url: 'https://www.ethiocoffee.et/ethiopian-coffee-jimma',
+    url: 'https://www.ethiocoffee.co/ethiopian-coffee-jimma',
     type: 'website',
     images: [
       {
@@ -81,9 +81,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.et' },
-    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter' },
-    { '@type': 'ListItem', position: 3, name: 'Jimma Coffee', item: 'https://www.ethiocoffee.et/ethiopian-coffee-jimma' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.co' },
+    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter' },
+    { '@type': 'ListItem', position: 3, name: 'Jimma Coffee', item: 'https://www.ethiocoffee.co/ethiopian-coffee-jimma' },
   ]
 }
 

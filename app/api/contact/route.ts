@@ -4,8 +4,8 @@ import { Resend } from 'resend'
 const resend = new Resend(process.env.RESEND_API_KEY)
 
 // Your email address to receive form submissions
-const TO_EMAIL = process.env.CONTACT_EMAIL || 'info@ethiocoffee.et'
-const FROM_EMAIL = process.env.FROM_EMAIL || 'noreply@ethiocoffee.et'
+const TO_EMAIL = process.env.CONTACT_EMAIL || 'coffee@ethiocoffee.co'
+const FROM_EMAIL = process.env.FROM_EMAIL || 'noreply@ethiocoffee.co'
 
 export async function POST(request: NextRequest) {
   try {

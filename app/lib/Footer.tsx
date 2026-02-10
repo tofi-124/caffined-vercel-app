@@ -52,24 +52,24 @@ const Footer = () => {
           <ul className='mt-4 space-y-4 text-primary/90'>
             <li>
               <a
-                href="mailto:info@ethiocoffee.et"
+                href="mailto:coffee@ethiocoffee.co"
                 className="inline-flex items-center gap-2 underline underline-offset-4 hover:text-primary/80 transition-colors"
-                aria-label="Email Ethio Coffee at info@ethiocoffee.et"
+                aria-label="Email Ethio Coffee at coffee@ethiocoffee.co"
               >
                 <FaEnvelope className="text-2xl" />
-                info@ethiocoffee.et
+                coffee@ethiocoffee.co
               </a>
             </li>
             <li>
               <a
-                href="https://instagram.com/ethiocoffee.et"
+                href="https://instagram.com/ethiocoffee.co"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 underline underline-offset-4 hover:text-primary/80 transition-colors"
-                aria-label="Follow us on Instagram @ethiocoffee.et"
+                aria-label="Follow us on Instagram @ethiocoffee.co"
               >
                 <FaInstagram className="text-2xl" />
-                <span>@ethiocoffee.et</span>
+                <span>@ethiocoffee.co</span>
               </a>
             </li>
           </ul>

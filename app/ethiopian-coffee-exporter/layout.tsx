@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Ethio Coffee: trusted Ethiopian coffee exporter shipping specialty green coffee (SCA 80+) worldwide. Yirgacheffe, Sidamo, Guji, Harar available. Request samples.',
   keywords: 'Ethiopian coffee exporter, ethiopian coffee exporter company, coffee exporter ethiopia, ethiopia coffee exporter, best ethiopian coffee exporter, ethiopian green coffee exporter, ethiopian specialty coffee exporter, ethiopian arabica exporter, ethiopian coffee export company, ethiopian coffee supplier, buy ethiopian coffee wholesale, import ethiopian coffee, ethiopian coffee beans exporter, coffee export from ethiopia, green coffee beans ethiopia export',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter',
+    canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter',
   },
   openGraph: {
     title: 'Ethiopian Coffee Exporter | Ethio Coffee Export PLC: Specialty & Commercial Green Coffee',
     description: 'Family-owned Ethiopian coffee exporter with 30+ years legacy. We export SCA 80+ specialty green coffee from Ethiopia to importers & roasters worldwide. Yirgacheffe, Sidamo, Guji & more.',
-    url: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter',
+    url: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter',
     type: 'website',
     images: [
       {
@@ -42,8 +42,8 @@ export default function EthiopianCoffeeExporterLayout({
     "name": "Ethio Coffee Export PLC",
     "alternateName": ["Ethio Coffee", "Ethiopian Coffee Exporter"],
     "description": "Family-owned Ethiopian coffee exporter with 30+ years of heritage. We export specialty-grade (SCA 80+) and commercial green coffee from Ethiopia to roasters, importers, and distributors in 40+ countries worldwide.",
-    "url": "https://www.ethiocoffee.et",
-    "logo": "https://www.ethiocoffee.et/images/logo.png",
+    "url": "https://www.ethiocoffee.co",
+    "logo": "https://www.ethiocoffee.co/images/logo.png",
     "foundingDate": "2022",
     "founder": [
       {
@@ -91,11 +91,11 @@ export default function EthiopianCoffeeExporterLayout({
     "name": "Ethiopian Coffee Export Services",
     "alternateName": ["Ethiopian Coffee Exporter Services", "Green Coffee Export from Ethiopia"],
     "description": "Full-service Ethiopian coffee export including sourcing, SCA-standard quality control, export documentation, packaging, and global logistics for specialty and commercial green coffee.",
-    "url": "https://www.ethiocoffee.et/ethiopian-coffee-exporter",
+    "url": "https://www.ethiocoffee.co/ethiopian-coffee-exporter",
     "provider": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC",
-      "url": "https://www.ethiocoffee.et"
+      "url": "https://www.ethiocoffee.co"
     },
     "serviceType": "Coffee Export",
     "areaServed": {
@@ -264,7 +264,7 @@ export default function EthiopianCoffeeExporterLayout({
     "@type": "WebPage",
     "name": "Ethiopian Coffee Exporter | Ethio Coffee Export PLC",
     "description": "Ethio Coffee Export PLC is a trusted, family-owned Ethiopian coffee exporter shipping specialty and commercial green coffee to 40+ countries worldwide.",
-    "url": "https://www.ethiocoffee.et/ethiopian-coffee-exporter",
+    "url": "https://www.ethiocoffee.co/ethiopian-coffee-exporter",
     "mainEntity": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC"
@@ -276,13 +276,13 @@ export default function EthiopianCoffeeExporterLayout({
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.ethiocoffee.et"
+          "item": "https://www.ethiocoffee.co"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Ethiopian Coffee Exporter",
-          "item": "https://www.ethiocoffee.et/ethiopian-coffee-exporter"
+          "item": "https://www.ethiocoffee.co/ethiopian-coffee-exporter"
         }
       ]
     }

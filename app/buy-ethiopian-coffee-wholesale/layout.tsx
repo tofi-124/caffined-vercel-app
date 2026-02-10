@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Buy Ethiopian coffee wholesale direct from licensed exporter. Specialty & commercial green coffee: Yirgacheffe, Sidamo, Guji. Competitive FOB pricing. FCL & LCL shipments.',
   keywords: 'buy ethiopian coffee wholesale, ethiopian coffee wholesale, wholesale ethiopian coffee, buy ethiopian coffee in bulk, ethiopian coffee for roasters, wholesale green coffee beans ethiopia, bulk ethiopian coffee, ethiopian coffee wholesale price, buy green coffee ethiopia, wholesale coffee supplier ethiopia, import ethiopian coffee wholesale, ethiopian coffee bulk order, ethiopian coffee for businesses',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/buy-ethiopian-coffee-wholesale',
+    canonical: 'https://www.ethiocoffee.co/buy-ethiopian-coffee-wholesale',
   },
   openGraph: {
     title: 'Buy Ethiopian Coffee Wholesale | Direct from Exporter | Ethio Coffee',
     description: 'Buy Ethiopian coffee wholesale: specialty & commercial green coffee from licensed exporter. Yirgacheffe, Sidamo, Guji, Harar. Competitive FOB pricing, worldwide shipping.',
-    url: 'https://www.ethiocoffee.et/buy-ethiopian-coffee-wholesale',
+    url: 'https://www.ethiocoffee.co/buy-ethiopian-coffee-wholesale',
     type: 'website',
     images: [
       {
@@ -40,17 +40,17 @@ export default function BuyWholesaleLayout({
     "@type": "WebPage",
     "name": "Buy Ethiopian Coffee Wholesale",
     "description": "How to buy Ethiopian coffee wholesale direct from a licensed Ethiopian exporter. Pricing, ordering process, shipping, and minimum order information.",
-    "url": "https://www.ethiocoffee.et/buy-ethiopian-coffee-wholesale",
+    "url": "https://www.ethiocoffee.co/buy-ethiopian-coffee-wholesale",
     "publisher": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC",
-      "url": "https://www.ethiocoffee.et"
+      "url": "https://www.ethiocoffee.co"
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ethiocoffee.et" },
-        { "@type": "ListItem", "position": 2, "name": "Buy Ethiopian Coffee Wholesale", "item": "https://www.ethiocoffee.et/buy-ethiopian-coffee-wholesale" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ethiocoffee.co" },
+        { "@type": "ListItem", "position": 2, "name": "Buy Ethiopian Coffee Wholesale", "item": "https://www.ethiocoffee.co/buy-ethiopian-coffee-wholesale" }
       ]
     }
   }

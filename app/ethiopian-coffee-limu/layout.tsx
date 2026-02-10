@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Buy Ethiopian Limu coffee beans direct from exporter. Grade 2 & 3 washed Limu green coffee. SCA 82-85+. Wine, spice, balanced body. Versatile specialty origin. FOB Djibouti.',
   keywords: 'limu coffee, ethiopian limu coffee beans, limu green coffee, buy limu coffee, limu coffee exporter, limu washed coffee, limu grade 2, limu specialty coffee, ethiopian limu export, limu coffee flavor profile',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ethiopian-coffee-limu',
+    canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-limu',
   },
   openGraph: {
     title: 'Ethiopian Limu Coffee Beans | Washed Specialty Export | Ethio Coffee',
     description: 'Premium Limu green coffee beans from Ethiopia. Grade 2 & 3 washed, SCA 82-85+. Wine-toned, spicy, balanced. Direct from licensed exporter.',
-    url: 'https://www.ethiocoffee.et/ethiopian-coffee-limu',
+    url: 'https://www.ethiocoffee.co/ethiopian-coffee-limu',
     type: 'website',
     images: [
       {
@@ -81,9 +81,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.et' },
-    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter' },
-    { '@type': 'ListItem', position: 3, name: 'Limu Coffee', item: 'https://www.ethiocoffee.et/ethiopian-coffee-limu' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.co' },
+    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter' },
+    { '@type': 'ListItem', position: 3, name: 'Limu Coffee', item: 'https://www.ethiocoffee.co/ethiopian-coffee-limu' },
   ]
 }
 

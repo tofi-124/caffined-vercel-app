@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title: 'Insight Not Found | Ethio Coffee',
       description: 'The insight you are looking for does not exist.',
-      alternates: { canonical: 'https://www.ethiocoffee.et/insights' },
+      alternates: { canonical: 'https://www.ethiocoffee.co/insights' },
     }
   }
 
@@ -27,13 +27,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     keywords: post.keywords?.join(', '),
     alternates: {
-      canonical: `https://www.ethiocoffee.et/insights/${insightId}`,
+      canonical: `https://www.ethiocoffee.co/insights/${insightId}`,
     },
     openGraph: {
       title,
       description,
       type: 'article',
-      url: `https://www.ethiocoffee.et/insights/${insightId}`,
+      url: `https://www.ethiocoffee.co/insights/${insightId}`,
       images: [{ url: `/images/${post.large_image_url}` }],
       publishedTime: new Date(post.date).toISOString(),
       authors: ['Ethio Coffee'],
@@ -76,25 +76,25 @@ async function ArticleSchema({ params }: { params: Promise<{ insightId: string }
     '@type': 'Article',
     headline: post.title,
     description: post.desc,
-    image: `https://www.ethiocoffee.et/images/${post.large_image_url}`,
+    image: `https://www.ethiocoffee.co/images/${post.large_image_url}`,
     datePublished: new Date(post.date).toISOString(),
     dateModified: new Date(post.date).toISOString(),
     author: {
       '@type': 'Organization',
       name: 'Ethio Coffee',
-      url: 'https://www.ethiocoffee.et',
+      url: 'https://www.ethiocoffee.co',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Ethio Coffee',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.ethiocoffee.et/images/new-logo.png',
+        url: 'https://www.ethiocoffee.co/images/new-logo.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.ethiocoffee.et/insights/${insightId}`,
+      '@id': `https://www.ethiocoffee.co/insights/${insightId}`,
     },
     keywords: post.keywords?.join(', '),
   }
@@ -107,13 +107,13 @@ async function ArticleSchema({ params }: { params: Promise<{ insightId: string }
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.ethiocoffee.et',
+        item: 'https://www.ethiocoffee.co',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Ethiopian Coffee Insights',
-        item: 'https://www.ethiocoffee.et/insights',
+        item: 'https://www.ethiocoffee.co/insights',
       },
       {
         '@type': 'ListItem',

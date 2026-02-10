@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title: 'Offering Not Found | Ethio Coffee',
       description: 'The offering you are looking for is not available.',
-      alternates: { canonical: 'https://www.ethiocoffee.et/offerings' },
+      alternates: { canonical: 'https://www.ethiocoffee.co/offerings' },
     }
   }
 
@@ -29,13 +29,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     keywords: `${product.name} coffee, Ethiopian ${product.name.toLowerCase()}, ${product.specifications.processingMethod} Ethiopian coffee, ${product.region} coffee, buy ${product.name.toLowerCase()} green coffee, ${product.flavorNotes.join(', ')}`,
     alternates: {
-      canonical: `https://www.ethiocoffee.et/product/${product.id}`,
+      canonical: `https://www.ethiocoffee.co/product/${product.id}`,
     },
     openGraph: {
       title,
       description,
       type: 'website',
-      url: `https://www.ethiocoffee.et/product/${product.id}`,
+      url: `https://www.ethiocoffee.co/product/${product.id}`,
       images: [{ url: `/images/${product.image_url}` }],
     },
     twitter: {
@@ -57,7 +57,7 @@ export default async function ProductLayout({ params, children }: Props) {
     "@type": "Product",
     "name": `${product.name} Ethiopian Green Coffee`,
     "description": product.desc,
-    "image": `https://www.ethiocoffee.et/images/${product.image_url}`,
+    "image": `https://www.ethiocoffee.co/images/${product.image_url}`,
     "brand": {
       "@type": "Brand",
       "name": "Ethio Coffee"
@@ -102,7 +102,7 @@ export default async function ProductLayout({ params, children }: Props) {
         ? "https://schema.org/OutOfStock" 
         : "https://schema.org/InStock",
       "priceCurrency": "USD",
-      "url": `https://www.ethiocoffee.et/product/${product.id}`,
+      "url": `https://www.ethiocoffee.co/product/${product.id}`,
       "seller": {
         "@type": "Organization",
         "name": "Ethio Coffee Export PLC"
@@ -118,19 +118,19 @@ export default async function ProductLayout({ params, children }: Props) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.ethiocoffee.et"
+        "item": "https://www.ethiocoffee.co"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Offerings",
-        "item": "https://www.ethiocoffee.et/offerings"
+        "item": "https://www.ethiocoffee.co/offerings"
       },
       ...(product ? [{
         "@type": "ListItem",
         "position": 3,
         "name": product.name,
-        "item": `https://www.ethiocoffee.et/product/${product.id}`
+        "item": `https://www.ethiocoffee.co/product/${product.id}`
       }] : [])
     ]
   }

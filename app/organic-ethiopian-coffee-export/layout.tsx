@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Export certified organic Ethiopian coffee beans. USDA, EU, and JAS organic Yirgacheffe, Sidamo, Guji green coffee. Bulk orders, full traceability, FOB Djibouti.',
   keywords: 'organic ethiopian coffee, organic coffee exporter ethiopia, certified organic coffee beans, USDA organic ethiopian coffee, EU organic coffee ethiopia, organic green coffee beans, organic yirgacheffe coffee, organic sidamo coffee, organic guji coffee, organic coffee export, bulk organic coffee beans, organic arabica coffee',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/organic-ethiopian-coffee-export',
+    canonical: 'https://www.ethiocoffee.co/organic-ethiopian-coffee-export',
   },
   openGraph: {
     title: 'Organic Ethiopian Coffee Export | Certified Green Coffee | Ethio Coffee',
     description: 'Certified organic Ethiopian green coffee beans for export. USDA, EU & JAS organic. Specialty-grade Yirgacheffe, Sidamo, Guji. Direct from licensed exporter.',
-    url: 'https://www.ethiocoffee.et/organic-ethiopian-coffee-export',
+    url: 'https://www.ethiocoffee.co/organic-ethiopian-coffee-export',
     type: 'website',
     images: [
       {
@@ -81,9 +81,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.et' },
-    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter' },
-    { '@type': 'ListItem', position: 3, name: 'Organic Ethiopian Coffee Export', item: 'https://www.ethiocoffee.et/organic-ethiopian-coffee-export' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.co' },
+    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter' },
+    { '@type': 'ListItem', position: 3, name: 'Organic Ethiopian Coffee Export', item: 'https://www.ethiocoffee.co/organic-ethiopian-coffee-export' },
   ]
 }
 

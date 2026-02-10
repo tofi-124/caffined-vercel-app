@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     'Latest news and updates from the Ethiopian coffee export industry. Stay informed on policy changes, trade events, and market developments.',
   keywords: 'Ethiopian coffee news, coffee export news, Ethiopian coffee industry, IACO, African coffee, coffee trade updates, Ethiopian coffee market',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ethiopia-coffee-export-news',
+    canonical: 'https://www.ethiocoffee.co/ethiopia-coffee-export-news',
   },
   openGraph: {
     title: 'Ethiopian Coffee Export News | Ethio Coffee',
     description:
       'Latest news and updates from the Ethiopian coffee export industry.',
-    url: 'https://www.ethiocoffee.et/ethiopia-coffee-export-news',
+    url: 'https://www.ethiocoffee.co/ethiopia-coffee-export-news',
     type: 'website',
     images: [
       {
@@ -39,13 +39,13 @@ export default function NewsLayout({ children }: { children: React.ReactNode }) 
     "@type": "CollectionPage",
     "name": "Ethiopian Coffee Export News",
     "description": "Latest news and updates from the Ethiopian coffee export industry.",
-    "url": "https://www.ethiocoffee.et/ethiopia-coffee-export-news",
+    "url": "https://www.ethiocoffee.co/ethiopia-coffee-export-news",
     "publisher": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.ethiocoffee.et/images/new-logo.png"
+        "url": "https://www.ethiocoffee.co/images/new-logo.png"
       }
     },
     "mainEntity": {
@@ -54,7 +54,7 @@ export default function NewsLayout({ children }: { children: React.ReactNode }) 
       "itemListElement": newsArticles.slice(0, 10).map((article, index) => ({
         "@type": "ListItem",
         "position": index + 1,
-        "url": `https://www.ethiocoffee.et/ethiopia-coffee-export-news/${article.slug}`
+        "url": `https://www.ethiocoffee.co/ethiopia-coffee-export-news/${article.slug}`
       }))
     }
   }

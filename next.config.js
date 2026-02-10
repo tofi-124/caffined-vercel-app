@@ -44,6 +44,19 @@ const nextConfig = {
   // Add redirects for old URLs
   async redirects() {
     return [
+      // 301 redirect all traffic from old ethiocoffee.et domain to ethiocoffee.co
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.ethiocoffee.et' }],
+        destination: 'https://www.ethiocoffee.co/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'ethiocoffee.et' }],
+        destination: 'https://www.ethiocoffee.co/:path*',
+        permanent: true,
+      },
       {
         source: '/blog/:path*',
         destination: '/insights/:path*',

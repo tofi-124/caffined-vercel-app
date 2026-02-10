@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/',
+    canonical: 'https://www.ethiocoffee.co/',
   },
 }
 

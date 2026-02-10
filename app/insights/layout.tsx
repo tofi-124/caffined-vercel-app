@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     'Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends. Expert guides for importers and green coffee buyers.',
   keywords: 'Ethiopian coffee blog, coffee sourcing guide, Ethiopian coffee regions, green coffee buying guide, coffee industry insights, importer resources',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/insights',
+    canonical: 'https://www.ethiocoffee.co/insights',
   },
   openGraph: {
     title: 'Ethiopian Coffee Blog | Ethio Coffee',
     description:
       'Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends.',
-    url: 'https://www.ethiocoffee.et/insights',
+    url: 'https://www.ethiocoffee.co/insights',
     type: 'website',
     images: [
       {
@@ -40,13 +40,13 @@ export default function InsightsLayout({ children }: { children: React.ReactNode
     "@type": "Blog",
     "name": "Ethiopian Coffee Blog",
     "description": "Learn about Ethiopian coffee sourcing, processing methods, flavor profiles, and industry trends.",
-    "url": "https://www.ethiocoffee.et/insights",
+    "url": "https://www.ethiocoffee.co/insights",
     "publisher": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.ethiocoffee.et/images/new-logo.png"
+        "url": "https://www.ethiocoffee.co/images/new-logo.png"
       }
     },
     "blogPost": posts.slice(0, 10).map(post => ({
@@ -54,8 +54,8 @@ export default function InsightsLayout({ children }: { children: React.ReactNode
       "headline": post.title,
       "description": post.desc,
       "datePublished": new Date(post.date).toISOString(),
-      "url": `https://www.ethiocoffee.et/insights/${post.slug}`,
-      "image": `https://www.ethiocoffee.et/images/${post.large_image_url}`,
+      "url": `https://www.ethiocoffee.co/insights/${post.slug}`,
+      "image": `https://www.ethiocoffee.co/images/${post.large_image_url}`,
       "author": {
         "@type": "Organization",
         "name": "Ethio Coffee"

@@ -4,7 +4,7 @@ import { posts } from './data/data'
 import { newsArticles } from './data/news'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.ethiocoffee.et'
+  const baseUrl = 'https://www.ethiocoffee.co'
   
   const now = new Date()
 

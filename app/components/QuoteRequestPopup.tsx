@@ -98,7 +98,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
           <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
             <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
             <p className='text-green-700'>Your request has been submitted successfully. We'll contact you soon at the email address you provided.</p>
-            <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:info@ethiocoffee.et" className='underline font-bold'>info@ethiocoffee.et</a></p>
+            <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:coffee@ethiocoffee.co" className='underline font-bold'>coffee@ethiocoffee.co</a></p>
 
             <div className='flex justify-center pt-6'>
               <button

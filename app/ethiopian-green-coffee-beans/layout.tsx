@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Buy Ethiopian green coffee beans direct from exporter. Specialty & commercial grade Yirgacheffe, Sidamo, Guji, Harar, Limu green beans. SCA 80+ scored. FOB Djibouti.',
   keywords: 'ethiopian green coffee beans, ethiopian green coffee, green coffee beans ethiopia, buy ethiopian green coffee beans, ethiopian unroasted coffee beans, ethiopian raw coffee beans, green coffee from ethiopia, ethiopian arabica green beans, specialty green coffee beans ethiopia, green coffee beans for roasters, ethiopian single origin green coffee, wholesale green coffee beans ethiopia',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ethiopian-green-coffee-beans',
+    canonical: 'https://www.ethiocoffee.co/ethiopian-green-coffee-beans',
   },
   openGraph: {
     title: 'Ethiopian Green Coffee Beans | Buy Direct from Origin | Ethio Coffee',
     description: 'Premium Ethiopian green coffee beans sourced directly from origin. Specialty-grade Yirgacheffe, Sidamo, Guji, Harar & Limu. SCA 80+ scored, full traceability.',
-    url: 'https://www.ethiocoffee.et/ethiopian-green-coffee-beans',
+    url: 'https://www.ethiocoffee.co/ethiopian-green-coffee-beans',
     type: 'website',
     images: [
       {
@@ -40,17 +40,17 @@ export default function EthiopianGreenCoffeeBeansLayout({
     "@type": "WebPage",
     "name": "Ethiopian Green Coffee Beans",
     "description": "Complete guide to Ethiopian green coffee beans — varieties, grades, flavour profiles, processing methods, and how to buy direct from an Ethiopian exporter.",
-    "url": "https://www.ethiocoffee.et/ethiopian-green-coffee-beans",
+    "url": "https://www.ethiocoffee.co/ethiopian-green-coffee-beans",
     "publisher": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC",
-      "url": "https://www.ethiocoffee.et"
+      "url": "https://www.ethiocoffee.co"
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ethiocoffee.et" },
-        { "@type": "ListItem", "position": 2, "name": "Ethiopian Green Coffee Beans", "item": "https://www.ethiocoffee.et/ethiopian-green-coffee-beans" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ethiocoffee.co" },
+        { "@type": "ListItem", "position": 2, "name": "Ethiopian Green Coffee Beans", "item": "https://www.ethiocoffee.co/ethiopian-green-coffee-beans" }
       ]
     }
   }

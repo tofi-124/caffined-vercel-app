@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Complete guide to the Ethiopian coffee grading system. Understand Grade 1-5 classification, defect counts, cup scoring, and how grading affects pricing for importers.',
   keywords: 'ethiopian coffee grading, ethiopian coffee grades, coffee grading system ethiopia, ethiopia coffee grade 1, ethiopia coffee grade 2, ethiopian coffee quality grades, coffee bean grading ethiopia, ECX coffee grading, ethiopian coffee classification, specialty coffee grading ethiopia, coffee defect count ethiopia, coffee cup score ethiopia, SCA cupping score ethiopian coffee',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/coffee-grading-ethiopia',
+    canonical: 'https://www.ethiocoffee.co/coffee-grading-ethiopia',
   },
   openGraph: {
     title: 'Ethiopian Coffee Grading System (Grade 1-5) | Complete Guide | Ethio Coffee',
     description: 'Complete guide to Ethiopian coffee grading: Grade 1-5 classification, defect counts, cup scoring, processing standards, and what each grade means for importers.',
-    url: 'https://www.ethiocoffee.et/coffee-grading-ethiopia',
+    url: 'https://www.ethiocoffee.co/coffee-grading-ethiopia',
     type: 'article',
     images: [
       {
@@ -40,24 +40,24 @@ export default function CoffeeGradingLayout({
     "@type": "Article",
     "headline": "Ethiopian Coffee Grading System Explained: Grade 1 to Grade 5",
     "description": "Complete guide to the Ethiopian coffee grading system — how green coffee is classified from Grade 1 (specialty) to Grade 5 (commercial), including defect count standards, SCA cupping scores, and pricing implications.",
-    "url": "https://www.ethiocoffee.et/coffee-grading-ethiopia",
+    "url": "https://www.ethiocoffee.co/coffee-grading-ethiopia",
     "author": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC",
-      "url": "https://www.ethiocoffee.et"
+      "url": "https://www.ethiocoffee.co"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Ethio Coffee Export PLC",
-      "url": "https://www.ethiocoffee.et"
+      "url": "https://www.ethiocoffee.co"
     },
     "datePublished": "2026-02-09",
     "dateModified": "2026-02-09",
     "breadcrumb": {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ethiocoffee.et" },
-        { "@type": "ListItem", "position": 2, "name": "Coffee Grading Ethiopia", "item": "https://www.ethiocoffee.et/coffee-grading-ethiopia" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ethiocoffee.co" },
+        { "@type": "ListItem", "position": 2, "name": "Coffee Grading Ethiopia", "item": "https://www.ethiocoffee.co/coffee-grading-ethiopia" }
       ]
     }
   }

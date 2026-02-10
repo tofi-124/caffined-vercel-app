@@ -35,21 +35,21 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
     "@type": "Article",
     "headline": title,
     "image": [
-      `https://www.ethiocoffeeexport.com/images/${large_image_url}`
+      `https://www.ethiocoffee.co/images/${large_image_url}`
     ],
     "datePublished": date,
     "dateModified": new Date().toISOString().split('T')[0],
     "author": [{
       "@type": "Organization",
       "name": "Ethio Coffee Export",
-      "url": "https://www.ethiocoffeeexport.com"
+      "url": "https://www.ethiocoffee.co"
     }],
     "publisher": {
       "@type": "Organization",
       "name": "Ethio Coffee Export",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.ethiocoffeeexport.com/logo.png"
+        "url": "https://www.ethiocoffee.co/logo.png"
       }
     },
     "description": "A comprehensive guide to green coffee logistics. Learn how to prevent quality fading, control moisture content, and manage container sweat during sea freight.",

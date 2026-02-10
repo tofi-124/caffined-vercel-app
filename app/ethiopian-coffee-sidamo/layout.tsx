@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description: 'Buy Ethiopian Sidamo (Sidama) coffee beans direct from exporter. Grade 1 & 2 washed and natural Sidamo green coffee. SCA 84-88+ scored. Berry, floral, wine-like acidity. FOB Djibouti.',
   keywords: 'sidamo coffee, sidama coffee, ethiopian sidamo coffee beans, sidamo green coffee, buy sidamo coffee, sidamo coffee exporter, sidamo grade 1, sidamo washed coffee, sidamo natural coffee, bensa coffee, dale coffee, specialty sidamo coffee export, sidamo coffee flavor profile',
   alternates: {
-    canonical: 'https://www.ethiocoffee.et/ethiopian-coffee-sidamo',
+    canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-sidamo',
   },
   openGraph: {
     title: 'Ethiopian Sidamo Coffee Beans | Specialty Export | Ethio Coffee',
     description: 'Premium Sidamo (Sidama) green coffee beans from Ethiopia. Grade 1 & 2, SCA 84-87+. Berry, floral, wine-like acidity. Direct from licensed exporter.',
-    url: 'https://www.ethiocoffee.et/ethiopian-coffee-sidamo',
+    url: 'https://www.ethiocoffee.co/ethiopian-coffee-sidamo',
     type: 'website',
     images: [{ url: '/images/coffee-pack-1.webp', width: 900, height: 600, alt: 'Ethiopian Sidamo green coffee beans for export' }],
   },
@@ -59,9 +59,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.et' },
-    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.et/ethiopian-coffee-exporter' },
-    { '@type': 'ListItem', position: 3, name: 'Sidamo Coffee', item: 'https://www.ethiocoffee.et/ethiopian-coffee-sidamo' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.ethiocoffee.co' },
+    { '@type': 'ListItem', position: 2, name: 'Ethiopian Coffee Exporter', item: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter' },
+    { '@type': 'ListItem', position: 3, name: 'Sidamo Coffee', item: 'https://www.ethiocoffee.co/ethiopian-coffee-sidamo' },
   ]
 }
 
