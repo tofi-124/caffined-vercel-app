@@ -3,20 +3,20 @@ import ResponsiveImage from './ResponsiveImage'
 
 const Hero = () => {
   return (
-    <section id='hero' className='relative overflow-hidden pt-28 lg:pt-32 bg-primary' aria-label="Hero section">
+    <section id='hero' className='relative overflow-hidden pt-16 lg:pt-20 bg-primary' aria-label="Hero section">
       {/* Content */}
-      <div className='container relative z-20 mx-auto px-4 py-8 lg:py-12'>
-        <div className="flex flex-col items-center justify-center gap-10 lg:flex-row lg:gap-12">
+      <div className='container relative z-20 mx-auto px-4 py-4 lg:py-6'>
+        <div className="flex flex-col items-center justify-center gap-6 lg:flex-row lg:gap-12">
 
         <div id="hero-heading-wrapper" className='mx-auto flex w-full max-w-prose flex-col items-start justify-center lg:mx-0 lg:w-1/2 lg:max-w-none'>
-          <h1 className='text-5xl lg:text-6xl leading-tight text-dark font-bold'>
+          <h1 className='text-4xl sm:text-5xl lg:text-6xl leading-tight text-dark font-bold'>
             ETHIOPIAN COFFEE EXPORTER
           </h1>
-            <h2 className='text-dark/80 text-xs sm:text-sm tracking-wide mt-2 mb-4 leading-relaxed'>
+            <h2 className='text-dark/80 text-xs sm:text-sm tracking-wide mt-2 mb-2 leading-relaxed'>
              Ethio Coffee: Direct, Traceable Specialty Green Coffee from Ethiopia to Importers Worldwide
             </h2>
 
-            <div className='mt-6 text-dark lg:pr-20 leading-relaxed space-y-6'>
+            <div className='mt-4 lg:mt-6 text-dark lg:pr-20 leading-relaxed space-y-4 lg:space-y-6'>
               <p className='max-w-[65ch]'>
                 We are a partner producer and exporter founded by two brothers, one based in Ethiopia and the other in Canada. This unique partnership allows us to bridge the gap between the source and the global market seamlessly. We export traceable, specialty-grade green coffee to importers worldwide, sourcing directly from Ethiopia’s most renowned regions, including Sidama, Guji, and Yirgacheffe. At our core, we combine a deep-rooted passion for our heritage with a commitment to professional service, consistent quality, and transparent communication
               </p>
