@@ -22,6 +22,7 @@ const WholesaleInquiryPage = () => {
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState('');
 
+  // Scroll to form section on mount
   useEffect(() => {
     const timer = setTimeout(() => {
       if (!formRef.current) return
@@ -38,6 +39,19 @@ const WholesaleInquiryPage = () => {
 
     return () => clearTimeout(timer)
   }, [])
+
+  // Scroll to success message when form is submitted
+  useEffect(() => {
+    if (submitSuccess && formRef.current) {
+      const headerOffset = 96
+      const y = formRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
+
+      window.scrollTo({
+        top: Math.max(0, y),
+        behavior: 'smooth',
+      })
+    }
+  }, [submitSuccess])
   
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
