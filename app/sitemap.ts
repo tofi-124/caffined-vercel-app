@@ -6,54 +6,74 @@ import { newsArticles } from './data/news'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.ethiocoffee.et'
   
+  const now = new Date()
+
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date('2025-06-01'),
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
       url: `${baseUrl}/ethiopian-coffee-exporter`,
-      lastModified: new Date('2025-06-01'),
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.95,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date('2025-05-01'),
+      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/offerings`,
-      lastModified: new Date('2025-06-01'),
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: `${baseUrl}/ordering-info`,
-      lastModified: new Date('2025-05-01'),
+      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
       url: `${baseUrl}/insights`,
-      lastModified: new Date('2025-06-01'),
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.7,
     },
     {
       url: `${baseUrl}/contact-us`,
-      lastModified: new Date('2025-05-01'),
+      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.6,
     },
     {
       url: `${baseUrl}/ethiopia-coffee-export-news`,
-      lastModified: new Date('2025-06-01'),
+      lastModified: now,
       changeFrequency: 'weekly',
       priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/ethiopian-green-coffee-beans`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/buy-ethiopian-coffee-wholesale`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/coffee-grading-ethiopia`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/terms`,
@@ -65,7 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const productRoutes: MetadataRoute.Sitemap = offerings.map((o) => ({
     url: `${baseUrl}/product/${o.id}`,
-    lastModified: new Date('2025-06-01'),
+    lastModified: now,
     changeFrequency: 'weekly',
     priority: 0.8,
   }))

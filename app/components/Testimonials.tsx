@@ -13,8 +13,8 @@ const PartnerCard = ({ placeAndLocation }: Partner) => {
   const location = locationParts.join(',').trim()
 
   return (
-    <div className='flex flex-col items-center justify-center px-8 md:px-20 pb-12'>
-      <div className='mt-12 border-t pt-10 border-primary w-full sm:w-2/3 md:w-1/2 flex items-center justify-center'>
+    <div className='flex flex-col items-center justify-center px-8 md:px-20 pb-6'>
+      <div className='mt-6 border-t pt-6 border-primary w-full sm:w-2/3 md:w-1/2 flex items-center justify-center'>
         <h3 className='text-center text-2xl font-extrabold text-primary'>
           {location ? (
             <span className='flex flex-col items-center'>
@@ -42,9 +42,9 @@ const Testimonials = () => {
   ]
 
   return (
-    <section id='partners-section' className='pt-32 pb-16 flex flex-col items-center justify-center bg-dark text-primary overflow-x-hidden'>
-      <div className='mb-12 text-center'>
-        <h2 className='text-5xl leading-tight text-primary font-bold'>
+    <section id='partners-section' className='pt-16 pb-12 flex flex-col items-center justify-center bg-dark text-primary overflow-x-hidden'>
+      <div className='mb-6 text-center'>
+        <h2 className='text-2xl md:text-3xl leading-tight text-primary font-bold tracking-wide'>
           VALUED RELATIONSHIPS
         </h2>
       </div>
@@ -60,7 +60,7 @@ const Testimonials = () => {
             display: 'flex', 
             flexDirection: 'column', 
             justifyContent: 'center',
-            padding: '2rem 0',
+            padding: '1rem 0',
           }}
           arrowLeft={
             <AiOutlineLeft

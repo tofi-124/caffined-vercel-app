@@ -37,7 +37,9 @@ const InstaImages = () => {
 
 const Footer = () => {
   return (
-    <footer className='bg-dark text-primary'>
+    <>
+      {/* Upper footer — navy background: instagram, contact, office, hours */}
+      <footer className='bg-dark text-primary'>
       <div id="instaimages">
         <InstaImages />
       </div>
@@ -115,84 +117,70 @@ const Footer = () => {
       </div>
       </div>
       <div className='h-0.5 w-full bg-white/20' />
-
-      <p className='py-6 text-center text-sm text-primary/70 max-w-3xl mx-auto leading-relaxed'>
-        Ethio Coffee Export PLC is a family-owned Ethiopian coffee exporter shipping specialty and commercial grade green coffee beans to roasters, importers, and distributors worldwide.
-      </p>
-
-      <div className='py-8 text-center'>
-        <p className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-primary/90">
-          © 2026 Ethio Coffee Export PLC. All rights reserved.
-          <span className='text-primary/50'>|</span>
-          <Link
-            href='/about'
-            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
-          >
-            About Us
-          </Link>
-          <span className='text-primary/50'>|</span>
-          <Link
-            href='/offerings'
-            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
-          >
-            Offerings
-          </Link>
-          <span className='text-primary/50'>|</span>
-          <Link
-            href='/contact-us'
-            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
-          >
-            Contact Us
-          </Link>
-          <span className='text-primary/50'>|</span>
-          <Link
-            href='/insights'
-            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
-          >
-            Insights
-          </Link>
-          <span className='text-primary/50'>|</span>
-          <Link
-            href='/ethiopia-coffee-export-news'
-            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
-          >
-            News
-          </Link>
-          <span className='text-primary/50'>|</span>
-          <Link
-            href='/ordering-info'
-            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
-          >
-            How To Buy
-          </Link>
-          <span className='text-primary/50'>|</span>
-          <Link
-            href='/ethiopian-coffee-exporter'
-            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
-          >
-            Ethiopian Coffee Exporter
-          </Link>
-          <span className='text-primary/50'>|</span>
-          <Link
-            href='/terms'
-            className='underline underline-offset-4 hover:text-primary/80 transition-colors'
-          >
-            Terms of Service
-          </Link>
-        </p>
-        <p className="mt-3 flex items-center justify-center gap-1 text-sm text-white/75">
-          <span>made by</span>
-          <a
-            href="mailto:nusey51@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-4 hover:text-primary/80 transition-colors"
-          >
-            nusu.m
-          </a>
-        </p>
-      </div>
     </footer>
+
+      {/* Lower footer — creamy background: links, description, copyright */}
+      <div className='bg-primary text-dark'>
+        <div className='py-10 max-w-6xl mx-auto px-6'>
+          <div className='grid grid-cols-2 md:grid-cols-4 gap-8 text-sm'>
+            <div>
+              <h4 className='font-bold text-dark uppercase tracking-widest text-xs mb-4'>Company</h4>
+              <ul className='space-y-2 text-dark/70'>
+                <li><Link href='/about' className='hover:text-dark transition-colors'>About Us</Link></li>
+                <li><Link href='/contact-us' className='hover:text-dark transition-colors'>Contact Us</Link></li>
+                <li><Link href='/terms' className='hover:text-dark transition-colors'>Terms of Service</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className='font-bold text-dark uppercase tracking-widest text-xs mb-4'>Buy Coffee</h4>
+              <ul className='space-y-2 text-dark/70'>
+                <li><Link href='/offerings' className='hover:text-dark transition-colors'>Current Offerings</Link></li>
+                <li><Link href='/ordering-info' className='hover:text-dark transition-colors'>How To Buy</Link></li>
+                <li><Link href='/ethiopian-coffee-exporter' className='hover:text-dark transition-colors'>Ethiopian Coffee Exporter</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className='font-bold text-dark uppercase tracking-widest text-xs mb-4'>Resources</h4>
+              <ul className='space-y-2 text-dark/70'>
+                <li><Link href='/ethiopian-green-coffee-beans' className='hover:text-dark transition-colors'>Ethiopian Green Coffee Beans</Link></li>
+                <li><Link href='/buy-ethiopian-coffee-wholesale' className='hover:text-dark transition-colors'>Buy Wholesale</Link></li>
+                <li><Link href='/coffee-grading-ethiopia' className='hover:text-dark transition-colors'>Coffee Grading System</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className='font-bold text-dark uppercase tracking-widest text-xs mb-4'>Journal</h4>
+              <ul className='space-y-2 text-dark/70'>
+                <li><Link href='/insights' className='hover:text-dark transition-colors'>Insights</Link></li>
+                <li><Link href='/ethiopia-coffee-export-news' className='hover:text-dark transition-colors'>News</Link></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className='h-px w-full bg-dark/10' />
+
+        <p className='py-6 text-center text-sm text-dark/50 max-w-3xl mx-auto leading-relaxed px-4'>
+          Ethio Coffee Export PLC is a family-owned Ethiopian coffee exporter shipping specialty and commercial grade green coffee beans to roasters, importers, and distributors worldwide.
+        </p>
+
+        <div className='pb-8 text-center'>
+          <p className="text-sm text-dark/50">
+            © 2026 Ethio Coffee Export PLC. All rights reserved.
+          </p>
+          <p className="mt-3 flex items-center justify-center gap-1 text-sm text-dark/40">
+            <span>made by</span>
+            <a
+              href="mailto:nusey51@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:text-dark/60 transition-colors"
+            >
+              nusu.m
+            </a>
+          </p>
+        </div>
+      </div>
+    </>
   )
 }
 
