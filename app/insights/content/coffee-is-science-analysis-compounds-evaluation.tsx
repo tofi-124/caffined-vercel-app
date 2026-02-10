@@ -263,6 +263,7 @@ export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date
             <li><Link href='/insights/coffee-is-art-roasting-brewing' className='underline font-bold'>Coffee Is Art</Link> - How roasters use scientific understanding to craft exceptional roast profiles</li>
             <li><Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>Sourcing Green Coffee</Link> - Apply quality evaluation to your buying decisions</li>
             <li><Link href='/insights/specialty-coffee-trends-2026' className='underline font-bold'>2026 Specialty Coffee Trends</Link> - See how science is driving innovation in the industry</li>
+            <li><Link href='/insights/best-cupping-school' className='underline font-bold'>Best Cupping Schools</Link> - Find the right training to develop your sensory evaluation skills and cupping expertise</li>
           </ul>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>

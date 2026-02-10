@@ -424,6 +424,9 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
             Developing strong green coffee quality control skills isn&apos;t just about avoiding bad lots it&apos;s about building the confidence to identify exceptional value and make decisions that strengthen your business. Whether you&apos;re evaluating your first Ethiopian samples or refining an established QC program, the fundamentals remain the same: systematic inspection, proper measurement, and honest sensory evaluation.
           </p>
           <p className='my-4'>
+            If you&apos;re looking to sharpen your sensory evaluation skills further, explore our guide on the <Link href='/insights/best-cupping-school' className='underline font-bold'>best cupping schools</Link> to find training programs that build confidence in quality assessment.
+          </p>
+          <p className='my-4'>
             Understanding quality control also deepens your appreciation for what happens at origin. The <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link>, <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing decisions</Link>, and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial logistics</Link> that bring Ethiopian coffee to your door all influence the quality you receive. The more you understand these connections, the better partner you become for your suppliers and your customers.
           </p>
           <p className='my-4'>

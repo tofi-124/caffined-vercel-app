@@ -844,6 +844,16 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
             </p>
             <p className='text-sm text-gray-600'>Your trusted Ethiopian coffee export partner: specialty Arabica from Yirgacheffe, Sidamo, Guji & more</p>
           </Link>
+          <Link 
+            href="/insights/top-premium-coffee-exporters-global-guide" 
+            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
+          >
+            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
+              <HiOutlineTrophy className='text-xl' />
+              Top Coffee Exporters in the World
+            </p>
+            <p className='text-sm text-gray-600'>What makes a premium coffee exporter stand out globally — quality benchmarks, certifications, and best practices</p>
+          </Link>
         </div>
       </div>
     </>

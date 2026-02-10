@@ -647,6 +647,10 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
             <h4 className="font-semibold text-gray-900 mb-2">Ethiopian Dry Coffee Production</h4>
             <p className="text-sm text-gray-600">Quality control from cherry to export-ready green coffee</p>
           </Link>
+          <Link href="/insights/best-cupping-school" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <h4 className="font-semibold text-gray-900 mb-2">Best Cupping Schools</h4>
+            <p className="text-sm text-gray-600">How to choose training that improves your palate and career</p>
+          </Link>
         </div>
       </section>
     </article>

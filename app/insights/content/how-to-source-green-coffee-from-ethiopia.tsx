@@ -161,6 +161,10 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         <li className='my-2'><span className='font-bold'>All Grades Available:</span> We export G1, G2, G3, and G4 specialty to commercial grades for any buyer need.</li>
       </ul>
 
+      <p className='my-4'>
+        Want to understand what sets the best exporters apart globally? Our in-depth guide on <Link href='/insights/top-premium-coffee-exporters-global-guide' className='underline font-bold'>top coffee exporters in the world</Link> covers the quality benchmarks, certifications, and practices that define premium coffee export.
+      </p>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Green Coffee?</h4>
         <p className='my-2 font-medium'>
