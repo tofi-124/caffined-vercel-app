@@ -43,7 +43,7 @@ export default function EthiopianCoffeeExporterLayout({
     "alternateName": ["Ethio Coffee", "Ethiopian Coffee Exporter"],
     "description": "Family-owned Ethiopian coffee exporter with 30+ years of heritage. We export specialty-grade (SCA 80+) and commercial green coffee from Ethiopia to roasters, importers, and distributors in 40+ countries worldwide.",
     "url": "https://www.ethiocoffee.co",
-    "logo": "https://www.ethiocoffee.co/images/logo.png",
+    "logo": "https://www.ethiocoffee.co/images/new-logo.png",
     "foundingDate": "2022",
     "founder": [
       {
@@ -81,7 +81,9 @@ export default function EthiopianCoffeeExporterLayout({
       "Guji coffee",
       "Ethiopian Arabica"
     ],
-    "sameAs": []
+    "sameAs": [
+      "https://instagram.com/ethiocoffee.co"
+    ]
   }
 
   // Service schema for Ethiopian coffee export services

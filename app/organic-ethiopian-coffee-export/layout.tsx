@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Organic Ethiopian Coffee Export | Certified Organic Green Coffee Beans | Ethio Coffee',
+  title: 'Organic Ethiopian Coffee Export | Ethio Coffee',
   description: 'Export certified organic Ethiopian coffee beans. USDA, EU, and JAS organic Yirgacheffe, Sidamo, Guji green coffee. Bulk orders, full traceability, FOB Djibouti.',
   keywords: 'organic ethiopian coffee, organic coffee exporter ethiopia, certified organic coffee beans, USDA organic ethiopian coffee, EU organic coffee ethiopia, organic green coffee beans, organic yirgacheffe coffee, organic sidamo coffee, organic guji coffee, organic coffee export, bulk organic coffee beans, organic arabica coffee',
   alternates: {

@@ -102,6 +102,11 @@ export default async function ProductLayout({ params, children }: Props) {
         ? "https://schema.org/OutOfStock" 
         : "https://schema.org/InStock",
       "priceCurrency": "USD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "USD",
+        "description": "Contact us for current FOB pricing. Prices vary by grade, volume, and contract terms."
+      },
       "url": `https://www.ethiocoffee.co/product/${product.id}`,
       "seller": {
         "@type": "Organization",

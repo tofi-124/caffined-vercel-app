@@ -5,9 +5,10 @@ import Carousel from 'better-react-carousel';
 
 type Partner = {
   placeAndLocation: string
+  lang?: string
 }
 
-const PartnerCard = ({ placeAndLocation }: Partner) => {
+const PartnerCard = ({ placeAndLocation, lang }: Partner) => {
   const [placePart, ...locationParts] = placeAndLocation.split(',')
   const place = placePart?.trim()
   const location = locationParts.join(',').trim()
@@ -15,7 +16,7 @@ const PartnerCard = ({ placeAndLocation }: Partner) => {
   return (
     <div className='flex flex-col items-center justify-center px-8 md:px-20 pb-6'>
       <div className='mt-6 border-t pt-6 border-primary w-full sm:w-2/3 md:w-1/2 flex items-center justify-center'>
-        <h3 className='text-center text-2xl font-extrabold text-primary'>
+        <h3 className='text-center text-2xl font-extrabold text-primary' {...(lang ? { lang, dir: 'rtl' } : {})}>
           {location ? (
             <span className='flex flex-col items-center'>
               <span>{place || placeAndLocation}</span>
@@ -35,9 +36,9 @@ const PartnerCard = ({ placeAndLocation }: Partner) => {
       
 const Testimonials = () => {
   const partners: Partner[] = [
-    { placeAndLocation: 'النملة للتجارة والخدمات , جدة' },
+    { placeAndLocation: 'النملة للتجارة والخدمات , جدة', lang: 'ar' },
     { placeAndLocation: 'VIDYA GLOBAL, UAE' },
-    { placeAndLocation: 'ؤسسة المستنير للتجارة الدولية , جدة ' },
+    { placeAndLocation: 'ؤسسة المستنير للتجارة الدولية , جدة ', lang: 'ar' },
     { placeAndLocation: 'ZHONG YUN SUPPLY CHAIN MANAGEMENT SDN BHD, CHINA' },
   ]
 
@@ -45,7 +46,7 @@ const Testimonials = () => {
     <section id='partners-section' className='pt-16 pb-12 flex flex-col items-center justify-center bg-dark text-primary overflow-x-hidden'>
       <div className='mb-6 text-center'>
         <h2 className='text-2xl md:text-3xl leading-tight text-primary font-bold tracking-wide'>
-          VALUED RELATIONSHIPS
+          OUR GLOBAL COFFEE IMPORT PARTNERS
         </h2>
       </div>
 

@@ -2,16 +2,16 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'How To Buy & FAQ | Ethio Coffee',
+  title: 'How To Buy Ethiopian Coffee | FAQ | Ethio Coffee',
   description:
     'Everything about ordering Ethiopian green coffee from Ethio Coffee. Learn about our process, shipping, payment terms, quality guarantees, and more.',
   keywords:
-    'Ethiopian coffee ordering, green coffee FAQ, coffee shipping, wholesale coffee order, coffee payment terms, coffee samples, Ethiopian coffee export, coffee import guide',
+    'Ethiopian coffee ordering, green coffee FAQ, coffee shipping, wholesale coffee order, coffee payment terms, coffee samples, Ethiopian coffee export, coffee import guide, how to buy ethiopian coffee, order ethiopian green coffee',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ordering-info',
   },
   openGraph: {
-    title: 'How To Buy & FAQ | Ethio Coffee',
+    title: 'How To Buy Ethiopian Coffee | FAQ | Ethio Coffee',
     description:
       'Complete guide to ordering Ethiopian green coffee. Shipping, payment, samples, quality standards, and more.',
     url: 'https://www.ethiocoffee.co/ordering-info',
