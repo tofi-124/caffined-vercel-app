@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Limu Coffee Beans | Washed Specialty Export | Ethio Coffee',
+  title: 'Ethiopian Limu Coffee Beans | Specialty Export | Ethio Coffee',
   description: 'Buy Ethiopian Limu coffee beans direct from exporter. Grade 2 & 3 washed Limu green coffee. SCA 82-85+. Wine, spice, balanced body. Versatile specialty origin. FOB Djibouti.',
   keywords: 'limu coffee, ethiopian limu coffee beans, limu green coffee, buy limu coffee, limu coffee exporter, limu washed coffee, limu grade 2, limu specialty coffee, ethiopian limu export, limu coffee flavor profile',
   alternates: {

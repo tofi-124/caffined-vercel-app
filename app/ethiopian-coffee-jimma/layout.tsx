@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Jimma (Djimmah) Coffee Beans | Commercial Grade Export | Ethio Coffee',
+  title: 'Ethiopian Jimma Coffee Beans | Commercial Export | Ethio Coffee',
   description: 'Buy Ethiopian Jimma (Djimmah) coffee beans direct from exporter. Grade 4 & 5 natural and washed Jimma green coffee. Earthy, full-bodied, blend-friendly. Ethiopia\'s main commercial coffee. FOB Djibouti.',
   keywords: 'jimma coffee, djimmah coffee, ethiopian jimma coffee beans, djimma green coffee, buy jimma coffee, jimma coffee exporter, commercial ethiopian coffee, jimma grade 5, jimma natural coffee, bulk ethiopian coffee export, jimma coffee blend',
   alternates: {

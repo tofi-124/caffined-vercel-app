@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Sidamo Coffee Beans | Specialty Grade Export | Ethio Coffee',
+  title: 'Ethiopian Sidamo Coffee Beans | Specialty Export | Ethio Coffee',
   description: 'Buy Ethiopian Sidamo (Sidama) coffee beans direct from exporter. Grade 1 & 2 washed and natural Sidamo green coffee. SCA 84-88+ scored. Berry, floral, wine-like acidity. FOB Djibouti.',
   keywords: 'sidamo coffee, sidama coffee, ethiopian sidamo coffee beans, sidamo green coffee, buy sidamo coffee, sidamo coffee exporter, sidamo grade 1, sidamo washed coffee, sidamo natural coffee, bensa coffee, dale coffee, specialty sidamo coffee export, sidamo coffee flavor profile',
   alternates: {

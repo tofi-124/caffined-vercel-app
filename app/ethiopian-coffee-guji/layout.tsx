@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Guji Coffee Beans | Specialty Grade Export | Ethio Coffee',
+  title: 'Ethiopian Guji Coffee Beans | Specialty Export | Ethio Coffee',
   description: 'Buy Ethiopian Guji coffee beans direct from exporter. Grade 1 & 2 washed, natural, honey Guji green coffee. SCA 85-89+ scored. Stone fruit, tropical, floral. FOB Djibouti.',
   keywords: 'guji coffee, ethiopian guji coffee beans, guji green coffee, buy guji coffee, guji coffee exporter, guji grade 1, guji washed coffee, guji natural coffee, hambela coffee, shakiso coffee, specialty guji coffee export, guji coffee flavor profile',
   alternates: {

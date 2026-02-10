@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Green Coffee Beans | Buy Direct from Exporter | Ethio Coffee',
+  title: 'Ethiopian Green Coffee Beans | Buy Direct | Ethio Coffee',
   description: 'Buy Ethiopian green coffee beans direct from exporter. Specialty & commercial grade Yirgacheffe, Sidamo, Guji, Harar, Limu green beans. SCA 80+ scored. FOB Djibouti.',
   keywords: 'ethiopian green coffee beans, ethiopian green coffee, green coffee beans ethiopia, buy ethiopian green coffee beans, ethiopian unroasted coffee beans, ethiopian raw coffee beans, green coffee from ethiopia, ethiopian arabica green beans, specialty green coffee beans ethiopia, green coffee beans for roasters, ethiopian single origin green coffee, wholesale green coffee beans ethiopia',
   alternates: {

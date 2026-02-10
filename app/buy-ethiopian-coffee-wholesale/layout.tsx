@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Buy Ethiopian Coffee Wholesale | Direct from Exporter | Ethio Coffee',
+  title: 'Buy Ethiopian Coffee Wholesale | Direct Export | Ethio Coffee',
   description: 'Buy Ethiopian coffee wholesale direct from licensed exporter. Specialty & commercial green coffee: Yirgacheffe, Sidamo, Guji. Competitive FOB pricing. FCL & LCL shipments.',
   keywords: 'buy ethiopian coffee wholesale, ethiopian coffee wholesale, wholesale ethiopian coffee, buy ethiopian coffee in bulk, ethiopian coffee for roasters, wholesale green coffee beans ethiopia, bulk ethiopian coffee, ethiopian coffee wholesale price, buy green coffee ethiopia, wholesale coffee supplier ethiopia, import ethiopian coffee wholesale, ethiopian coffee bulk order, ethiopian coffee for businesses',
   alternates: {

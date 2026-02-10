@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Yirgacheffe Coffee Beans | Specialty Grade Export | Ethio Coffee',
+  title: 'Ethiopian Yirgacheffe Coffee | Specialty Export | Ethio Coffee',
   description: 'Buy Ethiopian Yirgacheffe coffee beans direct from exporter. Grade 1 & 2 washed and natural Yirgacheffe green coffee. SCA 84-88+ scored. Floral, citrus, tea-like. FOB Djibouti.',
   keywords: 'yirgacheffe coffee, ethiopian yirgacheffe coffee beans, yirgacheffe green coffee, buy yirgacheffe coffee, yirgacheffe coffee exporter, yirgacheffe grade 1, yirgacheffe washed coffee, yirgacheffe natural coffee, kochere coffee, gedeo coffee, specialty yirgacheffe coffee export, yirgacheffe coffee flavor profile',
   alternates: {
