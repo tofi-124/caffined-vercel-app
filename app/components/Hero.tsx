@@ -3,7 +3,7 @@ import ResponsiveImage from './ResponsiveImage'
 
 const Hero = () => {
   return (
-    <section id='hero' className='relative overflow-hidden pt-20 lg:pt-24 bg-primary' aria-label="Hero section">
+    <section id='hero' className='relative overflow-hidden pt-28 lg:pt-32 bg-primary' aria-label="Hero section">
       {/* Content */}
       <div className='container relative z-20 mx-auto px-4 py-8 lg:py-12'>
         <div className="flex flex-col items-center justify-center gap-10 lg:flex-row lg:gap-12">
