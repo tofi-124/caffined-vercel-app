@@ -1,4 +1,4 @@
-﻿import Link from 'next/link'
+import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
 import Testimonials from '../components/Testimonials'
 import AutoScrollTo from '../components/AutoScrollTo'
@@ -258,33 +258,6 @@ const About = () => {
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17 8l4 4m0 0l-4 4m4-4H3' />
             </svg>
           </Link>
-        </div>
-      </section>
-
-      {/* Related Reading */}
-      <section className='bg-stone-50 py-16'>
-        <div className='container mx-auto px-4'>
-          <h2 className='text-3xl font-extrabold text-dark mb-8 text-center'>Learn More About Ethiopian Coffee</h2>
-          <div className='max-w-2xl mx-auto'>
-            <ul className='space-y-3'>
-              <li className='flex items-start gap-2'>
-                <span className='text-accent font-bold'>→</span>
-                <Link href='/insights/ethiopia-birthplace-of-coffee' className='underline underline-offset-4 hover:text-dark/70'>Ethiopia: The Birthplace of Coffee</Link>
-              </li>
-              <li className='flex items-start gap-2'>
-                <span className='text-accent font-bold'>→</span>
-                <Link href='/insights/benefits-investing-ethiopian-coffee-production' className='underline underline-offset-4 hover:text-dark/70'>Benefits of Investing in Ethiopian Coffee Production</Link>
-              </li>
-              <li className='flex items-start gap-2'>
-                <span className='text-accent font-bold'>→</span>
-                <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline underline-offset-4 hover:text-dark/70'>Ethiopian Heirloom Coffee Varieties and Landraces</Link>
-              </li>
-              <li className='flex items-start gap-2'>
-                <span className='text-accent font-bold'>→</span>
-                <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline underline-offset-4 hover:text-dark/70'>Ethiopian Coffee Pricing for Importers: FOB Costs and Differentials</Link>
-              </li>
-            </ul>
-          </div>
         </div>
       </section>
 
