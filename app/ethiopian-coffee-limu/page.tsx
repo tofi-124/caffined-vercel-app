@@ -13,7 +13,7 @@ export default function LimuCoffeePage() {
             Limu Coffee Beans
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed'>
-            Ethiopia&apos;s versatile specialty workhorse — wine-toned acidity, warm spice,
+            Ethiopia&apos;s versatile specialty workhorse - wine-toned acidity, warm spice,
             and a balanced body that shines as single origin or in premium blends.
             Outstanding quality at an accessible price point.
           </p>
@@ -59,7 +59,7 @@ export default function LimuCoffeePage() {
               Limu is a well-established Ethiopian coffee origin located in the <strong>southwestern highlands
               of the Oromia region</strong>, within the broader Jimma zone. Growing at altitudes between
               <strong> 1,400 and 2,000 meters</strong>, Limu coffees benefit from rich, fertile soil,
-              ample rainfall, and the shade of indigenous forest canopy — conditions that produce
+              ample rainfall, and the shade of indigenous forest canopy - conditions that produce
               clean, balanced, and reliably high-quality beans season after season.
             </p>
             <p>
@@ -183,7 +183,7 @@ export default function LimuCoffeePage() {
               <PiTreeFill className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Forest-Grown Heritage</h3>
-                <p className='mt-1'>Much of Limu&apos;s coffee grows under indigenous forest canopy near the Gera and Belete-Gera rainforests — among Ethiopia&apos;s most important biodiversity hotspots. Natural shade, no irrigation, minimal inputs.</p>
+                <p className='mt-1'>Much of Limu&apos;s coffee grows under indigenous forest canopy near the Gera and Belete-Gera rainforests - among Ethiopia&apos;s most important biodiversity hotspots. Natural shade, no irrigation, minimal inputs.</p>
               </div>
             </div>
             <div className='flex gap-4'>
@@ -203,7 +203,7 @@ export default function LimuCoffeePage() {
           <h2 className='text-3xl font-extrabold mb-10 text-center'>Frequently Asked Questions About Limu Coffee</h2>
           <div className='space-y-6'>
             {[
-              { q: 'What does Limu coffee taste like?', a: 'Limu is known for wine-like acidity, warm spice notes (cardamom, cinnamon), dark honey sweetness, and a medium-full body. The cup is clean, balanced, and versatile — working beautifully as filter single origin, espresso blend, or cold brew.' },
+              { q: 'What does Limu coffee taste like?', a: 'Limu is known for wine-like acidity, warm spice notes (cardamom, cinnamon), dark honey sweetness, and a medium-full body. The cup is clean, balanced, and versatile - working beautifully as filter single origin, espresso blend, or cold brew.' },
               { q: 'Is Limu coffee specialty grade?', a: 'Yes, Limu Grade 2 consistently scores 83-85+ on the SCA scale, firmly in specialty territory. While it doesn\'t reach the ultra-high scores of top Guji or Yirgacheffe lots, Limu\'s clean, complex cup profile makes it a genuine specialty origin at a more accessible price.' },
               { q: 'What is the difference between Limu and Jimma?', a: 'Limu and Jimma are both southwestern origins, but Limu is washed processed and grown at higher altitudes (1,400-2,000m), producing cleaner, more complex cups. Jimma (Djimmah) is predominantly natural processed at lower altitudes and is used mainly for commercial blends.' },
               { q: 'How much does Limu coffee cost FOB?', a: 'Grade 2 washed: $2.80–$3.80/lb FOB Djibouti. Grade 3: $2.40–$3.00/lb. Limu offers 15-25% savings vs Yirgacheffe at comparable quality, making it ideal for volume programs. Contact us for current pricing.' },

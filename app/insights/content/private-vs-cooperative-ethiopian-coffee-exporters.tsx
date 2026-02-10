@@ -632,7 +632,7 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
               <HiOutlineTrophy className='text-xl' />
               Top Coffee Exporters in the World
             </p>
-            <p className='text-sm text-gray-600'>What makes a premium coffee exporter stand out globally — quality benchmarks, certifications, and best practices</p>
+            <p className='text-sm text-gray-600'>What makes a premium coffee exporter stand out globally - quality benchmarks, certifications, and best practices</p>
           </Link>
         </div>
       </div>

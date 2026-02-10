@@ -15,7 +15,7 @@ export default function GujiCoffeePage() {
             Guji Coffee Beans
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed'>
-            Ethiopia&apos;s rising specialty star — tropical fruit complexity, vibrant acidity, and
+            Ethiopia&apos;s rising specialty star - tropical fruit complexity, vibrant acidity, and
             award-winning cup scores. Guji consistently produces some of the highest-scoring
             coffees in the world.
           </p>
@@ -60,7 +60,7 @@ export default function GujiCoffeePage() {
             <p>
               Guji is one of Ethiopia&apos;s most exciting coffee-producing zones, located in the southern
               part of the Oromia region. Once grouped under the broader &quot;Sidamo&quot; classification,
-              Guji earned its own distinct trade designation in 2010 — a recognition of its
+              Guji earned its own distinct trade designation in 2010 - a recognition of its
               <strong> uniquely complex and high-scoring cup profiles</strong>.
             </p>
             <p>
@@ -111,7 +111,7 @@ export default function GujiCoffeePage() {
             </div>
             <div className='bg-primary/5 rounded-lg p-8 border border-primary/10'>
               <h3 className='text-xl font-bold mb-4 flex items-center gap-2'><GiHoneypot className='text-2xl' /> Honey Guji</h3>
-              <p className='text-primary/70 mb-4'>Best of both worlds — fruit and clarity.</p>
+              <p className='text-primary/70 mb-4'>Best of both worlds - fruit and clarity.</p>
               <ul className='space-y-2 text-primary/80'>
                 <li><strong>Aroma:</strong> Stone fruit, brown sugar, floral</li>
                 <li><strong>Flavor:</strong> Peach, plum, caramel, chocolate</li>
@@ -189,7 +189,7 @@ export default function GujiCoffeePage() {
               <TbMountain className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Access to Elite Micro-Lots</h3>
-                <p className='mt-1'>We source from Hambela, Shakiso, and Uraga — Ethiopia&apos;s most celebrated Guji districts. Our relationships with top-tier washing stations give us access to competition-quality lots.</p>
+                <p className='mt-1'>We source from Hambela, Shakiso, and Uraga - Ethiopia&apos;s most celebrated Guji districts. Our relationships with top-tier washing stations give us access to competition-quality lots.</p>
               </div>
             </div>
             <div className='flex gap-4'>
@@ -203,7 +203,7 @@ export default function GujiCoffeePage() {
               <GiHoneypot className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Three Processing Methods</h3>
-                <p className='mt-1'>Access washed, natural, and honey-processed Guji beans. We can help you find the exact profile for your market — from clean and bright to exotic and fruit-forward.</p>
+                <p className='mt-1'>Access washed, natural, and honey-processed Guji beans. We can help you find the exact profile for your market - from clean and bright to exotic and fruit-forward.</p>
               </div>
             </div>
             <div className='flex gap-4'>

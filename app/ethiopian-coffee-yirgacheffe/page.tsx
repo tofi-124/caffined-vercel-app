@@ -61,13 +61,13 @@ export default function YirgacheffeCoffeePage() {
             <p>
               Yirgacheffe (also spelled Yirgachefe) is a coffee-growing district in the <strong>Gedeo Zone</strong> of southern Ethiopia,
               located within the broader Sidama region. Despite technically being part of Sidama, Yirgacheffe coffees are so
-              distinctive and prized that they are classified and traded as their own category — a recognition of their
+              distinctive and prized that they are classified and traded as their own category - a recognition of their
               exceptional quality and unique flavor profile.
             </p>
             <p>
               Grown at elevations of <strong>1,700 to 2,200 meters</strong> above sea level, Yirgacheffe coffees benefit from
               ideal growing conditions: rich volcanic soil, ample rainfall, moderate temperatures, and shade from indigenous
-              forest canopy. The coffee is almost exclusively <strong>heirloom Ethiopian Arabica varieties</strong> — JARC selections
+              forest canopy. The coffee is almost exclusively <strong>heirloom Ethiopian Arabica varieties</strong> - JARC selections
               and local landraces that have been cultivated for centuries.
             </p>
             <p>
@@ -86,7 +86,7 @@ export default function YirgacheffeCoffeePage() {
           <div className='grid md:grid-cols-2 gap-10'>
             <div className='bg-primary/5 rounded-lg p-8 border border-primary/10'>
               <h3 className='text-xl font-bold mb-4 flex items-center gap-2'><PiCoffee className='text-2xl' /> Washed Yirgacheffe</h3>
-              <p className='text-primary/70 mb-4'>The classic Yirgacheffe profile — clean, bright, and complex.</p>
+              <p className='text-primary/70 mb-4'>The classic Yirgacheffe profile - clean, bright, and complex.</p>
               <ul className='space-y-2 text-primary/80'>
                 <li><strong>Aroma:</strong> Jasmine, bergamot, honeysuckle</li>
                 <li><strong>Flavor:</strong> Lemon, meyer lemon, earl grey tea</li>
@@ -276,7 +276,7 @@ export default function YirgacheffeCoffeePage() {
               },
               {
                 q: 'What is the difference between washed and natural Yirgacheffe?',
-                a: 'Washed Yirgacheffe is the classic profile: clean, bright, with jasmine florals and lemon citrus. Natural Yirgacheffe is fruitier and sweeter with berry jam, wine, and chocolate notes and a heavier body. Both are exceptional — the choice depends on your roasting program and customer preferences.',
+                a: 'Washed Yirgacheffe is the classic profile: clean, bright, with jasmine florals and lemon citrus. Natural Yirgacheffe is fruitier and sweeter with berry jam, wine, and chocolate notes and a heavier body. Both are exceptional - the choice depends on your roasting program and customer preferences.',
               },
               {
                 q: 'How much does Yirgacheffe coffee cost FOB?',

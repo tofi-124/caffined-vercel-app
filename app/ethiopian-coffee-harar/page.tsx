@@ -16,7 +16,7 @@ export default function HararCoffeePage() {
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed'>
             One of the world&apos;s oldest and most legendary coffee origins. Wild berry essence,
-            wine-like complexity, and the original &quot;mocha&quot; character — exclusively natural
+            wine-like complexity, and the original &quot;mocha&quot; character - exclusively natural
             dry-processed from the ancient highlands of eastern Ethiopia.
           </p>
           <div className='mt-8 flex flex-wrap justify-center gap-4'>
@@ -59,15 +59,15 @@ export default function HararCoffeePage() {
           <div className='prose prose-lg max-w-none text-dark/80 space-y-4'>
             <p>
               Harar (also spelled <strong>Harrar</strong>) is one of the most storied coffees in human history.
-              Grown in the highlands surrounding the ancient walled city of Harar in eastern Ethiopia — a
-              UNESCO World Heritage Site and an important center of Islamic culture — Harar coffee has been
+              Grown in the highlands surrounding the ancient walled city of Harar in eastern Ethiopia - a
+              UNESCO World Heritage Site and an important center of Islamic culture - Harar coffee has been
               traded for over <strong>500 years</strong>, making it one of the world&apos;s first exported coffees.
             </p>
             <p>
               Unlike most other Ethiopian coffees, Harar is <strong>exclusively natural (dry) processed</strong>.
               Coffee cherries are dried whole on raised beds under the sun, allowing the fruit to ferment around
               the bean. This traditional method produces Harar&apos;s distinctive <strong>wild berry,
-              wine-like, and dark chocolate flavors</strong> — the original &quot;mocha&quot; character that
+              wine-like, and dark chocolate flavors</strong> - the original &quot;mocha&quot; character that
               inspired the world&apos;s love affair with chocolate-coffee pairing.
             </p>
             <p>
@@ -88,7 +88,7 @@ export default function HararCoffeePage() {
           <div className='grid md:grid-cols-2 gap-10'>
             <div className='bg-primary/5 rounded-lg p-8 border border-primary/10'>
               <h3 className='text-xl font-bold mb-4 flex items-center gap-2'><GiCoffeeBeans className='text-2xl' /> Longberry Harar</h3>
-              <p className='text-primary/70 mb-4'>The premium grade — intense and exotic.</p>
+              <p className='text-primary/70 mb-4'>The premium grade - intense and exotic.</p>
               <ul className='space-y-2 text-primary/80'>
                 <li><strong>Aroma:</strong> Blueberry, wine, dried fruit, spice</li>
                 <li><strong>Flavor:</strong> Wild blueberry, dark chocolate, wine, cardamom</li>
@@ -126,7 +126,7 @@ export default function HararCoffeePage() {
             {[
               { name: 'West Hararge', alt: '1,600–2,100m', notes: 'The primary Harar coffee zone with the most concentrated production. Known for intense blueberry and wine notes. Premium longberry lots predominantly sourced here.' },
               { name: 'East Hararge', alt: '1,500–1,900m', notes: 'Slightly lower altitude producing fuller-bodied, earthier coffees with dark chocolate and dried fruit characteristics. Major commercial-grade production area.' },
-              { name: 'Harar City Surrounds', alt: '1,800–2,000m', notes: 'Smallholder gardens within and around the historic walled city. The original Harar coffee terroir — prized for heritage character and unique microclimate.' },
+              { name: 'Harar City Surrounds', alt: '1,800–2,000m', notes: 'Smallholder gardens within and around the historic walled city. The original Harar coffee terroir - prized for heritage character and unique microclimate.' },
               { name: 'Jarso', alt: '1,700–2,100m', notes: 'Higher-altitude sub-district producing more complex, fruity lots with brighter acidity. Growing recognition among specialty buyers.' },
             ].map((region) => (
               <div key={region.name} className='bg-white rounded-lg p-6 border border-dark/10 shadow-sm'>
@@ -176,7 +176,7 @@ export default function HararCoffeePage() {
               <HiOutlineBuildingLibrary className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Heritage Origin Expertise</h3>
-                <p className='mt-1'>Harar requires specialized sourcing knowledge. We work with experienced traders near the walled city of Harar who sort and grade longberry by hand — ensuring you receive the genuine article, not commercial filler.</p>
+                <p className='mt-1'>Harar requires specialized sourcing knowledge. We work with experienced traders near the walled city of Harar who sort and grade longberry by hand - ensuring you receive the genuine article, not commercial filler.</p>
               </div>
             </div>
             <div className='flex gap-4'>
@@ -190,7 +190,7 @@ export default function HararCoffeePage() {
               <PiCoffee className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>The Original Mocha</h3>
-                <p className='mt-1'>For roasters seeking authentic mocha character — dark chocolate, wild berries, wine — Harar is irreplaceable. Perfect for single origin, espresso blends, and chocolate-coffee pairings.</p>
+                <p className='mt-1'>For roasters seeking authentic mocha character - dark chocolate, wild berries, wine - Harar is irreplaceable. Perfect for single origin, espresso blends, and chocolate-coffee pairings.</p>
               </div>
             </div>
             <div className='flex gap-4'>
@@ -210,7 +210,7 @@ export default function HararCoffeePage() {
           <h2 className='text-3xl font-extrabold mb-10 text-center'>Frequently Asked Questions About Harar Coffee</h2>
           <div className='space-y-6'>
             {[
-              { q: 'What does Harar coffee taste like?', a: 'Harar is known for wild blueberry, dark chocolate, wine-like complexity, dried fruit, and warm spice (cardamom, cinnamon). It has a full, heavy body and low-medium acidity. The "mocha" character — natural chocolate-berry sweetness — is Harar\'s most distinctive quality.' },
+              { q: 'What does Harar coffee taste like?', a: 'Harar is known for wild blueberry, dark chocolate, wine-like complexity, dried fruit, and warm spice (cardamom, cinnamon). It has a full, heavy body and low-medium acidity. The "mocha" character - natural chocolate-berry sweetness - is Harar\'s most distinctive quality.' },
               { q: 'Why is Harar always natural processed?', a: 'Harar\'s eastern Ethiopian location has a drier climate compared to the western and southern growing regions. Smallholder farmers have dry-processed their coffee for centuries, and this traditional method is integral to Harar\'s distinctive flavor profile. Washed Harar simply doesn\'t exist.' },
               { q: 'What is the difference between longberry and shortberry?', a: 'Longberry refers to larger, elongated Harar beans (screen 16+). They\'re more labor-intensive to sort and produce more complex, intense flavors. Shortberry (screen 13-15) is more available and affordable. Longberry commands higher premiums and is the preferred grade for specialty roasters.' },
               { q: 'How much does Harar coffee cost FOB?', a: 'Grade 4 Longberry: $3.00–$4.50/lb FOB Djibouti. Grade 5 Shortberry: $2.50–$3.50/lb. Premium hand-sorted longberry can approach $5.00/lb. Contact us for current season pricing.' },

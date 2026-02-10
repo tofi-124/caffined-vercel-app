@@ -96,7 +96,7 @@ export default function CoffeeGradingPage() {
           </h1>
           <p className='text-xl text-primary/90 mb-6 max-w-3xl mx-auto'>
             Ethiopia uses a <strong>Grade 1 to Grade 5</strong> classification system to rate green coffee quality. 
-            Understanding this system is essential for importers and roasters sourcing Ethiopian coffee — 
+            Understanding this system is essential for importers and roasters sourcing Ethiopian coffee - 
             it directly determines cup quality, pricing, and the right fit for your business.
           </p>
           <p className='text-primary/60 max-w-2xl mx-auto'>
@@ -172,7 +172,7 @@ export default function CoffeeGradingPage() {
       <section className='container mx-auto px-4 py-16 lg:py-24'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>Common Coffee Defects & Their Impact</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
-          Defects are classified as Category 1 (primary — severe) or Category 2 (secondary — minor). 
+          Defects are classified as Category 1 (primary - severe) or Category 2 (secondary - minor). 
           Each defect type has an equivalence value used to calculate the total defect count.
         </p>
         <div className='overflow-x-auto'>
@@ -282,7 +282,7 @@ export default function CoffeeGradingPage() {
             {[
               { q: 'How is Ethiopian coffee graded?', a: 'Ethiopian coffee is graded from Grade 1 (highest quality) to Grade 5 (lowest export grade) based on two factors: physical defect count per 300g green sample and cup quality score using SCA cupping protocol. The grading is overseen by the Ethiopian Commodity Exchange (ECX) and Ethiopian Coffee and Tea Authority (ECTA). Specialty-grade coffee (Grade 1-2) requires SCA 80+ cup scores and minimal defects.' },
               { q: 'What is the difference between Grade 1 and Grade 2 Ethiopian coffee?', a: 'Grade 1 allows 0-3 defects per 300g sample with SCA 85+ cup scores, while Grade 2 allows 4-12 defects with SCA 80-84 scores. Both are considered specialty quality. Grade 1 exhibits exceptional cup clarity and complexity, commanding 10-20% higher prices. Grade 2 is the most commonly exported specialty grade and still delivers excellent single-origin character.' },
-              { q: 'What grades are considered specialty?', a: 'Grade 1 and Grade 2 Ethiopian coffees are considered specialty grade, meeting the SCA definition of 80+ cup scores. Grade 3 (75-79 points) is classified as "premium commercial" — good quality but below the specialty threshold. Only Grade 1-2 coffees should be marketed as "specialty" coffee.' },
+              { q: 'What grades are considered specialty?', a: 'Grade 1 and Grade 2 Ethiopian coffees are considered specialty grade, meeting the SCA definition of 80+ cup scores. Grade 3 (75-79 points) is classified as "premium commercial" - good quality but below the specialty threshold. Only Grade 1-2 coffees should be marketed as "specialty" coffee.' },
               { q: 'Does the grade affect the price?', a: 'Yes, significantly. Grade 1 commands $10-$13+/kg FOB, Grade 2 ranges $9-$11/kg, Grade 3 is $7-$9/kg, and commercial grades (4-5) trade at $3-$7/kg. Within each grade, price varies further by origin (Guji and Yirgacheffe carry premiums), processing method, and seasonal supply-demand dynamics.' },
               { q: 'Who does the grading?', a: 'Coffee grading in Ethiopia is administered by the Ethiopian Commodity Exchange (ECX) warehouse system and the Ethiopian Coffee and Tea Authority (ECTA). Licensed exporters may also perform in-house grading that aligns with ECX standards. For specialty lots, independent Q-graders often provide additional cupping verification.' },
             ].map((item, i) => (

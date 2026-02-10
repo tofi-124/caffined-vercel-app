@@ -39,7 +39,7 @@ export default function CoffeeGradingLayout({
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Ethiopian Coffee Grading System Explained: Grade 1 to Grade 5",
-    "description": "Complete guide to the Ethiopian coffee grading system — how green coffee is classified from Grade 1 (specialty) to Grade 5 (commercial), including defect count standards, SCA cupping scores, and pricing implications.",
+    "description": "Complete guide to the Ethiopian coffee grading system - how green coffee is classified from Grade 1 (specialty) to Grade 5 (commercial), including defect count standards, SCA cupping scores, and pricing implications.",
     "url": "https://www.ethiocoffee.co/coffee-grading-ethiopia",
     "author": {
       "@type": "Organization",
@@ -79,7 +79,7 @@ export default function CoffeeGradingLayout({
         "name": "What is Grade 1 Ethiopian coffee?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Grade 1 Ethiopian coffee is the highest quality designation, requiring 0-3 defects per 300g sample and a minimum SCA cup score of 85+. It represents the best lots from any given origin — clean, well-sorted, free of foreign matter, with outstanding cup character. Grade 1 commands the highest export prices and is sought by specialty roasters worldwide."
+          "text": "Grade 1 Ethiopian coffee is the highest quality designation, requiring 0-3 defects per 300g sample and a minimum SCA cup score of 85+. It represents the best lots from any given origin - clean, well-sorted, free of foreign matter, with outstanding cup character. Grade 1 commands the highest export prices and is sought by specialty roasters worldwide."
         }
       },
       {

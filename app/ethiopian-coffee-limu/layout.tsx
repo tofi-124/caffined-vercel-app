@@ -39,7 +39,7 @@ const faqSchema = {
       name: 'What makes Limu coffee special?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Limu coffee is grown in southwestern Ethiopia at 1,400-2,000 meters altitude. It is prized for its wine-toned acidity, spicy character, and well-balanced body. Limu is predominantly washed processed and offers one of the best value propositions in Ethiopian specialty coffee — delivering clean, complex cups at accessible price points.'
+        text: 'Limu coffee is grown in southwestern Ethiopia at 1,400-2,000 meters altitude. It is prized for its wine-toned acidity, spicy character, and well-balanced body. Limu is predominantly washed processed and offers one of the best value propositions in Ethiopian specialty coffee - delivering clean, complex cups at accessible price points.'
       }
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       name: 'What is the minimum order for Limu coffee export?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Standard minimum is one full container load (FCL) — approximately 19.2 metric tons (320 bags × 60kg). You can combine Limu with other Ethiopian origins within the same container. Contact us for current availability.'
+        text: 'Standard minimum is one full container load (FCL) - approximately 19.2 metric tons (320 bags × 60kg). You can combine Limu with other Ethiopian origins within the same container. Contact us for current availability.'
       }
     },
   ]

@@ -89,7 +89,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
                 Ethiopian Green Coffee Beans
               </h1>
               <p className='text-xl text-primary/90 mb-6'>
-                <strong>Ethiopian green coffee beans</strong> are the world&apos;s most sought-after unroasted Arabica — prized by specialty roasters for their 
+                <strong>Ethiopian green coffee beans</strong> are the world&apos;s most sought-after unroasted Arabica - prized by specialty roasters for their 
                 extraordinary floral, fruity, and wine-like complexity. As a <strong>licensed Ethiopian coffee exporter</strong>, we ship 
                 SCA 80+ scored green beans directly from origin to your door.
               </p>
@@ -131,10 +131,10 @@ export default function EthiopianGreenCoffeeBeansPage() {
         </p>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {[
-            { title: 'Birthplace of Arabica', desc: 'Ethiopia is where Coffea Arabica originated. Wild coffee still grows in the highland forests of Kaffa, Jimma, and Illubabor — the genetic cradle of all the world\'s Arabica coffee.' },
+            { title: 'Birthplace of Arabica', desc: 'Ethiopia is where Coffea Arabica originated. Wild coffee still grows in the highland forests of Kaffa, Jimma, and Illubabor - the genetic cradle of all the world\'s Arabica coffee.' },
             { title: '10,000+ Heirloom Varieties', desc: 'Ethiopian coffee forests contain more genetic diversity than all other producing countries combined. This diversity creates the complex, multi-layered flavour profiles that specialty roasters prize.' },
             { title: 'Altitude: 1,400–2,300m', desc: 'Ethiopian coffee grows at some of the highest elevations in the world. High altitude means slower cherry maturation, denser beans, more complex sugars, and brighter acidity in the cup.' },
-            { title: 'Washed, Natural & Honey', desc: 'Ethiopian exporters offer all three major processing methods. Washed for clarity and florals, natural for fruit intensity and body, honey for balanced sweetness — each creating distinct cup profiles.' },
+            { title: 'Washed, Natural & Honey', desc: 'Ethiopian exporters offer all three major processing methods. Washed for clarity and florals, natural for fruit intensity and body, honey for balanced sweetness - each creating distinct cup profiles.' },
             { title: 'SCA 80–89+ Scores', desc: 'Ethiopian green coffees routinely score among the highest globally. Yirgacheffe, Guji, and Sidamo regularly appear in Cup of Excellence and Taste of Harvest competitions.' },
             { title: 'Traceable & Transparent', desc: 'Modern Ethiopian exporters provide full traceability: washing station, farm/coop ID, lot number, harvest period, altitude, processing, and SCA cupping reports with every shipment.' },
           ].map((item, i) => (
@@ -151,7 +151,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
         <div className='container mx-auto px-4'>
           <h2 className='text-4xl font-extrabold mb-4 text-center'>Ethiopian Green Coffee by Origin</h2>
           <p className='text-primary/70 text-center max-w-3xl mx-auto mb-12'>
-            Every Ethiopian coffee origin produces a distinctly different cup. Here&apos;s how they compare — 
+            Every Ethiopian coffee origin produces a distinctly different cup. Here&apos;s how they compare - 
             helping you choose the right green beans for your roastery and customers.
           </p>
           <div className='grid gap-8'>
@@ -207,7 +207,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
           <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>Frequently Asked Questions About Ethiopian Green Coffee Beans</h2>
           <div className='max-w-3xl mx-auto space-y-8'>
             {[
-              { q: 'What are Ethiopian green coffee beans?', a: 'Ethiopian green coffee beans are raw, unroasted Arabica coffee beans exported from Ethiopia — the birthplace and genetic origin of all the world\'s Arabica coffee. They are shipped in their natural green state to roasters, importers, and traders worldwide, who roast them into finished coffee products. Ethiopian greens are uniquely prized for their complex floral, fruity, and wine-like flavour profiles that cannot be replicated from any other origin.' },
+              { q: 'What are Ethiopian green coffee beans?', a: 'Ethiopian green coffee beans are raw, unroasted Arabica coffee beans exported from Ethiopia - the birthplace and genetic origin of all the world\'s Arabica coffee. They are shipped in their natural green state to roasters, importers, and traders worldwide, who roast them into finished coffee products. Ethiopian greens are uniquely prized for their complex floral, fruity, and wine-like flavour profiles that cannot be replicated from any other origin.' },
               { q: 'What grades are Ethiopian green coffee beans available in?', a: 'Ethiopian green coffee is graded from Grade 1 (highest specialty quality, 0-3 defects per 300g sample) through Grade 5. Most specialty-grade coffee falls in Grade 1-2 with SCA cup scores of 80+. Commercial exports are typically Grade 3-5. The grading system evaluates bean size, defect count, and cup quality under SCA cupping protocol.' },
               { q: 'How much do Ethiopian green coffee beans cost?', a: 'Specialty-grade Ethiopian green coffee beans typically range from $9 to $13 per kilogram ($4 to $6 per pound) FOB Djibouti for Grade 1-2 lots scoring SCA 80+. Commercial grades (Grade 3-5) are lower. Prices vary by origin, grade, processing method, season, and global C-market conditions. Contact us directly for current crop pricing and availability.' },
               { q: 'What is the minimum order quantity?', a: 'Standard minimum orders are one full container load (FCL) of approximately 275 bags at 60kg each (roughly 16.5 metric tons). However, we accommodate smaller trial orders for new buyer relationships and offer sample shipments so you can evaluate cup quality before committing to larger volumes.' },

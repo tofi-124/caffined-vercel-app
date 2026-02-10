@@ -72,7 +72,7 @@ export default function BuyWholesaleLayout({
         "name": "What is the minimum order for wholesale Ethiopian coffee?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Standard wholesale minimums are one full container load (FCL) — approximately 275 bags of 60kg each (16.5 metric tons). Some exporters offer half-container (LCL) options or trial shipments for first-time buyers. Ethio Coffee accommodates smaller trial orders to build new buyer relationships."
+          "text": "Standard wholesale minimums are one full container load (FCL) - approximately 275 bags of 60kg each (16.5 metric tons). Some exporters offer half-container (LCL) options or trial shipments for first-time buyers. Ethio Coffee accommodates smaller trial orders to build new buyer relationships."
         }
       },
       {

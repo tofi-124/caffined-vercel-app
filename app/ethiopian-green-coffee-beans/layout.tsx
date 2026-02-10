@@ -39,7 +39,7 @@ export default function EthiopianGreenCoffeeBeansLayout({
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Ethiopian Green Coffee Beans",
-    "description": "Complete guide to Ethiopian green coffee beans — varieties, grades, flavour profiles, processing methods, and how to buy direct from an Ethiopian exporter.",
+    "description": "Complete guide to Ethiopian green coffee beans - varieties, grades, flavour profiles, processing methods, and how to buy direct from an Ethiopian exporter.",
     "url": "https://www.ethiocoffee.co/ethiopian-green-coffee-beans",
     "publisher": {
       "@type": "Organization",
@@ -64,7 +64,7 @@ export default function EthiopianGreenCoffeeBeansLayout({
         "name": "What are Ethiopian green coffee beans?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ethiopian green coffee beans are raw, unroasted coffee beans exported from Ethiopia — the birthplace of Arabica coffee. They are sold in their natural green state to roasters and importers worldwide, who then roast them to create finished coffee products. Ethiopian greens are prized for their complex floral, fruity, and wine-like flavour profiles."
+          "text": "Ethiopian green coffee beans are raw, unroasted coffee beans exported from Ethiopia - the birthplace of Arabica coffee. They are sold in their natural green state to roasters and importers worldwide, who then roast them to create finished coffee products. Ethiopian greens are prized for their complex floral, fruity, and wine-like flavour profiles."
         }
       },
       {

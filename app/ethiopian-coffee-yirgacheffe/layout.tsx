@@ -71,7 +71,7 @@ const faqSchema = {
       name: 'What is the minimum order for Yirgacheffe coffee export?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The standard minimum order for Yirgacheffe coffee export is one full container load (FCL) — approximately 19.2 metric tons (320 bags × 60kg). You can combine Yirgacheffe with other Ethiopian origins within the same container. Contact us for current availability and LCL options.'
+        text: 'The standard minimum order for Yirgacheffe coffee export is one full container load (FCL) - approximately 19.2 metric tons (320 bags × 60kg). You can combine Yirgacheffe with other Ethiopian origins within the same container. Contact us for current availability and LCL options.'
       }
     },
   ]

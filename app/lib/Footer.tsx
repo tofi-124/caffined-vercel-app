@@ -39,7 +39,7 @@ const InstaImages = () => {
 const Footer = () => {
   return (
     <>
-      {/* Upper footer — navy background: instagram, contact, office, hours */}
+      {/* Upper footer - navy background: instagram, contact, office, hours */}
       <footer className='bg-dark text-primary'>
       <div id="instaimages">
         <InstaImages />
@@ -120,7 +120,7 @@ const Footer = () => {
       <div className='h-0.5 w-full bg-white/20' />
     </footer>
 
-      {/* Lower footer — creamy background: links, description, copyright */}
+      {/* Lower footer - creamy background: links, description, copyright */}
       <div className='bg-primary text-dark'>
         <div className='py-10 max-w-6xl mx-auto px-6'>
           <div className='grid grid-cols-2 md:grid-cols-4 gap-8 text-sm'>
@@ -167,7 +167,7 @@ const Footer = () => {
 
         <div className='h-px w-full bg-dark/10' />
 
-        {/* Certification Badges — visible on every page */}
+        {/* Certification Badges - visible on every page */}
         <div className='py-6 flex items-center justify-center gap-6 flex-wrap px-4'>
           <p className='text-dark/40 text-[10px] uppercase tracking-[0.2em] font-bold w-full text-center'>Licensed & Affiliated</p>
           <Image src='/images/ecta-cert.webp' alt='ECTA certified Ethiopian coffee exporter' width={40} height={40} className='opacity-50 hover:opacity-80 transition-opacity' />

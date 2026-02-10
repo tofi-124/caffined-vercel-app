@@ -71,7 +71,7 @@ const faqSchema = {
       name: 'What is the minimum order for Guji coffee export?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Standard minimum is one full container load (FCL) — approximately 19.2 metric tons (320 bags × 60kg). You can combine Guji with other Ethiopian origins in the same container. Contact us for current availability.'
+        text: 'Standard minimum is one full container load (FCL) - approximately 19.2 metric tons (320 bags × 60kg). You can combine Guji with other Ethiopian origins in the same container. Contact us for current availability.'
       }
     },
   ]

@@ -14,7 +14,7 @@ export default function JimmaCoffeePage() {
             Jimma (Djimmah) Coffee Beans
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed'>
-            Ethiopia&apos;s commercial coffee powerhouse — consistent, full-bodied, and blend-friendly.
+            Ethiopia&apos;s commercial coffee powerhouse - consistent, full-bodied, and blend-friendly.
             Large-volume availability with the reliability that major buyers demand.
           </p>
           <div className='mt-8 flex flex-wrap justify-center gap-4'>
@@ -60,7 +60,7 @@ export default function JimmaCoffeePage() {
               Ethiopia&apos;s largest coffee-producing zone and the country&apos;s primary source of
               commercial-grade coffee. Located in the <strong>southwestern Oromia region</strong> at
               altitudes of 1,400 to 1,800 meters, Jimma has been at the center of Ethiopian coffee
-              production for centuries — the city of Jimma was historically one of the most important
+              production for centuries - the city of Jimma was historically one of the most important
               coffee trading centers in the Horn of Africa.
             </p>
             <p>
@@ -184,7 +184,7 @@ export default function JimmaCoffeePage() {
               <HiOutlineCube className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>High-Volume Supply</h3>
-                <p className='mt-1'>Jimma is Ethiopia&apos;s largest producing region. We can fulfill multi-container programs — 5, 10, or 20+ FCLs per season — with consistent quality and reliable delivery schedules.</p>
+                <p className='mt-1'>Jimma is Ethiopia&apos;s largest producing region. We can fulfill multi-container programs - 5, 10, or 20+ FCLs per season - with consistent quality and reliable delivery schedules.</p>
               </div>
             </div>
             <div className='flex gap-4'>
@@ -205,7 +205,7 @@ export default function JimmaCoffeePage() {
               <HiOutlineArrowPath className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Blend Base Expertise</h3>
-                <p className='mt-1'>Our team can help you select the ideal Jimma lot for your blend profile — whether dark espresso, medium roast, or instant coffee. We understand what works for each market segment.</p>
+                <p className='mt-1'>Our team can help you select the ideal Jimma lot for your blend profile - whether dark espresso, medium roast, or instant coffee. We understand what works for each market segment.</p>
               </div>
             </div>
           </div>
@@ -243,7 +243,7 @@ export default function JimmaCoffeePage() {
           <div className='space-y-6'>
             {[
               { q: 'What does Jimma coffee taste like?', a: 'Jimma has earthy, full-bodied character with dark chocolate, tobacco, grain, and mild spice notes. Low acidity and a heavy body. Natural Jimma is earthier; washed is cleaner with more definition. It\'s not as complex as Yirgacheffe or Guji but delivers consistent, reliable flavor.' },
-              { q: 'Is Jimma coffee specialty grade?', a: 'Most Jimma is commercial grade (Grade 4 and 5, SCA 78-82). However, well-sorted Grade 4 lots from areas like Agaro can reach 80-82 SCA — approaching specialty territory. For buyers needing Ethiopian specialty, we recommend Yirgacheffe, Guji, or Sidamo instead.' },
+              { q: 'Is Jimma coffee specialty grade?', a: 'Most Jimma is commercial grade (Grade 4 and 5, SCA 78-82). However, well-sorted Grade 4 lots from areas like Agaro can reach 80-82 SCA - approaching specialty territory. For buyers needing Ethiopian specialty, we recommend Yirgacheffe, Guji, or Sidamo instead.' },
               { q: 'What is the difference between Jimma and Limu?', a: 'Both are southwestern origins, but Limu is washed at higher altitudes (1,400-2,000m) with a cleaner, wine-toned profile scoring 82-85 SCA. Jimma is lower altitude (1,400-1,800m), predominantly natural, and more earthy/commercial. Limu is specialty; Jimma is commercial.' },
               { q: 'How much does Jimma coffee cost FOB?', a: 'Grade 5 natural: $2.00–$2.80/lb FOB Djibouti. Grade 4: $2.50–$3.20/lb. Jimma is Ethiopia\'s most price-competitive origin. Volume discounts available for multi-container programs. Contact us for current pricing.' },
               { q: 'What is the minimum order?', a: 'Standard minimum is one FCL (≈19.2 MT, 320 × 60kg bags). For Jimma, we welcome and encourage multi-container orders with volume pricing. Year-round supply contracts available.' },

@@ -72,7 +72,7 @@ export default function SidamoCoffeePage() {
               While Yirgacheffe is technically part of the Sidama zone, it is classified as a separate
               trade category due to its distinctive profile. Broader Sidamo coffees tend to be <strong>heavier-bodied
               and more fruit-forward</strong> than their Yirgacheffe counterparts, often with pronounced blueberry,
-              strawberry, and stone fruit notes — especially in natural-processed lots.
+              strawberry, and stone fruit notes - especially in natural-processed lots.
             </p>
           </div>
         </div>
@@ -196,7 +196,7 @@ export default function SidamoCoffeePage() {
               <HiOutlineCube className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Pre-Shipment Samples</h3>
-                <p className='mt-1'>Request green and roasted samples of any available Sidamo lot before committing. Evaluate in your own lab — no obligation until you approve.</p>
+                <p className='mt-1'>Request green and roasted samples of any available Sidamo lot before committing. Evaluate in your own lab - no obligation until you approve.</p>
               </div>
             </div>
           </div>

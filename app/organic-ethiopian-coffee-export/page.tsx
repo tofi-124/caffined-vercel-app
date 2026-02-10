@@ -11,7 +11,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
             Organic Ethiopian Coffee Export
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed'>
-            Source certified organic Ethiopian green coffee beans — USDA, EU, and JAS organic —
+            Source certified organic Ethiopian green coffee beans - USDA, EU, and JAS organic -
             from Ethiopia&apos;s finest specialty regions. Bulk export with full traceability
             and organic chain-of-custody documentation.
           </p>
@@ -52,7 +52,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
             <p>
               Ethiopia is uniquely positioned for organic coffee production. The vast majority of Ethiopian
               coffee is grown by <strong>smallholder farmers</strong> using traditional methods passed down through
-              generations — shade-grown under indigenous forest canopy, without synthetic fertilizers or
+              generations - shade-grown under indigenous forest canopy, without synthetic fertilizers or
               chemical pesticides. For many Ethiopian producers, coffee cultivation has been &quot;organic&quot;
               for centuries before the term existed.
             </p>
@@ -278,7 +278,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
             {[
               {
                 q: 'Is Ethiopian coffee organic?',
-                a: 'Much of Ethiopian coffee is grown organically by default — smallholder farmers use traditional methods without synthetic inputs. However, "certified organic" requires formal third-party certification (USDA, EU, JAS), which involves annual audits and documentation. We source from cooperatives holding these certifications.',
+                a: 'Much of Ethiopian coffee is grown organically by default - smallholder farmers use traditional methods without synthetic inputs. However, "certified organic" requires formal third-party certification (USDA, EU, JAS), which involves annual audits and documentation. We source from cooperatives holding these certifications.',
               },
               {
                 q: 'What organic certifications are available?',
@@ -314,12 +314,12 @@ export default function OrganicEthiopianCoffeeExportPage() {
             <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='block bg-white rounded-lg p-6 border border-dark/10 hover:shadow-md transition-shadow text-left'>
               <p className='text-xs text-dark/40 uppercase tracking-widest'>Insight</p>
               <h3 className='font-bold text-dark mt-2'>Complete Guide to Ethiopian Coffee Certifications</h3>
-              <p className='text-dark/60 text-sm mt-2'>Organic, Fair Trade, Rainforest Alliance — what each certification means, costs, and how to source certified lots.</p>
+              <p className='text-dark/60 text-sm mt-2'>Organic, Fair Trade, Rainforest Alliance - what each certification means, costs, and how to source certified lots.</p>
             </Link>
             <Link href='/ethiopian-coffee-yirgacheffe' className='block bg-white rounded-lg p-6 border border-dark/10 hover:shadow-md transition-shadow text-left'>
               <p className='text-xs text-dark/40 uppercase tracking-widest'>Origin</p>
               <h3 className='font-bold text-dark mt-2'>Yirgacheffe Coffee Beans</h3>
-              <p className='text-dark/60 text-sm mt-2'>Ethiopia&apos;s most celebrated coffee origin. Jasmine, bergamot, lemon — SCA 84–88+.</p>
+              <p className='text-dark/60 text-sm mt-2'>Ethiopia&apos;s most celebrated coffee origin. Jasmine, bergamot, lemon - SCA 84–88+.</p>
             </Link>
           </div>
         </div>

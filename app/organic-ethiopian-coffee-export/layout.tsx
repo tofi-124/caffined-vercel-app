@@ -63,7 +63,7 @@ const faqSchema = {
       name: 'What is the minimum order for organic Ethiopian coffee export?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Standard minimum order is one full container load (FCL) — approximately 19.2 metric tons. Organic lots must be kept separate from conventional during storage, transport, and shipping to maintain certification integrity. You can mix different organic origins within the same container.'
+        text: 'Standard minimum order is one full container load (FCL) - approximately 19.2 metric tons. Organic lots must be kept separate from conventional during storage, transport, and shipping to maintain certification integrity. You can mix different organic origins within the same container.'
       }
     },
     {
