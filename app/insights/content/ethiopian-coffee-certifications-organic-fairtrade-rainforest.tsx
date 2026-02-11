@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { ArrowRight } from '@/app/components/Arrow'
 import { 
   HiOutlineGlobeAlt,
   HiOutlineShieldCheck,
@@ -1259,23 +1260,23 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <ul className='space-y-2 text-sm'>
           <li>
-            <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>
-              → EU Deforestation Regulation (EUDR) and Ethiopian Coffee: Complete Compliance Guide
+            <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> EU Deforestation Regulation (EUDR) and Ethiopian Coffee: Complete Compliance Guide
             </Link>
           </li>
           <li>
-            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>
-              → Sourcing Green Coffee from Ethiopia: Complete Guide
+            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee from Ethiopia: Complete Guide
             </Link>
           </li>
           <li>
-            <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>
-              → Green Coffee Quality Control: Defects, Grading & What Importers Should Inspect
+            <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Quality Control: Defects, Grading & What Importers Should Inspect
             </Link>
           </li>
           <li>
-            <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>
-              → Direct Trade Partnerships: Supporting Ethiopian Farmers
+            <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Direct Trade Partnerships: Supporting Ethiopian Farmers
             </Link>
           </li>
         </ul>

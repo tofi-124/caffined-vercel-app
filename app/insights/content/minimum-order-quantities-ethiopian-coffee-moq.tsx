@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { ArrowRight } from '@/app/components/Arrow'
 import { 
   HiOutlineCalendarDays, 
   HiOutlineScale,
@@ -1108,26 +1109,26 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           <div>
             <h5 className='font-semibold mb-2 text-sm'>Import Guides</h5>
             <ul className='space-y-1.5 text-sm'>
-              <li><Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>→ Importing to USA</Link></li>
-              <li><Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>→ Importing to Canada</Link></li>
-              <li><Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>→ Importing to UK</Link></li>
+              <li><Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to USA</Link></li>
+              <li><Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to Canada</Link></li>
+              <li><Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to UK</Link></li>
             </ul>
           </div>
           <div>
             <h5 className='font-semibold mb-2 text-sm'>Trade & Economics</h5>
             <ul className='space-y-1.5 text-sm'>
-              <li><Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>→ Ethiopian Coffee Exporter</Link></li>
-              <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>→ Coffee Prices Explained</Link></li>
-              <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>→ Understanding ECX</Link></li>
-              <li><Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>→ Ethiopia-China Partnership</Link></li>
+              <li><Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Exporter</Link></li>
+              <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Coffee Prices Explained</Link></li>
+              <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Understanding ECX</Link></li>
+              <li><Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopia-China Partnership</Link></li>
             </ul>
           </div>
           <div>
             <h5 className='font-semibold mb-2 text-sm'>Quality & Sourcing</h5>
             <ul className='space-y-1.5 text-sm'>
-              <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>→ Heirloom Varieties</Link></li>
-              <li><Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>→ Certifications Guide</Link></li>
-              <li><Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline'>→ Complete Coffee Guide</Link></li>
+              <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Heirloom Varieties</Link></li>
+              <li><Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Certifications Guide</Link></li>
+              <li><Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Complete Coffee Guide</Link></li>
             </ul>
           </div>
         </div>

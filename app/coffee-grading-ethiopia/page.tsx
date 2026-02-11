@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import AutoScrollTo from '../components/AutoScrollTo'
+import { ArrowRight } from '../components/Arrow'
 import Testimonials from '../components/Testimonials'
 
 const gradingTable = [
@@ -268,7 +269,7 @@ export default function CoffeeGradingPage() {
                 <p><span className='text-dark/50'>Most Common:</span> <span className='font-bold text-dark'>{item.typical}</span></p>
                 <p><span className='text-dark/50'>Cup Score Range:</span> <span className='font-bold text-dark'>{item.score}</span></p>
               </div>
-              <span className='text-accent text-sm font-bold mt-3 block'>View Current Lot →</span>
+              <span className='text-accent text-sm font-bold mt-3 flex items-center gap-1'>View Current Lot <ArrowRight className='inline-block h-3.5 w-3.5' /></span>
             </Link>
           ))}
         </div>

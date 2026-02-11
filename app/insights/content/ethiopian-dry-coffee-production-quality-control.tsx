@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { ArrowRight } from '@/app/components/Arrow'
 import { 
   HiOutlineBeaker,
   HiOutlineAcademicCap,
@@ -726,26 +727,26 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
         <div className="bg-gray-50 p-8 rounded-lg border border-gray-200">
           <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/insights/green-coffee-quality-control-defects-grading" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → Green Coffee Quality Control: Defects, Grading Systems & Import Inspection Guide
+            <Link href="/insights/green-coffee-quality-control-defects-grading" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Quality Control: Defects, Grading Systems & Import Inspection Guide
             </Link>
-            <Link href="/insights/new-sca-coffee-value-assessment" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → The New SCA Coffee Value Assessment: Beyond the 100-Point Score
+            <Link href="/insights/new-sca-coffee-value-assessment" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> The New SCA Coffee Value Assessment: Beyond the 100-Point Score
             </Link>
-            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → The Ethiopia Commodity Exchange (ECX) and Ethiopian Coffee Export
+            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> The Ethiopia Commodity Exchange (ECX) and Ethiopian Coffee Export
             </Link>
-            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → Understanding ECX and Ethiopian Coffee Export
+            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Understanding ECX and Ethiopian Coffee Export
             </Link>
-            <Link href="/insights/rising-ethiopian-coffee-prices-explained" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → Rising Ethiopian Coffee Prices Explained
+            <Link href="/insights/rising-ethiopian-coffee-prices-explained" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Rising Ethiopian Coffee Prices Explained
             </Link>
-            <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → Ethiopian Coffee Certifications Guide
+            <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Certifications Guide
             </Link>
-            <Link href="/insights/afca-taste-of-harvest-ethiopian-coffee-competition" className="text-amber-700 hover:text-amber-900 font-medium hover:underline">
-              → AFCA Taste of Harvest: Ethiopian Coffee Competition & Quality Recognition
+            <Link href="/insights/afca-taste-of-harvest-ethiopian-coffee-competition" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> AFCA Taste of Harvest: Ethiopian Coffee Competition & Quality Recognition
             </Link>
           </div>
         </div>

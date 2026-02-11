@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { ArrowRight } from '@/app/components/Arrow'
 import { 
   HiOutlineCalendarDays, 
   HiOutlineGlobeAlt, 
@@ -1020,38 +1021,38 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <ul className='space-y-2 text-sm'>
           <li>
-            <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>
-              → Ethiopian Coffee Exporter: Your Trusted Export Partner
+            <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Exporter: Your Trusted Export Partner
             </Link>
           </li>
           <li>
-            <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>
-              → Importing Ethiopian Coffee to Germany: Complete EU Market Entry Guide
+            <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to Germany: Complete EU Market Entry Guide
             </Link>
           </li>
           <li>
-            <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>
-              → Importing Ethiopian Coffee to the Netherlands: Rotterdam Guide
+            <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to the Netherlands: Rotterdam Guide
             </Link>
           </li>
           <li>
-            <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>
-              → How to Import Ethiopian Specialty Coffee to the United States
+            <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> How to Import Ethiopian Specialty Coffee to the United States
             </Link>
           </li>
           <li>
-            <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>
-              → Importing Ethiopian Specialty Coffee to Canada: The Complete Practical Guide
+            <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Specialty Coffee to Canada: The Complete Practical Guide
             </Link>
           </li>
           <li>
-            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>
-              → Sourcing Green Coffee from Ethiopia: Complete Guide
+            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee from Ethiopia: Complete Guide
             </Link>
           </li>
           <li>
-            <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>
-              → Green Coffee Quality Control: Defects, Grading & What Importers Should Inspect
+            <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Quality Control: Defects, Grading & What Importers Should Inspect
             </Link>
           </li>
         </ul>

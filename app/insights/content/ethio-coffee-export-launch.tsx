@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { ArrowRight } from '@/app/components/Arrow'
 import { HiOutlineCalendarDays } from 'react-icons/hi2'
 
 type InsightContentProps = {
@@ -77,7 +78,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       <div className='my-6'>
         <Link href='/about' className='inline-flex items-center gap-2 bg-amber-100 hover:bg-amber-200 text-dark px-5 py-3 rounded-lg font-bold transition'>
           Read Our Full Story
-          <span aria-hidden='true'>→</span>
+          <ArrowRight />
         </Link>
       </div>
 
@@ -115,7 +116,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       <div className='my-6'>
         <Link href='/ordering-info' className='inline-flex items-center gap-2 bg-amber-100 hover:bg-amber-200 text-dark px-5 py-3 rounded-lg font-bold transition'>
           See Our Full Ordering Process & Logistics
-          <span aria-hidden='true'>→</span>
+          <ArrowRight />
         </Link>
       </div>
 
@@ -162,7 +163,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       <div className='my-6'>
         <Link href='/offerings' className='inline-flex items-center gap-2 bg-amber-100 hover:bg-amber-200 text-dark px-5 py-3 rounded-lg font-bold transition'>
           View All Offerings With Full Specifications
-          <span aria-hidden='true'>→</span>
+          <ArrowRight />
         </Link>
       </div>
 

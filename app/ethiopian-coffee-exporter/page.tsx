@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
+import { ArrowRight } from '../components/Arrow'
 import AutoScrollTo from '../components/AutoScrollTo'
 import { HiOutlineGlobeAmericas, HiOutlineDocumentCheck, HiOutlineTruck, HiOutlineShieldCheck, HiOutlineCube, HiOutlineBeaker, HiOutlineChatBubbleLeftRight, HiOutlineClipboardDocumentCheck, HiOutlineShoppingBag, HiOutlineClipboardDocumentList, HiOutlineUsers, HiOutlineNewspaper, HiOutlineEnvelope } from 'react-icons/hi2'
 import { GiCoffeeBeans } from 'react-icons/gi'
@@ -248,7 +249,7 @@ const EthiopianCoffeeExporter = () => {
                 href='/about' 
                 className='text-accent hover:underline font-semibold inline-flex items-center gap-2'
               >
-                Read Our Full Story →
+                Read Our Full Story <ArrowRight className='inline-block h-4 w-4' />
               </Link>
             </div>
           </div>
@@ -308,27 +309,27 @@ const EthiopianCoffeeExporter = () => {
               </p>
               <ul className='list-none space-y-3 pl-0'>
                 <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold text-lg'>→</span>
+                  <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
                   <span><strong>Sourcing:</strong> Identifying and purchasing green coffee from farms, cooperatives, washing stations, and the Ethiopia Commodity Exchange (ECX)</span>
                 </li>
                 <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold text-lg'>→</span>
+                  <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
                   <span><strong>Quality Control:</strong> Cupping, grading (Grade 1-5), defect sorting, and moisture testing to ensure export-quality standards</span>
                 </li>
                 <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold text-lg'>→</span>
+                  <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
                   <span><strong>Processing & Preparation:</strong> Warehousing, re-bagging, milling, and preparing lots for export</span>
                 </li>
                 <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold text-lg'>→</span>
+                  <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
                   <span><strong>Documentation:</strong> Obtaining ICO certificates, phytosanitary certificates, certificates of origin, and other required trade documents</span>
                 </li>
                 <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold text-lg'>→</span>
+                  <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
                   <span><strong>Logistics:</strong> Coordinating land transport to Djibouti port and ocean freight to destination ports worldwide</span>
                 </li>
                 <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold text-lg'>→</span>
+                  <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
                   <span><strong>Relationship Management:</strong> Maintaining ongoing communication with buyers, providing samples, and building long-term trade partnerships</span>
                 </li>
               </ul>

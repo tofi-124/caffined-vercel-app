@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
+import { ArrowRight } from '../components/Arrow'
 import AutoScrollTo from '../components/AutoScrollTo'
 import Testimonials from '../components/Testimonials'
 
@@ -161,8 +162,8 @@ export default function EthiopianGreenCoffeeBeansPage() {
                   <div className='lg:w-1/3'>
                     <h3 className='text-2xl font-extrabold text-accent mb-2'>{origin.name}</h3>
                     <p className='text-sm text-primary/60 mb-3'>{origin.altitude} · {origin.cupScore}</p>
-                    <Link href={origin.link} className='text-accent hover:text-accent/80 font-bold text-sm underline'>
-                      View Current Lot →
+                    <Link href={origin.link} className='text-accent hover:text-accent/80 font-bold text-sm underline inline-flex items-center gap-1'>
+                      View Current Lot <ArrowRight className='inline-block h-3.5 w-3.5' />
                     </Link>
                   </div>
                   <div className='lg:w-2/3 grid sm:grid-cols-2 gap-4 text-sm'>

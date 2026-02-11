@@ -11,6 +11,42 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== COFFEE MARKET & PREMIUM PRICING =====
+    {
+      small_image_url: 'insights/most-expensive-coffee-world.webp',
+      large_image_url: 'insights/most-expensive-coffee-world.webp',
+      date: 'Feb 12, 2026',
+      title: 'Most Expensive Coffee in the World: What Drives Price',
+      slug: 'most-expensive-coffee-in-the-world',
+      category: 'Coffee Market / Premium Coffee / Pricing / Sourcing',
+      keywords: [
+        'most expensive coffee in the world',
+        'expensive coffee beans',
+        'most expensive coffee per pound',
+        'why is coffee so expensive',
+        'premium coffee beans price',
+        'most expensive coffee beans in the world',
+        'what makes coffee expensive',
+        'most expensive ethiopian coffee',
+        'gesha coffee price per pound',
+        'kopi luwak vs specialty coffee',
+        'most expensive green coffee beans',
+        'why is ethiopian coffee so expensive',
+        'luxury coffee beans for roasters',
+        'coffee auction record prices',
+        'black ivory coffee price',
+        'jamaican blue mountain coffee price',
+        'hawaiian kona coffee price',
+        'geisha coffee auction',
+        'premium green coffee sourcing',
+        'specialty coffee pricing',
+        'coffee competition lots',
+        'ethiopian competition micro lots',
+        'best value specialty coffee',
+        'coffee price drivers'
+      ],
+      desc: 'The most expensive coffee in the world ranked by price, with expert analysis of what drives premium value from Gesha auctions to Ethiopian micro-lots. A buyer-focused guide for importers and roasters.'
+    },
     // ===== GENDER & SOCIAL IMPACT =====
     {
       small_image_url: 'insights/women-ethiopian-coffee.webp',

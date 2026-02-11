@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { ArrowRight } from '@/app/components/Arrow'
 import { 
   HiOutlineChartBar,
   HiOutlineMapPin,
@@ -759,23 +760,23 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         <div className="bg-gray-50 p-8 rounded-lg border border-gray-200">
           <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/insights/guide-ethiopian-coffee-origins" className="text-green-700 hover:text-green-900 font-medium hover:underline">
-              → A Practical Guide to Ethiopian Green Coffee Origins
+            <Link href="/insights/guide-ethiopian-coffee-origins" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> A Practical Guide to Ethiopian Green Coffee Origins
             </Link>
-            <Link href="/insights/ethiopian-dry-coffee-production-quality-control" className="text-green-700 hover:text-green-900 font-medium hover:underline">
-              → Ethiopian Dry Coffee Production: Quality Control & Processing Guide
+            <Link href="/insights/ethiopian-dry-coffee-production-quality-control" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Dry Coffee Production: Quality Control & Processing Guide
             </Link>
-            <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className="text-green-700 hover:text-green-900 font-medium hover:underline">
-              → Yirgacheffe vs Sidamo vs Guji: Which Ethiopian Coffee Is Right for You?
+            <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Yirgacheffe vs Sidamo vs Guji: Which Ethiopian Coffee Is Right for You?
             </Link>
-            <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className="text-green-700 hover:text-green-900 font-medium hover:underline">
-              → Washed vs Natural Processed Ethiopian Coffee: What Roasters Need to Know
+            <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Washed vs Natural Processed Ethiopian Coffee: What Roasters Need to Know
             </Link>
-            <Link href="/insights/green-coffee-quality-control-defects-grading" className="text-green-700 hover:text-green-900 font-medium hover:underline">
-              → Green Coffee Quality Control: Defects, Grading Systems & Inspection Guide
+            <Link href="/insights/green-coffee-quality-control-defects-grading" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Quality Control: Defects, Grading Systems & Inspection Guide
             </Link>
-            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-green-700 hover:text-green-900 font-medium hover:underline">
-              → The Ethiopia Commodity Exchange (ECX) and Ethiopian Coffee Export
+            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> The Ethiopia Commodity Exchange (ECX) and Ethiopian Coffee Export
             </Link>
           </div>
         </div>

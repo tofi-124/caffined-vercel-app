@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { ArrowRight } from '@/app/components/Arrow'
 import { 
   HiOutlineGlobeAlt,
   HiOutlineShieldCheck,
@@ -657,7 +658,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
 
         <div className='border-l-4 border-red-500 pl-4'>
           <h5 className='font-bold'>2004: Global Recognition</h5>
-          <p className='text-sm'>Hacienda La Esmeralda's Gesha won the Best of Panama competition with an unprecedented 94.1 cupping score and sold for a record $21/lb. Gesha became a global phenomenon, now grown worldwide and selling for hundreds of dollars per pound.</p>
+          <p className='text-sm'>Hacienda La Esmeralda's Gesha won the Best of Panama competition with an unprecedented 94.1 cupping score and sold for a record $21/lb. Gesha became a global phenomenon, now grown worldwide and selling for hundreds of dollars per pound. Today, competition-winning Gesha lots regularly rank among the <Link href='/insights/most-expensive-coffee-in-the-world' className='underline font-semibold'>most expensive coffees in the world</Link>, with auction prices exceeding $6,000/kg.</p>
         </div>
       </div>
 
@@ -1109,33 +1110,33 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <ul className='space-y-2 text-sm'>
           <li>
-            <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>
-              → Ethiopian Coffee Exporter: Your Trusted Export Partner
+            <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Exporter: Your Trusted Export Partner
             </Link>
           </li>
           <li>
-            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>
-              → Coffee Is a Plant: Understanding Taxonomy, Species & Varieties
+            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Coffee Is a Plant: Understanding Taxonomy, Species & Varieties
             </Link>
           </li>
           <li>
-            <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>
-              → A Practical Guide to Ethiopian Green Coffee Origins
+            <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> A Practical Guide to Ethiopian Green Coffee Origins
             </Link>
           </li>
           <li>
-            <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>
-              → Yirgacheffe vs Sidamo vs Guji: Which Ethiopian Coffee Is Right for You?
+            <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Yirgacheffe vs Sidamo vs Guji: Which Ethiopian Coffee Is Right for You?
             </Link>
           </li>
           <li>
-            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>
-              → Sourcing Green Coffee from Ethiopia: Complete Guide
+            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee from Ethiopia: Complete Guide
             </Link>
           </li>
           <li>
-            <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>
-              → Ethiopian Coffee Certifications Guide: Organic, Fair Trade, Rainforest Alliance & More
+            <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Certifications Guide: Organic, Fair Trade, Rainforest Alliance & More
             </Link>
           </li>
         </ul>

@@ -368,7 +368,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       </h3>
 
       <p className='my-4'>
-        Ethiopian coffee, particularly <span className='font-bold'>specialty-grade G1 and G2 washed and natural coffees</span>, commands substantial premiums above commodity coffee. Understanding these premiums is essential to understanding Ethiopian coffee pricing.
+        Ethiopian coffee, particularly <span className='font-bold'>specialty-grade G1 and G2 washed and natural coffees</span>, commands substantial premiums above commodity coffee. Ethiopian coffees consistently rank among the <Link href='/insights/most-expensive-coffee-in-the-world' className='underline font-semibold'>most expensive coffees in the world</Link> when measured by competition auction results and micro-lot pricing. Understanding these premiums is essential to understanding Ethiopian coffee pricing.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>What Justifies the Specialty Premium?</h4>
