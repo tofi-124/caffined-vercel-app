@@ -282,11 +282,11 @@ export const posts: Post[] = [
       small_image_url: 'insights/cofee-blog-2-1.png',
       large_image_url: 'insights/cofee-blog-2-2.jpg',
       date: 'Jun 15, 2025',
-      title: 'Ethiopian Coffee Ceremonies & Tradition',
+      title: 'Ethiopian Coffee Ceremony: Tradition, Steps & Why It Matters',
       slug: 'ethiopian-coffee-ceremony',
       category: 'Coffee Culture & Heritage',
-      keywords: ['Ethiopian coffee ceremony', 'jebena', 'coffee culture', 'traditional brewing', 'coffee hospitality'],
-      desc: 'Ethiopia\'s traditional coffee ceremony is more than just brewing it\'s a cultural ritual that informs how coffee is respected and handled throughout the supply chain from farm to cup.'
+      keywords: ['Ethiopian coffee ceremony', 'jebena', 'buna tetu', 'coffee culture', 'traditional Ethiopian coffee', 'abol tona baraka', 'Ethiopian coffee tradition', 'coffee hospitality'],
+      desc: 'Learn the Ethiopian coffee ceremony\'s step-by-step process, its three rounds (abol, tona, baraka), and why this centuries-old tradition matters for coffee importers, roasters, and specialty buyers.'
     },
     {
       small_image_url: 'insights/cofee-blog-7-1.png',

@@ -1023,7 +1023,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
           <li>✓ Pay premiums for Ethiopian heirloom coffee that reward farmers for maintaining diversity</li>
           <li>✓ Source forest coffee from protected areas like <a href="https://en.wikipedia.org/wiki/Kafa_Biosphere_Reserve" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>Kaffa Biosphere Reserve</a></li>
           <li>✓ Support certification programs (Bird Friendly, organic) that encourage biodiversity</li>
-          <li>✓ Tell the story of Ethiopian genetic diversity to your customers</li>
+          <li>✓ Tell the story of Ethiopian genetic diversity to your customers, and pair it with the <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>Ethiopian coffee ceremony tradition</Link> to bring cultural depth to your brand</li>
           <li>✓ Form direct relationships with Ethiopian cooperatives and farmers</li>
           <li>✓ Support organizations working on Ethiopian coffee conservation (see <a href="https://worldcoffeeresearch.org/" target="_blank" rel="noopener noreferrer" className='text-amber-700 hover:underline'>World Coffee Research</a>)</li>
           <li>✓ Choose Ethiopian coffee over genetically-narrow alternatives when possible</li>

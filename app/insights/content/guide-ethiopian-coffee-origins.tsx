@@ -37,6 +37,7 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
       <p className='my-4'>
         Ethiopian green coffee is often described with famous place names-Yirgacheffe, Guji, Sidama, Limu, Harrar, Kaffa, Jimma.
         For buyers, &quot;origin&quot; isn&apos;t just geography: it&apos;s a shorthand for altitude range, local genetics (&quot;heirloom&quot; selections), processing approach, and the mills/washing stations that shape the cup.
+        The deep cultural traditions around coffee, especially the <Link href='/insights/ethiopian-coffee-ceremony' className='underline font-bold'>Ethiopian coffee ceremony</Link>, also reflect each region&apos;s unique relationship with the crop.
       </p>
 
       <p className='my-4 text-sm text-gray-700 font-inconsolata'>
@@ -193,6 +194,7 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
               <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
               <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
               <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
             </ul>
           </div>
           <div>

@@ -86,7 +86,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         Working directly with an Ethiopian coffee exporter gives you better traceability, relationship-based pricing, and access to specific lots. This approach is ideal for roasters who want to:
       </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
-        <li className='my-2'>Tell a compelling origin story to customers</li>
+        <li className='my-2'>Tell a compelling origin story to customers, drawing on traditions like the <Link href='/insights/ethiopian-coffee-ceremony' className='underline font-bold'>Ethiopian coffee ceremony</Link> that connect consumers to the culture behind the beans</li>
         <li className='my-2'>Lock in consistent supply from specific washing stations</li>
         <li className='my-2'>Access micro-lots and experimental processing</li>
         <li className='my-2'>Build long-term partnerships with producers</li>

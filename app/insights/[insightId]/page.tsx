@@ -45,7 +45,7 @@ const readingTimeMap: Record<string, number> = {
   'ethio-coffee-export-launch': 10,
   'best-ethiopian-coffee-exporter-for-importers': 18,
   'birthplace-of-coffee-ethiopia': 10,
-  'ethiopian-coffee-ceremony': 10,
+  'ethiopian-coffee-ceremony': 11,
   'direct-trade-ethiopian-farmers': 12,
   'coffee-plant-taxonomy-species-varieties': 24,
   'coffee-is-agriculture-production-farming': 12,
