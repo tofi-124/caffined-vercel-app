@@ -13,6 +13,7 @@ const exportRegions = [
     processing: 'Washed & Natural',
     cupScore: '84-88+',
     altitude: '1,700-2,200m',
+    link: '/ethiopian-coffee-yirgacheffe',
   },
   {
     name: 'Sidamo (Sidama)',
@@ -21,6 +22,7 @@ const exportRegions = [
     processing: 'Washed & Natural',
     cupScore: '84-87+',
     altitude: '1,550-2,200m',
+    link: '/ethiopian-coffee-sidamo',
   },
   {
     name: 'Guji',
@@ -29,6 +31,7 @@ const exportRegions = [
     processing: 'Washed, Natural & Honey',
     cupScore: '85-89+',
     altitude: '1,800-2,300m',
+    link: '/ethiopian-coffee-guji',
   },
   {
     name: 'Harar',
@@ -37,6 +40,7 @@ const exportRegions = [
     processing: 'Natural (Dry)',
     cupScore: '82-86+',
     altitude: '1,500-2,100m',
+    link: '/ethiopian-coffee-harar',
   },
   {
     name: 'Limu',
@@ -45,6 +49,7 @@ const exportRegions = [
     processing: 'Washed',
     cupScore: '82-85+',
     altitude: '1,400-2,000m',
+    link: '/ethiopian-coffee-limu',
   },
   {
     name: 'Jimma (Djimmah)',
@@ -53,6 +58,7 @@ const exportRegions = [
     processing: 'Natural & Washed',
     cupScore: '78-82',
     altitude: '1,400-1,800m',
+    link: '/ethiopian-coffee-jimma',
   },
 ]
 
@@ -221,7 +227,7 @@ const EthiopianCoffeeExporter = () => {
               </p>
               <p>
                 Our story starts with our father, who spent over three decades traveling across Ethiopia's coffee 
-                regions – Yirgacheffe, Sidamo, Guji, Harar, Limu, and beyond. He built deep relationships with farming 
+                regions (Yirgacheffe, Sidamo, Guji, Harar, Limu, and beyond). He built deep relationships with farming 
                 communities, invested in his own coffee farm, and developed an intimate knowledge of what makes 
                 Ethiopian coffee exceptional: from cherry selection to drying methods to the subtle quality differences 
                 between microclimates and processing stations.
@@ -361,9 +367,11 @@ const EthiopianCoffeeExporter = () => {
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {exportRegions.map((region, index) => (
               <article key={index} className='bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow'>
-                <h3 className='text-2xl font-bold text-dark mb-3'>
-                  {region.name} Coffee Export
-                </h3>
+                <Link href={region.link} className='group'>
+                  <h3 className='text-2xl font-bold text-dark mb-3 group-hover:text-accent transition-colors'>
+                    {region.name} Coffee Export
+                  </h3>
+                </Link>
                 <p className='text-dark/70 mb-4'>{region.description}</p>
                 <div className='space-y-2 text-sm'>
                   <div className='flex justify-between'>
@@ -637,8 +645,8 @@ const EthiopianCoffeeExporter = () => {
               <p>
                 Ethiopia is the <strong>birthplace of Coffea Arabica</strong>, the species that accounts for 
                 approximately 60-70% of global coffee production and defines the specialty coffee industry. 
-                With an estimated <strong>6,000+ indigenous coffee varieties</strong>, Ethiopia offers a level of genetic 
-                diversity and flavor complexity that no other coffee-producing country can match.
+                With an estimated <strong>6,000+ indigenous coffee varieties</strong> (explore our guide to <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline font-semibold text-accent'>Ethiopian heirloom varieties</Link>), Ethiopia offers a level of genetic 
+                variety and flavor complexity that no other coffee-producing country can match.
               </p>
 
               <h3 className='text-2xl font-bold text-dark mt-8'>Why Import from an Ethiopian Coffee Exporter?</h3>
@@ -657,14 +665,14 @@ const EthiopianCoffeeExporter = () => {
               <h3 className='text-2xl font-bold text-dark mt-8'>Ethiopia Coffee Export Industry Overview</h3>
               <p>
                 Ethiopia exports an estimated <strong>3.5-4 million bags (60kg)</strong> of green coffee annually, 
-                making it Africa's largest coffee exporter and the world's 5th largest overall. Coffee accounts for 
+                making it Africa's largest coffee exporter and the world's 5th largest overall, according to the <a href='https://www.ico.org/' target='_blank' rel='noopener noreferrer' className='underline font-semibold text-accent'>International Coffee Organization (ICO)</a>. Coffee accounts for 
                 approximately <strong>30-35% of Ethiopia's total export earnings</strong>, underscoring the coffee sector's 
                 critical importance to the national economy.
               </p>
               <p>
                 The Ethiopian coffee export sector includes both private exporters (like Ethio Coffee Export PLC) and 
                 cooperative unions. Private Ethiopian coffee exporters play a vital role in connecting international 
-                buyers with specialty lots that might otherwise be lost in the commodity pipeline.
+                buyers with specialty lots that might otherwise be lost in the commodity pipeline. For a deeper look at how the export system works, read our guide on <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-semibold text-accent'>ECX and Ethiopian coffee export</Link>.
               </p>
             </div>
           </div>
@@ -767,7 +775,7 @@ const EthiopianCoffeeExporter = () => {
             Explore More About Ethiopian Coffee Export
           </h2>
           <p className='text-center text-gray-500 text-sm mb-10'>
-            Dive deeper into our processes, offerings, and the stories behind every bean.
+            Learn more about our processes, offerings, and the stories behind every bean.
           </p>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'>
             <Link
