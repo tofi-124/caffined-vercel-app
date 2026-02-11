@@ -52,9 +52,10 @@ export default function OrganicEthiopianCoffeeExportPage() {
             <p>
               Ethiopia is uniquely positioned for organic coffee production. The vast majority of Ethiopian
               coffee is grown by <strong>smallholder farmers</strong> using traditional methods passed down through
-              generations - shade-grown under indigenous forest canopy, without synthetic fertilizers or
+              generations: shade-grown under indigenous forest canopy, without synthetic fertilizers or
               chemical pesticides. For many Ethiopian producers, coffee cultivation has been &quot;organic&quot;
-              for centuries before the term existed.
+              for centuries before the term existed. Our <Link href='/insights/direct-trade-ethiopian-farmers' className='underline hover:text-dark/60'>direct trade with Ethiopian farmers</Link> guide
+              explains these relationships in detail.
             </p>
             <p>
               What makes certified organic Ethiopian coffee different from conventional is the
@@ -64,11 +65,11 @@ export default function OrganicEthiopianCoffeeExportPage() {
               the verified assurance their customers demand.
             </p>
             <p>
-              <strong>Consumer demand for organic coffee continues to grow 8–12% annually</strong>, with
-              organic specialty coffee commanding retail premiums of 20–40% in North American and European
+              <strong>Consumer demand for organic coffee continues to grow 8 to 12% annually</strong>, with
+              organic specialty coffee commanding retail premiums of 20 to 40% in North American and European
               markets. For roasters, adding a certified organic Ethiopian single-origin to your program
               meets both the quality expectations of specialty consumers and the sustainability values that
-              drive purchasing decisions.
+              drive purchasing decisions. The <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='underline hover:text-dark/60'>EU Deforestation Regulation</Link> also increases the value of traceable, certified supply chains.
             </p>
           </div>
         </div>
@@ -142,7 +143,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
               <p className='mt-2 text-dark/70'>
                 Required for selling organic coffee in the United States. Mandates that coffee is grown without
                 synthetic pesticides, herbicides, or fertilizers for at least 3 years. Annual inspections by
-                USDA-accredited certifying agents. Ethiopian cooperatives are typically certified through
+                <a href='https://www.usda.gov/topics/organic' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/60'>USDA</a>-accredited certifying agents. Ethiopian cooperatives are typically certified through
                 international bodies like Control Union, Ecocert, or IMO.
               </p>
             </div>
@@ -334,11 +335,14 @@ export default function OrganicEthiopianCoffeeExportPage() {
             We&apos;ll provide current availability, pricing, and samples.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              View Current Offerings
+            </Link>
+            <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
               Request Organic Pricing & Samples
             </Link>
-            <Link href='/offerings' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Browse Available Lots
+            <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              How to Order
             </Link>
           </div>
         </div>

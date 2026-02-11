@@ -67,13 +67,14 @@ export default function YirgacheffeCoffeePage() {
             <p>
               Grown at elevations of <strong>1,700 to 2,200 meters</strong> above sea level, Yirgacheffe coffees benefit from
               ideal growing conditions: rich volcanic soil, ample rainfall, moderate temperatures, and shade from indigenous
-              forest canopy. The coffee is almost exclusively <strong>heirloom Ethiopian Arabica varieties</strong> - JARC selections
+              forest canopy. The coffee is almost exclusively <strong><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline hover:text-dark/60'>heirloom Ethiopian Arabica varieties</Link></strong>, including JARC selections
               and local landraces that have been cultivated for centuries.
             </p>
             <p>
               Yirgacheffe is widely considered one of the <strong>finest coffee origins in the world</strong>. It consistently
-              produces lots scoring 84–88+ on the SCA cupping scale and commands premium prices in the global specialty
+              produces lots scoring 84–88+ on the <a href='https://sca.coffee/research/protocols-best-practices' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/60'>SCA cupping scale</a> and commands premium prices in the global specialty
               coffee market. For roasters, a Yirgacheffe offering is often a cornerstone of any single-origin program.
+              To see how Yirgacheffe compares with other top Ethiopian origins, read our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline hover:text-dark/60'>Yirgacheffe vs Sidamo vs Guji comparison</Link>.
             </p>
           </div>
         </div>
@@ -166,7 +167,10 @@ export default function YirgacheffeCoffeePage() {
       {/* Export Specifications */}
       <section className='py-16 bg-accent/5 border-y border-accent/10'>
         <div className='max-w-5xl mx-auto px-6'>
-          <h2 className='text-3xl font-extrabold text-dark mb-10 text-center'>Yirgacheffe Export Specifications</h2>
+          <h2 className='text-3xl font-extrabold text-dark mb-4 text-center'>Yirgacheffe Export Specifications</h2>
+          <p className='text-dark/60 text-center max-w-3xl mx-auto mb-10'>
+            For a complete breakdown of how Ethiopian grades are determined, see our <Link href='/coffee-grading-ethiopia' className='underline hover:text-dark/90'>Ethiopian coffee grading guide</Link>.
+          </p>
           <div className='overflow-x-auto'>
             <table className='w-full text-sm border-collapse'>
               <thead>
@@ -302,12 +306,11 @@ export default function YirgacheffeCoffeePage() {
           <h2 className='text-3xl font-extrabold text-dark mb-8 text-center'>Explore Other Ethiopian Coffee Regions</h2>
           <div className='grid md:grid-cols-3 gap-6'>
             {[
-              { name: 'Sidamo (Sidama)', score: '84–87+', notes: 'Berry, floral, wine-like acidity', href: '/ethiopian-coffee-exporter#sidamo' },
-              { name: 'Guji', score: '85–89+', notes: 'Stone fruit, tropical, floral complexity', href: '/ethiopian-coffee-exporter#guji' },
-              { name: 'Harar', score: '82–86+', notes: 'Wild berry, wine, dark chocolate', href: '/ethiopian-coffee-exporter#harar' },
-              { name: 'Limu', score: '82–85+', notes: 'Wine, spice, balanced body', href: '/ethiopian-coffee-exporter#limu' },
-              { name: 'Jimma (Djimmah)', score: '78–82', notes: 'Earthy, consistent, blend-friendly', href: '/ethiopian-coffee-exporter#jimma' },
-              { name: 'Lekempti (Wollega)', score: '84+', notes: 'Tropical fruit, mango, cocoa', href: '/product/lekempti' },
+              { name: 'Sidamo (Sidama)', score: '84–87+', notes: 'Berry, floral, wine-like acidity', href: '/ethiopian-coffee-sidamo' },
+              { name: 'Guji', score: '85–89+', notes: 'Stone fruit, tropical, floral complexity', href: '/ethiopian-coffee-guji' },
+              { name: 'Harar', score: '82–86+', notes: 'Wild berry, wine, dark chocolate', href: '/ethiopian-coffee-harar' },
+              { name: 'Limu', score: '82–85+', notes: 'Wine, spice, balanced body', href: '/ethiopian-coffee-limu' },
+              { name: 'Jimma (Djimmah)', score: '78–82', notes: 'Earthy, consistent, blend-friendly', href: '/ethiopian-coffee-jimma' },
             ].map((region) => (
               <Link key={region.name} href={region.href} className='block bg-white rounded-lg p-6 border border-dark/10 shadow-sm hover:shadow-md transition-shadow'>
                 <h3 className='font-bold text-dark'>{region.name}</h3>
@@ -328,11 +331,14 @@ export default function YirgacheffeCoffeePage() {
             Yirgacheffe requirements with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
-              Contact Us for Pricing & Samples
+            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              View Current Offerings
             </Link>
-            <Link href='/offerings' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Browse Available Lots
+            <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              Request Samples
+            </Link>
+            <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              How to Order
             </Link>
           </div>
         </div>

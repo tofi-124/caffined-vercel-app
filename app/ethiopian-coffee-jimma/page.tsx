@@ -67,14 +67,15 @@ export default function JimmaCoffeePage() {
               Jimma coffee is valued for its <strong>consistency, volume availability, and blend-friendly
               character</strong>. With an earthy, full-bodied profile, low acidity, and dark chocolate
               undertones, Jimma serves as the reliable backbone of countless international espresso blends,
-              commercial roasts, and instant coffee products. Many of the world&apos;s largest coffee
-              companies source Jimma as their Ethiopian component.
+              commercial roasts, and instant coffee products. According to the <a href='https://www.ico.org/' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/60'>International Coffee Organization (ICO)</a>,
+              Ethiopia is Africa&apos;s largest coffee producer, and Jimma accounts for a significant share of that output.
             </p>
             <p>
               While typically classified as commercial grade (Grade 4 and 5), <strong>well-sorted Jimma
               Grade 4 lots can approach specialty territory</strong>, scoring 80-82 on the SCA scale.
+              Learn more about how these grades are determined in our <Link href='/coffee-grading-ethiopia' className='underline hover:text-dark/60'>Ethiopian coffee grading guide</Link>.
               For cost-conscious buyers who need Ethiopian origin character at competitive prices,
-              Jimma is unmatched.
+              Jimma is unmatched. See our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline hover:text-dark/60'>FOB pricing guide</Link> for current benchmarks.
             </p>
           </div>
         </div>
@@ -92,7 +93,7 @@ export default function JimmaCoffeePage() {
                 <li><strong>Aroma:</strong> Earthy, cocoa, dried fruit, grain</li>
                 <li><strong>Flavor:</strong> Dark chocolate, tobacco, brown sugar, mild berry</li>
                 <li><strong>Acidity:</strong> Low, smooth</li>
-                <li><strong>Body:</strong> Full, heavy, robust</li>
+                <li><strong>Body:</strong> Full, heavy, dense</li>
                 <li><strong>Finish:</strong> Clean, earthy, warm</li>
                 <li><strong>SCA Score:</strong> Typically 78 – 81</li>
               </ul>
@@ -288,11 +289,14 @@ export default function JimmaCoffeePage() {
             or discuss year-round supply contracts with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
-              Contact Us for Volume Pricing
+            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              View Current Offerings
             </Link>
-            <Link href='/offerings' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Browse Available Lots
+            <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              Contact Us for Pricing
+            </Link>
+            <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              How to Order
             </Link>
           </div>
         </div>

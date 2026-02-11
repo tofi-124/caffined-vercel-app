@@ -97,12 +97,13 @@ export default function CoffeeGradingPage() {
           </h1>
           <p className='text-xl text-primary/90 mb-6 max-w-3xl mx-auto'>
             Ethiopia uses a <strong>Grade 1 to Grade 5</strong> classification system to rate green coffee quality. 
-            Understanding this system is essential for importers and roasters sourcing Ethiopian coffee - 
+            Understanding this system is essential for importers and roasters sourcing Ethiopian coffee; 
             it directly determines cup quality, pricing, and the right fit for your business.
           </p>
           <p className='text-primary/60 max-w-2xl mx-auto'>
             This guide explains exactly how Ethiopian coffee is graded: the defect counting methodology, 
-            SCA cup scoring, processing standards, and what each grade means in practice.
+            <a href='https://sca.coffee/research/protocols-best-practices' target='_blank' rel='noopener noreferrer' className='underline hover:text-primary/80'>SCA cup scoring</a>, processing standards, and what each grade means in practice.
+            For a broader visual overview, also see our <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline hover:text-primary/80'>green coffee quality control insight</Link>.
           </p>
         </div>
       </section>
@@ -154,7 +155,7 @@ export default function CoffeeGradingPage() {
         <div className='container mx-auto px-4'>
           <h2 className='text-4xl font-extrabold mb-4 text-center'>How Ethiopian Coffee Grading Works</h2>
           <p className='text-primary/70 text-center max-w-3xl mx-auto mb-12'>
-            Ethiopian coffee grading follows a standardized process administered through the Ethiopian Commodity Exchange (ECX) 
+            Ethiopian coffee grading follows a standardized process administered through the <a href='https://www.ecx.com.et/' target='_blank' rel='noopener noreferrer' className='text-accent hover:underline'>Ethiopian Commodity Exchange (ECX)</a> 
             and the Ethiopian Coffee and Tea Authority (ECTA). Here&apos;s how it works step by step.
           </p>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
@@ -211,7 +212,7 @@ export default function CoffeeGradingPage() {
           <div className='max-w-4xl mx-auto grid md:grid-cols-2 gap-8'>
             <div className='bg-primary rounded-2xl p-8'>
               <h3 className='text-2xl font-extrabold text-dark mb-4'>SCA Cupping Protocol</h3>
-              <p className='text-dark/70 mb-4'>Coffee is scored on a 100-point scale across 10 attributes:</p>
+              <p className='text-dark/70 mb-4'>Coffee is scored on a 100-point scale across 10 attributes, as defined by the <a href='https://sca.coffee/research/protocols-best-practices' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/60'>SCA cupping protocol</a>:</p>
               <ul className='space-y-2 text-dark/80'>
                 {['Fragrance/Aroma', 'Flavour', 'Aftertaste', 'Acidity', 'Body', 'Balance', 'Uniformity', 'Clean Cup', 'Sweetness', 'Overall'].map((attr) => (
                   <li key={attr} className='flex items-center gap-2'>
@@ -255,11 +256,11 @@ export default function CoffeeGradingPage() {
         </p>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
           {[
-            { origin: 'Yirgacheffe', grades: 'G1, G2', typical: 'G2 Washed', score: '84-88+', link: '/product/yirgacheffe' },
-            { origin: 'Sidamo', grades: 'G1, G2', typical: 'G1 Natural', score: '84-87+', link: '/product/sidamo' },
-            { origin: 'Guji', grades: 'G1, G2', typical: 'G1 Natural', score: '85-89+', link: '/product/guji' },
-            { origin: 'Harar', grades: 'G1, G4', typical: 'G1 Natural', score: '82-86+', link: '/product/harar' },
-            { origin: 'Limu', grades: 'G2, G3', typical: 'G2 Washed', score: '82-85+', link: '/product/limu' },
+            { origin: 'Yirgacheffe', grades: 'G1, G2', typical: 'G2 Washed', score: '84-88+', link: '/ethiopian-coffee-yirgacheffe' },
+            { origin: 'Sidamo', grades: 'G1, G2', typical: 'G1 Natural', score: '84-87+', link: '/ethiopian-coffee-sidamo' },
+            { origin: 'Guji', grades: 'G1, G2', typical: 'G1 Natural', score: '85-89+', link: '/ethiopian-coffee-guji' },
+            { origin: 'Harar', grades: 'G1, G4', typical: 'G1 Natural', score: '82-86+', link: '/ethiopian-coffee-harar' },
+            { origin: 'Limu', grades: 'G2, G3', typical: 'G2 Washed', score: '82-85+', link: '/ethiopian-coffee-limu' },
             { origin: 'Lekempti', grades: 'G2, G3', typical: 'G2 Washed', score: '82-85+', link: '/product/lekempti' },
           ].map((item) => (
             <Link key={item.origin} href={item.link} className='bg-white rounded-2xl p-6 shadow-sm border border-dark/5 hover:shadow-md transition-all'>
@@ -310,6 +311,9 @@ export default function CoffeeGradingPage() {
             </Link>
             <Link href="/contact-us" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
               REQUEST SAMPLES
+            </Link>
+            <Link href="/ordering-info" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
+              HOW TO ORDER
             </Link>
           </div>
         </div>

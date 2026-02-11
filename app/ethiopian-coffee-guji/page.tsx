@@ -60,8 +60,9 @@ export default function GujiCoffeePage() {
             <p>
               Guji is one of Ethiopia&apos;s most exciting coffee-producing zones, located in the southern
               part of the Oromia region. Once grouped under the broader &quot;Sidamo&quot; classification,
-              Guji earned its own distinct trade designation in 2010 - a recognition of its
-              <strong> uniquely complex and high-scoring cup profiles</strong>.
+              Guji earned its own distinct trade designation in 2010, a recognition of its
+              <strong> uniquely complex and high-scoring cup profiles</strong>. For a detailed side-by-side
+              analysis, read our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline hover:text-dark/60'>Yirgacheffe vs Sidamo vs Guji comparison</Link>.
             </p>
             <p>
               Growing at altitudes between <strong>1,800 and 2,300 meters</strong>, Guji produces
@@ -74,7 +75,8 @@ export default function GujiCoffeePage() {
               Guji coffees are distinguished by their <strong>intense tropical fruit and stone fruit notes</strong>,
               vibrant but balanced acidity, and remarkable sweetness. Natural-processed Guji lots from
               Hambela and Shakiso have gained cult-like status among specialty roasters for their
-              complexity and exotic flavor profiles.
+              complexity and exotic flavor profiles. Many Guji producers competed in the
+              <Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='underline hover:text-dark/60'>AFCA Taste of Harvest competition</Link>, earning top honors.
             </p>
           </div>
         </div>
@@ -155,7 +157,10 @@ export default function GujiCoffeePage() {
       {/* Export Specifications */}
       <section className='py-16 bg-accent/5 border-y border-accent/10'>
         <div className='max-w-5xl mx-auto px-6'>
-          <h2 className='text-3xl font-extrabold text-dark mb-10 text-center'>Guji Export Specifications</h2>
+          <h2 className='text-3xl font-extrabold text-dark mb-4 text-center'>Guji Export Specifications</h2>
+          <p className='text-dark/60 text-center max-w-3xl mx-auto mb-10'>
+            Grades are based on defect count and <a href='https://sca.coffee/research/protocols-best-practices' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/90'>SCA cupping scores</a>. See our <Link href='/coffee-grading-ethiopia' className='underline hover:text-dark/90'>Ethiopian coffee grading guide</Link> for details.
+          </p>
           <div className='overflow-x-auto'>
             <table className='w-full text-sm border-collapse'>
               <thead>
@@ -269,11 +274,14 @@ export default function GujiCoffeePage() {
             Guji requirements with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
-              Contact Us for Pricing & Samples
+            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              View Current Offerings
             </Link>
-            <Link href='/offerings' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Browse Available Lots
+            <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              Request Samples
+            </Link>
+            <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              How to Order
             </Link>
           </div>
         </div>

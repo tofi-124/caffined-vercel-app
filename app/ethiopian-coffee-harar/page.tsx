@@ -59,15 +59,16 @@ export default function HararCoffeePage() {
           <div className='prose prose-lg max-w-none text-dark/80 space-y-4'>
             <p>
               Harar (also spelled <strong>Harrar</strong>) is one of the most storied coffees in human history.
-              Grown in the highlands surrounding the ancient walled city of Harar in eastern Ethiopia - a
-              UNESCO World Heritage Site and an important center of Islamic culture - Harar coffee has been
+              Grown in the highlands surrounding the ancient walled city of Harar in eastern Ethiopia (a
+              <a href='https://whc.unesco.org/en/list/1189' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/60'>UNESCO World Heritage Site</a> and an important center of Islamic culture), Harar coffee has been
               traded for over <strong>500 years</strong>, making it one of the world&apos;s first exported coffees.
+              To learn more about the origins, read our guide on <Link href='/insights/ethiopia-birthplace-of-coffee' className='underline hover:text-dark/60'>Ethiopia as the birthplace of coffee</Link>.
             </p>
             <p>
               Unlike most other Ethiopian coffees, Harar is <strong>exclusively natural (dry) processed</strong>.
               Coffee cherries are dried whole on raised beds under the sun, allowing the fruit to ferment around
-              the bean. This traditional method produces Harar&apos;s distinctive <strong>wild berry,
-              wine-like, and dark chocolate flavors</strong> - the original &quot;mocha&quot; character that
+              the bean. This traditional method, covered in detail in our <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline hover:text-dark/60'>washed vs natural processing guide</Link>, produces Harar&apos;s distinctive <strong>wild berry,
+              wine-like, and dark chocolate flavors</strong>, the original &quot;mocha&quot; character that
               inspired the world&apos;s love affair with chocolate-coffee pairing.
             </p>
             <p>
@@ -105,7 +106,7 @@ export default function HararCoffeePage() {
                 <li><strong>Aroma:</strong> Cocoa, dried berries, earthy spice</li>
                 <li><strong>Flavor:</strong> Dark chocolate, raisin, tobacco, cinnamon</li>
                 <li><strong>Acidity:</strong> Low-medium, smooth</li>
-                <li><strong>Body:</strong> Full, robust</li>
+                <li><strong>Body:</strong> Full, bold</li>
                 <li><strong>Finish:</strong> Rich chocolate, earthy, warm</li>
                 <li><strong>SCA Score:</strong> 82 – 84</li>
               </ul>
@@ -142,7 +143,10 @@ export default function HararCoffeePage() {
       {/* Export Specifications */}
       <section className='py-16 bg-accent/5 border-y border-accent/10'>
         <div className='max-w-5xl mx-auto px-6'>
-          <h2 className='text-3xl font-extrabold text-dark mb-10 text-center'>Harar Export Specifications</h2>
+          <h2 className='text-3xl font-extrabold text-dark mb-4 text-center'>Harar Export Specifications</h2>
+          <p className='text-dark/60 text-center max-w-3xl mx-auto mb-10'>
+            Harar uses its own classification (Longberry/Shortberry) alongside the standard grade system. See our <Link href='/coffee-grading-ethiopia' className='underline hover:text-dark/90'>Ethiopian coffee grading guide</Link> for more.
+          </p>
           <div className='overflow-x-auto'>
             <table className='w-full text-sm border-collapse'>
               <thead>
@@ -256,11 +260,14 @@ export default function HararCoffeePage() {
             or discuss your requirements with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
-              Contact Us for Pricing & Samples
+            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              View Current Offerings
             </Link>
-            <Link href='/offerings' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Browse Available Lots
+            <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              Request Samples
+            </Link>
+            <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              How to Order
             </Link>
           </div>
         </div>

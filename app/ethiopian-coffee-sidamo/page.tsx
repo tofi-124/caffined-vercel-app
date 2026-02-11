@@ -66,13 +66,15 @@ export default function SidamoCoffeePage() {
               Sidamo coffees are known for their <strong>berry-forward flavor profiles</strong>, wine-like acidity, and rich,
               full body. The region&apos;s volcanic soil, abundant rainfall, and ideal growing temperatures create
               conditions that produce some of Ethiopia&apos;s most consistent specialty lots. Many of the world&apos;s
-              top specialty roasters feature Sidamo as a year-round single-origin offering.
+              top specialty roasters feature Sidamo as a year-round single-origin offering. For a detailed comparison,
+              read our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline hover:text-dark/60'>Yirgacheffe vs Sidamo vs Guji comparison</Link>.
             </p>
             <p>
               While Yirgacheffe is technically part of the Sidama zone, it is classified as a separate
               trade category due to its distinctive profile. Broader Sidamo coffees tend to be <strong>heavier-bodied
               and more fruit-forward</strong> than their Yirgacheffe counterparts, often with pronounced blueberry,
-              strawberry, and stone fruit notes - especially in natural-processed lots.
+              strawberry, and stone fruit notes, especially in <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline hover:text-dark/60'>natural-processed lots</Link>.
+              For deeper production data, see our <Link href='/insights/sidama-coffee-production-productivity-export' className='underline hover:text-dark/60'>Sidama coffee production and export analysis</Link>.
             </p>
           </div>
         </div>
@@ -141,7 +143,10 @@ export default function SidamoCoffeePage() {
       {/* Export Specifications */}
       <section className='py-16 bg-accent/5 border-y border-accent/10'>
         <div className='max-w-5xl mx-auto px-6'>
-          <h2 className='text-3xl font-extrabold text-dark mb-10 text-center'>Sidamo Export Specifications</h2>
+          <h2 className='text-3xl font-extrabold text-dark mb-4 text-center'>Sidamo Export Specifications</h2>
+          <p className='text-dark/60 text-center max-w-3xl mx-auto mb-10'>
+            Grades are assigned based on defect count and <a href='https://sca.coffee/research/protocols-best-practices' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/90'>SCA cupping protocol</a>. See our <Link href='/coffee-grading-ethiopia' className='underline hover:text-dark/90'>Ethiopian coffee grading guide</Link> for a full explanation.
+          </p>
           <div className='overflow-x-auto'>
             <table className='w-full text-sm border-collapse'>
               <thead>
@@ -255,11 +260,14 @@ export default function SidamoCoffeePage() {
             Sidamo requirements with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
-              Contact Us for Pricing & Samples
+            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              View Current Offerings
             </Link>
-            <Link href='/offerings' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Browse Available Lots
+            <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              Request Samples
+            </Link>
+            <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              How to Order
             </Link>
           </div>
         </div>

@@ -64,15 +64,17 @@ export default function LimuCoffeePage() {
             </p>
             <p>
               Limu is <strong>predominantly washed (wet) processed</strong>, producing a clean cup with
-              wine-toned acidity, warm spice notes, and a medium-to-full body. While it may not grab
-              headlines like Yirgacheffe or Guji, Limu is the <strong>quiet backbone of many premium blends</strong> and
+              wine-toned acidity, warm spice notes, and a medium-to-full body. To understand how
+              <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline hover:text-dark/60'>washed processing shapes Ethiopian coffee flavor</Link>, see our processing guide.
+              While it may not grab headlines like Yirgacheffe or Guji, Limu is the <strong>quiet backbone of many premium blends</strong> and
               an excellent single-origin offering for roasters who value consistency and depth.
             </p>
             <p>
               What makes Limu especially attractive for importers is its
               <strong> exceptional quality-to-price ratio</strong>. Limu delivers specialty-grade complexity
               at a lower FOB price than southern Ethiopian origins, making it ideal for year-round
-              programs, espresso blends, and high-volume specialty accounts.
+              programs, espresso blends, and high-volume specialty accounts. For current pricing benchmarks,
+              see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline hover:text-dark/60'>Ethiopian coffee FOB pricing guide</Link>.
             </p>
           </div>
         </div>
@@ -135,7 +137,10 @@ export default function LimuCoffeePage() {
       {/* Export Specifications */}
       <section className='py-16 bg-accent/5 border-y border-accent/10'>
         <div className='max-w-5xl mx-auto px-6'>
-          <h2 className='text-3xl font-extrabold text-dark mb-10 text-center'>Limu Export Specifications</h2>
+          <h2 className='text-3xl font-extrabold text-dark mb-4 text-center'>Limu Export Specifications</h2>
+          <p className='text-dark/60 text-center max-w-3xl mx-auto mb-10'>
+            Graded per <a href='https://www.ico.org/' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/90'>ICO</a> and ECX standards. See our <Link href='/coffee-grading-ethiopia' className='underline hover:text-dark/90'>Ethiopian coffee grading guide</Link> for full methodology.
+          </p>
           <div className='overflow-x-auto'>
             <table className='w-full text-sm border-collapse'>
               <thead>
@@ -249,11 +254,14 @@ export default function LimuCoffeePage() {
             Limu requirements with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
-              Contact Us for Pricing & Samples
+            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              View Current Offerings
             </Link>
-            <Link href='/offerings' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Browse Available Lots
+            <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              Request Samples
+            </Link>
+            <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              How to Order
             </Link>
           </div>
         </div>

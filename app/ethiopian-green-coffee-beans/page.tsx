@@ -14,7 +14,7 @@ const origins = [
     flavorNotes: 'Jasmine, bergamot, lemon, black tea, honey',
     body: 'Light, silky, tea-like',
     bestFor: 'Pour-over, filter, light-roast single origin',
-    link: '/product/yirgacheffe',
+    link: '/ethiopian-coffee-yirgacheffe',
   },
   {
     name: 'Sidamo (Sidama)',
@@ -25,7 +25,7 @@ const origins = [
     flavorNotes: 'Blueberry, strawberry, wine, dark chocolate, brown sugar',
     body: 'Medium, syrupy',
     bestFor: 'Single-origin espresso, cold brew, filter',
-    link: '/product/sidamo',
+    link: '/ethiopian-coffee-sidamo',
   },
   {
     name: 'Guji',
@@ -36,7 +36,7 @@ const origins = [
     flavorNotes: 'Peach, apricot, jasmine, honeysuckle, tropical',
     body: 'Heavy, syrupy, complex',
     bestFor: 'Competition-level roasts, high-end single origin',
-    link: '/product/guji',
+    link: '/ethiopian-coffee-guji',
   },
   {
     name: 'Harar',
@@ -47,7 +47,7 @@ const origins = [
     flavorNotes: 'Dried fruit, wine, dark chocolate, spice, mocha',
     body: 'Full, bold, rustic',
     bestFor: 'Espresso blends, mocha-style brewing, traditional roasts',
-    link: '/product/harar',
+    link: '/ethiopian-coffee-harar',
   },
   {
     name: 'Limu',
@@ -58,7 +58,7 @@ const origins = [
     flavorNotes: 'Lemon, grapefruit, wine, raw sugar, spice',
     body: 'Medium, balanced',
     bestFor: 'Versatile blending, approachable single origin',
-    link: '/product/limu',
+    link: '/ethiopian-coffee-limu',
   },
   {
     name: 'Lekempti (Wollega)',
@@ -126,7 +126,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
       <section className='container mx-auto px-4 py-16 lg:py-24'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>Why Ethiopian Green Coffee Beans?</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
-          Ethiopia is the birthplace of Arabica coffee. With over 10,000 indigenous heirloom varieties, 
+          Ethiopia is the birthplace of Arabica coffee. With over 10,000 indigenous <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline hover:text-dark/60'>heirloom varieties</Link>, 
           unmatched genetic diversity, and centuries of cultivation heritage, Ethiopian green coffee beans 
           offer flavour profiles impossible to replicate anywhere else on earth.
         </p>
@@ -136,7 +136,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
             { title: '10,000+ Heirloom Varieties', desc: 'Ethiopian coffee forests contain more genetic diversity than all other producing countries combined. This diversity creates the complex, multi-layered flavour profiles that specialty roasters prize.' },
             { title: 'Altitude: 1,400–2,300m', desc: 'Ethiopian coffee grows at some of the highest elevations in the world. High altitude means slower cherry maturation, denser beans, more complex sugars, and brighter acidity in the cup.' },
             { title: 'Washed, Natural & Honey', desc: 'Ethiopian exporters offer all three major processing methods. Washed for clarity and florals, natural for fruit intensity and body, honey for balanced sweetness - each creating distinct cup profiles.' },
-            { title: 'SCA 80–89+ Scores', desc: 'Ethiopian green coffees routinely score among the highest globally. Yirgacheffe, Guji, and Sidamo regularly appear in Cup of Excellence and Taste of Harvest competitions.' },
+            { title: 'SCA 80–89+ Scores', desc: 'Ethiopian green coffees routinely score among the highest globally. Yirgacheffe, Guji, and Sidamo regularly appear in Cup of Excellence and Taste of Harvest competitions. Learn more about how scoring works in our Ethiopian coffee grading guide.' },
             { title: 'Traceable & Transparent', desc: 'Modern Ethiopian exporters provide full traceability: washing station, farm/coop ID, lot number, harvest period, altitude, processing, and SCA cupping reports with every shipment.' },
           ].map((item, i) => (
             <article key={i} className='bg-white rounded-2xl p-8 shadow-sm border border-dark/5'>
@@ -152,8 +152,9 @@ export default function EthiopianGreenCoffeeBeansPage() {
         <div className='container mx-auto px-4'>
           <h2 className='text-4xl font-extrabold mb-4 text-center'>Ethiopian Green Coffee by Origin</h2>
           <p className='text-primary/70 text-center max-w-3xl mx-auto mb-12'>
-            Every Ethiopian coffee origin produces a distinctly different cup. Here&apos;s how they compare - 
-            helping you choose the right green beans for your roastery and customers.
+            Every Ethiopian coffee origin produces a distinctly different cup. Here&apos;s how they compare. 
+            For more detail, read our <Link href='/insights/guide-ethiopian-coffee-origins' className='text-accent hover:underline'>guide to Ethiopian coffee origins</Link> or 
+            see our <Link href='/coffee-grading-ethiopia' className='text-accent hover:underline'>grading system</Link> explained.
           </p>
           <div className='grid gap-8'>
             {origins.map((origin) => (
@@ -189,7 +190,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {[
             { step: '01', title: 'Sourcing & Cupping', desc: 'We source from our family estates and vetted partner farms across Yirgacheffe, Sidamo, Guji, Harar, Limu, and Lekempti. Every lot is cupped on SCA protocol by certified Q-graders.' },
-            { step: '02', title: 'Processing & Preparation', desc: 'Green beans are processed (washed, natural, or honey), hulled, sorted, and graded per Ethiopian Commodity Exchange (ECX) and ICO standards. Defect count verified.' },
+            { step: '02', title: 'Processing & Preparation', desc: 'Green beans are processed (washed, natural, or honey), hulled, sorted, and graded per Ethiopian Commodity Exchange (ECX) and International Coffee Organization (ICO) standards. Defect count verified.' },
             { step: '03', title: 'Packaging & Storage', desc: 'Packed in 60kg jute bags with GrainPro hermetic liners. Stored in climate-controlled warehouses in Addis Ababa until shipping. Moisture and water activity monitored.' },
             { step: '04', title: 'Shipping FOB Djibouti', desc: 'Full export documentation (ICO certificate, phytosanitary, certificate of origin, cupping report) prepared. Shipped via Djibouti port FOB or CIF to your destination.' },
           ].map((item) => (
@@ -238,6 +239,9 @@ export default function EthiopianGreenCoffeeBeansPage() {
             </Link>
             <Link href="/offerings" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
               VIEW CURRENT OFFERINGS
+            </Link>
+            <Link href="/ordering-info" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
+              HOW TO ORDER
             </Link>
           </div>
         </div>

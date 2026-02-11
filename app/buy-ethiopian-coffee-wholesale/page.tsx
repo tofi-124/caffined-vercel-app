@@ -62,9 +62,10 @@ export default function BuyWholesalePage() {
                 Buy Ethiopian Coffee Wholesale
               </h1>
               <p className='text-xl text-primary/90 mb-6'>
-                <strong>Buy Ethiopian coffee wholesale</strong> directly from Ethio Coffee Export PLC - a licensed, family-owned 
+              <strong>Buy Ethiopian coffee wholesale</strong> directly from Ethio Coffee Export PLC, a licensed, family-owned 
                 Ethiopian exporter. We supply specialty and commercial green coffee in full container loads, 
-                shipped FOB Djibouti to importers and roasters worldwide.
+                shipped FOB Djibouti to importers and roasters worldwide. For a detailed walkthrough of
+                <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline hover:text-primary/60'>how to source green coffee from Ethiopia</Link>, see our step-by-step guide.
               </p>
               <p className='text-primary/80 mb-8 max-w-[60ch]'>
                 Skip the middlemen. Get competitive pricing, pre-shipment samples, SCA cupping reports, 
@@ -97,8 +98,9 @@ export default function BuyWholesalePage() {
       <section className='container mx-auto px-4 py-16 lg:py-24'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>Who Buys Ethiopian Coffee Wholesale?</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
-          We work with businesses of all sizes - from single-origin micro-roasters to large-scale commercial importers. 
-          Whether you need 1 container a year or 20, we have the supply and systems to support you.
+          We work with businesses of all sizes, from single-origin micro-roasters to large-scale commercial importers. 
+          Whether you need 1 container a year or 20, we have the supply and systems to support you. For details on
+          order sizes, see our <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='underline hover:text-dark'>MOQ guide</Link>.
         </p>
         <div className='grid md:grid-cols-2 gap-8'>
           {buyerTypes.map((item, i) => (
@@ -119,7 +121,8 @@ export default function BuyWholesalePage() {
           <h2 className='text-4xl font-extrabold mb-4 text-center'>Wholesale Ethiopian Coffee Pricing Guide</h2>
           <p className='text-primary/70 text-center max-w-3xl mx-auto mb-12'>
             Indicative FOB Djibouti prices for current crop. Actual pricing depends on volume, contract type, 
-            and market conditions. <Link href="/contact-us" className='text-accent hover:underline'>Contact us</Link> for exact quotes.
+            and market conditions. See our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-accent hover:underline'>FOB pricing guide</Link> for 
+            historical benchmarks, or <Link href="/contact-us" className='text-accent hover:underline'>contact us</Link> for exact quotes.
           </p>
           <div className='overflow-x-auto'>
             <table className='w-full max-w-4xl mx-auto text-left'>
@@ -154,7 +157,8 @@ export default function BuyWholesalePage() {
       <section className='container mx-auto px-4 py-16 lg:py-24'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>How to Buy Ethiopian Coffee Wholesale: Step by Step</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
-          From first inquiry to coffee arrival at your warehouse - here&apos;s exactly how the wholesale ordering process works.
+          From first inquiry to coffee arrival at your warehouse. Here&apos;s exactly how the wholesale ordering process works.
+          For logistics detail, see our guide on <Link href='/insights/specialty-coffee-storage-freight-logistics' className='underline hover:text-dark'>coffee storage and freight logistics</Link>.
         </p>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {processSteps.map((item) => (
@@ -173,7 +177,7 @@ export default function BuyWholesalePage() {
           <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>Why Buy Wholesale Ethiopian Coffee from Ethio Coffee?</h2>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto'>
             {[
-              { icon: <HiOutlineShieldCheck className="w-8 h-8" />, title: 'Licensed Ethiopian Exporter', desc: 'We hold a valid Ethiopian coffee export license and operate from our office in Addis Ababa. Not a broker or trader - direct from origin.' },
+              { icon: <HiOutlineShieldCheck className="w-8 h-8" />, title: 'Licensed Ethiopian Exporter', desc: 'We hold a valid Ethiopian coffee export license issued by the Ethiopian Coffee and Tea Authority (ECTA) and operate from our office in Addis Ababa. Not a broker or trader; direct from origin.' },
               { icon: <HiOutlineBeaker className="w-8 h-8" />, title: 'SCA-Protocol Quality Control', desc: 'Every lot cupped by certified Q-graders on SCA protocol. Full cupping reports, moisture testing, defect analysis included with every shipment.' },
               { icon: <HiOutlineChatBubbleLeftRight className="w-8 h-8" />, title: '24-Hour Response Time', desc: 'Based in Ethiopia and Canada, our dual-timezone team ensures fast communication. Inquiries answered within 24 hours, always.' },
               { icon: <HiOutlineDocumentCheck className="w-8 h-8" />, title: 'Complete Documentation', desc: 'ICO certificates, phytosanitary, certificate of origin, weight & quality certificates - all export paperwork handled end-to-end.' },

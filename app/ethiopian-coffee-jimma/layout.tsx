@@ -47,7 +47,7 @@ const faqSchema = {
       name: 'What does Jimma coffee taste like?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Jimma coffee has an earthy, robust flavor profile with notes of dark chocolate, tobacco, grain, and mild spice. It has low acidity, a full heavy body, and a clean finish. While not as complex as specialty origins like Yirgacheffe or Guji, Jimma\'s consistent, neutral-to-chocolatey character makes it an excellent base for espresso blends and instant coffee production.'
+        text: 'Jimma coffee has an earthy, full-bodied flavor profile with notes of dark chocolate, tobacco, grain, and mild spice. It has low acidity, a heavy body, and a clean finish. While not as complex as specialty origins like Yirgacheffe or Guji, Jimma\'s consistent, neutral-to-chocolatey character makes it an excellent base for espresso blends and instant coffee production.'
       }
     },
     {
