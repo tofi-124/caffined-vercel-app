@@ -62,6 +62,7 @@ const readingTimeMap: Record<string, number> = {
   'specialty-coffee-trends-2026': 12,
   'ethiopian-coffee-climate-change-impact': 26,
   'women-in-ethiopian-coffee-industry': 18,
+  'how-altitude-terroir-shape-ethiopian-coffee': 20,
 }
 
 function getReadingTime(slug: string): number {

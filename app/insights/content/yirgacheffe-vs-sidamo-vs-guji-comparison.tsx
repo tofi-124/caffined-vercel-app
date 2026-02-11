@@ -192,6 +192,15 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
       <p className='my-4'>
         Many successful roasteries carry 2-3 Ethiopian origins to offer variety to their customers. A common approach:
       </p>
+
+      <p className='my-4'>
+        One factor that drives the differences between all three regions is altitude.
+        Guji&apos;s higher elevations produce denser beans with more complex acidity, while Sidama&apos;s broader range creates its internal diversity.
+        For a full breakdown of how elevation and soil shape flavor, see our article on{' '}
+        <Link href='/insights/how-altitude-terroir-shape-ethiopian-coffee' className='underline font-bold'>
+          altitude and terroir in Ethiopian coffee
+        </Link>.
+      </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
         <li className='my-2'><span className='font-bold'>Core offering:</span> Washed Yirgacheffe (the accessible classic)</li>
         <li className='my-2'><span className='font-bold'>Seasonal rotation:</span> Natural Sidamo (for fruit lovers)</li>

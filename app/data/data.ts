@@ -11,6 +11,43 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== TERROIR & ALTITUDE =====
+    {
+      small_image_url: 'insights/altitude-terroir-ethiopian-coffee.webp',
+      large_image_url: 'insights/altitude-terroir-ethiopian-coffee.webp',
+      date: 'Feb 12, 2026',
+      title: 'HOW ALTITUDE AND TERROIR SHAPE ETHIOPIAN COFFEE FLAVOR',
+      slug: 'how-altitude-terroir-shape-ethiopian-coffee',
+      category: 'Coffee Science / Terroir / Sourcing Guide',
+      keywords: [
+        'coffee altitude flavor',
+        'coffee terroir',
+        'high altitude coffee',
+        'ethiopian highland coffee',
+        'altitude effect on coffee',
+        'coffee elevation',
+        'strictly high grown coffee',
+        'coffee bean density altitude',
+        'coffee acidity altitude',
+        'terroir coffee meaning',
+        'ethiopian coffee growing altitude',
+        'coffee soil type flavor',
+        'yirgacheffe altitude',
+        'guji altitude coffee',
+        'sidama altitude coffee',
+        'diurnal temperature coffee',
+        'shade grown coffee altitude',
+        'volcanic soil coffee',
+        'coffee cherry ripening altitude',
+        'high elevation arabica',
+        'ethiopian coffee elevation guide',
+        'coffee altitude cupping score',
+        'altitude processing interaction coffee',
+        'green coffee altitude sourcing',
+        'ethiopian coffee terroir guide'
+      ],
+      desc: 'Altitude and terroir drive Ethiopian coffee flavor. Learn how elevation shapes bean density, acidity, and aromatics, and how to use terroir data for smarter sourcing.'
+    },
     // ===== GENDER & SOCIAL IMPACT =====
     {
       small_image_url: 'insights/women-ethiopian-coffee.webp',

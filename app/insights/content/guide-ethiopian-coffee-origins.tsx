@@ -142,6 +142,14 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
         The best suppliers can share not only the region, but also the washing station/cooperative, processing details, and consistency expectations.
       </p>
 
+      <p className='my-4'>
+        Beyond region names, the altitude and terroir of each origin play a decisive role in flavor.
+        For a deeper look at why elevation, soil, and climate matter for sourcing, read our guide on{' '}
+        <Link href='/insights/how-altitude-terroir-shape-ethiopian-coffee' className='underline font-bold'>
+          how altitude and terroir shape Ethiopian coffee flavor
+        </Link>.
+      </p>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <p className='my-2 font-medium'>
           Want help choosing the right Ethiopian origin for your menu or roasting goals?
