@@ -16,7 +16,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/women-ethiopian-coffee.webp',
       large_image_url: 'insights/women-ethiopian-coffee.webp',
       date: 'Feb 11, 2026',
-      title: 'THE ROLE OF WOMEN IN ETHIOPIAN COFFEE: FROM FARM TO EXPORT',
+      title: 'Women in Ethiopian Coffee: Farm to Export',
       slug: 'women-in-ethiopian-coffee-industry',
       category: 'Gender & Social Impact / Supply Chain / Sourcing',
       keywords: [
@@ -56,7 +56,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-climate-change.webp',
       large_image_url: 'insights/ethiopian-coffee-climate-change.webp',
       date: 'Feb 10, 2026',
-      title: 'ETHIOPIAN COFFEE AND CLIMATE CHANGE: HOW GLOBAL WARMING IS RESHAPING ETHIOPIA\'S COFFEE REGIONS',
+      title: 'Ethiopian Coffee and Climate Change Impact',
       slug: 'ethiopian-coffee-climate-change-impact',
       category: 'Climate & Sustainability / Supply Chain Risk',
       keywords: [
@@ -90,7 +90,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/rising-coffee-prices-2.webp',
       large_image_url: 'insights/rising-coffee-prices-2.webp',
       date: 'Feb 09, 2026',
-      title: 'ETHIOPIAN COFFEE PRICING FOR IMPORTERS: FOB COSTS, DIFFERENTIALS, AND WHAT DRIVES THE NUMBERS',
+      title: 'Ethiopian Coffee Pricing for Importers',
       slug: 'ethiopian-coffee-pricing-fob-guide',
       category: 'Trade Guidance / Pricing / Importers',
       keywords: [
@@ -124,7 +124,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-importers-2024-2025.webp',
       large_image_url: 'insights/ethiopian-coffee-importers-2024-2025.webp',
       date: 'Jan 25, 2025',
-      title: 'TOP ETHIOPIAN COFFEE IMPORTERS AND BUYERS 2024/2025: COMPLETE MARKET ANALYSIS',
+      title: 'Top Ethiopian Coffee Importers 2024/2025',
       slug: 'top-ethiopian-coffee-importers-buyers-2024-2025',
       category: 'Market Intelligence / Trade Data',
       keywords: [
@@ -162,7 +162,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/launch.webp',
       large_image_url: 'insights/launch.webp',
       date: 'Jan 01, 2022',
-      title: 'ETHIO COFFEE LAUNCHES: YOUR TRUSTED ETHIOPIAN EXPORT PARTNER',
+      title: 'Ethio Coffee: Your Ethiopian Export Partner',
       slug: 'ethio-coffee-export-launch',
       category: 'Company News',
       keywords: [
@@ -182,7 +182,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-exporter-2025.webp',
       large_image_url: 'insights/ethiopian-coffee-exporter-2025.webp',
       date: 'Jan 15, 2025',
-      title: 'BEST ETHIOPIAN COFFEE EXPORTER FOR IMPORTERS WORLDWIDE',
+      title: 'Best Ethiopian Coffee Exporter Worldwide',
       slug: 'best-ethiopian-coffee-exporter-for-importers',
       category: 'Company / Sourcing',
       keywords: [
@@ -246,7 +246,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/cofee-blog-2-1.png',
       large_image_url: 'insights/cofee-blog-2-2.jpg',
       date: 'Jun 15, 2025',
-      title: 'ETHIOPIAN COFFEE CEREMONIES: TRADITION MEETS BUSINESS',
+      title: 'Ethiopian Coffee Ceremonies & Tradition',
       slug: 'ethiopian-coffee-ceremony',
       category: 'Coffee Culture & Heritage',
       keywords: ['Ethiopian coffee ceremony', 'jebena', 'coffee culture', 'traditional brewing', 'coffee hospitality'],
@@ -256,7 +256,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/cofee-blog-7-1.png',
       large_image_url: 'insights/cofee-blog-7-2.jpg',
       date: 'Jul 01, 2025',
-      title: 'DIRECT TRADE PARTNERSHIPS: SUPPORTING ETHIOPIAN FARMERS',
+      title: 'Direct Trade: Supporting Ethiopian Farmers',
       slug: 'direct-trade-ethiopian-farmers',
       category: 'Coffee Culture & Heritage',
       keywords: ['direct trade coffee', 'Ethiopian farmers', 'fair trade', 'coffee sourcing', 'farmer partnerships'],
@@ -266,7 +266,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-logistics-freight.webp',
       large_image_url: 'insights/coffee-logistics-freight.webp',
       date: 'Jan 12, 2026',
-      title: 'THE SCIENCE OF SPECIALTY COFFEE STORAGE DURING SEA FREIGHT',
+      title: 'Specialty Coffee Storage in Sea Freight',
       slug: 'specialty-coffee-storage-freight-logistics',
       category: 'Logistics / Quality Control',
       id: 5,
@@ -299,7 +299,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-plant-taxonomy.webp',
       large_image_url: 'insights/coffee-plant-taxonomy.webp',
       date: 'Jul 15, 2025',
-      title: 'COFFEE IS A PLANT: UNDERSTANDING TAXONOMY, SPECIES & VARIETIES',
+      title: 'Coffee as a Plant: Taxonomy & Varieties',
       slug: 'coffee-plant-taxonomy-species-varieties',
       category: 'Coffee Education',
       keywords: [
@@ -322,7 +322,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-agriculture.webp',
       large_image_url: 'insights/coffee-agriculture.webp',
       date: 'Aug 01, 2025',
-      title: 'COFFEE IS AGRICULTURE: THE COMPLETE GUIDE TO COFFEE PRODUCTION AND FARMING',
+      title: 'Coffee Agriculture: Production & Farming',
       slug: 'coffee-is-agriculture-production-farming',
       category: 'Coffee Education',
       keywords: [
@@ -346,7 +346,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-processing.webp',
       large_image_url: 'insights/coffee-processing.webp',
       date: 'Aug 15, 2025',
-      title: 'COFFEE IS A PROCESS: THE COMPLETE GUIDE TO COFFEE PROCESSING, DRYING, AND MILLING',
+      title: 'Coffee Processing, Drying, and Milling',
       slug: 'coffee-is-processing-drying-milling',
       category: 'Coffee Education',
       keywords: [
@@ -369,7 +369,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-commerce.webp',
       large_image_url: 'insights/coffee-commerce.webp',
       date: 'Sep 01, 2025',
-      title: 'COFFEE IS COMMERCE: THE COMPLETE GUIDE TO COFFEE EXPORTING, IMPORTING, AND BUYING',
+      title: 'Coffee Commerce: Exporting & Importing',
       slug: 'coffee-is-commerce-exporting-importing-buying',
       category: 'Coffee Education',
       keywords: [
@@ -392,7 +392,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-science.webp',
       large_image_url: 'insights/coffee-science.webp',
       date: 'Sep 15, 2025',
-      title: 'COFFEE IS A SCIENCE: THE COMPLETE GUIDE TO COFFEE ANALYSIS, COMPOUNDS, AND EVALUATION',
+      title: 'Coffee Science: Analysis & Evaluation',
       slug: 'coffee-is-science-analysis-compounds-evaluation',
       category: 'Coffee Education',
       keywords: [
@@ -415,7 +415,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-art.webp',
       large_image_url: 'insights/coffee-art.webp',
       date: 'Oct 01, 2025',
-      title: 'COFFEE IS AN ART: THE COMPLETE GUIDE TO COFFEE ROASTING AND BREWING',
+      title: 'Coffee Art: Roasting and Brewing Guide',
       slug: 'coffee-is-art-roasting-brewing',
       category: 'Coffee Education',
       keywords: [
@@ -438,7 +438,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-education-guide.webp',
       large_image_url: 'insights/coffee-education-guide.webp',
       date: 'Oct 15, 2025',
-      title: 'THE COMPLETE GUIDE TO UNDERSTANDING COFFEE: FROM SEED TO CUP',
+      title: 'Understanding Coffee: From Seed to Cup',
       slug: 'complete-guide-to-understanding-coffee',
       category: 'Coffee Education / Complete Guide',
       keywords: [
@@ -482,7 +482,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/sidama-coffee-production.webp',
       large_image_url: 'insights/sidama-coffee-production.webp',
       date: 'Oct 20, 2025',
-      title: 'SIDAMA REGION COFFEE PRODUCTION: ACHIEVING 10+ QUINTALS PER HECTARE & NEW EXPORT OPPORTUNITIES',
+      title: 'Sidama Coffee: 10+ Quintals Per Hectare',
       slug: 'sidama-coffee-production-productivity-export',
       category: 'Regional Production / Sidama Coffee / Farmer Cooperatives',
       keywords: [
@@ -550,7 +550,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/Ethiopia_Coffee_Map.png',
       large_image_url: 'insights/Ethiopia_Coffee_Map.png',
       date: 'Nov 15, 2025',
-      title: 'A PRACTICAL GUIDE TO ETHIOPIAN GREEN COFFEE ORIGINS',
+      title: 'Guide to Ethiopian Green Coffee Origins',
       slug: 'guide-ethiopian-coffee-origins',
       category: 'Sourcing Guide',
       keywords: ['Ethiopian coffee regions', 'Yirgacheffe', 'Sidamo', 'Guji', 'green coffee buying guide', 'coffee traceability'],
@@ -560,7 +560,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/yirgacheffe-vs-sidamo.webp',
       large_image_url: 'insights/yirgacheffe-vs-sidamo.webp',
       date: 'Nov 20, 2025',
-      title: 'YIRGACHEFFE VS SIDAMO VS GUJI: WHICH ETHIOPIAN COFFEE IS RIGHT FOR YOU?',
+      title: 'Yirgacheffe vs Sidamo vs Guji Compared',
       slug: 'yirgacheffe-vs-sidamo-vs-guji-comparison',
       category: 'Coffee Profiles',
       keywords: [
@@ -579,7 +579,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/washed-vs-natural.webp',
       large_image_url: 'insights/washed-vs-natural.webp',
       date: 'Nov 25, 2025',
-      title: 'WASHED VS NATURAL PROCESSED ETHIOPIAN COFFEE: WHAT ROASTERS NEED TO KNOW',
+      title: 'Washed vs Natural Ethiopian Coffee',
       slug: 'washed-vs-natural-ethiopian-coffee-processing',
       category: 'Processing Methods',
       keywords: [
@@ -598,7 +598,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-quality-defects.webp',
       large_image_url: 'insights/coffee-quality-defects.webp',
       date: 'Dec 01, 2025',
-      title: 'GREEN COFFEE QUALITY CONTROL: DEFECTS, GRADING SYSTEMS & WHAT IMPORTERS SHOULD INSPECT',
+      title: 'Green Coffee Quality: Defects & Grading',
       slug: 'green-coffee-quality-control-defects-grading',
       category: 'Quality & Sourcing',
       keywords: [
@@ -625,7 +625,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/dry-coffee-processing-ethiopia.webp',
       large_image_url: 'insights/dry-coffee-processing-ethiopia.webp',
       date: 'Dec 05, 2025',
-      title: 'ETHIOPIAN DRY COFFEE PRODUCTION: COMPLETE QUALITY CONTROL & PROCESSING GUIDE FOR EXPORTERS',
+      title: 'Ethiopian Dry Coffee: QC & Processing',
       slug: 'ethiopian-dry-coffee-production-quality-control',
       category: 'Quality Control / Processing Standards / Ethiopian Coffee',
       keywords: [
@@ -672,7 +672,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-cupping-quality.webp',
       large_image_url: 'insights/coffee-cupping-quality.webp',
       date: 'Dec 08, 2025',
-      title: 'THE NEW SCA COFFEE VALUE ASSESSMENT: BEYOND THE 100-POINT CUPPING SCORE',
+      title: 'SCA Coffee Value Assessment Explained',
       slug: 'new-sca-coffee-value-assessment',
       category: 'Quality & Grading / Industry Standards',
       keywords: [
@@ -707,7 +707,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ecx-coffee-export.webp',
       large_image_url: 'insights/ecx-coffee-export.webp',
       date: 'Dec 15, 2025',
-      title: 'THE ETHIOPIA COMMODITY EXCHANGE (ECX) AND ETHIOPIAN COFFEE EXPORT',
+      title: 'ECX and Ethiopian Coffee Export Guide',
       slug: 'ecx-and-ethiopian-coffee-export',
       category: 'Coffee Trade & Export',
       keywords: [
@@ -734,7 +734,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/moq-ethiopian-coffee.webp',
       large_image_url: 'insights/moq-ethiopian-coffee.webp',
       date: 'Jan 06, 2026',
-      title: 'MINIMUM ORDER QUANTITIES (MOQ) FOR ETHIOPIAN GREEN COFFEE: WHAT IMPORTERS NEED TO KNOW',
+      title: 'Ethiopian Coffee MOQ Guide for Importers',
       slug: 'minimum-order-quantities-ethiopian-coffee-moq',
       category: 'Coffee Trade & Import Guide',
       keywords: [
@@ -767,7 +767,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/usa-coffee-import.webp',
       large_image_url: 'insights/usa-coffee-import.webp',
       date: 'Dec 20, 2025',
-      title: 'HOW TO IMPORT ETHIOPIAN SPECIALTY COFFEE TO THE UNITED STATES: COMPLETE GUIDE',
+      title: 'Import Ethiopian Coffee to the USA',
       slug: 'how-to-import-ethiopian-coffee-to-usa',
       category: 'Import Guide / US Market',
       keywords: [
@@ -794,7 +794,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/canada-coffee-import.webp',
       large_image_url: 'insights/canada-coffee-import.webp',
       date: 'Dec 22, 2025',
-      title: 'IMPORTING ETHIOPIAN SPECIALTY COFFEE TO CANADA: THE COMPLETE PRACTICAL GUIDE',
+      title: 'Import Ethiopian Coffee to Canada',
       slug: 'importing-ethiopian-coffee-to-canada-guide',
       category: 'Import Guide / Canadian Market',
       keywords: [
@@ -823,7 +823,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/germany-coffee-import.webp',
       large_image_url: 'insights/germany-coffee-import.webp',
       date: 'Dec 26, 2025',
-      title: 'IMPORTING ETHIOPIAN COFFEE TO GERMANY: COMPLETE EU MARKET ENTRY GUIDE',
+      title: 'Import Ethiopian Coffee to Germany',
       slug: 'importing-ethiopian-coffee-to-germany',
       category: 'Import Guide / Germany & EU Market',
       keywords: [
@@ -851,7 +851,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/rotterdam-coffee-import.webp',
       large_image_url: 'insights/rotterdam-coffee-import.webp',
       date: 'Dec 28, 2025',
-      title: 'IMPORTING ETHIOPIAN COFFEE TO THE NETHERLANDS: ROTTERDAM GUIDE',
+      title: 'Import Ethiopian Coffee to Netherlands',
       slug: 'importing-ethiopian-coffee-to-holland',
       category: 'Import Guide / Netherlands & EU Market',
       keywords: [
@@ -875,7 +875,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/saudi-coffee-import.webp',
       large_image_url: 'insights/saudi-coffee-import.webp',
       date: 'Jan 02, 2026',
-      title: 'HOW TO IMPORT ETHIOPIAN COFFEE TO SAUDI ARABIA: COMPLETE KSA IMPORT GUIDE',
+      title: 'Import Ethiopian Coffee to Saudi Arabia',
       slug: 'importing-ethiopian-coffee-to-saudi-arabia',
       category: 'Import Guide / Saudi Arabia Market',
       keywords: [
@@ -903,7 +903,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/uae-coffee-import.webp',
       large_image_url: 'insights/uae-coffee-import.webp',
       date: 'Jan 04, 2026',
-      title: 'IMPORTING ETHIOPIAN COFFEE TO UAE: COMPLETE DUBAI IMPORT GUIDE',
+      title: 'Import Ethiopian Coffee to the UAE',
       slug: 'importing-ethiopian-coffee-to-uae',
       category: 'Import Guide / UAE Market',
       keywords: [
@@ -932,7 +932,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/uk-coffee-import.webp',
       large_image_url: 'insights/uk-coffee-import.webp',
       date: 'Jan 08, 2026',
-      title: 'IMPORTING ETHIOPIAN COFFEE TO UK: COMPLETE POST-BREXIT GUIDE',
+      title: 'Import Ethiopian Coffee to the UK',
       slug: 'importing-ethiopian-coffee-to-uk',
       category: 'Import Guide / UK Market',
       keywords: [
@@ -964,7 +964,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/australia-coffee-import.webp',
       large_image_url: 'insights/australia-coffee-import.webp',
       date: 'Jan 09, 2026',
-      title: 'IMPORTING ETHIOPIAN COFFEE TO AUSTRALIA: COMPLETE BIOSECURITY & CUSTOMS GUIDE',
+      title: 'Import Ethiopian Coffee to Australia',
       slug: 'importing-ethiopian-coffee-to-australia',
       category: 'Import Guide / Australian Market',
       keywords: [
@@ -996,7 +996,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/south-korea-coffee-import.webp',
       large_image_url: 'insights/south-korea-coffee-import.webp',
       date: 'Jan 10, 2026',
-      title: 'IMPORTING ETHIOPIAN COFFEE TO SOUTH KOREA: COMPLETE MARKET GUIDE',
+      title: 'Import Ethiopian Coffee to South Korea',
       slug: 'importing-ethiopian-coffee-to-south-korea',
       category: 'Import Guide / South Korea Market',
       keywords: [
@@ -1027,7 +1027,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/japan-coffee-import.webp',
       large_image_url: 'insights/japan-coffee-import.webp',
       date: 'Jan 05, 2026',
-      title: 'IMPORTING ETHIOPIAN COFFEE TO JAPAN: COMPLETE MARKET ENTRY GUIDE',
+      title: 'Import Ethiopian Coffee to Japan',
       slug: 'importing-ethiopian-coffee-to-japan',
       category: 'Import Guide / Japan Market',
       keywords: [
@@ -1056,7 +1056,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopia-china-coffee-trade.webp',
       large_image_url: 'insights/ethiopia-china-coffee-trade.webp',
       date: 'Nov 10, 2025',
-      title: 'ETHIOPIA-CHINA COFFEE TRADE PARTNERSHIP: FROM 33RD TO 4TH LARGEST EXPORT DESTINATION',
+      title: 'Ethiopia-China Coffee Trade Partnership',
       slug: 'ethiopia-china-coffee-trade-partnership',
       category: 'Market Analysis / China Coffee Market / Trade Relations',
       keywords: [
@@ -1103,7 +1103,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-harvest-2025.webp',
       large_image_url: 'insights/ethiopian-harvest-2025.webp',
       date: 'Jan 07, 2026',
-      title: 'ETHIOPIAN COFFEE HARVEST 2025: SEASON OUTLOOK, QUALITY EXPECTATIONS & BUYER PLANNING GUIDE',
+      title: 'Ethiopian Coffee Harvest 2025 Outlook',
       slug: 'ethiopian-coffee-harvest-2025-season-outlook',
       category: 'Market Insights / Harvest Reports',
       keywords: [
@@ -1152,7 +1152,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/cofee-blog-3-1.png',
       large_image_url: 'insights/cofee-blog-3-1.png',
       date: 'Jan 18, 2026',
-      title: 'THE FUTURE IS FLORAL: 5 SPECIALTY COFFEE TRENDS DEFINING 2026',
+      title: '5 Specialty Coffee Trends Defining 2026',
       slug: 'specialty-coffee-trends-2026',
       category: 'Market Insights / Sourcing',
       keywords: ['specialty coffee trends', '2026 coffee trends', 'experimental processing', 'hyper-traceability', 'Ethiopian specialty coffee'],
@@ -1162,7 +1162,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/rising-coffee-prices.webp',
       large_image_url: 'insights/rising-coffee-prices.webp',
       date: 'Jan 22, 2026',
-      title: 'THE STORY BEHIND RISING ETHIOPIAN COFFEE PRICES: COMPREHENSIVE MARKET ANALYSIS',
+      title: 'Rising Ethiopian Coffee Prices Explained',
       slug: 'rising-ethiopian-coffee-prices-explained',
       category: 'Market Analysis / Coffee Economics / Price Trends',
       keywords: [
@@ -1210,7 +1210,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/eu-deforestation-regulation.webp',
       large_image_url: 'insights/eu-deforestation-regulation.webp',
       date: 'Jan 28, 2026',
-      title: 'EU DEFORESTATION REGULATION (EUDR) AND ETHIOPIAN COFFEE: COMPLETE COMPLIANCE GUIDE FOR EXPORTERS',
+      title: 'EUDR and Ethiopian Coffee Compliance',
       slug: 'eu-deforestation-regulation-ethiopian-coffee-compliance',
       category: 'Regulations & Compliance',
       keywords: [
@@ -1305,7 +1305,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-certifications.webp',
       large_image_url: 'insights/ethiopian-coffee-certifications.webp',
       date: 'Jan 31, 2026',
-      title: 'ETHIOPIAN COFFEE CERTIFICATIONS GUIDE: ORGANIC, FAIR TRADE, RAINFOREST ALLIANCE & MORE',
+      title: 'Ethiopian Coffee Certifications Guide',
       slug: 'ethiopian-coffee-certifications-organic-fairtrade-rainforest',
       category: 'Certifications & Sustainability / Sourcing Guide',
       keywords: [
@@ -1353,7 +1353,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-heirloom-varieties.webp',
       large_image_url: 'insights/ethiopian-heirloom-varieties.webp',
       date: 'Feb 03, 2026',
-      title: 'HEIRLOOM ETHIOPIAN COFFEE VARIETIES: COMPLETE GUIDE TO ETHIOPIAN LANDRACES',
+      title: 'Heirloom Ethiopian Coffee Varieties',
       slug: 'ethiopian-heirloom-coffee-varieties-landraces',
       category: 'Coffee Genetics / Ethiopian Coffee / Sourcing Guide',
       keywords: [
@@ -1401,7 +1401,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-invest.webp',
       large_image_url: 'insights/coffee-invest.webp',
       date: 'Feb 02, 2026',
-      title: 'THE BENEFITS OF INVESTING IN ETHIOPIAN COFFEE PRODUCTION: A COMPREHENSIVE INVESTMENT GUIDE',
+      title: 'Investing in Ethiopian Coffee Production',
       slug: 'benefits-investing-ethiopian-coffee-production',
       category: 'Investment Opportunities / Coffee Business',
       keywords: [
@@ -1453,7 +1453,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-specialty-exporters-2026.webp',
       large_image_url: 'insights/ethiopian-specialty-exporters-2026.webp',
       date: 'Feb 04, 2026',
-      title: 'NAVIGATING THE 2026 LANDSCAPE FOR ETHIOPIAN SPECIALTY COFFEE EXPORTERS',
+      title: '2026 Ethiopian Specialty Coffee Exporters',
       slug: 'navigating-2026-ethiopian-specialty-coffee-exporters',
       category: 'Export / Specialty Coffee / Market Trends',
       keywords: [
@@ -1514,7 +1514,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/private-cooperative-exporters.webp',
       large_image_url: 'insights/private-cooperative-exporters.webp',
       date: 'Feb 05, 2026',
-      title: 'PRIVATE VS. COOPERATIVE COFFEE EXPORTERS: A STRATEGIC GUIDE FOR SOURCING ETHIOPIAN ARABICA IN 2026',
+      title: 'Private vs Cooperative Coffee Exporters',
       slug: 'private-vs-cooperative-ethiopian-coffee-exporters',
       category: 'Export / Sourcing Strategy / Market Analysis',
       keywords: [
@@ -1576,7 +1576,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-cupping-evaluation.webp',
       large_image_url: 'insights/coffee-cupping-evaluation.webp',
       date: 'Feb 06, 2026',
-      title: 'HOW TO CUP AND EVALUATE ETHIOPIAN COFFEE SAMPLES: COMPLETE GUIDE FOR IMPORTERS',
+      title: 'Cup & Evaluate Ethiopian Coffee Samples',
       slug: 'how-to-cup-evaluate-ethiopian-coffee-samples',
       category: 'Quality Control / Cupping Guide / Importer Resources',
       keywords: [
@@ -1623,7 +1623,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/coffee-cupping-learn.webp',
       large_image_url: 'insights/coffee-cupping-learn.webp',
       date: 'Jan 23, 2026',
-      title: 'The Best Cupping Schools: How to Choose Training That Improves Your Palate and Career',
+      title: 'Best Cupping Schools for Coffee Training',
       slug: 'best-cupping-school',
       category: 'Coffee Education / Cupping Training',
       keywords: [
@@ -1641,7 +1641,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/top-premium-coffee-exporters.webp',
       large_image_url: 'insights/top-premium-coffee-exporters.webp',
       date: 'Feb 01, 2026',
-      title: 'TOP COFFEE EXPORTERS IN THE WORLD: WHAT MAKES A PREMIUM COFFEE EXPORTER STAND OUT',
+      title: 'Top Coffee Exporters in the World',
       slug: 'top-premium-coffee-exporters-global-guide',
       category: 'Market Intelligence / Sourcing Guide / Global Coffee Trade',
       keywords: [

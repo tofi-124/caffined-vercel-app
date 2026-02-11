@@ -11,7 +11,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'ethiopia-coffee-production-foreign-exchange',
     date: '2026-01-01',
-    title: 'Ethiopian Coffee Production Drives Record Export Earnings',
+    title: 'Ethiopian Coffee Drives Record Earnings',
     desc: 'Ethiopia is boosting coffee export competitiveness through improved varieties and modern technologies, driving record productivity and foreign exchange earnings from the sector.',
     source: 'Ethiopian Coffee and Tea Authority',
     keywords: 'Ethiopian coffee production, Ethiopian coffee export, coffee foreign exchange earnings, Ethiopian coffee exporter, coffee export revenue Ethiopia, Ethiopian green coffee beans, coffee productivity Ethiopia',
@@ -19,7 +19,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'ecta-folur-workshop',
     date: '2026-01-02',
-    title: 'Ethiopian Coffee Value Chain Research Workshop Held',
+    title: 'Ethiopian Coffee Value Chain Workshop',
     desc: 'ECTA and partners convened a consultative workshop in Bishoftu to refine research proposals on climate risk, gender, and technology in the Ethiopian coffee export supply chain.',
     source: 'ECTA',
     keywords: 'Ethiopian coffee supply chain, Ethiopian coffee export quality, coffee value chain Ethiopia, Ethiopian Coffee and Tea Authority, climate resilient coffee, Ethiopian coffee exporter, coffee research Ethiopia',
@@ -43,7 +43,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'premium-price-international-standards',
     date: '2026-01-05',
-    title: 'Ethiopian Coffee Earns Premium via Global Standards',
+    title: 'Ethiopian Coffee Earns Premium Pricing',
     desc: 'A workshop confirmed Ethiopia can secure premium coffee prices by meeting international standards and pursuing GI and IP-based strategies for specialty Ethiopian coffee exports.',
     source: 'Ethiopian Coffee and Tea Authority',
     keywords: 'Ethiopian specialty coffee export, Ethiopian coffee premium price, Ethiopian coffee quality, coffee international standards, geographical indication coffee, Ethiopian coffee GI certification, buy Ethiopian coffee wholesale',
@@ -59,7 +59,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'tea-seedling-training-gewata',
     date: '2026-02-08',
-    title: 'Ethiopian Coffee & Tea: Gewata Cultivation Training',
+    title: 'Ethiopian Coffee & Tea: Gewata Training',
     desc: 'Ethiopia’s Coffee, Tea and Spices Authority delivers cultivation training in Gewata Woreda, Kafa Zone - strengthening the broader Ethiopian beverage export sector alongside coffee.',
     source: 'ECTA',
     keywords: 'Ethiopian coffee and tea, Ethiopian beverage export, Ethiopian coffee export, Kafa Zone coffee, ECTA tea training, Ethiopian coffee exporter, tea cultivation Ethiopia, rural transformation',
@@ -67,7 +67,7 @@ export const newsArticles: NewsArticle[] = [
    {
     slug: 'rename-coffee-arabica-ethiopian-coffee',
     date: '2026-02-06',
-    title: 'Rename Coffee Arabica to Ethiopian Coffee - Researcher',
+    title: 'Rename Arabica to Ethiopian Coffee?',
     desc: 'A researcher argues "Coffee Arabica" should be renamed "Ethiopian Coffee" to honor Ethiopia’s scientifically proven status as the birthplace and origin of Arabica coffee worldwide.',
     source: 'Gazette Plus',
     keywords: 'Ethiopian Arabica coffee, coffee origin Ethiopia, Coffee Arabica origin, Ethiopian coffee history, coffee birthplace Ethiopia, Ethiopian coffee heritage, Ethiopian coffee exporter',
@@ -75,7 +75,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'coffee-exports-first-half-2018',
     date: '2026-02-08',
-    title: 'Ethiopian Coffee Exports Hit $1.345B in Six Months',
+    title: 'Ethiopian Coffee Exports Hit $1.345B',
     desc: 'The Ethiopian Coffee and Tea Authority reported $1.345 billion in coffee export earnings in six months of 2018 E.C., with digitalization and expanded market destinations as key drivers.',
     source: 'EZA',
     keywords: 'Ethiopian coffee export earnings, Ethiopian coffee exporter, Ethiopian coffee trade data, coffee export revenue Ethiopia, billion dollar coffee export, Ethiopian green coffee beans, ECTA report',
@@ -92,7 +92,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'government-support-coffee-competitiveness',
     date: '2026-02-10',
-    title: 'Ethiopian Coffee Exports Surge on Government Support',
+    title: 'Ethiopian Coffee Exports Surge in 2026',
     desc: 'Ethiopian coffee exporters confirm that government support has significantly increased global competitiveness and demand for Ethiopian coffee, driving record export earnings of $2.65 billion.',
     source: 'EZA',
     keywords: 'Ethiopian coffee export growth, Ethiopian coffee exporter, Ethiopian coffee competitiveness, Ethiopian coffee global market, buy Ethiopian coffee wholesale, Ethiopian coffee demand, government coffee support Ethiopia',
@@ -100,7 +100,7 @@ export const newsArticles: NewsArticle[] = [
   {
     slug: 'eu-acknowledges-tangible-progress-deforestation-rules',
     date: '2026-02-04',
-    title: 'EU Confirms Ethiopian Coffee EUDR Compliance Progress',
+    title: 'Ethiopian Coffee EUDR Compliance Progress',
     desc: 'The European Union confirms Ethiopia’s coffee sector is making tangible progress on EUDR deforestation-free requirements, with advances in digital traceability and land registration systems.',
     source: 'Yared Seyoum',
     keywords: 'EUDR Ethiopian coffee, EU coffee import from Ethiopia, Ethiopian coffee export compliance, EU deforestation regulation coffee, Ethiopian coffee traceability, Ethiopian coffee exporter, deforestation free coffee',
