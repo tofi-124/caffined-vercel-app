@@ -36,10 +36,11 @@ const PartnerCard = ({ placeAndLocation, lang }: Partner) => {
       
 const Testimonials = () => {
   const partners: Partner[] = [
-    { placeAndLocation: 'النملة للتجارة والخدمات , جدة', lang: 'ar' },
-    { placeAndLocation: 'VIDYA GLOBAL, UAE' },
-    { placeAndLocation: 'ؤسسة المستنير للتجارة الدولية , جدة ', lang: 'ar' },
-    { placeAndLocation: 'ZHONG YUN SUPPLY CHAIN MANAGEMENT SDN BHD, CHINA' },
+    { placeAndLocation: 'Algrano, Switzerland' },
+    { placeAndLocation: 'Beyco, Netherlands' },
+    { placeAndLocation: 'Coffee Exchange, China' },
+    { placeAndLocation: 'Crop to Cup, USA' },
+    { placeAndLocation: 'Sikupi, Indonesia' },
   ]
 
   return (
