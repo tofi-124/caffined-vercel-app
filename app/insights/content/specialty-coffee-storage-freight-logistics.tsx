@@ -1,14 +1,12 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
 import { 
-  HiOutlineCalendarDays, 
   HiOutlineGlobeAlt,
   HiOutlineShieldCheck,
   HiOutlineCheckCircle,
   HiOutlineLightBulb,
   HiOutlineClipboardDocumentList,
   HiOutlineBeaker,
-  HiOutlineSparkles,
   HiOutlineCube,
   HiOutlineChartBar,
   HiOutlineTruck,
@@ -16,9 +14,9 @@ import {
   HiOutlineXCircle,
   HiOutlineTrophy
 } from 'react-icons/hi2'
-import { GiCoffeeBeans, GiDna2, GiShipWheel, GiThermometerScale } from 'react-icons/gi'
+import { GiDna2, GiShipWheel } from 'react-icons/gi'
 import { FaTint, FaMicroscope, FaShip, FaBoxOpen, FaHandshake } from 'react-icons/fa'
-import { TbTemperature, TbPlant2, TbWind, TbBoxModel2, TbCertificate, TbActivity } from 'react-icons/tb'
+import { TbTemperature, TbPlant2, TbWind, TbBoxModel2, TbActivity } from 'react-icons/tb'
 
 type InsightContentProps = {
   title: string
@@ -504,10 +502,9 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
 
       {/* RELATED ARTICLES */}
       <aside className='my-12 pt-8 border-t border-gray-200'>
-        <h4 className='font-bold text-xl mb-6 flex items-center gap-2'>
-          <HiOutlineSparkles className='text-amber-600' />
-          Deepen Your Knowledge
-        </h4>
+        <h3 className='text-xl font-bold mb-4'>
+          Related Articles
+        </h3>
         <div className='grid md:grid-cols-2 gap-6'>
           <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
              <div className="flex items-center justify-between mb-2">
@@ -558,6 +555,27 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
           </Link>
         </div>
       </aside>
+
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Ship Ethiopian Coffee with Confidence</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we handle logistics, documentation, and quality assurance from origin to port. Let us manage the details so your coffee arrives in perfect condition.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide covers specialty coffee storage, freight logistics, and best practices for maintaining quality during sea transport.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
+      </div>
     </article>
   )
 }

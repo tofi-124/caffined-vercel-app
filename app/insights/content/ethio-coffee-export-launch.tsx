@@ -186,11 +186,11 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
           Request samples, ask questions, or reserve your 2026 allocation.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/contact-us' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
-            Contact Us
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
           </Link>
-          <Link href='/offerings' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
-            View Offerings
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
           </Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
             How to Order
@@ -198,12 +198,33 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
         </div>
       </div>
 
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Getting Started</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing FOB Guide</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About Ethio Coffee:</span> Ethio Coffee Export PLC is an Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide.
+          <span className='font-bold'>About This Insight:</span> Ethio Coffee Export PLC is an Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/about' className='underline'>Our Story</Link> · <Link href='/offerings' className='underline'>Offerings</Link> · <Link href='/ordering-info' className='underline'>How To Buy</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

@@ -1016,7 +1016,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
 
       {/* RELATED ARTICLES */}
       <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>
-        <h4 className='font-bold text-lg mb-4'>Related Articles</h4>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <ul className='space-y-2 text-sm'>
           <li>
             <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>
@@ -1049,6 +1049,27 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
             </Link>
           </li>
         </ul>
+      </div>
+
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Import Ethiopian Coffee to South Korea</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we have experience shipping to the Korean market and can guide you through documentation, logistics, and compliance requirements.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> A comprehensive guide covering regulations, documentation, logistics, and market considerations for importing Ethiopian coffee to South Korea.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

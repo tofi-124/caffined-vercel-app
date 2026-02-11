@@ -429,25 +429,54 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
         we can help you build a sourcing strategy that withstands the pressures of a changing climate.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
-        <p className='my-2 font-medium'>
-          Ready to climate-proof your Ethiopian coffee program? Request samples from our latest harvest and speak with our sourcing team about multi-season contracts.
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Climate-Proof Your Ethiopian Coffee Program</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we work directly with farmer communities across six Ethiopian origins to ensure quality, traceability, and climate-forward sourcing. Build a sourcing strategy that withstands the pressures of a changing climate.
         </p>
-        <Link href='/contact-us' className='underline font-bold'>
-          REQUEST SAMPLES →
-        </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
+          </Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
+          </Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            How to Order
+          </Link>
+        </div>
       </div>
 
-      <div className='my-8 text-sm text-gray-600'>
-        <p className='font-bold mb-2'>Related Insights:</p>
-        <ul className='list-disc pl-6 space-y-1'>
-          <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline'>Heirloom Ethiopian Coffee Varieties &amp; Landraces</Link></li>
-          <li><Link href='/insights/guide-ethiopian-coffee-origins' className='underline'>A Practical Guide to Ethiopian Green Coffee Origins</Link></li>
-          <li><Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='underline'>EU Deforestation Regulation &amp; Ethiopian Coffee Compliance</Link></li>
-          <li><Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='underline'>Ethiopian Coffee Certifications: Organic, Fairtrade &amp; Rainforest Alliance</Link></li>
-          <li><Link href='/insights/direct-trade-ethiopian-farmers' className='underline'>Direct Trade Partnerships: Supporting Ethiopian Farmers</Link></li>
-          <li><Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='underline'>Ethiopian Coffee Harvest 2025: Season Outlook</Link></li>
-        </ul>
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Varieties</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Ethiopian Coffee Varieties</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>Ethiopian Coffee Harvest 2025 Outlook</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Compliance & Certifications</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation Compliance</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This article examines how climate change is affecting Ethiopian coffee production, what adaptation strategies are working, and how importers can future-proof their sourcing from Ethiopia&apos;s highland coffee regions.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

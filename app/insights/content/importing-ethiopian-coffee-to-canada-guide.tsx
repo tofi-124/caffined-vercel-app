@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineGlobeAlt, HiOutlineScale, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineBeaker, HiOutlineExclamationTriangle } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineScale, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineBeaker, HiOutlineExclamationTriangle } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -562,11 +562,11 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
           Whether it&apos;s your first import or you&apos;re looking for a more reliable Ethiopian partner, we make the process straightforward and transparent.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/contact-us' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
-            Contact Us for Canadian Import
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
           </Link>
-          <Link href='/offerings' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
-            View Our Coffee Offerings
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
           </Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
             How to Order
@@ -609,10 +609,10 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This practical resource covers importing Ethiopian specialty coffee to Canada CFIA regulations, CBSA customs requirements, duty rates, GST/HST, shipping logistics, cost breakdowns, and working with Ethio Coffee Export for Canadian market entry.
+          <span className='font-bold'>About This Insight:</span> This practical resource covers importing Ethiopian specialty coffee to Canada CFIA regulations, CBSA customs requirements, duty rates, GST/HST, shipping logistics, cost breakdowns, and working with Ethio Coffee Export for Canadian market entry.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

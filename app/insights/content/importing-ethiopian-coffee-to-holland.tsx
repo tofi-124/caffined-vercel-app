@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineBuildingOffice } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCheckCircle, HiOutlineBuildingOffice } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -329,9 +329,26 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         </div>
       </div>
 
-      <p className='my-6'>
-        For specific questions about pricing examples, bonded warehouse providers in Rotterdam, or a checklist for your first shipment, <Link href='/contact-us' className='text-amber-700 hover:underline'>contact our export team</Link> and we can help arrange logistics and documentation support.
-      </p>
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Import Ethiopian Coffee to the Netherlands</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we support Dutch importers with pricing, documentation, and logistics through Rotterdam. Contact us to get started.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> A practical guide for importing Ethiopian coffee to the Netherlands, including EU regulations, Rotterdam logistics, and market entry advice.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
+      </div>
     </>
   )
 }

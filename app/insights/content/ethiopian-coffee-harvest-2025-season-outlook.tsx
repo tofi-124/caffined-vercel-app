@@ -326,26 +326,53 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
             Whether you&apos;re sourcing your first Ethiopian container or building on years of partnership, understanding the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural realities</Link> and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial dynamics</Link> of Ethiopian coffee helps you make better decisions and build stronger relationships at origin.
           </p>
 
-          <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Reserve Your 2025 Ethiopian Coffee</h4>
             <p className='my-2'>
-              Don&apos;t miss the best lots from this year&apos;s harvest. Contact us today to discuss your sourcing needs, request samples, and secure your allocation.
+              At <span className='font-bold'>Ethio Coffee Export PLC</span>, don&apos;t miss the best lots from this year&apos;s harvest. Contact us today to discuss your sourcing needs, request samples, and secure your allocation.
             </p>
-            <div className='flex gap-4 mt-4'>
-              <Link href='/contact-us' className='underline font-bold'>
-                REQUEST SAMPLES
+            <div className='flex flex-wrap gap-4 mt-4'>
+              <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+                View Our Offerings
               </Link>
-              <Link href='/offerings' className='underline font-bold'>
-                VIEW CURRENT OFFERINGS
+              <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+                Contact Us
               </Link>
+              <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+                How to Order
+              </Link>
+            </div>
+          </div>
+
+          {/* RELATED ARTICLES */}
+          <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+            <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Market & Industry</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+                  <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Climate Change Impact on Ethiopian Coffee</Link></li>
+                  <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Quality & Sourcing</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
+                  <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+                  <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+                </ul>
+              </div>
             </div>
           </div>
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Report:</span> This harvest outlook is based on field reports from our sourcing network, 
-              early-season sample evaluations, and market intelligence gathered from industry contacts. Conditions and pricing are subject 
-              to change. Last updated: September 2025.
+              <span className='font-bold'>About This Insight:</span> This harvest outlook is based on field reports from our sourcing network, early-season sample evaluations, and market intelligence gathered from industry contacts. Conditions and pricing are subject to change. Last updated: September 2025.
+            </p>
+            <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+              <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
             </p>
           </div>
     </>

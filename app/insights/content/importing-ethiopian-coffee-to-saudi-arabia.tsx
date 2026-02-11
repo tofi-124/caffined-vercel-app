@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBuildingOffice } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBuildingOffice } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -633,11 +633,11 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
           Whether you&apos;re launching your first Saudi roastery, expanding an existing cafe chain, or building an import/distribution business for the GCC, we make Ethiopian coffee import straightforward and profitable.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/contact-us' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
-            Contact Us for Saudi Import
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
           </Link>
-          <Link href='/offerings' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
-            View Our Coffee Offerings
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
           </Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
             How to Order
@@ -679,10 +679,10 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Saudi Arabia SFDA product registration, Zatca customs requirements, SABER conformity, VAT structure, Red Sea shipping logistics, cost analysis, and partnering with Ethio Coffee Export for Saudi market entry.
+          <span className='font-bold'>About This Insight:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Saudi Arabia SFDA product registration, Zatca customs requirements, SABER conformity, VAT structure, Red Sea shipping logistics, cost analysis, and partnering with Ethio Coffee Export for Saudi market entry.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

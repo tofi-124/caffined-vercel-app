@@ -120,10 +120,76 @@ export default function EthiopianCoffeeCeremony({ title, date, large_image_url }
         {' '}and how their contributions shape the entire supply chain.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About the Ethiopian Coffee Ceremony</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the Ethiopian coffee ceremony?</h4>
+            <p className="text-sm text-gray-600">The Ethiopian coffee ceremony is a traditional social ritual where green coffee beans are roasted over an open flame, ground by hand using a mortar and pestle, and brewed in a clay pot called a jebena. It is a communal experience that emphasizes hospitality, respect, and human connection.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How many rounds are served in a traditional ceremony?</h4>
+            <p className="text-sm text-gray-600">The ceremony is traditionally served in three rounds known as abol, tona, and baraka. Each round has its own significance, with baraka (the third) considered a blessing. The rhythm of brewing, sharing, and conversation is central to the experience.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Who traditionally leads the Ethiopian coffee ceremony?</h4>
+            <p className="text-sm text-gray-600">The ceremony is traditionally led by women, who serve as cultural custodians of coffee in Ethiopian society. Their role extends beyond the ceremony itself, as women perform an estimated 60 to 70 percent of the labor in Ethiopian coffee production.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Why does the coffee ceremony matter for international buyers?</h4>
+            <p className="text-sm text-gray-600">Understanding the culture behind Ethiopian coffee helps buyers treat the product with greater respect, ask better sourcing questions, and appreciate the human effort behind each cup. It also provides powerful storytelling potential for roasters and café owners marketing Ethiopian origins.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <p className='my-2 font-medium'>
-          Want to bring the richness of Ethiopia&apos;s coffee culture into your business?
-          Reach out to Ethiocoffee to explore how our exports and story-driven approach can elevate your coffee offerings.
+        <h4 className='font-bold text-xl mb-3'>Bring the Richness of Ethiopian Coffee Culture to Your Business</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we don&apos;t just export beans—we share the story, heritage, and tradition behind every cup. Discover how our story-driven approach can elevate your coffee offerings.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
+          </Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
+          </Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            How to Order
+          </Link>
+        </div>
+      </div>
+
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Ethiopian Coffee Culture</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/birthplace-of-coffee-ethiopia' className='text-amber-700 hover:underline'>The Birthplace of Coffee</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+              <li>• <Link href='/insights/women-in-ethiopian-coffee-industry' className='text-amber-700 hover:underline'>Women in Ethiopian Coffee</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Sourcing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This article explores the Ethiopian coffee ceremony—its cultural significance, its three-round tradition, and why understanding this ritual matters for modern coffee buyers, roasters, and importers.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

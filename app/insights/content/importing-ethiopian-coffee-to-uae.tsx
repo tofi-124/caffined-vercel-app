@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBuildingOffice, HiOutlineLightBulb } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBuildingOffice, HiOutlineLightBulb } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -661,11 +661,11 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
           Whether you&apos;re establishing a DMCC free zone operation, launching a Dubai cafe chain, or building a regional coffee distribution business, we deliver the quality, consistency, and reliability you need to succeed in the UAE market.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/contact-us' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
-            Contact Us for UAE Import
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
           </Link>
-          <Link href='/offerings' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
-            View Our Coffee Offerings
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
           </Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
             How to Order
@@ -707,10 +707,10 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to the United Arab Emirates Dubai Customs procedures, ESMA requirements, free zone vs. mainland setup, VAT structure, Jebel Ali Port logistics, DMCC Coffee Centre facilities, cost analysis, and partnering with Ethio Coffee Export for UAE market entry and regional distribution.
+          <span className='font-bold'>About This Insight:</span> This comprehensive resource covers importing Ethiopian specialty coffee to the United Arab Emirates Dubai Customs procedures, ESMA requirements, free zone vs. mainland setup, VAT structure, Jebel Ali Port logistics, DMCC Coffee Centre facilities, cost analysis, and partnering with Ethio Coffee Export for UAE market entry and regional distribution.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

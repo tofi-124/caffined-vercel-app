@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineArrowTrendingUp, HiOutlineCurrencyDollar, HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineCheckCircle, HiOutlineLightBulb, HiOutlineShieldCheck } from 'react-icons/hi2'
+import { HiOutlineArrowTrendingUp, HiOutlineCurrencyDollar, HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineCheckCircle, HiOutlineLightBulb, HiOutlineShieldCheck } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -689,7 +689,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </div>
 
       <div className='mt-8 pt-6 border-t border-gray-200'>
-        <h4 className='font-bold text-lg mb-3'>Related Articles</h4>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <ul className='space-y-2'>
           <li>
             <Link href="/ethiopian-coffee-exporter" className='text-amber-700 hover:underline'>
@@ -717,6 +717,27 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
             </Link>
           </li>
         </ul>
+      </div>
+
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Invest in Ethiopian Coffee</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we connect investors and importers with Ethiopia&apos;s thriving coffee sector. Explore partnership opportunities today.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This article explores the investment potential of Ethiopian coffee production, covering market trends, returns, and opportunities for importers.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

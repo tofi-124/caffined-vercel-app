@@ -272,27 +272,47 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
         </div>
       </section>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Elevate Your Coffee Program</h4>
         <p className='my-2'>
-          Ready to source green coffee that competes with the world&apos;s best? We specialize in exporting premium Ethiopian lots to the US, Europe, and Asia.
+          Ready to source green coffee that competes with the world&apos;s best? At <span className='font-bold'>Ethio Coffee Export PLC</span>, we specialize in exporting premium Ethiopian lots to the US, Europe, and Asia.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/contact-us' className='bg-primary text-dark px-6 py-3 rounded font-bold hover:bg-gray-200 transition'>
-            Contact Our Export Team
-          </Link>
-          <Link href='/offerings' className='border-2 border-primary text-primary px-6 py-3 rounded font-bold hover:bg-primary hover:text-dark transition'>
-            View Green Coffee Offerings
-          </Link>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Quality</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Import</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This list highlights the global benchmarks for specialty coffee quality, service, and sourcing, curated for industry professionals and enthusiasts.
+          <span className='font-bold'>About This Insight:</span> This list highlights the global benchmarks for specialty coffee quality, service, and sourcing, curated for industry professionals and enthusiasts.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='underline'>Import Guide</Link> · <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline'>Understanding ECX</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

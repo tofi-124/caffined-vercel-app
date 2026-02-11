@@ -633,7 +633,7 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
 
       {/* Related Articles */}
       <section className="border-t-2 border-gray-200 pt-8">
-        <h3 className="text-2xl font-bold text-gray-900 mb-4">Related Articles</h3>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className="grid md:grid-cols-3 gap-4">
           <Link href="/insights/green-coffee-quality-control-defects-grading" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
             <h4 className="font-semibold text-gray-900 mb-2">Green Coffee Quality Control & Defects</h4>
@@ -653,6 +653,27 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
           </Link>
         </div>
       </section>
+
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Request Ethiopian Coffee Samples</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we provide pre-shipment samples and detailed cupping notes for all our specialty lots. Experience the quality before you commit.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> A practical guide to cupping and evaluating Ethiopian coffee samples, covering SCA protocols, flavor descriptors, and scoring methodology.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
+      </div>
     </article>
   )
 }

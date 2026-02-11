@@ -592,7 +592,7 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
 
       {/* RELATED ARTICLES */}
       <div className='mt-12 pt-8 border-t border-gray-200'>
-        <h4 className='text-xl font-bold mb-4'>Related Articles</h4>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <Link 
             href="/insights/navigating-2026-ethiopian-specialty-coffee-exporters" 
@@ -635,6 +635,27 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
             <p className='text-sm text-gray-600'>What makes a premium coffee exporter stand out globally - quality benchmarks, certifications, and best practices</p>
           </Link>
         </div>
+      </div>
+
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Choose the Right Ethiopian Coffee Partner</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we combine the best of private exporter efficiency with deep cooperative relationships. Let us help you find the right sourcing strategy.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide compares private and cooperative Ethiopian coffee exporters, helping importers understand the pros and cons of each sourcing channel.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

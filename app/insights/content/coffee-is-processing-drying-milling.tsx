@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -252,24 +251,46 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
           </ul>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-            <p className='my-2 font-medium'>
-              Discover how processing influences flavor in our Ethiopian coffees. Contact us to explore our range of washed, honey, and natural-processed offerings.
+            <h4 className='font-bold text-xl mb-3'>Explore Our Processing Methods</h4>
+            <p className='my-2'>
+              At <span className='font-bold'>Ethio Coffee Export PLC</span>, discover how processing influences flavor in our Ethiopian coffees. Contact us to explore our range of washed, honey, and natural-processed offerings.
             </p>
-            <div className='flex gap-4 mt-4'>
-              <Link href='/contact-us' className='underline font-bold'>
-                GET IN TOUCH
-              </Link>
-              <Link href='/offerings' className='underline font-bold'>
-                VIEW OFFERINGS
-              </Link>
+            <div className='flex flex-wrap gap-4 mt-4'>
+              <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+              <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+              <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+            </div>
+          </div>
+
+          {/* RELATED ARTICLES */}
+          <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+            <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Coffee Journey Series</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline'>Coffee Is Agriculture: Production & Farming</Link></li>
+                  <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Is Science: Analysis & Evaluation</Link></li>
+                  <li>• <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='text-amber-700 hover:underline'>Coffee Is Commerce: Exporting & Importing</Link></li>
+                  <li>• <Link href='/insights/coffee-is-art-roasting-brewing' className='text-amber-700 hover:underline'>Coffee Is Art: Roasting & Brewing</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Related Reading</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
+                  <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Ethiopian Dry Coffee Production & Quality Control</Link></li>
+                </ul>
+              </div>
             </div>
           </div>
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>References & Further Reading:</span> This article draws from educational 
-              materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center 
-              research, and various genetic studies on Coffea arabica phylogenetics.
+              <span className='font-bold'>About This Insight:</span> This article draws from educational materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center research, and various genetic studies on Coffea arabica phylogenetics.
+            </p>
+            <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+              <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
             </p>
           </div>
     </>

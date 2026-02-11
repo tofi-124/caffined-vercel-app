@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays } from 'react-icons/hi2'
 import { 
   HiOutlineChartBar,
   HiOutlineMapPin,
@@ -16,7 +15,7 @@ import {
   HiOutlineBeaker,
   HiOutlineScale
 } from 'react-icons/hi2'
-import { PiPlantFill, PiCoffee, PiTreeFill } from 'react-icons/pi'
+import { PiPlantFill, PiTreeFill } from 'react-icons/pi'
 
 type InsightContentProps = {
   title: string
@@ -758,10 +757,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
 
         {/* Related Resources */}
         <div className="bg-gray-50 p-8 rounded-lg border border-gray-200">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-            <HiOutlineLightBulb className="w-7 h-7 text-gray-700" />
-            Related Ethiopian Coffee Resources
-          </h3>
+          <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <Link href="/insights/guide-ethiopian-coffee-origins" className="text-green-700 hover:text-green-900 font-medium hover:underline">
               → A Practical Guide to Ethiopian Green Coffee Origins
@@ -786,18 +782,26 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
       </section>
 
       {/* Final CTA */}
-      <section className="bg-gradient-to-r from-amber-600 to-orange-700 text-white p-8 rounded-lg shadow-lg text-center">
-        <h2 className="text-2xl font-bold mb-3">Ready to Source High-Productivity Sidama Coffee?</h2>
-        <p className="text-lg mb-6 text-amber-50">
-          Get direct access to Sidama region's exceptional coffee from organized farmer clusters achieving 10+ quintals per hectare. G1/G2 specialty grades, washed and natural processing, full traceability from highland and Weina Dega zones.
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Source High-Productivity Sidama Coffee</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, get direct access to Sidama region&apos;s exceptional coffee. G1/G2 specialty grades, washed and natural processing, full traceability from highland zones.
         </p>
-        <Link 
-          href="/contact-us" 
-          className="inline-block bg-white text-orange-800 px-8 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-colors"
-        >
-          Contact Ethio Coffee Export Today
-        </Link>
-      </section>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide covers Sidama coffee production, productivity levels, and export quality standards based on field research and industry data.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
+      </div>
     </article>
     </>
   )

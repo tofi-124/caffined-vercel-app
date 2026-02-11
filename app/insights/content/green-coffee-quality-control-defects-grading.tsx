@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -433,26 +432,53 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
             Quality coffee is never an accident. It results from intentional decisions at every stage of the supply chain. By investing in your QC capabilities, you honor that effort and ensure the exceptional coffees of Ethiopia reach consumers as their producers intended.
           </p>
 
-          <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+          <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source Quality Ethiopian Coffee</h4>
             <p className='my-2'>
-              Ready to experience Ethiopian coffee quality firsthand? Contact us to request samples, discuss specifications, and learn how our QC processes ensure the quality you expect.
+              At <span className='font-bold'>Ethio Coffee Export PLC</span>, we welcome detailed QC discussions. Experience Ethiopian coffee quality firsthand with samples, specifications, and transparent quality reporting.
             </p>
-            <div className='flex gap-4 mt-4'>
-              <Link href='/contact-us' className='underline font-bold'>
-                REQUEST SAMPLES
+            <div className='flex flex-wrap gap-4 mt-4'>
+              <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+                View Our Offerings
               </Link>
-              <Link href='/offerings' className='underline font-bold'>
-                VIEW OFFERINGS
+              <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+                Contact Us
               </Link>
+              <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+                How to Order
+              </Link>
+            </div>
+          </div>
+
+          {/* RELATED ARTICLES */}
+          <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+            <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Quality & Evaluation</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
+                  <li>• <Link href='/insights/best-cupping-school' className='text-amber-700 hover:underline'>Best Cupping Schools</Link></li>
+                  <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Processing & Sourcing</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Production QC</Link></li>
+                  <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+                  <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+                </ul>
+              </div>
             </div>
           </div>
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>References:</span> This guide draws from SCA Green Coffee Grading Protocols, 
-              Ethiopian Commodity Exchange (ECX) grading standards, CQI Q-Grader curriculum, and industry best practices 
-              for green coffee quality assessment.
+              <span className='font-bold'>About This Insight:</span> This guide draws from SCA Green Coffee Grading Protocols, Ethiopian Commodity Exchange (ECX) grading standards, CQI Q-Grader curriculum, and industry best practices for green coffee quality assessment.
+            </p>
+            <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+              <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
             </p>
           </div>
     </>

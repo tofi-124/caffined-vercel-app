@@ -489,11 +489,11 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
           Whether you&apos;re importing your first container or looking for a more reliable Ethiopian partner, we make the process transparent and hassle-free.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/contact-us' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
-            Contact Us for US Import
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
           </Link>
-          <Link href='/offerings' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
-            View Coffee Offerings
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
           </Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
             How to Order
@@ -536,10 +536,10 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers the complete process of importing Ethiopian specialty coffee to the United States, including regulations, documentation, shipping logistics, customs clearance, and cost breakdowns for roasters and coffee importers.
+          <span className='font-bold'>About This Insight:</span> This comprehensive resource covers the complete process of importing Ethiopian specialty coffee to the United States, including regulations, documentation, shipping logistics, customs clearance, and cost breakdowns for roasters and coffee importers.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

@@ -182,15 +182,78 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
         They fall somewhere between washed and natural with more body than washed but more clarity than natural.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Coffee Processing</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the difference between washed and natural processed Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Washed (wet) processing removes the fruit from the bean before drying, producing cleaner, brighter cups with floral and citrus notes. Natural (dry) processing dries the whole cherry, allowing the fruit to ferment around the bean, resulting in heavier body and intense fruit flavors like blueberry and strawberry.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Which processing method is better for specialty coffee?</h4>
+            <p className="text-sm text-gray-600">Neither is inherently better—they serve different purposes. Washed coffees are prized for clarity and consistency, making them ideal for showcasing terroir. Natural coffees offer bolder, more complex fruit profiles that appeal to adventurous palates. Most successful roasteries stock both to offer variety.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How should I roast washed vs natural Ethiopian coffee differently?</h4>
+            <p className="text-sm text-gray-600">Washed lots reward lighter roasts (City to City+) with lower charge temperatures to preserve florals. Natural lots can handle slightly more development (City to Full City-) and benefit from higher airflow to prevent sugar scorching. Always cup frequently to find each lot&apos;s sweet spot.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is honey processed Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Honey processing is less common in Ethiopia than in Central America, but it does exist. Some mucilage is left on the bean during drying, producing cups that fall between washed (more body) and natural (more clarity) in character. It&apos;s an interesting middle ground worth exploring.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source Both Processing Methods from Ethio Coffee</h4>
-        <p className='my-2 font-medium'>
-          We export washed and natural processed coffees from Ethiopia&apos;s top growing regions.
-          Request samples of both to taste the difference for yourself and find the right fit for your roastery&apos;s menu.
+        <h4 className='font-bold text-xl mb-3'>Source Both Washed and Natural Ethiopian Coffee</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we export washed and natural processed coffees from Ethiopia&apos;s top growing regions. Request samples of both to taste the difference and find the right fit for your menu.
         </p>
-        <Link href='/contact-us' className='underline font-bold'>
-          REQUEST SAMPLES
-        </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
+          </Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
+          </Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            How to Order
+          </Link>
+        </div>
+      </div>
+
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Processing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality & Cupping</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide compares washed and natural processing methods for Ethiopian coffee—covering flavor differences, roasting tips, shelf life, and which approach best fits different roastery and menu needs.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

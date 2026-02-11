@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineHandThumbUp, HiOutlineScale, HiOutlineUsers, HiOutlineCurrencyDollar, HiOutlineChartBar, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBeaker } from 'react-icons/hi2'
+import { HiOutlineHandThumbUp, HiOutlineScale, HiOutlineUsers, HiOutlineChartBar, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBeaker } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -255,6 +255,27 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Source Selectively Harvested Ethiopian Coffee</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our specialty lots are hand-picked at peak ripeness for maximum cup quality. Request samples today.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide explores the practice and impact of selective coffee harvesting on quality, sustainability, and Ethiopian specialty coffee production.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

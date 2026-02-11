@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineAcademicCap, HiOutlineArrowTrendingUp, HiOutlineCurrencyDollar, HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineCheckCircle, HiOutlineLightBulb, HiOutlineBeaker, HiOutlineBuildingLibrary, HiOutlineUserGroup } from 'react-icons/hi2'
+import { HiOutlineArrowTrendingUp, HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineBeaker, HiOutlineBuildingLibrary, HiOutlineUserGroup } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -278,24 +278,48 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         </div>
       </section>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Ready to explore the origin?</span> <Link href="/contact-us" className="underline hover:text-gray-200">Contact our team</Link> for a personalized consultation on a trip to the origin after your coffee education journey.</span>
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Ready to Explore the Origin?</h4>
+        <p className='my-2'>
+          <span className='font-bold'>Ethio Coffee Export PLC</span> offers personalized consultations on trips to the origin after your coffee education journey. Experience Ethiopian coffee firsthand.
         </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
       </div>
 
-      <div className='bg-gray-50 p-6 rounded-lg my-6'>
-        <h4 className='font-bold text-lg mb-3'>Related Resources:</h4>
-        <ul className='space-y-2 text-sm'>
-          <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 underline'>Ethiopian Coffee Exporter: Ethio Coffee Export PLC</Link></li>
-          <li>• <Link href="/offerings" className='text-blue-600 underline'>Current Ethiopian Green Coffee Offerings</Link></li>
-          <li>• <Link href="/ordering-info" className='text-blue-600 underline'>How to Order Ethiopian Green Coffee</Link></li>
-          <li>• <Link href="/insights/how-to-cup-evaluate-ethiopian-coffee-samples" className='text-blue-600 underline'>How to Cup & Evaluate Ethiopian Coffee Samples</Link></li>
-          <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 underline'>SCA Coffee Value Assessment: What Exporters and Importers Need to Know</Link></li>
-          <li>• <Link href="https://sca.coffee/value-assessment" className='text-blue-600 underline' target='_blank'>Official SCA Coffee Value Assessment Page</Link></li>
-          <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 underline'>Green Coffee Quality Control: Defects, Grading Systems & What Importers Should Inspect</Link></li>
-        </ul>
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality & Evaluation</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
+              <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Export</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide reviews the world&apos;s best cupping schools and training programs to help coffee professionals elevate their palate and career.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

@@ -165,15 +165,79 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         Want to understand what sets the best exporters apart globally? Our in-depth guide on <Link href='/insights/top-premium-coffee-exporters-global-guide' className='underline font-bold'>top coffee exporters in the world</Link> covers the quality benchmarks, certifications, and practices that define premium coffee export.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Sourcing Green Coffee from Ethiopia</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the Ethiopian coffee grades for export?</h4>
+            <p className="text-sm text-gray-600">Ethiopian coffee is graded from Grade 1 (specialty, 0-3 defects per 300g) to Grade 4 (commercial, 26-45 defects per 300g). G1 and G2 are used for specialty single-origin offerings, while G3 and G4 are suitable for blends, institutional buyers, and price-sensitive markets.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the minimum order quantity for Ethiopian green coffee?</h4>
+            <p className="text-sm text-gray-600">Most Ethiopian exporters work with full container orders (approximately 275-300 bags of 60kg each in a 20-foot container). Some exporters, including Ethio Coffee, can accommodate smaller trial orders to help new buyers evaluate quality before committing to larger volumes.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How long does shipping take from Ethiopia?</h4>
+            <p className="text-sm text-gray-600">From order confirmation to arrival at your destination port, expect 6-10 weeks depending on shipping route and destination. Most Ethiopian coffee ships FOB from Djibouti port or the Addis Ababa dry port.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Should I buy direct from an exporter or through an importer?</h4>
+            <p className="text-sm text-gray-600">Both have advantages. Working directly with an Ethiopian exporter gives you better traceability, relationship-based pricing, and access to specific lots. Working through an importer simplifies logistics if you need smaller quantities or prefer domestic warehousing. Many roasters start with an importer and transition to direct sourcing as volumes grow.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Green Coffee?</h4>
-        <p className='my-2 font-medium'>
-          Whether you need specialty Grade 1 Yirgacheffe for single-origin or commercial Grade 3/4 for blends, we&apos;re here to help.
-          Get in touch to discuss your sourcing needs and request current lot availability.
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we export G1 through G4 from Ethiopia&apos;s top growing regions with full traceability, professional documentation, and responsive support. Get in touch to discuss your sourcing needs.
         </p>
-        <Link href='/contact-us' className='underline font-bold'>
-          CONTACT US FOR SAMPLES
-        </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
+          </Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
+          </Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            How to Order
+          </Link>
+        </div>
+      </div>
+
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Import Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>How to Import Ethiopian Coffee to USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Trade & Quality</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage & Freight Logistics</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> A step-by-step guide for roasters and importers on how to source Ethiopian green coffee—covering grades, logistics, supplier evaluation, direct trade vs. importers, and key questions to ask before purchasing.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

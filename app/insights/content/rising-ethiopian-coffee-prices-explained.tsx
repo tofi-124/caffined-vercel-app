@@ -1055,22 +1055,49 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
 
       <hr className="my-8 border-gray-200" />
 
-      <div className='bg-gray-100 p-6 rounded-lg my-6 text-center'>
-        <p className='font-bold text-lg mb-2'>Questions About Ethiopian Coffee Pricing?</p>
-        <p className='text-gray-700 mb-4'>
-          Our team provides detailed market analysis, current pricing, and strategic sourcing advice to help you navigate the Ethiopian coffee market successfully.
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Questions About Ethiopian Coffee Pricing?</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our team provides detailed market analysis, current pricing, and strategic sourcing advice to help you navigate the Ethiopian coffee market successfully.
         </p>
-        <Link 
-          href="/contact-us" 
-          className='bg-dark text-primary px-6 py-3 rounded-lg font-bold hover:bg-gray-800 transition-colors inline-block'
-        >
-          Get Market Analysis & Pricing
-        </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
       </div>
 
-      <p className='my-4 text-sm text-gray-600 italic'>
-        This market analysis was prepared by <span className='font-semibold'>Ethio Coffee Export PLC</span> based on current market data, industry reports, and our direct experience in Ethiopian coffee export. Market conditions change rapidly; for the most current pricing and availability, <Link href="/contact-us" className='text-blue-600 underline'>contact our team</Link> directly.
-      </p>
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>2025 Harvest Season Outlook</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage & Freight Logistics</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This market analysis was prepared by Ethio Coffee Export PLC based on current market data, industry reports, and our direct experience in Ethiopian coffee export. Market conditions change rapidly; for the most current pricing and availability, contact our team directly.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
+      </div>
     </>
   )
 }

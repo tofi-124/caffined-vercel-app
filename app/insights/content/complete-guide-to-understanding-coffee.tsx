@@ -1270,8 +1270,8 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </div>
 
       {/* MORE RESOURCES */}
-      <h3 className='text-2xl font-extrabold mt-10 mb-4'>
-        Explore More Resources
+      <h3 className='text-xl font-bold mb-4'>
+        Related Articles
       </h3>
       
       <div className='grid md:grid-cols-2 gap-4 my-6'>
@@ -1322,22 +1322,26 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <hr className="my-8 border-gray-200" />
 
-      <div className='bg-gray-100 p-6 rounded-lg my-6 text-center'>
-        <p className='font-bold text-lg mb-2'>Have Questions About Ethiopian Coffee?</p>
-        <p className='text-gray-700 mb-4'>
-          Our team of coffee professionals is ready to help you source the perfect Ethiopian green coffee for your business.
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Questions About Ethiopian Coffee?</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our team of coffee professionals is ready to help you source the perfect Ethiopian green coffee for your business.
         </p>
-        <Link 
-          href="/contact-us" 
-          className='bg-dark text-primary px-6 py-3 rounded-lg font-bold hover:bg-gray-800 transition-colors inline-block'
-        >
-          Contact Ethio Coffee Export
-        </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
       </div>
 
-      <p className='my-4 text-sm text-gray-600 italic'>
-        This guide was written by the team at <span className='font-semibold'>Ethio Coffee Export PLC</span> coffee professionals with years of experience in Ethiopian specialty coffee export. We&apos;re committed to sharing knowledge that helps the global coffee community understand and appreciate Ethiopian coffee. For questions about sourcing, partnerships, or anything coffee-related, <Link href="/contact-us" className='text-blue-600 underline'>get in touch with us</Link>.
-      </p>
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide was written by the team at Ethio Coffee Export PLC with years of experience in Ethiopian specialty coffee export. We&apos;re committed to sharing knowledge that helps the global coffee community understand and appreciate Ethiopian coffee.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
+      </div>
     </>
   )
 }

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineShieldCheck, HiOutlineScale, HiOutlineCheckCircle, HiOutlineXCircle, HiOutlineDocumentText } from 'react-icons/hi2'
+import { HiOutlineShieldCheck, HiOutlineScale, HiOutlineCheckCircle, HiOutlineXCircle, HiOutlineDocumentText } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string

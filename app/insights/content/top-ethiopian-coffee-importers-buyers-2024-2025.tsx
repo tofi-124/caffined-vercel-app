@@ -1009,7 +1009,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
       <hr className="my-8 border-gray-200" />
 
       <section className='my-8'>
-        <h3 className='text-2xl font-bold text-dark mb-4'>Related Resources for Ethiopian Coffee Exporters</h3>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <Link href='/ethiopian-coffee-exporter' className='p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors'>
             <h4 className='font-bold text-dark mb-2'>Ethiopian Coffee Exporter</h4>
@@ -1034,22 +1034,25 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
         </div>
       </section>
 
-      <div className='mt-12 p-6 bg-accent/10 rounded-lg border border-accent/30'>
-        <h4 className='font-bold text-lg mb-3 text-dark'>About Ethio Coffee Export</h4>
-        <p className='text-sm mb-3'>
-          <strong>Ethio Coffee Export PLC</strong> is an Ethiopian coffee exporter connecting specialty and commercial-grade Ethiopian green coffee with importers worldwide. With 30+ years of family legacy in Ethiopian coffee, we serve buyers in 40+ countries with traceable, consistent, professionally documented Ethiopian coffee exports.
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Partner with Ethio Coffee Export</h4>
+        <p className='my-2'>
+          <span className='font-bold'>Ethio Coffee Export PLC</span> connects specialty and commercial-grade Ethiopian green coffee with importers worldwide. With 30+ years of family legacy, we serve buyers in 40+ countries.
         </p>
-        <div className='flex flex-wrap gap-4'>
-          <Link href='/offerings' className='text-accent hover:underline font-semibold text-sm'>
-            View Our Current Offerings →
-          </Link>
-          <Link href='/contact-us' className='text-accent hover:underline font-semibold text-sm'>
-            Request a Quote →
-          </Link>
-          <Link href='/about' className='text-accent hover:underline font-semibold text-sm'>
-            Our Story →
-          </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide profiles the top Ethiopian coffee importers and buyers for the 2024–2025 season, with insights on market dynamics and trade relationships.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

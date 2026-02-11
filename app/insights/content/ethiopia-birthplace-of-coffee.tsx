@@ -119,7 +119,7 @@ export default function EthiopiaBirthplaceOfCoffee({ title, date, large_image_ur
       </section>
 
       {/* RELATED ARTICLES */}
-      <h3 className='text-2xl font-extrabold mt-10 mb-4'>Related Resources</h3>
+      <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
       
       <div className='grid md:grid-cols-2 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
@@ -154,17 +154,49 @@ export default function EthiopiaBirthplaceOfCoffee({ title, date, large_image_ur
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Coffee from the Birthplace of Arabica</h4>
-        <p className='mb-4'>
-          Ethio Coffee Export ships traceable Ethiopian green coffee from Yirgacheffe, Sidama, Guji, Harrar, and Kaffa. Request samples or browse our current export offerings.
+        <p className='my-2'>
+          <span className='font-bold'>Ethio Coffee Export PLC</span> ships traceable Ethiopian green coffee from Yirgacheffe, Sidama, Guji, Harrar, and Kaffa. Request samples or browse our current export offerings.
         </p>
-        <p>
-          <Link href='/offerings' className='font-bold underline'>View current offerings</Link> | <Link href='/contact-us' className='font-bold underline'>Request samples</Link>
-        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        </div>
       </div>
 
-      <p className="my-4 text-sm text-gray-600 italic">For sourcing, samples, or export enquiries, <Link href="/contact-us" className='text-blue-600 underline'>contact our team</Link>.</p>
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Culture</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Export</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> For sourcing, samples, or export enquiries, contact our team.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
+      </div>
     </>
   )
 }

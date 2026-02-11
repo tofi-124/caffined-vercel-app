@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineCalendarDays, HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBuildingOffice, HiOutlineBeaker } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBuildingOffice, HiOutlineBeaker } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -633,11 +633,11 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
           Whether you&apos;re establishing a specialty roastery in Tokyo, supplying traditional kisaten networks, or building an import/distribution business, we deliver the quality, traceability, and consistent supply you need to succeed in Japan&apos;s demanding but rewarding coffee market.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/contact-us' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
-            Contact Us for Japan Import
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
           </Link>
-          <Link href='/offerings' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
-            View Our Coffee Offerings
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
           </Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
             How to Order
@@ -680,10 +680,10 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Guide:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Japan MHLW food safety compliance, FAINS notification system, Japan Customs procedures, consumption tax structure, shipping to Tokyo/Yokohama/Kobe ports, Japanese business culture considerations, cost analysis, and partnering with Ethio Coffee Export for successful Japanese market entry.
+          <span className='font-bold'>About This Insight:</span> This comprehensive resource covers importing Ethiopian specialty coffee to Japan MHLW food safety compliance, FAINS notification system, Japan Customs procedures, consumption tax structure, shipping to Tokyo/Yokohama/Kobe ports, Japanese business culture considerations, cost analysis, and partnering with Ethio Coffee Export for successful Japanese market entry.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

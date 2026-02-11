@@ -142,14 +142,77 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
         The best suppliers can share not only the region, but also the washing station/cooperative, processing details, and consistency expectations.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Coffee Origins</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the main Ethiopian coffee growing regions?</h4>
+            <p className="text-sm text-gray-600">The most well-known Ethiopian coffee regions include Yirgacheffe (floral and tea-like), Guji (bright and stone-fruity), Sidama (sweet and berry-forward), Harrar (bold and winey), Limu (balanced and citrusy), Kaffa (foresty and earthy), and Jimma (traditional and cocoa-forward). Each region offers distinct flavor profiles shaped by altitude, climate, and local genetics.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does altitude affect Ethiopian coffee flavor?</h4>
+            <p className="text-sm text-gray-600">Higher altitude (1,700–2,300m) means slower cherry ripening, which develops more complex sugars and acids in the beans. This is why high-altitude Ethiopian coffees from regions like Guji and Yirgacheffe tend to have brighter acidity, more floral aromatics, and greater complexity than lower-altitude lots.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What does &quot;heirloom&quot; mean in Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">In Ethiopian coffee, &quot;heirloom&quot; refers to the thousands of indigenous Arabica varieties that have evolved naturally in Ethiopia&apos;s forests over centuries. Unlike standardized cultivars found in other countries, these heirloom selections offer extraordinary genetic diversity and unique flavor potential.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How should I roast different Ethiopian origins?</h4>
+            <p className="text-sm text-gray-600">As a general guideline: washed lots reward lighter roasts (City to City+) to preserve florals and brightness, while natural processed lots can handle slightly more development (City to Full City-) to balance fruit intensity with sweetness. Always roast small batches and cup often to find each lot&apos;s sweet spot.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <p className='my-2 font-medium'>
-          Want help choosing the right Ethiopian origin for your menu or roasting goals?
-          We can recommend lots based on your target profile and share traceability details when available.
+        <h4 className='font-bold text-xl mb-3'>Find the Right Ethiopian Origin for Your Roastery</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we can recommend lots based on your target profile and share traceability details. From floral Yirgacheffe to bold Harrar, we export across all major Ethiopian origins.
         </p>
-        <Link href='/contact-us' className='underline font-bold'>
-          CONTACT US TO REQUEST SAMPLES
-        </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
+          </Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
+          </Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            How to Order
+          </Link>
+        </div>
+      </div>
+
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origin Comparisons</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> A buyer-friendly guide to Ethiopia&apos;s major coffee origins including Yirgacheffe, Guji, Sidama, Harrar, Limu, Kaffa, and Jimma—covering flavor profiles, processing, altitude, and roasting recommendations.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

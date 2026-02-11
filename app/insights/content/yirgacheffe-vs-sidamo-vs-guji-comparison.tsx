@@ -198,15 +198,78 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
         <li className='my-2'><span className='font-bold'>Speciality single-origin espresso:</span> Guji (for the adventurous)</li>
       </ul>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Coffee Origins</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is the difference between Yirgacheffe, Sidamo, and Guji coffee?</h4>
+            <p className="text-sm text-gray-600">Yirgacheffe is known for delicate floral aromatics, tea-like body, and bright citrus acidity. Sidamo offers intense fruit-forward flavors (blueberry, strawberry) with a rounder body. Guji delivers stone-fruit sweetness (peach, apricot), jasmine florals, and a syrupy full body. Each comes from a distinct Ethiopian growing region with unique altitude, climate, and processing traditions.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Which Ethiopian coffee origin is best for espresso?</h4>
+            <p className="text-sm text-gray-600">Guji is particularly well-suited for single-origin espresso due to its combination of fruit complexity, floral lift, and full body that translates beautifully under pressure. Sidamo also works well in espresso blends, adding fruit complexity and wine-like character.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can I stock all three Ethiopian origins in my roastery?</h4>
+            <p className="text-sm text-gray-600">Yes, many successful roasteries carry 2-3 Ethiopian origins. A common approach: washed Yirgacheffe as your accessible classic, natural Sidamo as a seasonal fruit-forward rotation, and Guji as a premium single-origin espresso offering.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How should I roast Yirgacheffe, Sidamo, and Guji differently?</h4>
+            <p className="text-sm text-gray-600">Yirgacheffe rewards light roasting (City to City+) to preserve delicate florals. Sidamo naturals can handle slightly more development (City to City+) to balance fruit intensity. Guji benefits from light-to-medium roast, with naturals needing careful heat application to preserve fruit without developing roasty bitterness.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source All Three from Ethio Coffee</h4>
-        <p className='my-2 font-medium'>
-          We export Grades 1-4 from Yirgacheffe, Sidamo, and Guji specialty and commercial grades with full traceability.
-          Request samples to compare and find the right fit for your roastery or blend program.
+        <h4 className='font-bold text-xl mb-3'>Source Yirgacheffe, Sidamo, and Guji from Ethio Coffee</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we export Grades 1–4 from all three origins with full traceability. Request samples to compare and find the right fit for your roastery or blend program.
         </p>
-        <Link href='/contact-us' className='underline font-bold'>
-          REQUEST SAMPLES
-        </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
+          </Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
+          </Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            How to Order
+          </Link>
+        </div>
+      </div>
+
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Processing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties</Link></li>
+              <li>• <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee Production Guide</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Quality</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee</Link></li>
+              <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> A head-to-head comparison of Ethiopia&apos;s three most popular specialty coffee origins—Yirgacheffe, Sidamo, and Guji—covering flavor profiles, processing methods, altitude, roasting tips, and best use cases for roasters.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

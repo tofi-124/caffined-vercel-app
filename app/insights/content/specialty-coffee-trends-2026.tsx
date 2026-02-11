@@ -123,13 +123,77 @@ export default function SpecialtyCoffeeTrends2026({ title, date, large_image_url
         Ethio Coffee is your direct link to the source.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Specialty Coffee Trends 2026</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the biggest specialty coffee trends for 2026?</h4>
+            <p className="text-sm text-gray-600">The five key trends shaping specialty coffee in 2026 are hyper-traceability (beyond &quot;single origin&quot;), experimental processing methods (anaerobic, carbonic maceration), climate resilience through genetic diversity, the flash chill and cold brew revolution, and story-driven premiumization where consumers pay more for meaningful narratives.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Why is Ethiopian coffee well-positioned for 2026 trends?</h4>
+            <p className="text-sm text-gray-600">Ethiopia offers unique advantages: it&apos;s the birthplace of Arabica with thousands of genetically diverse heirloom varieties, it has a rich cultural story (the coffee ceremony, the legend of Kaldi), its bright floral coffees are ideal for the cold brew trend, and producers are innovating rapidly with experimental processing techniques.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How is climate change affecting specialty coffee sourcing?</h4>
+            <p className="text-sm text-gray-600">Rising temperatures are threatening monoculture crops worldwide. Ethiopia&apos;s advantage lies in its diverse heirloom gene pools, which are naturally more resilient to climate fluctuations than standardized cultivars. Sourcing Ethiopian coffee is increasingly seen as a strategic hedge against climate risk for green coffee inventories.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What should roasters prioritize when sourcing for 2026?</h4>
+            <p className="text-sm text-gray-600">Focus on hyper-traceable lots with verifiable origin stories, consider stocking both classic washed profiles and experimental processed lots, book washed Grade 1 lots early as supply may be tighter, and leverage the cultural narrative of Ethiopian coffee for premiumization in your marketing.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <p className='my-2 font-medium'>
-          Contact us today to request samples and taste the future of coffee.
+        <h4 className='font-bold text-xl mb-3'>Future-Proof Your Coffee Menu with Ethiopian Origins</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we&apos;re your direct link to the source. Whether you need a classic Guji for your espresso blend or an experimental microlot to dazzle your customers, request samples and taste the future of coffee.
         </p>
-        <Link href='/contact-us' className='underline font-bold'>
-          CONTACT US
-        </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
+          </Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
+          </Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            How to Order
+          </Link>
+        </div>
+      </div>
+
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Market & Industry</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>Ethiopian Coffee Harvest 2025 Outlook</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Climate Change Impact on Ethiopian Coffee</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Processing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This article examines the five key specialty coffee trends shaping 2026—hyper-traceability, experimental processing, climate resilience, cold coffee innovation, and story-driven premiumization—and how Ethiopian coffee is uniquely positioned to lead them.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )
