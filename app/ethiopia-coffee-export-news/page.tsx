@@ -1,12 +1,7 @@
-"use client"
-
-import React, { useEffect, useRef, useState, useMemo } from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
-import { newsArticles } from '../data/news'
 import Link from 'next/link'
+import { newsArticles } from '../data/news'
 import { ArrowRight } from '@/app/components/Arrow'
-
-const PAGE_SIZE = 5
+import AutoScrollTo from '../components/AutoScrollTo'
 
 const parseDateLocal = (value: string) => {
   const m = /^\s*(\d{4})-(\d{2})-(\d{2})\s*$/.exec(value)
@@ -26,67 +21,23 @@ const formatDate = (value: string) => {
   return new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
 }
 
-const NewsPage = () => {
-  const postsRef = useRef<HTMLElement | null>(null)
-  const subtitleRef = useRef<HTMLParagraphElement | null>(null)
-  const searchParams = useSearchParams()
-  const router = useRouter()
-  const [page, setPage] = useState(1)
-  const [isInitialLoad, setIsInitialLoad] = useState(true)
+const PAGE_SIZE = 5
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      if (window.scrollY < 150) {
-        scrollToPostsTop()
-      }
-    }, 100)
-    return () => clearTimeout(timer)
-  }, [])
+type Props = {
+  searchParams: Promise<{ page?: string }>
+}
 
-  useEffect(() => {
-    const pageParam = searchParams.get('page')
-    if (pageParam) {
-      const pageNum = parseInt(pageParam, 10)
-      if (pageNum > 0) setPage(pageNum)
-    }
-    setIsInitialLoad(false)
-  }, [searchParams])
+export default async function NewsPage({ searchParams }: Props) {
+  const { page: pageParam } = await searchParams
+  const pageNum = pageParam ? Math.max(1, parseInt(pageParam, 10) || 1) : 1
 
-  useEffect(() => {
-    if (!isInitialLoad && page > 0) {
-      const timer = setTimeout(() => {
-        scrollToPostsTop()
-      }, 150)
-      return () => clearTimeout(timer)
-    }
-  }, [page, isInitialLoad])
-
-  const sorted = useMemo(() => {
-    return [...newsArticles].sort((a, b) => parseDateLocal(b.date) - parseDateLocal(a.date))
-  }, [])
+  const sorted = [...newsArticles].sort((a, b) => parseDateLocal(b.date) - parseDateLocal(a.date))
 
   const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE))
-  const safePage = Math.min(Math.max(1, page), totalPages)
+  const safePage = Math.min(Math.max(1, pageNum), totalPages)
 
   const start = (safePage - 1) * PAGE_SIZE
   const pagedArticles = sorted.slice(start, start + PAGE_SIZE)
-
-  const scrollToPostsTop = () => {
-    if (!subtitleRef.current) return
-    const headerOffset = 120
-    requestAnimationFrame(() => {
-      const y = subtitleRef.current!.getBoundingClientRect().top + window.scrollY - headerOffset
-      window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' })
-    })
-  }
-
-  const goToPage = (p: number) => {
-    const nextPage = Math.min(Math.max(1, p), totalPages)
-    setPage(nextPage)
-    const params = new URLSearchParams(searchParams.toString())
-    params.set('page', nextPage.toString())
-    router.push(`?${params.toString()}`, { scroll: false })
-  }
 
   const maxVisiblePages = 5
   const startPage = Math.max(1, Math.min(safePage - Math.floor(maxVisiblePages / 2), totalPages - maxVisiblePages + 1))
@@ -100,8 +51,9 @@ const NewsPage = () => {
         <p className='text-primary/70 mt-3 text-sm tracking-widest uppercase text-center'>Industry Updates, Trade Events &amp; Market Developments</p>
       </header>
 
-      <section ref={postsRef as any} className='flex flex-col justify-center items-center bg-primary pb-16 pt-12'>
-        <p ref={subtitleRef} className='text-gray-600 max-w-2xl text-center mb-12 px-4'>
+      <section className='flex flex-col justify-center items-center bg-primary pb-16 pt-12'>
+        <AutoScrollTo key={safePage} targetId='news-list' headerOffset={120} />
+        <p id='news-list' className='text-gray-600 max-w-2xl text-center mb-12 px-4'>
           Stay up to date with the latest Ethiopian coffee export industry news, including policy changes from the Ethiopian Coffee and Tea Authority, African coffee trade events, pricing trends, and new regulations affecting Ethiopian green coffee exporters and importers.
         </p>
 
@@ -128,54 +80,47 @@ const NewsPage = () => {
 
         {totalPages > 1 && (
           <div className='mt-12 flex flex-wrap justify-center gap-2'>
-            <button
-              type='button'
-              onClick={() => goToPage(Math.max(1, safePage - 1))}
-              className={
-                safePage === 1
-                  ? 'w-10 h-10 bg-white text-gray-300 border border-gray-200 rounded-full font-bold cursor-not-allowed'
-                  : 'w-10 h-10 bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover:border-accent transition-all'
-              }
-              aria-label='Go to previous page'
-              disabled={safePage === 1}
-            >
-              &lt;
-            </button>
+            {safePage > 1 ? (
+              <Link
+                href={`/ethiopia-coffee-export-news?page=${safePage - 1}`}
+                className='w-10 h-10 flex items-center justify-center bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover:border-accent transition-all'
+                aria-label='Go to previous page'
+              >
+                &lt;
+              </Link>
+            ) : (
+              <span className='w-10 h-10 flex items-center justify-center bg-white text-gray-300 border border-gray-200 rounded-full font-bold cursor-not-allowed'>&lt;</span>
+            )}
 
             {visiblePages.map((p) => (
-              <button
+              <Link
                 key={p}
-                type='button'
-                onClick={() => goToPage(p)}
+                href={`/ethiopia-coffee-export-news?page=${p}`}
                 className={
                   p === safePage
-                    ? 'w-10 h-10 bg-accent text-white border border-accent rounded-full font-bold'
-                    : 'w-10 h-10 bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover;border-accent transition-all'
+                    ? 'w-10 h-10 flex items-center justify-center bg-accent text-white border border-accent rounded-full font-bold'
+                    : 'w-10 h-10 flex items-center justify-center bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover:border-accent transition-all'
                 }
                 aria-label={`Go to page ${p}`}
               >
                 {p}
-              </button>
+              </Link>
             ))}
 
-            <button
-              type='button'
-              onClick={() => goToPage(Math.min(totalPages, safePage + 1))}
-              className={
-                safePage === totalPages
-                  ? 'w-10 h-10 bg-white text-gray-300 border border-gray-200 rounded-full font-bold cursor-not-allowed'
-                  : 'w-10 h-10 bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover:border-accent transition-all'
-              }
-              aria-label='Go to next page'
-              disabled={safePage === totalPages}
-            >
-              &gt;
-            </button>
+            {safePage < totalPages ? (
+              <Link
+                href={`/ethiopia-coffee-export-news?page=${safePage + 1}`}
+                className='w-10 h-10 flex items-center justify-center bg-white text-dark border border-gray-200 rounded-full font-bold hover:bg-accent hover:text-white hover:border-accent transition-all'
+                aria-label='Go to next page'
+              >
+                &gt;
+              </Link>
+            ) : (
+              <span className='w-10 h-10 flex items-center justify-center bg-white text-gray-300 border border-gray-200 rounded-full font-bold cursor-not-allowed'>&gt;</span>
+            )}
           </div>
         )}
       </section>
     </main>
   )
 }
-
-export default NewsPage
