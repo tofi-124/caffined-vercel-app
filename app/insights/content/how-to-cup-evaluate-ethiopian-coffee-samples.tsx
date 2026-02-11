@@ -651,6 +651,10 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
             <h4 className="font-semibold text-gray-900 mb-2">Best Cupping Schools</h4>
             <p className="text-sm text-gray-600">How to choose training that improves your palate and career</p>
           </Link>
+          <Link href="/insights/how-to-roast-ethiopian-coffee-guide" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <h4 className="font-semibold text-gray-900 mb-2">How to Roast Ethiopian Coffee</h4>
+            <p className="text-sm text-gray-600">Profiles, development strategies, and tips for Ethiopian green coffee</p>
+          </Link>
         </div>
       </section>
     </article>

@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ROASTING GUIDE =====
+    {
+      small_image_url: 'insights/how-to-roast-ethiopian-coffee.webp',
+      large_image_url: 'insights/how-to-roast-ethiopian-coffee.webp',
+      date: 'Feb 14, 2026',
+      title: 'HOW TO ROAST ETHIOPIAN COFFEE: A ROASTER\'S GUIDE TO PROFILES AND BEST PRACTICES',
+      slug: 'how-to-roast-ethiopian-coffee-guide',
+      category: 'Roasting / Coffee Education / Sourcing Guide',
+      keywords: [
+        'how to roast ethiopian coffee',
+        'ethiopian coffee roast profile',
+        'roasting yirgacheffe',
+        'roasting guji coffee',
+        'roasting natural ethiopian coffee',
+        'ethiopian coffee roast level',
+        'light roast ethiopian coffee',
+        'ethiopian coffee espresso roast',
+        'coffee roast development time',
+        'roast profile specialty coffee',
+        'ethiopian coffee roasting tips',
+        'roasting washed vs natural coffee',
+        'coffee roast rate of rise',
+        'sample roasting ethiopian coffee',
+        'ethiopian coffee pour over roast',
+        'roasting high altitude coffee',
+        'coffee roast DTR',
+        'development time ratio coffee',
+        'roasting dense coffee beans',
+        'ethiopian coffee roast mistakes'
+      ],
+      desc: 'Learn how to roast Ethiopian coffee with profiles for washed and natural beans, region-specific tips for Yirgacheffe, Guji, and Sidama, and practical guidance on development time, espresso vs filter, and common mistakes.'
+    },
     // ===== WASHING STATIONS & QUALITY =====
     {
       small_image_url: 'insights/ethiopian-coffee-washing-stations.webp',
