@@ -273,8 +273,9 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
         If your sourcing decisions already prioritize quality, traceability, and sustainability, then supporting women in the supply chain is a natural next step.
       </p>
 
-      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <p className='my-2 font-medium'>
+      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+        <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee That Supports Women</h4>
+        <p className='my-2'>
           Ethio Coffee works with cooperatives and washing stations that actively support women&apos;s participation across the value chain.
           If you are looking for Ethiopian green coffee sourced with gender equity in mind, we can connect you with producers and lots that align with your values.
         </p>
@@ -283,6 +284,30 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
           <Link href='/insights' className='underline font-bold'>EXPLORE MORE INSIGHTS</Link>
         </div>
       </div>
+
+      <h3 className='text-2xl font-extrabold mt-10 mb-4'>Related Insights</h3>
+      <ul className='font-inconsolata my-4 list-disc ml-5'>
+        <li className='my-2'>
+          <Link href='/insights/ethiopian-coffee-ceremony' className='underline font-bold'>
+            The Ethiopian Coffee Ceremony: History, Ritual, and Meaning
+          </Link>
+        </li>
+        <li className='my-2'>
+          <Link href='/insights/direct-trade-ethiopian-farmers' className='underline font-bold'>
+            Direct Trade with Ethiopian Farmers: How It Works
+          </Link>
+        </li>
+        <li className='my-2'>
+          <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='underline font-bold'>
+            Ethiopian Coffee Certifications: Organic, Fair Trade, and Rainforest Alliance
+          </Link>
+        </li>
+        <li className='my-2'>
+          <Link href='/insights/selective-coffee-harvesting' className='underline font-bold'>
+            Selective Coffee Harvesting: Why It Matters for Quality
+          </Link>
+        </li>
+      </ul>
     </>
   )
 }

@@ -341,8 +341,9 @@ export default function HowAltitudeTerroirShapeEthiopianCoffee({ title, date, la
         The more you understand about altitude and terroir, the better your sourcing decisions become, and the better you can communicate the story of your coffee to the customers who drink it.
       </p>
 
-      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <p className='my-2 font-medium'>
+      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+        <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee by Altitude and Terroir</h4>
+        <p className='my-2'>
           Ethio Coffee exports Ethiopian green coffee from every major altitude band, with full traceability to the washing station, sub-region, and elevation.
           Whether you need ultra-high-altitude microlots for competition or balanced mid-altitude lots for blending, we can match you with the right terroir.
         </p>
@@ -351,6 +352,30 @@ export default function HowAltitudeTerroirShapeEthiopianCoffee({ title, date, la
           <Link href='/insights' className='underline font-bold'>EXPLORE MORE INSIGHTS</Link>
         </div>
       </div>
+
+      <h3 className='text-2xl font-extrabold mt-10 mb-4'>Related Insights</h3>
+      <ul className='font-inconsolata my-4 list-disc ml-5'>
+        <li className='my-2'>
+          <Link href='/insights/guide-ethiopian-coffee-origins' className='underline font-bold'>
+            A Guide to Ethiopian Coffee Origins by Region
+          </Link>
+        </li>
+        <li className='my-2'>
+          <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline font-bold'>
+            Yirgacheffe vs Sidamo vs Guji: A Head-to-Head Comparison
+          </Link>
+        </li>
+        <li className='my-2'>
+          <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline font-bold'>
+            Ethiopian Heirloom Coffee Varieties and Landraces
+          </Link>
+        </li>
+        <li className='my-2'>
+          <Link href='/insights/ethiopian-coffee-climate-change-impact' className='underline font-bold'>
+            How Climate Change Is Affecting Ethiopian Coffee Production
+          </Link>
+        </li>
+      </ul>
     </>
   )
 }

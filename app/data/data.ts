@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== WASHING STATIONS & QUALITY =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-washing-stations.webp',
+      large_image_url: 'insights/ethiopian-coffee-washing-stations.webp',
+      date: 'Feb 13, 2026',
+      title: 'THE ROLE OF WASHING STATIONS IN ETHIOPIAN COFFEE QUALITY',
+      slug: 'ethiopian-coffee-washing-stations-quality',
+      category: 'Processing / Quality Control / Sourcing Guide',
+      keywords: [
+        'ethiopian coffee washing station',
+        'coffee wet mill ethiopia',
+        'coffee washing station quality',
+        'ethiopian washed coffee processing',
+        'coffee fermentation station',
+        'coffee cherry processing ethiopia',
+        'washing station traceability',
+        'coffee drying beds ethiopia',
+        'coffee fermentation time',
+        'ethiopian coffee micro lot',
+        'station level traceability coffee',
+        'cooperative vs private washing station',
+        'coffee depulping quality',
+        'washed coffee grading channels',
+        'raised bed coffee drying',
+        'ethiopian coffee supply chain',
+        'coffee washing station evaluation',
+        'green coffee traceability ethiopia',
+        'specialty coffee wet mill',
+        'ethiopian coffee processing facility'
+      ],
+      desc: 'Ethiopian washing stations determine green coffee quality through cherry sorting, fermentation, washing, and drying. Learn how to evaluate stations, compare cooperative vs private models, and source with station-level traceability.'
+    },
     // ===== TERROIR & ALTITUDE =====
     {
       small_image_url: 'insights/altitude-terroir-ethiopian-coffee.webp',

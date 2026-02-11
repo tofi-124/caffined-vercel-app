@@ -174,6 +174,15 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
         Some roasteries position washed as their &quot;light and bright&quot; option and natural as their &quot;fruit bomb&quot; and let customers choose their adventure.
       </p>
 
+      <p className='my-4'>
+        Whether washed or natural, the quality of the processing depends heavily on the washing station where it happens.
+        Station infrastructure, fermentation protocols, and drying discipline are what separate a good lot from a great one.
+        For a deeper look at how these facilities shape cup quality, read our guide on{' '}
+        <Link href='/insights/ethiopian-coffee-washing-stations-quality' className='underline font-bold'>
+          the role of washing stations in Ethiopian coffee quality
+        </Link>.
+      </p>
+
       <h3 className='text-2xl font-extrabold mt-8'>
         What About Honey Process?
       </h3>

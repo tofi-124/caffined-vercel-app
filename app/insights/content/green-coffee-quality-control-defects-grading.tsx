@@ -430,6 +430,14 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
             Understanding quality control also deepens your appreciation for what happens at origin. The <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link>, <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing decisions</Link>, and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial logistics</Link> that bring Ethiopian coffee to your door all influence the quality you receive. The more you understand these connections, the better partner you become for your suppliers and your customers.
           </p>
           <p className='my-4'>
+            Much of the quality you evaluate in a green coffee sample is determined at the washing station level.
+            Cherry selection, fermentation protocols, and drying discipline at the station directly affect defect counts and cupping scores.
+            For a closer look at how these facilities shape your green coffee, see our article on{' '}
+            <Link href='/insights/ethiopian-coffee-washing-stations-quality' className='underline font-bold'>
+              the role of washing stations in Ethiopian coffee quality
+            </Link>.
+          </p>
+          <p className='my-4'>
             Quality coffee is never an accident. It results from intentional decisions at every stage of the supply chain. By investing in your QC capabilities, you honor that effort and ensure the exceptional coffees of Ethiopia reach consumers as their producers intended.
           </p>
 
