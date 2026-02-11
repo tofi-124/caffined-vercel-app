@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { HiOutlineUsers} from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -34,6 +35,11 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
         </div>
       </figure>
 
+      <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
+        <span className='font-semibold'>Category:</span>
+        <span className='ml-2'>Gender Equity / Supply Chain / Social Impact</span>
+      </div>
+
       <p className='my-4'>
         Women are responsible for an estimated 60 to 70 percent of the labor in Ethiopia&apos;s coffee sector.
         Yet their contribution rarely gets the same attention as regions, processing methods, or cupping scores.
@@ -49,6 +55,13 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
         For importers and roasters who care about traceability and social impact, understanding the role of women in Ethiopian coffee is no longer optional.
         It is a sourcing consideration.
       </p>
+
+      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+        <p className='font-medium flex items-start gap-2'>
+          <HiOutlineUsers className='text-2xl flex-shrink-0 mt-1' />
+          <span><span className='font-bold'>Key Takeaway:</span> Women perform 60 to 70% of coffee labor in Ethiopia yet remain underrepresented in cooperative governance, land ownership, and income decisions. Supporting women in the supply chain is both a quality strategy and a sourcing imperative.</span>
+        </p>
+      </div>
 
       <h3 className='text-2xl font-extrabold mt-8'>
         Women on the Farm: The Labor Behind the Cup
@@ -273,15 +286,78 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
         If your sourcing decisions already prioritize quality, traceability, and sustainability, then supporting women in the supply chain is a natural next step.
       </p>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Women in Ethiopian Coffee</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What percentage of Ethiopian coffee labor is performed by women?</h4>
+            <p className="text-sm text-gray-600">Women are responsible for an estimated 60 to 70 percent of the labor in Ethiopia&apos;s coffee sector, according to the International Coffee Organization (ICO) and USAID program data. Their work spans selective harvesting, sorting, drying bed management, and seedling preparation.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can women own land and join cooperatives in Ethiopia?</h4>
+            <p className="text-sm text-gray-600">Historically, land titles were held by men and cooperative membership was limited to one person per household. Recent joint land titling programs and the establishment of women-only cooperatives in Yirgacheffe, Sidama, and Guji are changing this, increasing women&apos;s access to governance, training, and premium distributions.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does supporting women improve coffee quality?</h4>
+            <p className="text-sm text-gray-600">Women handle the most quality-critical tasks in the supply chain, including selective cherry picking and defect sorting. When women sorters and processors receive training and fair compensation, defect rates drop, lot consistency improves, and overall cup scores rise.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How can importers and roasters support women in Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">Buyers can source from women-led cooperatives, specify that premiums support women&apos;s training programs, include gender equity metrics in supplier evaluations, and share the stories of women producers in their marketing with consent.</p>
+          </div>
+        </div>
+      </section>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <p className='my-2 font-medium'>
-          Ethio Coffee works with cooperatives and washing stations that actively support women&apos;s participation across the value chain.
+        <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee That Supports Women in the Supply Chain</h4>
+        <p className='my-2'>
+          <span className='font-bold'>Ethio Coffee Export PLC</span> works with cooperatives and washing stations that actively support women&apos;s participation across the value chain.
           If you are looking for Ethiopian green coffee sourced with gender equity in mind, we can connect you with producers and lots that align with your values.
         </p>
-        <div className='flex gap-4 mt-4'>
-          <Link href='/contact-us' className='underline font-bold'>CONTACT US</Link>
-          <Link href='/insights' className='underline font-bold'>EXPLORE MORE INSIGHTS</Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
+            View Our Offerings
+          </Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            Contact Us
+          </Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
+            How to Order
+          </Link>
         </div>
+      </div>
+
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Culture & Community</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+              <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Certifications</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
+              <li>• <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
+              <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide explores the role of women across Ethiopia&apos;s coffee value chain, from selective harvesting and processing to cooperative governance, and what importers and roasters can do to support gender equity in sourcing.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )

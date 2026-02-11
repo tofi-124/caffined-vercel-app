@@ -13,7 +13,7 @@ const Hero = () => {
             ETHIOPIAN COFFEE EXPORTER
           </h1>
             <h2 className='text-dark/80 text-xs sm:text-sm tracking-wide mt-2 mb-2 leading-relaxed'>
-             Ethio Coffee: Direct, Traceable Specialty Green Coffee
+              Ethio Coffee: Transparent Sourcing. Seamless Export. Specialty Grade.
             </h2>
 
             <div className='mt-4 lg:mt-6 text-dark lg:pr-20 leading-relaxed space-y-4 lg:space-y-6'>
