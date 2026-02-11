@@ -112,6 +112,8 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./women-in-ethiopian-coffee-industry').then(mod => mod.default),
   'most-expensive-coffee-in-the-world': () =>
     import('./most-expensive-coffee-in-the-world').then(mod => mod.default),
+  'how-to-make-coffee-without-a-coffeemaker': () =>
+    import('./how-to-make-coffee-without-a-coffeemaker').then(mod => mod.default),
   // Add more insights here as you create them:
   // 'next-insight-slug': () => import('./next-insight-file').then(mod => mod.default),
 }

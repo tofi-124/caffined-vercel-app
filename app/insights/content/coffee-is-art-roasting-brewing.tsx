@@ -308,6 +308,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
                 <ul className='space-y-1 text-sm'>
                   <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
                   <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup & Evaluate Ethiopian Coffee Samples</Link></li>
+                  <li>• <Link href='/insights/how-to-make-coffee-without-a-coffeemaker' className='text-amber-700 hover:underline'>How to Make Coffee Without a Coffeemaker</Link></li>
                 </ul>
               </div>
             </div>

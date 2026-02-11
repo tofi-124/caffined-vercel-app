@@ -11,6 +11,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== BREWING METHODS & EDUCATION =====
+    {
+      small_image_url: 'insights/how-to-make-coffee-without-coffeemaker.webp',
+      large_image_url: 'insights/how-to-make-coffee-without-coffeemaker.webp',
+      date: 'Feb 13, 2026',
+      title: 'How to Make Coffee Without a Coffeemaker',
+      slug: 'how-to-make-coffee-without-a-coffeemaker',
+      category: 'Brewing Methods / Coffee Education / How-To Guides',
+      keywords: [
+        'how to make coffee without a coffeemaker',
+        'make coffee without a machine',
+        'brew coffee without coffee maker',
+        'coffee without equipment',
+        'stovetop coffee method',
+        'how to make coffee with just hot water',
+        'cowboy coffee method step by step',
+        'cold brew without equipment',
+        'make coffee without filter',
+        'DIY pour over coffee',
+        'Turkish coffee without cezve',
+        'best way to brew coffee without machine',
+        'Ethiopian jebena coffee brewing',
+        'coffee brewing methods no equipment',
+        'campfire coffee recipe'
+      ],
+      desc: '7 proven ways to make coffee without a coffeemaker, with step-by-step instructions, grind size tables, water temperature guidance, and a comparison chart for every method.'
+    },
     // ===== COFFEE MARKET & PREMIUM PRICING =====
     {
       small_image_url: 'insights/most-expensive-coffee-world.webp',
