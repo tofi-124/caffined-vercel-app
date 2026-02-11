@@ -110,6 +110,16 @@ export default function EthiopianCoffeeCeremony({ title, date, large_image_url }
         Those specifics feel human because they are.
       </p>
 
+      <p className='my-4'>
+        It is also worth noting that the ceremony is traditionally led by women.
+        Their role as cultural custodians of coffee extends far beyond the jebena.
+        Learn more about{' '}
+        <Link href='/insights/women-in-ethiopian-coffee-industry' className='underline font-bold'>
+          the role of women in Ethiopian coffee
+        </Link>
+        {' '}and how their contributions shape the entire supply chain.
+      </p>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <p className='my-2 font-medium'>
           Want to bring the richness of Ethiopia&apos;s coffee culture into your business?

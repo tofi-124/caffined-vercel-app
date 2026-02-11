@@ -11,6 +11,46 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GENDER & SOCIAL IMPACT =====
+    {
+      small_image_url: 'insights/women-ethiopian-coffee.webp',
+      large_image_url: 'insights/women-ethiopian-coffee.webp',
+      date: 'Feb 11, 2026',
+      title: 'THE ROLE OF WOMEN IN ETHIOPIAN COFFEE: FROM FARM TO EXPORT',
+      slug: 'women-in-ethiopian-coffee-industry',
+      category: 'Gender & Social Impact / Supply Chain / Sourcing',
+      keywords: [
+        'women in ethiopian coffee',
+        'women coffee farmers ethiopia',
+        'gender equity coffee supply chain',
+        'women coffee producers',
+        'ethiopian women coffee industry',
+        'women in coffee value chain',
+        'women coffee cooperatives ethiopia',
+        'female coffee farmers',
+        'gender equality coffee',
+        'women coffee sorters ethiopia',
+        'women led coffee cooperatives',
+        'social impact coffee sourcing',
+        'women coffee workers',
+        'coffee gender equity',
+        'women in specialty coffee',
+        'women coffee processing ethiopia',
+        'fair trade women coffee',
+        'coffee social sustainability',
+        'women smallholder farmers ethiopia',
+        'women coffee cherry pickers',
+        'yirgacheffe women cooperative',
+        'sidama women coffee',
+        'guji women coffee farmers',
+        'women coffee quality control',
+        'sustainable coffee gender',
+        'ethical coffee sourcing women',
+        'women empowerment coffee',
+        'coffee supply chain gender'
+      ],
+      desc: 'Women in Ethiopian coffee perform 60 to 70 percent of the labor from selective harvesting to sorting and export preparation. Learn about their role in quality, the barriers they face, cooperative reforms, training programs, and what importers can do to source with gender equity in mind.'
+    },
     // ===== CLIMATE & SUSTAINABILITY =====
     {
       small_image_url: 'insights/ethiopian-coffee-climate-change.webp',

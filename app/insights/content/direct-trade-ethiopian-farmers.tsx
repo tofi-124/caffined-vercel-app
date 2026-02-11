@@ -142,6 +142,16 @@ export default function DirectTradeEthiopianFarmers({ title, date, large_image_u
         At Ethiocoffee, we believe in brewing better futures one handshake, one harvest, one container at a time. Our direct trade model is proof that commerce and compassion can thrive side by side.
       </p>
 
+      <p className='my-4'>
+        Direct trade is especially powerful when it reaches the women who do the majority of the work.
+        From selective harvesting to sorting and drying, women perform an estimated 60 to 70 percent of the labor in Ethiopian coffee.
+        Read more about{' '}
+        <Link href='/insights/women-in-ethiopian-coffee-industry' className='underline font-bold'>
+          the role of women in Ethiopian coffee
+        </Link>
+        {' '}and why supporting them is both a moral and commercial imperative.
+      </p>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <p className='my-2 font-medium'>
           Are you a roaster or coffee buyer looking to source ethical, speciality Ethiopian coffee?<br/>
