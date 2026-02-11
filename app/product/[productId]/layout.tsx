@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   // SEO-optimized title with keywords
-  const title = `${product.name} Grade ${product.specifications.grade} | Ethio Coffee`
+  const title = `Ethiopian ${product.name} Coffee Grade ${product.specifications.grade} | Ethio Coffee`
   // Concise description under 160 characters
   const description = `${product.name} Ethiopian green coffee, Grade ${product.specifications.grade}, ${product.specifications.processingMethod}. ${product.flavorNotes.slice(0, 2).join(', ')}. Request samples.`
 
