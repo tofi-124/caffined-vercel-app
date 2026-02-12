@@ -12,6 +12,7 @@ interface ResponsiveImageProps {
   style?: CSSProperties;
   fill?: boolean;
   objectFit?: 'contain' | 'cover' | 'fill' | 'none' | 'scale-down';
+  quality?: number;
 }
 
 const ResponsiveImage = ({
@@ -25,6 +26,7 @@ const ResponsiveImage = ({
   style,
   fill = false,
   objectFit = 'contain',
+  quality,
 }: ResponsiveImageProps) => {
   // If width and height are provided, use regular Image component with those dimensions
   if (width && height && !fill) {
@@ -38,6 +40,7 @@ const ResponsiveImage = ({
         sizes={sizes}
         className={className}
         {...(priority ? {} : { loading: 'lazy' })}
+        {...(quality ? { quality } : {})}
         style={{
           maxWidth: '100%',
           maxHeight: '100%',
@@ -60,6 +63,7 @@ const ResponsiveImage = ({
         priority={priority}
         sizes={sizes}
         {...(priority ? {} : { loading: 'lazy' })}
+        {...(quality ? { quality } : {})}
         style={{ 
           objectFit,
           ...style

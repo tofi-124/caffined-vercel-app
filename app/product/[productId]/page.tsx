@@ -126,7 +126,7 @@ const OfferingDetail = ({ params }: Props) => {
           {/* Right column - Details */}
           <div className='lg:flex-1'>
             {/* Breadcrumb */}
-            <nav className='flex items-center gap-2 text-sm text-gray-400 mb-4'>
+            <nav className='flex items-center gap-2 text-sm text-gray-500 mb-4'>
               <Link href='/offerings' className='hover:text-accent transition-colors'>Our Offerings</Link>
               <span>·</span>
               <span className='text-gray-500'>{product.region}</span>
@@ -173,7 +173,7 @@ const OfferingDetail = ({ params }: Props) => {
             {/* Flavor notes section */}
             {product.flavorNotes.length > 0 && (
               <div className='mb-10'>
-                <h3 className='text-[11px] font-semibold uppercase tracking-widest text-gray-400 mb-4'>Cup Profile</h3>
+                <h3 className='text-[11px] font-semibold uppercase tracking-widest text-gray-500 mb-4'>Cup Profile</h3>
                 <div className='flex flex-wrap gap-2'>
                   {product.flavorNotes.map((note, index) => (
                     <span 
@@ -196,7 +196,7 @@ const OfferingDetail = ({ params }: Props) => {
                   className={`flex-1 py-5 px-6 text-sm font-semibold transition-all relative ${
                     activeDetail === 'coffeeProfileOrigin' 
                       ? 'text-dark' 
-                      : 'text-gray-400 hover:text-dark'
+                      : 'text-gray-500 hover:text-dark'
                   } focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2`}
                   role='tab'
                   id='about-tab'
@@ -214,7 +214,7 @@ const OfferingDetail = ({ params }: Props) => {
                   className={`flex-1 py-5 px-6 text-sm font-semibold transition-all relative ${
                     activeDetail === 'technicalSpecs' 
                       ? 'text-dark' 
-                      : 'text-gray-400 hover:text-dark'
+                      : 'text-gray-500 hover:text-dark'
                   } focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 focus-visible:ring-offset-2`}
                   role='tab'
                   id='specs-tab'
@@ -269,55 +269,55 @@ const OfferingDetail = ({ params }: Props) => {
                     <div className='grid grid-cols-2 md:grid-cols-3 gap-4 mb-6'>
                       {product.specifications.grade && (
                         <div className='p-4 bg-stone-50 rounded-2xl'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Grade</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Grade</span>
                           <span className='text-sm font-bold text-dark'>{product.specifications.grade}</span>
                         </div>
                       )}
                       {product.specifications.cupScore && (
                         <div className='p-4 bg-accent/5 rounded-2xl'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Cup Score</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Cup Score</span>
                           <span className='text-sm font-bold text-accent'>{product.specifications.cupScore}</span>
                         </div>
                       )}
                       {product.specifications.processingMethod && (
                         <div className='p-4 bg-stone-50 rounded-2xl'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Process</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Process</span>
                           <span className='text-sm font-bold text-dark'>{product.specifications.processingMethod}</span>
                         </div>
                       )}
                       {product.variety && (
                         <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-3'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Variety</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Variety</span>
                           <span className='text-sm font-bold text-dark'>{product.variety}</span>
                         </div>
                       )}
                       {product.region && (
                         <div className='p-4 bg-stone-50 rounded-2xl'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Region</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Region</span>
                           <span className='text-sm font-bold text-dark'>{product.region}</span>
                         </div>
                       )}
                       {product.subRegion && (
                         <div className='p-4 bg-stone-50 rounded-2xl'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Sub-Region</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Sub-Region</span>
                           <span className='text-sm font-bold text-dark'>{product.subRegion}</span>
                         </div>
                       )}
                       {product.altitude && (
                         <div className='p-4 bg-stone-50 rounded-2xl'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Altitude</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Altitude</span>
                           <span className='text-sm font-bold text-dark'>{product.altitude}</span>
                         </div>
                       )}
                       {product.specifications.washingStation && (
                         <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Washing Station</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Washing Station</span>
                           <span className='text-sm font-bold text-dark'>{product.specifications.washingStation}</span>
                         </div>
                       )}
                       {product.specifications.harvestPeriod && (
                         <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
-                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Harvest Period</span>
+                          <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Harvest Period</span>
                           <span className='text-sm font-bold text-dark'>{product.specifications.harvestPeriod}</span>
                         </div>
                       )}
@@ -331,85 +331,85 @@ const OfferingDetail = ({ params }: Props) => {
                       >
                         {product.specifications.screenSize && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Screen Size</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Screen Size</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.screenSize}</span>
                           </div>
                         )}
                         {product.specifications.cuppingNotes && (
                           <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-3'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Cupping Notes</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Cupping Notes</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.cuppingNotes}</span>
                           </div>
                         )}
                         {product.specifications.millName && (
                           <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Mill</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Mill</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.millName}</span>
                           </div>
                         )}
                         {product.specifications.dryingMethod && (
                           <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Drying Method</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Drying Method</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.dryingMethod}</span>
                           </div>
                         )}
                         {product.specifications.fermentationTime && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Fermentation</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Fermentation</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.fermentationTime}</span>
                           </div>
                         )}
                         {product.specifications.moisture && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Moisture</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Moisture</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.moisture}</span>
                           </div>
                         )}
                         {product.specifications.waterActivity && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Water Activity</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Water Activity</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.waterActivity}</span>
                           </div>
                         )}
                         {product.specifications.density && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Density</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Density</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.density}</span>
                           </div>
                         )}
                         {product.specifications.defectCount && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Defect Count</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Defect Count</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.defectCount}</span>
                           </div>
                         )}
                         {product.bagSize && (
                           <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Bag Size</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Bag Size</span>
                             <span className='text-sm font-bold text-dark'>{product.bagSize}</span>
                           </div>
                         )}
                         {product.specifications.farmCoopId && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Farm/Coop ID</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Farm/Coop ID</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.farmCoopId}</span>
                           </div>
                         )}
                         {product.specifications.icoNumber && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>ICO Number</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>ICO Number</span>
                             <span className='text-sm font-bold text-dark'>{product.specifications.icoNumber}</span>
                           </div>
                         )}
                         {product.producer && (
                           <div className='p-4 bg-stone-50 rounded-2xl col-span-2 md:col-span-1'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Producer</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Producer</span>
                             <span className='text-sm font-bold text-dark'>{product.producer}</span>
                           </div>
                         )}
                         {product.lotNumber && (
                           <div className='p-4 bg-stone-50 rounded-2xl'>
-                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-400 block mb-1'>Lot Number</span>
+                            <span className='text-[10px] font-semibold uppercase tracking-widest text-gray-500 block mb-1'>Lot Number</span>
                             <span className='text-sm font-bold text-dark'>{product.lotNumber}</span>
                           </div>
                         )}

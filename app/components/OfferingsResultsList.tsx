@@ -25,7 +25,8 @@ const OfferingsResultsList = ({ items }: Props) => {
                 width={400}
                 height={300}
                 className='object-contain w-full h-full max-w-[240px] group-hover:scale-110 transition-transform duration-700 ease-out'
-                sizes='(max-width: 640px) 80vw, (max-width: 768px) 45vw, (max-width: 1024px) 30vw, 280px'
+                sizes='240px'
+                quality={60}
               />
             </div>
             
@@ -74,25 +75,25 @@ const OfferingsResultsList = ({ items }: Props) => {
             <div className='mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-xs'>
               {o.specifications.grade && (
                 <div className='flex flex-col'>
-                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Grade</span>
+                  <span className='text-gray-500 uppercase tracking-wide text-[10px] font-medium'>Grade</span>
                   <span className='text-dark font-semibold'>{o.specifications.grade}</span>
                 </div>
               )}
               {o.specifications.cupScore && (
                 <div className='flex flex-col'>
-                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Cup Score</span>
+                  <span className='text-gray-500 uppercase tracking-wide text-[10px] font-medium'>Cup Score</span>
                   <span className='text-accent font-bold'>{o.specifications.cupScore} pts</span>
                 </div>
               )}
               {o.altitude && (
                 <div className='flex flex-col col-span-2'>
-                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Altitude</span>
+                  <span className='text-gray-500 uppercase tracking-wide text-[10px] font-medium'>Altitude</span>
                   <span className='text-dark font-semibold'>{o.altitude}</span>
                 </div>
               )}
               {o.variety && (
                 <div className='flex flex-col col-span-2'>
-                  <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium'>Variety</span>
+                  <span className='text-gray-500 uppercase tracking-wide text-[10px] font-medium'>Variety</span>
                   <span className='text-dark font-semibold line-clamp-1'>{o.variety}</span>
                 </div>
               )}
@@ -101,7 +102,7 @@ const OfferingsResultsList = ({ items }: Props) => {
             {/* Flavor profile */}
             {o.flavorNotes.length > 0 && (
               <div className='mt-4 pt-4 border-t border-gray-300'>
-                <span className='text-gray-400 uppercase tracking-wide text-[10px] font-medium block mb-2'>Cup Profile</span>
+                <span className='text-gray-500 uppercase tracking-wide text-[10px] font-medium block mb-2'>Cup Profile</span>
                 <p className='text-sm text-gray-600 leading-relaxed line-clamp-2'>
                   {o.flavorNotes.join(', ')}
                 </p>

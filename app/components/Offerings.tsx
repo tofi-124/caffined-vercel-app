@@ -8,7 +8,7 @@ const Offerings = () => {
       {/* Navy Header Section */}
       <div className='bg-dark py-20 lg:py-24'>
         <div className='container mx-auto px-4 text-center'>
-          <span className='inline-block px-4 py-1.5 bg-accent/20 text-accent rounded-full text-sm font-semibold mb-4'>
+          <span className='inline-block px-4 py-1.5 bg-primary/15 text-primary rounded-full text-sm font-semibold mb-4'>
             Our Collection
           </span>
           <h2 className='text-5xl lg:text-6xl leading-tight text-primary font-bold'>

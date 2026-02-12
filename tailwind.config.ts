@@ -25,7 +25,7 @@ const config: Config = {
         'black': '#000',
         'dark': '#1B3A4B',
         'white': '#FFF',
-        'accent': '#E07B58',
+        'accent': '#B45D38',
         'secondary': '#4A9B9B'
       },
       fontFamily: {

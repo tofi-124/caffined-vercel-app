@@ -169,7 +169,7 @@ const Footer = () => {
 
         {/* Certification Badges - visible on every page */}
         <div className='py-6 flex items-center justify-center gap-6 flex-wrap px-4'>
-          <p className='text-dark/40 text-[10px] uppercase tracking-[0.2em] font-bold w-full text-center'>Licensed & Affiliated</p>
+          <p className='text-dark/70 text-[10px] uppercase tracking-[0.2em] font-bold w-full text-center'>Licensed & Affiliated</p>
           <Image src='/images/ecta-cert.webp' alt='ECTA certified Ethiopian coffee exporter' width={40} height={40} className='opacity-50 hover:opacity-80 transition-opacity' />
           <Image src='/images/ecx-cert.webp' alt='ECX registered coffee trader' width={40} height={40} className='opacity-50 hover:opacity-80 transition-opacity' />
           <Image src='/images/afca-cert.png' alt='AFCA member' width={40} height={40} className='opacity-50 hover:opacity-80 transition-opacity' />
@@ -178,21 +178,21 @@ const Footer = () => {
 
         <div className='h-px w-full bg-dark/10' />
 
-        <p className='py-6 text-center text-sm text-dark/50 max-w-3xl mx-auto leading-relaxed px-4'>
+        <p className='py-6 text-center text-sm text-dark/70 max-w-3xl mx-auto leading-relaxed px-4'>
           Ethio Coffee Export PLC is a family-owned Ethiopian coffee exporter shipping specialty and commercial grade green coffee beans to roasters, importers, and distributors worldwide.
         </p>
 
         <div className='pb-8 text-center'>
-          <p className="text-sm text-dark/50">
+          <p className="text-sm text-dark/70">
             © 2026 Ethio Coffee Export PLC. All rights reserved.
           </p>
-          <p className="mt-3 flex items-center justify-center gap-1 text-sm text-dark/40">
+          <p className="mt-3 flex items-center justify-center gap-1 text-sm text-dark/70">
             <span>made by</span>
             <a
               href="mailto:nusey51@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline underline-offset-4 hover:text-dark/60 transition-colors"
+              className="underline underline-offset-4 hover:text-dark transition-colors"
             >
               nusu.m
             </a>
