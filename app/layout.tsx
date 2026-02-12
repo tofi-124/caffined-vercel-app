@@ -179,7 +179,9 @@ export default function RootLayout({
         {/* BreadcrumbList Schema - removed: breadcrumbs should be hierarchical per-page, not flat site-wide */}
         <ScrollToTop />
         <Navbar />
-        {children}
+        <div className="min-h-screen">
+          {children}
+        </div>
         <Footer />
         <Analytics />
         <SpeedInsights />
