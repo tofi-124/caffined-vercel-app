@@ -26,6 +26,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./coffee-exports-first-half-2018').then(mod => mod.default),
     'government-support-coffee-competitiveness': () =>
       import('./government-support-coffee-competitiveness').then(mod => mod.default),
+    'russia-ethiopia-trade-435-million': () =>
+      import('./russia-ethiopia-trade-435-million').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

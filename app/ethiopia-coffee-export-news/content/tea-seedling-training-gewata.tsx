@@ -45,7 +45,7 @@ export default function TeaSeedlingTrainingGewata({ title, date, source }: NewsC
       <div className='mt-8 pt-6 border-t border-gray-200'>
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
-          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+          <li><Link href='/ethiopian-coffee-jimma' className='text-blue-600 hover:underline'>Ethiopian Jimma Coffee</Link></li>
           <li><Link href='/organic-ethiopian-coffee-export' className='text-blue-600 hover:underline'>Organic Ethiopian Coffee Export</Link></li>
         </ul>
       </div>

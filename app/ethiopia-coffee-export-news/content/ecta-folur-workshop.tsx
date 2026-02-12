@@ -45,7 +45,7 @@ export default function EctaFolurWorkshop2026({ title, date, source }: NewsConte
       <div className='mt-8 pt-6 border-t border-gray-200'>
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
-          <li><Link href='/coffee-grading-ethiopia' className='text-blue-600 hover:underline'>Ethiopian Coffee Grading System</Link></li>
+          <li><Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-blue-600 hover:underline'>Climate Change Impact on Ethiopian Coffee</Link></li>
           <li><Link href='/ethiopian-green-coffee-beans' className='text-blue-600 hover:underline'>Ethiopian Green Coffee Beans</Link></li>
         </ul>
       </div>

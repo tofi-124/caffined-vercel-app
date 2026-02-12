@@ -48,7 +48,7 @@ export default function GovernmentSupportCoffeeCompetitiveness({ title, date, so
         <ul className='space-y-2 text-sm'>
           <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
           <li><Link href='/buy-ethiopian-coffee-wholesale' className='text-blue-600 hover:underline'>Buy Ethiopian Coffee Wholesale</Link></li>
-          <li><Link href='/ethiopian-coffee-yirgacheffe' className='text-blue-600 hover:underline'>Ethiopian Yirgacheffe Coffee</Link></li>
+          <li><Link href='/ethiopian-green-coffee-beans' className='text-blue-600 hover:underline'>Ethiopian Green Coffee Beans</Link></li>
         </ul>
       </div>
 

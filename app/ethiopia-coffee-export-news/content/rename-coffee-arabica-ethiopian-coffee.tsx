@@ -42,8 +42,8 @@ export default function RenameCoffeeArabicaEthiopianCoffee({ title, date, source
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
           <li><Link href='/insights/ethiopia-birthplace-of-coffee' className='text-blue-600 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
-          <li><Link href='/ethiopian-coffee-yirgacheffe' className='text-blue-600 hover:underline'>Ethiopian Yirgacheffe Coffee</Link></li>
-          <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+          <li><Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-blue-600 hover:underline'>Coffee Plant Taxonomy, Species &amp; Varieties</Link></li>
+          <li><Link href='/insights/guide-ethiopian-coffee-origins' className='text-blue-600 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
         </ul>
       </div>
 

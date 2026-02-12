@@ -103,6 +103,12 @@ export const newsArticles: NewsArticle[] = [
     title: 'Ethiopian Coffee EUDR Compliance Progress',
     desc: 'The European Union confirms Ethiopia’s coffee sector is making tangible progress on EUDR deforestation-free requirements, with advances in digital traceability and land registration systems.',
     source: 'Yared Seyoum',
-    keywords: 'EUDR Ethiopian coffee, EU coffee import from Ethiopia, Ethiopian coffee export compliance, EU deforestation regulation coffee, Ethiopian coffee traceability, Ethiopian coffee exporter, deforestation free coffee',
-  }
+    keywords: 'EUDR Ethiopian coffee, EU coffee import from Ethiopia, Ethiopian coffee export compliance, EU deforestation regulation coffee, Ethiopian coffee traceability, Ethiopian coffee exporter, deforestation free coffee',  },
+  {
+    slug: 'russia-ethiopia-trade-435-million',
+    date: '2026-02-11',
+    title: 'Russia-Ethiopia Trade Hits $435 Million',
+    desc: 'Russia-Ethiopia bilateral trade nearly tripled in 2025, crossing $435 million — led by Ethiopian coffee exports including Sidamo and Harar varieties, alongside Russian fertiliser and machinery sales.',
+    source: 'Business Insider Africa',
+    keywords: 'Russia Ethiopia coffee trade, Ethiopian coffee export Russia, Sidamo coffee Russia, Harar coffee Russia, Ethiopia bilateral trade, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee export growth Ethiopia',  }
 ]

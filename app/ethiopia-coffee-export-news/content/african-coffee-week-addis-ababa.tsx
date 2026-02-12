@@ -50,7 +50,7 @@ export default function AfricanCoffeeWeek2026AddisAbaba({ title, date, source }:
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
           <li><Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='text-blue-600 hover:underline'>AFCA Taste of Harvest Competition</Link></li>
-          <li><Link href='/ethiopian-coffee-guji' className='text-blue-600 hover:underline'>Ethiopian Guji Coffee</Link></li>
+          <li><Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-blue-600 hover:underline'>Climate Change Impact on Ethiopian Coffee</Link></li>
           <li><Link href='/ethiopian-coffee-exporter' className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
         </ul>
       </div>
