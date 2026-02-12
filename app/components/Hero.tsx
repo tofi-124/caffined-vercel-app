@@ -28,7 +28,7 @@ const Hero = () => {
             border-2 border-accent
             rounded-xl
             font-bold
-            transition-all
+            transition-[background-color,box-shadow]
             shadow-sm hover:shadow-md
          ' aria-label="Check out our coffees">SEE OUR CURRENT LOTS</Link>
         </div>

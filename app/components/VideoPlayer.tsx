@@ -41,10 +41,9 @@ const VideoPlayer = () => {
         if (playPromise !== undefined) {
           playPromise
             .then(() => {
-              console.log("Video autoplay successful");
+              // autoplay successful
             })
             .catch(e => {
-              console.log("Video autoplay attempt failed:", e);
 
               if (isIOS && playAttempts < 5) {
                 setTimeout(() => {

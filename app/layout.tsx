@@ -10,7 +10,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const oswald = Oswald({ 
   subsets: ['latin'],
-  display: 'swap',
+  display: 'optional',
   variable: '--font-oswald',
   adjustFontFallback: true,
   fallback: ['Arial Narrow', 'sans-serif'],
@@ -18,7 +18,7 @@ const oswald = Oswald({
 
 const inconsolata = Inconsolata({
   subsets: ['latin'],
-  display: 'swap',
+  display: 'optional',
   variable: '--font-inconsolata',
   adjustFontFallback: true,
   fallback: ['Courier New', 'monospace'],
@@ -67,15 +67,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href="/apple-icon.png" sizes="180x180" />
-        {/* Preconnect to image optimization origin for faster LCP */}
-        <link rel="preconnect" href="https://www.ethiocoffee.co" />
-        {/* Preload LCP hero image for instant discovery - avoids waiting for JS/CSS parse */}
-        <link
-          rel="preload"
-          as="image"
-          href="/images/coffee-pack-1.webp"
-          type="image/webp"
-        />
+        {/* Removed: preconnect to own domain is redundant (already connected) */}
+        {/* Removed: manual preload fetched the ORIGINAL image; Next.js Image priority
+            already preloads the correctly optimized /_next/image version */}
       </head>
       <body className={`${oswald.className} ${inconsolata.variable} bg-primary`}>
         <Script

@@ -77,7 +77,7 @@ const Navbar = () => {
                     {/* Center Logo */}
                     <Link 
                         href="/" 
-                        className={`flex items-center justify-center transition-all duration-500 ${
+                        className={`flex items-center justify-center transition-transform duration-500 ${
                             scrolled ? 'scale-90' : 'scale-100'
                         }`}
                     >

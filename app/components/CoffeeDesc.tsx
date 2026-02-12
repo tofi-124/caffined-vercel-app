@@ -1,6 +1,11 @@
 import Link from 'next/link'
 import HeadLine from '../lib/Headline'
-import VideoPlayer from './VideoPlayer'
+import dynamic from 'next/dynamic'
+
+// Lazy-load VideoPlayer — it's far below the fold and brings ~200 lines of client JS
+const VideoPlayer = dynamic(() => import('./VideoPlayer'), {
+  loading: () => <div className="video-container w-full bg-dark" style={{ aspectRatio: '16/9', maxHeight: '650px' }} />,
+})
 
 const headlines = [
   {
