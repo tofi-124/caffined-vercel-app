@@ -181,15 +181,6 @@ const EthiopianCoffeeExporter = () => {
                 </Link>
               </div>
             </div>
-            <div className='lg:w-1/2'>
-              <ResponsiveImage
-                src='/images/about-us.webp'
-                alt='Ethiopian coffee exporter - Ethio Coffee Export PLC warehouse with specialty green coffee bags prepared for international shipment'
-                width={600}
-                height={400}
-                className='rounded-lg w-full'
-              />
-            </div>
           </div>
         </div>
       </section>

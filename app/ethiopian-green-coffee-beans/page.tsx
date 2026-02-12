@@ -112,16 +112,6 @@ export default function EthiopianGreenCoffeeBeansPage() {
                 </Link>
               </div>
             </div>
-            <div className='lg:w-1/2'>
-              <ResponsiveImage
-                src='/images/coffee-pack-1.webp'
-                alt='Ethiopian green coffee beans ready for export - specialty grade Arabica from Ethiopia'
-                width={900}
-                height={600}
-                className='w-full max-w-[500px] mx-auto'
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </div>
           </div>
         </div>
       </section>

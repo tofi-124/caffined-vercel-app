@@ -84,16 +84,6 @@ export default function BuyWholesalePage() {
                 </Link>
               </div>
             </div>
-            <div className='lg:w-1/2'>
-              <ResponsiveImage
-                src='/images/coffee-pack-1.webp'
-                alt='Buy Ethiopian coffee wholesale - specialty green coffee beans for importers and roasters'
-                width={900}
-                height={600}
-                className='w-full max-w-[500px] mx-auto'
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </div>
           </div>
         </div>
       </section>
