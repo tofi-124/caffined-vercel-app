@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic'
 import { HiOutlineShoppingBag, HiOutlineBeaker, HiOutlineDocumentCheck, HiOutlineTruck, HiOutlineChatBubbleLeftRight, HiOutlineShieldCheck } from 'react-icons/hi2'
 
 const Testimonials = dynamic(() => import('../components/Testimonials'), {
-  loading: () => <section className='min-h-[220px] bg-dark' />,
+  loading: () => <section className='min-h-[320px] bg-dark' />,
 })
 
 const pricingGuide = [

@@ -53,9 +53,9 @@ const Navbar = () => {
                     scrolled ? 'shadow-lg' : ''
                 }`}
             >
-                {/* Animated Top Message - uses transform for CLS-free hide/show */}
-                <div className={`transition-transform duration-500 ease-in-out overflow-hidden ${
-                    showTopMessage ? 'translate-y-0' : '-translate-y-full h-0'
+                {/* Animated Top Message - uses max-height + transform for CLS-free hide/show */}
+                <div className={`transition-all duration-500 ease-in-out overflow-hidden ${
+                    showTopMessage ? 'max-h-20 translate-y-0' : 'max-h-0 -translate-y-full'
                 }`}>
                     <TopMessage />
                 </div>
@@ -131,8 +131,8 @@ const Navbar = () => {
                 }`} />
             </header>
 
-            {/* Spacer to prevent content from going under fixed header - uses instant switch to avoid CLS */}
-            <div className={showTopMessage ? 'h-28 lg:h-32' : 'h-16 lg:h-20'} />
+            {/* Spacer to prevent content from going under fixed header - constant height avoids CLS */}
+            <div className='h-28 lg:h-32' />
 
             {/* Mobile Menu Overlay - CSS transitions instead of framer-motion to reduce JS bundle */}
             {/* Backdrop */}

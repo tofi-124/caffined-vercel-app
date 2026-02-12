@@ -32,22 +32,8 @@ const OfferingDetail = ({ params }: Props) => {
   const productImageRef = useRef<HTMLDivElement>(null);
   const specsSectionRef = useRef<HTMLDivElement>(null);
   
-  useEffect(() => {
-    // Scroll to show product section nicely in viewport
-    const timer = setTimeout(() => {
-      if (productImageRef.current) {
-        const productSectionTop = productImageRef.current.offsetTop;
-        const headerOffset = 100; // Account for navbar
-        
-        window.scrollTo({
-          top: Math.max(0, productSectionTop - headerOffset),
-          behavior: 'smooth'
-        });
-      }
-    }, 300);
-    
-    return () => clearTimeout(timer);
-  }, [productId]);
+  // Removed programmatic scroll — it triggered non-user-initiated layout
+  // shifts (navbar spacer + TopMessage collapse) that counted toward CLS.
   
   // Default values for product details
   const [activeDetail, setActiveDetail] = useState<string>('coffeeProfileOrigin');

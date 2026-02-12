@@ -4,7 +4,7 @@ import { ArrowRight } from '../components/Arrow'
 import dynamic from 'next/dynamic'
 
 const Testimonials = dynamic(() => import('../components/Testimonials'), {
-  loading: () => <section className='min-h-[220px] bg-dark' />,
+  loading: () => <section className='min-h-[320px] bg-dark' />,
 })
 
 const gradingTable = [

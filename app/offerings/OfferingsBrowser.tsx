@@ -53,25 +53,9 @@ const OfferingsBrowser = () => {
     })
   }
 
-  useEffect(() => {
-    // Simple and reliable approach:
-    // On back navigation, the browser restores scroll position BEFORE our code runs.
-    // We use a short delay to let the browser restore scroll position first.
-    // If scrollY is still near the top after the delay, it's a fresh navigation - scroll to results.
-    // If scrollY is already scrolled down, browser restored position - don't interfere.
-    
-    const timer = setTimeout(() => {
-      // If user is near the top of the page, it's likely a fresh navigation
-      // Scroll to the results section
-      if (window.scrollY < 150) {
-        scrollToResultsTop()
-      }
-      // If scrollY >= 150, browser has restored scroll position from back/forward navigation
-      // Don't override the restored position
-    }, 100) // Short delay to let browser restore scroll position first
-    
-    return () => clearTimeout(timer)
-  }, [])
+  // Removed automatic scroll-to-results on mount — the programmatic scroll
+  // triggered non-user-initiated navbar state changes that counted toward CLS.
+  // Users can manually scroll to the results section instead.
 
   const gradeOptions = useMemo(() => {
     return Array.from(new Set(offerings.map((o) => o.specifications.grade).filter((v): v is string => v !== null))).sort()

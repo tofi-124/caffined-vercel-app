@@ -44,7 +44,7 @@ const Testimonials = () => {
   ]
 
   return (
-    <section id='partners-section' className='pt-16 pb-12 flex flex-col items-center justify-center bg-dark text-primary overflow-x-hidden min-h-[220px]'>
+    <section id='partners-section' className='pt-16 pb-12 flex flex-col items-center justify-center bg-dark text-primary overflow-x-hidden min-h-[320px]'>
       <div className='mb-6 text-center'>
         <h2 className='text-2xl md:text-3xl leading-tight text-primary font-bold tracking-wide'>
           OUR GLOBAL COFFEE IMPORT PARTNERS

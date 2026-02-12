@@ -5,7 +5,7 @@ import AutoScrollTo from '../components/AutoScrollTo'
 import Script from 'next/script'
 
 const Testimonials = dynamic(() => import('../components/Testimonials'), {
-  loading: () => <section className='min-h-[220px] bg-dark' />,
+  loading: () => <section className='min-h-[320px] bg-dark' />,
 })
 
 const timeline = [

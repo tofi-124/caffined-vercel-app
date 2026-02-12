@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 
 // Lazy-load Testimonials (uses better-react-carousel, ~40 KiB) since it's below the fold
 const Testimonials = dynamic(() => import("./components/Testimonials"), {
-  loading: () => <section className='min-h-[220px] bg-dark' />,
+  loading: () => <section className='min-h-[320px] bg-dark' />,
 })
 
 export const metadata: Metadata = {
