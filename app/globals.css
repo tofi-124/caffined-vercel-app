@@ -8,7 +8,8 @@
 .z-1{
   z-index: 1;
 }
-img {
+/* Only apply hover transform transition within .photo containers to avoid CLS on all images */
+.photo img {
     transition: transform 0.4s;
   }
 .photo:hover img {

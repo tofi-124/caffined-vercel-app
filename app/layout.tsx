@@ -12,12 +12,16 @@ const oswald = Oswald({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-oswald',
+  adjustFontFallback: true,
+  fallback: ['Arial Narrow', 'sans-serif'],
 })
 
 const inconsolata = Inconsolata({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inconsolata',
+  adjustFontFallback: true,
+  fallback: ['Courier New', 'monospace'],
 })
 
 export const metadata: Metadata = {

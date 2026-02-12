@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useLayoutEffect } from 'react'
 import TopMessage from './TopMessage'
 import NavLinks from './NavLinks'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -8,10 +8,20 @@ import { AiOutlineClose } from 'react-icons/ai'
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
 
+// Use useLayoutEffect on client to read scroll position before paint, preventing CLS
+const useIsomorphicLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
+
 const Navbar = () => {
     const [isOpened, setIsOpened] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const [showTopMessage, setShowTopMessage] = useState(true);
+
+    // Read scroll position synchronously before first paint to prevent CLS
+    useIsomorphicLayoutEffect(() => {
+        const scrollY = window.scrollY;
+        setScrolled(scrollY > 50);
+        setShowTopMessage(scrollY < 100);
+    }, []);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -44,9 +54,9 @@ const Navbar = () => {
                     scrolled ? 'shadow-lg' : ''
                 }`}
             >
-                {/* Animated Top Message */}
-                <div className={`transition-all duration-500 ease-in-out overflow-hidden ${
-                    showTopMessage ? 'max-h-12 opacity-100' : 'max-h-0 opacity-0'
+                {/* Animated Top Message - uses transform for CLS-free hide/show */}
+                <div className={`transition-transform duration-500 ease-in-out overflow-hidden ${
+                    showTopMessage ? 'translate-y-0' : '-translate-y-full h-0'
                 }`}>
                     <TopMessage />
                 </div>
@@ -121,8 +131,8 @@ const Navbar = () => {
                 }`} />
             </header>
 
-            {/* Spacer to prevent content from going under fixed header */}
-            <div className={`transition-all duration-500 ${showTopMessage ? 'h-28 lg:h-32' : 'h-16 lg:h-20'}`} />
+            {/* Spacer to prevent content from going under fixed header - uses instant switch to avoid CLS */}
+            <div className={showTopMessage ? 'h-28 lg:h-32' : 'h-16 lg:h-20'} />
 
             {/* Mobile Menu Overlay */}
             <AnimatePresence>

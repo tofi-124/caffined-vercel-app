@@ -62,7 +62,6 @@ const ResponsiveImage = ({
         {...(priority ? {} : { loading: 'lazy' })}
         style={{ 
           objectFit,
-          transition: 'transform 0.4s',
           ...style
         }}
       />

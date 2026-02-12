@@ -112,7 +112,7 @@ const OfferingDetail = ({ params }: Props) => {
                   width={600}
                   height={600}
                   className='object-contain w-full h-auto'
-                  loading="lazy"
+                  priority
                 />
               </div>
             </div>
