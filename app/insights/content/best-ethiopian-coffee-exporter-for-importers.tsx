@@ -151,6 +151,10 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
         For a broader look at what separates the best coffee exporters worldwide from the rest, read our guide on <Link href='/insights/top-premium-coffee-exporters-global-guide' className='underline font-bold'>top premium coffee exporters globally</Link> and the key standards that define export excellence.
       </p>
 
+      <p className='my-4'>
+        If you are comparing multiple Ethiopian suppliers, our <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='underline font-bold'>guide on how to choose an Ethiopian coffee export company</Link> provides a 10-point evaluation scorecard, red flags to watch for, and a step-by-step due diligence process.
+      </p>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Source Specialty Ethiopian Green Coffee?</h4>
         <p className='my-2'>

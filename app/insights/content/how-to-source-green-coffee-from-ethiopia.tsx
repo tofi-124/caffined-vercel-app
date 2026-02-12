@@ -114,6 +114,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         <li className='my-2'><span className='font-bold'>Documentation:</span> Can they provide phytosanitary certificates, ICO certificates, and quality reports?</li>
         <li className='my-2'><span className='font-bold'>Minimum Order:</span> What&apos;s their MOQ? Can they accommodate smaller trial orders?</li>
         <li className='my-2'><span className='font-bold'>Shipping:</span> Do they handle export logistics, or will you need a freight forwarder?</li>
+        <li className='my-2'><span className='font-bold'>Licensing:</span> Are they ECTA-licensed and ECX-registered? See our <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='underline'>complete exporter evaluation guide</Link> for a 10-point scorecard.</li>
         <li className='my-2'><span className='font-bold'>Communication:</span> Are they responsive and transparent about lead times and crop conditions?</li>
       </ul>
 

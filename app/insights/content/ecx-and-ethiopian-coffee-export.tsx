@@ -294,6 +294,10 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         <p className='font-medium'><span className='font-bold'>Red Flags to Watch For:</span> Exporters who can&apos;t provide ECX registration documentation, refuse to share cupping reports, have no sample program, or offer prices significantly below market rates. If it seems too good to be true, it probably is.</p>
       </div>
 
+      <p className='my-4'>
+        For a comprehensive evaluation framework covering all types of Ethiopian coffee exporters (not just ECX-registered), including a 10-point scorecard and due diligence steps for first-time buyers, read our <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='underline font-bold'>guide to choosing an Ethiopian coffee export company</Link>.
+      </p>
+
       <h3 className='text-2xl font-extrabold mt-8'>
         The Future of ECX and Ethiopian Coffee Export
       </h3>

@@ -74,6 +74,36 @@ export const posts: Post[] = [
       ],
       desc: 'The most expensive coffee in the world ranked by price, with expert analysis of what drives premium value from Gesha auctions to Ethiopian micro-lots. A buyer-focused guide for importers and roasters.'
     },
+    // ===== SOURCING & TRADE / EXPORT GUIDE =====
+    {
+      small_image_url: 'insights/how-to-choose-ethiopian-coffee-export-company.webp',
+      large_image_url: 'insights/how-to-choose-ethiopian-coffee-export-company.webp',
+      date: 'Feb 14, 2026',
+      title: 'How to Choose an Ethiopian Coffee Export Company',
+      slug: 'how-to-choose-ethiopian-coffee-export-company',
+      category: 'Sourcing & Trade / Export Guide / Due Diligence',
+      keywords: [
+        'Ethiopian coffee export company',
+        'how to choose Ethiopian coffee exporter',
+        'Ethiopian coffee exporter evaluation',
+        'specialty coffee exporter Ethiopia',
+        'traceable Ethiopian coffee sourcing',
+        'direct origin coffee Ethiopia',
+        'Ethiopian green coffee supplier',
+        'wholesale Ethiopian coffee beans',
+        'premium Ethiopian coffee beans',
+        'reliable Ethiopian coffee exporter',
+        'Ethiopian coffee exporter red flags',
+        'Ethiopian coffee supplier checklist',
+        'Ethiopian coffee export licensing',
+        'Ethiopian coffee due diligence',
+        'ECTA licensed coffee exporter',
+        'ECX registered coffee exporter Ethiopia',
+        'Ethiopian coffee exporter vs broker',
+        'first time importing Ethiopian coffee'
+      ],
+      desc: 'A practical framework for evaluating Ethiopian coffee export companies. Covers ECTA licensing, a 10-point exporter scorecard, red flags to watch for, due diligence steps for first-time buyers, and pricing structure.'
+    },
     // ===== GENDER & SOCIAL IMPACT =====
     {
       small_image_url: 'insights/women-ethiopian-coffee.webp',
