@@ -70,6 +70,8 @@ export default function OrganicEthiopianCoffeeExportPage() {
               markets. For roasters, adding a certified organic Ethiopian single-origin to your program
               meets both the quality expectations of specialty consumers and the sustainability values that
               drive purchasing decisions. The <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='underline hover:text-dark/60'>EU Deforestation Regulation</Link> also increases the value of traceable, certified supply chains.
+              Our <Link href='/insights/certified-organic-coffee-bean-exporters-bulk-orders' className='underline hover:text-dark/60'>guide to certified organic coffee bean exporters for bulk orders</Link> covers
+              how to evaluate and source from certified exporters.
             </p>
           </div>
         </div>

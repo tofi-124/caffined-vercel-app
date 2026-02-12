@@ -11,6 +11,36 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ORGANIC SOURCING & BULK BUYING =====
+    {
+      small_image_url: 'insights/certified-organic-coffee-bean-exporters-bulk-orders.webp',
+      large_image_url: 'insights/certified-organic-coffee-bean-exporters-bulk-orders.webp',
+      date: 'Feb 15, 2026',
+      title: 'Certified Organic Coffee Bean Exporters: Bulk Guide',
+      slug: 'certified-organic-coffee-bean-exporters-bulk-orders',
+      category: 'Organic Coffee / Sourcing & Trade / Bulk Buying / Certification',
+      keywords: [
+        'certified organic coffee bean exporters',
+        'organic green coffee beans wholesale',
+        'bulk organic coffee beans supplier',
+        'organic coffee exporter Ethiopia',
+        'USDA organic coffee beans bulk',
+        'organic coffee certification for export',
+        'how to buy certified organic coffee beans in bulk',
+        'organic coffee bean exporters for roasters',
+        'USDA organic Ethiopian green coffee wholesale',
+        'EU organic certified coffee beans exporter',
+        'organic Arabica coffee beans bulk order minimum',
+        'certified organic fair trade coffee exporter',
+        'organic coffee bean supply chain traceability',
+        'organic coffee export requirements and documentation',
+        'best organic green coffee supplier for specialty roasters',
+        'organic coffee beans MOQ and pricing per kg',
+        'organic coffee transaction certificate',
+        'organic coffee chain of custody'
+      ],
+      desc: 'How to find, vet, and buy from certified organic coffee bean exporters for bulk orders. Covers USDA, EU, and JAS certification, pricing and organic premiums, MOQs, transaction certificates, chain of custody verification, and Ethiopian organic origin profiles.'
+    },
     // ===== BREWING METHODS & EDUCATION =====
     {
       small_image_url: 'insights/how-to-make-coffee-without-coffeemaker.webp',

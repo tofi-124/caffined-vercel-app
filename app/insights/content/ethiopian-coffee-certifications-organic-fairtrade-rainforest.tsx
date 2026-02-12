@@ -311,6 +311,10 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         <li><span className='font-bold'>Jimma:</span> Large cooperative unions with organic certification</li>
       </ul>
 
+      <p className='my-4'>
+        For a detailed guide on evaluating and sourcing from certified organic exporters specifically for bulk orders, see our <Link href='/insights/certified-organic-coffee-bean-exporters-bulk-orders' className='underline font-bold'>certified organic coffee bean exporters bulk guide</Link>.
+      </p>
+
       <h4 className='text-xl font-bold mt-8 mb-4'>Organic Coffee Premiums</h4>
 
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>

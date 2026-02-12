@@ -1128,6 +1128,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Heirloom Varieties</Link></li>
               <li><Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Certifications Guide</Link></li>
+              <li><Link href='/insights/certified-organic-coffee-bean-exporters-bulk-orders' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Organic Coffee Bulk Guide</Link></li>
               <li><Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Complete Coffee Guide</Link></li>
             </ul>
           </div>
