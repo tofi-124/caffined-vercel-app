@@ -1,8 +1,12 @@
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
-import Testimonials from '../components/Testimonials'
+import dynamic from 'next/dynamic'
 import AutoScrollTo from '../components/AutoScrollTo'
 import Script from 'next/script'
+
+const Testimonials = dynamic(() => import('../components/Testimonials'), {
+  loading: () => <section className='min-h-[220px] bg-dark' />,
+})
 
 const timeline = [
   {

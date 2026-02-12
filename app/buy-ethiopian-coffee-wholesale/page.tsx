@@ -1,8 +1,12 @@
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
 import AutoScrollTo from '../components/AutoScrollTo'
-import Testimonials from '../components/Testimonials'
+import dynamic from 'next/dynamic'
 import { HiOutlineShoppingBag, HiOutlineBeaker, HiOutlineDocumentCheck, HiOutlineTruck, HiOutlineChatBubbleLeftRight, HiOutlineShieldCheck } from 'react-icons/hi2'
+
+const Testimonials = dynamic(() => import('../components/Testimonials'), {
+  loading: () => <section className='min-h-[220px] bg-dark' />,
+})
 
 const pricingGuide = [
   { origin: 'Yirgacheffe G2 Washed', fobKg: '$9.50', fobLb: '$4.31', cupScore: '84+' },

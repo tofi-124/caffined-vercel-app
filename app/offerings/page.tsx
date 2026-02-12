@@ -1,6 +1,10 @@
 import React from 'react'
-import Testimonials from '../components/Testimonials'
+import dynamic from 'next/dynamic'
 import OfferingsBrowser from './OfferingsBrowser'
+
+const Testimonials = dynamic(() => import('../components/Testimonials'), {
+  loading: () => <section className='min-h-[220px] bg-dark' />,
+})
 
 const OfferingsPage = () => {
   return (

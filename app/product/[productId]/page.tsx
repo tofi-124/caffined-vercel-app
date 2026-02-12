@@ -4,7 +4,12 @@ import Link from 'next/link'
 import { offerings } from '../../data/offerings'
 import Image from 'next/image'
 import QuoteRequestPopup from '../../components/QuoteRequestPopup'
-import { generateProductPDF } from '../../lib/pdfGenerator'
+
+// Lazy-load PDF generator to keep jspdf (~100 KiB) out of the initial bundle
+const lazyGenerateProductPDF = async (product: Parameters<typeof import('../../lib/pdfGenerator').generateProductPDF>[0]) => {
+  const { generateProductPDF } = await import('../../lib/pdfGenerator')
+  generateProductPDF(product)
+}
 
 // Removing the generateStaticParams function from this client component file
 
@@ -528,7 +533,7 @@ const OfferingDetail = ({ params }: Props) => {
               </button>
               
               <button 
-                onClick={() => generateProductPDF(product)}
+                onClick={() => lazyGenerateProductPDF(product)}
                 className='flex items-center justify-center gap-2 px-6 py-4 bg-white hover:bg-stone-50 text-dark border border-gray-200 rounded-full font-semibold transition-all'
                 title='Download Product Sheet PDF'
               >

@@ -2,7 +2,11 @@ import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
 import { ArrowRight } from '../components/Arrow'
 import AutoScrollTo from '../components/AutoScrollTo'
-import Testimonials from '../components/Testimonials'
+import dynamic from 'next/dynamic'
+
+const Testimonials = dynamic(() => import('../components/Testimonials'), {
+  loading: () => <section className='min-h-[220px] bg-dark' />,
+})
 
 const origins = [
   {

@@ -67,11 +67,21 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href="/apple-icon.png" sizes="180x180" />
+        {/* Preconnect to image optimization origin for faster LCP */}
+        <link rel="preconnect" href="https://www.ethiocoffee.co" />
+        {/* Preload LCP hero image for instant discovery - avoids waiting for JS/CSS parse */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/coffee-pack-1.webp"
+          type="image/webp"
+        />
       </head>
       <body className={`${oswald.className} ${inconsolata.variable} bg-primary`}>
         <Script
           id="structured-data"
           type="application/ld+json"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -148,6 +158,7 @@ export default function RootLayout({
         <Script
           id="website-schema"
           type="application/ld+json"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",

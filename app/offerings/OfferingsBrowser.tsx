@@ -4,7 +4,12 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import OfferingsResultsList from '../components/OfferingsResultsList'
 import { offerings, Offering } from '../data/offerings'
-import { generateMultipleProductsPDF } from '../lib/pdfGenerator'
+
+// Lazy-load PDF generator to keep jspdf (~100 KiB) out of the initial bundle
+const lazyGenerateMultipleProductsPDF = async (items: Offering[], title: string) => {
+  const { generateMultipleProductsPDF } = await import('../lib/pdfGenerator')
+  generateMultipleProductsPDF(items, title)
+}
 
 type Filters = {
   keyword: string
@@ -175,7 +180,7 @@ const OfferingsBrowser = () => {
                   : applied.grade || applied.processingMethod || applied.availability
                     ? 'ETHIO COFFEE_Filtered_Offerings'
                     : 'ETHIO COFFEE_All_Offerings'
-                generateMultipleProductsPDF(filtered, title)
+                lazyGenerateMultipleProductsPDF(filtered, title)
               }}
               className='hidden lg:flex items-center gap-2 px-6 py-4 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-sm hover:shadow-md'
               title='Download filtered products as PDF'
@@ -208,7 +213,7 @@ const OfferingsBrowser = () => {
                   : applied.grade || applied.processingMethod || applied.availability
                     ? 'ETHIO COFFEE_Filtered_Offerings'
                     : 'ETHIO COFFEE_All_Offerings'
-                generateMultipleProductsPDF(filtered, title)
+                lazyGenerateMultipleProductsPDF(filtered, title)
               }}
               className='flex items-center justify-center w-14 h-14 bg-secondary hover:bg-secondary/90 text-white rounded-full shadow-lg hover:shadow-xl transition-all'
               aria-label='Download PDF'

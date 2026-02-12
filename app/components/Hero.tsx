@@ -40,7 +40,7 @@ const Hero = () => {
             width={900}
             height={600}
             className='w-full max-w-[400px]'
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="(max-width: 768px) 90vw, 400px"
             priority
           />
         </div>

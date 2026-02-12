@@ -160,7 +160,7 @@ const VideoPlayer = () => {
 
   if (!videoLoaded) {
     return (
-      <div className="video-container w-full bg-dark relative" style={{ aspectRatio: '16/9' }}>
+      <div className="video-container w-full bg-dark relative" style={{ aspectRatio: '16/9', maxHeight: '650px' }}>
         <Image
           src="/images/cover.png"
           alt="Ethiopian coffee farms and processing in the highlands - video preview"

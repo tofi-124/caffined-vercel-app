@@ -1,7 +1,11 @@
 import Link from 'next/link'
 import AutoScrollTo from '../components/AutoScrollTo'
 import { ArrowRight } from '../components/Arrow'
-import Testimonials from '../components/Testimonials'
+import dynamic from 'next/dynamic'
+
+const Testimonials = dynamic(() => import('../components/Testimonials'), {
+  loading: () => <section className='min-h-[220px] bg-dark' />,
+})
 
 const gradingTable = [
   {

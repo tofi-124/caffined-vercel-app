@@ -14,7 +14,7 @@ const OfferingsResultsList = ({ items }: Props) => {
         <Link 
           key={o.id} 
           href={`/product/${o.id}`}
-          className='group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-[#1e3a5f] hover:border-accent flex flex-col'
+          className='group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-[box-shadow,border-color] duration-500 border-2 border-[#1e3a5f] hover:border-accent flex flex-col'
         >
           {/* Image Container with elegant overlay */}
           <div className='relative overflow-hidden bg-gradient-to-br from-stone-100 via-stone-50 to-white'>
