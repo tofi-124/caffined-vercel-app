@@ -143,6 +143,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
         <li className='my-2'><span className='font-bold'>First crack:</span> End development shortly after first crack (30-60 seconds)</li>
         <li className='my-2'><span className='font-bold'>What to avoid:</span> Going too dark kills the florals and turns citrus into generic &quot;coffee&quot; flavor</li>
         <li className='my-2'><span className='font-bold'>Pro tip:</span> Lower charge temperatures and gentle heat application preserve aromatics</li>
+        <li className='my-2'>For detailed temperature ranges, RoR guidance, and development time ratios, see our complete <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='underline font-bold'>guide to roasting Ethiopian coffee beans</Link></li>
       </ul>
 
       <h3 className='text-2xl font-extrabold mt-8'>

@@ -42,7 +42,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
             Coffee art combines scientific understanding with creative imagination, requiring practice, knowledge, and experimentation to achieve perfect extraction and flavor harmony. Every roast curve and brew represents the conscious application of skill in the coffee roasting and coffee brewing process.
           </p>
           <p className='my-4'>
-            To connect roast and origin, review <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline font-bold'>Coffee is a Science</Link> for compound mapping and <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline font-bold'>our regional comparison</Link> to tailor roast and brew recipes to origin characteristics.
+            To connect roast and origin, review <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline font-bold'>Coffee is a Science</Link> for compound mapping, <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline font-bold'>our regional comparison</Link> to tailor roast and brew recipes to origin characteristics, and our in-depth <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='underline font-bold'>guide to roasting Ethiopian coffee beans</Link> for region-specific profiles and troubleshooting.
           </p>
 
           <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>

@@ -737,7 +737,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
           <h5 className='font-bold mb-3'>Physical Bean Characteristics</h5>
           <ul className='space-y-2 text-sm'>
-            <li>• <span className='font-bold'>Bean density:</span> Affects heat transfer during roasting</li>
+            <li>• <span className='font-bold'>Bean density:</span> Affects heat transfer during roasting (see our <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='underline font-bold'>Ethiopian coffee roasting guide</Link>)</li>
             <li>• <span className='font-bold'>Bean size:</span> Influences roasting behavior and extraction</li>
             <li>• <span className='font-bold'>Bean shape:</span> Impacts how water flows during brewing</li>
             <li>• <span className='font-bold'>Cellulose structure:</span> Affects soluble compounds release</li>

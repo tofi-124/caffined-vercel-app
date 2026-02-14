@@ -11,6 +11,34 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== COFFEE ROASTING & QUALITY =====
+    {
+      small_image_url: 'insights/roasting-ethiopian-coffee-beans-guide.webp',
+      large_image_url: 'insights/roasting-ethiopian-coffee-beans-guide.webp',
+      date: 'Feb 16, 2026',
+      title: 'How to Roast Ethiopian Coffee Beans',
+      slug: 'roasting-ethiopian-coffee-beans-guide',
+      category: 'Coffee Roasting / Ethiopian Coffee / Quality & Processing / Roaster Resources',
+      keywords: [
+        'roasting Ethiopian coffee',
+        'how to roast Ethiopian coffee beans',
+        'Ethiopian coffee roast profile',
+        'roasting Ethiopian natural coffee',
+        'Ethiopian washed coffee roasting',
+        'Ethiopian coffee roasting temperature',
+        'roast profile Ethiopian Yirgacheffe',
+        'best roast level for Ethiopian coffee',
+        'Ethiopian natural vs washed roasting profile',
+        'roasting Ethiopian Yirgacheffe for filter',
+        'Ethiopian coffee roasting tips',
+        'Ethiopian coffee first crack temperature',
+        'development time ratio Ethiopian coffee',
+        'Ethiopian coffee roast defects troubleshooting',
+        'sample roast Ethiopian green coffee',
+        'Ethiopian coffee rest time after roasting'
+      ],
+      desc: 'Master roasting Ethiopian coffee with region-specific profiles for Yirgacheffe, Sidamo, Guji, and Harrar. Covers washed vs natural strategies, charge temperatures, development time ratios, common defect fixes, and sample roasting protocols for specialty roasters.'
+    },
     // ===== ORGANIC SOURCING & BULK BUYING =====
     {
       small_image_url: 'insights/certified-organic-coffee-bean-exporters-bulk-orders.webp',
