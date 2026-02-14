@@ -81,6 +81,14 @@ export const newsArticles: NewsArticle[] = [
     keywords: 'Ethiopian coffee export earnings, Ethiopian coffee exporter, Ethiopian coffee trade data, coffee export revenue Ethiopia, billion dollar coffee export, Ethiopian green coffee beans, ECTA report',
   },
   {
+    slug: 'technologies-coffee-training-donated',
+    date: '2026-02-14',
+    title: 'Technologies for Coffee Training Services Donated to the Authority',
+    desc: 'H&B donated two coffee machines to the Ethiopian Coffee and Tea Authority for use at the Coffee Training Center. The organization has previously supported the authority with clothing donations and is known for industry development and job creation in Bishoftu and Addis Ababa.',
+    source: 'Ashenafi Getahun',
+    keywords: 'coffee training, coffee machines donation, Ethiopian Coffee and Tea Authority, H&B donation, Coffee Training Center, Ethiopian coffee training',
+  },
+  {
     slug: 'african-coffee-week-addis-ababa',
     date: '2026-02-02',
     title: 'African Coffee Week 2026 Opens in Addis Ababa',
