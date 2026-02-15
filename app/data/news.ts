@@ -113,6 +113,14 @@ export const newsArticles: NewsArticle[] = [
     source: 'Yared Seyoum',
     keywords: 'EUDR Ethiopian coffee, EU coffee import from Ethiopia, Ethiopian coffee export compliance, EU deforestation regulation coffee, Ethiopian coffee traceability, Ethiopian coffee exporter, deforestation free coffee',  },
   {
+    slug: 'coffee-interpretation-center-inauguration',
+    date: '2026-02-15',
+    title: 'Coffee Interpretation Center (CIC) Inaugurated',
+    desc: 'The Ethiopian Coffee and Tea Authority and Spanish Cooperation inaugurated the Coffee Interpretation Center (CIC), a knowledge and skill-building facility covering coffee from seed to export, with digital modernization planned for Phase 2.',
+    source: 'Ashenafi Getahun',
+    keywords: 'Coffee Interpretation Center, CIC inauguration, Ethiopian Coffee and Tea Authority, Ethiopian coffee heritage, coffee education Ethiopia, OSSREA, WOMEN IN COFFEE, Ablaze Lab, Ethiopian coffee exporter, coffee history Ethiopia',
+  },
+  {
     slug: 'russia-ethiopia-trade-435-million',
     date: '2026-02-11',
     title: 'Russia-Ethiopia Trade Hits $435 Million',
