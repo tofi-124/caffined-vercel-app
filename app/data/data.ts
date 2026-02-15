@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE STORAGE & SHELF LIFE =====
+    {
+      small_image_url: 'insights/green-coffee-shelf-life-storage.webp',
+      large_image_url: 'insights/green-coffee-shelf-life-storage.webp',
+      date: 'Feb 17, 2026',
+      title: 'Green Coffee Shelf Life: Storage Guide for Buyers',
+      slug: 'green-coffee-shelf-life-storage-guide',
+      category: 'Quality Control / Storage & Logistics / Green Coffee / Importer Resources',
+      keywords: [
+        'green coffee shelf life',
+        'how long does green coffee last',
+        'green coffee storage guide',
+        'storing green coffee beans',
+        'green coffee freshness',
+        'how to store green coffee beans for roasters',
+        'green coffee moisture content storage',
+        'does green coffee expire',
+        'green coffee water activity shelf life',
+        'natural vs washed green coffee shelf life',
+        'GrainPro bag green coffee storage',
+        'how long can you store green coffee beans',
+        'Ethiopian green coffee storage tips',
+        'green coffee aging flavor changes',
+        'green coffee moisture meter',
+        'green coffee warehouse storage',
+        'hermetic coffee packaging',
+        'green coffee past crop',
+        'coffee lipid oxidation',
+        'green coffee quality over time'
+      ],
+      desc: 'How long does green coffee last? Practical storage guide covering moisture content, water activity science, packaging options (jute vs GrainPro vs vacuum), warehouse protocols, sensory aging timeline, and Ethiopian origin-specific storage notes for importers and roasters.'
+    },
     // ===== COFFEE ROASTING & QUALITY =====
     {
       small_image_url: 'insights/roasting-ethiopian-coffee-beans-guide.webp',

@@ -463,11 +463,12 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
                 </ul>
               </div>
               <div>
-                <h4 className='font-semibold mb-2 text-sm'>Processing & Sourcing</h4>
+                <h4 className='font-semibold mb-2 text-sm'>Processing &amp; Sourcing</h4>
                 <ul className='space-y-1 text-sm'>
-                  <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Production QC</Link></li>
-                  <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
-                  <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+                  <li>&bull; <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Production QC</Link></li>
+                  <li>&bull; <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+                  <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+                  <li>&bull; <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Green Coffee Shelf Life &amp; Storage Guide</Link></li>
                 </ul>
               </div>
             </div>
