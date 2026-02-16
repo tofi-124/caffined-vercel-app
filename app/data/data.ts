@@ -15,7 +15,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/ethiopian-coffee-contracts-payment-terms-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-contracts-payment-terms-guide.webp',
-      date: 'Feb 16, 2026',
+      date: 'Feb 18, 2026',
       title: 'Ethiopian Coffee Contracts & Payment Terms Guide',
       slug: 'ethiopian-coffee-contracts-payment-terms-guide',
       category: 'Trade Guidance / Contracts & Payment / Importers / Green Coffee Buying',
