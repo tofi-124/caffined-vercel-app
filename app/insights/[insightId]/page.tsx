@@ -68,6 +68,7 @@ const readingTimeMap: Record<string, number> = {
   'certified-organic-coffee-bean-exporters-bulk-orders': 16,
   'roasting-ethiopian-coffee-beans-guide': 17,
   'green-coffee-shelf-life-storage-guide': 18,
+  'ethiopian-coffee-contracts-payment-terms-guide': 20,
 }
 
 function getReadingTime(slug: string): number {

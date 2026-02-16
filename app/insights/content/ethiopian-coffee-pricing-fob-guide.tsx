@@ -404,7 +404,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       </div>
 
       <p className='my-4'>
-        For most importers working with Ethiopian exporters, especially those buying one to three containers per season, fixed price contracts are the most common and practical option. Differential contracts require more market knowledge and a broker relationship to hedge effectively.
+        For most importers working with Ethiopian exporters, especially those buying one to three containers per season, fixed price contracts are the most common and practical option. Differential contracts require more market knowledge and a broker relationship to hedge effectively. For a complete breakdown of contract structures and payment mechanisms, see our <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='underline font-semibold'>Ethiopian Coffee Contracts & Payment Terms Guide</Link>.
       </p>
 
       {/* ====== SECTION 8: PAYMENT TERMS ====== */}

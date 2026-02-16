@@ -901,7 +901,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             </div>
             <div>
               <p className='font-bold mb-1'>Expectation:</p>
-              <p className='text-xs'>Contractual commitment, payment terms (LC, TT, deposit), ongoing relationship</p>
+              <p className='text-xs'>Contractual commitment, <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='underline font-semibold'>payment terms (LC, TT, deposit)</Link>, ongoing relationship</p>
             </div>
           </div>
         </div>

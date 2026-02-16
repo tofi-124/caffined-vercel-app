@@ -74,7 +74,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       </ul>
 
       <p className='my-4'>
-        The ECX was designed to solve these problems by creating a centralized, transparent marketplace with standardized contracts, quality grading, electronic trading, and guaranteed payment clearing within 24 hours.
+        The ECX was designed to solve these problems by creating a centralized, transparent marketplace with <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='underline font-semibold'>standardized contracts</Link>, quality grading, electronic trading, and guaranteed payment clearing within 24 hours.
       </p>
 
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>

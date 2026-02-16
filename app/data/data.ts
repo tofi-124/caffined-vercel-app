@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE CONTRACTS & PAYMENT TERMS =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-contracts-payment-terms-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-contracts-payment-terms-guide.webp',
+      date: 'Feb 16, 2026',
+      title: 'Ethiopian Coffee Contracts & Payment Terms Guide',
+      slug: 'ethiopian-coffee-contracts-payment-terms-guide',
+      category: 'Trade Guidance / Contracts & Payment / Importers / Green Coffee Buying',
+      keywords: [
+        'ethiopian coffee contracts',
+        'green coffee payment terms',
+        'coffee import contract types',
+        'letter of credit coffee trade',
+        'ethiopian coffee buying guide',
+        'how to pay for ethiopian coffee imports',
+        'spot vs forward contract green coffee',
+        'letter of credit vs CAD coffee import',
+        'ethiopian coffee export contract requirements',
+        'coffee trade payment methods for importers',
+        'ECX coffee contract rules',
+        'fixed price vs differential coffee contract',
+        'FOB Djibouti coffee',
+        'green coffee Incoterms',
+        'coffee quality clauses arbitration',
+        'ethiopian coffee LC payment',
+        'coffee pre-shipment sample approval',
+        'green coffee forward contract',
+        'coffee differential pricing',
+        'ethiopian export permit coffee'
+      ],
+      desc: 'Complete guide to Ethiopian coffee contracts and payment terms. Learn spot, forward, and fixed-price structures plus LC, CAD, and TT payment methods. Covers ECX vs direct export, Incoterms, quality clauses, and practical steps from sample to signed contract.'
+    },
     // ===== GREEN COFFEE STORAGE & SHELF LIFE =====
     {
       small_image_url: 'insights/green-coffee-shelf-life-storage.webp',
