@@ -126,5 +126,13 @@ export const newsArticles: NewsArticle[] = [
     title: 'Russia-Ethiopia Trade Hits $435 Million',
     desc: 'Russia-Ethiopia bilateral trade nearly tripled in 2025, crossing $435 million — led by Ethiopian coffee exports including Sidamo and Harar varieties, alongside Russian fertiliser and machinery sales.',
     source: 'Business Insider Africa',
-    keywords: 'Russia Ethiopia coffee trade, Ethiopian coffee export Russia, Sidamo coffee Russia, Harar coffee Russia, Ethiopia bilateral trade, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee export growth Ethiopia',  }
+    keywords: 'Russia Ethiopia coffee trade, Ethiopian coffee export Russia, Sidamo coffee Russia, Harar coffee Russia, Ethiopia bilateral trade, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee export growth Ethiopia',  },
+  {
+    slug: 'italian-delegation-visits-coffee-training-center',
+    date: '2026-02-16',
+    title: 'Italian Delegation Visits Ethiopian Coffee Training Center',
+    desc: 'The Italian Ministry of Foreign Affairs and AICS delegation visited the Ethiopian Coffee Training Center (ECTA) in Addis Ababa, praising it as a model for building skilled manpower and deepening Ethiopia–Italy cooperation.',
+    source: 'ECTA',
+    keywords: 'Italian delegation Ethiopia, Ethiopian Coffee Training Center, ECTA Addis Ababa, Italy Ethiopia cooperation, AICS Ethiopia, coffee training East Africa, Ethiopian coffee exporter, UNIDO Ethiopia coffee',
+  }
 ]

@@ -32,6 +32,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./russia-ethiopia-trade-435-million').then(mod => mod.default),
     'coffee-interpretation-center-inauguration': () =>
       import('./coffee-interpretation-center-inauguration').then(mod => mod.default),
+    'italian-delegation-visits-coffee-training-center': () =>
+      import('./italian-delegation-visits-coffee-training-center').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 
