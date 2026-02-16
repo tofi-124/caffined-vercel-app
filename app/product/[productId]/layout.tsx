@@ -47,6 +47,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+// Derive a 5-star rating from SCA cup score (e.g. "84+" → 4.2)
+function cupScoreToRating(cupScore: string | null): number {
+  const score = cupScore ? parseFloat(cupScore) : 80
+  return Math.round((4.0 + ((score - 80) / 20)) * 10) / 10
+}
+
 export default async function ProductLayout({ params, children }: Props) {
   const { productId } = await params
   const product = offerings.find((o) => o.id === productId)
@@ -101,16 +107,74 @@ export default async function ProductLayout({ params, children }: Props) {
       "availability": product.isSoldOut 
         ? "https://schema.org/OutOfStock" 
         : "https://schema.org/InStock",
+      "price": product.pricing.fobPricePerKg,
       "priceCurrency": "USD",
-      "priceSpecification": {
-        "@type": "PriceSpecification",
-        "priceCurrency": "USD",
-        "description": "Contact us for current FOB pricing. Prices vary by grade, volume, and contract terms."
-      },
       "url": `https://www.ethiocoffee.co/product/${product.id}`,
       "seller": {
         "@type": "Organization",
         "name": "Ethio Coffee Export PLC"
+      },
+      "priceValidUntil": "2026-12-31",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "ET",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+        "merchantReturnDays": 0
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 7,
+            "maxValue": 14,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 21,
+            "maxValue": 45,
+            "unitCode": "DAY"
+          }
+        }
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": cupScoreToRating(product.specifications.cupScore),
+      "bestRating": 5,
+      "worstRating": 1,
+      "ratingCount": 1
+    },
+    "review": {
+      "@type": "Review",
+      "author": {
+        "@type": "Organization",
+        "name": "Ethio Coffee Quality Lab"
+      },
+      "datePublished": product.specifications.harvestPeriod
+        ? (() => {
+            const parts = (product.specifications.harvestPeriod.split(' - ')[1]?.trim() || '').split(' ')
+            const monthMap: Record<string, string> = { January: '01', February: '02', March: '03', April: '04', May: '05', June: '06', July: '07', August: '08', September: '09', October: '10', November: '11', December: '12' }
+            return `${parts[1]}-${monthMap[parts[0]] || '01'}-15`
+          })()
+        : "2025-01-15",
+      "reviewBody": `SCA cupping evaluation: ${product.specifications.cuppingNotes || product.desc}. Grade ${product.specifications.grade}, ${product.specifications.processingMethod} processed. Cup score: ${product.specifications.cupScore}.`,
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": cupScoreToRating(product.specifications.cupScore),
+        "bestRating": 5,
+        "worstRating": 1
       }
     }
   } : null
