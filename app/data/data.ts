@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== DECAF GREEN COFFEE PROCESSING & SOURCING =====
+    {
+      small_image_url: 'insights/decaf-green-coffee-processing-sourcing-guide.webp',
+      large_image_url: 'insights/decaf-green-coffee-processing-sourcing-guide.webp',
+      date: 'Feb 19, 2026',
+      title: 'Decaf Green Coffee: Processing & Sourcing Guide',
+      slug: 'decaf-green-coffee-processing-sourcing-guide',
+      category: 'Processing Methods / Sourcing Guide / Green Coffee / Importer Resources',
+      keywords: [
+        'decaf green coffee',
+        'decaffeinated coffee processing',
+        'Swiss Water decaf coffee',
+        'Ethiopian decaf coffee',
+        'decaf coffee beans wholesale',
+        'how is decaf coffee made',
+        'best decaf green coffee for roasters',
+        'CO2 decaffeination process coffee',
+        'sugarcane decaf process coffee',
+        'does decaf coffee taste different',
+        'decaf coffee flavor loss prevention',
+        'decaf green coffee sourcing for importers',
+        'Ethiopian Swiss Water decaf',
+        'mountain water decaf process',
+        'decaf coffee health benefits caffeine content',
+        'methylene chloride decaf coffee',
+        'ethyl acetate decaf coffee',
+        'decaf coffee processing methods compared',
+        'specialty decaf coffee',
+        'decaf green coffee pricing'
+      ],
+      desc: 'How decaf green coffee is made, compared across Swiss Water, CO2, EA, and MC methods, with sourcing tips, pricing, and Ethiopian decaf quality notes for importers.'
+    },
     // ===== ETHIOPIAN COFFEE CONTRACTS & PAYMENT TERMS =====
     {
       small_image_url: 'insights/ethiopian-coffee-contracts-payment-terms-guide.webp',
