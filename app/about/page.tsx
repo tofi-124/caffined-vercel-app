@@ -212,7 +212,7 @@ const About = () => {
             </p>
             <ResponsiveImage
               className='rounded-md my-10'
-              src="/images/about-3.webp"
+              src="/images/about/alo-sampel-397-14.webp"
               alt="Sustainable coffee farming practices in Ethiopian highlands"
               width={455}
               height={300}
