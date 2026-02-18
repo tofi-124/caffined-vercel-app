@@ -243,13 +243,27 @@ const About = () => {
 
             {/* Final milestone: CTA */}
             <div className='relative pl-8 pb-0'>
-              <div className='absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-accent'></div>
-              <h2 className='text-2xl font-extrabold text-dark mb-3'>
+              <div className='absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-accent ring-4 ring-accent/20'></div>
+              <h2 className='text-2xl font-extrabold text-accent mb-3'>
                 Now, it&apos;s your turn
               </h2>
-              <p className='text-gray-700 leading-relaxed'>
-                Become part of our story. <Link href="/ordering-info" className='underline underline-offset-4 font-semibold hover:text-accent transition-colors'>Start your order here</Link>.
+              <p className='text-gray-700 leading-relaxed mb-5'>
+                Reach out and let&apos;s write the next chapter of this coffee story together.
               </p>
+              <div className='flex flex-wrap gap-3'>
+                <Link
+                  href="/ordering-info"
+                  className='px-5 py-2.5 border-2 border-dark text-dark rounded-xl font-bold text-sm hover:bg-dark hover:text-primary transition-all duration-300'
+                >
+                  How to Order
+                </Link>
+                <Link
+                  href="/contact-us"
+                  className='px-5 py-2.5 border-2 border-accent bg-accent text-white rounded-xl font-bold text-sm hover:bg-accent/90 transition-all duration-300'
+                >
+                  Get in Touch
+                </Link>
+              </div>
             </div>
           </div>
         </div>
