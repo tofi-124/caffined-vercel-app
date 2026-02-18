@@ -249,7 +249,7 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
               <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
               <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties</Link></li>
-              <li>• <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee Production Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-vs-colombian-coffee' className='text-amber-700 hover:underline'>Ethiopian vs Colombian Coffee Compared</Link></li>
             </ul>
           </div>
           <div>

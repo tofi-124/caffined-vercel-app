@@ -11,6 +11,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE VS COLOMBIAN COFFEE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-vs-colombian-coffee.webp',
+      large_image_url: 'insights/ethiopian-coffee-vs-colombian-coffee.webp',
+      date: 'Feb 20, 2026',
+      title: 'Ethiopian Coffee vs Colombian Coffee: A Buyer\'s Comparison',
+      slug: 'ethiopian-coffee-vs-colombian-coffee',
+      category: 'Origin Comparison / Sourcing Guide / Green Coffee / Importer Resources',
+      keywords: [
+        'ethiopian coffee vs colombian coffee',
+        'ethiopian vs colombian coffee',
+        'colombian coffee vs ethiopian',
+        'ethiopia vs colombia coffee comparison',
+        'best coffee origin for importers',
+        'ethiopian coffee flavor profile',
+        'colombian coffee flavor profile',
+        'ethiopian coffee grading system',
+        'colombian coffee grading system',
+        'specialty coffee origin comparison',
+        'green coffee sourcing ethiopia colombia',
+        'ethiopian coffee for roasters',
+        'colombian coffee espresso blend',
+        'african vs south american coffee',
+        'FOB coffee pricing ethiopia colombia'
+      ],
+      desc: 'Ethiopian coffee vs Colombian coffee compared for importers and roasters: flavor profiles, grading systems, FOB pricing, seasonal availability, production data, and sourcing guidance for both specialty origins.'
+    },
     // ===== DECAF GREEN COFFEE PROCESSING & SOURCING =====
     {
       small_image_url: 'insights/decaf-green-coffee-processing-sourcing-guide.webp',
