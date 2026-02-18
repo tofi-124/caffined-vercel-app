@@ -16,11 +16,8 @@ const Hero = () => {
             Transparent Sourcing. Seamless Export. Specialty Grade.
           </p>
 
-          <p className='mt-4 sm:mt-6 text-primary/90 text-sm sm:text-base leading-relaxed max-w-[60ch] hidden sm:block'>
+          <p className='mt-4 sm:mt-6 text-primary/90 text-sm sm:text-base leading-relaxed max-w-[60ch]'>
             We are a partner producer and exporter with operations in Ethiopia and international reach. Founded by two brothers, we export traceable, specialty-grade green coffee from Sidama, Guji, Yirgacheffe, and all other renowned regions to importers worldwide.
-          </p>
-          <p className='mt-4 text-primary/90 text-sm leading-relaxed max-w-[50ch] sm:hidden'>
-            Founded by two brothers, one in Ethiopia and the other in Canada. We export traceable, specialty-grade green coffee from Sidama, Guji, and Yirgacheffe to importers worldwide.
           </p>
 
           <div className='flex flex-row gap-3 mt-6 sm:mt-8 justify-center'>
