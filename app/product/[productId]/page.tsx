@@ -124,54 +124,8 @@ const OfferingDetail = ({ params }: Props) => {
               )}
             </nav>
             
-            {/* Product title and description */}
-            <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold text-dark tracking-tight mb-4'>{product.name}</h1>
-            <p className='text-lg text-gray-600 leading-relaxed mb-6'>{product.desc}</p>
-            
-            {/* Quick stats badges */}
-            <div className='flex flex-wrap gap-2 mb-10'>
-              {product.specifications.processingMethod && (
-                <span className='px-4 py-2 rounded-full bg-stone-100 text-dark text-sm font-medium border border-stone-200'>
-                  {product.specifications.processingMethod}
-                </span>
-              )}
-              {product.specifications.grade && (
-                <span className='px-4 py-2 rounded-full bg-stone-100 text-dark text-sm font-medium border border-stone-200'>
-                  Grade {product.specifications.grade}
-                </span>
-              )}
-              {product.specifications.cupScore && (
-                <span className='px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-semibold border border-accent/20'>
-                  {product.specifications.cupScore} Cup Score
-                </span>
-              )}
-              <span
-                className={`px-4 py-2 rounded-full text-sm font-semibold ${
-                  product.isSoldOut
-                    ? 'bg-dark text-white'
-                    : 'bg-emerald-50 text-emerald-700 border border-emerald-200'
-                }`}
-              >
-                {product.isSoldOut ? 'Future Lot' : 'Current Lot'}
-              </span>
-            </div>
-
-            {/* Flavor notes section */}
-            {product.flavorNotes.length > 0 && (
-              <div className='mb-10'>
-                <h3 className='text-[11px] font-semibold uppercase tracking-widest text-gray-500 mb-4'>Cup Profile</h3>
-                <div className='flex flex-wrap gap-2'>
-                  {product.flavorNotes.map((note, index) => (
-                    <span 
-                      key={index}
-                      className='px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-semibold border border-accent/20 hover:bg-accent hover:text-white transition-all duration-300'
-                    >
-                      {note}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
+            {/* Product title */}
+            <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold text-dark tracking-tight mb-6'>{product.name}</h1>
 
             {/* Product Details Section with elegant tabs */}
             <div ref={specsSectionRef} className='mb-10 bg-white rounded-3xl border border-gray-200 overflow-hidden shadow-sm'>

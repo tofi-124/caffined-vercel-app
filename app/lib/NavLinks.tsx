@@ -14,9 +14,11 @@ interface NavLinksProps {
   position?: 'left' | 'right';
   mobile?: boolean;
   onLinkClick?: () => void;
+  isHome?: boolean;
+  scrolled?: boolean;
 }
 
-const NavLinks = ({ position, mobile, onLinkClick }: NavLinksProps) => {
+const NavLinks = ({ position, mobile, onLinkClick, isHome, scrolled }: NavLinksProps) => {
   const pathname = usePathname()
   const [openDropdown, setOpenDropdown] = useState<string | null>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
@@ -139,7 +141,7 @@ const NavLinks = ({ position, mobile, onLinkClick }: NavLinksProps) => {
           >
             <span
               className={`relative text-base font-medium transition-all duration-300 group cursor-pointer ${
-                isDropdownActive(link) ? 'text-accent' : 'text-dark hover:text-accent'
+                isDropdownActive(link) ? 'text-accent' : isHome && !scrolled ? 'text-white hover:text-accent' : 'text-dark hover:text-accent'
               }`}
             >
               {link.name}
@@ -181,7 +183,7 @@ const NavLinks = ({ position, mobile, onLinkClick }: NavLinksProps) => {
             key={index}
             href={link.path}
             className={`relative text-base font-medium transition-all duration-300 group ${
-              isActive(link.path) ? 'text-accent' : 'text-dark hover:text-accent'
+              isActive(link.path) ? 'text-accent' : isHome && !scrolled ? 'text-white hover:text-accent' : 'text-dark hover:text-accent'
             }`}
           >
             {link.name}

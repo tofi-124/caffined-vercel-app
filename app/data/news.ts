@@ -134,5 +134,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The Italian Ministry of Foreign Affairs and AICS delegation visited the Ethiopian Coffee Training Center (ECTA) in Addis Ababa, praising it as a model for building skilled manpower and deepening Ethiopia–Italy cooperation.',
     source: 'ECTA',
     keywords: 'Italian delegation Ethiopia, Ethiopian Coffee Training Center, ECTA Addis Ababa, Italy Ethiopia cooperation, AICS Ethiopia, coffee training East Africa, Ethiopian coffee exporter, UNIDO Ethiopia coffee',
+  },
+  {
+    slug: 'ico-ethiopia-coffee-competitiveness',
+    date: '2026-02-17',
+    title: 'Ethiopia Increasing Competitiveness in Global Coffee Market - ICO',
+    desc: 'The International Coffee Organization confirms Ethiopia is raising its influence and competitiveness in the global coffee market through professional sector management, digital marketing, and youth engagement in modern coffee export.',
+    source: 'EZEA',
+    keywords: 'ICO Ethiopian coffee, International Coffee Organization Ethiopia, Ethiopian coffee competitiveness, Ethiopian coffee global market, Ethiopian coffee exporter, Ethiopia coffee production growth, Chinese coffee import Ethiopia, Cold Tune Africa',
   }
 ]

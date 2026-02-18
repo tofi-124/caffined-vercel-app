@@ -1,11 +1,5 @@
 import Link from 'next/link'
 import HeadLine from '../lib/Headline'
-import dynamic from 'next/dynamic'
-
-// Lazy-load VideoPlayer — it's far below the fold and brings ~200 lines of client JS
-const VideoPlayer = dynamic(() => import('./VideoPlayer'), {
-  loading: () => <div className="video-container w-full bg-dark" style={{ aspectRatio: '16/9', maxHeight: '650px' }} />,
-})
 
 const headlines = [
   {
@@ -39,25 +33,10 @@ const headlines = [
 
 const CoffeeDesc = () => {
   return (
-    <section id='coffee-desc' className='flex flex-col items-center py-32 bg-dark text-primary'>
-      <div id="container" className='mb-20 px-10 lg:px-72'>
-        <h2 className='text-5xl leading-tight font-bold text-left'>
-          THE ETHIOPIAN DIFFERENCE
-        </h2>
-        <br />
-        <p className=''>
-          Ethiopian coffee is celebrated for its vibrant floral and fruity profiles, but the true distinction lies in the people behind the harvest. In the same high-altitude regions where coffee has been a way of life for generations, farmers transform meticulous picking and processing into a cup that is unmistakably &quot;origin.&quot; Our work begins at the source: built on deep-rooted relationships, unwavering consistency, and a profound respect for the craft.
-          <br />
-          <br />
-          Learn about Ethiopian coffee origins: <Link href="/insights/guide-ethiopian-coffee-origins" className='underline'>Coffee Regions</Link>
-        </p>
-      </div>
-
-      <VideoPlayer />
-       
-      <div id='desc-wrapper' className='m-10 lg:m-40 mb-0 flex flex-col items-start justify-center gap-5'>
+    <section id='coffee-desc' className='flex flex-col items-center py-16 lg:py-24 bg-dark text-primary'>
+      <div id='desc-wrapper' className='mx-6 md:mx-10 lg:mx-40 mb-0 flex flex-col items-start justify-center gap-5'>
         <div id='desc-container' className='flex max-lg:flex-col items-start'>
-          <div id='desc-left' className='gap-5 lg:w-1/2 lg:h-fit lg:sticky max-lg:static top-24'>
+          <div id='desc-left' className='gap-5 lg:w-1/2 lg:h-fit lg:sticky max-lg:static top-36'>
             <h2 className='text-5xl leading-tight font-bold text-left'>
             WHY ETHIO COFFEE?
             </h2>

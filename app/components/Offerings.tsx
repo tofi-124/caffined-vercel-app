@@ -4,32 +4,23 @@ import { offerings } from '../data/offerings'
 
 const Offerings = () => {
   return (
-    <section className='bg-primary'>
-      {/* Navy Header Section */}
-      <div className='bg-dark py-20 lg:py-24'>
-        <div className='container mx-auto px-4 text-center'>
-          <span className='inline-block px-4 py-1.5 bg-primary/15 text-primary rounded-full text-sm font-semibold mb-4'>
-            Our Collection
-          </span>
-          <h2 className='text-5xl lg:text-6xl leading-tight text-primary font-bold'>
-            FEATURED LOTS
-          </h2>
-          <p className='mt-4 text-lg text-primary/80 max-w-2xl mx-auto'>
-            Curated Ethiopian specialty coffee for global importers. Traceable, consistent, and ready for export.
-          </p>
-        </div>
+    <section className='bg-primary py-16 lg:py-24'>
+      {/* Header */}
+      <div className='max-w-7xl mx-auto px-4 text-center mb-12'>
+        <h2 className='text-3xl lg:text-4xl font-bold text-dark'>
+          FEATURED LOTS
+        </h2>
+        <p className='mt-3 text-dark/60 font-inconsolata max-w-xl mx-auto'>
+          Curated Ethiopian specialty coffee for global importers. Traceable, consistent, and ready for export.
+        </p>
       </div>
 
-      {/* Products Section */}
-      <div className='container mx-auto px-4 pt-24 lg:pt-32 pb-24 lg:pb-32'>
-
-        {/* Products Grid */}
-        <div className='max-w-6xl mx-auto'>
-          <OfferingsResultsList items={offerings.slice(0, 3)} />
-        </div>
+      {/* Products Grid */}
+      <div className='max-w-6xl mx-auto px-4'>
+        <OfferingsResultsList items={offerings.slice(0, 3)} />
 
         {/* CTA */}
-        <div className='text-center mt-16'>
+        <div className='text-center mt-12'>
           <Link href='/offerings' className='
             inline-flex items-center gap-2 px-6 py-4
             bg-accent hover:bg-accent/90 text-white
@@ -40,9 +31,6 @@ const Offerings = () => {
             shadow-sm hover:shadow-md
           '>
             VIEW ALL OFFERINGS
-            <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17 8l4 4m0 0l-4 4m4-4H3' />
-            </svg>
           </Link>
         </div>
       </div>

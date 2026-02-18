@@ -6,24 +6,22 @@ const R2_BASE = 'https://pub-a50856304cf24e0c890889f05812d10b.r2.dev'
 const DESKTOP_VIDEO = `${R2_BASE}/ethiopianbeans.mp4`
 const MOBILE_VIDEO = `${R2_BASE}/ethiopianbeans-mobile.mp4`
 
-const VideoPlayer = () => {
+function getInitialVideoSrc() {
+  if (typeof window === 'undefined') return DESKTOP_VIDEO
+  return window.innerWidth < 768 ? MOBILE_VIDEO : DESKTOP_VIDEO
+}
+
+const HeroVideo = () => {
   const videoRef = useRef<HTMLVideoElement>(null)
   const [isPlaying, setIsPlaying] = useState(false)
-  const [videoSrc, setVideoSrc] = useState<string | null>(null)
+  const [videoSrc] = useState(getInitialVideoSrc)
   const retryCountRef = useRef(0)
   const maxRetries = 6
-
-  // Pick video source based on screen width
-  useEffect(() => {
-    const isMobile = window.innerWidth < 768
-    setVideoSrc(isMobile ? MOBILE_VIDEO : DESKTOP_VIDEO)
-  }, [])
 
   const attemptPlay = useCallback(() => {
     const video = videoRef.current
     if (!video || isPlaying) return
 
-    // Ensure attributes are set every time
     video.muted = true
     video.defaultMuted = true
     video.playsInline = true
@@ -32,7 +30,6 @@ const VideoPlayer = () => {
     video.setAttribute('muted', '')
     video.setAttribute('autoplay', '')
 
-    // Force load if not ready
     if (video.readyState < 2) {
       video.load()
     }
@@ -123,15 +120,17 @@ const VideoPlayer = () => {
   }, [attemptPlay, isPlaying])
 
   return (
-    <div className="video-container w-full bg-dark relative">
+    <>
       {/* Fallback image shown until video plays */}
       {!isPlaying && (
         <Image
-          src="/images/cover.png"
-          alt="Ethiopian coffee farms and processing in the highlands - video preview"
+          src="/images/common/hero-section-background.webp"
+          alt="Ethiopian coffee beans background"
           fill
-          className="object-cover"
-          loading="lazy"
+          priority
+          sizes="100vw"
+          quality={70}
+          className="object-cover object-center"
         />
       )}
       <video
@@ -141,12 +140,12 @@ const VideoPlayer = () => {
         loop
         autoPlay
         preload="auto"
-        className={`w-full h-auto bg-dark transition-opacity duration-700 ${isPlaying ? 'opacity-100' : 'opacity-0'}`}
+        className={`hero-video absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isPlaying ? 'opacity-100' : 'opacity-0'}`}
       >
-        {videoSrc && <source src={videoSrc} type="video/mp4" />}
+        <source src={videoSrc} type="video/mp4" />
       </video>
-    </div>
+    </>
   )
 }
 
-export default VideoPlayer
+export default HeroVideo

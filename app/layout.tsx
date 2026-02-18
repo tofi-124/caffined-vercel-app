@@ -70,6 +70,8 @@ export default function RootLayout({
         {/* Removed: preconnect to own domain is redundant (already connected) */}
         {/* Removed: manual preload fetched the ORIGINAL image; Next.js Image priority
             already preloads the correctly optimized /_next/image version */}
+        <link rel="preconnect" href="https://pub-a50856304cf24e0c890889f05812d10b.r2.dev" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://pub-a50856304cf24e0c890889f05812d10b.r2.dev" />
       </head>
       <body className={`${oswald.className} ${inconsolata.variable} bg-primary`}>
         <Script
