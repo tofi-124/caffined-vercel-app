@@ -8,27 +8,24 @@ export default function GujiCoffeePage() {
   return (
     <main className='bg-primary text-dark'>
       {/* Hero */}
-      <section className='relative bg-dark text-primary py-20 md:py-28'>
-        <div className='max-w-5xl mx-auto px-6 text-center'>
-          <p className='uppercase tracking-[0.3em] text-primary/60 text-sm mb-4'>Ethiopian Coffee Origin</p>
-          <h1 className='text-4xl md:text-5xl font-extrabold leading-tight mb-6'>
-            Guji Coffee Beans
-          </h1>
-          <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed'>
-            Ethiopia&apos;s rising specialty star - tropical fruit complexity, vibrant acidity, and
-            award-winning cup scores. Guji consistently produces some of the highest-scoring
-            coffees in the world.
-          </p>
-          <div className='mt-8 flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
-              Request Guji Samples
-            </Link>
-            <Link href='/offerings' className='border border-primary/40 px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              View Available Lots
-            </Link>
-          </div>
+      <header className="bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative">
+        <div className="absolute inset-0 bg-black/40" />
+        <p className='uppercase tracking-[0.3em] text-primary/70 text-sm mb-4 relative z-10'>Ethiopian Coffee Origin</p>
+        <h1 className='text-4xl md:text-5xl font-bold text-primary relative z-10 text-center px-4'>
+          Guji Coffee
+        </h1>
+        <p className='text-primary/80 mt-3 text-sm tracking-widest uppercase relative z-10 text-center px-4'>
+          Tropical Fruit. Vibrant Acidity. Award-Winning Scores.
+        </p>
+        <div className='mt-6 flex flex-wrap justify-center gap-4 relative z-10'>
+          <Link href='/contact-us' className='bg-accent text-white px-8 py-3 rounded-xl font-bold hover:bg-accent/90 transition-colors'>
+            Request Samples
+          </Link>
+          <Link href='/offerings' className='border-2 border-primary/40 text-primary px-8 py-3 rounded-xl font-bold hover:bg-white/10 transition-colors'>
+            View Available Lots
+          </Link>
         </div>
-      </section>
+      </header>
 
       {/* Quick specs */}
       <section className='bg-accent/10 border-y border-accent/20'>
@@ -274,13 +271,13 @@ export default function GujiCoffeePage() {
             Guji requirements with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+            <Link href='/offerings' className='bg-accent text-white px-8 py-3 rounded-xl font-bold hover:bg-accent/90 transition-colors'>
               View Current Offerings
             </Link>
-            <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+            <Link href='/contact-us' className='border-2 border-primary/40 text-primary px-8 py-3 rounded-xl font-bold hover:bg-white/10 transition-colors'>
               Request Samples
             </Link>
-            <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+            <Link href='/ordering-info' className='border-2 border-primary/40 text-primary px-8 py-3 rounded-xl font-bold hover:bg-white/10 transition-colors'>
               How to Order
             </Link>
           </div>

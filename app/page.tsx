@@ -5,7 +5,7 @@ import Offerings from "./components/Offerings";
 import dynamic from 'next/dynamic'
 import type { Metadata } from 'next'
 
-// Lazy-load Testimonials (uses better-react-carousel, ~40 KiB) since it's below the fold
+// Lazy-load Testimonials since it's below the fold
 const Testimonials = dynamic(() => import("./components/Testimonials"), {
   loading: () => <section className='min-h-[320px] bg-dark' />,
 })

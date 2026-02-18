@@ -79,7 +79,7 @@ const Navbar = () => {
                 }`}
             >
                 {/* Animated Top Message — hidden on home hero, shown once scrolled */}
-                <div className={`transition-all duration-500 ease-in-out overflow-hidden ${
+                <div className={`transition-[max-height,transform] duration-500 ease-in-out overflow-hidden ${
                     isHome
                         ? (scrolled ? 'max-h-20 translate-y-0' : 'max-h-0 -translate-y-full')
                         : (showTopMessage ? 'max-h-20 translate-y-0' : 'max-h-0 -translate-y-full')
@@ -90,7 +90,7 @@ const Navbar = () => {
                 {/* Main Navigation */}
                 <nav 
                     id='nav' 
-                    className={`relative flex justify-between items-center transition-[background-color,padding] duration-500 ease-in-out ${
+                    className={`relative flex justify-between items-center transition-[background-color,padding] duration-300 ease-out will-change-[background-color,padding] ${
                         scrolled 
                             ? 'bg-white/95 backdrop-blur-md py-2 px-4 lg:px-20' 
                             : isHome
@@ -110,7 +110,7 @@ const Navbar = () => {
                             scrolled ? 'scale-90' : 'scale-100'
                         }`}
                     >
-                        <div className={`relative w-36 h-11 lg:w-44 lg:h-14 transition-all duration-500 ${isHome && !scrolled ? 'brightness-0 invert' : ''}`}>
+                        <div className={`relative w-36 h-11 lg:w-44 lg:h-14 transition-[filter] duration-300 ${isHome && !scrolled ? 'brightness-0 invert' : ''}`}>
                             <ResponsiveImage
                                 src='/images/new-logo.png'
                                 alt='Ethio Coffee - Ethiopian Coffee Exporter'
@@ -157,7 +157,7 @@ const Navbar = () => {
                 </nav>
 
                 {/* Decorative bottom border that appears on scroll */}
-                <div className={`h-0.5 bg-gradient-to-r from-accent via-dark to-accent transition-all duration-500 ${
+                <div className={`h-0.5 bg-gradient-to-r from-accent via-dark to-accent transition-opacity duration-300 ${
                     scrolled ? 'opacity-100' : 'opacity-0'
                 }`} />
             </header>
