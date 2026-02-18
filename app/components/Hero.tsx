@@ -17,10 +17,10 @@ const Hero = () => {
           </p>
 
           <p className='mt-4 sm:mt-6 text-primary/90 text-sm sm:text-base leading-relaxed max-w-[60ch] hidden sm:block'>
-            Founded by two brothers, one in Ethiopia and the other in Canada. We export traceable, specialty-grade green coffee from Sidama, Guji, and Yirgacheffe to importers worldwide. From our origin to your port.
+            We are a partner producer and exporter with operations in Ethiopia and international reach. Founded by two brothers, we export traceable, specialty-grade green coffee from Sidama, Guji, Yirgacheffe, and all other renowned regions to importers worldwide.
           </p>
           <p className='mt-4 text-primary/90 text-sm leading-relaxed max-w-[50ch] sm:hidden'>
-            Specialty-grade Ethiopian green coffee from Sidama, Guji, and Yirgacheffe to importers worldwide.
+            Founded by two brothers, one in Ethiopia and the other in Canada. We export traceable, specialty-grade green coffee from Sidama, Guji, and Yirgacheffe to importers worldwide.
           </p>
 
           <div className='flex flex-row gap-3 mt-6 sm:mt-8 justify-center'>

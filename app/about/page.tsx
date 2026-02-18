@@ -230,8 +230,8 @@ const About = () => {
 
           <div className='max-w-4xl mx-auto'>
             {timeline.map((item, index) => (
-              <div key={index} className='relative pl-8 pb-12 border-l-2 border-secondary/30 last:pb-0'>
-                <div className='absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-secondary'></div>
+              <div key={index} className='relative pl-8 pb-12 border-l-2 border-dark/15'>
+                <div className='absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-dark'></div>
                 <h2 className='text-2xl font-extrabold text-dark mb-3'>
                   {item.year}
                 </h2>
@@ -240,28 +240,18 @@ const About = () => {
                 </p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
 
-      {/* CTA to How To Buy */}
-      <section className='bg-secondary py-16'>
-        <div className='container mx-auto px-4 text-center'>
-          <h2 className='text-3xl md:text-4xl font-extrabold text-primary mb-4'>
-            Ready to Source Ethiopian Coffee?
-          </h2>
-          <p className='text-primary/80 mb-8 max-w-2xl mx-auto'>
-            Learn about our ordering process, minimum quantities, shipping options, and everything you need to know to get started.
-          </p>
-          <Link
-            href="/ordering-info"
-            className='inline-flex items-center gap-3 bg-primary text-dark px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors shadow-lg hover:shadow-xl'
-          >
-            Learn How to Order
-            <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17 8l4 4m0 0l-4 4m4-4H3' />
-            </svg>
-          </Link>
+            {/* Final milestone: CTA */}
+            <div className='relative pl-8 pb-0'>
+              <div className='absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-accent'></div>
+              <h2 className='text-2xl font-extrabold text-dark mb-3'>
+                Now, it&apos;s your turn
+              </h2>
+              <p className='text-gray-700 leading-relaxed'>
+                Become part of our story. <Link href="/ordering-info" className='underline underline-offset-4 font-semibold hover:text-accent transition-colors'>Start your order here</Link>.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
