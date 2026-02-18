@@ -18,12 +18,20 @@ export type OfferingSpecifications = {
   millName: string | null
 }
 
+export type SampleOption = {
+  weight: string        // e.g., "100g", "250g", "500g"
+  weightGrams: number   // weight in grams for calculations
+  priceUSD: number      // sample price in USD
+  description: string   // e.g., "Cupping sample"
+}
+
 export type OfferingPricing = {
   fobPricePerKg: number // FOB price in USD per kg
   fobPricePerLb: number // FOB price in USD per lb
   priceYear: number // Year the price is based on (2025)
   minimumOrder: string | null // e.g., "1 container (275 bags)" or null if not specified
   priceNote: string // Additional pricing context
+  sampleOptions: SampleOption[] // Sample purchase options for wholesale buyers
 }
 
 export type Offering = {
@@ -84,6 +92,11 @@ export const offerings: Offering[] = [
       priceYear: 2025,
       minimumOrder: null,
       priceNote: '2025 crop  •  Washed G2  •   FCL Pricing - Inquire for Smaller Lots',
+      sampleOptions: [
+        { weight: '100g', weightGrams: 100, priceUSD: 12.00, description: 'Cupping sample' },
+        { weight: '250g', weightGrams: 250, priceUSD: 22.00, description: 'Roast trial sample' },
+        { weight: '500g', weightGrams: 500, priceUSD: 38.00, description: 'Extended evaluation' },
+      ],
     },
     isSoldOut: false,
     altitude: '1,750 - 2,200 masl',
@@ -131,6 +144,11 @@ export const offerings: Offering[] = [
       priceYear: 2025,
       minimumOrder: null,
       priceNote: '2025 crop  •  Natural G1  •   FCL Pricing - Inquire for Smaller Lots',
+      sampleOptions: [
+        { weight: '100g', weightGrams: 100, priceUSD: 14.00, description: 'Cupping sample' },
+        { weight: '250g', weightGrams: 250, priceUSD: 25.00, description: 'Roast trial sample' },
+        { weight: '500g', weightGrams: 500, priceUSD: 42.00, description: 'Extended evaluation' },
+      ],
     },
     isSoldOut: false,
     altitude: '1,550 - 2,200 masl',
@@ -178,6 +196,11 @@ export const offerings: Offering[] = [
       priceYear: 2025,
       minimumOrder: null,
       priceNote: '2025 crop  •  Natural G1  •   FCL Pricing - Inquire for Smaller Lots',
+      sampleOptions: [
+        { weight: '100g', weightGrams: 100, priceUSD: 15.00, description: 'Cupping sample' },
+        { weight: '250g', weightGrams: 250, priceUSD: 27.00, description: 'Roast trial sample' },
+        { weight: '500g', weightGrams: 500, priceUSD: 45.00, description: 'Extended evaluation' },
+      ],
     },
     isSoldOut: false,
     altitude: '1,800 - 2,300 masl',
@@ -225,6 +248,11 @@ export const offerings: Offering[] = [
       priceYear: 2025,
       minimumOrder: null,
       priceNote: '2025 crop  •  Natural G1  •   FCL Pricing - Inquire for Smaller Lots',
+      sampleOptions: [
+        { weight: '100g', weightGrams: 100, priceUSD: 13.00, description: 'Cupping sample' },
+        { weight: '250g', weightGrams: 250, priceUSD: 24.00, description: 'Roast trial sample' },
+        { weight: '500g', weightGrams: 500, priceUSD: 40.00, description: 'Extended evaluation' },
+      ],
     },
     isSoldOut: false,
     altitude: '1,500 - 2,100 masl',
@@ -272,6 +300,11 @@ export const offerings: Offering[] = [
       priceYear: 2025,
       minimumOrder: null,
       priceNote: '2025 crop  •  Washed G2  •   FCL Pricing - Inquire for Smaller Lots',
+      sampleOptions: [
+        { weight: '100g', weightGrams: 100, priceUSD: 12.00, description: 'Cupping sample' },
+        { weight: '250g', weightGrams: 250, priceUSD: 22.00, description: 'Roast trial sample' },
+        { weight: '500g', weightGrams: 500, priceUSD: 38.00, description: 'Extended evaluation' },
+      ],
     },
     isSoldOut: false,
     altitude: '1,400 - 2,100 masl',
@@ -319,6 +352,11 @@ export const offerings: Offering[] = [
       priceYear: 2025,
       minimumOrder: null,
       priceNote: '2025 crop  •  Washed G2  •   FCL Pricing - Inquire for Smaller Lots',
+      sampleOptions: [
+        { weight: '100g', weightGrams: 100, priceUSD: 12.00, description: 'Cupping sample' },
+        { weight: '250g', weightGrams: 250, priceUSD: 22.00, description: 'Roast trial sample' },
+        { weight: '500g', weightGrams: 500, priceUSD: 38.00, description: 'Extended evaluation' },
+      ],
     },
     isSoldOut: false,
     altitude: '1,500 - 2,100 masl',

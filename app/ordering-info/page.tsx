@@ -106,11 +106,18 @@ const faqData: FAQSection[] = [
         ),
       },
       {
-        question: 'Can I request a sample before placing a larger order?',
+        question: 'Can I purchase a sample before placing a larger order?',
         answer: (
-          <p>
-            Yes! We offer 100-300g samples for roast profiling and cupping. Sample costs and shipping fees may apply depending on whether you qualify for our <strong>free sample policy</strong>. Ask us when requesting a quote.
-          </p>
+          <>
+            <p>
+              Yes! You can purchase evaluation samples directly from any{' '}
+              <Link href='/offerings' className='underline underline-offset-4 hover:text-dark/70'>product page</Link>.
+              We offer <strong>100g, 250g, and 500g</strong> sample sizes for roast profiling and cupping. Simply select your preferred size and complete your purchase via PayPal - no quote request needed.
+            </p>
+            <p>
+              A flat <strong>$25 worldwide shipping fee</strong> applies to all sample orders. Samples are shipped directly from Ethiopia.
+            </p>
+          </>
         ),
       },
       {
@@ -135,7 +142,7 @@ const faqData: FAQSection[] = [
               <strong>Less than full load:</strong> While we can ship less than a full container load in a full container, our strong recommendation is to maximize value by ordering a full container. Partial loads may incur additional per-unit costs.
             </p>
             <p>
-              <strong>Sample orders:</strong> For evaluation purposes, we offer sample shipments - contact us to discuss your needs.
+              <strong>Sample orders:</strong> Purchase evaluation samples (100g, 250g, or 500g) directly from any product page via PayPal. A flat $25 shipping fee applies.
             </p>
           </>
         ),
@@ -409,7 +416,7 @@ const faqData: FAQSection[] = [
             <p>
               <strong>1.</strong> Browse our{' '}
               <Link href='/offerings' className='underline underline-offset-4 hover:text-dark/70'>Current Offerings</Link>.<br />
-              <strong>2.</strong> Request samples for coffees that interest you.<br />
+              <strong>2.</strong> Purchase samples directly from any product page via PayPal.<br />
               <strong>3.</strong>{' '}
               <Link href='/contact-us' className='underline underline-offset-4 hover:text-dark/70'>Contact us</Link>{' '}
               to discuss terms and logistics.
@@ -470,11 +477,11 @@ export default function OrderingInfoPage() {
             item.question.includes('buy green coffee') ? 
               'Browse our Current Offerings, then request a quote for the coffees you are interested in. From there, we will provide a formal quotation, finalize terms, and handle all export documentation and logistics coordination.' :
             item.question.includes('sample before') ? 
-              'Yes! We offer 100-300g samples for roast profiling and cupping. Sample costs and shipping fees may apply depending on whether you qualify for our free sample policy.' :
+              'Yes! You can purchase evaluation samples directly from any product page. We offer 100g, 250g, and 500g sample sizes for roast profiling and cupping. Simply select your preferred size and complete your purchase via PayPal. A flat $25 worldwide shipping fee applies.' :
             item.question.includes('packaged') ? 
               'Green coffee ships in GrainPro hermetic liners inside jute bags. Standard sizes are 60 kg or 30 kg bags. Vacuum-sealed options available for micro-lots.' :
             item.question.includes('minimum order') ? 
-              'Our minimum order quantity is one full container (approximately 19-21 metric tons, around 275-320 bags). You can mix and match different coffee types and grades to create a diverse selection.' :
+              'Our minimum order quantity is one full container (approximately 19-21 metric tons, around 275-320 bags). You can mix and match different coffee types and grades to create a diverse selection. For evaluation, purchase samples (100g, 250g, or 500g) directly from any product page via PayPal.' :
             item.question.includes('certified coffees') ? 
               'Yes, depending on availability, we offer Organic (USDA/EU), Fair Trade, and Rainforest Alliance certified coffees. Certified lots have limited availability and may require advance booking.' :
             item.question.includes('traceability') ? 
@@ -570,7 +577,7 @@ export default function OrderingInfoPage() {
                 <span className='font-bold'>Browse Offerings:</span> Explore our current lots with detailed profiles, cup scores, and availability status.
               </li>
               <li>
-                <span className='font-bold'>Request Samples:</span> Try before you commit. We offer samples for evaluation and cupping.
+                <span className='font-bold'>Purchase Samples:</span> Try before you commit. Buy 100g, 250g, or 500g evaluation samples directly from any product page via PayPal.
               </li>
               <li>
                 <span className='font-bold'>Get a Quote:</span> Tell us what you need and we'll provide a transparent, itemized quotation with clear shipping terms.

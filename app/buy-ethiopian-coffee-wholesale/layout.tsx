@@ -88,7 +88,7 @@ export default function BuyWholesaleLayout({
         "name": "Can I get samples before placing a wholesale order?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Reputable Ethiopian exporters provide pre-shipment samples (both green and roasted) so you can evaluate cup quality, roast profile, and consistency before committing to a container. Ethio Coffee includes full SCA cupping reports with every sample and shipment."
+          "text": "Yes. You can purchase evaluation samples (100g, 250g, or 500g) directly from product pages via PayPal with a flat $25 worldwide shipping fee. For wholesale lots, pre-shipment samples (PSS) with full SCA cupping reports are also provided so you can approve the exact lot before container shipment."
         }
       },
       {
