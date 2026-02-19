@@ -11,6 +11,34 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE HARVEST CALENDAR & BUYING GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-harvest-calendar-buying-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-harvest-calendar-buying-guide.webp',
+      date: 'Feb 22, 2026',
+      title: 'Ethiopian Coffee Harvest Calendar for Buyers',
+      slug: 'ethiopian-coffee-harvest-calendar-buying-guide',
+      category: 'Sourcing Strategy / Harvest Timing / Seasonal Buying / Green Coffee Planning',
+      keywords: [
+        'ethiopian coffee harvest calendar',
+        'ethiopian coffee season',
+        'when is ethiopian coffee harvested',
+        'when to buy ethiopian green coffee',
+        'ethiopian coffee crop calendar',
+        'ethiopian coffee harvest time',
+        'ethiopian coffee shipping schedule',
+        'ethiopian coffee export timeline',
+        'new crop ethiopian coffee',
+        'ethiopian coffee buying guide',
+        'yirgacheffe harvest season',
+        'guji coffee harvest',
+        'sidamo coffee harvest',
+        'ethiopian coffee availability',
+        'quarterly coffee buying plan',
+        'green coffee seasonal sourcing'
+      ],
+      desc: 'Ethiopian coffee harvest calendar with region-by-region timing, shipping windows, and a quarterly buying plan for importers and roasters sourcing Yirgacheffe, Sidamo, Guji, Harar, Limu, and Jimma.'
+    },
     // ===== ETHIOPIAN COFFEE VS COLOMBIAN COFFEE =====
     {
       small_image_url: 'insights/ethiopian-coffee-vs-colombian-coffee.webp',

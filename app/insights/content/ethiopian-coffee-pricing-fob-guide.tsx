@@ -487,7 +487,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       </ul>
 
       <p className='my-4'>
-        For the best selection and most competitive pricing, we recommend engaging your Ethiopian coffee exporter between November and February. This gives you first access to new-crop lots, time to request and evaluate samples, and a comfortable shipping window before peak season demand.
+        For the best selection and most competitive pricing, we recommend engaging your Ethiopian coffee exporter between November and February. This gives you first access to new-crop lots, time to request and evaluate samples, and a comfortable shipping window before peak season demand. For a quarter-by-quarter buying plan aligned to the Ethiopian harvest cycle, see our <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='underline font-semibold'>Ethiopian coffee harvest calendar and seasonal buying guide</Link>.
       </p>
 
       {/* FAQ SECTION */}

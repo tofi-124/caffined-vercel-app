@@ -55,7 +55,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Ethiopian Coffee Harvest Calendar: When Coffee Is Picked</h2>
           <p className='my-4'>
-            Unlike many coffee-producing countries with clearly defined wet and dry seasons, Ethiopia&apos;s diverse geography creates a staggered harvest across regions. Understanding this timeline is crucial for importers planning their buying windows.
+            Unlike many coffee-producing countries with clearly defined wet and dry seasons, Ethiopia&apos;s diverse geography creates a staggered harvest across regions. Understanding this timeline is crucial for importers planning their buying windows. For a comprehensive month-by-month procurement framework, see our <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='underline font-semibold'>Ethiopian coffee harvest calendar and seasonal buying guide</Link>.
           </p>
           
           <div className='overflow-x-auto my-6'>

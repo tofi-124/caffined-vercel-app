@@ -343,7 +343,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       </div>
 
       <p className='my-4'>
-        Most importers use a combination of contract types. A common approach: secure 60-70% of annual volume through forward contracts for price stability, then fill the remaining 30-40% with spot purchases as the season progresses and new lots become available.
+        Most importers use a combination of contract types. A common approach: secure 60-70% of annual volume through forward contracts for price stability, then fill the remaining 30-40% with spot purchases as the season progresses and new lots become available. To align your contract timing with Ethiopia&apos;s harvest cycle, consult our <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='underline font-semibold'>Ethiopian coffee harvest calendar and seasonal buying guide</Link>.
       </p>
 
       {/* SECTION 3: PAYMENT METHODS */}
