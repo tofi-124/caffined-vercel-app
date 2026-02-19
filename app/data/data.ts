@@ -11,6 +11,28 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== BEST COFFEE GUIDE: FRENCH PRESS, POUR OVER & SCALES =====
+    {
+      small_image_url: 'insights/best-coffee-guide-french-press-pour-over-scales.webp',
+      large_image_url: 'insights/best-coffee-guide-french-press-pour-over-scales.webp',
+      date: 'Jan 19, 2026',
+      title: 'Best Coffee Guide: How to Brew the Perfect Cup at Home',
+      slug: 'best-coffee-guide-french-press-pour-over-scales',
+      category: 'Brewing Methods / Coffee Equipment / Coffee Education',
+      keywords: [
+        'best coffee guide',
+        'best coffee scales',
+        'french press coffee makers',
+        'pour over coffee makers',
+        'how to brew coffee at home',
+        'coffee to water ratio',
+        'french press vs pour over',
+        'coffee brewing precision',
+        'home coffee brewing guide',
+        'coffee grind size guide'
+      ],
+      desc: 'Discover the Best Coffee Guide with expert tips on best coffee scales, French Press Coffee Makers, and Pour Over Coffee Makers for perfect brewing.'
+    },
     // ===== ETHIOPIAN COFFEE HARVEST CALENDAR & BUYING GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-harvest-calendar-buying-guide.webp',
