@@ -142,5 +142,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The International Coffee Organization confirms Ethiopia is raising its influence and competitiveness in the global coffee market through professional sector management, digital marketing, and youth engagement in modern coffee export.',
     source: 'EZEA',
     keywords: 'ICO Ethiopian coffee, International Coffee Organization Ethiopia, Ethiopian coffee competitiveness, Ethiopian coffee global market, Ethiopian coffee exporter, Ethiopia coffee production growth, Chinese coffee import Ethiopia, Cold Tune Africa',
+  },
+  {
+    slug: 'ecta-mou-vocational-training-institute',
+    date: '2026-02-19',
+    title: 'Ethiopian Coffee and Tea Authority Signs MoU with Federal Technical and Vocational Training Institute',
+    desc: 'The Ethiopian Coffee and Tea Authority signed a MoU with the Federal Technical and Vocational Training Institute to collaborate on coffee, tea and spices development through curriculum standardization, expert training, research and technology.',
+    source: 'Ibushaba',
+    keywords: 'Ethiopian Coffee and Tea Authority, ECTA MoU, Federal Technical and Vocational Training Institute, coffee training Ethiopia, Ethiopian coffee development, tea and spices Ethiopia, Ethiopian coffee exporter, coffee curriculum Ethiopia',
   }
 ]
