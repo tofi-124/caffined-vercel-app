@@ -15,7 +15,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/ethiopian-coffee-vs-kenyan-coffee.webp',
       large_image_url: 'insights/ethiopian-coffee-vs-kenyan-coffee.webp',
-      date: 'Feb 20, 2026',
+      date: 'Feb 21, 2026',
       title: 'Ethiopian Coffee vs Kenyan Coffee: A Buyer\'s Comparison',
       slug: 'ethiopian-coffee-vs-kenyan-coffee',
       category: 'Origin Comparison / Sourcing Guide / Green Coffee / Importer Resources',
