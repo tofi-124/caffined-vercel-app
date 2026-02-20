@@ -101,7 +101,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
               <p className='text-primary/80 mb-8 max-w-[60ch]'>
                 Whether you&apos;re sourcing single-origin lots for your roastery or commercial-grade greens for blending, 
                 we supply fully traceable Ethiopian green coffee beans in Grade 1 through Grade 5, shipped FOB Djibouti 
-                or CIF to your port.
+                or FCA (Free Carrier) for air freight.
               </p>
               <div className='flex flex-wrap gap-4'>
                 <Link href="/offerings" className='px-6 py-4 bg-accent hover:bg-accent/90 text-white border-2 border-accent rounded-xl font-bold transition-all shadow-sm hover:shadow-md'>
@@ -186,7 +186,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
             { step: '01', title: 'Sourcing & Cupping', desc: 'We source from our family estates and vetted partner farms across Yirgacheffe, Sidamo, Guji, Harar, Limu, and Lekempti. Every lot is cupped on SCA protocol by certified Q-graders.' },
             { step: '02', title: 'Processing & Preparation', desc: 'Green beans are processed (washed, natural, or honey), hulled, sorted, and graded per Ethiopian Commodity Exchange (ECX) and International Coffee Organization (ICO) standards. Defect count verified.' },
             { step: '03', title: 'Packaging & Storage', desc: 'Packed in 60kg jute bags with GrainPro hermetic liners. Stored in climate-controlled warehouses in Addis Ababa until shipping. Moisture and water activity monitored.' },
-            { step: '04', title: 'Shipping FOB Djibouti', desc: 'Full export documentation (ICO certificate, phytosanitary, certificate of origin, cupping report) prepared. Shipped via Djibouti port FOB or CIF to your destination.' },
+            { step: '04', title: 'Shipping FOB Djibouti', desc: 'Full export documentation (ICO certificate, phytosanitary, certificate of origin, cupping report) prepared. Shipped via Djibouti port FOB for ocean freight or FCA (Free Carrier) for air freight.' },
           ].map((item) => (
             <div key={item.step} className='text-center'>
               <div className='w-16 h-16 rounded-full bg-accent text-white flex items-center justify-center text-2xl font-extrabold mx-auto mb-4'>{item.step}</div>
@@ -208,7 +208,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
               { q: 'How much do Ethiopian green coffee beans cost?', a: 'Specialty-grade Ethiopian green coffee beans typically range from $9 to $13 per kilogram ($4 to $6 per pound) FOB Djibouti for Grade 1-2 lots scoring SCA 80+. Commercial grades (Grade 3-5) are lower. Prices vary by origin, grade, processing method, season, and global C-market conditions. Contact us directly for current crop pricing and availability.' },
               { q: 'What is the minimum order quantity?', a: 'Standard minimum orders are one full container load (FCL) of approximately 275 bags at 60kg each (roughly 16.5 metric tons). However, we accommodate smaller trial orders for new buyer relationships and offer sample shipments so you can evaluate cup quality before committing to larger volumes.' },
               { q: 'Which Ethiopian green coffee is best for espresso?', a: 'Natural-processed Sidamo and Guji coffees are excellent espresso choices due to their full body, berry sweetness, and chocolate undertones. Washed Yirgacheffe also performs brilliantly as a bright, floral single-origin espresso. Many roasters blend Ethiopian greens with Brazilian or Colombian coffees for balanced espresso profiles with Ethiopian complexity.' },
-              { q: 'How are Ethiopian green coffee beans shipped?', a: 'Ethiopian green coffee beans are exported in 60kg jute bags with GrainPro hermetic liners to preserve freshness during transit. Shipping is typically FOB Djibouti (Ethiopia\'s nearest export port) or CIF to the buyer\'s destination port. Approximate transit times: 2-3 weeks to Middle East, 4-6 weeks to Europe, 6-8 weeks to North America and Asia.' },
+              { q: 'How are Ethiopian green coffee beans shipped?', a: 'Ethiopian green coffee beans are exported in 60kg jute bags with GrainPro hermetic liners to preserve freshness during transit. Shipping is typically FOB Djibouti (Ethiopia\'s nearest export port) for ocean freight or FCA (Free Carrier) for air freight where the buyer arranges carriage. Approximate transit times: 2-3 weeks to Middle East, 4-6 weeks to Europe, 6-8 weeks to North America and Asia.' },
             ].map((item, i) => (
               <article key={i} className='border-b border-dark/10 pb-6'>
                 <h3 className='text-lg font-bold text-dark mb-3'>{item.q}</h3>

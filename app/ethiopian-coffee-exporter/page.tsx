@@ -81,7 +81,7 @@ const exportServices = [
   {
     icon: <HiOutlineTruck className="w-8 h-8" />,
     title: 'Global Logistics & Shipping',
-    description: 'FOB Djibouti or CIF to your destination port. We coordinate with experienced freight forwarders for reliable, on-time delivery to any port worldwide.',
+    description: 'FOB Djibouti for ocean freight or FCA (Free Carrier) for air freight. We coordinate with experienced freight forwarders and handle all export-side logistics.',
   },
   {
     icon: <HiOutlineCube className="w-8 h-8" />,
@@ -442,7 +442,7 @@ const EthiopianCoffeeExporter = () => {
                 {
                   step: '03',
                   title: 'Confirm Contract & Terms',
-                  description: 'Once samples are approved, we formalize the export contract with agreed pricing, Incoterms (FOB Djibouti or CIF), payment terms, and delivery timeline.'
+                  description: 'Once samples are approved, we formalize the export contract with agreed pricing, Incoterms (FOB Djibouti or FCA), payment terms, and delivery timeline.'
                 },
                 {
                   step: '04',
@@ -583,7 +583,7 @@ const EthiopianCoffeeExporter = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>•</span>
-                  <span>CIF to major ports worldwide available</span>
+                  <span>FCA (Free Carrier) available for air freight</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>•</span>
@@ -726,7 +726,7 @@ const EthiopianCoffeeExporter = () => {
                 },
                 {
                   q: 'How long does shipping take from Ethiopia?',
-                  a: 'From order confirmation to arrival at your port, expect 4-8 weeks total. This includes 1-2 weeks for lot preparation and documentation, plus 2-6 weeks of ocean transit depending on your destination port. We ship FOB Djibouti (Ethiopia\'s primary export port) or CIF to your destination.'
+                  a: 'From order confirmation to arrival at your destination, expect 4-8 weeks total. This includes 1-2 weeks for lot preparation and documentation, plus 2-6 weeks of ocean transit depending on your destination port. We ship FOB Djibouti (Ethiopia\'s primary export port) for ocean freight or FCA (Free Carrier) for air freight where the buyer arranges carriage.'
                 },
                 {
                   q: 'Do you provide samples before I commit to an order?',

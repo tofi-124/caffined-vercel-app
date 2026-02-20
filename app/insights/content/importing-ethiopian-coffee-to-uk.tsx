@@ -679,12 +679,12 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
               <td className='py-2 px-3 text-right'>$0.13</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 px-3 pl-6'>Marine Insurance (0.3% CIF)</td>
+              <td className='py-2 px-3 pl-6'>Marine Insurance (0.3% FCA)</td>
               <td className='py-2 px-3 text-right'>$590</td>
               <td className='py-2 px-3 text-right'>$0.01</td>
             </tr>
             <tr className='border-b bg-blue-50'>
-              <td className='py-2 px-3 font-bold'>CIF Value (UK Port)</td>
+              <td className='py-2 px-3 font-bold'>FCA Value (UK Port)</td>
               <td className='py-2 px-3 text-right font-bold'>$196,268</td>
               <td className='py-2 px-3 text-right font-bold'>$4.94</td>
             </tr>

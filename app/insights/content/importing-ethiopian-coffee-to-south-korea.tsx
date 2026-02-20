@@ -350,7 +350,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Value-Added Tax (VAT)</td>
-              <td className='py-2'>10% on CIF value (recoverable for registered businesses)</td>
+              <td className='py-2'>10% on FCA value (recoverable for registered businesses)</td>
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Customs Clearance Fee</td>
@@ -403,7 +403,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
             <tr className='border-b'>
               <td className='py-2 font-bold'>Value-Added Tax (부가가치세)</td>
               <td className='py-2 font-bold'>10%</td>
-              <td className='py-2 text-gray-600'>Applied on CIF value (fully recoverable for VAT-registered businesses)</td>
+              <td className='py-2 text-gray-600'>Applied on FCA value (fully recoverable for VAT-registered businesses)</td>
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Special Consumption Tax</td>
@@ -659,12 +659,12 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
               <td className='py-2 px-3 text-right'>$0.15</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 px-3 pl-6'>Marine Insurance (0.3% CIF)</td>
+              <td className='py-2 px-3 pl-6'>Marine Insurance (0.3% FCA)</td>
               <td className='py-2 px-3 text-right'>$590</td>
               <td className='py-2 px-3 text-right'>$0.01</td>
             </tr>
             <tr className='border-b bg-blue-50'>
-              <td className='py-2 px-3 font-bold'>CIF Value (Busan)</td>
+              <td className='py-2 px-3 font-bold'>FCA Value (Busan)</td>
               <td className='py-2 px-3 text-right font-bold'>$196,868</td>
               <td className='py-2 px-3 text-right font-bold'>$4.96</td>
             </tr>
@@ -679,7 +679,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
               <td className='py-2 px-3 text-right text-green-700'>$0.00</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 px-3 pl-6'>VAT 10% (on CIF)</td>
+              <td className='py-2 px-3 pl-6'>VAT 10% (on FCA)</td>
               <td className='py-2 px-3 text-right'>$19,687</td>
               <td className='py-2 px-3 text-right'>$0.50</td>
             </tr>

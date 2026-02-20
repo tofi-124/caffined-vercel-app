@@ -111,7 +111,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
             <li><span className='font-bold'>Import Permit (for mainland):</span> Issued through Dubai Economy or relevant emirate authority</li>
             <li><span className='font-bold'>HS Code Classification:</span> Green coffee: 0901.11.00 (not roasted, not decaffeinated)</li>
             <li><span className='font-bold'>Zero Import Duty:</span> UAE imposes 0% customs duty on coffee imports</li>
-            <li><span className='font-bold'>VAT (5%):</span> Value Added Tax applied at customs on CIF value (recoverable for registered businesses)</li>
+            <li><span className='font-bold'>VAT (5%):</span> Value Added Tax applied at customs on FCA value (recoverable for registered businesses)</li>
             <li><span className='font-bold'>Pre-Arrival Processing:</span> Dubai Trade allows pre-clearance before vessel arrival (faster release)</li>
             <li><span className='font-bold'>Risk-Based Inspection:</span> Low-risk shipments (established importers, compliant products) clear in hours</li>
           </ul>
@@ -194,7 +194,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
             <tr className='border-b'>
               <td className='py-2 font-bold'>VAT (Value Added Tax)</td>
               <td className='py-2'>5%</td>
-              <td className='py-2 text-gray-600'>Applied on CIF value (fully recoverable for VAT-registered businesses)</td>
+              <td className='py-2 text-gray-600'>Applied on FCA value (fully recoverable for VAT-registered businesses)</td>
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Customs Clearance Fee</td>
@@ -224,7 +224,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
               <td className='py-2 text-right'>$2,800 USD (Red Sea → Gulf route)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>Marine Insurance (0.3% CIF)</td>
+              <td className='py-2'>Marine Insurance (0.3% FCA)</td>
               <td className='py-2 text-right'>$545 USD</td>
             </tr>
             <tr className='border-b'>
@@ -240,7 +240,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
               <td className='py-2 text-right'>$250 USD (~AED 920)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 font-bold'>CIF Value</td>
+              <td className='py-2 font-bold'>FCA Value</td>
               <td className='py-2 text-right font-bold'>$182,019 USD (AED 668,410)</td>
             </tr>
             <tr className='border-b'>
@@ -248,7 +248,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
               <td className='py-2 text-right'>$0</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>VAT (5% on CIF)</td>
+              <td className='py-2'>VAT (5% on FCA)</td>
               <td className='py-2 text-right'>$9,101 USD (AED 33,421)</td>
             </tr>
             <tr className='border-b'>
@@ -397,7 +397,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </li>
         <li>
           <span className='font-bold'>VAT Assessment & Payment</span>
-          <p className='font-normal text-sm mt-1'>Dubai Customs calculates 5% VAT on CIF value. Payment via e-Dirham or broker.</p>
+          <p className='font-normal text-sm mt-1'>Dubai Customs calculates 5% VAT on FCA value. Payment via e-Dirham or broker.</p>
         </li>
         <li>
           <span className='font-bold'>Green Channel Release</span>

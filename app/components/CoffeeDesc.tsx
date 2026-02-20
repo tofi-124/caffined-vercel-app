@@ -25,7 +25,7 @@ const headlines = [
     items: [
       'Fresh, traceable coffees from Sidama, Guji, and Yirgacheffe year-round',
       'Rigorous quality control from washing station to export container',
-      'Professional documentation and flexible shipping (FOB Djibouti or CIF)',
+      'Professional documentation and flexible shipping (FOB Djibouti or FCA)',
       'Moisture-safe packaging preserving origin character in transit'
     ]
   }

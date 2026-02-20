@@ -43,7 +43,7 @@ const buyerTypes = [
 const processSteps = [
   { step: '01', title: 'Inquire', desc: 'Tell us your requirements: preferred origins, grades, processing methods, volume needs, and delivery timeline. We\'ll respond within 24 hours with availability and indicative pricing.' },
   { step: '02', title: 'Sample', desc: 'We ship pre-shipment samples (green and/or roasted) for your evaluation. Full SCA cupping reports included. Evaluate cup quality, roast profile, and consistency at your facility.' },
-  { step: '03', title: 'Approve & Contract', desc: 'Once you approve the lot, we issue a sales contract with agreed-upon pricing (fixed or differential), volume, shipping terms (FOB/CIF), and payment terms (L/C, CAD, or T/T).' },
+  { step: '03', title: 'Approve & Contract', desc: 'Once you approve the lot, we issue a sales contract with agreed-upon pricing (fixed or differential), volume, shipping terms (FOB/FCA), and payment terms (L/C, CAD, or T/T).' },
   { step: '04', title: 'Documentation', desc: 'We prepare all export documents: ICO certificate, phytosanitary certificate, certificate of origin, weight certificate, quality certificate, and commercial invoice.' },
   { step: '05', title: 'Ship', desc: 'Your coffee is loaded in a 20ft or 40ft container, shipped from Djibouti port to your designated destination. Real-time tracking and shipping updates provided throughout.' },
   { step: '06', title: 'Receive & Reorder', desc: 'Upon arrival, verify quality against pre-shipment samples. Plan your next order - we maintain year-round availability across all major Ethiopian origins.' },
@@ -175,7 +175,7 @@ export default function BuyWholesalePage() {
               { icon: <HiOutlineBeaker className="w-8 h-8" />, title: 'SCA-Protocol Quality Control', desc: 'Every lot cupped by certified Q-graders on SCA protocol. Full cupping reports, moisture testing, defect analysis included with every shipment.' },
               { icon: <HiOutlineChatBubbleLeftRight className="w-8 h-8" />, title: '24-Hour Response Time', desc: 'Based in Ethiopia and Canada, our dual-timezone team ensures fast communication. Inquiries answered within 24 hours, always.' },
               { icon: <HiOutlineDocumentCheck className="w-8 h-8" />, title: 'Complete Documentation', desc: 'ICO certificates, phytosanitary, certificate of origin, weight & quality certificates - all export paperwork handled end-to-end.' },
-              { icon: <HiOutlineTruck className="w-8 h-8" />, title: 'FOB or CIF Shipping', desc: 'Ship FOB Djibouti or CIF to your destination port. We coordinate reliable freight forwarding for on-time, damage-free delivery.' },
+              { icon: <HiOutlineTruck className="w-8 h-8" />, title: 'FOB or FCA Shipping', desc: 'Ship FOB Djibouti for ocean freight or FCA (Free Carrier) for air freight. We handle all export-side logistics and coordinate reliable delivery.' },
               { icon: <HiOutlineShoppingBag className="w-8 h-8" />, title: 'Flexible Order Sizes', desc: 'Standard FCL containers. Trial shipments and LCL options available for first-time buyers building the relationship.' },
             ].map((item, i) => (
               <div key={i} className='flex gap-4'>
@@ -195,7 +195,7 @@ export default function BuyWholesalePage() {
         <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>Wholesale Ethiopian Coffee: Frequently Asked Questions</h2>
         <div className='max-w-3xl mx-auto space-y-8'>
           {[
-            { q: 'How do I buy Ethiopian coffee wholesale?', a: 'Contact us with your requirements (preferred origins, grades, volume, processing method). We\'ll send availability and pricing within 24 hours. After you approve pre-shipment samples, we issue a sales contract, prepare all export documentation, and ship your coffee FOB Djibouti or CIF to your destination port.' },
+            { q: 'How do I buy Ethiopian coffee wholesale?', a: 'Contact us with your requirements (preferred origins, grades, volume, processing method). We\'ll send availability and pricing within 24 hours. After you approve pre-shipment samples, we issue a sales contract, prepare all export documentation, and ship your coffee FOB Djibouti for ocean freight or FCA (Free Carrier) for air freight.' },
             { q: 'What is the minimum order for wholesale Ethiopian coffee?', a: 'Our standard minimum is one full container load (FCL) - approximately 275 bags at 60kg each (16.5 metric tons). For first-time buyers, we offer trial shipments and LCL (Less than Container Load) options to help you evaluate our quality before committing to larger volumes.' },
             { q: 'What is the wholesale price of Ethiopian coffee?', a: 'Specialty-grade Ethiopian green coffee ranges from $9–$13/kg ($4–$6/lb) FOB Djibouti. Commercial grades are lower. Prices depend on origin, grade, processing, C-market conditions, and contract type (fixed price or differential). Contact us for current crop pricing tailored to your needs.' },
             { q: 'Can I get samples before placing a wholesale order?', a: 'Absolutely. You can purchase evaluation samples (100g, 250g, or 500g) directly from any product page via PayPal with a flat $25 worldwide shipping fee. For wholesale lots, we also provide pre-shipment samples (PSS) with full SCA cupping reports so you can approve the exact lot before container shipment.' },

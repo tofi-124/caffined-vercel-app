@@ -117,7 +117,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         <h4 className='font-bold text-lg mb-3'>Netherlands / EU Cost Checklist</h4>
         <ul className='list-disc ml-5 text-sm space-y-2'>
           <li><span className='font-bold'>Import Duty:</span> 0% under GSP+ with Form A certificate</li>
-          <li><span className='font-bold'>VAT:</span> Typically reduced rate 9% for most retail food; applies on CIF + costs   recoverable for VAT-registered businesses</li>
+          <li><span className='font-bold'>VAT:</span> Typically reduced rate 9% for most retail food; applies on FCA + costs   recoverable for VAT-registered businesses</li>
           <li><span className='font-bold'>Customs & Handling Fees:</span> Broker, terminal handling, and inland transport</li>
           <li><span className='font-bold'>Bonded Storage:</span> Useful to manage cash flow and VAT timing</li>
         </ul>
@@ -165,7 +165,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
               <td className='py-2 text-gray-600'>Typical market rate   confirm with carrier</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>Marine Insurance (0.3% CIF)</td>
+              <td className='py-2'>Marine Insurance (0.3% FCA)</td>
               <td className='py-2 text-right'>$583 USD</td>
               <td className='py-2 text-gray-600' />
             </tr>
@@ -180,7 +180,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
               <td className='py-2 text-gray-600' />
             </tr>
             <tr className='border-b'>
-              <td className='py-2 font-bold'>CIF Rotterdam</td>
+              <td className='py-2 font-bold'>FCA Rotterdam</td>
               <td className='py-2 text-right font-bold'>$195,741 USD (€177,973 @ €1.10/USD)</td>
               <td className='py-2 text-gray-600' />
             </tr>
@@ -190,7 +190,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
               <td className='py-2 text-gray-600' />
             </tr>
             <tr className='border-b'>
-              <td className='py-2 font-bold'>VAT 9% on (CIF + Fees)</td>
+              <td className='py-2 font-bold'>VAT 9% on (FCA + Fees)</td>
               <td className='py-2 text-right'>€16,017 ($17,619 USD)</td>
               <td className='py-2 text-gray-600'>Reduced Dutch VAT for most food products</td>
             </tr>

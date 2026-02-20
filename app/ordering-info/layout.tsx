@@ -80,7 +80,7 @@ export default function OrderingInfoLayout({
         "name": "What shipping terms do you offer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We offer flexible Incoterms: FOB Djibouti (you arrange ocean freight) and CIF (we arrange freight to your port)."
+          "text": "We offer flexible Incoterms: FOB Djibouti (you arrange ocean freight) and FCA (Free Carrier, buyer arranges air freight)."
         }
       },
       {

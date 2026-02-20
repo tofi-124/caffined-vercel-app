@@ -130,7 +130,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
       </p>
       <ol className='font-inconsolata my-4 list-decimal ml-5'>
         <li className='my-2'><span className='font-bold'>Request Samples:</span> Tell us what profiles, grades, or regions you&apos;re interested in. We&apos;ll send cupping samples from current lots.</li>
-        <li className='my-2'><span className='font-bold'>Review Offer Sheets:</span> Get pricing (FOB, CIF, or delivered), lot details, and availability.</li>
+        <li className='my-2'><span className='font-bold'>Review Offer Sheets:</span> Get pricing (FOB, FCA, or delivered), lot details, and availability.</li>
         <li className='my-2'><span className='font-bold'>Place Your Order:</span> Secure your allocation and choose your shipping terms.</li>
         <li className='my-2'><span className='font-bold'>Receive &amp; Roast:</span> Your green coffee arrives with full documentation and traceability.</li>
       </ol>

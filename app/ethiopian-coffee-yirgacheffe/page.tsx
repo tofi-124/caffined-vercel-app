@@ -213,8 +213,8 @@ export default function YirgacheffeCoffeePage() {
                 </tr>
                 <tr className='border-b border-dark/10'>
                   <td className='px-4 py-3 font-medium'>Incoterms</td>
-                  <td className='px-4 py-3'>FOB Djibouti / CIF</td>
-                  <td className='px-4 py-3'>FOB Djibouti / CIF</td>
+                  <td className='px-4 py-3'>FOB Djibouti / FCA</td>
+                  <td className='px-4 py-3'>FOB Djibouti / FCA</td>
                 </tr>
                 <tr className='bg-white'>
                   <td className='px-4 py-3 font-medium'>Harvest Season</td>

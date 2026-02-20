@@ -153,7 +153,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
             <tr className='border-b'>
               <td className='py-2 font-bold'>VAT (Mehrwertsteuer)</td>
               <td className='py-2'>7%</td>
-              <td className='py-2 text-gray-600'>Reduced rate for food products (applied on CIF + Kaffeesteuer); recoverable for VAT-registered businesses</td>
+              <td className='py-2 text-gray-600'>Reduced rate for food products (applied on FCA + Kaffeesteuer); recoverable for VAT-registered businesses</td>
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Customs Clearance Fee</td>
@@ -183,7 +183,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
               <td className='py-2 text-right'>$3,800 USD (Red Sea → Suez → Mediterranean → Hamburg)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>Marine Insurance (0.3% CIF)</td>
+              <td className='py-2'>Marine Insurance (0.3% FCA)</td>
               <td className='py-2 text-right'>$583 USD</td>
             </tr>
             <tr className='border-b'>
@@ -195,7 +195,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
               <td className='py-2 text-right'>$330 USD (€300)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 font-bold'>CIF Hamburg</td>
+              <td className='py-2 font-bold'>FCA Hamburg</td>
               <td className='py-2 text-right font-bold'>$195,741 USD (€177,973 @ €1.10/USD)</td>
             </tr>
             <tr className='border-b'>
@@ -207,7 +207,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
               <td className='py-2 text-right'>€32,940 ($36,234 USD)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>VAT 7% on (CIF + Kaffeesteuer)</td>
+              <td className='py-2'>VAT 7% on (FCA + Kaffeesteuer)</td>
               <td className='py-2 text-right'>€14,764 ($16,240 USD)</td>
             </tr>
             <tr className='border-b'>

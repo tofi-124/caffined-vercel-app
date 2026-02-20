@@ -107,7 +107,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
             <li><span className='font-bold'>Import Declaration (FASAH):</span> Electronic customs declaration via FASAH platform</li>
             <li><span className='font-bold'>HS Code Classification:</span> Green coffee: 0901.11.00 or 0901.12.00</li>
             <li><span className='font-bold'>Zero Import Duty:</span> Saudi Arabia imposes 0% customs duty on coffee imports</li>
-            <li><span className='font-bold'>VAT (15%):</span> Value Added Tax applied at customs on CIF value</li>
+            <li><span className='font-bold'>VAT (15%):</span> Value Added Tax applied at customs on FCA value</li>
             <li><span className='font-bold'>SABER Conformity:</span> Product conformity assessment via SABER platform (SFDA integration)</li>
             <li><span className='font-bold'>Pre-Arrival Documentation:</span> Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin</li>
           </ul>
@@ -145,7 +145,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
             <tr className='border-b'>
               <td className='py-2 font-bold'>VAT (Value Added Tax)</td>
               <td className='py-2'>15%</td>
-              <td className='py-2 text-gray-600'>Applied on CIF value (Cost + Insurance + Freight)</td>
+              <td className='py-2 text-gray-600'>Applied on FCA value (Free Carrier value)</td>
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Customs Clearance Fee</td>
@@ -170,7 +170,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
               <td className='py-2 text-right'>$2,500 USD (short Red Sea route)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>Marine Insurance (0.3% CIF)</td>
+              <td className='py-2'>Marine Insurance (0.3% FCA)</td>
               <td className='py-2 text-right'>$540 USD</td>
             </tr>
             <tr className='border-b'>
@@ -186,7 +186,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
               <td className='py-2 text-right'>$300 USD (~SAR 1,125)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 font-bold'>CIF Value</td>
+              <td className='py-2 font-bold'>FCA Value</td>
               <td className='py-2 text-right font-bold'>$181,614 USD</td>
             </tr>
             <tr className='border-b'>
@@ -194,7 +194,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
               <td className='py-2 text-right'>$0</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>VAT (15% on CIF)</td>
+              <td className='py-2'>VAT (15% on FCA)</td>
               <td className='py-2 text-right'>$27,242 USD</td>
             </tr>
             <tr className='border-b'>
@@ -392,7 +392,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </li>
         <li>
           <span className='font-bold'>VAT Assessment & Payment</span>
-          <p className='font-normal text-sm mt-1'>Zatca calculates 15% VAT on CIF value. Payment via bank or broker.</p>
+          <p className='font-normal text-sm mt-1'>Zatca calculates 15% VAT on FCA value. Payment via bank or broker.</p>
         </li>
         <li>
           <span className='font-bold'>Release & Gate-Out</span>

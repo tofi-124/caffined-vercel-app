@@ -453,7 +453,7 @@ const OfferingDetail = ({ params }: Props) => {
                         <svg className='w-3.5 h-3.5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
                           <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M5 13l4 4L19 7' />
                         </svg>
-                        CIF Ethiopia
+                        FCA Ethiopia
                       </span>
                       <span className='inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-stone-50 border border-gray-200 text-xs font-semibold text-dark'>
                         <svg className='w-3.5 h-3.5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'>

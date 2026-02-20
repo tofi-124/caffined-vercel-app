@@ -108,7 +108,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
             <li><span className='font-bold'>Import License:</span> Your business needs Japanese company registration (KK or GK) to import</li>
             <li><span className='font-bold'>HS Code Classification:</span> Green coffee: 0901.11-000 or 0901.12-000</li>
             <li><span className='font-bold'>Zero Import Duty:</span> Japan imposes 0% customs duty on coffee imports (under WTO commitments)</li>
-            <li><span className='font-bold'>Consumption Tax (10%):</span> Applied at customs on CIF value + freight (recoverable for tax-registered businesses)</li>
+            <li><span className='font-bold'>Consumption Tax (10%):</span> Applied at customs on FCA value + freight (recoverable for tax-registered businesses)</li>
             <li><span className='font-bold'>NACCS System:</span> Electronic customs clearance via Nippon Automated Cargo and Port Consolidated System</li>
             <li><span className='font-bold'>Customs Broker Recommended:</span> While not legally required, customs brokers navigate complex Japanese procedures efficiently</li>
             <li><span className='font-bold'>EPA/FTA Benefits:</span> Currently no Ethiopia-Japan EPA, but zero duty makes this less critical</li>
@@ -147,7 +147,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
             <tr className='border-b'>
               <td className='py-2 font-bold'>Consumption Tax (JCT)</td>
               <td className='py-2'>10%</td>
-              <td className='py-2 text-gray-600'>Applied on CIF value (recoverable for tax-registered businesses)</td>
+              <td className='py-2 text-gray-600'>Applied on FCA value (recoverable for tax-registered businesses)</td>
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Customs Clearance Fee</td>
@@ -177,7 +177,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
               <td className='py-2 text-right'>$5,500 USD (Red Sea → Suez → Asia route)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>Marine Insurance (0.3% CIF)</td>
+              <td className='py-2'>Marine Insurance (0.3% FCA)</td>
               <td className='py-2 text-right'>$590 USD</td>
             </tr>
             <tr className='border-b'>
@@ -193,7 +193,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
               <td className='py-2 text-right'>$300 USD (~¥45,000)</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 font-bold'>CIF Value</td>
+              <td className='py-2 font-bold'>FCA Value</td>
               <td className='py-2 text-right font-bold'>$197,268 USD (¥29,590,200 @ ¥150/USD)</td>
             </tr>
             <tr className='border-b'>
@@ -201,7 +201,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
               <td className='py-2 text-right'>$0</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2'>Consumption Tax (10% on CIF)</td>
+              <td className='py-2'>Consumption Tax (10% on FCA)</td>
               <td className='py-2 text-right'>$19,727 USD (¥2,959,020)</td>
             </tr>
             <tr className='border-b'>

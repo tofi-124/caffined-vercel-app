@@ -427,7 +427,7 @@ export const posts: Post[] = [
         'FOB Djibouti price',
         'ethiopian coffee differentials',
         'C-market coffee price',
-        'coffee FOB vs CIF',
+        'coffee FOB vs FCA',
         'ethiopian coffee export price',
         'green coffee beans price per kg',
         'buy ethiopian coffee wholesale',

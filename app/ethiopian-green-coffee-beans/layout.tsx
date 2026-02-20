@@ -104,7 +104,7 @@ export default function EthiopianGreenCoffeeBeansLayout({
         "name": "How are Ethiopian green coffee beans shipped?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ethiopian green coffee is exported in 60kg jute bags with GrainPro hermetic liners to preserve freshness. Shipping is typically FOB Djibouti (the nearest major port) or CIF to the buyer's destination port. Transit times vary: 2-3 weeks to Middle East, 4-6 weeks to Europe, 6-8 weeks to North America and Asia."
+          "text": "Ethiopian green coffee is exported in 60kg jute bags with GrainPro hermetic liners to preserve freshness. Shipping is typically FOB Djibouti (the nearest major port) for ocean freight or FCA (Free Carrier) for air freight where the buyer arranges carriage. Transit times vary: 2-3 weeks to Middle East, 4-6 weeks to Europe, 6-8 weeks to North America and Asia."
         }
       }
     ]

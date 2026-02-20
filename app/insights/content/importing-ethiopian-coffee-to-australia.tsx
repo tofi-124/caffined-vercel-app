@@ -363,7 +363,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Goods and Services Tax (GST)</td>
-              <td className='py-2'>10% on CIF value + duty (duty is zero, so 10% of CIF)</td>
+              <td className='py-2'>10% on FCA value + duty (duty is zero, so 10% of FCA)</td>
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Import Declaration</td>
@@ -385,7 +385,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
         <h5 className='font-bold mb-3'>GST and Input Tax Credits</h5>
         <p className='text-sm mb-3'>While coffee imports are subject to 10% GST, registered businesses can claim this back:</p>
         <ul className='text-sm space-y-2'>
-          <li>✓ <span className='font-bold'>GST at Import:</span> 10% GST charged on CIF value</li>
+          <li>✓ <span className='font-bold'>GST at Import:</span> 10% GST charged on FCA value</li>
           <li>✓ <span className='font-bold'>Input Tax Credit:</span> GST-registered businesses claim this as input tax credit</li>
           <li>✓ <span className='font-bold'>BAS Reporting:</span> Claim on quarterly Business Activity Statement (BAS)</li>
           <li>✓ <span className='font-bold'>Net Impact:</span> For GST-registered businesses, the 10% GST is recoverable (temporary cash flow impact only)</li>
@@ -421,7 +421,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
             <tr className='border-b'>
               <td className='py-2 font-bold'>Goods and Services Tax (GST)</td>
               <td className='py-2 font-bold'>10%</td>
-              <td className='py-2 text-gray-600'>Applied on CIF value (recoverable for GST-registered businesses)</td>
+              <td className='py-2 text-gray-600'>Applied on FCA value (recoverable for GST-registered businesses)</td>
             </tr>
             <tr className='border-b'>
               <td className='py-2 font-bold'>Biosecurity Inspection Fee</td>
@@ -696,12 +696,12 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
               <td className='py-2 px-3 text-right'>$0.11</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 px-3 pl-6'>Marine Insurance (0.3% CIF)</td>
+              <td className='py-2 px-3 pl-6'>Marine Insurance (0.3% FCA)</td>
               <td className='py-2 px-3 text-right'>$586</td>
               <td className='py-2 px-3 text-right'>$0.01</td>
             </tr>
             <tr className='border-b bg-blue-50'>
-              <td className='py-2 px-3 font-bold'>CIF Value (Melbourne)</td>
+              <td className='py-2 px-3 font-bold'>FCA Value (Melbourne)</td>
               <td className='py-2 px-3 text-right font-bold'>$195,564</td>
               <td className='py-2 px-3 text-right font-bold'>$4.93</td>
             </tr>
@@ -716,7 +716,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
               <td className='py-2 px-3 text-right text-green-700'>$0.00</td>
             </tr>
             <tr className='border-b'>
-              <td className='py-2 px-3 pl-6'>GST 10% (on CIF)</td>
+              <td className='py-2 px-3 pl-6'>GST 10% (on FCA)</td>
               <td className='py-2 px-3 text-right'>$19,556</td>
               <td className='py-2 px-3 text-right'>$0.49</td>
             </tr>

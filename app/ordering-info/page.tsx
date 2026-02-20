@@ -240,7 +240,7 @@ const faqData: FAQSection[] = [
             </p>
             <ul className='list-disc pl-5 space-y-1'>
               <li><strong>FOB Djibouti:</strong> You arrange ocean freight</li>
-              <li><strong>CIF:</strong> We could arrange freight to your port</li>
+              <li><strong>FCA:</strong> Delivered to carrier; buyer arranges air freight</li>
             </ul>
           </>
         ),
@@ -501,7 +501,7 @@ export default function OrderingInfoPage() {
             item.question.includes('Who handles') ? 
               'We handle all export documentation from Ethiopia, including phytosanitary certificates, certificates of origin, and bill of lading. You are responsible for import clearance in your country.' :
             item.question.includes('Incoterms') ? 
-              'We typically quote FOB (Free on Board) Djibouti Port or CIF (Cost, Insurance, Freight) to your destination port. Other terms can be discussed.' :
+              'We typically quote FOB (Free on Board) Djibouti Port or FCA (Free Carrier) for air freight shipments where the buyer arranges carriage. Other terms can be discussed.' :
             item.question.includes('tracking') ? 
               'Yes, we provide full shipment tracking from warehouse to port, including container number, vessel name, and estimated arrival dates.' :
             item.question.includes('payment methods') ? 

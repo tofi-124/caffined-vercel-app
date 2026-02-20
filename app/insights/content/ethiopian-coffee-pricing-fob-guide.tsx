@@ -279,11 +279,11 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         </p>
       </div>
 
-      {/* ====== SECTION 5: FOB vs CIF ====== */}
+      {/* ====== SECTION 5: FOB vs FCA ====== */}
 
       <h3 className='text-2xl font-extrabold mt-8'>
         <HiOutlineGlobeAmericas className='inline mr-2' />
-        FOB Djibouti vs. CIF: Understanding Shipping Terms
+        FOB Djibouti vs. FCA: Understanding Shipping Terms
       </h3>
 
       <p className='my-4'>
@@ -301,18 +301,18 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
           </ul>
         </div>
         <div className='bg-gray-50 p-6 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-3'>CIF (Your Destination Port)</h4>
+          <h4 className='font-bold text-lg mb-3'>FCA (Free Carrier)</h4>
           <ul className='space-y-2 text-sm'>
-            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Everything in FOB, plus ocean freight and insurance to your port</li>
-            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />More predictable total cost for budgeting</li>
-            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Exporter handles freight booking and documentation</li>
-            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />You only handle import clearance and local delivery</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Seller delivers goods to a carrier nominated by the buyer</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Used for air freight shipments where buyer arranges carriage</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Buyer controls carrier selection, freight costs, and insurance</li>
+            <li><HiOutlineCheckCircle className='inline mr-2 text-green-600' />Seller handles inland transport and export documentation</li>
           </ul>
         </div>
       </div>
 
       <p className='my-4'>
-        Most experienced importers prefer FOB terms because they have established freight relationships and can often secure better shipping rates. First-time importers or those buying smaller volumes may prefer CIF because it simplifies the process. At <Link href='/ethiopian-coffee-exporter' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Ethio Coffee</Link>, we offer both options and can recommend trusted freight forwarders if you prefer to arrange your own shipping.
+        Most experienced importers prefer FOB terms for ocean freight because they have established freight relationships and can often secure better shipping rates. FCA (Free Carrier) is ideal for air freight shipments where the buyer arranges and pays for carriage from a nominated point. At <Link href='/ethiopian-coffee-exporter' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Ethio Coffee</Link>, we offer both options and can recommend trusted freight forwarders if you prefer to arrange your own shipping.
       </p>
 
       {/* ====== SECTION 6: TOTAL COST BREAKDOWN ====== */}
@@ -508,7 +508,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How can I get a pricing quote from an Ethiopian coffee exporter?</h4>
-            <p className="text-sm text-gray-600">To request a quote, reach out to a licensed Ethiopian coffee exporter with details about the grade, origin, processing method, volume, and your preferred Incoterm (FOB, CFR, or CIF). Most exporters will provide indicative pricing based on current market conditions and can send pre-shipment samples for cupping evaluation before you commit. Working with an exporter who offers transparent pricing and clear communication throughout the process will help you secure the best value and avoid unexpected costs.</p>
+            <p className="text-sm text-gray-600">To request a quote, reach out to a licensed Ethiopian coffee exporter with details about the grade, origin, processing method, volume, and your preferred Incoterm (FOB, CFR, or FCA). Most exporters will provide indicative pricing based on current market conditions and can send pre-shipment samples for cupping evaluation before you commit. Working with an exporter who offers transparent pricing and clear communication throughout the process will help you secure the best value and avoid unexpected costs.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How do Ethiopian coffee prices compare to other origins?</h4>

@@ -445,8 +445,8 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
               <p className="text-sm text-gray-600">Risk transfers when coffee crosses the ship's rail in Djibouti. The buyer handles sea freight and insurance. Common for large importers.</p>
            </div>
            <div className="border border-gray-200 p-5 rounded-lg hover:bg-gray-50 transition">
-              <h5 className="font-bold flex items-center gap-2 mb-2"><HiOutlineCurrencyDollar className="text-gray-500"/> CIF (Cost, Insurance, Freight)</h5>
-              <p className="text-sm text-gray-600">Exporter covers costs until the destination port. The safest option for smaller roasters, as the exporter manages the freight quality.</p>
+              <h5 className="font-bold flex items-center gap-2 mb-2"><HiOutlineCurrencyDollar className="text-gray-500"/> FCA (Free Carrier)</h5>
+              <p className="text-sm text-gray-600">Seller delivers goods to a carrier nominated by the buyer. The buyer arranges and pays for the main carriage (typically air freight) and insurance. Preferred by buyers who want control over their logistics.</p>
            </div>
         </div>
       </section>

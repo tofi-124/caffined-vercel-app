@@ -625,7 +625,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
             </tr>
             <tr className='bg-white'>
               <td className='p-3 font-medium'>Shipping Terms</td>
-              <td className='p-3'>FOB Djibouti (most common), CIF/CFR destination port</td>
+              <td className='p-3'>FOB Djibouti (most common), FCA (Free Carrier) for air freight</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='p-3 font-medium'>Documents</td>
@@ -663,21 +663,21 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
           </ul>
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3 text-lg'>CIF / CFR Destination</h5>
+          <h5 className='font-bold mb-3 text-lg'>FCA (Free Carrier)</h5>
           <p className='text-sm mb-3'>
-            "Cost, Insurance, Freight" (CIF) or "Cost and Freight" (CFR) means the seller arranges and pays for shipping to the buyer's destination port. With CIF, the seller also provides marine insurance.
+            "Free Carrier" (FCA) means the seller delivers the goods to a carrier nominated by the buyer at a named place (typically an airport or freight terminal). The buyer arranges and pays for the main carriage (air freight) and insurance from that point.
           </p>
           <ul className='text-sm space-y-1.5'>
-            <li className='flex items-start gap-2'><HiOutlineCheckCircle className='text-green-600 mt-0.5 flex-shrink-0' /> Seller covers: all costs to destination port</li>
-            <li className='flex items-start gap-2'><HiOutlineCheckCircle className='text-green-600 mt-0.5 flex-shrink-0' /> Buyer covers: import clearance, inland delivery</li>
-            <li className='flex items-start gap-2'><HiOutlineCheckCircle className='text-green-600 mt-0.5 flex-shrink-0' /> Simpler for buyers unfamiliar with freight booking</li>
-            <li className='flex items-start gap-2'><HiOutlineExclamationTriangle className='text-amber-600 mt-0.5 flex-shrink-0' /> Less buyer control over shipping logistics</li>
+            <li className='flex items-start gap-2'><HiOutlineCheckCircle className='text-green-600 mt-0.5 flex-shrink-0' /> Seller covers: inland transport, export clearance, delivery to carrier</li>
+            <li className='flex items-start gap-2'><HiOutlineCheckCircle className='text-green-600 mt-0.5 flex-shrink-0' /> Buyer covers: air freight, insurance, import clearance</li>
+            <li className='flex items-start gap-2'><HiOutlineCheckCircle className='text-green-600 mt-0.5 flex-shrink-0' /> Suitable for air freight and multimodal transport</li>
+            <li className='flex items-start gap-2'><HiOutlineCheckCircle className='text-green-600 mt-0.5 flex-shrink-0' /> Buyer controls carrier selection and logistics</li>
           </ul>
         </div>
       </div>
 
       <p className='my-4'>
-        Most experienced importers prefer FOB Djibouti because it gives them control over the shipping line, schedule, and insurance coverage. The cost transparency is also better: you can see exactly what you're paying for coffee versus freight. For buyers who want a simpler, all-inclusive price, CIF or CFR contracts reduce logistical complexity. Learn more about shipping and logistics in our guide to <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 underline font-semibold'>specialty coffee storage and freight</Link>.
+        Most experienced importers prefer FOB Djibouti because it gives them control over the shipping line, schedule, and insurance coverage. The cost transparency is also better: you can see exactly what you're paying for coffee versus freight. FCA (Free Carrier) is used for air freight shipments where the buyer arranges and pays for the main carriage from a nominated point. Learn more about shipping and logistics in our guide to <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 underline font-semibold'>specialty coffee storage and freight</Link>.
       </p>
 
       {/* SECTION 6: QUALITY CLAUSES */}
@@ -762,7 +762,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
           <div className='bg-amber-100 text-amber-800 font-bold rounded-full w-10 h-10 flex items-center justify-center flex-shrink-0 text-sm'>3</div>
           <div>
             <p className='font-bold'>Week 4-5: Price Negotiation and Contract Terms</p>
-            <p className='text-sm'>Negotiate price, payment terms, shipment window, and quality specifications. Discuss Incoterms (FOB or CIF). Agree on pre-shipment sample approval process. Receive proforma invoice and sales contract from the exporter.</p>
+            <p className='text-sm'>Negotiate price, payment terms, shipment window, and quality specifications. Discuss Incoterms (FOB or FCA). Agree on pre-shipment sample approval process. Receive proforma invoice and sales contract from the exporter.</p>
           </div>
         </div>
         <div className='flex items-start gap-4 bg-gray-50 p-4 rounded-lg border-l-4 border-amber-500'>
@@ -852,8 +852,8 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
             <p className="text-sm text-gray-600">Quality disputes are resolved through arbitration. US-bound contracts typically use GCA (Green Coffee Association) rules; European contracts use ECF/ECA rules. The first step is always to communicate the issue directly with the exporter. Provide cupping scores, defect counts, and comparison notes against the pre-shipment sample. Many disputes are resolved through price allowances without formal arbitration.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Is FOB or CIF better when buying Ethiopian coffee?</h4>
-            <p className="text-sm text-gray-600">FOB Djibouti is preferred by experienced importers because it provides more control over shipping costs and logistics. CIF is simpler for buyers who want the exporter to handle freight arrangements. Both are valid; the choice depends on your logistics experience and whether you have freight forwarding relationships in place.</p>
+            <h4 className="font-bold text-gray-800 mb-2">Is FOB or FCA better when buying Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">FOB Djibouti is preferred by experienced importers for ocean freight because it provides more control over shipping costs and logistics. FCA (Free Carrier) is used for air freight where the buyer arranges carriage from the nominated point. Both are valid; the choice depends on your shipping mode preference and logistics capabilities.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How do differentials work for Ethiopian coffee?</h4>

@@ -214,7 +214,7 @@ export default function EthiopianCoffeeExporterLayout({
         "name": "How long does shipping take from Ethiopia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "From order confirmation to arrival at your port, expect 4-8 weeks total. This includes 1-2 weeks for lot preparation and documentation, plus 2-6 weeks of ocean transit depending on your destination port. We ship FOB Djibouti or CIF to your destination."
+          "text": "From order confirmation to arrival at your destination, expect 4-8 weeks total. This includes 1-2 weeks for lot preparation and documentation, plus 2-6 weeks of ocean transit depending on your destination port. We ship FOB Djibouti for ocean freight or FCA (Free Carrier) for air freight where the buyer arranges carriage."
         }
       },
       {
