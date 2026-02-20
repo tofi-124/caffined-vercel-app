@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE VS KENYAN COFFEE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-vs-kenyan-coffee.webp',
+      large_image_url: 'insights/ethiopian-coffee-vs-kenyan-coffee.webp',
+      date: 'Feb 20, 2026',
+      title: 'Ethiopian Coffee vs Kenyan Coffee: A Buyer\'s Comparison',
+      slug: 'ethiopian-coffee-vs-kenyan-coffee',
+      category: 'Origin Comparison / Sourcing Guide / Green Coffee / Importer Resources',
+      keywords: [
+        'ethiopian coffee vs kenyan coffee',
+        'ethiopian vs kenyan coffee',
+        'kenya vs ethiopia coffee comparison',
+        'african coffee origin comparison',
+        'best african coffee for importers',
+        'ethiopian coffee flavor profile',
+        'kenyan coffee flavor profile',
+        'SL28 vs ethiopian heirloom coffee',
+        'kenya AA vs ethiopia G1',
+        'ethiopian coffee grading vs kenyan',
+        'nairobi coffee exchange vs ECX',
+        'kenyan coffee auction',
+        'african specialty coffee comparison',
+        'ethiopian coffee vs kenyan coffee for roasters',
+        'is ethiopian or kenyan coffee better',
+        'kenyan coffee blackcurrant',
+        'east african coffee buyer guide',
+        'FOB pricing ethiopian kenyan coffee',
+        'kenya AA coffee price',
+        'green coffee african origins'
+      ],
+      desc: 'Ethiopian coffee vs Kenyan coffee compared for importers and roasters: flavor profiles, SL-28 vs heirloom varieties, ECX vs Nairobi auction, grading systems, FOB pricing, seasonal availability, and sourcing guidance for both East African specialty origins.'
+    },
     // ===== BEST COFFEE GUIDE: FRENCH PRESS, POUR OVER & SCALES =====
     {
       small_image_url: 'insights/best-coffee-guide-french-press-pour-over-scales.webp',
