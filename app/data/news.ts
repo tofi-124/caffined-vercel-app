@@ -150,5 +150,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The Ethiopian Coffee and Tea Authority signed a MoU with the Federal Technical and Vocational Training Institute to collaborate on coffee, tea and spices development through curriculum standardization, expert training, research and technology.',
     source: 'Ibushaba',
     keywords: 'Ethiopian Coffee and Tea Authority, ECTA MoU, Federal Technical and Vocational Training Institute, coffee training Ethiopia, Ethiopian coffee development, tea and spices Ethiopia, Ethiopian coffee exporter, coffee curriculum Ethiopia',
+  },
+  {
+    slug: 'italy-ambassador-coffee-tea-authority-visit',
+    date: '2026-02-20',
+    title: 'Italian Ambassador Underscores Economic Cooperation During Visit to Coffee and Tea Authority',
+    desc: 'Italian Ambassador H.E. Sem Fabrizi visited the Ethiopian Coffee and Tea Authority, reaffirming Italy\'s commitment to supporting Ethiopia\'s coffee industry through technical and financial cooperation, and toured the Coffee Training Center.',
+    source: 'ECTA',
+    keywords: 'Italian Ambassador Ethiopia, Italy Ethiopia coffee cooperation, Ethiopian Coffee and Tea Authority, ECTA visit, Coffee Training Center, Ethiopian coffee exporter, Italy coffee support Ethiopia, Ethiopian coffee development',
   }
 ]
