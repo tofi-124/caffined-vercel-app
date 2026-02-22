@@ -125,7 +125,7 @@ export default function DirectTradeEthiopianFarmers({ title, date, large_image_u
           Offer single-origin microlots with rich, distinct profiles
         </li>
         <li className='my-2'>
-          Guarantee traceability and transparency
+          Guarantee <Link href='/insights/ethiopian-coffee-traceability-guide' className='underline font-bold'>traceability</Link> and transparency
         </li>
         <li className='my-2'>
           Build custom export programs tailored to buyer needs

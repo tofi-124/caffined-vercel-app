@@ -463,7 +463,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </h3>
 
       <p className='my-4'>
-        Achieving EUDR compliance requires robust <span className='font-bold'>traceability systems</span> that track coffee from specific farms through the entire supply chain to export.
+        Achieving EUDR compliance requires robust <span className='font-bold'>traceability systems</span> that track coffee from specific farms through the entire supply chain to export. For a comprehensive breakdown of traceability levels, documentation standards, and verification methods, see our <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-blue-600 underline font-bold'>Ethiopian coffee traceability guide for buyers</Link>.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Building an Effective Traceability System</h4>

@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE TRACEABILITY GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-traceability-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-traceability-guide.webp',
+      date: 'Feb 22, 2026',
+      title: 'Ethiopian Coffee Traceability: Buyer\'s Guide',
+      slug: 'ethiopian-coffee-traceability-guide',
+      category: 'Supply Chain Transparency / Traceability / Sourcing Guide / Importer Resources',
+      keywords: [
+        'ethiopian coffee traceability',
+        'coffee traceability guide',
+        'coffee supply chain transparency',
+        'farm to cup traceability coffee',
+        'green coffee traceability',
+        'traceable coffee for importers',
+        'coffee traceability levels explained',
+        'ECX traceability vs direct trade',
+        'ethiopian coffee geolocation data',
+        'EUDR coffee traceability requirements',
+        'coffee traceability documentation',
+        'how to verify coffee traceability claims',
+        'ethiopian coffee supply chain',
+        'digital coffee traceability',
+        'blockchain coffee traceability',
+        'coffee traceability cost benefit',
+        'traceable green coffee beans',
+        'ethiopian coffee GPS mapping',
+        'coffee chain of custody',
+        'coffee traceability for roasters'
+      ],
+      desc: 'How Ethiopian coffee traceability works from farm to port: five traceability levels, ECX vs. direct specialty channels, required documentation, digital tools, EUDR compliance, cost-benefit analysis, and a practical verification framework for importers and roasters.'
+    },
     // ===== ETHIOPIAN COFFEE VS KENYAN COFFEE =====
     {
       small_image_url: 'insights/ethiopian-coffee-vs-kenyan-coffee.webp',

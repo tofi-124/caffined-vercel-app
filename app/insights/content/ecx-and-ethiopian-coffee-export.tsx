@@ -196,6 +196,10 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         <li><span className='font-bold'>Union/Cooperative branding:</span> Cooperatives can now maintain identity and traceability through the ECX system in many cases.</li>
       </ul>
 
+      <p className='my-4'>
+        Understanding how ECX traceability compares to direct specialty channels is essential for importers building transparent sourcing programs. Our <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-blue-600 underline font-bold'>Ethiopian coffee traceability guide</Link> covers five traceability levels, required documentation at each tier, digital tools, and a practical verification framework for buyers.
+      </p>
+
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-lg mb-2'><HiOutlineDocumentText className='inline mr-2' />For Importers: What to Ask About Traceability</h4>
         <p className='text-sm mb-3'>When sourcing from an Ethiopian exporter, clarify:</p>
