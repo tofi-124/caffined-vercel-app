@@ -57,6 +57,18 @@ async function heroToDataUri(imageRelPath: string): Promise<string> {
   return `data:image/jpeg;base64,${jpegBuf.toString('base64')}`
 }
 
+/* ---------- load logo as trimmed PNG data-URI ---------- */
+let cachedLogo: string | null = null
+async function getLogoDataUri(): Promise<string> {
+  if (cachedLogo) return cachedLogo
+  const logoPath = join(process.cwd(), 'public', 'images', 'new-logo.png')
+  const raw = await readFile(logoPath)
+  // Trim transparent whitespace around the logo so it sits flush
+  const trimmed = await sharp(raw).trim().png().toBuffer()
+  cachedLogo = `data:image/png;base64,${trimmed.toString('base64')}`
+  return cachedLogo
+}
+
 /* ---------- build Instagram caption ---------- */
 
 // Hook templates — rotated based on slug hash for variety
@@ -245,33 +257,105 @@ export async function GET(
     }
 
     /* ── Image generation ── */
-    const fonts = await getFonts()
-    const imageSrc = await heroToDataUri(post.large_image_url)
+    const [fonts, imageSrc, logoSrc] = await Promise.all([
+      getFonts(),
+      heroToDataUri(post.large_image_url),
+      getLogoDataUri(),
+    ])
 
     const titleLen = post.title.length
-    const titleSize = titleLen > 70 ? 38 : titleLen > 50 ? 44 : titleLen > 35 ? 52 : 58
+    const titleSize = titleLen > 70 ? 36 : titleLen > 50 ? 42 : titleLen > 35 ? 48 : 54
+
+    // Extract category label
+    const categoryLabel = (post.category?.split('/')[0]?.trim() || '').toUpperCase()
 
     const imgResponse = new ImageResponse(
       (
         <div
           style={{
             display: 'flex',
-            width: '100%',
-            height: '100%',
+            width: '1080px',
+            height: '1080px',
             position: 'relative',
           }}
         >
-          {/* ── Full-bleed hero image ── */}
+          {/* ── Full-bleed hero photo ── */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={imageSrc}
             width={1080}
             height={1080}
             alt=""
-            style={{ objectFit: 'cover', width: '1080px', height: '1080px' }}
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '1080px',
+              height: '1080px',
+              objectFit: 'cover',
+            }}
           />
 
-          {/* ── Bottom gradient (strong, covers bottom 45%) ── */}
+          {/* ── Top: thin terracotta accent stripe ── */}
+          <div
+            style={{
+              display: 'flex',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '1080px',
+              height: '5px',
+              backgroundColor: '#B45D38',
+            }}
+          />
+
+          {/* ── Top-left: category pill ── */}
+          {categoryLabel ? (
+            <div
+              style={{
+                display: 'flex',
+                position: 'absolute',
+                top: '20px',
+                left: '40px',
+                backgroundColor: 'rgba(15,37,48,0.75)',
+                padding: '8px 18px',
+                borderRadius: '4px',
+              }}
+            >
+              <div
+                style={{
+                  display: 'flex',
+                  fontFamily: 'Inconsolata',
+                  fontSize: 14,
+                  color: '#B45D38',
+                  letterSpacing: '2.5px',
+                  textTransform: 'uppercase',
+                }}
+              >
+                {categoryLabel}
+              </div>
+            </div>
+          ) : null}
+
+          {/* ── Top-right: logo ── */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={logoSrc}
+            width={100}
+            height={100}
+            alt=""
+            style={{
+              position: 'absolute',
+              top: '12px',
+              right: '40px',
+              width: '100px',
+              height: '100px',
+              objectFit: 'contain',
+              opacity: 0.7,
+            }}
+          />
+
+          {/* ── Bottom gradient overlay (navy, not black) ── */}
           <div
             style={{
               display: 'flex',
@@ -279,9 +363,8 @@ export async function GET(
               bottom: 0,
               left: 0,
               width: '1080px',
-              height: '540px',
-              background:
-                'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 35%, rgba(0,0,0,0.85) 70%, rgba(0,0,0,0.95) 100%)',
+              height: '520px',
+              background: 'linear-gradient(to bottom, rgba(15,37,48,0) 0%, rgba(15,37,48,0.85) 55%, rgba(15,37,48,0.97) 100%)',
             }}
           />
 
@@ -291,71 +374,93 @@ export async function GET(
               display: 'flex',
               flexDirection: 'column',
               position: 'absolute',
-              bottom: '48px',
-              left: '52px',
-              right: '52px',
+              bottom: '0',
+              left: '0',
+              width: '1080px',
+              padding: '0 48px 48px 48px',
             }}
           >
+            {/* Terracotta accent bar */}
+            <div
+              style={{
+                display: 'flex',
+                width: '52px',
+                height: '4px',
+                backgroundColor: '#B45D38',
+                marginBottom: '20px',
+              }}
+            />
+
             {/* Title */}
             <div
               style={{
                 display: 'flex',
-                color: '#FFFFFF',
+                color: '#FFF9F5',
                 fontFamily: 'Oswald',
                 fontWeight: 700,
                 fontSize: titleSize,
                 lineHeight: 1.15,
                 textTransform: 'uppercase',
-                letterSpacing: '1px',
-                textShadow: '0 2px 20px rgba(0,0,0,0.5)',
+                letterSpacing: '1.5px',
+                maxWidth: '980px',
               }}
             >
               {post.title}
             </div>
 
-            {/* Thin separator */}
-            <div
-              style={{
-                display: 'flex',
-                width: '60px',
-                height: '3px',
-                backgroundColor: '#B45D38',
-                marginTop: '20px',
-                marginBottom: '18px',
-              }}
-            />
+            {/* Spacer */}
+            <div style={{ display: 'flex', height: '20px' }} />
 
-            {/* Brand footer */}
+            {/* Bottom row: brand + date */}
             <div
               style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
+                width: '100%',
               }}
             >
+              {/* Teal dot + brand */}
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '10px',
+                }}
+              >
+                <div
+                  style={{
+                    display: 'flex',
+                    width: '8px',
+                    height: '8px',
+                    borderRadius: '50%',
+                    backgroundColor: '#4A9B9B',
+                  }}
+                />
+                <div
+                  style={{
+                    display: 'flex',
+                    fontFamily: 'Inconsolata',
+                    fontSize: 16,
+                    color: 'rgba(255,249,245,0.65)',
+                    letterSpacing: '2px',
+                    textTransform: 'uppercase',
+                  }}
+                >
+                  ethiocoffee.co
+                </div>
+              </div>
+
+              {/* Date */}
               <div
                 style={{
                   display: 'flex',
                   fontFamily: 'Inconsolata',
-                  fontSize: 22,
-                  color: 'rgba(255,255,255,0.8)',
-                  letterSpacing: '2px',
+                  fontSize: 15,
+                  color: 'rgba(255,249,245,0.4)',
                 }}
               >
-                ethiocoffee.co
-              </div>
-              <div
-                style={{
-                  display: 'flex',
-                  fontFamily: 'Oswald',
-                  fontWeight: 500,
-                  fontSize: 20,
-                  color: 'rgba(255,255,255,0.5)',
-                  letterSpacing: '3px',
-                  textTransform: 'uppercase',
-                }}
-              >
-                Ethio Coffee Export
+                {post.date}
               </div>
             </div>
           </div>
