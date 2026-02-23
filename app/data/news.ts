@@ -153,7 +153,7 @@ export const newsArticles: NewsArticle[] = [
   },
   {
     slug: 'italy-ambassador-coffee-tea-authority-visit',
-    date: '2026-02-20',
+    date: '2026-02-23',
     title: 'Italian Ambassador Underscores Economic Cooperation During Visit to Coffee and Tea Authority',
     desc: 'Italian Ambassador H.E. Sem Fabrizi visited the Ethiopian Coffee and Tea Authority, reaffirming Italy\'s commitment to supporting Ethiopia\'s coffee industry through technical and financial cooperation, and toured the Coffee Training Center.',
     source: 'ECTA',

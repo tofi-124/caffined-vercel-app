@@ -15,8 +15,7 @@ const WholesaleInquiryPage = () => {
     country: '',
     businessType: '',
     referralSource: '',
-    message: '',
-    requestSamples: false
+    message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
@@ -58,9 +57,6 @@ const WholesaleInquiryPage = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   }
   
-  const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData(prev => ({ ...prev, requestSamples: e.target.checked }));
-  }
   
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -102,8 +98,7 @@ const WholesaleInquiryPage = () => {
           country: '',
           businessType: '',
           referralSource: '',
-          message: '',
-          requestSamples: false
+          message: ''
         });
       } else {
         setSubmitError(result.error || 'Failed to submit. Please try again.');
@@ -349,19 +344,6 @@ const WholesaleInquiryPage = () => {
                   className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
                   placeholder='Tell us about your business needs, volumes required, etc.'
                 ></textarea>
-              </div>
-              
-              <div>
-                <label className='flex items-center'>
-                  <input 
-                    type='checkbox' 
-                    name='requestSamples'
-                    checked={formData.requestSamples}
-                    onChange={handleCheckboxChange}
-                    className='mr-2' 
-                  />
-                  <span>I'd like to receive samples before placing an order</span>
-                </label>
               </div>
               
               {submitError && (
