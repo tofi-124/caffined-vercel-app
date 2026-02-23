@@ -16,16 +16,78 @@ const HOOKS: ((title: string) => string)[] = [
   (t) => `${t}. Save this for later ☕`,
 ]
 
-const CTAS: string[] = [
-  'Save this for your next sourcing season 📌',
-  'Tag a roaster who needs to see this ☕',
-  'Which origin is in your lineup? Drop it below 👇',
-  'Bookmark this for later 🔖',
-  'What questions do you have? Let us know below 👇',
-  'Share this with your importing team 📤',
-  'Save this and come back when you need it 📌',
-  "What's your experience? Tell us in the comments 💬",
-]
+const CTA_MAP: Record<string, string[]> = {
+  sourcing: [
+    'Save this for your next sourcing season 📌',
+    'Share this with your importing team 📤',
+    'Planning your next order? Bookmark this 🔖',
+  ],
+  comparison: [
+    'Which origin is in your lineup? Drop it below 👇',
+    'Have you tried both? Let us know your pick 👇',
+    'Tag a buyer who sources both origins ☕',
+  ],
+  brewing: [
+    'Try this method and let us know how it went ☕',
+    'Tag someone who needs to level up their brew 👇',
+    'Save this for your next brew session 📌',
+  ],
+  processing: [
+    'Save this for your next quality review 📌',
+    'Share this with your QC team 📤',
+    'Which processing method do you prefer? 👇',
+  ],
+  trade: [
+    'Bookmark this before your next contract negotiation 🔖',
+    'Share this with your sourcing team 📤',
+    'Save this for reference 📌',
+  ],
+  market: [
+    'How is this affecting your buying plan? 👇',
+    'Save this for your next pricing review 📌',
+    'Share this with your trading desk 📤',
+  ],
+  culture: [
+    'Share this with a fellow coffee lover ☕',
+    'Save this for your coffee knowledge library 📌',
+    'Tag someone who appreciates coffee heritage 👇',
+  ],
+  roasting: [
+    'Tag a roaster who needs to see this ☕',
+    'Save this for your next roast profile session 📌',
+    'Which roast level works best for you? 👇',
+  ],
+  sustainability: [
+    'How are you addressing this in your supply chain? 👇',
+    'Save this for your sustainability planning 📌',
+    'Share this with your sourcing partners 📤',
+  ],
+  general: [
+    'Save this for later 📌',
+    'Share this with someone in the coffee trade ☕',
+    'Bookmark this for reference 🔖',
+  ],
+}
+
+function getCategoryKey(category: string): string {
+  const cat = category.toLowerCase()
+  if (cat.includes('comparison') || cat.includes('origin comparison')) return 'comparison'
+  if (cat.includes('brewing') || cat.includes('equipment') || cat.includes('how-to')) return 'brewing'
+  if (cat.includes('roasting') || cat.includes('roaster')) return 'roasting'
+  if (cat.includes('processing') || cat.includes('quality control') || cat.includes('storage')) return 'processing'
+  if (cat.includes('contract') || cat.includes('payment') || cat.includes('trade guidance') || cat.includes('export guide')) return 'trade'
+  if (cat.includes('market') || cat.includes('pricing') || cat.includes('trade data')) return 'market'
+  if (cat.includes('climate') || cat.includes('sustainability') || cat.includes('gender') || cat.includes('social impact')) return 'sustainability'
+  if (cat.includes('culture') || cat.includes('heritage')) return 'culture'
+  if (cat.includes('sourcing') || cat.includes('harvest') || cat.includes('buying') || cat.includes('organic') || cat.includes('certification')) return 'sourcing'
+  return 'general'
+}
+
+function pickCta(category: string, hash: number): string {
+  const key = getCategoryKey(category)
+  const pool = CTA_MAP[key]
+  return pool[hash % pool.length]
+}
 
 function slugHash(slug: string): number {
   let h = 0
@@ -113,7 +175,7 @@ function buildCaption(post: Post) {
 
   const hook = HOOKS[hash % HOOKS.length](post.title)
   const body = buildBody(post.desc)
-  const cta = CTAS[hash % CTAS.length]
+  const cta = pickCta(post.category || '', hash)
   const link = `${SITE}/insights/${slug}`
   const linkLine = `Full guide → ${link}`
   const hashtags = extractHashtags(post.keywords ?? [], post.category || '')
