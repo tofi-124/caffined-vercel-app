@@ -158,5 +158,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'Italian Ambassador H.E. Sem Fabrizi visited the Ethiopian Coffee and Tea Authority, reaffirming Italy\'s commitment to supporting Ethiopia\'s coffee industry through technical and financial cooperation, and toured the Coffee Training Center.',
     source: 'ECTA',
     keywords: 'Italian Ambassador Ethiopia, Italy Ethiopia coffee cooperation, Ethiopian Coffee and Tea Authority, ECTA visit, Coffee Training Center, Ethiopian coffee exporter, Italy coffee support Ethiopia, Ethiopian coffee development',
+  },
+  {
+    slug: 'world-too-hot-for-coffee-price-surge',
+    date: '2026-02-24',
+    title: 'The World Is Becoming Too Hot for Coffee',
+    desc: 'Global warming is making coffee cultivation increasingly difficult — Ethiopian Arabica is especially sensitive to heat. With bean prices nearly doubling since 2023, climate adaptation is critical for the future of coffee exports.',
+    source: 'EcoPolitic / The Guardian',
+    keywords: 'Ethiopian coffee climate change, coffee price surge, global warming coffee, Ethiopian Arabica heat, coffee bean prices 2025, Ethiopian coffee export, climate adaptation coffee, coffee belt temperature, Ethiopian coffee exporter',
   }
 ]
