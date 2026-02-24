@@ -300,6 +300,103 @@ export default function EthiopianCoffeeExporterLayout({
     ]
   }
 
+  // Standalone Product schemas - ensures Google properly associates offers with each Product
+  const productsSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Product",
+        "name": "Yirgacheffe Green Coffee Beans (Grade 1 & 2)",
+        "description": "SCA 84-88+ specialty-grade Yirgacheffe green coffee for export. Floral, citrus, jasmine notes.",
+        "brand": {"@type": "Brand", "name": "Ethio Coffee"},
+        "category": "Green Coffee Beans",
+        "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+        "url": "https://www.ethiocoffee.co/ethiopian-coffee-yirgacheffe",
+        "image": "https://www.ethiocoffee.co/images/ethiopian-coffee-export.webp",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "lowPrice": "4.00",
+          "highPrice": "8.00",
+          "availability": "https://schema.org/InStock",
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Sidamo Green Coffee Beans (Grade 1 & 2)",
+        "description": "SCA 84-87+ specialty-grade Sidamo green coffee for export. Berry, wine-like acidity.",
+        "brand": {"@type": "Brand", "name": "Ethio Coffee"},
+        "category": "Green Coffee Beans",
+        "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+        "url": "https://www.ethiocoffee.co/ethiopian-coffee-sidamo",
+        "image": "https://www.ethiocoffee.co/images/ethiopian-coffee-export.webp",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "lowPrice": "3.50",
+          "highPrice": "7.00",
+          "availability": "https://schema.org/InStock",
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Guji Green Coffee Beans (Grade 1 & 2)",
+        "description": "SCA 85-89+ specialty-grade Guji green coffee for export. Stone fruit, floral, tropical notes.",
+        "brand": {"@type": "Brand", "name": "Ethio Coffee"},
+        "category": "Green Coffee Beans",
+        "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+        "url": "https://www.ethiocoffee.co/ethiopian-coffee-guji",
+        "image": "https://www.ethiocoffee.co/images/ethiopian-coffee-export.webp",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "lowPrice": "4.00",
+          "highPrice": "9.00",
+          "availability": "https://schema.org/InStock",
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Harar Green Coffee Beans (Natural)",
+        "description": "SCA 82-86+ natural-processed Harar green coffee for export. Wild berry, wine, chocolate characteristics.",
+        "brand": {"@type": "Brand", "name": "Ethio Coffee"},
+        "category": "Green Coffee Beans",
+        "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+        "url": "https://www.ethiocoffee.co/ethiopian-coffee-harar",
+        "image": "https://www.ethiocoffee.co/images/ethiopian-coffee-export.webp",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "lowPrice": "3.00",
+          "highPrice": "6.00",
+          "availability": "https://schema.org/InStock",
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "Limu Green Coffee Beans (Washed)",
+        "description": "SCA 82-85+ washed Limu green coffee for export. Balanced, wine and spice notes.",
+        "brand": {"@type": "Brand", "name": "Ethio Coffee"},
+        "category": "Green Coffee Beans",
+        "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+        "url": "https://www.ethiocoffee.co/ethiopian-coffee-limu",
+        "image": "https://www.ethiocoffee.co/images/ethiopian-coffee-export.webp",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "lowPrice": "3.00",
+          "highPrice": "5.50",
+          "availability": "https://schema.org/InStock",
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+        }
+      }
+    ]
+  }
+
   // WebPage schema with breadcrumbs
   const webPageSchema = {
     "@context": "https://schema.org",
@@ -346,6 +443,11 @@ export default function EthiopianCoffeeExporterLayout({
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="products-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productsSchema) }}
       />
       <Script
         id="webpage-schema"
