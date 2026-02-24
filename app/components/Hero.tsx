@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
 
           <p className='mt-4 sm:mt-6 text-primary/90 text-sm sm:text-base leading-relaxed max-w-[60ch]'>
-            We are a producer-partner and exporter based in Ethiopia and Canada. Founded by two brothers, we work across our own coffee production and trusted grower partnerships to export traceable, specialty-grade green coffee from Ethiopia's most renowned regions to importers worldwide.
+            We are a producer-partner and exporter based in Ethiopia. Founded by two brothers in Ethiopia and Canada, we combine our own coffee production with trusted grower partnerships to export traceable, specialty-grade green coffee from Ethiopia's most renowned regions to importers worldwide.
           </p>
 
           <div className='flex flex-row gap-3 mt-6 sm:mt-8 justify-center'>
