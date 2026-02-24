@@ -117,7 +117,15 @@ export default function EthiopianCoffeeExporterLayout({
             "description": "SCA 84-88+ specialty-grade Yirgacheffe green coffee for export. Floral, citrus, jasmine notes.",
             "brand": {"@type": "Brand", "name": "Ethio Coffee"},
             "category": "Green Coffee Beans",
-            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"}
+            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "USD",
+              "lowPrice": "4.00",
+              "highPrice": "8.00",
+              "availability": "https://schema.org/InStock",
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+            }
           }
         },
         {
@@ -129,7 +137,15 @@ export default function EthiopianCoffeeExporterLayout({
             "description": "SCA 84-87+ specialty-grade Sidamo green coffee for export. Berry, wine-like acidity.",
             "brand": {"@type": "Brand", "name": "Ethio Coffee"},
             "category": "Green Coffee Beans",
-            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"}
+            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "USD",
+              "lowPrice": "3.50",
+              "highPrice": "7.00",
+              "availability": "https://schema.org/InStock",
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+            }
           }
         },
         {
@@ -141,7 +157,15 @@ export default function EthiopianCoffeeExporterLayout({
             "description": "SCA 85-89+ specialty-grade Guji green coffee for export. Stone fruit, floral, tropical notes.",
             "brand": {"@type": "Brand", "name": "Ethio Coffee"},
             "category": "Green Coffee Beans",
-            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"}
+            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "USD",
+              "lowPrice": "4.00",
+              "highPrice": "9.00",
+              "availability": "https://schema.org/InStock",
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+            }
           }
         },
         {
@@ -153,7 +177,15 @@ export default function EthiopianCoffeeExporterLayout({
             "description": "SCA 82-86+ natural-processed Harar green coffee for export. Wild berry, wine, chocolate characteristics.",
             "brand": {"@type": "Brand", "name": "Ethio Coffee"},
             "category": "Green Coffee Beans",
-            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"}
+            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "USD",
+              "lowPrice": "3.00",
+              "highPrice": "6.00",
+              "availability": "https://schema.org/InStock",
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+            }
           }
         },
         {
@@ -165,7 +197,15 @@ export default function EthiopianCoffeeExporterLayout({
             "description": "SCA 82-85+ washed Limu green coffee for export. Balanced, wine and spice notes.",
             "brand": {"@type": "Brand", "name": "Ethio Coffee"},
             "category": "Green Coffee Beans",
-            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"}
+            "countryOfOrigin": {"@type": "Country", "name": "Ethiopia"},
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "USD",
+              "lowPrice": "3.00",
+              "highPrice": "5.50",
+              "availability": "https://schema.org/InStock",
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+            }
           }
         }
       ]

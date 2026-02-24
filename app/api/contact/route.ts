@@ -21,7 +21,6 @@ export async function POST(request: NextRequest) {
       businessType,
       referralSource,
       message,
-      requestSamples,
       productName,
       orderDate,
       _subject
@@ -69,7 +68,6 @@ export async function POST(request: NextRequest) {
         <p><strong>Country:</strong> ${country || 'N/A'}</p>
         <p><strong>Business Type:</strong> ${businessType || 'N/A'}</p>
         <p><strong>How did they hear about us:</strong> ${referralSource || 'N/A'}</p>
-        <p><strong>Requesting Samples:</strong> ${requestSamples ? 'Yes' : 'No'}</p>
         <hr />
         <h3>Message</h3>
         <p>${message || 'No message provided'}</p>
