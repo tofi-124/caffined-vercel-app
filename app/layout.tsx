@@ -5,6 +5,7 @@ import Navbar from './lib/Navbar'
 import Footer from './lib/Footer'
 import Script from 'next/script'
 import ScrollToTop from './components/ScrollToTop'
+import WhatsAppWidget from './components/WhatsAppWidget'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -185,6 +186,7 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <WhatsAppWidget />
         <Analytics />
         <SpeedInsights />
       </body>

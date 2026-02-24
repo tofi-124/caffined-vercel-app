@@ -146,10 +146,7 @@ const WholesaleInquiryPage = () => {
                   <span className='text-accent font-bold'>✓</span>
                   <span><strong>Export-Ready Quality:</strong> Rigorous QC protocols ensuring sample-to-bag consistency</span>
                 </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Free Sample Program:</strong> Evaluate quality before committing to orders</span>
-                </li>
+
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
                   <span><strong>Clear Communication:</strong> One brother in Ethiopia, one Ethiopian-Canadian - bridging origin and international markets</span>
