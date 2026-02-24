@@ -186,6 +186,10 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
         <li className='my-2'><span className='font-bold'>You want the highest-scoring lots for competitions:</span> Guji micro-lots</li>
       </ul>
 
+      <p className='my-4'>
+        Buyers interested in micro-lot sourcing from any of these three origins should read our <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='underline font-bold'>micro-lot Ethiopian coffee sourcing guide</Link>, which covers pricing, minimum orders, and step-by-step sourcing from origin.
+      </p>
+
       <h3 className='text-2xl font-extrabold mt-8'>
         Can You Offer All Three?
       </h3>

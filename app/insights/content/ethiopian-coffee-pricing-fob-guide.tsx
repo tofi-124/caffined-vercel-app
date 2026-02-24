@@ -179,7 +179,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-2'>5. Cup Score</h4>
           <p className='text-sm'>
-            Lots scoring 85+ on the SCA protocol can command premiums well above standard Grade 1 pricing. Exceptional lots scoring 87 to 90+ enter the micro-lot or competition-lot category, where pricing often detaches from the C-market entirely and is negotiated as a flat rate. These lots represent some of the <Link href='/insights/most-expensive-coffee-in-the-world' className='underline font-semibold'>most expensive coffee in the world</Link>.
+            Lots scoring 85+ on the SCA protocol can command premiums well above standard Grade 1 pricing. Exceptional lots scoring 87 to 90+ enter the micro-lot or competition-lot category, where pricing often detaches from the C-market entirely and is negotiated as a flat rate. These lots represent some of the <Link href='/insights/most-expensive-coffee-in-the-world' className='underline font-semibold'>most expensive coffee in the world</Link>. For a detailed breakdown of micro-lot pricing tiers and how to source these premium lots, see our <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='underline font-semibold'>micro-lot Ethiopian coffee sourcing guide</Link>.
           </p>
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>

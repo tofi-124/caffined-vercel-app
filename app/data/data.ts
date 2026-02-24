@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== MICRO-LOT ETHIOPIAN COFFEE SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/micro-lot-ethiopian-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/micro-lot-ethiopian-coffee-sourcing-guide.webp',
+      date: 'Feb 23, 2026',
+      title: 'Micro-Lot Ethiopian Coffee: Sourcing & Pricing Guide',
+      slug: 'micro-lot-ethiopian-coffee-sourcing-guide',
+      category: 'Specialty Coffee / Micro-Lot Sourcing / Green Coffee Buying / Importer Resources',
+      keywords: [
+        'micro lot Ethiopian coffee',
+        'Ethiopian microlot sourcing guide',
+        'single farm Ethiopian coffee beans',
+        'Ethiopian specialty micro lot pricing',
+        'micro lot green coffee buying',
+        'micro lot coffee definition',
+        'micro lot vs single origin coffee',
+        'Ethiopian micro lot FOB price',
+        'how to source micro lot coffee Ethiopia',
+        'best Ethiopian origins for micro lots',
+        'Yirgacheffe micro lot coffee',
+        'Guji micro lot coffee',
+        'Sidamo micro lot coffee',
+        'nano lot Ethiopian coffee',
+        'Ethiopian coffee auction lots',
+        'specialty coffee small lot sourcing',
+        'micro lot traceability Ethiopian coffee',
+        'Ethiopian washing station micro lots',
+        'direct trade micro lot buying',
+        'micro lot cupping score requirements'
+      ],
+      desc: 'What micro-lot Ethiopian coffee is, how it differs from standard specialty, which origins produce the best lots, FOB pricing benchmarks ($9–$13+/kg), step-by-step sourcing from an exporter perspective, quality evaluation, logistics, and FAQs for importers and roasters.'
+    },
     // ===== ETHIOPIAN COFFEE TRACEABILITY GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-traceability-guide.webp',
