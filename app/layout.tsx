@@ -5,6 +5,7 @@ import Navbar from './lib/Navbar'
 import Footer from './lib/Footer'
 import Script from 'next/script'
 import ScrollToTop from './components/ScrollToTop'
+import ContactFAB from './components/WhatsAppButton'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -180,6 +181,7 @@ export default function RootLayout({
         />
         {/* BreadcrumbList Schema - removed: breadcrumbs should be hierarchical per-page, not flat site-wide */}
         <ScrollToTop />
+        <ContactFAB />
         <Navbar />
         <div className="min-h-screen">
           {children}

@@ -115,7 +115,7 @@ const WholesaleInquiryPage = () => {
     <main className='bg-primary'>
       <header className='bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative'>
         <div className='absolute inset-0 bg-black/40'></div>
-        <h1 className='text-4xl md:text-5xl font-bold text-primary relative z-10 tracking-wide text-center px-4'>Request Ethiopian Coffee Samples</h1>
+        <h1 className='text-4xl md:text-5xl font-bold text-primary relative z-10 tracking-wide text-center px-4'>Contact Ethio Coffee</h1>
         <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>Direct from Ethiopia to importers worldwide. Start your partnership today.</p>
       </header>
       
@@ -123,7 +123,7 @@ const WholesaleInquiryPage = () => {
         <div className='flex max-lg:flex-col items-center justify-center gap-12 mb-16'>
           <div className='lg:w-1/2'>
             <h2 className='text-4xl md:text-5xl font-extrabold leading-tight text-dark mb-6'>
-              PREMIUM ETHIOPIAN COFFEE FOR IMPORTERS WORLDWIDE
+              SPECIALTY ETHIOPIAN COFFEE FOR IMPORTERS WORLDWIDE
             </h2>
             <p className='mb-4 text-gray-700'>
               Ethio Coffee Export PLC is a dedicated Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local knowledge with international business experience.

@@ -42,6 +42,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./italy-ambassador-coffee-tea-authority-visit').then(mod => mod.default),
     'world-too-hot-for-coffee-price-surge': () =>
       import('./world-too-hot-for-coffee-price-surge').then(mod => mod.default),
+    'ecta-yayu-coffee-biosphere-training': () =>
+      import('./ecta-yayu-coffee-biosphere-training').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

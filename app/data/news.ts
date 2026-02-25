@@ -167,4 +167,13 @@ export const newsArticles: NewsArticle[] = [
     source: 'EcoPolitic / The Guardian',
     keywords: 'Ethiopian coffee climate change, coffee price surge, global warming coffee, Ethiopian Arabica heat, coffee bean prices 2025, Ethiopian coffee export, climate adaptation coffee, coffee belt temperature, Ethiopian coffee exporter',
   }
+  ,
+  {
+    slug: 'ecta-yayu-coffee-biosphere-training',
+    date: '2026-02-24',
+    title: 'ECTA Launches Intensive Training to Secure the Future of the Yayu Coffee Biosphere',
+    desc: 'ECTA launched a three-day intensive training (Feb 24–26, 2026) in Mettu and Yayu to strengthen forest coffee management, improve quality and marketability, and support sustainable production in the Yayu Coffee Forest Biosphere Reserve.',
+    source: 'ECTA',
+    keywords: 'Yayu Coffee Forest Biosphere Reserve, ECTA training, forest coffee management Ethiopia, EU-Yayu-DeSIRA, Mettu Coffee Laboratory, integrated landscape management, Ethiopian coffee quality, sustainable coffee Ethiopia',
+  }
 ]
