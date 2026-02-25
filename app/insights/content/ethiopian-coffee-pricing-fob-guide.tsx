@@ -372,7 +372,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       </div>
 
       <p className='my-4'>
-        As a rule of thumb, you can expect total landed cost to add roughly $0.30 to $0.80 per kilogram on top of the FOB price, depending on your destination and volume. A container of Grade 2 Yirgacheffe purchased at $8.00/kg FOB may land at approximately $8.50 to $8.80/kg at your warehouse.
+        As a rule of thumb, you can expect total landed cost to add roughly $0.30 to $0.80 per kilogram on top of the FOB price, depending on your destination and volume. A container of Grade 2 Yirgacheffe purchased at $8.00/kg FOB may land at approximately $8.50 to $8.80/kg at your warehouse. For a complete breakdown of every cost component from FOB Djibouti to your warehouse door, see our <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Ethiopian coffee landed cost guide</Link>.
       </p>
 
       {/* ====== SECTION 7: CONTRACT TYPES ====== */}

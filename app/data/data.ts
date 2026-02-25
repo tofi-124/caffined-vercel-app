@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE LANDED COST GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-landed-cost-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-landed-cost-guide.webp',
+      date: 'Feb 25, 2026',
+      title: 'Ethiopian Coffee Landed Cost: Import Cost Guide',
+      slug: 'ethiopian-coffee-landed-cost-guide',
+      category: 'Trade Guidance / Pricing / Import Costs / Importer Resources',
+      keywords: [
+        'Ethiopian coffee landed cost',
+        'green coffee import cost calculation',
+        'cost to import Ethiopian coffee',
+        'Ethiopian coffee price per kg delivered',
+        'coffee import total cost breakdown',
+        'how much does it cost to import Ethiopian coffee',
+        'Ethiopian coffee FOB to warehouse cost',
+        'green coffee shipping cost from Djibouti',
+        'Ethiopian coffee import duty rate',
+        'calculate landed cost green coffee',
+        'hidden costs importing coffee',
+        'green coffee freight cost per container',
+        'Ethiopian coffee customs clearance cost',
+        'Ethiopian coffee financing cost',
+        'FCL vs LCL green coffee shipping',
+        'coffee import insurance cost',
+        'coffee landed cost formula',
+        'Ethiopian coffee total delivered cost',
+        'green coffee warehousing cost',
+        'Djibouti port coffee shipping rates'
+      ],
+      desc: 'How to calculate the true landed cost of Ethiopian green coffee. Step-by-step breakdown of FOB, freight, insurance, customs duties, port handling, warehousing, and hidden costs. Includes worked examples, FCL vs LCL comparison, and cost-reduction strategies for importers and roasters.'
+    },
     // ===== MICRO-LOT ETHIOPIAN COFFEE SOURCING GUIDE =====
     {
       small_image_url: 'insights/micro-lot-ethiopian-coffee-sourcing-guide.webp',

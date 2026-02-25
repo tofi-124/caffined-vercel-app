@@ -392,7 +392,7 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
         </h3>
 
         <p className='my-4 text-gray-700'>
-          The work doesn't end at the destination port. A professional importer follows a multi-step protocol to ensure the <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>origin's quality</Link> was preserved.
+          The work doesn't end at the destination port. A professional importer follows a multi-step protocol to ensure the <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>origin's quality</Link> was preserved. Port handling, customs brokerage, and warehousing fees also contribute to your total import cost; see our <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian coffee landed cost guide</Link> for a detailed breakdown.
         </p>
 
         <div className='bg-amber-50 p-8 rounded-xl my-6 border border-amber-200'>

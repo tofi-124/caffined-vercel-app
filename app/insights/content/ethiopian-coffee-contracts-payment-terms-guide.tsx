@@ -824,7 +824,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
         </div>
         <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
           <h5 className='font-bold mb-2 text-red-800'>5. Underestimating Total Landed Cost</h5>
-          <p className='text-sm'>FOB price is only part of your cost. Add ocean freight ($2,500-$6,000 per container depending on route), marine insurance (0.25-0.5% of cargo value), import duties (varies by country), port handling charges, customs brokerage fees, and inland transport. A $5.00/kg FOB coffee might cost $6.50-$7.50/kg landed. For detailed pricing guidance, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 underline font-semibold'>Ethiopian coffee FOB pricing guide</Link>.</p>
+          <p className='text-sm'>FOB price is only part of your cost. Add ocean freight ($2,500-$6,000 per container depending on route), marine insurance (0.25-0.5% of cargo value), import duties (varies by country), port handling charges, customs brokerage fees, and inland transport. A $5.00/kg FOB coffee might cost $6.50-$7.50/kg landed. For detailed pricing guidance, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 underline font-semibold'>Ethiopian coffee FOB pricing guide</Link>. For a full worked example with every line item, see our <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 underline font-semibold'>complete landed cost guide</Link>.</p>
         </div>
       </div>
 
