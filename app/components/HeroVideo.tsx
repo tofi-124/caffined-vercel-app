@@ -81,21 +81,24 @@ const HeroVideo = () => {
     return () => document.removeEventListener('visibilitychange', handleVisibility)
   }, [attemptPlay])
 
-  // iOS Safari fallback: any user interaction triggers play
+  // iOS Safari fallback: user interaction within the hero triggers play
+  // Scoped to the container so taps on nav/cart/menu aren't swallowed
   useEffect(() => {
     if (isPlaying) return
+    const container = videoRef.current?.parentElement
+    if (!container) return
 
     const handleInteraction = () => {
       attemptPlay()
     }
 
-    document.addEventListener('touchstart', handleInteraction, { once: true, passive: true })
-    document.addEventListener('click', handleInteraction, { once: true })
+    container.addEventListener('touchstart', handleInteraction, { once: true, passive: true })
+    container.addEventListener('click', handleInteraction, { once: true })
     document.addEventListener('scroll', handleInteraction, { once: true, passive: true })
 
     return () => {
-      document.removeEventListener('touchstart', handleInteraction)
-      document.removeEventListener('click', handleInteraction)
+      container.removeEventListener('touchstart', handleInteraction)
+      container.removeEventListener('click', handleInteraction)
       document.removeEventListener('scroll', handleInteraction)
     }
   }, [attemptPlay, isPlaying])
