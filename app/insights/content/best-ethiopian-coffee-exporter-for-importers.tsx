@@ -55,14 +55,14 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
         Who We Are: Ethiopian Coffee Exporters with a Family Legacy
       </h3>
       <p className='my-4'>
-        Our father spent over 30 years working in Ethiopia&apos;s coffee regions - not just trading, but learning how coffee is
-        grown, processed, and cared for at every step. He built relationships with farming communities, invested in his own
-        estate, and operated locally within Ethiopia for decades.
+        Our family has spent over 30 years working in Ethiopia&apos;s coffee regions - not just trading, but learning how coffee is
+        grown, processed, and cared for at every step. That heritage built deep relationships with farming communities and
+        cooperatives across the country.
       </p>
       <p className='my-4'>
         In 2022, we established <span className='font-bold'>Ethio Coffee Export PLC</span>,
         registered with the Ethiopian Commodity Exchange, to bring our relationship-driven approach to importers worldwide.
-        Today, we source from our own estates and a network of trusted partner growers across Ethiopia&apos;s celebrated coffee regions.
+        Today, we source from a network of trusted cooperatives, washing stations, and farming communities across Ethiopia&apos;s celebrated coffee regions.
       </p>
       <p className='my-4'>
         With one brother on the ground in Ethiopia and one Ethiopian-Canadian handling international relationships, we bridge
@@ -99,7 +99,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
       </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
         <li className='my-2'><span className='font-bold'>Full Traceability:</span> Know exactly which region, washing station, and (where possible) cooperative your coffee comes from.</li>
-        <li className='my-2'><span className='font-bold'>Direct Sourcing:</span> We work directly with farmers and our own estates - no middlemen inflating prices.</li>
+        <li className='my-2'><span className='font-bold'>Direct Sourcing:</span> We work directly with cooperatives, washing stations, and farming communities - no middlemen inflating prices.</li>
         <li className='my-2'><span className='font-bold'>Competitive Pricing:</span> Because we control the supply chain from farm to export, we offer fair pricing without sacrificing farmer compensation.</li>
         <li className='my-2'><span className='font-bold'>Sample Before You Buy:</span> Request samples from current lots before committing to a container.</li>
         <li className='my-2'><span className='font-bold'>Flexible Shipping:</span> FOB Djibouti or Addis dry port - we work with your freight forwarder or can recommend trusted logistics partners.</li>

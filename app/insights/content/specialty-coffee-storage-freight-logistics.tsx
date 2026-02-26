@@ -478,7 +478,7 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
         </h3>
 
         <p className='mb-8 text-lg text-gray-300 leading-relaxed'>
-          Sea freight shouldn't be a gamble. At Ethio Coffee Export, we treat logistics as an extension of our farming. By applying rigorous science-using hermetic liners, thermal barriers, and strategic stowage-we ensure that the 90+ point aromatics you cup at origin are the ones you roast at home.
+          Sea freight shouldn't be a gamble. At Ethio Coffee Export, we treat logistics as an extension of our sourcing. By applying rigorous science-using hermetic liners, thermal barriers, and strategic stowage-we ensure that the 90+ point aromatics you cup at origin are the ones you roast at home.
         </p>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 text-sm mb-8 font-medium'>

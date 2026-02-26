@@ -129,18 +129,18 @@ const WholesaleInquiryPage = () => {
               Ethio Coffee Export PLC is a dedicated Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local knowledge with international business experience.
             </p>
             <p className='mb-4 text-gray-700'>
-              We're based in Addis Ababa, Ethiopia, exporting directly to importers around the globe. Our coffee comes from our own estates and trusted partner producers across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa - all fully traceable back to the source.
+              We're based in Addis Ababa, Ethiopia, exporting directly to importers around the globe. Our coffee comes from trusted cooperatives, washing stations, and farming communities across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa - all fully traceable back to the source.
             </p>
             <div className='mt-8'>
               <h3 className='text-2xl font-bold mb-4'>Why Partner With Us:</h3>
               <ul className='space-y-3'>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Direct from Origin:</strong> Full oversight from family estates to your port of destination</span>
+                  <span><strong>Direct from Origin:</strong> Full oversight from sourcing at origin to your port of destination</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Traceable Heritage:</strong> Authentic heirloom varietals with farm-gate transparency</span>
+                  <span><strong>Traceable Heritage:</strong> Authentic heirloom varietals with origin-level transparency</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>

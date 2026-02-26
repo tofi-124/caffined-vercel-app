@@ -183,7 +183,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
         </p>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {[
-            { step: '01', title: 'Sourcing & Cupping', desc: 'We source from our family estates and vetted partner farms across Yirgacheffe, Sidamo, Guji, Harar, Limu, and Lekempti. Every lot is cupped on SCA protocol by certified Q-graders.' },
+            { step: '01', title: 'Sourcing & Cupping', desc: 'We source from vetted cooperatives, washing stations, and farming communities across Yirgacheffe, Sidamo, Guji, Harar, Limu, and Lekempti. Every lot is cupped on SCA protocol by certified Q-graders.' },
             { step: '02', title: 'Processing & Preparation', desc: 'Green beans are processed (washed, natural, or honey), hulled, sorted, and graded per Ethiopian Commodity Exchange (ECX) and International Coffee Organization (ICO) standards. Defect count verified.' },
             { step: '03', title: 'Packaging & Storage', desc: 'Packed in 60kg jute bags with GrainPro hermetic liners. Stored in climate-controlled warehouses in Addis Ababa until shipping. Moisture and water activity monitored.' },
             { step: '04', title: 'Shipping FOB Djibouti', desc: 'Full export documentation (ICO certificate, phytosanitary, certificate of origin, cupping report) prepared. Shipped via Djibouti port FOB for ocean freight or FCA (Free Carrier) for air freight.' },

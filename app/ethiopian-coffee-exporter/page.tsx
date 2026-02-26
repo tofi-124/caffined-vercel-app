@@ -66,7 +66,7 @@ const exportServices = [
   {
     icon: <GiCoffeeBeans className="w-8 h-8" />,
     title: 'Direct Origin Sourcing',
-    description: 'We source Ethiopian green coffee directly from our own family estates and vetted partner farms across all major origins. Every lot is hand-selected and cupped to meet SCA 80+ specialty standards.',
+    description: 'We source Ethiopian green coffee from vetted cooperatives, washing stations, and farming communities across all major origins. Every lot is hand-selected and cupped to meet SCA 80+ specialty standards.',
   },
   {
     icon: <HiOutlineBeaker className="w-8 h-8" />,
@@ -115,7 +115,7 @@ const exportStats = [
 const whyChooseUs = [
   {
     title: 'Family-Owned, Origin-Based Ethiopian Exporter',
-    description: 'Unlike trading companies or brokers, we are an Ethiopian family-owned export business based at origin. Our father spent 30+ years building relationships with farming communities across Ethiopia, relationships we maintain to this day.',
+    description: 'Unlike trading companies or brokers, we are an Ethiopian family-owned export business based at origin. Three decades of sourcing heritage across Ethiopia\'s coffee regions give us direct access to the best lots and the trusted relationships that make consistent quality possible.',
   },
   {
     title: 'Dual Presence: Ethiopia + International',
@@ -217,9 +217,9 @@ const EthiopianCoffeeExporter = () => {
                 with the communication standards and professionalism that international buyers expect.
               </p>
               <p>
-                Our story starts with our father, who spent over three decades traveling across Ethiopia's coffee 
-                regions (Yirgacheffe, Sidamo, Guji, Harar, Limu, and beyond). He built deep relationships with farming 
-                communities, invested in his own coffee farm, and developed an intimate knowledge of what makes 
+                Our story starts with three decades of family involvement in Ethiopia's coffee trade, 
+                traveling across the country's coffee regions (Yirgacheffe, Sidamo, Guji, Harar, Limu, and beyond). 
+                That heritage built deep relationships with farming communities and an intimate knowledge of what makes 
                 Ethiopian coffee exceptional: from cherry selection to drying methods to the subtle quality differences 
                 between microclimates and processing stations.
               </p>
@@ -333,7 +333,7 @@ const EthiopianCoffeeExporter = () => {
               <p>
                 At <strong>Ethio Coffee Export PLC</strong>, we handle all of these responsibilities in-house, giving 
                 you a single point of contact from origin to your warehouse. As a <strong>vertically integrated Ethiopian 
-                coffee exporter</strong>, we control quality at every step, which means fewer surprises and more 
+                coffee exporter</strong>, we oversee quality at every step, which means fewer surprises and more 
                 consistent coffee shipment after shipment.
               </p>
             </div>

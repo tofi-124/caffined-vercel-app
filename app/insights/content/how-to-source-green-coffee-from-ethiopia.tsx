@@ -154,7 +154,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         At Ethio Coffee Export PLC, we make sourcing Ethiopian green coffee straightforward for importers worldwide:
       </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
-        <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from our own estates and trusted partner producers across Ethiopia&apos;s top growing regions.</li>
+        <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from trusted cooperatives, washing stations, and farming communities across Ethiopia&apos;s top growing regions.</li>
         <li className='my-2'><span className='font-bold'>Complete Traceability:</span> Every lot comes with origin details, processing information, and quality documentation.</li>
         <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples before committing to a purchase.</li>
         <li className='my-2'><span className='font-bold'>Professional Export Service:</span> Complete documentation, flexible shipping terms (FOB Djibouti or Addis dry port), and coordination with your freight forwarder.</li>

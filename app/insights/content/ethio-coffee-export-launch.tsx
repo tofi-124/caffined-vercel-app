@@ -64,11 +64,11 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
         The Story Behind Ethio Coffee
       </h3>
       <p className='my-4'>
-        Our roots run deep in Ethiopian coffee. Our father spent over 30 years traveling across Ethiopia&apos;s coffee regions. He wasn&apos;t just buying coffee; he was learning how it&apos;s grown, processed, and cared for at every step. He built relationships with farmers, invested in his own farm, and worked to ensure that the people doing the hardest work received fair value for their exceptional coffee. For decades, he operated locally within Ethiopia, supplying domestic buyers and building a reputation for quality and integrity.
+        Our roots run deep in Ethiopian coffee. Our family has spent over 30 years working across Ethiopia&apos;s coffee regions. That meant learning how coffee is grown, processed, and cared for at every step. Building relationships with farmers, cooperatives, and washing stations. Working to ensure that the people doing the hardest work received fair value for their exceptional coffee. For decades, that knowledge and those relationships operated locally within Ethiopia, supplying domestic buyers and building a reputation for quality and integrity.
       </p>
 
       <p className='my-4'>
-        In 2022, we decided it was time to share this legacy with the world. We established <span className='font-bold'>Ethio Coffee Export PLC</span>, registered with the Ethiopian Commodity Exchange, to bring our father&apos;s relationship-driven approach to the international market. Today, we source from our own estates and a network of trusted partner growers across Ethiopia&apos;s most celebrated coffee regions.
+        In 2022, we decided it was time to share this legacy with the world. We established <span className='font-bold'>Ethio Coffee Export PLC</span>, registered with the Ethiopian Commodity Exchange, to bring that relationship-driven approach to the international market. Today, we source from a network of trusted cooperatives, washing stations, and farming communities across Ethiopia&apos;s most celebrated coffee regions.
       </p>
 
       <p className='my-4'>
@@ -175,7 +175,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       </p>
 
       <p className='my-4'>
-        We pay speciality prices to our farming partners, maintain long-term relationships that provide stability, and ensure that the communities growing this exceptional coffee share in the value it creates. It&apos;s the approach our father built over three decades, and it&apos;s how we continue to operate today.
+        We pay speciality prices to the farming communities we work with, maintain long-term relationships that provide stability, and ensure that the communities growing this exceptional coffee share in the value it creates. It&apos;s the approach built over three decades of trust, and it&apos;s how we continue to operate today.
       </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
