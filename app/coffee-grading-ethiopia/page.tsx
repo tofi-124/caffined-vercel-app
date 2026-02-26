@@ -92,7 +92,7 @@ export default function CoffeeGradingPage() {
 
       {/* Hero */}
       <section id='grading-hero' className='bg-dark text-primary py-20 lg:py-28'>
-        <div className='container mx-auto px-4 max-w-4xl text-center'>
+        <div className='max-w-4xl mx-auto px-6 text-center'>
           <p className='text-accent uppercase tracking-widest text-sm font-bold mb-4'>
             Understanding Ethiopian Coffee Quality
           </p>
@@ -113,7 +113,8 @@ export default function CoffeeGradingPage() {
       </section>
 
       {/* Grade Overview Table */}
-      <section className='container mx-auto px-4 py-16 lg:py-24'>
+      <section className='py-16 lg:py-24'>
+        <div className='max-w-6xl mx-auto px-6'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>Ethiopian Coffee Grades at a Glance</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
           Ethiopian green coffee is graded from Grade 1 (highest specialty) to Grade 5 (commercial). 
@@ -121,7 +122,7 @@ export default function CoffeeGradingPage() {
         </p>
         <div className='space-y-6'>
           {gradingTable.map((grade) => (
-            <article key={grade.grade} className='bg-white rounded-2xl p-6 lg:p-8 shadow-sm border border-dark/5'>
+            <article key={grade.grade} className='bg-primary rounded-2xl p-6 lg:p-8 border border-dark/5'>
               <div className='flex flex-col lg:flex-row gap-6'>
                 <div className='lg:w-1/4'>
                   <div className='flex items-center gap-3 mb-2'>
@@ -152,11 +153,12 @@ export default function CoffeeGradingPage() {
             </article>
           ))}
         </div>
+        </div>
       </section>
 
       {/* How Grading Works */}
       <section className='bg-dark text-primary py-16 lg:py-24'>
-        <div className='container mx-auto px-4'>
+          <div className='max-w-6xl mx-auto px-6'>
           <h2 className='text-4xl font-extrabold mb-4 text-center'>How Ethiopian Coffee Grading Works</h2>
           <p className='text-primary/70 text-center max-w-3xl mx-auto mb-12'>
             Ethiopian coffee grading follows a standardized process administered through the <a href='https://www.ecx.com.et/' target='_blank' rel='noopener noreferrer' className='text-accent hover:underline'>Ethiopian Commodity Exchange (ECX)</a> 
@@ -175,7 +177,8 @@ export default function CoffeeGradingPage() {
       </section>
 
       {/* Defect Types */}
-      <section className='container mx-auto px-4 py-16 lg:py-24'>
+      <section className='py-16 lg:py-24'>
+        <div className='max-w-6xl mx-auto px-6'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>Common Coffee Defects & Their Impact</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
           Defects are classified as Category 1 (primary - severe) or Category 2 (secondary - minor). 
@@ -203,11 +206,12 @@ export default function CoffeeGradingPage() {
             </tbody>
           </table>
         </div>
+        </div>
       </section>
 
       {/* SCA Cupping Section */}
-      <section className='bg-white py-16 lg:py-24'>
-        <div className='container mx-auto px-4'>
+      <section className='bg-accent/5 border-y border-accent/10 py-16 lg:py-24'>
+        <div className='max-w-6xl mx-auto px-6'>
           <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>SCA Cupping Score: The Other Half of the Grade</h2>
           <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
             Physical defect count tells you about the green bean quality. The SCA cupping score tells you about the cup quality. 
@@ -252,7 +256,8 @@ export default function CoffeeGradingPage() {
       </section>
 
       {/* Grade by Origin */}
-      <section className='container mx-auto px-4 py-16 lg:py-24'>
+      <section className='py-16 lg:py-24'>
+        <div className='max-w-6xl mx-auto px-6'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>Which Grades Are Available by Origin?</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
           Different Ethiopian origins tend to produce different grades based on their growing conditions, 
@@ -267,7 +272,7 @@ export default function CoffeeGradingPage() {
             { origin: 'Limu', grades: 'G2, G3', typical: 'G2 Washed', score: '82-85+', link: '/ethiopian-coffee-limu' },
             { origin: 'Lekempti', grades: 'G2, G3', typical: 'G2 Washed', score: '82-85+', link: '/product/lekempti' },
           ].map((item) => (
-            <Link key={item.origin} href={item.link} className='bg-white rounded-2xl p-6 shadow-sm border border-dark/5 hover:shadow-md transition-all'>
+            <Link key={item.origin} href={item.link} className='bg-primary rounded-2xl p-6 border border-dark/10 hover:shadow-md transition-all'>
               <h3 className='text-xl font-extrabold text-accent mb-2'>{item.origin}</h3>
               <div className='space-y-1 text-sm'>
                 <p><span className='text-dark/50'>Available Grades:</span> <span className='font-bold text-dark'>{item.grades}</span></p>
@@ -278,13 +283,14 @@ export default function CoffeeGradingPage() {
             </Link>
           ))}
         </div>
+        </div>
       </section>
 
       {/* FAQ */}
-      <section className='bg-white py-16 lg:py-24'>
-        <div className='container mx-auto px-4'>
-          <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>Ethiopian Coffee Grading: FAQ</h2>
-          <div className='max-w-3xl mx-auto space-y-8'>
+      <section className='bg-dark text-primary py-16 lg:py-24'>
+        <div className='max-w-4xl mx-auto px-6'>
+          <h2 className='text-4xl font-extrabold mb-12 text-center'>Ethiopian Coffee Grading: FAQ</h2>
+          <div className='space-y-6'>
             {[
               { q: 'How is Ethiopian coffee graded?', a: 'Ethiopian coffee is graded from Grade 1 (highest quality) to Grade 5 (lowest export grade) based on two factors: physical defect count per 300g green sample and cup quality score using SCA cupping protocol. The grading is overseen by the Ethiopian Commodity Exchange (ECX) and Ethiopian Coffee and Tea Authority (ECTA). Specialty-grade coffee (Grade 1-2) requires SCA 80+ cup scores and minimal defects.' },
               { q: 'What is the difference between Grade 1 and Grade 2 Ethiopian coffee?', a: 'Grade 1 allows 0-3 defects per 300g sample with SCA 85+ cup scores, while Grade 2 allows 4-12 defects with SCA 80-84 scores. Both are considered specialty quality. Grade 1 exhibits exceptional cup clarity and complexity, commanding 10-20% higher prices. Grade 2 is the most commonly exported specialty grade and still delivers excellent single-origin character.' },
@@ -292,9 +298,9 @@ export default function CoffeeGradingPage() {
               { q: 'Does the grade affect the price?', a: 'Yes, significantly. Grade 1 commands $10-$13+/kg FOB, Grade 2 ranges $9-$11/kg, Grade 3 is $7-$9/kg, and commercial grades (4-5) trade at $3-$7/kg. Within each grade, price varies further by origin (Guji and Yirgacheffe carry premiums), processing method, and seasonal supply-demand dynamics.' },
               { q: 'Who does the grading?', a: 'Coffee grading in Ethiopia is administered by the Ethiopian Commodity Exchange (ECX) warehouse system and the Ethiopian Coffee and Tea Authority (ECTA). Licensed exporters may also perform in-house grading that aligns with ECX standards. For specialty lots, independent Q-graders often provide additional cupping verification.' },
             ].map((item, i) => (
-              <article key={i} className='border-b border-dark/10 pb-6'>
-                <h3 className='text-lg font-bold text-dark mb-3'>{item.q}</h3>
-                <p className='text-dark/70 leading-relaxed'>{item.a}</p>
+              <article key={i} className='border-b border-primary/10 pb-6'>
+                <h3 className='text-lg font-bold text-primary mb-2'>{item.q}</h3>
+                <p className='text-primary/70 leading-relaxed'>{item.a}</p>
               </article>
             ))}
           </div>
@@ -303,7 +309,7 @@ export default function CoffeeGradingPage() {
 
       {/* CTA */}
       <section className='bg-accent text-white py-16'>
-        <div className='container mx-auto px-4 text-center'>
+        <div className='max-w-3xl mx-auto px-6 text-center'>
           <h2 className='text-3xl lg:text-4xl font-extrabold mb-4'>Source Graded Ethiopian Coffee Direct from Exporter</h2>
           <p className='text-white/80 max-w-2xl mx-auto mb-8'>
             We export Grade 1-2 specialty and Grade 3-5 commercial Ethiopian coffee with full cupping reports, 

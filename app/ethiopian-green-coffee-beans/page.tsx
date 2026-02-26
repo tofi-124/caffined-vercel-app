@@ -84,40 +84,37 @@ export default function EthiopianGreenCoffeeBeansPage() {
 
       {/* Hero */}
       <section id='green-beans-hero' className='bg-dark text-primary py-20 lg:py-28'>
-        <div className='container mx-auto px-4'>
-          <div className='flex flex-col lg:flex-row items-center gap-12'>
-            <div className='lg:w-1/2'>
-              <p className='text-accent uppercase tracking-widest text-sm font-bold mb-4'>
-                Direct from Ethiopia&apos;s Highlands
-              </p>
-              <h1 className='text-5xl lg:text-6xl font-extrabold leading-tight mb-6'>
-                Ethiopian Green Coffee Beans
-              </h1>
-              <p className='text-xl text-primary/90 mb-6'>
-                <strong>Ethiopian green coffee beans</strong> are the world&apos;s most sought-after unroasted Arabica - prized by specialty roasters for their 
-                extraordinary floral, fruity, and wine-like complexity. As a <strong>licensed Ethiopian coffee exporter</strong>, we ship 
-                SCA 80+ scored green beans directly from origin to your door.
-              </p>
-              <p className='text-primary/80 mb-8 max-w-[60ch]'>
-                Whether you&apos;re sourcing single-origin lots for your roastery or commercial-grade greens for blending, 
-                we supply fully traceable Ethiopian green coffee beans in Grade 1 through Grade 5, shipped FOB Djibouti 
-                or FCA (Free Carrier) for air freight.
-              </p>
-              <div className='flex flex-wrap gap-4'>
-                <Link href="/offerings" className='px-6 py-4 bg-accent hover:bg-accent/90 text-white border-2 border-accent rounded-xl font-bold transition-all shadow-sm hover:shadow-md'>
-                  VIEW CURRENT LOTS
-                </Link>
-                <Link href="/contact-us" className='px-6 py-4 bg-transparent hover:bg-primary/10 text-primary border-2 border-primary/40 rounded-xl font-bold transition-all'>
-                  REQUEST SAMPLES
-                </Link>
-              </div>
-            </div>
+        <div className='max-w-5xl mx-auto px-6 text-center'>
+          <p className='uppercase tracking-[0.3em] text-primary/60 text-sm mb-4'>
+            Direct from Ethiopia&apos;s Highlands
+          </p>
+          <h1 className='text-5xl lg:text-6xl font-extrabold leading-tight mb-6'>
+            Ethiopian Green Coffee Beans
+          </h1>
+          <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed mb-4'>
+            <strong>Ethiopian green coffee beans</strong> are the world&apos;s most sought-after unroasted Arabica — prized by specialty roasters for their
+            extraordinary floral, fruity, and wine-like complexity. As a <strong>licensed Ethiopian coffee exporter</strong>, we ship
+            SCA 80+ scored green beans directly from origin to your door.
+          </p>
+          <p className='text-primary/70 max-w-2xl mx-auto mb-8'>
+            Whether you&apos;re sourcing single-origin lots for your roastery or commercial-grade greens for blending,
+            we supply fully traceable Ethiopian green coffee beans in Grade 1 through Grade 5, shipped FOB Djibouti
+            or FCA (Free Carrier) for air freight.
+          </p>
+          <div className='mt-8 flex flex-wrap justify-center gap-4'>
+            <Link href='/offerings' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              View Current Lots
+            </Link>
+            <Link href='/contact-us' className='border border-primary/40 px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              Request Samples
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Why Ethiopian Green Coffee Section */}
-      <section className='container mx-auto px-4 py-16 lg:py-24'>
+      <section className='py-16 lg:py-24'>
+        <div className='max-w-6xl mx-auto px-6'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>Why Ethiopian Green Coffee Beans?</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
           Ethiopia is the birthplace of Arabica coffee. With over 10,000 indigenous <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline hover:text-dark/60'>heirloom varieties</Link>, 
@@ -139,11 +136,12 @@ export default function EthiopianGreenCoffeeBeansPage() {
             </article>
           ))}
         </div>
+        </div>
       </section>
 
       {/* Origins Table */}
       <section className='bg-dark text-primary py-16 lg:py-24'>
-        <div className='container mx-auto px-4'>
+        <div className='max-w-5xl mx-auto px-6'>
           <h2 className='text-4xl font-extrabold mb-4 text-center'>Ethiopian Green Coffee by Origin</h2>
           <p className='text-primary/70 text-center max-w-3xl mx-auto mb-12'>
             Every Ethiopian coffee origin produces a distinctly different cup. Here&apos;s how they compare. 
@@ -176,7 +174,8 @@ export default function EthiopianGreenCoffeeBeansPage() {
       </section>
 
       {/* How We Export Section */}
-      <section className='container mx-auto px-4 py-16 lg:py-24'>
+      <section className='py-16 lg:py-24'>
+        <div className='max-w-5xl mx-auto px-6'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>How We Export Ethiopian Green Coffee Beans</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
           From cherry to container, here&apos;s how your Ethiopian green coffee beans move from our origin to your roastery.
@@ -188,20 +187,21 @@ export default function EthiopianGreenCoffeeBeansPage() {
             { step: '03', title: 'Packaging & Storage', desc: 'Packed in 60kg jute bags with GrainPro hermetic liners. Stored in climate-controlled warehouses in Addis Ababa until shipping. Moisture and water activity monitored.' },
             { step: '04', title: 'Shipping FOB Djibouti', desc: 'Full export documentation (ICO certificate, phytosanitary, certificate of origin, cupping report) prepared. Shipped via Djibouti port FOB for ocean freight or FCA (Free Carrier) for air freight.' },
           ].map((item) => (
-            <div key={item.step} className='text-center'>
-              <div className='w-16 h-16 rounded-full bg-accent text-white flex items-center justify-center text-2xl font-extrabold mx-auto mb-4'>{item.step}</div>
+            <div key={item.step} className='bg-white rounded-xl p-6 border border-dark/10 shadow-sm'>
+              <div className='w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center text-xl font-extrabold mb-4'>{item.step}</div>
               <h3 className='text-lg font-bold text-dark mb-2'>{item.title}</h3>
               <p className='text-dark/70 text-sm leading-relaxed'>{item.desc}</p>
             </div>
           ))}
         </div>
+        </div>
       </section>
 
       {/* FAQ Section */}
-      <section className='bg-white py-16 lg:py-24'>
-        <div className='container mx-auto px-4'>
-          <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>Frequently Asked Questions About Ethiopian Green Coffee Beans</h2>
-          <div className='max-w-3xl mx-auto space-y-8'>
+      <section className='bg-dark text-primary py-16 lg:py-24'>
+        <div className='max-w-4xl mx-auto px-6'>
+          <h2 className='text-4xl font-extrabold mb-12 text-center'>Frequently Asked Questions About Ethiopian Green Coffee Beans</h2>
+          <div className='space-y-6'>
             {[
               { q: 'What are Ethiopian green coffee beans?', a: 'Ethiopian green coffee beans are raw, unroasted Arabica coffee beans exported from Ethiopia - the birthplace and genetic origin of all the world\'s Arabica coffee. They are shipped in their natural green state to roasters, importers, and traders worldwide, who roast them into finished coffee products. Ethiopian greens are uniquely prized for their complex floral, fruity, and wine-like flavour profiles that cannot be replicated from any other origin.' },
               { q: 'What grades are Ethiopian green coffee beans available in?', a: 'Ethiopian green coffee is graded from Grade 1 (highest specialty quality, 0-3 defects per 300g sample) through Grade 5. Most specialty-grade coffee falls in Grade 1-2 with SCA cup scores of 80+. Commercial exports are typically Grade 3-5. The grading system evaluates bean size, defect count, and cup quality under SCA cupping protocol.' },
@@ -210,9 +210,9 @@ export default function EthiopianGreenCoffeeBeansPage() {
               { q: 'Which Ethiopian green coffee is best for espresso?', a: 'Natural-processed Sidamo and Guji coffees are excellent espresso choices due to their full body, berry sweetness, and chocolate undertones. Washed Yirgacheffe also performs brilliantly as a bright, floral single-origin espresso. Many roasters blend Ethiopian greens with Brazilian or Colombian coffees for balanced espresso profiles with Ethiopian complexity.' },
               { q: 'How are Ethiopian green coffee beans shipped?', a: 'Ethiopian green coffee beans are exported in 60kg jute bags with GrainPro hermetic liners to preserve freshness during transit. Shipping is typically FOB Djibouti (Ethiopia\'s nearest export port) for ocean freight or FCA (Free Carrier) for air freight where the buyer arranges carriage. Approximate transit times: 2-3 weeks to Middle East, 4-6 weeks to Europe, 6-8 weeks to North America and Asia.' },
             ].map((item, i) => (
-              <article key={i} className='border-b border-dark/10 pb-6'>
-                <h3 className='text-lg font-bold text-dark mb-3'>{item.q}</h3>
-                <p className='text-dark/70 leading-relaxed'>{item.a}</p>
+              <article key={i} className='border-b border-primary/10 pb-6'>
+                <h3 className='text-lg font-bold text-primary mb-2'>{item.q}</h3>
+                <p className='text-primary/70 leading-relaxed'>{item.a}</p>
               </article>
             ))}
           </div>
@@ -221,7 +221,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
 
       {/* CTA */}
       <section className='bg-accent text-white py-16'>
-        <div className='container mx-auto px-4 text-center'>
+        <div className='max-w-3xl mx-auto px-6 text-center'>
           <h2 className='text-3xl lg:text-4xl font-extrabold mb-4'>Ready to Source Ethiopian Green Coffee Beans?</h2>
           <p className='text-white/80 max-w-2xl mx-auto mb-8'>
             Request samples, get current pricing, or discuss your sourcing needs with our team. 

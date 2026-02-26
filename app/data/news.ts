@@ -175,5 +175,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'ECTA launched a three-day intensive training (Feb 24–26, 2026) in Mettu and Yayu to strengthen forest coffee management, improve quality and marketability, and support sustainable production in the Yayu Coffee Forest Biosphere Reserve.',
     source: 'ECTA',
     keywords: 'Yayu Coffee Forest Biosphere Reserve, ECTA training, forest coffee management Ethiopia, EU-Yayu-DeSIRA, Mettu Coffee Laboratory, integrated landscape management, Ethiopian coffee quality, sustainable coffee Ethiopia',
+  },
+  {
+    slug: 'unido-hardship-hope-ethiopia-coffee-sector',
+    date: '2026-02-26',
+    title: 'From Hardship to Hope in Ethiopia\'s Coffee Sector',
+    desc: 'UNIDO\'s Coffee Training Center in Addis Ababa transformed Mulunesh Chekol Maru\'s life — from selling cabbage by the roadside to becoming a professional barista, challenging gender norms and inspiring other women to pursue careers in Ethiopian coffee.',
+    source: 'UNIDO',
+    keywords: 'Ethiopian coffee training, Coffee Training Center Ethiopia, UNIDO Ethiopia coffee, Ethiopian coffee employment, women in Ethiopian coffee, Ethiopian barista, coffee skills development Ethiopia, Ethiopian coffee exporter, ECTA coffee training',
   }
 ]

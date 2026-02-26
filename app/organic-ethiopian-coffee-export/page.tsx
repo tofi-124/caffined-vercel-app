@@ -16,7 +16,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
             and organic chain-of-custody documentation.
           </p>
           <div className='mt-8 flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+            <Link href='/contact-us' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
               Request Organic Samples
             </Link>
             <Link href='/offerings' className='border border-primary/40 px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
@@ -310,7 +310,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
       </section>
 
       {/* Related content */}
-      <section className='py-16'>
+      <section className='bg-primary py-16'>
         <div className='max-w-4xl mx-auto px-6 text-center'>
           <h2 className='text-2xl font-extrabold text-dark mb-6'>Learn More</h2>
           <div className='grid md:grid-cols-2 gap-4'>
@@ -337,7 +337,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
             We&apos;ll provide current availability, pricing, and samples.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href='/offerings' className='bg-accent text-dark px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+            <Link href='/offerings' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
               View Current Offerings
             </Link>
             <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>

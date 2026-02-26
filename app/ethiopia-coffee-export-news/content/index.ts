@@ -44,6 +44,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./world-too-hot-for-coffee-price-surge').then(mod => mod.default),
     'ecta-yayu-coffee-biosphere-training': () =>
       import('./ecta-yayu-coffee-biosphere-training').then(mod => mod.default),
+    'unido-hardship-hope-ethiopia-coffee-sector': () =>
+      import('./unido-hardship-hope-ethiopia-coffee-sector').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

@@ -56,40 +56,37 @@ export default function BuyWholesalePage() {
 
       {/* Hero */}
       <section id='wholesale-hero' className='bg-dark text-primary py-20 lg:py-28'>
-        <div className='container mx-auto px-4'>
-          <div className='flex flex-col lg:flex-row items-center gap-12'>
-            <div className='lg:w-1/2'>
-              <p className='text-accent uppercase tracking-widest text-sm font-bold mb-4'>
-                Direct from Licensed Ethiopian Exporter
-              </p>
-              <h1 className='text-5xl lg:text-6xl font-extrabold leading-tight mb-6'>
-                Buy Ethiopian Coffee Wholesale
-              </h1>
-              <p className='text-xl text-primary/90 mb-6'>
-              <strong>Buy Ethiopian coffee wholesale</strong> directly from Ethio Coffee Export PLC, a licensed, family-owned 
-                Ethiopian exporter. We supply specialty and commercial green coffee in full container loads, 
-                shipped FOB Djibouti to importers and roasters worldwide. For a detailed walkthrough of
-                <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline hover:text-primary/60'>how to source green coffee from Ethiopia</Link>, see our step-by-step guide.
-              </p>
-              <p className='text-primary/80 mb-8 max-w-[60ch]'>
-                Skip the middlemen. Get competitive pricing, pre-shipment samples, SCA cupping reports, 
-                and complete export documentation - all handled end-to-end from our origin in Addis Ababa.
-              </p>
-              <div className='flex flex-wrap gap-4'>
-                <Link href="/contact-us" className='px-6 py-4 bg-accent hover:bg-accent/90 text-white border-2 border-accent rounded-xl font-bold transition-all shadow-sm hover:shadow-md'>
-                  GET WHOLESALE PRICING
-                </Link>
-                <Link href="/offerings" className='px-6 py-4 bg-transparent hover:bg-primary/10 text-primary border-2 border-primary/40 rounded-xl font-bold transition-all'>
-                  VIEW CURRENT LOTS
-                </Link>
-              </div>
-            </div>
+        <div className='max-w-5xl mx-auto px-6 text-center'>
+          <p className='uppercase tracking-[0.3em] text-primary/60 text-sm mb-4'>
+            Direct from Licensed Ethiopian Exporter
+          </p>
+          <h1 className='text-5xl lg:text-6xl font-extrabold leading-tight mb-6'>
+            Buy Ethiopian Coffee Wholesale
+          </h1>
+          <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed mb-4'>
+            <strong>Buy Ethiopian coffee wholesale</strong> directly from Ethio Coffee Export PLC, a licensed, family-owned
+            Ethiopian exporter. We supply specialty and commercial green coffee in full container loads,
+            shipped FOB Djibouti to importers and roasters worldwide. For a detailed walkthrough of
+            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline hover:text-primary/60'> how to source green coffee from Ethiopia</Link>, see our step-by-step guide.
+          </p>
+          <p className='text-primary/70 max-w-2xl mx-auto mb-8'>
+            Skip the middlemen. Get competitive pricing, pre-shipment samples, SCA cupping reports,
+            and complete export documentation — all handled end-to-end from our origin in Addis Ababa.
+          </p>
+          <div className='mt-8 flex flex-wrap justify-center gap-4'>
+            <Link href='/contact-us' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              Get Wholesale Pricing
+            </Link>
+            <Link href='/offerings' className='border border-primary/40 px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              View Current Lots
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Who We Serve */}
-      <section className='container mx-auto px-4 py-16 lg:py-24'>
+      <section className='py-16 lg:py-24'>
+        <div className='max-w-5xl mx-auto px-6'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>Who Buys Ethiopian Coffee Wholesale?</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
           We work with businesses of all sizes, from single-origin micro-roasters to large-scale commercial importers. 
@@ -107,11 +104,12 @@ export default function BuyWholesalePage() {
             </article>
           ))}
         </div>
+        </div>
       </section>
 
       {/* Indicative Pricing */}
       <section className='bg-dark text-primary py-16 lg:py-24'>
-        <div className='container mx-auto px-4'>
+        <div className='max-w-5xl mx-auto px-6'>
           <h2 className='text-4xl font-extrabold mb-4 text-center'>Wholesale Ethiopian Coffee Pricing Guide</h2>
           <p className='text-primary/70 text-center max-w-3xl mx-auto mb-12'>
             Indicative FOB Djibouti prices for current crop. Actual pricing depends on volume, contract type, 
@@ -148,7 +146,8 @@ export default function BuyWholesalePage() {
       </section>
 
       {/* How to Order */}
-      <section className='container mx-auto px-4 py-16 lg:py-24'>
+      <section className='py-16 lg:py-24'>
+        <div className='max-w-5xl mx-auto px-6'>
         <h2 className='text-4xl font-extrabold text-dark mb-4 text-center'>How to Buy Ethiopian Coffee Wholesale: Step by Step</h2>
         <p className='text-dark/70 text-center max-w-3xl mx-auto mb-12'>
           From first inquiry to coffee arrival at your warehouse. Here&apos;s exactly how the wholesale ordering process works.
@@ -163,11 +162,12 @@ export default function BuyWholesalePage() {
             </div>
           ))}
         </div>
+        </div>
       </section>
 
       {/* Why Buy Wholesale From Us */}
-      <section className='bg-white py-16 lg:py-24'>
-        <div className='container mx-auto px-4'>
+      <section className='bg-accent/5 border-y border-accent/10 py-16 lg:py-24'>
+        <div className='max-w-5xl mx-auto px-6'>
           <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>Why Buy Wholesale Ethiopian Coffee from Ethio Coffee?</h2>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto'>
             {[
@@ -191,9 +191,10 @@ export default function BuyWholesalePage() {
       </section>
 
       {/* FAQ */}
-      <section className='container mx-auto px-4 py-16 lg:py-24'>
-        <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>Wholesale Ethiopian Coffee: Frequently Asked Questions</h2>
-        <div className='max-w-3xl mx-auto space-y-8'>
+      <section className='bg-dark text-primary py-16 lg:py-24'>
+        <div className='max-w-4xl mx-auto px-6'>
+        <h2 className='text-4xl font-extrabold mb-12 text-center'>Wholesale Ethiopian Coffee: Frequently Asked Questions</h2>
+        <div className='space-y-6'>
           {[
             { q: 'How do I buy Ethiopian coffee wholesale?', a: 'Contact us with your requirements (preferred origins, grades, volume, processing method). We\'ll send availability and pricing within 24 hours. After you approve pre-shipment samples, we issue a sales contract, prepare all export documentation, and ship your coffee FOB Djibouti for ocean freight or FCA (Free Carrier) for air freight.' },
             { q: 'What is the minimum order for wholesale Ethiopian coffee?', a: 'Our standard minimum is one full container load (FCL) - approximately 275 bags at 60kg each (16.5 metric tons). For first-time buyers, we offer trial shipments and LCL (Less than Container Load) options to help you evaluate our quality before committing to larger volumes.' },
@@ -202,17 +203,18 @@ export default function BuyWholesalePage() {
             { q: 'What payment terms do you accept?', a: 'We accept Letter of Credit (L/C) - standard for first-time buyers and the most secure for both parties. For established relationships: Cash Against Documents (CAD) or Telegraphic Transfer (T/T) with advance deposit. All payments in USD.' },
             { q: 'How long does shipping take?', a: 'Approximate transit from Djibouti: 2–3 weeks to Middle East, 4–6 weeks to Europe, 6–8 weeks to North America and East Asia, 5–7 weeks to Australia. Add 1–2 weeks for inland transport and document processing.' },
           ].map((item, i) => (
-            <article key={i} className='border-b border-dark/10 pb-6'>
-              <h3 className='text-lg font-bold text-dark mb-3'>{item.q}</h3>
-              <p className='text-dark/70 leading-relaxed'>{item.a}</p>
+            <article key={i} className='border-b border-primary/10 pb-6'>
+              <h3 className='text-lg font-bold text-primary mb-2'>{item.q}</h3>
+              <p className='text-primary/70 leading-relaxed'>{item.a}</p>
             </article>
           ))}
+        </div>
         </div>
       </section>
 
       {/* CTA */}
       <section className='bg-accent text-white py-16'>
-        <div className='container mx-auto px-4 text-center'>
+        <div className='max-w-3xl mx-auto px-6 text-center'>
           <h2 className='text-3xl lg:text-4xl font-extrabold mb-4'>Ready to Buy Ethiopian Coffee Wholesale?</h2>
           <p className='text-white/80 max-w-2xl mx-auto mb-8'>
             Get in touch today. Tell us what you need and we&apos;ll respond within 24 hours with availability, 

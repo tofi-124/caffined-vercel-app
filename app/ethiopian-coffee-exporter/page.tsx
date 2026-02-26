@@ -146,63 +146,57 @@ const EthiopianCoffeeExporter = () => {
       
       {/* Hero Section - Primary keyword "Ethiopian Coffee Exporter" in H1 */}
       <section id='exporter-hero' className='bg-dark text-primary py-20 lg:py-28'>
-        <div className='container mx-auto px-4'>
-          <div className='flex flex-col lg:flex-row items-center gap-12'>
-            <div className='lg:w-1/2'>
-              <p className='text-accent uppercase tracking-widest text-sm font-bold mb-4'>
-                Trusted Ethiopian Coffee Exporter: Specialty & Commercial Green Coffee
-              </p>
-              <h1 className='text-5xl lg:text-6xl font-extrabold leading-tight mb-6'>
-                Ethiopian Coffee Exporter
-              </h1>
-              <p className='text-xl text-primary/90 mb-6'>
-                We are <strong>Ethio Coffee Export PLC</strong>, a family-owned <strong>Ethiopian coffee exporter</strong> shipping 
-                specialty-grade and commercial green coffee to roasters, importers, and distributors in <strong>40+ countries worldwide</strong>.
-              </p>
-              <p className='text-primary/80 mb-8 max-w-[60ch]'>
-                From the floral highlands of Yirgacheffe to the fruit-forward slopes of Guji, we export 
-                SCA 80+ specialty Ethiopian Arabica with full traceability, professional cupping reports, 
-                and the direct-from-origin pricing that your business needs. As a <strong>licensed Ethiopian 
-                coffee exporter</strong>, we handle everything from sourcing to shipping, so you can focus on 
-                growing your business.
-              </p>
-              <div className='flex flex-wrap gap-4'>
-                <Link 
-                  href='/contact-us' 
-                  className='px-8 py-4 bg-accent hover:bg-accent/90 text-white rounded-xl font-bold transition-all'
-                >
-                  Request Samples & Pricing
-                </Link>
-                <Link 
-                  href='/offerings' 
-                  className='px-8 py-4 bg-transparent border-2 border-primary text-primary hover:bg-primary hover:text-dark rounded-xl font-bold transition-all'
-                >
-                  View Available Coffee Lots
-                </Link>
-              </div>
-            </div>
+        <div className='max-w-5xl mx-auto px-6 text-center'>
+          <p className='uppercase tracking-[0.3em] text-primary/60 text-sm mb-4'>
+            Trusted Ethiopian Coffee Exporter: Specialty & Commercial Green Coffee
+          </p>
+          <h1 className='text-5xl lg:text-6xl font-extrabold leading-tight mb-6'>
+            Ethiopian Coffee Exporter
+          </h1>
+          <p className='text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed mb-6'>
+            We are <strong>Ethio Coffee Export PLC</strong>, a family-owned <strong>Ethiopian coffee exporter</strong> shipping
+            specialty-grade and commercial green coffee to roasters, importers, and distributors in <strong>40+ countries worldwide</strong>.
+          </p>
+          <p className='text-primary/70 mb-8 max-w-2xl mx-auto'>
+            From the floral highlands of Yirgacheffe to the fruit-forward slopes of Guji, we export
+            SCA 80+ specialty Ethiopian Arabica with full traceability, professional cupping reports,
+            and the direct-from-origin pricing that your business needs. As a <strong>licensed Ethiopian
+            coffee exporter</strong>, we handle everything from sourcing to shipping, so you can focus on
+            growing your business.
+          </p>
+          <div className='mt-8 flex flex-wrap justify-center gap-4'>
+            <Link
+              href='/contact-us'
+              className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'
+            >
+              Request Samples & Pricing
+            </Link>
+            <Link
+              href='/offerings'
+              className='border border-primary/40 px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'
+            >
+              View Available Coffee Lots
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Trust Signals / Stats Band */}
-      <section className='bg-accent py-12'>
-        <div className='container mx-auto px-4'>
-          <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
-            {exportStats.map((stat, index) => (
-              <div key={index} className='text-center text-white'>
-                <div className='text-4xl lg:text-5xl font-extrabold mb-2'>{stat.value}</div>
-                <div className='text-white/80 uppercase tracking-wider text-sm'>{stat.label}</div>
-              </div>
-            ))}
-          </div>
+      <section className='bg-accent/10 border-y border-accent/20'>
+        <div className='max-w-5xl mx-auto px-6 py-8 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center'>
+          {exportStats.map((stat, index) => (
+            <div key={index} className='py-4'>
+              <div className='text-4xl lg:text-5xl font-extrabold mb-2 text-dark'>{stat.value}</div>
+              <div className='text-dark/60 uppercase tracking-widest text-xs'>{stat.label}</div>
+            </div>
+          ))}
         </div>
       </section>
 
       {/* Who We Are - E-E-A-T Section */}
       <section className='py-20 bg-primary'>
-        <div className='container mx-auto px-4'>
-          <div className='max-w-4xl mx-auto'>
+        <div className='max-w-4xl mx-auto px-6'>
+          <div>
             <p className='text-accent uppercase tracking-widest text-sm font-bold mb-4 text-center'>
               About Ethio Coffee Export PLC
             </p>
@@ -254,8 +248,8 @@ const EthiopianCoffeeExporter = () => {
       </section>
 
       {/* Why Choose Us as Your Ethiopian Coffee Exporter */}
-      <section className='py-20 bg-stone-50'>
-        <div className='container mx-auto px-4'>
+      <section className='py-20 bg-accent/5 border-y border-accent/10'>
+        <div className='max-w-6xl mx-auto px-6'>
           <div className='text-center mb-16'>
             <h2 className='text-4xl font-extrabold text-dark mb-4'>
               Why Choose Ethio Coffee as Your Ethiopian Coffee Exporter?
@@ -283,8 +277,8 @@ const EthiopianCoffeeExporter = () => {
 
       {/* What is an Ethiopian Coffee Exporter - Educational SEO content */}
       <section className='py-20 bg-primary'>
-        <div className='container mx-auto px-4'>
-          <div className='max-w-4xl mx-auto'>
+        <div className='max-w-4xl mx-auto px-6'>
+          <div>
             <h2 className='text-4xl font-extrabold text-dark mb-8 text-center'>
               What Does an Ethiopian Coffee Exporter Do?
             </h2>
@@ -343,7 +337,7 @@ const EthiopianCoffeeExporter = () => {
 
       {/* Coffee Regions We Export */}
       <section className='py-20 bg-stone-50'>
-        <div className='container mx-auto px-4'>
+        <div className='max-w-6xl mx-auto px-6'>
           <div className='text-center mb-16'>
             <h2 className='text-4xl font-extrabold text-dark mb-4'>
               Ethiopian Coffee Regions We Export
@@ -390,21 +384,21 @@ const EthiopianCoffeeExporter = () => {
 
       {/* Our Export Services */}
       <section className='py-20 bg-primary'>
-        <div className='container mx-auto px-4'>
+        <div className='max-w-6xl mx-auto px-6'>
           <div className='text-center mb-16'>
             <h2 className='text-4xl font-extrabold text-dark mb-4'>
               Our Ethiopian Coffee Export Services
             </h2>
             <p className='text-dark/70 max-w-3xl mx-auto'>
-              As a full-service <strong>Ethiopian coffee exporter</strong>, we handle the entire export process 
+              As a full-service <strong>Ethiopian coffee exporter</strong>, we handle the entire export process
               from sourcing to shipping, so you can focus on roasting, selling, and growing your business.
             </p>
           </div>
-          
-          <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
+
+          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
             {exportServices.map((service, index) => (
-              <div key={index} className='bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow'>
-                <div className='text-accent mb-4'>{service.icon}</div>
+              <div key={index} className='bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-dark/10'>
+                <div className='w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center text-accent mb-4'>{service.icon}</div>
                 <h3 className='text-lg font-bold text-dark mb-3'>{service.title}</h3>
                 <p className='text-dark/70 text-sm'>{service.description}</p>
               </div>
@@ -415,7 +409,7 @@ const EthiopianCoffeeExporter = () => {
 
       {/* How to Order from Our Ethiopian Coffee Export Company */}
       <section className='py-20 bg-dark text-primary'>
-        <div className='container mx-auto px-4'>
+        <div className='max-w-5xl mx-auto px-6'>
           <div className='text-center mb-16'>
             <h2 className='text-4xl font-extrabold mb-4'>
               How to Order Ethiopian Coffee for Export
@@ -476,40 +470,47 @@ const EthiopianCoffeeExporter = () => {
       </section>
 
       {/* Who We Work With - Persona-driven section */}
-      <section className='py-20 bg-stone-50'>
-        <div className='container mx-auto px-4'>
+      <section className='py-20 bg-dark text-primary'>
+        <div className='max-w-5xl mx-auto px-6'>
           <div className='text-center mb-16'>
-            <h2 className='text-4xl font-extrabold text-dark mb-4'>
+            <h2 className='text-4xl font-extrabold mb-4'>
               Who We Work With
             </h2>
-            <p className='text-dark/70 max-w-2xl mx-auto'>
-              As an <strong>Ethiopian coffee exporter</strong>, we serve a diverse range of international coffee businesses. 
-              Whether you're a micro-roaster or a large-scale distributor, we have the capacity and flexibility to meet your needs.
+            <p className='text-primary/70 max-w-2xl mx-auto'>
+              As an <strong>Ethiopian coffee exporter</strong>, we serve a diverse range of international coffee businesses.
+              Whether you&apos;re a micro-roaster or a large-scale distributor, we have the capacity and flexibility to meet your needs.
             </p>
           </div>
-          
-          <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+
+          <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
             {[
               {
+                icon: <HiOutlineBeaker className='w-6 h-6' />,
                 title: 'Specialty Coffee Roasters',
                 description: 'Small to large roasters seeking traceable, high-scoring Ethiopian single origins for their retail and wholesale programs.',
               },
               {
+                icon: <HiOutlineGlobeAmericas className='w-6 h-6' />,
                 title: 'Green Coffee Importers',
                 description: 'Trading companies and importers looking for a reliable Ethiopian supply partner to add Ethiopian origins to their portfolio.',
               },
               {
+                icon: <HiOutlineTruck className='w-6 h-6' />,
                 title: 'Coffee Distributors',
                 description: 'Regional and international distributors needing consistent, volume Ethiopian coffee supply for their customer base.',
               },
               {
+                icon: <HiOutlineShoppingBag className='w-6 h-6' />,
                 title: 'Private Label & Brands',
                 description: 'Coffee brands and private label companies seeking premium Ethiopian coffee for their branded products and subscriptions.',
               },
             ].map((item, index) => (
-              <div key={index} className='bg-white rounded-xl p-6 shadow-sm text-center'>
-                <h3 className='text-lg font-bold text-dark mb-3'>{item.title}</h3>
-                <p className='text-dark/70 text-sm'>{item.description}</p>
+              <div key={index} className='bg-primary/5 rounded-xl p-6 border border-primary/10 text-center'>
+                <div className='w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center text-accent mx-auto mb-4'>
+                  {item.icon}
+                </div>
+                <h3 className='text-lg font-bold text-primary mb-3'>{item.title}</h3>
+                <p className='text-primary/70 text-sm'>{item.description}</p>
               </div>
             ))}
           </div>
@@ -518,7 +519,7 @@ const EthiopianCoffeeExporter = () => {
 
       {/* Export Specifications */}
       <section className='py-20 bg-primary'>
-        <div className='container mx-auto px-4'>
+        <div className='max-w-5xl mx-auto px-6'>
           <div className='text-center mb-16'>
             <h2 className='text-4xl font-extrabold text-dark mb-4'>
               Ethiopian Coffee Export Specifications
@@ -626,9 +627,9 @@ const EthiopianCoffeeExporter = () => {
       </section>
 
       {/* Why Ethiopian Coffee - Informational depth for SEO */}
-      <section className='py-20 bg-stone-100'>
-        <div className='container mx-auto px-4'>
-          <div className='max-w-4xl mx-auto'>
+      <section className='py-20 bg-stone-50'>
+        <div className='max-w-4xl mx-auto px-6'>
+          <div>
             <h2 className='text-4xl font-extrabold text-dark mb-8 text-center'>
               Why Ethiopia? The World's Premier Coffee Origin
             </h2>
@@ -672,7 +673,7 @@ const EthiopianCoffeeExporter = () => {
 
       {/* CTA Section */}
       <section className='py-20 bg-accent text-white'>
-        <div className='container mx-auto px-4 text-center'>
+        <div className='max-w-3xl mx-auto px-6 text-center'>
           <h2 className='text-4xl font-extrabold mb-6'>
             Ready to Source from a Trusted Ethiopian Coffee Exporter?
           </h2>
@@ -699,10 +700,10 @@ const EthiopianCoffeeExporter = () => {
       </section>
 
       {/* FAQ Section - Comprehensive for "People Also Ask" and FAQ Schema */}
-      <section className='py-20 bg-primary'>
-        <div className='container mx-auto px-4'>
-          <div className='max-w-3xl mx-auto'>
-            <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>
+      <section className='py-20 bg-dark text-primary'>
+        <div className='max-w-4xl mx-auto px-6'>
+          <div>
+            <h2 className='text-4xl font-extrabold text-primary mb-12 text-center'>
               Frequently Asked Questions About Ethiopian Coffee Export
             </h2>
             
@@ -749,9 +750,9 @@ const EthiopianCoffeeExporter = () => {
                   a: 'Standard payment terms for Ethiopian coffee export include Letter of Credit (L/C), Cash Against Documents (CAD), and in some cases wire transfer with deposit. Payment terms depend on the relationship, order size, and agreed Incoterms. We\'ll discuss payment arrangements that work for both parties during the contracting stage.'
                 },
               ].map((item, index) => (
-                <div key={index} className='bg-white rounded-xl p-6'>
-                  <h3 className='font-bold text-dark text-lg mb-3'>{item.q}</h3>
-                  <p className='text-dark/70'>{item.a}</p>
+                <div key={index} className='border-b border-primary/10 pb-6'>
+                  <h3 className='font-bold text-primary text-lg'>{item.q}</h3>
+                  <p className='mt-2 text-primary/70 leading-relaxed'>{item.a}</p>
                 </div>
               ))}
             </div>
@@ -760,12 +761,12 @@ const EthiopianCoffeeExporter = () => {
       </section>
 
       {/* Related Links / Internal Linking */}
-      <section className='py-20 bg-gradient-to-b from-stone-100 to-stone-200'>
-        <div className='container mx-auto px-4 max-w-5xl'>
+      <section className='py-20 bg-primary'>
+        <div className='max-w-5xl mx-auto px-6'>
           <h2 className='text-3xl font-bold text-dark mb-4 text-center'>
             Explore More About Ethiopian Coffee Export
           </h2>
-          <p className='text-center text-gray-500 text-sm mb-10'>
+          <p className='text-center text-dark/50 text-sm mb-10'>
             Learn more about our processes, offerings, and the stories behind every bean.
           </p>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'>
