@@ -10,14 +10,14 @@ const Hero = () => {
       {/* Content */}
       <div className='relative z-10 flex flex-col items-center justify-center text-center px-5 max-w-3xl mx-auto h-full' style={{ paddingTop: 'var(--header-height, 100px)' }}>
           <h1 className='text-4xl sm:text-5xl lg:text-6xl leading-tight text-primary font-bold'>
-            ETHIOPIAN COFFEE EXPORTER
+          ETHIOPIAN COFFEE EXPORTER
           </h1>
           <p className='text-primary/80 mt-2 sm:mt-3 text-xs sm:text-sm tracking-widest uppercase'>
-            Transparent Sourcing. Seamless Export. Specialty Grade.
+            Specialty Green Coffee Export &middot; Since 1992
           </p>
 
           <p className='mt-4 sm:mt-6 text-primary/90 text-sm sm:text-base leading-relaxed max-w-[60ch]'>
-            We are an Ethiopian coffee exporter with three decades of sourcing heritage. Founded by two brothers in Ethiopia and Canada, we leverage trusted relationships with farming communities, cooperatives, and washing stations across Ethiopia's most renowned regions to export traceable, specialty-grade green coffee to importers worldwide.
+            Built on sourcing relationships our father established over three decades across Ethiopia&apos;s finest coffee regions. We work directly with cooperatives, washing stations, and farming communities so importers and roasters get consistent, specialty-grade lots they can count on.
           </p>
 
           <div className='flex flex-row gap-3 mt-6 sm:mt-8 justify-center'>

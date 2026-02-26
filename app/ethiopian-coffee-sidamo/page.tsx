@@ -177,7 +177,7 @@ export default function SidamoCoffeePage() {
               <PiPlantFill className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Direct from Sidama Washing Stations</h3>
-                <p className='mt-1'>We source from washing stations and cooperatives across Bensa, Dale, Chire, and other premium Sidamo districts. Three decades of sourcing heritage in these communities gives us direct access to Sidamo's finest lots.</p>
+                <p className='mt-1'>We source from washing stations and cooperatives across Bensa, Dale, Chire, and other premium Sidamo districts. Our father spent decades building sourcing relationships in these communities, giving us direct access to Sidamo's finest lots.</p>
               </div>
             </div>
             <div className='flex gap-4'>

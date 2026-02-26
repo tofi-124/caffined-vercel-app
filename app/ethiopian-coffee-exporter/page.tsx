@@ -217,9 +217,9 @@ const EthiopianCoffeeExporter = () => {
                 with the communication standards and professionalism that international buyers expect.
               </p>
               <p>
-                Our story starts with three decades of family involvement in Ethiopia's coffee trade, 
+                Our story starts with our father, who spent over 30 years as a local coffee sourcer and trader in Ethiopia, 
                 traveling across the country's coffee regions (Yirgacheffe, Sidamo, Guji, Harar, Limu, and beyond). 
-                That heritage built deep relationships with farming communities and an intimate knowledge of what makes 
+                He built deep relationships with farming communities and an intimate knowledge of what makes 
                 Ethiopian coffee exceptional: from cherry selection to drying methods to the subtle quality differences 
                 between microclimates and processing stations.
               </p>

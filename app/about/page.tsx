@@ -113,7 +113,7 @@ const About = () => {
                 We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia and three decades of sourcing relationships, we offer unmatched transparency. We are directly involved from the washing station to your port, giving you a clear and reliable line of sight into your coffee's journey.
+                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia and sourcing relationships our father built over three decades, we offer unmatched transparency. We are directly involved from the washing station to your port, giving you a clear and reliable line of sight into your coffee's journey.
               </p>
               <p className='mb-4 leading-relaxed'>
                 <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
@@ -139,7 +139,7 @@ const About = () => {
                 Ethio Coffee Export is an <Link href='/ethiopian-coffee-exporter' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Ethiopian coffee exporter</Link> connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
               </p>
               <p className='text-lg leading-relaxed'>
-                Established in 2022, we draw on three decades of family heritage in Ethiopia's coffee trade. That legacy of working directly with farming communities and local markets shaped our mission: to ensure the value stays where it belongs with the growers, while serving as the trusted partner importers rely on for consistent quality, transparent sourcing, and professional service.
+                Established in 2022, our foundation is the sourcing network our father built over 30 years as a local coffee trader in Ethiopia. He worked directly with farming communities and local markets across the country's most renowned growing regions. That legacy shaped our mission: to ensure the value stays where it belongs with the growers, while serving as the trusted partner importers rely on for consistent quality, transparent sourcing, and professional service.
               </p>
             </div>
 
@@ -161,7 +161,7 @@ const About = () => {
                 We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia and three decades of sourcing relationships, we offer unmatched transparency. We are directly involved from the washing station to your port, giving you a clear and reliable line of sight into your coffee's journey.
+                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia and sourcing relationships our father built over three decades, we offer unmatched transparency. We are directly involved from the washing station to your port, giving you a clear and reliable line of sight into your coffee's journey.
               </p>
               <p className='mb-4 leading-relaxed'>
                 <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
