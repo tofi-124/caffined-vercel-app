@@ -115,7 +115,7 @@ const exportStats = [
 const whyChooseUs = [
   {
     title: 'Family-Owned, Origin-Based Ethiopian Exporter',
-    description: 'Unlike trading companies or brokers, we are an Ethiopian family-owned export business based at origin. Three decades of sourcing heritage across Ethiopia\'s coffee regions give us direct access to the best lots and the trusted relationships that make consistent quality possible.',
+    description: 'Unlike trading companies or brokers, we are an Ethiopian family-owned export business based at origin. Three decades of sourcing heritage across Ethiopia\'s coffee regions give us direct access to the best lots and the trusted relationships that make consistent quality possible. We also operate our own drying station in Guji Hambella, where we collect and process cherry from local farmers - deepening our hands-on involvement at origin.',
   },
   {
     title: 'Dual Presence: Ethiopia + International',
@@ -221,7 +221,9 @@ const EthiopianCoffeeExporter = () => {
                 In <strong>2022</strong>, we formalized this multi-generational expertise into Ethio Coffee Export PLC, 
                 a fully licensed Ethiopian coffee exporter registered with the Ethiopian Coffee and Tea Authority. 
                 We specialize in <strong>specialty-grade green coffee export</strong>, focusing on SCA 80+ rated lots 
-                from all major Ethiopian origins.
+                from all major Ethiopian origins. We also operate our own <strong>drying station in Guji Hambella</strong>, 
+                where we collect cherry directly from smallholder farmers and process it ourselves, giving us hands-on 
+                quality control from the very start of the supply chain.
               </p>
               <p>
                 What sets us apart as an <strong>Ethiopian coffee exporter</strong> is simple: we are not a faceless trading 

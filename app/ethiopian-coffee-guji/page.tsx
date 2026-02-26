@@ -134,7 +134,7 @@ export default function GujiCoffeePage() {
           </p>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
             {[
-              { name: 'Hambela (Hambella)', alt: '1,900–2,300m', notes: 'The crown jewel of Guji. Intense tropical fruit, jasmine, and strawberry. Home to competition-winning lots scoring 89+.' },
+              { name: 'Hambela (Hambella)', alt: '1,900–2,300m', notes: 'The crown jewel of Guji. Intense tropical fruit, jasmine, and strawberry. Home to competition-winning lots scoring 89+. We operate our own drying station here, collecting and processing cherry from local smallholder farmers.' },
               { name: 'Shakiso', alt: '1,800–2,200m', notes: 'Complex, balanced coffees with stone fruit and citrus brightness. Known for exceptional micro-lots from family holdings.' },
               { name: 'Uraga', alt: '1,900–2,200m', notes: 'Floral-forward with tea-like delicacy and bright lemon acidity. Uraga washed lots rival top Yirgacheffe coffees.' },
               { name: 'Kercha', alt: '1,800–2,100m', notes: 'Rich, full-bodied coffees with dark fruit and chocolate notes. Strong natural processing tradition.' },
@@ -191,7 +191,7 @@ export default function GujiCoffeePage() {
               <TbMountain className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Access to Elite Micro-Lots</h3>
-                <p className='mt-1'>We source from Hambela, Shakiso, and Uraga - Ethiopia&apos;s most celebrated Guji districts. Our relationships with top-tier washing stations give us access to competition-quality lots.</p>
+                <p className='mt-1'>We source from Hambela, Shakiso, and Uraga - Ethiopia&apos;s most celebrated Guji districts. We operate our own drying station in Hambella where we collect and process cherry directly from smallholder farmers, and our relationships with top-tier washing stations give us access to competition-quality lots.</p>
               </div>
             </div>
             <div className='flex gap-4'>

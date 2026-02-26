@@ -6,9 +6,9 @@ const headlines = [
     title: 'ROOTED IN ORIGIN',
     items: [
       'Born from the highlands where coffee first grew wild centuries ago',
-      'Direct partnerships with Sidama, Guji, and Yirgacheffe farming communities',
-      'Family relationships spanning generations built on trust and transparency',
-      'Every lot traced back to its point of origin.'
+      'Our own drying station in Guji Hambella, collecting and processing cherry from local farmers',
+      'Direct partnerships with farming communities all around the coffee-growing regions of Ethiopia',
+      'Every lot traced back to its point of origin'
     ]
   },
   {
@@ -45,7 +45,7 @@ const CoffeeDesc = () => {
             Our story began on the roads of Ethiopia&apos;s coffee highlands, where our father spent his youth traveling with our grandfather, a small trader. He learned what the land means to the people who have worked it for generations, seeing coffee as a living tradition. For 30 years, he worked in Ethiopia&apos;s local coffee markets, building relationships with producers and understanding quality at its source.
             <br />
             <br />
-            In 2022, we, two brothers, took what he built locally and made it international. From our office and warehouse in Addis Ababa, we walk the washing stations in Guji during harvest, oversee processing at partner mills, and cup samples in Addis to personally ensure what leaves Ethiopia is what lands in your port with consistent, sample-to-bag accuracy. This is our heritage.
+            In 2022, we, two brothers, took what he built locally and made it international. From our office and warehouse in Addis Ababa, we walk the washing stations during harvest, oversee processing at partner mills, and cup samples in Addis to personally ensure what leaves Ethiopia is what lands in your port with consistent, sample-to-bag accuracy. This is our heritage.
             <br />
             <br />
             Sourcing from us connects your customers directly to the heart of Ethiopia. We ensure the farmers and cooperatives we work with receive fair and premium payment for their work, honoring the skill and dedication behind every lot. You are sharing a story of heirloom varietals, refined traditions, and the respected hands that make this coffee possible.

@@ -30,8 +30,12 @@ const timeline = [
     description: "Our father built his reputation in local trade through relationships he earned over decades. In 2022, we formalized Ethio Coffee Export PLC to take that sourcing network to the international market, building an export-ready operation with clearer communication, better transparency, and quality our partners can plan around."
   },
   {
+    year: 'Our own drying station in Guji Hambella',
+    description: 'We established our own drying station in Guji Hambella, one of Ethiopia\'s most celebrated specialty coffee origins. We now collect cherry directly from smallholder farmers in the area and process it ourselves, giving us hands-on control over quality from cherry intake through drying. This deepens our presence at origin and strengthens the traceability we offer our buyers.'
+  },
+  {
     year: 'Today, we export with purpose',
-    description: 'We source coffee through trusted cooperatives, washing stations, and farming communities, prepare lots for export from our warehouse in Addis Ababa, and work with buyers who care about traceability and consistency. We still measure success the same way we were taught: by keeping promises, protecting quality, and making sure farmers remain central to the story.'
+    description: 'We source coffee through trusted cooperatives, washing stations, and farming communities, collect and process cherry at our own drying station in Guji Hambella, prepare lots for export from our warehouse in Addis Ababa, and work with buyers who care about traceability and consistency. We still measure success the same way we were taught: by keeping promises, protecting quality, and making sure farmers remain central to the story.'
   }
 ]
 
@@ -77,7 +81,7 @@ const About = () => {
               <h3 className='text-4xl font-extrabold text-dark mb-6'>What We Do</h3>
               <ul className='list-disc space-y-4 pl-5 font-inconsolata'>
                 <li>
-                  <span className='font-bold'>Direct Origin Sourcing:</span> We work with a network of trusted cooperatives, washing stations, and farming communities in Ethiopia's renowned coffee regions to source high-grade beans with traceable provenance.
+                  <span className='font-bold'>Direct Origin Sourcing:</span> We work with a network of trusted cooperatives, washing stations, and farming communities in Ethiopia's renowned coffee regions to source high-grade beans with traceable provenance. We also operate our own drying station in Guji Hambella, where we collect and process cherry directly from local farmers.
                 </li>
                 <li>
                   <span className='font-bold'>Specialty-Grade, Export-Ready:</span> Every lot is meticulously processed, fully traceable, and quality-controlled to specialty coffee standards, ensuring clean, distinctive cup profiles and consistent performance for international buyers.
@@ -113,7 +117,7 @@ const About = () => {
                 We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia and sourcing relationships our father built over three decades, we offer unmatched transparency. We are directly involved from the washing station to your port, giving you a clear and reliable line of sight into your coffee's journey.
+                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia, our own drying station in Guji Hambella, and sourcing relationships our father built over three decades, we offer unmatched transparency. We are directly involved from cherry collection and processing at our station through to your port, giving you a clear and reliable line of sight into your coffee's journey.
               </p>
               <p className='mb-4 leading-relaxed'>
                 <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
@@ -161,7 +165,7 @@ const About = () => {
                 We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia and sourcing relationships our father built over three decades, we offer unmatched transparency. We are directly involved from the washing station to your port, giving you a clear and reliable line of sight into your coffee's journey.
+                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia, our own drying station in Guji Hambella, and sourcing relationships our father built over three decades, we offer unmatched transparency. We are directly involved from cherry collection and processing at our station through to your port, giving you a clear and reliable line of sight into your coffee's journey.
               </p>
               <p className='mb-4 leading-relaxed'>
                 <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
