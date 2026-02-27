@@ -88,7 +88,7 @@ export default function BuyWholesaleLayout({
         "name": "Can I get samples before placing a wholesale order?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. You can purchase evaluation samples (100g, 250g, or 500g) directly from product pages via PayPal with a flat $25 worldwide shipping fee. For wholesale lots, pre-shipment samples (PSS) with full SCA cupping reports are also provided so you can approve the exact lot before container shipment."
+          "text": "Yes. You can order free evaluation samples (100g or 300g) directly from product pages via PayPal. Only shipping is charged at a flat $50 worldwide fee. For wholesale lots, pre-shipment samples (PSS) with full SCA cupping reports are also provided so you can approve the exact lot before container shipment."
         }
       },
       {

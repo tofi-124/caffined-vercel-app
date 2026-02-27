@@ -19,7 +19,7 @@ export type OfferingSpecifications = {
 }
 
 export type SampleOption = {
-  weight: string        // e.g., "100g", "250g", "500g"
+  weight: string        // e.g., "100g", "300g"
   weightGrams: number   // weight in grams for calculations
   priceUSD: number      // sample price in USD
   description: string   // e.g., "Cupping sample"

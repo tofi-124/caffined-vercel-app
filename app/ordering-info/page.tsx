@@ -477,11 +477,11 @@ export default function OrderingInfoPage() {
             item.question.includes('buy green coffee') ? 
               'Browse our Current Offerings, then request a quote for the coffees you are interested in. From there, we will provide a formal quotation, finalize terms, and handle all export documentation and logistics coordination.' :
             item.question.includes('sample before') ? 
-              'Yes! You can purchase evaluation samples directly from any product page. We offer 100g, 250g, and 500g sample sizes for roast profiling and cupping. Simply select your preferred size and complete your purchase via PayPal. A flat $25 worldwide shipping fee applies.' :
+              'Yes! You can order free evaluation samples directly from any product page. We offer 100g and 300g sample sizes for roast profiling and cupping. Simply select your preferred size and complete checkout via PayPal. Samples are free; a flat $50 worldwide shipping fee applies.' :
             item.question.includes('packaged') ? 
               'Green coffee ships in GrainPro hermetic liners inside jute bags. Standard sizes are 60 kg or 30 kg bags. Vacuum-sealed options available for micro-lots.' :
             item.question.includes('minimum order') ? 
-              'Our minimum order quantity is one full container (approximately 19-21 metric tons, around 275-320 bags). You can mix and match different coffee types and grades to create a diverse selection. For evaluation, purchase samples (100g, 250g, or 500g) directly from any product page via PayPal.' :
+              'Our minimum order quantity is one full container (approximately 19-21 metric tons, around 275-320 bags). You can mix and match different coffee types and grades to create a diverse selection. For evaluation, order free samples (100g or 300g) directly from any product page via PayPal. A flat $50 shipping fee applies.' :
             item.question.includes('certified coffees') ? 
               'Yes, depending on availability, we offer Organic (USDA/EU), Fair Trade, and Rainforest Alliance certified coffees. Certified lots have limited availability and may require advance booking.' :
             item.question.includes('traceability') ? 
@@ -577,7 +577,7 @@ export default function OrderingInfoPage() {
                 <span className='font-bold'>Browse Offerings:</span> Explore our current lots with detailed profiles, cup scores, and availability status.
               </li>
               <li>
-                <span className='font-bold'>Purchase Samples:</span> Try before you commit. Buy 100g, 250g, or 500g evaluation samples directly from any product page via PayPal.
+                <span className='font-bold'>Get Free Samples:</span> Try before you commit. Order free 100g or 300g evaluation samples directly from any product page via PayPal. Only shipping is charged ($50 flat, worldwide).
               </li>
               <li>
                 <span className='font-bold'>Get a Quote:</span> Tell us what you need and we'll provide a transparent, itemized quotation with clear shipping terms.
