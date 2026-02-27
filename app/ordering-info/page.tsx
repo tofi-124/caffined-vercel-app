@@ -296,7 +296,7 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              Yes depending on availability, we offer <strong>Organic</strong> (USDA/EU), <strong>Fair Trade</strong>, and <strong>Rainforest Alliance</strong> certified coffees.
+              Yes, depending on availability, we offer <strong>Organic</strong> (USDA/EU), <strong>Fair Trade</strong>, and <strong>Rainforest Alliance</strong> certified coffees.
             </p>
             <p>
               Certified lots have limited availability and may require advance booking. All certification documentation is provided with your shipment.
@@ -371,7 +371,7 @@ const faqData: FAQSection[] = [
         question: 'Where does Ethio Coffee ship to?',
         answer: (
           <p>
-            We export worldwide primary markets include the <strong>Middle East</strong>, <strong>North America</strong>, <strong>Europe</strong>, and <strong>Asia Pacific</strong>. We can ship to most countries with coffee import regulations.
+            We export worldwide. Primary markets include the <strong>Middle East</strong>, <strong>North America</strong>, <strong>Europe</strong>, and <strong>Asia Pacific</strong>. We can ship to most countries that permit green coffee imports.
           </p>
         ),
       },
@@ -427,7 +427,7 @@ const faqData: FAQSection[] = [
         question: 'Can I split my order into multiple shipments?',
         answer: (
           <p>
-            Yes we offer staggered deliveries, harvest allocations, and forward contracts with scheduled shipping dates. This helps manage cash flow and freshness. Additional logistics costs may apply.
+            Yes, we offer staggered deliveries, harvest allocations, and forward contracts with scheduled shipping dates. This helps manage cash flow and freshness. Additional logistics costs may apply.
           </p>
         ),
       },
@@ -533,7 +533,7 @@ const faqData: FAQSection[] = [
         question: 'Is there a long-term contract required?',
         answer: (
           <p>
-            No start with a single order to test our coffee and service. Ongoing partners enjoy priority access to limited lots, forward contract pricing, and more flexible payment terms. We earn your business through quality, not contracts.
+            No. Start with a single order to test our coffee and service. Ongoing partners enjoy priority access to limited lots, forward contract pricing, and more flexible payment terms. We earn your business through quality, not contracts.
           </p>
         ),
       },
@@ -549,7 +549,7 @@ const faqData: FAQSection[] = [
         question: 'Do you provide marketing support or origin stories?',
         answer: (
           <p>
-            Yes we provide lot information sheets, photos from origin, producer stories, regional context, and shareable social content. We're happy to collaborate on materials that connect your customers with Ethiopian coffee's rich heritage.
+            Yes, we provide lot information sheets, photos from origin, producer stories, regional context, and shareable social content. We're happy to collaborate on materials that connect your customers with Ethiopian coffee's rich heritage.
           </p>
         ),
       },
@@ -740,7 +740,7 @@ export default function OrderingInfoPage() {
             <div className='lg:w-1/2 lg:pr-12'>
               <h3 className='text-3xl font-extrabold text-dark mb-5'>How Coffee is Priced</h3>
               <p className='text-dark/70 leading-relaxed mb-4'>
-                Unlike most origins, Ethiopian coffee is <strong className='text-dark'>not priced against the New York C Market</strong>. The <strong className='text-dark'>Ethiopian Commodity Exchange (ECX)</strong> sets floor prices based on grade, region, and quality, and these floors apply to all Ethiopian coffee regardless of sales channel. Coffee can also trade outside the ECX auction through direct channels, especially for traceable specialty lots.
+                Unlike most origins, Ethiopian coffee is <strong className='text-dark'>not priced against the New York C Market</strong>. The <strong className='text-dark'>Ethiopian Commodity Exchange (ECX)</strong> sets floor prices based on grade, region, and quality, and these floors apply to all Ethiopian coffee regardless of sales channel. Not all coffee moves through the ECX auction itself: cooperatives and licensed exporters can sell directly to international buyers, particularly for traceable specialty lots, with the ECX floor price still setting the minimum.
               </p>
               <p className='text-dark/70 leading-relaxed'>
                 We quote <strong className='text-dark'>fixed prices in USD per pound</strong>. Prices reflect grade (G1 through G5), processing method, origin, and current demand. You receive a transparent, itemized quotation with every offer.
@@ -752,7 +752,7 @@ export default function OrderingInfoPage() {
                 We quote <strong className='text-dark'>FOB Djibouti</strong> (Free on Board at the port of export). This means we cover all costs to load your coffee onto the vessel. From that point, you arrange and pay for ocean freight, insurance, and import clearance.
               </p>
               <p className='text-dark/70 leading-relaxed'>
-                Djibouti is Ethiopia&#39;s primary export port, approximately 900 km from Addis Ababa. Transit from Djibouti to major ports: 2&#8211;3 weeks (Middle East), 4&#8211;5 weeks (Europe), 6&#8211;8 weeks (North America).
+                Djibouti is Ethiopia&#39;s primary export port, approximately 900 km from Addis Ababa. Once loaded, typical ocean transit times are 2&#8211;3 weeks to the Middle East, 4&#8211;5 weeks to Europe, and 6&#8211;8 weeks to North America.
               </p>
             </div>
           </div>
