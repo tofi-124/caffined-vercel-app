@@ -13,7 +13,8 @@ import {
   HiOutlineUserGroup,
   HiOutlineEnvelope,
   HiOutlineDocumentText,
-  HiOutlineNewspaper
+  HiOutlineNewspaper,
+  HiOutlineAcademicCap,
 } from 'react-icons/hi2'
 import { GiCoffeeBeans } from 'react-icons/gi'
 
@@ -82,7 +83,149 @@ function FAQSectionComponent({ section, openItems, toggleItem }: {
 
 const faqData: FAQSection[] = [
   {
-    title: 'About Our Green Coffee',
+    title: 'Trade Basics',
+    icon: <HiOutlineAcademicCap />,
+    items: [
+      {
+        question: 'How is green coffee traded internationally?',
+        answer: (
+          <>
+            <p>
+              Unlike most coffee origins, Ethiopian coffee is <strong>not priced against the New York C Market</strong>. Pricing is set domestically through the <strong>Ethiopian Commodity Exchange (ECX)</strong>, which establishes floor prices, manages quality grading, and handles price discovery based on grade, region, and quality.
+            </p>
+            <p>
+              The ECX floor price applies to all Ethiopian coffee regardless of sales channel. However, not all coffee trades through the ECX auction itself. Cooperatives, unions, and vertically integrated exporters who own their own washing stations can sell directly to international buyers. This direct channel is especially common for traceable specialty lots, but the ECX floor price still sets the minimum.
+            </p>
+            <p>
+              Export prices are quoted in <strong>USD per pound</strong>. We typically offer <strong>fixed-price contracts</strong>, giving buyers clear cost certainty. Prices vary by origin, grade (G1 through G5), and processing method (washed vs. natural). We provide transparent, itemized quotations so you know exactly what you are paying for.
+            </p>
+          </>
+        ),
+      },
+      {
+        question: 'What is a full container load (FCL) and why is it the standard?',
+        answer: (
+          <>
+            <p>
+              A <strong>Full Container Load (FCL)</strong> uses a standard 20-foot shipping container exclusively for your cargo. For green coffee, one FCL holds approximately:
+            </p>
+            <ul className='list-disc pl-5 space-y-1'>
+              <li><strong>~20 metric tons</strong> (20,000 kg)</li>
+              <li><strong>~44,000 lbs</strong></li>
+              <li><strong>~275–320 bags</strong> at 60 kg per bag</li>
+            </ul>
+            <p>
+              FCL is the standard because it is the most cost-efficient unit for ocean freight. The per-kg shipping cost drops significantly compared to smaller shipments. It also eliminates co-loading risk (your coffee sharing a container with other goods).
+            </p>
+            <p>
+              <strong>LCL (Less than Container Load)</strong> is possible but rarely recommended: it costs more per kg, adds handling risk, and extends transit time. For new buyers, we encourage starting with a full container, using the mix-and-match option to diversify across multiple origins or grades.
+            </p>
+          </>
+        ),
+      },
+      {
+        question: 'What does FOB mean and how does pricing work?',
+        answer: (
+          <>
+            <p>
+              <strong>FOB (Free on Board)</strong> is the most common Incoterm in green coffee trade. It means the seller (us) covers all costs until the coffee is loaded onto the vessel at the export port. From that point, the buyer assumes responsibility and cost.
+            </p>
+            <p>
+              For Ethiopian coffee, the standard export point is <strong>FOB Djibouti</strong>, the nearest major port, approximately 900 km from Addis Ababa.
+            </p>
+            <ul className='list-disc pl-5 space-y-1'>
+              <li><strong>FOB price covers:</strong> coffee cost, inland trucking to Djibouti, port handling, and export documentation</li>
+              <li><strong>Buyer arranges and pays for:</strong> ocean freight, marine insurance, import duties and customs clearance, and delivery to final destination</li>
+            </ul>
+            <p>
+              We also offer <strong>FCA (Free Carrier)</strong> terms for air freight, where we deliver to the carrier at Addis Ababa airport or a nominated freight station.
+            </p>
+          </>
+        ),
+      },
+      {
+        question: 'What are the key documents in a green coffee shipment?',
+        answer: (
+          <>
+            <p>Every international green coffee shipment requires a standard set of documents. Here is what each one does:</p>
+            <ul className='list-disc pl-5 space-y-2'>
+              <li><strong>Commercial Invoice:</strong> States the buyer, seller, quantity, description, and agreed price. Required for customs in your country.</li>
+              <li><strong>Packing List:</strong> Details each bag's weight, lot number, and markings. Used for customs and warehouse receiving.</li>
+              <li><strong>Bill of Lading (B/L):</strong> The shipping contract and title document. Issued by the shipping line. You need this to release your container at destination.</li>
+              <li><strong>Certificate of Origin / ICO Certificate:</strong> Confirms the coffee originated in Ethiopia. Required by most importing countries for customs clearance and duty calculation.</li>
+              <li><strong>Phytosanitary Certificate:</strong> Issued by Ethiopia's Ministry of Agriculture. Confirms the coffee is free from pests and plant diseases. Required for import into virtually every country.</li>
+              <li><strong>ECX Quality & Weight Certificate:</strong> Confirms the grade and weight certified by the Ethiopian Commodity Exchange.</li>
+              <li><strong>Organic / Fair Trade / Rainforest Alliance Certificates:</strong> Included when applicable for certified lots.</li>
+            </ul>
+            <p>We prepare and provide all of the above as part of every shipment.</p>
+          </>
+        ),
+      },
+      {
+        question: 'What import regulations should I be aware of in my country?',
+        answer: (
+          <>
+            <p>Import requirements vary by destination. Here are the key ones to know:</p>
+            <ul className='list-disc pl-5 space-y-2'>
+              <li>
+                <strong>United States:</strong> FDA Prior Notice required before shipment arrives. No specific coffee import duty (MFN rate is 0%) for green, unroasted coffee. Your customs broker handles entry and FDA clearance.
+              </li>
+              <li>
+                <strong>European Union:</strong> Subject to the <strong>EU Deforestation Regulation (EUDR)</strong>, which requires due diligence documentation proving the coffee was not grown on deforested land. We provide the traceability data needed. Standard import duty on green coffee (unroasted) is 0% under MFN tariff.
+              </li>
+              <li>
+                <strong>United Kingdom:</strong> Similar to EU. Phytosanitary certificate required. Green coffee is duty-free under the UK Global Tariff.
+              </li>
+              <li>
+                <strong>Canada:</strong> No coffee-specific import duty. Health Canada food safety regulations apply. Phytosanitary certificate required.
+              </li>
+              <li>
+                <strong>Australia:</strong> DAFF (Dept. of Agriculture) biosecurity import permit may be required. Phytosanitary certificate mandatory.
+              </li>
+            </ul>
+            <p>
+              We recommend working with a licensed customs broker in your country. They handle the paperwork, calculate duties, and ensure your shipment clears without delays. We provide all export-side documentation to support your broker.
+            </p>
+          </>
+        ),
+      },
+      {
+        question: 'What is the typical timeline from order to delivery?',
+        answer: (
+          <>
+            <p>Here is a realistic timeline for a standard FCL order:</p>
+            <ul className='list-disc pl-5 space-y-2'>
+              <li><strong>Week 1–2:</strong> Sample approval, quotation, contract signing, and deposit payment</li>
+              <li><strong>Week 2–4:</strong> Coffee is prepared, quality-checked, bagged, and loaded in Addis Ababa</li>
+              <li><strong>Week 4–5:</strong> Inland transport to Djibouti port, customs clearance, and vessel loading</li>
+              <li><strong>Transit (ocean):</strong> 2–3 weeks to Middle East, 4–5 weeks to Europe, 6–8 weeks to North America or East Asia</li>
+              <li><strong>Destination:</strong> Port arrival, customs clearance (3–10 days depending on country), and delivery to your warehouse</li>
+            </ul>
+            <p>
+              Total time from contract to warehouse: typically <strong>8–14 weeks</strong> depending on destination. Planning your inventory around this lead time is key.
+            </p>
+          </>
+        ),
+      },
+      {
+        question: 'What is a pre-shipment sample (PSS) and do I need one?',
+        answer: (
+          <>
+            <p>
+              A <strong>Pre-Shipment Sample (PSS)</strong> is a small quantity (typically 300–500g) pulled from the actual lot that will be loaded into your container. It is sent to you for cupping and approval before shipment begins.
+            </p>
+            <p>
+              PSS approval is standard practice in specialty coffee trade and strongly recommended. It serves as your final quality check and creates a reference point: if the received coffee differs significantly from the PSS, you have documented grounds for a quality claim.
+            </p>
+            <p>
+              We provide PSS as part of every wholesale export order, accompanied by cupping notes, physical analysis, and lot documentation.
+            </p>
+          </>
+        ),
+      },
+    ],
+  },
+  {
     icon: <GiCoffeeBeans />,
     items: [
       {
@@ -133,7 +276,7 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              Our <strong>minimum order quantity is one full container</strong> (approximately 19–21 metric tons, around 275-320 bags depending on bag size). This is the most cost-effective option for international shipping.
+      Our <strong>minimum order quantity is one full container load (FCL)</strong>, approximately <strong>20 metric tons / 44,000 lbs</strong>, or roughly 275–320 bags (60 kg each). This is the standard unit of international green coffee trade and the most cost-effective option for ocean freight.
             </p>
             <p>
               <strong>Mix and match:</strong> You can fill a full container with <strong>different coffee types and grades</strong> to create a diverse selection that meets your customers' needs.
@@ -481,7 +624,7 @@ export default function OrderingInfoPage() {
             item.question.includes('packaged') ? 
               'Green coffee ships in GrainPro hermetic liners inside jute bags. Standard sizes are 60 kg or 30 kg bags. Vacuum-sealed options available for micro-lots.' :
             item.question.includes('minimum order') ? 
-              'Our minimum order quantity is one full container (approximately 19-21 metric tons, around 275-320 bags). You can mix and match different coffee types and grades to create a diverse selection. For evaluation, order free samples (100g or 300g) directly from any product page via PayPal. A flat $50 shipping fee applies.' :
+      'Our minimum order quantity is one full container load (FCL), approximately 20 metric tons / 44,000 lbs, or roughly 275-320 bags (60 kg each). You can mix and match different coffee types and grades to create a diverse selection. For evaluation, order free samples (100g or 300g) directly from any product page via PayPal. A flat $50 shipping fee applies.' :
             item.question.includes('certified coffees') ? 
               'Yes, depending on availability, we offer Organic (USDA/EU), Fair Trade, and Rainforest Alliance certified coffees. Certified lots have limited availability and may require advance booking.' :
             item.question.includes('traceability') ? 
@@ -551,46 +694,113 @@ export default function OrderingInfoPage() {
         <p className='text-primary/80 mt-3 text-sm tracking-widest uppercase text-center'>Ordering Guide &amp; Export FAQ</p>
       </header>
 
-      {/* Two-column intro section matching About page style */}
-      <section id='faq-content' className='container mx-auto px-4'>
-        <div className='flex max-lg:flex-col items-center justify-center'>
-          <div className='lg:w-1/2'>
-            <h2 className='py-12 lg:py-24 text-5xl font-extrabold leading-tight text-dark'>
-              ORDERING WITH ETHIO COFFEE
-            </h2>
+      {/* Coffee Importing 101 */}
+      <section id='faq-content' className='bg-primary text-dark py-16 lg:py-24'>
+        <div className='container mx-auto px-4'>
+          <h2 className='text-5xl font-extrabold text-center mb-4'>
+            COFFEE IMPORTING 101
+          </h2>
+          <div className='w-24 h-1 bg-accent mx-auto mb-6'></div>
+          <p className='text-center text-dark/80 font-inconsolata max-w-2xl mx-auto mb-16'>
+            New to importing green coffee? Here is what you need to know before placing your first order.
+          </p>
+
+          {/* MOQ Callout */}
+          <div className='max-w-4xl mx-auto mb-20'>
+            <div className='border-2 border-dark rounded-xl p-8 lg:p-10'>
+              <p className='text-xs uppercase tracking-widest text-dark/70 font-inconsolata mb-6 text-center'>Minimum Order Quantity</p>
+              <div className='flex flex-wrap items-center justify-center gap-8 lg:gap-12'>
+                <div className='text-center'>
+                  <p className='text-4xl font-extrabold text-accent'>1 FCL</p>
+                  <p className='text-sm text-dark/70 mt-1 font-inconsolata'>Full Container Load</p>
+                </div>
+                <p className='text-dark/40 text-3xl hidden sm:block'>=</p>
+                <div className='text-center'>
+                  <p className='text-4xl font-extrabold text-dark'>~20 MT</p>
+                  <p className='text-sm text-dark/70 mt-1 font-inconsolata'>metric tons</p>
+                </div>
+                <p className='text-dark/40 text-3xl hidden sm:block'>/</p>
+                <div className='text-center'>
+                  <p className='text-4xl font-extrabold text-dark'>44,000 lb</p>
+                  <p className='text-sm text-dark/70 mt-1 font-inconsolata'>pounds</p>
+                </div>
+                <p className='text-dark/40 text-3xl hidden sm:block'>/</p>
+                <div className='text-center'>
+                  <p className='text-4xl font-extrabold text-dark'>~300 bags</p>
+                  <p className='text-sm text-dark/70 mt-1 font-inconsolata'>at 60 kg each</p>
+                </div>
+              </div>
+              <p className='mt-6 text-sm text-dark/70 font-inconsolata text-center'>You can mix origins and grades to fill a container. No need to order one single lot.</p>
+            </div>
           </div>
-          <div className='lg:w-1/2 py-2 lg:py-24 lg:px-12 lg:border-l-2 border-black'>
-            <p className='my-2'>
-              Everything you need to know about sourcing speciality Ethiopian green coffee from us. Whether you're an established importer or exploring Ethiopian origins for the first time, we're here to make the export process straightforward and transparent.
-            </p>
-            <p className='my-4'>
-              Start by visiting our{' '}
-              <Link href='/offerings' className='underline underline-offset-4 font-semibold hover:text-dark/70'>
-              Current Offerings
-              </Link>{' '}
-              to explore available lots with detailed quality profiles, origin information, and cup scores. Whether you're sourcing for immediate roasting or planning ahead, we have coffees available for immediate shipment, in-transit lots, and forward harvest contracts.
-            </p>
 
-            <h3 className='mt-8 text-3xl font-extrabold text-dark'>How It Works</h3>
-            <ul className='mt-4 list-disc space-y-3 pl-5 font-inconsolata'>
-              <li>
-                <span className='font-bold'>Browse Offerings:</span> Explore our current lots with detailed profiles, cup scores, and availability status.
-              </li>
-              <li>
-                <span className='font-bold'>Get Free Samples:</span> Try before you commit. Order free 100g or 300g evaluation samples directly from any product page via PayPal. Only shipping is charged ($50 flat, worldwide).
-              </li>
-              <li>
-                <span className='font-bold'>Get a Quote:</span> Tell us what you need and we'll provide a transparent, itemized quotation with clear shipping terms.
-              </li>
-              <li>
-                <span className='font-bold'>We Handle the Export:</span> Complete documentation, quality control, and coordination with your freight forwarder.
-              </li>
-            </ul>
+          {/* Two-column: Pricing + FOB */}
+          <div className='flex max-lg:flex-col gap-0 max-w-5xl mx-auto mb-20'>
+            <div className='lg:w-1/2 lg:pr-12'>
+              <h3 className='text-3xl font-extrabold text-dark mb-5'>How Coffee is Priced</h3>
+              <p className='text-dark/70 leading-relaxed mb-4'>
+                Unlike most origins, Ethiopian coffee is <strong className='text-dark'>not priced against the New York C Market</strong>. The <strong className='text-dark'>Ethiopian Commodity Exchange (ECX)</strong> sets floor prices based on grade, region, and quality, and these floors apply to all Ethiopian coffee regardless of sales channel. Coffee can also trade outside the ECX auction through direct channels, especially for traceable specialty lots.
+              </p>
+              <p className='text-dark/70 leading-relaxed'>
+                We quote <strong className='text-dark'>fixed prices in USD per pound</strong>. Prices reflect grade (G1 through G5), processing method, origin, and current demand. You receive a transparent, itemized quotation with every offer.
+              </p>
+            </div>
+            <div className='lg:w-1/2 lg:pl-12 lg:border-l-2 border-dark/15 max-lg:mt-10'>
+              <h3 className='text-3xl font-extrabold text-dark mb-5'>FOB Djibouti Explained</h3>
+              <p className='text-dark/70 leading-relaxed mb-4'>
+                We quote <strong className='text-dark'>FOB Djibouti</strong> (Free on Board at the port of export). This means we cover all costs to load your coffee onto the vessel. From that point, you arrange and pay for ocean freight, insurance, and import clearance.
+              </p>
+              <p className='text-dark/70 leading-relaxed'>
+                Djibouti is Ethiopia&#39;s primary export port, approximately 900 km from Addis Ababa. Transit from Djibouti to major ports: 2&#8211;3 weeks (Middle East), 4&#8211;5 weeks (Europe), 6&#8211;8 weeks (North America).
+              </p>
+            </div>
+          </div>
 
-            <h3 className='mt-8 text-3xl font-extrabold text-dark'>Professional Export Service</h3>
-            <p className='my-4'>
-              Founded by two brothers - one on the ground in Ethiopia, one Ethiopian-Canadian with international business experience - we bridge the gap between Ethiopian coffee origins and global markets. You get clear communication, professional documentation, and the reliability that comes from working with a dedicated export partner.
-            </p>
+          {/* Step-by-step timeline (matches About page milestones style) */}
+          <div className='max-w-4xl mx-auto mb-20'>
+            <h3 className='text-4xl font-extrabold text-center mb-4'>THE IMPORT PROCESS</h3>
+            <div className='w-24 h-1 bg-accent mx-auto mb-16'></div>
+
+            {[
+              { title: 'Browse & Sample', desc: 'Review our current lots. Order free 100g or 300g samples via PayPal ($50 flat shipping). Cup them alongside your current program to assess fit.' },
+              { title: 'Request a Quote', desc: 'Tell us the origin, grade, volume, and your preferred Incoterm. We respond within 24 hours with a transparent, itemized quotation in USD per pound.' },
+              { title: 'Approve the Contract', desc: 'We issue a sales contract with all agreed terms: lot specs, price, payment schedule, Incoterm, and shipment window. You sign and send a deposit (typically 50%).' },
+              { title: 'Pre-Shipment Sample Approval', desc: 'We pull a sample directly from your lot and send it to you. You cup and approve before we load. This is your quality confirmation step.' },
+              { title: 'Export & Documentation', desc: 'We prepare and provide: Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin, ICO Certificate, Phytosanitary Certificate, and quality docs.' },
+              { title: 'Ocean Freight', desc: 'Your freight forwarder (or ours) handles ocean freight from Djibouti. We provide the B/L and all export docs. You release the container at destination with the original B/L.' },
+              { title: 'Customs Clearance', desc: 'Your customs broker clears the shipment at your port. We support with any additional documentation needed. Import duties on green coffee are 0% in the US, EU, UK, and Canada.' },
+              { title: 'Delivery & Final Payment', desc: 'Coffee arrives at your warehouse. Verify the seal, count bags, pull arrival samples. Final payment (balance) is made against shipping documents before or upon arrival, per your agreed terms.' },
+            ].map((item, i, arr) => (
+              <div key={i} className={`relative pl-8 ${i < arr.length - 1 ? 'pb-12' : 'pb-0'} border-l-2 border-dark/15`}>
+                <div className={`absolute left-[-9px] top-0 w-4 h-4 rounded-full ${i === arr.length - 1 ? 'bg-accent ring-4 ring-accent/20' : 'bg-dark'}`}></div>
+                <h4 className='text-2xl font-extrabold text-dark mb-3'>
+                  {item.title}
+                </h4>
+                <p className='text-gray-700 leading-relaxed'>
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Documents grid */}
+          <div className='max-w-5xl mx-auto'>
+            <h3 className='text-3xl font-extrabold text-center text-dark mb-10'>Documents We Provide With Every Shipment</h3>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'>
+              {[
+                { name: 'Commercial Invoice', desc: 'States buyer, seller, quantity, and agreed price. Required for customs.' },
+                { name: 'Packing List', desc: 'Details each bag, lot number, and markings. Used for warehouse receiving.' },
+                { name: 'Bill of Lading', desc: 'The title document. You need this original to release your container.' },
+                { name: 'Certificate of Origin / ICO', desc: 'Confirms Ethiopian origin. Required for customs and duty calculation.' },
+                { name: 'Phytosanitary Certificate', desc: "Plant health clearance from Ethiopia's Ministry of Agriculture." },
+                { name: 'ECX Quality & Weight Certificate', desc: 'Grade and weight certified by the Ethiopian Commodity Exchange.' },
+              ].map((doc) => (
+                <div key={doc.name} className='border-2 border-dark/10 rounded-xl p-5'>
+                  <p className='font-extrabold text-dark mb-2'>{doc.name}</p>
+                  <p className='text-sm text-dark/80 font-inconsolata leading-relaxed'>{doc.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

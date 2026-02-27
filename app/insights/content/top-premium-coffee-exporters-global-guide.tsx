@@ -482,7 +482,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         <div>
           <h4 className='font-bold'>Is Ethiopian coffee more expensive than Brazilian or Colombian?</h4>
           <p className='my-2 text-sm'>
-            Ethiopian specialty lots typically trade at a <span className='font-bold'>premium differential</span> above the C-market, but they remain competitively priced relative to other top-scoring origins. For the cup quality delivered - often 85&ndash;94 SCA points - Ethiopian coffee offers exceptional value, especially when sourced directly from an Ethiopian exporter like Ethio Coffee Export.
+            Ethiopian specialty lots typically trade at a <span className='font-bold'>premium</span> compared to commercial-grade coffees, but they remain competitively priced relative to other top-scoring origins. For the cup quality delivered - often 85&ndash;94 SCA points - Ethiopian coffee offers exceptional value, especially when sourced directly from an Ethiopian exporter like Ethio Coffee Export.
           </p>
         </div>
         <div>
