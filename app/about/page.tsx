@@ -81,16 +81,16 @@ const About = () => {
               <h3 className='text-4xl font-extrabold text-dark mb-6'>What We Do</h3>
               <ul className='list-disc space-y-4 pl-5 font-inconsolata'>
                 <li>
-                  <span className='font-bold'>Direct Origin Sourcing:</span> We work with a network of trusted cooperatives, washing stations, and farming communities in Ethiopia's renowned coffee regions to source high-grade beans with traceable provenance. We also operate our own drying station in Guji Hambella, where we collect and process cherry directly from local farmers.
+                  <span className='font-bold'>Direct Sourcing Across Ethiopia's Key Regions:</span> We source from cooperatives, washing stations, and farming communities across Yirgacheffe, Sidama, Guji, Limu, and Harar. Our own drying station in Guji Hambella gives us hands-on control from cherry intake through drying.
                 </li>
                 <li>
-                  <span className='font-bold'>Specialty-Grade, Export-Ready:</span> Every lot is meticulously processed, fully traceable, and quality-controlled to specialty coffee standards, ensuring clean, distinctive cup profiles and consistent performance for international buyers.
+                  <span className='font-bold'>Specialty-Grade Green Coffee:</span> We offer washed, natural, and honey-processed lots across Ethiopia's most distinct origins. Every lot is cupped for quality and matched to the profile you approved at sample stage.
                 </li>
                 <li>
-                  <span className='font-bold'>Sustainable & Ethical Trade:</span> By sourcing from cooperatives, washing stations, and smallholder farmers we have worked with for years, we help ensure fair pricing, transparent relationships, and long-term community support.
+                  <span className='font-bold'>Ethical, Long-Term Sourcing:</span> We work with cooperatives and smallholders our father built relationships with over three decades, ensuring fair pricing and transparent, direct supply chains.
                 </li>
                 <li>
-                  <span className='font-bold'>Importer-Focused Service:</span> From sample programs and tailored offers to export documentation and shipping coordination, we make sourcing Ethiopian coffee straightforward for importers worldwide.
+                  <span className='font-bold'>Sample Programs:</span> Request samples before committing to a full order. We ship representative pre-shipment samples so you can confirm quality before the container loads.
                 </li>
               </ul>
               <p className='mt-6'>
@@ -114,19 +114,19 @@ const About = () => {
             <div className='flex flex-col justify-center'>
               <h3 className='text-4xl font-extrabold text-dark mb-6'>Your Partner at Origin</h3>
               <p className='mb-4 leading-relaxed'>
-                We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
+                Sourcing from origin means navigating communication gaps, unpredictable timelines, and documentation that can derail a shipment. We are built to remove those friction points.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia, our own drying station in Guji Hambella, and sourcing relationships our father built over three decades, we offer unmatched transparency. We are directly involved from cherry collection and processing at our station through to your port, giving you a clear and reliable line of sight into your coffee's journey.
+                <strong>One Team, Two Worlds:</strong> One brother manages sourcing and operations on the ground in Ethiopia. The other is Ethiopian-Canadian with international business experience. Together we close the communication gap that frustrates importers working with origin suppliers.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
+                <strong>Complete Export Documentation:</strong> We handle phytosanitary certificates, ICO certificates of origin, packing lists, and quality reports. Everything needed for smooth customs clearance, prepared accurately and on time.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Professional Documentation:</strong> Complete tracebility and export documentation, phytosanitary certificates, ICO certificates, and quality reports - everything you need for smooth customs clearance in your destination country.
+                <strong>Flexible Shipping Terms:</strong> FOB Djibouti or FCA Addis Ababa dry port. We work with your preferred freight forwarder or can recommend trusted logistics partners.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Flexible Shipping:</strong> We work with your preferred freight forwarders or can recommend trusted logistics partners. FOB Djibouti or Addis Ababa dry port - whatever works best for your supply chain.
+                <strong>Responsive and Straightforward:</strong> We send clear offers, respond quickly, and keep you updated through the shipment process. No chasing, no surprises.
               </p>
 
               <p className='mt-6 font-inconsolata text-sm text-gray-700'>
@@ -162,19 +162,19 @@ const About = () => {
             <div className='flex flex-col justify-center'>
               <h3 className='text-4xl font-extrabold text-dark mb-6'>Your Partner at Origin</h3>
               <p className='mb-4 leading-relaxed'>
-                We understand the challenges importers face when sourcing from origin. That's why we've built our entire operation around making your job easier.
+                Sourcing from origin means navigating communication gaps, unpredictable timelines, and documentation that can derail a shipment. We are built to remove those friction points.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Origin-Level Traceability:</strong> With our team on the ground in Ethiopia, our own drying station in Guji Hambella, and sourcing relationships our father built over three decades, we offer unmatched transparency. We are directly involved from cherry collection and processing at our station through to your port, giving you a clear and reliable line of sight into your coffee's journey.
+                <strong>One Team, Two Worlds:</strong> One brother manages sourcing and operations on the ground in Ethiopia. The other is Ethiopian-Canadian with international business experience. Together we close the communication gap that frustrates importers working with origin suppliers.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Clear Communication:</strong> With one brother on the ground in Ethiopia and one Ethiopian-Canadian with international business experience, we bridge the communication gap that often frustrates importers working with origin suppliers.
+                <strong>Complete Export Documentation:</strong> We handle phytosanitary certificates, ICO certificates of origin, packing lists, and quality reports. Everything needed for smooth customs clearance, prepared accurately and on time.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Professional Documentation:</strong> Complete tracebility and export documentation, phytosanitary certificates, ICO certificates, and quality reports - everything you need for smooth customs clearance in your destination country.
+                <strong>Flexible Shipping Terms:</strong> FOB Djibouti or FCA Addis Ababa dry port. We work with your preferred freight forwarder or can recommend trusted logistics partners.
               </p>
               <p className='mb-4 leading-relaxed'>
-                <strong>Flexible Shipping:</strong> We work with your preferred freight forwarders or can recommend trusted logistics partners. FOB Djibouti or Addis Ababa dry port - whatever works best for your supply chain.
+                <strong>Responsive and Straightforward:</strong> We send clear offers, respond quickly, and keep you updated through the shipment process. No chasing, no surprises.
               </p>
 
               <p className='mt-6 font-inconsolata text-sm text-gray-700'>

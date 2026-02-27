@@ -6,27 +6,27 @@ const headlines = [
     title: 'ROOTED IN ORIGIN',
     items: [
       'Born from the highlands where coffee first grew wild centuries ago',
-      'Our own drying station in Guji Hambella, collecting and processing cherry from local farmers',
-      'Direct partnerships with farming communities all around the coffee-growing regions of Ethiopia',
-      'Every lot traced back to its point of origin'
+      'Our own drying station in Guji Hambella, at the heart of production',
+      'Sourcing across distinct micro-regions: Yirgacheffe, Sidama, Guji, Limu, and Harar',
+      'Every lot linked to a named origin, farm, or cooperative; never anonymous'
     ]
   },
   {
     title: 'IDENTITY PRESERVED',
     items: [
-      'Heirloom varietals cultivated nowhere else on earth',
-      'Micro-region character preserved through careful processing and handling',
-      'Generational relationships with smallholders and trusted cooperatives',
-      'Sample-to-bag consistency ensuring cup profiles match your expectations'
+      'Heirloom Ethiopian varietals found nowhere else on earth',
+      'Processing method — washed, natural, or honey — chosen to honor each origin\'s character',
+      'Origins kept strictly separate; no blending of regions or harvests',
+      'Sample-to-bag consistency so the cup you approved is the cup that arrives'
     ]
   },
   {
-    title: 'EXPORT-READY AUTHENTICITY',
+    title: 'EXPORT-READY',
     items: [
-      'Fresh, traceable coffees from Sidama, Guji, and Yirgacheffe year-round',
-      'Rigorous quality control from washing station to export container',
-      'Professional documentation and flexible shipping (FOB Djibouti or FCA)',
-      'Moisture-safe packaging preserving origin character in transit'
+      'Full export documentation: phytosanitary, ICO certificate of origin, and packing lists',
+      'Flexible shipping terms: FOB Djibouti or FCA Addis Ababa',
+      'GrainPro or vacuum packaging to lock in freshness during transit',
+      'Experienced team managing ECX compliance, customs clearance, and on-time shipment'
     ]
   }
 ]
