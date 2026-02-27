@@ -176,11 +176,14 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
       </p>
 
       <h3 className='text-2xl font-extrabold mt-8'>
-        What About Honey Process?
+        What About Honey Process and Anaerobic Processing?
       </h3>
       <p className='my-4'>
         While less common in Ethiopia than in Central America, honey processed coffees (where some mucilage is left on the bean during drying) do exist.
         They fall somewhere between washed and natural with more body than washed but more clarity than natural.
+      </p>
+      <p className='my-4'>
+        A third processing category is growing in importance: <Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='underline font-bold'>Ethiopian anaerobic coffee processing</Link>. Sealed-tank fermentation, carbonic maceration, and extended fermentation are now practiced at private washing stations in Yirgacheffe, Guji, and Sidamo. These methods produce cups with intense tropical fruit characteristics that go beyond what traditional washed or natural processing achieves. If you source specialty Ethiopian coffee for a premium single-origin program, anaerobic and honey process lots deserve serious evaluation alongside your standard washed and natural program.
       </p>
 
       {/* FAQ SECTION */}

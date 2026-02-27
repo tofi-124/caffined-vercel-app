@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ANAEROBIC ETHIOPIAN COFFEE PROCESSING BUYER'S GUIDE =====
+    {
+      small_image_url: 'insights/anaerobic-ethiopian-coffee-processing-buyers-guide.webp',
+      large_image_url: 'insights/anaerobic-ethiopian-coffee-processing-buyers-guide.webp',
+      date: 'Feb 26, 2026',
+      title: 'Ethiopian Anaerobic Coffee Processing: A Buyer\'s Guide',
+      slug: 'anaerobic-ethiopian-coffee-processing-buyers-guide',
+      category: 'Processing Methods / Specialty Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Ethiopian anaerobic coffee processing',
+        'anaerobic Ethiopian coffee',
+        'honey processed Ethiopian coffee',
+        'carbonic maceration Ethiopia',
+        'experimental coffee processing Ethiopia',
+        'Ethiopian fermented coffee buying guide',
+        'anaerobic Yirgacheffe coffee',
+        'anaerobic Guji coffee sourcing',
+        'what is anaerobic coffee Ethiopia',
+        'Ethiopian coffee fermentation importer guide',
+        'Ethiopian anaerobic lot pricing',
+        'honey processed vs anaerobic Ethiopian coffee',
+        'organic anaerobic Ethiopian coffee certification',
+        'EUDR compliance anaerobic Ethiopian coffee',
+        'sealed tank coffee fermentation Ethiopia',
+        'extended fermentation Ethiopian coffee',
+        'Ethiopian washing station anaerobic',
+        'roasting anaerobic Ethiopian green coffee',
+        'QC checklist anaerobic Ethiopian coffee',
+        'Ethiopian specialty coffee experimental processing'
+      ],
+      desc: 'Anaerobic fermentation, honey processing, carbonic maceration, and extended fermentation in Ethiopia: a practical guide for importers and roasters covering regional cup profiles, importer QC documentation, pricing premiums, roasting adjustments, and EUDR traceability.'
+    },
     // ===== ETHIOPIAN COFFEE LANDED COST GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-landed-cost-guide.webp',

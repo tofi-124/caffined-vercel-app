@@ -423,6 +423,9 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
             Developing strong green coffee quality control skills isn&apos;t just about avoiding bad lots it&apos;s about building the confidence to identify exceptional value and make decisions that strengthen your business. Whether you&apos;re evaluating your first Ethiopian samples or refining an established QC program, the fundamentals remain the same: systematic inspection, proper measurement, and honest sensory evaluation.
           </p>
           <p className='my-4'>
+            Experimental and anaerobic lots require an additional layer of QC beyond standard grading. If you are evaluating sealed-tank anaerobic, extended fermentation, or honey process Ethiopian lots, you need fermentation protocol documentation and specific sensory markers to identify both the potential and the risks. See the dedicated <Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='underline font-bold'>Ethiopian anaerobic coffee processing buyer&apos;s guide</Link> for a complete checklist.
+          </p>
+          <p className='my-4'>
             If you&apos;re looking to sharpen your sensory evaluation skills further, explore our guide on the <Link href='/insights/best-cupping-school' className='underline font-bold'>best cupping schools</Link> to find training programs that build confidence in quality assessment.
           </p>
           <p className='my-4'>

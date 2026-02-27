@@ -1139,6 +1139,11 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
               <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Certifications Guide: Organic, Fair Trade, Rainforest Alliance & More
             </Link>
           </li>
+          <li>
+            <Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Anaerobic Coffee Processing: How Fermentation Amplifies Heirloom Variety Character
+            </Link>
+          </li>
         </ul>
       </div>
 
