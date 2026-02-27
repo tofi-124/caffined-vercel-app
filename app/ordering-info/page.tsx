@@ -440,7 +440,7 @@ const faqData: FAQSection[] = [
         question: 'How is coffee priced?',
         answer: (
           <p>
-            Pricing depends on <strong>quality grade</strong>, <strong>origin/traceability</strong>, <strong>processing method</strong>, <strong>certifications</strong>, <strong>volume</strong>, and <strong>shipping terms</strong>. We provide transparent, itemized quotations in USD (per kg or lb) so you know exactly what you're paying for.
+            Pricing depends on <strong>quality grade</strong>, <strong>origin/traceability</strong>, <strong>processing method</strong>, <strong>certifications</strong>, <strong>volume</strong>, and <strong>shipping terms</strong>. We provide transparent, itemized quotations in USD per pound so you know exactly what you are paying for.
           </p>
         ),
       },
@@ -640,7 +640,7 @@ export default function OrderingInfoPage() {
             item.question.includes('ship to') ? 
               'We ship worldwide, with established routes to North America, Europe, Asia, Middle East, and Australia. We work with trusted freight forwarders and can arrange delivery to your designated port.' :
             item.question.includes('How long') ? 
-              'Transit time depends on destination. Typical shipping times are 4-6 weeks to North America, 3-5 weeks to Europe, 3-4 weeks to Middle East, and 4-5 weeks to Asia/Australia.' :
+              'Transit time depends on destination. Typical shipping times from Djibouti: 2-3 weeks to Middle East, 4-5 weeks to Europe, 6-8 weeks to North America or East Asia.' :
             item.question.includes('Who handles') ? 
               'We handle all export documentation from Ethiopia, including phytosanitary certificates, certificates of origin, and bill of lading. You are responsible for import clearance in your country.' :
             item.question.includes('Incoterms') ? 

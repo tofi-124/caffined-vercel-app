@@ -78,7 +78,7 @@ const Navbar = () => {
                     scrolled ? 'shadow-lg' : ''
                 }`}
             >
-                {/* Animated Top Message — hidden on home hero, shown once scrolled */}
+                {/* Animated Top Message - hidden on home hero, shown once scrolled */}
                 <div className={`transition-[max-height,transform] duration-500 ease-in-out overflow-hidden ${
                     isHome
                         ? (scrolled ? 'max-h-20 translate-y-0' : 'max-h-0 -translate-y-full')
@@ -162,7 +162,7 @@ const Navbar = () => {
                 }`} />
             </header>
 
-            {/* Spacer to prevent content from going under fixed header (not on home — hero goes behind nav) */}
+            {/* Spacer to prevent content from going under fixed header (not on home - hero goes behind nav) */}
             {!isHome && <div className='h-28 lg:h-32' />}
 
             {/* Mobile Menu Overlay - CSS transitions instead of framer-motion to reduce JS bundle */}

@@ -103,7 +103,7 @@ export async function POST(request: NextRequest) {
           <h3>Product</h3>
           <p><strong>Coffee:</strong> ${coffeeName}</p>
           <p><strong>Sample Size:</strong> ${weight}</p>
-          <p><strong>Sample Price:</strong> $${typeof price === 'number' ? price.toFixed(2) : price} USD (+ $25.00 shipping)</p>
+          <p><strong>Sample Price:</strong> $${typeof price === 'number' ? price.toFixed(2) : price} USD (+ $50.00 shipping)</p>
           
           <h3>Buyer Information</h3>
           <p><strong>Name:</strong> ${payerName}</p>

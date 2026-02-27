@@ -17,7 +17,7 @@ export default function WorldTooHotForCoffeePriceSurge({ title, date, source }: 
       <div className='space-y-4'>
         <h2 className='text-xl font-bold text-dark mt-6'>Temperatures Unbearable for Coffee Plants</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          Ethiopia is traditionally considered the birthplace of coffee. The crop provides the main income for more than 4 million households and a third of the country&apos;s export earnings. However, the &ldquo;coffee belt&rdquo; between the Tropic of Cancer and the Tropic of Capricorn is under threat &mdash; coffee trees, especially Arabica varieties, cannot withstand temperatures above 30&nbsp;°C.
+          Ethiopia is traditionally considered the birthplace of coffee. The crop provides the main income for more than 4 million households and a third of the country&apos;s export earnings. However, the &ldquo;coffee belt&rdquo; between the Tropic of Cancer and the Tropic of Capricorn is under threat. Coffee trees, especially Arabica varieties, cannot withstand temperatures above 30&nbsp;°C.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>

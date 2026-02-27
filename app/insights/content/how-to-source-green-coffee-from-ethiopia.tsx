@@ -235,7 +235,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> A step-by-step guide for roasters and importers on how to source Ethiopian green coffee—covering grades, logistics, supplier evaluation, direct trade vs. importers, and key questions to ask before purchasing.
+          <span className='font-bold'>About This Insight:</span> A step-by-step guide for roasters and importers on how to source Ethiopian green coffee, covering grades, logistics, supplier evaluation, direct trade vs. importers, and key questions to ask before purchasing.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

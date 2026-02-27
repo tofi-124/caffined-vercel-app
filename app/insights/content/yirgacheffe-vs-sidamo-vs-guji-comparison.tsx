@@ -270,7 +270,7 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> A head-to-head comparison of Ethiopia&apos;s three most popular specialty coffee origins—Yirgacheffe, Sidamo, and Guji—covering flavor profiles, processing methods, altitude, roasting tips, and best use cases for roasters.
+          <span className='font-bold'>About This Insight:</span> A head-to-head comparison of Ethiopia&apos;s three most popular specialty coffee origins (Yirgacheffe, Sidamo, and Guji) covering flavor profiles, processing methods, altitude, roasting tips, and best use cases for roasters.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

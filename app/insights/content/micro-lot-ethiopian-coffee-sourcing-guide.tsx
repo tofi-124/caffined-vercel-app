@@ -327,7 +327,7 @@ export default function MicroLotEthiopianCoffeeSourcingGuide({ title, date, larg
       </ul>
 
       <p className='my-4'>
-        For a complete breakdown of Ethiopian FOB pricing mechanics, including C-market differentials and how contracts are structured, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline font-bold'>Ethiopian coffee pricing guide for importers</Link>.
+        For a complete breakdown of Ethiopian FOB pricing mechanics, including how contracts are structured, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline font-bold'>Ethiopian coffee pricing guide for importers</Link>.
       </p>
 
       {/* SECTION 6 */}

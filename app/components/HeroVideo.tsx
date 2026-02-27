@@ -70,7 +70,7 @@ const HeroVideo = () => {
     }
   }, [attemptPlay, isPlaying])
 
-  // Visibility change — resume if paused
+  // Visibility change - resume if paused
   useEffect(() => {
     const handleVisibility = () => {
       if (document.visibilityState === 'visible' && videoRef.current?.paused) {
@@ -103,7 +103,7 @@ const HeroVideo = () => {
     }
   }, [attemptPlay, isPlaying])
 
-  // IntersectionObserver — play when in view (helps iOS)
+  // IntersectionObserver - play when in view (helps iOS)
   useEffect(() => {
     const video = videoRef.current
     if (!video || isPlaying) return

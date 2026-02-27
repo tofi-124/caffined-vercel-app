@@ -71,7 +71,7 @@ export default function BuyWholesalePage() {
           </p>
           <p className='text-primary/70 max-w-2xl mx-auto mb-8'>
             Skip the middlemen. Get competitive pricing, pre-shipment samples, SCA cupping reports,
-            and complete export documentation — all handled end-to-end from our origin in Addis Ababa.
+            and complete export documentation, all handled end-to-end from our origin in Addis Ababa.
           </p>
           <div className='mt-8 flex flex-wrap justify-center gap-4'>
             <Link href='/contact-us' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
@@ -197,8 +197,8 @@ export default function BuyWholesalePage() {
         <div className='space-y-6'>
           {[
             { q: 'How do I buy Ethiopian coffee wholesale?', a: 'Contact us with your requirements (preferred origins, grades, volume, processing method). We\'ll send availability and pricing within 24 hours. After you approve pre-shipment samples, we issue a sales contract, prepare all export documentation, and ship your coffee FOB Djibouti for ocean freight or FCA (Free Carrier) for air freight.' },
-            { q: 'What is the minimum order for wholesale Ethiopian coffee?', a: 'Our standard minimum is one full container load (FCL) - approximately 275 bags at 60kg each (16.5 metric tons). For first-time buyers, we offer trial shipments and LCL (Less than Container Load) options to help you evaluate our quality before committing to larger volumes.' },
-            { q: 'What is the wholesale price of Ethiopian coffee?', a: 'Specialty-grade Ethiopian green coffee ranges from $9–$13/kg ($4–$6/lb) FOB Djibouti. Commercial grades are lower. Prices depend on origin, grade, processing, C-market conditions, and contract type (fixed price or differential). Contact us for current crop pricing tailored to your needs.' },
+            { q: 'What is the minimum order for wholesale Ethiopian coffee?', a: 'Our standard minimum is one full container load (FCL), approximately 300 bags at 60kg each (~20 metric tons / 44,000 lbs). You can mix origins and grades to fill a container. For first-time buyers, we offer trial shipments and LCL (Less than Container Load) options to help you evaluate our quality before committing to larger volumes.' },
+            { q: 'What is the wholesale price of Ethiopian coffee?', a: 'Specialty-grade Ethiopian green coffee ranges from $4 to $6 per pound FOB Djibouti for Grade 1-2 lots. Commercial grades are lower. Prices depend on origin, grade, processing method, and current demand. Contact us for current crop pricing tailored to your needs.' },
             { q: 'Can I get samples before placing a wholesale order?', a: 'Absolutely. You can order free evaluation samples (100g or 300g) directly from any product page via PayPal. Only shipping is charged at a flat $50 worldwide fee. For wholesale lots, we also provide pre-shipment samples (PSS) with full SCA cupping reports so you can approve the exact lot before container shipment.' },
             { q: 'What payment terms do you accept?', a: 'We accept Letter of Credit (L/C) - standard for first-time buyers and the most secure for both parties. For established relationships: Cash Against Documents (CAD) or Telegraphic Transfer (T/T) with advance deposit. All payments in USD.' },
             { q: 'How long does shipping take?', a: 'Approximate transit from Djibouti: 2–3 weeks to Middle East, 4–6 weeks to Europe, 6–8 weeks to North America and East Asia, 5–7 weeks to Australia. Add 1–2 weeks for inland transport and document processing.' },

@@ -248,7 +248,7 @@ export default function CertifiedOrganicCoffeeBeanExportersBulkOrders({ title, d
 
       <h4 className='text-xl font-bold mt-8 mb-3'>How Organic Premiums Work</h4>
       <p className='my-4'>
-        The organic premium sits on top of the base price (C-market reference + origin/quality differential). For Ethiopian organic coffee, the premium typically ranges from <span className='font-bold'>$0.30 to $0.60 per pound FOB</span>, depending on origin, grade, certification type, and seasonal demand. Fair Trade certified organic lots carry an additional minimum premium defined by Fairtrade International. Our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline font-bold'>Ethiopian coffee pricing guide</Link> explains the full pricing structure including C-market differentials and FOB calculations.
+        The organic premium sits on top of the base FOB price. For Ethiopian organic coffee, the premium typically ranges from <span className='font-bold'>$0.30 to $0.60 per pound FOB</span>, depending on origin, grade, certification type, and seasonal demand. Fair Trade certified organic lots carry an additional minimum premium defined by Fairtrade International. Our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline font-bold'>Ethiopian coffee pricing guide</Link> explains the full pricing structure and FOB calculations.
       </p>
 
       {/* PRICING TABLE */}
@@ -263,12 +263,12 @@ export default function CertifiedOrganicCoffeeBeanExportersBulkOrders({ title, d
           </thead>
           <tbody className='text-dark/80'>
             <tr className='border-b border-dark/10'>
-              <td className='px-4 py-3 font-medium'>C-market reference</td>
-              <td className='px-4 py-3'>Variable (check ICE)</td>
-              <td className='px-4 py-3'>Arabica futures benchmark</td>
+              <td className='px-4 py-3 font-medium'>Base FOB price</td>
+              <td className='px-4 py-3'>Varies by grade and origin</td>
+              <td className='px-4 py-3'>Set by ECX floor prices, local costs, and demand</td>
             </tr>
             <tr className='border-b border-dark/10 bg-gray-50'>
-              <td className='px-4 py-3 font-medium'>Ethiopian origin differential</td>
+              <td className='px-4 py-3 font-medium'>Origin and grade premium</td>
               <td className='px-4 py-3'>+$0.40 to +$1.20</td>
               <td className='px-4 py-3'>Varies by region and grade</td>
             </tr>

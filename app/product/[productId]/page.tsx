@@ -35,7 +35,7 @@ const OfferingDetail = ({ params }: Props) => {
   const productImageRef = useRef<HTMLDivElement>(null);
   const specsSectionRef = useRef<HTMLDivElement>(null);
   
-  // Removed programmatic scroll — it triggered non-user-initiated layout
+  // Removed programmatic scroll - it triggered non-user-initiated layout
   // shifts (navbar spacer + TopMessage collapse) that counted toward CLS.
   
   // Default values for product details

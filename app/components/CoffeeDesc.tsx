@@ -15,7 +15,7 @@ const headlines = [
     title: 'IDENTITY PRESERVED',
     items: [
       'Heirloom Ethiopian varietals found nowhere else on earth',
-      'Processing method — washed, natural, or honey — chosen to honor each origin\'s character',
+      'Processing method (washed, natural, or honey) chosen to honor each origin\'s character',
       'Origins kept strictly separate; no blending of regions or harvests',
       'Sample-to-bag consistency so the cup you approved is the cup that arrives'
     ]

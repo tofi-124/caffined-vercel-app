@@ -14,7 +14,7 @@ export default function EctaYayuCoffeeBiosphereTraining({ title, date, source }:
 
       <div className='space-y-4'>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          METTU, ETHIOPIA — As Ethiopia intensifies its push for sustainable agricultural exports, the Ethiopian Coffee and
+          METTU, ETHIOPIA: As Ethiopia intensifies its push for sustainable agricultural exports, the Ethiopian Coffee and
           Tea Authority (ECTA) has launched a landmark three-day intensive training program aimed at strengthening forest
           coffee management within the Yayu Coffee Forest Biosphere Reserve.
         </p>
@@ -22,7 +22,7 @@ export default function EctaYayuCoffeeBiosphereTraining({ title, date, source }:
         <p className='text-gray-700 text-sm leading-relaxed'>
           Designed to elevate the production and marketability of forest coffee in the EU-Yayu-DeSIRA Project areas, the
           program brought together cooperative leaders, union experts, and regional officials. The goal is to bridge
-          traditional forest conservation with modern, market-competitive coffee production — improving quality while
+          traditional forest conservation with modern, market-competitive coffee production, improving quality while
           sustaining the environment.
         </p>
 
@@ -48,7 +48,7 @@ export default function EctaYayuCoffeeBiosphereTraining({ title, date, source }:
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
-          He added that the project is not just about growing more coffee — it is about growing better coffee that
+          He added that the project is not just about growing more coffee. It is about growing better coffee that
           respects the forest’s integrity. He encouraged trainees to act as catalysts by cascading best practices down to
           individual farmers and helping transform the six woredas into a benchmark for climate-friendly, innovative, and
           high-quality coffee.
@@ -71,7 +71,7 @@ export default function EctaYayuCoffeeBiosphereTraining({ title, date, source }:
         <p className='text-gray-700 text-sm leading-relaxed'>
           Trainees are expected to exchange experiences, identify constraints, improve the capacity of cooperative and
           union leaders, extension workers and experts at woreda, zone, regional and federal levels, and apply the
-          learnings to boost production, productivity, and quality — improving livelihoods through additional income.
+          learnings to boost production, productivity, and quality, improving livelihoods through additional income.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>Reported by: Tesfu Alemayehu</p>

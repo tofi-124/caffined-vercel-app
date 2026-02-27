@@ -196,7 +196,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Which processing method is better for specialty coffee?</h4>
-            <p className="text-sm text-gray-600">Neither is inherently better—they serve different purposes. Washed coffees are prized for clarity and consistency, making them ideal for showcasing terroir. Natural coffees offer bolder, more complex fruit profiles that appeal to adventurous palates. Most successful roasteries stock both to offer variety.</p>
+            <p className="text-sm text-gray-600">Neither is inherently better. They serve different purposes. Washed coffees are prized for clarity and consistency, making them ideal for showcasing terroir. Natural coffees offer bolder, more complex fruit profiles that appeal to adventurous palates. Most successful roasteries stock both to offer variety.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How should I roast washed vs natural Ethiopian coffee differently?</h4>
@@ -255,7 +255,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide compares washed and natural processing methods for Ethiopian coffee—covering flavor differences, roasting tips, shelf life, and which approach best fits different roastery and menu needs.
+          <span className='font-bold'>About This Insight:</span> This guide compares washed and natural processing methods for Ethiopian coffee, covering flavor differences, roasting tips, shelf life, and which approach best fits different roastery and menu needs.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

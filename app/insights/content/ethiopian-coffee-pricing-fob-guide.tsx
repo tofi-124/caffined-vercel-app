@@ -51,62 +51,61 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Takeaway:</span> Ethiopian coffee is priced as a differential (premium or discount) against the ICE New York C-market Arabica futures contract. The FOB Djibouti price you see on a contract is always the C-market base plus the Ethiopian differential, plus local costs.</span>
+          <span><span className='font-bold'>Key Takeaway:</span> Unlike most coffee origins, Ethiopian coffee is not priced against the New York C-market. Pricing is set domestically through the Ethiopian Commodity Exchange (ECX), which establishes floor prices based on grade, region, and quality. The FOB Djibouti price you see on a contract reflects ECX pricing, local costs, exporter margin, and current demand.</span>
         </p>
       </div>
 
-      {/* ====== SECTION 1: THE C-MARKET ====== */}
+      {/* ====== SECTION 1: ECX PRICING ====== */}
 
       <h3 className='text-2xl font-extrabold mt-8'>
         <HiOutlineChartBar className='inline mr-2' />
-        The New York C-Market: The Global Benchmark
+        How Ethiopian Coffee is Priced: The ECX System
       </h3>
 
       <p className='my-4'>
-        All Arabica coffee in the world is priced in reference to the ICE (Intercontinental Exchange) Arabica Futures Contract, commonly called the "C-market" or "New York C." This contract sets a per-pound price in US cents for exchange-grade washed Arabica coffee.
+        Unlike Colombian or Brazilian coffee, which trades as a differential against the ICE New York C-market futures contract, Ethiopian coffee has its own pricing system. The <span className='font-bold'>Ethiopian Commodity Exchange (ECX)</span>, established in 2008, is the centralized platform that sets daily reference prices for different coffee types and grades based on supply and demand at auction.
       </p>
 
       <p className='my-4'>
-        When you hear that "coffee is trading at 420 cents," that means one pound of benchmark Arabica on the futures exchange costs $4.20. However, no origin sells exactly at C-market price. Every origin, region, and grade trades at a premium or discount relative to this benchmark. These premiums and discounts are called <span className='font-bold'>differentials</span>.
+        The ECX floor price applies to all Ethiopian coffee regardless of sales channel. Even coffee that trades outside the ECX auction (see below) must respect these floor prices. Prices on the ECX are quoted in Ethiopian Birr per kilogram, then converted to USD for export contracts.
       </p>
 
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
-        <h4 className='font-bold text-lg mb-3'><HiOutlineCalculator className='inline mr-2' />How Differentials Work</h4>
+        <h4 className='font-bold text-lg mb-3'><HiOutlineCalculator className='inline mr-2' />What Goes Into the FOB Price</h4>
         <table className='w-full text-sm'>
           <thead>
             <tr className='border-b border-gray-300'>
               <th className='text-left py-2 px-3'>Component</th>
-              <th className='text-left py-2 px-3'>Example</th>
-              <th className='text-left py-2 px-3'>Explanation</th>
+              <th className='text-left py-2 px-3'>Description</th>
             </tr>
           </thead>
           <tbody>
             <tr className='border-b border-gray-100'>
-              <td className='py-2 px-3 font-semibold'>C-market price</td>
-              <td className='py-2 px-3'>420 c/lb</td>
-              <td className='py-2 px-3'>The current futures price per pound</td>
+              <td className='py-2 px-3 font-semibold'>ECX auction price / farm-gate price</td>
+              <td className='py-2 px-3'>The base cost of green coffee at origin, set by ECX auction or direct negotiation</td>
             </tr>
             <tr className='border-b border-gray-100'>
-              <td className='py-2 px-3 font-semibold'>Ethiopian differential</td>
-              <td className='py-2 px-3'>+40 c/lb</td>
-              <td className='py-2 px-3'>Premium for origin quality and demand</td>
+              <td className='py-2 px-3 font-semibold'>Processing and milling</td>
+              <td className='py-2 px-3'>Washing, drying, hulling, sorting, and grading costs</td>
             </tr>
             <tr className='border-b border-gray-100'>
-              <td className='py-2 px-3 font-semibold'>Outright price</td>
-              <td className='py-2 px-3'>460 c/lb ($4.60/lb)</td>
-              <td className='py-2 px-3'>What you actually pay per pound FOB</td>
+              <td className='py-2 px-3 font-semibold'>Export preparation</td>
+              <td className='py-2 px-3'>Bagging, quality control, certifications, and documentation</td>
+            </tr>
+            <tr className='border-b border-gray-100'>
+              <td className='py-2 px-3 font-semibold'>Inland transport</td>
+              <td className='py-2 px-3'>Trucking from origin/warehouse in Addis Ababa to Djibouti port (~900 km)</td>
             </tr>
             <tr>
-              <td className='py-2 px-3 font-semibold'>Per kg equivalent</td>
-              <td className='py-2 px-3'>$10.14/kg</td>
-              <td className='py-2 px-3'>Multiply per-lb price by 2.20462</td>
+              <td className='py-2 px-3 font-semibold'>Exporter margin</td>
+              <td className='py-2 px-3'>The exporter's operating costs and profit margin</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <p className='my-4'>
-        <span className='font-bold'>Important:</span> The C-market moves every trading day. When an exporter sends you a quote, the price is typically valid for a limited window (often 24 to 72 hours) because the underlying benchmark shifts constantly. If the C-market rises 20 cents between your inquiry and your confirmation, your price changes accordingly unless you locked in a "fixed price" contract.
+        <span className='font-bold'>Important:</span> Because ECX prices shift daily based on auction results and demand, export quotes are typically valid for a limited window (often 24 to 72 hours). If market conditions change between your inquiry and confirmation, pricing may be adjusted.
       </p>
 
       {/* ====== SECTION 2: ECX ====== */}
@@ -144,48 +143,48 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
 
       <h3 className='text-2xl font-extrabold mt-8'>
         <HiOutlineArrowTrendingUp className='inline mr-2' />
-        What Determines the Ethiopian Differential?
+        What Determines Ethiopian Coffee Pricing?
       </h3>
 
       <p className='my-4'>
-        Ethiopian coffee differentials are not fixed. They fluctuate based on multiple factors that importers should understand before negotiating:
+        Ethiopian coffee prices are not fixed. They fluctuate based on multiple factors that importers should understand before negotiating:
       </p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-2'>1. Region and Origin</h4>
           <p className='text-sm'>
-            Yirgacheffe and Guji consistently command the highest premiums due to global demand from specialty roasters. Sidamo follows closely. Jimma and Limu trade at lower differentials because they are positioned more toward the commercial segment.
+            Yirgacheffe and Guji consistently command the highest prices due to global demand from specialty roasters. Sidamo follows closely. Jimma and Limu trade at lower prices because they are positioned more toward the commercial segment.
           </p>
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-2'>2. Grade</h4>
           <p className='text-sm'>
-            Ethiopian coffee is graded from Grade 1 (highest quality, fewest defects) to Grade 5. Grade 1 washed Yirgacheffe commands a significantly higher differential than Grade 4 natural Jimma. The grade directly reflects defect count, cup score, and screen size.
+            Ethiopian coffee is graded from Grade 1 (highest quality, fewest defects) to Grade 5. Grade 1 washed Yirgacheffe commands a significantly higher price than Grade 4 natural Jimma. The grade directly reflects defect count, cup score, and screen size.
           </p>
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-2'>3. Processing Method</h4>
           <p className='text-sm'>
-            Washed (wet-processed) coffees generally trade at higher differentials than naturals for the same grade, because washed processing produces cleaner, more consistent cup profiles. Natural-processed specialty lots (especially Guji and Sidamo naturals with fruit-forward profiles) can be exceptions, sometimes matching or exceeding washed premiums.
+            Washed (wet-processed) coffees generally trade at higher prices than naturals for the same grade, because washed processing produces cleaner, more consistent cup profiles. Natural-processed specialty lots (especially Guji and Sidamo naturals with fruit-forward profiles) can be exceptions, sometimes matching or exceeding washed prices.
           </p>
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-2'>4. Crop Year and Freshness</h4>
           <p className='text-sm'>
-            Current-crop coffee commands better differentials than past-crop. Ethiopian harvest runs from October through February depending on the region. Coffee shipped within six months of harvest is considered fresh crop and priced accordingly.
+            Current-crop coffee commands better prices than past-crop. Ethiopian harvest runs from October through February depending on the region. Coffee shipped within six months of harvest is considered fresh crop and priced accordingly.
           </p>
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-2'>5. Cup Score</h4>
           <p className='text-sm'>
-            Lots scoring 85+ on the SCA protocol can command premiums well above standard Grade 1 pricing. Exceptional lots scoring 87 to 90+ enter the micro-lot or competition-lot category, where pricing often detaches from the C-market entirely and is negotiated as a flat rate. These lots represent some of the <Link href='/insights/most-expensive-coffee-in-the-world' className='underline font-semibold'>most expensive coffee in the world</Link>. For a detailed breakdown of micro-lot pricing tiers and how to source these premium lots, see our <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='underline font-semibold'>micro-lot Ethiopian coffee sourcing guide</Link>.
+            Lots scoring 85+ on the SCA protocol can command prices well above standard Grade 1 pricing. Exceptional lots scoring 87 to 90+ enter the micro-lot or competition-lot category, where pricing is negotiated as a flat rate per pound. These lots represent some of the <Link href='/insights/most-expensive-coffee-in-the-world' className='underline font-semibold'>most expensive coffee in the world</Link>. For a detailed breakdown of micro-lot pricing tiers and how to source these premium lots, see our <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='underline font-semibold'>micro-lot Ethiopian coffee sourcing guide</Link>.
           </p>
         </div>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-2'>6. Global Supply and Demand</h4>
           <p className='text-sm'>
-            When Brazil (the largest coffee producer) has a poor harvest, global Arabica supply tightens, the C-market rises, and Ethiopian differentials may narrow because the base price is already high. Conversely, in years of global oversupply, Ethiopian differentials often widen as buyers pay more of a premium specifically for Ethiopian quality.
+            When global Arabica supply tightens (for example, due to a poor Brazilian harvest), demand for Ethiopian coffee increases and prices rise. Conversely, in years of global oversupply, Ethiopian prices may stabilize or soften as buyers have more options.
           </p>
         </div>
       </div>
@@ -198,7 +197,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       </h3>
 
       <p className='my-4'>
-        The following table provides indicative FOB Djibouti price ranges for the 2025/2026 crop year. These are approximate figures based on prevailing market conditions and should not be taken as firm offers. Actual pricing depends on current C-market levels, specific lot quality, and availability at the time of inquiry.
+        The following table provides indicative FOB Djibouti price ranges for the 2025/2026 crop year. These are approximate figures based on prevailing market conditions and should not be taken as firm offers. Actual pricing depends on ECX rates, specific lot quality, and availability at the time of inquiry.
       </p>
 
       <div className='overflow-x-auto my-6'>
@@ -275,7 +274,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
 
       <div className='bg-amber-50 p-5 rounded-lg my-6 border border-amber-200'>
         <p className='text-sm'>
-          <span className='font-bold'>Disclaimer:</span> The prices above are indicative ranges based on 2025/2026 market conditions. Ethiopian green coffee prices fluctuate daily with C-market movements, local supply conditions, and seasonal availability. Always request a current quote for accurate pricing. Visit our <Link href='/offerings' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>current offerings</Link> page or <Link href='/contact-us' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>contact us directly</Link> for live pricing.
+          <span className='font-bold'>Disclaimer:</span> The prices above are indicative ranges based on 2025/2026 market conditions. Ethiopian green coffee prices fluctuate with ECX auction results, local supply conditions, and seasonal availability. Always request a current quote for accurate pricing. Visit our <Link href='/offerings' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>current offerings</Link> page or <Link href='/contact-us' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>contact us directly</Link> for live pricing.
         </p>
       </div>
 
@@ -390,21 +389,21 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         <div className='bg-gray-50 p-6 rounded-lg border border-gray-200'>
           <h4 className='font-bold text-lg mb-3'>Fixed Price Contract</h4>
           <p className='text-sm mb-3'>
-            The price per pound or per kilogram is locked in at the time of contract signing, regardless of where the C-market moves afterward.
+            The price per pound is locked in at the time of contract signing, regardless of where the market moves afterward.
           </p>
-          <p className='text-sm'><span className='font-bold'>Best for:</span> Importers who want cost certainty and are buying for near-term delivery. Roasters who have already priced their retail offerings and need predictable COGS (cost of goods sold).</p>
+          <p className='text-sm'><span className='font-bold'>Best for:</span> Importers who want cost certainty and are buying for near-term delivery. Roasters who have already priced their retail offerings and need predictable COGS (cost of goods sold). This is the most common contract type for Ethiopian coffee.</p>
         </div>
         <div className='bg-gray-50 p-6 rounded-lg border border-gray-200'>
-          <h4 className='font-bold text-lg mb-3'>Differential (Price-to-be-Fixed)</h4>
+          <h4 className='font-bold text-lg mb-3'>Forward Contract</h4>
           <p className='text-sm mb-3'>
-            The differential is agreed upfront (for example, +40 c/lb over the C-market), but the buyer chooses when to "fix" or "lock" the C-market component before a specified deadline.
+            Buyer and seller agree on a price for coffee to be delivered in a future shipment window, securing supply and price ahead of time.
           </p>
-          <p className='text-sm'><span className='font-bold'>Best for:</span> Experienced importers who want to time the market. Larger buyers who have the financial tools to manage hedging and are comfortable with price volatility.</p>
+          <p className='text-sm'><span className='font-bold'>Best for:</span> Experienced importers who want to secure specific lots from the upcoming harvest. Buyers who need guaranteed supply and are comfortable committing ahead of delivery.</p>
         </div>
       </div>
 
       <p className='my-4'>
-        For most importers working with Ethiopian exporters, especially those buying one to three containers per season, fixed price contracts are the most common and practical option. Differential contracts require more market knowledge and a broker relationship to hedge effectively. For a complete breakdown of contract structures and payment mechanisms, see our <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='underline font-semibold'>Ethiopian Coffee Contracts & Payment Terms Guide</Link>.
+        For most importers working with Ethiopian exporters, especially those buying one to three containers per season, fixed price contracts are the most common and practical option. Forward contracts are useful for securing supply from future harvests. For a complete breakdown of contract structures and payment mechanisms, see our <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='underline font-semibold'>Ethiopian Coffee Contracts & Payment Terms Guide</Link>.
       </p>
 
       {/* ====== SECTION 8: PAYMENT TERMS ====== */}
@@ -443,9 +442,9 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
 
       <div className='space-y-4 my-6'>
         <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
-          <h4 className='font-bold mb-2'>1. Comparing FOB quotes without checking the C-market date</h4>
+          <h4 className='font-bold mb-2'>1. Comparing FOB quotes without checking the date</h4>
           <p className='text-sm'>
-            Two exporters might quote $7.00/kg and $7.80/kg for the same coffee. But if the first quote was generated when the C-market was at 380 c/lb and the second when it was at 420 c/lb, the higher quote may actually represent a lower differential and therefore a better deal. Always ask what C-market level the offer is based on.
+            Two exporters might quote $4.50/lb and $5.20/lb for the same coffee. But if the first quote was generated two weeks earlier when ECX prices were lower, the higher quote may actually represent a more competitive margin. Always ask when the offer was priced and confirm its validity window.
           </p>
         </div>
         <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
@@ -496,7 +495,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         <div className="space-y-6">
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What is the current FOB price for Ethiopian green coffee?</h4>
-            <p className="text-sm text-gray-600">FOB prices for Ethiopian green coffee typically range from $3.00 to $4.50 per pound for commercial grades, while specialty-grade lots from regions like Yirgacheffe, Sidama, and Guji can command $5.00 to $8.00 or more per pound. Prices fluctuate based on the ICE commodity market (C-price), the specific grade and origin, seasonal availability, and the prevailing differential for Ethiopian coffees. To get an accurate, up-to-date FOB quote, it is best to contact an Ethiopian exporter directly with your volume and quality requirements.</p>
+            <p className="text-sm text-gray-600">FOB prices for Ethiopian green coffee typically range from $3.00 to $4.50 per pound for commercial grades, while specialty-grade lots from regions like Yirgacheffe, Sidama, and Guji can command $5.00 to $8.00 or more per pound. Prices fluctuate based on ECX auction results, the specific grade and origin, seasonal availability, and current demand. To get an accurate, up-to-date FOB quote, it is best to contact an Ethiopian exporter directly with your volume and quality requirements.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How much does Ethiopian coffee cost per kilogram?</h4>
@@ -504,7 +503,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What factors affect the price of Ethiopian green coffee?</h4>
-            <p className="text-sm text-gray-600">Several key factors influence Ethiopian coffee pricing. The ICE C-price sets the global benchmark for arabica. On top of that, the Ethiopian differential reflects supply, demand, and quality reputation. Coffee grade (ranging from Grade 1 specialty to Grade 5 commercial), processing method (washed vs. natural), geographic origin, and lot size all play a role. Seasonal timing also matters: prices tend to be most competitive early in the harvest season (November to February) and rise as supply tightens later in the year. Currency exchange rates and export regulations can also impact final pricing.</p>
+            <p className="text-sm text-gray-600">Several key factors influence Ethiopian coffee pricing. The ECX (Ethiopian Commodity Exchange) sets floor prices based on grade, region, and quality, and these floors apply to all Ethiopian coffee regardless of sales channel. Coffee grade (ranging from Grade 1 specialty to Grade 5 commercial), processing method (washed vs. natural), geographic origin, and lot size all play a role. Seasonal timing also matters: prices tend to be most competitive early in the harvest season (November to February) and rise as supply tightens later in the year. Currency exchange rates and export regulations can also impact final pricing.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How can I get a pricing quote from an Ethiopian coffee exporter?</h4>
@@ -512,7 +511,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How do Ethiopian coffee prices compare to other origins?</h4>
-            <p className="text-sm text-gray-600">Ethiopian coffees generally carry a premium over many other origins due to their distinctive flavor profiles, strong market demand, and the country's reputation as the birthplace of arabica coffee. Compared to Brazilian or Colombian commercial-grade coffees, Ethiopian lots often trade at a higher differential above the C-price. However, when measured against other high-end single-origin coffees from countries like Kenya, Panama, or Costa Rica, Ethiopian specialty coffees can offer excellent value, especially given their complex fruit-forward and floral cup characteristics that are highly sought after by roasters worldwide.</p>
+            <p className="text-sm text-gray-600">Ethiopian coffees generally carry a premium over many other origins due to their distinctive flavor profiles, strong market demand, and the country's reputation as the birthplace of Arabica coffee. Compared to Brazilian or Colombian commercial-grade coffees, Ethiopian lots typically trade at higher prices. However, when measured against other high-end single-origin coffees from countries like Kenya, Panama, or Costa Rica, Ethiopian specialty coffees can offer excellent value, especially given their complex fruit-forward and floral cup characteristics that are highly sought after by roasters worldwide.</p>
           </div>
         </div>
       </section>

@@ -44,7 +44,7 @@ export default function EctaMouVocationalTrainingInstitute({ title, date, source
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
-          The second is related to research and technology — to conduct research and develop technology in the coffee, tea and spices sectors. He also mentioned that coffee and tea processing training will be provided at the level of seven in the institute, and that they would like to work together to increase that. The Director General of the Institute, who stated that the training institute opened by the authority is very modern, said that they can conduct joint research and studies to further develop it.
+          The second is related to research and technology: to conduct research and develop technology in the coffee, tea and spices sectors. He also mentioned that coffee and tea processing training will be provided at the level of seven in the institute, and that they would like to work together to increase that. The Director General of the Institute, who stated that the training institute opened by the authority is very modern, said that they can conduct joint research and studies to further develop it.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>

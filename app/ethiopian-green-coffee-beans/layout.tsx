@@ -80,7 +80,7 @@ export default function EthiopianGreenCoffeeBeansLayout({
         "name": "How much do Ethiopian green coffee beans cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ethiopian green coffee beans typically range from $4-$6 per pound ($9-$13 per kg) FOB Djibouti for specialty grades (SCA 80+). Commercial grades are lower. Prices vary by origin, grade, processing method, season, and C-market conditions. Contact exporters directly for current pricing."
+          "text": "Ethiopian green coffee beans typically range from $4-$6 per pound ($9-$13 per kg) FOB Djibouti for specialty grades (SCA 80+). Commercial grades are lower. Prices vary by origin, grade, processing method, season, and current demand. Contact exporters directly for current pricing."
         }
       },
       {
@@ -88,7 +88,7 @@ export default function EthiopianGreenCoffeeBeansLayout({
         "name": "What is the minimum order for Ethiopian green coffee beans?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Standard minimum orders are one full container load (FCL) of approximately 275 bags at 60kg each (16.5 metric tons). Some exporters, including Ethio Coffee, accommodate smaller trial orders and sample shipments for new buyer relationships."
+          "text": "Standard minimum orders are one full container load (FCL) of approximately 300 bags at 60kg each (~20 metric tons / 44,000 lbs). You can mix origins and grades to fill a container. Ethio Coffee also accommodates smaller trial orders and free sample shipments for new buyer relationships."
         }
       },
       {

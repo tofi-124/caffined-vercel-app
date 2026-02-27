@@ -124,7 +124,7 @@ export const newsArticles: NewsArticle[] = [
     slug: 'russia-ethiopia-trade-435-million',
     date: '2026-02-11',
     title: 'Russia-Ethiopia Trade Hits $435 Million',
-    desc: 'Russia-Ethiopia bilateral trade nearly tripled in 2025, crossing $435 million — led by Ethiopian coffee exports including Sidamo and Harar varieties, alongside Russian fertiliser and machinery sales.',
+    desc: 'Russia-Ethiopia bilateral trade nearly tripled in 2025, crossing $435 million, led by Ethiopian coffee exports including Sidamo and Harar varieties, alongside Russian fertiliser and machinery sales.',
     source: 'Business Insider Africa',
     keywords: 'Russia Ethiopia coffee trade, Ethiopian coffee export Russia, Sidamo coffee Russia, Harar coffee Russia, Ethiopia bilateral trade, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee export growth Ethiopia',  },
   {
@@ -163,7 +163,7 @@ export const newsArticles: NewsArticle[] = [
     slug: 'world-too-hot-for-coffee-price-surge',
     date: '2026-02-24',
     title: 'The World Is Becoming Too Hot for Coffee',
-    desc: 'Global warming is making coffee cultivation increasingly difficult — Ethiopian Arabica is especially sensitive to heat. With bean prices nearly doubling since 2023, climate adaptation is critical for the future of coffee exports.',
+    desc: 'Global warming is making coffee cultivation increasingly difficult. Ethiopian Arabica is especially sensitive to heat. With bean prices nearly doubling since 2023, climate adaptation is critical for the future of coffee exports.',
     source: 'EcoPolitic / The Guardian',
     keywords: 'Ethiopian coffee climate change, coffee price surge, global warming coffee, Ethiopian Arabica heat, coffee bean prices 2025, Ethiopian coffee export, climate adaptation coffee, coffee belt temperature, Ethiopian coffee exporter',
   }
@@ -180,7 +180,7 @@ export const newsArticles: NewsArticle[] = [
     slug: 'unido-hardship-hope-ethiopia-coffee-sector',
     date: '2026-02-26',
     title: 'From Hardship to Hope in Ethiopia\'s Coffee Sector',
-    desc: 'UNIDO\'s Coffee Training Center in Addis Ababa transformed Mulunesh Chekol Maru\'s life — from selling cabbage by the roadside to becoming a professional barista, challenging gender norms and inspiring other women to pursue careers in Ethiopian coffee.',
+    desc: 'UNIDO\'s Coffee Training Center in Addis Ababa transformed Mulunesh Chekol Maru\'s life, from selling cabbage by the roadside to becoming a professional barista, challenging gender norms and inspiring other women to pursue careers in Ethiopian coffee.',
     source: 'UNIDO',
     keywords: 'Ethiopian coffee training, Coffee Training Center Ethiopia, UNIDO Ethiopia coffee, Ethiopian coffee employment, women in Ethiopian coffee, Ethiopian barista, coffee skills development Ethiopia, Ethiopian coffee exporter, ECTA coffee training',
   }

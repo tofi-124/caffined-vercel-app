@@ -53,7 +53,7 @@ const OfferingsBrowser = () => {
     })
   }
 
-  // Removed automatic scroll-to-results on mount — the programmatic scroll
+  // Removed automatic scroll-to-results on mount - the programmatic scroll
   // triggered non-user-initiated navbar state changes that counted toward CLS.
   // Users can manually scroll to the results section instead.
 

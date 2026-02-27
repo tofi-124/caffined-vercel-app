@@ -211,7 +211,7 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> A buyer-friendly guide to Ethiopia&apos;s major coffee origins including Yirgacheffe, Guji, Sidama, Harrar, Limu, Kaffa, and Jimma—covering flavor profiles, processing, altitude, and roasting recommendations.
+          <span className='font-bold'>About This Insight:</span> A buyer-friendly guide to Ethiopia&apos;s major coffee origins including Yirgacheffe, Guji, Sidama, Harrar, Limu, Kaffa, and Jimma, covering flavor profiles, processing, altitude, and roasting recommendations.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

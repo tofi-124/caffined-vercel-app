@@ -62,7 +62,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineArrowTrendingUp className='text-3xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Current Market Reality (Early 2026):</span> Arabica coffee futures are trading at 348.75 cents per pound (March 2026 contract), representing significant increases from previous years. Ethiopian specialty-grade coffees (G1 and G2) are commanding premiums of $1.50-$3.00+ per pound above the C-market, reflecting both quality and scarcity.</span>
+          <span><span className='font-bold'>Current Market Reality (Early 2026):</span> Arabica coffee futures are trading at 348.75 cents per pound (March 2026 contract), representing significant increases from previous years. Ethiopian specialty-grade coffees (G1 and G2) are commanding FOB prices of $5.00 to $7.00+ per pound, reflecting both quality and scarcity.</span>
         </p>
       </div>
 
@@ -245,7 +245,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       </h3>
 
       <p className='my-4'>
-        Currency dynamics play a crucial-and often misunderstood-role in Ethiopian coffee pricing. While the global C-market trades in US dollars, <span className='font-bold'>Ethiopian producers and exporters operate in Ethiopian Birr (ETB)</span>, creating complex pricing dynamics.
+        Currency dynamics play a crucial role in Ethiopian coffee pricing. While global coffee markets trade in US dollars, <span className='font-bold'>Ethiopian producers and exporters operate in Ethiopian Birr (ETB)</span>, creating complex pricing dynamics.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Understanding the Birr Devaluation</h4>
@@ -399,7 +399,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <h4 className='text-xl font-bold mt-8 mb-3'>Specialty Premiums in the Current Market</h4>
 
       <p className='my-4'>
-        In early 2026, Ethiopian specialty coffee typically trades at the following premiums above the C-market (which is around 340-350 cents/lb):
+        In early 2026, Ethiopian specialty coffee FOB price ranges by grade:
       </p>
 
       <div className='overflow-x-auto my-6'>
@@ -407,39 +407,32 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
           <thead>
             <tr className='bg-gray-100'>
               <th className='border border-gray-300 p-3 text-left'>Coffee Grade & Type</th>
-              <th className='border border-gray-300 p-3 text-left'>Premium Above C-Market</th>
               <th className='border border-gray-300 p-3 text-left'>Approximate FOB Price Range</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td className='border border-gray-300 p-3'>Yirgacheffe G1 Washed</td>
-              <td className='border border-gray-300 p-3'>$2.50-$3.50/lb</td>
               <td className='border border-gray-300 p-3'>$6.00-$7.00/lb</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3'>Yirgacheffe G2 Washed</td>
-              <td className='border border-gray-300 p-3'>$2.00-$2.80/lb</td>
               <td className='border border-gray-300 p-3'>$5.50-$6.30/lb</td>
             </tr>
             <tr>
               <td className='border border-gray-300 p-3'>Sidamo/Guji G1 Natural</td>
-              <td className='border border-gray-300 p-3'>$2.20-$3.00/lb</td>
               <td className='border border-gray-300 p-3'>$5.70-$6.50/lb</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3'>Sidamo/Guji G2 Natural</td>
-              <td className='border border-gray-300 p-3'>$1.80-$2.50/lb</td>
               <td className='border border-gray-300 p-3'>$5.30-$6.00/lb</td>
             </tr>
             <tr>
               <td className='border border-gray-300 p-3'>Harrar G3-G4</td>
-              <td className='border border-gray-300 p-3'>$1.50-$2.20/lb</td>
               <td className='border border-gray-300 p-3'>$4.90-$5.70/lb</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3'>Commercial Grade G4-G5</td>
-              <td className='border border-gray-300 p-3'>$0.80-$1.50/lb</td>
               <td className='border border-gray-300 p-3'>$4.20-$5.00/lb</td>
             </tr>
           </tbody>

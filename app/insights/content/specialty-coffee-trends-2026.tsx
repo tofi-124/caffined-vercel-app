@@ -189,7 +189,7 @@ export default function SpecialtyCoffeeTrends2026({ title, date, large_image_url
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This article examines the five key specialty coffee trends shaping 2026—hyper-traceability, experimental processing, climate resilience, cold coffee innovation, and story-driven premiumization—and how Ethiopian coffee is uniquely positioned to lead them.
+          <span className='font-bold'>About This Insight:</span> This article examines the five key specialty coffee trends shaping 2026: hyper-traceability, experimental processing, climate resilience, cold coffee innovation, and story-driven premiumization, and how Ethiopian coffee is uniquely positioned to lead them.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

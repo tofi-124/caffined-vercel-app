@@ -159,7 +159,7 @@ const PayPalCheckoutSection = ({
 }
 
 /**
- * Sample order popup modal — triggered by an external button.
+ * Sample order popup modal - triggered by an external button.
  */
 const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, isOpen, onClose }: SampleOrderProps) => {
   const [selectedOption, setSelectedOption] = useState<SampleOption>(sampleOptions[0])
@@ -178,7 +178,7 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
 
   if (!isOpen || isSoldOut || !sampleOptions.length) return null
 
-  // Success state — full modal replaced with confirmation
+  // Success state - full modal replaced with confirmation
   if (orderStatus === 'success') {
     return (
       <div className='fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4' onClick={onClose}>

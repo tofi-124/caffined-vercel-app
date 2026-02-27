@@ -56,7 +56,7 @@ export default function OrderingInfoLayout({
         "name": "Can I request a sample before placing a larger order?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes! We offer 100-300g samples for roast profiling and cupping. Sample costs and shipping fees may apply depending on whether you qualify for our free sample policy."
+          "text": "Yes! We offer free 100g and 300g samples for roast profiling and cupping. A flat $50 worldwide shipping fee applies."
         }
       },
       {

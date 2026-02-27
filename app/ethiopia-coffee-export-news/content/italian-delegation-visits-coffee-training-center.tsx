@@ -17,7 +17,7 @@ export default function ItalianDelegationVisitsCoffeeTrainingCenter({ title, dat
       <div className='space-y-4'>
         <h2 className='text-xl font-bold text-dark mt-6'>High-Level Italian Visit to ECTA</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          The Director General of Development Cooperation for the Italian Ministry of Foreign Affairs, H.E. Stefano Gatti and Michele Morana, Head of Office of the Italian Agency for Development Cooperation (AICS) in Addis Ababa, visited the Ethiopian Coffee Training Center (ECTA) in Addis Ababa &mdash; the first of its kind in East Africa.
+          The Director General of Development Cooperation for the Italian Ministry of Foreign Affairs, H.E. Stefano Gatti and Michele Morana, Head of Office of the Italian Agency for Development Cooperation (AICS) in Addis Ababa, visited the Ethiopian Coffee Training Center (ECTA) in Addis Ababa, the first of its kind in East Africa.
         </p>
 
         <h2 className='text-xl font-bold text-dark mt-6'>A Model for Ethiopia&ndash;Italy Cooperation</h2>

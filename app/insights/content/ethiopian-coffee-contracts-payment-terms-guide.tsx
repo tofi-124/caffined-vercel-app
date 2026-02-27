@@ -605,7 +605,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
             </tr>
             <tr className='bg-gray-50'>
               <td className='p-3 font-medium'>Price</td>
-              <td className='p-3'>USD per kilogram or per pound, FOB Djibouti</td>
+              <td className='p-3'>USD per pound, FOB Djibouti</td>
             </tr>
             <tr className='bg-white'>
               <td className='p-3 font-medium'>Quality</td>

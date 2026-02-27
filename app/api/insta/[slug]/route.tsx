@@ -71,7 +71,7 @@ async function getLogoDataUri(): Promise<string> {
 
 /* ---------- build Instagram caption ---------- */
 
-// Hook templates — rotated based on slug hash for variety
+// Hook templates - rotated based on slug hash for variety
 const HOOKS: ((title: string) => string)[] = [
   (t) => `${t} 👇`,
   (t) => `Here's what you need to know about ${extractCoreTopic(t).toLowerCase()}`,
@@ -261,7 +261,7 @@ function buildCaption(post: {
   const link = `${SITE}/insights/${slug}`
   const category = post.category?.split('/')[0]?.trim() || ''
 
-  // 1. Hook (first line — shows before "...more")
+  // 1. Hook (first line - shows before "...more")
   const hook = HOOKS[hash % HOOKS.length](post.title)
 
   // 2. Body (short bullet-style value points)
