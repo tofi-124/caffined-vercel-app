@@ -233,7 +233,7 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
             <label className='text-[11px] font-semibold uppercase tracking-widest text-gray-400 block mb-3'>
               Select Sample Size
             </label>
-            <div className='grid grid-cols-3 gap-2'>
+            <div className='grid grid-cols-2 gap-2'>
               {sampleOptions.map((option) => (
                 <button
                   key={option.weight}
@@ -280,11 +280,11 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
           </div>
 
           {/* Shipping note */}
-          <p className='text-xs text-gray-500 mb-5 flex items-center gap-1.5'>
-            <svg className='w-3.5 h-3.5 text-gray-400 flex-shrink-0' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+          <p className='text-xs text-gray-500 mb-5 flex items-start gap-1.5'>
+            <svg className='w-3.5 h-3.5 text-gray-400 flex-shrink-0 mt-0.5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
             </svg>
-            Samples are free. Flat $50 shipping worldwide. Green coffee samples ship from Addis Ababa.
+            <span>Samples are free. Flat $50 shipping worldwide. Ordering multiple samples? <a href='/contact-us' className='underline underline-offset-2 hover:text-dark transition-colors'>Reach out for a personalized quote.</a></span>
           </p>
 
           {/* PayPal Checkout */}

@@ -112,7 +112,7 @@ const faqData: FAQSection[] = [
             <p>
               Yes! You can order free evaluation samples directly from any{' '}
               <Link href='/offerings' className='underline underline-offset-4 hover:text-dark/70'>product page</Link>.
-              We offer <strong>100g, 250g, and 500g</strong> sample sizes for roast profiling and cupping. Simply select your preferred size and complete checkout via PayPal - no quote request needed.
+              We offer <strong>100g and 300g</strong> sample sizes for roast profiling and cupping. Simply select your preferred size and complete checkout via PayPal - no quote request needed.
             </p>
             <p>
               <strong>Samples are free.</strong> A flat <strong>$50 worldwide shipping fee</strong> applies. Samples ship directly from Ethiopia.
@@ -142,7 +142,7 @@ const faqData: FAQSection[] = [
               <strong>Less than full load:</strong> While we can ship less than a full container load in a full container, our strong recommendation is to maximize value by ordering a full container. Partial loads may incur additional per-unit costs.
             </p>
             <p>
-              <strong>Sample orders:</strong> Order free evaluation samples (100g, 250g, or 500g) directly from any product page via PayPal. Samples are free; a flat $50 shipping fee applies.
+              <strong>Sample orders:</strong> Order free evaluation samples (100g or 300g) directly from any product page via PayPal. Samples are free; a flat $50 shipping fee applies.
             </p>
           </>
         ),

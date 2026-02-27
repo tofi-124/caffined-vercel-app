@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from './ResponsiveImage'
+import QuickSampleButton from './QuickSampleButton'
 import type { Offering } from '../data/offerings'
 
 type Props = {
@@ -11,11 +12,11 @@ const OfferingsResultsList = ({ items }: Props) => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 w-full'>
       {items.map((o) => (
-        <Link 
-          key={o.id} 
-          href={`/product/${o.id}`}
+        <div
+          key={o.id}
           className='group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-[box-shadow,border-color] duration-500 border-2 border-[#1e3a5f] hover:border-accent flex flex-col'
         >
+        <Link href={`/product/${o.id}`} className='flex flex-col flex-1'>
           {/* Image Container with elegant overlay */}
           <div className='relative overflow-hidden bg-gradient-to-br from-stone-100 via-stone-50 to-white'>
             <div className='relative w-full aspect-[4/3] flex items-center justify-center p-6'>
@@ -111,18 +112,31 @@ const OfferingsResultsList = ({ items }: Props) => {
 
             {/* Spacer */}
             <div className='flex-1 min-h-3'></div>
-
-            {/* Footer with CTA */}
-            <div className='mt-4 pt-4 border-t border-gray-300 flex items-end justify-end'>
-              <span className='inline-flex items-center gap-1 text-sm font-semibold text-accent group-hover:gap-2 transition-all duration-300'>
-                Lot Information
-                <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5l7 7-7 7' />
-                </svg>
-              </span>
-            </div>
           </div>
         </Link>
+
+        {/* Shared footer row — outside the Link so button doesn't trigger navigation */}
+        <div className='px-6 pb-5 pt-4 border-t border-gray-300 flex items-center justify-between'>
+          {!o.isSoldOut && o.pricing.sampleOptions?.length > 0 ? (
+            <QuickSampleButton
+              productId={o.id}
+              productName={o.name}
+              sampleOptions={o.pricing.sampleOptions}
+            />
+          ) : (
+            <span />
+          )}
+          <Link
+            href={`/product/${o.id}`}
+            className='inline-flex items-center gap-1 text-sm font-semibold text-accent hover:gap-2 transition-all duration-300'
+          >
+            Lot Information
+            <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5l7 7-7 7' />
+            </svg>
+          </Link>
+        </div>
+        </div>
       ))}
 
       {items.length === 0 && (
