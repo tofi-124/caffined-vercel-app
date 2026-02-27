@@ -183,5 +183,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'UNIDO\'s Coffee Training Center in Addis Ababa transformed Mulunesh Chekol Maru\'s life, from selling cabbage by the roadside to becoming a professional barista, challenging gender norms and inspiring other women to pursue careers in Ethiopian coffee.',
     source: 'UNIDO',
     keywords: 'Ethiopian coffee training, Coffee Training Center Ethiopia, UNIDO Ethiopia coffee, Ethiopian coffee employment, women in Ethiopian coffee, Ethiopian barista, coffee skills development Ethiopia, Ethiopian coffee exporter, ECTA coffee training',
+  },
+  {
+    slug: 'ethiopian-tea-development-30000-hectares',
+    date: '2026-02-26',
+    title: 'A New Chapter in Ethiopian Tea Development: From 6,400 to 30,000 Hectares',
+    desc: "A strategic field survey in Jimma Zone, led by senior officials including ECTA Director General Dr. Adugna Debela, maps Ethiopia's ambitious plan to expand tea cultivation from 13,000 to 30,000 hectares across Oromia and Southwestern regions.",
+    source: 'Sahlemariam Gebremedhin',
+    keywords: 'Ethiopian tea development, Ethiopian tea cultivation, Jimma tea, Oromia tea expansion, ECTA tea initiative, Ethiopian Coffee and Tea Authority, tea hectares Ethiopia, Ethiopian agricultural export, PM Abiy Ahmed tea initiative',
   }
 ]
