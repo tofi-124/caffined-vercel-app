@@ -226,6 +226,7 @@ const faqData: FAQSection[] = [
     ],
   },
   {
+    title: 'Ordering & Samples',
     icon: <GiCoffeeBeans />,
     items: [
       {
