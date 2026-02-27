@@ -52,15 +52,15 @@ export async function POST(request: NextRequest) {
 
     const accessToken = await getPayPalAccessToken()
 
-    const SHIPPING_COST = 25.00
-    const totalPrice = price + SHIPPING_COST
+    const SHIPPING_COST = 50.00
+    const totalPrice = SHIPPING_COST // sample is free; buyer pays shipping only
 
     const orderPayload: Record<string, unknown> = {
       intent: 'CAPTURE',
       purchase_units: [
         {
           reference_id: `sample-${productId}-${Date.now()}`,
-          description: `${productName} Coffee Sample - ${sampleWeight}`,
+          description: `${productName} Coffee Sample - ${sampleWeight} (Free sample, shipping only)`,
           custom_id: JSON.stringify({
             productId,
             sampleWeight,
@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
             breakdown: {
               item_total: {
                 currency_code: 'USD',
-                value: price.toFixed(2),
+                value: '0.00',
               },
               shipping: {
                 currency_code: 'USD',
@@ -83,12 +83,12 @@ export async function POST(request: NextRequest) {
           },
           items: [
             {
-              name: `${productName} - Green Coffee Sample`,
-              description: `${sampleWeight} sample of ${productName} Ethiopian green coffee beans for cupping/evaluation`,
+              name: `${productName} - Green Coffee Sample (Free)`,
+              description: `${sampleWeight} free sample of ${productName} Ethiopian green coffee beans for cupping/evaluation. Buyer pays shipping only.`,
               quantity: '1',
               unit_amount: {
                 currency_code: 'USD',
-                value: price.toFixed(2),
+                value: '0.00',
               },
               category: 'PHYSICAL_GOODS',
             },

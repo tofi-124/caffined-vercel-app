@@ -212,7 +212,7 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
         {/* Header */}
         <div className='flex items-center justify-between p-6 pb-0'>
           <div>
-            <h2 className='text-xl font-bold text-dark'>Order a Sample</h2>
+            <h2 className='text-xl font-bold text-dark'>Get a Free Sample</h2>
             <p className='text-sm text-gray-500 mt-0.5'>{productName} - Green Coffee</p>
           </div>
           <button
@@ -254,7 +254,7 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
                   <span className={`block text-sm font-bold mt-1 ${
                     selectedOption.weight === option.weight ? 'text-accent' : 'text-gray-700'
                   }`}>
-                    ${option.priceUSD.toFixed(2)}
+                    Free
                   </span>
                 </button>
               ))}
@@ -267,15 +267,15 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
               <span className='text-sm text-gray-600'>
                 {productName} - {selectedOption.weight} sample
               </span>
-              <span className='text-sm font-bold text-dark'>${selectedOption.priceUSD.toFixed(2)}</span>
+              <span className='text-sm font-bold text-emerald-600'>Free</span>
             </div>
             <div className='flex items-center justify-between'>
               <span className='text-sm text-gray-600'>Worldwide shipping</span>
-              <span className='text-sm font-bold text-dark'>$25.00</span>
+              <span className='text-sm font-bold text-dark'>$50.00</span>
             </div>
             <div className='flex items-center justify-between pt-2 border-t border-gray-200'>
               <span className='text-sm font-semibold text-dark'>Total</span>
-              <span className='text-lg font-bold text-dark'>${(selectedOption.priceUSD + 25).toFixed(2)}</span>
+              <span className='text-lg font-bold text-dark'>$50.00</span>
             </div>
           </div>
 
@@ -284,7 +284,7 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
             <svg className='w-3.5 h-3.5 text-gray-400 flex-shrink-0' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
             </svg>
-            Flat $25 shipping worldwide. Green coffee samples ship from Addis Ababa.
+            Samples are free. Flat $50 shipping worldwide. Green coffee samples ship from Addis Ababa.
           </p>
 
           {/* PayPal Checkout */}
