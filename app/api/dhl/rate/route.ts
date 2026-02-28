@@ -31,11 +31,9 @@ export async function POST(request: NextRequest) {
 
     // Verify DHL credentials are configured — fall back to flat rate if not
     if (!DHL_API_KEY || !DHL_API_SECRET || DHL_API_KEY === 'your_dhl_username_here' || DHL_API_KEY === 'demo-key') {
-      const flatRatePerKg = 60 // USD per kg
-      // Minimum shipping is $60; above 1 kg charge $60/kg
-      const totalPrice = weight <= 1
-        ? flatRatePerKg
-        : Math.round(weight * flatRatePerKg * 100) / 100
+      const ratePer500g = 45 // USD per 500g
+      const floorFee = 45   // minimum shipping fee
+      const totalPrice = Math.max(floorFee, Math.ceil(weightGrams / 500) * ratePer500g)
       return NextResponse.json({
         totalPrice,
         currency: 'USD',
