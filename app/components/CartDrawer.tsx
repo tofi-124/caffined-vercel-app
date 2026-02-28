@@ -3,12 +3,14 @@
 import { useCart } from './CartContext'
 import Link from 'next/link'
 import { useEffect } from 'react'
+import { ArrowRight } from './Arrow'
 
 const CartDrawer = () => {
   const {
     items,
     removeItem,
     updateQuantity,
+    clearCart,
     itemCount,
     subtotal,
     isCartOpen,
@@ -77,7 +79,7 @@ const CartDrawer = () => {
                 onClick={() => setIsCartOpen(false)}
                 className='mt-4 text-sm font-semibold text-accent hover:text-dark transition-colors'
               >
-                Browse Offerings &rarr;
+                Browse Offerings <ArrowRight className='inline-block h-4 w-4 ml-1' />
               </Link>
             </div>
           ) : (
@@ -144,6 +146,12 @@ const CartDrawer = () => {
               className='block w-full py-2.5 text-sm font-medium text-dark border border-gray-200 hover:border-dark rounded-full text-center transition-colors'
             >
               Continue Browsing
+            </button>
+            <button
+              onClick={clearCart}
+              className='block w-full py-2.5 text-sm font-medium text-red-500 border border-red-200 hover:bg-red-50 hover:border-red-400 rounded-full text-center transition-colors'
+            >
+              Clear Cart
             </button>
           </div>
         )}

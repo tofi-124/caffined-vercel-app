@@ -194,11 +194,14 @@ export default function CheckoutPage() {
           {/* Left: Form */}
           <div className='flex-1 space-y-6'>
             {/* Cart items */}
-            <div className='bg-white rounded-2xl p-6 shadow-sm'>
-              <h2 className='text-lg font-bold text-dark mb-4'>Your Items ({itemCount})</h2>
-              <ul className='divide-y divide-gray-100'>
+            <div className='bg-white rounded-2xl p-6 shadow-md border border-stone-200'>
+              <h2 className='text-lg font-bold text-dark mb-4 flex items-center gap-2'>
+                <svg className='w-5 h-5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4' /></svg>
+                Your Items ({itemCount})
+              </h2>
+              <ul className='divide-y divide-stone-200'>
                 {items.map(item => (
-                  <li key={`${item.productId}-${item.weight}`} className='flex items-center gap-4 py-3'>
+                  <li key={`${item.productId}-${item.weight}`} className='flex items-center gap-4 py-4'>
                     <div className='flex-1 min-w-0'>
                       <p className='font-semibold text-dark text-sm'>{item.productName}</p>
                       <p className='text-xs text-gray-500'>{item.weight} &middot; ${item.priceUSD.toFixed(2)} each</p>
@@ -206,14 +209,14 @@ export default function CheckoutPage() {
                     <div className='flex items-center gap-2'>
                       <button
                         onClick={() => updateQuantity(item.productId, item.weight, item.quantity - 1)}
-                        className='w-7 h-7 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:border-accent text-sm'
+                        className='w-8 h-8 rounded-lg border-2 border-stone-300 flex items-center justify-center text-dark hover:border-accent hover:text-accent transition-colors text-sm font-bold'
                       >
                         &minus;
                       </button>
-                      <span className='text-sm font-semibold w-5 text-center'>{item.quantity}</span>
+                      <span className='text-sm font-bold w-6 text-center text-dark'>{item.quantity}</span>
                       <button
                         onClick={() => updateQuantity(item.productId, item.weight, item.quantity + 1)}
-                        className='w-7 h-7 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:border-accent text-sm'
+                        className='w-8 h-8 rounded-lg border-2 border-stone-300 flex items-center justify-center text-dark hover:border-accent hover:text-accent transition-colors text-sm font-bold'
                       >
                         +
                       </button>
@@ -235,45 +238,48 @@ export default function CheckoutPage() {
             </div>
 
             {/* Shipping address */}
-            <div className='bg-white rounded-2xl p-6 shadow-sm'>
-              <h2 className='text-lg font-bold text-dark mb-4'>Shipping Address</h2>
+            <div className='bg-white rounded-2xl p-6 shadow-md border border-stone-200'>
+              <h2 className='text-lg font-bold text-dark mb-5 flex items-center gap-2'>
+                <svg className='w-5 h-5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' /><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' /></svg>
+                Shipping Address
+              </h2>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className='md:col-span-2'>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Full Name *</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>Full Name *</label>
                   <input
                     type='text'
                     value={address.fullName}
                     onChange={(e) => updateField('fullName', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark placeholder:text-stone-400'
                     placeholder='John Doe'
                   />
                 </div>
                 <div>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Email *</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>Email *</label>
                   <input
                     type='email'
                     value={address.email}
                     onChange={(e) => updateField('email', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark placeholder:text-stone-400'
                     placeholder='john@company.com'
                   />
                 </div>
                 <div>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Phone</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>Phone</label>
                   <input
                     type='tel'
                     value={address.phone}
                     onChange={(e) => updateField('phone', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark placeholder:text-stone-400'
                     placeholder='+1 234 567 890'
                   />
                 </div>
                 <div className='md:col-span-2'>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Country *</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>Country *</label>
                   <select
                     value={address.countryCode}
                     onChange={(e) => updateField('countryCode', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm bg-white'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark'
                   >
                     <option value=''>Select country...</option>
                     {COUNTRIES.map(c => (
@@ -282,52 +288,52 @@ export default function CheckoutPage() {
                   </select>
                 </div>
                 <div className='md:col-span-2'>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Address Line 1 *</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>Address Line 1 *</label>
                   <input
                     type='text'
                     value={address.addressLine1}
                     onChange={(e) => updateField('addressLine1', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark placeholder:text-stone-400'
                     placeholder='Street address'
                   />
                 </div>
                 <div className='md:col-span-2'>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Address Line 2</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>Address Line 2</label>
                   <input
                     type='text'
                     value={address.addressLine2}
                     onChange={(e) => updateField('addressLine2', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark placeholder:text-stone-400'
                     placeholder='Apt, suite, unit (optional)'
                   />
                 </div>
                 <div>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>City *</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>City *</label>
                   <input
                     type='text'
                     value={address.city}
                     onChange={(e) => updateField('city', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark placeholder:text-stone-400'
                     placeholder='City'
                   />
                 </div>
                 <div>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>State / Province</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>State / Province</label>
                   <input
                     type='text'
                     value={address.state}
                     onChange={(e) => updateField('state', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark placeholder:text-stone-400'
                     placeholder='State or province'
                   />
                 </div>
                 <div>
-                  <label className='block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1'>Postal Code *</label>
+                  <label className='block text-xs font-semibold text-dark/70 uppercase tracking-wider mb-1.5'>Postal Code *</label>
                   <input
                     type='text'
                     value={address.postalCode}
                     onChange={(e) => updateField('postalCode', e.target.value)}
-                    className='w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent outline-none transition-all text-sm'
+                    className='w-full px-4 py-3 bg-stone-50 border-2 border-stone-300 rounded-xl focus:ring-2 focus:ring-accent/30 focus:border-accent focus:bg-white outline-none transition-all text-sm text-dark placeholder:text-stone-400'
                     placeholder='Zip / Postal code'
                   />
                 </div>
@@ -336,46 +342,55 @@ export default function CheckoutPage() {
           </div>
 
           {/* Right: Order summary */}
-          <div className='lg:w-80 space-y-6'>
-            <div id='order-summary' className='bg-white rounded-2xl p-6 shadow-sm sticky top-24'>
-              <h2 className='text-lg font-bold text-dark mb-4'>Order Summary</h2>
+          <div className='lg:w-96 space-y-6'>
+            <div id='order-summary' className='rounded-2xl border-2 border-stone-300 bg-white sticky top-24 overflow-hidden'>
+              {/* Header */}
+              <div className='bg-stone-100 px-6 py-4 border-b-2 border-stone-300'>
+                <h2 className='text-lg font-bold text-dark flex items-center gap-2'>
+                  <svg className='w-5 h-5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2' /></svg>
+                  Order Summary
+                </h2>
+              </div>
 
-              <div className='space-y-3 text-sm'>
+              {/* Body */}
+              <div className='px-6 py-5 space-y-4 text-sm'>
                 <div className='flex justify-between'>
                   <span className='text-gray-600'>Items ({itemCount})</span>
-                  <span className='font-semibold text-dark'>${subtotal.toFixed(2)}</span>
+                  <span className='font-bold text-dark'>${subtotal.toFixed(2)}</span>
                 </div>
                 <div className='flex justify-between'>
                   <span className='text-gray-600'>DHL Shipping</span>
                   {shippingLoading ? (
                     <span className='flex items-center gap-1 text-gray-400'>
-                      <span className='w-3 h-3 border border-gray-300 border-t-accent rounded-full animate-spin' />
+                      <span className='w-3 h-3 border-2 border-gray-300 border-t-accent rounded-full animate-spin' />
                       Calculating...
                     </span>
                   ) : shippingCost !== null ? (
-                    <span className='font-semibold text-dark'>${shippingCost.toFixed(2)}</span>
+                    <span className='font-bold text-dark'>${shippingCost.toFixed(2)}</span>
                   ) : (
                     <span className='text-gray-400 text-xs'>Enter address</span>
                   )}
                 </div>
                 {shippingError && (
-                  <div className='p-2 rounded-lg bg-amber-50 border border-amber-200'>
+                  <div className='p-3 rounded-xl bg-amber-50 border-2 border-amber-300'>
                     <p className='text-xs text-amber-700'>{shippingError}</p>
-                    <button onClick={calculateShipping} className='text-xs text-accent font-semibold mt-1 hover:underline'>
+                    <button onClick={calculateShipping} className='text-xs text-accent font-bold mt-1 hover:underline'>
                       Retry
                     </button>
                   </div>
                 )}
-                <div className='pt-3 border-t border-gray-100 flex justify-between'>
-                  <span className='font-bold text-dark'>Total</span>
-                  <span className='text-xl font-bold text-dark'>
-                    {shippingCost !== null ? `$${totalPrice.toFixed(2)}` : '-'}
-                  </span>
-                </div>
+              </div>
+
+              {/* Total */}
+              <div className='mx-6 py-4 border-t-2 border-stone-300 flex justify-between items-center'>
+                <span className='font-bold text-dark text-base'>Total</span>
+                <span className='text-2xl font-bold text-accent'>
+                  {shippingCost !== null ? `$${totalPrice.toFixed(2)}` : '-'}
+                </span>
               </div>
 
               {/* PayPal */}
-              <div className='mt-6'>
+              <div className='px-6 pb-6 pt-2'>
                 {canPay ? (
                   <PayPalProvider>
                     <CheckoutPayPal
@@ -387,21 +402,30 @@ export default function CheckoutPage() {
                     />
                   </PayPalProvider>
                 ) : (
-                  <div className='py-3 text-center'>
-                    <p className='text-xs text-gray-400'>
+                  <div className='py-4 px-4 rounded-xl bg-stone-100 border-2 border-stone-300 text-center'>
+                    <p className='text-xs text-gray-500 font-medium'>
                       {items.length === 0
                         ? 'Add items to your cart'
                         : !isAddressValid
-                          ? 'Complete your shipping address to continue'
+                          ? `Fill in required fields: ${[
+                              !address.fullName.trim() && 'Name',
+                              !address.email.trim() && 'Email',
+                              !address.addressLine1.trim() && 'Address',
+                              !address.city.trim() && 'City',
+                              !address.postalCode.trim() && 'Postal Code',
+                              !address.countryCode && 'Country',
+                            ].filter(Boolean).join(', ')}`
                           : 'Waiting for shipping calculation...'}
                     </p>
                   </div>
                 )}
               </div>
 
-              <p className='text-[10px] text-gray-400 mt-4 text-center'>
-                Shipped via DHL Express from Addis Ababa, Ethiopia
-              </p>
+              <div className='px-6 pb-4'>
+                <p className='text-[10px] text-gray-400 text-center'>
+                  Shipped via DHL Express from Addis Ababa, Ethiopia
+                </p>
+              </div>
             </div>
           </div>
         </div>
