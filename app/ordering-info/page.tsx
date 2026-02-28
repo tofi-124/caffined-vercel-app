@@ -254,12 +254,12 @@ const faqData: FAQSection[] = [
         answer: (
           <>
             <p>
-              Yes! You can order free evaluation samples directly from any{' '}
+              Yes! You can purchase evaluation samples directly from any{' '}
               <Link href='/offerings' className='underline underline-offset-4 hover:text-dark/70'>product page</Link>.
-              We offer <strong>100g and 300g</strong> sample sizes for roast profiling and cupping. Simply select your preferred size and complete checkout via PayPal - no quote request needed.
+              We offer <strong>300g</strong> samples at a <strong>nominal cost</strong> for roast profiling and cupping. Simply add to cart and complete checkout via PayPal - no quote request needed.
             </p>
             <p>
-              <strong>Samples are free.</strong> A flat <strong>$50 worldwide shipping fee</strong> applies. Samples ship directly from Ethiopia.
+              Shipping is calculated at checkout via <strong>DHL Express</strong> based on your destination. Samples ship directly from Ethiopia.
             </p>
           </>
         ),
@@ -286,7 +286,7 @@ const faqData: FAQSection[] = [
               <strong>Less than full load:</strong> While we can ship less than a full container load in a full container, our strong recommendation is to maximize value by ordering a full container. Partial loads may incur additional per-unit costs.
             </p>
             <p>
-              <strong>Sample orders:</strong> Order free evaluation samples (100g or 300g) directly from any product page via PayPal. Samples are free; a flat $50 shipping fee applies.
+              <strong>Sample orders:</strong> Purchase 300g evaluation samples at a nominal cost directly from any product page via PayPal. Shipping via DHL Express is calculated at checkout.
             </p>
           </>
         ),
@@ -621,11 +621,11 @@ export default function OrderingInfoPage() {
             item.question.includes('buy green coffee') ? 
               'Browse our Current Offerings, then request a quote for the coffees you are interested in. From there, we will provide a formal quotation, finalize terms, and handle all export documentation and logistics coordination.' :
             item.question.includes('sample before') ? 
-              'Yes! You can order free evaluation samples directly from any product page. We offer 100g and 300g sample sizes for roast profiling and cupping. Simply select your preferred size and complete checkout via PayPal. Samples are free; a flat $50 worldwide shipping fee applies.' :
+              'Yes! You can purchase 300g evaluation samples at a nominal cost directly from any product page. Add to cart and complete checkout via PayPal. Shipping via DHL Express is calculated at checkout based on your destination.' :
             item.question.includes('packaged') ? 
               'Green coffee ships in GrainPro hermetic liners inside jute bags. Standard sizes are 60 kg or 30 kg bags. Vacuum-sealed options available for micro-lots.' :
             item.question.includes('minimum order') ? 
-      'Our minimum order quantity is one full container load (FCL), approximately 20 metric tons / 44,000 lbs, or roughly 275-320 bags (60 kg each). You can mix and match different coffee types and grades to create a diverse selection. For evaluation, order free samples (100g or 300g) directly from any product page via PayPal. A flat $50 shipping fee applies.' :
+      'Our minimum order quantity is one full container load (FCL), approximately 20 metric tons / 44,000 lbs, or roughly 275-320 bags (60 kg each). You can mix and match different coffee types and grades to create a diverse selection. For evaluation, purchase 300g samples at a nominal cost directly from any product page via PayPal. Shipping via DHL Express is calculated at checkout.' :
             item.question.includes('certified coffees') ? 
               'Yes, depending on availability, we offer Organic (USDA/EU), Fair Trade, and Rainforest Alliance certified coffees. Certified lots have limited availability and may require advance booking.' :
             item.question.includes('traceability') ? 
@@ -763,7 +763,7 @@ export default function OrderingInfoPage() {
             <div className='w-24 h-1 bg-accent mx-auto mb-16'></div>
 
             {[
-              { title: 'Browse & Sample', desc: 'Review our current lots. Order free 100g or 300g samples via PayPal ($50 flat shipping). Cup them alongside your current program to assess fit.' },
+              { title: 'Browse & Sample', desc: 'Review our current lots. Purchase 300g samples at a nominal cost via PayPal with DHL Express shipping. Cup them alongside your current program to assess fit.' },
               { title: 'Request a Quote', desc: 'Tell us the origin, grade, volume, and your preferred Incoterm. We respond within 24 hours with a transparent, itemized quotation in USD per pound.' },
               { title: 'Approve the Contract', desc: 'We issue a sales contract with all agreed terms: lot specs, price, payment schedule, Incoterm, and shipment window. You sign and send a deposit (typically 50%).' },
               { title: 'Pre-Shipment Sample Approval', desc: 'We pull a sample directly from your lot and send it to you. You cup and approve before we load. This is your quality confirmation step.' },

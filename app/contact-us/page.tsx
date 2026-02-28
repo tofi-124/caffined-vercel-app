@@ -148,7 +148,7 @@ const WholesaleInquiryPage = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Free Sample Program:</strong> Evaluate quality before committing to orders</span>
+                  <span><strong>Sample Program:</strong> Purchase evaluation samples before committing to orders</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>✓</span>

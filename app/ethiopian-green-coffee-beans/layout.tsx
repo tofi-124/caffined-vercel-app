@@ -88,7 +88,7 @@ export default function EthiopianGreenCoffeeBeansLayout({
         "name": "What is the minimum order for Ethiopian green coffee beans?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Standard minimum orders are one full container load (FCL) of approximately 300 bags at 60kg each (~20 metric tons / 44,000 lbs). You can mix origins and grades to fill a container. Ethio Coffee also accommodates smaller trial orders and free sample shipments for new buyer relationships."
+          "text": "Standard minimum orders are one full container load (FCL) of approximately 300 bags at 60kg each (~20 metric tons / 44,000 lbs). You can mix origins and grades to fill a container. Ethio Coffee also offers affordable 300g evaluation samples for new buyer relationships."
         }
       },
       {

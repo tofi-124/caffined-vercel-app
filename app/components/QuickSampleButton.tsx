@@ -1,53 +1,64 @@
 'use client'
 
 import { useState } from 'react'
-import dynamic from 'next/dynamic'
 import type { SampleOption } from '../data/offerings'
-
-const PayPalProvider = dynamic(() => import('./PayPalProvider'), { ssr: false })
-const SampleOrderPopup = dynamic(() => import('./SampleOrderButton'), { ssr: false })
+import { useCart } from './CartContext'
 
 type Props = {
   productId: string
   productName: string
   sampleOptions: SampleOption[]
+  image_url?: string
 }
 
-const QuickSampleButton = ({ productId, productName, sampleOptions }: Props) => {
-  const [isOpen, setIsOpen] = useState(false)
+const QuickSampleButton = ({ productId, productName, sampleOptions, image_url }: Props) => {
+  const { addItem } = useCart()
+  const [justAdded, setJustAdded] = useState(false)
 
   if (!sampleOptions || sampleOptions.length === 0) return null
 
-  return (
-    <>
-      <button
-        type='button'
-        onClick={(e) => {
-          e.preventDefault()
-          e.stopPropagation()
-          setIsOpen(true)
-        }}
-        title='Get a free sample'
-        className='inline-flex items-center gap-1.5 text-sm font-semibold text-dark/60 hover:text-accent transition-colors duration-200'
-      >
-        <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-          <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4' />
-        </svg>
-        Free Sample
-      </button>
+  const handleAdd = (e: React.MouseEvent) => {
+    e.preventDefault()
+    e.stopPropagation()
+    // Add the first (smallest) sample option
+    const option = sampleOptions[0]
+    addItem({
+      productId,
+      productName,
+      weight: option.weight,
+      weightGrams: option.weightGrams,
+      priceUSD: option.priceUSD,
+      image_url: image_url || 'product-img.png',
+    })
+    setJustAdded(true)
+    setTimeout(() => setJustAdded(false), 1500)
+  }
 
-      {isOpen && (
-        <PayPalProvider>
-          <SampleOrderPopup
-            productId={productId}
-            productName={productName}
-            sampleOptions={sampleOptions}
-            isOpen={isOpen}
-            onClose={() => setIsOpen(false)}
-          />
-        </PayPalProvider>
+  return (
+    <button
+      type='button'
+      onClick={handleAdd}
+      title='Add sample to cart'
+      className={`inline-flex items-center gap-1.5 text-sm font-semibold transition-colors duration-200 ${
+        justAdded ? 'text-emerald-600' : 'text-dark/60 hover:text-accent'
+      }`}
+    >
+      {justAdded ? (
+        <>
+          <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M5 13l4 4L19 7' />
+          </svg>
+          Added!
+        </>
+      ) : (
+        <>
+          <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z' />
+          </svg>
+          Add Sample
+        </>
       )}
-    </>
+    </button>
   )
 }
 

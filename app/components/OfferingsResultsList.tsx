@@ -122,6 +122,7 @@ const OfferingsResultsList = ({ items }: Props) => {
               productId={o.id}
               productName={o.name}
               sampleOptions={o.pricing.sampleOptions}
+              image_url={o.image_url}
             />
           ) : (
             <span />

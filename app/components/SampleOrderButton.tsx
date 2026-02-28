@@ -94,9 +94,13 @@ const PayPalCheckoutSection = ({
     }
   }
 
-  const handleError = () => {
-    setOrderStatus('error')
-    setOrderMessage('Something went wrong with PayPal. Please try again.')
+  const handleError = (err: unknown) => {
+    console.error('PayPal onError:', err)
+    // Only set generic message if handleCreateOrder hasn't already set a specific one
+    if (orderStatus !== 'error') {
+      setOrderStatus('error')
+      setOrderMessage('Something went wrong with PayPal. Please try again.')
+    }
   }
 
   if (isPending) {
@@ -212,7 +216,7 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
         {/* Header */}
         <div className='flex items-center justify-between p-6 pb-0'>
           <div>
-            <h2 className='text-xl font-bold text-dark'>Get a Free Sample</h2>
+            <h2 className='text-xl font-bold text-dark'>Order a Sample</h2>
             <p className='text-sm text-gray-500 mt-0.5'>{productName} - Green Coffee</p>
           </div>
           <button
@@ -254,7 +258,7 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
                   <span className={`block text-sm font-bold mt-1 ${
                     selectedOption.weight === option.weight ? 'text-accent' : 'text-gray-700'
                   }`}>
-                    Free
+                    ${option.priceUSD.toFixed(2)}
                   </span>
                 </button>
               ))}
@@ -267,24 +271,20 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
               <span className='text-sm text-gray-600'>
                 {productName} - {selectedOption.weight} sample
               </span>
-              <span className='text-sm font-bold text-emerald-600'>Free</span>
-            </div>
-            <div className='flex items-center justify-between'>
-              <span className='text-sm text-gray-600'>Worldwide shipping</span>
-              <span className='text-sm font-bold text-dark'>$50.00</span>
+              <span className='text-sm font-bold text-dark'>${selectedOption.priceUSD.toFixed(2)}</span>
             </div>
             <div className='flex items-center justify-between pt-2 border-t border-gray-200'>
               <span className='text-sm font-semibold text-dark'>Total</span>
-              <span className='text-lg font-bold text-dark'>$50.00</span>
+              <span className='text-lg font-bold text-dark'>${selectedOption.priceUSD.toFixed(2)}</span>
             </div>
           </div>
 
-          {/* Shipping note */}
+          {/* Note */}
           <p className='text-xs text-gray-500 mb-5 flex items-start gap-1.5'>
             <svg className='w-3.5 h-3.5 text-gray-400 flex-shrink-0 mt-0.5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
             </svg>
-            <span>Samples are free. Flat $50 shipping worldwide. Ordering multiple samples? <a href='/contact-us' className='underline underline-offset-2 hover:text-dark transition-colors'>Reach out for a personalized quote.</a></span>
+            <span>Ordering multiple samples? <a href='/contact-us' className='underline underline-offset-2 hover:text-dark transition-colors'>Reach out for a personalized quote.</a></span>
           </p>
 
           {/* PayPal Checkout */}

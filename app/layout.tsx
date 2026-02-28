@@ -8,6 +8,8 @@ import ScrollToTop from './components/ScrollToTop'
 import ContactFAB from './components/WhatsAppButton'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { CartProvider } from './components/CartContext'
+import CartDrawer from './components/CartDrawer'
 
 const oswald = Oswald({ 
   subsets: ['latin'],
@@ -181,12 +183,15 @@ export default function RootLayout({
         />
         {/* BreadcrumbList Schema - removed: breadcrumbs should be hierarchical per-page, not flat site-wide */}
         <ScrollToTop />
+        <CartProvider>
         <ContactFAB />
+        <CartDrawer />
         <Navbar />
         <div className="min-h-screen">
           {children}
         </div>
         <Footer />
+        </CartProvider>
         <Analytics />
         <SpeedInsights />
       </body>

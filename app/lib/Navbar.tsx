@@ -7,6 +7,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 import Link from 'next/link'
 import ResponsiveImage from '../components/ResponsiveImage'
 import { usePathname } from 'next/navigation'
+import CartIcon from '../components/CartIcon'
 
 // Use useLayoutEffect on client to read scroll position before paint, preventing CLS
 const useIsomorphicLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
@@ -125,6 +126,11 @@ const Navbar = () => {
                     {/* Right Navigation Links + CTA */}
                     <div id='nav-links-right' className='hidden lg:flex items-center gap-8'>
                         <NavLinks position="right" isHome={isHome} scrolled={scrolled} />
+                        <div className={`transition-colors duration-300 ${
+                            scrolled ? 'text-dark' : isHome ? 'text-white' : 'text-dark'
+                        }`}>
+                            <CartIcon />
+                        </div>
                         <Link 
                             href="/contact-us"
                             className={`px-5 py-2.5 rounded-full font-medium text-sm transition-all duration-300 transform hover:scale-105 ${
@@ -140,7 +146,13 @@ const Navbar = () => {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <button 
+                    <div className='lg:hidden flex items-center gap-2'>
+                        <div className={`transition-colors duration-300 ${
+                            scrolled ? 'text-dark' : 'text-white'
+                        }`}>
+                            <CartIcon />
+                        </div>
+                        <button 
                         onClick={(e) => { e.preventDefault(); setIsOpened((prev) => !prev) }} 
                         className={`lg:hidden p-2.5 rounded-full transition-all duration-300 ${
                             scrolled 
@@ -154,6 +166,7 @@ const Navbar = () => {
                             : <BiMenuAltRight className='text-xl' />
                         }
                     </button>
+                    </div>
                 </nav>
 
                 {/* Decorative bottom border that appears on scroll */}

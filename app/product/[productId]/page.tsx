@@ -4,8 +4,7 @@ import Link from 'next/link'
 import { offerings } from '../../data/offerings'
 import Image from 'next/image'
 import QuoteRequestPopup from '../../components/QuoteRequestPopup'
-import PayPalProvider from '../../components/PayPalProvider'
-import SampleOrderPopup from '../../components/SampleOrderButton'
+import AddToCartButton from '../../components/AddToCartButton'
 
 // Lazy-load PDF generator to keep jspdf (~100 KiB) out of the initial bundle
 const lazyGenerateProductPDF = async (product: Parameters<typeof import('../../lib/pdfGenerator').generateProductPDF>[0]) => {
@@ -31,7 +30,6 @@ const OfferingDetail = ({ params }: Props) => {
   const { productId } = use(params);
   const product = offerings.find(p => p.id === productId)
   const [isQuoteOpen, setIsQuoteOpen] = useState(false)
-  const [isSampleOpen, setIsSampleOpen] = useState(false)
   const productImageRef = useRef<HTMLDivElement>(null);
   const specsSectionRef = useRef<HTMLDivElement>(null);
   
@@ -494,15 +492,13 @@ const OfferingDetail = ({ params }: Props) => {
               </button>
 
               {product.pricing.sampleOptions && product.pricing.sampleOptions.length > 0 && !product.isSoldOut && (
-                <button
-                  onClick={() => setIsSampleOpen(true)}
-                  className='flex-1 flex items-center justify-center gap-2 px-6 py-4 bg-dark hover:bg-accent text-white rounded-full font-semibold transition-all duration-300 shadow-sm hover:shadow-lg'
-                >
-                  <svg className='w-5 h-5' viewBox='0 0 24 24' fill='none' stroke='currentColor'>
-                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4' />
-                  </svg>
-                  <span>Get Free Sample</span>
-                </button>
+                <AddToCartButton
+                  productId={product.id}
+                  productName={product.name}
+                  sampleOptions={product.pricing.sampleOptions}
+                  image_url={product.image_url}
+                  isSoldOut={product.isSoldOut}
+                />
               )}
               
               <button 
@@ -524,18 +520,6 @@ const OfferingDetail = ({ params }: Props) => {
                 isAllocationList={product.isSoldOut}
               />
 
-              {product.pricing.sampleOptions && product.pricing.sampleOptions.length > 0 && !product.isSoldOut && (
-                <PayPalProvider>
-                  <SampleOrderPopup
-                    productId={product.id}
-                    productName={product.name}
-                    sampleOptions={product.pricing.sampleOptions}
-                    isSoldOut={product.isSoldOut}
-                    isOpen={isSampleOpen}
-                    onClose={() => setIsSampleOpen(false)}
-                  />
-                </PayPalProvider>
-              )}
             </div>
           </div>
         </div>

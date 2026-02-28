@@ -1093,7 +1093,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Do Ethiopian coffee exporters offer sample orders before full containers?</h4>
-            <p className="text-sm text-gray-600">Most reputable exporters provide cupping samples (200g to 500g) free of charge. Some also offer trial lots of 5 to 10 bags so buyers can test roast and evaluate before committing to a full container.</p>
+            <p className="text-sm text-gray-600">Most reputable exporters offer cupping samples (200g to 500g) at a nominal cost. Some also offer trial lots of 5 to 10 bags so buyers can test roast and evaluate before committing to a full container.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What is the difference between FCL and LCL shipping for Ethiopian coffee?</h4>

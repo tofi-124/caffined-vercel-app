@@ -270,7 +270,7 @@ export default function CoffeeGradingPage() {
             { origin: 'Guji', grades: 'G1, G2', typical: 'G1 Natural', score: '85-89+', link: '/ethiopian-coffee-guji' },
             { origin: 'Harar', grades: 'G1, G4', typical: 'G1 Natural', score: '82-86+', link: '/ethiopian-coffee-harar' },
             { origin: 'Limu', grades: 'G2, G3', typical: 'G2 Washed', score: '82-85+', link: '/ethiopian-coffee-limu' },
-            { origin: 'Lekempti', grades: 'G2, G3', typical: 'G2 Washed', score: '82-85+', link: '/product/lekempti' },
+            { origin: 'Lekempti', grades: 'G4, G5', typical: 'G4 Natural', score: '74-77+', link: '/product/lekempti-natural-g4' },
           ].map((item) => (
             <Link key={item.origin} href={item.link} className='bg-primary rounded-2xl p-6 border border-dark/10 hover:shadow-md transition-all'>
               <h3 className='text-xl font-extrabold text-accent mb-2'>{item.origin}</h3>
