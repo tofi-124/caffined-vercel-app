@@ -166,7 +166,7 @@ export default function CheckoutPage() {
             </svg>
           </div>
           <h1 className='text-3xl font-bold text-dark mb-3'>Your Cart is Empty</h1>
-          <p className='text-gray-500 mb-8'>Add some coffee samples to get started.</p>
+          <p className='text-gray-500 mb-8'>Browse our offerings to add samples.</p>
           <Link
             href='/offerings'
             className='inline-flex items-center gap-2 px-8 py-4 bg-accent hover:bg-dark text-white rounded-full font-semibold transition-all'
@@ -195,7 +195,7 @@ export default function CheckoutPage() {
           <div className='flex-1 space-y-6'>
             {/* Cart items */}
             <div className='bg-white rounded-2xl p-6 shadow-sm'>
-              <h2 className='text-lg font-bold text-dark mb-4'>Your Samples ({itemCount})</h2>
+              <h2 className='text-lg font-bold text-dark mb-4'>Your Items ({itemCount})</h2>
               <ul className='divide-y divide-gray-100'>
                 {items.map(item => (
                   <li key={`${item.productId}-${item.weight}`} className='flex items-center gap-4 py-3'>
@@ -337,12 +337,12 @@ export default function CheckoutPage() {
 
           {/* Right: Order summary */}
           <div className='lg:w-80 space-y-6'>
-            <div className='bg-white rounded-2xl p-6 shadow-sm sticky top-24'>
+            <div id='order-summary' className='bg-white rounded-2xl p-6 shadow-sm sticky top-24'>
               <h2 className='text-lg font-bold text-dark mb-4'>Order Summary</h2>
 
               <div className='space-y-3 text-sm'>
                 <div className='flex justify-between'>
-                  <span className='text-gray-600'>Samples ({itemCount})</span>
+                  <span className='text-gray-600'>Items ({itemCount})</span>
                   <span className='font-semibold text-dark'>${subtotal.toFixed(2)}</span>
                 </div>
                 <div className='flex justify-between'>
@@ -390,7 +390,7 @@ export default function CheckoutPage() {
                   <div className='py-3 text-center'>
                     <p className='text-xs text-gray-400'>
                       {items.length === 0
-                        ? 'Add samples to your cart'
+                        ? 'Add items to your cart'
                         : !isAddressValid
                           ? 'Complete your shipping address to continue'
                           : 'Waiting for shipping calculation...'}
@@ -405,6 +405,33 @@ export default function CheckoutPage() {
             </div>
           </div>
         </div>
+
+        {/* Sticky mobile bottom bar */}
+        <div className='fixed bottom-0 left-0 right-0 lg:hidden bg-white border-t border-gray-200 px-4 py-3 z-50 shadow-[0_-4px_12px_rgba(0,0,0,0.08)]'>
+          <div className='flex items-center justify-between max-w-5xl mx-auto'>
+            <div>
+              <p className='text-xs text-gray-500'>Total</p>
+              <p className='text-lg font-bold text-dark'>
+                {shippingCost !== null ? `$${totalPrice.toFixed(2)}` : `$${subtotal.toFixed(2)} + shipping`}
+              </p>
+            </div>
+            {canPay ? (
+              <a
+                href='#order-summary'
+                className='px-6 py-3 bg-accent text-white rounded-full font-semibold text-sm hover:bg-dark transition-colors'
+              >
+                Pay Now &darr;
+              </a>
+            ) : (
+              <p className='text-xs text-gray-400 text-right max-w-[180px]'>
+                {!isAddressValid ? 'Fill in shipping address' : 'Calculating shipping...'}
+              </p>
+            )}
+          </div>
+        </div>
+
+        {/* Bottom spacer for sticky bar on mobile */}
+        <div className='h-20 lg:hidden' />
       </div>
     </main>
   )

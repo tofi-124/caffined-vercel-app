@@ -48,7 +48,7 @@ const CartDrawer = () => {
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z' />
             </svg>
             <h2 className='text-lg font-bold text-dark'>
-              Sample Cart {itemCount > 0 && <span className='text-accent'>({itemCount})</span>}
+              Cart {itemCount > 0 && <span className='text-accent'>({itemCount})</span>}
             </h2>
           </div>
           <button
@@ -71,7 +71,7 @@ const CartDrawer = () => {
                   <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={1.5} d='M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4' />
                 </svg>
               </div>
-              <p className='text-gray-500 text-sm'>Your sample cart is empty</p>
+              <p className='text-gray-500 text-sm'>Your cart is empty</p>
               <Link
                 href='/offerings'
                 onClick={() => setIsCartOpen(false)}
@@ -126,9 +126,9 @@ const CartDrawer = () => {
 
         {/* Footer */}
         {items.length > 0 && (
-          <div className='border-t border-gray-100 p-5 space-y-3'>
+          <div className='border-t border-gray-100 p-5 pb-8 space-y-3'>
             <div className='flex items-center justify-between'>
-              <span className='text-sm text-gray-600'>Subtotal ({itemCount} sample{itemCount > 1 ? 's' : ''})</span>
+              <span className='text-sm text-gray-600'>Subtotal ({itemCount} item{itemCount > 1 ? 's' : ''})</span>
               <span className='text-lg font-bold text-dark'>${subtotal.toFixed(2)}</span>
             </div>
             <p className='text-xs text-gray-400'>Shipping calculated at checkout via DHL</p>
@@ -141,7 +141,7 @@ const CartDrawer = () => {
             </Link>
             <button
               onClick={() => setIsCartOpen(false)}
-              className='block w-full py-2 text-sm text-gray-500 hover:text-dark text-center transition-colors'
+              className='block w-full py-2.5 text-sm font-medium text-dark border border-gray-200 hover:border-dark rounded-full text-center transition-colors'
             >
               Continue Browsing
             </button>
