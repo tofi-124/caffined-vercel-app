@@ -65,7 +65,7 @@ export async function POST(request: NextRequest) {
         )
         .join(', ')
 
-      const orderPayload = {
+      const orderPayload: Record<string, unknown> = {
         intent: 'CAPTURE',
         purchase_units: [
           {
@@ -94,8 +94,25 @@ export async function POST(request: NextRequest) {
               unit_amount: { currency_code: 'USD', value: i.priceUSD.toFixed(2) },
               category: 'PHYSICAL_GOODS',
             })),
+            ...(shippingAddress ? {
+              shipping: {
+                name: { full_name: shippingAddress.fullName || '' },
+                address: {
+                  address_line_1: shippingAddress.addressLine1 || '',
+                  ...(shippingAddress.addressLine2 ? { address_line_2: shippingAddress.addressLine2 } : {}),
+                  admin_area_2: shippingAddress.city || '',
+                  admin_area_1: shippingAddress.state || '',
+                  postal_code: shippingAddress.postalCode || '',
+                  country_code: shippingAddress.countryCode || 'US',
+                },
+              },
+            } : {}),
           },
         ],
+        // Tell PayPal to use the address we provide — prevents asking the buyer again
+        application_context: {
+          shipping_preference: shippingAddress ? 'SET_PROVIDED_ADDRESS' : 'GET_FROM_FILE',
+        },
       }
 
       const response = await fetch(`${PAYPAL_API_BASE}/v2/checkout/orders`, {
