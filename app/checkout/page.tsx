@@ -406,32 +406,7 @@ export default function CheckoutPage() {
           </div>
         </div>
 
-        {/* Sticky mobile bottom bar */}
-        <div className='fixed bottom-0 left-0 right-0 lg:hidden bg-white border-t border-gray-200 px-4 py-3 z-50 shadow-[0_-4px_12px_rgba(0,0,0,0.08)]'>
-          <div className='flex items-center justify-between max-w-5xl mx-auto'>
-            <div>
-              <p className='text-xs text-gray-500'>Total</p>
-              <p className='text-lg font-bold text-dark'>
-                {shippingCost !== null ? `$${totalPrice.toFixed(2)}` : `$${subtotal.toFixed(2)} + shipping`}
-              </p>
-            </div>
-            {canPay ? (
-              <a
-                href='#order-summary'
-                className='px-6 py-3 bg-accent text-white rounded-full font-semibold text-sm hover:bg-dark transition-colors'
-              >
-                Pay Now &darr;
-              </a>
-            ) : (
-              <p className='text-xs text-gray-400 text-right max-w-[180px]'>
-                {!isAddressValid ? 'Fill in shipping address' : 'Calculating shipping...'}
-              </p>
-            )}
-          </div>
-        </div>
 
-        {/* Bottom spacer for sticky bar on mobile */}
-        <div className='h-20 lg:hidden' />
       </div>
     </main>
   )

@@ -11,6 +11,38 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE DRY MILLING EXPORT GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-dry-milling-export-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-dry-milling-export-guide.webp',
+      date: 'Feb 28, 2026',
+      title: 'Ethiopian Coffee Dry Milling: Export Preparation Guide',
+      slug: 'ethiopian-coffee-dry-milling-export-guide',
+      category: 'Quality Control / Processing Standards / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Ethiopian coffee dry milling',
+        'coffee dry mill process',
+        'green coffee milling export Ethiopia',
+        'coffee hulling and sorting',
+        'coffee export preparation Ethiopia',
+        'coffee grading dry mill',
+        'what is dry milling in coffee',
+        'how does a coffee dry mill work',
+        'Ethiopian coffee export preparation steps',
+        'Ethiopian green coffee grading G1 G2 G3',
+        'coffee parchment to green bean conversion',
+        'dry mill coffee quality control',
+        'coffee hand sorting labor Ethiopia',
+        'green coffee color sorting process',
+        'coffee density sorting table',
+        'coffee hulling machine types',
+        'Ethiopian coffee pre-shipment sample',
+        'GrainPro bag Ethiopian specialty coffee',
+        'ECX milling vs DSL milling Ethiopia',
+        'Ethiopian coffee milling yield'
+      ],
+      desc: 'Step-by-step guide to Ethiopian coffee dry milling: how parchment becomes export-ready green beans through hulling, size grading, density sorting, color sorting, hand sorting, and bagging. Includes yield tables, importer checklists, and pre-shipment sample guidance for B2B buyers.'
+    },
     // ===== ANAEROBIC ETHIOPIAN COFFEE PROCESSING BUYER'S GUIDE =====
     {
       small_image_url: 'insights/anaerobic-ethiopian-coffee-processing-buyers-guide.webp',
