@@ -9,11 +9,15 @@ import { COMPANY_EMAIL } from '../lib/constants'
 export default function ContactFAB() {
   const [isOpen, setIsOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
   const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER
 
   useEffect(() => {
     setIsVisible(true)
+    // Detect mobile via user agent
+    const mobile = /Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    setIsMobile(mobile)
   }, [])
 
   // Close on outside click
@@ -28,7 +32,9 @@ export default function ContactFAB() {
   }, [isOpen])
 
   const whatsappUrl = whatsappNumber
-    ? `https://web.whatsapp.com/send?phone=${whatsappNumber}&text=`
+    ? isMobile
+      ? `https://wa.me/${whatsappNumber}?text=`
+      : `https://web.whatsapp.com/send?phone=${whatsappNumber}&text=`
     : null
 
   return (

@@ -29,12 +29,17 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Invalid weight' }, { status: 400 })
     }
 
-    // Verify DHL credentials are configured
+    // Verify DHL credentials are configured — fall back to flat rate if not
     if (!DHL_API_KEY || !DHL_API_SECRET || DHL_API_KEY === 'your_dhl_username_here' || DHL_API_KEY === 'demo-key') {
-      return NextResponse.json(
-        { error: 'Shipping rate calculation is currently unavailable. Please contact us for a shipping quote.' },
-        { status: 503 }
-      )
+      const flatRatePerKg = 60 // USD per kg
+      const totalPrice = Math.round(weight * flatRatePerKg * 100) / 100
+      return NextResponse.json({
+        totalPrice,
+        currency: 'USD',
+        provider: 'flat-rate',
+        productName: 'Standard International Shipping',
+        estimatedDays: '7-14',
+      })
     }
 
     // DHL Express Rate Request
