@@ -83,13 +83,14 @@ export async function POST(request: NextRequest) {
     const cartItems = body.cartItems || []
     const shippingCost = body.shippingCost || 0
     const shippingAddr = body.shippingAddress || purchaseUnit?.shipping?.address
+    const orderNotes = body.orderNotes || ''
 
     // Build items summary for emails
     let itemsSummaryHtml = ''
     let emailSubject = ''
 
     if (isCartOrder && cartItems.length > 0) {
-      emailSubject = `☕ New Sample Order (${cartItems.length} item${cartItems.length > 1 ? 's' : ''}) - Paid`
+      emailSubject = `New Sample Order (${cartItems.length} item${cartItems.length > 1 ? 's' : ''}) - Paid`
       itemsSummaryHtml = `
         <h3>Items Ordered</h3>
         <table style="width:100%;border-collapse:collapse;">
@@ -118,7 +119,7 @@ export async function POST(request: NextRequest) {
       const coffeeName = body.productName || customData.productId?.toUpperCase() || 'N/A'
       const weight = body.sampleWeight || customData.sampleWeight || 'N/A'
       const price = body.samplePrice || 'N/A'
-      emailSubject = `☕ New Sample Order Paid - ${coffeeName} ${weight}`
+      emailSubject = `New Sample Order Paid - ${coffeeName} ${weight}`
       itemsSummaryHtml = `
         <h3>Product</h3>
         <p><strong>Coffee:</strong> ${coffeeName}</p>
@@ -161,6 +162,8 @@ export async function POST(request: NextRequest) {
           <p><strong>Payment Status:</strong> ${capture?.status || captureData.status}</p>
           
           ${itemsSummaryHtml}
+          
+          ${orderNotes ? `<h3>Order Notes</h3><p style="background:#fffbeb;padding:10px;border-radius:6px;border:1px solid #fde68a;">${orderNotes}</p>` : ''}
           
           <h3>Buyer Information</h3>
           <p><strong>Name:</strong> ${payerName}</p>

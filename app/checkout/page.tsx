@@ -14,6 +14,7 @@ const CheckoutPayPal = dynamic(() => import('../components/CheckoutPayPal'), { s
   shippingCost: number
   totalPrice: number
   address: ShippingAddress
+  orderNotes?: string
   onComplete: (orderId: string) => void
 }>
 
@@ -73,6 +74,7 @@ export default function CheckoutPage() {
   const [shippingError, setShippingError] = useState('')
   const [orderComplete, setOrderComplete] = useState(false)
   const [orderRef, setOrderRef] = useState('')
+  const [orderNotes, setOrderNotes] = useState('')
 
   const canCalculateShipping = address.countryCode && address.city && address.postalCode && items.length > 0
 
@@ -126,6 +128,7 @@ export default function CheckoutPage() {
     setOrderRef(orderId)
     setOrderComplete(true)
     clearCart()
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const updateField = (field: keyof ShippingAddress, value: string) => {
@@ -338,6 +341,7 @@ export default function CheckoutPage() {
                   />
                 </div>
               </div>
+
             </div>
           </div>
 
@@ -389,6 +393,25 @@ export default function CheckoutPage() {
                 </span>
               </div>
 
+              {/* Additional Notes */}
+              <div className='mx-6 pb-4'>
+                <label className='block text-[10px] font-semibold text-dark/50 uppercase tracking-wider mb-1.5'>
+                  <span className='flex items-center gap-1'>
+                    <svg className='w-3.5 h-3.5 text-accent/60' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z' /></svg>
+                    Order Notes (optional)
+                  </span>
+                </label>
+                <textarea
+                  value={orderNotes}
+                  onChange={(e) => setOrderNotes(e.target.value)}
+                  rows={2}
+                  maxLength={500}
+                  className='w-full px-3 py-2.5 bg-amber-50/40 border border-amber-200/80 rounded-lg focus:ring-2 focus:ring-accent/20 focus:border-accent focus:bg-white outline-none transition-all text-xs text-dark placeholder:text-stone-400 resize-none'
+                  placeholder='Delivery instructions, special requests...'
+                />
+                <p className='text-[9px] text-stone-400 mt-0.5 text-right'>{orderNotes.length}/500</p>
+              </div>
+
               {/* PayPal */}
               <div className='px-6 pb-6 pt-2'>
                 {canPay ? (
@@ -398,6 +421,7 @@ export default function CheckoutPage() {
                       shippingCost={shippingCost!}
                       totalPrice={totalPrice}
                       address={address}
+                      orderNotes={orderNotes}
                       onComplete={handleOrderComplete}
                     />
                   </PayPalProvider>

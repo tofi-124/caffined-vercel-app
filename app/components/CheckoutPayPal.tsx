@@ -21,10 +21,11 @@ type Props = {
   shippingCost: number
   totalPrice: number
   address: ShippingAddress
+  orderNotes?: string
   onComplete: (orderId: string) => void
 }
 
-const CheckoutPayPal = ({ items, shippingCost, totalPrice, address, onComplete }: Props) => {
+const CheckoutPayPal = ({ items, shippingCost, totalPrice, address, orderNotes, onComplete }: Props) => {
   const [{ isPending, isRejected }] = usePayPalScriptReducer()
   const [status, setStatus] = useState<'idle' | 'processing' | 'error'>('idle')
   const [errorMsg, setErrorMsg] = useState('')
@@ -76,6 +77,7 @@ const CheckoutPayPal = ({ items, shippingCost, totalPrice, address, onComplete }
           })),
           shippingCost,
           shippingAddress: address,
+          orderNotes: orderNotes || '',
         }),
       })
       const captureData = await res.json()

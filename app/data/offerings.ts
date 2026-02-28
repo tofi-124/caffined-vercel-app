@@ -92,7 +92,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Washed G1 - FOB Djibouti - 38.4 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -144,7 +144,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Washed G1 - FOB Djibouti - 38.4 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -196,7 +196,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Washed G2 - FOB Djibouti - 38.4 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -248,7 +248,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Washed G2 - FOB Djibouti - 76.8 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -300,7 +300,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G1 - FOB Djibouti - 38.4 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -352,7 +352,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G1 - FOB Djibouti - 38.4 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -404,7 +404,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G4 - FOB Djibouti - 192 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -456,7 +456,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G4 - FOB Djibouti - 192 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -508,7 +508,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G4 - FOB Djibouti - 192 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -560,7 +560,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G4 - FOB Djibouti - 192 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -612,7 +612,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G4 - FOB Djibouti - 192 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -664,7 +664,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G5 - FOB Djibouti - 192 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
@@ -716,7 +716,7 @@ export const offerings: Offering[] = [
       minimumOrder: null,
       priceNote: '2025/26 crop - Natural G5 - FOB Djibouti - 192 MT available',
       sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+        { weight: '300g', weightGrams: 300, priceUSD: 10.00, description: 'Roast trial sample' },
       ],
     },
     isSoldOut: false,
