@@ -35,15 +35,15 @@ const PartnerCard = ({ placeAndLocation, lang }: Partner) => {
   )
 }
 
-const Testimonials = () => {
-  const partners: Partner[] = [
-    { placeAndLocation: 'Algrano, Switzerland' },
-    { placeAndLocation: 'Beyco, Netherlands' },
-    { placeAndLocation: 'Coffee Exchange, China' },
-    { placeAndLocation: 'Crop to Cup, USA' },
-    { placeAndLocation: 'Sikupi, Indonesia' },
-  ]
+const partners: Partner[] = [
+  { placeAndLocation: 'Algrano, Switzerland' },
+  { placeAndLocation: 'Beyco, Netherlands' },
+  { placeAndLocation: 'Coffee Exchange, China' },
+  { placeAndLocation: 'Crop to Cup, USA' },
+  { placeAndLocation: 'Sikupi, Indonesia' },
+]
 
+const Testimonials = () => {
   const [current, setCurrent] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
 
@@ -86,7 +86,7 @@ const Testimonials = () => {
             <AiOutlineLeft className='w-5 h-5 sm:w-7 sm:h-7' />
           </button>
 
-          <div className='w-full overflow-hidden'>
+          <div className='w-full overflow-hidden' aria-live='polite'>
             <div
               className='flex transition-transform duration-500 ease-in-out'
               style={{ transform: `translateX(-${current * 100}%)` }}

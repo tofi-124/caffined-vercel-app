@@ -10,6 +10,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { CartProvider } from './components/CartContext'
 import CartDrawer from './components/CartDrawer'
+import ErrorBoundary from './components/ErrorBoundary'
 
 const oswald = Oswald({ 
   subsets: ['latin'],
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.ethiocoffee.co',
+    url: 'https://www.ethiocoffee.co/',
     title: 'Ethiopian Green Coffee Export | Ethio Coffee',
     description: 'Leading Ethiopian coffee exporter shipping specialty green coffee worldwide. We export Grade 1-4 Yirgacheffe, Sidamo & Guji direct from Ethiopia.',
     siteName: 'Ethio Coffee',
@@ -183,6 +184,7 @@ export default function RootLayout({
         />
         {/* BreadcrumbList Schema - removed: breadcrumbs should be hierarchical per-page, not flat site-wide */}
         <ScrollToTop />
+        <ErrorBoundary>
         <CartProvider>
         <ContactFAB />
         <CartDrawer />
@@ -192,6 +194,7 @@ export default function RootLayout({
         </div>
         <Footer />
         </CartProvider>
+        </ErrorBoundary>
         <Analytics />
         <SpeedInsights />
       </body>

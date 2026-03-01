@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from './ResponsiveImage'
 import QuickSampleButton from './QuickSampleButton'
@@ -132,7 +131,7 @@ const OfferingsResultsList = ({ items }: Props) => {
             className='inline-flex items-center gap-1 text-sm font-semibold text-accent hover:gap-2 transition-all duration-300'
           >
             Lot Information
-            <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+            <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24' aria-hidden='true'>
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5l7 7-7 7' />
             </svg>
           </Link>
@@ -143,7 +142,7 @@ const OfferingsResultsList = ({ items }: Props) => {
       {items.length === 0 && (
         <div className='col-span-full border border-gray-200 rounded-3xl p-16 text-center bg-white'>
           <div className='w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center'>
-            <svg className='w-8 h-8 text-gray-400' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+            <svg className='w-8 h-8 text-gray-400' fill='none' stroke='currentColor' viewBox='0 0 24 24' aria-hidden='true'>
               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={1.5} d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
             </svg>
           </div>

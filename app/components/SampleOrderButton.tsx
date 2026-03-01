@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { PayPalButtons, usePayPalScriptReducer } from '@paypal/react-paypal-js'
 import type { SampleOption } from '../data/offerings'
+import { COMPANY_EMAIL } from '../lib/constants'
 
 type SampleOrderProps = {
   productId: string
@@ -90,7 +91,7 @@ const PayPalCheckoutSection = ({
     } catch (error) {
       console.error('Error capturing payment:', error)
       setOrderStatus('error')
-      setOrderMessage('Payment could not be processed. If funds were deducted, please contact us at coffee@ethiocoffee.co.')
+      setOrderMessage('Payment could not be processed. If funds were deducted, please contact us at ' + COMPANY_EMAIL + '.')
     }
   }
 
@@ -180,12 +181,22 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
     return () => { document.body.style.overflow = '' }
   }, [isOpen])
 
+  // Close on Escape key
+  useEffect(() => {
+    if (!isOpen) return
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [isOpen, onClose])
+
   if (!isOpen || isSoldOut || !sampleOptions.length) return null
 
   // Success state - full modal replaced with confirmation
   if (orderStatus === 'success') {
     return (
-      <div className='fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4' onClick={onClose}>
+      <div className='fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4' role='dialog' aria-modal='true' aria-label='Sample order confirmation' onClick={onClose}>
         <div className='bg-white rounded-3xl max-w-md w-full p-8 text-center shadow-2xl' onClick={e => e.stopPropagation()}>
           <div className='w-16 h-16 mx-auto mb-5 rounded-full bg-emerald-100 flex items-center justify-center'>
             <svg className='w-8 h-8 text-emerald-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
@@ -208,7 +219,7 @@ const SampleOrderPopup = ({ productId, productName, sampleOptions, isSoldOut, is
   }
 
   return (
-    <div className='fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4' onClick={onClose}>
+    <div className='fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4' role='dialog' aria-modal='true' aria-label={`Order ${productName} sample`} onClick={onClose}>
       <div
         className='bg-white rounded-3xl max-w-lg w-full max-h-[90vh] overflow-y-auto shadow-2xl animate-slide-up'
         onClick={e => e.stopPropagation()}

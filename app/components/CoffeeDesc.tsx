@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import HeadLine from '../lib/Headline'
 
 const headlines = [

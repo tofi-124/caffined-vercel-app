@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
+import { escapeHtml, isValidPayPalOrderId } from '../../../lib/sanitize'
+import { rateLimit, getClientIp } from '../../../lib/rate-limit'
+import { COMPANY_EMAIL } from '../../../lib/constants'
 
 const PAYPAL_CLIENT_ID = process.env.PAYPAL_CLIENT_ID!
 const PAYPAL_CLIENT_SECRET = process.env.PAYPAL_CLIENT_SECRET!
@@ -8,7 +11,7 @@ const PAYPAL_API_BASE = process.env.PAYPAL_MODE === 'live'
   : 'https://api-m.sandbox.paypal.com'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
-const TO_EMAIL = process.env.CONTACT_EMAIL || 'coffee@ethiocoffee.co'
+const TO_EMAIL = process.env.CONTACT_EMAIL || COMPANY_EMAIL
 const FROM_EMAIL = process.env.FROM_EMAIL || 'noreply@ethiocoffee.co'
 
 async function getPayPalAccessToken(): Promise<string> {
@@ -32,6 +35,13 @@ async function getPayPalAccessToken(): Promise<string> {
 }
 
 export async function POST(request: NextRequest) {
+  // Rate limit: 10 capture attempts per IP per minute
+  const ip = getClientIp(request)
+  const { allowed } = rateLimit(`paypal-capture:${ip}`, 10, 60_000)
+  if (!allowed) {
+    return NextResponse.json({ error: 'Too many requests. Please try again shortly.' }, { status: 429 })
+  }
+
   try {
     const body = await request.json()
     const { orderID } = body
@@ -39,6 +49,14 @@ export async function POST(request: NextRequest) {
     if (!orderID) {
       return NextResponse.json(
         { error: 'Missing orderID' },
+        { status: 400 }
+      )
+    }
+
+    // Validate orderID format to prevent SSRF / path traversal
+    if (!isValidPayPalOrderId(orderID)) {
+      return NextResponse.json(
+        { error: 'Invalid order ID format' },
         { status: 400 }
       )
     }
@@ -71,12 +89,18 @@ export async function POST(request: NextRequest) {
     // Extract order details
     const purchaseUnit = captureData.purchase_units?.[0]
     const capture = purchaseUnit?.payments?.captures?.[0]
-    const customData = purchaseUnit?.custom_id ? JSON.parse(purchaseUnit.custom_id) : {}
+    let customData: Record<string, unknown> = {}
+    try {
+      customData = purchaseUnit?.custom_id ? JSON.parse(purchaseUnit.custom_id) : {}
+    } catch {
+      // If custom_id is malformed, continue with empty object
+      customData = {}
+    }
 
-    const payerEmail = captureData.payer?.email_address || customData.email || body.shippingAddress?.email || 'N/A'
+    const payerEmail = captureData.payer?.email_address || (customData.email as string) || body.shippingAddress?.email || 'N/A'
     const payerName = captureData.payer?.name
       ? `${captureData.payer.name.given_name} ${captureData.payer.name.surname}`
-      : customData.name || body.shippingAddress?.fullName || 'N/A'
+      : (customData.name as string) || body.shippingAddress?.fullName || 'N/A'
 
     // Determine if this is a cart order or legacy single-item order
     const isCartOrder = Boolean(body.cartItems)
@@ -85,7 +109,7 @@ export async function POST(request: NextRequest) {
     const shippingAddr = body.shippingAddress || purchaseUnit?.shipping?.address
     const orderNotes = body.orderNotes || ''
 
-    // Build items summary for emails
+    // Build items summary for emails — all user data is HTML-escaped
     let itemsSummaryHtml = ''
     let emailSubject = ''
 
@@ -102,10 +126,10 @@ export async function POST(request: NextRequest) {
           </tr>
           ${cartItems.map((i: { productName: string; weight: string; quantity: number; priceUSD: number }) => `
             <tr style="border-bottom:1px solid #f5f5f5;">
-              <td style="padding:6px 8px;">${i.productName}</td>
-              <td style="text-align:center;padding:6px 8px;">${i.weight}</td>
-              <td style="text-align:center;padding:6px 8px;">${i.quantity}</td>
-              <td style="text-align:right;padding:6px 8px;">$${(i.priceUSD * i.quantity).toFixed(2)}</td>
+              <td style="padding:6px 8px;">${escapeHtml(i.productName)}</td>
+              <td style="text-align:center;padding:6px 8px;">${escapeHtml(i.weight)}</td>
+              <td style="text-align:center;padding:6px 8px;">${escapeHtml(i.quantity)}</td>
+              <td style="text-align:right;padding:6px 8px;">$${(Number(i.priceUSD) * Number(i.quantity)).toFixed(2)}</td>
             </tr>
           `).join('')}
           <tr style="border-top:2px solid #ddd;">
@@ -116,22 +140,21 @@ export async function POST(request: NextRequest) {
       `
     } else {
       // Legacy single-item
-      const coffeeName = body.productName || customData.productId?.toUpperCase() || 'N/A'
-      const weight = body.sampleWeight || customData.sampleWeight || 'N/A'
+      const coffeeName = body.productName || (customData.productId as string)?.toUpperCase() || 'N/A'
+      const weight = body.sampleWeight || (customData.sampleWeight as string) || 'N/A'
       const price = body.samplePrice || 'N/A'
-      emailSubject = `New Sample Order Paid - ${coffeeName} ${weight}`
+      emailSubject = `New Sample Order Paid - ${escapeHtml(coffeeName)} ${escapeHtml(weight)}`
       itemsSummaryHtml = `
         <h3>Product</h3>
-        <p><strong>Coffee:</strong> ${coffeeName}</p>
-        <p><strong>Sample Size:</strong> ${weight}</p>
-        <p><strong>Sample Price:</strong> $${typeof price === 'number' ? price.toFixed(2) : price} USD</p>
+        <p><strong>Coffee:</strong> ${escapeHtml(coffeeName)}</p>
+        <p><strong>Sample Size:</strong> ${escapeHtml(weight)}</p>
+        <p><strong>Sample Price:</strong> $${typeof price === 'number' ? price.toFixed(2) : escapeHtml(price)} USD</p>
       `
     }
 
-    // Format shipping address for email
+    // Format shipping address for email — all values are HTML-escaped
     const formatAddress = (addr: Record<string, string> | null) => {
       if (!addr) return '<p><em>No shipping address provided</em></p>'
-      // Handle both our format and PayPal's format
       const line1 = addr.addressLine1 || addr.address_line_1 || ''
       const line2 = addr.addressLine2 || addr.address_line_2 || ''
       const city = addr.city || addr.admin_area_2 || ''
@@ -139,10 +162,10 @@ export async function POST(request: NextRequest) {
       const postal = addr.postalCode || addr.postal_code || ''
       const country = addr.countryCode || addr.country_code || ''
       return `
-        <p>${line1}</p>
-        ${line2 ? `<p>${line2}</p>` : ''}
-        <p>${city}${state ? `, ${state}` : ''} ${postal}</p>
-        <p>${country}</p>
+        <p>${escapeHtml(line1)}</p>
+        ${line2 ? `<p>${escapeHtml(line2)}</p>` : ''}
+        <p>${escapeHtml(city)}${state ? `, ${escapeHtml(state)}` : ''} ${escapeHtml(postal)}</p>
+        <p>${escapeHtml(country)}</p>
       `
     }
 
@@ -156,18 +179,18 @@ export async function POST(request: NextRequest) {
           <h2>New Sample Order - Payment Confirmed</h2>
           <hr />
           <h3>Order Details</h3>
-          <p><strong>PayPal Order ID:</strong> ${orderID}</p>
-          <p><strong>PayPal Capture ID:</strong> ${capture?.id || 'N/A'}</p>
-          <p><strong>Amount Paid:</strong> $${capture?.amount?.value || 'N/A'} ${capture?.amount?.currency_code || 'USD'}</p>
-          <p><strong>Payment Status:</strong> ${capture?.status || captureData.status}</p>
+          <p><strong>PayPal Order ID:</strong> ${escapeHtml(orderID)}</p>
+          <p><strong>PayPal Capture ID:</strong> ${escapeHtml(capture?.id || 'N/A')}</p>
+          <p><strong>Amount Paid:</strong> $${escapeHtml(capture?.amount?.value || 'N/A')} ${escapeHtml(capture?.amount?.currency_code || 'USD')}</p>
+          <p><strong>Payment Status:</strong> ${escapeHtml(capture?.status || captureData.status)}</p>
           
           ${itemsSummaryHtml}
           
-          ${orderNotes ? `<h3>Order Notes</h3><p style="background:#fffbeb;padding:10px;border-radius:6px;border:1px solid #fde68a;">${orderNotes}</p>` : ''}
+          ${orderNotes ? `<h3>Order Notes</h3><p style="background:#fffbeb;padding:10px;border-radius:6px;border:1px solid #fde68a;">${escapeHtml(orderNotes)}</p>` : ''}
           
           <h3>Buyer Information</h3>
-          <p><strong>Name:</strong> ${payerName}</p>
-          <p><strong>Email:</strong> ${payerEmail}</p>
+          <p><strong>Name:</strong> ${escapeHtml(payerName)}</p>
+          <p><strong>Email:</strong> ${escapeHtml(payerEmail)}</p>
           <h3>Shipping Address</h3>
           ${formatAddress(shippingAddr)}
           
@@ -179,32 +202,33 @@ export async function POST(request: NextRequest) {
       console.error('Failed to send sample order notification email:', emailError)
     }
 
-    // Send confirmation email to buyer
-    if (payerEmail && payerEmail !== 'N/A') {
+    // Send confirmation email to buyer (only to PayPal-verified email, not client-supplied)
+    const verifiedPayerEmail = captureData.payer?.email_address
+    if (verifiedPayerEmail && verifiedPayerEmail !== 'N/A') {
       const buyerItemsHtml = isCartOrder && cartItems.length > 0
         ? cartItems.map((i: { productName: string; weight: string; quantity: number; priceUSD: number }) =>
-            `<p>• ${i.productName} - ${i.weight} x${i.quantity} ($${(i.priceUSD * i.quantity).toFixed(2)})</p>`
+            `<p>&bull; ${escapeHtml(i.productName)} - ${escapeHtml(i.weight)} x${escapeHtml(i.quantity)} ($${(Number(i.priceUSD) * Number(i.quantity)).toFixed(2)})</p>`
           ).join('')
-        : `<p><strong>Coffee:</strong> ${body.productName || 'N/A'}</p><p><strong>Sample Size:</strong> ${body.sampleWeight || 'N/A'}</p>`
+        : `<p><strong>Coffee:</strong> ${escapeHtml(body.productName || 'N/A')}</p><p><strong>Sample Size:</strong> ${escapeHtml(body.sampleWeight || 'N/A')}</p>`
 
       try {
         await resend.emails.send({
           from: FROM_EMAIL,
-          to: payerEmail,
+          to: verifiedPayerEmail,
           subject: `Your Ethio Coffee Sample Order Confirmation`,
           html: `
             <h2>Thank you for your sample order!</h2>
-            <p>Hi ${payerName},</p>
+            <p>Hi ${escapeHtml(payerName)},</p>
             <p>We've received your payment and your coffee samples are being prepared for shipment via DHL Express.</p>
             
             <h3>Order Summary</h3>
             ${buyerItemsHtml}
-            <p><strong>Amount Paid:</strong> $${capture?.amount?.value || 'N/A'} USD</p>
-            <p><strong>Order Reference:</strong> ${orderID}</p>
+            <p><strong>Amount Paid:</strong> $${escapeHtml(capture?.amount?.value || 'N/A')} USD</p>
+            <p><strong>Order Reference:</strong> ${escapeHtml(orderID)}</p>
             
             <p>We'll ship your sample${isCartOrder && cartItems.length > 1 ? 's' : ''} within 2-3 business days and send you tracking information once available.</p>
             
-            <p>If you have any questions, feel free to reply to this email or contact us at coffee@ethiocoffee.co.</p>
+            <p>If you have any questions, feel free to reply to this email or contact us at ${COMPANY_EMAIL}.</p>
             
             <p>Best regards,<br/>The Ethio Coffee Team</p>
             
@@ -220,9 +244,6 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       status: captureData.status,
       orderId: orderID,
-      captureId: capture?.id,
-      payerEmail,
-      payerName,
     })
   } catch (error) {
     console.error('Error capturing PayPal order:', error)

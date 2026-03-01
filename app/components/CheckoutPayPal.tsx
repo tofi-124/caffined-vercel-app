@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { PayPalButtons, usePayPalScriptReducer } from '@paypal/react-paypal-js'
 import type { CartItem } from './CartContext'
+import { COMPANY_EMAIL } from '../lib/constants'
 
 export type ShippingAddress = {
   fullName: string
@@ -86,7 +87,7 @@ const CheckoutPayPal = ({ items, shippingCost, totalPrice, address, orderNotes, 
     } catch (err) {
       console.error('PayPal capture error:', err)
       setStatus('error')
-      setErrorMsg('Payment could not be processed. If funds were deducted, contact us at coffee@ethiocoffee.co.')
+      setErrorMsg(`Payment could not be processed. If funds were deducted, contact us at ${COMPANY_EMAIL}.`)
     }
   }
 

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { useCart } from './CartContext'
 import type { SampleOption } from '../data/offerings'
 
@@ -17,6 +17,26 @@ const AddToCartButton = ({ productId, productName, sampleOptions, image_url, isS
   const [selectedOption, setSelectedOption] = useState<SampleOption>(sampleOptions[0])
   const [showPicker, setShowPicker] = useState(false)
   const [justAdded, setJustAdded] = useState(false)
+  const pickerRef = useRef<HTMLDivElement>(null)
+
+  // Close picker on outside click or Escape
+  useEffect(() => {
+    if (!showPicker) return
+    const handleClickOutside = (e: MouseEvent) => {
+      if (pickerRef.current && !pickerRef.current.contains(e.target as Node)) {
+        setShowPicker(false)
+      }
+    }
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setShowPicker(false)
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener('keydown', handleEscape)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('keydown', handleEscape)
+    }
+  }, [showPicker])
 
   if (!sampleOptions?.length || isSoldOut) return null
 
@@ -67,7 +87,7 @@ const AddToCartButton = ({ productId, productName, sampleOptions, image_url, isS
 
   // Multiple options - show a picker
   return (
-    <div className='relative'>
+    <div className='relative' ref={pickerRef}>
       <button
         onClick={() => setShowPicker(prev => !prev)}
         className='flex items-center justify-center gap-2 px-6 py-4 bg-dark hover:bg-accent text-white rounded-full font-semibold transition-all duration-300 shadow-sm hover:shadow-lg w-full'

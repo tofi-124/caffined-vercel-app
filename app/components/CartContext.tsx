@@ -1,6 +1,6 @@
 "use client"
 
-import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from 'react'
+import { createContext, useContext, useState, useEffect, useCallback, useMemo, type ReactNode } from 'react'
 
 export type CartItem = {
   productId: string
@@ -92,9 +92,9 @@ export function CartProvider({ children }: { children: ReactNode }) {
     setItems([])
   }, [])
 
-  const itemCount = items.reduce((sum, i) => sum + i.quantity, 0)
-  const subtotal = items.reduce((sum, i) => sum + i.priceUSD * i.quantity, 0)
-  const totalWeightGrams = items.reduce((sum, i) => sum + i.weightGrams * i.quantity, 0)
+  const itemCount = useMemo(() => items.reduce((sum, i) => sum + i.quantity, 0), [items])
+  const subtotal = useMemo(() => items.reduce((sum, i) => sum + i.priceUSD * i.quantity, 0), [items])
+  const totalWeightGrams = useMemo(() => items.reduce((sum, i) => sum + i.weightGrams * i.quantity, 0), [items])
 
   return (
     <CartContext.Provider

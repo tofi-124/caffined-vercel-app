@@ -2,7 +2,7 @@
 
 import { useCart } from './CartContext'
 import Link from 'next/link'
-import { useEffect } from 'react'
+import { useEffect, useRef, useCallback } from 'react'
 import { ArrowRight } from './Arrow'
 
 const CartDrawer = () => {
@@ -16,6 +16,22 @@ const CartDrawer = () => {
     isCartOpen,
     setIsCartOpen,
   } = useCart()
+
+  const drawerRef = useRef<HTMLDivElement>(null)
+
+  // Close on Escape key
+  const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (e.key === 'Escape') setIsCartOpen(false)
+  }, [setIsCartOpen])
+
+  useEffect(() => {
+    if (isCartOpen) {
+      document.addEventListener('keydown', handleKeyDown)
+      // Focus the drawer when opened
+      drawerRef.current?.focus()
+    }
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [isCartOpen, handleKeyDown])
 
   // Lock body scroll when open
   useEffect(() => {
@@ -39,6 +55,11 @@ const CartDrawer = () => {
 
       {/* Drawer */}
       <div
+        ref={drawerRef}
+        role='dialog'
+        aria-modal='true'
+        aria-label='Shopping cart'
+        tabIndex={-1}
         className={`fixed right-0 top-0 h-full w-full max-w-md bg-white shadow-2xl z-[70] transition-transform duration-300 ease-out flex flex-col ${
           isCartOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
@@ -96,6 +117,7 @@ const CartDrawer = () => {
                     <div className='flex items-center gap-2 mt-2'>
                       <button
                         onClick={() => updateQuantity(item.productId, item.weight, item.quantity - 1)}
+                        aria-label={`Decrease quantity of ${item.productName}`}
                         className='w-7 h-7 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-600 hover:border-accent hover:text-accent transition-colors text-sm'
                       >
                         &minus;
@@ -103,6 +125,7 @@ const CartDrawer = () => {
                       <span className='text-sm font-semibold text-dark w-5 text-center'>{item.quantity}</span>
                       <button
                         onClick={() => updateQuantity(item.productId, item.weight, item.quantity + 1)}
+                        aria-label={`Increase quantity of ${item.productName}`}
                         className='w-7 h-7 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-600 hover:border-accent hover:text-accent transition-colors text-sm'
                       >
                         +

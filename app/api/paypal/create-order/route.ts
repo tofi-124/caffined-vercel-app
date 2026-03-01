@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { offerings } from '../../../data/offerings'
+import { rateLimit, getClientIp } from '../../../lib/rate-limit'
+import { truncate } from '../../../lib/sanitize'
 
 const PAYPAL_CLIENT_ID = process.env.PAYPAL_CLIENT_ID!
 const PAYPAL_CLIENT_SECRET = process.env.PAYPAL_CLIENT_SECRET!
@@ -28,7 +31,26 @@ async function getPayPalAccessToken(): Promise<string> {
   return data.access_token
 }
 
+/**
+ * Look up a product's sample option price from the server-side catalog.
+ * Returns the verified price or null if not found.
+ */
+function getVerifiedPrice(productId: string, weight: string): number | null {
+  const product = offerings.find(o => o.id === productId)
+  if (!product) return null
+  const option = product.pricing.sampleOptions.find(s => s.weight === weight)
+  if (!option) return null
+  return option.priceUSD
+}
+
 export async function POST(request: NextRequest) {
+  // Rate limit: 20 order creations per IP per minute
+  const ip = getClientIp(request)
+  const { allowed } = rateLimit(`paypal-create:${ip}`, 20, 60_000)
+  if (!allowed) {
+    return NextResponse.json({ error: 'Too many requests. Please try again shortly.' }, { status: 429 })
+  }
+
   try {
     const body = await request.json()
 
@@ -40,29 +62,64 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: 'Cart is empty' }, { status: 400 })
       }
 
-      const parsedTotal = parseFloat(clientTotal)
-      if (isNaN(parsedTotal) || parsedTotal <= 0) {
-        return NextResponse.json({ error: 'Invalid total price' }, { status: 400 })
+      // Server-side price verification against catalog
+      const verifiedItems: Array<{
+        productId: string
+        productName: string
+        weight: string
+        weightGrams: number
+        priceUSD: number
+        quantity: number
+      }> = []
+
+      for (const item of cartItems) {
+        if (!item.productId || !item.weight || !item.quantity || item.quantity <= 0) {
+          return NextResponse.json({ error: `Invalid cart item: ${item.productId || 'unknown'}` }, { status: 400 })
+        }
+
+        const verifiedPrice = getVerifiedPrice(item.productId, item.weight)
+        if (verifiedPrice === null) {
+          return NextResponse.json(
+            { error: `Product or sample option not found: ${item.productId} ${item.weight}` },
+            { status: 400 }
+          )
+        }
+
+        // Find the product to get verified weightGrams
+        const product = offerings.find(o => o.id === item.productId)!
+        const option = product.pricing.sampleOptions.find(s => s.weight === item.weight)!
+
+        verifiedItems.push({
+          productId: item.productId,
+          productName: product.name,
+          weight: option.weight,
+          weightGrams: option.weightGrams,
+          priceUSD: verifiedPrice,
+          quantity: Math.min(Math.floor(item.quantity), 50), // Cap at 50 per item
+        })
       }
 
-      // Server-side verify the total
-      const itemsTotal = cartItems.reduce(
-        (sum: number, i: { priceUSD: number; quantity: number }) => sum + i.priceUSD * i.quantity,
+      const itemsTotal = verifiedItems.reduce(
+        (sum, i) => sum + i.priceUSD * i.quantity,
         0
       )
-      const serverTotal = itemsTotal + (shippingCost || 0)
-      // Allow $0.02 tolerance for floating point
-      if (Math.abs(serverTotal - parsedTotal) > 0.02) {
-        console.error('Price mismatch:', { serverTotal, clientTotal: parsedTotal })
-        return NextResponse.json({ error: 'Price verification failed' }, { status: 400 })
+      const parsedShipping = parseFloat(shippingCost) || 0
+      const serverTotal = itemsTotal + parsedShipping
+
+      // Validate client total matches server total (allow $0.02 tolerance for float rounding)
+      const parsedClientTotal = parseFloat(clientTotal)
+      if (isNaN(parsedClientTotal) || parsedClientTotal <= 0) {
+        return NextResponse.json({ error: 'Invalid total price' }, { status: 400 })
+      }
+      if (Math.abs(serverTotal - parsedClientTotal) > 0.02) {
+        console.error('Price mismatch:', { serverTotal, clientTotal: parsedClientTotal })
+        return NextResponse.json({ error: 'Price verification failed. Please refresh and try again.' }, { status: 400 })
       }
 
       const accessToken = await getPayPalAccessToken()
 
-      const description = cartItems
-        .map((i: { productName: string; weight: string; quantity: number }) =>
-          `${i.productName} ${i.weight} x${i.quantity}`
-        )
+      const description = verifiedItems
+        .map(i => `${i.productName} ${i.weight} x${i.quantity}`)
         .join(', ')
 
       const orderPayload: Record<string, unknown> = {
@@ -70,26 +127,26 @@ export async function POST(request: NextRequest) {
         purchase_units: [
           {
             reference_id: `cart-${Date.now()}`,
-            description: description.slice(0, 127), // PayPal max 127 chars
-            custom_id: JSON.stringify({
-              cartItems: cartItems.map((i: { productId: string; weight: string; quantity: number }) => ({
+            description: truncate(description, 127),
+            custom_id: truncate(JSON.stringify({
+              cartItems: verifiedItems.map(i => ({
                 id: i.productId,
                 w: i.weight,
                 q: i.quantity,
               })),
               email: shippingAddress?.email || '',
               name: shippingAddress?.fullName || '',
-            }).slice(0, 256), // PayPal max 256 chars
+            }), 256),
             amount: {
               currency_code: 'USD',
-              value: parsedTotal.toFixed(2),
+              value: serverTotal.toFixed(2),
               breakdown: {
                 item_total: { currency_code: 'USD', value: itemsTotal.toFixed(2) },
-                shipping: { currency_code: 'USD', value: (shippingCost || 0).toFixed(2) },
+                shipping: { currency_code: 'USD', value: parsedShipping.toFixed(2) },
               },
             },
-            items: cartItems.map((i: { productName: string; weight: string; priceUSD: number; quantity: number }) => ({
-              name: `${i.productName} - ${i.weight} Sample`.slice(0, 127),
+            items: verifiedItems.map(i => ({
+              name: truncate(`${i.productName} - ${i.weight} Sample`, 127),
               quantity: String(i.quantity),
               unit_amount: { currency_code: 'USD', value: i.priceUSD.toFixed(2) },
               category: 'PHYSICAL_GOODS',
@@ -109,7 +166,6 @@ export async function POST(request: NextRequest) {
             } : {}),
           },
         ],
-        // Tell PayPal to use the address we provide — prevents asking the buyer again
         application_context: {
           shipping_preference: shippingAddress ? 'SET_PROVIDED_ADDRESS' : 'GET_FROM_FILE',
         },
@@ -135,28 +191,26 @@ export async function POST(request: NextRequest) {
     }
 
     // ---- Legacy single-item checkout ----
-    const { productId, productName, sampleWeight, samplePrice, buyerEmail, buyerName } = body
+    const { productId, productName, sampleWeight } = body
 
     // Validate required fields
-    if (!productId || !productName || !sampleWeight || !samplePrice) {
+    if (!productId || !productName || !sampleWeight) {
       return NextResponse.json(
-        { error: 'Missing required fields: productId, productName, sampleWeight, samplePrice' },
+        { error: 'Missing required fields: productId, productName, sampleWeight' },
         { status: 400 }
       )
     }
 
-    // Validate price is a positive number
-    const price = parseFloat(samplePrice)
-    if (isNaN(price) || price <= 0) {
+    // Server-side price lookup — never trust client-supplied price
+    const verifiedPrice = getVerifiedPrice(productId, sampleWeight)
+    if (verifiedPrice === null) {
       return NextResponse.json(
-        { error: 'Invalid sample price' },
+        { error: `Product or sample option not found: ${productId} ${sampleWeight}` },
         { status: 400 }
       )
     }
 
     const accessToken = await getPayPalAccessToken()
-
-    const totalPrice = price
 
     const orderPayload: Record<string, unknown> = {
       intent: 'CAPTURE',
@@ -164,15 +218,15 @@ export async function POST(request: NextRequest) {
         {
           reference_id: `sample-${productId}-${Date.now()}`,
           description: `${productName} Coffee Sample ${sampleWeight}`,
-          custom_id: JSON.stringify({
+          custom_id: truncate(JSON.stringify({
             productId,
             sampleWeight,
-            buyerEmail: buyerEmail || '',
-            buyerName: buyerName || '',
-          }),
+            buyerEmail: body.buyerEmail || '',
+            buyerName: body.buyerName || '',
+          }), 256),
           amount: {
             currency_code: 'USD',
-            value: totalPrice.toFixed(2),
+            value: verifiedPrice.toFixed(2),
           },
         },
       ],

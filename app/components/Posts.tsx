@@ -1,11 +1,6 @@
-import React from 'react';
 import {posts} from '../data/data';
 import Link from 'next/link';
 import ResponsiveImage from './ResponsiveImage';
-
-// Define standard image dimensions for insight thumbnails
-const INSIGHT_THUMBNAIL_WIDTH = 400;
-const INSIGHT_THUMBNAIL_HEIGHT = 300;
 
 type Props = {
   title: string,
@@ -22,7 +17,7 @@ export const Post = ({ title, date, small_image_url, slug, showDate = true }: Pr
     return new Date(t).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
   }
   return (
-        <Link href={`/insights/${slug}`} id="insight-card" className="photo overflow-clip mx-auto flex flex-col items-center">
+        <Link href={`/insights/${slug}`} className="photo overflow-clip mx-auto flex flex-col items-center">
           <div className="insight-img w-full max-w-[400px] aspect-[4/3] overflow-hidden rounded-md shadow-md hover:shadow-lg transition-shadow duration-300">
             <ResponsiveImage
               src={`/images/${small_image_url}`}

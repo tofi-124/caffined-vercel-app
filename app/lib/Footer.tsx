@@ -2,6 +2,7 @@ import ResponsiveImage from '../components/ResponsiveImage'
 import Image from 'next/image'
 import { FaEnvelope, FaInstagram } from 'react-icons/fa'
 import Link from 'next/link'
+import { COMPANY_EMAIL, COMPANY_INSTAGRAM } from './constants'
 
 // Updated to show Ethiopian coffee farms/production
 const images = [
@@ -53,24 +54,24 @@ const Footer = () => {
           <ul className='mt-4 space-y-4 text-primary/90'>
             <li>
               <a
-                href="mailto:coffee@ethiocoffee.co"
+                href={`mailto:${COMPANY_EMAIL}`}
                 className="inline-flex items-center gap-2 underline underline-offset-4 hover:text-primary/80 transition-colors"
-                aria-label="Email Ethio Coffee at coffee@ethiocoffee.co"
+                aria-label={`Email Ethio Coffee at ${COMPANY_EMAIL}`}
               >
                 <FaEnvelope className="text-2xl" />
-                coffee@ethiocoffee.co
+                {COMPANY_EMAIL}
               </a>
             </li>
             <li>
               <a
-                href="https://instagram.com/ethiocoffee.co"
+                href={`https://instagram.com/${COMPANY_INSTAGRAM.replace('@', '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 underline underline-offset-4 hover:text-primary/80 transition-colors"
-                aria-label="Follow us on Instagram @ethiocoffee.co"
+                aria-label={`Follow us on Instagram ${COMPANY_INSTAGRAM}`}
               >
                 <FaInstagram className="text-2xl" />
-                <span>@ethiocoffee.co</span>
+                <span>{COMPANY_INSTAGRAM}</span>
               </a>
             </li>
           </ul>
@@ -101,17 +102,17 @@ const Footer = () => {
           <ul className='mt-4 space-y-4 text-primary/90'>
             <li>
               <p className='text-xs uppercase tracking-widest text-primary/70'>Office</p>
-              <address className='not-italic font-medium text-primary'>
+              <p className='not-italic font-medium text-primary'>
                 Monday - Friday
                 <br />
                 09:00 - 17:00
-              </address>
+              </p>
             </li>
             <li>
               <p className='text-xs uppercase tracking-widest text-primary/70'>Notes</p>
-              <address className='not-italic font-medium text-primary'>
+              <p className='not-italic font-medium text-primary'>
                 International business hours available
-              </address>
+              </p>
             </li>
           </ul>
         </div>

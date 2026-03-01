@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import ResponsiveImage from './ResponsiveImage'
 
 type QuoteRequestPopupProps = {
@@ -24,6 +24,26 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitSuccess, setSubmitSuccess] = useState(false)
   const [submitError, setSubmitError] = useState('')
+
+  // Reset state when popup opens
+  useEffect(() => {
+    if (isOpen) {
+      setSubmitSuccess(false)
+      setSubmitError('')
+    }
+  }, [isOpen])
+
+  // Close on Escape key
+  const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (e.key === 'Escape') onClose()
+  }, [onClose])
+
+  useEffect(() => {
+    if (isOpen) {
+      document.addEventListener('keydown', handleKeyDown)
+    }
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [isOpen, handleKeyDown])
 
   if (!isOpen) return null
 
@@ -52,7 +72,7 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
         }),
       })
 
-      let result: any = {}
+      let result: { error?: string } = {}
       
       // Only parse JSON if there's content
       const contentType = response.headers.get('content-type')
@@ -85,8 +105,14 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
   }
 
   return (
-    <div className='fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center'>
-      <div className='bg-primary p-6 rounded-md max-w-2xl w-full max-h-[90vh] overflow-y-auto'>
+    <div
+      className='fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center'
+      onClick={onClose}
+      role='dialog'
+      aria-modal='true'
+      aria-label={isAllocationList ? 'Join Allocation List' : 'Get a Quote'}
+    >
+      <div className='bg-primary p-6 rounded-md max-w-2xl w-full max-h-[90vh] overflow-y-auto' onClick={e => e.stopPropagation()}>
         <div className='flex justify-between items-center mb-6'>
           <h2 className='text-2xl font-bold'>{isAllocationList ? 'Join Allocation List' : 'Get a Quote'}</h2>
           <button onClick={onClose} className='text-2xl font-bold' aria-label='Close dialog'>

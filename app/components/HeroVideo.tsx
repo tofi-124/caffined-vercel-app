@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 
-const R2_BASE = 'https://pub-a50856304cf24e0c890889f05812d10b.r2.dev'
+const R2_BASE = process.env.NEXT_PUBLIC_R2_BASE_URL || 'https://pub-a50856304cf24e0c890889f05812d10b.r2.dev'
 const DESKTOP_VIDEO = `${R2_BASE}/ethiopianbeans.mp4`
 const MOBILE_VIDEO = `${R2_BASE}/ethiopianbeans-mobile.mp4`
 
@@ -142,10 +142,11 @@ const HeroVideo = () => {
         playsInline
         loop
         autoPlay
-        preload="auto"
+        preload="metadata"
         className={`hero-video absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isPlaying ? 'opacity-100' : 'opacity-0'}`}
       >
         <source src={videoSrc} type="video/mp4" />
+        Background video of Ethiopian coffee beans
       </video>
     </>
   )

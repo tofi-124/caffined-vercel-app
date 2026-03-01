@@ -35,7 +35,7 @@ const timeline = [
   },
   {
     year: 'Today, we export with purpose',
-    description: 'We source coffee through trusted cooperatives, washing stations, and farming communities, collect and process cherry at our own drying station in Guji Hambella, prepare lots for export from our warehouse in Addis Ababa, and work with buyers who care about traceability and consistency. We still measure success the same way we were taught: by keeping promises, protecting quality, and making sure farmers remain central to the story.'
+    description: 'At our own drying station in Guji Hambella, we collect cherry from smallholder farmers and process it ourselves. Across other origins, we work with cooperatives and washing stations we trust. Everything comes together at our warehouse in Addis Ababa, where we prepare lots for export to buyers who care about traceability and consistency. We still measure success the same way we were taught: by keeping promises, protecting quality, and making sure farmers remain central to the story.'
   }
 ]
 
@@ -59,7 +59,7 @@ const About = () => {
                 Ethio Coffee Export is an <Link href='/ethiopian-coffee-exporter' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Ethiopian coffee exporter</Link> connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
               </p>
               <p className='text-lg leading-relaxed'>
-                Established in 2022, we draw on three decades of family heritage in Ethiopia's coffee trade. Today that means running our own drying station in Guji Hambella, where we collect and process coffee directly from local farmers, alongside sourcing from trusted cooperatives and washing stations across Yirgacheffe, Sidama, Harar, Limu, and beyond. Our mission is simple: to ensure the value stays where it belongs with the growers, while being the reliable, transparent partner importers can count on.
+                Established in 2022, we draw on three decades of family heritage in Ethiopia's coffee trade. Today that means running our own drying station in Guji Hambella, where we work directly with smallholder farmers in the area, collecting their cherry and processing it ourselves to support their livelihoods and protect quality. For other key origins like Yirgacheffe, Sidama, Harar, and Limu, we source through trusted cooperatives and washing stations. Our mission is simple: to ensure the value stays where it belongs with the growers, while being the reliable, transparent partner importers can count on.
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ const About = () => {
               <h3 className='text-4xl font-extrabold text-dark mb-6'>What We Do</h3>
               <ul className='list-disc space-y-4 pl-5 font-inconsolata'>
                 <li>
-                  <span className='font-bold'>Direct Sourcing Across Ethiopia's Key Regions:</span> We source from cooperatives, washing stations, and farming communities across Yirgacheffe, Sidama, Guji, Limu, and Harar. Our own drying station in Guji Hambella gives us hands-on control from cherry intake through drying.
+                  <span className='font-bold'>Direct Sourcing Across Ethiopia's Key Regions:</span> In Guji Hambella, we work directly with smallholder farmers, collecting their cherry and processing it at our own drying station. This supports small growers in the area while giving us hands-on control from intake through drying. For other key origins like Yirgacheffe, Sidama, Limu, and Harar, we source through trusted cooperatives and washing stations.
                 </li>
                 <li>
                   <span className='font-bold'>Specialty-Grade Green Coffee:</span> We offer washed, natural, and honey-processed lots across Ethiopia's most distinct origins. Every lot is cupped for quality and matched to the profile you approved at sample stage.
@@ -143,7 +143,7 @@ const About = () => {
                 Ethio Coffee Export is an <Link href='/ethiopian-coffee-exporter' className='underline underline-offset-4 hover:text-dark/70 font-semibold'>Ethiopian coffee exporter</Link> connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local roots with international perspective to serve importers seeking reliable, high-quality Ethiopian green coffee.
               </p>
               <p className='text-lg leading-relaxed'>
-                Established in 2022, our foundation is the sourcing network our father built over 30 years as a local coffee trader in Ethiopia. Today that means running our own drying station in Guji Hambella, where we collect and process coffee directly from local farmers, alongside sourcing from trusted cooperatives and washing stations across Yirgacheffe, Sidama, Harar, Limu, and beyond. Our mission is simple: to ensure the value stays where it belongs with the growers, while being the reliable, transparent partner importers can count on.
+                Established in 2022, our foundation is the sourcing network our father built over 30 years as a local coffee trader in Ethiopia. Today that means running our own drying station in Guji Hambella, where we work directly with smallholder farmers in the area, collecting their cherry and processing it ourselves to support their livelihoods and protect quality. For other key origins like Yirgacheffe, Sidama, Harar, and Limu, we source through trusted cooperatives and washing stations. Our mission is simple: to ensure the value stays where it belongs with the growers, while being the reliable, transparent partner importers can count on.
               </p>
             </div>
 

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { rateLimit, getClientIp } from '../../../lib/rate-limit'
 
 // DHL Express MyDHL API credentials (basicAuth only for /rates endpoint)
 const DHL_API_KEY = process.env.DHL_API_KEY!
@@ -13,6 +14,13 @@ const ORIGIN = {
 }
 
 export async function POST(request: NextRequest) {
+  // Rate limit: 15 rate lookups per IP per minute
+  const ip = getClientIp(request)
+  const { allowed } = rateLimit(`dhl-rate:${ip}`, 15, 60_000)
+  if (!allowed) {
+    return NextResponse.json({ error: 'Too many requests. Please try again shortly.' }, { status: 429 })
+  }
+
   try {
     const body = await request.json()
     const { countryCode, cityName, postalCode, weightGrams } = body
@@ -24,10 +32,21 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const weight = weightGrams / 1000 // Convert grams to kg
-    if (weight <= 0) {
+    // Validate countryCode is 2 uppercase letters
+    if (typeof countryCode !== 'string' || !/^[A-Z]{2}$/.test(countryCode)) {
+      return NextResponse.json({ error: 'Invalid country code. Must be 2 uppercase letters (e.g., US).' }, { status: 400 })
+    }
+
+    // Validate weightGrams is a positive number with an upper bound
+    const numericWeight = Number(weightGrams)
+    if (!Number.isFinite(numericWeight) || numericWeight <= 0) {
       return NextResponse.json({ error: 'Invalid weight' }, { status: 400 })
     }
+    if (numericWeight > 100_000) {
+      return NextResponse.json({ error: 'Weight exceeds maximum (100kg). Please contact us for large orders.' }, { status: 400 })
+    }
+
+    const weight = numericWeight / 1000 // Convert grams to kg
 
     // Verify DHL credentials are configured — fall back to flat rate if not
     if (!DHL_API_KEY || !DHL_API_SECRET || DHL_API_KEY === 'your_dhl_username_here' || DHL_API_KEY === 'demo-key') {
