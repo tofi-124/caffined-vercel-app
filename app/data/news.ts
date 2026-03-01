@@ -191,5 +191,13 @@ export const newsArticles: NewsArticle[] = [
     desc: "A strategic field survey in Jimma Zone, led by senior officials including ECTA Director General Dr. Adugna Debela, maps Ethiopia's ambitious plan to expand tea cultivation from 13,000 to 30,000 hectares across Oromia and Southwestern regions.",
     source: 'Sahlemariam Gebremedhin',
     keywords: 'Ethiopian tea development, Ethiopian tea cultivation, Jimma tea, Oromia tea expansion, ECTA tea initiative, Ethiopian Coffee and Tea Authority, tea hectares Ethiopia, Ethiopian agricultural export, PM Abiy Ahmed tea initiative',
+  },
+  {
+    slug: 'child-labor-prevention-coffee-sector-training',
+    date: '2026-02-28',
+    title: 'Training on Prevention of Child Labor in Coffee Sector Provided',
+    desc: 'ECTA, in collaboration with UNIDO and ILO, delivers training on child labor prevention to coffee growers and industry investors from Sidama, Southern, and Oromia regions, in compliance with EU regulations (EUDR).',
+    source: 'Ashenafi Getahun',
+    keywords: 'child labor coffee Ethiopia, EUDR Ethiopian coffee compliance, Ethiopian coffee export EU, ECTA UNIDO training, ILO Ethiopia coffee, child labor prevention coffee, Ethiopian coffee social standards, Ethiopian coffee exporter',
   }
 ]

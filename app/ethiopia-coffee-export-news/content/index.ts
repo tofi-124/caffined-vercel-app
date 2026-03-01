@@ -48,6 +48,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./unido-hardship-hope-ethiopia-coffee-sector').then(mod => mod.default),
     'ethiopian-tea-development-30000-hectares': () =>
       import('./ethiopian-tea-development-30000-hectares').then(mod => mod.default),
+    'child-labor-prevention-coffee-sector-training': () =>
+      import('./child-labor-prevention-coffee-sector-training').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 
