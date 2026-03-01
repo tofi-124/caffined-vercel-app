@@ -38,6 +38,21 @@ const nextConfig = {
             key: 'Permissions-Policy',
             value: 'camera=(), microphone=(), geolocation=()',
           },
+          {
+            key: 'Content-Security-Policy-Report-Only',
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.paypal.com https://*.paypalobjects.com https://va.vercel-scripts.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "font-src 'self' https://fonts.gstatic.com",
+              "img-src 'self' data: blob: https://pub-a50856304cf24e0c890889f05812d10b.r2.dev https://*.paypal.com",
+              "media-src 'self' https://pub-a50856304cf24e0c890889f05812d10b.r2.dev",
+              "connect-src 'self' https://*.paypal.com https://*.paypalobjects.com https://va.vercel-scripts.com https://vitals.vercel-insights.com",
+              "frame-src https://*.paypal.com https://*.paypalobjects.com",
+              "object-src 'none'",
+              "base-uri 'self'",
+            ].join('; '),
+          },
         ],
       },
     ]

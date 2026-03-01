@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
-import { escapeHtml, isValidPayPalOrderId } from '../../../lib/sanitize'
+import { escapeHtml, isValidPayPalOrderId, truncate } from '../../../lib/sanitize'
 import { rateLimit, getClientIp } from '../../../lib/rate-limit'
 import { COMPANY_EMAIL } from '../../../lib/constants'
+import { offerings } from '../../../data/offerings'
 
-const PAYPAL_CLIENT_ID = process.env.PAYPAL_CLIENT_ID!
-const PAYPAL_CLIENT_SECRET = process.env.PAYPAL_CLIENT_SECRET!
 const PAYPAL_API_BASE = process.env.PAYPAL_MODE === 'live'
   ? 'https://api-m.paypal.com'
   : 'https://api-m.sandbox.paypal.com'
@@ -15,7 +14,12 @@ const TO_EMAIL = process.env.CONTACT_EMAIL || COMPANY_EMAIL
 const FROM_EMAIL = process.env.FROM_EMAIL || 'noreply@ethiocoffee.co'
 
 async function getPayPalAccessToken(): Promise<string> {
-  const auth = Buffer.from(`${PAYPAL_CLIENT_ID}:${PAYPAL_CLIENT_SECRET}`).toString('base64')
+  const clientId = process.env.PAYPAL_CLIENT_ID
+  const clientSecret = process.env.PAYPAL_CLIENT_SECRET
+  if (!clientId || !clientSecret) {
+    throw new Error('PayPal credentials not configured')
+  }
+  const auth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64')
 
   const response = await fetch(`${PAYPAL_API_BASE}/v1/oauth2/token`, {
     method: 'POST',
@@ -35,6 +39,12 @@ async function getPayPalAccessToken(): Promise<string> {
 }
 
 export async function POST(request: NextRequest) {
+  // Guard: ensure PayPal credentials are configured
+  if (!process.env.PAYPAL_CLIENT_ID || !process.env.PAYPAL_CLIENT_SECRET) {
+    console.error('PayPal credentials not configured')
+    return NextResponse.json({ error: 'Payment service unavailable' }, { status: 503 })
+  }
+
   // Rate limit: 10 capture attempts per IP per minute
   const ip = getClientIp(request)
   const { allowed } = rateLimit(`paypal-capture:${ip}`, 10, 60_000)
@@ -104,10 +114,32 @@ export async function POST(request: NextRequest) {
 
     // Determine if this is a cart order or legacy single-item order
     const isCartOrder = Boolean(body.cartItems)
-    const cartItems = body.cartItems || []
+    const rawCartItems = body.cartItems || []
     const shippingCost = body.shippingCost || 0
     const shippingAddr = body.shippingAddress || purchaseUnit?.shipping?.address
-    const orderNotes = body.orderNotes || ''
+    const orderNotes = truncate(String(body.orderNotes || ''), 1000)
+
+    // Re-verify cart items against the server catalog — use server-verified names/prices
+    const cartItems = isCartOrder
+      ? rawCartItems.map((item: { productName: string; weight: string; quantity: number; priceUSD: number; productId?: string }) => {
+          // Try to find matching product in catalog by productId or productName
+          const product = item.productId
+            ? offerings.find(o => o.id === item.productId)
+            : offerings.find(o => o.name === item.productName)
+          if (product) {
+            const option = product.pricing.sampleOptions.find(s => s.weight === item.weight)
+            return {
+              productName: product.name,  // server-verified name
+              weight: option?.weight || item.weight,
+              quantity: item.quantity,
+              priceUSD: option?.priceUSD ?? item.priceUSD,  // server-verified price
+            }
+          }
+          // If product not found in catalog, log warning and use escaped client data
+          console.warn(`Capture: product not found in catalog: ${item.productName}`)
+          return item
+        })
+      : rawCartItems
 
     // Build items summary for emails — all user data is HTML-escaped
     let itemsSummaryHtml = ''

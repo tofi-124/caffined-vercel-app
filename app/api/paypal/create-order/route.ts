@@ -2,15 +2,19 @@ import { NextRequest, NextResponse } from 'next/server'
 import { offerings } from '../../../data/offerings'
 import { rateLimit, getClientIp } from '../../../lib/rate-limit'
 import { truncate } from '../../../lib/sanitize'
+import { getShippingRate } from '../../../lib/dhl'
 
-const PAYPAL_CLIENT_ID = process.env.PAYPAL_CLIENT_ID!
-const PAYPAL_CLIENT_SECRET = process.env.PAYPAL_CLIENT_SECRET!
 const PAYPAL_API_BASE = process.env.PAYPAL_MODE === 'live'
   ? 'https://api-m.paypal.com'
   : 'https://api-m.sandbox.paypal.com'
 
 async function getPayPalAccessToken(): Promise<string> {
-  const auth = Buffer.from(`${PAYPAL_CLIENT_ID}:${PAYPAL_CLIENT_SECRET}`).toString('base64')
+  const clientId = process.env.PAYPAL_CLIENT_ID
+  const clientSecret = process.env.PAYPAL_CLIENT_SECRET
+  if (!clientId || !clientSecret) {
+    throw new Error('PayPal credentials not configured')
+  }
+  const auth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64')
 
   const response = await fetch(`${PAYPAL_API_BASE}/v1/oauth2/token`, {
     method: 'POST',
@@ -44,6 +48,12 @@ function getVerifiedPrice(productId: string, weight: string): number | null {
 }
 
 export async function POST(request: NextRequest) {
+  // Guard: ensure PayPal credentials are configured
+  if (!process.env.PAYPAL_CLIENT_ID || !process.env.PAYPAL_CLIENT_SECRET) {
+    console.error('PayPal credentials not configured')
+    return NextResponse.json({ error: 'Payment service unavailable' }, { status: 503 })
+  }
+
   // Rate limit: 20 order creations per IP per minute
   const ip = getClientIp(request)
   const { allowed } = rateLimit(`paypal-create:${ip}`, 20, 60_000)
@@ -104,6 +114,28 @@ export async function POST(request: NextRequest) {
         0
       )
       const parsedShipping = parseFloat(shippingCost) || 0
+
+      // Server-side shipping cost verification against DHL / flat-rate
+      if (parsedShipping > 0 && shippingAddress?.countryCode) {
+        const totalWeightGrams = verifiedItems.reduce((sum, i) => sum + i.weightGrams * i.quantity, 0)
+        try {
+          const serverRate = await getShippingRate({
+            countryCode: shippingAddress.countryCode,
+            cityName: shippingAddress.city || '',
+            postalCode: shippingAddress.postalCode || '',
+            weightGrams: totalWeightGrams,
+          })
+          // Reject if client shipping is more than $1 below the server-calculated rate
+          if (parsedShipping < serverRate.totalPrice - 1.00) {
+            console.error('Shipping cost mismatch:', { clientShipping: parsedShipping, serverShipping: serverRate.totalPrice })
+            return NextResponse.json({ error: 'Shipping cost verification failed. Please refresh and try again.' }, { status: 400 })
+          }
+        } catch (err) {
+          // If DHL call fails, log but allow order to proceed (flat-rate was already shown to user)
+          console.warn('Shipping verification failed, proceeding with client-provided cost:', err)
+        }
+      }
+
       const serverTotal = itemsTotal + parsedShipping
 
       // Validate client total matches server total (allow $0.02 tolerance for float rounding)

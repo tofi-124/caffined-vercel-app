@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback, useRef } from 'react'
 import ResponsiveImage from './ResponsiveImage'
 
 type QuoteRequestPopupProps = {
@@ -12,6 +12,7 @@ type QuoteRequestPopupProps = {
 }
 
 const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAllocationList = false }: QuoteRequestPopupProps) => {
+  const dialogRef = useRef<HTMLDivElement>(null)
   const [formData, setFormData] = useState({
     businessName: '',
     contactName: '',
@@ -44,6 +45,42 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
     }
     return () => document.removeEventListener('keydown', handleKeyDown)
   }, [isOpen, handleKeyDown])
+
+  // Lock body scroll when open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => { document.body.style.overflow = '' }
+  }, [isOpen])
+
+  // Focus dialog and trap focus inside it
+  useEffect(() => {
+    if (!isOpen) return
+    const dialog = dialogRef.current
+    if (!dialog) return
+    dialog.focus()
+
+    const handleTabKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Tab') return
+      const focusable = dialog.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
+      )
+      if (focusable.length === 0) return
+      const first = focusable[0]
+      const last = focusable[focusable.length - 1]
+      if (e.shiftKey) {
+        if (document.activeElement === first) { e.preventDefault(); last.focus() }
+      } else {
+        if (document.activeElement === last) { e.preventDefault(); first.focus() }
+      }
+    }
+
+    dialog.addEventListener('keydown', handleTabKey)
+    return () => dialog.removeEventListener('keydown', handleTabKey)
+  }, [isOpen])
 
   if (!isOpen) return null
 
@@ -106,11 +143,13 @@ const QuoteRequestPopup = ({ isOpen, onClose, productName, productImage, isAlloc
 
   return (
     <div
+      ref={dialogRef}
       className='fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center'
       onClick={onClose}
       role='dialog'
       aria-modal='true'
       aria-label={isAllocationList ? 'Join Allocation List' : 'Get a Quote'}
+      tabIndex={-1}
     >
       <div className='bg-primary p-6 rounded-md max-w-2xl w-full max-h-[90vh] overflow-y-auto' onClick={e => e.stopPropagation()}>
         <div className='flex justify-between items-center mb-6'>

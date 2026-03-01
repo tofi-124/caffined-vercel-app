@@ -1,9 +1,10 @@
 import { ImageResponse } from 'next/og'
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import { posts } from '@/app/data/data'
 import sharp from 'sharp'
 import { join } from 'path'
 import { readFile } from 'fs/promises'
+import { rateLimit, getClientIp } from '@/app/lib/rate-limit'
 
 export const runtime = 'nodejs'
 
@@ -295,9 +296,16 @@ function buildCaption(post: {
 
 /* ========== ROUTE ========== */
 export async function GET(
-  request: Request,
+  request: NextRequest,
   { params }: { params: Promise<{ slug: string }> }
 ) {
+  // Rate limit: 5 image generations per IP per minute (resource-heavy route)
+  const ip = getClientIp(request)
+  const { allowed } = rateLimit(`insta-img:${ip}`, 5, 60_000)
+  if (!allowed) {
+    return NextResponse.json({ error: 'Too many requests. Please try again shortly.' }, { status: 429 })
+  }
+
   try {
     const { slug } = await params
     const url = new URL(request.url)
@@ -564,9 +572,6 @@ export async function GET(
     return imgResponse
   } catch (error) {
     console.error('Instagram image generation error:', error)
-    return new Response(
-      `Error generating image: ${error instanceof Error ? error.message : error}`,
-      { status: 500 }
-    )
+    return new Response('Error generating image', { status: 500 })
   }
 }

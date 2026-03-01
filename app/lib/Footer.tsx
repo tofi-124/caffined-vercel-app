@@ -185,7 +185,7 @@ const Footer = () => {
 
         <div className='pb-8 text-center'>
           <p className="text-sm text-dark/70">
-            © 2026 Ethio Coffee Export PLC. All rights reserved.
+            © {new Date().getFullYear()} Ethio Coffee Export PLC. All rights reserved.
           </p>
           <p className="mt-3 flex items-center justify-center gap-1 text-sm text-dark/70">
             <span>made by</span>

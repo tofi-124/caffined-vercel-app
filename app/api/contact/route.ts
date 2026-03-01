@@ -69,8 +69,11 @@ export async function POST(request: NextRequest) {
     const safeMessage = truncate(String(message || ''), MAX_MESSAGE_LENGTH)
     const safeProductName = truncate(String(productName || ''), MAX_FIELD_LENGTH)
 
-    // Build email subject
-    const subject = _subject || (formType === 'quote' 
+    // Build email subject — sanitize user-provided _subject to prevent header injection
+    const rawSubject = _subject
+      ? truncate(String(_subject), 200).replace(/[\r\n]/g, '')
+      : ''
+    const subject = rawSubject || (formType === 'quote' 
       ? `New Quote Request: ${safeProductName || 'Product'}`
       : `New Contact Inquiry from ${safeBusinessName || safeContactName}`)
 
