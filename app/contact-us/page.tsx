@@ -1,12 +1,11 @@
 "use client"
 
-import React, { useEffect, useState, useRef } from 'react'
-import Link from 'next/link'
+import { useEffect, useState, useRef } from 'react'
 import ResponsiveImage from '../components/ResponsiveImage'
-import Script from 'next/script'
 
 const WholesaleInquiryPage = () => {
   const formRef = useRef<HTMLDivElement>(null);
+  const successRef = useRef<HTMLDivElement>(null);
   const [formData, setFormData] = useState({
     businessName: '',
     contactName: '',
@@ -41,9 +40,9 @@ const WholesaleInquiryPage = () => {
 
   // Scroll to success message when form is submitted
   useEffect(() => {
-    if (submitSuccess && formRef.current) {
+    if (submitSuccess && successRef.current) {
       const headerOffset = 96
-      const y = formRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
+      const y = successRef.current.getBoundingClientRect().top + window.scrollY - headerOffset
 
       window.scrollTo({
         top: Math.max(0, y),
@@ -113,268 +112,256 @@ const WholesaleInquiryPage = () => {
   
   return (
     <main className='bg-primary'>
-      <header className='bg-[url(/images/about-us.webp)] bg-cover bg-center w-full h-[350px] flex flex-col items-center justify-center relative'>
-        <div className='absolute inset-0 bg-black/40'></div>
-        <h1 className='text-4xl md:text-5xl font-bold text-primary relative z-10 tracking-wide text-center px-4'>Contact Ethio Coffee</h1>
-        <p className='text-primary/90 mt-3 text-lg relative z-10 text-center px-4'>Direct from Ethiopia to importers worldwide. Start your partnership today.</p>
+      {/* Hero - matching about & ordering-info pages */}
+      <header className='bg-[url(/images/about-us.webp)] w-full h-[350px] flex flex-col items-center justify-center px-4'>
+        <h1 className='text-4xl md:text-5xl font-bold text-primary text-center'>Contact Ethio Coffee</h1>
+        <p className='text-primary/80 mt-3 text-sm tracking-widest uppercase text-center'>Start Your Partnership Today</p>
       </header>
-      
-      <section className='container mx-auto px-4 py-12'>
-        <div className='flex max-lg:flex-col items-center justify-center gap-12 mb-16'>
-          <div className='lg:w-1/2'>
-            <h2 className='text-4xl md:text-5xl font-extrabold leading-tight text-dark mb-6'>
-              SPECIALTY ETHIOPIAN COFFEE FOR IMPORTERS WORLDWIDE
-            </h2>
-            <p className='mb-4 text-gray-700'>
-              Ethio Coffee Export PLC is a dedicated Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local knowledge with international business experience.
-            </p>
-            <p className='mb-4 text-gray-700'>
-              We're based in Addis Ababa, Ethiopia, exporting directly to importers around the globe. Our coffee comes from trusted cooperatives, washing stations, and farming communities across Yirgacheffe, Sidama, Guji, Harrar, Limu, and Jimma/Kaffa - all fully traceable back to the source.
-            </p>
-            <div className='mt-8'>
-              <h3 className='text-2xl font-bold mb-4'>Why Partner With Us:</h3>
-              <ul className='space-y-3'>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Direct from Origin:</strong> Full oversight from sourcing at origin to your port of destination</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Traceable Heritage:</strong> Authentic heirloom varietals with origin-level transparency</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Export-Ready Quality:</strong> Rigorous QC protocols ensuring sample-to-bag consistency</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Sample Program:</strong> Purchase evaluation samples before committing to orders</span>
-                </li>
-                <li className='flex items-start gap-3'>
-                  <span className='text-accent font-bold'>✓</span>
-                  <span><strong>Clear Communication:</strong> One brother in Ethiopia, one Ethiopian-Canadian - bridging origin and international markets</span>
-                </li>
-              </ul>
+
+      {/* Quick stats bar - matching origin pages */}
+      <section className='bg-accent/10 border-y border-accent/20'>
+        <div className='max-w-5xl mx-auto px-6 py-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-sm'>
+          <div>
+            <p className='text-dark/50 uppercase tracking-widest text-xs'>Based In</p>
+            <p className='font-bold text-dark mt-1'>Addis Ababa, Ethiopia</p>
+          </div>
+          <div>
+            <p className='text-dark/50 uppercase tracking-widest text-xs'>Origins</p>
+            <p className='font-bold text-dark mt-1'>6+ Regions</p>
+          </div>
+          <div>
+            <p className='text-dark/50 uppercase tracking-widest text-xs'>Shipping</p>
+            <p className='font-bold text-dark mt-1'>FOB / FCA</p>
+          </div>
+          <div>
+            <p className='text-dark/50 uppercase tracking-widest text-xs'>Response Time</p>
+            <p className='font-bold text-dark mt-1'>24 - 48 Hours</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro + image section */}
+      <section className='py-16 md:py-20'>
+        <div className='max-w-6xl mx-auto px-6'>
+          <div className='flex max-lg:flex-col items-center gap-12'>
+            <div className='lg:w-1/2'>
+              <h2 className='text-3xl md:text-4xl font-extrabold leading-tight text-dark mb-6'>
+                SPECIALTY ETHIOPIAN COFFEE FOR IMPORTERS WORLDWIDE
+              </h2>
+              <p className='mb-4 text-dark/80 leading-relaxed'>
+                Ethio Coffee Export PLC is a dedicated Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local knowledge with international business experience.
+              </p>
+              <p className='text-dark/80 leading-relaxed'>
+                Based in Addis Ababa, we export directly to importers around the globe. In Guji Hambella, we collect cherry from smallholder farmers and process it at our own drying station. Across other key origins like Yirgacheffe, Sidama, Harar, Limu, and Jimma/Kaffa, we source through trusted cooperatives and washing stations we have worked with for years. Everything is fully traceable back to the source.
+              </p>
+            </div>
+
+            <div className='lg:w-1/2 flex justify-center'>
+              <ResponsiveImage 
+                src='/images/coffee-sacks.webp'
+                alt='Speciality Ethiopian green coffee beans from Ethio Coffee'
+                width={500}
+                height={600}
+                className='rounded-lg shadow-lg'
+              />
             </div>
           </div>
-
-          <div className='lg:w-1/2 flex justify-center'>
-            <ResponsiveImage 
-              src='/images/coffee-sacks.webp'
-              alt='Speciality Ethiopian green coffee beans from Ethio Coffee'
-              width={500}
-              height={600}
-              className='rounded-md shadow-lg'
-            />
-          </div>
         </div>
+      </section>
 
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mb-16 max-w-4xl mx-auto'>
-          <Link href='/offerings' className='bg-white border border-gray-200 rounded-lg p-5 text-center hover:border-accent hover:shadow-md transition-all'>
-            <p className='font-bold text-dark mb-1'>View Available Lots</p>
-            <p className='text-sm text-gray-600'>Browse our current specialty Ethiopian coffee offerings</p>
-          </Link>
-          <Link href='/ordering-info' className='bg-white border border-gray-200 rounded-lg p-5 text-center hover:border-accent hover:shadow-md transition-all'>
-            <p className='font-bold text-dark mb-1'>How to Order</p>
-            <p className='text-sm text-gray-600'>MOQs, shipping, payment terms, and FAQs</p>
-          </Link>
-          <Link href='/about' className='bg-white border border-gray-200 rounded-lg p-5 text-center hover:border-accent hover:shadow-md transition-all'>
-            <p className='font-bold text-dark mb-1'>About Us</p>
-            <p className='text-sm text-gray-600'>Our story, family legacy, and export capabilities</p>
-          </Link>
-        </div>
+      {/* Form section */}
+      <section className='py-16 md:py-20 bg-dark'>
+        <div className='max-w-3xl mx-auto px-6'>
+          <div ref={formRef} id='inquiry-form'></div>
+          <h2 className='text-3xl md:text-4xl font-extrabold text-center text-primary mb-4'>GET IN TOUCH</h2>
+          <div className='w-16 h-1 bg-accent mx-auto mb-6'></div>
+          <p className='text-center text-primary/60 mb-10 max-w-xl mx-auto'>Fill out the form below and our team will get back to you within 24-48 hours.</p>
 
-        <div className='max-w-3xl mx-auto my-16'>
-          <div ref={formRef}></div>
-          <h2 className='text-4xl font-extrabold text-center mb-4'>GET IN TOUCH</h2>
-          <p className='text-center text-gray-600 mb-8 max-w-xl mx-auto'>Fill out the form below and our team will get back to you within 24-48 hours.</p>
-
-          <div className='mb-10 rounded-lg border border-black/10 bg-white/70 p-6 shadow-sm'>
+          {/* Office info card */}
+          <div className='mb-10 rounded-lg border border-dark/30 bg-primary p-6 shadow-sm'>
             <h3 className='text-xl font-bold text-dark mb-4'>Our Office</h3>
-            <div className='grid grid-cols-1 gap-6'>
-              <div className='p-4 bg-primary/50 rounded-md'>
-                <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Ethiopia (Headquarters)</p>
-                <address className='not-italic text-dark'>
-                  <span className='font-bold'>Ethio Coffee Export PLC</span>
-                  <br />
-                  Yesak Building, 3rd Floor, Office 301
-                  <br />
-                  Lideta, Addis Ababa, Ethiopia
-                </address>
-              </div>
+            <div className='p-4 bg-dark/5 rounded-md border border-dark/30'>
+              <p className='text-xs uppercase tracking-widest text-accent font-semibold mb-2'>Ethiopia (Headquarters)</p>
+              <p className='not-italic text-dark'>
+                <span className='font-bold'>Ethio Coffee Export PLC</span>
+                <br />
+                Yesak Building, 3rd Floor, Office 301
+                <br />
+                Lideta, Addis Ababa, Ethiopia
+              </p>
             </div>
-            <div className='mt-6 pt-4 border-t border-black/10 grid grid-cols-1 md:grid-cols-2 gap-4'>
+            <div className='mt-6 pt-4 border-t border-dark/30 grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div>
-                <p className='text-sm text-gray-600'>Email</p>
+                <p className='text-sm text-dark/50'>Email</p>
                 <a href="mailto:coffee@ethiocoffee.co" className='text-dark font-semibold hover:text-accent transition-colors'>
                   coffee@ethiocoffee.co
                 </a>
               </div>
               <div>
-                <p className='text-sm text-gray-600'>Business Hours</p>
+                <p className='text-sm text-dark/50'>Business Hours</p>
                 <p className='text-dark font-semibold'>Mon - Fri, 09:00 - 17:00 (EAT)</p>
               </div>
             </div>
           </div>
           
           {submitSuccess ? (
-              <div className='p-6 bg-green-50 border border-green-200 rounded-lg text-center'>
+              <div ref={successRef} className='p-8 bg-green-50 border border-green-200 rounded-lg text-center'>
                 <h3 className='text-2xl font-bold text-green-700 mb-2'>Thank You!</h3>
-                <p className='text-green-700'>Your inquiry has been submitted successfully. We'll contact you soon at the email address you provided.</p>
+                <p className='text-green-700'>Your inquiry has been submitted successfully. We&#39;ll contact you soon at the email address you provided.</p>
                 <p className='mt-4 text-green-700'>For immediate inquiries, you can also email us directly at: <a href="mailto:coffee@ethiocoffee.co" className='underline font-bold'>coffee@ethiocoffee.co</a></p>
               </div>
             ) : (
-              <form className='space-y-6' onSubmit={handleSubmit}>
+              <form className='space-y-6 bg-primary rounded-lg p-8 border border-dark/30 shadow-sm' onSubmit={handleSubmit}>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                   <div>
-                    <label htmlFor='businessName' className='block mb-2 font-bold'>Business Name*</label>
+                    <label htmlFor='businessName' className='block mb-2 font-bold text-dark'>Business Name*</label>
                     <input 
                       type='text' 
                       id='businessName'
                       name='businessName'
-                    value={formData.businessName}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                    required 
-                  />
+                      value={formData.businessName}
+                      onChange={handleChange}
+                      className='w-full p-3 border border-dark/30 rounded-md bg-primary text-dark focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
+                      required 
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor='contactName' className='block mb-2 font-bold text-dark'>Contact Name*</label>
+                    <input 
+                      type='text' 
+                      id='contactName'
+                      name='contactName'
+                      value={formData.contactName}
+                      onChange={handleChange}
+                      className='w-full p-3 border border-dark/30 rounded-md bg-primary text-dark focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
+                      required 
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor='email' className='block mb-2 font-bold text-dark'>Email Address*</label>
+                    <input 
+                      type='email' 
+                      id='email'
+                      name='email'
+                      value={formData.email}
+                      onChange={handleChange}
+                      className='w-full p-3 border border-dark/30 rounded-md bg-primary text-dark focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
+                      required 
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor='phone' className='block mb-2 font-bold text-dark'>Phone Number*</label>
+                    <input 
+                      type='tel' 
+                      id='phone'
+                      name='phone'
+                      value={formData.phone}
+                      onChange={handleChange}
+                      className='w-full p-3 border border-dark/30 rounded-md bg-primary text-dark focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
+                      required 
+                    />
+                  </div>
                 </div>
+              
                 <div>
-                  <label htmlFor='contactName' className='block mb-2 font-bold'>Contact Name*</label>
+                  <label htmlFor='country' className='block mb-2 font-bold text-dark'>Country*</label>
                   <input 
                     type='text' 
-                    id='contactName'
-                    name='contactName'
-                    value={formData.contactName}
+                    id='country'
+                    name='country'
+                    value={formData.country}
                     onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
+                    className='w-full p-3 border border-dark/30 rounded-md bg-primary text-dark focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
                     required 
                   />
                 </div>
-                <div>
-                  <label htmlFor='email' className='block mb-2 font-bold'>Email Address*</label>
-                  <input 
-                    type='email' 
-                    id='email'
-                    name='email'
-                    value={formData.email}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                    required 
-                  />
-                </div>
-                <div>
-                  <label htmlFor='phone' className='block mb-2 font-bold'>Phone Number*</label>
-                  <input 
-                    type='tel' 
-                    id='phone'
-                    name='phone'
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                    required 
-                  />
-                </div>
-              </div>
               
-              <div>
-                <label htmlFor='country' className='block mb-2 font-bold'>Country*</label>
-                <input 
-                  type='text' 
-                  id='country'
-                  name='country'
-                  value={formData.country}
-                  onChange={handleChange}
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all' 
-                  required 
-                />
-              </div>
-              
-              <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                <div>
-                  <label htmlFor='businessType' className='block mb-2 font-bold'>Business Type*</label>
-                  <select 
-                    id='businessType'
-                    name='businessType'
-                    value={formData.businessType}
-                    onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
-                    required
-                  >
-                    <option value=''>Select your business type</option>
-                    <option value='importer'>Coffee Importer</option>
-                    <option value='trading-company'>Trading Company</option>
-                    <option value='roaster-importer'>Roaster with Import License</option>
-                    <option value='distributor'>Green Coffee Distributor</option>
-                    <option value='broker'>Coffee Broker / Agent</option>
-                    <option value='cooperative'>Roaster Cooperative</option>
-                    <option value='other'>Other</option>
-                  </select>
-                </div>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                  <div>
+                    <label htmlFor='businessType' className='block mb-2 font-bold text-dark'>Business Type*</label>
+                    <select 
+                      id='businessType'
+                      name='businessType'
+                      value={formData.businessType}
+                      onChange={handleChange}
+                      className='w-full p-3 border border-dark/30 rounded-md bg-primary text-dark focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                      required
+                    >
+                      <option value=''>Select your business type</option>
+                      <option value='importer'>Coffee Importer</option>
+                      <option value='trading-company'>Trading Company</option>
+                      <option value='roaster-importer'>Roaster with Import License</option>
+                      <option value='distributor'>Green Coffee Distributor</option>
+                      <option value='broker'>Coffee Broker / Agent</option>
+                      <option value='cooperative'>Roaster Cooperative</option>
+                      <option value='other'>Other</option>
+                    </select>
+                  </div>
 
+                  <div>
+                    <label htmlFor='referralSource' className='block mb-2 font-bold text-dark'>Where did you hear about us?</label>
+                    <select 
+                      id='referralSource'
+                      name='referralSource'
+                      value={formData.referralSource}
+                      onChange={handleChange}
+                      className='w-full p-3 border border-dark/30 rounded-md bg-primary text-dark focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                    >
+                      <option value=''>Select an option (optional)</option>
+                      <option value='google'>Google Search</option>
+                      <option value='social-media'>Social Media</option>
+                      <option value='trade-show'>Trade Show / Exhibition</option>
+                      <option value='referral'>Friend / Business Referral</option>
+                      <option value='linkedin'>LinkedIn</option>
+                      <option value='industry-publication'>Industry Publication</option>
+                      <option value='existing-customer'>Existing Customer</option>
+                      <option value='other'>Other</option>
+                    </select>
+                  </div>
+                </div>
+              
                 <div>
-                  <label htmlFor='referralSource' className='block mb-2 font-bold'>Where did you hear about us?</label>
-                  <select 
-                    id='referralSource'
-                    name='referralSource'
-                    value={formData.referralSource}
+                  <label htmlFor='message' className='block mb-2 font-bold text-dark'>Additional Information</label>
+                  <textarea 
+                    id='message'
+                    name='message'
+                    value={formData.message}
                     onChange={handleChange}
-                    className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                    rows={5} 
+                    className='w-full p-3 border border-dark/30 rounded-md bg-primary text-dark focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
+                    placeholder='Tell us about your business needs, volumes required, etc.'
+                  ></textarea>
+                </div>
+              
+                {submitError && (
+                  <div className='p-4 bg-red-50 border border-red-200 rounded-lg text-red-700'>
+                    {submitError}
+                  </div>
+                )}
+              
+                <div className='text-center pt-4'>
+                  <button 
+                    type='submit'
+                    disabled={isSubmitting}
+                    className='
+                      px-8 py-4 mt-2 w-full md:w-auto
+                      bg-accent hover:bg-accent/90 text-white
+                      border-2 border-accent
+                      rounded-xl
+                      font-bold
+                      disabled:opacity-70 disabled:cursor-not-allowed
+                      transition-all
+                      shadow-sm hover:shadow-md
+                    '
                   >
-                    <option value=''>Select an option (optional)</option>
-                    <option value='google'>Google Search</option>
-                    <option value='social-media'>Social Media</option>
-                    <option value='trade-show'>Trade Show / Exhibition</option>
-                    <option value='referral'>Friend / Business Referral</option>
-                    <option value='linkedin'>LinkedIn</option>
-                    <option value='industry-publication'>Industry Publication</option>
-                    <option value='existing-customer'>Existing Customer</option>
-                    <option value='other'>Other</option>
-                  </select>
+                    {isSubmitting ? 'SUBMITTING...' : 'SUBMIT INQUIRY'}
+                  </button>
                 </div>
-              </div>
               
-              <div>
-                <label htmlFor='message' className='block mb-2 font-bold'>Additional Information</label>
-                <textarea 
-                  id='message'
-                  name='message'
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={5} 
-                  className='w-full p-3 border border-gray-300 rounded-md bg-white focus:border-accent focus:ring-1 focus:ring-accent/20 outline-none transition-all'
-                  placeholder='Tell us about your business needs, volumes required, etc.'
-                ></textarea>
-              </div>
-              
-              {submitError && (
-                <div className='p-4 bg-red-50 border border-red-200 rounded-lg text-red-700'>
-                  {submitError}
+                <div className='text-center mt-6 text-dark/50 text-sm'>
+                  <p>You can also contact us directly at: <a href="mailto:coffee@ethiocoffee.co" className='text-dark underline hover:text-accent transition-colors'>coffee@ethiocoffee.co</a></p>
                 </div>
-              )}
-              
-              <div className='text-center pt-4'>
-                <button 
-                  type='submit'
-                  disabled={isSubmitting}
-                  className='
-                    px-6 py-4 mt-2 w-full md:w-auto
-                    bg-accent hover:bg-accent/90 text-white
-                    border-2 border-accent
-                    rounded-xl
-                    font-bold
-                    disabled:opacity-70 disabled:cursor-not-allowed
-                    transition-all
-                    shadow-sm hover:shadow-md
-                  '
-                >
-                  {isSubmitting ? 'SUBMITTING...' : 'SUBMIT INQUIRY'}
-                </button>
-              </div>
-              
-              <div className='text-center mt-6 text-gray-600 text-sm'>
-                <p>You can also contact us directly at: <a href="mailto:coffee@ethiocoffee.co" className='text-dark underline hover:text-accent transition-colors'>coffee@ethiocoffee.co</a></p>
-              </div>
-            </form>
+              </form>
           )}
         </div>
       </section>
