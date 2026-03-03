@@ -148,7 +148,7 @@ const Navbar = () => {
                     {/* Mobile Menu Button */}
                     <div className='lg:hidden flex items-center gap-2'>
                         <div className={`transition-colors duration-300 ${
-                            scrolled ? 'text-dark' : 'text-white'
+                            scrolled ? 'text-dark' : isHome ? 'text-white' : 'text-dark'
                         }`}>
                             <CartIcon />
                         </div>
