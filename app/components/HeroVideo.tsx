@@ -15,12 +15,13 @@ const HeroVideo = () => {
   const videoRef = useRef<HTMLVideoElement>(null)
   const [isPlaying, setIsPlaying] = useState(false)
   const [videoSrc] = useState(getInitialVideoSrc)
+  const isPlayingRef = useRef(false)
   const retryCountRef = useRef(0)
   const maxRetries = 6
 
   const attemptPlay = useCallback(() => {
     const video = videoRef.current
-    if (!video || isPlaying) return
+    if (!video || isPlayingRef.current) return
 
     video.muted = true
     video.defaultMuted = true
@@ -37,15 +38,18 @@ const HeroVideo = () => {
     const playPromise = video.play()
     if (playPromise !== undefined) {
       playPromise
-        .then(() => setIsPlaying(true))
+        .then(() => {
+          isPlayingRef.current = true
+          setIsPlaying(true)
+        })
         .catch(() => {
-          if (retryCountRef.current < maxRetries) {
+          if (retryCountRef.current < maxRetries && !isPlayingRef.current) {
             retryCountRef.current++
             setTimeout(() => attemptPlay(), 500 * retryCountRef.current)
           }
         })
     }
-  }, [isPlaying])
+  }, [])
 
   // Initial play attempt after mount
   useEffect(() => {
@@ -56,7 +60,7 @@ const HeroVideo = () => {
   // Listen for video becoming ready (crucial for iOS Safari)
   useEffect(() => {
     const video = videoRef.current
-    if (!video || isPlaying) return
+    if (!video) return
 
     const onCanPlay = () => attemptPlay()
     const onLoadedData = () => attemptPlay()
@@ -68,7 +72,7 @@ const HeroVideo = () => {
       video.removeEventListener('canplay', onCanPlay)
       video.removeEventListener('loadeddata', onLoadedData)
     }
-  }, [attemptPlay, isPlaying])
+  }, [attemptPlay])
 
   // Visibility change - resume if paused
   useEffect(() => {
@@ -84,7 +88,6 @@ const HeroVideo = () => {
   // iOS Safari fallback: user interaction within the hero triggers play
   // Scoped to the container so taps on nav/cart/menu aren't swallowed
   useEffect(() => {
-    if (isPlaying) return
     const container = videoRef.current?.parentElement
     if (!container) return
 
@@ -101,12 +104,12 @@ const HeroVideo = () => {
       container.removeEventListener('click', handleInteraction)
       document.removeEventListener('scroll', handleInteraction)
     }
-  }, [attemptPlay, isPlaying])
+  }, [attemptPlay])
 
   // IntersectionObserver - play when in view (helps iOS)
   useEffect(() => {
     const video = videoRef.current
-    if (!video || isPlaying) return
+    if (!video) return
 
     if (typeof IntersectionObserver === 'undefined') return
 
@@ -120,7 +123,7 @@ const HeroVideo = () => {
     )
     observer.observe(video)
     return () => observer.disconnect()
-  }, [attemptPlay, isPlaying])
+  }, [attemptPlay])
 
   return (
     <>

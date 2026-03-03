@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from 'react'
+import { usePathname } from 'next/navigation'
 import { COMPANY_EMAIL } from '../lib/constants'
 
 /**
@@ -13,6 +14,7 @@ export default function ContactFAB() {
   const [heroVisible, setHeroVisible] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
   const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER
+  const pathname = usePathname()
 
   useEffect(() => {
     setIsVisible(true)
@@ -21,21 +23,23 @@ export default function ContactFAB() {
     checkMobile()
     window.addEventListener('resize', checkMobile)
 
-    // Hide FAB on mobile when the hero section is visible
-    const hero = document.getElementById('hero')
-    if (hero) {
-      const observer = new IntersectionObserver(
-        ([entry]) => setHeroVisible(entry.isIntersecting),
-        { threshold: 0.1 }
-      )
-      observer.observe(hero)
-      return () => {
-        observer.disconnect()
-        window.removeEventListener('resize', checkMobile)
+    // On homepage, hide FAB while user is in the hero viewport area
+    const isHome = pathname === '/'
+    if (isHome) {
+      const handleScroll = () => {
+        setHeroVisible(window.scrollY < window.innerHeight * 0.8)
       }
+      setHeroVisible(true) // start hidden on homepage load
+      window.addEventListener('scroll', handleScroll, { passive: true })
+      return () => {
+        window.removeEventListener('resize', checkMobile)
+        window.removeEventListener('scroll', handleScroll)
+      }
+    } else {
+      setHeroVisible(false)
     }
     return () => window.removeEventListener('resize', checkMobile)
-  }, [])
+  }, [pathname])
 
   // Close on outside click
   useEffect(() => {
