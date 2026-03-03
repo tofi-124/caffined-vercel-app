@@ -199,5 +199,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'ECTA, in collaboration with UNIDO and ILO, delivers training on child labor prevention to coffee growers and industry investors from Sidama, Southern, and Oromia regions, in compliance with EU regulations (EUDR).',
     source: 'Ashenafi Getahun',
     keywords: 'child labor coffee Ethiopia, EUDR Ethiopian coffee compliance, Ethiopian coffee export EU, ECTA UNIDO training, ILO Ethiopia coffee, child labor prevention coffee, Ethiopian coffee social standards, Ethiopian coffee exporter',
+  },
+  {
+    slug: 'coffee-export-performance-forum-addis-ababa',
+    date: '2026-03-02',
+    title: 'Ethiopia Coffee Export Forum Calls for Quality and Competitiveness',
+    desc: 'The Ministry of Agriculture and the Ethiopian Coffee and Tea Authority convened a stakeholder forum in Addis Ababa to review coffee export performance and address supply chain challenges. Minister Addisu Arega stressed that quality and competitiveness are essential amid global price fluctuations, while ECTA Director General Dr. Adugna Debela urged stakeholder coordination to build a modern, reliable trading system that benefits both producers and the country.',
+    source: 'Tesfu Alemayehu',
+    keywords: 'Ethiopian coffee export performance, Ethiopian coffee forum, Ministry of Agriculture Ethiopia coffee, Ethiopian Coffee and Tea Authority, Ethiopian coffee competitiveness, coffee foreign exchange Ethiopia, Ethiopian coffee supply chain, Ethiopian coffee exporter, coffee trading system Ethiopia, Dr. Adugna Debela',
   }
 ]
