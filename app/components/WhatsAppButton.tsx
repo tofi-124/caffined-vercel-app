@@ -10,14 +10,31 @@ export default function ContactFAB() {
   const [isOpen, setIsOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
+  const [heroVisible, setHeroVisible] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
   const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER
 
   useEffect(() => {
     setIsVisible(true)
-    // Detect mobile via user agent
-    const mobile = /Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-    setIsMobile(mobile)
+    // Detect mobile via screen width (< 768px)
+    const checkMobile = () => setIsMobile(window.innerWidth < 768)
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+
+    // Hide FAB on mobile when the hero section is visible
+    const hero = document.getElementById('hero')
+    if (hero) {
+      const observer = new IntersectionObserver(
+        ([entry]) => setHeroVisible(entry.isIntersecting),
+        { threshold: 0.1 }
+      )
+      observer.observe(hero)
+      return () => {
+        observer.disconnect()
+        window.removeEventListener('resize', checkMobile)
+      }
+    }
+    return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
   // Close on outside click
@@ -41,7 +58,7 @@ export default function ContactFAB() {
     <div
       ref={containerRef}
       className={`fixed right-6 bottom-6 z-50 flex flex-col items-center gap-3 transition-all duration-300 ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        isVisible && !(isMobile && heroVisible) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'
       }`}
     >
       {/* Expanded options */}
