@@ -59,7 +59,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
           <HiOutlineLightBulb className='text-2xl flex-shrink-0' /> Key Takeaway
         </p>
         <p className='text-sm leading-relaxed'>
-          Green coffee price hedging is not speculative trading. It is the practice of locking in known costs so your business can price roasted coffee with confidence. The three core tools — fixed-price forward contracts, differential basis contracts, and call options — each suit different buyer profiles and risk tolerances. Combined with disciplined trade finance selection and currency risk management, they form a complete risk framework any importer can apply from their first container.
+          Green coffee price hedging is not speculative trading. It is the practice of locking in known costs so your business can price roasted coffee with confidence. The three core tools (fixed-price forward contracts, differential basis contracts, and call options) each suit different buyer profiles and risk tolerances. Combined with disciplined trade finance selection and currency risk management, they form a complete risk framework any importer can apply from their first container.
         </p>
       </div>
 
@@ -206,7 +206,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
 
       <h3 className='text-xl font-bold mt-6 mb-2'>Call Options: Capping Your Price Ceiling</h3>
       <p className='my-4'>
-        A call option gives you the right, but not the obligation, to buy a coffee futures contract at a set price (the strike price) on or before a set date (the expiry). You pay a premium upfront to purchase this right. If prices rise above your strike price, your option gains value, offsetting the higher cost of your physical coffee. If prices stay below your strike, your option expires worthless, but you buy your physical coffee at the lower market price — so the downside is limited to the premium you paid.
+        A call option gives you the right, but not the obligation, to buy a coffee futures contract at a set price (the strike price) on or before a set date (the expiry). You pay a premium upfront to purchase this right. If prices rise above your strike price, your option gains value, offsetting the higher cost of your physical coffee. If prices stay below your strike, your option expires worthless, meaning you buy your physical coffee at the lower market price, and the downside is limited to the premium you paid.
       </p>
       <p className='my-4'>
         Call options are the instrument of choice when you want a price ceiling without surrendering the benefit if prices fall. The cost of an at-the-money call option on ICE Coffee C futures typically runs 3 to 8 cents per pound depending on time to expiry and market volatility, which at current price levels represents roughly 1 to 2 percent of the cargo value per contract month.
@@ -287,12 +287,12 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
       </div>
 
       <p className='my-4'>
-        On a $100,000 shipment with a 7% annual cost of capital, 110 days of locked working capital costs approximately $2,100. At $200,000, the cost doubles. These are real carrying costs that appear in no line item on a standard landed cost calculator — but they directly reduce your margin.
+        On a $100,000 shipment with a 7% annual cost of capital, 110 days of locked working capital costs approximately $2,100. At $200,000, the cost doubles. These are real carrying costs that appear in no line item on a standard landed cost calculator, yet they directly reduce your margin.
       </p>
 
       <h3 className='text-xl font-bold mt-6 mb-2'>Pre-Export and Warehouse Receipt Financing</h3>
       <p className='my-4'>
-        Pre-export finance (PXF) is credit extended to an exporter by a bank or development finance institution, secured against forward export contracts. In practice, this means the exporter — not you — raises trade finance, and the cost is reflected in the quoted FOB price. Understanding this is useful because exporters with strong PXF relationships can offer more competitive fixed-price windows and longer forward booking horizons.
+        Pre-export finance (PXF) is credit extended to an exporter by a bank or development finance institution, secured against forward export contracts. In practice, this means the exporter (not you) raises trade finance, and the cost is reflected in the quoted FOB price. Understanding this is useful because exporters with strong PXF relationships can offer more competitive fixed-price windows and longer forward booking horizons.
       </p>
       <p className='my-4'>
         Warehouse receipt finance is credit extended against certified stocks of green coffee held in a licensed warehouse. Once your container lands and is bonded in an approved warehouse, the warehouse receipt can serve as collateral for a short-term working capital loan from a trade finance bank. This credits your account faster than waiting for your customers to pay, reducing the cash cycle by 30 to 45 days. Not all commodity banks offer this for specialty green coffee, but the Netherlands, Germany, the UK, and the US all have trade finance providers active in this area.
@@ -321,7 +321,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
         Ethiopian green coffee is priced and invoiced in US dollars. If you operate in Canada, the EU, the UK, or Australia, your revenue comes in from local roasters in a non-USD currency. Your buying cost is in USD. Your working capital, staff, and overheads are in your local currency. Any shift in the USD exchange rate between the moment you lock in a purchase price and the moment you collect payment from customers affects your realized margin.
       </p>
       <p className='my-4'>
-        A 3 percent move in EUR/USD — quite ordinary over a 90-day period — translates to $3,000 in realized FX losses on a $100,000 cargo for a European importer. On a margin-sensitive specialty purchase, that can equal the entire profit on the shipment.
+        A 3 percent move in EUR/USD, quite ordinary over a 90-day period, translates to $3,000 in realized FX losses on a $100,000 cargo for a European importer. On a margin-sensitive specialty purchase, that can equal the entire profit on the shipment.
       </p>
 
       <h3 className='text-xl font-bold mt-6 mb-2'>Forward FX Contracts</h3>
@@ -329,7 +329,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
         A forward FX contract locks in a currency exchange rate for a specific future date. Once you know the USD cost of your shipment and the expected delivery date, you can book a forward FX contract with your bank or a specialist FX provider (Wise Business, OFX, Currencies Direct, and similar platforms typically offer tighter spreads than commercial banks for trade-related FX). The contract guarantees you will receive a known amount of local currency when you convert USD payments from customers.
       </p>
       <p className='my-4'>
-        Forward FX contracts generally carry no premium — the rate adjustment reflects the interest rate differential between the two currencies. For short tenors (under 90 days), the cost is minimal.
+        Forward FX contracts generally carry no premium; the rate adjustment reflects the interest rate differential between the two currencies. For short tenors (under 90 days), the cost is minimal.
       </p>
 
       <h3 className='text-xl font-bold mt-6 mb-2'>Natural Hedging in Practice</h3>
@@ -424,7 +424,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
           <HiOutlineCheckCircle className='text-green-600 text-xl' /> A Note on Costs
         </h4>
         <p className='text-sm'>
-          Adding up all the risk management tools above — forward contract (0), call option (1.5%), warehouse finance (1%), forward FX (0.1%), LC (2%), marine insurance (0.4%) — gives a theoretical maximum of about 5%. In practice, you will not need every instrument on every shipment. Most buyers using only a fixed-price contract, marine insurance, and a forward FX hedge face a total hedging cost below 0.7% of cargo value. That is well within the premium differential you receive for sourcing traceable Ethiopian specialty grades. See the <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='underline font-bold'>landed cost guide</Link> for a full cost breakdown including these line items.
+          Adding up all the risk management tools above (forward contract: 0, call option: 1.5%, warehouse finance: 1%, forward FX: 0.1%, LC: 2%, marine insurance: 0.4%) gives a theoretical maximum of about 5%. In practice, you will not need every instrument on every shipment. Most buyers using only a fixed-price contract, marine insurance, and a forward FX hedge face a total hedging cost below 0.7% of cargo value. That is well within the premium differential you receive for sourcing traceable Ethiopian specialty grades. See the <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='underline font-bold'>landed cost guide</Link> for a full cost breakdown including these line items.
         </p>
       </div>
 
@@ -434,27 +434,27 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
         <ul className='list-disc ml-5 space-y-2 text-sm'>
           <li>
             <a href='https://www.ice.com/products/15/Coffee-C-Futures' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              Intercontinental Exchange (ICE) — Coffee C Futures Contract Specifications
+              Intercontinental Exchange (ICE): Coffee C Futures Contract Specifications
             </a>
           </li>
           <li>
             <a href='https://www.ico.org/coffee_prices.asp' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              International Coffee Organization (ICO) — Coffee Price Statistics and Historical Data
+              International Coffee Organization (ICO): Coffee Price Statistics and Historical Data
             </a>
           </li>
           <li>
             <a href='https://www.ecx.com.et/CoffeeCommodity.aspx' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              Ethiopia Commodity Exchange (ECX) — Coffee Commodity Trading Rules and Grading Standards
+              Ethiopia Commodity Exchange (ECX): Coffee Commodity Trading Rules and Grading Standards
             </a>
           </li>
           <li>
             <a href='https://perfectdailygrind.com/2021/04/an-early-history-of-the-c-market-exchanges-and-derivatives-through-history/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              Perfect Daily Grind — "An Early History of the C Market: Exchanges and Derivatives Through History"
+              Perfect Daily Grind: "An Early History of the C Market: Exchanges and Derivatives Through History"
             </a>
           </li>
           <li>
             <a href='https://www.cbi.eu/market-information/coffee' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              Centre for the Promotion of Imports (CBI) — Coffee Trade and Price Information for Importers
+              Centre for the Promotion of Imports (CBI): Coffee Trade and Price Information for Importers
             </a>
           </li>
         </ul>
