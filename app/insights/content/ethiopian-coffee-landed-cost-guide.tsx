@@ -705,6 +705,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
               <li>&bull; <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+              <li>&bull; <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>Green Coffee Price Hedging &amp; Financing Guide</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms</Link></li>
               <li>&bull; <Link href='/insights/most-expensive-coffee-in-the-world' className='text-amber-700 hover:underline'>Most Expensive Coffee in the World</Link></li>
             </ul>

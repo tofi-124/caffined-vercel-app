@@ -884,6 +884,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee FOB Pricing Guide</Link></li>
               <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Rising Ethiopian Coffee Prices Explained</Link></li>
+              <li><Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Price Hedging Guide</Link></li>
               <li><Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee MOQ Guide</Link></li>
               <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> ECX and Ethiopian Coffee Export</Link></li>
             </ul>

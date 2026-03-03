@@ -1068,6 +1068,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
             <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
+              <li>• <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>Green Coffee Price Hedging for Importers</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>2025 Harvest Season Outlook</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
             </ul>

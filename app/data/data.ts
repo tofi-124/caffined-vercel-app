@@ -2207,4 +2207,36 @@ export const posts: Post[] = [
       ],
       desc: 'Selective coffee harvesting explained: why hand-picking ripe cherries matters for quality, picker economics, and sourcing. Read actionable steps for buyers.'
     },
+    // ===== GREEN COFFEE FINANCING & PRICE HEDGING GUIDE =====
+    {
+      small_image_url: 'insights/green-coffee-financing-hedging-importers-guide.webp',
+      large_image_url: 'insights/green-coffee-financing-hedging-importers-guide.webp',
+      date: 'Mar 02, 2026',
+      title: 'Green Coffee Price Hedging: A Practical Importer\'s Guide',
+      slug: 'green-coffee-financing-hedging-importers-guide',
+      category: 'Trade Guidance / Pricing / Risk Management / Importer Resources',
+      keywords: [
+        'green coffee price hedging',
+        'coffee futures hedging guide',
+        'coffee import financing',
+        'coffee price risk management',
+        'green coffee trade finance',
+        'how to hedge green coffee prices as an importer',
+        'coffee futures explained for roasters and importers',
+        'letter of credit vs cash against documents coffee trade',
+        'coffee options hedging strategy importers',
+        'working capital management green coffee importing',
+        'currency risk hedging coffee imports',
+        'pre-shipment finance green coffee',
+        'how do coffee differentials work with hedging',
+        'warehouse receipt financing coffee',
+        'ICE coffee C futures importers guide',
+        'Ethiopian coffee forward contract price',
+        'coffee call option strategy buyer',
+        'green coffee working capital cycle',
+        'forward FX contract coffee importer',
+        'Ethiopian coffee fixed price forward contract'
+      ],
+      desc: 'A practical framework for green coffee price hedging: how to use fixed-price forward contracts, call options, ICE coffee futures, trade finance instruments, and forward FX contracts to protect import margins and manage working capital when sourcing Ethiopian green coffee.'
+    },
 ]
