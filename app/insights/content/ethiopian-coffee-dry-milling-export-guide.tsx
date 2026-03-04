@@ -49,7 +49,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
         <span className='ml-2'>Quality Control / Processing Standards / Sourcing Guide / Importer Resources</span>
       </div>
 
-      {/* Key Takeaway — featured snippet target */}
+      {/* Key Takeaway - featured snippet target */}
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-bold text-lg mb-2 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0' />
@@ -120,7 +120,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
         Mills are owned by a mix of private exporters and cooperative unions. Some private exporters own their own milling equipment and offer toll milling services to smaller exporters who do not. Toll milling fees in Ethiopia typically range from USD 0.10 to 0.18 per kilogram of green output, depending on processing method and service level (automated sorting only vs. automated plus hand sorting).
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-2'>ECX-Route Coffee vs. Direct Sourcing (DSL) — Two Different Milling Paths</h3>
+      <h3 className='text-xl font-bold mt-6 mb-2'>ECX-Route Coffee vs. Direct Sourcing (DSL) - Two Different Milling Paths</h3>
 
       <p className='my-4'>
         Ethiopian coffee reaches dry mills through two primary channels, and the milling path differs between them.
@@ -485,22 +485,22 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
         <ul className='list-disc ml-5 space-y-2 text-sm'>
           <li>
             <a href='https://www.nordicapproach.no/post/dry-milling-in-ethiopia-why-quality-depends-on-it' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              Nordic Approach — "Dry milling in Ethiopia: why quality depends on it" (2025)
+              Nordic Approach - "Dry milling in Ethiopia: why quality depends on it" (2025)
             </a>
           </li>
           <li>
             <a href='https://www.trabocca.com/coffee-knowledge/coffee-supply-chains/how-a-coffee-dry-mill-works-7-step-breakdown/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              Trabocca — "How a coffee dry mill works: 7 step breakdown"
+              Trabocca - "How a coffee dry mill works: 7 step breakdown"
             </a>
           </li>
           <li>
             <a href='https://www.ico.org/trade_statistics.asp' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              International Coffee Organization (ICO) — Trade Statistics
+              International Coffee Organization (ICO) - Trade Statistics
             </a>
           </li>
           <li>
             <a href='https://www.scaa.org/PDF/resources/grading-green-coffee.pdf' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>
-              SCA — Green Coffee Grading and Classification Standards
+              SCA - Green Coffee Grading and Classification Standards
             </a>
           </li>
         </ul>

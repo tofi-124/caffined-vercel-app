@@ -32,12 +32,12 @@ export default function ChildLaborPreventionCoffeeSectorTraining({ title, date, 
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>
-          He stressed that violating child labor regulations risks losing access to the European Union coffee market — a critical export destination for Ethiopian coffee — and urged growers and industry owners not to jeopardize their market access by employing children.
+          He stressed that violating child labor regulations risks losing access to the European Union coffee market - a critical export destination for Ethiopian coffee - and urged growers and industry owners not to jeopardize their market access by employing children.
         </p>
 
         <h2 className='text-xl font-bold text-dark mt-6'>Strengthening Compliance Across the Coffee Value Chain</h2>
         <p className='text-gray-700 text-sm leading-relaxed'>
-          The trainings aim to enhance participants' awareness and knowledge of child labor standards at both national and global levels. It is expected that the comprehensive curriculum — covering definitions, concepts, and applicable laws — will meaningfully improve the trainees' capacity to comply with international requirements and protect Ethiopia's reputation as a responsible coffee exporter.
+          The trainings aim to enhance participants' awareness and knowledge of child labor standards at both national and global levels. It is expected that the comprehensive curriculum - covering definitions, concepts, and applicable laws - will meaningfully improve the trainees' capacity to comply with international requirements and protect Ethiopia's reputation as a responsible coffee exporter.
         </p>
 
         <p className='text-gray-700 text-sm leading-relaxed'>

@@ -345,7 +345,7 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
         </div>
 
         <p className="text-lg leading-relaxed">
-          Once dry coffee leaves the processing facility, it passes through the dry mill — the facility where parchment and dried cherry are mechanically converted into export-ready green beans through hulling, size grading, density sorting, and hand-sorting. For a full breakdown of each step and what buyers should expect, see our <Link href="/insights/ethiopian-coffee-dry-milling-export-guide" className="underline font-bold">Ethiopian coffee dry milling export guide</Link>.
+          Once dry coffee leaves the processing facility, it passes through the dry mill - the facility where parchment and dried cherry are mechanically converted into export-ready green beans through hulling, size grading, density sorting, and hand-sorting. For a full breakdown of each step and what buyers should expect, see our <Link href="/insights/ethiopian-coffee-dry-milling-export-guide" className="underline font-bold">Ethiopian coffee dry milling export guide</Link>.
         </p>
 
         <p className="text-lg leading-relaxed">
