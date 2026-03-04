@@ -257,7 +257,7 @@ export default function YirgacheffeCoffeePage() {
               <HiOutlineCube className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Pre-Shipment Samples</h3>
-                <p className='mt-1'>Request green and roasted samples of any available Yirgacheffe lot before committing to a container. Evaluate the cup quality in your own lab first.</p>
+                <p className='mt-1'>Order green coffee samples of any available Yirgacheffe lot before committing to a container. Evaluate the cup quality in your own lab first.</p>
               </div>
             </div>
           </div>

@@ -42,7 +42,7 @@ const buyerTypes = [
 
 const processSteps = [
   { step: '01', title: 'Inquire', desc: 'Tell us your requirements: preferred origins, grades, processing methods, volume needs, and delivery timeline. We\'ll respond within 24 hours with availability and indicative pricing.' },
-  { step: '02', title: 'Sample', desc: 'We ship pre-shipment samples (green and/or roasted) for your evaluation. Full SCA cupping reports included. Evaluate cup quality, roast profile, and consistency at your facility.' },
+  { step: '02', title: 'Sample', desc: 'We ship green coffee pre-shipment samples for your evaluation. Full SCA cupping reports included. Evaluate cup quality and consistency at your facility.' },
   { step: '03', title: 'Approve & Contract', desc: 'Once you approve the lot, we issue a sales contract with agreed-upon pricing (fixed or differential), volume, shipping terms (FOB/FCA), and payment terms (L/C, CAD, or T/T).' },
   { step: '04', title: 'Documentation', desc: 'We prepare all export documents: ICO certificate, phytosanitary certificate, certificate of origin, weight certificate, quality certificate, and commercial invoice.' },
   { step: '05', title: 'Ship', desc: 'Your coffee is loaded in a 20ft or 40ft container, shipped from Djibouti port to your designated destination. Real-time tracking and shipping updates provided throughout.' },

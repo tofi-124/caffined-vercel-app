@@ -198,7 +198,7 @@ export default function SidamoCoffeePage() {
               <HiOutlineCube className='text-2xl text-dark/60 mt-1 flex-shrink-0' />
               <div>
                 <h3 className='font-bold text-dark'>Pre-Shipment Samples</h3>
-                <p className='mt-1'>Request green and roasted samples of any available Sidamo lot before committing. Evaluate in your own lab - no obligation until you approve.</p>
+                <p className='mt-1'>Order green coffee samples of any available Sidamo lot before committing. Evaluate in your own lab - no obligation until you approve.</p>
               </div>
             </div>
           </div>

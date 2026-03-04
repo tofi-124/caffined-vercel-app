@@ -456,7 +456,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
           <h4 className='font-bold mb-2'>3. Not requesting pre-shipment samples</h4>
           <p className='text-sm'>
-            Never buy Ethiopian coffee at any price without cupping the actual lot you are purchasing. A green sample and a roasted sample of the PSS (Pre-Shipment Sample) should be evaluated before you confirm the order. This is standard practice and any reputable exporter will provide this without hesitation.
+            Never buy Ethiopian coffee at any price without cupping the actual lot you are purchasing. A green coffee sample (PSS, Pre-Shipment Sample) should be evaluated before you confirm the order. This is standard practice and any reputable exporter will provide this without hesitation.
           </p>
         </div>
         <div className='bg-red-50 p-5 rounded-lg border border-red-200'>

@@ -261,7 +261,7 @@ export default function EthiopianCoffeeExporterLayout({
         "name": "Can I buy samples before committing to a full order?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we offer pre-shipment samples (green and roasted) available for purchase, with detailed SCA cupping reports included. We want you to be 100% satisfied with the cup quality before committing to a full container order."
+          "text": "Yes, we offer green coffee pre-shipment samples available for purchase, with detailed SCA cupping reports included. We want you to be 100% satisfied with the cup quality before committing to a full container order."
         }
       },
       {

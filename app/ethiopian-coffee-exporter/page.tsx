@@ -101,7 +101,7 @@ const exportServices = [
   {
     icon: <HiOutlineClipboardDocumentCheck className="w-8 h-8" />,
     title: 'Pre-Shipment Samples',
-    description: 'Purchase roasted and green samples of any available lot before committing. Evaluate cup quality, assess roast profiles, and approve before we ship.',
+    description: 'Purchase green coffee samples of any available lot before committing. Evaluate cup quality at your lab and approve before we ship.',
   },
 ]
 
@@ -211,11 +211,8 @@ const EthiopianCoffeeExporter = () => {
                 with the communication standards and professionalism that international buyers expect.
               </p>
               <p>
-                Our story starts with our father, who spent over 30 years as a local coffee sourcer and trader in Ethiopia, 
-                traveling across the country's coffee regions (Yirgacheffe, Sidamo, Guji, Harar, Limu, and beyond). 
-                He built deep relationships with farming communities and an intimate knowledge of what makes 
-                Ethiopian coffee exceptional: from cherry selection to drying methods to the subtle quality differences 
-                between microclimates and processing stations.
+                Our father spent over 30 years sourcing and trading coffee across Ethiopia's growing regions, building 
+                the deep relationships and origin expertise that our company is built on today.
               </p>
               <p>
                 In <strong>2022</strong>, we formalized this multi-generational expertise into Ethio Coffee Export PLC, 
@@ -433,7 +430,7 @@ const EthiopianCoffeeExporter = () => {
                 {
                   step: '02',
                   title: 'Purchase & Evaluate Samples',
-                  description: 'Order pre-shipment samples (green and/or roasted) with detailed SCA cupping reports. Evaluate the coffee at your lab and let us know your feedback.'
+                  description: 'Order green coffee pre-shipment samples with detailed SCA cupping reports. Evaluate the coffee at your lab and let us know your feedback.'
                 },
                 {
                   step: '03',
@@ -480,7 +477,7 @@ const EthiopianCoffeeExporter = () => {
             </h2>
             <p className='text-primary/70 max-w-2xl mx-auto'>
               As an <strong>Ethiopian coffee exporter</strong>, we serve a diverse range of international coffee businesses.
-              Whether you&apos;re a micro-roaster or a large-scale distributor, we have the capacity and flexibility to meet your needs.
+              From micro-roasters to large-scale distributors, we have the capacity and flexibility to meet your needs.
             </p>
           </div>
 
@@ -680,8 +677,8 @@ const EthiopianCoffeeExporter = () => {
             Ready to Source from a Trusted Ethiopian Coffee Exporter?
           </h2>
           <p className='text-white/90 max-w-2xl mx-auto mb-8 text-lg'>
-            Whether you're an established importer or new to sourcing Ethiopian coffee, 
-            we're here to help. Order samples, get pricing, or discuss your specific requirements 
+            Established importers and first-time buyers alike trust us to deliver. 
+            Order green coffee samples, get pricing, or discuss your specific requirements 
             with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
@@ -733,7 +730,7 @@ const EthiopianCoffeeExporter = () => {
                 },
                 {
                   q: 'Can I buy samples before committing to a full order?',
-                  a: 'Yes, we offer pre-shipment samples (green and roasted) available for purchase, with detailed SCA cupping reports included. We want you to be 100% satisfied with the cup quality before committing to a full container order. Sample orders can be placed through our contact form.'
+                  a: 'Yes, we offer green coffee pre-shipment samples available for purchase, with detailed SCA cupping reports included. We want you to be 100% satisfied with the cup quality before committing to a full container order. Sample orders can be placed through our contact form.'
                 },
                 {
                   q: 'What is the difference between washed and natural Ethiopian coffee?',

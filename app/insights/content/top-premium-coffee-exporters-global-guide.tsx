@@ -287,7 +287,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
           <HiOutlineCheckCircle className='text-xl text-green-600' /> Buyer&apos;s Checklist: Vetting a Premium Coffee Exporter
         </h4>
         <ol className='list-decimal ml-5 space-y-3 text-sm'>
-          <li><span className='font-bold'>Request pre-shipment samples</span>  -  Any reputable exporter will send green samples (and ideally roasted samples) before you commit to a purchase order.</li>
+          <li><span className='font-bold'>Request pre-shipment samples</span>  -  Any reputable exporter will send green coffee samples before you commit to a purchase order.</li>
           <li><span className='font-bold'>Verify certifications independently</span>  -  Ask for certificate numbers and cross-check with certifying bodies. Premium exporters welcome this scrutiny.</li>
           <li><span className='font-bold'>Ask about traceability depth</span>  -  Can they trace to the washing station? The kebele? The individual producer? The deeper the traceability, the more premium the operation.</li>
           <li><span className='font-bold'>Review past shipment documentation</span>  -  Ask to see a redacted bill of lading, quality certificate, and phytosanitary certificate from a previous shipment to gauge professionalism.</li>
