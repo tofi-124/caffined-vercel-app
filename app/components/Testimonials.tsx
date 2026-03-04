@@ -49,11 +49,11 @@ const Testimonials = () => {
 
   const next = useCallback(() => {
     setCurrent((prev) => (prev + 1) % partners.length)
-  }, [partners.length])
+  }, [])
 
   const prev = useCallback(() => {
     setCurrent((prev) => (prev - 1 + partners.length) % partners.length)
-  }, [partners.length])
+  }, [])
 
   useEffect(() => {
     if (isPaused) return

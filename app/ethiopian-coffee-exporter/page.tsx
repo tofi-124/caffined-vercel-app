@@ -101,7 +101,7 @@ const exportServices = [
   {
     icon: <HiOutlineClipboardDocumentCheck className="w-8 h-8" />,
     title: 'Pre-Shipment Samples',
-    description: 'Request roasted and green samples of any available lot before committing. Evaluate cup quality, assess roast profiles, and approve before we ship.',
+    description: 'Purchase roasted and green samples of any available lot before committing. Evaluate cup quality, assess roast profiles, and approve before we ship.',
   },
 ]
 
@@ -169,7 +169,7 @@ const EthiopianCoffeeExporter = () => {
               href='/contact-us'
               className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'
             >
-              Request Samples & Pricing
+              Get Pricing & Order Samples
             </Link>
             <Link
               href='/offerings'
@@ -323,7 +323,7 @@ const EthiopianCoffeeExporter = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
-                  <span><strong>Relationship Management:</strong> Maintaining ongoing communication with buyers, providing samples, and building long-term trade partnerships</span>
+                  <span><strong>Relationship Management:</strong> Maintaining ongoing communication with buyers, offering samples for purchase, and building long-term trade partnerships</span>
                 </li>
               </ul>
               <p>
@@ -432,13 +432,13 @@ const EthiopianCoffeeExporter = () => {
                 },
                 {
                   step: '02',
-                  title: 'Receive & Evaluate Samples',
-                  description: 'We ship pre-shipment samples (green and/or roasted) with detailed SCA cupping reports. Evaluate the coffee at your lab and let us know your feedback.'
+                  title: 'Purchase & Evaluate Samples',
+                  description: 'Order pre-shipment samples (green and/or roasted) with detailed SCA cupping reports. Evaluate the coffee at your lab and let us know your feedback.'
                 },
                 {
                   step: '03',
                   title: 'Confirm Contract & Terms',
-                  description: 'Once samples are approved, we formalize the export contract with agreed pricing, Incoterms (FOB Djibouti or FCA), payment terms, and delivery timeline.'
+                  description: 'Once you approve the samples, we formalize the export contract with agreed pricing, Incoterms (FOB Djibouti or FCA), payment terms, and delivery timeline.'
                 },
                 {
                   step: '04',
@@ -681,7 +681,7 @@ const EthiopianCoffeeExporter = () => {
           </h2>
           <p className='text-white/90 max-w-2xl mx-auto mb-8 text-lg'>
             Whether you're an established importer or new to sourcing Ethiopian coffee, 
-            we're here to help. Request samples, get pricing, or discuss your specific requirements 
+            we're here to help. Order samples, get pricing, or discuss your specific requirements 
             with our export team.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
@@ -689,7 +689,7 @@ const EthiopianCoffeeExporter = () => {
               href='/contact-us' 
               className='px-8 py-4 bg-white text-accent hover:bg-primary rounded-xl font-bold transition-all'
             >
-              Contact Us for Pricing & Samples
+              Contact Us for Pricing & Sample Orders
             </Link>
             <Link 
               href='/offerings' 
@@ -713,7 +713,7 @@ const EthiopianCoffeeExporter = () => {
               {[
                 {
                   q: 'How do I find a reliable Ethiopian coffee exporter?',
-                  a: 'Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, provides pre-shipment samples, offers transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience.'
+                  a: 'Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, offers pre-shipment samples for purchase, provides transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience.'
                 },
                 {
                   q: 'What is the minimum order quantity for Ethiopian coffee export?',
@@ -732,8 +732,8 @@ const EthiopianCoffeeExporter = () => {
                   a: 'From order confirmation to arrival at your destination, expect 4-8 weeks total. This includes 1-2 weeks for lot preparation and documentation, plus 2-6 weeks of ocean transit depending on your destination port. We ship FOB Djibouti (Ethiopia\'s primary export port) for ocean freight or FCA (Free Carrier) for air freight where the buyer arranges carriage.'
                 },
                 {
-                  q: 'Do you provide samples before I commit to an order?',
-                  a: 'Yes, we provide pre-shipment samples (green and roasted) with detailed SCA cupping reports for evaluation. We want you to be 100% satisfied with the cup quality before committing to a full container order. Sample requests can be made through our contact form.'
+                  q: 'Can I buy samples before committing to a full order?',
+                  a: 'Yes, we offer pre-shipment samples (green and roasted) available for purchase, with detailed SCA cupping reports included. We want you to be 100% satisfied with the cup quality before committing to a full container order. Sample orders can be placed through our contact form.'
                 },
                 {
                   q: 'What is the difference between washed and natural Ethiopian coffee?',

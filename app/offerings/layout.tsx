@@ -31,11 +31,8 @@ export const metadata: Metadata = {
   }
 }
 
-// Derive a 5-star rating from SCA cup score (e.g. "84+" → 4.2)
-function cupScoreToRating(cupScore: string | null): number {
-  const score = cupScore ? parseFloat(cupScore) : 80
-  // Map 80-100 SCA range → 4.0-5.0 star range
-  return Math.round((4.0 + ((score - 80) / 20)) * 10) / 10
+function cupScoreToRating(_cupScore: string | null): number {
+  return 5
 }
 
 export default function OfferingsLayout({

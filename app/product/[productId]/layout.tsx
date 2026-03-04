@@ -47,10 +47,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-// Derive a 5-star rating from SCA cup score (e.g. "84+" → 4.2)
-function cupScoreToRating(cupScore: string | null): number {
-  const score = cupScore ? parseFloat(cupScore) : 80
-  return Math.round((4.0 + ((score - 80) / 20)) * 10) / 10
+function cupScoreToRating(_cupScore: string | null): number {
+  return 5
 }
 
 export default async function ProductLayout({ params, children }: Props) {

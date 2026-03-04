@@ -37,6 +37,7 @@ const NavLinks = ({ position, mobile, onLinkClick, isHome, scrolled }: NavLinksP
       dropdown: [
         { name: 'Insights', path: '/insights' },
         { name: 'News', path: '/ethiopia-coffee-export-news' },
+        { name: 'Ethiopian Coffee Exporter', path: '/ethiopian-coffee-exporter' },
       ],
     },
   ]

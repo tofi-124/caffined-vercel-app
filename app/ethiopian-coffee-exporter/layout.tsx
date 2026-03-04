@@ -1,9 +1,8 @@
 import { Metadata } from 'next'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Coffee Exporter | Ethio Coffee',
-  description: 'Ethio Coffee: trusted Ethiopian coffee exporter shipping specialty green coffee (SCA 80+) worldwide. Yirgacheffe, Sidamo, Guji, Harar available. Request samples.',
+  description: 'Ethio Coffee: trusted Ethiopian coffee exporter shipping specialty green coffee (SCA 80+) worldwide. Yirgacheffe, Sidamo, Guji, Harar available. Order samples today.',
   keywords: 'Ethiopian coffee exporter, ethiopian coffee exporter company, coffee exporter ethiopia, ethiopia coffee exporter, best ethiopian coffee exporter, ethiopian green coffee exporter, ethiopian specialty coffee exporter, ethiopian arabica exporter, ethiopian coffee export company, ethiopian coffee supplier, buy ethiopian coffee wholesale, import ethiopian coffee, ethiopian coffee beans exporter, coffee export from ethiopia, green coffee beans ethiopia export',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter',
@@ -25,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ethiopian Coffee Exporter | Ethio Coffee Export PLC',
-    description: 'Family-owned Ethiopian coffee exporter shipping SCA 80+ specialty green coffee to 40+ countries worldwide. Request samples today.',
+    description: 'Family-owned Ethiopian coffee exporter shipping SCA 80+ specialty green coffee to 40+ countries worldwide. Order samples today.',
     images: ['/images/ethiopian-coffee-export.webp'],
   },
 }
@@ -222,7 +221,7 @@ export default function EthiopianCoffeeExporterLayout({
         "name": "How do I find a reliable Ethiopian coffee exporter?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, provides pre-shipment samples, offers transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience."
+          "text": "Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, offers pre-shipment samples for purchase, provides transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience."
         }
       },
       {
@@ -259,10 +258,10 @@ export default function EthiopianCoffeeExporterLayout({
       },
       {
         "@type": "Question",
-        "name": "Do you provide samples before I commit to an order?",
+        "name": "Can I buy samples before committing to a full order?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we provide pre-shipment samples (green and roasted) with detailed SCA cupping reports for evaluation. We want you to be 100% satisfied with the cup quality before committing to a full container order."
+          "text": "Yes, we offer pre-shipment samples (green and roasted) available for purchase, with detailed SCA cupping reports included. We want you to be 100% satisfied with the cup quality before committing to a full container order."
         }
       },
       {
@@ -429,28 +428,23 @@ export default function EthiopianCoffeeExporterLayout({
 
   return (
     <>
-      <Script
-        id="organization-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
-      <Script
-        id="service-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
-      <Script
-        id="faq-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
-        id="products-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productsSchema) }}
       />
-      <Script
-        id="webpage-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
