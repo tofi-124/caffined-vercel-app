@@ -9,9 +9,7 @@ import {
   HiOutlineDocumentCheck,
   HiOutlineCube,
   HiOutlineTableCells,
-  HiOutlineQuestionMarkCircle,
   HiOutlineMapPin,
-  HiOutlineBeaker,
 } from 'react-icons/hi2'
 
 type InsightContentProps = {
@@ -31,7 +29,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </h2>
 
       <figure>
-        <figcaption className='font-inconsolata my-2'>
+        <figcaption className='font-inconsolata my-2 text-sm text-gray-500'>
           Green coffee packaging determines whether a premium Ethiopian lot arrives in roasting condition or arrives degraded. The choice begins at the export warehouse in Addis Ababa.
         </figcaption>
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -53,20 +51,18 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
 
       {/* KEY TAKEAWAY */}
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
-          <span>
-            <span className='font-bold'>Key Takeaway: </span>
-            The industry standard for Ethiopian specialty green coffee is a 60 kg jute bag lined with a GrainPro or Ecotact hermetic liner, at a combined cost of $2.50 to $5.00 per bag. Jute alone suits short transit and commodity grades. Hermetic liners (GrainPro, Ecotact) are non-negotiable for Grade 1 and Grade 2 lots on long sea freight routes. Vacuum-sealed bags serve micro-lot and sample shipments. Importers should specify packaging type, bag weight, liner brand, pre-seal moisture content, and bag marking requirements in every purchase contract or purchase confirmation.
-          </span>
+        <p className='font-bold text-lg mb-2 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-2xl flex-shrink-0' /> Key Takeaway
+        </p>
+        <p className='text-sm leading-relaxed'>
+          The industry standard for Ethiopian specialty green coffee is a 60 kg jute bag lined with a GrainPro or Ecotact hermetic liner, at a combined cost of $2.50 to $5.00 per bag. Jute alone suits short transit and commodity grades. Hermetic liners (GrainPro, Ecotact) are non-negotiable for Grade 1 and Grade 2 lots on long sea freight routes. Vacuum-sealed bags serve micro-lot and sample shipments. Importers should specify packaging type, bag weight, liner brand, pre-seal moisture content, and bag marking requirements in every purchase contract or purchase confirmation.
         </p>
       </div>
 
       {/* TABLE OF CONTENTS */}
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
-          <HiOutlineClipboardDocumentList className='text-amber-600' />
-          In This Guide
+          <HiOutlineClipboardDocumentList className='text-amber-600' /> In This Guide
         </h3>
         <ol className='space-y-2 text-sm'>
           <li><a href='#why-packaging-matters' className='text-amber-700 hover:underline'>1. Why Green Coffee Packaging Matters for Importers</a></li>
@@ -80,8 +76,8 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </div>
 
       {/* SECTION 1 */}
-      <h2 id='why-packaging-matters' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
-        <HiOutlineShieldCheck className='text-amber-600' />
+      <h2 id='why-packaging-matters' className='text-3xl font-extrabold mt-10 mb-4'>
+        <HiOutlineShieldCheck className='inline mr-2 text-amber-600' />
         Why Green Coffee Packaging Matters for Importers
       </h2>
 
@@ -102,8 +98,8 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* SECTION 2 */}
-      <h2 id='bag-types' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
-        <HiOutlineCube className='text-amber-600' />
+      <h2 id='bag-types' className='text-3xl font-extrabold mt-10 mb-4'>
+        <HiOutlineCube className='inline mr-2 text-amber-600' />
         Green Coffee Bag Types Compared
       </h2>
 
@@ -112,7 +108,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* Jute */}
-      <h3 className='text-2xl font-bold mt-8 mb-3'>Jute Bags (60 kg Standard and 25 kg Specialty)</h3>
+      <h3 className='text-xl font-bold mt-8 mb-2'>Jute Bags (60 kg Standard and 25 kg Specialty)</h3>
 
       <p className='my-4'>
         Jute is the foundational packaging of the global green coffee trade. The 60 kg jute bag is the Ethiopian export standard and remains by far the most common format. In recent years, a 25 kg format has gained ground in the specialty segment, where smaller packs improve lot segregation, manual handling, and warehouse traceability.
@@ -131,7 +127,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* GrainPro */}
-      <h3 className='text-2xl font-bold mt-8 mb-3'>GrainPro and Hermetic Liners (Inside Jute)</h3>
+      <h3 className='text-xl font-bold mt-8 mb-2'>GrainPro and Hermetic Liners (Inside Jute)</h3>
 
       <p className='my-4'>
         The GrainPro Hermetic Bag and comparable products from Ecotact and Videplast are multi-layer plastic liners designed to fit inside a standard jute bag. Once sealed, they create an airtight, moisture-proof barrier. This is now the industry default for specialty green coffee export.
@@ -154,7 +150,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* Vacuum */}
-      <h3 className='text-2xl font-bold mt-8 mb-3'>Vacuum-Sealed Bags (Micro-Lot and Sample Format)</h3>
+      <h3 className='text-xl font-bold mt-8 mb-2'>Vacuum-Sealed Bags (Micro-Lot and Sample Format)</h3>
 
       <p className='my-4'>
         Vacuum-sealed bags remove air from the package before sealing, eliminating essentially all oxygen from the environment around the bean. This provides stronger oxidation protection than hermetic liners, at a higher cost and in smaller bag sizes.
@@ -169,7 +165,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* Woven PP */}
-      <h3 className='text-2xl font-bold mt-8 mb-3'>Woven Polypropylene (PP) Bags</h3>
+      <h3 className='text-xl font-bold mt-8 mb-2'>Woven Polypropylene (PP) Bags</h3>
 
       <p className='my-4'>
         Woven polypropylene bags are lower-cost than jute and more resistant to tearing and moisture ingress from external sources. They are used for some commodity and lower-grade exports, particularly Grade 4 and Grade 5 natural processed coffees.
@@ -180,7 +176,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* Bulk container liners */}
-      <h3 className='text-2xl font-bold mt-8 mb-3'>Bulk Container Liners</h3>
+      <h3 className='text-xl font-bold mt-8 mb-2'>Bulk Container Liners</h3>
 
       <p className='my-4'>
         For very large commodity shipments, some exporters load green coffee as loose beans directly into a container fitted with a bulk liner, a large food-grade plastic bladder that sits inside the entire container. This eliminates bag labor and increases cargo density: a bulk-lined 20ft container holds 19 to 21 metric tons versus 16 to 18 metric tons in standard bags.
@@ -191,8 +187,8 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* SECTION 3: COMPARISON TABLE */}
-      <h2 id='comparison-table' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
-        <HiOutlineTableCells className='text-amber-600' />
+      <h2 id='comparison-table' className='text-3xl font-extrabold mt-10 mb-4'>
+        <HiOutlineTableCells className='inline mr-2 text-amber-600' />
         Full Packaging Comparison Table
       </h2>
 
@@ -201,71 +197,71 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       <div className='overflow-x-auto my-6'>
-        <table className='min-w-full text-sm border-collapse'>
-          <thead>
-            <tr className='bg-dark text-primary'>
-              <th className='p-3 text-left'>Packaging Type</th>
-              <th className='p-3 text-left'>Typical Size</th>
-              <th className='p-3 text-left'>Cost/Bag</th>
-              <th className='p-3 text-left'>Moisture Barrier</th>
-              <th className='p-3 text-left'>O₂ Barrier</th>
-              <th className='p-3 text-left'>Shelf Life Extension</th>
-              <th className='p-3 text-left'>Best Use</th>
+        <table className='min-w-full text-sm text-left border border-gray-200'>
+          <thead className='bg-gray-100 font-bold text-dark'>
+            <tr>
+              <th className='px-4 py-3 border-b'>Packaging Type</th>
+              <th className='px-4 py-3 border-b'>Typical Size</th>
+              <th className='px-4 py-3 border-b'>Cost/Bag</th>
+              <th className='px-4 py-3 border-b'>Moisture Barrier</th>
+              <th className='px-4 py-3 border-b'>O₂ Barrier</th>
+              <th className='px-4 py-3 border-b'>Shelf Life Extension</th>
+              <th className='px-4 py-3 border-b'>Best Use</th>
             </tr>
           </thead>
-          <tbody>
-            <tr className='border-b border-gray-200'>
-              <td className='p-3 font-semibold'>Jute (plain)</td>
-              <td className='p-3'>60 kg / 25 kg</td>
-              <td className='p-3'>$1.00 – $2.00</td>
-              <td className='p-3 text-orange-600 font-medium'>None</td>
-              <td className='p-3 text-orange-600 font-medium'>None</td>
-              <td className='p-3'>Baseline (6 – 12 mo)</td>
-              <td className='p-3'>Grade 4/5, short transit, dry climate</td>
+          <tbody className='divide-y divide-gray-200 text-gray-700'>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Jute (plain)</td>
+              <td className='px-4 py-3'>60 kg / 25 kg</td>
+              <td className='px-4 py-3'>$1.00 – $2.00</td>
+              <td className='px-4 py-3 text-orange-600 font-medium'>None</td>
+              <td className='px-4 py-3 text-orange-600 font-medium'>None</td>
+              <td className='px-4 py-3'>Baseline (6 – 12 mo)</td>
+              <td className='px-4 py-3'>Grade 4/5, short transit, dry climate</td>
             </tr>
-            <tr className='border-b border-gray-200 bg-gray-50'>
-              <td className='p-3 font-semibold'>Jute + GrainPro / Ecotact liner</td>
-              <td className='p-3'>60 kg / 25 kg</td>
-              <td className='p-3'>$2.50 – $5.00</td>
-              <td className='p-3 text-green-700 font-medium'>High (hermetic)</td>
-              <td className='p-3 text-green-700 font-medium'>High (&lt;3% O₂)</td>
-              <td className='p-3'>14 – 24 months</td>
-              <td className='p-3'>Grade 1/2 specialty, long sea freight</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Jute + GrainPro / Ecotact liner</td>
+              <td className='px-4 py-3'>60 kg / 25 kg</td>
+              <td className='px-4 py-3'>$2.50 – $5.00</td>
+              <td className='px-4 py-3 text-green-700 font-medium'>High (hermetic)</td>
+              <td className='px-4 py-3 text-green-700 font-medium'>High (&lt;3% O₂)</td>
+              <td className='px-4 py-3'>14 – 24 months</td>
+              <td className='px-4 py-3'>Grade 1/2 specialty, long sea freight</td>
             </tr>
-            <tr className='border-b border-gray-200'>
-              <td className='p-3 font-semibold'>Vacuum-sealed bag</td>
-              <td className='p-3'>5 – 30 kg</td>
-              <td className='p-3'>$3.00 – $6.00</td>
-              <td className='p-3 text-green-700 font-medium'>Very high</td>
-              <td className='p-3 text-green-700 font-medium'>Very high (near 0%)</td>
-              <td className='p-3'>18 – 24+ months</td>
-              <td className='p-3'>Micro-lots, competition lots, samples</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Vacuum-sealed bag</td>
+              <td className='px-4 py-3'>5 – 30 kg</td>
+              <td className='px-4 py-3'>$3.00 – $6.00</td>
+              <td className='px-4 py-3 text-green-700 font-medium'>Very high</td>
+              <td className='px-4 py-3 text-green-700 font-medium'>Very high (near 0%)</td>
+              <td className='px-4 py-3'>18 – 24+ months</td>
+              <td className='px-4 py-3'>Micro-lots, competition lots, samples</td>
             </tr>
-            <tr className='border-b border-gray-200 bg-gray-50'>
-              <td className='p-3 font-semibold'>Woven PP bag (no liner)</td>
-              <td className='p-3'>60 kg</td>
-              <td className='p-3'>$0.80 – $1.50</td>
-              <td className='p-3 text-orange-600 font-medium'>Low</td>
-              <td className='p-3 text-orange-600 font-medium'>None</td>
-              <td className='p-3'>6 – 10 months</td>
-              <td className='p-3'>Commodity grades, very short transit</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Woven PP bag (no liner)</td>
+              <td className='px-4 py-3'>60 kg</td>
+              <td className='px-4 py-3'>$0.80 – $1.50</td>
+              <td className='px-4 py-3 text-orange-600 font-medium'>Low</td>
+              <td className='px-4 py-3 text-orange-600 font-medium'>None</td>
+              <td className='px-4 py-3'>6 – 10 months</td>
+              <td className='px-4 py-3'>Commodity grades, very short transit</td>
             </tr>
-            <tr className='border-b border-gray-200'>
-              <td className='p-3 font-semibold'>Bulk container liner</td>
-              <td className='p-3'>Full container</td>
-              <td className='p-3'>$200 – $400 per container</td>
-              <td className='p-3 text-amber-600 font-medium'>Medium</td>
-              <td className='p-3 text-orange-600 font-medium'>Low</td>
-              <td className='p-3'>8 – 12 months</td>
-              <td className='p-3'>High-volume commodity; not specialty</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Bulk container liner</td>
+              <td className='px-4 py-3'>Full container</td>
+              <td className='px-4 py-3'>$200 – $400 per container</td>
+              <td className='px-4 py-3 text-amber-600 font-medium'>Medium</td>
+              <td className='px-4 py-3 text-orange-600 font-medium'>Low</td>
+              <td className='px-4 py-3'>8 – 12 months</td>
+              <td className='px-4 py-3'>High-volume commodity; not specialty</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       {/* SECTION 4: ETHIOPIAN CONTEXT */}
-      <h2 id='ethiopian-context' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
-        <HiOutlineMapPin className='text-amber-600' />
+      <h2 id='ethiopian-context' className='text-3xl font-extrabold mt-10 mb-4'>
+        <HiOutlineMapPin className='inline mr-2 text-amber-600' />
         Ethiopian Export Packaging: What Buyers Should Know
       </h2>
 
@@ -273,7 +269,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
         Ethiopia has its own regulatory and logistical context for green coffee packaging that differs from other origins. Understanding it helps importers set realistic expectations and ask the right questions before confirming an order.
       </p>
 
-      <h3 className='text-2xl font-bold mt-8 mb-3'>ECTA Standards and ECX Requirements</h3>
+      <h3 className='text-xl font-bold mt-6 mb-2'>ECTA Standards and ECX Requirements</h3>
 
       <p className='my-4'>
         The Ethiopian Coffee and Tea Authority (ECTA) sets minimum packaging standards for export-grade green coffee. All export lots must be packed in new, food-grade bags. Bags must be clearly marked with the standard ICO export marks: country of origin, grade, lot number, net weight, and exporter code. For ECX-traded coffees, the ECX also assigns a warehouse receipt number that tracks the lot through the system. Direct specialty license (DSL) exporters who source outside the ECX must maintain equivalent traceability on bag markings.
@@ -283,7 +279,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
         Importers purchasing under a Direct Specialty License arrangement can and should specify additional markings: region, washing station or cooperative name, harvest year, and processing method. These markings support EUDR geolocation traceability and strengthen the story you can tell your roasting customers. For a deeper look at how the ECX system works and how it affects your sourcing options, see our <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-bold'>ECX and Ethiopian coffee export guide</Link>.
       </p>
 
-      <h3 className='text-2xl font-bold mt-8 mb-3'>The Djibouti Corridor and Transit Risk</h3>
+      <h3 className='text-xl font-bold mt-6 mb-2'>The Djibouti Corridor and Transit Risk</h3>
 
       <p className='my-4'>
         All Ethiopian coffee exports pass through Djibouti Port, roughly 800 km from Addis Ababa by road. This inland transit takes 2 to 5 days by truck through hot, dry, and sometimes dusty conditions. At Djibouti, containers are loaded and wait at the port before vessel departure. Combined port dwell time and vessel transit to major destinations averages 30 to 45 days to the USA and 20 to 35 days to Europe.
@@ -293,7 +289,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
         The Djibouti corridor has specific temperature and humidity challenges. The port city sits in one of the world's hottest climates, with summer daytime temperatures regularly exceeding 40°C. Containers parked on the tarmac can reach internal temperatures of 55°C or higher. For jute-only packed coffee, a single week in a hot Djibouti container can meaningfully harm cup quality. For GrainPro-lined bags, the hermetic seal maintains the internal equilibrium and buffers against these temperature spikes.
       </p>
 
-      <h3 className='text-2xl font-bold mt-8 mb-3'>How Ethio Coffee Export PLC Packages Shipments</h3>
+      <h3 className='text-xl font-bold mt-6 mb-2'>How Ethio Coffee Export PLC Packages Shipments</h3>
 
       <p className='my-4'>
         At Ethio Coffee Export PLC, our sourcing network spans cooperatives and washing stations across Yirgacheffe, Sidamo, Guji, Limu, Harar, and Jimma. Our standard export format is the 60 kg new jute bag, consistent with Ethiopian export regulations and international container loading norms.
@@ -308,8 +304,8 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* SECTION 5: CONTRACT SPECS */}
-      <h2 id='contract-specs' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
-        <HiOutlineDocumentCheck className='text-amber-600' />
+      <h2 id='contract-specs' className='text-3xl font-extrabold mt-10 mb-4'>
+        <HiOutlineDocumentCheck className='inline mr-2 text-amber-600' />
         What to Specify in Your Purchase Contract
       </h2>
 
@@ -384,8 +380,8 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       {/* SECTION 6: DECISION MATRIX */}
-      <h2 id='decision-matrix' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
-        <HiOutlineScale className='text-amber-600' />
+      <h2 id='decision-matrix' className='text-3xl font-extrabold mt-10 mb-4'>
+        <HiOutlineScale className='inline mr-2 text-amber-600' />
         Packaging Decision Matrix by Order Type
       </h2>
 
@@ -394,58 +390,58 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       </p>
 
       <div className='overflow-x-auto my-6'>
-        <table className='min-w-full text-sm border-collapse'>
-          <thead>
-            <tr className='bg-dark text-primary'>
-              <th className='p-3 text-left'>Order Type</th>
-              <th className='p-3 text-left'>Grade</th>
-              <th className='p-3 text-left'>Transit Time</th>
-              <th className='p-3 text-left'>Recommended Packaging</th>
-              <th className='p-3 text-left'>Notes</th>
+        <table className='min-w-full text-sm text-left border border-gray-200'>
+          <thead className='bg-gray-100 font-bold text-dark'>
+            <tr>
+              <th className='px-4 py-3 border-b'>Order Type</th>
+              <th className='px-4 py-3 border-b'>Grade</th>
+              <th className='px-4 py-3 border-b'>Transit Time</th>
+              <th className='px-4 py-3 border-b'>Recommended Packaging</th>
+              <th className='px-4 py-3 border-b'>Notes</th>
             </tr>
           </thead>
-          <tbody>
-            <tr className='border-b border-gray-200'>
-              <td className='p-3 font-semibold'>Full container (FCL), specialty</td>
-              <td className='p-3'>G1 / G2</td>
-              <td className='p-3'>25 – 45 days</td>
-              <td className='p-3 font-bold text-green-700'>Jute + GrainPro liner</td>
-              <td className='p-3'>Industry standard; request moisture cert at sealing</td>
+          <tbody className='divide-y divide-gray-200 text-gray-700'>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Full container (FCL), specialty</td>
+              <td className='px-4 py-3'>G1 / G2</td>
+              <td className='px-4 py-3'>25 – 45 days</td>
+              <td className='px-4 py-3 font-bold text-green-700'>Jute + GrainPro liner</td>
+              <td className='px-4 py-3'>Industry standard; request moisture cert at sealing</td>
             </tr>
-            <tr className='border-b border-gray-200 bg-gray-50'>
-              <td className='p-3 font-semibold'>Full container (FCL), commodity</td>
-              <td className='p-3'>G4 / G5</td>
-              <td className='p-3'>25 – 45 days</td>
-              <td className='p-3 font-bold text-amber-700'>New jute, no liner required</td>
-              <td className='p-3'>For blending or espresso base; rapid turnover</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Full container (FCL), commodity</td>
+              <td className='px-4 py-3'>G4 / G5</td>
+              <td className='px-4 py-3'>25 – 45 days</td>
+              <td className='px-4 py-3 font-bold text-amber-700'>New jute, no liner required</td>
+              <td className='px-4 py-3'>For blending or espresso base; rapid turnover</td>
             </tr>
-            <tr className='border-b border-gray-200'>
-              <td className='p-3 font-semibold'>LCL shipment, specialty</td>
-              <td className='p-3'>G1 / G2</td>
-              <td className='p-3'>35 – 55 days (with consolidation)</td>
-              <td className='p-3 font-bold text-green-700'>Jute + GrainPro liner</td>
-              <td className='p-3'>LCL adds extra handling; liner critical more than FCL</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>LCL shipment, specialty</td>
+              <td className='px-4 py-3'>G1 / G2</td>
+              <td className='px-4 py-3'>35 – 55 days (with consolidation)</td>
+              <td className='px-4 py-3 font-bold text-green-700'>Jute + GrainPro liner</td>
+              <td className='px-4 py-3'>LCL adds extra handling; liner critical more than FCL</td>
             </tr>
-            <tr className='border-b border-gray-200 bg-gray-50'>
-              <td className='p-3 font-semibold'>Micro-lot, competition lot</td>
-              <td className='p-3'>G1, 88+ score</td>
-              <td className='p-3'>Any</td>
-              <td className='p-3 font-bold text-green-700'>Vacuum-sealed 10 – 25 kg bags</td>
-              <td className='p-3'>Justified by lot value; often air-shipped for speed</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Micro-lot, competition lot</td>
+              <td className='px-4 py-3'>G1, 88+ score</td>
+              <td className='px-4 py-3'>Any</td>
+              <td className='px-4 py-3 font-bold text-green-700'>Vacuum-sealed 10 – 25 kg bags</td>
+              <td className='px-4 py-3'>Justified by lot value; often air-shipped for speed</td>
             </tr>
-            <tr className='border-b border-gray-200'>
-              <td className='p-3 font-semibold'>Pre-shipment sample</td>
-              <td className='p-3'>Any</td>
-              <td className='p-3'>Air freight (5 – 10 days)</td>
-              <td className='p-3 font-bold text-green-700'>Vacuum-sealed foil 300 – 500 g</td>
-              <td className='p-3'>Must represent bulk lot; seal flavor profile in transit</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Pre-shipment sample</td>
+              <td className='px-4 py-3'>Any</td>
+              <td className='px-4 py-3'>Air freight (5 – 10 days)</td>
+              <td className='px-4 py-3 font-bold text-green-700'>Vacuum-sealed foil 300 – 500 g</td>
+              <td className='px-4 py-3'>Must represent bulk lot; seal flavor profile in transit</td>
             </tr>
-            <tr className='border-b border-gray-200 bg-gray-50'>
-              <td className='p-3 font-semibold'>Long-term storage (&gt;12 months)</td>
-              <td className='p-3'>G1 / G2</td>
-              <td className='p-3'>N/A (storage)</td>
-              <td className='p-3 font-bold text-green-700'>Jute + hermetic liner, climate-controlled warehouse</td>
-              <td className='p-3'>Target 15 – 20°C, 50 – 60% RH; retest moisture quarterly</td>
+            <tr>
+              <td className='px-4 py-3 font-medium'>Long-term storage (&gt;12 months)</td>
+              <td className='px-4 py-3'>G1 / G2</td>
+              <td className='px-4 py-3'>N/A (storage)</td>
+              <td className='px-4 py-3 font-bold text-green-700'>Jute + hermetic liner, climate-controlled warehouse</td>
+              <td className='px-4 py-3'>Target 15 – 20°C, 50 – 60% RH; retest moisture quarterly</td>
             </tr>
           </tbody>
         </table>
@@ -455,217 +451,127 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
         For guidance on how order volume affects packaging decisions, minimum quantities per container, and LCL cost trade-offs, see our <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='underline font-bold'>Ethiopian coffee MOQ guide for importers</Link>.
       </p>
 
-      {/* SECTION 7: FAQ */}
-      <h2 id='faq' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
-        <HiOutlineQuestionMarkCircle className='text-amber-600' />
-        Frequently Asked Questions
-      </h2>
-
-      <div className='my-6 space-y-6'>
-
-        <div className='border border-gray-200 rounded-lg p-5'>
-          <h3 className='font-bold text-lg mb-2'>What is the best packaging for green coffee beans?</h3>
-          <p className='text-gray-700 text-sm'>
-            For specialty lots (Grade 1 and Grade 2) shipped by sea, the best packaging is a 60 kg new jute bag with a GrainPro or Ecotact hermetic liner. The jute provides structural protection and breathability; the liner seals out oxygen and moisture. Combined cost is $2.50 to $5.00 per bag. For micro-lots and samples, vacuum-sealed bags of 10 to 30 kg provide superior protection.
-          </p>
+      {/* FAQ */}
+      <section className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h2 id='faq' className='text-2xl font-bold mb-6 text-gray-900'>
+          Frequently Asked Questions About Green Coffee Packaging
+        </h2>
+        <div className='space-y-6'>
+          <div>
+            <h3 className='font-bold text-gray-800 mb-2'>What is the best packaging for green coffee beans?</h3>
+            <p className='text-sm text-gray-600'>
+              For specialty lots (Grade 1 and Grade 2) shipped by sea, the best packaging is a 60 kg new jute bag with a GrainPro or Ecotact hermetic liner. The jute provides structural protection and breathability; the liner seals out oxygen and moisture. Combined cost is $2.50 to $5.00 per bag. For micro-lots and samples, vacuum-sealed bags of 10 to 30 kg provide superior protection.
+            </p>
+          </div>
+          <div>
+            <h3 className='font-bold text-gray-800 mb-2'>How long does green coffee last in GrainPro bags?</h3>
+            <p className='text-sm text-gray-600'>
+              Green coffee sealed in GrainPro or Ecotact liners at the correct moisture content (10 to 12%) can hold its cup profile for 14 to 24 months. Without a hermetic liner, specialty coffee in plain jute typically degrades noticeably after 6 to 9 months. Storage temperature and humidity also matter: target 15 to 22°C and 50 to 60% relative humidity for maximum shelf life.
+            </p>
+          </div>
+          <div>
+            <h3 className='font-bold text-gray-800 mb-2'>What size bags are used for Ethiopian green coffee export?</h3>
+            <p className='text-sm text-gray-600'>
+              The Ethiopian export standard is the 60 kg jute bag, which fits approximately 250 to 320 bags per 20ft container. A 25 kg format is increasingly used in the specialty segment for better lot segregation and handling. The 60 kg format is more container-efficient and remains the default for most orders. Importers needing 25 kg bags should specify this in the purchase order, as it may affect pricing slightly.
+            </p>
+          </div>
+          <div>
+            <h3 className='font-bold text-gray-800 mb-2'>Should importers specify packaging in their coffee contract?</h3>
+            <p className='text-sm text-gray-600'>
+              Yes, always. Many disputes between importers and exporters stem from packaging assumptions that were never written down. At minimum, specify bag type and size, liner requirement (or absence), pre-seal moisture content, required bag markings, and pre-shipment sample packaging. A one-paragraph packaging clause in the purchase confirmation prevents the majority of these problems before they occur.
+            </p>
+          </div>
+          <div>
+            <h3 className='font-bold text-gray-800 mb-2'>Can GrainPro bags be reused for green coffee?</h3>
+            <p className='text-sm text-gray-600'>
+              GrainPro offers reusable hermetic bags in some product lines, including zipper-closure formats designed for multiple uses. However, for export-grade green coffee, most exporters use single-use liners to eliminate contamination risk and simplify supply chain management. Importers who want to reuse liners for on-site storage after arrival should use a clean, food-safe hermetic bag rated for green coffee and verify it holds a proper seal before use.
+            </p>
+          </div>
         </div>
+      </section>
 
-        <div className='border border-gray-200 rounded-lg p-5'>
-          <h3 className='font-bold text-lg mb-2'>How long does green coffee last in GrainPro bags?</h3>
-          <p className='text-gray-700 text-sm'>
-            Green coffee sealed in GrainPro or Ecotact liners at the correct moisture content (10 to 12%) can hold its cup profile for 14 to 24 months. Without a hermetic liner, specialty coffee in plain jute typically degrades noticeably after 6 to 9 months. Storage temperature and humidity also matter: target 15 to 22°C and 50 to 60% relative humidity for maximum shelf life.
-          </p>
-        </div>
-
-        <div className='border border-gray-200 rounded-lg p-5'>
-          <h3 className='font-bold text-lg mb-2'>What size bags are used for Ethiopian green coffee export?</h3>
-          <p className='text-gray-700 text-sm'>
-            The Ethiopian export standard is the 60 kg jute bag, which fits approximately 250 to 320 bags per 20ft container. A 25 kg format is increasingly used in the specialty segment for better lot segregation and handling. The 60 kg format is more container-efficient and remains the default for most orders. Importers needing 25 kg bags should specify this in the purchase order, as it may affect pricing slightly.
-          </p>
-        </div>
-
-        <div className='border border-gray-200 rounded-lg p-5'>
-          <h3 className='font-bold text-lg mb-2'>Should importers specify packaging in their coffee contract?</h3>
-          <p className='text-gray-700 text-sm'>
-            Yes, always. Many disputes between importers and exporters stem from packaging assumptions that were never written down. At minimum, specify bag type and size, liner requirement (or absence), pre-seal moisture content, required bag markings, and pre-shipment sample packaging. A one-paragraph packaging clause in the purchase confirmation prevents the majority of these problems before they occur.
-          </p>
-        </div>
-
-        <div className='border border-gray-200 rounded-lg p-5'>
-          <h3 className='font-bold text-lg mb-2'>Can GrainPro bags be reused for green coffee?</h3>
-          <p className='text-gray-700 text-sm'>
-            GrainPro offers reusable hermetic bags in some product lines, including zipper-closure formats designed for multiple uses. However, for export-grade green coffee, most exporters use single-use liners to eliminate contamination risk and simplify supply chain management. Importers who want to reuse liners for on-site storage after arrival should use a clean, food-safe hermetic bag rated for green coffee and verify it holds a proper seal before use.
-          </p>
-        </div>
-
-      </div>
-
-      {/* CONCLUSION */}
-      <h2 className='text-3xl font-extrabold mt-10 mb-4'>Conclusion</h2>
-      <p className='my-4'>
-        Green coffee packaging is a technical and commercial decision that affects cup quality, shelf life, landed cost, and supply chain transparency. For Ethiopian specialty lots, the jute-plus-GrainPro combination is the correct default, and the incremental cost of $600 to $900 per container is one of the highest-ROI decisions in the import chain. Importers who specify packaging clearly in their contracts eliminate one of the most common sources of quality disputes and costly surprises.
-      </p>
-      <p className='my-4'>
-        Ethio Coffee Export PLC ships all Grade 1 and Grade 2 lots with hermetic liners as standard. If you have questions about packaging for a specific lot or order size, our team in Addis Ababa is happy to discuss options before your contract is confirmed.
-      </p>
-
-      {/* CTA BLOCK */}
-      <div className='bg-amber-50 border border-amber-300 rounded-xl p-8 my-10'>
-        <h3 className='text-2xl font-extrabold text-dark mb-3'>
-          Source Premium Ethiopian Coffee with Expert Packaging
-        </h3>
-        <p className='text-gray-700 mb-6'>
-          Every Grade 1 and Grade 2 lot we ship includes GrainPro hermetic liner packaging as standard. Pre-shipment samples are vacuum-sealed and sent air freight. Request our full offer sheet or contact us to discuss packaging specifications for your order.
+      {/* CTA */}
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h3 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Full Packaging Transparency</h3>
+        <p className='my-2 text-sm'>
+          Ethio Coffee Export PLC ships all Grade 1 and Grade 2 lots with GrainPro or Ecotact hermetic liner packaging as standard. Pre-shipment samples are vacuum-sealed and sent air freight. Our team in Addis Ababa is happy to discuss packaging specifications for any order before your contract is confirmed.
         </p>
-        <div className='flex flex-wrap gap-3'>
+        <div className='flex flex-wrap gap-4 mt-4'>
           <Link
             href='/offerings'
-            className='bg-dark text-primary px-5 py-3 rounded-lg font-bold text-sm hover:opacity-90 transition-opacity'
+            className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'
           >
-            View Offerings
+            View Current Offerings
           </Link>
           <Link
             href='/contact-us'
-            className='bg-amber-600 text-white px-5 py-3 rounded-lg font-bold text-sm hover:bg-amber-700 transition-colors'
+            className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'
           >
             Request Samples
           </Link>
           <Link
             href='/ordering-info'
-            className='border border-dark text-dark px-5 py-3 rounded-lg font-bold text-sm hover:bg-gray-50 transition-colors'
+            className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'
           >
             How to Order
           </Link>
         </div>
       </div>
 
-      {/* RELATED ARTICLES */}
-      <div className='my-10 border-t border-gray-200 pt-8'>
-        <h3 className='text-2xl font-extrabold mb-6'>Related Articles</h3>
-        <div className='grid md:grid-cols-2 gap-8'>
-
+      {/* Related Articles */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-6'>
           <div>
-            <h4 className='font-bold text-amber-700 uppercase text-xs tracking-wide mb-3'>Quality &amp; Storage</h4>
-            <ul className='space-y-2 text-sm'>
-              <li>
-                <Link href='/insights/green-coffee-shelf-life-storage-guide' className='underline font-medium hover:text-amber-700'>
-                  Green Coffee Shelf Life: Storage Guide for Buyers
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='underline font-medium hover:text-amber-700'>
-                  How to Cup and Evaluate Ethiopian Coffee Samples
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline font-medium hover:text-amber-700'>
-                  Green Coffee Quality: Defects and Grading Guide
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='underline font-medium hover:text-amber-700'>
-                  Ethiopian Coffee Dry Milling: Export Preparation Guide
-                </Link>
-              </li>
+            <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Quality &amp; Storage</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Green Coffee Shelf Life: Storage Guide for Buyers</Link></li>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Coffee Samples</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality: Defects and Grading Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling: Export Preparation Guide</Link></li>
             </ul>
           </div>
-
           <div>
-            <h4 className='font-bold text-amber-700 uppercase text-xs tracking-wide mb-3'>Sourcing &amp; Trade</h4>
-            <ul className='space-y-2 text-sm'>
-              <li>
-                <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-medium hover:text-amber-700'>
-                  Sourcing Green Coffee From Ethiopia
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='underline font-medium hover:text-amber-700'>
-                  Ethiopian Coffee MOQ Guide for Importers
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='underline font-medium hover:text-amber-700'>
-                  How to Choose an Ethiopian Coffee Export Company
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='underline font-medium hover:text-amber-700'>
-                  Ethiopian Coffee Contracts and Payment Terms Guide
-                </Link>
-              </li>
+            <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Sourcing &amp; Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>Sourcing Green Coffee From Ethiopia</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide for Importers</Link></li>
+              <li>• <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts and Payment Terms Guide</Link></li>
             </ul>
           </div>
-
           <div>
-            <h4 className='font-bold text-amber-700 uppercase text-xs tracking-wide mb-3'>Pricing &amp; Logistics</h4>
-            <ul className='space-y-2 text-sm'>
-              <li>
-                <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='underline font-medium hover:text-amber-700'>
-                  Ethiopian Coffee Landed Cost: Import Cost Guide
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline font-medium hover:text-amber-700'>
-                  Ethiopian Coffee FOB Pricing for Importers
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/specialty-coffee-storage-freight-logistics' className='underline font-medium hover:text-amber-700'>
-                  Specialty Coffee Storage in Sea Freight
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='underline font-medium hover:text-amber-700'>
-                  Ethiopian Coffee Harvest Calendar for Buyers
-                </Link>
-              </li>
+            <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Pricing &amp; Logistics</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost: Import Cost Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing for Importers</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Harvest Calendar for Buyers</Link></li>
             </ul>
           </div>
-
           <div>
-            <h4 className='font-bold text-amber-700 uppercase text-xs tracking-wide mb-3'>Compliance &amp; Traceability</h4>
-            <ul className='space-y-2 text-sm'>
-              <li>
-                <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='underline font-medium hover:text-amber-700'>
-                  EUDR and Ethiopian Coffee Compliance Guide
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/ethiopian-coffee-traceability-guide' className='underline font-medium hover:text-amber-700'>
-                  Ethiopian Coffee Traceability: Buyer&apos;s Guide
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-medium hover:text-amber-700'>
-                  ECX and Ethiopian Coffee Export Guide
-                </Link>
-              </li>
-              <li>
-                <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='underline font-medium hover:text-amber-700'>
-                  Ethiopian Coffee Certifications Guide
-                </Link>
-              </li>
+            <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Compliance &amp; Traceability</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR and Ethiopian Coffee Compliance Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability: Buyer&apos;s Guide</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
             </ul>
           </div>
-
         </div>
+      </div>
 
-        {/* Footer line */}
-        <div className='mt-8 pt-6 border-t border-gray-100 flex flex-wrap gap-4 text-sm'>
-          <Link href='/insights' className='text-amber-700 underline hover:opacity-80'>All Insights</Link>
-          <Link href='/ethiopian-coffee-exporter' className='text-amber-700 underline hover:opacity-80'>Export Services</Link>
-          <Link href='/about' className='text-amber-700 underline hover:opacity-80'>About</Link>
-          <Link href='/contact-us' className='text-amber-700 underline hover:opacity-80'>Contact</Link>
-        </div>
-
-        {/* Disclaimer */}
-        <div className='mt-6 bg-gray-50 rounded-lg p-4 text-xs text-gray-500'>
-          <p>
-            <span className='font-semibold'>About This Insight:</span> Published by Ethio Coffee Export PLC (Addis Ababa, Ethiopia). This article is for informational purposes and reflects conditions as of March 2026. Packaging costs, product availability, and export regulations are subject to change. Contact us at{' '}
-            <a href='mailto:coffee@ethiocoffee.co' className='underline'>coffee@ethiocoffee.co</a>{' '}
-            for current information on packaging specifications and export terms.
-          </p>
-        </div>
+      {/* Footer */}
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC (Addis Ababa, Ethiopia). This article reflects industry practices and our operational experience as of March 2026. Packaging costs and product availability are subject to change. Contact us for current specifications on available lots.
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> ·{' '}
+          <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> ·{' '}
+          <Link href='/about' className='underline'>About Ethio Coffee</Link> ·{' '}
+          <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )
