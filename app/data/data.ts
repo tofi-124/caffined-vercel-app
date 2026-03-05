@@ -11,6 +11,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE PACKAGING & BAG TYPES GUIDE =====
+    {
+      small_image_url: 'insights/green-coffee-packaging-bag-types-guide.webp',
+      large_image_url: 'insights/green-coffee-packaging-bag-types-guide.webp',
+      date: 'Mar 5, 2026',
+      title: 'Green Coffee Packaging: Bag Types & Buyer\'s Guide',
+      slug: 'green-coffee-packaging-bag-types-guide',
+      category: 'Quality Control / Storage & Logistics / Green Coffee / Importer Resources',
+      keywords: [
+        'green coffee packaging',
+        'green coffee bag types',
+        'coffee export packaging guide',
+        'GrainPro coffee bags',
+        'jute bags green coffee export',
+        'hermetic coffee packaging',
+        'what is the best packaging for green coffee beans',
+        'GrainPro vs jute bags for coffee',
+        'green coffee packaging specifications for importers',
+        'how to package green coffee for shipping',
+        '60kg vs 25kg coffee bags export',
+        'vacuum sealed green coffee bags',
+        'hermetic vs jute coffee bags cost',
+        'Ethiopian coffee bag labeling requirements',
+        'green coffee bag types exporter'
+      ],
+      desc: 'Compare jute, GrainPro, hermetic, and vacuum-sealed bags for Ethiopian green coffee export. Includes cost data, a packaging decision matrix, contract specification language, and Ethiopian-specific shipping context for importers and roasters.'
+    },
     // ===== ETHIOPIAN COFFEE DRY MILLING EXPORT GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-dry-milling-export-guide.webp',

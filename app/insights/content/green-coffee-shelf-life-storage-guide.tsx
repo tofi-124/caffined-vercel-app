@@ -348,6 +348,10 @@ export default function GreenCoffeeShelfLifeStorageGuide({ title, date, large_im
         <span className='font-bold'>Vacuum-sealed bags</span> go one step further by removing air from the package before sealing. This virtually eliminates oxidation. Vacuum packing is most common for small lot sizes (5 to 30 kg bags) used in specialty micro-lot programs. The cost is higher ($3 to $6 per bag), but for competition lots and high-scoring coffees, the preservation benefit justifies the expense. Our article on <Link href='/insights/specialty-coffee-storage-freight-logistics' className='underline font-bold'>specialty coffee storage in sea freight</Link> covers packaging decisions during transit in more detail.
       </p>
 
+      <p className='my-4'>
+        For a complete comparison of every green coffee bag type, including cost per bag, barrier properties, and which scenarios call for each, see our dedicated <Link href='/insights/green-coffee-packaging-bag-types-guide' className='underline font-bold'>green coffee packaging and bag types guide</Link>.
+      </p>
+
       <h4 className='text-xl font-bold mt-8 mb-3'>Hermetic Storage Technology</h4>
 
       <p className='my-4'>

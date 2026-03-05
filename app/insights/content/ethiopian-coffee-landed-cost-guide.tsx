@@ -460,7 +460,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
 
       <h3 className='text-xl font-bold mt-6'>2. Weight Loss (Moisture and Handling)</h3>
       <p className='my-4'>
-        Green coffee shipped at 10% to 12% moisture content loses weight during transit and storage as moisture equalizes with the ambient environment. Industry standard allowance is 0.5% to 1.0% weight loss during a typical 3 to 6 month holding period. On a 18,000 kg container, that is 90 to 180 kg of product you paid for but cannot sell. At $7/kg, that is $630 to $1,260 in value.
+        Green coffee shipped at 10% to 12% moisture content loses weight during transit and storage as moisture equalizes with the ambient environment. Industry standard allowance is 0.5% to 1.0% weight loss during a typical 3 to 6 month holding period. On a 18,000 kg container, that is 90 to 180 kg of product you paid for but cannot sell. At $7/kg, that is $630 to $1,260 in value. Choosing hermetic packaging (GrainPro or Ecotact liners) significantly reduces in-transit moisture loss. See our <Link href='/insights/green-coffee-packaging-bag-types-guide' className='underline font-bold'>green coffee packaging guide</Link> for the full cost and quality trade-off between bag types.
       </p>
 
       <h3 className='text-xl font-bold mt-6'>3. Currency Exchange Risk</h3>

@@ -194,6 +194,9 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
         <p className='my-4 text-gray-700'>
           For Ethiopian exporters, ensuring <span className='font-bold text-green-700'>100% GrainPro/Ecotact availability</span> for all <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Specialty Grade 1 and 2 lots</Link> is non-negotiable. The marginal cost of the liner ($2-3 per bag) is an insurance policy for a cargo worth $500-800 per bag.
         </p>
+        <p className='my-4 text-gray-700'>
+          For a full breakdown of bag types, cost per bag, hermetic technology, and what to specify in your purchase contract, see our <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline font-bold'>green coffee packaging and bag types buyer&apos;s guide</Link>.
+        </p>
       </section>
 
       {/* SECTION 3: CONTAINER SELECTION */}
