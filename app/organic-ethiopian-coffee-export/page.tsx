@@ -297,7 +297,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
               },
               {
                 q: 'What is the minimum order for organic coffee?',
-                a: 'Standard minimum is one FCL (≈19.2 MT). Organic lots must be kept separate from conventional. You can mix different organic origins within the same container as long as all are certified.',
+                a: 'Standard minimum is one FCL (~20 metric tons / 44,000 lbs). Organic lots must be kept separate from conventional. You can mix different organic origins within the same container as long as all are certified.',
               },
             ].map((faq, i) => (
               <div key={i} className='border-b border-primary/10 pb-6'>
