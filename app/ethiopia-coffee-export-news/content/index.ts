@@ -52,6 +52,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./child-labor-prevention-coffee-sector-training').then(mod => mod.default),
     'coffee-export-performance-forum-addis-ababa': () =>
       import('./coffee-export-performance-forum-addis-ababa').then(mod => mod.default),
+    'ecta-training-hawassa-jimma-coffee-quality': () =>
+      import('./ecta-training-hawassa-jimma-coffee-quality').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

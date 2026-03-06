@@ -81,7 +81,7 @@ const exportServices = [
   {
     icon: <HiOutlineTruck className="w-8 h-8" />,
     title: 'Global Logistics & Shipping',
-    description: 'FOB Djibouti for ocean freight or FCA (Free Carrier) for air freight. We coordinate with experienced freight forwarders and handle all export-side logistics.',
+    description: 'FOB Djibouti for ocean freight or FCA Addis Ababa dry port for air freight. We work with your preferred freight forwarder or can recommend trusted logistics partners.',
   },
   {
     icon: <HiOutlineCube className="w-8 h-8" />,
@@ -101,7 +101,7 @@ const exportServices = [
   {
     icon: <HiOutlineClipboardDocumentCheck className="w-8 h-8" />,
     title: 'Pre-Shipment Samples',
-    description: 'Purchase green coffee samples of any available lot before committing. Evaluate cup quality at your lab and approve before we ship.',
+    description: 'Purchase 300g green coffee samples at a nominal cost directly from any product page via PayPal. Evaluate cup quality at your lab and approve before we ship. Shipping via DHL Express is calculated at checkout.',
   },
 ]
 
@@ -119,7 +119,7 @@ const whyChooseUs = [
   },
   {
     title: 'Dual Presence: Ethiopia + International',
-    description: 'Founded by two brothers: one in Ethiopia managing sourcing, quality control, and logistics; the other internationally handling sales, communication, and buyer relationships. This dual presence eliminates the communication gaps that frustrate many importers.',
+    description: 'Founded by two brothers: one based in Ethiopia managing sourcing, quality control, and logistics on the ground; the other Ethiopian-Canadian with international business experience handling sales, communication, and buyer relationships. This dual presence eliminates the communication gaps that frustrate many importers working with origin suppliers.',
   },
   {
     title: 'Specialty-Focused Quality Control',
@@ -206,7 +206,7 @@ const EthiopianCoffeeExporter = () => {
             <div className='prose prose-lg max-w-none text-dark/90 space-y-6'>
               <p>
                 <strong>Ethio Coffee Export PLC</strong> is a licensed Ethiopian coffee exporter founded by two brothers: 
-                one based in Ethiopia, the other in Canada. We bridge the gap between Ethiopia's finest coffee-producing 
+                one based in Ethiopia, the other Ethiopian-Canadian. We bridge the gap between Ethiopia's finest coffee-producing 
                 regions and the global specialty market, combining <strong>30+ years of family expertise</strong> at origin 
                 with the communication standards and professionalism that international buyers expect.
               </p>
@@ -316,7 +316,7 @@ const EthiopianCoffeeExporter = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
-                  <span><strong>Logistics:</strong> Coordinating land transport to Djibouti port and ocean freight to destination ports worldwide</span>
+                  <span><strong>Logistics:</strong> Coordinating land transport to Djibouti port (approximately 900 km from Addis Ababa) and ocean freight to destination ports worldwide</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <ArrowRight className='text-accent h-5 w-5 flex-shrink-0' />
@@ -425,17 +425,17 @@ const EthiopianCoffeeExporter = () => {
                 {
                   step: '01',
                   title: 'Send Us Your Requirements',
-                  description: 'Tell us what you need: origins, grades, cup score targets, volumes, certifications, and destination. We\'ll respond within 24 hours with availability and indicative pricing.'
+                  description: 'Tell us what you need: origins, grades, cup score targets, volumes, certifications, and destination. We\'ll respond within 24 hours with availability and a transparent, itemized quotation in USD per pound.'
                 },
                 {
                   step: '02',
                   title: 'Purchase & Evaluate Samples',
-                  description: 'Order green coffee pre-shipment samples with detailed SCA cupping reports. Evaluate the coffee at your lab and let us know your feedback.'
+                  description: 'Purchase 300g green coffee samples at a nominal cost via PayPal with DHL Express shipping. Evaluate the coffee at your lab and let us know your feedback. Detailed cupping reports included.'
                 },
                 {
                   step: '03',
                   title: 'Confirm Contract & Terms',
-                  description: 'Once you approve the samples, we formalize the export contract with agreed pricing, Incoterms (FOB Djibouti or FCA), payment terms, and delivery timeline.'
+                  description: 'Once you approve the samples, we formalize the export contract with agreed pricing, Incoterms (FOB Djibouti or FCA Addis Ababa), payment terms, and delivery timeline.'
                 },
                 {
                   step: '04',
@@ -450,7 +450,7 @@ const EthiopianCoffeeExporter = () => {
                 {
                   step: '06',
                   title: 'Shipment, Tracking & Delivery',
-                  description: 'We provide bill of lading, tracking information, and coordinate with your freight forwarder for smooth delivery. Transit time: 2-6 weeks depending on destination.'
+                  description: 'We provide bill of lading, tracking information, and coordinate with your freight forwarder for smooth delivery. Transit time: 2-3 weeks to Middle East, 4-5 weeks to Europe, 6-8 weeks to North America or East Asia.'
                 },
               ].map((item, index) => (
                 <div key={index} className='flex gap-6'>
@@ -547,7 +547,7 @@ const EthiopianCoffeeExporter = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>•</span>
-                  <span>275-320 bags per 20ft container (FCL)</span>
+                  <span>~275-320 bags per 20ft container (FCL), ~20 metric tons / 44,000 lbs</span>
                 </li>
               </ul>
             </div>
@@ -583,15 +583,15 @@ const EthiopianCoffeeExporter = () => {
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>•</span>
-                  <span>FCA (Free Carrier) available for air freight</span>
+                  <span>FCA Addis Ababa dry port for air freight</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>•</span>
-                  <span>Transit time: 2-6 weeks depending on destination</span>
+                  <span>Transit: 2-3 weeks to Middle East, 4-5 weeks to Europe, 6-8 weeks to North America</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-accent font-bold'>•</span>
-                  <span>Minimum order: 1x 20ft container (FCL)</span>
+                  <span>Minimum order: 1x 20ft container (FCL), ~20 metric tons</span>
                 </li>
               </ul>
             </div>
@@ -714,7 +714,7 @@ const EthiopianCoffeeExporter = () => {
                 },
                 {
                   q: 'What is the minimum order quantity for Ethiopian coffee export?',
-                  a: 'The standard minimum order for Ethiopian coffee export is one full container load (FCL), which is approximately 19-21 metric tons (275-320 bags of 60kg each). You can mix different origins and grades within one container. For smaller orders or trial shipments, we can discuss LCL (less than container load) options. Contact us for details.'
+                  a: 'The standard minimum order for Ethiopian coffee export is one full container load (FCL), which is approximately 20 metric tons / 44,000 lbs (275-320 bags of 60kg each). You can mix different origins and grades within one container. LCL (less than container load) is possible but rarely recommended due to higher per-kg cost, added handling risk, and extended transit time. We encourage starting with a full container using the mix-and-match option to diversify across multiple origins or grades.'
                 },
                 {
                   q: 'What grades of Ethiopian coffee are available for export?',
@@ -726,11 +726,11 @@ const EthiopianCoffeeExporter = () => {
                 },
                 {
                   q: 'How long does shipping take from Ethiopia?',
-                  a: 'From order confirmation to arrival at your destination, expect 4-8 weeks total. This includes 1-2 weeks for lot preparation and documentation, plus 2-6 weeks of ocean transit depending on your destination port. We ship FOB Djibouti (Ethiopia\'s primary export port) for ocean freight or FCA (Free Carrier) for air freight where the buyer arranges carriage.'
+                  a: 'From contract to warehouse, expect 8-14 weeks total depending on destination. This includes 1-2 weeks for sample approval and contract signing, 2-4 weeks for lot preparation and documentation, 1 week for inland transport to Djibouti port, plus ocean transit of 2-3 weeks to the Middle East, 4-5 weeks to Europe, or 6-8 weeks to North America or East Asia. We ship FOB Djibouti (Ethiopia\'s primary export port) for ocean freight or FCA Addis Ababa dry port for air freight where the buyer arranges carriage.'
                 },
                 {
                   q: 'Can I buy samples before committing to a full order?',
-                  a: 'Yes, we offer green coffee pre-shipment samples available for purchase, with detailed SCA cupping reports included. We want you to be 100% satisfied with the cup quality before committing to a full container order. Sample orders can be placed through our contact form.'
+                  a: 'Yes! You can purchase 300g evaluation samples at a nominal cost directly from any product page on our website via PayPal. Shipping via DHL Express is calculated at checkout based on your destination. We also provide pre-shipment samples (PSS) pulled from the actual lot that will be loaded into your container, so you can cup and approve before shipment begins.'
                 },
                 {
                   q: 'What is the difference between washed and natural Ethiopian coffee?',
@@ -746,7 +746,7 @@ const EthiopianCoffeeExporter = () => {
                 },
                 {
                   q: 'How do I pay for Ethiopian coffee exports?',
-                  a: 'Standard payment terms for Ethiopian coffee export include Letter of Credit (L/C), Cash Against Documents (CAD), and in some cases wire transfer with deposit. Payment terms depend on the relationship, order size, and agreed Incoterms. We\'ll discuss payment arrangements that work for both parties during the contracting stage.'
+                  a: 'For new customers, standard terms are 50% deposit upon order confirmation, 50% balance against shipping documents. For established customers, Net 30/60 terms may be available. We also accept Letters of Credit (L/C) from recognized banks. All invoicing is in USD, with EUR or GBP available for European buyers upon request. We\'ll discuss payment arrangements that work for both parties during the contracting stage.'
                 },
               ].map((item, index) => (
                 <div key={index} className='border-b border-primary/10 pb-6'>

@@ -207,5 +207,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The Ministry of Agriculture and the Ethiopian Coffee and Tea Authority convened a stakeholder forum in Addis Ababa to review coffee export performance and address supply chain challenges. Minister Addisu Arega stressed that quality and competitiveness are essential amid global price fluctuations, while ECTA Director General Dr. Adugna Debela urged stakeholder coordination to build a modern, reliable trading system that benefits both producers and the country.',
     source: 'Tesfu Alemayehu',
     keywords: 'Ethiopian coffee export performance, Ethiopian coffee forum, Ministry of Agriculture Ethiopia coffee, Ethiopian Coffee and Tea Authority, Ethiopian coffee competitiveness, coffee foreign exchange Ethiopia, Ethiopian coffee supply chain, Ethiopian coffee exporter, coffee trading system Ethiopia, Dr. Adugna Debela',
+  },
+  {
+    slug: 'ecta-training-hawassa-jimma-coffee-quality',
+    date: '2026-03-05',
+    title: 'ECTA Launches Coffee Quality Training in Hawassa and Jimma',
+    desc: 'The Ethiopian Coffee and Tea Authority launched a comprehensive training platform in Hawassa and Jimma covering the full coffee value chain from production to marketing, with over 150 participants from Sidama, Southern Ethiopia, and Oromia regions.',
+    source: 'Ethiopian Coffee and Tea Authority',
+    keywords: 'Ethiopian coffee quality training, ECTA Hawassa Jimma, Ethiopian coffee value chain, Sidama coffee productivity, Ethiopian coffee export quality, UNDP FOLUR coffee, Ethiopian coffee exporter, coffee training Ethiopia, Ethiopian coffee production',
   }
 ]
