@@ -12,15 +12,17 @@ export default function OrganicEthiopianCoffeeExportPage() {
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed'>
             Source certified organic Ethiopian green coffee beans - USDA, EU, and JAS organic -
-            from Ethiopia&apos;s finest specialty regions. Bulk export with full traceability
+            from Ethiopia&apos;s finest specialty regions. <strong>Ethio Coffee Export PLC</strong> is a family-owned, 
+            licensed Ethiopian exporter with 30+ years of sourcing heritage, shipping to importers and roasters 
+            in 40+ countries. Bulk export with full traceability
             and organic chain-of-custody documentation.
           </p>
           <div className='mt-8 flex flex-wrap justify-center gap-4'>
-            <Link href='/contact-us' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
-              Request Organic Samples
+            <Link href='/offerings' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
+              Buy Organic Samples
             </Link>
-            <Link href='/offerings' className='border border-primary/40 px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              View Available Lots
+            <Link href='/contact-us' className='border border-primary/40 px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
+              Get Organic Pricing
             </Link>
           </div>
         </div>
@@ -54,7 +56,8 @@ export default function OrganicEthiopianCoffeeExportPage() {
               coffee is grown by <strong>smallholder farmers</strong> using traditional methods passed down through
               generations: shade-grown under indigenous forest canopy, without synthetic fertilizers or
               chemical pesticides. For many Ethiopian producers, coffee cultivation has been &quot;organic&quot;
-              for centuries before the term existed. Our <Link href='/insights/direct-trade-ethiopian-farmers' className='underline hover:text-dark/60'>direct trade with Ethiopian farmers</Link> guide
+              for centuries before the term existed. At our own drying station in Guji Hambella, we collect cherry directly from smallholder farmers 
+              and process it ourselves, giving us hands-on quality control from the start. Our <Link href='/insights/direct-trade-ethiopian-farmers' className='underline hover:text-dark/60'>direct trade with Ethiopian farmers</Link> guide
               explains these relationships in detail.
             </p>
             <p>
@@ -108,7 +111,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
                 grade: 'Grade 1 & 2',
                 score: 'SCA 85–89+',
                 process: 'Washed, Natural & Honey',
-                notes: 'Stone fruit, tropical, floral complexity. Guji organic naturals consistently score among the highest in Ethiopia.',
+                notes: 'Stone fruit, tropical, floral complexity. Guji organic naturals consistently score among the highest in Ethiopia. We operate our own drying station in Guji Hambella, where we collect cherry from local smallholder farmers and process it ourselves.',
                 cert: 'USDA, EU available',
               },
               {
@@ -245,7 +248,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
               <div className='flex-shrink-0 w-10 h-10 rounded-full bg-dark text-primary flex items-center justify-center font-bold'>1</div>
               <div>
                 <h3 className='font-bold text-dark'>Certified Farms & Cooperatives</h3>
-                <p className='mt-1'>We source exclusively from cooperatives and farms that hold current, valid organic certifications issued by accredited bodies (Control Union, Ecocert, IMO). Certification documents are verified before any purchase.</p>
+                <p className='mt-1'>We source exclusively from cooperatives and farms that hold current, valid organic certifications issued by accredited bodies (Control Union, Ecocert, IMO). Certification documents are verified before any purchase. Founded by two brothers - one managing sourcing and operations in Ethiopia, the other Ethiopian-Canadian handling international buyer relationships - we draw on 30+ years of family heritage in Ethiopian coffee to maintain trusted sourcing partnerships.</p>
               </div>
             </div>
             <div className='flex gap-4'>
@@ -334,14 +337,15 @@ export default function OrganicEthiopianCoffeeExportPage() {
           <h2 className='text-3xl font-extrabold mb-4'>Ready to Source Organic Ethiopian Coffee?</h2>
           <p className='text-primary/70 mb-8 text-lg'>
             Tell us your certification requirements, preferred origins, and volumes.
-            We&apos;ll provide current availability, pricing, and samples.
+            We&apos;ll provide current availability, pricing, and samples. Founded by two brothers 
+            with 30+ years of family sourcing heritage, we respond within 24 hours.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
             <Link href='/offerings' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
               View Current Offerings
             </Link>
             <Link href='/contact-us' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Request Organic Pricing & Samples
+              Get Organic Pricing
             </Link>
             <Link href='/ordering-info' className='border border-primary/40 text-primary px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
               How to Order

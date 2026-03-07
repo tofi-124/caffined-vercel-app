@@ -93,8 +93,8 @@ export default function EthiopianGreenCoffeeBeansPage() {
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed mb-4'>
             <strong>Ethiopian green coffee beans</strong> are the world&apos;s most sought-after unroasted Arabica, prized by specialty roasters for their
-            extraordinary floral, fruity, and wine-like complexity. As a <strong>licensed Ethiopian coffee exporter</strong>, we ship
-            SCA 80+ scored green beans directly from origin to your door.
+            extraordinary floral, fruity, and wine-like complexity. As a <strong>family-owned, licensed Ethiopian coffee exporter</strong> backed by 30+ years of sourcing heritage, we ship
+            SCA 80+ scored green beans directly from origin to roasters, importers, and distributors in <strong>40+ countries worldwide</strong>.
           </p>
           <p className='text-primary/70 max-w-2xl mx-auto mb-8'>
             Whether you&apos;re sourcing single-origin lots for your roastery or commercial-grade greens for blending,
@@ -106,7 +106,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
               View Current Lots
             </Link>
             <Link href='/contact-us' className='border border-primary/40 px-8 py-3 rounded font-bold hover:bg-primary/10 transition-colors'>
-              Request Samples
+              Get Pricing
             </Link>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
             { title: 'Altitude: 1,400–2,300m', desc: 'Ethiopian coffee grows at some of the highest elevations in the world. High altitude means slower cherry maturation, denser beans, more complex sugars, and brighter acidity in the cup.' },
             { title: 'Washed, Natural & Honey', desc: 'Ethiopian exporters offer all three major processing methods. Washed for clarity and florals, natural for fruit intensity and body, honey for balanced sweetness - each creating distinct cup profiles.' },
             { title: 'SCA 80–89+ Scores', desc: 'Ethiopian green coffees routinely score among the highest globally. Yirgacheffe, Guji, and Sidamo regularly appear in Cup of Excellence and Taste of Harvest competitions. Learn more about how scoring works in our Ethiopian coffee grading guide.' },
-            { title: 'Traceable & Transparent', desc: 'Modern Ethiopian exporters provide full traceability: washing station, farm/coop ID, lot number, harvest period, altitude, processing, and SCA cupping reports with every shipment.' },
+            { title: 'Traceable & Transparent', desc: 'We provide full traceability for every shipment: washing station or farm ID, lot number, harvest period, altitude, processing method, and SCA cupping reports. At our own drying station in Guji Hambella, we have hands-on control from cherry intake through export.' },
           ].map((item, i) => (
             <article key={i} className='bg-white rounded-2xl p-8 shadow-sm border border-dark/5'>
               <h3 className='text-xl font-bold text-dark mb-3'>{item.title}</h3>
@@ -182,7 +182,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
         </p>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {[
-            { step: '01', title: 'Sourcing & Cupping', desc: 'We source from vetted cooperatives, washing stations, and farming communities across Yirgacheffe, Sidamo, Guji, Harar, Limu, and Lekempti. Every lot is cupped on SCA protocol by certified Q-graders.' },
+            { step: '01', title: 'Sourcing & Cupping', desc: 'In Guji Hambella, we collect cherry directly from smallholder farmers and process it at our own drying station. For other key origins like Yirgacheffe, Sidamo, Harar, Limu, and Lekempti, we source through trusted cooperatives and washing stations we have worked with for decades. Every lot is cupped on SCA protocol by certified Q-graders.' },
             { step: '02', title: 'Processing & Preparation', desc: 'Green beans are processed (washed, natural, or honey), hulled, sorted, and graded per Ethiopian Commodity Exchange (ECX) and International Coffee Organization (ICO) standards. Defect count verified.' },
             { step: '03', title: 'Packaging & Storage', desc: 'Packed in 60kg jute bags with GrainPro hermetic liners. Stored in climate-controlled warehouses in Addis Ababa until shipping. Moisture and water activity monitored.' },
             { step: '04', title: 'Shipping FOB Djibouti', desc: 'Full export documentation (ICO certificate, phytosanitary, certificate of origin, cupping report) prepared. Shipped via Djibouti port FOB for ocean freight or FCA Addis Ababa dry port for air freight.' },
@@ -203,7 +203,7 @@ export default function EthiopianGreenCoffeeBeansPage() {
           <h2 className='text-4xl font-extrabold mb-12 text-center'>Frequently Asked Questions About Ethiopian Green Coffee Beans</h2>
           <div className='space-y-6'>
             {[
-              { q: 'What are Ethiopian green coffee beans?', a: 'Ethiopian green coffee beans are raw, unroasted Arabica coffee beans exported from Ethiopia - the birthplace and genetic origin of all the world\'s Arabica coffee. They are shipped in their natural green state to roasters, importers, and traders worldwide, who roast them into finished coffee products. Ethiopian greens are uniquely prized for their complex floral, fruity, and wine-like flavour profiles that cannot be replicated from any other origin.' },
+              { q: 'What are Ethiopian green coffee beans?', a: 'Ethiopian green coffee beans are raw, unroasted Arabica coffee beans exported from Ethiopia - the birthplace and genetic origin of all the world\'s Arabica coffee. They are shipped in their natural green state to roasters, importers, and traders worldwide, who roast them into finished coffee products. Ethiopian greens are uniquely prized for their complex floral, fruity, and wine-like flavour profiles that cannot be replicated from any other origin. At Ethio Coffee Export, we source these beans through our own drying station in Guji Hambella and trusted cooperatives across all major origins, drawing on 30+ years of family expertise in Ethiopian coffee.' },
               { q: 'What grades are Ethiopian green coffee beans available in?', a: 'Ethiopian green coffee is graded from Grade 1 (highest specialty quality, 0-3 defects per 300g sample) through Grade 5. Most specialty-grade coffee falls in Grade 1-2 with SCA cup scores of 80+. Commercial exports are typically Grade 3-5. The grading system evaluates bean size, defect count, and cup quality under SCA cupping protocol.' },
               { q: 'How much do Ethiopian green coffee beans cost?', a: 'Specialty-grade Ethiopian green coffee beans typically range from $9 to $13 per kilogram ($4 to $6 per pound) FOB Djibouti for Grade 1-2 lots scoring SCA 80+. Commercial grades (Grade 3-5) are lower. Prices vary by origin, grade, processing method, season, and current demand. Contact us directly for current crop pricing and availability.' },
               { q: 'What is the minimum order quantity?', a: 'Standard minimum orders are one full container load (FCL) of approximately 275-320 bags at 60kg each (~20 metric tons / 44,000 lbs). You can mix origins and grades to fill a container. LCL (less than container load) is possible but rarely recommended due to higher per-kg cost and added handling risk. We also offer 300g evaluation samples at a nominal cost that you can purchase directly from any product page via PayPal, with DHL Express shipping calculated at checkout.' },
@@ -224,15 +224,15 @@ export default function EthiopianGreenCoffeeBeansPage() {
         <div className='max-w-3xl mx-auto px-6 text-center'>
           <h2 className='text-3xl lg:text-4xl font-extrabold mb-4'>Ready to Source Ethiopian Green Coffee Beans?</h2>
           <p className='text-white/80 max-w-2xl mx-auto mb-8'>
-            Request samples, get current pricing, or discuss your sourcing needs with our team. 
+            Buy 300g evaluation samples via PayPal from any product page, get current pricing, or discuss your sourcing needs. 
             We respond within 24 hours.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
-            <Link href="/contact-us" className='px-8 py-4 bg-white text-accent rounded-xl font-bold hover:bg-white/90 transition-all shadow-md'>
-              REQUEST SAMPLES & PRICING
+            <Link href="/offerings" className='px-8 py-4 bg-white text-accent rounded-xl font-bold hover:bg-white/90 transition-all shadow-md'>
+              BUY SAMPLES & VIEW PRICING
             </Link>
-            <Link href="/offerings" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
-              VIEW CURRENT OFFERINGS
+            <Link href="/contact-us" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
+              GET IN TOUCH
             </Link>
             <Link href="/ordering-info" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
               HOW TO ORDER

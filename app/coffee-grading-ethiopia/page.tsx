@@ -105,7 +105,8 @@ export default function CoffeeGradingPage() {
             it directly determines cup quality, pricing, and the right fit for your business.
           </p>
           <p className='text-primary/60 max-w-2xl mx-auto'>
-            This guide explains exactly how Ethiopian coffee is graded: the defect counting methodology, 
+            As a <strong>family-owned Ethiopian coffee exporter</strong> with 30+ years of sourcing heritage and our own drying station in Guji Hambella, 
+            we grade every lot we export to SCA protocol. This guide explains exactly how Ethiopian coffee is graded: the defect counting methodology, 
             <a href='https://sca.coffee/research/protocols-best-practices' target='_blank' rel='noopener noreferrer' className='underline hover:text-primary/80'>SCA cup scoring</a>, processing standards, and what each grade means in practice.
             For a broader visual overview, also see our <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline hover:text-primary/80'>green coffee quality control insight</Link>.
           </p>
@@ -296,7 +297,7 @@ export default function CoffeeGradingPage() {
               { q: 'What is the difference between Grade 1 and Grade 2 Ethiopian coffee?', a: 'Grade 1 allows 0-3 defects per 300g sample with SCA 85+ cup scores, while Grade 2 allows 4-12 defects with SCA 80-84 scores. Both are considered specialty quality. Grade 1 exhibits exceptional cup clarity and complexity, commanding 10-20% higher prices. Grade 2 is the most commonly exported specialty grade and still delivers excellent single-origin character.' },
               { q: 'What grades are considered specialty?', a: 'Grade 1 and Grade 2 Ethiopian coffees are considered specialty grade, meeting the SCA definition of 80+ cup scores. Grade 3 (75-79 points) is classified as "premium commercial" - good quality but below the specialty threshold. Only Grade 1-2 coffees should be marketed as "specialty" coffee.' },
               { q: 'Does the grade affect the price?', a: 'Yes, significantly. Grade 1 commands $10-$13+/kg FOB, Grade 2 ranges $9-$11/kg, Grade 3 is $7-$9/kg, and commercial grades (4-5) trade at $3-$7/kg. Within each grade, price varies further by origin (Guji and Yirgacheffe carry premiums), processing method, and seasonal supply-demand dynamics.' },
-              { q: 'Who does the grading?', a: 'Coffee grading in Ethiopia is administered by the Ethiopian Commodity Exchange (ECX) warehouse system and the Ethiopian Coffee and Tea Authority (ECTA). Licensed exporters may also perform in-house grading that aligns with ECX standards. For specialty lots, independent Q-graders often provide additional cupping verification.' },
+              { q: 'Who does the grading?', a: 'Coffee grading in Ethiopia is administered by the Ethiopian Commodity Exchange (ECX) warehouse system and the Ethiopian Coffee and Tea Authority (ECTA). Licensed exporters like Ethio Coffee Export PLC also perform in-house grading that aligns with ECX standards. At our own drying station in Guji Hambella, we grade and cup coffee from cherry intake onwards. For specialty lots, independent Q-graders often provide additional cupping verification.' },
             ].map((item, i) => (
               <article key={i} className='border-b border-primary/10 pb-6'>
                 <h3 className='text-lg font-bold text-primary mb-2'>{item.q}</h3>
@@ -312,15 +313,16 @@ export default function CoffeeGradingPage() {
         <div className='max-w-3xl mx-auto px-6 text-center'>
           <h2 className='text-3xl lg:text-4xl font-extrabold mb-4'>Source Graded Ethiopian Coffee Direct from Exporter</h2>
           <p className='text-white/80 max-w-2xl mx-auto mb-8'>
-            We export Grade 1-2 specialty and Grade 3-5 commercial Ethiopian coffee with full cupping reports, 
-            defect analysis, and SCA scores included with every shipment.
+            Ethio Coffee Export PLC exports Grade 1-2 specialty and Grade 3-5 commercial Ethiopian coffee with full cupping reports, 
+            defect analysis, and SCA scores included with every shipment. With our own drying station in Guji Hambella 
+            and 30+ years of family sourcing heritage, we control quality from cherry to container.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
             <Link href="/offerings" className='px-8 py-4 bg-white text-accent rounded-xl font-bold hover:bg-white/90 transition-all shadow-md'>
               VIEW GRADED LOTS
             </Link>
             <Link href="/contact-us" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
-              REQUEST SAMPLES
+              BUY SAMPLES
             </Link>
             <Link href="/ordering-info" className='px-8 py-4 bg-transparent text-white border-2 border-white/40 rounded-xl font-bold hover:bg-white/10 transition-all'>
               HOW TO ORDER

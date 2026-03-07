@@ -65,13 +65,16 @@ export default function BuyWholesalePage() {
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed mb-4'>
             <strong>Buy Ethiopian coffee wholesale</strong> directly from Ethio Coffee Export PLC, a licensed, family-owned
-            Ethiopian exporter. We supply specialty and commercial green coffee in full container loads,
-            shipped FOB Djibouti to importers and roasters worldwide. For a detailed walkthrough of
+            Ethiopian exporter backed by 30+ years of sourcing heritage. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we
+            supply specialty and commercial green coffee in full container loads,
+            shipped FOB Djibouti to importers and roasters in <strong>40+ countries worldwide</strong>. For a detailed walkthrough of
             <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline hover:text-primary/60'> how to source green coffee from Ethiopia</Link>, see our step-by-step guide.
           </p>
           <p className='text-primary/70 max-w-2xl mx-auto mb-8'>
             Skip the middlemen. Get competitive pricing, pre-shipment samples, SCA cupping reports,
             and complete export documentation, all handled end-to-end from our origin in Addis Ababa.
+            With our own drying station in Guji Hambella and trusted cooperatives across all major origins,
+            we control quality from cherry to container.
           </p>
           <div className='mt-8 flex flex-wrap justify-center gap-4'>
             <Link href='/contact-us' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>
@@ -171,7 +174,7 @@ export default function BuyWholesalePage() {
           <h2 className='text-4xl font-extrabold text-dark mb-12 text-center'>Why Buy Wholesale Ethiopian Coffee from Ethio Coffee?</h2>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto'>
             {[
-              { icon: <HiOutlineShieldCheck className="w-8 h-8" />, title: 'Licensed Ethiopian Exporter', desc: 'We hold a valid Ethiopian coffee export license issued by the Ethiopian Coffee and Tea Authority (ECTA) and operate from our office in Addis Ababa. Not a broker or trader; direct from origin.' },
+              { icon: <HiOutlineShieldCheck className="w-8 h-8" />, title: 'Licensed Ethiopian Exporter', desc: 'We hold a valid Ethiopian coffee export license issued by the Ethiopian Coffee and Tea Authority (ECTA) and operate from our office in Addis Ababa. We also run our own drying station in Guji Hambella, where we collect and process cherry from local smallholder farmers. Not a broker or trader; direct from origin.' },
               { icon: <HiOutlineBeaker className="w-8 h-8" />, title: 'SCA-Protocol Quality Control', desc: 'Every lot cupped by certified Q-graders on SCA protocol. Full cupping reports, moisture testing, defect analysis included with every shipment.' },
               { icon: <HiOutlineChatBubbleLeftRight className="w-8 h-8" />, title: '24-Hour Response Time', desc: 'One brother manages sourcing and operations on the ground in Ethiopia. The other is Ethiopian-Canadian with international business experience. This dual-timezone team ensures fast communication. Inquiries answered within 24 hours, always.' },
               { icon: <HiOutlineDocumentCheck className="w-8 h-8" />, title: 'Complete Documentation', desc: 'ICO certificates, phytosanitary, certificate of origin, weight & quality certificates - all export paperwork handled end-to-end.' },
