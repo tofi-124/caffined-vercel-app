@@ -91,6 +91,10 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         Ethiopia exported approximately 469,000 metric tons of coffee in 2024/2025 and earned a record $2.65 billion in revenue, according to the <a href='https://www.ecx.com.et' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Ethiopia Commodity Exchange</a> and the Ethiopian Coffee and Tea Authority. That volume moves through a defined national export pipeline. This article maps that pipeline, step by step.
       </p>
 
+      <div className='bg-gray-50 p-4 rounded-lg border border-gray-200 my-6 text-sm'>
+        <p><span className='font-semibold'>Scope note:</span> This guide covers the exporter-side process that begins after a purchase contract is signed: milling, CLU inspection, documentation, inland transport, and port handling. For how coffee is sourced and traded before reaching the exporter (including ECX auction mechanics, grading, and traceability reforms), see the dedicated <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-bold'>ECX and Ethiopian Coffee Export guide</Link>.</p>
+      </div>
+
       {/* SECTION 1 */}
       <h2 id='why-this-matters' className='text-3xl font-extrabold mt-10 mb-4'>
         <HiOutlineGlobeAlt className='inline mr-2 text-amber-600' /> 1. Why the Ethiopian Coffee Export Process Matters for Importers
@@ -111,50 +115,10 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       </h2>
 
       <p className='my-4'>
-        Ethiopian coffee reaches the export market through two regulated channels. The channel determines how coffee is sourced, graded, and priced before it enters the shared export pipeline (quality inspection, documentation, logistics).
+        Ethiopian coffee reaches the export market through two regulated channels. The <span className='font-semibold'>ECX (Ethiopia Commodity Exchange) channel</span> handles the majority of volume: exporters purchase graded lots through auction, with traceability at the regional level. The <span className='font-semibold'>Direct Specialty License (DSL) channel</span> allows exporters to source directly from cooperatives and washing stations, preserving full traceability to the production site. This is the path for single-origin specialty and micro-lots.
       </p>
-
-      <div className='overflow-x-auto my-6'>
-        <table className='min-w-full text-sm text-left border border-gray-200'>
-          <thead className='bg-gray-100 font-bold text-dark'>
-            <tr>
-              <th className='border border-gray-200 px-4 py-2'>Feature</th>
-              <th className='border border-gray-200 px-4 py-2'>ECX Channel</th>
-              <th className='border border-gray-200 px-4 py-2'>Direct Specialty License (DSL)</th>
-            </tr>
-          </thead>
-          <tbody className='divide-y divide-gray-200 text-gray-700'>
-            <tr>
-              <td className='border border-gray-200 px-4 py-2 font-semibold'>Sourcing</td>
-              <td className='border border-gray-200 px-4 py-2'>Coffee bought through ECX auction or from registered suppliers</td>
-              <td className='border border-gray-200 px-4 py-2'>Sourced directly from cooperatives, washing stations, or farmer groups</td>
-            </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-200 px-4 py-2 font-semibold'>Traceability</td>
-              <td className='border border-gray-200 px-4 py-2'>Region and grade level (e.g. Yirgacheffe G2)</td>
-              <td className='border border-gray-200 px-4 py-2'>Washing station or cooperative level; GPS-tagged under EUDR</td>
-            </tr>
-            <tr>
-              <td className='border border-gray-200 px-4 py-2 font-semibold'>Typical grades</td>
-              <td className='border border-gray-200 px-4 py-2'>G2, G3, G4 (commercial to specialty)</td>
-              <td className='border border-gray-200 px-4 py-2'>G1, G2 (specialty, often 84+ cupping score)</td>
-            </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-200 px-4 py-2 font-semibold'>Pricing</td>
-              <td className='border border-gray-200 px-4 py-2'>ECX floor price + market premium</td>
-              <td className='border border-gray-200 px-4 py-2'>Negotiated FOB price between exporter and buyer</td>
-            </tr>
-            <tr>
-              <td className='border border-gray-200 px-4 py-2 font-semibold'>Best for</td>
-              <td className='border border-gray-200 px-4 py-2'>Commercial and blending-grade lots</td>
-              <td className='border border-gray-200 px-4 py-2'>Single-origin specialty, micro-lots, traceable lots</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
       <p className='my-4'>
-        Both channels converge at the same export pipeline from Step 3 onward (quality inspection at the CLU, documentation, trucking, port handling). For a deeper look at how the ECX operates, see the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-bold'>ECX and Ethiopian Coffee Export guide</Link>. For a comparison of private exporters and cooperative unions, see <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='underline font-bold'>Private vs. Cooperative Exporters</Link>.
+        The key point for this guide: <span className='font-semibold'>both channels converge at the same export pipeline from Step 3 onward</span> (CLU quality inspection, documentation, customs, inland transport, port handling). Everything covered below applies regardless of sourcing channel. For the full breakdown of how each channel works, including ECX auction mechanics, grading standards, traceability reforms, and DSL licensing, see the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-bold'>ECX and Ethiopian Coffee Export guide</Link>. For a comparison of private exporters and cooperative unions, see <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='underline font-bold'>Private vs. Cooperative Exporters</Link>.
       </p>
 
       {/* SECTION 3 */}
@@ -176,16 +140,9 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       </p>
 
       {/* Step 2 */}
-      <h3 className='text-xl font-bold mt-8 mb-2'>Step 2: Sourcing, Milling, and Preparation (Days 3 to 20)</h3>
+      <h3 className='text-xl font-bold mt-8 mb-2'>Step 2: Milling and Preparation (Days 3 to 20)</h3>
       <p className='my-4'>
-        While payment setup is underway, the exporter begins sourcing and preparing the coffee. This stage differs depending on the export channel:
-      </p>
-      <ul className='list-disc ml-6 space-y-2 text-sm my-4'>
-        <li><span className='font-semibold'>ECX channel:</span> The exporter purchases coffee through ECX-registered auctions or from accredited suppliers, receives it at their warehouse in Addis Ababa, and arranges dry milling (hulling, grading, sorting) if needed.</li>
-        <li><span className='font-semibold'>DSL channel:</span> The exporter receives parchment or cherry from their network of washing stations and cooperatives, transports it to their dry mill or a contracted mill in Addis Ababa, and processes it to export-ready green coffee.</li>
-      </ul>
-      <p className='my-4'>
-        Dry milling includes hulling (removing parchment), screen grading (size sorting), density table separation, color sorting (electronic or manual), and hand picking for defect removal. This stage determines the final grade (G1, G2, etc.) and directly affects cup quality. For the full milling process, see the <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='underline font-bold'>dry milling export guide</Link>.
+        While payment setup is underway, the exporter sources coffee (via ECX or DSL, as outlined above) and begins dry milling at their facility in Addis Ababa. Dry milling includes hulling (removing parchment), screen grading (size sorting), density table separation, color sorting (electronic or manual), and hand picking for defect removal. This stage determines the final grade (G1, G2, etc.) and directly affects cup quality. For the full milling process, see the <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='underline font-bold'>dry milling export guide</Link>.
       </p>
       <p className='my-4'>
         At the end of milling, the coffee is bagged (typically 60 kg jute bags with GrainPro liners for specialty lots) and stored at the exporter's Addis Ababa warehouse pending quality inspection. Ethio Coffee Export PLC manages this stage from its own Addis Ababa warehouse, drawing on three decades of sourcing relationships with cooperatives and washing stations across every major Ethiopian coffee region.
@@ -295,7 +252,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
               <td className='border border-gray-200 px-4 py-2'>LC delays from issuing bank</td>
             </tr>
             <tr className='bg-gray-50'>
-              <td className='border border-gray-200 px-4 py-2'>Sourcing + milling</td>
+              <td className='border border-gray-200 px-4 py-2'>Milling + preparation</td>
               <td className='border border-gray-200 px-4 py-2'>7 to 15</td>
               <td className='border border-gray-200 px-4 py-2'>10 to 20</td>
               <td className='border border-gray-200 px-4 py-2'>Grade 1 scarcity; re-sorting needed</td>
@@ -586,9 +543,9 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
             </p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2'>What is the difference between ECX and direct specialty export?</h3>
+            <h3 className='font-bold text-gray-800 mb-2'>What happens if a lot fails the CLU inspection?</h3>
             <p className='text-sm text-gray-600'>
-              ECX (Ethiopia Commodity Exchange) is the auction-based channel where coffee trades by region and grade with limited traceability. Direct Specialty License (DSL) allows exporters to source directly from cooperatives and washing stations with full traceability to the production site. Both channels share the same export pipeline from CLU inspection onward.
+              If a lot grades below the contracted specification, the exporter must re-sort, re-mill, or resubmit a new sample. This can add 5 to 14 days to the timeline. Good exporters mitigate this by running internal quality checks at their own cupping lab before submitting to the CLU. Grade rejections are one of the most common causes of shipment delay.
             </p>
           </div>
           <div>
