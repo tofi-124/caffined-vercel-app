@@ -79,7 +79,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
       </h2>
 
       <p className='my-4'>
-        Dry milling is the post-drying mechanical processing stage that converts dried parchment coffee (or whole dried cherries, in the case of naturals) into clean, sorted, graded green beans ready for bagging and export. It is distinct from wet milling, which takes place at washing stations immediately after harvest and involves the removal of the cherry skin and mucilage in the presence of water.
+        Dry milling is the post-drying mechanical processing stage that converts dried parchment coffee (or whole dried cherries, in the case of naturals) into clean, sorted, graded green beans ready for bagging and export. It is distinct from wet milling, which takes place at <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='underline font-bold'>washing stations</Link> immediately after harvest and involves the removal of the cherry skin and mucilage in the presence of water.
       </p>
 
       <p className='my-4'>

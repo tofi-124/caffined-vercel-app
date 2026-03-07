@@ -49,6 +49,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
       <p className='my-4'>
         In washed processing, the coffee cherry&apos;s fruit is removed from the seed (the coffee bean) immediately after harvesting.
         The beans are then fermented in water tanks to break down the remaining mucilage before being washed clean and dried on raised beds.
+        For a detailed look at how these facilities operate and what to evaluate on site, see our <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='underline font-bold'>guide to Ethiopian coffee washing stations</Link>.
       </p>
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-lg mb-2'>Washed Ethiopian Coffee Characteristics</h4>

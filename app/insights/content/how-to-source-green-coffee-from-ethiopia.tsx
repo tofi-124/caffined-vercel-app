@@ -109,7 +109,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         Before committing to a supplier, make sure you can answer these questions:
       </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
-        <li className='my-2'><span className='font-bold'>Traceability:</span> Can they identify the region, washing station, and processing method?</li>
+        <li className='my-2'><span className='font-bold'>Traceability:</span> Can they identify the region, <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='underline font-bold'>washing station</Link>, and processing method?</li>
         <li className='my-2'><span className='font-bold'>Samples:</span> Will they provide pre-shipment samples for cupping evaluation?</li>
         <li className='my-2'><span className='font-bold'>Documentation:</span> Can they provide phytosanitary certificates, ICO certificates, and quality reports?</li>
         <li className='my-2'><span className='font-bold'>Minimum Order:</span> What&apos;s their MOQ? Can they accommodate smaller trial orders?</li>

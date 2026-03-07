@@ -11,6 +11,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE WASHING STATIONS BUYER'S GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-washing-stations-buyers-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-washing-stations-buyers-guide.webp',
+      date: 'Mar 7, 2026',
+      title: 'Ethiopian Coffee Washing Stations: Buyer\'s Guide',
+      slug: 'ethiopian-coffee-washing-stations-buyers-guide',
+      category: 'Processing Methods / Sourcing Guide / Quality Control / Importer Resources',
+      keywords: [
+        'Ethiopian coffee washing stations',
+        'Ethiopian wet mill process',
+        'washed Ethiopian coffee processing',
+        'coffee cherry processing Ethiopia',
+        'Ethiopian coffee wet milling guide',
+        'how Ethiopian coffee washing stations work',
+        'what happens at a coffee washing station in Ethiopia',
+        'difference between washing station and dry mill Ethiopia',
+        'why washing stations matter for coffee importers',
+        'how to evaluate an Ethiopian coffee washing station',
+        'washed vs natural processing at Ethiopian stations',
+        'Ethiopian coffee fermentation process',
+        'coffee washing station capacity Ethiopia',
+        'Yirgacheffe washing station coffee',
+        'Guji washing station coffee'
+      ],
+      desc: 'How Ethiopian coffee washing stations transform cherry into parchment through pulping, fermentation, and channel washing. Covers station types, regional profiles, infrastructure evaluation checklists, processing economics, and what importers should ask before sourcing washed Ethiopian coffee.'
+    },
     // ===== GREEN COFFEE PACKAGING & BAG TYPES GUIDE =====
     {
       small_image_url: 'insights/green-coffee-packaging-bag-types-guide.webp',
