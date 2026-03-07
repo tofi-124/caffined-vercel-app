@@ -133,6 +133,10 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         </ul>
       </div>
 
+      <p className='my-4'>
+        For a detailed walkthrough of every stage from contract signing through customs clearance, see our <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='underline font-bold'>Ethiopian coffee export process buyer&apos;s guide</Link>.
+      </p>
+
       <h3 className='text-2xl font-extrabold mt-8'>
         Best Ethiopian Coffee Regions for Specialty Roasters
       </h3>

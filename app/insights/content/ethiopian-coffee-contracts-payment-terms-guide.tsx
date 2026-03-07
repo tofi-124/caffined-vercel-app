@@ -796,7 +796,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       </div>
 
       <p className='my-4'>
-        Total elapsed time from first contact to coffee in your warehouse: approximately 10-14 weeks for a first purchase. Subsequent orders are faster, typically 6-8 weeks from contract to delivery. For a complete step-by-step ordering process, visit our <Link href='/ordering-info' className='text-amber-700 underline font-semibold'>ordering information</Link> page.
+        Total elapsed time from first contact to coffee in your warehouse: approximately 10-14 weeks for a first purchase. Subsequent orders are faster, typically 6-8 weeks from contract to delivery. For a complete step-by-step ordering process, visit our <Link href='/ordering-info' className='text-amber-700 underline font-semibold'>ordering information</Link> page. For a deeper look at each export stage — from CLU inspection to Djibouti port loading — see our <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='underline font-bold'>export process buyer&apos;s guide</Link>.
       </p>
 
       {/* SECTION 8: COMMON MISTAKES */}

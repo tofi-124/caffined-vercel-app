@@ -176,7 +176,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       </ol>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
-        <p className='font-medium'><span className='font-bold'>Timeline Note:</span> From ECX purchase to container departure typically takes 2-4 weeks, depending on documentation, container availability, and logistics. Plan accordingly when ordering for seasonal programs.</p>
+        <p className='font-medium'><span className='font-bold'>Timeline Note:</span> From ECX purchase to container departure typically takes 2-4 weeks, depending on documentation, container availability, and logistics. Plan accordingly when ordering for seasonal programs. For the full step-by-step breakdown from contract to delivery, see our <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='underline font-bold'>export process buyer&apos;s guide</Link>.</p>
       </div>
 
       <h3 className='text-2xl font-extrabold mt-8'>

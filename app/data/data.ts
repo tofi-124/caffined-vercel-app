@@ -11,6 +11,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE EXPORT PROCESS: BUYER'S GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-export-process-buyers-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-export-process-buyers-guide.webp',
+      date: 'Mar 9, 2026',
+      title: 'Ethiopian Coffee Export Process: A Buyer\'s Guide',
+      slug: 'ethiopian-coffee-export-process-buyers-guide',
+      category: 'Export Process / Sourcing Guide / Trade Logistics / Importer Resources',
+      keywords: [
+        'Ethiopian coffee export process',
+        'how to export coffee from Ethiopia',
+        'Ethiopian coffee export documentation',
+        'Ethiopian coffee CLU inspection',
+        'coffee export timeline Ethiopia',
+        'Ethiopian coffee shipping Djibouti',
+        'Ethiopian coffee export steps',
+        'Ethiopian green coffee export procedure',
+        'what documents needed to export Ethiopian coffee',
+        'Ethiopian coffee exporter process guide',
+        'ECX vs direct specialty export Ethiopia',
+        'Ethiopian coffee export costs',
+        'Ethiopian coffee customs clearance',
+        'CLU quality certificate Ethiopian coffee',
+        'Ethiopian coffee export logistics'
+      ],
+      desc: 'Step-by-step Ethiopian coffee export process from contract to container. Covers the seven stages, CLU inspection, complete documentation checklist, realistic timelines, cost breakdown per step, common delays, and what your exporter handles at each stage.'
+    },
     // ===== ETHIOPIAN COFFEE WASHING STATIONS BUYER'S GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-washing-stations-buyers-guide.webp',
