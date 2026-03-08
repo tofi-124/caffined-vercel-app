@@ -41,7 +41,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       </div>
       
       <p className='my-4'>
-        Saudi Arabia&apos;s coffee culture has transformed dramatically over the past decade. What was once a nation primarily associated with traditional Arabic coffee (qahwa) has become one of the Middle East&apos;s most dynamic specialty coffee markets. Riyadh, Jeddah, and Dammam now host hundreds of third-wave cafes, and Saudi consumers particularly the country&apos;s young, affluent population are seeking speciality single-origin coffees with transparent sourcing and distinctive flavor profiles.
+        Saudi Arabia&apos;s coffee culture has transformed dramatically over the past decade. What was once a nation primarily associated with traditional Arabic coffee (qahwa) has become one of the Middle East&apos;s most dynamic specialty coffee markets. Riyadh, Jeddah, and Dammam now host hundreds of third-wave cafes, and Saudi consumers particularly the country&apos;s young, affluent population are seeking speciality single-origin coffees with transparent sourcing and distinctive flavor profiles. For a detailed look at the <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='text-amber-700 hover:underline font-bold'>Saudi Arabia specialty coffee market</Link>, including buyer segments, consumer trends, and commercial strategy, see our companion guide.
       </p>
 
       <p className='my-4'>
@@ -673,6 +673,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Middle East & Asia Import Guides</h4>
             <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>Saudi Arabia Coffee Market Guide</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing to UAE</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>

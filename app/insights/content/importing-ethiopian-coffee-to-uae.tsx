@@ -92,7 +92,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <li><span className='font-bold'>Market size:</span> UAE coffee market valued at $500M+ USD and growing 10-15% annually (highest per-capita coffee consumption in MENA)</li>
         <li><span className='font-bold'>Jebel Ali Port:</span> World-class container handling, 3-7 day transit from Djibouti, weekly sailings</li>
         <li><span className='font-bold'>Free zone advantages:</span> JAFZA, DMCC, DAFZA offer 0% corporate tax, 100% foreign ownership, simplified customs</li>
-        <li><span className='font-bold'>Re-export hub:</span> Seamless GCC distribution (Saudi, Kuwait, Qatar, Oman), Africa, South Asia markets</li>
+        <li><span className='font-bold'>Re-export hub:</span> Seamless GCC distribution (Saudi, Kuwait, Qatar, Oman), Africa, South Asia markets. See our <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='text-amber-700 hover:underline font-bold'>Saudi Arabia coffee market guide</Link> for KSA buyer segments and strategy</li>
         <li><span className='font-bold'>Specialty coffee culture:</span> Dubai's cafe scene rivals European capitals demand for single-origin, traceable coffee is high</li>
         <li><span className='font-bold'>Ethiopian community:</span> Large Ethiopian diaspora (50,000+) creates cultural familiarity and demand</li>
         <li><span className='font-bold'>Business-friendly:</span> English widely spoken, transparent regulations, efficient bureaucracy</li>
@@ -702,6 +702,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Middle East & Asia Import Guides</h4>
             <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>Saudi Arabia Coffee Market Guide</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>

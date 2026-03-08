@@ -2347,4 +2347,28 @@ export const posts: Post[] = [
       ],
       desc: 'How to import Ethiopian coffee to Turkey: regulations, customs duties, Red Sea shipping, market insights, and sourcing guidance for Turkish roasters and importers.'
     },
+    // ===== SAUDI ARABIA SPECIALTY COFFEE MARKET GUIDE =====
+    {
+      small_image_url: 'insights/saudi-arabia-specialty-coffee-market-guide.webp',
+      large_image_url: 'insights/saudi-arabia-specialty-coffee-market-guide.webp',
+      date: 'Mar 10, 2026',
+      title: 'Saudi Arabia Coffee Market: Exporter\'s Guide',
+      slug: 'saudi-arabia-specialty-coffee-market-guide',
+      category: 'Market Analysis / Saudi Arabia Coffee / Export Strategy / B2B Intelligence',
+      keywords: [
+        'Saudi Arabia coffee market',
+        'Saudi specialty coffee market size',
+        'sell Ethiopian coffee to Saudi Arabia',
+        'Saudi coffee buyers',
+        'KSA coffee import market',
+        'Saudi Arabia coffee consumer trends',
+        'Ethiopian coffee Saudi demand',
+        'Riyadh specialty coffee',
+        'Saudi coffee roasters',
+        'Vision 2030 coffee market',
+        'Saudi coffee buyer segments',
+        'GCC coffee market analysis'
+      ],
+      desc: 'Saudi Arabia\'s coffee market is growing 8-12% annually. Buyer segments, trends, and export strategy for Ethiopian coffee in KSA.'
+    },
 ]

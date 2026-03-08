@@ -217,7 +217,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       <ul className='list-disc ml-6 space-y-2 text-sm my-4'>
         <li>Europe (Hamburg, Rotterdam, Felixstowe): 18 to 25 days</li>
         <li>North America (New York, Montreal): 28 to 35 days</li>
-        <li>Middle East (Jeddah, Jebel Ali): 4 to 7 days</li>
+        <li>Middle East (Jeddah, Jebel Ali): 4 to 7 days. For market intelligence on the fastest-growing GCC destination, see the <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='underline font-bold'>Saudi Arabia coffee market guide</Link></li>
         <li>East Asia (Yokohama, Busan): 22 to 30 days</li>
         <li>Australia (Melbourne): 25 to 32 days</li>
       </ul>
