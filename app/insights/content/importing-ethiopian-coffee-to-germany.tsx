@@ -45,7 +45,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
       </p>
 
       <p className='my-4'>
-        Germany&apos;s coffee culture runs deep Germans consume an average of 168 liters of coffee per capita annually (more than beer), and the specialty coffee movement has exploded in Berlin, Hamburg, Munich, and Cologne over the past decade. Ethiopian coffee, with its distinctive flavor profiles and origin story, enjoys strong recognition among German specialty roasters and consumers. However, importing into Germany means navigating EU-wide regulations, understanding Germany&apos;s unique <span className='font-bold'>Kaffeesteuer</span> (coffee tax), and meeting the rigorous traceability standards European consumers demand.
+        Germany&apos;s coffee culture runs deep Germans consume an average of 168 liters of coffee per capita annually (more than beer), and the specialty coffee movement has exploded in Berlin, Hamburg, Munich, and Cologne over the past decade. Ethiopian coffee, with its distinctive flavor profiles and origin story, enjoys strong recognition among German specialty roasters and consumers. However, importing into Germany means working through EU-wide regulations, understanding Germany&apos;s unique <span className='font-bold'>Kaffeesteuer</span> (coffee tax), and meeting the rigorous traceability standards European consumers demand.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -521,7 +521,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'>Strategy 2: EU-Wide Distribution Hub</h4>
-          <p className='text-sm'><span className='font-bold'>Target:</span> Roasters across EU leveraging single market</p>
+          <p className='text-sm'><span className='font-bold'>Target:</span> Roasters across EU using single market access</p>
           <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Import containers to Hamburg, use bonded warehouse to defer Kaffeesteuer (paid only on German sales), distribute duty-free to other EU countries (France, Netherlands, Belgium, Austria, Poland, Sweden). Hamburg&apos;s central location enables 24-hour trucking to most EU markets. This model turns Germany into logistics hub rather than just domestic market.</p>
         </div>
 

@@ -74,7 +74,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
       </p>
 
       <p className='my-4'>
-        Ethiopian coffee, with its distinctive floral and fruity profiles, aligns perfectly with Korean preferences for bright, complex, Instagram-worthy specialty coffee. However, entering the Korean market requires navigating <span className='font-bold'>Ministry of Food and Drug Safety (MFDS)</span> regulations, understanding Korean business culture, and working through Korea's sophisticated but specific import procedures.
+        Ethiopian coffee, with its distinctive floral and fruity profiles, aligns perfectly with Korean preferences for bright, complex, Instagram-worthy specialty coffee. However, entering the Korean market requires handling <span className='font-bold'>Ministry of Food and Drug Safety (MFDS)</span> regulations, understanding Korean business culture, and working through Korea's sophisticated but specific import procedures.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>

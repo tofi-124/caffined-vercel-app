@@ -102,7 +102,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         UAE Coffee Import Regulations & Authorities
       </h3>
       <p className='my-4'>
-        Coffee imports into the UAE are regulated by <span className='font-bold'><a href='https://www.dubaicustoms.gov.ae/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Dubai Customs</a></span> (and respective emirate customs), <span className='font-bold'><a href='https://www.esma.gov.ae/en-us' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>ESMA (Emirates Authority for Standardization and Metrology)</a></span>, and <span className='font-bold'><a href='https://www.moccae.gov.ae/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>MOCCAE (Ministry of Climate Change and Environment)</a></span> for certain certificates. Here&apos;s the regulatory landscape:
+        Coffee imports into the UAE are regulated by <span className='font-bold'><a href='https://www.dubaicustoms.gov.ae/en' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Dubai Customs</a></span> (and respective emirate customs), <span className='font-bold'><a href='https://www.esma.gov.ae/en-us' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>ESMA (Emirates Authority for Standardization and Metrology)</a></span>, and <span className='font-bold'><a href='https://www.moccae.gov.ae/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>MOCCAE (Ministry of Climate Change and Environment)</a></span> for certain certificates. Here&apos;s the regulatory framework:
       </p>
 
       <div className='space-y-6 my-8'>
@@ -533,7 +533,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'>Strategy 1: Direct UAE Market Sales (Mainland Company)</h4>
           <p className='text-sm'><span className='font-bold'>Target:</span> Dubai/Abu Dhabi specialty cafes, hotel F&B departments, roasters</p>
-          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Set up mainland company with import/distribution license. Focus on single-origin Ethiopian coffees for premium positioning. Leverage Ethiopian diaspora community for cultural authenticity. Price: Premium (AED 80-120/kg wholesale).</p>
+          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Set up mainland company with import/distribution license. Focus on single-origin Ethiopian coffees for premium positioning. Draw on Ethiopian diaspora community for cultural authenticity. Price: Premium (AED 80-120/kg wholesale).</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>

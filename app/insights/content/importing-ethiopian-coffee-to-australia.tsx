@@ -39,7 +39,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Your comprehensive guide to importing specialty Ethiopian green coffee into Australia: navigating DAFF biosecurity requirements, Australian Border Force customs, FSANZ food safety standards, and entering one of the world's most sophisticated and quality-obsessed specialty coffee markets.
+        Your comprehensive guide to importing specialty Ethiopian green coffee into Australia: managing DAFF biosecurity requirements, Australian Border Force customs, FSANZ food safety standards, and entering one of the world's most sophisticated and quality-obsessed specialty coffee markets.
       </h2>
 
       <figure>
@@ -74,7 +74,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
       </p>
 
       <p className='my-4'>
-        However, importing into Australia requires navigating the country's rigorous <span className='font-bold'>biosecurity regime</span> – among the world's strictest due to Australia's unique ecosystem. The <span className='font-bold'>Department of Agriculture, Fisheries and Forestry (DAFF)</span> enforces comprehensive quarantine controls, while the <span className='font-bold'>Australian Border Force (ABF)</span> handles customs clearance. This guide provides everything Ethiopian exporters and Australian importers need to successfully navigate Australia's import system.
+        However, importing into Australia requires working through the country's rigorous <span className='font-bold'>biosecurity regime</span> – among the world's strictest due to Australia's unique ecosystem. The <span className='font-bold'>Department of Agriculture, Fisheries and Forestry (DAFF)</span> enforces comprehensive quarantine controls, while the <span className='font-bold'>Australian Border Force (ABF)</span> handles customs clearance. This guide provides everything Ethiopian exporters and Australian importers need to successfully manage Australia's import system.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -160,7 +160,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium'>
-          <span className='font-bold'>Australian Market Reality:</span> Australia is arguably the world's most quality-focused coffee market. Consumers can distinguish quality instantly, cafes compete on excellence rather than price, and Ethiopian coffee's distinctive profiles align perfectly with Australian preferences. This is a premium market where quality is rewarded.
+          <span className='font-bold'>Australian Market Reality:</span> Australia is the world's most quality-focused coffee market. Consumers can distinguish quality instantly, cafes compete on excellence rather than price, and Ethiopian coffee's distinctive profiles align perfectly with Australian preferences. This is a premium market where quality is rewarded.
         </p>
       </div>
 
@@ -872,7 +872,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
 
         <div className='border-l-4 border-purple-500 pl-4'>
           <h5 className='font-bold'>Melbourne: Global Coffee Capital</h5>
-          <p className='text-sm'>Melbourne arguably world's most sophisticated coffee city. Sets global trends, influences international markets. Success in Melbourne signals quality recognition worldwide.</p>
+          <p className='text-sm'>Melbourne is the world's most sophisticated coffee city. Sets global trends, influences international markets. Success in Melbourne signals quality recognition worldwide.</p>
         </div>
 
         <div className='border-l-4 border-amber-500 pl-4'>

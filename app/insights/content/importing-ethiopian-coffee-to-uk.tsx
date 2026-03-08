@@ -41,7 +41,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Your complete post-Brexit guide to importing specialty Ethiopian green coffee into the United Kingdom: FSA food safety compliance, HMRC customs procedures, EORI registration, shipping logistics through Felixstowe and London Gateway ports, and navigating the UK's vibrant third-wave coffee market.
+        Your complete post-Brexit guide to importing specialty Ethiopian green coffee into the United Kingdom: FSA food safety compliance, HMRC customs procedures, EORI registration, shipping logistics through Felixstowe and London Gateway ports, and entering the UK's vibrant third-wave coffee market.
       </h2>
 
       <figure>
@@ -76,13 +76,13 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
       </p>
 
       <p className='my-4'>
-        British consumers increasingly demand transparency, sustainability, and exceptional quality – values that align perfectly with Ethiopian specialty coffee. Whether you're a UK-based roaster looking to source directly from Ethiopia, or an Ethiopian exporter seeking to enter the British market, this guide provides everything you need to navigate post-Brexit import regulations successfully.
+        British consumers increasingly demand transparency, sustainability, and exceptional quality – values that align perfectly with Ethiopian specialty coffee. UK-based roasters looking to source directly from Ethiopia and Ethiopian exporters seeking to enter the British market will find everything needed to handle post-Brexit import regulations successfully in this guide.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Post-Brexit Update:</span> Since January 1, 2021, the UK operates independent customs and food safety systems. Ethiopian coffee enjoys zero import duty under WTO terms, but importers must navigate new documentation requirements including EORI numbers, customs declarations, and UK-specific food safety compliance separate from EU rules.</span>
+          <span><span className='font-bold'>Post-Brexit Update:</span> Since January 1, 2021, the UK operates independent customs and food safety systems. Ethiopian coffee enjoys zero import duty under WTO terms, but importers must handle new documentation requirements including EORI numbers, customs declarations, and UK-specific food safety compliance separate from EU rules.</span>
         </p>
       </div>
 
@@ -967,11 +967,11 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
       </p>
 
       <p className='my-4'>
-        The UK specialty coffee consumer values exactly what Ethiopian coffee offers: transparency, traceability, complex flavors, sustainable farming practices, and compelling origin stories. From London's cutting-edge specialty cafes to regional roasters building loyal followings, Ethiopian coffee sits at the heart of the UK's coffee revolution.
+        The UK specialty coffee consumer values exactly what Ethiopian coffee offers: transparency, traceability, complex flavors, sustainable farming practices, and compelling origin stories. From London's leading specialty cafes to regional roasters building loyal followings, Ethiopian coffee sits at the heart of the UK's coffee revolution.
       </p>
 
       <p className='my-4'>
-        While navigating HMRC customs procedures and FSA requirements requires diligence, the import process is straightforward once you understand the post-Brexit system. With proper EORI registration, experienced customs brokers, and reliable Ethiopian export partners, importing Ethiopian coffee to the UK is efficient and highly profitable.
+        While managing HMRC customs procedures and FSA requirements requires diligence, the import process is straightforward once you understand the post-Brexit system. With proper EORI registration, experienced customs brokers, and reliable Ethiopian export partners, importing Ethiopian coffee to the UK is efficient and highly profitable.
       </p>
 
       <div className='bg-gray-100 p-6 rounded-lg my-8 border border-gray-300'>

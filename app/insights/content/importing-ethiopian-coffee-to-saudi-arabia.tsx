@@ -45,7 +45,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       </p>
 
       <p className='my-4'>
-        Ethiopian coffee, with its historic connection to the Arab world through centuries of trade, natural wine-like complexity, and recognizable origin story, is perfectly positioned for the Saudi market. But if you&apos;re a Saudi coffee roaster, cafe owner, or importer wondering how to navigate the import process, this comprehensive guide covers everything you need to know from <span className='font-bold'>SFDA certification</span> to clearing <span className='font-bold'>Saudi Customs (Zatca)</span>, shipping through Jeddah port, and partnering with trusted <span className='font-bold'>Ethiopian coffee exporters</span> like <span className='font-bold'>Ethio Coffee Export PLC</span>.
+        Ethiopian coffee, with its historic connection to the Arab world through centuries of trade, natural wine-like complexity, and recognizable origin story, is perfectly positioned for the Saudi market. But if you&apos;re a Saudi coffee roaster, cafe owner, or importer wondering how to handle the import process, this comprehensive guide covers everything you need to know from <span className='font-bold'>SFDA certification</span> to clearing <span className='font-bold'>Saudi Customs (Zatca)</span>, shipping through Jeddah port, and partnering with trusted <span className='font-bold'>Ethiopian coffee exporters</span> like <span className='font-bold'>Ethio Coffee Export PLC</span>.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -517,7 +517,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold text-lg mb-2'>Competitive Landscape</h4>
+          <h4 className='font-bold text-lg mb-2'>Competitive Environment</h4>
           <p className='text-sm'>Brazilian, Colombian, and Kenyan coffees have market presence, but Ethiopian coffee enjoys cultural affinity and flavor differentiation. Direct import from Ethiopia offers margin advantages over European/US re-imports common in the past.</p>
         </div>
 

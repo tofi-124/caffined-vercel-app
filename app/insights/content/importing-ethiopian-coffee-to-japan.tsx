@@ -45,7 +45,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       </p>
 
       <p className='my-4'>
-        Ethiopian coffee with its inherent complexity, diverse regional profiles, and origin authenticity aligns perfectly with Japanese coffee culture&apos;s emphasis on craftsmanship and terroir. However, entering the Japanese market requires navigating strict food safety regulations, meticulous documentation, and understanding unique business practices. This comprehensive guide covers everything <span className='font-bold'>Japanese coffee importers</span>, roasters, and cafe operators need to know about sourcing <span className='font-bold'>Ethiopian specialty coffee</span>.
+        Ethiopian coffee with its inherent complexity, diverse regional profiles, and origin authenticity aligns perfectly with Japanese coffee culture&apos;s emphasis on craftsmanship and terroir. However, entering the Japanese market requires managing strict food safety regulations, meticulous documentation, and understanding unique business practices. This comprehensive guide covers everything <span className='font-bold'>Japanese coffee importers</span>, roasters, and cafe operators need to know about sourcing <span className='font-bold'>Ethiopian specialty coffee</span>.
       </p>
 
       <div className='bg-dark text-primary p-6 rounded-lg my-6'>
@@ -130,7 +130,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
             <li><span className='font-bold'>Zero Import Duty:</span> Japan imposes 0% customs duty on coffee imports (under WTO commitments)</li>
             <li><span className='font-bold'>Consumption Tax (10%):</span> Applied at customs on FCA value + freight (recoverable for tax-registered businesses)</li>
             <li><span className='font-bold'>NACCS System:</span> Electronic customs clearance via Nippon Automated Cargo and Port Consolidated System</li>
-            <li><span className='font-bold'>Customs Broker Recommended:</span> While not legally required, customs brokers navigate complex Japanese procedures efficiently</li>
+            <li><span className='font-bold'>Customs Broker Recommended:</span> While not legally required, customs brokers handle complex Japanese procedures efficiently</li>
             <li><span className='font-bold'>EPA/FTA Benefits:</span> Currently no Ethiopia-Japan EPA, but zero duty makes this less critical</li>
           </ul>
         </div>
@@ -355,7 +355,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
             <li><span className='font-bold'>FAINS Access:</span> Electronic MHLW notification system (customs broker can handle)</li>
             <li><span className='font-bold'>Import Notification Filing:</span> Submit via FAINS before shipment arrival</li>
             <li><span className='font-bold'>Consumption Tax Registration:</span> For JCT recovery (National Tax Agency)</li>
-            <li><span className='font-bold'>Customs Broker:</span> Recommended for navigating NACCS system and Japanese procedures</li>
+            <li><span className='font-bold'>Customs Broker:</span> Recommended for managing NACCS system and Japanese procedures</li>
             <li><span className='font-bold'>Warehouse Arrangement:</span> Climate-controlled storage facility (Japan has distinct seasons)</li>
             <li><span className='font-bold'>Banking Relationship:</span> Japanese bank account for import payments and tax transactions</li>
           </ul>
@@ -511,7 +511,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold text-lg mb-2'>Strategy 3: Direct-to-Consumer E-Commerce</h4>
           <p className='text-sm'><span className='font-bold'>Target:</span> Japanese online consumers seeking origin authenticity</p>
-          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Import Ethiopian coffee, roast, package with Japanese language labels (required), sell via Rakuten, Amazon Japan, or own e-commerce site. Subscription coffee box model popular in Japan. Leverage Ethiopia&apos;s origin story Japanese consumers appreciate authenticity.</p>
+          <p className='text-sm mt-1'><span className='font-bold'>Approach:</span> Import Ethiopian coffee, roast, package with Japanese language labels (required), sell via Rakuten, Amazon Japan, or own e-commerce site. Subscription coffee box model popular in Japan. Draw on Ethiopia&apos;s origin story Japanese consumers appreciate authenticity.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
