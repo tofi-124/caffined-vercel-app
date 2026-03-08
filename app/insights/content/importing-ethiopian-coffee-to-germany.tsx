@@ -55,7 +55,30 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      {/* TABLE OF CONTENTS */}
+      <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-lg font-bold mb-3'>In This Guide</h3>
+        <div className='grid md:grid-cols-2 gap-2'>
+          <ol className='list-decimal ml-5 space-y-1 text-sm'>
+            <li><a href='#de-market' className='text-amber-700 hover:underline'>Why Germany for Ethiopian Coffee Imports</a></li>
+            <li><a href='#de-regulations' className='text-amber-700 hover:underline'>EU & German Import Regulations</a></li>
+            <li><a href='#de-costs' className='text-amber-700 hover:underline'>Import Duties, Coffee Tax & Landed Costs</a></li>
+            <li><a href='#de-shipping' className='text-amber-700 hover:underline'>Shipping to German Ports</a></li>
+            <li><a href='#de-documentation' className='text-amber-700 hover:underline'>Required Documentation</a></li>
+            <li><a href='#de-customs' className='text-amber-700 hover:underline'>German/EU Customs Clearance</a></li>
+          </ol>
+          <ol start={7} className='list-decimal ml-5 space-y-1 text-sm'>
+            <li><a href='#de-working' className='text-amber-700 hover:underline'>Working with Ethio Coffee Export</a></li>
+            <li><a href='#de-timeline' className='text-amber-700 hover:underline'>Real-World Timeline</a></li>
+            <li><a href='#de-market-strategy' className='text-amber-700 hover:underline'>German Market Strategies</a></li>
+            <li><a href='#de-storage' className='text-amber-700 hover:underline'>Storage & Quality Management</a></li>
+            <li><a href='#de-challenges' className='text-amber-700 hover:underline'>Common Challenges & Solutions</a></li>
+            <li><a href='#de-decision' className='text-amber-700 hover:underline'>Is Germany Right for You?</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <h3 id='de-market' className='text-2xl font-extrabold mt-8'>
         Why Germany for Ethiopian Coffee Imports
       </h3>
       <p className='my-4'>
@@ -74,7 +97,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         <li><span className='font-bold'>Central European location:</span> Efficient distribution to Netherlands, Belgium, France, Switzerland, Austria, Poland</li>
       </ul>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-regulations' className='text-2xl font-extrabold mt-8'>
         Understanding EU & German Import Regulations
       </h3>
       <p className='my-4'>
@@ -121,7 +144,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         <p className='font-medium'><span className='font-bold'>Important:</span> Ethiopian coffee enters EU duty-free under GSP+ (Everything But Arms initiative for least developed countries). However, you must provide proof of origin (Form A certificate) to claim duty-free status. German Kaffeesteuer applies regardless of origin.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-costs' className='text-2xl font-extrabold mt-8'>
         <HiOutlineCurrencyDollar className='inline mr-2' />
         Import Duties, Coffee Tax & Landed Costs
       </h3>
@@ -235,7 +258,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         <p className='font-medium'><span className='font-bold'>Bonded Warehouse Strategy:</span> Hamburg offers extensive bonded warehouse facilities where green coffee can be stored without paying Kaffeesteuer until removal for roasting/sale. This improves cash flow significantly pay tax only as you sell. Most serious German coffee importers use this system.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-shipping' className='text-2xl font-extrabold mt-8'>
         Shipping Ethiopian Coffee to German Ports
       </h3>
       <p className='my-4'>
@@ -307,7 +330,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-documentation' className='text-2xl font-extrabold mt-8'>
         Required Documentation for German/EU Import
       </h3>
       <p className='my-4'>
@@ -353,7 +376,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-customs' className='text-2xl font-extrabold mt-8'>
         The German/EU Customs Clearance Process
       </h3>
       <p className='my-4'>
@@ -404,7 +427,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </ul>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-working' className='text-2xl font-extrabold mt-8'>
         Working with Ethio Coffee for German/EU Imports
       </h3>
       <p className='my-4'>
@@ -443,7 +466,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-timeline' className='text-2xl font-extrabold mt-8'>
         Real-World Timeline: Ethiopia to German Warehouse
       </h3>
       <p className='my-4'>
@@ -485,7 +508,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-market-strategy' className='text-2xl font-extrabold mt-8'>
         German Coffee Market Strategies & Opportunities
       </h3>
       
@@ -515,7 +538,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-storage' className='text-2xl font-extrabold mt-8'>
         Storage & Quality Management in Germany
       </h3>
       <p className='my-4'>
@@ -539,7 +562,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </ul>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-challenges' className='text-2xl font-extrabold mt-8'>
         Common Challenges & Solutions
       </h3>
       
@@ -577,7 +600,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-decision' className='text-2xl font-extrabold mt-8'>
         Is Germany the Right Market for Your Ethiopian Coffee?
       </h3>
       <p className='my-4'>
@@ -599,7 +622,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         For smaller operators: Hamburg&apos;s LCL infrastructure is excellent for testing the market. Start with 100-200 bags, build relationships with German specialty roasters, then scale to full containers. Many successful German specialty roasters started with LCL imports before establishing direct relationships and container-scale purchasing.
       </p>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='de-resources' className='text-2xl font-extrabold mt-8'>
         Key Resources for German/EU Coffee Importers
       </h3>
       
@@ -644,7 +667,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Germany?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> is able to successfully supply German and European roasters with speciality Ethiopian specialty coffee for years. We understand EU regulatory requirements, German quality expectations, and the critical importance of proper documentation (Form A, OTA testing, traceability). We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete EU compliance, consistent quality, and the professional reliability German business culture demands.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied German and European roasters with speciality Ethiopian specialty coffee backed by three decades of origin-connected sourcing heritage. We understand EU regulatory requirements, German quality expectations, and the critical importance of proper documentation (Form A, OTA testing, traceability). We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete EU compliance, consistent quality, and the professional reliability German business culture demands.
         </p>
         <p className='my-2'>
           Whether you&apos;re establishing a specialty roastery in Berlin, building an EU-wide distribution business from Hamburg, or supplying German cafe chains with signature single-origin coffee, we deliver the quality, safety certification, and consistent supply you need to succeed in Europe&apos;s most important coffee market.
@@ -672,6 +695,12 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing to Netherlands</Link></li>
               <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation</Link></li>
+            </ul>
+            <h4 className='font-semibold mb-2 mt-3 text-sm'>Americas, Middle East & Asia</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
             </ul>
           </div>
           <div>

@@ -59,7 +59,29 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      {/* In This Guide */}
+      <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-lg font-bold mb-4'>In This Guide</h3>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm'>
+          <a href='#uae-market' className='text-dark hover:text-primary transition'>1. Why UAE Is the GCC Coffee Hub</a>
+          <a href='#uae-regulations' className='text-dark hover:text-primary transition'>2. Import Regulations & Authorities</a>
+          <a href='#uae-free-zones' className='text-dark hover:text-primary transition'>3. Free Zones vs. Mainland</a>
+          <a href='#uae-costs' className='text-dark hover:text-primary transition'>4. Import Duties, VAT & Costs</a>
+          <a href='#uae-shipping' className='text-dark hover:text-primary transition'>5. Shipping to UAE Ports</a>
+          <a href='#uae-documentation' className='text-dark hover:text-primary transition'>6. Required Documentation</a>
+          <a href='#uae-customs' className='text-dark hover:text-primary transition'>7. UAE Customs Clearance</a>
+          <a href='#uae-dmcc' className='text-dark hover:text-primary transition'>8. DMCC Coffee Centre</a>
+          <a href='#uae-working' className='text-dark hover:text-primary transition'>9. Working with Ethio Coffee</a>
+          <a href='#uae-timeline' className='text-dark hover:text-primary transition'>10. Real-World Timeline</a>
+          <a href='#uae-market-insights' className='text-dark hover:text-primary transition'>11. Market Opportunities & Strategies</a>
+          <a href='#uae-storage' className='text-dark hover:text-primary transition'>12. Storage & Quality Management</a>
+          <a href='#uae-challenges' className='text-dark hover:text-primary transition'>13. Common Challenges & Solutions</a>
+          <a href='#uae-decision' className='text-dark hover:text-primary transition'>14. Is UAE the Right Import Base?</a>
+          <a href='#uae-resources' className='text-dark hover:text-primary transition'>15. Key Resources</a>
+        </div>
+      </div>
+
+      <h3 id='uae-market' className='text-2xl font-extrabold mt-8'>
         Why UAE Is the GCC's Coffee Import Hub
       </h3>
       <p className='my-4'>
@@ -76,7 +98,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <li><span className='font-bold'>Business-friendly:</span> English widely spoken, transparent regulations, efficient bureaucracy</li>
       </ul>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-regulations' className='text-2xl font-extrabold mt-8'>
         UAE Coffee Import Regulations & Authorities
       </h3>
       <p className='my-4'>
@@ -125,7 +147,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-free-zones' className='text-2xl font-extrabold mt-8'>
         Free Zones vs. Mainland: Where to Establish Your Import Operation
       </h3>
       <p className='my-4'>
@@ -167,7 +189,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-costs' className='text-2xl font-extrabold mt-8'>
         <HiOutlineCurrencyDollar className='inline mr-2' />
         Import Duties, VAT & Landed Costs
       </h3>
@@ -268,7 +290,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <p className='text-sm mt-4 text-gray-600'><span className='font-bold'>Note:</span> VAT is fully recoverable for VAT-registered businesses via quarterly FTA filings. Effective landed cost after VAT recovery = ~$4.61/lb.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-shipping' className='text-2xl font-extrabold mt-8'>
         Shipping Ethiopian Coffee to UAE Ports
       </h3>
       <p className='my-4'>
@@ -333,7 +355,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-documentation' className='text-2xl font-extrabold mt-8'>
         Required Documentation for UAE Import
       </h3>
       <p className='my-4'>
@@ -375,7 +397,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-customs' className='text-2xl font-extrabold mt-8'>
         The UAE Customs Clearance Process
       </h3>
       <p className='my-4'>
@@ -413,7 +435,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <p className='font-medium'><span className='font-bold'>Efficiency Advantage:</span> Dubai Customs averages 6-12 hour clearance times (vs. 2-5 days in many other markets). Pre-arrival processing and green channel automation make UAE the fastest customs clearance in the Middle East.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-dmcc' className='text-2xl font-extrabold mt-8'>
         The DMCC Coffee Centre: UAE's Specialty Coffee Hub
       </h3>
       <p className='my-4'>
@@ -434,7 +456,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <p className='text-sm mt-3'><span className='font-bold'>Cost:</span> DMCC company setup ~AED 20,000-30,000/year (license + visa), warehouse storage ~AED 50-150/sqm/year.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-working' className='text-2xl font-extrabold mt-8'>
         Working with Ethio Coffee for UAE Imports
       </h3>
       <p className='my-4'>
@@ -469,7 +491,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-timeline' className='text-2xl font-extrabold mt-8'>
         Real-World Timeline: Ethiopia to UAE Warehouse
       </h3>
       <p className='my-4'>
@@ -503,7 +525,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-market-insights' className='text-2xl font-extrabold mt-8'>
         UAE Coffee Market Opportunities & Strategies
       </h3>
       
@@ -533,7 +555,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-storage' className='text-2xl font-extrabold mt-8'>
         Storage & Quality Management in UAE Climate
       </h3>
       <p className='my-4'>
@@ -553,7 +575,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </ul>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-challenges' className='text-2xl font-extrabold mt-8'>
         Common Challenges & Solutions
       </h3>
       
@@ -591,7 +613,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-decision' className='text-2xl font-extrabold mt-8'>
         Is UAE the Right Import Base for Your Business?
       </h3>
       <p className='my-4'>
@@ -611,7 +633,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         For smaller operators: Start with LCL shipments (50-100 bags) to test the market. Rent warehouse space at DMCC Coffee Centre or shared facilities before committing to full facility. Many successful UAE coffee businesses started small and scaled with market traction.
       </p>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='uae-resources' className='text-2xl font-extrabold mt-8'>
         Key Resources for UAE Coffee Importers
       </h3>
       
@@ -639,7 +661,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in the UAE?</h4>
-            <p className="text-sm text-gray-600">Green coffee beans are subject to a 5% customs duty under the GCC Common External Tariff. A 5% VAT also applies. DMCC free zone operations can defer or eliminate duties on coffee held for re-export.</p>
+            <p className="text-sm text-gray-600">Green coffee beans (HS 0901) enter the UAE at 0% import duty. A 5% VAT applies on the landed value but is fully recoverable for VAT-registered businesses. DMCC free zone operations can also defer VAT on coffee held for re-export.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to the UAE take?</h4>
@@ -655,7 +677,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to the UAE?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> is able to successfully supply UAE importers, DMCC traders, and Dubai roasters for years. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with UAE-compliant documentation, fast Red Sea shipping to Jebel Ali, and the professional service Dubai's sophisticated coffee market demands.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied UAE importers, DMCC traders, and Dubai roasters with three decades of origin-connected sourcing heritage. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with UAE-compliant documentation, fast Red Sea shipping to Jebel Ali, and the professional service Dubai's sophisticated coffee market demands.
         </p>
         <p className='my-2'>
           Whether you&apos;re establishing a DMCC free zone operation, launching a Dubai cafe chain, or building a regional coffee distribution business, we deliver the quality, consistency, and reliability you need to succeed in the UAE market.
@@ -678,11 +700,17 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-3 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Middle East Import Guides</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Middle East & Asia Import Guides</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
+            </ul>
+            <h4 className='font-semibold mb-2 mt-3 text-sm'>Americas & Europe</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
             </ul>
           </div>
           <div>

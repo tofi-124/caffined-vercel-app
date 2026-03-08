@@ -1075,6 +1075,21 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
             </Link>
           </li>
           <li>
+            <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to Germany: Complete EU Market Entry Guide
+            </Link>
+          </li>
+          <li>
+            <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Specialty Coffee to Canada: The Complete Practical Guide
+            </Link>
+          </li>
+          <li>
+            <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to Saudi Arabia: SFDA & Customs Guide
+            </Link>
+          </li>
+          <li>
             <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
               <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee from Ethiopia: Complete Guide
             </Link>

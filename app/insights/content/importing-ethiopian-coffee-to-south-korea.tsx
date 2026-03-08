@@ -1030,6 +1030,11 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
             </Link>
           </li>
           <li>
+            <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to Australia: Complete Market Guide
+            </Link>
+          </li>
+          <li>
             <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
               <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> How to Import Ethiopian Specialty Coffee to the United States
             </Link>
@@ -1037,6 +1042,16 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
           <li>
             <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
               <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to Germany: Complete EU Market Entry Guide
+            </Link>
+          </li>
+          <li>
+            <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to UK: Complete Post-Brexit Guide
+            </Link>
+          </li>
+          <li>
+            <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
+              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to UAE: Dubai & DMCC Guide
             </Link>
           </li>
           <li>

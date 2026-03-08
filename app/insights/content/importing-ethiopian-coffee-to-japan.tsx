@@ -55,7 +55,27 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      {/* In This Guide */}
+      <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-lg font-bold mb-4'>In This Guide</h3>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm'>
+          <a href='#jp-market' className='text-dark hover:text-primary transition'>1. Why Japan for Ethiopian Coffee</a>
+          <a href='#jp-regulations' className='text-dark hover:text-primary transition'>2. Japanese Import Regulations</a>
+          <a href='#jp-costs' className='text-dark hover:text-primary transition'>3. Import Duties, Taxes & Costs</a>
+          <a href='#jp-shipping' className='text-dark hover:text-primary transition'>4. Shipping to Japanese Ports</a>
+          <a href='#jp-documentation' className='text-dark hover:text-primary transition'>5. Required Documentation</a>
+          <a href='#jp-customs' className='text-dark hover:text-primary transition'>6. Japanese Customs Clearance</a>
+          <a href='#jp-working' className='text-dark hover:text-primary transition'>7. Working with Ethio Coffee</a>
+          <a href='#jp-timeline' className='text-dark hover:text-primary transition'>8. Real-World Timeline</a>
+          <a href='#jp-market-insights' className='text-dark hover:text-primary transition'>9. Market Strategies & Opportunities</a>
+          <a href='#jp-storage' className='text-dark hover:text-primary transition'>10. Storage & Quality Management</a>
+          <a href='#jp-challenges' className='text-dark hover:text-primary transition'>11. Common Challenges & Solutions</a>
+          <a href='#jp-decision' className='text-dark hover:text-primary transition'>12. Is Japan Right for You?</a>
+          <a href='#jp-resources' className='text-dark hover:text-primary transition'>13. Key Resources</a>
+        </div>
+      </div>
+
+      <h3 id='jp-market' className='text-2xl font-extrabold mt-8'>
         Why Japanese Roasters Import Ethiopian Coffee
       </h3>
       <p className='my-4'>
@@ -72,7 +92,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <li><span className='font-bold'>Competitive advantage:</span> Ethiopian coffee differentiates roasters in Japan&apos;s highly competitive specialty market</li>
       </ul>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-regulations' className='text-2xl font-extrabold mt-8'>
         Understanding Japanese Coffee Import Regulations
       </h3>
       <p className='my-4'>
@@ -120,7 +140,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <p className='font-medium'><span className='font-bold'>Critical Note:</span> MHLW import notification must be filed electronically via FAINS before shipment arrival. First-time importers should work with licensed customs brokers who have FAINS access and understand Japanese regulatory requirements. Processing time: typically 1-3 business days if compliant.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-costs' className='text-2xl font-extrabold mt-8'>
         <HiOutlineCurrencyDollar className='inline mr-2' />
         Import Duties, Taxes & Landed Costs
       </h3>
@@ -221,7 +241,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <p className='text-sm mt-4 text-gray-600'><span className='font-bold'>Note:</span> Consumption tax is fully recoverable via JCT filings. Effective landed cost after tax recovery = ~$4.99/lb. Exchange rate: ¥150/USD (rates fluctuate).</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-shipping' className='text-2xl font-extrabold mt-8'>
         Shipping Ethiopian Coffee to Japanese Ports
       </h3>
       <p className='my-4'>
@@ -299,7 +319,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <p className='font-medium'><span className='font-bold'>Japan-Specific Tip:</span> Japanese roasters prefer smaller bag sizes (30-40kg) compared to global standard 60-69kg bags. This facilitates easier manual handling in Japan&apos;s smaller roastery spaces. Request your Ethiopian exporter to pack in 30kg or 40kg bags if possible.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-documentation' className='text-2xl font-extrabold mt-8'>
         Required Documentation for Japanese Import
       </h3>
       <p className='my-4'>
@@ -342,7 +362,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-customs' className='text-2xl font-extrabold mt-8'>
         The Japanese Customs Clearance Process
       </h3>
       <p className='my-4'>
@@ -392,7 +412,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </ul>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-working' className='text-2xl font-extrabold mt-8'>
         Working with Ethio Coffee for Japanese Imports
       </h3>
       <p className='my-4'>
@@ -429,7 +449,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-timeline' className='text-2xl font-extrabold mt-8'>
         Real-World Timeline: Ethiopia to Japanese Warehouse
       </h3>
       <p className='my-4'>
@@ -471,7 +491,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-market-insights' className='text-2xl font-extrabold mt-8'>
         Japanese Coffee Market Strategies & Opportunities
       </h3>
       
@@ -501,7 +521,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-storage' className='text-2xl font-extrabold mt-8'>
         Storage & Quality Management in Japan
       </h3>
       <p className='my-4'>
@@ -525,7 +545,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </ul>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-challenges' className='text-2xl font-extrabold mt-8'>
         Common Challenges & Solutions
       </h3>
       
@@ -563,7 +583,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-decision' className='text-2xl font-extrabold mt-8'>
         Is Japan the Right Market for Your Ethiopian Coffee?
       </h3>
       <p className='my-4'>
@@ -584,7 +604,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         For smaller operators: Start with LCL (50-100 bags) to test the market. Build relationships with Japanese roasters via samples and small orders before committing to full containers. Consider partnering with established Japanese coffee importers initially to learn the market before importing directly.
       </p>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='jp-resources' className='text-2xl font-extrabold mt-8'>
         Key Resources for Japanese Coffee Importers
       </h3>
       
@@ -627,7 +647,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Japan?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> is able to successfully supply Japanese roasters and importers with premium Ethiopian specialty coffee for years. We understand Japanese quality expectations, regulatory requirements, and business culture. We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete documentation, quality consistency, and the professional reliability Japanese buyers demand.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied Japanese roasters and importers with premium Ethiopian specialty coffee backed by three decades of origin-connected sourcing heritage. We understand Japanese quality expectations, regulatory requirements, and business culture. We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete documentation, quality consistency, and the professional reliability Japanese buyers demand.
         </p>
         <p className='my-2'>
           Whether you&apos;re establishing a specialty roastery in Tokyo, supplying traditional kisaten networks, or building an import/distribution business, we deliver the quality, traceability, and consistent supply you need to succeed in Japan&apos;s demanding but rewarding coffee market.
@@ -650,12 +670,17 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-3 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Other Import Guides</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Asia-Pacific Import Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing to UAE</Link></li>
+            </ul>
+            <h4 className='font-semibold mb-2 mt-3 text-sm'>Americas & Europe</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing to UAE</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
             </ul>
           </div>
           <div>

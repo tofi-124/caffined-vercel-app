@@ -55,7 +55,28 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      {/* In This Guide */}
+      <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-lg font-bold mb-4'>In This Guide</h3>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm'>
+          <a href='#sa-market' className='text-dark hover:text-primary transition'>1. Why Saudi Arabia for Ethiopian Coffee</a>
+          <a href='#sa-regulations' className='text-dark hover:text-primary transition'>2. Saudi Food Import Regulations</a>
+          <a href='#sa-costs' className='text-dark hover:text-primary transition'>3. Import Duties, Taxes & Costs</a>
+          <a href='#sa-shipping' className='text-dark hover:text-primary transition'>4. Shipping to Saudi Arabia</a>
+          <a href='#sa-documentation' className='text-dark hover:text-primary transition'>5. Required Documentation</a>
+          <a href='#sa-sfda' className='text-dark hover:text-primary transition'>6. SFDA Registration Process</a>
+          <a href='#sa-customs' className='text-dark hover:text-primary transition'>7. Saudi Customs Clearance</a>
+          <a href='#sa-working' className='text-dark hover:text-primary transition'>8. Working with Ethio Coffee</a>
+          <a href='#sa-timeline' className='text-dark hover:text-primary transition'>9. Real-World Timeline</a>
+          <a href='#sa-market-insights' className='text-dark hover:text-primary transition'>10. Market Insights & Opportunities</a>
+          <a href='#sa-storage' className='text-dark hover:text-primary transition'>11. Storage & Quality Management</a>
+          <a href='#sa-challenges' className='text-dark hover:text-primary transition'>12. Common Challenges & Solutions</a>
+          <a href='#sa-decision' className='text-dark hover:text-primary transition'>13. Is Direct Import Right for You?</a>
+          <a href='#sa-resources' className='text-dark hover:text-primary transition'>14. Key Resources</a>
+        </div>
+      </div>
+
+      <h3 id='sa-market' className='text-2xl font-extrabold mt-8'>
         Why Saudi Arabia Is Importing Ethiopian Coffee
       </h3>
       <p className='my-4'>
@@ -71,7 +92,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         <li><span className='font-bold'>Proximity advantage:</span> Short Red Sea shipping routes (Djibouti to Jeddah: 3-7 days) mean fresher coffee and lower freight costs</li>
       </ul>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-regulations' className='text-2xl font-extrabold mt-8'>
         Understanding Saudi Food Import Regulations
       </h3>
       <p className='my-4'>
@@ -118,7 +139,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         <p className='font-medium'><span className='font-bold'>Critical Note:</span> Saudi Arabia's SFDA product registration must be completed BEFORE your first shipment. Processing time: 4-8 weeks. Work with your Ethiopian exporter to gather required documentation early. Ethio Coffee provides all necessary export certificates and quality reports for SFDA applications.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-costs' className='text-2xl font-extrabold mt-8'>
         <HiOutlineCurrencyDollar className='inline mr-2' />
         Import Duties, Taxes & Costs
       </h3>
@@ -214,7 +235,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         <p className='text-sm mt-4 text-gray-600'><span className='font-bold'>Note:</span> VAT is fully recoverable for registered businesses. Effective landed cost after VAT recovery = ~$4.62/lb.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-shipping' className='text-2xl font-extrabold mt-8'>
         Shipping Ethiopian Coffee to Saudi Arabia
       </h3>
       <p className='my-4'>
@@ -273,7 +294,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         <p className='font-medium'><span className='font-bold'>Red Sea Advantage:</span> The 3-7 day transit from Djibouti to Jeddah is the shortest shipping route for Ethiopian coffee to any major market globally. This means fresher coffee, lower freight costs, and faster inventory turnover for Saudi roasters.</p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-documentation' className='text-2xl font-extrabold mt-8'>
         Required Documentation for Saudi Import
       </h3>
       <p className='my-4'>
@@ -315,7 +336,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-sfda' className='text-2xl font-extrabold mt-8'>
         The SFDA Registration Process: Step-by-Step
       </h3>
       <p className='my-4'>
@@ -366,7 +387,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </ul>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-customs' className='text-2xl font-extrabold mt-8'>
         Customs Clearance Process at Saudi Ports
       </h3>
       <p className='my-4'>
@@ -400,7 +421,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </li>
       </ol>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-working' className='text-2xl font-extrabold mt-8'>
         Working with Ethio Coffee for Saudi Imports
       </h3>
       <p className='my-4'>
@@ -427,7 +448,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
           <ul className='text-sm space-y-2 list-disc ml-5'>
             <li><span className='font-bold'>Muslim-owned business:</span> Ethiopian Muslim exporters who understand Gulf market values</li>
             <li><span className='font-bold'>Red Sea proximity:</span> Shortest shipping route for fastest delivery</li>
-            <li><span className='font-bold'>SFDA experience:</span> We&apos;ve successfully exported to Saudi importers for years</li>
+            <li><span className='font-bold'>SFDA experience:</span> We&apos;ve successfully exported to Saudi importers with three decades of sourcing heritage</li>
             <li><span className='font-bold'>Quality assurance:</span> Pre-shipment samples, cupping scores, moisture testing</li>
             <li><span className='font-bold'>Payment flexibility:</span> LC, TT, or negotiated terms</li>
             <li><span className='font-bold'>Regional knowledge:</span> We understand Saudi, UAE, Kuwait, and broader GCC market preferences</li>
@@ -435,7 +456,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-timeline' className='text-2xl font-extrabold mt-8'>
         Real-World Timeline: Ethiopia to Saudi Warehouse
       </h3>
       <p className='my-4'>
@@ -477,7 +498,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-market-insights' className='text-2xl font-extrabold mt-8'>
         Saudi Coffee Market Insights & Opportunities
       </h3>
       <p className='my-4'>
@@ -506,7 +527,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-storage' className='text-2xl font-extrabold mt-8'>
         Storage & Quality Management in Saudi Climate
       </h3>
       <p className='my-4'>
@@ -525,7 +546,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </ul>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-challenges' className='text-2xl font-extrabold mt-8'>
         Common Challenges & How to Avoid Them
       </h3>
       
@@ -563,7 +584,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-decision' className='text-2xl font-extrabold mt-8'>
         Is Direct Ethiopian Import Right for Your Saudi Business?
       </h3>
       <p className='my-4'>
@@ -582,7 +603,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         Smaller roasters or cafes can start by buying from Saudi importers, then transition to direct import as volume grows. Alternatively, consider LCL consolidation (50-100 bags) to test the market.
       </p>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id='sa-resources' className='text-2xl font-extrabold mt-8'>
         Key Resources for Saudi Coffee Importers
       </h3>
       <p className='my-4'>
@@ -611,7 +632,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Is there import duty on Ethiopian coffee in Saudi Arabia?</h4>
-            <p className="text-sm text-gray-600">Green coffee beans are subject to a 5% customs duty under the GCC Common External Tariff. A 15% VAT also applies at import. These costs should be factored into landed cost calculations.</p>
+            <p className="text-sm text-gray-600">Green coffee beans (HS 0901) enter Saudi Arabia at 0% import duty. However, 15% VAT applies on the landed value and is recoverable for VAT-registered businesses through Zatca filings.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How long does shipping from Ethiopia to Saudi Arabia take?</h4>
@@ -627,7 +648,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Saudi Arabia?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> is able to successfully supply Saudi importers in Riyadh, Jeddah, and Dammam for years. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with SFDA-compliant documentation, fast Red Sea shipping, and the responsive, reliable service Saudi businesses expect.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied Saudi importers in Riyadh, Jeddah, and Dammam with three decades of origin-connected sourcing heritage. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with SFDA-compliant documentation, fast Red Sea shipping, and the responsive, reliable service Saudi businesses expect.
         </p>
         <p className='my-2'>
           Whether you&apos;re launching your first Saudi roastery, expanding an existing cafe chain, or building an import/distribution business for the GCC, we make Ethiopian coffee import straightforward and profitable.
@@ -650,11 +671,17 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-3 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Middle East Import Guides</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Middle East & Asia Import Guides</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing to UAE</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
+            </ul>
+            <h4 className='font-semibold mb-2 mt-3 text-sm'>Americas & Europe</h4>
+            <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
             </ul>
           </div>
           <div>

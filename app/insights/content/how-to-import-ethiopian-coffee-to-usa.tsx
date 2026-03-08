@@ -506,12 +506,17 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-3 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Other Import Guides</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Americas & Europe</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
+            </ul>
+            <h4 className='font-semibold mb-2 mt-3 text-sm'>Middle East & Asia-Pacific</h4>
+            <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
             </ul>
           </div>
           <div>
