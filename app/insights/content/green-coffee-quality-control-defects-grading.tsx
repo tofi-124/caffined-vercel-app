@@ -438,7 +438,7 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source Quality Ethiopian Coffee</h4>
             <p className='my-2'>
-              At <span className='font-bold'>Ethio Coffee Export PLC</span>, we welcome detailed QC discussions. Experience Ethiopian coffee quality firsthand with samples, specifications, and transparent quality reporting.
+              As a quality-focused Ethiopian coffee exporter, <span className='font-bold'>Ethio Coffee Export PLC</span> welcomes detailed QC discussions. Experience Ethiopian coffee quality firsthand with samples, specifications, and transparent quality reporting.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

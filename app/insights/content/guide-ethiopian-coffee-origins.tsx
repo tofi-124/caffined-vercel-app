@@ -169,7 +169,7 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Find the Right Ethiopian Origin for Your Roastery</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we can recommend lots based on your target profile and share traceability details. From floral Yirgacheffe to bold Harrar, we export across all major Ethiopian origins.
+          As a trusted Ethiopian coffee exporter, <span className='font-bold'>Ethio Coffee Export PLC</span> can recommend lots based on your target profile and share traceability details. From floral Yirgacheffe to bold Harrar, we export across all major Ethiopian origins.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

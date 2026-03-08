@@ -494,7 +494,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Full Packaging Transparency</h3>
         <p className='my-2 text-sm'>
-          Ethio Coffee Export PLC ships all Grade 1 and Grade 2 lots with GrainPro or Ecotact hermetic liner packaging as standard. Pre-shipment samples are vacuum-sealed and sent air freight. Our team in Addis Ababa is happy to discuss packaging specifications for any order before your contract is confirmed.
+          As a licensed Ethiopian coffee exporter, Ethio Coffee Export PLC ships all Grade 1 and Grade 2 lots with GrainPro or Ecotact hermetic liner packaging as standard. Pre-shipment samples are vacuum-sealed and sent air freight. Our team in Addis Ababa is happy to discuss packaging specifications for any order before your contract is confirmed.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link

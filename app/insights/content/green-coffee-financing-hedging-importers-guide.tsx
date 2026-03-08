@@ -565,7 +565,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC, an Ethiopian-Canadian specialty coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Coffee prices, exchange rates, and trade finance terms change frequently; contact us or your trade finance provider for current figures before making purchasing decisions.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC, an Ethiopian coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Coffee prices, exchange rates, and trade finance terms change frequently; contact us or your trade finance provider for current figures before making purchasing decisions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> {' · '}

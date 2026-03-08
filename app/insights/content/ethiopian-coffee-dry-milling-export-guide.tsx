@@ -549,7 +549,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Full Milling Transparency</h3>
         <p className='my-2 text-sm'>
-          Ethio Coffee Export PLC operates directly from Addis Ababa. Our three decades of sourcing relationships span cooperatives and washing stations across Yirgacheffe, Sidama, Guji, Harar, Limu, and Jimma. We manage milling through vetted dry mill partners and provide pre-shipment samples from every lot before container sealing. No surprises at the port.
+          As a trusted Ethiopian coffee exporter, Ethio Coffee Export PLC operates directly from Addis Ababa. Our three decades of sourcing relationships span cooperatives and washing stations across Yirgacheffe, Sidama, Guji, Harar, Limu, and Jimma. We manage milling through vetted dry mill partners and provide pre-shipment samples from every lot before container sealing. No surprises at the port.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link

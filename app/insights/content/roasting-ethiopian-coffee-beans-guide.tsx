@@ -630,7 +630,7 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Green Coffee for Your Roastery</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we supply traceable washed and natural specialty lots from Yirgacheffe, Sidamo, Guji, Harrar, and Limu. Request pre-shipment samples with full lot documentation, cupping notes, and roast recommendations included.
+          As your Ethiopian coffee exporter, <span className='font-bold'>Ethio Coffee Export PLC</span> supplies traceable washed and natural specialty lots from Yirgacheffe, Sidamo, Guji, Harrar, and Limu. Request pre-shipment samples with full lot documentation, cupping notes, and roast recommendations included.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

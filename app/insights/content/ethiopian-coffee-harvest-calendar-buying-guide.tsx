@@ -689,7 +689,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Plan Your Ethiopian Coffee Purchases with Confidence</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> provides harvest updates, pre-shipment samples, and flexible contract terms across all six major Ethiopian coffee regions. Whether you are sourcing a single container or building a year-round supply program, we help you align your buying calendar with the freshest available lots.
+          As your <span className='font-bold'>Ethiopian coffee exporter</span>, <span className='font-bold'>Ethio Coffee Export PLC</span> provides harvest updates, pre-shipment samples, and flexible contract terms across all six major Ethiopian coffee regions. Whether you are sourcing a single container or building a year-round supply program, we help you align your buying calendar with the freshest available lots.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Current Offerings</Link>
