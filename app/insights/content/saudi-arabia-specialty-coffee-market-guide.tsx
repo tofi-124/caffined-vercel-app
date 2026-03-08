@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineBuildingStorefront, HiOutlineUserGroup, HiOutlineBeaker, HiOutlineScale, HiOutlineBriefcase, HiOutlineLightBulb, HiOutlineClipboardDocumentList, HiOutlineCurrencyDollar } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineBuildingStorefront, HiOutlineUserGroup, HiOutlineBeaker, HiOutlineScale, HiOutlineBriefcase, HiOutlineLightBulb, HiOutlineClipboardDocumentList, HiOutlineCurrencyDollar, HiOutlineQuestionMarkCircle } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -40,29 +40,33 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         <span className='ml-2'>Market Analysis / Saudi Arabia Coffee / Export Strategy / B2B Intelligence</span>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Takeaway:</span> Saudi Arabia&apos;s specialty coffee market exceeds $2 billion and is growing 8 to 12% annually. The Kingdom imports nearly all of its coffee, charges 0% import duty on green beans, and has a young population (over 60% under 30) that is rapidly shifting from traditional qahwa to single-origin specialty. Ethiopian coffees, particularly fruit-forward Yirgacheffe and Guji naturals, are among the most sought-after origins on Saudi cafe menus. For Ethiopian exporters, KSA represents a high-margin, fast-transit market just 3 to 7 days by sea from Djibouti.</span>
+      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+        <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
+          Key Takeaway
+        </h3>
+        <p className='text-sm leading-relaxed'>
+          Saudi Arabia&apos;s specialty coffee market exceeds $2 billion and is growing 8 to 12% annually. The Kingdom imports nearly all of its coffee, charges 0% import duty on green beans, and has a young population (over 60% under 30) that is rapidly shifting from traditional qahwa to single-origin specialty. Ethiopian coffees, particularly fruit-forward Yirgacheffe and Guji naturals, are among the most sought-after origins on Saudi cafe menus. For Ethiopian exporters, KSA represents a high-margin, fast-transit market just 3 to 7 days by sea from Djibouti.
         </p>
       </div>
 
       {/* Table of Contents */}
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
-        <h3 className='text-lg font-bold mb-4 flex items-center gap-2'>
-          <HiOutlineClipboardDocumentList className='text-amber-600' /> In This Guide
+        <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
+          <HiOutlineClipboardDocumentList className='text-amber-600' />
+          In This Guide
         </h3>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm'>
-          <a href='#market-numbers' className='text-dark hover:text-primary transition'>1. Saudi Coffee Market in Numbers</a>
-          <a href='#vision-2030' className='text-dark hover:text-primary transition'>2. Vision 2030 and the Specialty Boom</a>
-          <a href='#culture-shift' className='text-dark hover:text-primary transition'>3. From Qahwa to Specialty</a>
-          <a href='#buyer-segments' className='text-dark hover:text-primary transition'>4. Buyer Segments in Saudi Arabia</a>
-          <a href='#ethiopian-origins' className='text-dark hover:text-primary transition'>5. Ethiopian Origins That Sell Best</a>
-          <a href='#competitive-landscape' className='text-dark hover:text-primary transition'>6. Competitive Landscape</a>
-          <a href='#pricing-strategy' className='text-dark hover:text-primary transition'>7. Pricing and Positioning Strategy</a>
-          <a href='#business-development' className='text-dark hover:text-primary transition'>8. Business Development Approach</a>
-          <a href='#faq-saudi' className='text-dark hover:text-primary transition'>9. FAQ</a>
-        </div>
+        <ol className='space-y-2 text-sm'>
+          <li><a href='#market-numbers' className='text-amber-700 hover:underline'>1. Saudi Coffee Market in Numbers</a></li>
+          <li><a href='#vision-2030' className='text-amber-700 hover:underline'>2. Vision 2030 and the Specialty Boom</a></li>
+          <li><a href='#culture-shift' className='text-amber-700 hover:underline'>3. From Qahwa to Specialty</a></li>
+          <li><a href='#buyer-segments' className='text-amber-700 hover:underline'>4. Buyer Segments in Saudi Arabia</a></li>
+          <li><a href='#ethiopian-origins' className='text-amber-700 hover:underline'>5. Ethiopian Origins That Sell Best</a></li>
+          <li><a href='#competitive-landscape' className='text-amber-700 hover:underline'>6. Competitive Landscape</a></li>
+          <li><a href='#pricing-strategy' className='text-amber-700 hover:underline'>7. Pricing and Positioning Strategy</a></li>
+          <li><a href='#business-development' className='text-amber-700 hover:underline'>8. Business Development Approach</a></li>
+          <li><a href='#faq-saudi' className='text-amber-700 hover:underline'>9. FAQ</a></li>
+        </ol>
       </div>
 
       <p className='my-4'>
@@ -73,8 +77,9 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </p>
 
       {/* SECTION 1: MARKET NUMBERS */}
-      <h2 id='market-numbers' className='text-3xl font-extrabold mt-10 mb-4'>
-        <HiOutlineChartBar className='inline mr-2 text-amber-600' /> 1. Saudi Arabia&apos;s Coffee Market in Numbers
+      <h2 id='market-numbers' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineChartBar className='text-amber-600' />
+        1. Saudi Arabia&apos;s Coffee Market in Numbers
       </h2>
 
       <p className='my-4'>
@@ -82,51 +87,51 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </p>
 
       <div className='overflow-x-auto my-6'>
-        <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+        <table className='min-w-full text-sm border-collapse'>
           <thead>
             <tr className='bg-dark text-primary'>
-              <th className='border border-gray-300 p-3 text-left'>Indicator</th>
-              <th className='border border-gray-300 p-3 text-left'>Figure</th>
+              <th className='p-3 text-left'>Indicator</th>
+              <th className='p-3 text-left'>Figure</th>
             </tr>
           </thead>
           <tbody>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3'>Market value</td>
-              <td className='border border-gray-300 p-3'>Over $2 billion USD (retail and foodservice combined)</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3'>Market value</td>
+              <td className='p-3'>Over $2 billion USD (retail and foodservice combined)</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Annual growth rate</td>
-              <td className='border border-gray-300 p-3'>8 to 12% (specialty segment growing faster)</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3'>Annual growth rate</td>
+              <td className='p-3'>8 to 12% (specialty segment growing faster)</td>
             </tr>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3'>Import dependency</td>
-              <td className='border border-gray-300 p-3'>~98% (domestic Khawlani production is minimal)</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3'>Import dependency</td>
+              <td className='p-3'>~98% (domestic Khawlani production is minimal)</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Import duty on green coffee</td>
-              <td className='border border-gray-300 p-3'>0% (HS 0901)</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3'>Import duty on green coffee</td>
+              <td className='p-3'>0% (HS 0901)</td>
             </tr>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3'>VAT</td>
-              <td className='border border-gray-300 p-3'>15% (recoverable for registered businesses)</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3'>VAT</td>
+              <td className='p-3'>15% (recoverable for registered businesses)</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Population</td>
-              <td className='border border-gray-300 p-3'>~36 million (60%+ under 30)</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3'>Population</td>
+              <td className='p-3'>~36 million (60%+ under 30)</td>
             </tr>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3'>Top import origins</td>
-              <td className='border border-gray-300 p-3'>Brazil, Colombia, Ethiopia, India, Vietnam</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3'>Top import origins</td>
+              <td className='p-3'>Brazil, Colombia, Ethiopia, India, Vietnam</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Specialty cafe count (Riyadh alone)</td>
-              <td className='border border-gray-300 p-3'>200+ opened since 2020</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3'>Specialty cafe count (Riyadh alone)</td>
+              <td className='p-3'>200+ opened since 2020</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Market Size and Growth Drivers</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Market Size and Growth Drivers</h3>
       <p className='my-4'>
         Three forces are accelerating Saudi coffee demand simultaneously. First, the sheer size of a young, urbanized population with rising disposable income. Second, the cultural shift from traditional cardamom-spiced qahwa toward espresso-based drinks and filter coffee. Third, deliberate government policy under Vision 2030 that has opened the entertainment and hospitality sectors, spawning thousands of new cafes, restaurants, and hotels that all need coffee supply.
       </p>
@@ -134,7 +139,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         The specialty segment is growing faster than the overall market. Saudi consumers are willing to pay SAR 25 to 40 (approximately $6.70 to $10.70 USD) for a single cup of specialty single-origin coffee in Riyadh or Jeddah cafes. That price point supports strong green coffee premiums and makes the Kingdom attractive for exporters of high-grade Ethiopian lots.
       </p>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Import Volume and Origin Mix</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Import Volume and Origin Mix</h3>
       <p className='my-4'>
         Brazil dominates Saudi green coffee imports by volume, supplying much of the commercial-grade coffee used in instant products and lower-end foodservice. Colombia holds a strong position in the mid-to-premium segment. Ethiopia is the leading African origin and competes directly in the specialty tier alongside Kenya and, increasingly, Rwanda.
       </p>
@@ -143,11 +148,12 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </p>
 
       {/* SECTION 2: VISION 2030 */}
-      <h2 id='vision-2030' className='text-3xl font-extrabold mt-10 mb-4'>
-        <HiOutlineGlobeAlt className='inline mr-2 text-amber-600' /> 2. Vision 2030 and the Specialty Coffee Boom
+      <h2 id='vision-2030' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineGlobeAlt className='text-amber-600' />
+        2. Vision 2030 and the Specialty Coffee Boom
       </h2>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Youth Demographics and Consumption Shift</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Youth Demographics and Consumption Shift</h3>
       <p className='my-4'>
         Saudi Arabia&apos;s median age is approximately 31 years, and over 60% of the population is under 30. This generation grew up with global social media, international travel, and exposure to specialty coffee culture in London, Dubai, and Istanbul. They returned home expecting the same quality and variety.
       </p>
@@ -155,7 +161,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         Per capita coffee consumption in Saudi Arabia has increased steadily as younger consumers adopt daily coffee habits beyond the traditional ceremonial setting. Where their parents might drink qahwa at family gatherings, young Saudis meet at cafes for V60 pour-overs and flat whites. This behavioral change is structural, not cyclical, and it continues to expand the addressable market for specialty green coffee.
       </p>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The Third Wave Cafe Explosion</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>The Third Wave Cafe Explosion</h3>
       <p className='my-4'>
         Riyadh alone has added over 200 specialty cafes since 2020, with Jeddah and the Eastern Province following close behind. International brands like Peet&apos;s Coffee entered the Saudi market in 2024 with six store openings. Starbucks continues expanding across the Kingdom. But the real story is the local Saudi specialty brands: homegrown roasters and cafes that are investing in direct sourcing, in-house roasting, and barista training.
       </p>
@@ -167,11 +173,12 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </p>
 
       {/* SECTION 3: CULTURE SHIFT */}
-      <h2 id='culture-shift' className='text-3xl font-extrabold mt-10 mb-4'>
-        <HiOutlineBeaker className='inline mr-2 text-amber-600' /> 3. Saudi Coffee Culture: From Qahwa to Specialty
+      <h2 id='culture-shift' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineBeaker className='text-amber-600' />
+        3. Saudi Coffee Culture: From Qahwa to Specialty
       </h2>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Traditional Al-Qahwa and Khawlani Heritage</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Traditional Al-Qahwa and Khawlani Heritage</h3>
       <p className='my-4'>
         Coffee holds deep cultural significance in Saudi Arabia. Traditional Arabic coffee (qahwa sada) is a symbol of hospitality, served in small cups (finjaan) at every social gathering, business meeting, and family event. It is typically a light-roasted, cardamom-spiced brew using a blend of Arabica origins. Saudi Arabia also has its own coffee heritage: Khawlani coffee from the Jazan region in the southwest, which the Saudi Coffee Company is now promoting domestically and internationally.
       </p>
@@ -179,7 +186,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         The Jazan Coffee Cooperative began exporting Khawlani coffee to Belgium and Eastern Europe in early 2025, and Soudah Development signed an agreement with the Saudi Coffee Company to expand highland cultivation. Domestic production remains tiny compared to import volume, but it creates useful consumer awareness around single-origin coffee and terroir, concepts that benefit Ethiopian exporters.
       </p>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>The New Generation of Saudi Coffee Consumers</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>The New Generation of Saudi Coffee Consumers</h3>
       <p className='my-4'>
         Today&apos;s Saudi specialty coffee drinker is informed, Instagram-active, and willing to experiment. Light roasts and filter brewing methods have gained significant ground alongside traditional espresso. Key consumer preferences that Ethiopian exporters should understand:
       </p>
@@ -192,8 +199,9 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </ul>
 
       {/* SECTION 4: BUYER SEGMENTS */}
-      <h2 id='buyer-segments' className='text-3xl font-extrabold mt-10 mb-4'>
-        <HiOutlineUserGroup className='inline mr-2 text-amber-600' /> 4. Buyer Segments in Saudi Arabia
+      <h2 id='buyer-segments' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineUserGroup className='text-amber-600' />
+        4. Buyer Segments in Saudi Arabia
       </h2>
       <p className='my-4'>
         Not all Saudi coffee buyers want the same thing. Understanding the four main segments helps exporters tailor their offering and pricing:
@@ -262,65 +270,66 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </div>
 
       {/* SECTION 5: ETHIOPIAN ORIGINS */}
-      <h2 id='ethiopian-origins' className='text-3xl font-extrabold mt-10 mb-4'>
-        <HiOutlineBeaker className='inline mr-2 text-amber-600' /> 5. Which Ethiopian Origins Sell Best in Saudi Arabia
+      <h2 id='ethiopian-origins' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineBeaker className='text-amber-600' />
+        5. Which Ethiopian Origins Sell Best in Saudi Arabia
       </h2>
       <p className='my-4'>
         Ethiopian coffee&apos;s diversity is a strategic advantage in Saudi Arabia. Different origins match different buyer segments and end-use applications. Here is how the major Ethiopian origins align with Saudi market demand:
       </p>
 
       <div className='overflow-x-auto my-6'>
-        <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+        <table className='min-w-full text-sm border-collapse'>
           <thead>
             <tr className='bg-dark text-primary'>
-              <th className='border border-gray-300 p-3 text-left'>Origin</th>
-              <th className='border border-gray-300 p-3 text-left'>Key Profiles</th>
-              <th className='border border-gray-300 p-3 text-left'>Saudi Buyer Fit</th>
-              <th className='border border-gray-300 p-3 text-left'>Typical Grade</th>
+              <th className='p-3 text-left'>Origin</th>
+              <th className='p-3 text-left'>Key Profiles</th>
+              <th className='p-3 text-left'>Saudi Buyer Fit</th>
+              <th className='p-3 text-left'>Typical Grade</th>
             </tr>
           </thead>
           <tbody>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3 font-bold'><Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Yirgacheffe</Link></td>
-              <td className='border border-gray-300 p-3'>Jasmine, bergamot, lemon, tea-like body (washed); blueberry, tropical fruit (natural)</td>
-              <td className='border border-gray-300 p-3'>Specialty roasters, premium cafes, filter-focused shops</td>
-              <td className='border border-gray-300 p-3'>G1, G2 (washed); G1 (natural)</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-bold'><Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Yirgacheffe</Link></td>
+              <td className='p-3'>Jasmine, bergamot, lemon, tea-like body (washed); blueberry, tropical fruit (natural)</td>
+              <td className='p-3'>Specialty roasters, premium cafes, filter-focused shops</td>
+              <td className='p-3'>G1, G2 (washed); G1 (natural)</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3 font-bold'><Link href='/ethiopian-coffee-guji' className='text-amber-700 hover:underline'>Guji</Link></td>
-              <td className='border border-gray-300 p-3'>Stone fruit, peach, berry, wine-like (natural); complex citrus, floral (washed)</td>
-              <td className='border border-gray-300 p-3'>Competition-level cafes, specialty roasters, single-origin programs</td>
-              <td className='border border-gray-300 p-3'>G1 (natural and washed)</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-bold'><Link href='/ethiopian-coffee-guji' className='text-amber-700 hover:underline'>Guji</Link></td>
+              <td className='p-3'>Stone fruit, peach, berry, wine-like (natural); complex citrus, floral (washed)</td>
+              <td className='p-3'>Competition-level cafes, specialty roasters, single-origin programs</td>
+              <td className='p-3'>G1 (natural and washed)</td>
             </tr>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3 font-bold'><Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline'>Sidamo</Link></td>
-              <td className='border border-gray-300 p-3'>Balanced acidity, chocolate, citrus, versatile body</td>
-              <td className='border border-gray-300 p-3'>HoReCa, blending, espresso-based menus, broad retail</td>
-              <td className='border border-gray-300 p-3'>G1 to G4</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-bold'><Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline'>Sidamo</Link></td>
+              <td className='p-3'>Balanced acidity, chocolate, citrus, versatile body</td>
+              <td className='p-3'>HoReCa, blending, espresso-based menus, broad retail</td>
+              <td className='p-3'>G1 to G4</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3 font-bold'><Link href='/ethiopian-coffee-limu' className='text-amber-700 hover:underline'>Limu</Link></td>
-              <td className='border border-gray-300 p-3'>Mild, balanced, low acidity, sweet finish</td>
-              <td className='border border-gray-300 p-3'>Chains, foodservice blends, entry-level specialty</td>
-              <td className='border border-gray-300 p-3'>G2 to G4</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-bold'><Link href='/ethiopian-coffee-limu' className='text-amber-700 hover:underline'>Limu</Link></td>
+              <td className='p-3'>Mild, balanced, low acidity, sweet finish</td>
+              <td className='p-3'>Chains, foodservice blends, entry-level specialty</td>
+              <td className='p-3'>G2 to G4</td>
             </tr>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3 font-bold'><Link href='/ethiopian-coffee-harar' className='text-amber-700 hover:underline'>Harar</Link></td>
-              <td className='border border-gray-300 p-3'>Wild blueberry, wine, mocha, full body (dry-processed)</td>
-              <td className='border border-gray-300 p-3'>Specialty roasters seeking bold profiles; cultural connection (historic trade route)</td>
-              <td className='border border-gray-300 p-3'>G4 (Harar grading system)</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-bold'><Link href='/ethiopian-coffee-harar' className='text-amber-700 hover:underline'>Harar</Link></td>
+              <td className='p-3'>Wild blueberry, wine, mocha, full body (dry-processed)</td>
+              <td className='p-3'>Specialty roasters seeking bold profiles; cultural connection (historic trade route)</td>
+              <td className='p-3'>G4 (Harar grading system)</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3 font-bold'><Link href='/ethiopian-coffee-jimma' className='text-amber-700 hover:underline'>Jimma</Link></td>
-              <td className='border border-gray-300 p-3'>Heavy body, earthy, lower acidity, high yield</td>
-              <td className='border border-gray-300 p-3'>Commercial blends, qahwa-style preparations, price-sensitive segments</td>
-              <td className='border border-gray-300 p-3'>G4, G5</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-bold'><Link href='/ethiopian-coffee-jimma' className='text-amber-700 hover:underline'>Jimma</Link></td>
+              <td className='p-3'>Heavy body, earthy, lower acidity, high yield</td>
+              <td className='p-3'>Commercial blends, qahwa-style preparations, price-sensitive segments</td>
+              <td className='p-3'>G4, G5</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Natural vs Washed: Saudi Buyer Preferences</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Natural vs Washed: Saudi Buyer Preferences</h3>
       <p className='my-4'>
         Saudi specialty buyers show strong interest in both processing methods, but the application differs. Washed Ethiopian coffees (particularly Yirgacheffe and Guji) are prized for filter brewing and pour-over programs where clarity and delicate aromatics shine. Natural processed coffees dominate the espresso and cold brew segments where fruit-forward sweetness and body carry through milk-based drinks.
       </p>
@@ -329,47 +338,48 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </p>
 
       {/* SECTION 6: COMPETITIVE LANDSCAPE */}
-      <h2 id='competitive-landscape' className='text-3xl font-extrabold mt-10 mb-4'>
-        <HiOutlineScale className='inline mr-2 text-amber-600' /> 6. Competitive Landscape: Ethiopian Coffee vs Other Origins
+      <h2 id='competitive-landscape' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineScale className='text-amber-600' />
+        6. Competitive Landscape: Ethiopian Coffee vs Other Origins
       </h2>
       <p className='my-4'>
         Ethiopian coffee does not exist in a vacuum in Saudi Arabia. Understanding how competing origins position themselves helps Ethiopian exporters find and defend their market share.
       </p>
 
       <div className='overflow-x-auto my-6'>
-        <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+        <table className='min-w-full text-sm border-collapse'>
           <thead>
             <tr className='bg-dark text-primary'>
-              <th className='border border-gray-300 p-3 text-left'>Origin</th>
-              <th className='border border-gray-300 p-3 text-left'>Saudi Market Position</th>
-              <th className='border border-gray-300 p-3 text-left'>Strengths</th>
-              <th className='border border-gray-300 p-3 text-left'>Ethiopian Advantage</th>
+              <th className='p-3 text-left'>Origin</th>
+              <th className='p-3 text-left'>Saudi Market Position</th>
+              <th className='p-3 text-left'>Strengths</th>
+              <th className='p-3 text-left'>Ethiopian Advantage</th>
             </tr>
           </thead>
           <tbody>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3 font-bold'>Brazil</td>
-              <td className='border border-gray-300 p-3'>Dominant in volume; commercial and mid-tier</td>
-              <td className='border border-gray-300 p-3'>Low price, huge supply, consistency</td>
-              <td className='border border-gray-300 p-3'>Ethiopian flavor complexity far exceeds Brazilian commodity lots; different price tier</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-bold'>Brazil</td>
+              <td className='p-3'>Dominant in volume; commercial and mid-tier</td>
+              <td className='p-3'>Low price, huge supply, consistency</td>
+              <td className='p-3'>Ethiopian flavor complexity far exceeds Brazilian commodity lots; different price tier</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3 font-bold'>Colombia</td>
-              <td className='border border-gray-300 p-3'>Strong in premium espresso blends</td>
-              <td className='border border-gray-300 p-3'>Brand recognition, clean cup, reliable supply</td>
-              <td className='border border-gray-300 p-3'>Ethiopian coffees offer more diverse flavor profiles at comparable or lower FOB prices</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-bold'>Colombia</td>
+              <td className='p-3'>Strong in premium espresso blends</td>
+              <td className='p-3'>Brand recognition, clean cup, reliable supply</td>
+              <td className='p-3'>Ethiopian coffees offer more diverse flavor profiles at comparable or lower FOB prices</td>
             </tr>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3 font-bold'>Kenya</td>
-              <td className='border border-gray-300 p-3'>Niche specialty; limited volume</td>
-              <td className='border border-gray-300 p-3'>Bright acidity, strong auction reputation</td>
-              <td className='border border-gray-300 p-3'>Ethiopia offers similar quality range at broader volume with more origin diversity</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-bold'>Kenya</td>
+              <td className='p-3'>Niche specialty; limited volume</td>
+              <td className='p-3'>Bright acidity, strong auction reputation</td>
+              <td className='p-3'>Ethiopia offers similar quality range at broader volume with more origin diversity</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3 font-bold'>India</td>
-              <td className='border border-gray-300 p-3'>Robusta for qahwa blends and instant</td>
-              <td className='border border-gray-300 p-3'>Price, proximity (Indian Ocean shipping)</td>
-              <td className='border border-gray-300 p-3'>Different market segment; Ethiopian Arabica competes above Robusta tier</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-bold'>India</td>
+              <td className='p-3'>Robusta for qahwa blends and instant</td>
+              <td className='p-3'>Price, proximity (Indian Ocean shipping)</td>
+              <td className='p-3'>Different market segment; Ethiopian Arabica competes above Robusta tier</td>
             </tr>
           </tbody>
         </table>
@@ -383,54 +393,55 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </p>
 
       {/* SECTION 7: PRICING */}
-      <h2 id='pricing-strategy' className='text-3xl font-extrabold mt-10 mb-4'>
-        <HiOutlineCurrencyDollar className='inline mr-2 text-amber-600' /> 7. Pricing and Positioning Strategy
+      <h2 id='pricing-strategy' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineCurrencyDollar className='text-amber-600' />
+        7. Pricing and Positioning Strategy
       </h2>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>FOB to Retail Price Chain</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>FOB to Retail Price Chain</h3>
       <p className='my-4'>
         Understanding the full price chain from Ethiopian FOB to Saudi retail cup is essential for setting realistic expectations and negotiating effectively. Here is a representative example for a specialty-grade Yirgacheffe G1 washed lot:
       </p>
 
       <div className='overflow-x-auto my-6'>
-        <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
+        <table className='min-w-full text-sm border-collapse'>
           <thead>
             <tr className='bg-dark text-primary'>
-              <th className='border border-gray-300 p-3 text-left'>Stage</th>
-              <th className='border border-gray-300 p-3 text-left'>Cost (USD/kg)</th>
-              <th className='border border-gray-300 p-3 text-left'>Notes</th>
+              <th className='p-3 text-left'>Stage</th>
+              <th className='p-3 text-left'>Cost (USD/kg)</th>
+              <th className='p-3 text-left'>Notes</th>
             </tr>
           </thead>
           <tbody>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3'>FOB Djibouti (exporter price)</td>
-              <td className='border border-gray-300 p-3'>$8.00 to $12.00</td>
-              <td className='border border-gray-300 p-3'>Varies by grade, lot size, season</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3'>FOB Djibouti (exporter price)</td>
+              <td className='p-3'>$8.00 to $12.00</td>
+              <td className='p-3'>Varies by grade, lot size, season</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Freight + insurance (Djibouti to Jeddah)</td>
-              <td className='border border-gray-300 p-3'>$0.15 to $0.25</td>
-              <td className='border border-gray-300 p-3'>Short Red Sea transit keeps costs low</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3'>Freight + insurance (Djibouti to Jeddah)</td>
+              <td className='p-3'>$0.15 to $0.25</td>
+              <td className='p-3'>Short Red Sea transit keeps costs low</td>
             </tr>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3'>Port handling + customs clearance</td>
-              <td className='border border-gray-300 p-3'>$0.05 to $0.10</td>
-              <td className='border border-gray-300 p-3'>0% duty; SFDA inspection fee included</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3'>Port handling + customs clearance</td>
+              <td className='p-3'>$0.05 to $0.10</td>
+              <td className='p-3'>0% duty; SFDA inspection fee included</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Landed cost (warehouse)</td>
-              <td className='border border-gray-300 p-3'>$8.20 to $12.35</td>
-              <td className='border border-gray-300 p-3'>Before VAT recovery</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3'>Landed cost (warehouse)</td>
+              <td className='p-3'>$8.20 to $12.35</td>
+              <td className='p-3'>Before VAT recovery</td>
             </tr>
-            <tr className='bg-white'>
-              <td className='border border-gray-300 p-3'>Roaster purchase (from distributor)</td>
-              <td className='border border-gray-300 p-3'>$10.00 to $18.00</td>
-              <td className='border border-gray-300 p-3'>Distributor margin 20 to 40%</td>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3'>Roaster purchase (from distributor)</td>
+              <td className='p-3'>$10.00 to $18.00</td>
+              <td className='p-3'>Distributor margin 20 to 40%</td>
             </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Retail cup price (cafe)</td>
-              <td className='border border-gray-300 p-3'>SAR 25 to 40 ($6.70 to $10.70)</td>
-              <td className='border border-gray-300 p-3'>Single cup; 15 to 18g dose</td>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3'>Retail cup price (cafe)</td>
+              <td className='p-3'>SAR 25 to 40 ($6.70 to $10.70)</td>
+              <td className='p-3'>Single cup; 15 to 18g dose</td>
             </tr>
           </tbody>
         </table>
@@ -440,7 +451,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         The short shipping distance from Djibouti to Jeddah (3 to 7 days) is a significant cost advantage compared to origins shipping from South America or Asia. Freight costs per kilogram are among the lowest of any origin-market combination. For detailed landed cost calculations, see the <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline font-bold'>Ethiopian coffee landed cost guide</Link>.
       </p>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Positioning Ethiopian Coffee at Premium</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Positioning Ethiopian Coffee at Premium</h3>
       <p className='my-4'>
         Avoid competing on price against Brazil or Vietnam. Instead, position Ethiopian lots on:
       </p>
@@ -456,11 +467,12 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </p>
 
       {/* SECTION 8: BUSINESS DEVELOPMENT */}
-      <h2 id='business-development' className='text-3xl font-extrabold mt-10 mb-4'>
-        <HiOutlineBriefcase className='inline mr-2 text-amber-600' /> 8. Business Development Approach
+      <h2 id='business-development' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineBriefcase className='text-amber-600' />
+        8. Business Development Approach
       </h2>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Trade Shows and Industry Events</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Trade Shows and Industry Events</h3>
       <p className='my-4'>
         Face-to-face relationships remain essential in Saudi business culture. Key events for connecting with Saudi coffee buyers:
       </p>
@@ -472,7 +484,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         <li><span className='font-bold'>AFCA (African Fine Coffees Conference):</span> Saudi buyers increasingly attend; see our guide on <Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='text-amber-700 hover:underline font-bold'>AFCA Taste of Harvest</Link></li>
       </ul>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Cultural Business Etiquette</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Cultural Business Etiquette</h3>
       <p className='my-4'>
         Building commercial relationships in Saudi Arabia has specific cultural dimensions that Ethiopian exporters should understand:
       </p>
@@ -485,7 +497,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         <li><span className='font-bold'>Payment norms:</span> Letters of Credit (LC) and Telegraphic Transfer (TT) are standard. Saudi banks are experienced in trade finance for commodity imports. For payment term details, see the <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline font-bold'>contracts and payment terms guide</Link>.</li>
       </ul>
 
-      <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Building Long-Term Saudi Partnerships</h3>
+      <h3 className='text-2xl font-bold mt-6 mb-3'>Building Long-Term Saudi Partnerships</h3>
       <p className='my-4'>
         The most successful Ethiopian exporters in the Saudi market share three characteristics:
       </p>
@@ -499,33 +511,36 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       </p>
 
       {/* CONCLUSION */}
-      <h2 className='text-3xl font-extrabold mt-10 mb-4'>The Saudi Arabia Coffee Market Opportunity for Ethiopian Exporters</h2>
+      <h2 className='text-3xl font-extrabold mt-10'>The Saudi Arabia Coffee Market Opportunity for Ethiopian Exporters</h2>
       <p className='my-4'>
         The Saudi Arabia coffee market combines structural growth drivers (young demographics, rising incomes, Vision 2030 hospitality expansion) with favorable trade conditions (0% duty, short Red Sea transit, strong currency). For Ethiopian exporters with traceable, high-scoring lots and the operational ability to deliver consistent quality with precise documentation, KSA offers one of the highest-margin destination markets in the world. The window to establish long-term Saudi partnerships is open now, and the exporters who invest in relationships, samples, and market presence today will capture the value as this market continues its rapid expansion.
       </p>
 
       {/* FAQ SECTION */}
       <section id='faq-saudi' className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200 mt-10'>
-        <h2 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About the Saudi Arabia Coffee Market</h2>
+        <h3 className='text-2xl font-bold mb-6 text-gray-900 flex items-center gap-2'>
+          <HiOutlineQuestionMarkCircle className='text-amber-600 flex-shrink-0' />
+          Frequently Asked Questions
+        </h3>
         <div className='space-y-6'>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2 text-base'>How large is the Saudi Arabia specialty coffee market?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How large is the Saudi Arabia specialty coffee market?</h4>
             <p className='text-sm text-gray-600'>Saudi Arabia&apos;s total coffee market exceeds $2 billion USD. The specialty segment is the fastest-growing at 8 to 12% annually, driven by youth demographics, rising incomes, and the rapid expansion of third-wave cafes in Riyadh, Jeddah, and the Eastern Province.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2 text-base'>Which Ethiopian coffee origins are most popular in Saudi Arabia?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Which Ethiopian coffee origins are most popular in Saudi Arabia?</h4>
             <p className='text-sm text-gray-600'>Yirgacheffe (washed, for filter programs) and Guji (natural, for espresso and cold brew) are the most sought-after among Saudi specialty roasters. Sidamo and Limu serve the broader HoReCa and blending market. Harar appeals to buyers interested in historic Red Sea trade heritage.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2 text-base'>What cup profiles do Saudi specialty buyers prefer?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>What cup profiles do Saudi specialty buyers prefer?</h4>
             <p className='text-sm text-gray-600'>Light to medium roasts with fruit-forward, floral, and citrus notes are trending strongly among Saudi specialty consumers. Berry and jasmine notes from Ethiopian naturals and washed lots align well with this preference, making Ethiopian coffee a natural fit for the market.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2 text-base'>How do I start selling Ethiopian coffee to Saudi buyers?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>How do I start selling Ethiopian coffee to Saudi buyers?</h4>
             <p className='text-sm text-gray-600'>Attend Saudi trade events (SICCE, Saudi HORECA), send cupping samples ahead of meetings, and prepare SFDA-compliant documentation. Start with a trial LCL shipment to build trust. Working with an experienced origin exporter like Ethio Coffee Export simplifies customs, logistics, and quality assurance.</p>
           </div>
           <div>
-            <h3 className='font-bold text-gray-800 mb-2 text-base'>Is there import duty on Ethiopian coffee entering Saudi Arabia?</h3>
+            <h4 className='font-bold text-gray-800 mb-2'>Is there import duty on Ethiopian coffee entering Saudi Arabia?</h4>
             <p className='text-sm text-gray-600'>No. Green coffee beans (HS 0901) enter Saudi Arabia at 0% import duty. A 15% VAT applies on the landed value but is recoverable for VAT-registered businesses. This makes KSA one of the most cost-efficient destinations for Ethiopian coffee in the Middle East.</p>
           </div>
         </div>
@@ -556,7 +571,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       {/* RELATED ARTICLES */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-        <div className='grid md:grid-cols-3 gap-4'>
+        <div className='grid md:grid-cols-2 gap-6'>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Import Guides &amp; Market</h4>
             <ul className='space-y-1 text-sm'>
@@ -592,7 +607,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
           <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This market analysis covers the Saudi Arabia specialty coffee market for Ethiopian exporters, including buyer segments, consumer trends, origin positioning, competitive dynamics, and commercial strategy for selling Ethiopian green coffee in KSA. Market conditions change; <Link href='/contact-us' className='underline'>contact us</Link> for current pricing, availability, and regulatory updates.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>
