@@ -2320,4 +2320,31 @@ export const posts: Post[] = [
       ],
       desc: 'A practical framework for green coffee price hedging: how to use fixed-price forward contracts, call options, ICE coffee futures, trade finance instruments, and forward FX contracts to protect import margins and manage working capital when sourcing Ethiopian green coffee.'
     },
+    // ===== IMPORTING ETHIOPIAN COFFEE TO TURKEY =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-turkey.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-turkey.webp',
+      date: 'Mar 08, 2026',
+      title: 'Import Ethiopian Coffee to Turkey: Buyer\'s Guide',
+      slug: 'importing-ethiopian-coffee-to-turkey',
+      category: 'Import Guide / Turkey Market / Ethiopian Coffee Export',
+      keywords: [
+        'import Ethiopian coffee to Turkey',
+        'Turkish coffee import regulations',
+        'Ethiopia to Turkey coffee shipping',
+        'buy Ethiopian green coffee Turkey',
+        'Turkish coffee import duty',
+        'Ethiopian coffee exporter for Turkey',
+        'Red Sea coffee shipping route',
+        'Djibouti to Mersin coffee shipping',
+        'Turkish Food Codex coffee',
+        'Turkey specialty coffee market',
+        'Ethiopian Yirgacheffe Turkey',
+        'third wave coffee Istanbul',
+        'Turkish coffee culture Ethiopian beans',
+        'green coffee customs clearance Turkey',
+        'Ethiopia Turkey coffee trade'
+      ],
+      desc: 'How to import Ethiopian coffee to Turkey: regulations, customs duties, Red Sea shipping, market insights, and sourcing guidance for Turkish roasters and importers.'
+    },
 ]

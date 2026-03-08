@@ -705,6 +705,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-turkey' className='text-amber-700 hover:underline'>Importing to Turkey</Link></li>
             </ul>
             <h4 className='font-semibold mb-2 mt-3 text-sm'>Americas & Europe</h4>
             <ul className='space-y-1 text-sm'>
