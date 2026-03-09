@@ -692,6 +692,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
           <div>
             <h4 className='font-semibold mb-2 text-sm'>EU Import Guides</h4>
             <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>German Coffee Market Guide</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing to Netherlands</Link></li>
               <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation</Link></li>

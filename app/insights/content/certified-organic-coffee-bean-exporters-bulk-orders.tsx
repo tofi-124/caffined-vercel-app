@@ -550,6 +550,7 @@ export default function CertifiedOrganicCoffeeBeanExportersBulkOrders({ title, d
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Trade</h4>
             <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>German Coffee Market: Ethiopian Exporter&apos;s Guide</Link></li>
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
               <li>&bull; <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link></li>
               <li>&bull; <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade: Supporting Ethiopian Farmers</Link></li>

@@ -537,6 +537,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
             <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>German Coffee Market Guide</Link></li>
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
               <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>

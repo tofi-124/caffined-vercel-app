@@ -11,6 +11,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GERMAN SPECIALTY COFFEE MARKET GUIDE =====
+    {
+      small_image_url: 'insights/germany-specialty-coffee-market-guide.webp',
+      large_image_url: 'insights/germany-specialty-coffee-market-guide.webp',
+      date: 'Mar 11, 2026',
+      title: 'German Coffee Market: Ethiopian Exporter\'s Guide',
+      slug: 'germany-specialty-coffee-market-guide',
+      category: 'Market Analysis / German Coffee Market / Export Strategy / B2B Intelligence',
+      keywords: [
+        'German coffee market',
+        'Germany specialty coffee market',
+        'selling Ethiopian coffee to Germany',
+        'German coffee buyers',
+        'Germany green coffee imports',
+        'Ethiopian coffee Germany market guide',
+        'German coffee roasters Ethiopian coffee',
+        'Hamburg coffee port',
+        'specialty coffee market analysis Germany',
+        'Ethiopian coffee buyer segments Germany',
+        'German coffee certifications',
+        'EUDR Germany coffee',
+        'Kaffeesteuer coffee tax Germany',
+        'Ethiopian coffee competitive advantage Germany',
+        'German specialty coffee trends'
+      ],
+      desc: 'Germany imports over 1 million tonnes of green coffee annually, making it Europe\'s largest coffee market and a priority destination for Ethiopian exporters. This market guide covers buyer segments, origin-market fit, competitive positioning, certifications, pricing strategy, and business development for the German specialty coffee market.'
+    },
     // ===== ETHIOPIAN COFFEE EXPORT PROCESS: BUYER'S GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-export-process-buyers-guide.webp',
