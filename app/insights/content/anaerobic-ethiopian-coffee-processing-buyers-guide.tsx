@@ -53,7 +53,7 @@ export default function AnaerobicEthiopianCoffeeProcessingBuyersGuide({ title, d
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span>
@@ -176,7 +176,7 @@ export default function AnaerobicEthiopianCoffeeProcessingBuyersGuide({ title, d
       </h2>
 
       <p className='my-4'>
-        Ethiopia has always been the origin with the most to offer in specialty coffee. Its <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline font-bold'>heirloom variety genetics</Link> are unmatched globally: thousands of distinct landrace types across Yirgacheffe, Guji, Sidamo, and other regions carry flavor potential that domesticated varieties from Colombia, Kenya, or Central America simply cannot replicate.
+        Ethiopia has always been the origin with the most to offer in specialty coffee. Its <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline font-bold'>heirloom variety genetics</Link> are unmatched globally: thousands of distinct landrace types across Yirgacheffe, Guji, Sidamo, and other regions carry flavor potential that domesticated varieties from Colombia, Kenya, or Central America simply cannot replicate. According to the <a href='https://www.ico.org/documents/cy2023-24/annual-review-2023-24-e.pdf' target='_blank' rel='noopener noreferrer' className='underline font-bold'>International Coffee Organization&apos;s 2023/24 Annual Review</a>, Ethiopia remains Africa&apos;s largest Arabica producer and a top-five global exporter.
       </p>
 
       <p className='my-4'>
@@ -409,7 +409,7 @@ export default function AnaerobicEthiopianCoffeeProcessingBuyersGuide({ title, d
       </p>
 
       <p className='my-4'>
-        The EU Deforestation Regulation, which requires importers to demonstrate that goods are deforestation-free with georeferenced supply chain documentation, is significantly easier to satisfy for a direct-export anaerobic lot from a named washing station with GPS coordinates than for an ECX-aggregated Grade 2 natural lot blended from dozens of unidentified farms.
+        The <a href='https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en' target='_blank' rel='noopener noreferrer' className='underline font-bold'>EU Deforestation Regulation</a>, which requires importers to demonstrate that goods are deforestation-free with georeferenced supply chain documentation, is significantly easier to satisfy for a direct-export anaerobic lot from a named washing station with GPS coordinates than for an ECX-aggregated Grade 2 natural lot blended from dozens of unidentified farms.
       </p>
 
       <h3 className='text-2xl font-bold mt-6 mb-3'>What to Request for Full Traceability</h3>
@@ -458,23 +458,23 @@ export default function AnaerobicEthiopianCoffeeProcessingBuyersGuide({ title, d
       <section className='my-6 space-y-6'>
         <div>
           <h4 className='font-bold text-gray-800 mb-2'>What is anaerobic coffee processing?</h4>
-          <p className='text-sm text-gray-600'>Anaerobic coffee processing ferments depulped coffee beans or whole cherries in sealed, oxygen-free vessels. The absence of oxygen shifts the microbial community toward lactic acid bacteria and specific yeasts, producing fermentation byproducts that migrate into the bean and express as intense tropical fruit, stone fruit, and elevated sweetness in the cup. Fermentation typically runs 48 to 96 hours in sealed tanks before the beans are removed and dried on raised beds.</p>
+          <p className='text-sm text-gray-600'>Anaerobic coffee processing ferments depulped beans or whole cherries in sealed, oxygen-free vessels. The absence of oxygen favors lactic acid bacteria and specific yeasts whose byproducts migrate into the bean. The result is intense tropical fruit, stone fruit, and elevated sweetness. Fermentation runs 48 to 96 hours before drying on raised beds.</p>
         </div>
         <div>
           <h4 className='font-bold text-gray-800 mb-2'>What does Ethiopian anaerobic coffee taste like?</h4>
-          <p className='text-sm text-gray-600'>Ethiopian anaerobic lots vary by region and variety but typically exhibit intense tropical fruit notes (passionfruit, mango, pineapple in Yirgacheffe lots), darker stone fruit and red berry character in Guji lots, elevated sweetness relative to washed equivalents from the same region, and lower perceived acidity. The fermentation amplifies flavor compounds already present in Ethiopian heirloom varieties, producing a cup profile unavailable from any other origin.</p>
+          <p className='text-sm text-gray-600'>Ethiopian anaerobic lots typically exhibit intense tropical fruit (passionfruit, mango in Yirgacheffe), darker stone fruit and red berry in Guji, elevated sweetness, and lower acidity than washed equivalents. Fermentation amplifies compounds already present in Ethiopian heirloom varieties, producing cup profiles unavailable from any other origin.</p>
         </div>
         <div>
           <h4 className='font-bold text-gray-800 mb-2'>How is honey processed Ethiopian coffee different from anaerobic?</h4>
-          <p className='text-sm text-gray-600'>Honey processing is aerobic: depulped beans with mucilage retained dry on raised beds with oxygen present. Anaerobic processing seals beans in oxygen-free tanks. Honey lots produce a cup between washed (more clarity) and natural (more body), with enhanced sweetness and mouthfeel. Ethiopian anaerobic lots produce a more intense fruit and fermentation character. Both are worth sourcing but serve different menu positions and require different QC approaches.</p>
+          <p className='text-sm text-gray-600'>Honey processing is aerobic: depulped beans with mucilage retained dry on raised beds with oxygen present. Anaerobic processing seals beans in oxygen-free tanks. Honey lots sit between washed and natural in cup profile; anaerobic lots deliver more intense fruit and fermentation character. Both serve different menu positions and require different QC approaches.</p>
         </div>
         <div>
           <h4 className='font-bold text-gray-800 mb-2'>What documentation should I request for an anaerobic Ethiopian lot?</h4>
-          <p className='text-sm text-gray-600'>Request a fermentation protocol sheet (pH log, Brix log, temperature record, fermentation duration, tank seal type), a green moisture certificate (target 10.5–11.5%), a cupping report from a Q Grader, a phytosanitary certificate correctly describing the processing method, and, for EUDR-bound shipments, washing station GPS coordinates and farm supplier lists. Without the fermentation protocol sheet, the processing claims cannot be verified.</p>
+          <p className='text-sm text-gray-600'>Request a fermentation protocol sheet (pH, Brix, temperature logs, tank seal type), a green moisture certificate (target 10.5 to 11.5%), a Q Grader cupping report, and a phytosanitary certificate describing the processing method. For EUDR shipments, add washing station GPS coordinates and farm supplier lists.</p>
         </div>
         <div>
           <h4 className='font-bold text-gray-800 mb-2'>Is anaerobic Ethiopian coffee more expensive than washed?</h4>
-          <p className='text-sm text-gray-600'>Yes. Expect a FOB premium of $0.50 to $1.50 per kilogram for sealed-tank anaerobic lots over comparable washed Grade 1 from the same region. Carbonic maceration lots are rarer and command $1.00 to $2.50 per kilogram premium. The premium reflects washing station equipment, additional labor, longer processing time, and documentation overhead. Extended fermentation lots (72–120 hours) carry the smallest premium, sometimes only $0.30 to $0.70 per kilogram.</p>
+          <p className='text-sm text-gray-600'>Yes. Sealed-tank anaerobic lots carry a $0.50 to $1.50 per kilogram FOB premium over comparable washed Grade 1 from the same region. Carbonic maceration commands $1.00 to $2.50 per kilogram more. The premium reflects equipment, additional labor, longer processing time, and documentation costs.</p>
         </div>
       </section>
 
@@ -507,7 +507,6 @@ export default function AnaerobicEthiopianCoffeeProcessingBuyersGuide({ title, d
               <li>&bull; <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
               <li>&bull; <Link href='/insights/decaf-green-coffee-processing-sourcing-guide' className='text-amber-700 hover:underline'>Decaf Green Coffee: Processing &amp; Sourcing Guide</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Ethiopian Dry Coffee: QC &amp; Processing</Link></li>
-              <li>&bull; <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting: A Practical Guide</Link></li>
             </ul>
           </div>
           <div>
@@ -515,7 +514,6 @@ export default function AnaerobicEthiopianCoffeeProcessingBuyersGuide({ title, d
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup &amp; Evaluate Ethiopian Coffee Samples</Link></li>
               <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control: Defects &amp; Grading</Link></li>
-              <li>&bull; <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Green Coffee Shelf Life: Storage Guide for Buyers</Link></li>
               <li>&bull; <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>SCA Coffee Value Assessment Explained</Link></li>
             </ul>
           </div>
@@ -524,16 +522,12 @@ export default function AnaerobicEthiopianCoffeeProcessingBuyersGuide({ title, d
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Ethiopian Coffee Varieties &amp; Landraces</Link></li>
               <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Compared</Link></li>
-              <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Green Coffee Origins</Link></li>
-              <li>&bull; <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee: Production &amp; Productivity</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Compliance</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability: Buyer&apos;s Guide</Link></li>
-              <li>&bull; <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR and Ethiopian Coffee Compliance</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
               <li>&bull; <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Micro-Lot Ethiopian Coffee: Sourcing &amp; Pricing Guide</Link></li>
             </ul>
           </div>

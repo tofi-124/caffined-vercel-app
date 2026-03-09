@@ -47,7 +47,7 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
       <p className='my-4'>
         Recent studies, including landmark research from the Royal Botanic Gardens at Kew, the Jimma Agricultural Research Center, and Ethiopia&apos;s own Climate-Resilient Green Economy Strategy, paint a sobering picture:
         without significant adaptation, up to 60 percent of Ethiopia&apos;s current coffee-growing area could become unsuitable for production by the end of the century.
-        At the same time, new research reveals that climate change may also unlock higher-altitude zones for cultivation, presenting a complex landscape of threat and opportunity.
+        At the same time, new research reveals that climate change may also unlock higher-altitude zones for cultivation, presenting a complex mix of threat and opportunity.
       </p>
 
       <p className='my-4'>
@@ -65,7 +65,7 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        Coffee Arabica is a remarkably sensitive species. It thrives within a narrow temperature band of 15–24°C, requires 1,500–2,200 mm of well-distributed annual rainfall, and needs a distinct dry period to trigger
+        Coffee Arabica is a highly sensitive species. It thrives within a narrow temperature band of 15–24°C, requires 1,500–2,200 mm of well-distributed annual rainfall, and needs a distinct dry period to trigger
         uniform flowering. Even small departures from these parameters measurably affect cherry development, bean density, and cup quality.
       </p>
 
@@ -216,7 +216,7 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
       </ul>
 
       <p className='my-4'>
-        For importers building a climate-resilient sourcing portfolio, Ethiopian coffee is not just a flavor choice. It is a <Link href='/insights/benefits-investing-ethiopian-coffee-production' className='underline font-bold'>strategic investment</Link> in the most genetically robust Arabica supply on Earth.
+        For importers building a climate-resilient sourcing portfolio, Ethiopian coffee is not just a flavor choice. It is a <Link href='/insights/benefits-investing-ethiopian-coffee-production' className='underline font-bold'>strategic investment</Link> in the most genetically resilient Arabica supply on Earth.
       </p>
 
       {/* ============================================================ */}
@@ -425,7 +425,7 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
 
       <p className='my-4'>
         At Ethio Coffee, we work directly with farmer communities across six Ethiopian origins to ensure quality, traceability, and climate-forward sourcing.
-        Whether you are looking to diversify your green coffee portfolio, secure multi-season supply commitments, or source from specific high-altitude micro-lots,
+        From diversifying your green coffee portfolio to securing multi-season supply commitments or sourcing from specific high-altitude micro-lots,
         we can help you build a sourcing strategy that withstands the pressures of a changing climate.
       </p>
 
@@ -447,24 +447,55 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
         </div>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Climate Change and Ethiopian Coffee</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How is climate change affecting Ethiopian coffee production?</h4>
+            <p className="text-sm text-gray-600">Rising temperatures and unpredictable rainfall are shifting viable growing zones to higher altitudes. Harvest timing has become less predictable, and some lower-altitude areas that previously produced quality Arabica are seeing declining yields. Research suggests up to 60 percent of current growing areas could become unsuitable by 2100 without adaptation.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Will Ethiopian coffee quality decline because of climate change?</h4>
+            <p className="text-sm text-gray-600">Not necessarily. Ethiopia holds the world&apos;s largest genetic pool of wild Arabica varieties, which gives breeders and farmers access to climate-tolerant traits not available in other origins. Adaptation programs, shade-grown cultivation, and higher-altitude expansion are helping preserve quality, though regional cup profiles may shift over time.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What adaptation strategies are Ethiopian coffee farmers using?</h4>
+            <p className="text-sm text-gray-600">Farmers are planting shade trees to regulate temperature, moving cultivation to higher elevations, adopting drought-resistant heirloom varieties, and improving soil management practices. Research institutions like the Jimma Agricultural Research Center are also developing and distributing climate-adapted coffee cultivars to smallholders across growing regions.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How can importers protect their Ethiopian coffee supply chain from climate risk?</h4>
+            <p className="text-sm text-gray-600">Importers should diversify sourcing across multiple Ethiopian regions and altitude bands rather than relying on a single zone. Building long-term relationships with exporters who have strong origin networks helps ensure access to consistent quality even as growing conditions change. Requesting samples from new micro-regions each season is also recommended.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Are higher-altitude Ethiopian coffees safer from climate change effects?</h4>
+            <p className="text-sm text-gray-600">Higher-altitude zones above 1,800 meters are generally more resilient because temperatures remain within the Arabica comfort range. Some research indicates that areas previously too cold for coffee may become newly suitable. However, higher elevations also face risks like soil erosion and deforestation, so altitude alone does not guarantee long-term stability.</p>
+          </div>
+        </div>
+      </section>
+
       {/* RELATED ARTICLES */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Origins & Varieties</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Production</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Ethiopian Coffee Varieties</Link></li>
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>Ethiopian Coffee Harvest 2025 Outlook</Link></li>
+              <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+              <li>• <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline'>Coffee Agriculture & Production</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Compliance & Certifications</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Compliance & Market</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation Compliance</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
               <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Harvest Calendar</Link></li>
             </ul>
           </div>
         </div>

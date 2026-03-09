@@ -36,13 +36,13 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee Begins on the Farm</h2>
           <p className='my-4'>
-            Welcome to the second part of our "Coffee Is" series, where we explore coffee through different lenses. This chapter focuses on coffee as agriculture a complex system shaped by science, tradition, ecology, and economics.
+            Welcome to the second part of our "Coffee Is" series, where we explore coffee through different lenses. This chapter focuses on coffee as agriculture: a complex system shaped by science, tradition, ecology, and economics.
           </p>
           <p className='my-4'>
             For background on the plant itself, see <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline font-bold'>Coffee is a Plant</Link>. If you're evaluating origin lots, pair this farming overview with our <Link href='/insights/guide-ethiopian-coffee-origins' className='underline font-bold'>Practical Guide to Ethiopian Green Coffee Origins</Link> and our sourcing guide <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>How to Source Green Coffee from Ethiopia</Link>.
           </p>
           <p className='my-4'>
-            For roasters, baristas, and coffee enthusiasts alike, understanding how coffee is grown adds essential context to what ends up in the cup. Every flavor note begins long before roasting deep in the soil, under shade trees, in the hands of farmers.
+            Roasters, baristas, and coffee enthusiasts all benefit from understanding how coffee is grown. Every flavor note originates long before roasting: in the soil, under shade trees, in the hands of farmers.
           </p>
 
           <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
@@ -55,6 +55,13 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
               <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline text-xs'>5. Science</Link>
               <Link href='/insights/coffee-is-art-roasting-brewing' className='underline text-xs'>6. Art</Link>
             </div>
+          </div>
+
+          <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+            <h3 className='font-bold text-lg mb-2'>Key Takeaway</h3>
+            <p className='text-sm'>
+              Coffee agriculture encompasses soil science, plant biology, pest management, and climate adaptation. Ethiopia&apos;s traditional farming systems (forest, semi-forest, garden, and plantation) preserve biodiversity and produce distinct cup profiles shaped by terroir. For importers and roasters, understanding these agricultural foundations is essential for evaluating origin lots and building resilient supply chains.
+            </p>
           </div>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>What Does Agriculture Mean in Coffee?</h2>
@@ -70,17 +77,17 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             <li><strong>A business:</strong> production, processing, and global trade</li>
           </ul>
           <p className='my-4'>
-            In specialty coffee, producers constantly balance quality, sustainability, and long-term farm health. In Ethiopia the birthplace of Arabica traditional systems like forest and garden coffee reflect centuries of agricultural wisdom rooted in biodiversity and resilience.
+            In specialty coffee, producers constantly balance quality, sustainability, and long-term farm health. In Ethiopia (the birthplace of Arabica), traditional systems like forest and garden coffee reflect centuries of agricultural wisdom rooted in biodiversity and resilience.
           </p>
 
           <p className='my-4'>
             What makes Ethiopian coffee agriculture unique is its integration with natural ecosystems. While coffee 
             in Brazil or Vietnam often grows in full-sun monocultures, Ethiopian coffee typically thrives under 
-            canopies of native shade trees - a practice that predates modern &quot;sustainable agriculture&quot; by 
+            canopies of native shade trees, a practice that predates modern &quot;sustainable agriculture&quot; by 
             millennia. This traditional approach creates coffees with distinctive complexity: the same heirloom 
             varieties grown in Guji versus <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline'>Yirgacheffe or Sidamo</Link> taste 
             dramatically different because of variations in soil, shade, altitude, and microclimate. Agriculture 
-            doesn&apos;t just produce coffee - it shapes its character.
+            doesn&apos;t just produce coffee; it shapes its character.
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>A Brief History of Agriculture and Coffee</h2>
@@ -100,7 +107,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Global Coffee Production Today</h2>
           <p className='my-4'>
-            Coffee is now one of the world's most important agricultural commodities:
+            Coffee is now one of the world's most important agricultural commodities, according to <a href='https://ico.org/' target='_blank' rel='noopener noreferrer' className='underline'>International Coffee Organization</a> data:
           </p>
           <ul className='list-disc ml-5 my-4'>
             <li>10.5 million metric tons produced annually</li>
@@ -108,7 +115,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             <li>Ethiopia accounts for nearly half of Africa's smallholder coffee production</li>
           </ul>
           <p className='my-4'>
-            While specialty coffee represents only ~5% of global volume, it's growing rapidly projected to reach 10% by 2028. The <Link href='/insights/specialty-coffee-trends-2026' className='underline'>specialty coffee trends shaping 2026</Link> point toward increasing demand for traceability, experimental processing, and direct origin relationships - all areas where Ethiopian coffee excels.
+            While specialty coffee represents only ~5% of global volume, it's growing rapidly, projected to reach 10% by 2028. The <Link href='/insights/specialty-coffee-trends-2026' className='underline'>specialty coffee trends shaping 2026</Link> point toward increasing demand for traceability, experimental processing, and direct origin relationships, all areas where Ethiopian coffee excels.
           </p>
           <p className='my-4'>
             Yet the economics remain stark:
@@ -118,7 +125,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             <li>Many earn less than $100 per year from coffee</li>
           </ul>
           <p className='my-4'>
-            This disconnect highlights why understanding coffee as agriculture not just a beverage is essential. When you understand what farmers invest - years of labor, generations of knowledge, constant climate adaptation - the price per pound takes on new meaning. <Link href='/insights/direct-trade-ethiopian-farmers' className='underline'>Direct trade partnerships</Link> that prioritize farmer welfare become not just ethically preferable but strategically vital for securing quality supply chains.
+            This disconnect highlights why understanding coffee as agriculture (not just a beverage) is essential. When you consider what farmers invest (years of labor, generations of knowledge, constant climate adaptation), the price per pound takes on new meaning. <Link href='/insights/direct-trade-ethiopian-farmers' className='underline'>Direct trade partnerships</Link> that prioritize farmer welfare become not just ethically preferable but strategically vital for securing quality supply chains.
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Coffee Farming Ecosystem</h2>
@@ -143,16 +150,16 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             Optimal soil pH ranges from 5.5 to 6.5, allowing efficient nutrient uptake.
           </p>
           <p className='my-4'>
-            Crucially, soil is alive. Microorganisms break down organic matter and unlock nutrients without them, coffee plants cannot thrive.
+            Crucially, soil is alive. Microorganisms break down organic matter and unlock nutrients; without them, coffee plants cannot thrive.
           </p>
 
           <p className='my-4'>
             Ethiopia&apos;s coffee-growing regions benefit from ancient volcanic soils rich in minerals and organic 
             matter. The red lateritic soils of Sidamo, the dark volcanic earth of Guji, the loamy highland 
-            soils of Yirgacheffe - each contributes distinct mineral signatures that influence cup character. 
+            soils of Yirgacheffe. Each contributes distinct mineral signatures that influence cup character. 
             When specialty buyers talk about &quot;terroir,&quot; soil is the foundation. The same heirloom variety 
             planted in different Ethiopian soils will produce noticeably different <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline'>chemical compounds</Link> and 
-            flavor profiles - a phenomenon that <Link href='/insights/guide-ethiopian-coffee-origins' className='underline'>our origins guide</Link> explores in depth.
+            flavor profiles, a phenomenon that <Link href='/insights/guide-ethiopian-coffee-origins' className='underline'>our origins guide</Link> explores in depth.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Encouraging Soil Life</h3>
@@ -166,7 +173,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             <li><strong>Intercropping</strong> for biodiversity</li>
           </ul>
           <p className='my-4'>
-            Producers in Ethiopia and Colombia often say: "Everything the plant needs already exists on the farm we just need to unlock it."
+            Producers in Ethiopia and Colombia often say: "Everything the plant needs already exists on the farm; we just need to unlock it."
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Life Cycle of the Coffee Plant</h2>
@@ -216,17 +223,17 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             Coffee farming systems range from rustic polyculture (integrating with natural forests) to unshaded monoculture plantations. Shaded systems common in Ethiopia provide biodiversity, erosion control, and climate resilience. Polyculture, growing coffee with other crops, is gaining traction against climate change, offering economic diversification and ecological benefits.
           </p>
           <p className='my-4'>
-            Agroforestry intentional tree integration offers ecological services like carbon sequestration and wildlife habitat while providing economic diversification through timber and other products.
+            Agroforestry (intentional tree integration) offers ecological services like carbon sequestration and wildlife habitat while providing economic diversification through timber and other products.
           </p>
 
           <p className='my-4'>
             In Ethiopia, four distinct farming systems produce the coffee that reaches international markets:
           </p>
           <ul className='list-disc ml-5 my-4'>
-            <li><strong>Forest coffee:</strong> Wild or semi-wild coffee growing in natural forest understory - the most &quot;natural&quot; system, producing about 10% of Ethiopia&apos;s crop with exceptional genetic diversity</li>
-            <li><strong>Semi-forest coffee:</strong> Forests managed for coffee production with selective thinning - balances wildness with improved yields</li>
-            <li><strong>Garden coffee:</strong> Smallholder plots around homesteads, often intercropped with food crops - represents the majority of Ethiopian production</li>
-            <li><strong>Plantation coffee:</strong> Larger-scale commercial operations with more intensive management - a minority of Ethiopian production</li>
+            <li><strong>Forest coffee:</strong> Wild or semi-wild coffee growing in natural forest understory, the most &quot;natural&quot; system, producing about 10% of Ethiopia&apos;s crop with exceptional genetic diversity</li>
+            <li><strong>Semi-forest coffee:</strong> Forests managed for coffee production with selective thinning, balancing wildness with improved yields</li>
+            <li><strong>Garden coffee:</strong> Smallholder plots around homesteads, often intercropped with food crops, representing the majority of Ethiopian production</li>
+            <li><strong>Plantation coffee:</strong> Larger-scale commercial operations with more intensive management, a minority of Ethiopian production</li>
           </ul>
           <p className='my-4'>
             These systems directly influence <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>post-harvest processing options</Link>. 
@@ -245,10 +252,10 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Why Coffee Agriculture Matters</h2>
           <p className='my-4'>
-            Coffee is not just a drink it's agriculture shaped by science, tradition, and human labor. Understanding how coffee is grown deepens respect for producers and reinforces the importance of ethical sourcing and sustainable practices.
+            Coffee is not just a drink; it is agriculture shaped by science, tradition, and human labor. Understanding how coffee is grown reinforces why ethical sourcing and sustainable practices matter for long-term supply chain stability.
           </p>
           <p className='my-4'>
-            At Ethio Coffee, we work directly with Ethiopian farmers to honor this agricultural heritage and deliver exceptional coffee to roasters worldwide.
+            At Ethio Coffee Export PLC, we work with cooperatives, washing stations, and farming communities across Ethiopia to honor this agricultural heritage and deliver exceptional green coffee to roasters worldwide.
           </p>
 
           <p className='my-4'>
@@ -264,15 +271,52 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             Now that you understand coffee as agriculture, explore what happens after harvest:
           </p>
           <ul className='list-disc ml-5 my-4'>
-            <li><Link href='/insights/coffee-is-processing-drying-milling' className='underline font-bold'>Coffee Is Processing</Link> - How cherries become green beans through fermentation, drying, and milling</li>
-            <li><Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline font-bold'>Coffee Is Commerce</Link> - The logistics and economics of moving coffee from farm to roastery</li>
-            <li><Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>Washed vs Natural Processing</Link> - How different post-harvest methods create different cup profiles</li>
+            <li><Link href='/insights/coffee-is-processing-drying-milling' className='underline font-bold'>Coffee Is Processing</Link>: How cherries become green beans through fermentation, drying, and milling</li>
+            <li><Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline font-bold'>Coffee Is Commerce</Link>: The logistics and economics of moving coffee from farm to roastery</li>
+            <li><Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>Washed vs Natural Processing</Link>: How different post-harvest methods create different cup profiles</li>
           </ul>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Frequently Asked Questions</h2>
+
+          <div className='my-4'>
+            <h3 className='text-xl font-semibold text-dark mb-2'>How long does it take a coffee plant to produce fruit?</h3>
+            <p className='my-2'>
+              Coffee plants typically require 2 to 3 years after transplanting before producing their first harvest. Early yields are small; plants reach full production capacity between years 4 and 7. With proper pruning and soil management, Arabica plants in Ethiopia can remain productive for 20 to 30 years.
+            </p>
+          </div>
+
+          <div className='my-4'>
+            <h3 className='text-xl font-semibold text-dark mb-2'>What makes Ethiopian coffee farming different from other origins?</h3>
+            <p className='my-2'>
+              Ethiopia uses four distinct systems: forest, semi-forest, garden, and plantation coffee. Forest and semi-forest systems are unique to Ethiopia, with coffee growing under native canopy shade. This biodiversity preserves heirloom genetics and produces complex flavor profiles not found in the monoculture plantations common in Brazil or Vietnam.
+            </p>
+          </div>
+
+          <div className='my-4'>
+            <h3 className='text-xl font-semibold text-dark mb-2'>How does soil affect coffee flavor?</h3>
+            <p className='my-2'>
+              Soil composition directly shapes coffee&apos;s chemical profile and cup character. Volcanic soils rich in minerals (common in Guji and Sidamo) contribute different flavor compounds than the loamy highland soils of Yirgacheffe. Optimal coffee soil has a pH between 5.5 and 6.5, with a balance of sand, silt, and clay.
+            </p>
+          </div>
+
+          <div className='my-4'>
+            <h3 className='text-xl font-semibold text-dark mb-2'>What percentage of global coffee is specialty grade?</h3>
+            <p className='my-2'>
+              Specialty coffee currently represents roughly 5% of global production volume, though it accounts for a larger share of market value. Industry projections suggest specialty could reach 10% of volume by 2028, driven by growing demand for traceability, unique processing methods, and direct origin sourcing.
+            </p>
+          </div>
+
+          <div className='my-4'>
+            <h3 className='text-xl font-semibold text-dark mb-2'>How is climate change threatening coffee agriculture?</h3>
+            <p className='my-2'>
+              Rising temperatures and erratic rainfall could reduce suitable Arabica growing land by up to 50% by 2050. Higher temperatures also accelerate pest and disease pressure, particularly coffee leaf rust. Ethiopia&apos;s traditional polyculture and agroforestry systems offer more resilience than monoculture plantations.
+            </p>
+          </div>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source Sustainably Farmed Ethiopian Coffee</h4>
             <p className='my-2'>
-              At <span className='font-bold'>Ethio Coffee Export PLC</span>, we support sustainable agriculture through direct trade partnerships. Contact us to learn more.
+              At <span className='font-bold'>Ethio Coffee Export PLC</span>, we connect roasters with sustainably farmed Ethiopian green coffee through our trusted sourcing network of cooperatives and washing stations. Request samples or current pricing to get started.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -288,6 +332,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
               <div>
                 <h4 className='font-semibold mb-2 text-sm'>Coffee Journey Series</h4>
                 <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>Coffee Plant Taxonomy, Species & Varieties</Link></li>
                   <li>• <Link href='/insights/coffee-is-processing-drying-milling' className='text-amber-700 hover:underline'>Coffee Is Processing: Drying & Milling</Link></li>
                   <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Is Science: Analysis & Evaluation</Link></li>
                   <li>• <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='text-amber-700 hover:underline'>Coffee Is Commerce: Exporting & Importing</Link></li>
@@ -295,10 +340,25 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
                 </ul>
               </div>
               <div>
-                <h4 className='font-semibold mb-2 text-sm'>Related Reading</h4>
+                <h4 className='font-semibold mb-2 text-sm'>Origins & Quality</h4>
                 <ul className='space-y-1 text-sm'>
-                  <li>• <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>Coffee Plant Taxonomy, Species & Varieties</Link></li>
                   <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+                  <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+                  <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+                  <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Climate & Sustainability</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Ethiopian Coffee Climate Change Impact</Link></li>
                 </ul>
               </div>
             </div>
@@ -306,7 +366,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> This article draws from educational materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center research, and various genetic studies on Coffea arabica phylogenetics.
+              <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This article draws from educational materials developed by Café Imports, the <a href='https://varieties.worldcoffeeresearch.org/' target='_blank' rel='noopener noreferrer' className='underline'>World Coffee Research variety catalog</a>, <a href='https://ico.org/' target='_blank' rel='noopener noreferrer' className='underline'>International Coffee Organization</a> trade data, and UC Davis Coffee Center research. For current sourcing information, <Link href='/contact-us' className='underline'>contact our team</Link>.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

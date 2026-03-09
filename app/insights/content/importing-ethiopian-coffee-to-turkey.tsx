@@ -48,7 +48,7 @@ export default function ImportingEthiopianCoffeeToTurkey({ title, date, large_im
         For Turkish roasters, cafe owners, and importers, Ethiopian coffee offers an exceptional opportunity. The flavor complexity of Yirgacheffe, Guji, and Sidamo origins stands apart from the Brazilian and Central American coffees that currently fill most Turkish supply chains. Shipping from Djibouti through the Red Sea and Suez Canal to Turkish ports takes just 7 to 10 days, giving Ethiopian exporters a notable logistics advantage over Atlantic-route origins. This guide covers everything you need to import Ethiopian coffee to Turkey: food safety regulations, customs procedures, duty rates, shipping options, landed costs, and market positioning.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Turkey imported $514M of coffee in 2024 and ranks as the 20th largest importer globally. Unroasted green coffee enters at 0% customs duty under HS 0901.11. Shipping from Djibouti to Mersin or Istanbul takes 7 to 10 days via the Red Sea. Turkish food imports require compliance with the Turkish Food Codex, a phytosanitary certificate, and customs clearance through the Ministry of Trade&apos;s electronic declaration system.</span>
@@ -137,7 +137,7 @@ export default function ImportingEthiopianCoffeeToTurkey({ title, date, large_im
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Practical Note:</span> Turkey&apos;s regulatory environment is strict on paper but efficient in practice for compliant shipments. Provide clean documentation upfront, ensure your phytosanitary certificate is current, and your Ethiopian exporter should supply a pre-shipment quality report showing moisture content and defect count. Well-documented shipments clear inspection quickly.</p>
       </div>
 
@@ -315,7 +315,7 @@ export default function ImportingEthiopianCoffeeToTurkey({ title, date, large_im
         A standard 20-foot container holds approximately <span className='font-bold'>275 to 300 bags</span> of 60 kg green coffee (16.5 to 18 metric tons). For smaller quantities, LCL (Less than Container Load) consolidation is available through freight forwarders operating on the Djibouti-to-Turkey route, though per-unit costs are higher. Most first-time importers start with a full 20-foot container to achieve the best per-kilogram freight rate.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineTruck className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Shipping Tip:</span> Request CFR Mersin or CFR Istanbul terms from your Ethiopian exporter. Under CFR (Cost and Freight), the exporter arranges and pays for ocean freight, simplifying logistics on your end. You handle insurance and customs clearance upon arrival.</span>
@@ -483,7 +483,7 @@ export default function ImportingEthiopianCoffeeToTurkey({ title, date, large_im
         </li>
       </ol>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineExclamationTriangle className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Timeline:</span> From contract signing to coffee in your Turkish warehouse, expect approximately 4 to 6 weeks. This includes 1 to 2 weeks for export preparation in Ethiopia, 7 to 10 days ocean transit, and 3 to 7 days for customs clearance. First-time imports may take slightly longer as you establish your documentation workflow.</span>
@@ -509,7 +509,7 @@ export default function ImportingEthiopianCoffeeToTurkey({ title, date, large_im
       </ul>
 
       <p className='my-4'>
-        With an office and warehouse in Addis Ababa and origin-connected sourcing heritage built over 30 years, Ethio Coffee Export sources from the cooperatives, washing stations, and farming communities that produce some of Ethiopia&apos;s finest lots. We understand the documentation Turkish customs requires and structure every shipment for efficient clearance. Whether you are a first-time buyer or scaling your Ethiopian coffee imports to Turkey, our team is ready to help.
+        With an office and warehouse in Addis Ababa and origin-connected sourcing heritage built over 30 years, Ethio Coffee Export sources from the cooperatives, washing stations, and farming communities that produce some of Ethiopia&apos;s finest lots. We understand the documentation Turkish customs requires and structure every shipment for efficient clearance. For first-time buyers and those scaling their Ethiopian coffee imports to Turkey, our team is ready to help.
       </p>
 
       {/* ========== SECTION 9: FAQ ========== */}
@@ -585,14 +585,6 @@ export default function ImportingEthiopianCoffeeToTurkey({ title, date, large_im
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing to UAE</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
-              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
-            </ul>
-            <h4 className='font-semibold mb-2 mt-3 text-sm'>Asia-Pacific &amp; Americas</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>&bull; <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
-              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
-              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
-              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
             </ul>
           </div>
           <div>
@@ -609,8 +601,6 @@ export default function ImportingEthiopianCoffeeToTurkey({ title, date, large_im
             <h4 className='font-semibold mb-2 text-sm'>Quality &amp; Sourcing</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Varieties</Link></li>
-              <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>Cup &amp; Evaluate Samples</Link></li>
-              <li>&bull; <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Packaging &amp; Bag Types</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Certifications Guide</Link></li>
             </ul>
           </div>

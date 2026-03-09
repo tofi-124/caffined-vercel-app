@@ -53,7 +53,7 @@ export default function EthiopianCoffeeVsKenyanCoffee({ title, date, large_image
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Ethiopian coffee vs Kenyan coffee is a comparison between the birthplace of Arabica and one of Africa&apos;s most technically refined specialty origins. Ethiopia offers unmatched genetic diversity from 6,000+ heirloom varieties, producing floral, fruity, and citrus-driven cups across distinct regions. Kenya delivers intense, structured acidity and blackcurrant complexity from a small number of well-documented varieties (SL-28, SL-34, Ruiru 11). For importers, the choice is not about quality; both produce 85-92+ scoring coffees. The difference lies in supply structure, flavor character, pricing, and how each origin fits your program. Many specialty buyers source both.</span>
@@ -84,7 +84,7 @@ export default function EthiopianCoffeeVsKenyanCoffee({ title, date, large_image
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        <span className='font-bold'>Ethiopian coffee vs Kenyan coffee</span> is one of the most debated comparisons among specialty coffee professionals. These two East African neighbors produce some of the world&apos;s highest-scoring, most sought-after Arabica coffees, yet their cups taste remarkably different. Ethiopia is the biological origin of Coffea arabica, home to thousands of uncharacterized heirloom landraces that produce extraordinary floral, fruit, and citrus complexity. Kenya, despite sharing a border with Ethiopia, built its coffee industry on a small number of carefully selected varieties (SL-28, SL-34, Ruiru 11, Batian) that deliver structured, intense acidity and distinctive blackcurrant and grapefruit character.
+        <span className='font-bold'>Ethiopian coffee vs Kenyan coffee</span> is one of the most debated comparisons among specialty coffee professionals. These two East African neighbors produce some of the world&apos;s highest-scoring, most sought-after Arabica coffees, yet their cups taste distinctly different. Ethiopia is the biological origin of Coffea arabica, home to thousands of uncharacterized heirloom landraces that produce extraordinary floral, fruit, and citrus complexity. Kenya, despite sharing a border with Ethiopia, built its coffee industry on a small number of carefully selected varieties (SL-28, SL-34, Ruiru 11, Batian) that deliver structured, intense acidity and distinctive blackcurrant and grapefruit character.
       </p>
 
       <p className='my-4'>
@@ -349,7 +349,7 @@ export default function EthiopianCoffeeVsKenyanCoffee({ title, date, large_image
       </p>
 
       <p className='my-4'>
-        For buyers, the processing contrast means: Ethiopian coffees offer a wide spectrum from bold naturals to clean washed lots. Kenyan coffees deliver a singular, refined washed profile with remarkable consistency within a given factory and grade.
+        For buyers, the processing contrast means: Ethiopian coffees offer a wide spectrum from bold naturals to clean washed lots. Kenyan coffees deliver a singular, refined washed profile with outstanding consistency within a given factory and grade.
       </p>
 
       {/* SECTION 6: GRADING SYSTEMS */}
@@ -673,7 +673,6 @@ export default function EthiopianCoffeeVsKenyanCoffee({ title, date, large_image
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
               <li>&bull; <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
-              <li>&bull; <Link href='/insights/top-ethiopian-coffee-importers-buyers-2024-2025' className='text-amber-700 hover:underline'>Top Ethiopian Coffee Importers 2024/2025</Link></li>
             </ul>
           </div>
           <div>
@@ -682,16 +681,12 @@ export default function EthiopianCoffeeVsKenyanCoffee({ title, date, large_image
               <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality: Defects &amp; Grading</Link></li>
               <li>&bull; <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee</Link></li>
               <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Samples</Link></li>
-              <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Trade</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>&bull; <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Export Company</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms</Link></li>
-              <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide for Importers</Link></li>
             </ul>
           </div>
         </div>

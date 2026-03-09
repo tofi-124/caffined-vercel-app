@@ -35,6 +35,13 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Japan&apos;s specialty coffee market values origin transparency, traceability, and exceptional cup quality above all else. Importing Ethiopian coffee requires MHLW food safety compliance and Japanese-language documentation, but offers zero import duty and premium pricing for quality.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Import Guide / Japan Market / Ethiopian Coffee Export</span>
@@ -48,7 +55,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         Ethiopian coffee with its inherent complexity, diverse regional profiles, and origin authenticity aligns perfectly with Japanese coffee culture&apos;s emphasis on craftsmanship and terroir. However, entering the Japanese market requires managing strict food safety regulations, meticulous documentation, and understanding unique business practices. This comprehensive guide covers everything <span className='font-bold'>Japanese coffee importers</span>, roasters, and cafe operators need to know about sourcing <span className='font-bold'>Ethiopian specialty coffee</span>.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Insight:</span> Japan offers zero import duty on coffee, sophisticated logistics infrastructure, and the world's highest willingness to pay premium prices for quality but requires MHLW food safety compliance, Japanese language documentation, and relationship-based business practices. Success requires quality consistency and long-term commitment.</span>
@@ -136,7 +143,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Critical Note:</span> MHLW import notification must be filed electronically via FAINS before shipment arrival. First-time importers should work with licensed customs brokers who have FAINS access and understand Japanese regulatory requirements. Processing time: typically 1-3 business days if compliant.</p>
       </div>
 
@@ -315,7 +322,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Japan-Specific Tip:</span> Japanese roasters prefer smaller bag sizes (30-40kg) compared to global standard 60-69kg bags. This facilitates easier manual handling in Japan&apos;s smaller roastery spaces. Request your Ethiopian exporter to pack in 30kg or 40kg bags if possible.</p>
       </div>
 
@@ -650,7 +657,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
           <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied Japanese roasters and importers with premium Ethiopian specialty coffee backed by three decades of origin-connected sourcing heritage. We understand Japanese quality expectations, regulatory requirements, and business culture. We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete documentation, quality consistency, and the professional reliability Japanese buyers demand.
         </p>
         <p className='my-2'>
-          Whether you&apos;re establishing a specialty roastery in Tokyo, supplying traditional kisaten networks, or building an import/distribution business, we deliver the quality, traceability, and consistent supply you need to succeed in Japan&apos;s demanding but rewarding coffee market.
+          From establishing a specialty roastery in Tokyo to supplying traditional kisaten networks or building an import/distribution business, we deliver the quality, traceability, and consistent supply you need to succeed in Japan&apos;s demanding but rewarding coffee market.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

@@ -35,6 +35,13 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          The UAE offers zero import duty on green coffee, 5% recoverable VAT, and world-class logistics through Jebel Ali Port and Dubai&apos;s free zones. For roasters and distributors, the Emirates is the ideal gateway to import Ethiopian specialty coffee for both local consumption and regional re-export across the GCC.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Import Guide / UAE Market / Ethiopian Coffee Export</span>
@@ -49,10 +56,10 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
       </p>
 
       <p className='my-4'>
-        Whether you&apos;re a Dubai-based roaster, cafe chain operator, or regional coffee distributor, this guide covers everything you need to know about importing Ethiopian green coffee into the UAE from <span className='font-bold'>ESMA certification</span> to <span className='font-bold'>Dubai Customs clearance</span>, free zone advantages, and partnering with <span className='font-bold'>Ethio Coffee Export PLC</span>.
+        For Dubai-based roasters, cafe chain operators, and regional coffee distributors, this guide covers everything you need to know about importing Ethiopian green coffee into the UAE from <span className='font-bold'>ESMA certification</span> to <span className='font-bold'>Dubai Customs clearance</span>, free zone advantages, and partnering with <span className='font-bold'>Ethio Coffee Export PLC</span>.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Insight:</span> The UAE offers zero import duty on coffee, 5% VAT (fully recoverable), streamlined customs via Dubai Trade, free zone options (0% tax, 100% foreign ownership), and the region's best logistics infrastructure making it the optimal base for Ethiopian coffee import and regional distribution.</span>
@@ -140,7 +147,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-center gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0' />
           <span><span className='font-bold'>Free Zone Advantage:</span> Importing via UAE free zones (JAFZA, DMCC Coffee Centre) offers streamlined customs, no ESMA CoC requirement for goods staying in free zone, and re-export facilitation without mainland customs. Ideal for regional distribution operations.</span>
@@ -431,7 +438,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
         </li>
       </ol>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Efficiency Advantage:</span> Dubai Customs averages 6-12 hour clearance times (vs. 2-5 days in many other markets). Pre-arrival processing and green channel automation make UAE the fastest customs clearance in the Middle East.</p>
       </div>
 
@@ -680,7 +687,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
           <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied UAE importers, DMCC traders, and Dubai roasters with three decades of origin-connected sourcing heritage. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with UAE-compliant documentation, fast Red Sea shipping to Jebel Ali, and the professional service Dubai's sophisticated coffee market demands.
         </p>
         <p className='my-2'>
-          Whether you&apos;re establishing a DMCC free zone operation, launching a Dubai cafe chain, or building a regional coffee distribution business, we deliver the quality, consistency, and reliability you need to succeed in the UAE market.
+          From establishing a DMCC free zone operation to launching a Dubai cafe chain or building a regional coffee distribution business, we deliver the quality, consistency, and reliability you need to succeed in the UAE market.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -704,15 +711,10 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>Saudi Arabia Coffee Market Guide</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-turkey' className='text-amber-700 hover:underline'>Importing to Turkey</Link></li>
             </ul>
             <h4 className='font-semibold mb-2 mt-3 text-sm'>Americas & Europe</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
             </ul>
           </div>
           <div>

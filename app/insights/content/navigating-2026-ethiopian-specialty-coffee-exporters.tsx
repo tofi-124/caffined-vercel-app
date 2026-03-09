@@ -32,12 +32,12 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Why partnering with the right Ethiopian specialty coffee exporters in 2026 means more than just high cup scores-it's about transparency, compliance, and farm-to-cup traceability in a complex regulatory landscape.
+        Why partnering with the right Ethiopian specialty coffee exporters in 2026 means more than just high cup scores-it's about transparency, compliance, and farm-to-cup traceability in a complex regulatory environment.
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian specialty coffee exporters are navigating historic transformation in 2026
+          Ethiopian specialty coffee exporters are facing historic transformation in 2026
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -51,6 +51,13 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
           />
         </div>
       </figure>
+
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          In 2026, choosing the right Ethiopian specialty coffee exporter requires evaluating far more than cup scores. Buyers must assess EUDR compliance infrastructure, farm-to-cup traceability systems, and regulatory readiness alongside quality. Exporters with transparent sourcing networks and thorough documentation capabilities are best positioned to deliver consistent specialty lots.
+        </p>
+      </div>
 
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
@@ -75,7 +82,7 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
       </p>
 
       <p className='my-4'>
-        However, in 2026, cup scores are just the beginning. International buyers now need to consider many additional factors. These include navigating a complex regulatory environment, ensuring complete traceability from farm to cup, and meeting new environmental standards. The right Ethiopian specialty coffee exporter must excel in all these areas.
+        However, in 2026, cup scores are just the beginning. International buyers now need to consider many additional factors. These include meeting complex regulatory requirements, ensuring complete traceability from farm to cup, and adhering to new environmental standards. The right Ethiopian specialty coffee exporter must excel in all these areas.
       </p>
 
       <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
@@ -92,7 +99,7 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
       </div>
 
       <p className='my-4'>
-        This guide will walk you through the current landscape of Ethiopian specialty coffee exports. We will explore the premier growing regions, explain new compliance requirements, discuss quality standards, and show you what to look for in a reliable export partner.
+        This guide will walk you through the current state of Ethiopian specialty coffee exports. We will explore the premier growing regions, explain new compliance requirements, discuss quality standards, and show you what to look for in a reliable export partner.
       </p>
 
       {/* ETHIOPIA'S COFFEE REGIONS */}
@@ -616,7 +623,7 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
       </p>
 
       <p className='my-4'>
-        Partnering with Ethio Coffee Export provides roasters with everything needed to thrive in today's quality-first global market. We offer the <span className='font-bold'>transparency, ethical certifications, and heritage</span> that modern coffee buyers demand. Our commitment to quality and compliance ensures you can confidently serve your customers while building a sustainable business.
+        Partnering with Ethio Coffee Export provides roasters with everything needed to thrive in the quality-first global market. We offer the <span className='font-bold'>transparency, ethical certifications, and heritage</span> that modern coffee buyers demand. Our commitment to quality and compliance ensures you can confidently serve your customers while building a sustainable business.
       </p>
 
       {/* LOOKING AHEAD */}
@@ -787,7 +794,7 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How does the EU Deforestation Regulation affect Ethiopian coffee exports?</h4>
-            <p className="text-sm text-gray-600">The EUDR requires Ethiopian exporters to provide GPS coordinates of coffee farms and demonstrate that coffee was not grown on land deforested after December 2020. Exporters need robust traceability from farm to port.</p>
+            <p className="text-sm text-gray-600">The EUDR requires Ethiopian exporters to provide GPS coordinates of coffee farms and demonstrate that coffee was not grown on land deforested after December 2020. Exporters need thorough traceability from farm to port.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What quality certifications do Ethiopian coffee exporters need in 2026?</h4>
@@ -801,64 +808,34 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
       </section>
 
       {/* RELATED ARTICLES */}
-      <div className='mt-12 pt-8 border-t border-gray-200'>
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
-          <Link 
-            href="/insights/private-vs-cooperative-ethiopian-coffee-exporters" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineBuildingOffice2 className='text-xl' />
-              Private vs Cooperative Exporters
-            </p>
-            <p className='text-sm text-gray-600'>Strategic guide comparing private coffee exporters and cooperative unions for sourcing Ethiopian Arabica in 2026</p>
-          </Link>
-          <Link 
-            href="/insights/eu-deforestation-regulation-ethiopian-coffee-compliance" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineDocumentText className='text-xl' />
-              EUDR Compliance Guide
-            </p>
-            <p className='text-sm text-gray-600'>Complete guide to EU Deforestation Regulation requirements for Ethiopian coffee exporters</p>
-          </Link>
-          <Link 
-            href="/insights/benefits-investing-ethiopian-coffee-production" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineCurrencyDollar className='text-xl' />
-              Investment Opportunities
-            </p>
-            <p className='text-sm text-gray-600'>Why investing in Ethiopian coffee production offers exceptional returns and sustainable growth</p>
-          </Link>
-          <Link 
-            href="/ethiopian-coffee-exporter" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineGlobeAlt className='text-xl' />
-              Ethiopian Coffee Exporter
-            </p>
-            <p className='text-sm text-gray-600'>Your trusted Ethiopian coffee export partner: specialty Arabica from Yirgacheffe, Sidamo, Guji & more</p>
-          </Link>
-          <Link 
-            href="/insights/top-premium-coffee-exporters-global-guide" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineTrophy className='text-xl' />
-              Top Coffee Exporters in the World
-            </p>
-            <p className='text-sm text-gray-600'>What makes a premium coffee exporter stand out globally - quality benchmarks, certifications, and best practices</p>
-          </Link>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Exporter Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
+              <li>• <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
+              <li>• <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link></li>
+              <li>• <Link href='/insights/top-premium-coffee-exporters-global-guide' className='text-amber-700 hover:underline'>Top Coffee Exporters in the World</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Market & Compliance</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation Compliance</Link></li>
+              <li>• <Link href='/insights/benefits-investing-ethiopian-coffee-production' className='text-amber-700 hover:underline'>Benefits of Investing in Ethiopian Coffee</Link></li>
+              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Navigate 2026 with a Trusted Ethiopian Partner</h4>
+        <h4 className='font-bold text-xl mb-3'>Plan Your 2026 Sourcing with a Trusted Ethiopian Partner</h4>
         <p className='my-2'>
           At <span className='font-bold'>Ethio Coffee Export PLC</span>, we help buyers stay ahead of market shifts with transparent sourcing, competitive pricing, and reliable supply.
         </p>
@@ -871,7 +848,7 @@ export default function Navigating2026EthiopianSpecialtyCoffeeExporters({ title,
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Strategic analysis of the Ethiopian specialty coffee export landscape for 2026, including market trends, regulatory changes, and opportunities for importers.
+          <span className='font-bold'>About This Insight:</span> Strategic analysis of the Ethiopian specialty coffee export market for 2026, including market trends, regulatory changes, and opportunities for importers.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

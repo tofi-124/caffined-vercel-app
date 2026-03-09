@@ -34,6 +34,13 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Ethiopia&apos;s famous coffee regions (Yirgacheffe, Guji, Sidamo, Limu, Harar, and more) each offer distinct altitude ranges, processing styles, and cup profiles. This buyer-friendly guide helps roasters and importers match Ethiopian origins to their target customers and roast approach.
+        </p>
+      </div>
+
       <p className='my-4'>
         Ethiopian green coffee is often described with famous place names-Yirgacheffe, Guji, Sidama, Limu, Harrar, Kaffa, Jimma.
         For buyers, &quot;origin&quot; isn&apos;t just geography: it&apos;s a shorthand for altitude range, local genetics (&quot;heirloom&quot; selections), processing approach, and the mills/washing stations that shape the cup.
@@ -139,7 +146,7 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
         Sourcing Ethiopian Green Coffee (for buyers worldwide)
       </h3>
       <p className='my-4'>
-        If you&apos;re buying green coffee (whether you&apos;re in Canada or anywhere else), the most helpful step is moving from &quot;country-level origin&quot; to lot-level clarity.
+        If you&apos;re buying green coffee (from Canada or anywhere else), the most helpful step is moving from &quot;country-level origin&quot; to lot-level clarity.
         The best suppliers can share not only the region, but also the washing station/cooperative, processing details, and consistency expectations.
       </p>
 

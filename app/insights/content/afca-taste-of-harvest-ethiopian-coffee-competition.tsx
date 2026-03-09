@@ -83,6 +83,17 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         This comprehensive guide explores everything you need to know about AFCA's Taste of Harvest competition, Ethiopia's participation, the certification process, and how winning recognition translates into market opportunities for Ethiopian coffee.
       </p>
 
+      {/* KEY TAKEAWAY */}
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2 flex items-center gap-2'>
+          <HiOutlineCheckBadge className='text-2xl' />
+          Key Takeaway
+        </p>
+        <p>
+          AFCA's Taste of Harvest is Africa's top coffee quality competition. In January 2026, Ethiopia submitted 226 samples across four processing categories. Top scorers advance to AFCA's continental finals, earn one-year certification with serial numbers, and gain access to a direct auction platform where international buyers bid at premium prices.
+        </p>
+      </div>
+
       {/* TABLE OF CONTENTS */}
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
@@ -106,12 +117,12 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </div>
 
       {/* SECTION 1: WHAT IS AFCA */}
-      <h3 id="what-is-afca" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="what-is-afca" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineGlobeAlt className='text-amber-600' />
         1. What Is AFCA and the Taste of Harvest Competition?
-      </h3>
+      </h2>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>African Fine Coffees Association (AFCA)</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>African Fine Coffees Association (AFCA)</h3>
 
       <p className='my-4'>
         <span className='font-bold'>AFCA</span> (formerly the Inter-African Coffee Organisation - IACO) is the premier organization representing African coffee-producing countries. With 25 member nations, AFCA works to:
@@ -126,7 +137,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         <li>Support sustainability and development in African coffee sectors</li>
       </ul>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>The Taste of Harvest Competition</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>The Taste of Harvest Competition</h3>
 
       <p className='my-4'>
         <span className='font-bold'>Taste of Harvest</span> is AFCA's flagship coffee quality competition, held annually to:
@@ -134,22 +145,22 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
 
       <div className='space-y-4 my-6'>
         <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h5 className='font-bold mb-2 text-purple-900'>Identify Excellence</h5>
+          <h4 className='font-bold mb-2 text-purple-900'>Identify Excellence</h4>
           <p className='text-sm'>Discover and recognize the finest coffees produced across Africa in each harvest season, showcasing the diversity and quality potential of African origins.</p>
         </div>
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2 text-blue-900'>Professional Evaluation</h5>
+          <h4 className='font-bold mb-2 text-blue-900'>Professional Evaluation</h4>
           <p className='text-sm'>Subject coffee samples to rigorous evaluation by international coffee experts, Q graders, and sensory professionals using standardized specialty coffee protocols.</p>
         </div>
 
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2 text-green-900'>Market Access</h5>
+          <h4 className='font-bold mb-2 text-green-900'>Market Access</h4>
           <p className='text-sm'>Provide winning coffees with direct access to <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's auction platform</a>, connecting award-winning lots with premium buyers willing to pay for exceptional quality.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2 text-amber-900'>Recognition and Certification</h5>
+          <h4 className='font-bold mb-2 text-amber-900'>Recognition and Certification</h4>
           <p className='text-sm'>Issue official AFCA certification to top-scoring coffees, providing producers with internationally recognized quality credentials that enhance marketability.</p>
         </div>
       </div>
@@ -159,16 +170,16 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </p>
 
       {/* SECTION 2: ETHIOPIA'S LEADERSHIP */}
-      <h3 id="ethiopia-leadership" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="ethiopia-leadership" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineStar className='text-amber-600' />
         2. Ethiopia's Leadership in African Coffee
-      </h3>
+      </h2>
 
       <p className='my-4'>
         Ethiopia holds a unique and influential position within AFCA and the broader African coffee sector.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Ethiopia's AFCA Leadership Role</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Ethiopia's AFCA Leadership Role</h3>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='mb-3'>As Dr. Adunya Debela notes, Ethiopia:</p>
@@ -181,7 +192,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </ul>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Why Ethiopia Is an Ideal Host for AFCA Events</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Why Ethiopia Is an Ideal Host for AFCA Events</h3>
 
       <p className='my-4'>
         Dr. Adunya emphasizes that Ethiopia-particularly Addis Ababa-offers exceptional conditions for hosting international coffee events:
@@ -189,7 +200,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
 
       <div className='grid md:grid-cols-2 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2'>Infrastructure and Hospitality</h5>
+          <h4 className='font-bold mb-2'>Infrastructure and Hospitality</h4>
           <ul className='space-y-1 text-sm'>
             <li>• Modern conference facilities</li>
             <li>• International airport connections</li>
@@ -198,7 +209,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
-          <h5 className='font-bold mb-2'>Coffee-Specific Advantages</h5>
+          <h4 className='font-bold mb-2'>Coffee-Specific Advantages</h4>
           <ul className='space-y-1 text-sm'>
             <li>• State-of-the-art coffee training center</li>
             <li>• Modern laboratory facilities</li>
@@ -213,16 +224,16 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </p>
 
       {/* SECTION 3: 2026 COMPETITION */}
-      <h3 id="2026-competition" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="2026-competition" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineTrophy className='text-amber-600' />
         3. The 2026 Taste of Harvest Competition in Ethiopia
-      </h3>
+      </h2>
 
       <p className='my-4'>
         The January 2026 Taste of Harvest competition marked a significant moment for Ethiopian coffee and AFCA.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Competition Venue and Facilities</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Competition Venue and Facilities</h3>
 
       <p className='my-4'>
         The competition was hosted at the <span className='font-bold'>Ethiopian Coffee and Tea Authority's Coffee Training Center</span> in Addis Ababa, featuring:
@@ -243,7 +254,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Judging Panel Composition</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Judging Panel Composition</h3>
 
       <p className='my-4'>
         The competition featured a diverse panel of coffee experts including:
@@ -256,7 +267,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         <li><span className='font-bold'>Buyer Representatives:</span> Potential purchasers from international markets evaluating coffees for commercial potential</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span>Dr. Adunya emphasized that this competition provided an invaluable opportunity to showcase Ethiopia's "well-known experts that we have nurtured and developed," demonstrating to the international community that Ethiopia possesses world-class coffee evaluation capacity.</span>
@@ -264,16 +275,16 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </div>
 
       {/* SECTION 4: COFFEE SAMPLES */}
-      <h3 id="coffee-samples" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="coffee-samples" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBar className='text-amber-600' />
         4. Competition Coffee Samples: Processing Methods Represented
-      </h3>
+      </h2>
 
       <p className='my-4'>
         The 2026 competition featured an impressive diversity of Ethiopian coffee samples, showcasing the country's innovation in processing methods and regional variety.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Sample Submission Statistics</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Sample Submission Statistics</h3>
 
       <p className='my-4'>
         According to W/ro Bamlack Melese, the Taste of Harvest Program Supervision Coordinator, the competition received coffee samples from producers, exporters, and cooperatives across Ethiopian coffee-producing regions:
@@ -288,7 +299,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
               <span className='font-bold text-2xl text-amber-700'>100</span>
               <span className='text-xs uppercase bg-amber-200 px-2 py-1 rounded'>44.2%</span>
             </div>
-            <h5 className='font-bold text-gray-800'>Natural Processed</h5>
+            <h4 className='font-bold text-gray-800'>Natural Processed</h4>
             <p className='text-xs text-gray-600 mt-1'>Sun-dried with cherry intact, showcasing Ethiopia's traditional processing heritage</p>
           </div>
 
@@ -297,7 +308,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
               <span className='font-bold text-2xl text-blue-700'>43</span>
               <span className='text-xs uppercase bg-blue-200 px-2 py-1 rounded'>19.0%</span>
             </div>
-            <h5 className='font-bold text-gray-800'>Washed Processed</h5>
+            <h4 className='font-bold text-gray-800'>Washed Processed</h4>
             <p className='text-xs text-gray-600 mt-1'>Fully washed coffees highlighting clean, bright flavor profiles</p>
           </div>
 
@@ -306,7 +317,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
               <span className='font-bold text-2xl text-orange-700'>37</span>
               <span className='text-xs uppercase bg-orange-200 px-2 py-1 rounded'>16.4%</span>
             </div>
-            <h5 className='font-bold text-gray-800'>Honey Processed</h5>
+            <h4 className='font-bold text-gray-800'>Honey Processed</h4>
             <p className='text-xs text-gray-600 mt-1'>Semi-washed coffees with varying mucilage levels for balanced sweetness</p>
           </div>
 
@@ -315,13 +326,13 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
               <span className='font-bold text-2xl text-purple-700'>46</span>
               <span className='text-xs uppercase bg-purple-200 px-2 py-1 rounded'>20.4%</span>
             </div>
-            <h5 className='font-bold text-gray-800'>Experimental Processed</h5>
+            <h4 className='font-bold text-gray-800'>Experimental Processed</h4>
             <p className='text-xs text-gray-600 mt-1'>Innovative methods including anaerobic, carbonic maceration, and hybrid processes</p>
           </div>
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Regional Diversity</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Regional Diversity</h3>
 
       <p className='my-4'>
         Samples were submitted from coffee-producing regions, woredas (districts), and kebeles (villages) across Ethiopia, representing:
@@ -342,20 +353,20 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </div>
 
       {/* SECTION 5: EVALUATION PROCESS */}
-      <h3 id="evaluation-process" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="evaluation-process" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineBeaker className='text-amber-600' />
         5. Competition Evaluation Process and Judging Criteria
-      </h3>
+      </h2>
 
       <p className='my-4'>
         AFCA's Taste of Harvest competition follows rigorous, internationally recognized evaluation protocols to ensure fairness and credibility.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Evaluation Protocol</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Evaluation Protocol</h3>
 
       <div className='space-y-6 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Step 1: Sample Preparation</h5>
+          <h4 className='font-bold mb-3'>Step 1: Sample Preparation</h4>
           <ul className='space-y-1 text-sm ml-4'>
             <li>• Green coffee samples inspected for defects and moisture content</li>
             <li>• Standardized roasting (typically light-to-medium) to preserve origin characteristics</li>
@@ -365,7 +376,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Step 2: Cupping Evaluation</h5>
+          <h4 className='font-bold mb-3'>Step 2: Cupping Evaluation</h4>
           <ul className='space-y-1 text-sm ml-4'>
             <li>• Multiple judges evaluate each sample independently</li>
             <li>• Standardized cupping protocol (SCA or similar) applied consistently</li>
@@ -375,7 +386,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Step 3: Scoring and Calibration</h5>
+          <h4 className='font-bold mb-3'>Step 3: Scoring and Calibration</h4>
           <ul className='space-y-1 text-sm ml-4'>
             <li>• Individual judge scores compiled and averaged</li>
             <li>• Calibration sessions held to align judge evaluations</li>
@@ -385,7 +396,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Step 4: Selection and Recognition</h5>
+          <h4 className='font-bold mb-3'>Step 4: Selection and Recognition</h4>
           <ul className='space-y-1 text-sm ml-4'>
             <li>• Top-scoring coffees identified based on quality thresholds</li>
             <li>• Winning coffees re-cupped to confirm quality and consistency</li>
@@ -395,7 +406,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Quality Benchmarks</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Quality Benchmarks</h3>
 
       <p className='my-4'>
         While specific scoring thresholds vary by competition year, AFCA typically recognizes coffees that:
@@ -410,16 +421,16 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </ul>
 
       {/* SECTION 6: MODERN LABORATORY */}
-      <h3 id="modern-laboratory" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="modern-laboratory" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineBeaker className='text-amber-600' />
         6. Ethiopia's Modern Coffee Laboratory and Training Center
-      </h3>
+      </h2>
 
       <p className='my-4'>
         One of the competition's key objectives was showcasing Ethiopia's significantly upgraded coffee quality infrastructure.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Laboratory Modernization</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Laboratory Modernization</h3>
 
       <p className='my-4'>
         Dr. Adunya Debela highlights that Ethiopia has invested heavily in "modernizing its laboratory and owning many species," referring to:
@@ -427,7 +438,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
 
       <div className='space-y-4 my-6'>
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2 text-blue-900'>State-of-the-Art Equipment</h5>
+          <h4 className='font-bold mb-2 text-blue-900'>State-of-the-Art Equipment</h4>
           <p className='text-sm mb-2'>The Ethiopian Coffee Training Center now features:</p>
           <ul className='space-y-1 text-sm ml-4'>
             <li>• Professional sample roasting equipment (<a href="https://ikawacoffee.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Ikawa</a>, <a href="https://probat.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Probat</a>, or similar)</li>
@@ -440,7 +451,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
 
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2 text-green-900'>Genetic Diversity and Variety Collection</h5>
+          <h4 className='font-bold mb-2 text-green-900'>Genetic Diversity and Variety Collection</h4>
           <p className='text-sm mb-2'>"Owning many species" refers to Ethiopia's:</p>
           <ul className='space-y-1 text-sm ml-4'>
             <li>• Extensive coffee variety collection and germplasm banks</li>
@@ -451,7 +462,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
 
         <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h5 className='font-bold mb-2 text-purple-900'>Training and Capacity Building</h5>
+          <h4 className='font-bold mb-2 text-purple-900'>Training and Capacity Building</h4>
           <p className='text-sm mb-2'>The center serves as a hub for:</p>
           <ul className='space-y-1 text-sm ml-4'>
             <li>• <a href="https://www.coffeeinstitute.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Q Grader</a> and sensory training courses</li>
@@ -462,26 +473,26 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Strategic Importance:</span> These laboratory and training facilities position Ethiopia not just as a coffee producer, but as a coffee quality leader capable of setting standards and educating the broader African and global coffee community.
         </p>
       </div>
 
       {/* SECTION 7: TWO-PHASE SYSTEM */}
-      <h3 id="two-phase-system" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="two-phase-system" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineArrowTrendingUp className='text-amber-600' />
         7. Two-Phase Competition System: National and AFCA Levels
-      </h3>
+      </h2>
 
       <p className='my-4'>
         The Taste of Harvest operates as a two-phase competition designed to identify the very best coffees across Africa.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Phase 1: National Competition (January 2026)</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Phase 1: National Competition (January 2026)</h3>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h5 className='font-bold mb-3'>What Happened:</h5>
+        <h4 className='font-bold mb-3'>What Happened:</h4>
         <ul className='space-y-2 text-sm'>
           <li>• <span className='font-bold'>226 Ethiopian coffee samples</span> were evaluated in Addis Ababa</li>
           <li>• <span className='font-bold'>Top-scoring coffees</span> were identified based on AFCA quality criteria</li>
@@ -494,10 +505,10 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </p>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Phase 2: AFCA Continental Competition (February 2026)</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Phase 2: AFCA Continental Competition (February 2026)</h3>
 
       <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
-        <h5 className='font-bold mb-3'>What Happens Next:</h5>
+        <h4 className='font-bold mb-3'>What Happens Next:</h4>
         <ul className='space-y-2 text-sm'>
           <li>• <span className='font-bold'>Top Ethiopian coffees</span> from Phase 1 compete against winning coffees from other AFCA member countries</li>
           <li>• <span className='font-bold'>Continental judging panel</span> evaluates all national winners together</li>
@@ -507,7 +518,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </ul>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Progression Criteria</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Progression Criteria</h3>
 
       <p className='my-4'>
         Not all coffees advance from Phase 1 to Phase 2. Selection typically considers:
@@ -522,60 +533,60 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </ul>
 
       {/* SECTION 8: CERTIFICATION BENEFITS */}
-      <h3 id="certification-benefits" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="certification-benefits" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineCheckBadge className='text-amber-600' />
         8. AFCA Certification: Benefits and Market Access
-      </h3>
+      </h2>
 
       <p className='my-4'>
         Coffees that succeed in Phase 2 receive official AFCA recognition and certification-a credential with significant market value.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>What AFCA Certification Provides</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>What AFCA Certification Provides</h3>
 
       <div className='space-y-4 my-6'>
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2 text-green-900 flex items-center gap-2'>
+          <h4 className='font-bold mb-2 text-green-900 flex items-center gap-2'>
             <HiOutlineCheckBadge />
             Official Quality Recognition
-          </h5>
+          </h4>
           <p className='text-sm'>
             AFCA issues serial numbers and certificates to winning coffees, providing internationally recognized documentation of exceptional quality evaluated by expert panels using standardized protocols.
           </p>
         </div>
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2 text-blue-900 flex items-center gap-2'>
+          <h4 className='font-bold mb-2 text-blue-900 flex items-center gap-2'>
             <HiOutlineTrophy />
             Market Differentiation
-          </h5>
+          </h4>
           <p className='text-sm'>
             Certified coffees stand out in crowded specialty markets, providing buyers with third-party validated quality assurance that justifies premium pricing and reduces purchasing risk.
           </p>
         </div>
 
         <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h5 className='font-bold mb-2 text-purple-900 flex items-center gap-2'>
+          <h4 className='font-bold mb-2 text-purple-900 flex items-center gap-2'>
             <HiOutlineUserGroup />
             Direct Buyer Access
-          </h5>
+          </h4>
           <p className='text-sm'>
             AFCA connects certified coffee producers directly with international buyers through the organization's auction platform and buyer network, bypassing traditional intermediaries.
           </p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2 text-amber-900 flex items-center gap-2'>
+          <h4 className='font-bold mb-2 text-amber-900 flex items-center gap-2'>
             <HiOutlineLightBulb />
             Marketing and Storytelling
-          </h5>
+          </h4>
           <p className='text-sm'>
             Winning producers gain compelling marketing narratives ("AFCA Award Winner") that resonate with specialty roasters and consumers seeking exceptional, story-driven coffees.
           </p>
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Certification Validity Period</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Certification Validity Period</h3>
 
       <p className='my-4'>
         As W/ro Bamlack notes, <span className='font-bold'>AFCA certification is valid for one year</span>. This means:
@@ -596,20 +607,20 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </div>
 
       {/* SECTION 9: AUCTION OPPORTUNITIES */}
-      <h3 id="auction-opportunities" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="auction-opportunities" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBar className='text-amber-600' />
         9. AFCA Direct Auction Platform for Award-Winning Coffees
-      </h3>
+      </h2>
 
       <p className='my-4'>
         One of the most valuable benefits of winning AFCA recognition is direct access to the organization's auction platform.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>How AFCA Auctions Work</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>How AFCA Auctions Work</h3>
 
       <div className='space-y-6 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>1. Auction Listing</h5>
+          <h4 className='font-bold mb-3'>1. Auction Listing</h4>
             <p className='text-sm'>
             Award-winning coffees are listed on <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's auction platform</a> with detailed profiles including:
           </p>
@@ -623,7 +634,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>2. Buyer Participation</h5>
+          <h4 className='font-bold mb-3'>2. Buyer Participation</h4>
           <p className='text-sm'>
             International specialty coffee buyers-roasters, importers, and traders-access the platform to:
           </p>
@@ -636,7 +647,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>3. Price Discovery</h5>
+          <h4 className='font-bold mb-3'>3. Price Discovery</h4>
           <p className='text-sm'>
             Auction format allows true market-based pricing:
           </p>
@@ -649,7 +660,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>4. Transaction Facilitation</h5>
+          <h4 className='font-bold mb-3'>4. Transaction Facilitation</h4>
           <p className='text-sm'>
             AFCA supports the sales process by:
           </p>
@@ -662,7 +673,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Historical Auction Results</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Historical Auction Results</h3>
 
       <p className='my-4'>
         While specific pricing varies by year and coffee quality, AFCA auction coffees historically achieve:
@@ -676,16 +687,16 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </ul>
 
       {/* SECTION 10: HOW TO PARTICIPATE */}
-      <h3 id="how-to-participate" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="how-to-participate" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineClipboardDocumentList className='text-amber-600' />
         10. How Ethiopian Producers Can Participate in Future Competitions
-      </h3>
+      </h2>
 
       <p className='my-4'>
         The 2026 competition demonstrates that the Taste of Harvest is open to a wide range of Ethiopian coffee stakeholders.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Who Can Submit Samples</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Who Can Submit Samples</h3>
 
       <p className='my-4'>
         According to the competition coordinator, submissions were accepted from:
@@ -693,20 +704,20 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
 
       <div className='grid md:grid-cols-3 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h5 className='font-bold mb-2'>Coffee Producers</h5>
+          <h4 className='font-bold mb-2'>Coffee Producers</h4>
           <p className='text-sm text-gray-700'>Individual farmers, farm owners, and estate operators producing exceptional coffee can submit samples directly.</p>
         </div>
         <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h5 className='font-bold mb-2'>Cooperatives</h5>
+          <h4 className='font-bold mb-2'>Cooperatives</h4>
           <p className='text-sm text-gray-700'>Farmer cooperatives and unions representing member producers can submit samples from collective production.</p>
         </div>
         <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h5 className='font-bold mb-2'>Coffee Exporters</h5>
+          <h4 className='font-bold mb-2'>Coffee Exporters</h4>
           <p className='text-sm text-gray-700'>Licensed Ethiopian coffee exporters can submit samples from their sourcing networks and partner producers.</p>
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Submission Requirements</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Submission Requirements</h3>
 
       <p className='my-4'>
         While specific requirements may vary by competition year, typical submission criteria include:
@@ -721,10 +732,10 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         <li><span className='font-bold'>Registration fees:</span> Nominal fees may apply to cover evaluation costs</li>
       </ul>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Preparation Tips for Success</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Preparation Tips for Success</h3>
 
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
-        <h5 className='font-bold mb-3'>Maximizing Competition Success:</h5>
+        <h4 className='font-bold mb-3'>Maximizing Competition Success:</h4>
         <ol className='space-y-2 text-sm'>
           <li>1. <span className='font-bold'>Select your best coffees:</span> Submit only exceptional lots, not average production</li>
           <li>2. <span className='font-bold'>Ensure proper processing:</span> Careful harvesting, processing, and drying to minimize defects</li>
@@ -736,41 +747,41 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </div>
 
       {/* SECTION 11: BUYER OPPORTUNITIES */}
-      <h3 id="buyer-opportunities" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="buyer-opportunities" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineUserGroup className='text-amber-600' />
         11. Opportunities for International Coffee Buyers
-      </h3>
+      </h2>
 
       <p className='my-4'>
         For specialty coffee roasters, importers, and traders, AFCA's Taste of Harvest competition offers valuable sourcing opportunities.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Benefits for Coffee Buyers</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Benefits for Coffee Buyers</h3>
 
       <div className='space-y-4 my-6'>
         <div className='border-l-4 border-amber-500 pl-4'>
-          <h5 className='font-bold'>Pre-Vetted Quality</h5>
-          <p className='text-sm text-gray-700'>Expert panels have already evaluated and confirmed exceptional quality, reducing buyer risk and cuppingworkload.</p>
+          <h4 className='font-bold'>Pre-Vetted Quality</h4>
+          <p className='text-sm text-gray-700'>Expert panels have already evaluated and confirmed exceptional quality, reducing buyer risk and cupping workload.</p>
         </div>
         <div className='border-l-4 border-blue-500 pl-4'>
-          <h5 className='font-bold'>Transparent Information</h5>
+          <h4 className='font-bold'>Transparent Information</h4>
           <p className='text-sm text-gray-700'>Detailed profiles include sensory notes, scores, origin data, and processing information-all the details buyers need for informed decisions.</p>
         </div>
         <div className='border-l-4 border-green-500 pl-4'>
-          <h5 className='font-bold'>Direct Sourcing</h5>
+          <h4 className='font-bold'>Direct Sourcing</h4>
           <p className='text-sm text-gray-700'>AFCA platform connects buyers directly with producers/exporters, enabling relationship-building and potentially better pricing through reduced intermediaries.</p>
         </div>
         <div className='border-l-4 border-purple-500 pl-4'>
-          <h5 className='font-bold'>Unique Marketing Story</h5>
+          <h4 className='font-bold'>Unique Marketing Story</h4>
           <p className='text-sm text-gray-700'>Purchasing AFCA award-winning coffees provides compelling narratives for retail customers: "AFCA Gold Winner, 2026 Taste of Harvest."</p>
         </div>
         <div className='border-l-4 border-orange-500 pl-4'>
-          <h5 className='font-bold'>African Origin Diversity</h5>
+          <h4 className='font-bold'>African Origin Diversity</h4>
           <p className='text-sm text-gray-700'>Competition exposes buyers to exceptional coffees from across AFCA member countries, not just Ethiopia, expanding sourcing options.</p>
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>How to Access AFCA Auction Coffees</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>How to Access AFCA Auction Coffees</h3>
 
       <p className='my-4'>
         International buyers interested in purchasing award-winning coffees can:
@@ -784,55 +795,55 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </ul>
 
       {/* SECTION 12: LONG-TERM IMPACT */}
-      <h3 id="impact-ethiopian-coffee" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      <h2 id="impact-ethiopian-coffee" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineArrowTrendingUp className='text-amber-600' />
         12. Long-Term Impact on Ethiopian Coffee Industry
-      </h3>
+      </h2>
 
       <p className='my-4'>
         The 2026 Taste of Harvest competition and Ethiopia's hosting of the conference represent more than a one-time event-they signal important developments for Ethiopian coffee's future.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Strategic Benefits for Ethiopia</h4>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Strategic Benefits for Ethiopia</h3>
 
       <div className='space-y-4 my-6'>
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2 text-green-900'>Enhanced Global Reputation</h5>
+          <h4 className='font-bold mb-2 text-green-900'>Enhanced Global Reputation</h4>
           <p className='text-sm'>
             Showcasing modern facilities, professional expertise, and exceptional coffee quality reinforces Ethiopia's position as a global coffee leader, not just a traditional origin.
           </p>
         </div>
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2 text-blue-900'>Increased Producer Incentives</h5>
+          <h4 className='font-bold mb-2 text-blue-900'>Increased Producer Incentives</h4>
           <p className='text-sm'>
             Competition success and premium auction prices provide tangible incentives for Ethiopian farmers and cooperatives to invest in quality improvements and best practices.
           </p>
         </div>
 
         <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h5 className='font-bold mb-2 text-purple-900'>Quality Culture Development</h5>
+          <h4 className='font-bold mb-2 text-purple-900'>Quality Culture Development</h4>
           <p className='text-sm'>
             Annual competitions foster a culture of quality excellence, continuous improvement, and pride in Ethiopian coffee throughout the supply chain from farmer to exporter.
           </p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2 text-amber-900'>Knowledge Hub Status</h5>
+          <h4 className='font-bold mb-2 text-amber-900'>Knowledge Hub Status</h4>
           <p className='text-sm'>
             Ethiopia's training center and laboratory facilities position the country as a knowledge hub for African coffee, attracting international partnerships and training opportunities.
           </p>
         </div>
 
         <div className='bg-teal-50 p-5 rounded-lg border border-teal-200'>
-          <h5 className='font-bold mb-2 text-teal-900'>Market Access Expansion</h5>
+          <h4 className='font-bold mb-2 text-teal-900'>Market Access Expansion</h4>
           <p className='text-sm'>
             AFCA certification and auction access open new market channels, particularly for smaller producers and cooperatives who previously lacked direct international buyer connections.
           </p>
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Future Outlook</h4>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Future Outlook</h3>
 
       <p className='my-4'>
         Dr. Adunya's emphasis on Ethiopia's laboratory modernization and species collection suggests ongoing investments in:
@@ -848,33 +859,33 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
 
       {/* FAQ SECTION */}
       <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About AFCA Taste of Harvest and Ethiopian Coffee Competitions</h3>
+        <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About AFCA Taste of Harvest and Ethiopian Coffee Competitions</h2>
         <div className="space-y-6">
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What is the AFCA Taste of Harvest coffee competition?</h4>
-            <p className="text-sm text-gray-600">The AFCA Taste of Harvest is Africa's premier coffee quality competition organized by the African Fine Coffees Association. It evaluates coffees from across Africa using international cupping standards, with winning lots auctioned to global buyers at premium prices.</p>
+            <h3 className="font-bold text-gray-800 mb-2">What is the AFCA Taste of Harvest coffee competition?</h3>
+            <p className="text-sm text-gray-600">The AFCA Taste of Harvest is Africa's premier coffee quality competition organized by the African Fine Coffees Association. Each year, coffees from AFCA's 25 member countries are evaluated blindly by international Q-graders using standardized cupping protocols. Top-scoring lots receive official certification and serial numbers, then sell through AFCA's auction platform to specialty buyers at premium prices.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How many samples did Ethiopia submit to the 2026 Taste of Harvest competition?</h4>
-            <p className="text-sm text-gray-600">Ethiopia submitted 226 coffee samples to the 2026 AFCA Taste of Harvest competition, representing diverse origins and processing methods from across the country's major coffee-growing regions.</p>
+            <h3 className="font-bold text-gray-800 mb-2">How many samples did Ethiopia submit to the 2026 Taste of Harvest competition?</h3>
+            <p className="text-sm text-gray-600">Ethiopia submitted 226 coffee samples to the 2026 AFCA Taste of Harvest competition, spanning four processing categories: 100 natural, 43 washed, 37 honey, and 46 experimental. These samples came from producers, cooperatives, and exporters across Ethiopia's major coffee-growing regions, representing the country's full range of origins and processing innovation.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How are coffees evaluated in the AFCA Taste of Harvest?</h4>
-            <p className="text-sm text-gray-600">Coffees are evaluated by certified Q-graders and international judges using the SCA cupping protocol. Scores are based on fragrance, flavor, aftertaste, acidity, body, balance, uniformity, sweetness, clean cup, and overall impression.</p>
+            <h3 className="font-bold text-gray-800 mb-2">How are coffees evaluated in the AFCA Taste of Harvest?</h3>
+            <p className="text-sm text-gray-600">Coffees are evaluated blindly by certified Q-graders and international judges using the SCA cupping protocol. Each sample is scored across ten attributes: fragrance/aroma, flavor, aftertaste, acidity, body, balance, uniformity, sweetness, clean cup, and overall impression. Multiple judges evaluate each coffee independently, with calibration sessions to ensure scoring consistency across the panel.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Can international buyers purchase AFCA award-winning Ethiopian coffee?</h4>
-            <p className="text-sm text-gray-600">Yes. Winning lots from the Taste of Harvest competition are sold through AFCA's online auction platform, giving international roasters and importers direct access to top-scoring African coffees at market-driven prices.</p>
+            <h3 className="font-bold text-gray-800 mb-2">Can international buyers purchase AFCA award-winning Ethiopian coffee?</h3>
+            <p className="text-sm text-gray-600">Yes. Winning lots from the Taste of Harvest competition are listed on AFCA's online auction platform with full cupping profiles, origin data, and certification serial numbers. International roasters and importers register on the platform, review lot details, and submit competitive bids. This gives buyers direct access to top-scoring African coffees at transparent, market-driven prices.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What role does Ethiopia play in AFCA coffee competitions?</h4>
-            <p className="text-sm text-gray-600">Ethiopia is one of the largest and most consistent participants in AFCA competitions. The country leverages its genetic diversity, established cupping infrastructure, and growing number of Q-graders to submit competitive entries across multiple categories.</p>
+            <h3 className="font-bold text-gray-800 mb-2">What role does Ethiopia play in AFCA coffee competitions?</h3>
+            <p className="text-sm text-gray-600">Ethiopia is one of the largest and most consistent participants in AFCA competitions. The country draws on its unmatched genetic diversity, well-established cupping infrastructure, and growing number of certified Q-graders to submit highly competitive entries across multiple processing categories each year.</p>
           </div>
         </div>
       </section>
 
       {/* CONCLUSION & CTA */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>
           Conclusion: Competition Success Drives Coffee Excellence
         </h4>
@@ -890,9 +901,9 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       </div>
 
       {/* KEY TAKEAWAYS */}
-      <h3 className='text-2xl font-extrabold mt-10 mb-4'>
+      <h2 className='text-2xl font-extrabold mt-10 mb-4'>
         Key Takeaways
-      </h3>
+      </h2>
       <div className='my-6 space-y-3'>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
@@ -968,16 +979,22 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </ul>
         <div className='flex flex-wrap gap-4'>
           <Link 
-            href="/contact-us" 
+            href="/offerings" 
             className='bg-white text-amber-900 px-6 py-3 rounded-lg font-bold hover:bg-amber-100 transition-colors inline-block'
           >
-            Inquire About Competition-Grade Coffee
+            View Current Offerings
           </Link>
           <Link 
-            href="/offerings" 
+            href="/contact-us" 
             className='border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block'
           >
-            View Current Offerings
+            Request Samples
+          </Link>
+          <Link 
+            href="/ordering-info" 
+            className='border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block'
+          >
+            How to Order
           </Link>
         </div>
       </div>

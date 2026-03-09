@@ -344,16 +344,7 @@ export default function EthiopianCoffeeCeremony({ title, date, large_image_url }
             <h4 className='font-semibold mb-2 text-sm'>Quality & Grading</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Coffee</Link></li>
-              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control and Grading</Link></li>
               <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className='font-semibold mb-2 text-sm'>Trade & Export</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
-              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage and Freight</Link></li>
             </ul>
           </div>
         </div>

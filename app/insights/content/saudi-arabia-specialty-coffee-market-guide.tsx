@@ -40,7 +40,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         <span className='ml-2'>Market Analysis / Saudi Arabia Coffee / Export Strategy / B2B Intelligence</span>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
           Key Takeaway

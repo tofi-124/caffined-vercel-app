@@ -48,6 +48,13 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          The Sidama region of Ethiopia is achieving over 10 quintals (1,000 kg) per hectare in coffee productivity, with 176,000 hectares under cultivation and a seasonal target of 239,000 tons. For international buyers, Sidama offers high-quality washed and natural lots backed by strong cooperative infrastructure and expanding direct export licensing for smallholder farmers.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Regional Coffee / Sidama / Production & Export</span>
@@ -58,7 +65,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
       {/* Introduction */}
       <section className="prose prose-lg max-w-none space-y-4">
         <p className="text-lg leading-relaxed">
-          The Sidama region of Ethiopia, one of the country's most productive and renowned coffee-growing areas, is achieving remarkable agricultural success with <strong>average productivity exceeding 10 quintals (1,000 kg) per hectare</strong> in the 2025-2026 production season. This represents exceptional performance in Ethiopian coffee production, where national averages have historically been significantly lower.
+          The Sidama region of Ethiopia, one of the country's most productive and renowned coffee-growing areas, is achieving outstanding agricultural success with <strong>average productivity exceeding 10 quintals (1,000 kg) per hectare</strong> in the 2025-2026 production season. This represents exceptional performance in Ethiopian coffee production, where national averages have historically been significantly lower.
         </p>
         
         <p className="text-lg leading-relaxed">
@@ -66,7 +73,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         </p>
 
         <p className="text-lg leading-relaxed">
-          This comprehensive guide explores Sidama region's coffee production landscape, the factors driving exceptional productivity, farmer cluster organization strategies, agricultural improvement initiatives, new direct export licensing opportunities for smallholder farmers, and what international buyers should understand about sourcing from this premier Ethiopian coffee region.
+          This comprehensive guide explores Sidama region's coffee production environment, the factors driving exceptional productivity, farmer cluster organization strategies, agricultural improvement initiatives, new direct export licensing opportunities for smallholder farmers, and what international buyers should understand about sourcing from this premier Ethiopian coffee region.
         </p>
       </section>
 
@@ -397,7 +404,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         </div>
 
         <p className="text-lg leading-relaxed">
-          The integrated approach to agricultural modernization-combining pruning, variety improvement, and organic soil management-addresses multiple productivity constraints simultaneously. This holistic strategy is key to Sidama region's achievement of 10+ quintals per hectare average productivity.
+          The integrated approach to agricultural modernization-combining pruning, variety improvement, and organic soil management-addresses multiple productivity constraints simultaneously. This comprehensive strategy is key to Sidama region's achievement of 10+ quintals per hectare average productivity.
         </p>
       </section>
 
@@ -757,27 +764,29 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         </section>
 
         {/* Related Resources */}
-        <div className="bg-gray-50 p-8 rounded-lg border border-gray-200">
+        <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
           <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/insights/guide-ethiopian-coffee-origins" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> A Practical Guide to Ethiopian Green Coffee Origins
-            </Link>
-            <Link href="/insights/ethiopian-dry-coffee-production-quality-control" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Dry Coffee Production: Quality Control & Processing Guide
-            </Link>
-            <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Yirgacheffe vs Sidamo vs Guji: Which Ethiopian Coffee Is Right for You?
-            </Link>
-            <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Washed vs Natural Processed Ethiopian Coffee: What Roasters Need to Know
-            </Link>
-            <Link href="/insights/green-coffee-quality-control-defects-grading" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Quality Control: Defects, Grading Systems & Inspection Guide
-            </Link>
-            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-green-700 hover:text-green-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> The Ethiopia Commodity Exchange (ECX) and Ethiopian Coffee Export
-            </Link>
+          <div className='grid md:grid-cols-2 gap-4'>
+            <div>
+              <h4 className='font-semibold mb-2 text-sm'>Origins & Production</h4>
+              <ul className='space-y-1 text-sm'>
+                <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+                <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+                <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+                <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+                <li>• <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Washing Stations Guide</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className='font-semibold mb-2 text-sm'>Processing & Export</h4>
+              <ul className='space-y-1 text-sm'>
+                <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+                <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Ethiopian Dry Coffee Production QC</Link></li>
+                <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+                <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+                <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

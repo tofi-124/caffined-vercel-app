@@ -54,7 +54,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0' /> Key Takeaway
         </p>
@@ -546,17 +546,6 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Micro-Lot Ethiopian Coffee: Sourcing &amp; Pricing</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability: Buyer's Guide</Link></li>
-              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Coffee Samples</Link></li>
-              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality: Defects &amp; Grading</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className='font-semibold mb-2 text-sm text-gray-500 uppercase tracking-wide'>Import Country Guides</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Canada</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the UK</Link></li>
             </ul>
           </div>
         </div>

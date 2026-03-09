@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineArrowTrendingUp, HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineBeaker, HiOutlineBuildingLibrary, HiOutlineUserGroup } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineBeaker, HiOutlineBuildingLibrary, HiOutlineUserGroup, HiOutlineLightBulb, HiOutlineClipboardDocumentList, HiOutlineQuestionMarkCircle } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -41,22 +41,69 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
       </div>
       
       <p className='my-4'>
-        In the modern coffee industry, "tasting" has evolved from a subjective art into a rigorous, calibrated science. For professionals seeking to advance their careers, attending a top-tier <span className='font-bold'>cupping school</span> is no longer optional; it is a strategic necessity. Whether you are a green buyer managing million-dollar contracts or a head roaster defining a brand&apos;s flavor signature, the ability to objectively quantify quality is the currency of the trade.
+        In the modern coffee industry, "tasting" has evolved from a subjective art into a rigorous, calibrated science. For professionals seeking to advance their careers, attending a top-tier <span className='font-bold'>cupping school</span> is no longer optional; it is a strategic necessity. For green buyers managing million-dollar contracts and head roasters defining a brand&apos;s flavor signature, the ability to objectively quantify quality is the currency of the trade.
       </p>
 
       <p className='my-4'>
         This comprehensive guide analyzes the world&apos;s most prestigious sensory training institutions. We move beyond basic workshops to identify the "Ivy League" of coffee education: academies that offer <a href="https://www.coffeeinstitute.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Q Grader certification</a>, scientific sensory research, and direct access to industry legends.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineArrowTrendingUp className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Market Reality:</span> The global specialty coffee market is projected to reach $152.69 billion by 2030. In this high-stakes environment, the <a href="https://education.sca.coffee/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline underline-offset-4">SCA Sensory Skills</a> diploma and Q Grader license have become the de facto prerequisites for high-level buying and quality control positions.</span>
+      {/* FURTHER READING / AUTHORITATIVE LINKS */}
+      <div className='my-4 text-sm text-gray-700'>
+        <p className='font-semibold mb-1'>Further reading:</p>
+        <ul className='list-disc ml-5 space-y-1'>
+          <li>
+            <a href='https://www.coffeeinstitute.org/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Coffee Quality Institute (CQI)</a> - manages the Q Grader certification program and global quality standards.
+          </li>
+          <li>
+            <a href='https://education.sca.coffee/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>SCA Coffee Skills Program</a> - modular education system including the Sensory Skills pathway.
+          </li>
+          <li>
+            <a href='https://allianceforcoffeeexcellence.org/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Alliance for Coffee Excellence (ACE)</a> - Cup of Excellence competitions and Sensory Educational Training courses.
+          </li>
+        </ul>
+      </div>
+
+      {/* KEY TAKEAWAY BOX */}
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
+        <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
+          Key Takeaway
+        </h3>
+        <p className='text-sm leading-relaxed'>
+          The two credentials that matter most for green coffee professionals are the <strong>SCA Sensory Skills diploma</strong> (ideal for roasters and baristas building a career) and the <strong>CQI Q Grader license</strong> (the standard for traders, exporters, and quality control managers). With the global specialty coffee market projected to reach $152.69 billion by 2030, these certifications have become de facto prerequisites for high-level buying and QC positions. The school you choose should align with your specific career path: scientific rigor, commercial trading networks, or competition-level calibration.
         </p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineBuildingLibrary className='inline mr-2' />
+      {/* TABLE OF CONTENTS */}
+      <div className='bg-gray-50 p-6 rounded-lg my-8 border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
+          <HiOutlineClipboardDocumentList className='text-amber-600' />
+          What This Guide Covers
+        </h3>
+        <div className='grid md:grid-cols-2 gap-x-8 gap-y-2'>
+          <div>
+            <p className='font-bold text-sm mb-2'>Schools & Credentials</p>
+            <ul className='space-y-1.5 text-sm'>
+              <li><a href="#accrediting-bodies" className='text-amber-700 hover:underline'>The &quot;Big Two&quot; Accrediting Bodies</a></li>
+              <li><a href="#top-schools" className='text-amber-700 hover:underline'>Top Tier: The World&apos;s Best Cupping Schools</a></li>
+              <li><a href="#curriculum" className='text-amber-700 hover:underline'>Anatomy of a World-Class Curriculum</a></li>
+            </ul>
+          </div>
+          <div>
+            <p className='font-bold text-sm mb-2'>Practical Decisions</p>
+            <ul className='space-y-1.5 text-sm'>
+              <li><a href="#hybrid-model" className='text-amber-700 hover:underline'>Online vs. In-Person: The New Hybrid Model</a></li>
+              <li><a href="#roi" className='text-amber-700 hover:underline'>Strategic ROI: Is it Worth the Investment?</a></li>
+              <li><a href="#choosing-school" className='text-amber-700 hover:underline'>Which Cupping School Is Right for You?</a></li>
+              <li><a href="#faq" className='text-amber-700 hover:underline'>Frequently Asked Questions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h3 id="accrediting-bodies" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineBuildingLibrary className='text-amber-600 flex-shrink-0' />
         The "Big Two" Accrediting Bodies
       </h3>
       
@@ -90,8 +137,8 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineGlobeAlt className='inline mr-2' />
+      <h3 id="top-schools" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineGlobeAlt className='text-amber-600 flex-shrink-0' />
         Top Tier: The World's Best Cupping Schools
       </h3>
       
@@ -99,11 +146,11 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         Based on facility quality, instructor reputation, and alumni success, these are the premier destinations for sensory training globally.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 text-dark border-b pb-2 border-gray-200'>
+      <h4 className='text-2xl font-bold mt-8 mb-4'>
         1. Boot Coffee Campus (San Rafael, California, USA)
       </h4>
       <p className='my-4'>
-        Led by industry pioneer <span className='font-bold'>Willem Boot</span>, this campus is arguably the most famous training ground in North America. Known for its rigorous "Coffee Roasting Lab PRO" and "Evolved Q Grader" courses, Boot Coffee combines Dutch technical precision with American specialty coffee culture.
+        Led by industry pioneer <span className='font-bold'>Willem Boot</span>, this campus is the most recognized training ground in North America. Known for its rigorous "Coffee Roasting Lab PRO" and "Evolved Q Grader" courses, Boot Coffee combines Dutch technical precision with American specialty coffee culture.
       </p>
       <ul className='my-4 list-disc ml-5 space-y-2'>
         <li><span className='font-bold'>Specialty:</span> High-end Geisha evaluation and processing-defect identification.</li>
@@ -111,7 +158,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         <li><span className='font-bold'>Website:</span> <a href="https://bootcoffee.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">bootcoffee.com</a></li>
       </ul>
 
-      <h4 className='text-xl font-bold mt-6 text-dark border-b pb-2 border-gray-200'>
+      <h4 className='text-2xl font-bold mt-8 mb-4'>
         2. CoffeeMind (Copenhagen, Denmark)
       </h4>
       <p className='my-4'>
@@ -123,7 +170,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         <li><span className='font-bold'>Website:</span> <a href="https://coffee-mind.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">coffee-mind.com</a></li>
       </ul>
 
-      <h4 className='text-xl font-bold mt-6 text-dark border-b pb-2 border-gray-200'>
+      <h4 className='text-2xl font-bold mt-8 mb-4'>
         3. London School of Coffee (London, UK)
       </h4>
       <p className='my-4'>
@@ -135,7 +182,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         <li><span className='font-bold'>Website:</span> <a href="https://londonschoolofcoffee.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">londonschoolofcoffee.com</a></li>
       </ul>
 
-      <h4 className='text-xl font-bold mt-6 text-dark border-b pb-2 border-gray-200'>
+      <h4 className='text-2xl font-bold mt-8 mb-4'>
         4. Academy of Coffee Excellence (Williamsburg, VA, USA)
       </h4>
       <p className='my-4'>
@@ -146,7 +193,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         <li><span className='font-bold'>Why it's elite:</span> The facility is engineered for neutrality, with specialized lighting and humidity controls to create the perfect cupping environment.</li>
       </ul>
 
-      <h4 className='text-xl font-bold mt-6 text-dark border-b pb-2 border-gray-200'>
+      <h4 className='text-2xl font-bold mt-8 mb-4'>
         5. Cup of Excellence (SET Courses - Global/Roaming)
       </h4>
       <p className='my-4'>
@@ -157,8 +204,8 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         <li><span className='font-bold'>Benefit:</span> Taught by actual COE Head Judges, providing insight into the world&apos;s toughest competition standards.</li>
       </ul>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineBeaker className='inline mr-2' />
+      <h3 id="curriculum" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineBeaker className='text-amber-600 flex-shrink-0' />
         Anatomy of a World-Class Curriculum
       </h3>
       
@@ -196,13 +243,13 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineChartBar className='inline mr-2' />
+      <h3 id="hybrid-model" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineChartBar className='text-amber-600 flex-shrink-0' />
         Online vs. In-Person: The New Hybrid Model
       </h3>
       
       <p className='my-4'>
-        Post-pandemic, the landscape of sensory education has shifted. While Q Grader certification requires physical attendance for exams, schools like <span className='font-bold'>CoffeeMind</span> and <span className='font-bold'>Boot Coffee</span> have pioneered hybrid models.
+        Post-pandemic, the sensory education market has shifted. While Q Grader certification requires physical attendance for exams, schools like <span className='font-bold'>CoffeeMind</span> and <span className='font-bold'>Boot Coffee</span> have pioneered hybrid models.
       </p>
 
       <div className='grid md:grid-cols-2 gap-4 my-6'>
@@ -224,8 +271,8 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineUserGroup className='inline mr-2' />
+      <h3 id="roi" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineUserGroup className='text-amber-600 flex-shrink-0' />
         Strategic ROI: Is it Worth the Investment?
       </h3>
       
@@ -239,7 +286,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
         <li><span className='font-bold'>Consultancy Rates:</span> Independent sensory consultants charge $500-$1,500 per day for blend development and QC system design.</li>
       </ul>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
+      <h3 id="choosing-school" className='text-3xl font-extrabold mt-12 mb-6'>
         Which Coffee Cupping School Is Right for You?
       </h3>
       
@@ -256,7 +303,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
       </p>
 
       {/* FAQ SECTION */}
-      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+      <section id="faq" className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
         <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Coffee Cupping Schools and Q Grader Certification</h3>
         <div className="space-y-6">
           <div>
@@ -279,13 +326,13 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
       </section>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Ready to Explore the Origin?</h4>
+        <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> offers personalized consultations on trips to the origin after your coffee education journey. Experience Ethiopian coffee firsthand.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> connects importers and roasters with traceable Ethiopian specialty lots. Request pre-shipment samples, review current availability across Yirgacheffe, Guji, Sidamo, and other origins, and put your cupping training to work evaluating coffees sourced through our trusted network.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Samples / Contact Us</Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
@@ -297,17 +344,21 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Quality & Evaluation</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
-              <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
-              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Coffee Samples</Link></li>
+              <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment System</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control, Defects, and Grading</Link></li>
+              <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Science: Analysis, Compounds, and Evaluation</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Export</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
-              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Complete Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and the Ethiopian Coffee Export System</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts and Payment Terms</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties and Landraces</Link></li>
             </ul>
           </div>
         </div>
@@ -315,7 +366,7 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide reviews the world&apos;s best cupping schools and training programs to help coffee professionals elevate their palate and career.
+          <span className='font-bold'>About This Insight:</span> This guide to the world&apos;s best cupping schools and sensory training programs is published by Ethio Coffee Export PLC. Course offerings, pricing, and certification requirements change. Contact us or the listed institutions for current information before enrolling.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

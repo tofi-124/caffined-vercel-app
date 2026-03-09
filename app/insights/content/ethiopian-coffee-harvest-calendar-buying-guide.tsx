@@ -76,7 +76,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
       </div>
 
       {/* KEY TAKEAWAY BOX */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
           Key Takeaway
@@ -415,7 +415,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold mb-2 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
           ECX vs Direct Trade: Timing Difference
@@ -689,7 +689,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Plan Your Ethiopian Coffee Purchases with Confidence</h4>
         <p className='my-2'>
-          As your <span className='font-bold'>Ethiopian coffee exporter</span>, <span className='font-bold'>Ethio Coffee Export PLC</span> provides harvest updates, pre-shipment samples, and flexible contract terms across all six major Ethiopian coffee regions. Whether you are sourcing a single container or building a year-round supply program, we help you align your buying calendar with the freshest available lots.
+          As your <span className='font-bold'>Ethiopian coffee exporter</span>, <span className='font-bold'>Ethio Coffee Export PLC</span> provides harvest updates, pre-shipment samples, and flexible contract terms across all six major Ethiopian coffee regions. From sourcing a single container to building a year-round supply program, we help you align your buying calendar with the freshest available lots.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Current Offerings</Link>
@@ -716,8 +716,6 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee FOB Pricing Guide</Link></li>
               <li><Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Contracts &amp; Payment Terms</Link></li>
-              <li><Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> How to Source from Ethiopia</Link></li>
-              <li><Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Choosing an Ethiopian Exporter</Link></li>
             </ul>
           </div>
           <div>
@@ -725,7 +723,6 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Coffee Storage &amp; Freight Logistics</Link></li>
               <li><Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Shelf Life &amp; Storage</Link></li>
-              <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> ECX and Ethiopian Coffee Export</Link></li>
             </ul>
           </div>
           <div>
@@ -733,7 +730,6 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Rising Ethiopian Coffee Prices Explained</Link></li>
               <li><Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Climate Change Impact on Ethiopian Coffee</Link></li>
-              <li><Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Specialty Coffee Trends 2026</Link></li>
             </ul>
           </div>
         </div>

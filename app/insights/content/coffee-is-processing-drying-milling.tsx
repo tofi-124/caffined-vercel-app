@@ -36,13 +36,13 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: The Art and Science of Coffee Processing</h2>
           <p className='my-4'>
-            Welcome to the third installment of our "Coffee Is" series, exploring coffee through its various dimensions. In this chapter, we delve into coffee processing, the transformative steps that turn freshly harvested coffee cherries into the green beans ready for roasting and brewing.
+            Two identical lots of Ethiopian coffee, harvested on the same day from the same washing station, can taste completely different depending on how they are processed. This third installment of our &quot;Coffee Is&quot; series examines coffee processing: the post-harvest steps that turn freshly picked cherries into export-ready green beans.
           </p>
           <p className='my-4'>
-            Coffee processing is where science meets artistry, where microbial activity, mechanical operations, and human decisions shape the final flavor profile. From the ancient natural methods in Ethiopia to modern controlled fermentations, processing determines much of what ends up in your cup.
+            Processing is where microbial activity, mechanical operations, and human decisions shape the final flavor profile. Whether a producer chooses washed, honey, or natural methods (and increasingly, experimental fermentation techniques), each decision at this stage directly affects acidity, sweetness, body, and complexity in the cup.
           </p>
           <p className='my-4'>
-            Understanding coffee processing reveals the infinite variables that make each coffee unique, highlighting the creativity and experimentation in specialty coffee production.
+            For green coffee buyers and roasters, understanding processing is essential. It explains why a washed Yirgacheffe tastes clean and floral while a natural Guji bursts with berry and wine notes, and it helps you evaluate lot quality beyond cupping scores alone.
           </p>
 
           <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
@@ -57,9 +57,15 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
             </div>
           </div>
 
-          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+          <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
             <p className='font-medium'>
-              <span className='font-bold'>In this article:</span> We break down core processing methods, fermentation science, drying strategies, and milling decisions   with a practical case study from Ethiopian naturals and notes on how these choices map to cup profile.
+              <span className='font-bold'>Key Takeaway:</span> Coffee processing (washed, honey, natural) determines a large share of what you taste in the cup. For buyers, requesting specific processing details (fermentation type, drying method, moisture targets) is as important as asking for cupping scores. These variables explain most of the flavor differences between similarly graded lots.
+            </p>
+          </div>
+
+          <div className='bg-gray-100 p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              <span className='font-bold'>In this article:</span> We break down core processing methods, fermentation science, drying strategies, and milling decisions, with a practical case study from Ethiopian naturals and notes on how these choices map to cup profile.
             </p>
           </div>
 
@@ -156,10 +162,10 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Case Study: Guji Natural Processing</h3>
           <p className='my-4'>
-            Many Guji producers dry whole cherries on raised beds for 2–3 weeks. Typical handling includes frequent turning during the first 10 days, slower turns as sugars concentrate, and careful sorting to remove over-fermented fruit. The result is often a layered cup with strawberry, black tea, and molasses notes   a useful concrete example of how drying technique affects aroma and sweetness.
+            Many Guji producers dry whole cherries on raised beds for 2 to 3 weeks. Typical handling includes frequent turning during the first 10 days, slower turns as sugars concentrate, and careful sorting to remove over-fermented fruit. The result is often a layered cup with strawberry, black tea, and molasses notes, a useful concrete example of how drying technique affects aroma and sweetness.
           </p>
           <p className='my-4'>
-            Practical tip: When evaluating natural-processed lots, ask for a detailed drying log (days on bed, average sun hours, and sorting regimes)   these details often explain differences between similarly scored lots.
+            Practical tip: When evaluating natural-processed lots, ask for a detailed drying log (days on bed, average sun hours, and sorting regimes). These details often explain differences between similarly scored lots.
           </p>
           <p className='my-4'>
             If you're buying, pair this with our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-bold'>complete buyer's guide</Link> to understand sourcing and quality checks at origin.
@@ -234,10 +240,10 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
             <li><strong>Sorting yield:</strong> % of lot passing initial QA at day 10 and day 20</li>
           </ul>
           <p className='my-4'>
-            Coffee processing is a testament to the beverage's complexity, where biological processes, human creativity, and environmental factors converge to create unique flavor experiences. From traditional Ethiopian naturals to experimental anaerobic fermentations, processing showcases the endless innovation in specialty coffee.
+            Coffee processing is a testament to the complexity of this product, where biological processes, human creativity, and environmental factors converge to shape unique flavor experiences. From traditional Ethiopian naturals to experimental anaerobic fermentations, processing showcases the depth of innovation in specialty coffee.
           </p>
           <p className='my-4'>
-            At Ethio Coffee, we celebrate this diversity by sourcing coffees processed with care and expertise, ensuring exceptional quality from cherry to cup.
+            At Ethio Coffee Export PLC, we source processed coffees through our trusted network of cooperatives and washing stations across Ethiopia&apos;s coffee regions, applying three decades of heritage sourcing relationships to ensure exceptional quality from cherry to cup.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Continue Your Coffee Education</h3>
@@ -250,10 +256,37 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
             <li><Link href='/insights/coffee-is-art-roasting-brewing' className='underline font-bold'>Coffee Is Art</Link> - How roasters and baristas unlock processing&apos;s flavor potential</li>
           </ul>
 
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Frequently Asked Questions</h2>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is the difference between washed, honey, and natural coffee processing?</h3>
+          <p className='my-4'>
+            Washed processing removes all fruit before drying, producing clean and bright cups. Honey processing removes the skin but leaves some mucilage, adding sweetness and body. Natural processing dries the whole cherry intact, yielding bold, fruity, and wine-like flavors. Each method shapes acidity, sweetness, and complexity differently.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>How long does coffee drying take?</h3>
+          <p className='my-4'>
+            Drying duration depends on the processing method and climate. Washed coffees typically dry in 10 to 14 days on raised beds. Honey-processed coffees take 2 to 4 weeks due to retained mucilage. Natural coffees need 3 to 4 weeks since the entire cherry must dry evenly to reach 9-14% moisture.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is anaerobic coffee processing?</h3>
+          <p className='my-4'>
+            Anaerobic processing ferments coffee in sealed, oxygen-free containers. Without oxygen, different microbial communities dominate, producing distinct acids and aromatic compounds. The result is often a more intense, complex cup with unusual flavor notes. It can be applied to washed, honey, or natural methods.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Why does processing affect coffee flavor so much?</h3>
+          <p className='my-4'>
+            Processing determines which fruit sugars, acids, and aromatic precursors remain in contact with the seed during drying and fermentation. More retained fruit (natural, honey) means more sugar infusion and fermentation-derived complexity. Less fruit (washed) lets the seed&apos;s inherent chemical profile express itself with clarity.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What should buyers ask about when evaluating processed lots?</h3>
+          <p className='my-4'>
+            Request the processing method, fermentation type and duration, drying method (raised bed vs. patio), days to target moisture, final moisture percentage, and any sorting or grading details. These specifics predict cup quality and explain flavor differences between similarly scored lots.
+          </p>
+
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-            <h4 className='font-bold text-xl mb-3'>Explore Our Processing Methods</h4>
+            <h4 className='font-bold text-xl mb-3'>Source Specialty Ethiopian Coffee by Processing Method</h4>
             <p className='my-2'>
-              At <span className='font-bold'>Ethio Coffee Export PLC</span>, discover how processing influences flavor in our Ethiopian coffees. Contact us to explore our range of washed, honey, and natural-processed offerings.
+              <span className='font-bold'>Ethio Coffee Export PLC</span> offers washed, honey, and natural-processed Ethiopian green coffees with full processing documentation. Request samples or a current offer sheet to compare methods side by side.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -269,17 +302,26 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
               <div>
                 <h4 className='font-semibold mb-2 text-sm'>Coffee Journey Series</h4>
                 <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>Coffee Plant Taxonomy, Species & Varieties</Link></li>
                   <li>• <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline'>Coffee Is Agriculture: Production & Farming</Link></li>
-                  <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Is Science: Analysis & Evaluation</Link></li>
                   <li>• <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='text-amber-700 hover:underline'>Coffee Is Commerce: Exporting & Importing</Link></li>
+                  <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Is Science: Analysis & Evaluation</Link></li>
                   <li>• <Link href='/insights/coffee-is-art-roasting-brewing' className='text-amber-700 hover:underline'>Coffee Is Art: Roasting & Brewing</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className='font-semibold mb-2 text-sm'>Related Reading</h4>
+                <h4 className='font-semibold mb-2 text-sm'>Processing & Quality</h4>
                 <ul className='space-y-1 text-sm'>
                   <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
                   <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Ethiopian Dry Coffee Production & Quality Control</Link></li>
+                  <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+                  <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
                 </ul>
               </div>
             </div>
@@ -287,7 +329,7 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> This article draws from educational materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center research, and various genetic studies on Coffea arabica phylogenetics.
+              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Export PLC. This article draws from SCA processing standards, specialty coffee trade publications, and our direct experience with Ethiopian processing methods. For current offerings or processing-specific requests, <Link href='/contact-us' className='underline'>contact us directly</Link>.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

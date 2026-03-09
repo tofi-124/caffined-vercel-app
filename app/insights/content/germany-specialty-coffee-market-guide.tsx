@@ -40,7 +40,7 @@ export default function GermanySpecialtyCoffeeMarketGuide({ title, date, large_i
         <span className='ml-2'>Market Analysis / German Coffee Market / Export Strategy / B2B Intelligence</span>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
           Key Takeaway
@@ -651,15 +651,12 @@ export default function GermanySpecialtyCoffeeMarketGuide({ title, date, large_i
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Landed Cost Guide</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Contracts &amp; Payment Terms</Link></li>
-              <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Quality &amp; Origins</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Varieties Guide</Link></li>
-              <li>&bull; <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Certifications Guide</Link></li>
             </ul>
           </div>
@@ -667,9 +664,6 @@ export default function GermanySpecialtyCoffeeMarketGuide({ title, date, large_i
             <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Export</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Exporter</Link></li>
-              <li>&bull; <Link href='/insights/certified-organic-coffee-bean-exporters-bulk-orders' className='text-amber-700 hover:underline'>Organic Exporters: Bulk Guide</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Traceability Guide</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Export Process: Buyer&apos;s Guide</Link></li>
             </ul>
           </div>
         </div>

@@ -41,14 +41,14 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       </div>
       
       <p className='my-4'>
-        The United States is one of the world&apos;s largest coffee consumers, and Ethiopian specialty coffee has become increasingly popular among American roasters and consumers. Whether you&apos;re a specialty roaster, importer, or coffee entrepreneur, understanding how to import Ethiopian coffee to the US is essential for building a successful supply chain.
+        The United States is one of the world&apos;s largest coffee consumers, and Ethiopian specialty coffee has become increasingly popular among American roasters and consumers. For specialty roasters, importers, and coffee entrepreneurs, understanding how to import Ethiopian coffee to the US is essential for building a successful supply chain.
       </p>
 
       <p className='my-4'>
         This comprehensive guide walks through every step of the import process, from finding an <span className='font-bold'>Ethiopian coffee exporter</span> like <span className='font-bold'>Ethio Coffee</span> to clearing US customs and storing green beans in your warehouse.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Importing Ethiopian coffee to the United States is straightforward when you understand FDA regulations, have the right documentation, and work with an experienced Ethiopian coffee export partner. No import licenses required for green coffee.</span>
@@ -156,7 +156,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Pro Tip:</span> Work with an experienced customs broker for your first few shipments. They handle documentation, customs clearance, and ensure compliance with US regulations. Cost is typically $150-400 per container.</p>
       </div>
 
@@ -289,7 +289,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         <p className='text-sm mt-4 text-gray-600'><span className='font-bold'>Total Additional Costs:</span> Approximately $4,900 - $9,600 on top of FOB price, depending on port, distance, and service providers.</p>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Landed Cost Example:</span> FOB price $4.50/lb × 18,000 kg (39,683 lbs) = $178,573 + $6,000 logistics = $184,573 / 39,683 lbs = <span className='font-bold'>$4.65/lb landed cost</span></p>
       </div>
 
@@ -486,7 +486,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
           <span className='font-bold'>Ethio Coffee Export PLC</span> specializes in Ethiopian coffee export to the US market. We provide speciality Yirgacheffe, Sidamo, Guji, and other origins with complete documentation, competitive FOB pricing, and the responsive service American importers expect.
         </p>
         <p className='my-2'>
-          Whether you&apos;re importing your first container or looking for a more reliable Ethiopian partner, we make the process transparent and hassle-free.
+          For first-time importers and those seeking a more reliable Ethiopian partner, we make the process transparent and hassle-free.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

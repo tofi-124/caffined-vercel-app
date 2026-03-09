@@ -57,7 +57,7 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
         For importers, roasters, and green coffee buyers, the question is not just "which coffee costs the most?" The real question is: what makes certain coffees command extreme premiums, and where does genuine value separate from hype? This article ranks the most expensive coffees in the world by verifiable market price, then examines the five factors that drive premium pricing. It closes with an exporter&apos;s perspective on sourcing high-value coffee from Ethiopia, the origin where many of the world&apos;s priciest genetics trace their roots.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> The most expensive coffee in the world is not always the best coffee. Price is driven by five factors: production scarcity, processing innovation, genetic rarity, traceability/story, and competition auction results. Ethiopian coffees, especially Gesha and high-scoring heirloom micro-lots, consistently rank among the world&apos;s most valuable because Ethiopia offers unmatched genetic diversity, high-altitude terroir, and centuries of coffee culture.</span>
@@ -441,7 +441,7 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
         The sweet spot for professional buyers lies in coffees where price reflects measurable quality: competition-scored lots from Ethiopia, Colombia, Kenya, and Central America, where SCA cupping protocols provide objective benchmarks. Here, the relationship between price and cup quality is transparent and verifiable.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Bottom line for buyers:</span> If you want the world&apos;s most expensive coffee for marketing value, buy Gesha or Black Ivory. If you want the best quality-to-price ratio at the premium end, Ethiopian competition lots and high-scoring heirloom micro-lots are the answer. Both strategies are valid; the key is knowing what you&apos;re paying for.</span>
@@ -506,7 +506,7 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
         <div className='border-l-4 border-amber-400 pl-4'>
           <h3 className='font-bold text-lg'>How much does Gesha coffee cost?</h3>
           <p className='my-2 text-sm'>
-            Gesha (also spelled Geisha) varies widely. Commercial-grade Gesha from several origins can sell for $50 to $100/kg green. Competition-winning Gesha lots from Panama have reached over $6,000/kg at auction. Ethiopian-origin Gesha typically trades at $40 to $200/kg green, offering arguably the best value given the variety&apos;s ancestral terroir.
+            Gesha (also spelled Geisha) varies widely. Commercial-grade Gesha from several origins can sell for $50 to $100/kg green. Competition-winning Gesha lots from Panama have reached over $6,000/kg at auction. Ethiopian-origin Gesha typically trades at $40 to $200/kg green, offering what many consider the best value given the variety&apos;s ancestral terroir.
           </p>
         </div>
 

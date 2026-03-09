@@ -51,7 +51,7 @@ export default function GreenCoffeeShelfLifeStorageGuide({ title, date, large_im
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Green coffee shelf life ranges from 6 to 12 months under standard jute bag storage and up to 18 to 24 months with hermetic packaging (GrainPro, Ecotact). The two variables that matter most are moisture content (target 10 to 12%) and water activity (target below 0.60 aw). Washed Ethiopian coffees are more stable in storage than naturals because of lower residual sugar and lipid surface exposure. Store at 15 to 25&#176;C, 50 to 65% relative humidity, away from direct light and strong odors.</span>
@@ -101,7 +101,7 @@ export default function GreenCoffeeShelfLifeStorageGuide({ title, date, large_im
       </p>
 
       <p className='my-4'>
-        The practical answer is more nuanced. Shelf life depends on five interacting factors: initial moisture content, processing method, packaging type, storage environment, and the quality threshold you are willing to accept. A natural processed Ethiopian coffee stored in jute at 28&#176;C and 75% humidity will taste noticeably degraded within four months. The same coffee in a GrainPro liner at 18&#176;C and 55% humidity can hold its cup profile for 14 to 18 months.
+        The practical answer is more complex. Shelf life depends on five interacting factors: initial moisture content, processing method, packaging type, storage environment, and the quality threshold you are willing to accept. A natural processed Ethiopian coffee stored in jute at 28&#176;C and 75% humidity will taste noticeably degraded within four months. The same coffee in a GrainPro liner at 18&#176;C and 55% humidity can hold its cup profile for 14 to 18 months.
       </p>
 
       <div className='overflow-x-auto my-6'>
@@ -578,8 +578,6 @@ export default function GreenCoffeeShelfLifeStorageGuide({ title, date, large_im
             <h4 className='font-semibold mb-2 text-sm'>Origins &amp; Varieties</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Green Coffee Origins</Link></li>
-              <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Compared</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Ethiopian Coffee Varieties</Link></li>
             </ul>
           </div>
           <div>
@@ -588,14 +586,11 @@ export default function GreenCoffeeShelfLifeStorageGuide({ title, date, large_im
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
               <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide for Importers</Link></li>
-              <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Market &amp; Industry</h4>
             <ul className='space-y-1 text-sm'>
-              <li>&bull; <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
-              <li>&bull; <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>How to Roast Ethiopian Coffee Beans</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
             </ul>
           </div>

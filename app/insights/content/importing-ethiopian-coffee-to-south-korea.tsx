@@ -77,7 +77,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
         Ethiopian coffee, with its distinctive floral and fruity profiles, aligns perfectly with Korean preferences for bright, complex, Instagram-worthy specialty coffee. However, entering the Korean market requires handling <span className='font-bold'>Ministry of Food and Drug Safety (MFDS)</span> regulations, understanding Korean business culture, and working through Korea's sophisticated but specific import procedures.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Insight:</span> South Korea offers zero import duty on coffee, world-class logistics infrastructure (Busan port is Asia's 6th busiest), and one of the world's fastest-growing specialty coffee markets. Success requires MFDS compliance, Korean language documentation, and understanding the unique dynamics of Korea's cafe-driven coffee culture.</span>
@@ -157,7 +157,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Market Reality:</span> Korean specialty roasters and cafes increasingly source directly from origin countries, bypassing traditional Japanese or European importers. Ethiopian exporters who understand Korean market dynamics and provide proper documentation can access this lucrative market directly.
         </p>
@@ -368,7 +368,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
         </table>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Pro Tip:</span> Korea Customs Service offers an <span className='font-bold'>Authorized Economic Operator (AEO)</span> program for trusted importers. AEO certification provides expedited customs clearance, reduced inspection rates, and simplified procedures. Consider applying once you establish regular import operations.
         </p>
@@ -747,7 +747,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Key Takeaway:</span> For VAT-registered Korean businesses, the true landed cost is only ~4% above FOB price, making Korea one of the most cost-effective markets for Ethiopian coffee imports. The 10% VAT is recovered, and zero import duty keeps costs competitive.
         </p>
@@ -900,7 +900,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Partner with Ethio Coffee Export for Korean Market</h4>
         <p className='mb-4'>
           Ethio Coffee Export specializes in serving Asian markets, including South Korea. We understand MFDS requirements and Korean market preferences:

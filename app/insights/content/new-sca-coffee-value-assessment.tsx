@@ -57,7 +57,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         Enter the <span className='font-bold'>Coffee Value Assessment (CVA)</span> the Specialty Coffee Association's next-generation evaluation system that's fundamentally changing how we measure, communicate, and understand coffee quality. Officially advancing to its next phase in June 2024, the CVA represents the most significant update to coffee evaluation protocols in a generation.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineSparkles className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Insight:</span> The CVA doesn't replace the traditional cupping form it expands it. This is about adding dimensions to how we evaluate coffee, giving buyers, roasters, and producers a much richer language to describe what makes a coffee special.</span>
@@ -239,10 +239,10 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
             <span className='font-bold'>Training requirements:</span> The CVA requires more specialized training than traditional cupping. Exporters need access to CVA education programs.
           </li>
           <li>
-            <span className='font-bold'>ECX compatibility:</span> The Ethiopia Commodity Exchange still uses traditional grading (G1, G2, G3). Exporters need to navigate both systems.
+            <span className='font-bold'>ECX compatibility:</span> The Ethiopia Commodity Exchange still uses traditional grading (G1, G2, G3). Exporters need to work within both systems.
           </li>
           <li>
-            <span className='font-bold'>Investment in documentation:</span> To leverage the extrinsic assessment, exporters need robust systems to track and verify sustainability, traceability, and impact data.
+            <span className='font-bold'>Investment in documentation:</span> To capitalize on the extrinsic assessment, exporters need reliable systems to track and verify sustainability, traceability, and impact data.
           </li>
         </ul>
       </div>
@@ -361,7 +361,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         How to Get Started with CVA
       </h3>
       <p className='my-4'>
-        Whether you're an exporter, importer, roaster, or coffee professional, here's how to engage with the Coffee Value Assessment:
+        For exporters, importers, roasters, and coffee professionals, here's how to engage with the Coffee Value Assessment:
       </p>
 
       <div className='my-6 bg-gray-50 p-6 rounded-lg border border-gray-200'>
@@ -404,7 +404,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         For Ethiopian coffee with its unmatched diversity of flavors, processing traditions, and cultural significance this shift could not come at a better time. The CVA finally provides a framework that can capture what makes Ethiopian coffee truly special.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
           <HiOutlineDocumentText className='text-xl' />
           Bottom Line for Ethiopian Coffee Stakeholders
@@ -447,7 +447,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Experience Ethiopian Coffee Evaluated with the CVA</h4>
         <p className='mb-4'>
           Ethio Coffee Export provides detailed cupping notes and quality assessments for every lot we offer. Whether you prefer traditional SCA scores or the new Coffee Value Assessment framework, our team can match you with the right Ethiopian green coffee.
@@ -504,6 +504,8 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
               <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
               <li>• <Link href='/insights/best-cupping-school' className='text-amber-700 hover:underline'>Best Cupping Schools</Link></li>
               <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+              <li>• <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>Roasting Ethiopian Coffee Beans</Link></li>
             </ul>
           </div>
           <div>
@@ -512,6 +514,8 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
               <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
             </ul>
           </div>
         </div>

@@ -14,7 +14,7 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            Navigating the global coffee market, C market, specialty coffee, and transparency in coffee trade
+            Understanding the C market, specialty coffee pricing, and transparency in global coffee trade
           </h2>
 
           <figure>
@@ -36,10 +36,10 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee as a Global Industry</h2>
           <p className='my-4'>
-            Welcome to the fourth installment of our "Coffee Is" series, where we delve into coffee through the lens of commerce. Coffee commerce encompasses the intricate web of exporting, importing, and trading that transforms harvested beans into the cups we cherish. This chapter explores the dynamics of the C market versus specialty coffee, the logistics of green coffee buying, and the critical role of transparency in ensuring fair and sustainable coffee trade.
+            Every specialty coffee transaction involves a chain of pricing decisions, logistics handoffs, and trust relationships that most roasters never see. This fourth installment of our &quot;Coffee Is&quot; series examines coffee commerce: how the C market sets baseline prices, how specialty coffee differentiates itself through quality premiums, and why transparency at every stage matters for long-term supply chain health.
           </p>
           <p className='my-4'>
-            Understanding coffee commerce is essential for roasters, importers, and enthusiasts alike. It reveals how global markets influence prices, how specialty coffee differentiates itself from commodity trading, and why ethical practices in exporting and importing are vital for the industry's future. From the bustling ports of origin countries to the warehouses of importing nations, coffee commerce drives the economic engine of this beloved beverage.
+            For importers and roasters, understanding coffee commerce is essential. It explains how global futures markets influence the price you pay, how specialty premiums reward quality over volume, and why fair export and import practices protect both supply reliability and producer livelihoods. From origin-country warehouses to destination-port customs clearance, coffee commerce is the system that connects your roastery to the farmers who grew your beans.
           </p>
 
           <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
@@ -54,9 +54,15 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
             </div>
           </div>
 
-          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+          <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
             <p className='font-medium'>
-              <span className='font-bold'>In this article:</span> We cover the C market, specialty coffee dynamics, exporting and importing logistics, green buying strategies, and transparency practices   plus a short case study on recent price volatility and its impact for producers.
+              <span className='font-bold'>Key Takeaway:</span> Coffee commerce operates on two tracks. The C market sets commodity baselines for 90-95% of global volume, while specialty coffee rewards quality, traceability, and relationships with premiums above that baseline. Importers and roasters who understand both systems, and who prioritize transparency, build more resilient supply chains and secure better lots.
+            </p>
+          </div>
+
+          <div className='bg-gray-100 p-6 rounded-lg my-6'>
+            <p className='font-medium'>
+              <span className='font-bold'>In this article:</span> We cover the C market, specialty coffee dynamics, exporting and importing logistics, green buying strategies, and transparency practices, plus a short case study on recent price volatility and its impact for producers.
             </p>
           </div>
 
@@ -90,7 +96,7 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Specialty Coffee: Differentiated and Transparent</h2>
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Defining Specialty Coffee</h3>
           <p className='my-4'>
-            Specialty coffee transcends the C market by recognizing coffee's unique qualities, origins, and processing methods. It prioritizes traceability, cup excellence, and relationships over standardized contracts. Specialty coffee scoring, using tools like the SCA cupping form, evaluates attributes such as sweetness, balance, and distinctiveness, often scoring 80+ points.
+            Specialty coffee operates outside the C market by recognizing coffee&apos;s unique qualities, origins, and processing methods. It prioritizes traceability, cup excellence, and relationships over standardized contracts. Specialty coffee scoring, using tools like the SCA cupping form, evaluates attributes such as sweetness, balance, and distinctiveness, often scoring 80+ points.
           </p>
           <p className='my-4'>
             Unlike the C market's anonymity, specialty coffee involves direct connections between producers, exporters, importers, and roasters. This approach ensures that premiums are paid for exceptional quality, social programs, and environmental stewardship, fostering a more equitable coffee commerce ecosystem.
@@ -99,10 +105,10 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
           <p className='my-4'>
             Ethiopian specialty coffee exemplifies this model. When you purchase a traceable lot from 
             <Link href='/insights/guide-ethiopian-coffee-origins' className='underline'> Yirgacheffe or Guji</Link>, 
-            you&apos;re not just buying beans - you&apos;re buying a story: the specific washing station, the 
+            you&apos;re not just buying beans; you&apos;re buying a story: the specific washing station, the 
             processing method, the altitude, the harvest date. This information enables roasters to communicate 
-            value to their customers and justify speciality pricing. It also creates accountability that benefits 
-            farmers - when quality commands premiums, there&apos;s incentive to invest in better 
+            value to their customers and justify specialty pricing. It also creates accountability that benefits 
+            farmers. When quality commands premiums, there&apos;s incentive to invest in better 
             <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'> agricultural practices</Link> and 
             <Link href='/insights/coffee-is-processing-drying-milling' className='underline'> processing infrastructure</Link>.
           </p>
@@ -199,12 +205,12 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
             <li><strong>Understand:</strong> Exporter costs (milling, testing, logistics) versus importer/roaster margins</li>
             <li><strong>Pricing waterfall:</strong> Farmgate → Local logistics/milling → Exporter margin → Freight/insurance → Importer margin → Roaster price</li>
           </ul>
-          <p className='my-4'>Transparency here is crucial request a payment breakdown when possible to ensure fair share for producers.</p>
+          <p className='my-4'>Transparency here is crucial. Request a payment breakdown when possible to ensure a fair share reaches producers.</p>
           <p className='my-4'>
-            Coffee commerce is more than transactions; it's a system of relationships, logistics, and ethics that connects global communities. From the volatility of the C market to the nuanced world of specialty coffee, understanding exporting, importing, and green buying empowers stakeholders to drive positive change. Transparency remains the cornerstone, ensuring that every cup reflects fair trade and sustainable practices.
+            Coffee commerce is more than transactions; it is a system of relationships, logistics, and accountability that links roasters to the cooperatives and washing stations producing their coffee. From C market volatility to specialty premiums and FOB negotiations, understanding each stage of exporting, importing, and green buying gives you better control over quality, cost, and supply reliability. Transparency remains the foundation: when every participant in the chain can see how value is distributed, the entire system becomes more sustainable.
           </p>
           <p className='my-4'>
-            At Ethio Coffee, we champion ethical coffee commerce by sourcing directly from Ethiopian producers, prioritizing transparency, and supporting specialty coffee's growth. Join us in building a more equitable industry.
+            At Ethio Coffee Export PLC, we apply these principles through our trusted sourcing network across Ethiopia&apos;s coffee regions, transparent pricing, and three decades of heritage sourcing relationships. Contact us to discuss your next green coffee purchase.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Continue Your Coffee Education</h3>
@@ -217,10 +223,37 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
             <li><Link href='/insights/direct-trade-ethiopian-farmers' className='underline font-bold'>Direct Trade Partnerships</Link> - How we build relationships that benefit Ethiopian farmers</li>
           </ul>
 
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Frequently Asked Questions</h2>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is the C market in coffee?</h3>
+          <p className='my-4'>
+            The C market is the global commodity exchange for Arabica coffee futures, based in New York. It sets benchmark prices for roughly 90-95% of traded coffee. Prices reflect supply and demand signals (especially Brazil&apos;s crop cycle) and serve as the baseline from which specialty premiums are added.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>How does specialty coffee pricing differ from C market pricing?</h3>
+          <p className='my-4'>
+            Specialty coffee trades at a differential above the C market price. That differential reflects cup quality (SCA score 80+), traceability, certifications, and relationship commitments. While C market prices fluctuate daily, specialty differentials tend to be more stable because they are negotiated between specific buyers and exporters.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What does FOB mean in coffee trade?</h3>
+          <p className='my-4'>
+            FOB (Free on Board) is the price at which the exporter delivers green coffee loaded onto a vessel at the port of origin. It includes sourcing costs, milling, transport to port, and exporter margin. Everything after loading (freight, insurance, import duties) is the buyer&apos;s responsibility.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Why is transparency important in coffee commerce?</h3>
+          <p className='my-4'>
+            Transparency means sharing pricing breakdowns, farmgate payments, and supply chain details openly. It builds trust between exporters, importers, and roasters; ensures producers receive fair compensation; and helps buyers verify that their sourcing practices align with ethical and sustainability commitments.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>How long does the green coffee buying timeline take?</h3>
+          <p className='my-4'>
+            A typical green coffee buying cycle runs 3 to 6 months from offer receipt to delivery. Steps include cupping offer samples, contract negotiation, milling and pre-ship sample approval, booking freight, and final payment via cash-against-documents. Forward contracts or multi-season agreements can shorten lead times.
+          </p>
+
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-            <h4 className='font-bold text-xl mb-3'>Start Trading Ethiopian Coffee</h4>
+            <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
             <p className='my-2'>
-              At <span className='font-bold'>Ethio Coffee Export PLC</span>, explore speciality Ethiopian coffee through transparent commerce, direct trade partnerships, and fair pricing.
+              <span className='font-bold'>Ethio Coffee Export PLC</span> offers specialty Ethiopian green coffee with transparent FOB pricing, pre-ship samples, and flexible contract terms. Request samples or a current offer sheet to get started.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -236,6 +269,7 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
               <div>
                 <h4 className='font-semibold mb-2 text-sm'>Coffee Journey Series</h4>
                 <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>Coffee Plant Taxonomy, Species & Varieties</Link></li>
                   <li>• <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline'>Coffee Is Agriculture: Production & Farming</Link></li>
                   <li>• <Link href='/insights/coffee-is-processing-drying-milling' className='text-amber-700 hover:underline'>Coffee Is Processing: Drying & Milling</Link></li>
                   <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Is Science: Analysis & Evaluation</Link></li>
@@ -243,10 +277,25 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
                 </ul>
               </div>
               <div>
-                <h4 className='font-semibold mb-2 text-sm'>Related Reading</h4>
+                <h4 className='font-semibold mb-2 text-sm'>Pricing & Market</h4>
                 <ul className='space-y-1 text-sm'>
                   <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing FOB Guide</Link></li>
                   <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+                  <li>• <Link href='/insights/best-ethiopian-coffee-exporter-importer-supplier' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter, Importer & Supplier</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Quality & Origins</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
+                  <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
                 </ul>
               </div>
             </div>
@@ -254,7 +303,7 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> This article draws from educational materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center research, and various genetic studies on Coffea arabica phylogenetics.
+              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Export PLC. This article draws from ICO market reports, specialty coffee trade publications, and our direct experience as an Ethiopian coffee exporter. For current pricing or sourcing information, <Link href='/contact-us' className='underline'>contact us directly</Link>.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

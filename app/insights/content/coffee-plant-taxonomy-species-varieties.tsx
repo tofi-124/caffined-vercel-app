@@ -19,7 +19,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Coffee is an agricultural product first - a tropical woody understory perennial with a fascinating evolutionary history.
+          Coffee is an agricultural product first - a tropical woody understory perennial with a rich evolutionary history.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -42,7 +42,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
 
       <p className='my-4'>
         Before it&apos;s ever roasted, brewed, or poured into a cup, coffee is an agricultural product - a living 
-        organism with specific needs, a complex anatomy, and a fascinating evolutionary history. Understanding 
+        organism with specific needs, a complex anatomy, and a rich evolutionary history. Understanding 
         coffee as a plant deepens our appreciation for every cup and helps us grasp the challenges facing coffee 
         production worldwide.
       </p>
@@ -52,10 +52,16 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
         the birthplace of Arabica, where wild coffee genetics still thrive in montane rainforests. The diversity 
         you&apos;ll encounter in Ethiopian lots - the floral jasmine of <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline'>Yirgacheffe</Link>, 
         the berry-bomb naturals of Guji, the wine-like complexity of Harrar - all trace back to the plant&apos;s 
-        remarkable evolutionary journey in these highlands.
+        extraordinary evolutionary journey in these highlands.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-medium'>
+          <span className='font-bold'>Key Takeaway:</span> Coffee is a plant first, and its genetics set the ceiling for everything that follows. Arabica&apos;s narrow gene pool (from a single hybridization event) means variety selection, growing conditions, and origin matter enormously. Ethiopia&apos;s 10,000-15,000 heirloom varieties represent the deepest genetic reservoir on Earth for Arabica, which is why Ethiopian coffees express a range of flavors no other origin can match.
+        </p>
+      </div>
+
+      <div className='bg-gray-100 p-6 rounded-lg my-6'>
         <p className='font-medium'>
           <span className='font-bold'>In this article:</span> We&apos;ll explore coffee&apos;s taxonomy and anatomy, 
           compare Arabica and Robusta species, examine Arabica&apos;s unique hybrid origin and the genetic challenges 
@@ -519,7 +525,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
         the most exciting origin on Earth for specialty coffee.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Coffee is a Gift</h4>
         <p className='my-2'>
           Coffee&apos;s seed contains compounds that most other seeds simply don&apos;t. It was produced almost by 
@@ -545,7 +551,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
       <p className='my-4'>
         The <Link href='/insights/ethiopian-coffee-ceremony' className='underline'>Ethiopian coffee ceremony</Link> - 
         a ritual that has bound communities together for centuries - reflects the deep cultural relationship 
-        between Ethiopians and this remarkable plant. Coffee isn&apos;t just grown here; it&apos;s woven into the 
+        between Ethiopians and this extraordinary plant. Coffee isn&apos;t just grown here; it&apos;s woven into the 
         social fabric. When you drink Ethiopian coffee, you&apos;re participating in a tradition that predates 
         the global coffee industry by hundreds of years.
       </p>
@@ -554,8 +560,8 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
         For green coffee importers and specialty roasters, Ethiopia represents the ultimate expression of 
         what Arabica can be. The combination of ideal altitude (1,500-2,200m), rich volcanic soils, 
         traditional shade-growing practices, and millennia of natural selection has produced coffees 
-        that consistently score among the world&apos;s highest. Whether you&apos;re seeking the tea-like 
-        elegance of a washed Yirgacheffe or the explosive fruit character of a Guji natural, 
+        that consistently score among the world&apos;s highest. From the tea-like 
+        elegance of a washed Yirgacheffe to the explosive fruit character of a Guji natural, 
         Ethiopian coffee delivers complexity that other origins simply cannot match.
       </p>
 
@@ -574,10 +580,39 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
         <li><Link href='/insights/coffee-is-art-roasting-brewing' className='underline font-bold'>Coffee Is Art</Link> - The creative mastery of roasting and brewing</li>
       </ul>
 
+      <h3 className='text-2xl font-extrabold mt-8'>
+        Frequently Asked Questions
+      </h3>
+
+      <h4 className='text-xl font-bold mt-6'>How many coffee species exist?</h4>
+      <p className='my-4'>
+        Current scientific consensus identifies around 131 species within the genus Coffea. However, only two are commercially significant: Coffea arabica (Arabica, roughly 55-60% of global production) and Coffea canephora (Robusta, roughly 40-45%). New species continue to be discovered through genetic research.
+      </p>
+
+      <h4 className='text-xl font-bold mt-6'>What does &quot;heirloom&quot; mean on Ethiopian coffee?</h4>
+      <p className='my-4'>
+        &quot;Heirloom&quot; refers to landrace varieties that evolved naturally in Ethiopia&apos;s forests over millennia. Ethiopia has an estimated 10,000-15,000 of these genetically distinct varieties, most unidentified by formal names. They differ from cultivated varieties bred for specific traits elsewhere in the world.
+      </p>
+
+      <h4 className='text-xl font-bold mt-6'>Why is Arabica&apos;s genetic diversity a concern?</h4>
+      <p className='my-4'>
+        All Arabica traces back to a single hybridization event between Coffea canephora and Coffea eugenioides, creating a genetic bottleneck. With only 44 chromosomes from this one event, Arabica has limited genetic tools to adapt to climate change, pests, and disease. Ethiopia&apos;s wild Arabica populations are the primary source of genetic diversity for the species.
+      </p>
+
+      <h4 className='text-xl font-bold mt-6'>What is the difference between variety and varietal?</h4>
+      <p className='my-4'>
+        &quot;Variety&quot; is a noun referring to a taxonomic rank of plants with reproducible genetic characteristics (e.g., Gesha variety). &quot;Varietal&quot; is an adjective. The confusion originates from wine terminology. In coffee, the correct usage is &quot;Gesha variety,&quot; not &quot;Gesha varietal.&quot;
+      </p>
+
+      <h4 className='text-xl font-bold mt-6'>Why does origin matter for coffee quality?</h4>
+      <p className='my-4'>
+        The plant&apos;s genetics and growing conditions (altitude, temperature, soil, shade) determine the chemical raw materials available in the seed. Processing and roasting can only work within those parameters. Ethiopia&apos;s combination of high altitude (1,500-2,200m), volcanic soils, shade growing, and unmatched genetic diversity produces coffees with complexity that other origins cannot replicate.
+      </p>
+
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Ethio Coffee</h4>
+        <h4 className='font-bold text-xl mb-3'>Source Ethiopian Heirloom Coffee Direct from Origin</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we export speciality Ethiopian green coffee from the birthplace of Arabica - with full traceability, direct farmer relationships, and the genetic diversity that makes Ethiopian coffee unique.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> offers specialty Ethiopian green coffee from the birthplace of Arabica, with full traceability and the genetic diversity that makes Ethiopian coffee unique. Request samples or a current offer sheet to get started.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -591,18 +626,28 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Coffee Science & Origins</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Coffee Journey Series</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline'>Coffee Is Agriculture: Production & Farming</Link></li>
-              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties & Landraces</Link></li>
-              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/coffee-is-processing-drying-milling' className='text-amber-700 hover:underline'>Coffee Is Processing: Drying & Milling</Link></li>
+              <li>• <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='text-amber-700 hover:underline'>Coffee Is Commerce: Exporting & Importing</Link></li>
+              <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Is Science: Analysis & Evaluation</Link></li>
+              <li>• <Link href='/insights/coffee-is-art-roasting-brewing' className='text-amber-700 hover:underline'>Coffee Is Art: Roasting & Brewing</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Related Reading</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Varieties & Origins</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Is Science: Analysis & Evaluation</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties & Landraces</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Climate & Sustainability</h4>
+            <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Ethiopian Coffee & Climate Change Impact</Link></li>
+              <li>• <Link href='/insights/birthplace-of-coffee-ethiopia' className='text-amber-700 hover:underline'>Birthplace of Coffee: Ethiopia</Link></li>
             </ul>
           </div>
         </div>
@@ -610,7 +655,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This article draws from educational materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center research, and various genetic studies on Coffea arabica phylogenetics.
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Export PLC. This article draws from World Coffee Research variety catalog, UC Davis Coffee Center research, Café Imports educational materials, and genetic studies on Coffea arabica phylogenetics. For current Ethiopian coffee offerings, <Link href='/contact-us' className='underline'>contact us directly</Link>.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

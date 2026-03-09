@@ -34,12 +34,12 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
             </div>
           </figure>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee as an Artistic Endeavor</h2>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Coffee Roasting and Brewing as Creative Craft</h2>
           <p className='my-4'>
-            Welcome to the sixth installment of our "Coffee Is" series, where we explore coffee through multifaceted perspectives. In this chapter, we delve into coffee is an art - the creative and technical mastery of transforming green beans into exceptional cups through skilled coffee roasting and precise coffee brewing techniques.
+            A perfectly roasted lot can fall flat in the cup. A flawless green coffee can taste hollow after a careless roast. The gap between potential and result is where the art of coffee roasting and coffee brewing lives. This sixth chapter of the "Coffee Is" series examines the creative and technical skills that turn green beans into standout cups.
           </p>
           <p className='my-4'>
-            Coffee art combines scientific understanding with creative imagination, requiring practice, knowledge, and experimentation to achieve perfect extraction and flavor harmony. Every roast curve and brew represents the conscious application of skill in the coffee roasting and coffee brewing process.
+            Roasting and brewing demand equal parts science and instinct. Every roast curve reflects choices about heat, airflow, and timing; every brew recipe balances dose, grind, temperature, and contact time. Mastering these variables is what separates competent production from exceptional coffee.
           </p>
           <p className='my-4'>
             To connect roast and origin, review <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline font-bold'>Coffee is a Science</Link> for compound mapping, <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline font-bold'>our regional comparison</Link> to tailor roast and brew recipes to origin characteristics, and our in-depth <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='underline font-bold'>guide to roasting Ethiopian coffee beans</Link> for region-specific profiles and troubleshooting.
@@ -57,15 +57,15 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
             </div>
           </div>
 
-          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+          <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
             <p className='font-medium'>
-              <span className='font-bold'>In this article:</span> We cover roaster hardware, roast development, a sample roast profile, and practical brewing recipes for common methods so you can apply artistic technique to highlight origin character.
+              <span className='font-bold'>Key Takeaway:</span> Great coffee roasting preserves origin character through controlled heat transfer and precise development timing. Great brewing extracts that character through accurate dose, temperature, and contact time. This guide covers the hardware, profiles, and recipes you need to apply both skills effectively.
             </p>
           </div>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Art of Coffee Roasting: Heat Transfer and Control</h2>
           <p className='my-4'>
-            Coffee roasting is the intentional application of heat to create profound physical and chemical changes in coffee beans. This coffee art process transforms green coffee into roasted coffee through controlled heat transfer and precise temperature management.
+            Coffee roasting is the intentional application of heat to drive physical and chemical changes in green beans. The process transforms raw material into roasted coffee through controlled heat transfer and precise temperature management.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Roaster Components and Technical Specifications</h3>
@@ -102,7 +102,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sample vs. Production Roasting Techniques</h3>
           <p className='my-4'>
-            Coffee art requires different approaches for sample and production roasting:
+            Roasting requires different approaches at sample and production scale:
           </p>
           <ul className='list-disc ml-5 my-4'>
             <li><strong>Sample Roasting:</strong> Small-batch roasting (50g-1kg) for quality assessment and profile development</li>
@@ -111,7 +111,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
             <li><strong>Energy Sources:</strong> Gas burners for direct flame heating or electric elements for precise temperature control</li>
           </ul>
           <p className='my-4'>
-            Understanding these differences is crucial for scaling coffee roasting techniques from development to commercial production.
+            These differences matter when scaling a roast profile from sample evaluation to full commercial production.
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Chemical Transformations in Roasted Coffee</h2>
@@ -165,7 +165,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Art of Coffee Brewing: Fundamentals of Extraction</h2>
           <p className='my-4'>
-            Coffee brewing represents the final artistic expression, where roasted coffee compounds are extracted through water to create the perfect cup. This coffee extraction process requires understanding solubility, time, temperature, and technique.
+            Brewing is the final step where roasted coffee compounds dissolve into water to produce the finished cup. Achieving balanced extraction requires control over solubility, time, temperature, and technique.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Brewing Fundamentals and Water Chemistry</h3>
@@ -225,7 +225,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
             Each brewing technique requires specific knowledge of coffee extraction dynamics to achieve optimal flavor balance.
           </p>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Mastering the Art of Coffee Excellence</h2>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Practical Troubleshooting and Additional Recipes</h2>
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Roast Troubleshooting (Quick Tips)</h3>
           <ul className='list-disc ml-5 my-4'>
             <li><strong>Too sour/underdeveloped:</strong> Increase development time after first crack or slightly raise final roast temperature.</li>
@@ -239,10 +239,10 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
             <li><strong>AeroPress (bright & clean):</strong> 18g coffee, 220g water at 92°C, 1:30–1:45 total time using inverted method for fuller body.</li>
           </ul>
           <p className='my-4'>
-            Coffee is an art that combines scientific understanding with creative skill in roasting and brewing. Mastering heat transfer, roast curves, and extraction principles allows coffee professionals to transform green beans into exceptional cups through deliberate practice and experimentation.
+            Coffee roasting and brewing reward deliberate practice. Mastering heat transfer, roast curves, and extraction variables gives you the tools to reveal what makes each lot distinctive, rather than masking it.
           </p>
           <p className='my-4'>
-            At Ethio Coffee, we embrace the artistic aspects of coffee roasting and brewing, applying our expertise to create unique flavor profiles that showcase the best of Ethiopian coffee heritage.
+            At Ethio Coffee Export PLC, we source green coffees with the complexity to reward skilled roasting. Our lots arrive with detailed cupping notes, processing data, and suggested profile guidance so your roast and brew decisions start from solid ground.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Roasting Ethiopian Coffees: Origin-Specific Tips</h3>
@@ -273,19 +273,41 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
             <li><span className='font-bold'>Coffee Is Art</span> - The creative mastery of roasting and brewing (You are here)</li>
           </ul>
 
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>See Art in Action</h3>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>See These Principles in Practice</h3>
           <p className='my-4'>
-            Curious how the world&apos;s best coffee professionals apply these principles? Explore our guide to the <Link href='/insights/top-10-specialty-coffee-shops-world' className='underline font-bold'>Top 10 Specialty Coffee Shops Around the World</Link> - showcasing roasters and baristas who have mastered the art of coffee roasting and brewing, many featuring exceptional Ethiopian origins.
+            Want to see how leading roasters and baristas apply these techniques? Our guide to the <Link href='/insights/top-10-specialty-coffee-shops-world' className='underline font-bold'>Top 10 Specialty Coffee Shops Around the World</Link> profiles professionals who have built reputations on precision roasting and brewing, many working with Ethiopian single origins.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Frequently Asked Questions</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What temperature should I roast Ethiopian coffee at?</h3>
+          <p className='my-4'>
+            Charge temperature between 170°C and 190°C works well for most Ethiopian lots. Target first crack around 8:30 to 9:00 minutes. For washed coffees, keep development time short (60 to 90 seconds) to preserve floral and citrus acidity. Natural process lots tolerate slightly longer development.
+          </p>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>How does grind size affect coffee extraction?</h3>
+          <p className='my-4'>
+            Finer grinds increase surface area and speed up extraction, producing stronger and more intense cups. Coarser grinds slow extraction, yielding lighter and cleaner flavors. Match grind size to your brew method: fine for espresso, medium for pour-over, coarse for French press or cold brew.
+          </p>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is the ideal water temperature for brewing coffee?</h3>
+          <p className='my-4'>
+            The Specialty Coffee Association recommends 195°F to 205°F (91°C to 96°C) for most brewing methods. Water below this range under-extracts, producing sour and thin cups. Water above it over-extracts, pulling harsh and bitter compounds. Adjust within this range based on roast level and grind size.
+          </p>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>What is development time in coffee roasting?</h3>
+          <p className='my-4'>
+            Development time is the period between first crack and the end of the roast. It typically ranges from 60 to 120 seconds for light to medium roasts. Shorter development preserves bright acidity and origin character. Longer development builds body and sweetness but can mute delicate aromatics.
+          </p>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>How do I know if my coffee is over-extracted or under-extracted?</h3>
+          <p className='my-4'>
+            Under-extracted coffee tastes sour, thin, and lacks sweetness. Over-extracted coffee tastes bitter, astringent, and hollow. A well-extracted cup balances acidity, sweetness, and body. Use a refractometer to target 18% to 22% extraction yield, or adjust by taste using grind size and brew time.
           </p>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-            <h4 className='font-bold text-xl mb-3'>Experience the Art of Ethiopian Coffee</h4>
+            <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
             <p className='my-2'>
-              At <span className='font-bold'>Ethio Coffee Export PLC</span>, discover exceptional Ethiopian coffees perfect for masterful roasting and brewing.
+              <span className='font-bold'>Ethio Coffee Export PLC</span> supplies specialty-grade Ethiopian green coffee with full traceability, cupping notes, and roast profile guidance. Request samples to evaluate our current lots before committing to volume.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-              <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+              <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Samples</Link>
               <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
             </div>
           </div>
@@ -297,6 +319,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
               <div>
                 <h4 className='font-semibold mb-2 text-sm'>Coffee Journey Series</h4>
                 <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>Coffee Is A Plant: Taxonomy, Species & Varieties</Link></li>
                   <li>• <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline'>Coffee Is Agriculture: Production & Farming</Link></li>
                   <li>• <Link href='/insights/coffee-is-processing-drying-milling' className='text-amber-700 hover:underline'>Coffee Is Processing: Drying & Milling</Link></li>
                   <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Is Science: Analysis & Evaluation</Link></li>
@@ -304,11 +327,20 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
                 </ul>
               </div>
               <div>
-                <h4 className='font-semibold mb-2 text-sm'>Related Reading</h4>
+                <h4 className='font-semibold mb-2 text-sm'>Roasting & Brewing</h4>
                 <ul className='space-y-1 text-sm'>
-                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
+                  <li>• <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>Guide to Roasting Ethiopian Coffee Beans</Link></li>
                   <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup & Evaluate Ethiopian Coffee Samples</Link></li>
                   <li>• <Link href='/insights/how-to-make-coffee-without-a-coffeemaker' className='text-amber-700 hover:underline'>How to Make Coffee Without a Coffeemaker</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Origins & Quality</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
+                  <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Complete Guide to Ethiopian Coffee Origins</Link></li>
+                  <li>• <Link href='/insights/top-10-specialty-coffee-shops-world' className='text-amber-700 hover:underline'>Top 10 Specialty Coffee Shops in the World</Link></li>
                 </ul>
               </div>
             </div>
@@ -316,7 +348,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> This article draws from educational materials developed by Café Imports, World Coffee Research variety catalog, UC Davis Coffee Center research, and various genetic studies on Coffea arabica phylogenetics.
+              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Export PLC based on industry roasting and brewing standards, SCA protocols, and three decades of Ethiopian coffee sourcing experience. Roast profiles and brewing parameters are general guidelines; always verify with sample roasts and cupping. <Link href='/contact-us' className='underline'>Contact us</Link> for current lot availability, cupping notes, and roast profile suggestions.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

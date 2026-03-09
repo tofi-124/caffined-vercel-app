@@ -34,12 +34,19 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Sourcing Ethiopian green coffee involves understanding export grades (G1–G4), choosing between direct trade and traditional channels, managing logistics and documentation, and building reliable supplier relationships. This step-by-step playbook covers the full process for roasters and importers.
+        </p>
+      </div>
+
       <p className='my-4'>
         If you&apos;re a coffee roaster, café owner, or wholesale buyer looking to source green coffee from Ethiopia, you&apos;re tapping into the birthplace of Arabica coffee and some of the most sought-after specialty beans in the world.
       </p>
 
       <p className='my-4'>
-        But sourcing Ethiopian green coffee can feel complex: navigating export regulations, understanding quality grades, finding reliable suppliers, and managing international logistics.
+        But sourcing Ethiopian green coffee can feel complex: understanding export regulations, quality grades, finding reliable suppliers, and managing international logistics.
         This guide breaks it down step by step.
       </p>
 
@@ -51,7 +58,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
       </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
         <li className='my-2'><span className='font-bold'>Unmatched Genetic Diversity:</span> Ethiopia is home to thousands of heirloom Arabica varieties found nowhere else, producing flavor profiles impossible to replicate.</li>
-        <li className='my-2'><span className='font-bold'>Distinctive Flavor Profiles:</span> From the jasmine-floral notes of Yirgacheffe to the berry-forward Sidamo and the winey Harar, Ethiopian coffees offer remarkable variety.</li>
+        <li className='my-2'><span className='font-bold'>Distinctive Flavor Profiles:</span> From the jasmine-floral notes of Yirgacheffe to the berry-forward Sidamo and the winey Harar, Ethiopian coffees offer outstanding variety.</li>
         <li className='my-2'><span className='font-bold'>High-Altitude Growing:</span> Most Ethiopian coffee grows between 1,500–2,300 meters, where cherries ripen slowly and develop complex sugars and acids.</li>
         <li className='my-2'><span className='font-bold'>Customer Demand:</span> Specialty coffee consumers actively seek Ethiopian origins for their unique cup experience.</li>
       </ul>

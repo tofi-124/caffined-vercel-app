@@ -56,7 +56,7 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
         It is a sourcing consideration.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineUsers className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Women perform 60 to 70% of coffee labor in Ethiopia yet remain underrepresented in cooperative governance, land ownership, and income decisions. Supporting women in the supply chain is both a quality strategy and a sourcing imperative.</span>
@@ -338,6 +338,8 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
               <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
               <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
               <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Washing Stations Guide</Link></li>
+              <li>• <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline'>Coffee Agriculture & Production</Link></li>
             </ul>
           </div>
           <div>
@@ -346,6 +348,8 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
               <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
               <li>• <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
               <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter</Link></li>
+              <li>• <Link href='/insights/benefits-investing-ethiopian-coffee-production' className='text-amber-700 hover:underline'>Benefits of Investing in Ethiopian Coffee</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
             </ul>
           </div>
         </div>

@@ -71,7 +71,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         Understanding Ethiopian heirloom varieties is essential for anyone sourcing, buying, or roasting Ethiopian coffee. This diversity is both Ethiopia's greatest strength and its most confusing aspect for international buyers accustomed to named varieties like Bourbon, Typica, Caturra, or Gesha.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Insight:</span> Ethiopia is home to an estimated 10,000-15,000 distinct coffee genotypes (genetic variations). By comparison, the rest of the world's coffee-growing regions combined work with fewer than 100 commonly cultivated varieties. This genetic treasure represents coffee's past, present, and future.</span>
@@ -235,7 +235,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       <h4 className='text-xl font-bold mt-8 mb-4'>The Global Coffee Genetic Bottleneck</h4>
 
       <p className='my-4'>
-        Here's the remarkable story of coffee genetics:
+        Here's the extraordinary story of coffee genetics:
       </p>
 
       <div className='space-y-4 my-6'>
@@ -260,7 +260,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Why This Matters:</span> Ethiopian heirloom varieties possess genetic traits that don't exist anywhere else in the coffee world: disease resistance, drought tolerance, unique flavor compounds, and adaptation potential crucial for coffee's survival in a changing climate. This diversity is irreplaceable.
         </p>
@@ -307,7 +307,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       <h4 className='text-xl font-bold mt-8 mb-4'>The Practical Reality</h4>
 
       <p className='my-4'>
-        When you purchase Ethiopian green coffee, you're almost always buying a <span className='font-bold'>blend of multiple genetic varieties</span> from the same region. This is not a quality issue. It is simply the nature of Ethiopian coffee production. In fact, many buyers and roasters appreciate this complexity as it contributes to the layered, intricate flavor profiles Ethiopian coffee is famous for.
+        When you purchase Ethiopian green coffee, you're almost always buying a <span className='font-bold'>blend of multiple genetic varieties</span> from the same region. This is not a quality issue. It is simply the nature of Ethiopian coffee production. In fact, many buyers and roasters appreciate this complexity as it contributes to the layered, complex flavor profiles Ethiopian coffee is famous for.
       </p>
 
       {/* SECTION 5: REGIONAL VARIATIONS */}
@@ -444,7 +444,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Key Point:</span> While we use "Ethiopian Heirloom" generically, the varieties from Yirgacheffe differ genetically from those in Guji, which differ from Kaffa forest varieties. Region acts as a useful proxy for describing genetic variation, even when we can't name specific varieties.
         </p>
@@ -617,7 +617,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         <li><span className='font-bold'>Quality perception:</span> Some specialty buyers and farmers believe traditional heirloom varieties produce more complex cup profiles</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>For Buyers:</span> If an Ethiopian coffee specifically lists a JARC variety number (like 74110), it indicates intentional variety selection and potentially more uniform genetics. However, most specialty Ethiopian coffee comes from traditional heirloom populations rather than JARC varieties.
         </p>
@@ -705,7 +705,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Perspective:</span> Coffee from near Gesha village can be exceptional regardless of whether it's the exact variety famous in Panama. Ethiopia's genetic diversity means other varieties from the region may be equally extraordinary. Focus on cup quality and origin story rather than getting fixated on the "Gesha" name.
         </p>
@@ -869,7 +869,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Best Approach:</span> Focus on region, altitude, processing method, and cup profile rather than pursuing specific variety identification. Ethiopian coffee's strength is its diversity. Embrace it rather than trying to reduce it to simple variety names.
         </p>
@@ -1067,7 +1067,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       </p>
 
       <p className='my-4'>
-        Rather than viewing "Ethiopian Heirloom" as vague or imprecise, understand it as an honest acknowledgment of natural complexity. This diversity is Ethiopia's greatest strength, contributing to the layered, intricate, endlessly fascinating flavors that make Ethiopian coffee incomparable.
+        Rather than viewing "Ethiopian Heirloom" as vague or imprecise, understand it as an honest acknowledgment of natural complexity. This diversity is Ethiopia's greatest strength, contributing to the layered, complex, endlessly captivating flavors that make Ethiopian coffee incomparable.
       </p>
 
       <p className='my-4'>
@@ -1087,7 +1087,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Exceptional Ethiopian Heirloom Coffee</h4>
         <p className='mb-4'>
           Looking for Ethiopian heirloom coffee with full transparency? Ethio Coffee Export sources from diverse regions across Ethiopia's premier coffee zones:
@@ -1101,50 +1101,35 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
           <li>✓ Direct relationships with cooperatives</li>
         </ul>
         <p>
-          <Link href='/contact-us' className='font-bold underline'>Contact us</Link> to discuss your sourcing needs and explore the remarkable diversity of Ethiopian heirloom varieties.
+          <Link href='/contact-us' className='font-bold underline'>Contact us</Link> to discuss your sourcing needs and explore the extraordinary diversity of Ethiopian heirloom varieties.
         </p>
       </div>
 
       {/* RELATED ARTICLES */}
-      <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-        <ul className='space-y-2 text-sm'>
-          <li>
-            <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Exporter: Your Trusted Export Partner
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Coffee Is a Plant: Understanding Taxonomy, Species & Varieties
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> A Practical Guide to Ethiopian Green Coffee Origins
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Yirgacheffe vs Sidamo vs Guji: Which Ethiopian Coffee Is Right for You?
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee from Ethiopia: Complete Guide
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Certifications Guide: Organic, Fair Trade, Rainforest Alliance & More
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Anaerobic Coffee Processing: How Fermentation Amplifies Heirloom Variety Character
-            </Link>
-          </li>
-        </ul>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Varieties</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>Coffee Plant Taxonomy, Species & Varieties</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Climate Change Impact on Ethiopian Coffee</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Processing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
+              <li>• <Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='text-amber-700 hover:underline'>Anaerobic Ethiopian Coffee Processing</Link></li>
+              <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+              <li>• <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Micro-Lot Ethiopian Coffee Sourcing</Link></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>

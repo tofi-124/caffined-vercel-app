@@ -51,7 +51,7 @@ export default function DecafGreenCoffeeProcessingSourcingGuide({ title, date, l
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Decaf green coffee is produced through four main methods: Swiss Water Process (chemical-free, flavor-gentle), supercritical CO2 (selective caffeine extraction, best for large volumes), ethyl acetate/sugarcane (cost-effective, common in Colombia and Brazil), and methylene chloride (lowest cost, most common globally). For specialty importers, Swiss Water and CO2 decaf preserve the most cup complexity. Ethiopian decaf coffees retain their signature floral and fruit notes best when processed via Swiss Water or CO2 methods. Expect a $0.50 to $2.00 per pound premium over conventional green for decaf processing, depending on method and volume.</span>
@@ -534,9 +534,7 @@ export default function DecafGreenCoffeeProcessingSourcingGuide({ title, date, l
             <h4 className='font-semibold mb-2 text-sm'>Origins &amp; Varieties</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Green Coffee Origins</Link></li>
-              <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Compared</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Ethiopian Coffee Varieties</Link></li>
-              <li>&bull; <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>How to Roast Ethiopian Coffee Beans</Link></li>
             </ul>
           </div>
           <div>
@@ -544,7 +542,6 @@ export default function DecafGreenCoffeeProcessingSourcingGuide({ title, date, l
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide for Importers</Link></li>
               <li>&bull; <Link href='/insights/certified-organic-coffee-bean-exporters-bulk-orders' className='text-amber-700 hover:underline'>Certified Organic Coffee Exporters: Bulk Guide</Link></li>
             </ul>
           </div>
@@ -552,8 +549,6 @@ export default function DecafGreenCoffeeProcessingSourcingGuide({ title, date, l
             <h4 className='font-semibold mb-2 text-sm'>Certifications &amp; Compliance</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
-              <li>&bull; <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR and Ethiopian Coffee Compliance</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms</Link></li>
             </ul>
           </div>
         </div>

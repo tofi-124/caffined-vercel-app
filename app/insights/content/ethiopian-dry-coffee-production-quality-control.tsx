@@ -48,6 +48,13 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Ethiopian dry coffee quality depends on disciplined processing at every stage, from cherry selection to drying, milling, and export preparation. Understanding Ethiopia&apos;s quality control systems, common defects, and institutional oversight helps importers evaluate lots with confidence and source consistently.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Processing & Quality Control / Ethiopian Coffee</span>
@@ -728,30 +735,29 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
         </div>
 
         {/* Related Resources */}
-        <div className="bg-gray-50 p-8 rounded-lg border border-gray-200">
+        <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
           <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/insights/green-coffee-quality-control-defects-grading" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Quality Control: Defects, Grading Systems & Import Inspection Guide
-            </Link>
-            <Link href="/insights/new-sca-coffee-value-assessment" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> The New SCA Coffee Value Assessment: Beyond the 100-Point Score
-            </Link>
-            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> The Ethiopia Commodity Exchange (ECX) and Ethiopian Coffee Export
-            </Link>
-            <Link href="/insights/ecx-and-ethiopian-coffee-export" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Understanding ECX and Ethiopian Coffee Export
-            </Link>
-            <Link href="/insights/rising-ethiopian-coffee-prices-explained" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Rising Ethiopian Coffee Prices Explained
-            </Link>
-            <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Certifications Guide
-            </Link>
-            <Link href="/insights/afca-taste-of-harvest-ethiopian-coffee-competition" className="text-amber-700 hover:text-amber-900 font-medium hover:underline inline-flex items-center gap-1">
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> AFCA Taste of Harvest: Ethiopian Coffee Competition & Quality Recognition
-            </Link>
+          <div className='grid md:grid-cols-2 gap-4'>
+            <div>
+              <h4 className='font-semibold mb-2 text-sm'>Quality & Grading</h4>
+              <ul className='space-y-1 text-sm'>
+                <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+                <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+                <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
+                <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+                <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className='font-semibold mb-2 text-sm'>Export & Trade</h4>
+              <ul className='space-y-1 text-sm'>
+                <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+                <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+                <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
+                <li>• <Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='text-amber-700 hover:underline'>AFCA Taste of Harvest Competition</Link></li>
+                <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling Guide</Link></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

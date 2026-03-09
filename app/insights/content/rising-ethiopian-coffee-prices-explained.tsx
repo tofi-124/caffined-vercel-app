@@ -50,16 +50,21 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         <span className='ml-2'>Market Analysis / Coffee Economics / Price Trends</span>
       </div>
 
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-4 my-6'>
+        <span className='font-bold'>Key Takeaway: </span>
+        Ethiopian coffee prices are rising due to global supply constraints, climate disruption, currency dynamics, and growing specialty demand. Importers who build strong exporter relationships, use forward contracting, and communicate value to customers will adapt most effectively.
+      </div>
+
       {/* INTRODUCTION */}
       <p className='my-4'>
-        If you've been sourcing <span className='font-bold'>Ethiopian specialty coffee</span> recently, you've likely noticed something significant: <span className='font-bold'>prices are rising</span>. And they're not just creeping up-they're climbing at rates not seen in years. In early 2026, Arabica coffee futures have reached levels that are making headlines worldwide, and Ethiopian coffee, already prized for its exceptional quality, is commanding premium prices that reflect both global market forces and unique local factors.
+        If you've been sourcing <span className='font-bold'>Ethiopian specialty coffee</span> recently, you've likely noticed something significant: <span className='font-bold'>prices are rising</span>. And they're not just creeping up; they're climbing at rates not seen in years. In early 2026, Arabica coffee futures have reached levels that are making headlines worldwide, and Ethiopian coffee, already prized for its exceptional quality, is commanding premium prices that reflect both global market forces and unique local factors.
       </p>
 
       <p className='my-4'>
-        For importers, roasters, and coffee businesses worldwide, understanding <span className='font-bold'>why Ethiopian coffee prices are increasing</span> isn't just about budgeting-it's about strategic planning, supplier relationships, and maintaining quality while navigating an increasingly volatile market.
+        For importers, roasters, and coffee businesses worldwide, understanding <span className='font-bold'>why Ethiopian coffee prices are increasing</span> isn't just about budgeting; it's about strategic planning, supplier relationships, and maintaining quality in an increasingly volatile market.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineArrowTrendingUp className='text-3xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Current Market Reality (Early 2026):</span> Arabica coffee futures are trading at 348.75 cents per pound (March 2026 contract), representing significant increases from previous years. Ethiopian specialty-grade coffees (G1 and G2) are commanding FOB prices of $5.00 to $7.00+ per pound, reflecting both quality and scarcity.</span>
@@ -111,7 +116,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
         <h4 className='font-bold text-lg mb-3 text-red-900'>Historic Price Levels in 2026</h4>
         <p className='mb-4'>
-          As of early 2026, Arabica coffee futures are trading at approximately <span className='font-bold'>348 cents per pound</span>-levels not consistently seen since the early 2010s. This represents increases of over 80-100% compared to 2020-2021 levels.
+          As of early 2026, Arabica coffee futures are trading at approximately <span className='font-bold'>348 cents per pound</span>, levels not consistently seen since the early 2010s. This represents increases of over 80-100% compared to 2020-2021 levels.
         </p>
         <p className='text-sm'>
           For context: Between 2015-2020, the C-market averaged 110-150 cents per pound. The current prices represent a fundamental shift in coffee economics globally.
@@ -123,7 +128,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='space-y-4 my-6'>
         <div className='border-l-4 border-red-500 pl-4'>
           <h5 className='font-bold'>Supply Shortages</h5>
-          <p className='text-sm text-gray-700'>Multiple major producing countries-Brazil, Vietnam, Colombia-have experienced production shortfalls due to drought, frost, and disease. Global coffee stocks have declined to concerning levels.</p>
+          <p className='text-sm text-gray-700'>Multiple major producing countries (Brazil, Vietnam, Colombia) have experienced production shortfalls due to drought, frost, and disease. Global coffee stocks have declined to concerning levels.</p>
         </div>
         <div className='border-l-4 border-orange-500 pl-4'>
           <h5 className='font-bold'>Climate Volatility</h5>
@@ -146,7 +151,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Brazil produces approximately 35-40% of the world's coffee</span>, making it the single most influential player in global coffee markets. When Brazil sneezes, the entire coffee world catches a cold-and Brazil has been battling serious production challenges.
+        <span className='font-bold'>Brazil produces approximately 35-40% of the world's coffee</span>, making it the single most influential player in global coffee markets. When Brazil sneezes, the entire coffee world catches a cold, and Brazil has been battling serious production challenges.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>The Brazilian Coffee Crisis (2021-2026)</h4>
@@ -232,7 +237,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         <li><span className='font-bold'>Wild Coffee Forests:</span> Ethiopia's unique wild coffee populations face existential threats from temperature increases.</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Long-Term Price Implication:</span> Climate change isn't a temporary challenge-it's a structural shift reducing global coffee supply while demand continues growing. This fundamental supply-demand imbalance suggests that higher prices aren't a temporary spike but a "new normal" for the coffee industry.
         </p>
@@ -278,7 +283,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <h4 className='text-xl font-bold mt-8 mb-3'>The Complexity: Why Devaluation Doesn't Lower Export Prices</h4>
 
       <p className='my-4'>
-        Many international buyers assume that Birr devaluation should make Ethiopian coffee cheaper in dollar terms. However, the reality is more nuanced:
+        Many international buyers assume that Birr devaluation should make Ethiopian coffee cheaper in dollar terms. However, the reality is more complex:
       </p>
 
       <ol className='space-y-3 my-6 list-decimal ml-6'>
@@ -443,7 +448,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         Note: FOB (Free on Board) prices are approximate and vary based on specific lots, timing, and market conditions. These represent 2026 market snapshots.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Key Insight:</span> The specialty premium isn't inflated or artificial-it reflects real value creation through quality, traceability, and sustainability. When you pay $6.50/lb FOB for Ethiopian G1 washed coffee versus $4.50/lb for commercial grade, you're paying for measurably superior quality that your customers will taste in the cup.
         </p>
@@ -649,7 +654,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Supply-Demand Imbalance:</span> Ethiopian coffee production is relatively flat (limited expansion capacity), growing perhaps 2-3% annually. Meanwhile, global demand for Ethiopian specialty coffee is growing 8-12% annually. This structural imbalance means competition for limited supply continues intensifying, supporting higher prices.
         </p>
@@ -743,7 +748,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='space-y-5 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border-l-4 border-blue-500'>
           <h5 className='font-bold mb-2'>1. Build Direct Relationships</h5>
-          <p className='text-sm mb-3'>Working directly with trusted Ethiopian exporters (like Ethio Coffee Export) provides:atest pricing information, priority access to limited lots, flexible payment terms, and quality consistency.</p>
+          <p className='text-sm mb-3'>Working directly with trusted Ethiopian exporters (like Ethio Coffee Export PLC) provides: latest pricing information, priority access to limited lots, flexible payment terms, and quality consistency.</p>
           <p className='text-sm italic'>Action: Identify 2-3 reliable Ethiopian export partners and nurture long-term relationships.</p>
         </div>
 
@@ -862,10 +867,10 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>The Bottom Line</h4>
         <p className='mb-3'>
-          Ethiopian coffee prices are rising due to a perfect storm of global supply challenges, climate change, currency dynamics, cost inflation, and growing specialty demand. This isn't a temporary blip-it represents a fundamental repricing of coffee that reflects its true value and the real costs of sustainable production.
+          Ethiopian coffee prices are rising due to a perfect storm of global supply challenges, climate change, currency dynamics, cost inflation, and growing specialty demand. This isn't a temporary blip; it represents a fundamental repricing of coffee that reflects its true value and the real costs of sustainable production.
         </p>
         <p>
           For importers and roasters, adapting to this "higher for longer" reality requires strategic thinking, strong supply partnerships, transparent customer communication, and a commitment to value rather than just low cost. Those who embrace quality, traceability, and fair pricing will thrive in this new era of coffee economics.
@@ -911,7 +916,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Importers should build direct relationships, use forward contracting, diversify portfolios, and communicate value transparently to navigate high prices</p>
+          <p>Importers should build direct relationships, use forward contracting, diversify portfolios, and communicate value transparently to manage high prices</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
@@ -922,10 +927,10 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       {/* ETHIO COFFEE EXPORT CTA */}
       <div className='bg-gradient-to-br from-amber-900 to-amber-800 text-white p-8 rounded-lg my-8'>
         <h3 className='text-2xl font-extrabold mb-4'>
-          Navigate Rising Prices with a Trusted Partner
+          Manage Rising Prices with a Trusted Partner
         </h3>
         <p className='mb-4'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> helps importers and roasters worldwide source premium Ethiopian coffee strategically, even in challenging market conditions. Our deep market knowledge, direct farmer relationships, and transparent pricing give you the tools to make informed decisions.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> helps importers and roasters worldwide source premium Ethiopian coffee strategically, even in challenging market conditions. Our deep market knowledge, heritage sourcing relationships, and transparent pricing give you the tools to make informed decisions.
         </p>
         <ul className='space-y-2 mb-6'>
           <li className='flex items-start gap-2'>
@@ -967,98 +972,26 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         <div className="space-y-6">
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Why are Ethiopian coffee prices rising in 2025 and 2026?</h4>
-            <p className="text-sm text-gray-600">Ethiopian coffee prices are rising due to climate-driven supply constraints, increased global demand for specialty Arabica, higher production costs, currency fluctuations, and growing competition from Asian and Middle Eastern buyers.</p>
+            <p className="text-sm text-gray-600">Ethiopian coffee prices are rising due to a combination of climate-driven supply constraints across major producing countries, increased global demand for specialty Arabica, higher domestic production costs including wages and transport, Ethiopian Birr currency fluctuations, and growing competition from Asian and Middle Eastern buyers entering the Ethiopian market.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How much has Ethiopian green coffee increased in price?</h4>
-            <p className="text-sm text-gray-600">Specialty Ethiopian coffee prices have increased 30 to 50% over the past two seasons. Commercial grades (Grade 4 to 5) average $4.50 to $5.50 per kg, while specialty lots (SCA 84+) command $7 to $10 per kg FOB.</p>
+            <p className="text-sm text-gray-600">Specialty Ethiopian coffee prices have increased 30 to 50% over the past two seasons. Commercial grades (Grade 4 to 5) now average $4.50 to $5.50 per kg FOB, while specialty lots scoring SCA 84 and above command $7 to $10+ per kg FOB, with exceptional micro-lots exceeding those ranges depending on origin and processing method.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Will Ethiopian coffee prices continue to rise?</h4>
-            <p className="text-sm text-gray-600">Market indicators suggest continued upward pressure through 2026. Limited supply growth, rising input costs, and strong specialty demand make significant price declines unlikely in the near term.</p>
+            <p className="text-sm text-gray-600">Market indicators suggest continued upward pressure through 2026 and beyond. Limited supply growth from major origins, rising input costs across the coffee belt, persistently strong specialty demand, and the effects of climate change on production cycles make significant price declines unlikely in the near to medium term.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How can roasters manage rising Ethiopian coffee costs?</h4>
-            <p className="text-sm text-gray-600">Strategies include locking in prices with forward contracts, building direct relationships with exporters, diversifying across Ethiopian regions for value, and adjusting retail pricing to reflect quality-driven cost increases.</p>
+            <p className="text-sm text-gray-600">Effective strategies include locking in prices with forward contracts through your exporter, building direct long-term relationships with trusted Ethiopian exporters for priority access and pricing stability, diversifying sourcing across Ethiopian regions to find value, and adjusting retail pricing to reflect quality-driven cost increases.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Is Ethiopian coffee still worth importing at current prices?</h4>
-            <p className="text-sm text-gray-600">Yes. Ethiopian coffee commands premium retail prices due to its unique origin story, distinctive flavor profiles, and strong consumer recognition. The specialty premium more than compensates for higher green costs for quality-focused roasters.</p>
+            <p className="text-sm text-gray-600">Yes. Ethiopian coffee commands premium retail prices due to its unique origin story, distinctive flavor profiles, and strong consumer recognition. The specialty premium more than compensates for higher green bean costs for quality-focused roasters, and customers increasingly expect and accept fair pricing for traceable single-origin coffees.</p>
           </div>
         </div>
       </section>
-
-      {/* RELATED ARTICLES */}
-      <h3 className='text-2xl font-extrabold mt-10 mb-4'>
-        Related Resources
-      </h3>
-      
-      <div className='grid md:grid-cols-2 gap-4 my-6'>
-        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h4 className='font-bold mb-2'>Understanding Ethiopian Coffee</h4>
-          <ul className='space-y-1 text-sm'>
-            <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 hover:underline'>Ethiopia Commodity Exchange (ECX) Explained</Link></li>
-            <li>• <Link href="/insights/guide-ethiopian-coffee-origins" className='text-blue-600 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
-            <li>• <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className='text-blue-600 hover:underline'>Yirgacheffe vs. Sidamo vs. Guji Comparison</Link></li>
-            <li>• <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className='text-blue-600 hover:underline'>Washed vs. Natural Processing Methods</Link></li>
-          </ul>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h4 className='font-bold mb-2'>Import Guides</h4>
-          <ul className='space-y-1 text-sm'>
-            <li>• <Link href="/insights/how-to-import-ethiopian-coffee-to-usa" className='text-blue-600 hover:underline'>Import Ethiopian Coffee to USA</Link></li>
-            <li>• <Link href="/insights/importing-ethiopian-coffee-to-canada-guide" className='text-blue-600 hover:underline'>Import Ethiopian Coffee to Canada</Link></li>
-            <li>• <Link href="/insights/importing-ethiopian-coffee-to-germany" className='text-blue-600 hover:underline'>Import Ethiopian Coffee to Germany/EU</Link></li>
-            <li>• <Link href="/insights/how-to-source-green-coffee-from-ethiopia" className='text-blue-600 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-          </ul>
-        </div>
-      </div>
-
-      {/* RELATED ARTICLES */}
-      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
-        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-        <div className='grid md:grid-cols-3 gap-4'>
-          <div>
-            <h4 className='font-semibold mb-2 text-sm'>Trade & Economics</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>Ethiopian Coffee Exporter</Link></li>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding ECX</Link></li>
-              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
-              <li>• <Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>Ethiopia-China Partnership</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className='font-semibold mb-2 text-sm'>Import Guides</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className='font-semibold mb-2 text-sm'>Production & Quality</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Production</Link></li>
-              <li>• <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee Production</Link></li>
-              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Varieties</Link></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <hr className="my-8 border-gray-200" />
-
-      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Questions About Ethiopian Coffee Pricing?</h4>
-        <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our team provides detailed market analysis, current pricing, and strategic sourcing advice to help you navigate the Ethiopian coffee market successfully.
-        </p>
-        <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
-          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
-        </div>
-      </div>
 
       {/* RELATED ARTICLES */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
@@ -1068,19 +1001,46 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
             <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
-              <li>• <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>Green Coffee Price Hedging for Importers</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>2025 Harvest Season Outlook</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Import Guides</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
-              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage & Freight Logistics</Link></li>
-              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Canada</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
             </ul>
           </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality & Origins</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing Methods</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Trade & Logistics</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage &amp; Freight Logistics</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
+              <li>• <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>Green Coffee Price Hedging for Importers</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Questions About Ethiopian Coffee Pricing?</h4>
+        <p className='my-2'>
+          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our team provides detailed market analysis, current pricing, and strategic sourcing advice to help you succeed in the Ethiopian coffee market.
+        </p>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
 

@@ -34,7 +34,7 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
       </figure>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Key Takeaway:</span> Choosing the right Ethiopian coffee export company comes down to five non-negotiable factors: valid export licensing, processing infrastructure, traceable sourcing, transparent pricing, and a proven sample program. Use the 10-point scorecard in this guide to compare exporters objectively before committing to a purchase.
         </p>
@@ -427,16 +427,12 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing and FOB Guide</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
-              <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control and Grading</Link></li>
               <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide for Importers</Link></li>
-              <li>&bull; <Link href='/insights/top-premium-coffee-exporters-global-guide' className='text-amber-700 hover:underline'>Top Premium Coffee Exporters Worldwide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Origins &amp; Profiles</h4>
             <ul className='space-y-1 text-sm'>
-              <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
-              <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs. Sidamo vs. Guji Compared</Link></li>
               <li>&bull; <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
             </ul>
           </div>
@@ -444,7 +440,6 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
             <h4 className='font-semibold mb-2 text-sm'>Regulations &amp; Compliance</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR and Ethiopian Coffee Compliance</Link></li>
-              <li>&bull; <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage and Freight Logistics</Link></li>
             </ul>
           </div>
         </div>

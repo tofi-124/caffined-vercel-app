@@ -53,7 +53,7 @@ export default function EthiopianCoffeeVsColombianCoffee({ title, date, large_im
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Ethiopian coffee vs Colombian coffee is not a question of quality; both origins produce world-class specialty Arabica. The difference lies in flavor character, genetic diversity, processing traditions, and trade structure. Ethiopian coffees offer intense floral, fruit, and citrus complexity from thousands of heirloom varieties. Colombian coffees deliver consistent, balanced profiles with chocolate, caramel, and mild fruit from well-documented cultivars. For importers and roasters, the choice depends on your program: Ethiopian origins excel in single-origin filter and experimental lots, while Colombian origins anchor espresso blends and high-volume consistency. Many buyers source both.</span>
@@ -567,7 +567,6 @@ export default function EthiopianCoffeeVsColombianCoffee({ title, date, large_im
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
               <li>&bull; <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
-              <li>&bull; <Link href='/insights/top-ethiopian-coffee-importers-buyers-2024-2025' className='text-amber-700 hover:underline'>Top Ethiopian Coffee Importers 2024/2025</Link></li>
             </ul>
           </div>
           <div>
@@ -575,15 +574,12 @@ export default function EthiopianCoffeeVsColombianCoffee({ title, date, large_im
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality: Defects &amp; Grading</Link></li>
               <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Samples</Link></li>
-              <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Trade</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide for Importers</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms</Link></li>
             </ul>
           </div>
         </div>

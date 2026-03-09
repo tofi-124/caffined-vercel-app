@@ -48,7 +48,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         This guide explains what the ECX actually is, how it works, why it matters for Ethiopian coffee export, and what importers need to know when sourcing from ECX-registered suppliers.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineShieldCheck className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> The ECX isn&apos;t just a regulatory hurdle it&apos;s a quality assurance and traceability system that protects both exporters and international buyers. Understanding how it works makes sourcing Ethiopian coffee significantly easier.</span>
@@ -175,7 +175,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         </li>
       </ol>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Timeline Note:</span> From ECX purchase to container departure typically takes 2-4 weeks, depending on documentation, container availability, and logistics. Plan accordingly when ordering for seasonal programs. For the full step-by-step breakdown from contract to delivery, see our <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='underline font-bold'>export process buyer&apos;s guide</Link>.</p>
       </div>
 
@@ -294,7 +294,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         <li><span className='font-bold'>Quality consistency:</span> Can they supply the same profiles year after year for your blends?</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Red Flags to Watch For:</span> Exporters who can&apos;t provide ECX registration documentation, refuse to share cupping reports, have no sample program, or offer prices significantly below market rates. If it seems too good to be true, it probably is.</p>
       </div>
 
@@ -350,7 +350,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
           At <span className='font-bold'>Ethio Coffee Export PLC</span>, we&apos;re ECX-registered and licensed to export Ethiopian green coffee to importers worldwide. From Grade 1 Yirgacheffe to natural processed Sidamo, we offer full traceability, professional export documentation, quality reports, and the responsive communication international buyers need.
         </p>
         <p className='my-2'>
-          Whether you&apos;re sourcing for the first time or looking for a more reliable Ethiopian supplier, we understand the ECX system inside and out and we make the export process transparent and hassle-free.
+          For first-time sourcing buyers and those seeking a more reliable Ethiopian supplier, we understand the ECX system inside and out and we make the export process transparent and hassle-free.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -373,10 +373,8 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
             <h4 className='font-semibold mb-2 text-sm'>Import Guides</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>How to Import Ethiopian Coffee to USA</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing to UK</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing to Germany</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing to Australia</Link></li>
               <li>• <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
             </ul>
           </div>
@@ -390,7 +388,6 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
               <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Ethiopian Coffee Prices Explained</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
               <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage & Freight Logistics</Link></li>
-              <li>• <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee Production Guide</Link></li>
             </ul>
           </div>
         </div>

@@ -57,6 +57,13 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </figcaption>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Most Ethiopian coffee exporters set minimum order quantities (MOQ) at one full container load (FCL), approximately 250&ndash;320 bags of 60 kg. Smaller roasters can access Ethiopian green coffee through sample orders (1&ndash;5 bags), LCL consolidation, or intermediate traders. Understanding MOQ structures helps you plan realistic budgets and build sustainable sourcing relationships.
+        </p>
+      </div>
+
       {/* FURTHER READING / AUTHORITATIVE LINKS (SEO) */}
       <div className='my-4 text-sm text-gray-700'>
         <p className='font-semibold mb-1'>Further reading:</p>
@@ -85,7 +92,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           "Hi, we're a small specialty roaster interested in sourcing Ethiopian Yirgacheffe. Can we start with 5 bags to test the market? What's your best price?"
         </p>
         <p className='text-sm mt-3'>
-          If you've sent an email like this to Ethiopian coffee exporters, you've probably received responses ranging from "Yes, but at a higher price" to complete silence. Understanding <span className='font-bold'>Minimum Order Quantities (MOQ)</span> is one of the most important-and often most frustrating-aspects of starting to import Ethiopian coffee. Let's break down exactly what MOQ means, why it exists, and most importantly, how to navigate it successfully.
+          If you've sent an email like this to Ethiopian coffee exporters, you've probably received responses ranging from "Yes, but at a higher price" to complete silence. Understanding <span className='font-bold'>Minimum Order Quantities (MOQ)</span> is one of the most important-and often most frustrating-aspects of starting to import Ethiopian coffee. Let's break down exactly what MOQ means, why it exists, and most importantly, how to work with it successfully.
         </p>
       </div>
 
@@ -327,7 +334,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </table>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Real Talk:</span> If you're a first-time importer reaching out to large Ethiopian exporters asking for 5 bags, you'll likely either be ignored or quoted a price 30-50% higher than container pricing. This isn't personal-it's economics. Target exporters whose business model matches your order size.
         </p>
@@ -723,7 +730,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </table>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Important:</span> These are FOB (Free on Board) prices from Ethiopia. Add shipping ($0.30-0.50/kg for full container, higher for LCL), import duties (usually $0 for coffee in most countries), and customs/port fees. Your landed cost will be $0.50-2.00/kg higher than FOB depending on destination and order size.
         </p>
@@ -1048,7 +1055,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       </div>
 
       {/* ETHIO COFFEE EXPORT CTA */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Flexible MOQ Options from Ethio Coffee Export</h4>
         <p className='mb-4'>
           At Ethio Coffee Export, we understand that one size doesn't fit all. We work with roasters at every stage of growth:

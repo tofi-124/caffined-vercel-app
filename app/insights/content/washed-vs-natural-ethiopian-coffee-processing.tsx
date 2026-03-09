@@ -34,6 +34,13 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Washed Ethiopian coffees deliver clean, bright, floral cups that highlight terroir, while naturals offer heavy fruit, berry sweetness, and full body. Choosing between them shapes your roasting approach and customer experience. Understanding both processing methods helps buyers make better sourcing decisions and set accurate flavor expectations.
+        </p>
+      </div>
+
       <p className='my-4'>
         When you&apos;re buying Ethiopian green coffee, one of the most important decisions isn&apos;t the region it&apos;s the processing method.
         Washed and natural processed coffees from the same farm can taste dramatically different.

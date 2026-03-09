@@ -35,6 +35,13 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Importing Ethiopian green coffee to Canada requires CFIA compliance, CBSA customs clearance, and proper documentation, but no import license for green coffee. Working with an experienced Ethiopian exporter and a licensed customs broker makes the process straightforward for Canadian roasters and importers.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Import Guide / Canadian Market / Ethiopian Coffee Export</span>
@@ -48,7 +55,7 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         But if you&apos;re a Canadian roaster or importer wondering how to actually get Ethiopian green coffee across the border, the process might seem opaque. Good news: it&apos;s more straightforward than you think. This guide walks through everything from finding a reliable <span className='font-bold'>Ethiopian coffee exporter</span> like <span className='font-bold'>Ethio Coffee</span> to clearing CBSA customs and storing your beans in a Vancouver or Montreal warehouse.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Bottom Line:</span> Importing Ethiopian coffee to Canada requires CFIA compliance, proper documentation, and CBSA clearance but no import licenses for green coffee. Work with an experienced Ethiopian exporter and a licensed customs broker, and the process runs smoothly.</span>
@@ -103,7 +110,7 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Important:</span> If you&apos;re importing for resale or processing, you must be registered under SFCR as a food business. If you&apos;re only importing green coffee for your own roasting operation, you need a Safe Food for Canadians License tied to your roasting facility.</p>
       </div>
 
@@ -267,7 +274,7 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
         </li>
       </ol>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Pro Tip:</span> Use a licensed customs broker for your first few shipments. They handle B3 filing, CBSA/CFIA coordination, and payment. Cost: typically CAD $200-$500 per shipment. Worth every dollar for peace of mind.</p>
       </div>
 

@@ -56,6 +56,13 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Private Ethiopian coffee exporters typically offer faster logistics, flexible lot sizes, and direct quality control, while cooperative unions provide deeper farmer traceability and community-impact narratives. Your choice between these two sourcing models should be driven by your priorities: operational speed and consistency, or social-impact sourcing and origin storytelling.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Export / Sourcing Strategy / Market Analysis</span>
@@ -71,7 +78,7 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
       </p>
 
       <p className='my-4'>
-        Understanding the structural differences between these two models is essential for navigating today's Ethiopian coffee market. The landscape has become more complex following the implementation of <span className='font-bold'>Directive 1106/2025</span>. This new regulation has changed the requirements for operating as a coffee exporter in Ethiopia. The changes affect both private companies and cooperatives in significant ways.
+        Understanding the structural differences between these two models is essential for operating in today's Ethiopian coffee market. The market has become more complex following the implementation of <span className='font-bold'>Directive 1106/2025</span>. This new regulation has changed the requirements for operating as a coffee exporter in Ethiopia. The changes affect both private companies and cooperatives in significant ways.
       </p>
 
       <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
@@ -488,7 +495,7 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
       {/* CONCLUSION */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBar className='text-amber-600' />
-        The 2026 Sourcing Landscape
+        The 2026 Sourcing Environment
       </h3>
 
       <p className='my-4'>
@@ -591,49 +598,29 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
       </section>
 
       {/* RELATED ARTICLES */}
-      <div className='mt-12 pt-8 border-t border-gray-200'>
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
-          <Link 
-            href="/insights/navigating-2026-ethiopian-specialty-coffee-exporters" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineGlobeAlt className='text-xl' />
-              Ethiopian Specialty Coffee Exporters 2026
-            </p>
-            <p className='text-sm text-gray-600'>Navigating the 2026 landscape for Ethiopian specialty coffee exporters with EUDR compliance and quality standards</p>
-          </Link>
-          <Link 
-            href="/insights/eu-deforestation-regulation-ethiopian-coffee-compliance" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineDocumentText className='text-xl' />
-              EUDR Compliance Guide
-            </p>
-            <p className='text-sm text-gray-600'>Complete guide to EU Deforestation Regulation requirements for Ethiopian coffee exporters</p>
-          </Link>
-          <Link 
-            href="/ethiopian-coffee-exporter" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineGlobeAlt className='text-xl' />
-              Ethiopian Coffee Exporter
-            </p>
-            <p className='text-sm text-gray-600'>Your trusted Ethiopian coffee export partner: specialty Arabica from Yirgacheffe, Sidamo, Guji & more</p>
-          </Link>
-          <Link 
-            href="/insights/top-premium-coffee-exporters-global-guide" 
-            className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 hover:shadow-md transition-all'
-          >
-            <p className='font-semibold text-amber-600 mb-2 flex items-center gap-2'>
-              <HiOutlineTrophy className='text-xl' />
-              Top Coffee Exporters in the World
-            </p>
-            <p className='text-sm text-gray-600'>What makes a premium coffee exporter stand out globally - quality benchmarks, certifications, and best practices</p>
-          </Link>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Exporter Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
+              <li>• <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>Ethiopian Specialty Coffee Exporters 2026</Link></li>
+              <li>• <Link href='/insights/top-premium-coffee-exporters-global-guide' className='text-amber-700 hover:underline'>Top Coffee Exporters in the World</Link></li>
+              <li>• <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Coffee Contracts & Payment Terms</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+              <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation Compliance</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+            </ul>
+          </div>
         </div>
       </div>
 

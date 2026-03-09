@@ -80,7 +80,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       </div>
 
       {/* KEY TAKEAWAY BOX */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
           Key Takeaway
@@ -200,7 +200,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
         In Ethiopian coffee trade, forward contracts are commonly signed between March and October for coffee from the upcoming harvest season. The exporter commits to delivering a defined quantity and quality at the agreed price, regardless of where the market moves in the interim.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold mb-2 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
           Example: Forward Contract in Practice
@@ -397,7 +397,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold mb-2 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
           Ethiopian LC Requirement
@@ -698,7 +698,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
         <li><span className='font-bold'>Arrival sample:</span> Upon delivery at the destination port, the buyer draws samples from the received lot and cups against the approved PSS. If the arrival sample does not match the PSS, the buyer may have grounds for a claim.</li>
       </ol>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold mb-2 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
           Tip: Retain Pre-Shipment Samples
@@ -883,7 +883,6 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
             <h5 className='font-semibold mb-2 text-sm'>Pricing & Market</h5>
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee FOB Pricing Guide</Link></li>
-              <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Rising Ethiopian Coffee Prices Explained</Link></li>
               <li><Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Price Hedging Guide</Link></li>
               <li><Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee MOQ Guide</Link></li>
               <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> ECX and Ethiopian Coffee Export</Link></li>
@@ -892,8 +891,6 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
           <div>
             <h5 className='font-semibold mb-2 text-sm'>Quality & Sourcing</h5>
             <ul className='space-y-1.5 text-sm'>
-              <li><Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Quality & Defects</Link></li>
-              <li><Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> How to Cup Ethiopian Coffee</Link></li>
               <li><Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee from Ethiopia</Link></li>
               <li><Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Choosing an Ethiopian Exporter</Link></li>
             </ul>
@@ -910,8 +907,6 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
             <h5 className='font-semibold mb-2 text-sm'>Import Guides by Country</h5>
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to the USA</Link></li>
-              <li><Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to Germany</Link></li>
-              <li><Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to the UK</Link></li>
             </ul>
           </div>
         </div>

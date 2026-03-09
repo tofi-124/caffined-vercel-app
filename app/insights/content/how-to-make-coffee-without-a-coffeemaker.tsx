@@ -40,7 +40,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> You can make coffee without a coffeemaker using seven simple methods: stovetop saucepan, DIY pour over, improvised French press, coffee bag, Turkish-style stovetop, cold brew, and mason jar brew. The best results depend on grind size, water temperature (90 to 96 degrees Celsius), and the quality of your beans. Ethiopian single-origin coffees, with their complex flavor profiles, reward even the simplest brewing approach.</span>
@@ -280,7 +280,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
         <li className='my-2'>Serve over ice or dilute with water or milk. If you made a concentrate (1:5 ratio), dilute 1:1 with water.</li>
       </ol>
       <div className='bg-amber-50 p-5 rounded-lg border border-amber-200 my-4'>
-        <p className='text-sm'><span className='font-bold'>Origin note:</span> Cold brew highlights the chocolate, nut, and berry notes common in Ethiopian natural-processed coffees. A natural Guji or Sidamo cold-brewed for 18 hours produces a remarkably sweet, fruity concentrate with almost no bitterness. For more on how processing impacts flavor, read our <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>washed vs. natural comparison</Link>.</p>
+        <p className='text-sm'><span className='font-bold'>Origin note:</span> Cold brew highlights the chocolate, nut, and berry notes common in Ethiopian natural-processed coffees. A natural Guji or Sidamo cold-brewed for 18 hours produces a strikingly sweet, fruity concentrate with almost no bitterness. For more on how processing impacts flavor, read our <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-bold'>washed vs. natural comparison</Link>.</p>
       </div>
 
       {/* METHOD 7 */}
@@ -375,7 +375,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
       {/* HOW ORIGIN AFFECTS RESULTS */}
       <h2 className='text-3xl font-extrabold mt-12 mb-6'>How Bean Origin Affects Your Results</h2>
       <p className='my-4'>
-        The method you choose matters, but the beans matter more. A high-quality, freshly roasted single-origin coffee will taste remarkable even when brewed in a saucepan. A stale, low-grade commodity blend will taste flat regardless of method.
+        The method you choose matters, but the beans matter more. A high-quality, freshly roasted single-origin coffee will taste outstanding even when brewed in a saucepan. A stale, low-grade commodity blend will taste flat regardless of method.
       </p>
       <p className='my-4'>
         Ethiopian coffees are particularly well suited to these no-machine methods because of their inherent complexity. <Link href='/ethiopian-coffee-yirgacheffe' className='underline font-bold'>Yirgacheffe beans</Link> carry floral and citrus notes that shine in a DIY pour over. <Link href='/ethiopian-coffee-guji' className='underline font-bold'>Guji coffees</Link>, with their berry and stone-fruit character, produce exceptional cold brew. <Link href='/ethiopian-coffee-sidamo' className='underline font-bold'>Sidamo varieties</Link> offer balanced sweetness that works across every method.
@@ -429,7 +429,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          Whether you are a roaster evaluating origins, an importer building a portfolio, or a buyer seeking traceable single-origin lots, Ethio Coffee Export PLC connects you directly with Ethiopia&apos;s finest growing regions. Request samples, access current pricing, and learn about our export process.
+          For roasters evaluating origins, importers building a portfolio, and buyers seeking traceable single-origin lots, Ethio Coffee Export PLC connects you directly with Ethiopia&apos;s finest growing regions. Request samples, access current pricing, and learn about our export process.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -447,7 +447,6 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/coffee-is-art-roasting-brewing' className='text-amber-700 hover:underline'>Coffee Is Art: Roasting and Brewing Techniques</Link></li>
               <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Coffee Samples</Link></li>
-              <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control, Defects, and Grading</Link></li>
               <li>&bull; <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>The New SCA Coffee Value Assessment</Link></li>
             </ul>
           </div>
@@ -458,14 +457,6 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
               <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs. Sidamo vs. Guji Comparison</Link></li>
               <li>&bull; <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs. Natural Ethiopian Coffee Processing</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties and Landraces</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Trade</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing FOB Guide</Link></li>
-              <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities for Ethiopian Coffee</Link></li>
             </ul>
           </div>
           <div>

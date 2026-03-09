@@ -44,6 +44,13 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
         />
       </div>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Proper cupping technique is the most critical skill in sourcing Ethiopian coffee. This guide covers SCA protocol, sample roasting, Ethiopian flavor profile identification, defect detection, and systematic scoring, so you can make confident purchasing decisions based on sensory evaluation.
+        </p>
+      </div>
+
       {/* Introduction */}
       <section className="prose prose-lg max-w-none space-y-4">
         <p className="text-lg leading-relaxed">
@@ -55,7 +62,7 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
         </p>
 
         <p className="text-lg leading-relaxed">
-          This comprehensive guide provides importers with a practical, step-by-step approach to cupping Ethiopian coffee samples using industry-standard protocols. Whether you are evaluating pre-shipment samples, conducting quality control on arrival, or deciding between multiple Ethiopian lots, this guide will help you cup with confidence and make informed purchasing decisions.
+          This comprehensive guide provides importers with a practical, step-by-step approach to cupping Ethiopian coffee samples using industry-standard protocols. From evaluating pre-shipment samples and conducting quality control on arrival to deciding between multiple Ethiopian lots, this guide will help you cup with confidence and make informed purchasing decisions.
         </p>
       </section>
 
@@ -130,7 +137,7 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
             </div>
             <div>
               <strong className="text-blue-700">Overall (10 points):</strong>
-              <p>Cupper's holistic evaluation and personal rating</p>
+              <p>Cupper's overall evaluation and personal rating</p>
             </div>
           </div>
         </div>
@@ -632,27 +639,31 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
       </section>
 
       {/* Related Articles */}
-      <section className="border-t-2 border-gray-200 pt-8">
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-        <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/insights/green-coffee-quality-control-defects-grading" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <h4 className="font-semibold text-gray-900 mb-2">Green Coffee Quality Control & Defects</h4>
-            <p className="text-sm text-gray-600">Understanding defect categories and grading standards</p>
-          </Link>
-          <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <h4 className="font-semibold text-gray-900 mb-2">Washed vs Natural Processing</h4>
-            <p className="text-sm text-gray-600">How processing methods affect Ethiopian coffee flavor</p>
-          </Link>
-          <Link href="/insights/ethiopian-dry-coffee-production-quality-control" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <h4 className="font-semibold text-gray-900 mb-2">Ethiopian Dry Coffee Production</h4>
-            <p className="text-sm text-gray-600">Quality control from cherry to export-ready green coffee</p>
-          </Link>
-          <Link href="/insights/best-cupping-school" className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <h4 className="font-semibold text-gray-900 mb-2">Best Cupping Schools</h4>
-            <p className="text-sm text-gray-600">How to choose training that improves your palate and career</p>
-          </Link>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality & Evaluation</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+              <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+              <li>• <Link href='/insights/best-cupping-school' className='text-amber-700 hover:underline'>Best Cupping Schools</Link></li>
+              <li>• <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>Roasting Ethiopian Coffee Beans</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Sourcing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Ethiopian Dry Coffee Production QC</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+            </ul>
+          </div>
         </div>
-      </section>
+      </div>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Request Ethiopian Coffee Samples</h4>

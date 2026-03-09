@@ -51,7 +51,7 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Ethiopian coffee beans are dense, small, and genetically diverse, requiring lower charge temperatures for naturals (185-195&#176;C / 365-383&#176;F) and moderate charges for washed lots (195-205&#176;C / 383-400&#176;F). First crack tends to stagger due to uneven bean size. Target 18-22% development time ratio for filter roasts and 22-25% for espresso. Rest naturals 7-10 days and washed lots 5-7 days post-roast for best cup results.</span>
@@ -441,7 +441,7 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
       </p>
 
       <p className='my-4'>
-        Chemex with its thick paper filter accentuates the tea-like body and floral clarity of washed Ethiopian coffees. V60 and Kalita Wave allow slightly more body through, which suits naturals and honey-processed lots. Cold brew using a coarse grind and 16-24 hour steep produces a remarkably smooth cup from Ethiopian beans, emphasizing stone fruit sweetness while moderating acidity.
+        Chemex with its thick paper filter accentuates the tea-like body and floral clarity of washed Ethiopian coffees. V60 and Kalita Wave allow slightly more body through, which suits naturals and honey-processed lots. Cold brew using a coarse grind and 16-24 hour steep produces a strikingly smooth cup from Ethiopian beans, emphasizing stone fruit sweetness while moderating acidity.
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-3'>Espresso Roast</h4>
@@ -650,7 +650,6 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
               <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control: Defects &amp; Grading</Link></li>
               <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Samples</Link></li>
               <li>&bull; <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>SCA Coffee Value Assessment Explained</Link></li>
-              <li>&bull; <Link href='/insights/decaf-green-coffee-processing-sourcing-guide' className='text-amber-700 hover:underline'>Decaf Green Coffee: Processing &amp; Sourcing Guide</Link></li>
             </ul>
           </div>
           <div>
@@ -665,18 +664,8 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Trade</h4>
             <ul className='space-y-1 text-sm'>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>&bull; <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link></li>
               <li>&bull; <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className='font-semibold mb-2 text-sm'>Market &amp; Industry</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>&bull; <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>5 Specialty Coffee Trends Defining 2026</Link></li>
-              <li>&bull; <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
-              <li>&bull; <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting Guide</Link></li>
             </ul>
           </div>
         </div>

@@ -36,6 +36,13 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Ethio Coffee Export PLC bridges the gap between Ethiopia&apos;s legendary coffee heritage and international importers, offering speciality green coffee with professional communication, rigorous quality control, and heritage sourcing relationships built over 30+ years across Ethiopia&apos;s top coffee regions.
+        </p>
+      </div>
+
       <div className='my-4 text-sm'>
         <span className='font-semibold'>Series:</span>
         <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline ml-2'>Coffee is a Plant</Link>
@@ -53,7 +60,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
         For years, importers who wanted exceptional Ethiopian coffee faced familiar challenges: inconsistent communication from origin suppliers, unreliable quality control, and difficulty building direct relationships. We&apos;re here to change that.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-center gap-2'>
           <HiOutlineCalendarDays className='text-xl flex-shrink-0' />
           <span><span className='font-bold'>2025 harvest is fully allocated.</span> Check out our <Link href='/offerings' className='underline'>offerings</Link> and join the 2026 allocation list to reserve your next speciality green coffee directly from Ethiopia.</span>
@@ -181,7 +188,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Coffee?</h4>
         <p className='my-2'>
-          Whether you&apos;re an established importer or sourcing Ethiopian coffee for the first time, we&apos;d love to work with you.
+          For established importers and those sourcing Ethiopian coffee for the first time, we&apos;d love to work with you.
         </p>
         <p className='my-2'>
           Request samples, ask questions, or reserve your 2026 allocation.
@@ -199,22 +206,55 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
         </div>
       </div>
 
+      {/* FAQ SECTION */}
+      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethio Coffee Export PLC</h3>
+        <div className="space-y-6">
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What type of coffee does Ethio Coffee Export PLC supply?</h4>
+            <p className="text-sm text-gray-600">Ethio Coffee Export PLC supplies speciality-grade Ethiopian green coffee to importers worldwide. Our range covers washed and natural lots from regions including Yirgacheffe, Sidamo, Guji, Harar, Limu, and Jimma. Every lot ships with full traceability documentation, moisture readings, and pre-shipment sample approval.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How is Ethio Coffee Export different from other Ethiopian exporters?</h4>
+            <p className="text-sm text-gray-600">We combine over 30 years of heritage sourcing relationships across Ethiopia&apos;s top growing regions with professional, importer-facing communication. Buyers get timely responses, transparent pricing, reliable shipping schedules, and direct access to a team that understands both Ethiopian origin logistics and international buyer expectations.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Can I request pre-shipment samples before placing a full order?</h4>
+            <p className="text-sm text-gray-600">Yes. We encourage all new buyers to request samples before committing to a contract. We ship roasted or green samples so you can cup and evaluate the coffee in your own lab. Once you approve the pre-shipment sample, we prepare your order for export with the same lot quality guaranteed.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What are the minimum order quantities for importing from Ethio Coffee Export?</h4>
+            <p className="text-sm text-gray-600">Our standard export unit is one full container load (FCL), typically 19.2 metric tons in 60 kg jute bags. For smaller importers or first-time buyers testing new origins, we can discuss flexible arrangements. Contact our team to discuss volumes that match your sourcing needs.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Which coffee regions in Ethiopia does Ethio Coffee Export source from?</h4>
+            <p className="text-sm text-gray-600">We source from all major Ethiopian coffee regions, including Yirgacheffe, Sidamo, Guji, Harar, Limu, Jimma, and Wellega. Our long-standing relationships with washing stations and cooperatives across these zones give us access to consistent, high-quality lots each harvest season.</p>
+          </div>
+        </div>
+      </section>
+
       {/* RELATED ARTICLES */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Getting Started</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
               <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Coffee Contracts & Payment Terms</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities (MOQ)</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Quality</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing FOB Guide</Link></li>
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
             </ul>
           </div>
         </div>

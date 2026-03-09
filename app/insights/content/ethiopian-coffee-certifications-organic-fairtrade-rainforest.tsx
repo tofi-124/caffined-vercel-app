@@ -65,14 +65,14 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </p>
 
       <p className='my-4'>
-        But navigating the landscape of coffee certifications can be overwhelming. What's the difference between <span className='font-bold'>Organic</span> and <span className='font-bold'>Rainforest Alliance</span>? Does <span className='font-bold'>Fair Trade</span> certification actually help Ethiopian farmers? Which certification commands the highest premium? And most importantly, which certified Ethiopian coffees should you source for your business?
+        But understanding the range of coffee certifications can be overwhelming. What's the difference between <span className='font-bold'>Organic</span> and <span className='font-bold'>Rainforest Alliance</span>? Does <span className='font-bold'>Fair Trade</span> certification actually help Ethiopian farmers? Which certification commands the highest premium? And most importantly, which certified Ethiopian coffees should you source for your business?
       </p>
 
       <p className='my-4'>
         This comprehensive guide breaks down every major coffee certification available for Ethiopian green coffee, explaining what each certification means in practice, the standards involved, cost implications for buyers, and how to source certified Ethiopian coffee that aligns with your business values and customer expectations.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Insight:</span> Ethiopia has one of the highest rates of organic coffee production in the world due to traditional farming practices. Over 95% of Ethiopian coffee is grown without synthetic inputs, but only a fraction carries official organic certification due to the costs and complexity of the certification process.</span>
@@ -206,7 +206,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         </table>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Important:</span> Many Ethiopian coffees carry <span className='font-bold'>multiple certifications</span> simultaneously. It's common to find Ethiopian coffee that is both Organic AND Fair Trade certified, or Rainforest Alliance AND Organic certified. Dual or triple certifications can command higher premiums and broader market appeal.
         </p>
@@ -505,7 +505,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Buyer Perspective:</span> Fair Trade certification remains valuable for communicating social commitment to consumers. However, for specialty coffee buyers focused on quality, Fair Trade should be viewed as a baseline social standard rather than a quality indicator. The highest quality Ethiopian coffees may or may not carry Fair Trade certification.
         </p>
@@ -669,7 +669,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         <li><span className='font-bold'>Forest coffee:</span> Ethiopia's shade-grown and forest coffee aligns well with RA's biodiversity requirements</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>For Buyers:</span> Rainforest Alliance certification is often preferred by large commercial buyers and multinational roasters due to its broader supply chain coverage and lower premium costs. For specialty buyers seeking maximum social impact, Fair Trade may communicate more clearly to consumers, though RA's environmental standards are often stronger.
         </p>
@@ -742,7 +742,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         </table>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Sourcing Tip:</span> If you're specifically seeking Bird Friendly Ethiopian coffee, work with exporters who source from forest coffee regions like Kaffa, Bonga, or Sheka. These coffees may meet Bird Friendly standards even if not yet certified, representing an opportunity for buyers to support certification expansion.
         </p>
@@ -820,7 +820,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         <li><span className='font-bold'>Direct trade replacing certification:</span> Some specialty buyers prefer relationship transparency over third-party certification</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Our Approach at Ethio Coffee Export:</span> We facilitate both certified and direct trade relationships. For buyers seeking certifications, we source from certified cooperatives and can provide all documentation. For buyers preferring direct trade, we offer full transparency on pricing, farmer payments, and supply chain traceability. Many of our relationships combine both approaches.
         </p>
@@ -925,7 +925,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        Ethiopia's coffee certification landscape has evolved significantly over the past two decades. Here's the current state:
+        Ethiopia's coffee certification environment has evolved significantly over the past two decades. Here's the current state:
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>Certification Prevalence in Ethiopian Coffee</h4>
@@ -1066,7 +1066,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Recommendation:</span> For most specialty coffee roasters, <span className='font-bold'>Organic + Fair Trade dual certification</span> offers the best combination of consumer recognition, social impact, and market positioning. This combination is widely available from Ethiopian cooperatives and communicates both environmental and social responsibility.
         </p>
@@ -1144,7 +1144,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         <li>Understand destination market certification requirements</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Ethio Coffee Export</span> sources from certified cooperatives across Ethiopia and can provide Organic, Fair Trade, and Rainforest Alliance certified Ethiopian coffees with full documentation. <Link href='/contact-us' className='underline font-bold'>Contact us</Link> to discuss your certification requirements and current availability.
         </p>
@@ -1157,7 +1157,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </h3>
 
       <p className='my-4'>
-        The certification landscape is evolving. Here are key trends affecting Ethiopian coffee:
+        The certification environment is evolving. Here are key trends affecting Ethiopian coffee:
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-4'>Emerging Trends</h4>
@@ -1180,7 +1180,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
 
         <div className='border-l-4 border-purple-500 pl-4'>
           <h5 className='font-bold'>Technology-Enabled Traceability</h5>
-          <p className='text-sm'>Blockchain, satellite monitoring, and digital ID systems are making certification verification more robust and reducing fraud. Ethiopia is piloting digital traceability systems.</p>
+          <p className='text-sm'>Blockchain, satellite monitoring, and digital ID systems are making certification verification more reliable and reducing fraud. Ethiopia is piloting digital traceability systems.</p>
         </div>
 
         <div className='border-l-4 border-red-500 pl-4'>
@@ -1241,7 +1241,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Certified Ethiopian Coffee with Ethio Coffee Export</h4>
         <p className='mb-4'>
           Looking for certified Ethiopian green coffee? Ethio Coffee Export sources from certified cooperatives across Ethiopia's premier growing regions. We can provide:
@@ -1260,30 +1260,30 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       </div>
 
       {/* RELATED ARTICLES */}
-      <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-        <ul className='space-y-2 text-sm'>
-          <li>
-            <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> EU Deforestation Regulation (EUDR) and Ethiopian Coffee: Complete Compliance Guide
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee from Ethiopia: Complete Guide
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Green Coffee Quality Control: Defects, Grading & What Importers Should Inspect
-            </Link>
-          </li>
-          <li>
-            <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline inline-flex items-center gap-1'>
-              <ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Direct Trade Partnerships: Supporting Ethiopian Farmers
-            </Link>
-          </li>
-        </ul>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Compliance & Traceability</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation Compliance</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+              <li>• <Link href='/insights/certified-organic-coffee-bean-exporters-bulk-orders' className='text-amber-700 hover:underline'>Certified Organic Coffee Exporters</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Quality</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+              <li>• <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Washing Stations Guide</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>

@@ -44,6 +44,11 @@ export default function SpecialtyCoffeeTrends2026({ title, date, large_image_url
         Based on current market trajectories and harvest forecasts, here are the five key trends shaping specialty coffee in 2026-and how Ethiopian origins are uniquely positioned to lead them.
       </p>
 
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-4 my-6'>
+        <span className='font-bold'>Key Takeaway: </span>
+        The five trends defining specialty coffee in 2026 are hyper-traceability, experimental processing, climate resilience, cold coffee innovation, and story-driven premiumization. Ethiopian coffee is uniquely positioned to lead all five.
+      </div>
+
       <h3 className='text-2xl font-extrabold mt-8'>
         1. Hyper-Traceability: The New Standard
       </h3>
@@ -141,7 +146,7 @@ export default function SpecialtyCoffeeTrends2026({ title, date, large_image_url
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What should roasters prioritize when sourcing for 2026?</h4>
-            <p className="text-sm text-gray-600">Focus on hyper-traceable lots with verifiable origin stories, consider stocking both classic washed profiles and experimental processed lots, book washed Grade 1 lots early as supply may be tighter, and leverage the cultural narrative of Ethiopian coffee for premiumization in your marketing.</p>
+            <p className="text-sm text-gray-600">Focus on hyper-traceable lots with verifiable origin stories, consider stocking both classic washed profiles and experimental processed lots, book washed Grade 1 lots early as supply may be tighter, and use the cultural narrative of Ethiopian coffee for premiumization in your marketing.</p>
           </div>
         </div>
       </section>
@@ -182,6 +187,20 @@ export default function SpecialtyCoffeeTrends2026({ title, date, large_image_url
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
               <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
               <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality & Evaluation</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
             </ul>
           </div>
         </div>

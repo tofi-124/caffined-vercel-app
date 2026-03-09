@@ -46,6 +46,13 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          In 2024/2025, the top 10 Ethiopian coffee importers controlled over 32% of total import value, with VOLCAFE leading at $127.48M. European and Middle Eastern buyers dominate the rankings, while Asian markets&mdash;particularly China and South Korea&mdash;show the strongest growth. This data helps Ethiopian exporters identify and target the most active international buyers.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Market Intelligence / Ethiopian Coffee Trade / Import Data Analysis</span>
@@ -53,7 +60,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        Understanding who buys Ethiopian coffee-and how much they buy-is critical intelligence for anyone involved in the Ethiopian coffee export industry. Whether you're an Ethiopian coffee exporter looking for reliable buyers, an investor analyzing market dynamics, or a roaster seeking direct trade partners, knowing the major players in Ethiopian coffee imports provides strategic advantage.
+        Understanding who buys Ethiopian coffee-and how much they buy-is critical intelligence for anyone involved in the Ethiopian coffee export industry. For Ethiopian coffee exporters seeking reliable buyers, investors analyzing market dynamics, or roasters pursuing direct trade partners, knowing the major players in Ethiopian coffee imports provides strategic advantage.
       </p>
 
       <p className='my-4'>
@@ -955,7 +962,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
               4. Direct Trade and Traceability Demand
             </h4>
             <p className='text-sm'>
-              EU Deforestation Regulation (EUDR) and consumer demand for traceable coffee driving buyers to seek direct relationships with Ethiopian exporters who can provide farm-level geolocation data. Exporters with robust traceability systems gain competitive advantage, especially in European specialty markets.
+              EU Deforestation Regulation (EUDR) and consumer demand for traceable coffee driving buyers to seek direct relationships with Ethiopian exporters who can provide farm-level geolocation data. Exporters with comprehensive traceability systems gain competitive advantage, especially in European specialty markets.
             </p>
           </div>
 
@@ -970,7 +977,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
           </div>
         </div>
 
-        <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+        <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
           <h4 className='font-bold text-lg mb-3'>Bottom Line for Ethiopian Coffee Exporters</h4>
           <p className='text-sm'>
             The top 100 Ethiopian coffee importers control over 60% of global Ethiopian coffee trade value. Understanding who these buyers are, what they want, and how to approach them is critical for Ethiopian exporters seeking to grow their business. Whether you're targeting high-volume commodity traders or premium specialty buyers, the data shows clear opportunities across European, Middle Eastern, and Asian markets. Focus on quality consistency, professional documentation, and strategic buyer relationships to capture your share of this growing market.
@@ -1011,26 +1018,26 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
       <section className='my-8'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
-          <Link href='/ethiopian-coffee-exporter' className='p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors'>
-            <h4 className='font-bold text-dark mb-2'>Ethiopian Coffee Exporter</h4>
-            <p className='text-sm text-gray-600'>Your trusted Ethiopian coffee export partner for specialty Arabica from all major origins</p>
-          </Link>
-          <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors'>
-            <h4 className='font-bold text-dark mb-2'>Navigating 2026: Ethiopian Specialty Coffee Exporters</h4>
-            <p className='text-sm text-gray-600'>Understanding how to position your Ethiopian export business for specialty buyers</p>
-          </Link>
-          <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors'>
-            <h4 className='font-bold text-dark mb-2'>Private vs Cooperative Ethiopian Coffee Exporters</h4>
-            <p className='text-sm text-gray-600'>Strategic analysis for international buyers choosing export partners</p>
-          </Link>
-          <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors'>
-            <h4 className='font-bold text-dark mb-2'>Minimum Order Quantities for Ethiopian Coffee</h4>
-            <p className='text-sm text-gray-600'>Understanding MOQs when approaching major importers</p>
-          </Link>
-          <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors'>
-            <h4 className='font-bold text-dark mb-2'>Rising Ethiopian Coffee Prices Explained</h4>
-            <p className='text-sm text-gray-600'>Market dynamics affecting Ethiopian coffee pricing in 2025/2026</p>
-          </Link>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
+              <li>• <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
+              <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities (MOQ)</Link></li>
+              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing FOB Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Coffee Contracts & Payment Terms</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
+            </ul>
+          </div>
         </div>
       </section>
 

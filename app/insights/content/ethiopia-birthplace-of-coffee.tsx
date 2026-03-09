@@ -27,6 +27,13 @@ export default function EthiopiaBirthplaceOfCoffee({ title, date, large_image_ur
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Ethiopia is the biological and cultural origin of all Arabica coffee. With over 10,000 wild coffee varieties in its southwestern forests, Ethiopia offers unmatched genetic diversity that no other origin can replicate. For buyers and roasters, this heritage translates into a range of flavors&mdash;from floral and citrus to berry and chocolate&mdash;found nowhere else in the world.
+        </p>
+      </div>
+
       <h2 className="text-2xl font-bold mt-6 mb-3">How Coffee Was Discovered in Ethiopia</h2>
 
       <p className="my-4">

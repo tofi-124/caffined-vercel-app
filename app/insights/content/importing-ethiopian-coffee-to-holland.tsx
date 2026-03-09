@@ -35,6 +35,13 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          The Netherlands (via Rotterdam) offers fast throughput, modern bonded storage, and no coffee excise tax, making it an ideal EU gateway for Ethiopian coffee imports. Dutch customs are efficient, and a single import clears goods for distribution across Benelux and Western Europe.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Import Guide / Netherlands & EU Market / Ethiopian Coffee Export</span>
@@ -44,7 +51,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         The Netherlands is a strategic European gateway for Ethiopian coffee. Rotterdam is one of the world&apos;s busiest ports with best-in-class logistics, bonded warehousing, and efficient customs procedures   making it a popular choice for importers distributing across Benelux and Western Europe.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Quick Take:</span> Rotterdam offers fast throughput, modern bonded storage and excellent inland connections. Ethiopian coffee normally enters the EU duty‑free under preferential schemes (check current status and certificate requirements). The Netherlands applies a reduced VAT rate for most food products (9%) and does not levy a federal coffee excise like Germany.</span>
@@ -295,7 +302,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         <li><span className='font-bold'>Release & delivery:</span> <span className='font-normal text-gray-600'>Once cleared, the container is released for pickup. Onward transport to your warehouse via truck, barge, or rail. Rotterdam offers excellent multimodal connections across the Benelux and Germany.</span></li>
       </ol>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Tip:</span> Use Rotterdam bonded storage to smooth cash flow and simplify cross-border distribution into Belgium and Germany   many traders import via Rotterdam even when final markets are elsewhere.</p>
       </div>
 
@@ -380,7 +387,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         <li><span className='font-bold'>Premium pricing potential:</span> Specialty Ethiopian lots (Yirgacheffe, Guji, Sidamo) command strong premiums in the Dutch market, particularly washed coffees with clean floral and citrus profiles.</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Market Tip:</span> Dutch specialty roasters often prefer smaller lots (5 to 20 bags) with detailed traceability rather than large commodity volumes. Providing cupping notes, processing details, and cooperative-level information strengthens your positioning in this market.</p>
       </div>
 
@@ -537,9 +544,6 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
             <h4 className='font-semibold mb-2 mt-4 text-sm'>Import Guides: Americas & Asia</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Importing to Canada</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Importing to South Korea</Link></li>
             </ul>
           </div>
           <div>

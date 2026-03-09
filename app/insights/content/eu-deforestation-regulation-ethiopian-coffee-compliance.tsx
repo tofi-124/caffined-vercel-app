@@ -218,7 +218,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>The Stakes Are High:</span> Failure to achieve EUDR compliance doesn't just mean individual shipments being rejected-it means potentially losing access to the EU market entirely. For Ethiopian exporters, this would mean losing 30-40% of export revenue and the premium prices EU buyers pay for quality Ethiopian coffee.</span>
@@ -463,7 +463,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </h3>
 
       <p className='my-4'>
-        Achieving EUDR compliance requires robust <span className='font-bold'>traceability systems</span> that track coffee from specific farms through the entire supply chain to export. For a comprehensive breakdown of traceability levels, documentation standards, and verification methods, see our <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-blue-600 underline font-bold'>Ethiopian coffee traceability guide for buyers</Link>.
+        Achieving EUDR compliance requires comprehensive <span className='font-bold'>traceability systems</span> that track coffee from specific farms through the entire supply chain to export. For a comprehensive breakdown of traceability levels, documentation standards, and verification methods, see our <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-blue-600 underline font-bold'>Ethiopian coffee traceability guide for buyers</Link>.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Building an Effective Traceability System</h4>
@@ -806,7 +806,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
             <li>• Register with Ethiopia's national coffee database once operational</li>
             <li>• Ensure your farm data aligns with government records</li>
             <li>• Obtain official deforestation-free certificates from Ethiopian authorities</li>
-            <li>• Leverage government systems to simplify compliance verification</li>
+            <li>• Utilize government systems to simplify compliance verification</li>
           </ul>
         </div>
 
@@ -881,7 +881,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>The Bottom Line:</span> EUDR compliance is not optional for exporters serving EU markets. Non-compliance means losing access to premium prices and a major export destination. The investment in compliance systems pays for itself many times over through maintained market access.
         </p>
@@ -945,7 +945,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </ul>
 
       {/* CONCLUSION & CTA */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>
           Conclusion: EUDR Compliance Is Essential and Achievable
         </h4>
@@ -1003,7 +1003,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopia has natural advantages (established coffee landscapes, forest coffee, government support) that can facilitate compliance if properly leveraged</p>
+          <p>Ethiopia has natural advantages (established coffee landscapes, forest coffee, government support) that can facilitate compliance if properly utilized</p>
         </div>
       </div>
 

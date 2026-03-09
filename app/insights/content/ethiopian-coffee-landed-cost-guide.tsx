@@ -54,7 +54,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> The <strong>Ethiopian coffee landed cost</strong> is the total price you pay to get green coffee from Djibouti port to your warehouse. It includes the FOB price, ocean freight ($1,800 to $4,500 per 20ft container), marine insurance (0.3% to 0.5% of CIF value), customs duties (0% in the USA, EU, and most markets for green coffee under HS 0901.11), port handling and customs brokerage ($400 to $900), inland delivery ($300 to $800), and warehousing ($0.50 to $2.00 per bag per month). For a typical 20ft container of washed Ethiopian Yirgacheffe Grade 1, expect a landed cost of roughly $7.50 to $9.50 per kilogram in the USA or EU, depending on the FOB price and transit route. Hidden costs (financing, weight loss, forex exposure) can add 3% to 8% on top. Calculate your landed cost before committing to a contract, not after.</span>
@@ -707,16 +707,13 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
               <li>&bull; <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
               <li>&bull; <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>Green Coffee Price Hedging &amp; Financing Guide</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms</Link></li>
-              <li>&bull; <Link href='/insights/most-expensive-coffee-in-the-world' className='text-amber-700 hover:underline'>Most Expensive Coffee in the World</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Trade</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>&bull; <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Export Company</Link></li>
               <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide for Importers</Link></li>
-              <li>&bull; <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Micro-Lot Ethiopian Coffee Sourcing Guide</Link></li>
             </ul>
           </div>
           <div>
@@ -724,9 +721,6 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>
-              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the UK</Link></li>
-              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Japan</Link></li>
-              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-turkey' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Turkey</Link></li>
             </ul>
           </div>
           <div>
@@ -734,8 +728,6 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>
               <li>&bull; <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Green Coffee Shelf Life: Storage Guide</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
-              <li>&bull; <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR and Ethiopian Coffee Compliance</Link></li>
             </ul>
           </div>
         </div>

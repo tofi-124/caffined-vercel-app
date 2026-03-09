@@ -50,7 +50,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
       </div>
 
       {/* Key Takeaway - featured snippet target */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2 flex items-center gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0' />
           Key Takeaway

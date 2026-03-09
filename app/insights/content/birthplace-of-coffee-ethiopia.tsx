@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
+import { HiOutlineLightBulb } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -33,13 +34,23 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
           />
         </div>
       </figure>
-      
+
+      <div className='bg-amber-50 border border-amber-200 p-6 rounded-lg my-8'>
+        <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-amber-600 flex-shrink-0' />
+          Key Takeaway
+        </h3>
+        <p className='text-sm leading-relaxed'>
+          Ethiopia is the scientifically recognized origin of Coffea arabica and home to the widest genetic diversity of Arabica coffee on Earth. Its distinct growing regions, traditional processing methods, and centuries-old coffee culture produce flavors unavailable from any other origin. For roasters and importers, Ethiopian coffee offers unmatched variety and traceability.
+        </p>
+      </div>
+
       <p className='my-4'>
-        If you have ever taken a sip and thought, &quot;Wait, why does this taste like jasmine or blueberries?&quot; you have already encountered a piece of Ethiopia. Coffee, specifically Coffea arabica, traces its roots back to Ethiopia, particularly the Kaffa region, whose name may have inspired the word &quot;coffee.&quot; Ethiopia is not only the birthplace of the plant but also home to the **widest genetic diversity of Arabica coffee**, making it a global treasure for biodiversity and flavor.
+        Coffee, specifically Coffea arabica, traces its roots to Ethiopia, particularly the Kaffa region, whose name may have inspired the word &quot;coffee.&quot; Ethiopia is the birthplace of the plant and home to the <strong>widest genetic diversity of Arabica coffee</strong>, making it a global treasure for biodiversity and flavor. For roasters and importers seeking origin transparency, this diversity translates directly into distinctive cup profiles.
       </p>
 
       <p className='my-4'>
-        This post is here to give you a real, grounded starting point: a place, a culture, and a set of traditions that continue to shape how Ethiopian coffee is grown, harvested, and shared today. Ethiopia&apos;s coffee culture is intertwined with social customs, ecological stewardship, and centuries of human experience.
+        This article provides a grounded starting point: the place, the culture, and the traditions that continue to shape how Ethiopian coffee is grown, harvested, and traded today. Ethiopia&apos;s coffee culture is intertwined with social customs, ecological stewardship, and centuries of human experience.
       </p>
 
       <h3 className='text-2xl font-extrabold mt-8'>
@@ -70,7 +81,7 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
         What This Means for Your Cup
       </h3>
       <p className='my-4'>
-        Ethiopian coffee is remarkably diverse. Even within a single region, processing methods and microclimates can produce flavors that are entirely different. Buyers and roasters who value **origin transparency and quality** support farmers and cooperatives in investing in careful harvesting and processing, ensuring the coffee&apos;s unique personality shines in every cup.
+        Ethiopian coffee is exceptionally diverse. Even within a single region, processing methods and microclimates can produce flavors that are entirely different. Buyers and roasters who value <strong>origin transparency and quality</strong> support farmers and cooperatives in investing in careful harvesting and processing, ensuring the coffee&apos;s unique personality shines in every cup.
       </p>
 
       <p className='my-2'>
@@ -96,8 +107,17 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
         A Simple Way to Taste It
       </h3>
       <p className='my-4'>
-        Here is a fun exercise: brew two Ethiopian coffees side by side from different washing stations or cooperatives. Taste mindfully. One might present a floral, tea-like aroma, while the other might be citrus-forward and bright. Despite coming from the same country, each cup tells a unique story of climate, soil, and human care.
+        Try brewing two Ethiopian coffees side by side from different washing stations or cooperatives. One might present a floral, tea-like aroma, while the other could be citrus-forward and bright. Despite coming from the same country, each cup tells a unique story of climate, soil, and human care. This tasting exercise is one of the fastest ways to understand the range Ethiopian coffee offers.
       </p>
+
+      <div className='my-4 text-sm text-gray-700'>
+        <p className='font-semibold mb-1'>Further reading:</p>
+        <ul className='list-disc ml-5 space-y-1'>
+          <li><a href='https://www.ico.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>International Coffee Organization (ICO)</a></li>
+          <li><a href='https://www.thecoffeeguide.org' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>The Coffee Guide (ITC)</a></li>
+          <li><a href='https://sca.coffee' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Specialty Coffee Association (SCA)</a></li>
+        </ul>
+      </div>
 
       {/* FAQ SECTION */}
       <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
@@ -109,7 +129,7 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What is the legend of Kaldi and Ethiopian coffee?</h4>
-            <p className="text-sm text-gray-600">The popular legend tells of a goat herder named Kaldi who noticed his goats becoming energetic after eating red coffee cherries. He shared the discovery with monks who brewed the berries into a drink that helped them stay awake during prayers. While historians note this story was recorded much later, it remains a well-known symbol of Ethiopia&apos;s central role in coffee history.</p>
+            <p className="text-sm text-gray-600">The legend describes a goat herder named Kaldi who noticed his goats becoming energetic after eating red coffee cherries. He shared the discovery with monks who brewed the berries into a drink. Though recorded much later, the story remains a widely recognized symbol of Ethiopia&apos;s central role in coffee history.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What makes Ethiopian coffee different from other origins?</h4>
@@ -119,20 +139,24 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
             <h4 className="font-bold text-gray-800 mb-2">What is the Ethiopian coffee ceremony?</h4>
             <p className="text-sm text-gray-600">The Ethiopian coffee ceremony is a traditional social ritual where green beans are roasted over an open flame, ground by hand, and brewed in a clay pot called a jebena. The ceremony emphasizes hospitality, community, and patience, often lasting an hour or more with three rounds of coffee served.</p>
           </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">Which Ethiopian coffee regions are most important for specialty buyers?</h4>
+            <p className="text-sm text-gray-600">Yirgacheffe, Sidamo, Guji, Harar, and Limu are the primary specialty regions. Each offers distinct cup profiles shaped by altitude, soil, and processing tradition. Yirgacheffe is known for floral and citrus notes, while Guji and Sidamo often deliver stone fruit and berry complexity.</p>
+          </div>
         </div>
       </section>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source Authentic Ethiopian Coffee from the Birthplace of Arabica</h4>
+        <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we export traceable, high-quality green coffee from Ethiopia&apos;s legendary growing regions. From delicate washed Yirgacheffe to bold natural Sidamo, discover the origins that started it all.
+          <span className='font-bold'>Ethio Coffee Export PLC</span> exports traceable, high-quality green coffee from Ethiopia&apos;s legendary growing regions. From delicate washed Yirgacheffe to bold natural Sidamo, request samples and discover the origins that started it all.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
             View Our Offerings
           </Link>
           <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
-            Contact Us
+            Request Samples
           </Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
             How to Order
@@ -143,22 +167,37 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
       {/* RELATED ARTICLES */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-        <div className='grid md:grid-cols-2 gap-4'>
+        <div className='grid md:grid-cols-2 gap-6'>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Ethiopian Coffee Culture</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
-              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
-              <li>• <Link href='/insights/women-in-ethiopian-coffee-industry' className='text-amber-700 hover:underline'>Women in Ethiopian Coffee</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
+              <li>&bull; <Link href='/insights/women-in-ethiopian-coffee-industry' className='text-amber-700 hover:underline'>Women in Ethiopian Coffee Industry</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Climate Change and Ethiopian Coffee</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Origins & Sourcing</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Origins & Varieties</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
-              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
-              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties</Link></li>
-              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process</Link></li>
+              <li>&bull; <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>Choosing an Ethiopian Coffee Exporter</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality & Processing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Washing Stations Guide</Link></li>
+              <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control and Grading</Link></li>
             </ul>
           </div>
         </div>
@@ -166,10 +205,10 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This article explores Ethiopia&apos;s role as the birthplace of Arabica coffee, covering its origin story, regional diversity, cultural traditions, and what makes Ethiopian coffee unique for roasters and buyers worldwide.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This article covers Ethiopia&apos;s role as the birthplace of Arabica coffee, its origin story, regional diversity, and cultural traditions. Information about coffee regions and trade practices may evolve; contact us for current details.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

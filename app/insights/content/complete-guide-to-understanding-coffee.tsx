@@ -71,6 +71,10 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         <span className='ml-2'>Coffee Education / Complete Guide / Specialty Coffee Fundamentals</span>
       </div>
 
+      <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
+        <span><span className='font-bold'>Key Takeaway:</span> Coffee is the world&apos;s second most traded commodity. This guide covers everything from Ethiopian origins and plant biology to processing, grading, roasting, and brewing. For importers and roasters, understanding each stage of coffee&apos;s journey from seed to cup leads to better sourcing decisions and higher quality in the cup.</span>
+      </div>
+
       {/* Table of Contents */}
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4 flex items-center gap-2'><HiOutlineBookOpen className='text-amber-600' /> Table of Contents</h3>
@@ -93,14 +97,14 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </div>
       
       <p className='my-4'>
-        Coffee is one of the most complex and fascinating beverages in the world. Behind every cup lies a journey spanning continents, countless hands, and a remarkable transformation from a tiny seed inside a cherry to the aromatic drink that fuels billions of people daily.
+        Coffee is one of the most complex agricultural products in the world. Behind every cup lies a journey spanning continents, countless hands, and a complete transformation from a tiny seed inside a cherry to the aromatic drink that fuels billions of people daily.
       </p>
 
       <p className='my-4'>
-        Whether you're a curious coffee lover, an aspiring barista, a roaster expanding your knowledge, or a buyer sourcing green coffee, understanding coffee deeply will transform how you experience, evaluate, and appreciate this extraordinary product.
+        For coffee lovers, aspiring baristas, roasters expanding their knowledge, and buyers sourcing green coffee, understanding coffee deeply transforms how you experience, evaluate, and appreciate this extraordinary product.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineSparkles className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Why This Matters:</span> Coffee is the world&apos;s second most traded commodity after oil. Over 2.25 billion cups are consumed every day. Yet most people know surprisingly little about what goes into producing the coffee they drink. Knowledge is the key to appreciation and to making better choices.</span>
@@ -312,7 +316,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
             </tr>
             <tr>
               <td className='border border-gray-300 p-3 font-bold'>Flavor Profile</td>
-              <td className='border border-gray-300 p-3'>Complex, nuanced, fruity, floral, acidic</td>
+              <td className='border border-gray-300 p-3'>Complex, layered, fruity, floral, acidic</td>
               <td className='border border-gray-300 p-3'>Earthy, woody, nutty, bitter, full-bodied</td>
             </tr>
             <tr className='bg-gray-50'>
@@ -370,7 +374,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Why Ethiopian Varieties Matter:</span> Ethiopia&apos;s wild coffee forests contain more genetic diversity than the rest of the world&apos;s coffee combined. This genetic library is essential for breeding disease-resistant, climate-resilient varieties for the future. When you buy Ethiopian coffee, you&apos;re supporting the preservation of this invaluable resource.</span>
@@ -712,7 +716,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         <li><span className='font-bold'>Uniformity:</span> Consistency across cups</li>
         <li><span className='font-bold'>Clean Cup:</span> Freedom from defects</li>
         <li><span className='font-bold'>Sweetness:</span> Presence of sweetness</li>
-        <li><span className='font-bold'>Overall:</span> Holistic impression</li>
+        <li><span className='font-bold'>Overall:</span> Total impression</li>
       </ul>
 
       <p className='my-4'>
@@ -929,7 +933,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       <div className='space-y-4 my-6'>
         <div className='border-l-4 border-amber-500 pl-4'>
           <h5 className='font-bold'>Pour Over (V60, Chemex, Kalita)</h5>
-          <p className='text-sm text-gray-700'>Manual brewing that offers control over every variable. Produces clean, nuanced cups that highlight origin character. Ideal for light-roasted specialty coffees.</p>
+          <p className='text-sm text-gray-700'>Manual brewing that offers control over every variable. Produces clean, layered cups that highlight origin character. Ideal for light-roasted specialty coffees.</p>
         </div>
         <div className='border-l-4 border-amber-500 pl-4'>
           <h5 className='font-bold'>Espresso</h5>
@@ -1146,19 +1150,19 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       </div>
 
       {/* CONCLUSION */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-8'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3 flex items-center gap-2'>
           <HiOutlineDocumentText className='text-2xl' />
           Conclusion: Coffee Is a Journey
         </h4>
         <p className='mb-3'>
-          Coffee is one of the most complex, fascinating products humans have ever created. From its discovery in Ethiopia&apos;s ancient forests to the cutting-edge science of modern roasting and brewing, every cup represents an extraordinary journey of transformation.
+          Coffee is one of the most complex products humans have cultivated. From its discovery in Ethiopia&apos;s ancient forests to the precision science of modern roasting and brewing, every cup represents an extraordinary journey of transformation.
         </p>
         <p className='mb-3'>
           Understanding coffee deeply its origins, cultivation, processing, trading, roasting, and brewing transforms how you experience it. You&apos;re no longer just drinking a beverage; you&apos;re participating in a global story that connects millions of farmers, traders, roasters, and coffee lovers.
         </p>
         <p>
-          Whether you&apos;re a casual coffee drinker looking to appreciate your morning cup more fully, or a professional seeking to deepen your expertise, the journey of coffee knowledge never ends. There&apos;s always more to learn, taste, and discover.
+          For casual coffee drinkers and professionals alike, the journey of coffee knowledge never ends. There&apos;s always more to learn, taste, and discover.
         </p>
       </div>
 
@@ -1172,7 +1176,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Arabica and Robusta are the two main species; Arabica dominates specialty coffee for its complex, nuanced flavors</p>
+          <p>Arabica and Robusta are the two main species; Arabica dominates specialty coffee for its complex, layered flavors</p>
         </div>
         <div className='flex gap-3 items-start'>
           <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
@@ -1210,7 +1214,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What is the difference between Arabica and Robusta coffee?</h4>
-            <p className="text-sm text-gray-600">Arabica (Coffea arabica) produces complex, nuanced flavors and accounts for roughly 60 percent of global production. Robusta (Coffea canephora) has higher caffeine content, a stronger and more bitter taste, and greater disease resistance, making it common in commercial blends and instant coffee.</p>
+            <p className="text-sm text-gray-600">Arabica (Coffea arabica) produces complex, layered flavors and accounts for roughly 60 percent of global production. Robusta (Coffea canephora) has higher caffeine content, a stronger and more bitter taste, and greater disease resistance, making it common in commercial blends and instant coffee.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How is green coffee processed after harvesting?</h4>
@@ -1238,7 +1242,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         <ul className='space-y-2 mb-6'>
           <li className='flex items-start gap-2'>
             <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Direct sourcing</span> from Ethiopian farmers and cooperatives</span>
+            <span><span className='font-bold'>Heritage sourcing</span> through trusted cooperatives and washing stations across Ethiopia</span>
           </li>
           <li className='flex items-start gap-2'>
             <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
@@ -1276,16 +1280,6 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       
       <div className='grid md:grid-cols-2 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h4 className='font-bold mb-2'>For Importers</h4>
-          <ul className='space-y-1 text-sm'>
-            <li>• <Link href="/insights/how-to-import-ethiopian-coffee-to-usa" className='text-blue-600 hover:underline'>Import Guide: USA</Link></li>
-            <li>• <Link href="/insights/importing-ethiopian-coffee-to-canada-guide" className='text-blue-600 hover:underline'>Import Guide: Canada</Link></li>
-            <li>• <Link href="/insights/importing-ethiopian-coffee-to-germany" className='text-blue-600 hover:underline'>Import Guide: Germany & EU</Link></li>
-            <li>• <Link href="/insights/importing-ethiopian-coffee-to-japan" className='text-blue-600 hover:underline'>Import Guide: Japan</Link></li>
-            <li>• <Link href="/insights/importing-ethiopian-coffee-to-uae" className='text-blue-600 hover:underline'>Import Guide: UAE</Link></li>
-          </ul>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
           <h4 className='font-bold mb-2'>Coffee Education Series</h4>
           <ul className='space-y-1 text-sm'>
             <li>• <Link href="/insights/coffee-plant-taxonomy-species-varieties" className='text-blue-600 hover:underline'>Coffee Is a Plant: Taxonomy & Varieties</Link></li>
@@ -1295,19 +1289,16 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
             <li>• <Link href="/insights/coffee-is-art-roasting-brewing" className='text-blue-600 hover:underline'>Coffee Is an Art: Roasting & Brewing</Link></li>
           </ul>
         </div>
-      </div>
-
-      <div className='border border-gray-200 rounded-lg p-4 my-6 hover:border-amber-400 transition-colors'>
-        <h4 className='font-bold mb-2'>Quality & Sourcing</h4>
-        <ul className='space-y-1 text-sm grid md:grid-cols-2 gap-x-4'>
-          <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
-          <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 hover:underline'>New SCA Coffee Value Assessment</Link></li>
-          <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 hover:underline'>Ethiopia Commodity Exchange (ECX) Guide</Link></li>
-          <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
-          <li>• <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className='text-blue-600 hover:underline'>Yirgacheffe vs. Sidamo vs. Guji</Link></li>
-          <li>• <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className='text-blue-600 hover:underline'>Washed vs. Natural Processing</Link></li>
-          <li>• <Link href="/insights/how-to-source-green-coffee-from-ethiopia" className='text-blue-600 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-        </ul>
+        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
+          <h4 className='font-bold mb-2'>Quality & Sourcing</h4>
+          <ul className='space-y-1 text-sm'>
+            <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+            <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+            <li>• <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className='text-blue-600 hover:underline'>Yirgacheffe vs. Sidamo vs. Guji</Link></li>
+            <li>• <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className='text-blue-600 hover:underline'>Washed vs. Natural Processing</Link></li>
+            <li>• <Link href="/insights/how-to-source-green-coffee-from-ethiopia" className='text-blue-600 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+          </ul>
+        </div>
       </div>
 
       <div className='border border-gray-200 rounded-lg p-4 my-6 hover:border-amber-400 transition-colors'>
@@ -1315,8 +1306,6 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         <ul className='space-y-1 text-sm grid md:grid-cols-2 gap-x-4'>
           <li>• <Link href="/insights/ethiopian-coffee-ceremony" className='text-blue-600 hover:underline'>Ethiopian Coffee Ceremonies: Tradition Meets Business</Link></li>
           <li>• <Link href="/insights/birthplace-of-coffee-ethiopia" className='text-blue-600 hover:underline'>The Birthplace of Coffee: Ethiopia&apos;s Heritage</Link></li>
-          <li>• <Link href="/insights/ethio-coffee-export-launch" className='text-blue-600 hover:underline'>Ethio Coffee Export Launch Story</Link></li>
-          <li>• <Link href="/insights/top-10-specialty-coffee-shops-world" className='text-blue-600 hover:underline'>Top 10 Specialty Coffee Shops Worldwide</Link></li>
         </ul>
       </div>
 

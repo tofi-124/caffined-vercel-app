@@ -35,6 +35,13 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Germany is Europe&apos;s largest coffee importer, and Hamburg is the continent&apos;s primary coffee port. Importing Ethiopian coffee requires meeting EU regulations, Germany&apos;s Kaffeesteuer (€2.19/kg coffee tax), and rigorous traceability standards, but grants access to the entire EU single market of 450 million consumers.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Import Guide / Germany & EU Market / Ethiopian Coffee Export</span>
@@ -48,7 +55,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         Germany&apos;s coffee culture runs deep Germans consume an average of 168 liters of coffee per capita annually (more than beer), and the specialty coffee movement has exploded in Berlin, Hamburg, Munich, and Cologne over the past decade. Ethiopian coffee, with its distinctive flavor profiles and origin story, enjoys strong recognition among German specialty roasters and consumers. However, importing into Germany means working through EU-wide regulations, understanding Germany&apos;s unique <span className='font-bold'>Kaffeesteuer</span> (coffee tax), and meeting the rigorous traceability standards European consumers demand.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Strategic Advantage:</span> Importing to Germany grants automatic access to the entire EU single market (27 countries) under free movement of goods. Hamburg&apos;s coffee infrastructure is unmatched globally bonded warehouses, specialized freight forwarders, established supply chains. German coffee tax (€2.19/kg) is high but predictable, and zero import duty makes Ethiopian coffee competitive.</span>
@@ -140,7 +147,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Important:</span> Ethiopian coffee enters EU duty-free under GSP+ (Everything But Arms initiative for least developed countries). However, you must provide proof of origin (Form A certificate) to claim duty-free status. German Kaffeesteuer applies regardless of origin.</p>
       </div>
 
@@ -254,7 +261,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         <p className='text-sm mt-4 text-gray-600'><span className='font-bold'>Note:</span> Kaffeesteuer is the largest single cost component after FOB price. VAT is fully recoverable for registered businesses. Many importers use bonded warehouses to defer Kaffeesteuer payment until coffee is sold/roasted. Exchange rate: €1 = $1.10 USD (rates fluctuate).</p>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'><span className='font-bold'>Bonded Warehouse Strategy:</span> Hamburg offers extensive bonded warehouse facilities where green coffee can be stored without paying Kaffeesteuer until removal for roasting/sale. This improves cash flow significantly pay tax only as you sell. Most serious German coffee importers use this system.</p>
       </div>
 
@@ -670,7 +677,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
           <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied German and European roasters with speciality Ethiopian specialty coffee backed by three decades of origin-connected sourcing heritage. We understand EU regulatory requirements, German quality expectations, and the critical importance of proper documentation (Form A, OTA testing, traceability). We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete EU compliance, consistent quality, and the professional reliability German business culture demands.
         </p>
         <p className='my-2'>
-          Whether you&apos;re establishing a specialty roastery in Berlin, building an EU-wide distribution business from Hamburg, or supplying German cafe chains with signature single-origin coffee, we deliver the quality, safety certification, and consistent supply you need to succeed in Europe&apos;s most important coffee market.
+          From establishing a specialty roastery in Berlin to building an EU-wide distribution business from Hamburg or supplying German cafe chains with signature single-origin coffee, we deliver the quality, safety certification, and consistent supply you need to succeed in Europe&apos;s most important coffee market.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -700,8 +707,6 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
             <h4 className='font-semibold mb-2 mt-3 text-sm'>Americas, Middle East & Asia</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing to USA</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Importing to Saudi Arabia</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing to Japan</Link></li>
             </ul>
           </div>
           <div>
@@ -710,7 +715,6 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
               <li>• <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline'>Ethiopian Coffee Exporter</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding ECX</Link></li>
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
-              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Coffee Prices Explained</Link></li>
             </ul>
           </div>
           <div>

@@ -1,4 +1,4 @@
-﻿import Link from 'next/link'
+import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
 import { HiOutlineGlobeAlt, HiOutlineCheckCircle, HiOutlineLightBulb, HiOutlineChartBar, HiOutlineArrowTrendingUp, HiOutlineTruck, HiOutlineShieldCheck } from 'react-icons/hi2'
 
@@ -35,20 +35,27 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          While Brazil leads global coffee exports by volume, Ethiopia is widely regarded as the world&apos;s top premium coffee exporter in the specialty segment, with over 60% of output graded as specialty or near-specialty quality. For importers, understanding what separates commodity shippers from true premium exporters&mdash;traceability, quality control, and origin expertise&mdash;is essential for building a differentiated coffee program.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Market Intelligence / Sourcing Guide / Global Coffee Trade</span>
       </div>
 
       <p className='my-4'>
-        Coffee is the second most traded commodity on earth after crude oil, generating over <span className='font-bold'>$130 billion in retail value</span> every year. Behind each cup sits an intricate global supply chain that begins with the <span className='font-bold'>top coffee exporters</span> - countries and companies that cultivate, process, and ship green beans to roasters around the world.
+        Coffee is the second most traded commodity on earth after crude oil, generating over <span className='font-bold'>$130 billion in retail value</span> every year. Behind each cup sits a complex global supply chain that begins with the <span className='font-bold'>top coffee exporters</span> - countries and companies that cultivate, process, and ship green beans to roasters around the world.
       </p>
 
       <p className='my-4'>
-        For importers seeking reliable supply, quality consistency, and specialty-grade lots, understanding the landscape of <span className='font-bold'>premium coffee exporters</span> is essential. This guide ranks the world&apos;s largest coffee-exporting countries by volume and value, breaks down what separates a commodity shipper from a true premium exporter, and explains why Ethiopia occupies a unique position at the top of the specialty pyramid.
+        For importers seeking reliable supply, quality consistency, and specialty-grade lots, understanding the range of <span className='font-bold'>premium coffee exporters</span> is essential. This guide ranks the world&apos;s largest coffee-exporting countries by volume and value, breaks down what separates a commodity shipper from a true premium exporter, and explains why Ethiopia occupies a unique position at the top of the specialty pyramid.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineArrowTrendingUp className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Insight:</span> While Brazil exports the most coffee by volume, Ethiopia - the birthplace of Arabica - is widely considered the world&apos;s top premium coffee exporter in the specialty segment, with over 60 % of its output graded as specialty or near-specialty quality.</span>
@@ -216,7 +223,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
 
       <h4 className='text-xl font-bold mt-8 mb-2'>Brazil  -  The Volume Leader</h4>
       <p className='my-4'>
-        Brazil has held the title of the world&apos;s largest coffee exporter for over 150 years. The country&apos;s Minas Gerais, SÃ£o Paulo, and EspÃ­rito Santo regions together produce more coffee than the next four countries combined. Brazilian coffee ranges from commodity-grade Robusta (known locally as <em>Conilon</em>) to award-winning Cup of Excellence Arabica lots scoring 90+.
+        Brazil has held the title of the world&apos;s largest coffee exporter for over 150 years. The country&apos;s Minas Gerais, São Paulo, and Espírito Santo regions together produce more coffee than the next four countries combined. Brazilian coffee ranges from commodity-grade Robusta (known locally as <em>Conilon</em>) to award-winning Cup of Excellence Arabica lots scoring 90+.
       </p>
       <ul className='my-4 list-disc ml-5 space-y-2'>
         <li><span className='font-bold'>Strengths:</span> Scale, mechanized harvesting, consistent supply, competitive pricing</li>
@@ -236,12 +243,12 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
 
       <h4 className='text-xl font-bold mt-8 mb-2'>Colombia  -  The Brand Builder</h4>
       <p className='my-4'>
-        Colombia has arguably built the strongest country brand in coffee, thanks in part to the iconic Juan Valdez marketing campaign and the <a href='https://federaciondecafeteros.org/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>FederaciÃ³n Nacional de Cafeteros</a>. Colombian Arabicas are prized for their balanced acidity, caramel sweetness, and clean cup - making the country a consistent <span className='font-bold'>premium coffee exporter</span>.
+        Colombia has built what many consider the strongest country brand in coffee, thanks in part to the iconic Juan Valdez marketing campaign and the <a href='https://federaciondecafeteros.org/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Federación Nacional de Cafeteros</a>. Colombian Arabicas are prized for their balanced acidity, caramel sweetness, and clean cup - making the country a consistent <span className='font-bold'>premium coffee exporter</span>.
       </p>
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Strengths:</span> Strong brand recognition, wide range of micro-regions, robust cooperative infrastructure</li>
+        <li><span className='font-bold'>Strengths:</span> Strong brand recognition, wide range of micro-regions, strong cooperative infrastructure</li>
         <li><span className='font-bold'>Considerations:</span> Higher FOB prices; available volumes tighter than Brazil</li>
-        <li><span className='font-bold'>Premium segment:</span> Huila, NariÃ±o, and Sierra Nevada micro-lots regularly score 86&ndash;92 points</li>
+        <li><span className='font-bold'>Premium segment:</span> Huila, Nariño, and Sierra Nevada micro-lots regularly score 86&ndash;92 points</li>
       </ul>
 
       <h4 className='text-xl font-bold mt-8 mb-2'>Ethiopia  -  The Specialty Crown Jewel</h4>
@@ -250,11 +257,11 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
       </p>
       <ul className='my-4 list-disc ml-5 space-y-2'>
         <li><span className='font-bold'>Strengths:</span> Unmatched genetic diversity, floral and fruity cup profiles, 100 % Arabica output, strong traceability through the ECX system</li>
-        <li><span className='font-bold'>Considerations:</span> Logistics can be slower due to landlocked geography (exports via <a href='https://en.wikipedia.org/wiki/Port_of_Djibouti' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Port of Djibouti</a>); regulatory landscape evolves frequently</li>
+        <li><span className='font-bold'>Considerations:</span> Logistics can be slower due to landlocked geography (exports via <a href='https://en.wikipedia.org/wiki/Port_of_Djibouti' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Port of Djibouti</a>); regulatory environment evolves frequently</li>
         <li><span className='font-bold'>Premium segment:</span> Yirgacheffe, Sidamo, Guji, Limu, and Harrar lots routinely score 85&ndash;94 points</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Why Ethiopia Stands Out:</span> Ethiopia is the only top-ten exporting country that produces exclusively Arabica coffee and possesses wild, uncatalogued <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:text-amber-900 underline'>heirloom varieties</Link>. For roasters chasing distinctiveness and story, Ethiopian beans are unrivalled.</span>
@@ -263,10 +270,10 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
 
       <h4 className='text-xl font-bold mt-8 mb-2'>Other Notable Origins</h4>
       <p className='my-4'>
-        Several other origins round out the global premium export landscape:
+        Several other origins round out the global premium export market:
       </p>
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Honduras:</span> Central America&apos;s largest exporter, known for balanced washed lots from CopÃ¡n, Montecillos, and Comayagua</li>
+        <li><span className='font-bold'>Honduras:</span> Central America&apos;s largest exporter, known for balanced washed lots from Copán, Montecillos, and Comayagua</li>
         <li><span className='font-bold'>Guatemala:</span> Renowned Antigua and Huehuetenango micro-regions producing chocolate-forward, spicy cups</li>
         <li><span className='font-bold'>Kenya:</span> Intense, juicy, blackcurrant-tinged Arabicas; the auction system drives premium pricing</li>
         <li><span className='font-bold'>Peru:</span> Fast-growing organic exporter with clean, mild washed lots popular in Europe</li>
@@ -279,7 +286,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         How to Evaluate and Choose a Premium Coffee Exporter
       </h3>
       <p className='my-4'>
-        Whether you are a roaster sourcing your first container or a veteran trader diversifying supply, the right exporter partnership can make or break your business. Use this checklist when vetting potential partners:
+        For roasters sourcing a first container or veteran traders diversifying supply, the right exporter partnership can make or break your business. Use this checklist when vetting potential partners:
       </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
@@ -448,7 +455,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         <li><span className='font-bold'>Competitive FOB pricing</span> with transparent cost breakdowns and multiple payment term options</li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Ready to Source Premium Ethiopian Coffee?</span> Whether you need a single trial lot or ongoing seasonal contracts, <Link href='/contact-us' className='text-primary underline font-bold'>contact Ethio Coffee Export</Link> to receive samples, pricing, and a personalized sourcing plan tailored to your roasting needs.</span>
@@ -523,17 +530,21 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Exporter Guides</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
-              <li>• <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>Navigating 2026: Ethiopian Exporters</Link></li>
-              <li>• <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
+              <li>� <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
+              <li>📊 <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
+              <li>� <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Market & Quality</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices</Link></li>
-              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee</Link></li>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>� <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices</Link></li>
+              <li>� <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee</Link></li>
+              <li>� <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
             </ul>
           </div>
         </div>
@@ -544,7 +555,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
           <span className='font-bold'>About This Insight:</span> This guide profiles the world&apos;s top premium coffee exporters and what sets them apart in the global specialty coffee supply chain.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> � <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> � <Link href='/about' className='underline'>About Ethio Coffee</Link> � <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

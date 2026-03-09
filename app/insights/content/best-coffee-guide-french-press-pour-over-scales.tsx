@@ -40,10 +40,10 @@ export default function BestCoffeeGuideFrenchPressPourOverScales({ title, date, 
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Takeaway:</span> Great coffee at home depends on three essentials: the best coffee scales for precise measurement, a French Press Coffee Maker for bold, full-bodied flavor, or a Pour Over Coffee Maker for clean, nuanced cups. Mastering these tools, along with correct grind size, water quality, and a 1:15 to 1:17 coffee-to-water ratio, transforms your daily brew from average to exceptional.</span>
+          <span><span className='font-bold'>Key Takeaway:</span> Great coffee at home depends on three essentials: the best coffee scales for precise measurement, a French Press Coffee Maker for bold, full-bodied flavor, or a Pour Over Coffee Maker for clean, detailed cups. Mastering these tools, along with correct grind size, water quality, and a 1:15 to 1:17 coffee-to-water ratio, transforms your daily brew from average to exceptional.</span>
         </p>
       </div>
 
@@ -110,7 +110,7 @@ export default function BestCoffeeGuideFrenchPressPourOverScales({ title, date, 
         Pour Over Coffee Makers: Clean and Balanced Taste
       </h2>
       <p className='my-4'>
-        If you prefer a lighter, cleaner, and more nuanced cup, <strong>Pour Over Coffee Makers</strong> are an excellent alternative. The technique involves a paper filter and a controlled pouring method to bring out the sensitive flavors of the beans.
+        If you prefer a lighter, cleaner, and more refined cup, <strong>Pour Over Coffee Makers</strong> are an excellent alternative. The technique involves a paper filter and a controlled pouring method to bring out the sensitive flavors of the beans.
       </p>
       <p className='my-4'>
         Pour-over brewing is used to highlight subtle flavors like fruit, floral, or chocolate notes. Due to the paper filter, it eliminates excess oils, giving a smoother feel than a French press. Origins like <Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Yirgacheffe</Link> and <Link href='/ethiopian-coffee-guji' className='text-amber-700 hover:underline'>Guji</Link> shine in pour over, revealing their signature citrus and berry notes.
@@ -145,7 +145,7 @@ export default function BestCoffeeGuideFrenchPressPourOverScales({ title, date, 
             <tr className='border-b border-gray-200'>
               <td className='p-3 font-semibold'>Flavor Profile</td>
               <td className='p-3'>Bold, rich, full-bodied</td>
-              <td className='p-3'>Clean, bright, nuanced</td>
+              <td className='p-3'>Clean, bright, detailed</td>
             </tr>
             <tr className='border-b border-gray-200 bg-gray-50'>
               <td className='p-3 font-semibold'>Filter Type</td>
@@ -260,7 +260,7 @@ export default function BestCoffeeGuideFrenchPressPourOverScales({ title, date, 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          Whether you are a roaster searching for distinctive single-origin lots, an importer building a specialty portfolio, or a home brewer seeking the finest beans for your French press or pour over, Ethio Coffee Export PLC connects you directly with Ethiopia&apos;s top growing regions. Request samples, access current pricing, and discover traceable, specialty-grade green coffee.
+          For roasters searching for distinctive single-origin lots, importers building a specialty portfolio, and home brewers seeking the finest beans for a French press or pour over, Ethio Coffee Export PLC connects you directly with Ethiopia&apos;s top growing regions. Request samples, access current pricing, and discover traceable, specialty-grade green coffee.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -292,17 +292,8 @@ export default function BestCoffeeGuideFrenchPressPourOverScales({ title, date, 
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Trade</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing FOB Guide</Link></li>
-              <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities for Ethiopian Coffee</Link></li>
-            </ul>
-          </div>
-          <div>
             <h4 className='font-semibold mb-2 text-sm'>Quality &amp; Education</h4>
             <ul className='space-y-1 text-sm'>
-              <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control, Defects, and Grading</Link></li>
               <li>&bull; <Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline'>Complete Guide to Understanding Coffee</Link></li>
               <li>&bull; <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>The New SCA Coffee Value Assessment</Link></li>
             </ul>

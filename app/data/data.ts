@@ -181,7 +181,7 @@ export const posts: Post[] = [
         'QC checklist anaerobic Ethiopian coffee',
         'Ethiopian specialty coffee experimental processing'
       ],
-      desc: 'Anaerobic fermentation, honey processing, carbonic maceration, and extended fermentation in Ethiopia: a practical guide for importers and roasters covering regional cup profiles, importer QC documentation, pricing premiums, roasting adjustments, and EUDR traceability.'
+      desc: 'Ethiopian anaerobic coffee processing guide for importers: fermentation methods, QC documentation, FOB pricing, roasting tips, and EUDR traceability.'
     },
     // ===== ETHIOPIAN COFFEE LANDED COST GUIDE =====
     {

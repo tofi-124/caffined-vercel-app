@@ -79,7 +79,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         British consumers increasingly demand transparency, sustainability, and exceptional quality – values that align perfectly with Ethiopian specialty coffee. UK-based roasters looking to source directly from Ethiopia and Ethiopian exporters seeking to enter the British market will find everything needed to handle post-Brexit import regulations successfully in this guide.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Post-Brexit Update:</span> Since January 1, 2021, the UK operates independent customs and food safety systems. Ethiopian coffee enjoys zero import duty under WTO terms, but importers must handle new documentation requirements including EORI numbers, customs declarations, and UK-specific food safety compliance separate from EU rules.</span>
@@ -159,7 +159,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>UK Market Advantage:</span> The UK's specialty coffee community is highly educated, quality-focused, and willing to pay premium prices. Ethiopian coffee's distinctive profiles and transparent supply chains align perfectly with British consumer values. Post-Brexit, direct sourcing relationships are increasingly valuable as importers seek competitive advantages.
         </p>
@@ -294,7 +294,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>FSA Reality Check:</span> For coffee importers, FSA compliance is straightforward. Green coffee is low-risk, doesn't require health certificates or border inspections, and Ethiopian coffee typically meets all UK safety standards. The key is maintaining good documentation and working with reputable Ethiopian exporters who understand quality control.
         </p>
@@ -443,7 +443,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </p>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>UK Tax Advantage:</span> The UK offers one of the most favorable tax regimes for coffee imports globally: zero duty + zero VAT = no tax burden whatsoever for business importers. Your landed cost is essentially FOB price + logistics costs only.
         </p>
@@ -750,7 +750,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>UK Cost Advantage:</span> With zero duty and zero VAT on green coffee, UK importers enjoy one of the lowest landed cost structures globally. Your true cost is FOB + logistics only, making Ethiopian specialty coffee highly competitive in the UK market.
         </p>
@@ -838,7 +838,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
 
         <div className='border-l-4 border-blue-500 pl-4'>
           <h5 className='font-bold'>Filter Coffee Renaissance</h5>
-          <p className='text-sm'>While espresso remains popular, filter coffee (V60, Chemex, batch brew) growing rapidly in UK cafes. Perfect vehicle for showcasing Ethiopian coffee's nuanced flavors.</p>
+          <p className='text-sm'>While espresso remains popular, filter coffee (V60, Chemex, batch brew) growing rapidly in UK cafes. Perfect vehicle for showcasing Ethiopian coffee's complex flavors.</p>
         </div>
 
         <div className='border-l-4 border-purple-500 pl-4'>
@@ -899,7 +899,7 @@ export default function ImportingEthiopianCoffeeToUK({ title, date, large_image_
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Partner with Ethio Coffee Export for UK Market</h4>
         <p className='mb-4'>
           Ethio Coffee Export specializes in serving the UK specialty coffee market with full understanding of post-Brexit requirements:

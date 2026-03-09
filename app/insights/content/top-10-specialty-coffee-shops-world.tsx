@@ -42,6 +42,13 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          The world&apos;s top specialty coffee shops share one defining trait: a devotion to traceability and direct relationships with producers. From Oslo&apos;s Nordic roast style to Tokyo&apos;s omakase coffee service, these shops set global benchmarks for sourcing, roasting innovation, and the customer experience.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Global Insights / Coffee Culture / Retail Trends</span>
@@ -55,7 +62,7 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
         For coffee professionals and importers, studying these industry leaders offers critical insight into where the market is heading. Whether it&apos;s the "Nordic Roast" style of Oslo or the omakase service of Tokyo, these 10 shops define what is possible with the humble coffee bean.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Insight:</span> The common thread among all top-tier shops is a devotion to <span className='font-bold'>traceability</span>. They build direct relationships with producers (often in Ethiopia) to secure unique micro-lots that no one else has.</span>
@@ -294,14 +301,18 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
               <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
               <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee</Link></li>
+              <li>• <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>Roasting Ethiopian Coffee Beans</Link></li>
+              <li>• <Link href='/insights/best-coffee-guide-french-press-pour-over-scales' className='text-amber-700 hover:underline'>French Press, Pour Over & Scales Guide</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Import</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Culture & Sourcing</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
               <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
+              <li>• <Link href='/insights/birthplace-of-coffee-ethiopia' className='text-amber-700 hover:underline'>The Birthplace of Coffee: Ethiopia</Link></li>
             </ul>
           </div>
         </div>

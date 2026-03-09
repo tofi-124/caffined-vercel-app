@@ -53,7 +53,7 @@ export default function MicroLotEthiopianCoffeeSourcingGuide({ title, date, larg
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Micro-lot Ethiopian coffee refers to small, traceable lots (typically 5 to 50 bags) from a single farm, washing station, or specific harvest day, scoring 86 or above on the SCA scale. Ethiopian micro lots command FOB prices of $6.60 to $13.20+ per kilogram, a 30% to 100%+ premium over standard specialty grades. They bypass the Ethiopian Commodity Exchange (ECX) and move through direct export channels, giving buyers access to full traceability, cupping data, and producer information. The key origins are Yirgacheffe, Guji, and Sidamo, with rising interest in Harar and Limu for experimental processing. Securing the best lots requires advance commitment, pre-season relationships, and sample evaluation during harvest windows (November through February).</span>
@@ -472,15 +472,12 @@ export default function MicroLotEthiopianCoffeeSourcingGuide({ title, date, larg
               <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
               <li>&bull; <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Export Company</Link></li>
               <li>&bull; <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Ethiopian Coffee Exporters</Link></li>
-              <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Pricing &amp; Market</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
-              <li>&bull; <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts &amp; Payment Terms</Link></li>
             </ul>
           </div>
           <div>
@@ -496,7 +493,6 @@ export default function MicroLotEthiopianCoffeeSourcingGuide({ title, date, larg
             <h4 className='font-semibold mb-2 text-sm'>Logistics &amp; Operations</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide</Link></li>
-              <li>&bull; <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability: Buyer&apos;s Guide</Link></li>
             </ul>
           </div>

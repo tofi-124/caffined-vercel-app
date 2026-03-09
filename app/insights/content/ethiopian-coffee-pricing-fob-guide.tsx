@@ -48,7 +48,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         This guide explains each layer so you can read an Ethiopian coffee offer sheet with confidence, compare quotes between exporters accurately, and plan your purchasing budgets with realistic numbers.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Unlike most coffee origins, Ethiopian coffee is not priced against the New York C-market. Pricing is set domestically through the Ethiopian Commodity Exchange (ECX), which establishes floor prices based on grade, region, and quality. The FOB Djibouti price you see on a contract reflects ECX pricing, local costs, exporter margin, and current demand.</span>
@@ -426,7 +426,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         </li>
       </ul>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Practical Tip:</span> If you are a first-time buyer, expect to work with T/T (deposit + balance against documents) or an L/C. As your relationship with an exporter develops, payment terms typically become more flexible. At Ethio Coffee, we work with both T/T and L/C and are happy to discuss what works best for your situation.</span>
@@ -537,10 +537,11 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>German Coffee Market Guide</Link></li>
-              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
               <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Coffee Contracts & Payment Terms</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
             </ul>
           </div>
           <div>
@@ -549,6 +550,8 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
               <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
               <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage & Freight</Link></li>
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+              <li>• <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>German Coffee Market Guide</Link></li>
             </ul>
           </div>
         </div>

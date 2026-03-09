@@ -77,7 +77,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
         However, importing into Australia requires working through the country's rigorous <span className='font-bold'>biosecurity regime</span> – among the world's strictest due to Australia's unique ecosystem. The <span className='font-bold'>Department of Agriculture, Fisheries and Forestry (DAFF)</span> enforces comprehensive quarantine controls, while the <span className='font-bold'>Australian Border Force (ABF)</span> handles customs clearance. This guide provides everything Ethiopian exporters and Australian importers need to successfully manage Australia's import system.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Australian Market Advantage:</span> Australia offers zero import duty on coffee, world-class logistics infrastructure, premium pricing for specialty coffee (among highest globally), and a sophisticated consumer market that values Ethiopian coffee's unique characteristics. Success requires strict biosecurity compliance and understanding Australia's quality-focused coffee culture.</span>
@@ -158,7 +158,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Australian Market Reality:</span> Australia is the world's most quality-focused coffee market. Consumers can distinguish quality instantly, cafes compete on excellence rather than price, and Ethiopian coffee's distinctive profiles align perfectly with Australian preferences. This is a premium market where quality is rewarded.
         </p>
@@ -307,7 +307,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Biosecurity Success Key:</span> Work with Ethiopian exporters who understand Australian biosecurity requirements. Ensure phytosanitary certificates are correct, containers are clean, and packaging complies with ISPM-15. Most delays and costs arise from biosecurity issues, not customs clearance.
         </p>
@@ -459,7 +459,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
         </p>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Australian Tax Advantage:</span> Zero customs duty on coffee makes Australia highly competitive. The 10% GST is recoverable for registered businesses, meaning your true landed cost is FOB price + logistics costs only (plus temporary GST cash flow impact).
         </p>
@@ -779,7 +779,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
         </div>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
           <span className='font-bold'>Australian Cost Reality:</span> For GST-registered businesses, Australian landed costs are highly competitive – only ~3-4% above FOB price. Zero customs duty and lower freight rates to Australia make it one of the most cost-effective premium specialty markets globally.
         </p>
@@ -867,7 +867,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
 
         <div className='border-l-4 border-blue-500 pl-4'>
           <h5 className='font-bold'>Filter Coffee Growth</h5>
-          <p className='text-sm'>While espresso dominates, filter coffee (batch brew, pour-over) growing rapidly in specialty cafes. Perfect for showcasing Ethiopian coffee's nuanced flavors.</p>
+          <p className='text-sm'>While espresso dominates, filter coffee (batch brew, pour-over) growing rapidly in specialty cafes. Perfect for showcasing Ethiopian coffee's complex flavors.</p>
         </div>
 
         <div className='border-l-4 border-purple-500 pl-4'>
@@ -928,7 +928,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
         </ul>
       </div>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Partner with Ethio Coffee Export for Australian Market</h4>
         <p className='mb-4'>
           Ethio Coffee Export understands Australian biosecurity requirements and serves the Australian specialty market:

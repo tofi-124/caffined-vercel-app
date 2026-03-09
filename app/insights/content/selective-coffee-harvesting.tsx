@@ -15,7 +15,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Why the human hand remains the ultimate tool for quality: a deep dive into selective coffee harvesting, picker economics, and the science of ripeness
+        Why the human hand remains the ultimate tool for quality: a detailed look at selective coffee harvesting, picker economics, and the science of ripeness
       </h2>
 
       <figure>
@@ -35,6 +35,13 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
         </div>
       </figure>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Selective harvesting&mdash;hand-picking only ripe coffee cherries&mdash;is the single most important field practice for specialty coffee quality. A coffee bean can never be better than the cherry it came from. For buyers, understanding picker economics and ripeness standards explains why selectively harvested lots command premiums and deliver cleaner, sweeter cups.
+        </p>
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Farm Practices / Coffee Economics / Quality Control</span>
@@ -48,7 +55,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
         For specialty coffee buyers and roasters, understanding the "who" and "how" of harvesting explains why some lots command strong premiums. This guide explores picker economics, the science of ripeness, and practical actions buyers can take to support selective harvesting in origin communities.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineHandThumbUp className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>The Golden Rule:</span> A coffee bean can never be better than the cherry it came from. Processing can preserve quality, and roasting can highlight it, but no amount of technology can fix the astringency of an unripe (green) cherry.</span>
@@ -207,7 +214,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
         Whether through better wages for pickers or advanced sorting technology, the industry's goal remains the same: ensuring that only the perfect cherry makes it to your cup.
       </p>
 
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Looking for ethically harvested coffee?</span> <Link href="/offerings" className="underline hover:text-gray-200">Browse our Offerings collection</Link>, where we detail the harvesting and processing method for every lot we source.</span>
@@ -244,14 +251,20 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
             <h4 className='font-semibold mb-2 text-sm'>Production & Quality</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Production & Quality</Link></li>
-              <li>• <Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline'>Anatomy of a Coffee Cherry</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
+              <li>• <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline'>Coffee Agriculture & Production</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sourcing & Certifications</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Fair Trade & Certification</Link></li>
-              <li>• <Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>Trade & Market Context</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Washing Stations Guide</Link></li>
+              <li>• <Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline'>Complete Guide to Understanding Coffee</Link></li>
+              <li>• <Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>Ethiopia-China Coffee Trade</Link></li>
             </ul>
           </div>
         </div>

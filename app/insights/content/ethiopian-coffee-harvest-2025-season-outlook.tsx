@@ -35,7 +35,12 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
             </div>
           </figure>
 
-          <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+          <div className='bg-amber-50 border border-amber-200 rounded-lg p-4 my-6'>
+            <span className='font-bold'>Key Takeaway: </span>
+            The 2025 Ethiopian coffee harvest shows strong production across all major regions, with favorable growing conditions creating excellent opportunities for importers seeking quality, diversity, and competitive pricing.
+          </div>
+
+          <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
             <p className='font-medium flex items-center gap-2'>
               <HiOutlineCalendarDays className='text-xl flex-shrink-0' />
               <span><span className='font-bold'>2025 Harvest Update:</span> Peak harvest is underway across most Ethiopian coffee regions. Contact us now to secure your allocation before the best lots are committed.</span>
@@ -50,7 +55,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
             For importers, roasters, and green coffee buyers worldwide, understanding the Ethiopian harvest cycle is essential for strategic sourcing. This comprehensive 2025 harvest report covers regional outlooks, quality expectations, pricing dynamics, and a practical timeline to help you plan your Ethiopian coffee purchases with confidence.
           </p>
           <p className='my-4'>
-            Whether you&apos;re a first-time buyer exploring <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>how to source Ethiopian green coffee</Link> or an experienced importer looking for this season&apos;s exceptional lots, this guide provides the market intelligence you need.
+            For first-time buyers exploring <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>how to source Ethiopian green coffee</Link> and experienced importers seeking this season&apos;s exceptional lots alike, this guide provides the market intelligence you need.
           </p>
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Ethiopian Coffee Harvest Calendar: When Coffee Is Picked</h2>
@@ -147,7 +152,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Guji: The Rising Star Delivers Again</h3>
           <p className='my-4'>
-            Guji has rapidly become one of the most exciting Ethiopian origins, and the 2025 harvest reinforces why. Higher altitudes in areas like Shakiso, Uraga, and Hambela are producing coffees with remarkable complexity the signature stone fruit and jasmine aromatics that have made Guji a darling of specialty roasters.
+            Guji has rapidly become one of the most exciting Ethiopian origins, and the 2025 harvest reinforces why. Higher altitudes in areas like Shakiso, Uraga, and Hambela are producing coffees with standout complexity, the signature stone fruit and jasmine aromatics that have made Guji a darling of specialty roasters.
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <h4 className='font-bold text-lg mb-2'>Guji 2025 Outlook</h4>
@@ -304,7 +309,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>How Ethio Coffee Supports Your 2025 Sourcing</h2>
           <p className='my-4'>
-            At <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='underline'>Ethio Coffee Export PLC</Link>, we&apos;re positioned to help importers navigate the 2025 harvest with confidence:
+            At <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='underline'>Ethio Coffee Export PLC</Link>, we&apos;re positioned to help importers plan their 2025 harvest purchases with confidence:
           </p>
           <ul className='font-inconsolata my-4 list-disc ml-5'>
             <li className='my-2'><span className='font-bold'>Regional Coverage:</span> We source from all major Ethiopian growing regions</li>
@@ -323,7 +328,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
             For importers committed to Ethiopian specialty coffee, now is the time to engage with suppliers, review samples, and secure allocations. The unique <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline'>genetic diversity of Ethiopian heirloom varieties</Link>, combined with traditional farming practices and improving processing standards, ensures that Ethiopian coffee remains among the most exciting origins on Earth.
           </p>
           <p className='my-4'>
-            Whether you&apos;re sourcing your first Ethiopian container or building on years of partnership, understanding the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural realities</Link> and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial dynamics</Link> of Ethiopian coffee helps you make better decisions and build stronger relationships at origin.
+            For those sourcing their first Ethiopian container or building on years of partnership, understanding the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural realities</Link> and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial dynamics</Link> of Ethiopian coffee helps you make better decisions and build stronger relationships at origin.
           </p>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -341,6 +346,29 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
               <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
                 How to Order
               </Link>
+            </div>
+          </div>
+
+          {/* FAQ SECTION */}
+          <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+            <h3 className='text-xl font-bold mb-4'>Frequently Asked Questions About the 2025 Ethiopian Coffee Harvest</h3>
+            <div className='space-y-4'>
+              <div>
+                <h4 className='font-bold text-gray-800 mb-1'>When does the 2025 Ethiopian coffee harvest take place?</h4>
+                <p className='text-sm text-gray-600'>The Ethiopian coffee harvest runs from October through February, with peak picking in November and December across most regions. Timing varies by altitude and growing zone, with higher-altitude origins like Yirgacheffe and Guji often harvesting slightly later than lower-elevation Jimma and Limu regions.</p>
+              </div>
+              <div>
+                <h4 className='font-bold text-gray-800 mb-1'>What are the quality expectations for the 2025 harvest?</h4>
+                <p className='text-sm text-gray-600'>Early reports indicate strong quality across most Ethiopian origins for 2025. Favorable rainfall patterns and moderate temperatures during cherry development have produced well-ripened cherries. Yirgacheffe, Guji, and Sidamo are all showing clean cup profiles with expressive floral and fruit characteristics.</p>
+              </div>
+              <div>
+                <h4 className='font-bold text-gray-800 mb-1'>How can importers secure the best 2025 Ethiopian coffee lots?</h4>
+                <p className='text-sm text-gray-600'>Importers should begin placing requests with their Ethiopian exporter by September or October, before peak harvest begins. Requesting pre-shipment samples, establishing clear quality specifications, and confirming logistics plans early helps secure top lots before they are committed to competing buyers.</p>
+              </div>
+              <div>
+                <h4 className='font-bold text-gray-800 mb-1'>What pricing trends should buyers expect for 2025 Ethiopian coffee?</h4>
+                <p className='text-sm text-gray-600'>Ethiopian coffee prices remain elevated due to strong global demand and rising production costs. Specialty-grade washed Yirgacheffe and Guji command the highest premiums, while commercial-grade Jimma and Limu offer better value. Early purchasing during peak harvest typically secures more competitive pricing.</p>
+              </div>
             </div>
           </div>
 
@@ -362,6 +390,21 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
                   <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
                   <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
                   <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Regional Origins</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+                  <li>• <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee Production Guide</Link></li>
+                  <li>• <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='text-amber-700 hover:underline'>Harvest Calendar &amp; Buying Guide</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Processing & Trade</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing Methods</Link></li>
+                  <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding the Ethiopia Commodity Exchange</Link></li>
                 </ul>
               </div>
             </div>

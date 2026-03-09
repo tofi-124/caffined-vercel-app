@@ -53,7 +53,7 @@ export default function EthiopianCoffeeTraceabilityGuide({ title, date, large_im
       </div>
 
       {/* KEY TAKEAWAY */}
-      <div className='bg-dark text-primary p-6 rounded-lg my-6'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
           <span><span className='font-bold'>Key Takeaway:</span> Ethiopian coffee traceability ranges from basic regional identification to full farm-level GPS mapping. For importers, the practical question is not whether traceability exists, but at what level you need it for your business. EUDR compliance demands plot-level geolocation data for EU-bound shipments. Specialty buyers seeking 85+ scoring micro-lots benefit from washing station or cooperative-level traceability. Commercial importers may only need ECX warehouse receipt data. Understanding these tiers, what documentation to request, and how to verify claims from your exporter separates informed buyers from those relying on trust alone. Ethiopia is investing heavily in digital traceability infrastructure, and exporters who can deliver verified data now hold a significant competitive advantage.</span>
@@ -508,15 +508,12 @@ export default function EthiopianCoffeeTraceabilityGuide({ title, date, large_im
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Samples</Link></li>
               <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality: Defects &amp; Grading</Link></li>
-              <li>&bull; <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>SCA Coffee Value Assessment Explained</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Market &amp; Origins</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Green Coffee Origins</Link></li>
-              <li>&bull; <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
-              <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing for Importers</Link></li>
             </ul>
           </div>
         </div>

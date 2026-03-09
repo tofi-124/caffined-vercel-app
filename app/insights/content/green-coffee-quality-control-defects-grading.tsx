@@ -34,12 +34,19 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
             </div>
           </figure>
 
+          <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+            <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+            <p>
+              Mastering green coffee defect identification and grading (especially Ethiopia&apos;s G1–G4 system) helps importers and roasters evaluate samples objectively, negotiate fair prices, and avoid costly quality failures before committing to a purchase.
+            </p>
+          </div>
+
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: Why Quality Control Matters</h2>
           <p className='my-4'>
             For importers and roasters, understanding green coffee quality control isn&apos;t optional it&apos;s fundamental to your business. A single defective lot can damage customer relationships, waste roasting capacity, and erode margins. Conversely, developing strong QC skills helps you identify exceptional value, negotiate fair prices, and build confidence in your sourcing decisions.
           </p>
           <p className='my-4'>
-            This guide covers the essential elements of green coffee quality control: defect identification, grading systems (with a focus on Ethiopian standards), physical measurements, and practical inspection protocols. Whether you&apos;re evaluating samples from a new supplier or conducting pre-shipment inspection, these fundamentals will serve you well.
+            This guide covers the essential elements of green coffee quality control: defect identification, grading systems (with a focus on Ethiopian standards), physical measurements, and practical inspection protocols. From evaluating samples from a new supplier to conducting pre-shipment inspection, these fundamentals will serve you well.
           </p>
           <p className='my-4'>
             Quality control connects directly to everything else in the supply chain from the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural practices</Link> that produce coffee to the <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing methods</Link> that prepare it for export. Understanding QC helps you appreciate what&apos;s happening at origin and communicate more effectively with your <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>Ethiopian coffee suppliers</Link>.
@@ -420,7 +427,7 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Quality as a Competitive Advantage</h2>
           <p className='my-4'>
-            Developing strong green coffee quality control skills isn&apos;t just about avoiding bad lots it&apos;s about building the confidence to identify exceptional value and make decisions that strengthen your business. Whether you&apos;re evaluating your first Ethiopian samples or refining an established QC program, the fundamentals remain the same: systematic inspection, proper measurement, and honest sensory evaluation.
+            Developing strong green coffee quality control skills isn&apos;t just about avoiding bad lots it&apos;s about building the confidence to identify exceptional value and make decisions that strengthen your business. From evaluating your first Ethiopian samples to refining an established QC program, the fundamentals remain the same: systematic inspection, proper measurement, and honest sensory evaluation.
           </p>
           <p className='my-4'>
             Experimental and anaerobic lots require an additional layer of QC beyond standard grading. If you are evaluating sealed-tank anaerobic, extended fermentation, or honey process Ethiopian lots, you need fermentation protocol documentation and specific sensory markers to identify both the potential and the risks. See the dedicated <Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='underline font-bold'>Ethiopian anaerobic coffee processing buyer&apos;s guide</Link> for a complete checklist.
@@ -453,6 +460,33 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
             </div>
           </div>
 
+          {/* FAQ SECTION */}
+          <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
+            <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Green Coffee Quality and Grading</h3>
+            <div className="space-y-6">
+              <div>
+                <h4 className="font-bold text-gray-800 mb-2">What is the difference between Category 1 and Category 2 green coffee defects?</h4>
+                <p className="text-sm text-gray-600">Category 1 defects (also called primary or full defects) have a severe impact on cup quality. These include full black beans, full sour beans, large stones, and foreign matter. A single Category 1 defect disqualifies a lot from speciality grade. Category 2 defects, such as broken beans or slight insect damage, are less severe but still affect overall quality scores.</p>
+              </div>
+              <div>
+                <h4 className="font-bold text-gray-800 mb-2">How does Ethiopia&apos;s coffee grading system work?</h4>
+                <p className="text-sm text-gray-600">Ethiopia uses a grading scale from G1 (highest) to G5 (lowest) based on defect count per 300-gram sample. G1 allows 0–3 defects and represents speciality quality. G2 allows 4–12 defects and is the most common export grade. Washed coffees are typically graded G1 or G2, while natural processed lots are graded G3 to G5 depending on defect levels.</p>
+              </div>
+              <div>
+                <h4 className="font-bold text-gray-800 mb-2">What should importers check when evaluating a green coffee sample?</h4>
+                <p className="text-sm text-gray-600">Start with a visual inspection for defects, discoloration, and bean size uniformity. Measure moisture content (ideal range is 10–12 percent) and check water activity levels. Verify screen size consistency, then cup the coffee following SCA protocols. Compare your findings against the supplier&apos;s grade certificate to confirm the lot meets stated specifications.</p>
+              </div>
+              <div>
+                <h4 className="font-bold text-gray-800 mb-2">Why does moisture content matter in green coffee purchasing?</h4>
+                <p className="text-sm text-gray-600">Moisture content directly affects shelf life, weight, roast behavior, and cup quality. Green coffee shipped above 12.5 percent moisture risks mold growth during transit and storage. Coffee that is too dry (below 9 percent) can taste flat and lose flavor complexity. Most importers specify 10–12 percent moisture as a contractual requirement for Ethiopian lots.</p>
+              </div>
+              <div>
+                <h4 className="font-bold text-gray-800 mb-2">Can a coffee with defects still taste good in the cup?</h4>
+                <p className="text-sm text-gray-600">Minor defects like small chips or slight quaker presence may not ruin a cup, but they lower consistency. Full black beans, sour beans, and fermented beans will produce clearly unpleasant flavors even in small quantities. The grading system exists to predict cup risk, so always cup alongside physical evaluation rather than relying on defect counts alone.</p>
+              </div>
+            </div>
+          </section>
+
           {/* RELATED ARTICLES */}
           <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
             <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
@@ -463,15 +497,18 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
                   <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
                   <li>• <Link href='/insights/best-cupping-school' className='text-amber-700 hover:underline'>Best Cupping Schools</Link></li>
                   <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
+                  <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling Guide</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className='font-semibold mb-2 text-sm'>Processing &amp; Sourcing</h4>
+                <h4 className='font-semibold mb-2 text-sm'>Processing & Sourcing</h4>
                 <ul className='space-y-1 text-sm'>
                   <li>&bull; <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Dry Coffee Production QC</Link></li>
                   <li>&bull; <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
                   <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
                   <li>&bull; <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Green Coffee Shelf Life &amp; Storage Guide</Link></li>
+                  <li>&bull; <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Green Coffee Packaging &amp; Bag Types</Link></li>
                 </ul>
               </div>
             </div>

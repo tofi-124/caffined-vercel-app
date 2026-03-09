@@ -33,6 +33,13 @@ export default function DirectTradeEthiopianFarmers({ title, date, large_image_u
           />
         </div>
       </figure>
+
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Direct trade in Ethiopian coffee means building accountable, direct relationships between buyers and producers, with higher premiums, quality feedback, and community reinvestment. Understanding what &quot;direct trade&quot; truly means helps importers source with transparency and integrity from cooperatives and washing stations at origin.
+        </p>
+      </div>
       
       <p className='my-4'>
         &quot;Direct trade&quot; is one of those phrases you&apos;ll hear everywhere in specialty coffee.
@@ -203,6 +210,8 @@ export default function DirectTradeEthiopianFarmers({ title, date, large_image_u
               <li>• <Link href='/insights/birthplace-of-coffee-ethiopia' className='text-amber-700 hover:underline'>The Birthplace of Coffee</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
               <li>• <Link href='/insights/women-in-ethiopian-coffee-industry' className='text-amber-700 hover:underline'>Women in Ethiopian Coffee</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Washing Stations Guide</Link></li>
             </ul>
           </div>
           <div>
@@ -212,6 +221,7 @@ export default function DirectTradeEthiopianFarmers({ title, date, large_image_u
               <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
             </ul>
           </div>
         </div>

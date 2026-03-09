@@ -66,6 +66,13 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
         </div>
       </header>
 
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
+        <p>
+          Up to 15.6% of specialty coffee loses its premium status during sea freight due to &apos;container sweat,&apos; temperature swings, and moisture absorption. Proper green coffee storage&mdash;including hermetic liner bags, desiccants, and temperature monitoring&mdash;is essential to preserve the quality you paid for from origin to roastery.
+        </p>
+      </div>
+
       {/* INTRODUCTION */}
       <section className="prose prose-lg prose-indigo max-w-none text-gray-700">
         <p>
@@ -207,7 +214,7 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
         </h3>
 
         <p className='my-4 text-gray-700'>
-          The container is the primary shield against the ocean environment. While <span className='font-bold italic'>Standard 20ft Dry Vans</span> are the workhorse of the industry, specialty logistics require a more nuanced approach.
+          The container is the primary shield against the ocean environment. While <span className='font-bold italic'>Standard 20ft Dry Vans</span> are the workhorse of the industry, specialty logistics require a more tailored approach.
         </p>
 
         <div className='space-y-6 my-8'>
@@ -256,7 +263,7 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
           <div className='grid md:grid-cols-2 gap-6'>
             <div className='bg-white p-5 rounded-lg border-l-4 border-green-500 shadow-sm'>
               <p className='font-bold text-gray-900 mb-2'>Request: "Under Deck, Below Waterline"</p>
-              <p className='text-sm text-gray-600'>The ocean acts as a heat sink. Containers stored in the hold stay at a remarkably stable 18-22°C throughout the voyage, regardless of the ambient air temperature.</p>
+              <p className='text-sm text-gray-600'>The ocean acts as a heat sink. Containers stored in the hold stay at a consistently stable 18-22°C throughout the voyage, regardless of the ambient air temperature.</p>
             </div>
             <div className='bg-white p-5 rounded-lg border-l-4 border-amber-500 shadow-sm'>
               <p className='font-bold text-gray-900 mb-2'>Avoid: "Deck Stowage (Top Tier)"</p>
@@ -504,68 +511,31 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
       </section>
 
       {/* RELATED ARTICLES */}
-      <aside className='my-12 pt-8 border-t border-gray-200'>
-        <h3 className='text-xl font-bold mb-4'>
-          Related Articles
-        </h3>
-        <div className='grid md:grid-cols-2 gap-6'>
-          <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
-             <div className="flex items-center justify-between mb-2">
-                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Sourcing Green Coffee Guide</span>
-                <HiOutlineChartBar className='text-gray-300 group-hover:text-blue-500 transition-colors' />
-             </div>
-             <p className='text-xs text-gray-500'>Navigating the complex landscape of Ethiopian sourcing, from auctions to direct export.</p>
-          </Link>
-
-          <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
-             <div className="flex items-center justify-between mb-2">
-                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Quality Control Production</span>
-                <HiOutlineShieldCheck className='text-gray-300 group-hover:text-blue-500 transition-colors' />
-             </div>
-             <p className='text-xs text-gray-500'>How we maintain quality standards before the coffee ever reaches the container.</p>
-          </Link>
-
-          <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
-             <div className="flex items-center justify-between mb-2">
-                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Understanding MOQs</span>
-                <HiOutlineCube className='text-gray-300 group-hover:text-blue-500 transition-colors' />
-             </div>
-             <p className='text-xs text-gray-500'>Practical logistics: understanding container sizes, weight limits, and minimum orders.</p>
-          </Link>
-
-          <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
-             <div className="flex items-center justify-between mb-2">
-                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Heirloom Varieties & Genetics</span>
-                <GiDna2 className='text-gray-300 group-hover:text-blue-500 transition-colors' />
-             </div>
-             <p className='text-xs text-gray-500'>Why the genetics of Ethiopian coffee are more sensitive to transport than commercial cultivars.</p>
-          </Link>
-
-          <Link href='/insights/green-coffee-shelf-life-storage-guide' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
-             <div className="flex items-center justify-between mb-2">
-                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Green Coffee Shelf Life &amp; Storage</span>
-                <HiOutlineCube className='text-gray-300 group-hover:text-blue-500 transition-colors' />
-             </div>
-             <p className='text-xs text-gray-500'>Moisture science, packaging comparisons, and warehouse protocols for preserving green coffee quality after arrival.</p>
-          </Link>
-
-          <Link href='/insights/importing-ethiopian-coffee-to-australia' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
-             <div className="flex items-center justify-between mb-2">
-                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Importing to Australia</span>
-                <HiOutlineTruck className='text-gray-300 group-hover:text-blue-500 transition-colors' />
-             </div>
-             <p className='text-xs text-gray-500'>Complete biosecurity and customs guide for Australian importers.</p>
-          </Link>
-
-          <Link href='/insights/sidama-coffee-production-productivity-export' className='group block p-5 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all bg-white'>
-             <div className="flex items-center justify-between mb-2">
-                <span className='font-bold text-blue-900 group-hover:text-blue-600'>Sidama Production Guide</span>
-                <HiOutlineGlobeAlt className='text-gray-300 group-hover:text-blue-500 transition-colors' />
-             </div>
-             <p className='text-xs text-gray-500'>Deep dive into Sidama region&apos;s exceptional coffee production and export opportunities.</p>
-          </Link>
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Storage & Quality</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Green Coffee Shelf Life & Storage Guide</Link></li>
+              <li>• <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Green Coffee Packaging & Bag Types</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
+              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Ethiopian Dry Coffee Production QC</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling Guide</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Logistics</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities (MOQ)</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+            </ul>
+          </div>
         </div>
-      </aside>
+      </div>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ship Ethiopian Coffee with Confidence</h4>

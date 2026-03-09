@@ -43,6 +43,11 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
         This guide compares all three origins side-by-side covering flavor profiles, processing methods, altitude, and best use cases so you can make an informed sourcing decision.
       </p>
 
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-4 my-6'>
+        <span className='font-bold'>Key Takeaway: </span>
+        Yirgacheffe excels in floral, tea-like profiles; Sidamo delivers intense fruit-forward complexity; and Guji offers bold stone-fruit sweetness with full body. Each origin suits different roast styles, brewing methods, and customer preferences.
+      </div>
+
       <h3 className='text-2xl font-extrabold mt-8'>
         Quick Comparison Table
       </h3>
@@ -107,7 +112,7 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
         Yirgacheffe: The Floral Classic
       </h3>
       <p className='my-4'>
-        Yirgacheffe is arguably the most famous Ethiopian coffee region in the world and for good reason.
+        Yirgacheffe is the most recognized Ethiopian coffee region in the world, and for good reason.
         Washed Yirgacheffe coffees are prized for their delicate floral aromatics, tea-like body, and bright citrus acidity.
       </p>
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
@@ -212,11 +217,11 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Which Ethiopian coffee origin is best for espresso?</h4>
-            <p className="text-sm text-gray-600">Guji is particularly well-suited for single-origin espresso due to its combination of fruit complexity, floral lift, and full body that translates beautifully under pressure. Sidamo also works well in espresso blends, adding fruit complexity and wine-like character.</p>
+            <p className="text-sm text-gray-600">Guji is particularly well-suited for single-origin espresso due to its combination of fruit complexity, floral lift, and full body that translates beautifully under pressure. Sidamo also works well in espresso blends, adding fruit complexity and wine-like character. Yirgacheffe can shine in lighter espresso profiles that highlight floral and citrus notes.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Can I stock all three Ethiopian origins in my roastery?</h4>
-            <p className="text-sm text-gray-600">Yes, many successful roasteries carry 2-3 Ethiopian origins. A common approach: washed Yirgacheffe as your accessible classic, natural Sidamo as a seasonal fruit-forward rotation, and Guji as a premium single-origin espresso offering.</p>
+            <p className="text-sm text-gray-600">Yes, many successful roasteries carry two or three Ethiopian origins to offer their customers a range of distinct cup profiles. A common approach: washed Yirgacheffe as your accessible classic, natural Sidamo as a seasonal fruit-forward rotation, and Guji as a premium single-origin espresso offering.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How should I roast Yirgacheffe, Sidamo, and Guji differently?</h4>
