@@ -13,7 +13,7 @@ type Props = {
 }
 
 const AddToCartButton = ({ productId, productName, sampleOptions, image_url, isSoldOut }: Props) => {
-  const { addItem } = useCart()
+  const { addItem, setIsCartOpen } = useCart()
   const [selectedOption, setSelectedOption] = useState<SampleOption>(sampleOptions[0])
   const [showPicker, setShowPicker] = useState(false)
   const [justAdded, setJustAdded] = useState(false)
@@ -52,6 +52,7 @@ const AddToCartButton = ({ productId, productName, sampleOptions, image_url, isS
     setJustAdded(true)
     setTimeout(() => setJustAdded(false), 1500)
     setShowPicker(false)
+    setIsCartOpen(true)
   }
 
   // Single option - just add directly

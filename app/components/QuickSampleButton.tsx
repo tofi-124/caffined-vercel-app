@@ -12,7 +12,7 @@ type Props = {
 }
 
 const QuickSampleButton = ({ productId, productName, sampleOptions, image_url }: Props) => {
-  const { addItem } = useCart()
+  const { addItem, setIsCartOpen } = useCart()
   const [justAdded, setJustAdded] = useState(false)
 
   if (!sampleOptions || sampleOptions.length === 0) return null
@@ -32,6 +32,7 @@ const QuickSampleButton = ({ productId, productName, sampleOptions, image_url }:
     })
     setJustAdded(true)
     setTimeout(() => setJustAdded(false), 1500)
+    setIsCartOpen(true)
   }
 
   return (
