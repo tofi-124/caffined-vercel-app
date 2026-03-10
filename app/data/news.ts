@@ -215,5 +215,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The Ethiopian Coffee and Tea Authority launched a comprehensive training platform in Hawassa and Jimma covering the full coffee value chain from production to marketing, with over 150 participants from Sidama, Southern Ethiopia, and Oromia regions.',
     source: 'Ethiopian Coffee and Tea Authority',
     keywords: 'Ethiopian coffee quality training, ECTA Hawassa Jimma, Ethiopian coffee value chain, Sidama coffee productivity, Ethiopian coffee export quality, UNDP FOLUR coffee, Ethiopian coffee exporter, coffee training Ethiopia, Ethiopian coffee production',
+  },
+  {
+    slug: 'civil-service-reform-awareness-forum',
+    date: '2026-03-09',
+    title: 'Awareness Raising Forum Held on National Civil Service Reform',
+    desc: 'The National Civil Service Reform Executive Committee of Ibushaba held an awareness raising forum presenting biometrics, ICIMIS, and IFIMIS digital technologies for paperless HR management, alongside the authority\'s ongoing coffee traceability systems such as MIMS and ECTMS.',
+    source: 'Ashenafi Getahun',
+    keywords: 'Ethiopian civil service reform, ECTA digitalization, ICIMIS IFIMIS biometrics, Ethiopian coffee traceability, MIMS ECTMS coffee tracking, Ethiopian Coffee and Tea Authority, Ethiopian coffee exporter, paperless HR Ethiopia, coffee trail tracking Ethiopia',
   }
 ]
