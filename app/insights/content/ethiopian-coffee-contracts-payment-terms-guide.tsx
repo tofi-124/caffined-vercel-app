@@ -893,6 +893,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee from Ethiopia</Link></li>
               <li><Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Choosing an Ethiopian Exporter</Link></li>
+              <li><Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Best Ethiopian Coffee Exporter for Importers</Link></li>
             </ul>
           </div>
           <div>
