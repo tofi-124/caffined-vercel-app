@@ -142,6 +142,10 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
         <li className='my-2'><span className='font-bold'>Receive &amp; Roast:</span> Your green coffee arrives with full documentation and traceability.</li>
       </ol>
 
+      <p className='my-4'>
+        For a detailed walkthrough of what each step looks like in practice, including timelines, documentation, and quality checkpoints, see our guide on <Link href='/insights/ethio-coffee-export-launch' className='underline font-bold'>how to work with an Ethiopian coffee exporter from inquiry to delivery</Link>.
+      </p>
+
       <h3 className='text-2xl font-extrabold mt-8'>
         Current Availability
       </h3>

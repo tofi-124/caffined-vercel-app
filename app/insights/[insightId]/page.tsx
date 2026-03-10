@@ -43,7 +43,7 @@ const readingTimeMap: Record<string, number> = {
   'top-premium-coffee-exporters-global-guide': 22,
   'best-cupping-school': 14,
   'selective-coffee-harvesting': 15,
-  'ethio-coffee-export-launch': 10,
+  'ethio-coffee-export-launch': 14,
   'best-ethiopian-coffee-exporter-for-importers': 18,
   'birthplace-of-coffee-ethiopia': 10,
   'ethiopian-coffee-ceremony': 11,

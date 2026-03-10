@@ -786,21 +786,26 @@ export const posts: Post[] = [
       small_image_url: 'insights/launch.webp',
       large_image_url: 'insights/launch.webp',
       date: 'Jan 01, 2022',
-      title: 'Ethio Coffee: Your Ethiopian Export Partner',
+      title: 'Ethiopian Coffee Exporter: Your Origin Partner',
       slug: 'ethio-coffee-export-launch',
-      category: 'Company News',
+      category: 'Company / Sourcing',
       keywords: [
         'Ethiopian coffee exporter',
-        'green coffee supplier Ethiopia',
-        'Ethiopian coffee for importers',
-        'specialty coffee export Ethiopia',
+        'Ethiopian green coffee supplier',
+        'Ethiopian coffee export company',
+        'specialty coffee exporter Ethiopia',
+        'buy Ethiopian green coffee direct',
+        'how to buy Ethiopian coffee from exporter',
+        'Ethiopian coffee exporter for importers worldwide',
+        'Ethiopian coffee exporter with traceability',
+        'best Ethiopian coffee exporter for small roasters',
+        'Ethiopian coffee exporter sample program',
+        'Ethiopian coffee exporter FOB Djibouti',
+        'origin-connected Ethiopian coffee exporter',
         'Ethio Coffee Export',
-        'Ethiopian green beans wholesale',
-        'coffee importers worldwide',
-        'direct trade coffee Ethiopia',
-        'African coffee exporter'
+        'Guji Hambella drying station'
       ],
-      desc: 'Ethio Coffee Import and Export PLC officially launches, bringing speciality Ethiopian green coffee to importers worldwide. Founded by two brothers with deep roots in Ethiopian coffee, we offer traceable sourcing, professional export service, and the reliability importers need.'
+      desc: 'Ethio Coffee Import and Export PLC is an origin-connected Ethiopian coffee exporter with a drying station in Guji Hambella and heritage sourcing across all major regions. See our step-by-step buyer journey, available origins, export documentation, and 2026/27 season availability.'
     },
     {
       small_image_url: 'insights/ethiopian-coffee-exporter-2025.webp',
