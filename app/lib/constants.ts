@@ -5,7 +5,7 @@ export const HEADER_OFFSET = 96
 
 // Company information
 export const COMPANY_NAME = 'Ethio Coffee'
-export const COMPANY_LEGAL_NAME = 'Ethio Coffee Export PLC'
+export const COMPANY_LEGAL_NAME = 'Ethio Coffee Import and Export PLC'
 export const COMPANY_EMAIL = 'coffee@ethiocoffee.co'
 export const COMPANY_INSTAGRAM = '@ethiocoffee.co'
 export const COMPANY_WEBSITE = 'https://www.ethiocoffee.co'

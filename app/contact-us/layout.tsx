@@ -41,7 +41,7 @@ export default function ContactUsLayout({ children }: { children: React.ReactNod
     "url": "https://www.ethiocoffee.co/contact-us",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "url": "https://www.ethiocoffee.co",
       "email": "coffee@ethiocoffee.co",
       "contactPoint": {

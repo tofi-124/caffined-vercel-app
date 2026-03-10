@@ -43,7 +43,7 @@ export default function BuyWholesaleLayout({
     "url": "https://www.ethiocoffee.co/buy-ethiopian-coffee-wholesale",
     "publisher": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "url": "https://www.ethiocoffee.co"
     },
     "breadcrumb": {
@@ -64,7 +64,7 @@ export default function BuyWholesaleLayout({
         "name": "How do I buy Ethiopian coffee wholesale?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "To buy Ethiopian coffee wholesale, contact a licensed Ethiopian coffee exporter like Ethio Coffee Export PLC. Share your requirements (origin, grade, volume, processing preference), request pre-shipment samples, approve the lot after cupping, agree on FOB or FCA (Free Carrier) pricing, and place your order. The exporter handles all documentation, logistics, and shipping."
+          "text": "To buy Ethiopian coffee wholesale, contact a licensed Ethiopian coffee exporter like Ethio Coffee Import and Export PLC. Share your requirements (origin, grade, volume, processing preference), request pre-shipment samples, approve the lot after cupping, agree on FOB or FCA (Free Carrier) pricing, and place your order. The exporter handles all documentation, logistics, and shipping."
         }
       },
       {

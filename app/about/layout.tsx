@@ -43,7 +43,7 @@ export default function AboutLayout({
     "url": "https://www.ethiocoffee.co/about",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "url": "https://www.ethiocoffee.co",
       "logo": "https://www.ethiocoffee.co/images/new-logo.png",
       "foundingDate": "2022",

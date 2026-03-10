@@ -30,7 +30,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
 
       <figure>
         <figcaption className='font-inconsolata my-2 text-sm text-gray-500'>
-          Workers at a dry mill in Addis Ababa preparing Ethiopian green coffee for export. Photo: Ethio Coffee Export PLC.
+          Workers at a dry mill in Addis Ababa preparing Ethiopian green coffee for export. Photo: Ethio Coffee Import and Export PLC.
         </figcaption>
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
@@ -549,7 +549,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Full Milling Transparency</h3>
         <p className='my-2 text-sm'>
-          As a trusted Ethiopian coffee exporter, Ethio Coffee Export PLC operates directly from Addis Ababa. Our three decades of sourcing relationships span cooperatives and washing stations across Yirgacheffe, Sidama, Guji, Harar, Limu, and Jimma. We manage milling through vetted dry mill partners and provide pre-shipment samples from every lot before container sealing. No surprises at the port.
+          As a trusted Ethiopian coffee exporter, Ethio Coffee Import and Export PLC operates directly from Addis Ababa. Our three decades of sourcing relationships span cooperatives and washing stations across Yirgacheffe, Sidama, Guji, Harar, Limu, and Jimma. We manage milling through vetted dry mill partners and provide pre-shipment samples from every lot before container sealing. No surprises at the port.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link
@@ -619,7 +619,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
       {/* Footer */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC (Addis Ababa, Ethiopia). This article reflects our operational experience working with dry mill partners across the Ethiopian export supply chain. Yield figures and process descriptions represent general industry ranges; specific lot outcomes vary by origin, season, and mill calibration. Contact us for current specifications on available lots.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC (Addis Ababa, Ethiopia). This article reflects our operational experience working with dry mill partners across the Ethiopian export supply chain. Yield figures and process descriptions represent general industry ranges; specific lot outcomes vary by origin, season, and mill calibration. Contact us for current specifications on available lots.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> ·{' '}

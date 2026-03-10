@@ -323,7 +323,7 @@ export default function EthiopianCoffeeWashingStationsBuyersGuide({ title, date,
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Pre-Shipment Samples and Cupping Feedback</h3>
 
       <p className='my-4'>
-        The most reliable evaluation is still the cup. Request station-specific pre-shipment samples (PSS) and cup them against your standards. If a station consistently delivers clean, well-sorted parchment that cups within your target range over two or more seasons, it is worth building a long-term relationship around. Provide cupping feedback to your exporter after each season; this information flows back to the station and helps improve protocols. Our team at Ethio Coffee Export PLC facilitates this feedback loop between buyers and the washing stations in our network.
+        The most reliable evaluation is still the cup. Request station-specific pre-shipment samples (PSS) and cup them against your standards. If a station consistently delivers clean, well-sorted parchment that cups within your target range over two or more seasons, it is worth building a long-term relationship around. Provide cupping feedback to your exporter after each season; this information flows back to the station and helps improve protocols. Our team at Ethio Coffee Import and Export PLC facilitates this feedback loop between buyers and the washing stations in our network.
       </p>
 
       {/* SECTION 6 */}
@@ -433,7 +433,7 @@ export default function EthiopianCoffeeWashingStationsBuyersGuide({ title, date,
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Source Premium Washed Ethiopian Coffee Direct from Origin</h3>
         <p className='my-2 text-sm'>
-          Ethio Coffee Export PLC sources from a curated network of washing stations across Yirgacheffe, Guji, Sidamo, Limu, and Jimma. We provide station-level traceability, pre-shipment samples, and processing documentation for every lot. Contact our team in Addis Ababa to discuss current availability and request samples from specific stations.
+          Ethio Coffee Import and Export PLC sources from a curated network of washing stations across Yirgacheffe, Guji, Sidamo, Limu, and Jimma. We provide station-level traceability, pre-shipment samples, and processing documentation for every lot. Contact our team in Addis Ababa to discuss current availability and request samples from specific stations.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link
@@ -498,7 +498,7 @@ export default function EthiopianCoffeeWashingStationsBuyersGuide({ title, date,
       {/* Footer */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC (Addis Ababa, Ethiopia). This article reflects industry practices and our sourcing experience as of March 2026. Processing methods and station-level data may change between seasons. Contact us for current information on available lots and station-level sourcing.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC (Addis Ababa, Ethiopia). This article reflects industry practices and our sourcing experience as of March 2026. Processing methods and station-level data may change between seasons. Contact us for current information on available lots and station-level sourcing.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot;{' '}

@@ -689,7 +689,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Plan Your Ethiopian Coffee Purchases with Confidence</h4>
         <p className='my-2'>
-          As your <span className='font-bold'>Ethiopian coffee exporter</span>, <span className='font-bold'>Ethio Coffee Export PLC</span> provides harvest updates, pre-shipment samples, and flexible contract terms across all six major Ethiopian coffee regions. From sourcing a single container to building a year-round supply program, we help you align your buying calendar with the freshest available lots.
+          As your <span className='font-bold'>Ethiopian coffee exporter</span>, <span className='font-bold'>Ethio Coffee Import and Export PLC</span> provides harvest updates, pre-shipment samples, and flexible contract terms across all six major Ethiopian coffee regions. From sourcing a single container to building a year-round supply program, we help you align your buying calendar with the freshest available lots.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Current Offerings</Link>
@@ -738,7 +738,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This Ethiopian coffee harvest calendar and seasonal buying guide is published by Ethio Coffee Export PLC. Harvest timing, shipping schedules, and pricing patterns can shift year to year based on weather, logistics, and market conditions. Contact us for current-season information.
+          <span className='font-bold'>About This Insight:</span> This Ethiopian coffee harvest calendar and seasonal buying guide is published by Ethio Coffee Import and Export PLC. Harvest timing, shipping schedules, and pricing patterns can shift year to year based on weather, logistics, and market conditions. Contact us for current-season information.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

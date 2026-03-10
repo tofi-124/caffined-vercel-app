@@ -52,7 +52,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       </p>
 
       <p className='my-4'>
-        Ethiopian coffee, with its historic connection to the Arab world through centuries of trade, natural wine-like complexity, and recognizable origin story, is perfectly positioned for the Saudi market. But if you&apos;re a Saudi coffee roaster, cafe owner, or importer wondering how to handle the import process, this comprehensive guide covers everything you need to know from <span className='font-bold'>SFDA certification</span> to clearing <span className='font-bold'>Saudi Customs (Zatca)</span>, shipping through Jeddah port, and partnering with trusted <span className='font-bold'>Ethiopian coffee exporters</span> like <span className='font-bold'>Ethio Coffee Export PLC</span>.
+        Ethiopian coffee, with its historic connection to the Arab world through centuries of trade, natural wine-like complexity, and recognizable origin story, is perfectly positioned for the Saudi market. But if you&apos;re a Saudi coffee roaster, cafe owner, or importer wondering how to handle the import process, this comprehensive guide covers everything you need to know from <span className='font-bold'>SFDA certification</span> to clearing <span className='font-bold'>Saudi Customs (Zatca)</span>, shipping through Jeddah port, and partnering with trusted <span className='font-bold'>Ethiopian coffee exporters</span> like <span className='font-bold'>Ethio Coffee Import and Export PLC</span>.
       </p>
 
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
@@ -432,7 +432,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
         Working with Ethio Coffee for Saudi Imports
       </h3>
       <p className='my-4'>
-        As an ECX-registered <span className='font-bold'>Ethiopian coffee exporter</span> with extensive Middle East experience, <span className='font-bold'>Ethio Coffee Export PLC</span> understands Saudi market requirements and SFDA compliance:
+        As an ECX-registered <span className='font-bold'>Ethiopian coffee exporter</span> with extensive Middle East experience, <span className='font-bold'>Ethio Coffee Import and Export PLC</span> understands Saudi market requirements and SFDA compliance:
       </p>
 
       <div className='grid md:grid-cols-2 gap-5 my-6'>
@@ -655,7 +655,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Saudi Arabia?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied Saudi importers in Riyadh, Jeddah, and Dammam with three decades of origin-connected sourcing heritage. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with SFDA-compliant documentation, fast Red Sea shipping, and the responsive, reliable service Saudi businesses expect.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> has supplied Saudi importers in Riyadh, Jeddah, and Dammam with three decades of origin-connected sourcing heritage. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with SFDA-compliant documentation, fast Red Sea shipping, and the responsive, reliable service Saudi businesses expect.
         </p>
         <p className='my-2'>
           For businesses launching a Saudi roastery, expanding an existing cafe chain, or building an import/distribution business for the GCC, we make Ethiopian coffee import straightforward and profitable.

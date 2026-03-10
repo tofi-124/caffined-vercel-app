@@ -630,7 +630,7 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
         </div>
 
         <p className="text-lg leading-relaxed">
-          Quality exporters like <strong>Ethio Coffee Export PLC</strong> maintain direct relationships with processing facilities, conduct pre-shipment quality verification, and provide complete documentation and traceability for every lot-ensuring that the careful quality management during dry coffee preparation translates into consistent quality for international roasters and importers.
+          Quality exporters like <strong>Ethio Coffee Import and Export PLC</strong> maintain direct relationships with processing facilities, conduct pre-shipment quality verification, and provide complete documentation and traceability for every lot-ensuring that the careful quality management during dry coffee preparation translates into consistent quality for international roasters and importers.
         </p>
       </section>
 
@@ -716,7 +716,7 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
         <div className="bg-gradient-to-br from-amber-600 to-amber-800 text-white p-8 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Partner with Ethio Coffee Export for Quality-Assured Ethiopian Coffee</h2>
           <p className="text-lg mb-6 text-amber-50">
-            Ethio Coffee Export PLC works directly with processing facilities and cooperatives committed to quality excellence. We conduct pre-shipment quality verification, provide complete traceability documentation, and ensure every lot meets rigorous standards from dry coffee preparation through export delivery. Contact us to source G1 and G2 specialty Ethiopian coffee with confidence.
+            Ethio Coffee Import and Export PLC works directly with processing facilities and cooperatives committed to quality excellence. We conduct pre-shipment quality verification, provide complete traceability documentation, and ensure every lot meets rigorous standards from dry coffee preparation through export delivery. Contact us to source G1 and G2 specialty Ethiopian coffee with confidence.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
@@ -766,7 +766,7 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, get direct access to quality-verified G1 and G2 specialty Ethiopian coffee from Yirgacheffe, Sidamo, Guji, and more. Full traceability, professional export service, and competitive pricing.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, get direct access to quality-verified G1 and G2 specialty Ethiopian coffee from Yirgacheffe, Sidamo, Guji, and more. Full traceability, professional export service, and competitive pricing.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

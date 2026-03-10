@@ -468,7 +468,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         </div>
 
         <p className="text-lg leading-relaxed">
-          For international buyers, the emergence of <strong>farmer-direct export licenses</strong> creates exciting sourcing opportunities: highly traceable, single-farm lots with transparent pricing and direct farmer relationships. However, buyers should work through experienced Ethiopian coffee exporters like <strong>Ethio Coffee Export PLC</strong> who can facilitate relationships, handle export logistics, and ensure quality consistency.
+          For international buyers, the emergence of <strong>farmer-direct export licenses</strong> creates exciting sourcing opportunities: highly traceable, single-farm lots with transparent pricing and direct farmer relationships. However, buyers should work through experienced Ethiopian coffee exporters like <strong>Ethio Coffee Import and Export PLC</strong> who can facilitate relationships, handle export logistics, and ensure quality consistency.
         </p>
       </section>
 
@@ -697,7 +697,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         </div>
 
         <p className="text-lg leading-relaxed">
-          Working with established Ethiopian coffee exporters like <strong>Ethio Coffee Export PLC</strong> provides critical advantages: direct relationships with Sidama farmer clusters and washing stations, pre-shipment quality verification, complete documentation and traceability, competitive pricing, and professional export logistics ensuring coffee arrives in excellent condition.
+          Working with established Ethiopian coffee exporters like <strong>Ethio Coffee Import and Export PLC</strong> provides critical advantages: direct relationships with Sidama farmer clusters and washing stations, pre-shipment quality verification, complete documentation and traceability, competitive pricing, and professional export logistics ensuring coffee arrives in excellent condition.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-lg">
@@ -718,7 +718,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
         <div className="bg-gradient-to-br from-green-600 to-green-800 text-white p-8 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold mb-4">Source Premium Sidama Coffee Through Ethio Coffee Export</h2>
           <p className="text-lg mb-6 text-green-50">
-            Ethio Coffee Export PLC maintains direct relationships with Sidama farmer clusters, washing stations, and cooperatives producing exceptional coffee at 10+ quintals per hectare productivity. We offer G1 and G2 specialty Sidama coffee with full traceability, quality verification, and professional export service. Access washed and natural processed lots from highland and Weina Dega zones.
+            Ethio Coffee Import and Export PLC maintains direct relationships with Sidama farmer clusters, washing stations, and cooperatives producing exceptional coffee at 10+ quintals per hectare productivity. We offer G1 and G2 specialty Sidama coffee with full traceability, quality verification, and professional export service. Access washed and natural processed lots from highland and Weina Dega zones.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link 
@@ -795,7 +795,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source High-Productivity Sidama Coffee</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, get direct access to Sidama region&apos;s exceptional coffee. G1/G2 specialty grades, washed and natural processing, full traceability from highland zones.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, get direct access to Sidama region&apos;s exceptional coffee. G1/G2 specialty grades, washed and natural processing, full traceability from highland zones.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

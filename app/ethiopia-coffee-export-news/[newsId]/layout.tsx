@@ -81,7 +81,7 @@ export default async function NewsArticleLayout({
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.ethiocoffee.co/images/new-logo.png"

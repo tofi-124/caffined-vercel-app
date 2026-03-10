@@ -303,7 +303,7 @@ export default function EthiopianCoffeeCeremony({ title, date, large_image_url }
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h3>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, every shipment carries the same care and tradition that defines the Ethiopian coffee ceremony. Request green coffee samples, get current FOB pricing, or explore our full range of washed and natural lots from Yirgacheffe, Sidamo, Guji, Limu, and beyond.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, every shipment carries the same care and tradition that defines the Ethiopian coffee ceremony. Request green coffee samples, get current FOB pricing, or explore our full range of washed and natural lots from Yirgacheffe, Sidamo, Guji, Limu, and beyond.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -352,7 +352,7 @@ export default function EthiopianCoffeeCeremony({ title, date, large_image_url }
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This article covers the Ethiopian coffee ceremony, its step-by-step process, the meaning behind its three rounds (abol, tona, baraka), and why this tradition is relevant for modern coffee importers, roasters, and specialty buyers. For current pricing, sample requests, or questions about our export services, please contact us directly.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This article covers the Ethiopian coffee ceremony, its step-by-step process, the meaning behind its three rounds (abol, tona, baraka), and why this tradition is relevant for modern coffee importers, roasters, and specialty buyers. For current pricing, sample requests, or questions about our export services, please contact us directly.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee Export</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

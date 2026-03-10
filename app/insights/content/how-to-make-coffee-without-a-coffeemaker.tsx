@@ -429,7 +429,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          For roasters evaluating origins, importers building a portfolio, and buyers seeking traceable single-origin lots, Ethio Coffee Export PLC connects you directly with Ethiopia&apos;s finest growing regions. Request samples, access current pricing, and learn about our export process.
+          For roasters evaluating origins, importers building a portfolio, and buyers seeking traceable single-origin lots, Ethio Coffee Import and Export PLC connects you directly with Ethiopia&apos;s finest growing regions. Request samples, access current pricing, and learn about our export process.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -473,7 +473,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. Brewing temperatures reference SCA standards. For current product availability, pricing, and sample requests, please contact our team directly.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. Brewing temperatures reference SCA standards. For current product availability, pricing, and sample requests, please contact our team directly.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

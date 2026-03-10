@@ -43,7 +43,7 @@ export default function EthiopianGreenCoffeeBeansLayout({
     "url": "https://www.ethiocoffee.co/ethiopian-green-coffee-beans",
     "publisher": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "url": "https://www.ethiocoffee.co"
     },
     "breadcrumb": {

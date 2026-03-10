@@ -43,12 +43,12 @@ export default function CoffeeGradingLayout({
     "url": "https://www.ethiocoffee.co/coffee-grading-ethiopia",
     "author": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "url": "https://www.ethiocoffee.co"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "url": "https://www.ethiocoffee.co"
     },
     "datePublished": "2026-02-09",

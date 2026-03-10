@@ -438,7 +438,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
         Working with Ethio Coffee for German/EU Imports
       </h3>
       <p className='my-4'>
-        As an ECX-registered <span className='font-bold'>Ethiopian coffee exporter</span> with experience supplying European roasters, <span className='font-bold'>Ethio Coffee Export PLC</span> understands EU regulatory requirements and German quality expectations:
+        As an ECX-registered <span className='font-bold'>Ethiopian coffee exporter</span> with experience supplying European roasters, <span className='font-bold'>Ethio Coffee Import and Export PLC</span> understands EU regulatory requirements and German quality expectations:
       </p>
 
       <div className='grid md:grid-cols-2 gap-5 my-6'>
@@ -674,7 +674,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Germany?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> has supplied German and European roasters with speciality Ethiopian specialty coffee backed by three decades of origin-connected sourcing heritage. We understand EU regulatory requirements, German quality expectations, and the critical importance of proper documentation (Form A, OTA testing, traceability). We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete EU compliance, consistent quality, and the professional reliability German business culture demands.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> has supplied German and European roasters with speciality Ethiopian specialty coffee backed by three decades of origin-connected sourcing heritage. We understand EU regulatory requirements, German quality expectations, and the critical importance of proper documentation (Form A, OTA testing, traceability). We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete EU compliance, consistent quality, and the professional reliability German business culture demands.
         </p>
         <p className='my-2'>
           From establishing a specialty roastery in Berlin to building an EU-wide distribution business from Hamburg or supplying German cafe chains with signature single-origin coffee, we deliver the quality, safety certification, and consistent supply you need to succeed in Europe&apos;s most important coffee market.

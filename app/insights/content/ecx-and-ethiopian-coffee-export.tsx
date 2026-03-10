@@ -347,7 +347,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Coffee from an ECX-Registered Exporter?</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we&apos;re ECX-registered and licensed to export Ethiopian green coffee to importers worldwide. From Grade 1 Yirgacheffe to natural processed Sidamo, we offer full traceability, professional export documentation, quality reports, and the responsive communication international buyers need.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we&apos;re ECX-registered and licensed to export Ethiopian green coffee to importers worldwide. From Grade 1 Yirgacheffe to natural processed Sidamo, we offer full traceability, professional export documentation, quality reports, and the responsive communication international buyers need.
         </p>
         <p className='my-2'>
           For first-time sourcing buyers and those seeking a more reliable Ethiopian supplier, we understand the ECX system inside and out and we make the export process transparent and hassle-free.

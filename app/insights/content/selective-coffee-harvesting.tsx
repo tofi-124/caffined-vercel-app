@@ -273,7 +273,7 @@ export default function SelectiveCoffeeHarvesting({ title, date, large_image_url
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Selectively Harvested Ethiopian Coffee</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our specialty lots are hand-picked at peak ripeness for maximum cup quality. Request samples today.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, our specialty lots are hand-picked at peak ripeness for maximum cup quality. Request samples today.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

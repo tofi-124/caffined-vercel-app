@@ -800,7 +800,7 @@ export const posts: Post[] = [
         'direct trade coffee Ethiopia',
         'African coffee exporter'
       ],
-      desc: 'Ethio Coffee Export PLC officially launches, bringing speciality Ethiopian green coffee to importers worldwide. Founded by two brothers with deep roots in Ethiopian coffee, we offer traceable sourcing, professional export service, and the reliability importers need.'
+      desc: 'Ethio Coffee Import and Export PLC officially launches, bringing speciality Ethiopian green coffee to importers worldwide. Founded by two brothers with deep roots in Ethiopian coffee, we offer traceable sourcing, professional export service, and the reliability importers need.'
     },
     {
       small_image_url: 'insights/ethiopian-coffee-exporter-2025.webp',
@@ -831,7 +831,7 @@ export const posts: Post[] = [
         'sidamo coffee exporter',
         'guji coffee exporter'
       ],
-      desc: 'Looking for a trusted Ethiopian coffee exporter? Ethio Coffee Export PLC delivers speciality green beans from Yirgacheffe, Sidamo, Guji, and more directly to importers worldwide with full traceability, professional documentation, and competitive pricing.'
+      desc: 'Looking for a trusted Ethiopian coffee exporter? Ethio Coffee Import and Export PLC delivers speciality green beans from Yirgacheffe, Sidamo, Guji, and more directly to importers worldwide with full traceability, professional documentation, and competitive pricing.'
     },
     // ===== COFFEE CULTURE & HERITAGE (Foundation) =====
     {

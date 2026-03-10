@@ -612,7 +612,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Ethiopian Heirloom Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> offers specialty Ethiopian green coffee from the birthplace of Arabica, with full traceability and the genetic diversity that makes Ethiopian coffee unique. Request samples or a current offer sheet to get started.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> offers specialty Ethiopian green coffee from the birthplace of Arabica, with full traceability and the genetic diversity that makes Ethiopian coffee unique. Request samples or a current offer sheet to get started.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -655,7 +655,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Export PLC. This article draws from World Coffee Research variety catalog, UC Davis Coffee Center research, Café Imports educational materials, and genetic studies on Coffea arabica phylogenetics. For current Ethiopian coffee offerings, <Link href='/contact-us' className='underline'>contact us directly</Link>.
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This article draws from World Coffee Research variety catalog, UC Davis Coffee Center research, Café Imports educational materials, and genetic studies on Coffea arabica phylogenetics. For current Ethiopian coffee offerings, <Link href='/contact-us' className='underline'>contact us directly</Link>.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

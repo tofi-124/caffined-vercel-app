@@ -42,7 +42,7 @@ export default function NewsLayout({ children }: { children: React.ReactNode }) 
     "url": "https://www.ethiocoffee.co/ethiopia-coffee-export-news",
     "publisher": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.ethiocoffee.co/images/new-logo.png"

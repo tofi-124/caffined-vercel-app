@@ -257,7 +257,7 @@ export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date
             Coffee science demands systematic knowledge of physical characteristics, chemical compounds, and sensory evaluation. Understanding green coffee analysis, flavor perception, and cupping methodology provides the foundation for producing and sourcing exceptional coffee consistently.
           </p>
           <p className='my-4'>
-            At Ethio Coffee Export PLC, we apply rigorous quality evaluation at every stage of our sourcing process, drawing on three decades of heritage sourcing relationships across Ethiopia&apos;s coffee regions to ensure our partners receive coffee of the highest quality and consistency.
+            At Ethio Coffee Import and Export PLC, we apply rigorous quality evaluation at every stage of our sourcing process, drawing on three decades of heritage sourcing relationships across Ethiopia&apos;s coffee regions to ensure our partners receive coffee of the highest quality and consistency.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Continue Your Coffee Education</h3>
@@ -301,7 +301,7 @@ export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Verified Quality from Origin to Destination</h4>
             <p className='my-2'>
-              <span className='font-bold'>Ethio Coffee Export PLC</span> provides pre-ship samples, cupping reports, and full quality documentation with every lot. Request samples to evaluate our Ethiopian specialty coffees firsthand.
+              <span className='font-bold'>Ethio Coffee Import and Export PLC</span> provides pre-ship samples, cupping reports, and full quality documentation with every lot. Request samples to evaluate our Ethiopian specialty coffees firsthand.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -345,7 +345,7 @@ export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Export PLC. This article draws from SCA cupping standards, coffee chemistry research, and our quality evaluation practices as an Ethiopian coffee exporter. For current samples or quality reports, <Link href='/contact-us' className='underline'>contact us directly</Link>.
+              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This article draws from SCA cupping standards, coffee chemistry research, and our quality evaluation practices as an Ethiopian coffee exporter. For current samples or quality reports, <Link href='/contact-us' className='underline'>contact us directly</Link>.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

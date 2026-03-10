@@ -33,7 +33,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       {/* HERO IMAGE */}
       <figure>
         <figcaption className='font-inconsolata my-2 text-sm text-gray-500'>
-          Green coffee ready for export from Ethiopia. Understanding each step of the export process helps importers plan timelines, manage cash flow, and avoid delays. Photo: Ethio Coffee Export PLC.
+          Green coffee ready for export from Ethiopia. Understanding each step of the export process helps importers plan timelines, manage cash flow, and avoid delays. Photo: Ethio Coffee Import and Export PLC.
         </figcaption>
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
@@ -145,7 +145,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         While payment setup is underway, the exporter sources coffee (via ECX or DSL, as outlined above) and begins dry milling at their facility in Addis Ababa. Dry milling includes hulling (removing parchment), screen grading (size sorting), density table separation, color sorting (electronic or manual), and hand picking for defect removal. This stage determines the final grade (G1, G2, etc.) and directly affects cup quality. For the full milling process, see the <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='underline font-bold'>dry milling export guide</Link>.
       </p>
       <p className='my-4'>
-        At the end of milling, the coffee is bagged (typically 60 kg jute bags with GrainPro liners for specialty lots) and stored at the exporter's Addis Ababa warehouse pending quality inspection. Ethio Coffee Export PLC manages this stage from its own Addis Ababa warehouse, drawing on three decades of sourcing relationships with cooperatives and washing stations across every major Ethiopian coffee region.
+        At the end of milling, the coffee is bagged (typically 60 kg jute bags with GrainPro liners for specialty lots) and stored at the exporter's Addis Ababa warehouse pending quality inspection. Ethio Coffee Import and Export PLC manages this stage from its own Addis Ababa warehouse, drawing on three decades of sourcing relationships with cooperatives and washing stations across every major Ethiopian coffee region.
       </p>
 
       {/* Step 3 */}
@@ -477,7 +477,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         </div>
         <div className='bg-gray-50 p-4 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-1'>2. Grade rejection or downgrade at CLU</h4>
-          <p className='text-sm'>A lot submitted as G1 may grade at G2 if defect counts are borderline. <span className='font-semibold'>Mitigation:</span> Work with exporters who maintain their own cupping labs and conduct pre-CLU quality checks. This is standard practice at Ethio Coffee Export PLC.</p>
+          <p className='text-sm'>A lot submitted as G1 may grade at G2 if defect counts are borderline. <span className='font-semibold'>Mitigation:</span> Work with exporters who maintain their own cupping labs and conduct pre-CLU quality checks. This is standard practice at Ethio Coffee Import and Export PLC.</p>
         </div>
         <div className='bg-gray-50 p-4 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-1'>3. LC discrepancies</h4>
@@ -564,7 +564,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
           Source Ethiopian Coffee from a Trusted Exporter
         </h3>
         <p className='my-2 text-sm'>
-          Ethio Coffee Export PLC handles every step of the Ethiopian coffee export process from our Addis Ababa warehouse: sourcing from trusted cooperatives and washing stations, dry milling, CLU inspection management, full documentation, and logistics to Djibouti. Our 30-year sourcing heritage across Yirgacheffe, Sidamo, Guji, Limu, Harar, and Jimma means you get traceable specialty coffee with a clear timeline from contract to container.
+          Ethio Coffee Import and Export PLC handles every step of the Ethiopian coffee export process from our Addis Ababa warehouse: sourcing from trusted cooperatives and washing stations, dry milling, CLU inspection management, full documentation, and logistics to Djibouti. Our 30-year sourcing heritage across Yirgacheffe, Sidamo, Guji, Limu, Harar, and Jimma means you get traceable specialty coffee with a clear timeline from contract to container.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -619,7 +619,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC, an Ethiopian-Canadian specialty coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Export timelines, documentation requirements, and costs change with government regulations and market conditions; contact us for current information before making purchasing decisions.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian-Canadian specialty coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Export timelines, documentation requirements, and costs change with government regulations and market conditions; contact us for current information before making purchasing decisions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> {' · '}

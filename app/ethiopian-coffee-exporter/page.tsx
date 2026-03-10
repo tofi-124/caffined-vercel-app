@@ -154,7 +154,7 @@ const EthiopianCoffeeExporter = () => {
             Ethiopian Coffee Exporter
           </h1>
           <p className='text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed mb-6'>
-            We are <strong>Ethio Coffee Export PLC</strong>, a family-owned <strong>Ethiopian coffee exporter</strong> shipping
+            We are <strong>Ethio Coffee Import and Export PLC</strong>, a family-owned <strong>Ethiopian coffee exporter</strong> shipping
             specialty-grade and commercial green coffee to roasters, importers, and distributors in <strong>40+ countries worldwide</strong>.
           </p>
           <p className='text-primary/70 mb-8 max-w-2xl mx-auto'>
@@ -198,14 +198,14 @@ const EthiopianCoffeeExporter = () => {
         <div className='max-w-4xl mx-auto px-6'>
           <div>
             <p className='text-accent uppercase tracking-widest text-sm font-bold mb-4 text-center'>
-              About Ethio Coffee Export PLC
+              About Ethio Coffee Import and Export PLC
             </p>
             <h2 className='text-4xl font-extrabold text-dark mb-8 text-center'>
               A Family-Owned Ethiopian Coffee Exporter You Can Trust
             </h2>
             <div className='prose prose-lg max-w-none text-dark/90 space-y-6'>
               <p>
-                <strong>Ethio Coffee Export PLC</strong> is a licensed Ethiopian coffee exporter founded by two brothers: 
+                <strong>Ethio Coffee Import and Export PLC</strong> is a licensed Ethiopian coffee exporter founded by two brothers: 
                 one based in Ethiopia, the other Ethiopian-Canadian. We bridge the gap between Ethiopia's finest coffee-producing 
                 regions and the global specialty market, combining <strong>30+ years of family expertise</strong> at origin 
                 with the communication standards and professionalism that international buyers expect.
@@ -215,7 +215,7 @@ const EthiopianCoffeeExporter = () => {
                 the deep relationships and origin expertise that our company is built on today.
               </p>
               <p>
-                In <strong>2022</strong>, we formalized this multi-generational expertise into Ethio Coffee Export PLC, 
+                In <strong>2022</strong>, we formalized this multi-generational expertise into Ethio Coffee Import and Export PLC, 
                 a fully licensed Ethiopian coffee exporter registered with the Ethiopian Coffee and Tea Authority. 
                 We specialize in <strong>specialty-grade green coffee export</strong>, focusing on SCA 80+ rated lots 
                 from all major Ethiopian origins. We also operate our own <strong>drying station in Guji Hambella</strong>, 
@@ -324,7 +324,7 @@ const EthiopianCoffeeExporter = () => {
                 </li>
               </ul>
               <p>
-                At <strong>Ethio Coffee Export PLC</strong>, we handle all of these responsibilities in-house, giving 
+                At <strong>Ethio Coffee Import and Export PLC</strong>, we handle all of these responsibilities in-house, giving 
                 you a single point of contact from origin to your warehouse. As a <strong>vertically integrated Ethiopian 
                 coffee exporter</strong>, we oversee quality at every step, which means fewer surprises and more 
                 consistent coffee shipment after shipment.
@@ -661,7 +661,7 @@ const EthiopianCoffeeExporter = () => {
                 critical importance to the national economy.
               </p>
               <p>
-                The Ethiopian coffee export sector includes both private exporters (like Ethio Coffee Export PLC) and 
+                The Ethiopian coffee export sector includes both private exporters (like Ethio Coffee Import and Export PLC) and 
                 cooperative unions. Private Ethiopian coffee exporters play a vital role in connecting international 
                 buyers with specialty lots that might otherwise be lost in the commodity pipeline. For a deeper look at how the export system works, read our guide on <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-semibold text-accent'>ECX and Ethiopian coffee export</Link>.
               </p>
@@ -710,7 +710,7 @@ const EthiopianCoffeeExporter = () => {
               {[
                 {
                   q: 'How do I find a reliable Ethiopian coffee exporter?',
-                  a: 'Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, offers pre-shipment samples for purchase, provides transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience.'
+                  a: 'Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, offers pre-shipment samples for purchase, provides transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Import and Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience.'
                 },
                 {
                   q: 'What is the minimum order quantity for Ethiopian coffee export?',

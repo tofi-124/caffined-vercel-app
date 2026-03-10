@@ -508,7 +508,7 @@ export default function DecafGreenCoffeeProcessingSourcingGuide({ title, date, l
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span>, a trusted Ethiopian coffee exporter, supplies traceable specialty green coffee from Yirgacheffe, Sidamo, Guji, Harrar, and Limu, perfectly suited for decaf programs. We provide pre-shipment samples, cupping scores, full lot documentation, and guidance on routing your green to Swiss Water or CO2 decaffeination facilities. Contact us to discuss your decaf sourcing needs.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, a trusted Ethiopian coffee exporter, supplies traceable specialty green coffee from Yirgacheffe, Sidamo, Guji, Harrar, and Limu, perfectly suited for decaf programs. We provide pre-shipment samples, cupping scores, full lot documentation, and guidance on routing your green to Swiss Water or CO2 decaffeination facilities. Contact us to discuss your decaf sourcing needs.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -557,7 +557,7 @@ export default function DecafGreenCoffeeProcessingSourcingGuide({ title, date, l
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This guide is based on published research from the International Coffee Organization, Swiss Water Decaffeinated Coffee Inc., the Specialty Coffee Association, and practical experience in Ethiopian green coffee export. Decaffeination technology and pricing evolve; contact us for current sourcing options and recommendations.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This guide is based on published research from the International Coffee Organization, Swiss Water Decaffeinated Coffee Inc., the Specialty Coffee Association, and practical experience in Ethiopian green coffee export. Decaffeination technology and pricing evolve; contact us for current sourcing options and recommendations.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

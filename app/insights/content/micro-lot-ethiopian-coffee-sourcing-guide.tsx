@@ -453,7 +453,7 @@ export default function MicroLotEthiopianCoffeeSourcingGuide({ title, date, larg
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Micro-Lot Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> sources micro lots from top-scoring washing stations across Yirgacheffe, Guji, Sidamo, Harar, and Limu. Every lot comes with full cupping reports, producer traceability, and processing documentation. Whether you need 10 bags of a single experimental lot or 50 bags of consistent washed Yirgacheffe, we match your program to the right coffee.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> sources micro lots from top-scoring washing stations across Yirgacheffe, Guji, Sidamo, Harar, and Limu. Every lot comes with full cupping reports, producer traceability, and processing documentation. Whether you need 10 bags of a single experimental lot or 50 bags of consistent washed Yirgacheffe, we match your program to the right coffee.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -502,7 +502,7 @@ export default function MicroLotEthiopianCoffeeSourcingGuide({ title, date, larg
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This guide draws on pricing data from the Ethiopian Commodity Exchange (ECX), auction records reported by Addis Insight, International Coffee Organization (ICO) production statistics, the Specialty Coffee Association (SCA) cupping and grading standards, and our direct experience sourcing and exporting micro-lot Ethiopian coffee for international roasters and importers. Market conditions and pricing change seasonally; contact us for current information on available micro lots.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This guide draws on pricing data from the Ethiopian Commodity Exchange (ECX), auction records reported by Addis Insight, International Coffee Organization (ICO) production statistics, the Specialty Coffee Association (SCA) cupping and grading standards, and our direct experience sourcing and exporting micro-lot Ethiopian coffee for international roasters and importers. Market conditions and pricing change seasonally; contact us for current information on available micro lots.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

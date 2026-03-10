@@ -1040,7 +1040,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           EUDR-Compliant Ethiopian Coffee From Ethio Coffee Export
         </h3>
         <p className='mb-4'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> is actively preparing for EUDR compliance across our supply chain. We're investing in traceability systems, collecting geolocation data, and working with our partner cooperatives to ensure our coffee meets all EU requirements.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is actively preparing for EUDR compliance across our supply chain. We're investing in traceability systems, collecting geolocation data, and working with our partner cooperatives to ensure our coffee meets all EU requirements.
         </p>
         <ul className='space-y-2 mb-6'>
           <li className='flex items-start gap-2'>
@@ -1113,7 +1113,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Questions About EUDR Compliance?</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our team stays current on EU regulations and can provide guidance on compliance requirements for Ethiopian coffee exports to Europe.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, our team stays current on EU regulations and can provide guidance on compliance requirements for Ethiopian coffee exports to Europe.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -1124,7 +1124,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide was prepared by Ethio Coffee Export PLC based on official EU regulations, Ethiopian government communications, and industry analysis. EUDR regulations and implementation details may evolve; for the most current information, consult official EU sources.
+          <span className='font-bold'>About This Insight:</span> This guide was prepared by Ethio Coffee Import and Export PLC based on official EU regulations, Ethiopian government communications, and industry analysis. EUDR regulations and implementation details may evolve; for the most current information, consult official EU sources.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

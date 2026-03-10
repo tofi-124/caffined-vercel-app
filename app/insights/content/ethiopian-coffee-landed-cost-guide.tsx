@@ -687,7 +687,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          As a licensed <span className='font-bold'>Ethiopian coffee exporter</span>, <span className='font-bold'>Ethio Coffee Export PLC</span> provides transparent FOB pricing, complete export documentation, and freight coordination from Djibouti to your destination port. We help importers and roasters understand the full cost picture from first sample to delivered container. Request current offers with detailed pricing that includes all origin-side costs, so you can calculate your landed cost with confidence.
+          As a licensed <span className='font-bold'>Ethiopian coffee exporter</span>, <span className='font-bold'>Ethio Coffee Import and Export PLC</span> provides transparent FOB pricing, complete export documentation, and freight coordination from Djibouti to your destination port. We help importers and roasters understand the full cost picture from first sample to delivered container. Request current offers with detailed pricing that includes all origin-side costs, so you can calculate your landed cost with confidence.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -736,7 +736,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This guide draws on freight rate data from Freightos and Xeneta indices, customs duty schedules from the World Trade Organization (WTO) and national customs authorities, International Coffee Organization (ICO) trade statistics, and our direct experience exporting Ethiopian green coffee to importers across North America, Europe, Asia, and the Middle East. Freight rates, FOB prices, and handling fees change with market conditions; contact us for current pricing and cost estimates specific to your destination.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This guide draws on freight rate data from Freightos and Xeneta indices, customs duty schedules from the World Trade Organization (WTO) and national customs authorities, International Coffee Organization (ICO) trade statistics, and our direct experience exporting Ethiopian green coffee to importers across North America, Europe, Asia, and the Middle East. Freight rates, FOB prices, and handling fees change with market conditions; contact us for current pricing and cost estimates specific to your destination.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

@@ -162,7 +162,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         How Ethio Coffee Simplifies Sourcing for Importers
       </h3>
       <p className='my-4'>
-        At Ethio Coffee Export PLC, we make sourcing Ethiopian green coffee straightforward for importers worldwide:
+        At Ethio Coffee Import and Export PLC, we make sourcing Ethiopian green coffee straightforward for importers worldwide:
       </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
         <li className='my-2'><span className='font-bold'>Direct Relationships:</span> We source from trusted cooperatives, washing stations, and farming communities across Ethiopia&apos;s top growing regions.</li>
@@ -203,7 +203,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Source Ethiopian Green Coffee?</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we export G1 through G4 from Ethiopia&apos;s top growing regions with full traceability, professional documentation, and responsive support. Get in touch to discuss your sourcing needs.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we export G1 through G4 from Ethiopia&apos;s top growing regions with full traceability, professional documentation, and responsive support. Get in touch to discuss your sourcing needs.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

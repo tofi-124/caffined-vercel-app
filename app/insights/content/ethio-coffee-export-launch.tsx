@@ -21,7 +21,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethio Coffee Export PLC brings Ethiopia&apos;s legendary coffee heritage directly to importers around the globe.
+          Ethio Coffee Import and Export PLC brings Ethiopia&apos;s legendary coffee heritage directly to importers around the globe.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -39,7 +39,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2'>Key Takeaway</p>
         <p>
-          Ethio Coffee Export PLC bridges the gap between Ethiopia&apos;s legendary coffee heritage and international importers, offering speciality green coffee with professional communication, rigorous quality control, and heritage sourcing relationships built over 30+ years across Ethiopia&apos;s top coffee regions.
+          Ethio Coffee Import and Export PLC bridges the gap between Ethiopia&apos;s legendary coffee heritage and international importers, offering speciality green coffee with professional communication, rigorous quality control, and heritage sourcing relationships built over 30+ years across Ethiopia&apos;s top coffee regions.
         </p>
       </div>
 
@@ -53,7 +53,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       </div>
       
       <p className='my-4'>
-        We&apos;re proud to announce the official launch of <span className='font-bold'>Ethio Coffee Export PLC</span> - your trusted Ethiopian coffee export partner. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we bring speciality Ethiopian green coffee to importers worldwide with the professionalism, traceability, and reliability you need.
+        We&apos;re proud to announce the official launch of <span className='font-bold'>Ethio Coffee Import and Export PLC</span> - your trusted Ethiopian coffee export partner. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we bring speciality Ethiopian green coffee to importers worldwide with the professionalism, traceability, and reliability you need.
       </p>
 
       <p className='my-4'>
@@ -75,7 +75,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       </p>
 
       <p className='my-4'>
-        In 2022, we decided it was time to share this legacy with the world. We established <span className='font-bold'>Ethio Coffee Export PLC</span>, registered with the Ethiopian Commodity Exchange, to bring that relationship-driven approach to the international market. Today, we source from a network of trusted cooperatives, washing stations, and farming communities across Ethiopia&apos;s most celebrated coffee regions.
+        In 2022, we decided it was time to share this legacy with the world. We established <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, registered with the Ethiopian Commodity Exchange, to bring that relationship-driven approach to the international market. Today, we source from a network of trusted cooperatives, washing stations, and farming communities across Ethiopia&apos;s most celebrated coffee regions.
       </p>
 
       <p className='my-4'>
@@ -208,11 +208,11 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
 
       {/* FAQ SECTION */}
       <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethio Coffee Export PLC</h3>
+        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethio Coffee Import and Export PLC</h3>
         <div className="space-y-6">
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What type of coffee does Ethio Coffee Export PLC supply?</h4>
-            <p className="text-sm text-gray-600">Ethio Coffee Export PLC supplies speciality-grade Ethiopian green coffee to importers worldwide. Our range covers washed and natural lots from regions including Yirgacheffe, Sidamo, Guji, Harar, Limu, and Jimma. Every lot ships with full traceability documentation, moisture readings, and pre-shipment sample approval.</p>
+            <h4 className="font-bold text-gray-800 mb-2">What type of coffee does Ethio Coffee Import and Export PLC supply?</h4>
+            <p className="text-sm text-gray-600">Ethio Coffee Import and Export PLC supplies speciality-grade Ethiopian green coffee to importers worldwide. Our range covers washed and natural lots from regions including Yirgacheffe, Sidamo, Guji, Harar, Limu, and Jimma. Every lot ships with full traceability documentation, moisture readings, and pre-shipment sample approval.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">How is Ethio Coffee Export different from other Ethiopian exporters?</h4>
@@ -262,7 +262,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Ethio Coffee Export PLC is an Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide.
+          <span className='font-bold'>About This Insight:</span> Ethio Coffee Import and Export PLC is an Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

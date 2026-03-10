@@ -953,7 +953,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           Access Award-Winning Ethiopian Coffee Through Ethio Coffee Export
         </h3>
         <p className='mb-4'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> actively participates in Ethiopia's coffee quality competitions and maintains relationships with producers and cooperatives whose coffees compete at national and international levels.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> actively participates in Ethiopia's coffee quality competitions and maintains relationships with producers and cooperatives whose coffees compete at national and international levels.
         </p>
         <ul className='space-y-2 mb-6'>
           <li className='flex items-start gap-2'>
@@ -1029,7 +1029,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Access Award-Winning Ethiopian Coffee</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we have direct connections to Taste of Harvest award-winning lots and Ethiopia&apos;s top specialty-grade coffees.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we have direct connections to Taste of Harvest award-winning lots and Ethiopia&apos;s top specialty-grade coffees.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -1042,7 +1042,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide was prepared by Ethio Coffee Export PLC based on the 2026 Taste of Harvest competition, statements from Ethiopian Coffee and Tea Authority leadership, and our direct involvement in Ethiopia&apos;s specialty coffee sector.
+          <span className='font-bold'>About This Insight:</span> This guide was prepared by Ethio Coffee Import and Export PLC based on the 2026 Taste of Harvest competition, statements from Ethiopian Coffee and Tea Authority leadership, and our direct involvement in Ethiopia&apos;s specialty coffee sector.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

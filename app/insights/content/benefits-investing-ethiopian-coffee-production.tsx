@@ -590,7 +590,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Established exporters:</span> Companies like <Link href="/ethiopian-coffee-exporter" className="text-primary hover:underline font-semibold">Ethio Coffee Export PLC</Link> provide market access, regulatory expertise, and operational infrastructure</li>
+        <li><span className='font-bold'>Established exporters:</span> Companies like <Link href="/ethiopian-coffee-exporter" className="text-primary hover:underline font-semibold">Ethio Coffee Import and Export PLC</Link> provide market access, regulatory expertise, and operational infrastructure</li>
         <li><span className='font-bold'>Agricultural consultants:</span> Local agronomists and coffee specialists ensure proper farming practices</li>
         <li><span className='font-bold'>Legal advisors:</span> Ethiopian business law firms handle regulatory requirements</li>
         <li><span className='font-bold'>Financial partners:</span> Local banks and international development finance institutions provide capital and risk mitigation</li>
@@ -684,7 +684,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we connect importers and roasters with Ethiopia&apos;s finest specialty coffees. Request samples, explore current availability, or discuss a sourcing partnership tailored to your needs.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we connect importers and roasters with Ethiopia&apos;s finest specialty coffees. Request samples, explore current availability, or discuss a sourcing partnership tailored to your needs.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -771,7 +771,7 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This article examines the investment potential of Ethiopian coffee production, covering market trends, returns, and opportunities for importers. For the most current pricing and availability, <Link href='/contact-us' className='underline'>contact our team</Link>.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This article examines the investment potential of Ethiopian coffee production, covering market trends, returns, and opportunities for importers. For the most current pricing and availability, <Link href='/contact-us' className='underline'>contact our team</Link>.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

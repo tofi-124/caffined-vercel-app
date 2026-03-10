@@ -393,7 +393,7 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Traceable Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, we welcome evaluation. Request samples, verify our licensing, and apply the scorecard in this article to our operation. We are a fully licensed Ethiopian coffee export company with direct sourcing from Ethiopia&apos;s top growing regions, an in-house quality lab, and transparent FOB pricing.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we welcome evaluation. Request samples, verify our licensing, and apply the scorecard in this article to our operation. We are a fully licensed Ethiopian coffee export company with direct sourcing from Ethiopia&apos;s top growing regions, an in-house quality lab, and transparent FOB pricing.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -447,7 +447,7 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This guide provides a framework for evaluating Ethiopian coffee export companies based on industry standards and importer experience. Pricing data and regulatory details reflect conditions as of early 2026. Contact us for current information.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This guide provides a framework for evaluating Ethiopian coffee export companies based on industry standards and importer experience. Pricing data and regulatory details reflect conditions as of early 2026. Contact us for current information.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

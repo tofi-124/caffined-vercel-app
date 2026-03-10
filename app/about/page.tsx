@@ -27,7 +27,7 @@ const timeline = [
   },
   {
     year: 'In 2022, we took it international',
-    description: "Our father built his reputation in local trade through relationships he earned over decades. In 2022, we formalized Ethio Coffee Export PLC to take that sourcing network to the international market, building an export-ready operation with clearer communication, better transparency, and quality our partners can plan around."
+    description: "Our father built his reputation in local trade through relationships he earned over decades. In 2022, we formalized Ethio Coffee Import and Export PLC to take that sourcing network to the international market, building an export-ready operation with clearer communication, better transparency, and quality our partners can plan around."
   },
   {
     year: 'Our own drying station in Guji Hambella',
@@ -130,7 +130,7 @@ const About = () => {
               </p>
 
               <p className='mt-6 font-inconsolata text-sm text-gray-700'>
-                For clarity: Ethio Coffee Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Export PLC.
+                For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Import and Export PLC.
               </p>
             </div>
           </div>
@@ -178,7 +178,7 @@ const About = () => {
               </p>
 
               <p className='mt-6 font-inconsolata text-sm text-gray-700'>
-                For clarity: Ethio Coffee Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Export PLC.
+                For clarity: Ethio Coffee Import and Export PLC is a private limited company (PLC) registered with the Ethiopian Commodity Exchange (ECX) for trade and export documentation. References on this page to "we", "our", or "the company" refer to Ethio Coffee Import and Export PLC.
               </p>
             </div>
           </div>

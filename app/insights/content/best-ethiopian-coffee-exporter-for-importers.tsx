@@ -37,7 +37,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2'>Key Takeaway</p>
         <p>
-          Ethio Coffee Export PLC is an origin-connected Ethiopian coffee exporter with 30+ years of sourcing heritage. We ship specialty and commercial grade green coffee from Yirgacheffe, Sidamo, Guji, Limu, Harrar, and Jimma, with full lot traceability, competitive FOB pricing, and professional export documentation for importers worldwide.
+          Ethio Coffee Import and Export PLC is an origin-connected Ethiopian coffee exporter with 30+ years of sourcing heritage. We ship specialty and commercial grade green coffee from Yirgacheffe, Sidamo, Guji, Limu, Harrar, and Jimma, with full lot traceability, competitive FOB pricing, and professional export documentation for importers worldwide.
         </p>
       </div>
 
@@ -67,7 +67,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
         cooperatives across the country.
       </p>
       <p className='my-4'>
-        In 2022, we established <span className='font-bold'>Ethio Coffee Export PLC</span>,
+        In 2022, we established <span className='font-bold'>Ethio Coffee Import and Export PLC</span>,
         registered with the <a href='https://www.ecx.com.et' target='_blank' rel='noopener noreferrer' className='underline font-bold'>Ethiopian Commodity Exchange (ECX)</a>, to bring our relationship-driven approach to importers worldwide.
         Today, we source from a network of trusted cooperatives, washing stations, and farming communities across Ethiopia&apos;s celebrated coffee regions.
       </p>
@@ -196,7 +196,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, for those searching for a reliable Ethiopian coffee exporter or a trusted partner for their green coffee program, we&apos;re here to help with samples, quotes, and full export documentation.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, for those searching for a reliable Ethiopian coffee exporter or a trusted partner for their green coffee program, we&apos;re here to help with samples, quotes, and full export documentation.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -246,7 +246,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This article profiles our company as an Ethiopian coffee exporter for importers worldwide, covering sourcing approach, quality standards, export capabilities, and how to start ordering. For current pricing, availability, and lot details, <Link href='/contact-us' className='underline'>contact our team directly</Link>.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This article profiles our company as an Ethiopian coffee exporter for importers worldwide, covering sourcing approach, quality standards, export capabilities, and how to start ordering. For current pricing, availability, and lot details, <Link href='/contact-us' className='underline'>contact our team directly</Link>.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

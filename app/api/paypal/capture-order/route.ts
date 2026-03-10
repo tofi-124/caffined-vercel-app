@@ -265,7 +265,7 @@ export async function POST(request: NextRequest) {
             <p>Best regards,<br/>The Ethio Coffee Team</p>
             
             <hr />
-            <p style="color: #666; font-size: 12px;">Ethio Coffee Export PLC | Addis Ababa, Ethiopia | ethiocoffee.co</p>
+            <p style="color: #666; font-size: 12px;">Ethio Coffee Import and Export PLC | Addis Ababa, Ethiopia | ethiocoffee.co</p>
           `,
         })
       } catch (emailError) {

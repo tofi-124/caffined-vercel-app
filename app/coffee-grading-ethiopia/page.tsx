@@ -297,7 +297,7 @@ export default function CoffeeGradingPage() {
               { q: 'What is the difference between Grade 1 and Grade 2 Ethiopian coffee?', a: 'Grade 1 allows 0-3 defects per 300g sample with SCA 85+ cup scores, while Grade 2 allows 4-12 defects with SCA 80-84 scores. Both are considered specialty quality. Grade 1 exhibits exceptional cup clarity and complexity, commanding 10-20% higher prices. Grade 2 is the most commonly exported specialty grade and still delivers excellent single-origin character.' },
               { q: 'What grades are considered specialty?', a: 'Grade 1 and Grade 2 Ethiopian coffees are considered specialty grade, meeting the SCA definition of 80+ cup scores. Grade 3 (75-79 points) is classified as "premium commercial" - good quality but below the specialty threshold. Only Grade 1-2 coffees should be marketed as "specialty" coffee.' },
               { q: 'Does the grade affect the price?', a: 'Yes, significantly. Grade 1 commands $10-$13+/kg FOB, Grade 2 ranges $9-$11/kg, Grade 3 is $7-$9/kg, and commercial grades (4-5) trade at $3-$7/kg. Within each grade, price varies further by origin (Guji and Yirgacheffe carry premiums), processing method, and seasonal supply-demand dynamics.' },
-              { q: 'Who does the grading?', a: 'Coffee grading in Ethiopia is administered by the Ethiopian Commodity Exchange (ECX) warehouse system and the Ethiopian Coffee and Tea Authority (ECTA). Licensed exporters like Ethio Coffee Export PLC also perform in-house grading that aligns with ECX standards. At our own drying station in Guji Hambella, we grade and cup coffee from cherry intake onwards. For specialty lots, independent Q-graders often provide additional cupping verification.' },
+              { q: 'Who does the grading?', a: 'Coffee grading in Ethiopia is administered by the Ethiopian Commodity Exchange (ECX) warehouse system and the Ethiopian Coffee and Tea Authority (ECTA). Licensed exporters like Ethio Coffee Import and Export PLC also perform in-house grading that aligns with ECX standards. At our own drying station in Guji Hambella, we grade and cup coffee from cherry intake onwards. For specialty lots, independent Q-graders often provide additional cupping verification.' },
             ].map((item, i) => (
               <article key={i} className='border-b border-primary/10 pb-6'>
                 <h3 className='text-lg font-bold text-primary mb-2'>{item.q}</h3>
@@ -313,7 +313,7 @@ export default function CoffeeGradingPage() {
         <div className='max-w-3xl mx-auto px-6 text-center'>
           <h2 className='text-3xl lg:text-4xl font-extrabold mb-4'>Source Graded Ethiopian Coffee Direct from Exporter</h2>
           <p className='text-white/80 max-w-2xl mx-auto mb-8'>
-            Ethio Coffee Export PLC exports Grade 1-2 specialty and Grade 3-5 commercial Ethiopian coffee with full cupping reports, 
+            Ethio Coffee Import and Export PLC exports Grade 1-2 specialty and Grade 3-5 commercial Ethiopian coffee with full cupping reports, 
             defect analysis, and SCA scores included with every shipment. With our own drying station in Guji Hambella 
             and 30+ years of family sourcing heritage, we control quality from cherry to container.
           </p>

@@ -210,7 +210,7 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
             Coffee commerce is more than transactions; it is a system of relationships, logistics, and accountability that links roasters to the cooperatives and washing stations producing their coffee. From C market volatility to specialty premiums and FOB negotiations, understanding each stage of exporting, importing, and green buying gives you better control over quality, cost, and supply reliability. Transparency remains the foundation: when every participant in the chain can see how value is distributed, the entire system becomes more sustainable.
           </p>
           <p className='my-4'>
-            At Ethio Coffee Export PLC, we apply these principles through our trusted sourcing network across Ethiopia&apos;s coffee regions, transparent pricing, and three decades of heritage sourcing relationships. Contact us to discuss your next green coffee purchase.
+            At Ethio Coffee Import and Export PLC, we apply these principles through our trusted sourcing network across Ethiopia&apos;s coffee regions, transparent pricing, and three decades of heritage sourcing relationships. Contact us to discuss your next green coffee purchase.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Continue Your Coffee Education</h3>
@@ -253,7 +253,7 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
             <p className='my-2'>
-              <span className='font-bold'>Ethio Coffee Export PLC</span> offers specialty Ethiopian green coffee with transparent FOB pricing, pre-ship samples, and flexible contract terms. Request samples or a current offer sheet to get started.
+              <span className='font-bold'>Ethio Coffee Import and Export PLC</span> offers specialty Ethiopian green coffee with transparent FOB pricing, pre-ship samples, and flexible contract terms. Request samples or a current offer sheet to get started.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -303,7 +303,7 @@ export default function CoffeeIsCommerceExportingImportingBuying({ title, date, 
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Export PLC. This article draws from ICO market reports, specialty coffee trade publications, and our direct experience as an Ethiopian coffee exporter. For current pricing or sourcing information, <Link href='/contact-us' className='underline'>contact us directly</Link>.
+              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This article draws from ICO market reports, specialty coffee trade publications, and our direct experience as an Ethiopian coffee exporter. For current pricing or sourcing information, <Link href='/contact-us' className='underline'>contact us directly</Link>.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

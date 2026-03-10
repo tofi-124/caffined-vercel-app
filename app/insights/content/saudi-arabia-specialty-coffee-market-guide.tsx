@@ -507,7 +507,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
         <li><span className='font-bold'>Flexible service:</span> Offer mixed-grade containers, custom labeling, and the willingness to start with smaller LCL trial orders before graduating to FCL contracts.</li>
       </ul>
       <p className='my-4'>
-        Ethio Coffee Export PLC has supplied Saudi importers in Riyadh, Jeddah, and Dammam with three decades of origin-connected sourcing heritage. We understand the Saudi market&apos;s requirements for documentation precision, fast Red Sea shipping, and the responsive service GCC buyers expect. Our <Link href='/offerings' className='text-amber-700 hover:underline font-bold'>current offerings</Link> include traceable lots from every major Ethiopian origin region.
+        Ethio Coffee Import and Export PLC has supplied Saudi importers in Riyadh, Jeddah, and Dammam with three decades of origin-connected sourcing heritage. We understand the Saudi market&apos;s requirements for documentation precision, fast Red Sea shipping, and the responsive service GCC buyers expect. Our <Link href='/offerings' className='text-amber-700 hover:underline font-bold'>current offerings</Link> include traceable lots from every major Ethiopian origin region.
       </p>
 
       {/* CONCLUSION */}
@@ -550,7 +550,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee for the Saudi Market</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> connects Saudi roasters, importers, and distributors with traceable Ethiopian specialty coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, complete SFDA-ready documentation, and fast Red Sea shipping from Djibouti to Jeddah.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects Saudi roasters, importers, and distributors with traceable Ethiopian specialty coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, complete SFDA-ready documentation, and fast Red Sea shipping from Djibouti to Jeddah.
         </p>
         <p className='my-2'>
           From a trial 50-bag LCL to regular full-container supply, our three decades of heritage sourcing relationships ensure consistent quality, competitive pricing, and responsive communication.
@@ -604,7 +604,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This market analysis covers the Saudi Arabia specialty coffee market for Ethiopian exporters, including buyer segments, consumer trends, origin positioning, competitive dynamics, and commercial strategy for selling Ethiopian green coffee in KSA. Market conditions change; <Link href='/contact-us' className='underline'>contact us</Link> for current pricing, availability, and regulatory updates.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This market analysis covers the Saudi Arabia specialty coffee market for Ethiopian exporters, including buyer segments, consumer trends, origin positioning, competitive dynamics, and commercial strategy for selling Ethiopian green coffee in KSA. Market conditions change; <Link href='/contact-us' className='underline'>contact us</Link> for current pricing, availability, and regulatory updates.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

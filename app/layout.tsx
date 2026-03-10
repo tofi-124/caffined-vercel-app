@@ -87,7 +87,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": ["Organization", "LocalBusiness"],
               "name": "Ethio Coffee - Ethiopian Coffee Exporter",
-              "legalName": "Ethio Coffee Export PLC",
+              "legalName": "Ethio Coffee Import and Export PLC",
               "alternateName": ["Ethiopian Coffee Exporter", "Ethio Coffee", "Ethiopia Coffee Export"],
               "url": "https://www.ethiocoffee.co",
               "logo": {
@@ -164,12 +164,12 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Ethio Coffee",
-              "alternateName": "Ethio Coffee Export PLC",
+              "alternateName": "Ethio Coffee Import and Export PLC",
               "url": "https://www.ethiocoffee.co",
               "description": "Ethiopian coffee exporter serving importers worldwide",
               "publisher": {
                 "@type": "Organization",
-                "name": "Ethio Coffee Export PLC"
+                "name": "Ethio Coffee Import and Export PLC"
               },
               "potentialAction": {
                 "@type": "SearchAction",

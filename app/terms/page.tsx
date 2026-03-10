@@ -5,7 +5,7 @@ import type { ReactNode } from 'react'
 export const metadata: Metadata = {
   title: 'Terms of Service | Ethio Coffee',
   description:
-    'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
+    'Terms of Service for Ethio Coffee (Ethio Coffee Import and Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
   keywords: 'Ethio Coffee terms of service, Ethiopian coffee export terms, coffee business terms',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/terms',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Terms of Service | Ethio Coffee',
     description:
-      'Terms of Service for Ethio Coffee (Ethio Coffee Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
+      'Terms of Service for Ethio Coffee (Ethio Coffee Import and Export PLC), including website use, export inquiries, quotes, and business-to-business orders.',
     url: 'https://www.ethiocoffee.co/terms',
     type: 'website',
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary',
     title: 'Terms of Service | Ethio Coffee',
     description:
-      'Terms of Service for Ethio Coffee Export PLC, covering website use, export inquiries, and B2B orders.',
+      'Terms of Service for Ethio Coffee Import and Export PLC, covering website use, export inquiries, and B2B orders.',
   },
 }
 
@@ -65,12 +65,12 @@ export default function TermsPage() {
           <div className='space-y-12'>
             <Section title='1) Who We Are'>
               <p>
-                The Site is operated by <strong>Ethio Coffee Export PLC</strong> (operating as{' '}
+                The Site is operated by <strong>Ethio Coffee Import and Export PLC</strong> (operating as{' '}
                 <strong>Ethio Coffee</strong>) ("Ethio Coffee", "we", "us", or "our"). We are an Ethiopian coffee exporter providing information about
                 Ethiopian coffee offerings and facilitating business-to-business inquiries for coffee export supply to importers worldwide.
               </p>
               <p>
-                Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - Ethio Coffee Export PLC is registered with the Ethiopian Commodity Exchange (ECX) for coffee export.
+                Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - Ethio Coffee Import and Export PLC is registered with the Ethiopian Commodity Exchange (ECX) for coffee export.
               </p>
             </Section>
 

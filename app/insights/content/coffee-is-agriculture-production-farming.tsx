@@ -255,7 +255,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             Coffee is not just a drink; it is agriculture shaped by science, tradition, and human labor. Understanding how coffee is grown reinforces why ethical sourcing and sustainable practices matter for long-term supply chain stability.
           </p>
           <p className='my-4'>
-            At Ethio Coffee Export PLC, we work with cooperatives, washing stations, and farming communities across Ethiopia to honor this agricultural heritage and deliver exceptional green coffee to roasters worldwide.
+            At Ethio Coffee Import and Export PLC, we work with cooperatives, washing stations, and farming communities across Ethiopia to honor this agricultural heritage and deliver exceptional green coffee to roasters worldwide.
           </p>
 
           <p className='my-4'>
@@ -316,7 +316,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source Sustainably Farmed Ethiopian Coffee</h4>
             <p className='my-2'>
-              At <span className='font-bold'>Ethio Coffee Export PLC</span>, we connect roasters with sustainably farmed Ethiopian green coffee through our trusted sourcing network of cooperatives and washing stations. Request samples or current pricing to get started.
+              At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we connect roasters with sustainably farmed Ethiopian green coffee through our trusted sourcing network of cooperatives and washing stations. Request samples or current pricing to get started.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -366,7 +366,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This article draws from educational materials developed by Café Imports, the <a href='https://varieties.worldcoffeeresearch.org/' target='_blank' rel='noopener noreferrer' className='underline'>World Coffee Research variety catalog</a>, <a href='https://ico.org/' target='_blank' rel='noopener noreferrer' className='underline'>International Coffee Organization</a> trade data, and UC Davis Coffee Center research. For current sourcing information, <Link href='/contact-us' className='underline'>contact our team</Link>.
+              <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This article draws from educational materials developed by Café Imports, the <a href='https://varieties.worldcoffeeresearch.org/' target='_blank' rel='noopener noreferrer' className='underline'>World Coffee Research variety catalog</a>, <a href='https://ico.org/' target='_blank' rel='noopener noreferrer' className='underline'>International Coffee Organization</a> trade data, and UC Davis Coffee Center research. For current sourcing information, <Link href='/contact-us' className='underline'>contact our team</Link>.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

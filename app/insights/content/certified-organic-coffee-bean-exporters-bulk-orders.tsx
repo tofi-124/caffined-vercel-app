@@ -520,7 +520,7 @@ export default function CertifiedOrganicCoffeeBeanExportersBulkOrders({ title, d
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Source Certified Organic Ethiopian Coffee Direct from Origin</h3>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> is a licensed Ethiopian coffee exporter offering certified organic green coffee beans for bulk orders. We hold USDA and EU organic certification, maintain segregated organic processing, and provide full transaction certificate documentation with every shipment. Request samples from our organic Yirgacheffe, Sidamo, Guji, or Limu lots.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is a licensed Ethiopian coffee exporter offering certified organic green coffee beans for bulk orders. We hold USDA and EU organic certification, maintain segregated organic processing, and provide full transaction certificate documentation with every shipment. Request samples from our organic Yirgacheffe, Sidamo, Guji, or Limu lots.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -576,7 +576,7 @@ export default function CertifiedOrganicCoffeeBeanExportersBulkOrders({ title, d
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This guide covers the sourcing process for certified organic coffee bean exporters and is intended for importers, roasters, and green coffee buyers placing bulk orders. Pricing data and certification details reflect conditions as of early 2026. Contact us for current availability and pricing.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This guide covers the sourcing process for certified organic coffee bean exporters and is intended for importers, roasters, and green coffee buyers placing bulk orders. Pricing data and certification details reflect conditions as of early 2026. Contact us for current availability and pricing.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

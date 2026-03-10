@@ -539,7 +539,7 @@ export default function EthiopianCoffeeVsColombianCoffee({ title, date, large_im
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span>, a trusted Ethiopian coffee exporter, supplies traceable specialty green coffee from Yirgacheffe, Sidamo, Guji, Harrar, and Limu. Whether you source Ethiopian coffee as a single origin or to complement your Colombian program, we provide pre-shipment samples, professional cupping scores, full lot documentation, and competitive FOB Djibouti pricing.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, a trusted Ethiopian coffee exporter, supplies traceable specialty green coffee from Yirgacheffe, Sidamo, Guji, Harrar, and Limu. Whether you source Ethiopian coffee as a single origin or to complement your Colombian program, we provide pre-shipment samples, professional cupping scores, full lot documentation, and competitive FOB Djibouti pricing.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -588,7 +588,7 @@ export default function EthiopianCoffeeVsColombianCoffee({ title, date, large_im
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This comparison draws on data from the International Coffee Organization (ICO), USDA Foreign Agricultural Service, the Ethiopia Commodity Exchange (ECX), the Federaci&oacute;n Nacional de Cafeteros de Colombia (FNC), and our direct experience as Ethiopian green coffee exporters. Market prices and production estimates evolve; contact us for current sourcing options.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This comparison draws on data from the International Coffee Organization (ICO), USDA Foreign Agricultural Service, the Ethiopia Commodity Exchange (ECX), the Federaci&oacute;n Nacional de Cafeteros de Colombia (FNC), and our direct experience as Ethiopian green coffee exporters. Market prices and production estimates evolve; contact us for current sourcing options.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

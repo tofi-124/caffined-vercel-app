@@ -309,7 +309,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>How Ethio Coffee Supports Your 2025 Sourcing</h2>
           <p className='my-4'>
-            At <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='underline'>Ethio Coffee Export PLC</Link>, we&apos;re positioned to help importers plan their 2025 harvest purchases with confidence:
+            At <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='underline'>Ethio Coffee Import and Export PLC</Link>, we&apos;re positioned to help importers plan their 2025 harvest purchases with confidence:
           </p>
           <ul className='font-inconsolata my-4 list-disc ml-5'>
             <li className='my-2'><span className='font-bold'>Regional Coverage:</span> We source from all major Ethiopian growing regions</li>
@@ -334,7 +334,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Reserve Your 2025 Ethiopian Coffee</h4>
             <p className='my-2'>
-              At <span className='font-bold'>Ethio Coffee Export PLC</span>, don&apos;t miss the best lots from this year&apos;s harvest. Contact us today to discuss your sourcing needs, request samples, and secure your allocation.
+              At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, don&apos;t miss the best lots from this year&apos;s harvest. Contact us today to discuss your sourcing needs, request samples, and secure your allocation.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

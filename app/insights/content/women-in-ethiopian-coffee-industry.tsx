@@ -312,7 +312,7 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee That Supports Women in the Supply Chain</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> works with cooperatives and washing stations that actively support women&apos;s participation across the value chain.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> works with cooperatives and washing stations that actively support women&apos;s participation across the value chain.
           If you are looking for Ethiopian green coffee sourced with gender equity in mind, we can connect you with producers and lots that align with your values.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>

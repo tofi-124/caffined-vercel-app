@@ -64,7 +64,7 @@ export default function BuyWholesalePage() {
             Buy Ethiopian Coffee Wholesale
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed mb-4'>
-            <strong>Buy Ethiopian coffee wholesale</strong> directly from Ethio Coffee Export PLC, a licensed, family-owned
+            <strong>Buy Ethiopian coffee wholesale</strong> directly from Ethio Coffee Import and Export PLC, a licensed, family-owned
             Ethiopian exporter backed by 30+ years of sourcing heritage. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we
             supply specialty and commercial green coffee in full container loads,
             shipped FOB Djibouti to importers and roasters in <strong>40+ countries worldwide</strong>. For a detailed walkthrough of

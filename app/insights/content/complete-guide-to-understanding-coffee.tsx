@@ -1237,7 +1237,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           Ready to Source Premium Ethiopian Coffee?
         </h3>
         <p className='mb-4'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> is your trusted partner for sourcing specialty-grade Ethiopian green coffee. From the floral heights of Yirgacheffe to the fruity depths of Guji, we connect importers worldwide with Ethiopia&apos;s finest origins.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is your trusted partner for sourcing specialty-grade Ethiopian green coffee. From the floral heights of Yirgacheffe to the fruity depths of Guji, we connect importers worldwide with Ethiopia&apos;s finest origins.
         </p>
         <ul className='space-y-2 mb-6'>
           <li className='flex items-start gap-2'>
@@ -1314,7 +1314,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Questions About Ethiopian Coffee?</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our team of coffee professionals is ready to help you source the perfect Ethiopian green coffee for your business.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, our team of coffee professionals is ready to help you source the perfect Ethiopian green coffee for your business.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -1325,7 +1325,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide was written by the team at Ethio Coffee Export PLC with years of experience in Ethiopian specialty coffee export. We&apos;re committed to sharing knowledge that helps the global coffee community understand and appreciate Ethiopian coffee.
+          <span className='font-bold'>About This Insight:</span> This guide was written by the team at Ethio Coffee Import and Export PLC with years of experience in Ethiopian specialty coffee export. We&apos;re committed to sharing knowledge that helps the global coffee community understand and appreciate Ethiopian coffee.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

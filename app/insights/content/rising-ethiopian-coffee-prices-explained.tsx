@@ -748,7 +748,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='space-y-5 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border-l-4 border-blue-500'>
           <h5 className='font-bold mb-2'>1. Build Direct Relationships</h5>
-          <p className='text-sm mb-3'>Working directly with trusted Ethiopian exporters (like Ethio Coffee Export PLC) provides: latest pricing information, priority access to limited lots, flexible payment terms, and quality consistency.</p>
+          <p className='text-sm mb-3'>Working directly with trusted Ethiopian exporters (like Ethio Coffee Import and Export PLC) provides: latest pricing information, priority access to limited lots, flexible payment terms, and quality consistency.</p>
           <p className='text-sm italic'>Action: Identify 2-3 reliable Ethiopian export partners and nurture long-term relationships.</p>
         </div>
 
@@ -930,7 +930,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
           Manage Rising Prices with a Trusted Partner
         </h3>
         <p className='mb-4'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> helps importers and roasters worldwide source premium Ethiopian coffee strategically, even in challenging market conditions. Our deep market knowledge, heritage sourcing relationships, and transparent pricing give you the tools to make informed decisions.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> helps importers and roasters worldwide source premium Ethiopian coffee strategically, even in challenging market conditions. Our deep market knowledge, heritage sourcing relationships, and transparent pricing give you the tools to make informed decisions.
         </p>
         <ul className='space-y-2 mb-6'>
           <li className='flex items-start gap-2'>
@@ -1035,7 +1035,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Questions About Ethiopian Coffee Pricing?</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Export PLC</span>, our team provides detailed market analysis, current pricing, and strategic sourcing advice to help you succeed in the Ethiopian coffee market.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, our team provides detailed market analysis, current pricing, and strategic sourcing advice to help you succeed in the Ethiopian coffee market.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -1046,7 +1046,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This market analysis was prepared by Ethio Coffee Export PLC based on current market data, industry reports, and our direct experience in Ethiopian coffee export. Market conditions change rapidly; for the most current pricing and availability, contact our team directly.
+          <span className='font-bold'>About This Insight:</span> This market analysis was prepared by Ethio Coffee Import and Export PLC based on current market data, industry reports, and our direct experience in Ethiopian coffee export. Market conditions change rapidly; for the most current pricing and availability, contact our team directly.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

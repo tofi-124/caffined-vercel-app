@@ -149,7 +149,7 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> exports traceable, high-quality green coffee from Ethiopia&apos;s legendary growing regions. From delicate washed Yirgacheffe to bold natural Sidamo, request samples and discover the origins that started it all.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> exports traceable, high-quality green coffee from Ethiopia&apos;s legendary growing regions. From delicate washed Yirgacheffe to bold natural Sidamo, request samples and discover the origins that started it all.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -205,7 +205,7 @@ export default function BirthplaceOfCoffeeEthiopia({ title, date, large_image_ur
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This article covers Ethiopia&apos;s role as the birthplace of Arabica coffee, its origin story, regional diversity, and cultural traditions. Information about coffee regions and trade practices may evolve; contact us for current details.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This article covers Ethiopia&apos;s role as the birthplace of Arabica coffee, its origin story, regional diversity, and cultural traditions. Information about coffee regions and trade practices may evolve; contact us for current details.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

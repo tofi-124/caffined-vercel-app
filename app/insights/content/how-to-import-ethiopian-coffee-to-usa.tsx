@@ -120,7 +120,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       </div>
 
       <p className='my-4'>
-        At <span className='font-bold'>Ethio Coffee Export PLC</span>, we specialize in Ethiopian coffee export to the United States. We handle all origin-side logistics, provide complete documentation, and work with US importers to ensure smooth customs clearance.
+        At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we specialize in Ethiopian coffee export to the United States. We handle all origin-side logistics, provide complete documentation, and work with US importers to ensure smooth customs clearance.
       </p>
 
       <h3 className='text-2xl font-extrabold mt-8'>
@@ -317,7 +317,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
         Step 8: Working with Ethio Coffee Export for US Imports
       </h3>
       <p className='my-4'>
-        As an ECX-registered <span className='font-bold'>Ethiopian coffee exporter</span> with extensive US market experience, <span className='font-bold'>Ethio Coffee Export PLC</span> simplifies the import process for American roasters and importers.
+        As an ECX-registered <span className='font-bold'>Ethiopian coffee exporter</span> with extensive US market experience, <span className='font-bold'>Ethio Coffee Import and Export PLC</span> simplifies the import process for American roasters and importers.
       </p>
 
       <div className='grid md:grid-cols-2 gap-5 my-6'>
@@ -483,7 +483,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to the United States?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> specializes in Ethiopian coffee export to the US market. We provide speciality Yirgacheffe, Sidamo, Guji, and other origins with complete documentation, competitive FOB pricing, and the responsive service American importers expect.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> specializes in Ethiopian coffee export to the US market. We provide speciality Yirgacheffe, Sidamo, Guji, and other origins with complete documentation, competitive FOB pricing, and the responsive service American importers expect.
         </p>
         <p className='my-2'>
           For first-time importers and those seeking a more reliable Ethiopian partner, we make the process transparent and hassle-free.

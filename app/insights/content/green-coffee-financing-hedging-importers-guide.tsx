@@ -33,7 +33,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
       {/* HERO IMAGE */}
       <figure>
         <figcaption className='font-inconsolata my-2 text-sm text-gray-500'>
-          Green coffee trade involves layered financial risk. A structured hedging approach protects importers from price swings and cash flow gaps. Photo: Ethio Coffee Export PLC.
+          Green coffee trade involves layered financial risk. A structured hedging approach protects importers from price swings and cash flow gaps. Photo: Ethio Coffee Import and Export PLC.
         </figcaption>
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
@@ -504,7 +504,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
           Source Premium Ethiopian Coffee With Pricing Certainty
         </h3>
         <p className='my-2 text-sm'>
-          Ethio Coffee Export PLC offers fixed-price forward contracts on all offerings, giving you a locked FOB price valid for your planned shipment date. Our 30-year sourcing network across Yirgacheffe, Sidama, Guji, Limu, and other Ethiopian regions means we can offer forward availability on G1 and G2 specialty lots with confidence. Request samples, confirm a price, and plan your roasting calendar without speculating on the market.
+          Ethio Coffee Import and Export PLC offers fixed-price forward contracts on all offerings, giving you a locked FOB price valid for your planned shipment date. Our 30-year sourcing network across Yirgacheffe, Sidama, Guji, Limu, and other Ethiopian regions means we can offer forward availability on G1 and G2 specialty lots with confidence. Request samples, confirm a price, and plan your roasting calendar without speculating on the market.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -554,7 +554,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC, an Ethiopian coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Coffee prices, exchange rates, and trade finance terms change frequently; contact us or your trade finance provider for current figures before making purchasing decisions.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Coffee prices, exchange rates, and trade finance terms change frequently; contact us or your trade finance provider for current figures before making purchasing decisions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> {' · '}

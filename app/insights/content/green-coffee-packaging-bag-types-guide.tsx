@@ -289,10 +289,10 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
         The Djibouti corridor has specific temperature and humidity challenges. The port city sits in one of the world's hottest climates, with summer daytime temperatures regularly exceeding 40°C. Containers parked on the tarmac can reach internal temperatures of 55°C or higher. For jute-only packed coffee, a single week in a hot Djibouti container can meaningfully harm cup quality. For GrainPro-lined bags, the hermetic seal maintains the internal equilibrium and buffers against these temperature spikes.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-2'>How Ethio Coffee Export PLC Packages Shipments</h3>
+      <h3 className='text-xl font-bold mt-6 mb-2'>How Ethio Coffee Import and Export PLC Packages Shipments</h3>
 
       <p className='my-4'>
-        At Ethio Coffee Export PLC, our sourcing network spans cooperatives and washing stations across Yirgacheffe, Sidamo, Guji, Limu, Harar, and Jimma. Our standard export format is the 60 kg new jute bag, consistent with Ethiopian export regulations and international container loading norms.
+        At Ethio Coffee Import and Export PLC, our sourcing network spans cooperatives and washing stations across Yirgacheffe, Sidamo, Guji, Limu, Harar, and Jimma. Our standard export format is the 60 kg new jute bag, consistent with Ethiopian export regulations and international container loading norms.
       </p>
 
       <p className='my-4'>
@@ -494,7 +494,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Full Packaging Transparency</h3>
         <p className='my-2 text-sm'>
-          As a licensed Ethiopian coffee exporter, Ethio Coffee Export PLC ships all Grade 1 and Grade 2 lots with GrainPro or Ecotact hermetic liner packaging as standard. Pre-shipment samples are vacuum-sealed and sent air freight. Our team in Addis Ababa is happy to discuss packaging specifications for any order before your contract is confirmed.
+          As a licensed Ethiopian coffee exporter, Ethio Coffee Import and Export PLC ships all Grade 1 and Grade 2 lots with GrainPro or Ecotact hermetic liner packaging as standard. Pre-shipment samples are vacuum-sealed and sent air freight. Our team in Addis Ababa is happy to discuss packaging specifications for any order before your contract is confirmed.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link
@@ -558,7 +558,7 @@ export default function GreenCoffeePackagingBagTypesGuide({ title, date, large_i
       {/* Footer */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC (Addis Ababa, Ethiopia). This article reflects industry practices and our operational experience as of March 2026. Packaging costs and product availability are subject to change. Contact us for current specifications on available lots.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC (Addis Ababa, Ethiopia). This article reflects industry practices and our operational experience as of March 2026. Packaging costs and product availability are subject to change. Contact us for current specifications on available lots.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> ·{' '}

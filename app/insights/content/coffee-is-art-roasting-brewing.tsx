@@ -242,7 +242,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
             Coffee roasting and brewing reward deliberate practice. Mastering heat transfer, roast curves, and extraction variables gives you the tools to reveal what makes each lot distinctive, rather than masking it.
           </p>
           <p className='my-4'>
-            At Ethio Coffee Export PLC, we source green coffees with the complexity to reward skilled roasting. Our lots arrive with detailed cupping notes, processing data, and suggested profile guidance so your roast and brew decisions start from solid ground.
+            At Ethio Coffee Import and Export PLC, we source green coffees with the complexity to reward skilled roasting. Our lots arrive with detailed cupping notes, processing data, and suggested profile guidance so your roast and brew decisions start from solid ground.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Roasting Ethiopian Coffees: Origin-Specific Tips</h3>
@@ -303,7 +303,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
             <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
             <p className='my-2'>
-              <span className='font-bold'>Ethio Coffee Export PLC</span> supplies specialty-grade Ethiopian green coffee with full traceability, cupping notes, and roast profile guidance. Request samples to evaluate our current lots before committing to volume.
+              <span className='font-bold'>Ethio Coffee Import and Export PLC</span> supplies specialty-grade Ethiopian green coffee with full traceability, cupping notes, and roast profile guidance. Request samples to evaluate our current lots before committing to volume.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -348,7 +348,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Export PLC based on industry roasting and brewing standards, SCA protocols, and three decades of Ethiopian coffee sourcing experience. Roast profiles and brewing parameters are general guidelines; always verify with sample roasts and cupping. <Link href='/contact-us' className='underline'>Contact us</Link> for current lot availability, cupping notes, and roast profile suggestions.
+              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC based on industry roasting and brewing standards, SCA protocols, and three decades of Ethiopian coffee sourcing experience. Roast profiles and brewing parameters are general guidelines; always verify with sample roasts and cupping. <Link href='/contact-us' className='underline'>Contact us</Link> for current lot availability, cupping notes, and roast profile suggestions.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

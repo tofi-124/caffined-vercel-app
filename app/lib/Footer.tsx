@@ -85,7 +85,7 @@ const Footer = () => {
             <li>
               <p className='text-xs uppercase tracking-widest text-primary/70'>Ethiopia (Headquarters)</p>
               <address className='not-italic font-medium text-primary'>
-                Ethio Coffee Export PLC
+                Ethio Coffee Import and Export PLC
                 <br />
                 Yesak Building, 3rd Floor, Office 301
                 <br />
@@ -180,12 +180,12 @@ const Footer = () => {
         <div className='h-px w-full bg-dark/10' />
 
         <p className='py-6 text-center text-sm text-dark/70 max-w-3xl mx-auto leading-relaxed px-4'>
-          Ethio Coffee Export PLC is a family-owned Ethiopian coffee exporter shipping specialty and commercial grade green coffee beans to roasters, importers, and distributors worldwide.
+          Ethio Coffee Import and Export PLC is a family-owned Ethiopian coffee exporter shipping specialty and commercial grade green coffee beans to roasters, importers, and distributors worldwide.
         </p>
 
         <div className='pb-8 text-center'>
           <p className="text-sm text-dark/70">
-            © {new Date().getFullYear()} Ethio Coffee Export PLC. All rights reserved.
+            © {new Date().getFullYear()} Ethio Coffee Import and Export PLC. All rights reserved.
           </p>
           <p className="mt-3 flex items-center justify-center gap-1 text-sm text-dark/70">
             <span>made by</span>

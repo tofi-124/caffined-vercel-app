@@ -432,7 +432,7 @@ export default function EthiopianCoffeeTraceabilityGuide({ title, date, large_im
 
       <h3 className='text-xl font-bold mt-6'>Step 4: Conduct an Origin Visit (for Key Relationships)</h3>
       <p className='my-4'>
-        For importers building long-term Ethiopian coffee programs, an origin visit is invaluable. Visit the washing station, meet the cooperative leadership, and observe the intake and processing systems firsthand. This is standard practice among established specialty importers like Volcafe, Trabocca, and Cafe Imports. It builds trust, validates claims, and deepens understanding of what you are buying. Ethio Coffee Export PLC facilitates origin visits for our import partners, from Yirgacheffe washing stations to Guji cooperative facilities.
+        For importers building long-term Ethiopian coffee programs, an origin visit is invaluable. Visit the washing station, meet the cooperative leadership, and observe the intake and processing systems firsthand. This is standard practice among established specialty importers like Volcafe, Trabocca, and Cafe Imports. It builds trust, validates claims, and deepens understanding of what you are buying. Ethio Coffee Import and Export PLC facilitates origin visits for our import partners, from Yirgacheffe washing stations to Guji cooperative facilities.
       </p>
 
       <h3 className='text-xl font-bold mt-6'>Step 5: Compare Pre-Shipment Samples to Arrival Quality</h3>
@@ -473,7 +473,7 @@ export default function EthiopianCoffeeTraceabilityGuide({ title, date, large_im
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Traceable Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Export PLC</span> provides fully traceable specialty green coffee from Yirgacheffe, Sidamo, Guji, Harrar, Limu, and Jimma with lot-level documentation, cupping reports, and GPS-mapped supply chain data. Whether you need EUDR-compliant traceability or washing station-level transparency for your single-origin program, we deliver the data and the quality your business requires.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> provides fully traceable specialty green coffee from Yirgacheffe, Sidamo, Guji, Harrar, Limu, and Jimma with lot-level documentation, cupping reports, and GPS-mapped supply chain data. Whether you need EUDR-compliant traceability or washing station-level transparency for your single-origin program, we deliver the data and the quality your business requires.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -522,7 +522,7 @@ export default function EthiopianCoffeeTraceabilityGuide({ title, date, large_im
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Export PLC. This guide draws on data from the International Coffee Organization (ICO), the Ethiopian Coffee and Tea Authority (ECTA), the EU Regulation 2023/1115 (EUDR), MDPI research on digital traceability in Ethiopian coffee supply chains, and our direct experience building traceable supply chains for international specialty buyers. Traceability capabilities and costs evolve rapidly; contact us for current information.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This guide draws on data from the International Coffee Organization (ICO), the Ethiopian Coffee and Tea Authority (ECTA), the EU Regulation 2023/1115 (EUDR), MDPI research on digital traceability in Ethiopian coffee supply chains, and our direct experience building traceable supply chains for international specialty buyers. Traceability capabilities and costs evolve rapidly; contact us for current information.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

@@ -252,7 +252,7 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
             If you want to emulate the success of these world-class shops, sourcing is the first step. You cannot roast a bad bean into a good one.
         </p>
         <p className='text-sm'>
-            At <span className='font-bold'>Ethio Coffee Export PLC</span>, we supply the same high-grade, ECX-certified green beans that fuel the top tier of the specialty market.
+            At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we supply the same high-grade, ECX-certified green beans that fuel the top tier of the specialty market.
         </p>
       </div>
 
@@ -282,7 +282,7 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Elevate Your Coffee Program</h4>
         <p className='my-2'>
-          Ready to source green coffee that competes with the world&apos;s best? At <span className='font-bold'>Ethio Coffee Export PLC</span>, we specialize in exporting premium Ethiopian lots to the US, Europe, and Asia.
+          Ready to source green coffee that competes with the world&apos;s best? At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we specialize in exporting premium Ethiopian lots to the US, Europe, and Asia.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

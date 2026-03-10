@@ -442,7 +442,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         Working with Ethio Coffee Export: A Premium Ethiopian Exporter
       </h3>
       <p className='my-4'>
-        <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:text-amber-900 underline font-bold'>Ethio Coffee Export PLC</Link> embodies every characteristic of a premium coffee exporter. As a family-owned, specialty-focused Ethiopian export company, we deliver:
+        <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:text-amber-900 underline font-bold'>Ethio Coffee Import and Export PLC</Link> embodies every characteristic of a premium coffee exporter. As a family-owned, specialty-focused Ethiopian export company, we deliver:
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
@@ -514,7 +514,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Partner with a Top Ethiopian Coffee Exporter</h4>
         <p className='my-2'>
-          Ready to experience the difference? <span className='font-bold'>Ethio Coffee Export PLC</span> combines deep agricultural knowledge, meticulous quality control, and modern logistics to deliver beans that roasters and consumers celebrate.
+          Ready to experience the difference? <span className='font-bold'>Ethio Coffee Import and Export PLC</span> combines deep agricultural knowledge, meticulous quality control, and modern logistics to deliver beans that roasters and consumers celebrate.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

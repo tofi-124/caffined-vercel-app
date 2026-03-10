@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter',
   },
   openGraph: {
-    title: 'Ethiopian Coffee Exporter | Ethio Coffee Export PLC: Specialty & Commercial Green Coffee',
+    title: 'Ethiopian Coffee Exporter | Ethio Coffee Import and Export PLC: Specialty & Commercial Green Coffee',
     description: 'Family-owned Ethiopian coffee exporter with 30+ years legacy. We export SCA 80+ specialty green coffee from Ethiopia to importers & roasters worldwide. Yirgacheffe, Sidamo, Guji & more.',
     url: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter',
     type: 'website',
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
         url: '/images/ethiopian-coffee-export.webp',
         width: 1200,
         height: 630,
-        alt: 'Ethiopian coffee exporter - Ethio Coffee Export PLC premium green coffee beans ready for export',
+        alt: 'Ethiopian coffee exporter - Ethio Coffee Import and Export PLC premium green coffee beans ready for export',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethiopian Coffee Exporter | Ethio Coffee Export PLC',
+    title: 'Ethiopian Coffee Exporter | Ethio Coffee Import and Export PLC',
     description: 'Family-owned Ethiopian coffee exporter shipping SCA 80+ specialty green coffee to 40+ countries worldwide. Order samples today.',
     images: ['/images/ethiopian-coffee-export.webp'],
   },
@@ -38,7 +38,7 @@ export default function EthiopianCoffeeExporterLayout({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Ethio Coffee Export PLC",
+    "name": "Ethio Coffee Import and Export PLC",
     "alternateName": ["Ethio Coffee", "Ethiopian Coffee Exporter"],
     "description": "Family-owned Ethiopian coffee exporter with 30+ years of heritage. We export specialty-grade (SCA 80+) and commercial green coffee from Ethiopia to roasters, importers, and distributors in 40+ countries worldwide.",
     "url": "https://www.ethiocoffee.co",
@@ -95,7 +95,7 @@ export default function EthiopianCoffeeExporterLayout({
     "url": "https://www.ethiocoffee.co/ethiopian-coffee-exporter",
     "provider": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC",
+      "name": "Ethio Coffee Import and Export PLC",
       "url": "https://www.ethiocoffee.co"
     },
     "serviceType": "Coffee Export",
@@ -123,7 +123,7 @@ export default function EthiopianCoffeeExporterLayout({
               "lowPrice": "4.00",
               "highPrice": "8.00",
               "availability": "https://schema.org/InStock",
-              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC"}
             }
           }
         },
@@ -143,7 +143,7 @@ export default function EthiopianCoffeeExporterLayout({
               "lowPrice": "3.50",
               "highPrice": "7.00",
               "availability": "https://schema.org/InStock",
-              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC"}
             }
           }
         },
@@ -163,7 +163,7 @@ export default function EthiopianCoffeeExporterLayout({
               "lowPrice": "4.00",
               "highPrice": "9.00",
               "availability": "https://schema.org/InStock",
-              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC"}
             }
           }
         },
@@ -183,7 +183,7 @@ export default function EthiopianCoffeeExporterLayout({
               "lowPrice": "3.00",
               "highPrice": "6.00",
               "availability": "https://schema.org/InStock",
-              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC"}
             }
           }
         },
@@ -203,7 +203,7 @@ export default function EthiopianCoffeeExporterLayout({
               "lowPrice": "3.00",
               "highPrice": "5.50",
               "availability": "https://schema.org/InStock",
-              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC"}
+              "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC"}
             }
           }
         }
@@ -221,7 +221,7 @@ export default function EthiopianCoffeeExporterLayout({
         "name": "How do I find a reliable Ethiopian coffee exporter?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, offers pre-shipment samples for purchase, provides transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience."
+          "text": "Look for an Ethiopian coffee exporter that is licensed by the Ethiopian Coffee and Tea Authority (ECTA), has a physical presence at origin, offers pre-shipment samples for purchase, provides transparent pricing, and can demonstrate a track record with international buyers. Ethio Coffee Import and Export PLC meets all these criteria. We are a family-owned, licensed exporter with 30+ years of coffee industry experience."
         }
       },
       {
@@ -318,7 +318,7 @@ export default function EthiopianCoffeeExporterLayout({
           "lowPrice": "4.00",
           "highPrice": "8.00",
           "availability": "https://schema.org/InStock",
-          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC", "url": "https://www.ethiocoffee.co"}
         }
       },
       {
@@ -336,7 +336,7 @@ export default function EthiopianCoffeeExporterLayout({
           "lowPrice": "3.50",
           "highPrice": "7.00",
           "availability": "https://schema.org/InStock",
-          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC", "url": "https://www.ethiocoffee.co"}
         }
       },
       {
@@ -354,7 +354,7 @@ export default function EthiopianCoffeeExporterLayout({
           "lowPrice": "4.00",
           "highPrice": "9.00",
           "availability": "https://schema.org/InStock",
-          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC", "url": "https://www.ethiocoffee.co"}
         }
       },
       {
@@ -372,7 +372,7 @@ export default function EthiopianCoffeeExporterLayout({
           "lowPrice": "3.00",
           "highPrice": "6.00",
           "availability": "https://schema.org/InStock",
-          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC", "url": "https://www.ethiocoffee.co"}
         }
       },
       {
@@ -390,7 +390,7 @@ export default function EthiopianCoffeeExporterLayout({
           "lowPrice": "3.00",
           "highPrice": "5.50",
           "availability": "https://schema.org/InStock",
-          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Export PLC", "url": "https://www.ethiocoffee.co"}
+          "offeredBy": {"@type": "Organization", "name": "Ethio Coffee Import and Export PLC", "url": "https://www.ethiocoffee.co"}
         }
       }
     ]
@@ -400,12 +400,12 @@ export default function EthiopianCoffeeExporterLayout({
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Ethiopian Coffee Exporter | Ethio Coffee Export PLC",
-    "description": "Ethio Coffee Export PLC is a trusted, family-owned Ethiopian coffee exporter shipping specialty and commercial green coffee to 40+ countries worldwide.",
+    "name": "Ethiopian Coffee Exporter | Ethio Coffee Import and Export PLC",
+    "description": "Ethio Coffee Import and Export PLC is a trusted, family-owned Ethiopian coffee exporter shipping specialty and commercial green coffee to 40+ countries worldwide.",
     "url": "https://www.ethiocoffee.co/ethiopian-coffee-exporter",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Ethio Coffee Export PLC"
+      "name": "Ethio Coffee Import and Export PLC"
     },
     "breadcrumb": {
       "@type": "BreadcrumbList",
