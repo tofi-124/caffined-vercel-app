@@ -312,7 +312,7 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
               <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
-              <li>• <Link href='/insights/birthplace-of-coffee-ethiopia' className='text-amber-700 hover:underline'>The Birthplace of Coffee: Ethiopia</Link></li>
+              <li>• <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
             </ul>
           </div>
         </div>

@@ -49,7 +49,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
 
           <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: What the 2025 Season Means for Importers</h2>
           <p className='my-4'>
-            Every year, the Ethiopian coffee harvest represents one of the most anticipated events in specialty coffee. As the <Link href='/insights/birthplace-of-coffee-ethiopia' className='underline'>birthplace of Arabica coffee</Link>, Ethiopia produces some of the world&apos;s most distinctive and sought-after green beans from the floral elegance of Yirgacheffe to the explosive fruit character of Guji naturals.
+            Every year, the Ethiopian coffee harvest represents one of the most anticipated events in specialty coffee. As the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='underline'>birthplace of Arabica coffee</Link>, Ethiopia produces some of the world&apos;s most distinctive and sought-after green beans from the floral elegance of Yirgacheffe to the explosive fruit character of Guji naturals.
           </p>
           <p className='my-4'>
             For importers, roasters, and green coffee buyers worldwide, understanding the Ethiopian harvest cycle is essential for strategic sourcing. This comprehensive 2025 harvest report covers regional outlooks, quality expectations, pricing dynamics, and a practical timeline to help you plan your Ethiopian coffee purchases with confidence.

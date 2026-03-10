@@ -36,8 +36,8 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./eu-deforestation-regulation-ethiopian-coffee-compliance').then(mod => mod.default),
   'afca-taste-of-harvest-ethiopian-coffee-competition': () => 
     import('./afca-taste-of-harvest-ethiopian-coffee-competition').then(mod => mod.default),
-  'ethiopia-birthplace-of-coffee': () =>
-    import('./ethiopia-birthplace-of-coffee').then(mod => mod.default),
+  'ethiopia-coffee-origin-birthplace': () =>
+    import('./ethiopia-coffee-origin-birthplace').then(mod => mod.default),
   'ethiopian-dry-coffee-production-quality-control': () => 
     import('./ethiopian-dry-coffee-production-quality-control').then(mod => mod.default),
   'sidama-coffee-production-productivity-export': () => 
@@ -72,8 +72,7 @@ export const insightContentMap: Record<string, () => Promise<any>> = {
     import('./ethiopian-coffee-pricing-fob-guide').then(mod => mod.default),
   'ethio-coffee-export-launch': () =>
     import('./ethio-coffee-export-launch').then(mod => mod.default),
-  'birthplace-of-coffee-ethiopia': () =>
-    import('./birthplace-of-coffee-ethiopia').then(mod => mod.default),
+
   'ethiopian-coffee-ceremony': () =>
     import('./ethiopian-coffee-ceremony').then(mod => mod.default),
   'direct-trade-ethiopian-farmers': () =>

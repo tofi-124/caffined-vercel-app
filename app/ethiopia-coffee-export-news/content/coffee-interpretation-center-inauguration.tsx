@@ -55,7 +55,7 @@ export default function CoffeeInterpretationCenterInauguration({ title, date, so
       <div className='mt-8 pt-6 border-t border-gray-200'>
         <p className='text-sm font-bold text-dark mb-3'>Related Reading:</p>
         <ul className='space-y-2 text-sm'>
-          <li><Link href='/insights/ethiopia-birthplace-of-coffee' className='text-blue-600 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
+          <li><Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-blue-600 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
           <li><Link href='/insights/women-in-ethiopian-coffee-industry' className='text-blue-600 hover:underline'>Women in Ethiopian Coffee: Farm to Export</Link></li>
           <li><Link href='/insights/ethiopian-coffee-ceremony' className='text-blue-600 hover:underline'>Ethiopian Coffee Ceremony: Tradition, Steps &amp; Why It Matters</Link></li>
         </ul>

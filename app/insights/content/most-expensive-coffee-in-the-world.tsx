@@ -377,7 +377,7 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
       </h2>
 
       <p className='my-4'>
-        Ethiopia is the <Link href='/insights/birthplace-of-coffee-ethiopia' className='underline font-semibold'>birthplace of Arabica coffee</Link>. Wild coffee has grown in its highland forests for thousands of years. Every Arabica coffee plant on earth, from Colombian Caturra to Kenyan SL28 to Panamanian Gesha, descends from genetic material that originated in Ethiopian forests.
+        Ethiopia is the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='underline font-semibold'>birthplace of Arabica coffee</Link>. Wild coffee has grown in its highland forests for thousands of years. Every Arabica coffee plant on earth, from Colombian Caturra to Kenyan SL28 to Panamanian Gesha, descends from genetic material that originated in Ethiopian forests.
       </p>
 
       <p className='my-4'>

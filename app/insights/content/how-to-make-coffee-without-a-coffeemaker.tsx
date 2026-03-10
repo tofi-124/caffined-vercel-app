@@ -463,7 +463,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
             <h4 className='font-semibold mb-2 text-sm'>Culture &amp; History</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
-              <li>&bull; <Link href='/insights/ethiopia-birthplace-of-coffee' className='text-amber-700 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
+              <li>&bull; <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
               <li>&bull; <Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline'>Complete Guide to Understanding Coffee</Link></li>
             </ul>
           </div>

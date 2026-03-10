@@ -40,7 +40,7 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
 
       <p className='my-4'>
         Climate change is no longer a distant forecast for the coffee industry. It is an unfolding reality that is already altering harvest cycles, shifting viable growing altitudes, and threatening the livelihoods of millions of smallholder farmers.
-        For Ethiopia, the <Link href='/insights/ethiopia-birthplace-of-coffee' className='underline font-bold'>birthplace of Arabica coffee</Link>, the stakes are uniquely high.
+        For Ethiopia, the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='underline font-bold'>birthplace of Arabica coffee</Link>, the stakes are uniquely high.
         The country&apos;s coffee sector accounts for roughly 30–35 percent of all export earnings and supports more than 15 million people across the value chain.
       </p>
 

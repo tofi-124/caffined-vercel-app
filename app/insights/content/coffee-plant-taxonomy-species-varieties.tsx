@@ -499,7 +499,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
         Ethiopia occupies a unique position within this belt. Its highland plateaus - ranging from 1,500 to 
         2,200 meters - create microclimates that may remain viable even as <Link href='/insights/ethiopian-coffee-climate-change-impact' className='underline'>lower-altitude regions become 
         unsuitable for quality Arabica production</Link>. The country&apos;s coffee-growing zones, from the lush 
-        forests of <Link href='/insights/birthplace-of-coffee-ethiopia' className='underline'>Kaffa (the birthplace of coffee)</Link> to 
+        forests of <Link href='/insights/ethiopia-coffee-origin-birthplace' className='underline'>Kaffa (the birthplace of coffee)</Link> to 
         the mineral-rich soils of Guji, represent not just current excellence but potential future refugia 
         for the species. Understanding <Link href='/insights/specialty-coffee-trends-2026' className='underline'>2026 specialty coffee trends</Link> means 
         recognizing Ethiopia&apos;s strategic importance in a climate-uncertain world.
@@ -647,7 +647,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
             <h4 className='font-semibold mb-2 text-sm'>Climate & Sustainability</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Ethiopian Coffee & Climate Change Impact</Link></li>
-              <li>• <Link href='/insights/birthplace-of-coffee-ethiopia' className='text-amber-700 hover:underline'>Birthplace of Coffee: Ethiopia</Link></li>
+              <li>• <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
             </ul>
           </div>
         </div>

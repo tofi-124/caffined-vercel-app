@@ -1305,7 +1305,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
         <h4 className='font-bold mb-2'>Coffee Culture & Heritage</h4>
         <ul className='space-y-1 text-sm grid md:grid-cols-2 gap-x-4'>
           <li>• <Link href="/insights/ethiopian-coffee-ceremony" className='text-blue-600 hover:underline'>Ethiopian Coffee Ceremonies: Tradition Meets Business</Link></li>
-          <li>• <Link href="/insights/birthplace-of-coffee-ethiopia" className='text-blue-600 hover:underline'>The Birthplace of Coffee: Ethiopia&apos;s Heritage</Link></li>
+          <li>• <Link href="/insights/ethiopia-coffee-origin-birthplace" className='text-blue-600 hover:underline'>Ethiopia: Birthplace of Coffee and Its Heritage</Link></li>
         </ul>
       </div>
 

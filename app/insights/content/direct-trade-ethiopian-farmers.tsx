@@ -207,7 +207,7 @@ export default function DirectTradeEthiopianFarmers({ title, date, large_image_u
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Ethiopian Coffee Culture</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/birthplace-of-coffee-ethiopia' className='text-amber-700 hover:underline'>The Birthplace of Coffee</Link></li>
+              <li>• <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
               <li>• <Link href='/insights/women-in-ethiopian-coffee-industry' className='text-amber-700 hover:underline'>Women in Ethiopian Coffee</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>

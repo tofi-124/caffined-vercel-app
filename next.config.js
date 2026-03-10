@@ -106,7 +106,18 @@ const nextConfig = {
       },
       {
         source: '/insights/1',
-        destination: '/insights/birthplace-of-coffee-ethiopia',
+        destination: '/insights/ethiopia-coffee-origin-birthplace',
+        permanent: true,
+      },
+      // Redirects for consolidated birthplace articles
+      {
+        source: '/insights/birthplace-of-coffee-ethiopia',
+        destination: '/insights/ethiopia-coffee-origin-birthplace',
+        permanent: true,
+      },
+      {
+        source: '/insights/ethiopia-birthplace-of-coffee',
+        destination: '/insights/ethiopia-coffee-origin-birthplace',
         permanent: true,
       },
       {

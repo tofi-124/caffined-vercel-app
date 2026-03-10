@@ -29,7 +29,7 @@ const readingTimeMap: Record<string, number> = {
   'complete-guide-to-understanding-coffee': 40,
   'eu-deforestation-regulation-ethiopian-coffee-compliance': 32,
   'afca-taste-of-harvest-ethiopian-coffee-competition': 30,
-  'ethiopia-birthplace-of-coffee': 12,
+  'ethiopia-coffee-origin-birthplace': 13,
   'ethiopian-dry-coffee-production-quality-control': 22,
   'sidama-coffee-production-productivity-export': 22,
   'ethiopia-china-coffee-trade-partnership': 24,
@@ -45,7 +45,7 @@ const readingTimeMap: Record<string, number> = {
   'selective-coffee-harvesting': 15,
   'ethio-coffee-export-launch': 14,
   'best-ethiopian-coffee-exporter-for-importers': 11,
-  'birthplace-of-coffee-ethiopia': 10,
+
   'ethiopian-coffee-ceremony': 11,
   'direct-trade-ethiopian-farmers': 12,
   'coffee-plant-taxonomy-species-varieties': 24,

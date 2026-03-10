@@ -83,7 +83,7 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
       </p>
 
       <p className='my-4'>
-        The difficulty stems from the beans themselves. Ethiopian coffees are grown at elevations between 1,400 and 2,300 meters, producing hard, dense cells packed with sugars and organic acids. They are smaller and less uniform in size than beans from most other origins. And because Ethiopia is the <Link href='/insights/ethiopia-birthplace-of-coffee' className='underline font-bold'>genetic birthplace of Arabica</Link>, the sheer variety of cultivars in a single lot introduces roasting variables that do not exist with commercially bred varieties like Caturra or Catuai.
+        The difficulty stems from the beans themselves. Ethiopian coffees are grown at elevations between 1,400 and 2,300 meters, producing hard, dense cells packed with sugars and organic acids. They are smaller and less uniform in size than beans from most other origins. And because Ethiopia is the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='underline font-bold'>genetic birthplace of Arabica</Link>, the sheer variety of cultivars in a single lot introduces roasting variables that do not exist with commercially bred varieties like Caturra or Catuai.
       </p>
 
       <p className='my-4'>

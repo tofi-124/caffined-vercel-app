@@ -1018,7 +1018,7 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           <h4 className='font-bold mb-2'>Processing & Innovation</h4>
           <ul className='space-y-1 text-sm'>
             <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
-            <li>• <Link href="/insights/ethiopia-birthplace-of-coffee" className='text-blue-600 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
+            <li>• <Link href="/insights/ethiopia-coffee-origin-birthplace" className='text-blue-600 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
             <li>• <Link href="/insights/coffee-is-processing-drying-milling" className='text-blue-600 hover:underline'>Coffee Is a Process: Complete Guide</Link></li>
             <li>• <Link href="/insights/specialty-coffee-trends-2026" className='text-blue-600 hover:underline'>5 Specialty Coffee Trends Defining 2026</Link></li>
             <li>• <Link href="/insights/complete-guide-to-understanding-coffee" className='text-blue-600 hover:underline'>Complete Guide to Understanding Coffee</Link></li>

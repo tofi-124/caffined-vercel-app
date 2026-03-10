@@ -58,7 +58,7 @@ export default function HararCoffeePage() {
               Grown in the highlands surrounding the ancient walled city of Harar in eastern Ethiopia (a
               <a href='https://whc.unesco.org/en/list/1189' target='_blank' rel='noopener noreferrer' className='underline hover:text-dark/60'>UNESCO World Heritage Site</a> and an important center of Islamic culture), Harar coffee has been
               traded for over <strong>500 years</strong>, making it one of the world&apos;s first exported coffees.
-              To learn more about the origins, read our guide on <Link href='/insights/ethiopia-birthplace-of-coffee' className='underline hover:text-dark/60'>Ethiopia as the birthplace of coffee</Link>.
+              To learn more about the origins, read our guide on <Link href='/insights/ethiopia-coffee-origin-birthplace' className='underline hover:text-dark/60'>Ethiopia as the birthplace of coffee</Link>.
             </p>
             <p>
               Unlike most other Ethiopian coffees, Harar is <strong>exclusively natural (dry) processed</strong>.

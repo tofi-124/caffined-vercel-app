@@ -840,35 +840,27 @@ export const posts: Post[] = [
     },
     // ===== COFFEE CULTURE & HERITAGE (Foundation) =====
     {
-      id: 2,
-      small_image_url: 'insights/cofee-blog-1-1.png',
-      large_image_url: 'insights/cofee-blog-1-2.png',
-      date: 'Jun 01, 2025',
-      title: 'THE BIRTHPLACE OF COFFEE: ETHIOPIA\'S RICH HERITAGE',
-      slug: 'birthplace-of-coffee-ethiopia',
-      category: 'Coffee Culture & Heritage',
-      keywords: ['Ethiopian coffee origin', 'Arabica coffee history', 'Kaffa region', 'coffee birthplace', 'Ethiopian highlands'],
-      desc: 'Discover the ancient origins of coffee in Ethiopia, where the Arabica coffee plant was first discovered over a thousand years ago in the lush forests of the southwestern highlands.'
-    },
-    {
-      small_image_url: 'insights/ethiopia-birthplace-of-coffee-1.webp',
-      large_image_url: 'insights/ethiopia-birthplace-of-coffee-2.webp',
-      date: 'Feb 08, 2026',
-      title: 'ETHIOPIA AS THE BIRTHPLACE OF COFFEE',
-      slug: 'ethiopia-birthplace-of-coffee',
-      category: 'Coffee Culture & Heritage',
+      small_image_url: 'insights/ethiopia-coffee-origin-birthplace.webp',
+      large_image_url: 'insights/ethiopia-coffee-origin-birthplace.webp',
+      date: 'Mar 10, 2026',
+      title: 'Ethiopia: Birthplace of Coffee and Its Heritage',
+      slug: 'ethiopia-coffee-origin-birthplace',
+      category: 'Coffee Culture & Heritage / Ethiopian Coffee Origin / Arabica History / B2B Sourcing Context',
       keywords: [
-        'birthplace of coffee',
-        'Coffea arabica origin',
-        'Kaffa',
+        'birthplace of coffee Ethiopia',
+        'Ethiopian coffee origin',
+        'Arabica coffee history',
+        'Kaffa coffee origin',
+        'Ethiopian coffee heritage',
         'Kaldi legend',
-        'Ethiopian coffee diversity',
+        'Ethiopian coffee ceremony',
+        'Ethiopian coffee genetic diversity',
         'Yirgacheffe',
         'Sidamo',
-        'Harrar',
-        'Guji'
+        'Guji',
+        'Harar'
       ],
-      desc: 'An overview of Ethiopia as the biological and cultural origin of Coffea arabica, its regional flavour diversity, cultural ceremonies, and economic importance.'
+      desc: 'Ethiopia is the biological origin of all Arabica coffee. Explore its genetic diversity, regional flavors, trade history, and coffee ceremony traditions.'
     },
     {
       id: 3,

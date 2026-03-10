@@ -64,7 +64,7 @@ export default function EthiopianCoffeeCeremony({ title, date, large_image_url }
         Origins in Ethiopia&apos;s Kaffa Region
       </h3>
       <p className='my-4'>
-        Ethiopia is the <Link href='/insights/birthplace-of-coffee-ethiopia' className='underline font-bold'>biological and cultural birthplace of Coffea arabica</Link>. The Kaffa region in the country&apos;s southwest is where wild coffee trees have grown for millennia, and where the legend of a goat herder named Kaldi, whose goats became energized after eating bright red coffee cherries, originated. While scholars debate the legend&apos;s accuracy, archaeological and botanical evidence consistently places coffee&apos;s origin in the forests of southwestern Ethiopia.
+        Ethiopia is the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='underline font-bold'>biological and cultural birthplace of Coffea arabica</Link>. The Kaffa region in the country&apos;s southwest is where wild coffee trees have grown for millennia, and where the legend of a goat herder named Kaldi, whose goats became energized after eating bright red coffee cherries, originated. While scholars debate the legend&apos;s accuracy, archaeological and botanical evidence consistently places coffee&apos;s origin in the forests of southwestern Ethiopia.
       </p>
 
       <p className='my-4'>
@@ -325,7 +325,7 @@ export default function EthiopianCoffeeCeremony({ title, date, large_image_url }
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Culture & Heritage</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/birthplace-of-coffee-ethiopia' className='text-amber-700 hover:underline'>Ethiopia: The Birthplace of Coffee</Link></li>
+              <li>• <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>Ethiopia: Birthplace of Coffee and Its Heritage</Link></li>
               <li>• <Link href='/insights/women-in-ethiopian-coffee-industry' className='text-amber-700 hover:underline'>Women in the Ethiopian Coffee Industry</Link></li>
               <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
               <li>• <Link href='/insights/how-to-make-coffee-without-a-coffeemaker' className='text-amber-700 hover:underline'>How to Make Coffee Without a Coffeemaker</Link></li>
