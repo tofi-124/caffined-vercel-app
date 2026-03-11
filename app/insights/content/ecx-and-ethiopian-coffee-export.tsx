@@ -141,7 +141,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
         The ECX Coffee Export Process: Step by Step
       </h3>
       <p className='my-4'>
-        For international buyers, understanding how coffee moves through the ECX helps clarify timelines and documentation requirements.
+        For international buyers, understanding how coffee moves through the ECX — and through the <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline font-semibold'>broader coffee export and import system</Link> — helps clarify timelines and documentation requirements.
       </p>
 
       <ol className='my-6 space-y-4 list-decimal ml-5 font-medium'>

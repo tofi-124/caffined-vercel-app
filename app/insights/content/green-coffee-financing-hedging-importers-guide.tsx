@@ -87,7 +87,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
         Most green coffee importers accept this exposure by default, treating price risk as the cost of doing business. The importers who grow into durable, scalable operations do the opposite: they map their exposures, choose the right instrument to manage each one, and build cost certainty into their pricing model before committing to a purchase.
       </p>
       <p className='my-4'>
-        This guide covers every layer of that process, from understanding how the ICE futures market connects to the Ethiopian Commodity Exchange to the practical mechanics of a call option, pre-export warehouse receipt finance, and forward FX contracts.
+        This guide covers every layer of that process, from understanding <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline font-semibold'>how the ICE futures market connects to the Ethiopian Commodity Exchange</Link> to the practical mechanics of a call option, pre-export warehouse receipt finance, and forward FX contracts.
       </p>
 
       {/* SECTION 1 */}

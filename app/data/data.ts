@@ -1005,16 +1005,19 @@ export const posts: Post[] = [
         'coffee exporting',
         'coffee importing',
         'C market',
-        'specialty coffee',
+        'specialty coffee pricing',
         'green coffee buying',
         'coffee transparency',
         'coffee supply chain',
-        'coffee pricing',
-        'direct trade coffee',
-        'coffee logistics',
-        'Ethiopian coffee trade'
+        'coffee pricing waterfall',
+        'Incoterms coffee',
+        'coffee hedging',
+        'Ethiopian coffee trade',
+        'EUDR coffee compliance',
+        'FOB coffee pricing',
+        'coffee futures'
       ],
-      desc: 'Navigate the global coffee market: understand the C market vs specialty coffee, exporting and importing logistics, green coffee buying strategies, and the importance of transparency in ethical coffee commerce.'
+      desc: 'How coffee is priced, traded, exported, and imported globally. Covers the C market, specialty differentials, Incoterms, the pricing waterfall from cherry to cup, risk management, EUDR compliance, and the green coffee buying process for importers and roasters.'
     },
     {
       small_image_url: 'insights/coffee-science.webp',

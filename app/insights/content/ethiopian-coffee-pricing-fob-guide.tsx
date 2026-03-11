@@ -41,7 +41,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       </div>
 
       <p className='my-4'>
-        If you are an importer, roaster, or green coffee buyer considering Ethiopian coffee for the first time, pricing can feel opaque. Unlike many origins where a single FOB quote tells the whole story, Ethiopian coffee pricing reflects an interconnected system: the New York C-market benchmark, local ECX auction dynamics, quality-based differentials, and logistics costs from warehouse to port.
+        If you are an importer, roaster, or green coffee buyer considering Ethiopian coffee for the first time, pricing can feel opaque. Unlike many origins where a single FOB quote tells the whole story, Ethiopian coffee pricing reflects an <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline font-semibold'>interconnected commerce system</Link>: the New York C-market benchmark, local ECX auction dynamics, quality-based differentials, and logistics costs from warehouse to port.
       </p>
 
       <p className='my-4'>
