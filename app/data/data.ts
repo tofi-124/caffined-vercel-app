@@ -876,7 +876,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/cofee-blog-7-1.png',
       large_image_url: 'insights/cofee-blog-7-2.jpg',
-      date: 'Mar 11, 2026',
+      date: 'Jul 01, 2025',
       title: 'Direct Trade Ethiopian Coffee: How It Works for Importers',
       slug: 'direct-trade-ethiopian-farmers',
       category: 'Trade & Sourcing',
@@ -919,7 +919,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/coffee-plant-taxonomy.webp',
       large_image_url: 'insights/coffee-plant-taxonomy.webp',
-      date: 'Mar 11, 2026',
+      date: 'Jul 15, 2025',
       title: 'Coffee as a Plant: Taxonomy & Varieties',
       slug: 'coffee-plant-taxonomy-species-varieties',
       category: 'Coffee Education',
@@ -945,7 +945,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/coffee-agriculture.webp',
       large_image_url: 'insights/coffee-agriculture.webp',
-      date: 'Mar 11, 2026',
+      date: 'Aug 01, 2025',
       title: 'Ethiopian Coffee Agriculture: How Farming Shapes Green Coffee Quality',
       slug: 'coffee-is-agriculture-production-farming',
       category: 'Coffee Education',
@@ -969,7 +969,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/coffee-processing.webp',
       large_image_url: 'insights/coffee-processing.webp',
-      date: 'Mar 11, 2026',
+      date: 'Aug 15, 2025',
       title: 'Coffee Processing, Drying, and Milling',
       slug: 'coffee-is-processing-drying-milling',
       category: 'Coffee Education',
