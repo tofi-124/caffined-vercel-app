@@ -876,12 +876,12 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/cofee-blog-7-1.png',
       large_image_url: 'insights/cofee-blog-7-2.jpg',
-      date: 'Jul 01, 2025',
-      title: 'Direct Trade: Supporting Ethiopian Farmers',
+      date: 'Mar 11, 2026',
+      title: 'Direct Trade Ethiopian Coffee: How It Works for Importers',
       slug: 'direct-trade-ethiopian-farmers',
-      category: 'Coffee Culture & Heritage',
-      keywords: ['direct trade coffee', 'Ethiopian farmers', 'fair trade', 'coffee sourcing', 'farmer partnerships'],
-      desc: 'Our direct relationships with Ethiopian coffee farmers ensure fair compensation while delivering exceptional quality beans to businesses worldwide.'
+      category: 'Trade & Sourcing',
+      keywords: ['direct trade Ethiopian coffee', 'direct trade coffee Ethiopia', 'Ethiopian coffee direct trade', 'direct trade green coffee', 'Ethiopia coffee sourcing', 'buy direct trade Ethiopian coffee', 'direct trade vs fair trade Ethiopian coffee', 'how does direct trade work in Ethiopia', 'verify direct trade coffee claims', 'ECX vertical integration Ethiopian coffee', 'Ethiopian coffee exporter direct trade', 'direct sourcing Ethiopian specialty coffee'],
+      desc: 'How direct trade works in Ethiopia\'s export system. A guide for importers and roasters on sourcing, pricing, verification, and the ECX reforms that enable traceable, direct Ethiopian coffee exports.'
     },
     {
       small_image_url: 'insights/coffee-logistics-freight.webp',

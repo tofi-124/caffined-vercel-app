@@ -804,7 +804,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
           The Direct Trade Caveat
         </p>
         <p className='text-sm'>
-          Because "direct trade" has no official definition or verification, it can be misused. Some buyers use the term loosely for any coffee purchased "directly" from an exporter, even if the exporter is a large commercial trader. <span className='font-bold'>True direct trade requires transparency</span>. Credible direct trade roasters publish their pricing, share farmer stories, and can document their supply chain.
+          Because "direct trade" has no official definition or verification, it can be misused. Some buyers use the term loosely for any coffee purchased "directly" from an exporter, even if the exporter is a large commercial trader. <span className='font-bold'>True direct trade requires transparency</span>. Credible direct trade roasters publish their pricing, share farmer stories, and can document their supply chain. For an in-depth look at how direct trade operates within Ethiopia&apos;s unique ECX and vertical integration framework, see our guide to <Link href='/insights/direct-trade-ethiopian-farmers' className='underline font-bold'>direct trade Ethiopian coffee for importers</Link>.
         </p>
       </div>
 

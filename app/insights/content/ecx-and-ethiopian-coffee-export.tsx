@@ -197,7 +197,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       </ul>
 
       <p className='my-4'>
-        Understanding how ECX traceability compares to direct specialty channels is essential for importers building transparent sourcing programs. Our <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-blue-600 underline font-bold'>Ethiopian coffee traceability guide</Link> covers five traceability levels, required documentation at each tier, digital tools, and a practical verification framework for buyers.
+        Understanding how ECX traceability compares to direct specialty channels is essential for importers building transparent sourcing programs. Our <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-blue-600 underline font-bold'>Ethiopian coffee traceability guide</Link> covers five traceability levels, required documentation at each tier, digital tools, and a practical verification framework for buyers. For a deeper look at how <Link href='/insights/direct-trade-ethiopian-farmers' className='underline font-bold'>direct trade works in Ethiopia&apos;s export system</Link> — including vertical integration pathways and a buyer verification checklist — see our dedicated guide.
       </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
