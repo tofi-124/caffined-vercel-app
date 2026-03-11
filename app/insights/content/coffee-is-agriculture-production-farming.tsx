@@ -72,7 +72,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
             Coffee agriculture is:
           </p>
           <ul className='list-disc ml-5 my-4'>
-            <li><strong>A science:</strong> soil chemistry, plant biology, pest management, and climate interaction</li>
+            <li><strong>A science:</strong> soil chemistry, <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>plant biology</Link>, pest management, and climate interaction</li>
             <li><strong>An art:</strong> intuition, generational knowledge, and reading the land</li>
             <li><strong>A business:</strong> production, processing, and global trade</li>
           </ul>

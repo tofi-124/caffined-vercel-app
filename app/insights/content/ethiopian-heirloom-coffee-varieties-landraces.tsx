@@ -241,7 +241,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
       <div className='space-y-4 my-6'>
         <div className='border-l-4 border-green-500 pl-4'>
           <h5 className='font-bold'>Ethiopian Origin (500,000+ years ago)</h5>
-          <p className='text-sm'>Arabica coffee evolved in the highlands of southwestern Ethiopia through natural cross-pollination between Coffea canephora (Robusta) and Coffea eugenioides. Thousands of distinct populations developed across Ethiopian forests.</p>
+          <p className='text-sm'><Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline font-bold'>Arabica coffee</Link> evolved in the highlands of southwestern Ethiopia through natural cross-pollination between Coffea canephora (Robusta) and Coffea eugenioides. Thousands of distinct populations developed across Ethiopian forests.</p>
         </div>
 
         <div className='border-l-4 border-amber-500 pl-4'>
