@@ -151,7 +151,7 @@ export default function EthiopianCoffeeWashingStationsBuyersGuide({ title, date,
       </h2>
 
       <p className='my-4'>
-        The wet processing sequence at an Ethiopian washing station follows a consistent pattern, though execution quality varies significantly between stations. Understanding each step helps importers ask the right questions when evaluating a supplier&apos;s sourcing.
+        The wet processing sequence at an Ethiopian washing station follows a consistent pattern, though execution quality varies significantly between stations. Understanding each step helps importers ask the right questions when evaluating a supplier&apos;s sourcing. For an overview of the entire chain from cherry to export-ready green coffee, including drying and dry milling, see our <Link href='/insights/coffee-is-processing-drying-milling' className='underline font-bold'>complete guide to coffee processing, drying, and milling</Link>.
       </p>
 
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Cherry Intake and Float Sorting</h3>

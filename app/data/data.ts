@@ -969,7 +969,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/coffee-processing.webp',
       large_image_url: 'insights/coffee-processing.webp',
-      date: 'Aug 15, 2025',
+      date: 'Mar 11, 2026',
       title: 'Coffee Processing, Drying, and Milling',
       slug: 'coffee-is-processing-drying-milling',
       category: 'Coffee Education',
@@ -977,17 +977,21 @@ export const posts: Post[] = [
         'coffee processing',
         'coffee drying',
         'coffee milling',
-        'washed coffee',
-        'natural coffee',
-        'honey process',
+        'washed coffee processing',
+        'natural coffee processing',
+        'honey process coffee',
         'fermentation in coffee',
         'Ethiopian coffee processing',
         'specialty coffee processing',
         'coffee fermentation',
-        'coffee parchment',
-        'green bean processing'
+        'coffee cherry anatomy',
+        'green bean processing',
+        'raised bed drying',
+        'coffee grading Ethiopia',
+        'washed vs natural coffee',
+        'anaerobic coffee processing'
       ],
-      desc: 'Explore the transformative steps of coffee processing: from post-harvest methods like washed, honey, and natural processing to drying techniques, fermentation, and milling that prepare green beans for export and roasting.'
+      desc: 'How washed, honey, and natural processing shape Ethiopian green coffee quality. A buyer\u2019s guide to fermentation, drying methods, milling, and what processing data means for importers and roasters.'
     },
     {
       small_image_url: 'insights/coffee-commerce.webp',

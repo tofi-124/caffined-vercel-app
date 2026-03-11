@@ -47,7 +47,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
       </p>
 
       <p className='my-4'>
-        Understanding these differences helps you make better sourcing decisions, adjust your roasting approach, and set accurate customer expectations.
+        Understanding these differences helps you make better sourcing decisions, adjust your roasting approach, and set accurate customer expectations. For a broader look at every stage from cherry intake to export-ready green bean, see our <Link href='/insights/coffee-is-processing-drying-milling' className='underline font-bold'>complete guide to coffee processing, drying, and milling</Link>.
       </p>
 
       <h3 className='text-2xl font-extrabold mt-8'>
