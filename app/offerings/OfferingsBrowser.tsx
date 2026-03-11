@@ -177,8 +177,8 @@ const OfferingsBrowser = () => {
           )}
         </div>
 
-        {/* Mobile action buttons - floating bottom right */}
-        <div className='lg:hidden fixed bottom-6 right-6 z-40 flex flex-col gap-3'>
+        {/* Mobile action buttons - floating bottom right, above the contact FAB */}
+        <div className='lg:hidden fixed bottom-24 right-6 z-40 flex flex-col gap-3'>
           <button
             onClick={() => setIsFilterOpen(true)}
             className='flex items-center justify-center w-14 h-14 bg-dark hover:bg-accent text-primary rounded-full shadow-lg hover:shadow-xl transition-all'
