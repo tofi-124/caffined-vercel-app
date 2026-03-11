@@ -59,7 +59,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
       <ul className='font-inconsolata my-4 list-disc ml-5'>
         <li className='my-2'><span className='font-bold'>Unmatched Genetic Diversity:</span> Ethiopia is home to thousands of heirloom Arabica varieties found nowhere else, producing flavor profiles impossible to replicate.</li>
         <li className='my-2'><span className='font-bold'>Distinctive Flavor Profiles:</span> From the jasmine-floral notes of Yirgacheffe to the berry-forward Sidamo and the winey Harar, Ethiopian coffees offer outstanding variety.</li>
-        <li className='my-2'><span className='font-bold'>High-Altitude Growing:</span> Most Ethiopian coffee grows between 1,500–2,300 meters, where cherries ripen slowly and develop complex sugars and acids.</li>
+        <li className='my-2'><span className='font-bold'>High-Altitude Growing:</span> Most Ethiopian coffee grows between 1,500–2,300 meters, where cherries ripen slowly and develop complex sugars and acids. Learn more about <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline font-bold'>coffee farming and agricultural practices</Link> that make this possible.</li>
         <li className='my-2'><span className='font-bold'>Customer Demand:</span> Specialty coffee consumers actively seek Ethiopian origins for their unique cup experience.</li>
       </ul>
 

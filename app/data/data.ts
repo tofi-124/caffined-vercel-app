@@ -945,26 +945,26 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/coffee-agriculture.webp',
       large_image_url: 'insights/coffee-agriculture.webp',
-      date: 'Aug 01, 2025',
-      title: 'Coffee Agriculture: Production & Farming',
+      date: 'Mar 11, 2026',
+      title: 'Ethiopian Coffee Agriculture: How Farming Shapes Green Coffee Quality',
       slug: 'coffee-is-agriculture-production-farming',
       category: 'Coffee Education',
       keywords: [
-        'coffee agriculture',
-        'coffee production',
-        'coffee farming',
-        'specialty coffee production',
-        'coffee plant lifecycle',
-        'Ethiopian coffee farming',
-        'shade grown coffee',
-        'coffee ecosystem',
-        'climate change coffee',
-        'coffee harvesting',
-        'coffee soil science',
-        'polyculture coffee',
-        'monoculture coffee'
+        'Ethiopian coffee farming systems',
+        'Ethiopian coffee agriculture',
+        'coffee farming systems Ethiopia',
+        'shade grown Ethiopian coffee',
+        'Ethiopian coffee terroir',
+        'coffee altitude quality',
+        'forest coffee Ethiopia',
+        'garden coffee Ethiopia',
+        'Ethiopian coffee production',
+        'coffee soil types Ethiopia',
+        'smallholder coffee farming',
+        'Ethiopian green coffee quality',
+        'coffee plant lifecycle'
       ],
-      desc: 'Dive deep into coffee as agriculture: from soil science and plant biology to harvesting techniques, farming systems, and the environmental challenges facing coffee production worldwide.'
+      desc: 'How Ethiopia\'s four farming systems, volcanic soils, shade canopy, and altitude bands shape green coffee quality. A buyer\'s guide to Ethiopian coffee agriculture with production data, terroir analysis, and sourcing strategy.'
     },
     {
       small_image_url: 'insights/coffee-processing.webp',
