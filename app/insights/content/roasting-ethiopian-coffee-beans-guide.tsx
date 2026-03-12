@@ -451,7 +451,7 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
       </p>
 
       <p className='my-4'>
-        Single-origin Ethiopian espresso has become a signature offering for specialty cafes worldwide. Natural Guji and Sidamo lots, roasted to a medium level with strong development, produce espresso with blueberry and chocolate notes that stand well on their own or pair with milk. Washed Yirgacheffe espresso is more polarizing: it can produce stunning floral shots, but the narrow roast window for success (within 15-20 seconds of the ideal drop point) makes consistency a challenge for high-volume operations.
+        Single-origin Ethiopian espresso has become a signature offering for <Link href='/insights/top-10-specialty-coffee-shops-world' className='text-amber-700 hover:underline'>specialty cafes worldwide</Link>. Natural Guji and Sidamo lots, roasted to a medium level with strong development, produce espresso with blueberry and chocolate notes that stand well on their own or pair with milk. Washed Yirgacheffe espresso is more polarizing: it can produce stunning floral shots, but the narrow roast window for success (within 15-20 seconds of the ideal drop point) makes consistency a challenge for high-volume operations.
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-3'>Omni Roast</h4>

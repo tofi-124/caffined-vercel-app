@@ -126,7 +126,7 @@ export default function SpecialtyCoffeeTrends2026({ title, date, large_image_url
 
       <p className='my-4'>
         Ready to future-proof your coffee menu? Whether you need a classic Guji for your espresso blend or an experimental microlot to dazzle your customers,
-        Ethio Coffee is your direct link to the source.
+        Ethio Coffee is your direct link to the source. See how the <Link href='/insights/top-10-specialty-coffee-shops-world' className='text-amber-700 hover:underline'>world&apos;s top specialty coffee shops</Link> are applying these trends to their sourcing.
       </p>
 
       {/* FAQ SECTION */}

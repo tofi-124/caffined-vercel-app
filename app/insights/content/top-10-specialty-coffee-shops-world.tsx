@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { 
-  HiOutlineGlobeAlt, 
-  HiOutlineStar, 
-  HiOutlineLightBulb, 
-  HiOutlineCheckCircle, 
-  HiOutlineFire, 
-  HiOutlineSparkles 
+import {
+  HiOutlineGlobeAlt,
+  HiOutlineStar,
+  HiOutlineLightBulb,
+  HiOutlineCheckCircle,
+  HiOutlineSparkles,
+  HiOutlineBeaker,
+  HiOutlineTrophy
 } from 'react-icons/hi2'
 
 type InsightContentProps = {
@@ -22,18 +23,17 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        A curated list of the world&apos;s most influential specialty coffee shops, from Oslo to Tokyo, defining the standards of roasting and service.
+        What the world&apos;s top 10 specialty coffee shops reveal about sourcing standards, roasting philosophy, and the global demand for Ethiopian origins.
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Exploring the pinnacle of global coffee culture and roasting innovation.
+          Inside the shops setting global benchmarks for specialty coffee sourcing and service.
         </figcaption>
-
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='Top specialty coffee shops world map and espresso'
+            alt='Best specialty coffee shops in the world featuring Ethiopian single-origin espresso'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -45,274 +45,354 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2'>Key Takeaway</p>
         <p>
-          The world&apos;s top specialty coffee shops share one defining trait: a devotion to traceability and direct relationships with producers. From Oslo&apos;s Nordic roast style to Tokyo&apos;s omakase coffee service, these shops set global benchmarks for sourcing, roasting innovation, and the customer experience.
+          The best specialty coffee shops in the world share a defining trait: relentless sourcing standards. From Oslo to Melbourne, the shops on this list score 86+ on the SCA scale, maintain direct origin relationships, and feature Ethiopian single-origin coffees as menu anchors. For green coffee buyers, these shops signal where demand is heading and which origins command premium shelf space.
         </p>
       </div>
 
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
-        <span className='ml-2'>Global Insights / Coffee Culture / Retail Trends</span>
+        <span className='ml-2'>Global Insights / Specialty Coffee / Sourcing Intelligence / Coffee Culture</span>
       </div>
-      
+
       <p className='my-4'>
-        The world of specialty coffee has evolved from a niche hobby into a global culinary movement. Today&apos;s leading coffee shops are not just places to get caffeine; they are laboratories of flavor, champions of ethical sourcing, and temples of design.
+        Specialty coffee has moved from niche curiosity to a global market worth over $50 billion annually. The best specialty coffee shops in the world are not destinations for casual caffeine. They are sourcing laboratories, flavor benchmarks, and the frontline of green coffee demand. Each one publishes origin data, cupping scores, and lot-level traceability that importers and roasters study closely.
       </p>
 
       <p className='my-4'>
-        For coffee professionals and importers, studying these industry leaders offers critical insight into where the market is heading. Whether it&apos;s the "Nordic Roast" style of Oslo or the omakase service of Tokyo, these 10 shops define what is possible with the humble coffee bean.
+        For coffee professionals, this list offers more than travel recommendations. It maps the sourcing preferences, processing choices, and pricing signals that define the upper tier of the specialty market in 2026. Nearly every shop below features <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Ethiopian origins</Link> as essential menu components.
       </p>
 
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Insight:</span> The common thread among all top-tier shops is a devotion to <span className='font-bold'>traceability</span>. They build direct relationships with producers (often in Ethiopia) to secure unique micro-lots that no one else has.</span>
-        </p>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        Criteria for "World-Class"
+      <h3 className='text-2xl font-extrabold mt-8 flex items-center gap-3'>
+        <HiOutlineTrophy className='w-8 h-8 text-amber-600' />
+        What Makes a Specialty Coffee Shop World Class
       </h3>
-      <p className='my-4'>
-        To make this list, a shop must excel in three areas:
-      </p>
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Sourcing:</span> A commitment to high-scoring (88+ points) green coffee.</li>
-        <li><span className='font-bold'>Roasting:</span> A distinct philosophy that highlights terroir over roast flavor.</li>
-        <li><span className='font-bold'>Innovation:</span> Pushing the boundaries of brewing, service, or sustainability.</li>
-      </ul>
 
-      <hr className="my-8 border-gray-200" />
+      <p className='my-4'>
+        Ranking coffee shops requires clear criteria. The World&apos;s 100 Best Coffee Shops survey, which evaluated over 15,000 shops in 2026 using 800+ expert judges and 350,000 public votes, emphasizes four dimensions. We applied similar standards here.
+      </p>
+
+      <div className='grid md:grid-cols-2 gap-4 my-6'>
+        <div className='border border-amber-200 rounded-lg p-5 bg-amber-50'>
+          <h4 className='font-bold mb-2'>Sourcing Transparency</h4>
+          <p className='text-sm'>Published lot details, cupping scores (86+), and traceable supply chains from farm or washing station to cup. Direct trade or equivalent relationships.</p>
+        </div>
+        <div className='border border-amber-200 rounded-lg p-5 bg-amber-50'>
+          <h4 className='font-bold mb-2'>Roasting Philosophy</h4>
+          <p className='text-sm'>A distinct, consistent approach to roasting that highlights terroir over roast flavor. Most leaders roast light to medium-light to preserve origin character.</p>
+        </div>
+        <div className='border border-amber-200 rounded-lg p-5 bg-amber-50'>
+          <h4 className='font-bold mb-2'>Barista Expertise</h4>
+          <p className='text-sm'>Trained staff who guide customers through origins, processing methods, and brew variables. Often competition-level baristas or certified Q graders on the team.</p>
+        </div>
+        <div className='border border-amber-200 rounded-lg p-5 bg-amber-50'>
+          <h4 className='font-bold mb-2'>Innovation &amp; Impact</h4>
+          <p className='text-sm'>Advancing the industry through new processing techniques, menu formats, sustainability programs, or global expansion that raises standards regionally.</p>
+        </div>
+      </div>
+
+      <hr className='my-8 border-gray-200' />
 
       {/* SHOP 1 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#1</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Oslo, Norway</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#1</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Oslo, Norway</span>
         </div>
         <h3 className='text-2xl font-extrabold text-dark'>Tim Wendelboe</h3>
         <p className='my-4'>
-          Tim Wendelboe is widely considered the godfather of the modern "Nordic Light Roast." His eponymous shop in Grünerløkka, Oslo, is a pilgrimage site for coffee professionals. The focus here is on extreme transparency and purity of flavor.
+          Tim Wendelboe remains the global reference point for Nordic light roasting. His single-room shop in Grünerløkka, Oslo, serves coffees roasted to preserve complex acidity and floral aromatics. Wendelboe sources from roughly 15 farms across six countries, paying premiums that often exceed Fair Trade minimums by 200-300%.
+        </p>
+        <p className='my-4'>
+          Ethiopian coffees, particularly washed lots from Yirgacheffe and Guji, are permanent fixtures on his menu. His 2024 crop featured a washed Yirgacheffe Konga scoring 90.5 points. For importers, Wendelboe&apos;s sourcing choices signal where the Nordic market&apos;s quality floor sits: nothing below 87 SCA points makes the cut.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> Tim pioneered the practice of buying coffee based on soil health and paying farmers quality premiums far above Fair Trade rates.</p>
-          <p className='text-sm'><span className='font-bold'><HiOutlineFire className='inline mr-1'/> The Order:</span> A flight of washed Ethiopian coffees to compare different harvest months.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Consistent demand for washed Ethiopian lots scoring 87+. Pays quality premiums well above commodity benchmarks.</p>
+          <p className='text-sm'><span className='font-bold'><HiOutlineBeaker className='inline mr-1' /> The Order:</span> A flight of seasonal washed Ethiopian micro-lots to compare terroir across harvest months.</p>
         </div>
       </div>
 
       {/* SHOP 2 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#2</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Tokyo, Japan</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#2</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Tokyo, Japan</span>
         </div>
         <h3 className='text-2xl font-extrabold text-dark'>Koffee Mameya</h3>
         <p className='my-4'>
-          Koffee Mameya is not a cafe; it is a coffee sommelier experience. Located in a minimalist cube in Omotesando, baristas wear lab coats and guide you through a "coffee matrix" of roast levels and origins. They don't roast their own beans; instead, they curate the best roasts from around the world.
+          Koffee Mameya operates as a coffee sommelier counter rather than a conventional cafe. Located in Omotesando, Tokyo, it does not roast its own beans. Instead, staff in lab coats guide visitors through a &quot;coffee matrix&quot; of curated roasts sourced from elite roasters worldwide. A single cup can cost $15-$30.
+        </p>
+        <p className='my-4'>
+          Japan imported 6.97 million 60-kg bags of green coffee in the 2023/24 season (ICO data), and specialty shops like Mameya drive demand for traceable, high-scoring lots. Their curation model proves that presentation, storytelling, and lot-level data are as valuable as the roast itself. Ethiopian naturals from Guji appear frequently in their rotation.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-           <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> They elevated coffee service to the level of fine wine dining, proving that curation is as valuable as roasting.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Curation-driven demand. Buys finished roasts from top roasters, but the underlying green must score 88+ to qualify.</p>
         </div>
       </div>
 
       {/* SHOP 3 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#3</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Melbourne, Australia</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#3</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Bentonville, Arkansas, USA</span>
         </div>
-        <h3 className='text-2xl font-extrabold text-dark'>Proud Mary / Aunty Peg&apos;s</h3>
+        <h3 className='text-2xl font-extrabold text-dark'>Onyx Coffee Lab</h3>
         <p className='my-4'>
-          Melbourne is the capital of cafe culture, and Proud Mary is its king. Their cellar door, "Aunty Peg&apos;s," functions as a dedicated coffee bar with no milk and no sugar allowed only pure expression of the bean. They are famous for their "deluxe" coffee menu featuring rare Geshas.
+          Onyx Coffee Lab earned the #1 global ranking on the World&apos;s 100 Best Coffee Shops list in both 2025 and 2026. Founded by Andrea Allen and Jon Allen, Onyx combines competition-level precision with transparent sourcing data. Every lot on their menu includes the farm name, processing method, altitude, SCA score, and the price paid to the producer.
+        </p>
+        <p className='my-4'>
+          Their Ethiopian offerings consistently include washed and natural lots from Yirgacheffe, Sidamo, and Guji, often scoring 88-92. Onyx&apos;s published pricing data shows premiums of $5-$12/lb above commodity rates for Ethiopian specialty lots. That transparency sets the standard for how exporters should present lot-level information to the US market.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> They successfully sell cups of coffee for $50+, proving consumers will pay premium prices for exceptional quality and storytelling.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Full pricing transparency. Ethiopian lots are menu staples. Demands farm-level traceability and processing documentation.</p>
         </div>
       </div>
 
       {/* SHOP 4 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#4</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Berlin, Germany</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#4</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Melbourne, Australia</span>
         </div>
-        <h3 className='text-2xl font-extrabold text-dark'>The Barn</h3>
+        <h3 className='text-2xl font-extrabold text-dark'>Proud Mary Coffee</h3>
         <p className='my-4'>
-          The Barn was instrumental in bringing third-wave coffee to Germany. Known for their uncompromised quality standards (they famously refused to serve sugar or low-fat milk for years), they roast extremely light to highlight terroir.
+          Melbourne sets the tempo for cafe culture in the Southern Hemisphere, and Proud Mary leads the pack. Their &quot;Aunty Peg&apos;s&quot; cellar door serves black coffee only, with cups priced at $20-$50 for rare micro-lots. They have successfully proven that consumers will pay fine-dining prices for exceptional green coffee presented with full provenance.
+        </p>
+        <p className='my-4'>
+          Proud Mary&apos;s Ethiopian selections often feature Gesha and heirloom varieties from Guji and <Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Yirgacheffe</Link>, processed as naturals or honey lots. Australia imported approximately 1.9 million bags of green coffee in 2024 (USDA), with the specialty segment growing at 8% annually. Shops like Proud Mary push the premium ceiling higher each season.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> A masterclass in branding and consistency. Their packaging and cafe aesthetics have been copied worldwide.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> High willingness to pay for rare lots. Ethiopian Geshas and heirloom naturals command $50+ per cup at retail.</p>
         </div>
       </div>
 
-       {/* SHOP 5 */}
-       <div className='my-8'>
+      {/* SHOP 5 */}
+      <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#5</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Brooklyn, New York</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#5</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Berlin, Germany</span>
         </div>
-        <h3 className='text-2xl font-extrabold text-dark'>Sey Coffee</h3>
+        <h3 className='text-2xl font-extrabold text-dark'>The Barn</h3>
         <p className='my-4'>
-          In a city full of coffee shops, Sey stands apart for its dedication to micro-lots. Their Bushwick cafe is a light-filled sanctuary where they serve some of the cleanest, sweetest coffees in North America. They release coffees in incredibly small batches, often from single farmers.
+          The Barn brought third-wave coffee to <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>Germany&apos;s specialty coffee market</Link> and built a brand that roasters worldwide have replicated. Known for refusing to serve sugar for years, they roast extremely light to expose terroir. Their multi-location model (Berlin, Dubai, Tokyo) proves that uncompromising quality standards can scale internationally.
+        </p>
+        <p className='my-4'>
+          Germany imports over 1 million tonnes of green coffee annually, making it Europe&apos;s largest market. The Barn&apos;s success with Ethiopian single-origins helped establish washed Yirgacheffe and Sidamo as core menu staples across German specialty cafes. Their packaging and brand identity have been widely imitated.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> They brought the "Nordic" philosophy to the US: ultra-light roasting that demands high-quality green beans to taste good.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Scalable quality model. Ethiopian washed lots serve as the baseline for light-roast programs across multiple locations.</p>
         </div>
       </div>
 
       {/* SHOP 6 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#6</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Taipei, Taiwan</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#6</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Brooklyn, New York, USA</span>
         </div>
-        <h3 className='text-2xl font-extrabold text-dark'>Simple Kaffa</h3>
+        <h3 className='text-2xl font-extrabold text-dark'>Sey Coffee</h3>
         <p className='my-4'>
-          Founded by Berg Wu, a World Barista Champion, Simple Kaffa is a stunning space that blends technical perfection with mass appeal. Located near the Huashan 1914 Creative Park, it is widely cited as the best coffee shop in Asia.
+          Sey Coffee in Bushwick, Brooklyn, applies Nordic roasting philosophy to the American market: ultra-light roasts that demand exceptional green quality. Every coffee they release comes in small batches, often from individual farmers or single washing stations. Their menu rotates weekly, which means their sourcing pipeline must deliver consistent quality at volume.
+        </p>
+        <p className='my-4'>
+          Ethiopian lots from Yirgacheffe and Guji appear in nearly every seasonal rotation. Sey&apos;s approach validates a critical point for exporters: roasters at this level need not just quality but reliable access to specific <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='text-amber-700 hover:underline'>micro-lots</Link> and washing stations season after season.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> Simple Kaffa demonstrates how to scale specialty coffee without losing the "champion" touch, bridging the gap between coffee geeks and general tourists.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Micro-lot specialists. Requires lot-specific consistency across seasons, favoring exporters who maintain washing-station relationships.</p>
         </div>
       </div>
 
       {/* SHOP 7 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#7</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Canberra, Australia</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#7</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Taipei, Taiwan</span>
         </div>
-        <h3 className='text-2xl font-extrabold text-dark'>Ona Coffee</h3>
+        <h3 className='text-2xl font-extrabold text-dark'>Simple Kaffa</h3>
         <p className='my-4'>
-          Founded by Sasa Sestic (star of the documentary <em>The Coffee Man</em>), Ona Coffee is a research lab disguised as a cafe. They pioneered the practice of freezing vintage coffee beans to stop the aging process, allowing customers to taste "vintages" from years past.
+          Founded by Berg Wu, the 2016 World Barista Champion, Simple Kaffa bridges competition-level precision with broad consumer appeal. The flagship location near Taipei&apos;s Huashan 1914 Creative Park seats over 100, a scale that most specialty shops avoid. Wu proved that high-scoring coffees can drive volume, not just exclusivity.
+        </p>
+        <p className='my-4'>
+          Wu&apos;s winning routine used a washed Ethiopian lot, and Ethiopian origins remain central to Simple Kaffa&apos;s rotating menu. Taiwan&apos;s specialty coffee market has grown rapidly, with per-capita consumption rising 4.2% year-over-year through 2025. Simple Kaffa demonstrates the commercial viability of Ethiopian premium lots in East Asian markets.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> Their "Project Origin" sourcing program is one of the most innovative in the world, often using Carbonic Maceration techniques borrowed from winemaking.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Competition-caliber lots at commercial scale. Ethiopian washed coffees serve both flagship espresso and seasonal filter programs.</p>
         </div>
       </div>
 
       {/* SHOP 8 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#8</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Cape Town, South Africa</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#8</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Canberra, Australia</span>
         </div>
-        <h3 className='text-2xl font-extrabold text-dark'>Truth Coffee Roasting</h3>
+        <h3 className='text-2xl font-extrabold text-dark'>Ona Coffee</h3>
         <p className='my-4'>
-          Often voted "The Best Coffee Shop in the World" by travel publications, Truth is famous for its immersive Steampunk aesthetic. But beyond the brass pipes and vintage uniforms, they roast exceptional coffee on a vintage Probat roaster.
+          Sasa Sestic, 2015 World Barista Champion and star of the documentary <em>The Coffee Man</em>, built Ona Coffee into a research laboratory for processing innovation. Ona pioneered the commercial use of carbonic maceration in coffee, a fermentation technique borrowed from winemaking. They also freeze vintage coffee lots to halt aging, letting customers taste &quot;vintages&quot; from prior harvests.
+        </p>
+        <p className='my-4'>
+          Ona&apos;s &quot;Project Origin&quot; sourcing arm works directly with producers in Ethiopia, Colombia, and Central America. Their <Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='text-amber-700 hover:underline'>anaerobic and experimental processing</Link> work with Ethiopian naturals from Guji has produced auction-winning lots. For exporters, Ona&apos;s model signals growing demand for innovation at the processing level.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> Truth proves that "experience" and "atmosphere" are vital parts of the coffee business. They make specialty coffee theatrical.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Processing innovation drives premiums. Buyers like Ona seek exporters offering experimental processing in addition to conventional washed and natural lots.</p>
         </div>
       </div>
 
       {/* SHOP 9 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#9</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Aarhus, Denmark</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#9</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Aarhus, Denmark &amp; New York, USA</span>
         </div>
         <h3 className='text-2xl font-extrabold text-dark'>La Cabra</h3>
         <p className='my-4'>
-          La Cabra treats coffee like a culinary ingredient. Known for their bakery as much as their roastery, they look for "brightness" in the cup. Their approach is minimalist and modern, and they have successfully expanded to New York and Bangkok.
+          La Cabra treats coffee as a culinary ingredient. Known equally for its bakery and its roastery, the company started in Aarhus and expanded to Copenhagen, New York, and Bangkok. Their roasting style prioritizes brightness and sweetness, and they have mastered the &quot;omni-roast&quot; approach: beans that perform well as both espresso and filter.
+        </p>
+        <p className='my-4'>
+          La Cabra&apos;s sourcing team visits Ethiopian cooperatives annually, focusing on <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='text-amber-700 hover:underline'>washing stations</Link> in Yirgacheffe and Sidamo that deliver the bright acidity their roast profile demands. Their global expansion proves that traceable Ethiopian lots have universal appeal across Nordic, American, and Southeast Asian palates.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> They mastered the "omni-roast" style roasting beans that taste good as both espresso and filter coffee.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Omni-roast demand. Requires green coffee versatile enough for both espresso and filter, which Ethiopian washed lots often deliver.</p>
         </div>
       </div>
 
       {/* SHOP 10 */}
       <div className='my-8'>
         <div className='flex items-center gap-2 mb-2'>
-           <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#10</span>
-           <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Stockholm, Sweden</span>
+          <span className='bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded'>#10</span>
+          <span className='text-sm font-semibold text-gray-500 uppercase tracking-wide'>Stockholm, Sweden</span>
         </div>
         <h3 className='text-2xl font-extrabold text-dark'>Drop Coffee</h3>
         <p className='my-4'>
-          Led by Joanna Alm, a multi-time roasting champion, Drop Coffee focuses on sweetness and clarity. Their distinct boxy packaging and welcoming atmosphere make them a staple of the Scandinavian scene.
+          Led by Joanna Alm, a multi-time Swedish roasting champion, Drop Coffee focuses on sweetness and clarity above all else. Their compact cafe in Wollmar Yxkullsgatan, Stockholm, serves a rotating selection of single-origin filter coffees alongside their signature blends. Consistency defines their brand: every bag delivers a clean, sweet cup.
+        </p>
+        <p className='my-4'>
+          Drop Coffee&apos;s Ethiopian sourcing emphasizes <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>washed processing</Link> from Yirgacheffe and <Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline'>Sidamo</Link>. The Scandinavian market&apos;s per-capita coffee consumption ranks among the world&apos;s highest at roughly 8 kg per person annually, and specialty&apos;s share continues to grow. Drop Coffee demonstrates that consistency in green quality is what builds long-term brand loyalty.
         </p>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1'/> Why it matters:</span> Their consistency is legendary. If you buy a bag of Drop Coffee, you know exactly what you are getting a sweet, clean, perfectly roasted cup.</p>
+          <p className='text-sm mb-2'><span className='font-bold'><HiOutlineStar className='inline mr-1' /> Sourcing Signal:</span> Consistency over novelty. Seeks reliable seasonal access to high-quality washed Ethiopian lots from known cooperatives.</p>
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineSparkles className='inline mr-2' />
-        The Ethiopian Connection
+      <hr className='my-8 border-gray-200' />
+
+      <h3 className='text-2xl font-extrabold mt-8 flex items-center gap-3'>
+        <HiOutlineSparkles className='w-8 h-8 text-amber-600' />
+        The Ethiopian Origin Thread
       </h3>
+
       <p className='my-4'>
-        What unites these diverse shops? Almost all of them feature <span className='font-bold'>Ethiopian Coffee</span> as a crown jewel on their menu.
+        Nine of the ten shops above feature Ethiopian coffee as a menu anchor. That is not coincidence. Ethiopia offers the widest genetic diversity of any coffee-producing country, with an estimated 10,000-15,000 heirloom <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>varieties and landraces</Link> growing across its highland forests.
       </p>
 
       <p className='my-4'>
-        Because Ethiopia is the birthplace of coffee and offers the most genetic diversity, top roasters rely on regions like Yirgacheffe, Guji, and Sidamo to provide the floral and fruity notes that define modern specialty coffee.
+        Regions like <Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Yirgacheffe</Link>, <Link href='/ethiopian-coffee-guji' className='text-amber-700 hover:underline'>Guji</Link>, and <Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline'>Sidamo</Link> produce the floral, fruity, and citrus-forward profiles that define modern specialty coffee. These profiles are precisely what light-roast-focused shops need to differentiate their menus. Ethiopia exported approximately 300,000 metric tons of coffee in the 2024/25 season, with specialty-grade volumes increasing year over year.
       </p>
 
-      <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold text-lg mb-2 flex items-center gap-2'><HiOutlineLightBulb className='text-xl text-amber-500' /> For Roasters & Importers</h4>
-        <p className='text-sm mb-2'>
-            If you want to emulate the success of these world-class shops, sourcing is the first step. You cannot roast a bad bean into a good one.
+      <div className='bg-blue-50 border border-blue-200 rounded-lg p-6 my-6'>
+        <h4 className='font-bold text-lg mb-2 flex items-center gap-2'>
+          <HiOutlineGlobeAlt className='text-xl text-blue-600' /> What This Means for Green Coffee Buyers
+        </h4>
+        <p className='text-sm mb-3'>
+          The sourcing patterns of these ten shops point to five clear trends for green coffee buyers in 2026:
         </p>
-        <p className='text-sm'>
-            At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we supply the same high-grade, ECX-certified green beans that fuel the top tier of the specialty market.
-        </p>
+        <ul className='text-sm space-y-2'>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
+            <span><span className='font-bold'>Lot-level traceability is mandatory.</span> Washing station or farm name, processing method, altitude, and cupping score must be available.</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
+            <span><span className='font-bold'>Ethiopian origins anchor menus.</span> Yirgacheffe, Guji, and Sidamo remain the default for filter and seasonal offerings.</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
+            <span><span className='font-bold'>Experimental processing commands premiums.</span> Anaerobic, carbonic maceration, and honey-processed Ethiopian lots attract buyers willing to pay $8-$15/lb FOB.</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
+            <span><span className='font-bold'>Consistency matters as much as novelty.</span> Buyers need the same washing station quality year after year to maintain brand standards.</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
+            <span><span className='font-bold'>Pricing transparency is growing.</span> Shops like Onyx publish what they pay; exporters should be prepared to disclose FOB pricing and <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>cost structures</Link>.</span>
+          </li>
+        </ul>
       </div>
 
-      {/* FAQ SECTION */}
-      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About the World's Top Specialty Coffee Shops</h3>
-        <div className="space-y-6">
-          <div>
-            <h4 className="font-bold text-gray-800 mb-2">What defines a world-class specialty coffee shop?</h4>
-            <p className="text-sm text-gray-600">World-class specialty shops are distinguished by their sourcing transparency, roasting precision, barista training standards, and commitment to serving coffees scoring 85+ on the SCA scale. They often roast in-house and maintain direct relationships with origin producers.</p>
-          </div>
-          <div>
-            <h4 className="font-bold text-gray-800 mb-2">Which countries have the best specialty coffee scenes?</h4>
-            <p className="text-sm text-gray-600">The Nordic countries (Norway, Denmark, Sweden), Japan, Australia, the United States, and the United Kingdom lead in specialty coffee culture. Cities like Oslo, Melbourne, Tokyo, London, and Portland are recognized as global specialty coffee hubs.</p>
-          </div>
-          <div>
-            <h4 className="font-bold text-gray-800 mb-2">Do top specialty coffee shops serve Ethiopian coffee?</h4>
-            <p className="text-sm text-gray-600">Yes. Ethiopian coffee is among the most featured origins at leading specialty shops worldwide. Its distinctive floral, fruity, and complex profiles make it a staple for filter brewing and seasonal single-origin offerings.</p>
-          </div>
-          <div>
-            <h4 className="font-bold text-gray-800 mb-2">How do specialty coffee shops source their green coffee?</h4>
-            <p className="text-sm text-gray-600">Leading shops source through direct trade relationships, specialty importers, and reputable exporters. They prioritize lot traceability, cupping quality, and sustainable practices in their supply chain decisions.</p>
-          </div>
-        </div>
-      </section>
+      <p className='my-4'>
+        The best specialty coffee shops in the world are more than retail destinations. They are market signals. Their sourcing decisions, menu choices, and willingness to pay premiums define what importers and exporters should prioritize. For Ethiopian exporters, the message is clear: lot-level traceability, processing diversity, and seasonal consistency are what the top tier demands.
+      </p>
 
+      {/* CTA BLOCK */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Elevate Your Coffee Program</h4>
+        <h4 className='font-bold text-xl mb-3'>Source the Coffee These Shops Serve</h4>
         <p className='my-2'>
-          Ready to source green coffee that competes with the world&apos;s best? At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we specialize in exporting premium Ethiopian lots to the US, Europe, and Asia.
+          Ethio Coffee Import and Export PLC supplies specialty-grade Ethiopian green coffee to roasters and importers across Asia, Europe, and North America. Access <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>cupping samples</Link>, lot-level data, and competitive FOB pricing from Yirgacheffe, Guji, Sidamo, and more.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Current Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Samples</Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
+
+      {/* FAQ SECTION */}
+      <section className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h3 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About the Best Specialty Coffee Shops</h3>
+        <div className='space-y-6'>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>What makes a specialty coffee shop world class?</h4>
+            <p className='text-sm text-gray-600'>World-class specialty shops score 86+ on the SCA scale, maintain direct sourcing relationships with producers, employ trained baristas (often Q graders or competition winners), and publish lot-level traceability data including farm name, processing method, and altitude for every coffee on the menu.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>Which coffee shops serve Ethiopian coffee?</h4>
+            <p className='text-sm text-gray-600'>Nearly every top-ranked specialty shop features Ethiopian origins. Tim Wendelboe, Onyx Coffee Lab, Sey Coffee, The Barn, La Cabra, and Drop Coffee all maintain year-round Ethiopian offerings, typically washed lots from Yirgacheffe, Guji, or Sidamo scoring 87 or higher.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the best coffee shop in the world in 2026?</h4>
+            <p className='text-sm text-gray-600'>Onyx Coffee Lab in Bentonville, Arkansas earned the #1 global ranking from The World&apos;s 100 Best Coffee Shops in both 2025 and 2026. Tim Wendelboe in Oslo and Proud Mary in Melbourne consistently rank in the top five across multiple international surveys.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>How do specialty coffee shops source their green beans?</h4>
+            <p className='text-sm text-gray-600'>Leading shops source through direct trade relationships, specialty importers, and origin-connected exporters. They evaluate pre-shipment cupping samples, require lot-level documentation (washing station, altitude, variety), and often visit producing countries annually to maintain relationships.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the difference between specialty and regular coffee shops?</h4>
+            <p className='text-sm text-gray-600'>Specialty shops serve coffees scoring 80+ on the SCA 100-point scale, roast in-house or source from artisan roasters, and provide origin transparency. Regular coffee shops typically serve commodity-grade blends without traceability. The price difference reflects sourcing costs: specialty green often costs $4-$15/lb versus $1.50-$3/lb for commodity.</p>
+          </div>
+        </div>
+      </section>
 
       {/* RELATED ARTICLES */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Origins & Quality</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Ethiopian Origins &amp; Quality</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
               <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
-              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee</Link></li>
-              <li>• <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>Roasting Ethiopian Coffee Beans</Link></li>
-              <li>• <Link href='/insights/best-coffee-guide-french-press-pour-over-scales' className='text-amber-700 hover:underline'>French Press, Pour Over & Scales Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Culture & Sourcing</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Market Intelligence</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
               <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>The Ethiopian Coffee Ceremony</Link></li>
-              <li>• <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
+              <li>• <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Micro-Lot Ethiopian Coffee Sourcing</Link></li>
+              <li>• <Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='text-amber-700 hover:underline'>Anaerobic Ethiopian Coffee Processing</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Market Guides</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>German Specialty Coffee Market Guide</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Japan</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Australia</Link></li>
             </ul>
           </div>
         </div>
@@ -320,12 +400,12 @@ export default function Top10SpecialtyCoffeeShops({ title, date, large_image_url
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This list highlights the global benchmarks for specialty coffee quality, service, and sourcing, curated for industry professionals and enthusiasts.
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This guide profiles the world&apos;s top specialty coffee shops through the lens of sourcing intelligence for green coffee buyers, importers, and roasters.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Export Services</Link> · <Link href='/about' className='underline'>About</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>
-  );
+  )
 }

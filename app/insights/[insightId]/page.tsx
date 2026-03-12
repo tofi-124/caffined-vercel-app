@@ -24,7 +24,7 @@ const readingTimeMap: Record<string, number> = {
   'importing-ethiopian-coffee-to-uk': 16,
   'importing-ethiopian-coffee-to-australia': 32,
   'ecx-and-ethiopian-coffee-export': 15,
-  'top-10-specialty-coffee-shops-world': 14,
+  'top-10-specialty-coffee-shops-world': 13,
   'new-sca-coffee-value-assessment': 15,
   'complete-guide-to-understanding-coffee': 28,
   'eu-deforestation-regulation-ethiopian-coffee-compliance': 32,

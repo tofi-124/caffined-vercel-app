@@ -38,6 +38,9 @@ next-env.d.ts
 # IDE specific files
 .idea
 .vscode
+
+# GitHub config
+.github
 *.suo
 *.ntvs*
 *.njsproj

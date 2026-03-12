@@ -722,6 +722,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
               <li>&bull; <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the UK</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to South Korea</Link></li>
             </ul>
           </div>
           <div>
