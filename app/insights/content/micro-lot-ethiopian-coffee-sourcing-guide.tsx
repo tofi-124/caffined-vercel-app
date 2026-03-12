@@ -89,7 +89,7 @@ export default function MicroLotEthiopianCoffeeSourcingGuide({ title, date, larg
       </p>
 
       <p className='my-4'>
-        This guide explains what defines a micro lot in the Ethiopian context, which origins produce the best ones, how pricing works, and the step-by-step process to build a reliable micro-lot sourcing program. It is written for importers, roasters, and green coffee traders who want to add Ethiopian micro lots to their programs or strengthen existing sourcing relationships.
+        This guide explains what defines a micro lot in the Ethiopian context, which origins produce the best ones, how pricing works, and the step-by-step process to build a reliable micro-lot sourcing program. It is written for importers, roasters, and green coffee traders who want to add Ethiopian micro lots to their programs or strengthen existing sourcing relationships. For broader market context on what&apos;s driving micro-lot demand, see our analysis of <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>key specialty coffee trends shaping 2026</Link>.
       </p>
 
       {/* SECTION 1 */}

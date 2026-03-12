@@ -129,7 +129,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
           <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
           <div>
             <p className='font-semibold'>Strong Consumer Demand</p>
-            <p className='text-gray-700 text-sm'>Specialty consumers actively seek Ethiopian single-origins. Stocking them signals quality and drives retail interest.</p>
+            <p className='text-gray-700 text-sm'>Specialty consumers actively seek Ethiopian single-origins. Stocking them signals quality and drives retail interest. Our <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>2026 specialty coffee trends</Link> analysis covers the demand shifts driving this growth.</p>
           </div>
         </div>
       </div>

@@ -1166,7 +1166,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
       <div className='space-y-4 my-6'>
         <div className='border-l-4 border-amber-500 pl-4'>
           <h5 className='font-bold'>EUDR Integration</h5>
-          <p className='text-sm'>The EU Deforestation Regulation will require traceability systems that complement and may eventually overlap with existing certifications. Ethiopian exporters preparing for EUDR will be better positioned for all certifications.</p>
+          <p className='text-sm'>The EU Deforestation Regulation will require traceability systems that complement and may eventually overlap with existing certifications. Ethiopian exporters preparing for EUDR will be better positioned for all certifications. For a broader view of how EUDR, traceability mandates, and other regulatory shifts are reshaping the industry, see our <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>key specialty coffee trends for 2026</Link>.</p>
         </div>
 
         <div className='border-l-4 border-green-500 pl-4'>

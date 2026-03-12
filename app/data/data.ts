@@ -1797,14 +1797,31 @@ export const posts: Post[] = [
       desc: 'Explore the 10 best specialty coffee shops in the world and what their sourcing choices reveal about specialty coffee demand in 2026.'
     },
     {
-      small_image_url: 'insights/cofee-blog-3-1.png',
-      large_image_url: 'insights/cofee-blog-3-1.png',
+      small_image_url: 'insights/specialty-coffee-trends-2026.webp',
+      large_image_url: 'insights/specialty-coffee-trends-2026.webp',
       date: 'Jan 18, 2026',
+      dateModified: 'Mar 12, 2026',
       title: '5 Specialty Coffee Trends Defining 2026',
       slug: 'specialty-coffee-trends-2026',
-      category: 'Market Insights / Sourcing',
-      keywords: ['specialty coffee trends', '2026 coffee trends', 'experimental processing', 'hyper-traceability', 'Ethiopian specialty coffee'],
-      desc: 'Five specialty coffee trends shaping 2026-hyper-traceability, experimental processing, climate resilience, flash chill growth, and story-driven premiumization-and why Ethiopian origins are positioned to lead.'
+      category: 'Market Analysis / Specialty Coffee Trends / Sourcing Strategy / B2B Intelligence',
+      keywords: [
+        'specialty coffee trends 2026',
+        '2026 coffee industry trends',
+        'specialty coffee market 2026',
+        'green coffee sourcing trends',
+        'coffee processing trends 2026',
+        'EUDR coffee traceability requirement',
+        'anaerobic coffee processing growth',
+        'Ethiopian heirloom climate resilience',
+        'specialty coffee price increase 2026',
+        'story-driven coffee premiumization',
+        'what are the biggest specialty coffee trends for 2026',
+        'how should importers adapt to specialty coffee trends',
+        'which coffee processing methods are trending 2026',
+        'why are specialty coffee prices rising',
+        'Ethiopian specialty coffee sourcing 2026'
+      ],
+      desc: 'Five data-backed specialty coffee trends for 2026 that importers and roasters need in their sourcing strategy: regulatory traceability, experimental processing growth, climate-resilient genetics, price restructuring, and story-driven premiumization.'
     },
     {
       small_image_url: 'insights/rising-coffee-prices.webp',
