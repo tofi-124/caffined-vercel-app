@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineGlobeAlt, HiOutlineCheckCircle, HiOutlineLightBulb, HiOutlineChartBar, HiOutlineArrowTrendingUp, HiOutlineTruck, HiOutlineShieldCheck } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineCheckCircle, HiOutlineChartBar, HiOutlineArrowTrendingUp, HiOutlineTruck, HiOutlineShieldCheck } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -15,7 +15,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        An in-depth look at the world&apos;s leading coffee-exporting nations, what makes a premium coffee exporter stand out, and how Ethiopia leads the specialty segment
+        Ranking the world&apos;s top coffee exporters by volume and specialty quality, with a buyer&apos;s framework for evaluating premium export partners
       </h2>
 
       <figure>
@@ -38,7 +38,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2'>Key Takeaway</p>
         <p>
-          While Brazil leads global coffee exports by volume, Ethiopia is widely regarded as the world&apos;s top premium coffee exporter in the specialty segment, with over 60% of output graded as specialty or near-specialty quality. For importers, understanding what separates commodity shippers from true premium exporters&mdash;traceability, quality control, and origin expertise&mdash;is essential for building a differentiated coffee program.
+          Brazil leads global coffee exports by volume, but Ethiopia is widely regarded as the world&apos;s top premium coffee exporter in the specialty segment; over 60% of its output is graded specialty or near-specialty. For importers, the factors that separate commodity shippers from true premium exporters (traceability, quality control, origin expertise) are essential to building a differentiated coffee program.
         </p>
       </div>
 
@@ -48,19 +48,12 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
       </div>
 
       <p className='my-4'>
-        Coffee is the second most traded commodity on earth after crude oil, generating over <span className='font-bold'>$130 billion in retail value</span> every year. Behind each cup sits a complex global supply chain that begins with the <span className='font-bold'>top coffee exporters</span> - countries and companies that cultivate, process, and ship green beans to roasters around the world.
+        Coffee generates over <span className='font-bold'>$130 billion in retail value</span> every year, making it the second most traded commodity after crude oil. The <span className='font-bold'>top coffee exporters</span> in the world, the countries and companies that cultivate, process, and ship green beans, determine what reaches roasters and shape the quality in every cup.
       </p>
 
       <p className='my-4'>
-        For importers seeking reliable supply, quality consistency, and specialty-grade lots, understanding the range of <span className='font-bold'>premium coffee exporters</span> is essential. This guide ranks the world&apos;s largest coffee-exporting countries by volume and value, breaks down what separates a commodity shipper from a true premium exporter, and explains why Ethiopia occupies a unique position at the top of the specialty pyramid.
+        For importers seeking reliable supply, quality consistency, and specialty-grade lots, choosing the right <span className='font-bold'>premium coffee exporter</span> is a strategic decision. This guide ranks the world&apos;s largest coffee-exporting countries by volume and specialty reputation, breaks down what separates a commodity shipper from a true premium exporter, and explains why Ethiopia leads the specialty segment.
       </p>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineArrowTrendingUp className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Insight:</span> While Brazil exports the most coffee by volume, Ethiopia - the birthplace of Arabica - is widely considered the world&apos;s top premium coffee exporter in the specialty segment, with over 60 % of its output graded as specialty or near-specialty quality.</span>
-        </p>
-      </div>
 
       {/* ===== SECTION 1: Global Overview ===== */}
       <h3 className='text-2xl font-extrabold mt-10'>
@@ -253,20 +246,13 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
 
       <h4 className='text-xl font-bold mt-8 mb-2'>Ethiopia  -  The Specialty Crown Jewel</h4>
       <p className='my-4'>
-        Ethiopia occupies a category of its own. As the <span className='font-bold'>birthplace of Arabica coffee</span>, it is home to thousands of genetically distinct heirloom varieties that exist nowhere else on earth. Ethiopian coffee delivers flavor complexity - blueberry, jasmine, bergamot, stone fruit - that no other origin can consistently replicate. This genetic treasure trove makes Ethiopia the world&apos;s pre-eminent <span className='font-bold'>premium coffee exporter</span> for specialty buyers.
+        As the <span className='font-bold'>birthplace of Arabica coffee</span>, Ethiopia is home to thousands of genetically distinct <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:text-amber-900 underline'>heirloom varieties</Link> found nowhere else. Ethiopian lots deliver flavor complexity (blueberry, jasmine, bergamot, stone fruit) that no other origin replicates consistently.
       </p>
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Strengths:</span> Unmatched genetic diversity, floral and fruity cup profiles, 100 % Arabica output, strong traceability through the ECX system</li>
-        <li><span className='font-bold'>Considerations:</span> Logistics can be slower due to landlocked geography (exports via <a href='https://en.wikipedia.org/wiki/Port_of_Djibouti' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Port of Djibouti</a>); regulatory environment evolves frequently</li>
+        <li><span className='font-bold'>Strengths:</span> Unmatched genetic diversity, 100% Arabica output, floral and fruity profiles, strong traceability via the ECX system</li>
+        <li><span className='font-bold'>Considerations:</span> Landlocked geography routes exports through <a href='https://en.wikipedia.org/wiki/Port_of_Djibouti' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:text-amber-900 underline'>Djibouti</a>; regulatory framework evolves frequently</li>
         <li><span className='font-bold'>Premium segment:</span> Yirgacheffe, Sidamo, Guji, Limu, and Harrar lots routinely score 85&ndash;94 points</li>
       </ul>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Why Ethiopia Stands Out:</span> Ethiopia is the only top-ten exporting country that produces exclusively Arabica coffee and possesses wild, uncatalogued <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:text-amber-900 underline'>heirloom varieties</Link>. For roasters chasing distinctiveness and story, Ethiopian beans are unrivalled.</span>
-        </p>
-      </div>
 
       <h4 className='text-xl font-bold mt-8 mb-2'>Other Notable Origins</h4>
       <p className='my-4'>
@@ -436,31 +422,23 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         </table>
       </div>
 
-      {/* ===== SECTION 7: Working with Ethio Coffee ===== */}
+      {/* ===== SECTION 7: Sourcing from Ethiopia ===== */}
       <h3 className='text-2xl font-extrabold mt-10'>
         <HiOutlineTruck className='inline mr-2' />
-        Working with Ethio Coffee Export: A Premium Ethiopian Exporter
+        Sourcing from Ethiopia: What Importers Can Expect
       </h3>
       <p className='my-4'>
-        <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:text-amber-900 underline font-bold'>Ethio Coffee Import and Export PLC</Link> embodies every characteristic of a premium coffee exporter. As a family-owned, specialty-focused Ethiopian export company, we deliver:
+        Importers buying Ethiopian coffee benefit from the country&apos;s deep specialty infrastructure, but working with the right export partner streamlines the process. <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:text-amber-900 underline font-bold'>Ethio Coffee Import and Export PLC</Link>, an origin-connected exporter with three decades of heritage sourcing relationships, offers buyers:
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Direct sourcing</span> from smallholder farmers and washing stations across Yirgacheffe, Sidamo, Guji, Limu, and Harrar</li>
-        <li><span className='font-bold'>Full traceability</span> to the kebele (village) and washing station level, with EUDR-ready polygon data</li>
-        <li><span className='font-bold'>In-house Q-graders</span> cupping every lot before approval, with pre-shipment samples sent to buyers worldwide</li>
-        <li><span className='font-bold'>Certifications</span> including Organic, Fair Trade, and Rainforest Alliance available upon request</li>
-        <li><span className='font-bold'>Professional logistics</span> with GrainPro-lined packaging, climate-monitored warehousing, and reliable forwarding via Djibouti</li>
-        <li><span className='font-bold'>Flexible volumes</span> from single-pallet micro-lots to full container loads (FCL) of 250+ bags</li>
-        <li><span className='font-bold'>Competitive FOB pricing</span> with transparent cost breakdowns and multiple payment term options</li>
+        <li><span className='font-bold'>Pre-shipment samples within 5&ndash;7 business days</span>, cupped by in-house Q-graders before dispatch</li>
+        <li><span className='font-bold'>Lot-level traceability</span> to the washing station and kebele level, with EUDR-compliant polygon data</li>
+        <li><span className='font-bold'>Flexible order sizes</span> from 10-bag micro-lots to full container loads (FCL) of 250+ bags</li>
+        <li><span className='font-bold'>Certifications on request:</span> Organic, Fair Trade, and Rainforest Alliance</li>
+        <li><span className='font-bold'>Transparent FOB pricing</span> with detailed cost breakdowns and multiple <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:text-amber-900 underline'>payment term options</Link></li>
+        <li><span className='font-bold'>GrainPro-lined packaging</span> and climate-monitored warehousing, with forwarding via Djibouti</li>
       </ul>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineCheckCircle className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Ready to Source Premium Ethiopian Coffee?</span> Whether you need a single trial lot or ongoing seasonal contracts, <Link href='/contact-us' className='text-primary underline font-bold'>contact Ethio Coffee Export</Link> to receive samples, pricing, and a personalized sourcing plan tailored to your roasting needs.</span>
-        </p>
-      </div>
 
       {/* ===== SECTION 8: FAQs ===== */}
       <h3 className='text-2xl font-extrabold mt-10'>
@@ -477,7 +455,7 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         <div>
           <h4 className='font-bold'>What makes a coffee exporter &ldquo;premium&rdquo;?</h4>
           <p className='my-2 text-sm'>
-            A premium coffee exporter prioritizes quality over volume. Key indicators include rigorous cupping standards, lot-level traceability, recognized certifications, professional documentation, reliable logistics, and a relationship-driven approach to sales rather than anonymous commodity trading.
+            A premium coffee exporter prioritizes quality over volume. Key indicators include rigorous cupping standards (SCA protocol, in-house Q-graders), lot-level traceability, recognized certifications such as Organic or Fair Trade, professional export documentation, reliable logistics with proper packaging, and a relationship-driven sales approach rather than anonymous commodity trading.
           </p>
         </div>
         <div>
@@ -495,20 +473,20 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
         <div>
           <h4 className='font-bold'>What volumes can a premium Ethiopian exporter handle?</h4>
           <p className='my-2 text-sm'>
-            This varies by company. Ethio Coffee Export offers flexibility ranging from <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:text-amber-900 underline'>micro-lots of a few bags</Link> to full container loads (FCL) of 250&ndash;320 bags per shipment, with seasonal contracts for recurring supply.
+            Order sizes vary by company. Ethio Coffee Export offers flexibility ranging from <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:text-amber-900 underline'>micro-lots of a few bags</Link> to full container loads (FCL) of 250&ndash;320 bags per shipment. Seasonal contracts are available for recurring supply, and minimum quantities depend on the specific lot type and origin region.
           </p>
         </div>
       </div>
 
       {/* ===== CONCLUSION ===== */}
       <h3 className='text-2xl font-extrabold mt-10'>
-        How to Choose the Right Premium Coffee Exporter
+        The World&apos;s Top Coffee Exporters: What Matters Most
       </h3>
       <p className='my-4'>
-        The global coffee trade is vast, but not all exporters are created equal. The difference between a commodity shipper and a <span className='font-bold'>premium coffee exporter</span> determines the quality in your customer&apos;s cup, the reliability of your supply chain, and the story you can tell about your coffee.
+        Volume rankings tell only part of the story. The difference between a commodity shipper and a <span className='font-bold'>top coffee exporter</span> comes down to quality control, traceability, and the ability to deliver consistent lots season after season.
       </p>
       <p className='my-4'>
-        For buyers who value specialty quality, origin transparency, and a partner they can trust harvest after harvest, Ethiopia is the origin to watch - and an experienced Ethiopian exporter is the partner to choose.
+        For importers who prioritize specialty quality, origin transparency, and a partner they can trust harvest after harvest, Ethiopia stands out, and an experienced Ethiopian exporter is the partner to choose. Evaluate potential exporters against the seven pillars outlined above, request samples, and build a relationship before committing to volume.
       </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
@@ -530,21 +508,21 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Exporter Guides</h4>
             <ul className='space-y-1 text-sm'>
-              <li>� <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
-              <li>📊 <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
-              <li>� <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
-              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+              <li>&bull; <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
+              <li>&bull; <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
+              <li>&bull; <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
+              <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Market & Quality</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Market &amp; Quality</h4>
             <ul className='space-y-1 text-sm'>
-              <li>� <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices</Link></li>
-              <li>� <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee</Link></li>
-              <li>� <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
-              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
+              <li>&bull; <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+              <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
+              <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control &amp; Grading</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
             </ul>
           </div>
         </div>
@@ -552,10 +530,10 @@ export default function TopPremiumCoffeeExportersGlobalGuide({ title, date, larg
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide profiles the world&apos;s top premium coffee exporters and what sets them apart in the global specialty coffee supply chain.
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This guide ranks the world&apos;s top coffee exporters and explains what separates premium export partners from commodity shippers.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> � <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> � <Link href='/about' className='underline'>About Ethio Coffee</Link> � <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Export Services</Link> &middot; <Link href='/about' className='underline'>About</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

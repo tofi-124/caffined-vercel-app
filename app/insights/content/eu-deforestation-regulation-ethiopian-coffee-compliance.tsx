@@ -27,12 +27,12 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Everything Ethiopian coffee exporters and importers need to know about the EU Deforestation Regulation (EUDR), compliance requirements, timeline, traceability systems, and how Ethiopia is preparing to meet the new standards for coffee exports to European markets.
+        What Ethiopian coffee exporters and EU importers need to know now that EUDR enforcement is active — compliance requirements, Ethiopia's country benchmarking status, traceability systems, and how the sector is meeting deforestation-free standards for European markets.
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Understanding EU deforestation regulations is critical for Ethiopian coffee exporters accessing European markets.
+          EUDR compliance is now mandatory for large operators and traders exporting Ethiopian coffee to European markets.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -52,34 +52,39 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         <span className='ml-2'>Regulations & Compliance / EU Market / Coffee Export</span>
       </div>
 
+      {/* KEY TAKEAWAY BOX — featured snippet target */}
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-4 my-6'>
+        <h4 className='font-bold text-lg mb-2'>Key Takeaway</h4>
+        <p className='text-sm'>The EU Deforestation Regulation (EUDR) is now in force for large coffee operators and traders as of December 30, 2025. Small and micro enterprises must comply by June 30, 2026. Ethiopian coffee exporters must provide GPS-mapped farm coordinates, deforestation-free evidence (no land conversion after Dec 31, 2020), legality documentation, and full supply chain traceability to maintain EU market access. Ethiopia is classified as a <span className='font-bold'>standard-risk country</span>, and a unified national traceability platform is operational. The sector exported a record $2.65 billion in coffee in FY 2024/25 — 30% to the EU.</p>
+      </div>
+
       {/* INTRODUCTION */}
       <p className='my-4'>
-        If you're exporting Ethiopian coffee to European Union countries-or planning to-you need to understand a critical new regulation that will fundamentally change how coffee exports to Europe work: the <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation (EUDR)</a>.
+        The <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation (EUDR)</a> is no longer a future concern — it is the law. Since December 30, 2025, large operators and traders placing coffee on the EU market must submit due diligence statements proving every lot is deforestation-free, legally produced, and fully traceable to the farm level.
       </p>
 
       <p className='my-4'>
-        Effective December 30, 2024 (with enforcement beginning December 30, 2025 for large operators), the <a href="https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EUDR</a> requires that all coffee entering EU markets must be <span className='font-bold'>deforestation-free</span> and produced in compliance with the laws of the country of origin. This means Ethiopian coffee exporters must prove-with documented evidence and geolocation data-that their coffee was not grown on land deforested after December 31, 2020.
+        For Ethiopian coffee exporters, this means providing documented evidence and geolocation data confirming that coffee was not grown on land deforested after <span className='font-bold'>December 31, 2020</span>. Small and micro enterprises face the same requirements starting <span className='font-bold'>June 30, 2026</span>.
       </p>
 
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
         <p className='font-bold text-lg mb-3 text-red-900 flex items-center gap-2'>
           <HiOutlineExclamationTriangle className='text-2xl' />
-          Critical Timeline Update
-        </p>
-        <p className='mb-3'>
-          While the EUDR was originally scheduled for full enforcement in December 2024, the European Commission extended the implementation timeline by one year. The current enforcement dates are:
+          Enforcement Status — March 2026
         </p>
         <ul className='space-y-2 text-sm'>
-          <li><span className='font-bold'>December 30, 2025:</span> Large operators and traders must comply</li>
-          <li><span className='font-bold'>June 30, 2026:</span> Small and micro enterprises must comply</li>
+          <li><span className='font-bold'>December 30, 2025:</span> <span className='text-red-800 font-bold'>NOW ACTIVE</span> — Large operators and traders must comply</li>
+          <li><span className='font-bold'>June 30, 2026:</span> Small and micro enterprises must comply (3 months remaining)</li>
+          <li><span className='font-bold'>EUDR Information System:</span> Live since December 9, 2024 — due diligence statements can be submitted</li>
+          <li><span className='font-bold'>Country Benchmarking:</span> Ethiopia classified as <span className='font-bold'>standard-risk</span> (May 2025)</li>
         </ul>
         <p className='text-sm mt-3 italic'>
-          This extension provides Ethiopian coffee exporters additional time to establish traceability systems and gather required documentation. However, preparation should begin immediately as the process is complex and time-intensive.
+          Ethiopian exporters who have not yet established traceability systems and geolocation documentation face immediate risk of losing EU market access. The window for preparation is closing.
         </p>
       </div>
 
       <p className='my-4'>
-        For Ethiopian coffee exporters, importers, and roasters targeting EU markets, understanding and preparing for EUDR compliance is not optional-it's essential for maintaining access to one of the world's most important coffee markets.
+        Ethiopia earned a record <span className='font-bold'>$2.65 billion</span> from coffee exports in the fiscal year ending June 2025, shipping nearly 469,000 tons — about 30% to the European Union. Losing EU market access would directly impact the country's largest source of foreign exchange and the livelihoods of over 5 million smallholder farming households.
       </p>
 
       {/* TABLE OF CONTENTS */}
@@ -89,13 +94,11 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           In This Guide
         </h3>
         <ol className='space-y-2 text-sm'>
-          <li>• Document every stage: farms → collectors → cooperatives → washing stations → <a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>ECX</a> → export</li>
-          <li>• Dry Mill → <a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>ECX</a>/Warehouse (with ECX documentation)</li>
-          <li>• <a href="https://en.wikipedia.org/wiki/Ethiopian_Commodity_Exchange" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>ECX</a>/Warehouse → Exporter (with purchase contracts)</li>
+          <li><a href="#what-is-eudr" className='text-blue-600 hover:underline'>1. What Is the EU Deforestation Regulation (EUDR)?</a></li>
           <li><a href="#why-matters" className='text-blue-600 hover:underline'>2. Why This Matters for Ethiopian Coffee</a></li>
           <li><a href="#key-requirements" className='text-blue-600 hover:underline'>3. Key Requirements: What Coffee Exporters Must Prove</a></li>
           <li><a href="#timeline" className='text-blue-600 hover:underline'>4. EUDR Timeline and Enforcement Dates</a></li>
-          <li><a href="#ethiopia-preparation" className='text-blue-600 hover:underline'>5. How Ethiopia Is Preparing: National Database and Certification</a></li>
+          <li><a href="#ethiopia-preparation" className='text-blue-600 hover:underline'>5. How Ethiopia Is Preparing: National Platform, Country Benchmarking, and Institutional Response</a></li>
           <li><a href="#traceability-systems" className='text-blue-600 hover:underline'>6. Traceability Requirements: Geolocation and Documentation</a></li>
           <li><a href="#smallholder-challenges" className='text-blue-600 hover:underline'>7. Challenges for Ethiopian Smallholder Farmers</a></li>
           <li><a href="#due-diligence" className='text-blue-600 hover:underline'>8. Due Diligence Statements: What Operators Must Submit</a></li>
@@ -329,7 +332,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </h3>
 
       <p className='my-4'>
-        Understanding the EUDR timeline is critical for planning compliance preparations.
+        The EUDR timeline has evolved through several milestones. As of March 2026, enforcement is active for large operators, with the SME deadline approaching.
       </p>
 
       <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
@@ -337,60 +340,112 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         
         <div className='space-y-4'>
           <div className='flex gap-4'>
-            <span className='font-bold text-blue-800 w-36 flex-shrink-0'>June 29, 2023</span>
-            <span className='text-sm'>EUDR officially published and entered into force</span>
-          </div>
-          <div className='flex gap-4'>
             <span className='font-bold text-blue-800 w-36 flex-shrink-0'>Dec 31, 2020</span>
             <span className='text-sm'><span className='font-bold'>Cutoff date</span> for deforestation-free requirement (retroactive)</span>
           </div>
           <div className='flex gap-4'>
-            <span className='font-bold text-blue-800 w-36 flex-shrink-0'>Dec 30, 2024</span>
-            <span className='text-sm'>Original enforcement date (later extended)</span>
+            <span className='font-bold text-blue-800 w-36 flex-shrink-0'>June 29, 2023</span>
+            <span className='text-sm'>EUDR officially published and entered into force</span>
           </div>
           <div className='flex gap-4'>
-            <span className='font-bold text-red-800 w-36 flex-shrink-0'>Dec 30, 2025</span>
-            <span className='text-sm'><span className='font-bold'>Compliance mandatory for large operators and traders</span></span>
+            <span className='font-bold text-blue-800 w-36 flex-shrink-0'>Dec 9, 2024</span>
+            <span className='text-sm'>EUDR Information System launched — due diligence statements can be submitted</span>
+          </div>
+          <div className='flex gap-4'>
+            <span className='font-bold text-blue-800 w-36 flex-shrink-0'>May 26, 2025</span>
+            <span className='text-sm'>European Commission publishes first country risk classifications — Ethiopia rated <span className='font-bold'>standard-risk</span></span>
+          </div>
+          <div className='flex gap-4'>
+            <span className='font-bold text-green-800 w-36 flex-shrink-0'>✓ Dec 30, 2025</span>
+            <span className='text-sm'><span className='font-bold'>Enforcement active</span> for large operators and traders</span>
           </div>
           <div className='flex gap-4'>
             <span className='font-bold text-red-800 w-36 flex-shrink-0'>June 30, 2026</span>
-            <span className='text-sm'><span className='font-bold'>Compliance mandatory for small and micro enterprises</span></span>
+            <span className='text-sm'><span className='font-bold'>Compliance mandatory</span> for small and micro enterprises</span>
           </div>
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>What the Extension Means</h4>
+      <h4 className='text-xl font-bold mt-8 mb-3'>Where Things Stand Now</h4>
 
       <p className='my-4'>
-        The one-year extension from December 2024 to December 2025 (for large operators) provides crucial additional preparation time. However:
+        Large EU-based operators and traders must now submit due diligence statements for every coffee shipment entering the EU. The compliance infrastructure is live: the EUDR Information System accepts submissions, and country risk classifications determine inspection rates.
       </p>
 
       <div className='space-y-3 my-6'>
+        <div className='bg-red-50 p-4 rounded-lg border-l-4 border-red-500'>
+          <p className='text-sm'><span className='font-bold'>Enforcement Is Real:</span> Coffee shipments arriving at EU ports without valid due diligence statements face rejection, confiscation, and fines of up to 4% of the operator's EU turnover.</p>
+        </div>
         <div className='bg-amber-50 p-4 rounded-lg border-l-4 border-amber-500'>
-          <p className='text-sm'><span className='font-bold'>Don't Wait:</span> The extension is not a reason to delay. Building comprehensive traceability systems, collecting geolocation data from thousands of farms, and establishing documentation processes takes many months.</p>
+          <p className='text-sm'><span className='font-bold'>SME Deadline Approaching:</span> Small and micro enterprises have until June 30, 2026 — roughly three months from now. The European Commission has proposed simplified due diligence for SMEs, but the core requirements (geolocation, deforestation-free evidence) remain unchanged.</p>
         </div>
         <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-500'>
-          <p className='text-sm'><span className='font-bold'>Early Compliance = Competitive Advantage:</span> Exporters who achieve compliance early will have preferential access to EU buyers who need guaranteed EUDR-compliant coffee.</p>
-        </div>
-        <div className='bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500'>
-          <p className='text-sm'><span className='font-bold'>Test and Refine:</span> Use the extension period to test your compliance systems with actual shipments, identify gaps, and refine processes before the hard deadline.</p>
+          <p className='text-sm'><span className='font-bold'>Compliant Exporters Are Winning:</span> Ethiopian exporters with established traceability systems are already securing orders from EU buyers who must source EUDR-compliant coffee. Compliance is now a direct commercial differentiator.</p>
         </div>
       </div>
 
       {/* SECTION 5: ETHIOPIA'S PREPARATION */}
       <h3 id="ethiopia-preparation" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineShieldCheck className='text-amber-600' />
-        5. How Ethiopia Is Preparing: National Database and Certification
+        5. How Ethiopia Is Preparing: National Platform, Country Benchmarking, and Institutional Response
       </h3>
 
-        <p className='my-4'>
-        The Ethiopian government, through the <a href="https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>Ethiopian Coffee, Tea and Spice Authority</a>, is actively working to prepare the country's coffee sector for EUDR compliance.
+      <p className='my-4'>
+        Ethiopia's preparation for EUDR compliance has advanced significantly since 2024. The <a href="https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>Ethiopian Coffee and Tea Authority (ECTA)</a>, the Ministry of Finance, and development partners have moved from planning to implementation.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>National Coffee Database Initiative</h4>
+      <h4 className='text-xl font-bold mt-6 mb-3'>Country Benchmarking: Ethiopia's Standard-Risk Classification</h4>
 
       <p className='my-4'>
-        According to Tegay Nuru, Deputy Director General and Development Sector Head of the Ethiopian Coffee, Tea and Spice Authority, Ethiopia is undertaking a massive project to:
+        On May 26, 2025, the European Commission published its first list of country risk classifications under the EUDR benchmarking system. Ethiopia was classified as a <span className='font-bold'>standard-risk country</span> — the middle tier between low-risk and high-risk.
+      </p>
+
+      <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
+        <h5 className='font-bold mb-3'>What Standard-Risk Means for Ethiopian Coffee Exports</h5>
+        <ul className='space-y-2 text-sm'>
+          <li>• <span className='font-bold'>Inspection rate of ~3%</span> of shipments (vs. ~1% for low-risk countries and ~9% for high-risk)</li>
+          <li>• EU operators importing Ethiopian coffee must conduct <span className='font-bold'>standard due diligence</span> — not the simplified procedure available for low-risk origins</li>
+          <li>• Ethiopia can move to low-risk status by demonstrating sustained compliance, effective enforcement, and low deforestation rates</li>
+          <li>• The classification is reviewed periodically and can change based on performance data</li>
+        </ul>
+      </div>
+
+      <h4 className='text-xl font-bold mt-8 mb-3'>Unified National Traceability Platform</h4>
+
+      <p className='my-4'>
+        In August 2025, the Ministry of Finance and ECTA confirmed that a <span className='font-bold'>unified national traceability platform</span> is now operational. This platform tracks coffee from the farm level through every stage of the supply chain to the point of export.
+      </p>
+
+      <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
+        <h4 className='font-bold mb-4'>Platform and Institutional Developments:</h4>
+        <ul className='space-y-3 text-sm'>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Unified national platform operational:</span> Tracks coffee from farm to export, extending beyond the dispatch point</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>EUDR Working Group established:</span> Multi-stakeholder body created to coordinate compliance across government, cooperatives, exporters, and development partners</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>ECTA centralization directive:</span> Director General Adugna Debela (PhD) directed all geolocation data gathered by stakeholders to be submitted to ECTA for validation, creating a single reliable source of information</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Development partner support:</span> GIZ, UNDP, ITC (International Trade Centre), and Dutch trade missions are co-investing in traceability infrastructure and capacity building</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>National Action Plan:</span> Developed jointly by ITC and ECTA, outlining activities and implementing organizations for sector-wide compliance</span>
+          </li>
+        </ul>
+      </div>
+
+      <h4 className='text-xl font-bold mt-8 mb-3'>National Coffee Database</h4>
+
+      <p className='my-4'>
+        ECTA continues building a comprehensive database designed to:
       </p>
 
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
@@ -444,16 +499,17 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Progress and Timeline</h4>
+      <h4 className='text-xl font-bold mt-8 mb-3'>Progress and Remaining Gaps</h4>
 
       <p className='my-4'>
-        The Ethiopian Coffee Authority aims to have the national database operational and issuing deforestation-free certificates by the EUDR enforcement deadline. However, the complexity means:
+        Significant progress has been made, but gaps remain:
       </p>
 
       <ul className='space-y-2 my-6 list-disc ml-6 text-sm'>
-        <li>Database development is ongoing and will likely be phased, prioritizing major export regions (Yirgacheffe, Sidamo, Guji, etc.) first</li>
-        <li>Exporters may need to work with cooperatives and farmers to collect their own geolocation data rather than waiting for complete national coverage</li>
-        <li>Early-adopter regions and cooperatives that complete registration first will have market advantages</li>
+        <li>Database rollout is being phased, prioritizing major export regions (<Link href='/ethiopian-coffee-yirgacheffe' className='text-blue-600 underline'>Yirgacheffe</Link>, <Link href='/ethiopian-coffee-sidamo' className='text-blue-600 underline'>Sidamo</Link>, <Link href='/ethiopian-coffee-guji' className='text-blue-600 underline'>Guji</Link>) first</li>
+        <li>All geolocation data gathered by stakeholders is being submitted to ECTA for validation and verification before being shared with EU buyers</li>
+        <li>Exporters with established traceability systems are operating ahead of the national database and securing EU contracts now</li>
+        <li>State Minister of Finance Semereta Sewasew has stressed "the critical importance" of meeting the EUDR deadline to strengthen Ethiopia–EU coffee trade relations</li>
       </ul>
 
       {/* SECTION 6: TRACEABILITY SYSTEMS */}
@@ -548,8 +604,16 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </h3>
 
       <p className='my-4'>
-        While EUDR aims to protect forests, its requirements create significant challenges for smallholder farmers who produce over 90% of Ethiopian coffee.
+        While EUDR aims to protect forests, its requirements create significant challenges for smallholder farmers who produce over 90% of Ethiopian coffee. A March 2025 study by the RAISE FS project found that <span className='font-bold'>nearly half of smallholders and traders interviewed were unaware of the EUDR</span> and its compliance requirements.
       </p>
+
+      <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
+        <h5 className='font-bold mb-3 text-red-900 flex items-center gap-2'>
+          <HiOutlineExclamationTriangle className='text-xl' />
+          Market Shift Risk
+        </h5>
+        <p className='text-sm'>Early reports indicate some European coffee buyers are shifting purchases away from Ethiopian origins toward countries with more established traceability infrastructure. This trend threatens to reduce demand for Ethiopian coffee in Europe — and with it, the premium prices EU specialty buyers typically pay — even before enforcement penalties take effect.</p>
+      </div>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Key Challenges</h4>
 
@@ -600,7 +664,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       </h3>
 
       <p className='my-4'>
-        Under EUDR, <span className='font-bold'>"operators"</span> (companies placing products on the EU market for the first time) must submit <span className='font-bold'>Due Diligence Statements</span> through an EU Information System before products can enter the EU market.
+        Under EUDR, <span className='font-bold'>"operators"</span> (companies placing products on the EU market for the first time) must submit <span className='font-bold'>Due Diligence Statements</span> through the <span className='font-bold'>EUDR Information System</span> before products can enter the EU market. The Information System has been live since December 9, 2024, and is now actively processing submissions from large operators.
       </p>
 
       <h4 className='text-xl font-bold mt-6 mb-3'>Who Is an "Operator"?</h4>
@@ -711,7 +775,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       <h4 className='text-xl font-bold mt-8 mb-3'>Ethiopian Government Response</h4>
 
       <p className='my-4'>
-          The <a href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1115" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>EU Deforestation Regulation</a> (<a href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1115" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>Regulation 2023/1115</a>) is a comprehensive European Union law designed to minimize the EU's contribution to global deforestation and forest degradation by ensuring that products placed on the EU market are deforestation-free.
+        The Ethiopian government is coordinating across multiple agencies to address EUDR's legality requirements, including labor compliance. The Ministry of Labor and Social Affairs is working with the <a href="https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-600 underline'>Ethiopian Coffee and Tea Authority (ECTA)</a> and regional labor bureaus to strengthen monitoring and enforcement in coffee-producing areas.
       </p>
 
       <div className='space-y-3 my-6'>
@@ -801,12 +865,12 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         </div>
 
         <div className='bg-gray-50 p-6 rounded-lg border-l-4 border-red-500'>
-          <h4 className='font-bold text-lg mb-3'>Step 5: Integrate with National System (As Available)</h4>
+          <h4 className='font-bold text-lg mb-3'>Step 5: Integrate with the National Traceability Platform</h4>
           <ul className='space-y-2 text-sm'>
-            <li>• Register with Ethiopia's national coffee database once operational</li>
-            <li>• Ensure your farm data aligns with government records</li>
-            <li>• Obtain official deforestation-free certificates from Ethiopian authorities</li>
-            <li>• Utilize government systems to simplify compliance verification</li>
+            <li>• Register with the unified national traceability platform managed by ECTA</li>
+            <li>• Submit geolocation data for validation and cross-reference with government records</li>
+            <li>• Obtain official deforestation-free certificates through the platform</li>
+            <li>• Align your internal records with the national database for consistency</li>
           </ul>
         </div>
 
@@ -947,73 +1011,32 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       {/* CONCLUSION & CTA */}
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>
-          Conclusion: EUDR Compliance Is Essential and Achievable
+          Conclusion: EUDR Compliance Is Now the Cost of Entry
         </h4>
         <p className='mb-3'>
-          The EU Deforestation Regulation represents a fundamental shift in international coffee trade. For Ethiopian coffee exporters, EUDR compliance is not just a regulatory checkbox-it's a strategic imperative that will determine market access, profitability, and competitiveness in the coming years.
+          The EU Deforestation Regulation is no longer a future concern — enforcement is active for large operators, and the SME deadline is months away. For Ethiopian coffee exporters, EUDR compliance directly determines whether they retain access to the EU market, which absorbs 30% of the country's $2.65 billion in annual coffee exports.
         </p>
         <p className='mb-3'>
-          While the requirements are substantial, they are achievable with proper planning, investment in traceability systems, and coordination across the supply chain. The one-year extension provides valuable time, but that time must be used proactively.
+          Ethiopia has made real progress: a unified national traceability platform is operational, an EUDR Working Group coordinates across stakeholders, and development partners are co-investing in compliance infrastructure. The country's classification as standard-risk confirms that EU regulators see both the challenges and the commitment.
         </p>
         <p>
-          Ethiopian exporters who embrace EUDR as an opportunity rather than just a burden will emerge as leaders in the global specialty coffee market, commanding premium prices and building lasting partnerships with quality-conscious EU buyers.
+          Exporters who have built traceability systems and secured geolocation data are already winning EU contracts. Those who have not must act immediately — the commercial penalty for inaction is losing access to one of the world's most valuable specialty coffee markets.
         </p>
       </div>
 
-      {/* KEY TAKEAWAYS */}
-      <h3 className='text-2xl font-extrabold mt-10 mb-4'>
-        Key Takeaways
-      </h3>
-      <div className='my-6 space-y-3'>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>EUDR requires all coffee entering EU markets to be deforestation-free (land not deforested after Dec 31, 2020) and legally produced</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Enforcement begins December 30, 2025 for large operators; June 30, 2026 for small/micro enterprises-preparation must start immediately</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Core requirements include GPS coordinates of all production plots, deforestation-free evidence, legality documentation, and complete supply chain traceability</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopia is building a national coffee database to register farms and issue deforestation-free certificates-but exporters should not wait for completion</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Smallholder farmers (90%+ of Ethiopian production) face challenges in documentation, GPS data collection, and awareness-requiring coordinated support</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>EU operators submit Due Diligence Statements; Ethiopian exporters must provide all supporting documentation to enable buyer compliance</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Legality requirements include labor rights compliance-Ethiopia is coordinating with Ministry of Labor to address child labor concerns</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Non-compliance risks include lost EU market access (30-40% of exports), shipment rejection, and reputational damage</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Early compliance creates competitive advantages: preferred supplier status, price premiums, long-term partnerships, and market differentiation</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopia has natural advantages (established coffee landscapes, forest coffee, government support) that can facilitate compliance if properly utilized</p>
-        </div>
-      </div>
+
 
       {/* FAQ SECTION */}
       <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
         <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About EUDR and Ethiopian Coffee Compliance</h3>
         <div className="space-y-6">
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">When does the EU Deforestation Regulation apply to Ethiopian coffee exports?</h4>
-            <p className="text-sm text-gray-600">The EUDR enforcement begins December 30, 2025 for large operators and June 30, 2026 for small and micro enterprises. All coffee entering EU markets after these dates must be verified as deforestation-free.</p>
+            <h4 className="font-bold text-gray-800 mb-2">Is the EUDR currently enforced for Ethiopian coffee exports?</h4>
+            <p className="text-sm text-gray-600">Yes. EUDR enforcement began December 30, 2025 for large operators and traders. Small and micro enterprises must comply by June 30, 2026. All coffee entering EU markets must now be verified as deforestation-free, with due diligence statements submitted through the EUDR Information System.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What is Ethiopia's EUDR country risk classification?</h4>
+            <p className="text-sm text-gray-600">Ethiopia was classified as standard-risk in the European Commission's first country benchmarking published May 26, 2025. Standard-risk means approximately 3% of coffee shipments will be inspected at EU borders — lower than high-risk countries (9%) but higher than low-risk countries (1%).</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What documents do Ethiopian coffee exporters need for EUDR compliance?</h4>
@@ -1021,15 +1044,15 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Does Ethiopian coffee need GPS traceability for the EU Deforestation Regulation?</h4>
-            <p className="text-sm text-gray-600">Yes. EUDR requires geolocation data (GPS coordinates) for all plots of land where coffee was produced. For plots larger than four hectares, polygon boundary coordinates are required.</p>
-          </div>
-          <div>
-            <h4 className="font-bold text-gray-800 mb-2">How does EUDR compliance affect Ethiopian coffee prices?</h4>
-            <p className="text-sm text-gray-600">EUDR compliance adds costs for traceability systems and documentation. However, compliant exporters can command premium prices from EU buyers who need verified, deforestation-free supply chains.</p>
+            <p className="text-sm text-gray-600">Yes. EUDR requires geolocation data (GPS coordinates) for all plots of land where coffee was produced. For plots under four hectares, a single coordinate point suffices. For plots larger than four hectares, polygon boundary coordinates are required.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Can smallholder Ethiopian coffee farmers comply with EUDR requirements?</h4>
-            <p className="text-sm text-gray-600">Yes, though it requires coordinated support. Over 90% of Ethiopian coffee comes from smallholders. Cooperatives and exporters are working to collect GPS data and documentation on behalf of individual farmers.</p>
+            <p className="text-sm text-gray-600">Yes, though it requires coordinated support. Over 90% of Ethiopian coffee comes from smallholders on plots under two hectares. Cooperatives, exporters, and the national traceability platform are collecting GPS data and documentation on behalf of individual farmers.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How does EUDR compliance affect Ethiopian coffee prices?</h4>
+            <p className="text-sm text-gray-600">EUDR compliance adds costs for traceability systems and documentation. However, compliant exporters are commanding premium prices from EU buyers who need verified deforestation-free supply chains. Non-compliant coffee must be diverted to non-EU markets at lower prices.</p>
           </div>
         </div>
       </section>
@@ -1040,7 +1063,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
           EUDR-Compliant Ethiopian Coffee From Ethio Coffee Export
         </h3>
         <p className='mb-4'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is actively preparing for EUDR compliance across our supply chain. We're investing in traceability systems, collecting geolocation data, and working with our partner cooperatives to ensure our coffee meets all EU requirements.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> supplies EUDR-compliant Ethiopian coffee with full traceability documentation. With over 30 years of origin sourcing experience, we work directly with partner cooperatives across Ethiopia's major growing regions to deliver verified, deforestation-free coffee to EU importers.
         </p>
         <ul className='space-y-2 mb-6'>
           <li className='flex items-start gap-2'>
@@ -1087,23 +1110,22 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
       
       <div className='grid md:grid-cols-2 gap-4 my-6'>
         <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h4 className='font-bold mb-2'>Export & Compliance Guides</h4>
+          <h4 className='font-bold mb-2'>Compliance & Traceability</h4>
           <ul className='space-y-1 text-sm'>
-            <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
-            <li>• <Link href="/insights/navigating-2026-ethiopian-specialty-coffee-exporters" className='text-blue-600 hover:underline'>Ethiopian Specialty Coffee Exporters 2026</Link></li>
+            <li>• <Link href="/insights/ethiopian-coffee-traceability-guide" className='text-blue-600 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+            <li>• <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className='text-blue-600 hover:underline'>Ethiopian Coffee Certifications: Organic, Fairtrade, Rainforest Alliance</Link></li>
             <li>• <Link href="/insights/importing-ethiopian-coffee-to-germany" className='text-blue-600 hover:underline'>Import Ethiopian Coffee to Germany/EU</Link></li>
-            <li>• <Link href="/insights/importing-ethiopian-coffee-to-holland" className='text-blue-600 hover:underline'>Import Ethiopian Coffee to Netherlands</Link></li>
+            <li>• <Link href="/insights/navigating-2026-ethiopian-specialty-coffee-exporters" className='text-blue-600 hover:underline'>Ethiopian Specialty Coffee Exporters 2026</Link></li>
             <li>• <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 hover:underline'>Understanding the Ethiopian ECX System</Link></li>
-            <li>• <Link href="/insights/how-to-source-green-coffee-from-ethiopia" className='text-blue-600 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h4 className='font-bold mb-2'>Quality & Sustainability</h4>
+          <h4 className='font-bold mb-2'>Export & Market Access</h4>
           <ul className='space-y-1 text-sm'>
-            <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
-            <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+            <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
+            <li>• <Link href="/insights/how-to-source-green-coffee-from-ethiopia" className='text-blue-600 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+            <li>• <Link href="/insights/importing-ethiopian-coffee-to-holland" className='text-blue-600 hover:underline'>Import Ethiopian Coffee to Netherlands</Link></li>
             <li>• <Link href="/insights/guide-ethiopian-coffee-origins" className='text-blue-600 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
-            <li>• <Link href="/insights/complete-guide-to-understanding-coffee" className='text-blue-600 hover:underline'>Complete Guide to Understanding Coffee</Link></li>
           </ul>
         </div>
       </div>

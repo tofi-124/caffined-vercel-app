@@ -147,7 +147,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       </h3>
 
       <p className='my-4'>
-        Ethiopian coffee prices are not fixed. They fluctuate based on multiple factors that importers should understand before negotiating:
+        Ethiopian coffee prices are not fixed. They fluctuate based on multiple factors that importers should understand before negotiating. For a broader look at the macro forces driving current price levels, see our analysis of <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='underline font-semibold'>why Ethiopian coffee prices are rising</Link>.
       </p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4 my-6'>

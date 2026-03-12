@@ -83,7 +83,7 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
         Ethiopian Directive 1106/2025 raised the minimum registered capital for coffee exporters. Private exporters must now hold at least 15 million Ethiopian birr in registered capital. Cooperative unions require 20 million birr. These thresholds exist to ensure exporters have sufficient financial backing to fulfill contracts and absorb operational risks. An exporter unable to verify compliance with these requirements may lack the stability to handle large orders reliably.
       </p>
       <p className='my-4'>
-        Our article on <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='underline font-bold'>private vs. cooperative Ethiopian coffee exporters</Link> covers the structural differences between these two export models, including how capital requirements, certification access, and sourcing strategies differ.
+        The <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='underline font-bold'>private vs. cooperative Ethiopian coffee exporters</Link> guide covers the structural differences between these two export models, including how capital requirements, certification access, and sourcing strategies differ.
       </p>
 
       <h4 className='text-xl font-bold mt-6'>Direct Specialty Line (DSL) Eligibility</h4>

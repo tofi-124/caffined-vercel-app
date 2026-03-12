@@ -441,7 +441,7 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
 
       <h4 className='text-xl font-bold mt-8 mb-4'>Directive 1106/2025 and Vertical Integration</h4>
       <p className='my-4'>
-        Ethiopia&apos;s Directive 1106/2025 expanded the rules for vertical integration, allowing direct delivery of coffee from suppliers to exporters without passing through ECX grading and weighing procedures in certain cases. This change gives exporters more flexibility to source and process specialty coffee within their own supply chains. For importers, this means more exporters can now offer fully traceable, identity-preserved lots outside the traditional ECX auction system. Our analysis of the <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='underline font-semibold'>private vs. cooperative exporter landscape</Link> covers how this directive reshapes sourcing options.
+        Ethiopia&apos;s Directive 1106/2025 expanded the rules for vertical integration, allowing direct delivery of coffee from suppliers to exporters without passing through ECX grading and weighing procedures in certain cases. This change gives exporters more flexibility to source and process specialty coffee within their own supply chains. For importers, this means more exporters can now offer fully traceable, identity-preserved lots outside the traditional ECX auction system. The <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='underline font-semibold'>private vs. cooperative exporter comparison</Link> covers how this directive reshapes sourcing options.
       </p>
 
       {/* ═══════════════════════════════════════════ */}

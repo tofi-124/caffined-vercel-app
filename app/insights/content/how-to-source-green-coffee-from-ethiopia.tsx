@@ -244,7 +244,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
 
       <h3 className='text-xl font-bold mt-8 mb-4'>Step 2: Find and Evaluate Ethiopian Exporters</h3>
       <p className='my-4'>
-        Verify that any exporter holds an active license from the Ethiopian Coffee and Tea Authority (ECTA) and is registered with the ECX. Ask for the license number and cross-reference it. Request buyer references from companies the exporter has shipped to within the past 12 months. Our <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline font-semibold'>10-point exporter evaluation scorecard</Link> covers what to check and what red flags to watch for.
+        Verify that any exporter holds an active license from the Ethiopian Coffee and Tea Authority (ECTA) and is registered with the ECX. Ask for the license number and cross-reference it. Request buyer references from companies the exporter has shipped to within the past 12 months. Our <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline font-semibold'>10-point exporter evaluation scorecard</Link> covers what to check and what red flags to watch for. For a global perspective on how the best Ethiopian exporters compare to <Link href='/insights/top-premium-coffee-exporters-global-guide' className='text-amber-700 hover:underline font-semibold'>top coffee exporters worldwide</Link>, see our benchmarking guide.
       </p>
 
       <h3 className='text-xl font-bold mt-8 mb-4'>Step 3: Request and Evaluate Samples</h3>
@@ -544,6 +544,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
               <li>&bull; <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade Ethiopian Coffee for Importers</Link></li>
               <li>&bull; <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link></li>
               <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide for Importers</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
             </ul>
           </div>
           <div>

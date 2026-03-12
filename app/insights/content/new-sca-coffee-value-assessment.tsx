@@ -265,7 +265,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         What the CVA Means for Ethiopian Coffee
       </h3>
       <p className='my-4'>
-        Ethiopia produces some of the world&#39;s most flavor-diverse coffees, from the jasmine and bergamot notes of <Link href='/ethiopian-coffee-yirgacheffe' className='underline font-bold'>Yirgacheffe</Link> to the blueberry-forward naturals of <Link href='/ethiopian-coffee-guji' className='underline font-bold'>Guji</Link> and the wine-like complexity of <Link href='/ethiopian-coffee-harar' className='underline font-bold'>Harar</Link>. The CVA system is particularly well-suited to capturing this diversity.
+        Ethiopia produces some of the world&#39;s most flavor-diverse coffees, from the jasmine and bergamot notes of <Link href='/ethiopian-coffee-yirgacheffe' className='underline font-bold'>Yirgacheffe</Link> to the blueberry-forward naturals of <Link href='/ethiopian-coffee-guji' className='underline font-bold'>Guji</Link> and the wine-like complexity of <Link href='/ethiopian-coffee-harar' className='underline font-bold'>Harar</Link>. International competitions like the <Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='text-amber-700 hover:underline'>AFCA Taste of Harvest</Link> celebrate these distinctive profiles, and the CVA system is particularly well-suited to capturing this diversity.
       </p>
 
       <div className='my-6'>

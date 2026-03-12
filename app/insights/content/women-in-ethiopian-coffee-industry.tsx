@@ -68,7 +68,7 @@ export default function WomenInEthiopianCoffeeIndustry({ title, date, large_imag
       </h3>
       <p className='my-4'>
         In the highland coffee zones of Sidama, Yirgacheffe, and Guji, women handle tasks that directly determine final cup quality.
-        Selective cherry picking, for instance, requires experienced hands that can distinguish between underripe, ripe, and overripe fruit across multiple passes through the same plot.
+        <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective cherry picking</Link>, for instance, requires experienced hands that can distinguish between underripe, ripe, and overripe fruit across multiple passes through the same plot.
         This is skilled work, and in most smallholder households, it is women who perform it.
       </p>
 

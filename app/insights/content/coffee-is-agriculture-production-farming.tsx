@@ -332,7 +332,7 @@ export default function CoffeeIsAgricultureProductionFarming({ title, date, larg
         Coffee plants require 2 to 3 years after transplanting before first harvest. Flowering follows dry-season stress: short, intense blooms lasting 3 to 4 days attract pollinators. While Arabica self-pollinates, cross-pollination (common in Ethiopia&apos;s genetically diverse plots) improves yield and resilience.
       </p>
       <p className='my-4'>
-        Fruit development takes approximately 8 months after flowering. Cherries transition from green to deep red or purple at peak ripeness. On Ethiopian farms, harvest relies on selective hand-picking across multiple passes, sometimes 3 to 5 rounds per season. This labor-intensive method ensures that only ripe cherries enter processing, a key factor in Ethiopia&apos;s specialty-grade quality.
+        Fruit development takes approximately 8 months after flowering. Cherries transition from green to deep red or purple at peak ripeness. On Ethiopian farms, harvest relies on <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>selective hand-picking</Link> across multiple passes, sometimes 3 to 5 rounds per season. This labor-intensive method ensures that only ripe cherries enter processing, a key factor in Ethiopia&apos;s specialty-grade quality.
       </p>
 
       <h3 className='text-2xl font-bold mt-6 mb-3'>Productive Lifespan</h3>

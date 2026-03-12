@@ -268,6 +268,9 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
         <li><strong>Contact time:</strong> Longer contact time increases extraction. Espresso extracts in 25-30 seconds under pressure; pour-over in 2:30-3:30; French press in 4:00-5:00.</li>
         <li><strong>Agitation:</strong> Stirring, pouring technique, and turbulence affect how evenly water contacts the coffee bed. Consistent pour patterns in pour-over produce more even extraction than erratic pouring.</li>
       </ul>
+      <p className='my-4'>
+        For hands-on recipes that apply these variables to specific Ethiopian regions and processing methods, including pour-over, espresso, and batch brew parameters, see our <Link href='/insights/best-coffee-guide-french-press-pour-over-scales' className='text-amber-700 hover:underline'>Ethiopian coffee brew profiles for roasters</Link>.
+      </p>
 
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Water Chemistry: Mineral Content and Flavor Impact</h3>
       <p className='my-4'>

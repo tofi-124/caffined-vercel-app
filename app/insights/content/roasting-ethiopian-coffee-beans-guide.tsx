@@ -441,7 +441,7 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
       </p>
 
       <p className='my-4'>
-        Chemex with its thick paper filter accentuates the tea-like body and floral clarity of washed Ethiopian coffees. V60 and Kalita Wave allow slightly more body through, which suits naturals and honey-processed lots. Cold brew using a coarse grind and 16-24 hour steep produces a strikingly smooth cup from Ethiopian beans, emphasizing stone fruit sweetness while moderating acidity.
+        Chemex with its thick paper filter accentuates the tea-like body and floral clarity of washed Ethiopian coffees. V60 and Kalita Wave allow slightly more body through, which suits naturals and honey-processed lots. Cold brew using a coarse grind and 16-24 hour steep produces a strikingly smooth cup from Ethiopian beans, emphasizing stone fruit sweetness while moderating acidity. For region-by-region pour-over, espresso, and batch brew parameters calibrated to Ethiopian lots, see our <Link href='/insights/best-coffee-guide-french-press-pour-over-scales' className='text-amber-700 hover:underline'>Ethiopian coffee brew profiles guide</Link>.
       </p>
 
       <h4 className='text-xl font-bold mt-8 mb-3'>Espresso Roast</h4>

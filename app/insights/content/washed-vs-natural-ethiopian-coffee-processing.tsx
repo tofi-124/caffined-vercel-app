@@ -323,7 +323,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
         7. Quality Control and Defect Risk
       </h2>
       <p className='my-4'>
-        Each processing method carries different quality risks. Knowing what to look for during sample evaluation helps buyers avoid costly quality issues after arrival.
+        Each processing method carries different quality risks. Knowing what to look for during sample evaluation helps buyers avoid costly quality issues after arrival. For a step-by-step guide to evaluating processing quality through <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline font-bold'>cupping and sensory assessment</Link>, see our Ethiopian coffee sample evaluation guide.
       </p>
       <div className='grid md:grid-cols-2 gap-6 my-6'>
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>

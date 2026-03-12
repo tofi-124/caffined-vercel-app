@@ -253,7 +253,7 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
         </ul>
       </div>
       <p className='my-4'>
-        The SCA updated its sensory evaluation framework in 2024 with the Coffee Value Assessment (CVA), which replaces the traditional 100-point cupping form with a more structured sensory approach. Most importers and exporters still reference the traditional scoring system for contract specifications. For a breakdown of the new CVA system, see our guide on the <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>SCA Coffee Value Assessment</Link>.
+        The SCA updated its sensory evaluation framework in 2024 with the Coffee Value Assessment (CVA), which replaces the traditional 100-point cupping form with a more structured sensory approach. Most importers and exporters still reference the traditional scoring system for contract specifications. To develop your hands-on cupping skills and learn the practical sensory evaluation process, see our <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline font-bold'>guide to cupping and evaluating Ethiopian coffee samples</Link>. For a breakdown of the new CVA system, see our guide on the <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>SCA Coffee Value Assessment</Link>.
       </p>
 
       {/* SECTION 4 */}

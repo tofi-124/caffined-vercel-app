@@ -1,15 +1,14 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { 
-  HiOutlineCalendarDays, 
+import {
   HiOutlineGlobeAlt,
   HiOutlineBanknotes,
-  HiOutlineScale,
   HiOutlineExclamationTriangle,
   HiOutlineChartBarSquare,
   HiOutlineLightBulb,
   HiOutlineCheckCircle,
-  HiOutlineArrowTrendingUp
+  HiOutlineArrowTrendingUp,
+  HiOutlineScale
 } from 'react-icons/hi2'
 
 type InsightContentProps = {
@@ -25,18 +24,17 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        A comprehensive analysis of why Ethiopian coffee prices are rising, what's driving the global specialty coffee market upward, and what importers and roasters need to know about sourcing Ethiopian green coffee in 2026.
+        Why specialty Ethiopian coffee costs more in 2026, and how importers and roasters can adapt their sourcing strategy.
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
           Understanding the forces behind rising Ethiopian coffee prices helps importers make informed sourcing decisions.
         </figcaption>
-
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='Rising Ethiopian coffee prices market analysis 2026 specialty coffee export costs'
+            alt='Ethiopian coffee prices market analysis 2026 showing green coffee beans at an export warehouse'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -45,950 +43,375 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         </div>
       </figure>
 
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-4 my-6'>
+        <span className='font-bold'>Key Takeaway: </span>
+        Ethiopian coffee prices are rising because of a convergence of global supply constraints, climate disruption, record cherry costs in the 2025/26 harvest, currency dynamics, and accelerating specialty demand. Importers who build direct exporter relationships, pre-contract early, and communicate value transparently will manage this market most effectively.
+      </div>
+
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
         <span className='ml-2'>Market Analysis / Coffee Economics / Price Trends</span>
       </div>
 
-      <div className='bg-amber-50 border border-amber-200 rounded-lg p-4 my-6'>
-        <span className='font-bold'>Key Takeaway: </span>
-        Ethiopian coffee prices are rising due to global supply constraints, climate disruption, currency dynamics, and growing specialty demand. Importers who build strong exporter relationships, use forward contracting, and communicate value to customers will adapt most effectively.
-      </div>
-
       {/* INTRODUCTION */}
       <p className='my-4'>
-        If you've been sourcing <span className='font-bold'>Ethiopian specialty coffee</span> recently, you've likely noticed something significant: <span className='font-bold'>prices are rising</span>. And they're not just creeping up; they're climbing at rates not seen in years. In early 2026, Arabica coffee futures have reached levels that are making headlines worldwide, and Ethiopian coffee, already prized for its exceptional quality, is commanding premium prices that reflect both global market forces and unique local factors.
+        If you source <span className='font-bold'>Ethiopian specialty coffee</span>, the price trajectory is unmistakable: <span className='font-bold'>Ethiopian coffee prices are climbing at rates not seen in years</span>. Arabica futures reached approximately 348 cents per pound in early 2026, and Ethiopian G1/G2 specialty lots are commanding FOB prices of $5.00 to $7.00+ per pound. These are not temporary spikes. Multiple structural forces are converging to create what market analysts call a &quot;higher for longer&quot; pricing environment.
       </p>
-
       <p className='my-4'>
-        For importers, roasters, and coffee businesses worldwide, understanding <span className='font-bold'>why Ethiopian coffee prices are increasing</span> isn't just about budgeting; it's about strategic planning, supplier relationships, and maintaining quality in an increasingly volatile market.
+        This analysis breaks down exactly why Ethiopian coffee prices are increasing, what the 2025/26 harvest reveals about future supply, and what importers and roasters can do to manage costs without sacrificing quality.
       </p>
 
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineArrowTrendingUp className='text-3xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Current Market Reality (Early 2026):</span> Arabica coffee futures are trading at 348.75 cents per pound (March 2026 contract), representing significant increases from previous years. Ethiopian specialty-grade coffees (G1 and G2) are commanding FOB prices of $5.00 to $7.00+ per pound, reflecting both quality and scarcity.</span>
-        </p>
-      </div>
-
-      <p className='my-4'>
-        This comprehensive guide explores the complex story behind rising Ethiopian coffee prices, examining global market dynamics, local factors in Ethiopia, currency impacts, climate challenges, and what it all means for the future of specialty coffee sourcing.
-      </p>
-
-      {/* TABLE OF CONTENTS */}
-      <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
-        <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
-          <HiOutlineChartBarSquare className='text-amber-600' />
-          In This Analysis
-        </h3>
-        <ol className='space-y-2 text-sm'>
-          <li><a href="#global-context" className='text-blue-600 hover:underline'>1. The Global Coffee Price Surge: Understanding the Big Picture</a></li>
-          <li><a href="#brazilian-impact" className='text-blue-600 hover:underline'>2. Brazil's Production Crisis and Its Ripple Effect</a></li>
-          <li><a href="#climate-factors" className='text-blue-600 hover:underline'>3. Climate Change: The Long-Term Price Driver</a></li>
-          <li><a href="#currency-devaluation" className='text-blue-600 hover:underline'>4. Ethiopian Birr Devaluation and Export Pricing</a></li>
-          <li><a href="#cost-inflation" className='text-blue-600 hover:underline'>5. Rising Production and Export Costs in Ethiopia</a></li>
-          <li><a href="#quality-premium" className='text-blue-600 hover:underline'>6. The Quality Premium: Why Specialty Coffee Costs More</a></li>
-          <li><a href="#ecx-impact" className='text-blue-600 hover:underline'>7. ECX Market Dynamics and Price Transparency</a></li>
-          <li><a href="#logistics-shipping" className='text-blue-600 hover:underline'>8. Global Shipping and Logistics Costs</a></li>
-          <li><a href="#demand-growth" className='text-blue-600 hover:underline'>9. Growing Global Demand for Ethiopian Coffee</a></li>
-          <li><a href="#price-forecast" className='text-blue-600 hover:underline'>10. Price Forecasts: What to Expect in 2026-2027</a></li>
-          <li><a href="#importer-strategies" className='text-blue-600 hover:underline'>11. Strategic Recommendations for Importers and Roasters</a></li>
-          <li><a href="#long-term-outlook" className='text-blue-600 hover:underline'>12. Long-Term Outlook: The Future of Ethiopian Coffee Pricing</a></li>
-        </ol>
-      </div>
-
-      {/* SECTION 1: GLOBAL CONTEXT */}
-      <h3 id="global-context" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      {/* SECTION 1: GLOBAL COFFEE PRICE SURGE */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineGlobeAlt className='text-amber-600' />
-        1. The Global Coffee Price Surge: Understanding the Big Picture
+        The Global Coffee Price Surge
       </h3>
 
       <p className='my-4'>
-        Ethiopian coffee prices don't exist in a vacuum. To understand what's happening with Ethiopian specialty coffee, we first need to understand the broader <span className='font-bold'>global coffee market crisis</span> unfolding in 2024-2026.
-      </p>
-
-      <h4 className='text-xl font-bold mt-6 mb-3'>The C-Market: Coffee's Global Price Benchmark</h4>
-
-      <p className='my-4'>
-        The <span className='font-bold'>"C-market"</span> (ICE Arabica coffee futures traded on the New York Intercontinental Exchange) serves as the global benchmark for Arabica coffee pricing. While specialty coffee trades at premiums above this baseline, C-market movements affect all coffee prices worldwide.
+        Ethiopian coffee prices do not move in isolation. The global Arabica market sets the baseline, and that baseline has shifted dramatically. The ICE New York C-market, the benchmark for Arabica coffee futures, traded at approximately <span className='font-bold'>348 cents per pound in March 2026</span>. For context, the C-market averaged 110 to 150 cents per pound between 2015 and 2020. Current levels represent an increase of over 100% from that baseline.
       </p>
 
       <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
-        <h4 className='font-bold text-lg mb-3 text-red-900'>Historic Price Levels in 2026</h4>
-        <p className='mb-4'>
-          As of early 2026, Arabica coffee futures are trading at approximately <span className='font-bold'>348 cents per pound</span>, levels not consistently seen since the early 2010s. This represents increases of over 80-100% compared to 2020-2021 levels.
-        </p>
-        <p className='text-sm'>
-          For context: Between 2015-2020, the C-market averaged 110-150 cents per pound. The current prices represent a fundamental shift in coffee economics globally.
-        </p>
-      </div>
-
-      <h4 className='text-xl font-bold mt-8 mb-3'>What's Driving Global Coffee Prices Up?</h4>
-
-      <div className='space-y-4 my-6'>
-        <div className='border-l-4 border-red-500 pl-4'>
-          <h5 className='font-bold'>Supply Shortages</h5>
-          <p className='text-sm text-gray-700'>Multiple major producing countries (Brazil, Vietnam, Colombia) have experienced production shortfalls due to drought, frost, and disease. Global coffee stocks have declined to concerning levels.</p>
-        </div>
-        <div className='border-l-4 border-orange-500 pl-4'>
-          <h5 className='font-bold'>Climate Volatility</h5>
-          <p className='text-sm text-gray-700'>Extreme weather events are becoming more frequent. El Niño patterns, droughts, and unpredictable rainfall have disrupted production cycles across the coffee belt.</p>
-        </div>
-        <div className='border-l-4 border-amber-500 pl-4'>
-          <h5 className='font-bold'>Robusta Crisis</h5>
-          <p className='text-sm text-gray-700'>Vietnam's Robusta production has suffered severe drought, pushing Robusta prices to record highs (over $4,000/ton in early 2026). This creates pressure across all coffee categories as buyers seek alternatives.</p>
-        </div>
-        <div className='border-l-4 border-yellow-500 pl-4'>
-          <h5 className='font-bold'>Speculative Investment</h5>
-          <p className='text-sm text-gray-700'>Financial speculators have entered coffee futures markets heavily, amplifying price movements. Fund positions in coffee futures have reached near-record levels.</p>
+        <h4 className='font-bold text-lg mb-3 text-red-900'>What Is Driving the Global Surge?</h4>
+        <div className='space-y-3 text-sm'>
+          <div className='flex gap-3 items-start'>
+            <span className='font-bold text-red-700 flex-shrink-0'>Brazil:</span>
+            <span>The world&apos;s largest producer (35 to 40% of global output) suffered severe frost damage in 2021, followed by persistent drought through 2024. Replanted trees need 3 to 5 years to reach full productivity. The 2026 harvest remains below historical averages.</span>
+          </div>
+          <div className='flex gap-3 items-start'>
+            <span className='font-bold text-red-700 flex-shrink-0'>Vietnam:</span>
+            <span>Severe drought slashed Robusta production, pushing Robusta prices above $4,000 per ton in early 2026. Buyers seeking alternatives have increased pressure on Arabica origins, including Ethiopia.</span>
+          </div>
+          <div className='flex gap-3 items-start'>
+            <span className='font-bold text-red-700 flex-shrink-0'>Speculation:</span>
+            <span>Financial fund positions in coffee futures have reached near-record levels, amplifying price swings and adding volatility beyond supply-demand fundamentals.</span>
+          </div>
         </div>
       </div>
 
-      {/* SECTION 2: BRAZIL'S IMPACT */}
-      <h3 id="brazilian-impact" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
-        <HiOutlineExclamationTriangle className='text-amber-600' />
-        2. Brazil's Production Crisis and Its Ripple Effect
+      <p className='my-4'>
+        Ethiopia produces roughly 400,000 to 500,000 metric tons of coffee annually, approximately 4 to 5% of global output (<a href='https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1545168/full' target='_blank' rel='noopener noreferrer' className='text-blue-600 underline'>Massrie, 2025</a>). When Brazilian supply drops by 5 to 10 million bags, the pressure on alternative origins like Ethiopia intensifies sharply. More buyers competing for limited Ethiopian supply means higher prices.
+      </p>
+
+      {/* SECTION 2: CLIMATE CHANGE */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineExclamationTriangle className='text-red-600' />
+        Climate Change: The Structural Price Driver
       </h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Brazil produces approximately 35-40% of the world's coffee</span>, making it the single most influential player in global coffee markets. When Brazil sneezes, the entire coffee world catches a cold, and Brazil has been battling serious production challenges.
+        While market cycles create short-term volatility, <span className='font-bold'>climate change is the most significant long-term threat to coffee production</span> and the most persistent force behind rising prices globally.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>The Brazilian Coffee Crisis (2021-2026)</h4>
+      <div className='grid md:grid-cols-2 gap-6 my-6'>
+        <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
+          <h5 className='font-bold mb-2 text-red-900'>Temperature Increases</h5>
+          <p className='text-sm'>Arabica coffee thrives at 15 to 24°C. Research projects that by 2050, up to 50% of current Arabica-suitable land may become unsuitable for production (Bilen et al., 2023).</p>
+        </div>
+        <div className='bg-orange-50 p-5 rounded-lg border border-orange-200'>
+          <h5 className='font-bold mb-2 text-orange-900'>Rainfall Disruption</h5>
+          <p className='text-sm'>Changing precipitation patterns create droughts during critical growth periods and excessive rain during harvest, reducing yields and creating quality inconsistencies.</p>
+        </div>
+        <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
+          <h5 className='font-bold mb-2 text-amber-900'>Disease Pressure</h5>
+          <p className='text-sm'>Coffee Leaf Rust and Coffee Berry Disease thrive in warmer, wetter conditions, increasing crop losses and raising input costs for disease management (Nigussie, 2024).</p>
+        </div>
+        <div className='bg-yellow-50 p-5 rounded-lg border border-yellow-200'>
+          <h5 className='font-bold mb-2 text-yellow-900'>Ethiopia-Specific Vulnerability</h5>
+          <p className='text-sm'>Ethiopian coffee grows at 1,500 to 2,200+ meters with limited higher ground available. Over 90% is produced by smallholder farmers with few resources to adapt to shifting growing conditions.</p>
+        </div>
+      </div>
 
-      <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
-        <h5 className='font-bold mb-3'>Key Events in Brazil's Production Decline:</h5>
-        <ul className='space-y-3'>
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-medium'>
+          <span className='font-bold'>Long-Term Price Implication:</span> Climate change is not a temporary challenge. It is a structural shift reducing global coffee supply while demand continues to grow. This fundamental supply-demand imbalance means higher prices are not a spike but an emerging baseline for the coffee industry.
+        </p>
+      </div>
+
+      {/* SECTION 3: 2025/26 HARVEST */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineArrowTrendingUp className='text-amber-600' />
+        The 2025/26 Harvest: Cherry Prices Triple, Washed Coffee Tightens
+      </h3>
+
+      <p className='my-4'>
+        The 2025/26 Ethiopian harvest season offers a ground-level view of how these macro forces translate into actual FOB prices. Cherry costs at the farm gate have surged dramatically, reshaping the economics of every link in the supply chain.
+      </p>
+
+      <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
+        <h4 className='font-bold text-lg mb-3'>Key Harvest Data (2025/26 Season)</h4>
+        <ul className='space-y-3 text-sm'>
           <li className='flex gap-3 items-start'>
-            <span className='font-bold text-amber-600 w-20 flex-shrink-0'>2021:</span>
-            <span>Severe frost hits Brazilian coffee regions, damaging or destroying millions of coffee trees. The worst frost event in decades.</span>
+            <HiOutlineArrowTrendingUp className='text-blue-600 text-xl flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Cherry prices peaked at $1.51/kg</span>, up from $0.45/kg the previous season: a threefold increase (Algrano, Jan 2026).</span>
           </li>
           <li className='flex gap-3 items-start'>
-            <span className='font-bold text-amber-600 w-20 flex-shrink-0'>2022-2024:</span>
-            <span>Extended drought periods reduce yields. Coffee trees stressed by frost never fully recover.</span>
+            <HiOutlineArrowTrendingUp className='text-blue-600 text-xl flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>FOB break-even at $5.10/lb:</span> &quot;We have never sold this high before,&quot; reported Erkabose W. Giorgis of the Yirgacheffe Coffee Farmers Cooperative Union.</span>
           </li>
           <li className='flex gap-3 items-start'>
-            <span className='font-bold text-amber-600 w-20 flex-shrink-0'>2025:</span>
-            <span>Off-cycle year (Arabica produces biennially) coincides with continued weather challenges, resulting in significantly reduced harvest.</span>
+            <HiOutlineArrowTrendingUp className='text-blue-600 text-xl flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Organic lot opening offers around $5.60/lb FOB</span>, compared to approximately $4.66/lb the prior season (Konga Trading PLC).</span>
           </li>
           <li className='flex gap-3 items-start'>
-            <span className='font-bold text-amber-600 w-20 flex-shrink-0'>2026:</span>
-            <span>While an "on-cycle" year, production remains below historical averages. Tree renewal takes 3-5 years to reach full productivity.</span>
+            <HiOutlineExclamationTriangle className='text-amber-600 text-xl flex-shrink-0 mt-0.5' />
+            <span><span className='font-bold'>Washed coffee shortage:</span> Buying fresh cherry for washing stations requires massive upfront capital. At record-high cherry prices, many farmers are drying cherries at home, producing naturals instead. Expect a surplus of naturals and a shortage of specialty washed lots.</span>
           </li>
         </ul>
       </div>
 
       <p className='my-4'>
-        <span className='font-bold'>Impact on Ethiopian Coffee:</span> When Brazil's output declines, global buyers turn to other origins for supply. Ethiopia, as one of the world's premier specialty Arabica producers, becomes more sought-after. Increased demand + limited supply = higher prices.
+        As Fitsum Bekere of Sweet Plus Trading summarized: &quot;There may be a big shortage of washed coffee. Naturals may become surplus.&quot; Takele Mammo of Konga Trading put the broader dynamic simply: &quot;There is more money than coffee.&quot;
       </p>
-
-      <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineLightBulb className='text-2xl text-blue-600 flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Market Dynamics:</span> Ethiopia produces approximately 400,000-500,000 metric tons of coffee annually (roughly 6.6-8.3 million bags). While significant, this is only about 4-5% of global production. When Brazilian supply drops by even 5-10 million bags, the pressure on alternative origins like Ethiopia intensifies dramatically.</span>
-        </p>
-      </div>
-
-      {/* SECTION 3: CLIMATE CHANGE */}
-      <h3 id="climate-factors" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
-        <HiOutlineExclamationTriangle className='text-red-600' />
-        3. Climate Change: The Long-Term Price Driver
-      </h3>
 
       <p className='my-4'>
-        While market forces create short-term volatility, <span className='font-bold'>climate change represents the most significant long-term threat to coffee production</span>-and the most persistent driver of rising prices.
+        For importers who rely on <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline font-semibold'>washed Ethiopian coffee</Link>, this means committing early in the season. Waiting for spot offers risks finding top washed lots already allocated. For a full breakdown of the current season, see our <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='underline font-semibold'>2025/26 Harvest Season Outlook</Link>.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Climate Change Impacts on Coffee Production</h4>
-
-      <div className='grid md:grid-cols-2 gap-6 my-6'>
-        <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
-          <h5 className='font-bold mb-2 text-red-900'>Temperature Increases</h5>
-          <p className='text-sm mb-2'>Arabica coffee thrives at 15-24°C. Rising temperatures push viable growing zones higher in altitude.</p>
-          <p className='text-sm font-medium'>Impact: By 2050, up to 50% of current Arabica-suitable land may become unsuitable for production.</p>
-        </div>
-        <div className='bg-orange-50 p-5 rounded-lg border border-orange-200'>
-          <h5 className='font-bold mb-2 text-orange-900'>Rainfall Disruption</h5>
-          <p className='text-sm mb-2'>Changing precipitation patterns create droughts during critical growth periods and excessive rain during harvest.</p>
-          <p className='text-sm font-medium'>Impact: Unpredictable yields, quality inconsistencies, increased cherry loss.</p>
-        </div>
-        <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2 text-amber-900'>Disease Expansion</h5>
-          <p className='text-sm mb-2'>Coffee Leaf Rust (la roya) and Coffee Berry Disease thrive in warmer, wetter conditions.</p>
-          <p className='text-sm font-medium'>Impact: Increased crop losses, higher input costs for disease management, tree mortality.</p>
-        </div>
-        <div className='bg-yellow-50 p-5 rounded-lg border border-yellow-200'>
-          <h5 className='font-bold mb-2 text-yellow-900'>Extreme Weather Events</h5>
-          <p className='text-sm mb-2'>More frequent droughts, floods, frosts, and storms damage crops and infrastructure.</p>
-          <p className='text-sm font-medium'>Impact: Harvest losses, damaged trees requiring years to recover, unpredictable supply.</p>
-        </div>
-      </div>
-
-      <h4 className='text-xl font-bold mt-8 mb-3'>Climate Impacts Specific to Ethiopia</h4>
-
-      <p className='my-4'>
-        Ethiopia is particularly vulnerable to climate change despite being coffee's ancestral home:
-      </p>
-
-      <ul className='space-y-3 my-6 list-disc ml-6'>
-        <li><span className='font-bold'>Highland Dependence:</span> Ethiopian coffee grows at 1,500-2,200+ meters. There's limited "higher ground" available as temperatures rise.</li>
-        <li><span className='font-bold'>Rainfall Variability:</span> Recent years have seen erratic rainfall-severe droughts followed by intense rains-disrupting traditional production cycles.</li>
-        <li><span className='font-bold'>Smallholder Vulnerability:</span> Over 90% of Ethiopian coffee is produced by smallholder farmers with limited resources to adapt to climate challenges.</li>
-        <li><span className='font-bold'>Wild Coffee Forests:</span> Ethiopia's unique wild coffee populations face existential threats from temperature increases.</li>
-      </ul>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium'>
-          <span className='font-bold'>Long-Term Price Implication:</span> Climate change isn't a temporary challenge-it's a structural shift reducing global coffee supply while demand continues growing. This fundamental supply-demand imbalance suggests that higher prices aren't a temporary spike but a "new normal" for the coffee industry.
-        </p>
-      </div>
-
-      {/* SECTION 4: CURRENCY DEVALUATION */}
-      <h3 id="currency-devaluation" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      {/* SECTION 4: BIRR & COSTS */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineBanknotes className='text-amber-600' />
-        4. Ethiopian Birr Devaluation and Export Pricing
+        Ethiopian Birr Devaluation and Rising Costs
       </h3>
 
       <p className='my-4'>
-        Currency dynamics play a crucial role in Ethiopian coffee pricing. While global coffee markets trade in US dollars, <span className='font-bold'>Ethiopian producers and exporters operate in Ethiopian Birr (ETB)</span>, creating complex pricing dynamics.
-      </p>
-
-      <h4 className='text-xl font-bold mt-6 mb-3'>Understanding the Birr Devaluation</h4>
-
-      <p className='my-4'>
-        Ethiopia has experienced significant currency devaluation in recent years, particularly accelerating in 2023-2025. The Ethiopian Birr has weakened substantially against the US dollar, moving from official rates around 50-55 ETB/USD in 2021 to significantly higher levels in 2024-2026.
+        Currency dynamics add another layer to Ethiopian coffee pricing. In July 2024, Ethiopia floated the birr after decades of fixed exchange rates, triggering a devaluation of approximately 110%. This shift had mixed effects across the supply chain.
       </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold text-lg mb-3'>How Currency Devaluation Affects Coffee Prices</h4>
-        
+        <h4 className='font-bold text-lg mb-3'>How Devaluation Affects Pricing</h4>
         <div className='space-y-4'>
           <div>
-            <h5 className='font-semibold mb-2'>For Ethiopian Exporters (Positive Effect)</h5>
-            <p className='text-sm'>When the Birr weakens, Ethiopian exporters receive more Birr for each US dollar earned from exports. This can make exporting more profitable in local currency terms, even if dollar prices remain stable.</p>
+            <h5 className='font-semibold mb-1'>For Exporters</h5>
+            <p className='text-sm'>A weaker birr means more local currency per dollar earned from exports. This can improve profitability in birr terms, but rising domestic costs offset much of the gain.</p>
           </div>
-
           <div>
-            <h5 className='font-semibold mb-2'>For Coffee Farmers (Mixed Effect)</h5>
-            <p className='text-sm'>Farmers' production costs (labor, local inputs) are in Birr. If export revenues increase in Birr terms, farmers can potentially receive higher local prices. However, imported inputs (fertilizers, equipment) become more expensive.</p>
-          </div>
-
-          <div>
-            <h5 className='font-semibold mb-2'>For International Buyers (Negative Effect)</h5>
-            <p className='text-sm'>Devaluation doesn't always translate to lower dollar prices for buyers. In fact, Ethiopian sellers often <span className='font-bold'>maintain or increase dollar prices</span> to preserve their purchasing power domestically and offset rising local costs.</p>
+            <h5 className='font-semibold mb-1'>For International Buyers</h5>
+            <p className='text-sm'>Devaluation does not translate into cheaper USD export prices. Ethiopian sellers maintain or increase dollar prices to preserve purchasing power domestically. Global market pricing, quality premiums, and ECX minimum price mechanisms all prevent a race to the bottom.</p>
           </div>
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>The Complexity: Why Devaluation Doesn't Lower Export Prices</h4>
-
       <p className='my-4'>
-        Many international buyers assume that Birr devaluation should make Ethiopian coffee cheaper in dollar terms. However, the reality is more complex:
+        Beyond currency effects, <span className='font-bold'>actual production and export costs have risen substantially</span>. Labor wages, fertilizer prices, energy, inland transport, and ECX administrative fees have all increased. Aggregate operating costs for Ethiopian coffee exporters are an estimated 40 to 70% higher than 2020/21 baseline levels. These are not arbitrary markups; they reflect the economic reality of producing and exporting coffee in an era of global inflation and supply chain pressure.
       </p>
-
-      <ol className='space-y-3 my-6 list-decimal ml-6'>
-        <li><span className='font-bold'>Inflation Offset:</span> Devaluation typically accompanies or causes domestic inflation. While exporters earn more Birr per dollar, their costs (wages, transport, utilities, imported inputs) also rise in Birr terms.</li>
-        <li><span className='font-bold'>Global Market Pricing:</span> Ethiopian specialty coffee is priced relative to global market levels. When the C-market is high (as in 2026), Ethiopian exporters maintain competitive pricing rather than undercutting the market.</li>
-        <li><span className='font-bold'>Quality Premium Protection:</span> Ethiopian specialty coffees command quality premiums. Exporters are reluctant to sacrifice these premiums even when currency dynamics might allow lower pricing.</li>
-        <li><span className='font-bold'>Government Policy:</span> Ethiopia's coffee export policies, ECX regulations, and minimum price mechanisms can limit how much prices can be reduced.</li>
-      </ol>
 
       <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl text-blue-600 flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Practical Implication for Importers:</span> Don't expect Birr devaluation to result in bargain prices for Ethiopian coffee. Instead, view it as a stabilizing factor that allows Ethiopian producers to maintain operations despite challenging economic conditions. The focus should remain on value, quality, and building sustainable partnerships rather than hunting for currency-arbitrage opportunities.</span>
+          <span><span className='font-bold'>For Importers:</span> Do not expect birr devaluation to result in bargain pricing. Instead, focus on building sustainable partnerships and negotiate on value, quality, and consistency rather than seeking currency-arbitrage discounts. For a detailed breakdown of what drives FOB prices, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline font-semibold'>Ethiopian Coffee Pricing FOB Guide</Link>.</span>
         </p>
       </div>
 
-      {/* SECTION 5: COST INFLATION */}
-      <h3 id="cost-inflation" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
-        <HiOutlineArrowTrendingUp className='text-amber-600' />
-        5. Rising Production and Export Costs in Ethiopia
-      </h3>
-
-      <p className='my-4'>
-        Beyond global market forces and currency fluctuations, <span className='font-bold'>actual production and export costs in Ethiopia have increased substantially</span>, contributing directly to higher coffee prices.
-      </p>
-
-      <h4 className='text-xl font-bold mt-6 mb-3'>Breakdown of Cost Increases</h4>
-
-      <div className='space-y-6 my-6'>
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Labor Costs</h5>
-          <p className='text-sm mb-2'>Coffee harvesting is labor-intensive, requiring skilled hand-picking of ripe cherries. Ethiopian agricultural wages have risen significantly in recent years due to inflation, urbanization, and labor shortages during peak harvest.</p>
-          <p className='text-sm font-medium'>Estimated increase: 30-50% over 2021-2026 period</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Fertilizer and Input Costs</h5>
-          <p className='text-sm mb-2'>Global fertilizer prices surged in 2021-2023 due to supply chain disruptions, energy costs, and geopolitical factors. Ethiopian farmers depend on imported fertilizers, making them vulnerable to global price shocks.</p>
-          <p className='text-sm font-medium'>Estimated increase: 100-200% for key fertilizers compared to pre-2021 levels</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Energy and Fuel Costs</h5>
-          <p className='text-sm mb-2'>Processing coffee requires energy (for washing, drying, milling). Transportation from farms to washing stations to export warehouses requires fuel. Both have seen dramatic price increases.</p>
-          <p className='text-sm font-medium'>Estimated increase: 50-80% over 2021-2026</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Processing Infrastructure Costs</h5>
-          <p className='text-sm mb-2'>Building or maintaining washing stations, drying beds, and storage facilities requires capital investment. Construction materials, equipment, and maintenance have all become more expensive.</p>
-          <p className='text-sm font-medium'>Estimated increase: 40-60% for infrastructure investments</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Internal Transportation and Logistics</h5>
-          <p className='text-sm mb-2'>Moving coffee from farms to processing sites, then to Addis Ababa or Djibouti for export involves trucking across challenging terrain. Fuel costs, vehicle maintenance, and driver wages have all increased.</p>
-          <p className='text-sm font-medium'>Estimated increase: 50-70% over 2021-2026</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>ECX Fees and Administrative Costs</h5>
-          <p className='text-sm mb-2'>All Ethiopian coffee exports go through the Ethiopia Commodity Exchange (ECX) system, which involves testing fees, storage fees, auction fees, and administrative costs that have adjusted upward with inflation.</p>
-          <p className='text-sm font-medium'>Estimated increase: 20-30% over 2021-2026</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-3'>Packaging and Export Documentation</h5>
-          <p className='text-sm mb-2'>Coffee bags, labels, pallets, export documentation, quality testing, and certification all have costs that have risen with global inflation and supply chain pressures.</p>
-          <p className='text-sm font-medium'>Estimated increase: 30-40% over 2021-2026</p>
-        </div>
-      </div>
-
-      <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold mb-3'>Cumulative Cost Impact</h4>
-        <p className='mb-3'>
-          When you aggregate all these cost increases, Ethiopian coffee exporters are facing <span className='font-bold'>40-70% higher costs of operation</span> compared to 2020-2021 baseline levels. These costs must be recovered through export prices to maintain viable business operations.
-        </p>
-        <p className='text-sm'>
-          This is not price gouging or opportunism-it's economic reality. Ethiopian exporters operate on relatively thin margins, and cost increases must be passed through the supply chain.
-        </p>
-      </div>
-
-      {/* SECTION 6: QUALITY PREMIUM */}
-      <h3 id="quality-premium" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      {/* SECTION 5: SPECIALTY PREMIUM & DEMAND */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineScale className='text-amber-600' />
-        6. The Quality Premium: Why Specialty Coffee Costs More
+        Specialty Premiums and Growing Demand
       </h3>
 
       <p className='my-4'>
-        Ethiopian coffee, particularly <span className='font-bold'>specialty-grade G1 and G2 washed and natural coffees</span>, commands substantial premiums above commodity coffee. Ethiopian coffees consistently rank among the <Link href='/insights/most-expensive-coffee-in-the-world' className='underline font-semibold'>most expensive coffees in the world</Link> when measured by competition auction results and micro-lot pricing. Understanding these premiums is essential to understanding Ethiopian coffee pricing.
+        Ethiopian specialty-grade coffees (G1 and G2 washed and natural) command substantial premiums above commodity benchmarks. These premiums reflect real value: exceptional cup quality scoring 85 to 92+ on the SCA scale, labor-intensive selective harvesting, meticulous processing, and full traceability. Ethiopian coffees consistently rank among the <Link href='/insights/most-expensive-coffee-in-the-world' className='underline font-semibold'>most expensive coffees in the world</Link> at competition auctions.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>What Justifies the Specialty Premium?</h4>
-
-      <div className='space-y-4 my-6'>
-        <div className='border-l-4 border-green-500 pl-4'>
-          <h5 className='font-bold'>Exceptional Cup Quality</h5>
-          <p className='text-sm text-gray-700'>Ethiopian specialty coffees score 85-92+ points on the SCA scale, featuring complex flavor profiles (floral, fruity, tea-like characteristics) unmatched by other origins. This quality is the result of unique genetics, terroir, and processing expertise.</p>
-        </div>
-        <div className='border-l-4 border-blue-500 pl-4'>
-          <h5 className='font-bold'>Selective Harvesting</h5>
-          <p className='text-sm text-gray-700'>Specialty coffee requires multiple selective passes through coffee farms, picking only ripe cherries. This is far more labor-intensive and costly than strip-picking all cherries at once (common for commercial coffee).</p>
-        </div>
-        <div className='border-l-4 border-purple-500 pl-4'>
-          <h5 className='font-bold'>Meticulous Processing</h5>
-          <p className='text-sm text-gray-700'>Specialty processing requires careful cherry sorting, controlled fermentation, precise drying management (avoiding over-drying or under-drying), and rigorous quality control at every stage. Many Ethiopian specialty lots are hand-sorted multiple times.</p>
-        </div>
-        <div className='border-l-4 border-pink-500 pl-4'>
-          <h5 className='font-bold'>Traceability and Transparency</h5>
-          <p className='text-sm text-gray-700'>Specialty buyers demand traceable coffee from specific regions, farms, or cooperatives. Maintaining this traceability requires additional documentation, quality systems, and direct relationships that add cost but provide value.</p>
-        </div>
-        <div className='border-l-4 border-red-500 pl-4'>
-          <h5 className='font-bold'>Limited Availability</h5>
-          <p className='text-sm text-gray-700'>Top-grade Ethiopian coffees represent a small percentage of total production. Yirgacheffe G1 natural, for example, might be only 5-10% of a region's total output. Scarcity drives premium pricing.</p>
-        </div>
-      </div>
-
-      <h4 className='text-xl font-bold mt-8 mb-3'>Specialty Premiums in the Current Market</h4>
-
-      <p className='my-4'>
-        In early 2026, Ethiopian specialty coffee FOB price ranges by grade:
-      </p>
+      <h4 className='text-xl font-bold mt-8 mb-3'>Ethiopian Coffee FOB Prices (Early 2026)</h4>
 
       <div className='overflow-x-auto my-6'>
         <table className='w-full border-collapse border border-gray-300 text-sm'>
           <thead>
-            <tr className='bg-gray-100'>
-              <th className='border border-gray-300 p-3 text-left'>Coffee Grade & Type</th>
-              <th className='border border-gray-300 p-3 text-left'>Approximate FOB Price Range</th>
+            <tr className='bg-dark text-primary'>
+              <th className='border border-gray-300 p-3 text-left'>Coffee Grade and Type</th>
+              <th className='border border-gray-300 p-3 text-left'>FOB Price Range ($/lb)</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td className='border border-gray-300 p-3'>Yirgacheffe G1 Washed</td>
-              <td className='border border-gray-300 p-3'>$6.00-$7.00/lb</td>
+              <td className='border border-gray-300 p-3'>$6.00 to $7.00</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3'>Yirgacheffe G2 Washed</td>
-              <td className='border border-gray-300 p-3'>$5.50-$6.30/lb</td>
+              <td className='border border-gray-300 p-3'>$5.50 to $6.30</td>
             </tr>
             <tr>
               <td className='border border-gray-300 p-3'>Sidamo/Guji G1 Natural</td>
-              <td className='border border-gray-300 p-3'>$5.70-$6.50/lb</td>
+              <td className='border border-gray-300 p-3'>$5.70 to $6.50</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3'>Sidamo/Guji G2 Natural</td>
-              <td className='border border-gray-300 p-3'>$5.30-$6.00/lb</td>
+              <td className='border border-gray-300 p-3'>$5.30 to $6.00</td>
             </tr>
             <tr>
-              <td className='border border-gray-300 p-3'>Harrar G3-G4</td>
-              <td className='border border-gray-300 p-3'>$4.90-$5.70/lb</td>
+              <td className='border border-gray-300 p-3'>Harar G3 to G4</td>
+              <td className='border border-gray-300 p-3'>$4.90 to $5.70</td>
             </tr>
             <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Commercial Grade G4-G5</td>
-              <td className='border border-gray-300 p-3'>$4.20-$5.00/lb</td>
+              <td className='border border-gray-300 p-3'>Commercial Grade G4 to G5</td>
+              <td className='border border-gray-300 p-3'>$4.20 to $5.00</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <p className='my-4 text-sm italic text-gray-600'>
-        Note: FOB (Free on Board) prices are approximate and vary based on specific lots, timing, and market conditions. These represent 2026 market snapshots.
+        FOB (Free on Board) prices are approximate and vary by specific lot, timing, and market conditions. These represent early 2026 snapshots. For full landed cost calculations, see our <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='underline'>Ethiopian Coffee Landed Cost Guide</Link>.
       </p>
 
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium'>
-          <span className='font-bold'>Key Insight:</span> The specialty premium isn't inflated or artificial-it reflects real value creation through quality, traceability, and sustainability. When you pay $6.50/lb FOB for Ethiopian G1 washed coffee versus $4.50/lb for commercial grade, you're paying for measurably superior quality that your customers will taste in the cup.
-        </p>
-      </div>
-
-      {/* SECTION 7: ECX IMPACT */}
-      <h3 id="ecx-impact" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
-        <HiOutlineScale className='text-amber-600' />
-        7. ECX Market Dynamics and Price Transparency
-      </h3>
+      <h4 className='text-xl font-bold mt-8 mb-3'>Why Demand Keeps Growing</h4>
 
       <p className='my-4'>
-        The <span className='font-bold'>Ethiopia Commodity Exchange (ECX)</span> plays a unique role in Ethiopian coffee pricing that international buyers must understand.
+        The global specialty coffee market is expanding at 8 to 12% annually, far outpacing commodity coffee growth. Ethiopian coffee production, constrained by geography and smallholder farming structures, grows at approximately 2 to 3% per year. This structural gap between supply growth and demand growth creates persistent upward pressure on prices.
       </p>
-
-      <h4 className='text-xl font-bold mt-6 mb-3'>How ECX Affects Coffee Prices</h4>
-
-      <p className='my-4'>
-        All Ethiopian coffee exports (with limited exceptions for direct specialty trade license holders) must go through the ECX system. This centralized trading platform:
-      </p>
-
-      <ul className='space-y-3 my-6 list-disc ml-6'>
-        <li><span className='font-bold'>Establishes baseline prices</span> through daily auctions where coffee is bought and sold</li>
-        <li><span className='font-bold'>Provides price discovery</span> based on supply and demand within Ethiopia</li>
-        <li><span className='font-bold'>Adds transaction costs</span> (testing fees, storage, auction commissions)</li>
-        <li><span className='font-bold'>Creates price floors</span> through minimum pricing mechanisms that prevent prices from falling too low</li>
-        <li><span className='font-bold'>Standardizes grading</span> using the Ethiopian grading system (G1-G5)</li>
-      </ul>
-
-      <h4 className='text-xl font-bold mt-8 mb-3'>ECX Price Dynamics in a Rising Market</h4>
-
-      <p className='my-4'>
-        When global coffee prices rise (as in 2024-2026), ECX auction prices typically follow-but not always immediately or proportionally. This creates interesting dynamics:
-      </p>
-
-      <div className='space-y-4 my-6'>
-        <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2'>Domestic Demand Competition</h5>
-          <p className='text-sm'>Ethiopia has significant domestic coffee consumption (roughly 50% of production). Domestic buyers compete with exporters at ECX auctions, which can drive auction prices up, especially for lower grades popular domestically.</p>
-        </div>
-
-        <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2'>Export Opportunity Cost</h5>
-          <p className='text-sm'>Exporters won't bid on ECX coffee unless they can sell it internationally at a profit. When international prices are high, exporters bid more aggressively at ECX, pushing domestic prices up.</p>
-        </div>
-
-        <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2'>Price Transmission Delays</h5>
-          <p className='text-sm'>There can be a lag between international price movements and ECX price adjustments as market participants adjust their expectations and strategies.</p>
-        </div>
-      </div>
-
-      <p className='my-4'>
-        For more detailed information about how ECX works and its impact on Ethiopian coffee exports, see our comprehensive guide: <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-blue-600 underline'>Understanding the Ethiopia Commodity Exchange (ECX)</Link>.
-      </p>
-
-      {/* SECTION 8: LOGISTICS & SHIPPING */}
-      <h3 id="logistics-shipping" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
-        <HiOutlineGlobeAlt className='text-amber-600' />
-        8. Global Shipping and Logistics Costs
-      </h3>
-
-      <p className='my-4'>
-        While coffee FOB (Free on Board) prices represent the cost at the Ethiopian port, <span className='font-bold'>international shipping costs have added significantly to landed costs</span> for importers worldwide.
-      </p>
-
-      <h4 className='text-xl font-bold mt-6 mb-3'>The Global Shipping Crisis (2020-2026)</h4>
-
-      <div className='bg-red-50 p-6 rounded-lg my-6 border border-red-200'>
-        <h4 className='font-bold mb-3'>Shipping Cost Increases:</h4>
-        <ul className='space-y-2 text-sm'>
-          <li>• Container shipping costs from Djibouti to major ports (Rotterdam, Hamburg, New York, Long Beach) increased <span className='font-bold'>200-400%</span> during 2020-2022 compared to pre-pandemic levels</li>
-          <li>• While rates have moderated somewhat in 2024-2026, they remain <span className='font-bold'>50-150% above 2019 levels</span></li>
-          <li>• Container availability challenges in Djibouti and other African ports create delays and booking difficulties</li>
-          <li>• Insurance costs have risen due to increased cargo values and geopolitical risks (Red Sea tensions, etc.)</li>
-        </ul>
-      </div>
-
-      <h4 className='text-xl font-bold mt-8 mb-3'>Impact on Ethiopian Coffee Landed Costs</h4>
-
-      <p className='my-4'>
-        Example cost breakdown for 20ft container (~300 bags of 60kg each = 18,000kg) of Ethiopian coffee to USA:
-      </p>
-
-      <div className='overflow-x-auto my-6'>
-        <table className='w-full border-collapse border border-gray-300 text-sm'>
-          <thead>
-            <tr className='bg-gray-100'>
-              <th className='border border-gray-300 p-3 text-left'>Cost Component</th>
-              <th className='border border-gray-300 p-3 text-right'>2019 (Pre-Crisis)</th>
-              <th className='border border-gray-300 p-3 text-right'>2026 (Current)</th>
-              <th className='border border-gray-300 p-3 text-right'>Increase</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className='border border-gray-300 p-3'>Ocean Freight (Djibouti-US Port)</td>
-              <td className='border border-gray-300 p-3 text-right'>$2,500</td>
-              <td className='border border-gray-300 p-3 text-right'>$4,500-$6,000</td>
-              <td className='border border-gray-300 p-3 text-right'>+80-140%</td>
-            </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Djibouti Port Charges</td>
-              <td className='border border-gray-300 p-3 text-right'>$400</td>
-              <td className='border border-gray-300 p-3 text-right'>$600-$700</td>
-              <td className='border border-gray-300 p-3 text-right'>+50-75%</td>
-            </tr>
-            <tr>
-              <td className='border border-gray-300 p-3'>Destination Port Charges</td>
-              <td className='border border-gray-300 p-3 text-right'>$600</td>
-              <td className='border border-gray-300 p-3 text-right'>$800-$1,000</td>
-              <td className='border border-gray-300 p-3 text-right'>+33-67%</td>
-            </tr>
-            <tr className='bg-gray-50'>
-              <td className='border border-gray-300 p-3'>Customs Clearance & Documentation</td>
-              <td className='border border-gray-300 p-3 text-right'>$300</td>
-              <td className='border border-gray-300 p-3 text-right'>$400-$500</td>
-              <td className='border border-gray-300 p-3 text-right'>+33-67%</td>
-            </tr>
-            <tr>
-              <td className='border border-gray-300 p-3'>Insurance</td>
-              <td className='border border-gray-300 p-3 text-right'>$400</td>
-              <td className='border border-gray-300 p-3 text-right'>$600-$800</td>
-              <td className='border border-gray-300 p-3 text-right'>+50-100%</td>
-            </tr>
-            <tr className='bg-gray-100 font-bold'>
-              <td className='border border-gray-300 p-3'>Total Logistics Cost</td>
-              <td className='border border-gray-300 p-3 text-right'>$4,200</td>
-              <td className='border border-gray-300 p-3 text-right'>$6,900-$9,000</td>
-              <td className='border border-gray-300 p-3 text-right'>+64-114%</td>
-            </tr>
-            <tr>
-              <td className='border border-gray-300 p-3 font-medium'>Per-Pound Impact</td>
-              <td className='border border-gray-300 p-3 text-right'>$0.11/lb</td>
-              <td className='border border-gray-300 p-3 text-right'>$0.17-$0.23/lb</td>
-              <td className='border border-gray-300 p-3 text-right'>+$0.06-$0.12/lb</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <p className='my-4'>
-        This additional $0.06-$0.12 per pound in logistics costs might seem modest, but <span className='font-bold'>on a $6.00/lb coffee, it represents a 1-2% increase in landed cost</span>. For large importers moving multiple containers per month, these costs add up to hundreds of thousands of dollars annually.
-      </p>
-
-      {/* SECTION 9: DEMAND GROWTH */}
-      <h3 id="demand-growth" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
-        <HiOutlineArrowTrendingUp className='text-amber-600' />
-        9. Growing Global Demand for Ethiopian Coffee
-      </h3>
-
-      <p className='my-4'>
-        While supply challenges and cost increases push prices up, <span className='font-bold'>growing global demand for Ethiopian specialty coffee</span> simultaneously pulls prices higher from the demand side.
-      </p>
-
-      <h4 className='text-xl font-bold mt-6 mb-3'>Why Ethiopian Coffee Demand Is Increasing</h4>
 
       <div className='space-y-4 my-6'>
         <div className='border-l-4 border-purple-500 pl-4'>
-          <h5 className='font-bold'>Specialty Coffee Market Expansion</h5>
-          <p className='text-sm text-gray-700'>The global specialty coffee market continues growing at 8-12% annually, far outpacing commodity coffee. Ethiopian coffee, with its distinctive flavor profiles, is a cornerstone of specialty offerings.</p>
+          <h5 className='font-bold'>Emerging Market Expansion</h5>
+          <p className='text-sm text-gray-700'>Coffee consumption is growing rapidly in <Link href='/insights/ethiopia-china-coffee-trade-partnership' className='underline text-amber-700'>China</Link>, South Korea, <Link href='/insights/importing-ethiopian-coffee-to-japan' className='underline text-amber-700'>Japan</Link>, Saudi Arabia, and the UAE. Global consumption reached an estimated 180 million 60-kg bags in 2024 (ICO, 2023).</p>
         </div>
         <div className='border-l-4 border-blue-500 pl-4'>
-          <h5 className='font-bold'>Third Wave Coffee Culture</h5>
-          <p className='text-sm text-gray-700'>Single-origin coffees, especially from Africa, are prized by third-wave cafes, specialty roasters, and educated consumers. Ethiopia is often the first African origin that specialty coffee shops feature.</p>
+          <h5 className='font-bold'>Brand Recognition</h5>
+          <p className='text-sm text-gray-700'>Names like Yirgacheffe, Sidamo, and Guji have become globally recognized as markers of quality. Nearly every specialty roaster offers at least one Ethiopian coffee, creating consistent baseline demand.</p>
         </div>
         <div className='border-l-4 border-green-500 pl-4'>
-          <h5 className='font-bold'>Emerging Market Interest</h5>
-          <p className='text-sm text-gray-700'>Coffee consumption is growing rapidly in Asia (<Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>China</Link>, South Korea, Japan), Middle East (Saudi Arabia, UAE), and other emerging markets. These markets are developing appreciation for premium Ethiopian coffee.</p>
-        </div>
-        <div className='border-l-4 border-amber-500 pl-4'>
-          <h5 className='font-bold'>Brand Recognition</h5>
-          <p className='text-sm text-gray-700'>Names like "Yirgacheffe," "Sidamo," and "Ethiopian Heirloom" have become recognized globally as markers of quality, driving customer demand and roaster interest.</p>
-        </div>
-        <div className='border-l-4 border-red-500 pl-4'>
-          <h5 className='font-bold'>Transparency and Origin Story</h5>
-          <p className='text-sm text-gray-700'>Consumers increasingly want to know where their coffee comes from. Ethiopia's rich coffee heritage and cultural significance resonate with conscious consumers willing to pay premium prices.</p>
+          <h5 className='font-bold'>Traceability Premium</h5>
+          <p className='text-sm text-gray-700'>Consumers increasingly demand to know where their coffee comes from. Fully traceable, ethically sourced Ethiopian coffee commands additional premiums that justify higher sourcing costs.</p>
         </div>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Demand Growth by Market Segment</h4>
-
-      <div className='grid md:grid-cols-2 gap-6 my-6'>
-        <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h5 className='font-bold mb-2'>Specialty Roasters</h5>
-          <p className='text-sm mb-3'>Independent specialty roasters continue proliferating globally. Nearly every specialty roaster offers at least one Ethiopian coffee, creating consistent baseline demand.</p>
-          <p className='text-sm font-medium'>Market Growth: 10-15% annually</p>
-        </div>
-        <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2'>Coffee Shops & Cafes</h5>
-          <p className='text-sm mb-3'>High-end cafes use Ethiopian coffee for pour-over bars, single-origin espresso, and featured offerings. Brand differentiation drives demand for unique Ethiopian lots.</p>
-          <p className='text-sm font-medium'>Market Growth: 8-12% annually</p>
-        </div>
-        <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h5 className='font-bold mb-2'>Retail/Direct-to-Consumer</h5>
-          <p className='text-sm mb-3'>Online coffee subscriptions, retail coffee sales, and direct-to-consumer brands increasingly feature Ethiopian coffee as a premium offering.</p>
-          <p className='text-sm font-medium'>Market Growth: 15-20% annually</p>
-        </div>
-        <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h5 className='font-bold mb-2'>Institutional & Wholesale</h5>
-          <p className='text-sm mb-3'>Restaurants, hotels, and corporate coffee programs are upgrading coffee quality, with Ethiopian coffee often part of premium programs.</p>
-          <p className='text-sm font-medium'>Market Growth: 5-8% annually</p>
-        </div>
-      </div>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium'>
-          <span className='font-bold'>Supply-Demand Imbalance:</span> Ethiopian coffee production is relatively flat (limited expansion capacity), growing perhaps 2-3% annually. Meanwhile, global demand for Ethiopian specialty coffee is growing 8-12% annually. This structural imbalance means competition for limited supply continues intensifying, supporting higher prices.
-        </p>
-      </div>
-
-      {/* SECTION 10: PRICE FORECAST */}
-      <h3 id="price-forecast" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      {/* SECTION 6: ECX & LOGISTICS */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBarSquare className='text-amber-600' />
-        10. Price Forecasts: What to Expect in 2026-2027
+        ECX Dynamics and Logistics Costs
       </h3>
 
       <p className='my-4'>
-        Predicting commodity prices is inherently uncertain, but based on current trends and structural factors, we can make informed projections about Ethiopian coffee pricing.
+        The <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-semibold'>Ethiopia Commodity Exchange (ECX)</Link> plays a unique role in coffee pricing. All Ethiopian coffee exports (with limited exceptions for direct trade license holders) pass through the ECX system, which establishes baseline prices through daily auctions, adds transaction costs (testing, storage, commissions), and creates price floors through minimum pricing mechanisms.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Short-Term Outlook (2026)</h4>
+      <p className='my-4'>
+        In a rising global market, ECX auction prices follow upward, often with a lag. Domestic demand (Ethiopia consumes roughly 50% of its production) competes with export demand at auction, pushing prices higher. When international prices surge, exporters bid more aggressively, further driving up domestic prices.
+      </p>
+
+      <h4 className='text-xl font-bold mt-8 mb-3'>Shipping and Logistics</h4>
+
+      <p className='my-4'>
+        International logistics costs remain elevated. Container shipping from Djibouti to major destination ports costs 50 to 150% more than pre-2020 levels. Red Sea tensions have added insurance premiums and routing complications. While per-pound shipping impact is relatively modest ($0.06 to $0.12/lb), for large importers moving multiple containers monthly, these costs add up to significant sums annually.
+      </p>
+
+      {/* SECTION 7: PRICE FORECAST */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineChartBarSquare className='text-amber-600' />
+        Ethiopian Coffee Price Forecast: 2026 to 2027
+      </h3>
+
+      <p className='my-4'>
+        Predicting commodity prices is inherently uncertain, but current trends and structural factors point in a clear direction.
+      </p>
 
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold mb-3'>Likely Scenario for 2026:</h4>
+        <h4 className='font-bold mb-3'>2026 Outlook</h4>
         <ul className='space-y-3'>
           <li className='flex items-start gap-2'>
             <HiOutlineCheckCircle className='text-amber-600 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>C-Market Range:</span> Arabica futures likely to trade in the 300-380 cents/lb range, with potential spikes above 400 cents/lb if Brazilian or Vietnamese production disappoints.</span>
+            <span><span className='font-bold'>C-Market Range:</span> Arabica futures likely to trade in the 300 to 380 cents/lb range, with potential spikes above 400 cents/lb if Brazilian or Vietnamese harvests disappoint.</span>
           </li>
           <li className='flex items-start gap-2'>
             <HiOutlineCheckCircle className='text-amber-600 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Ethiopian G1/G2 Washed FOB:</span> $5.80-$7.20/lb, depending on specific lots and timing</span>
+            <span><span className='font-bold'>Ethiopian G1/G2 Washed FOB:</span> $5.80 to $7.20/lb, depending on specific lots, timing, and season progression.</span>
           </li>
           <li className='flex items-start gap-2'>
             <HiOutlineCheckCircle className='text-amber-600 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Ethiopian G1/G2 Natural FOB:</span> $5.50-$6.80/lb</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-amber-600 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Price Volatility:</span> Expect significant month-to-month fluctuations based on weather reports, Brazilian production updates, and speculative trading.</span>
+            <span><span className='font-bold'>Ethiopian G1/G2 Natural FOB:</span> $5.50 to $6.80/lb, with wider availability than washed lots this season.</span>
           </li>
         </ul>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-3'>Medium-Term Outlook (2027-2028)</h4>
-
-      <p className='my-4'>
-        Looking beyond 2026, several factors will influence price trajectories:
-      </p>
-
-      <div className='space-y-4 my-6'>
-        <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h5 className='font-bold mb-2 text-green-900'>Potential Downward Pressure:</h5>
-          <ul className='space-y-2 text-sm'>
-            <li>• Brazilian production recovery as replanted trees mature (2027-2028)</li>
-            <li>• Vietnamese Robusta production normalization if drought conditions improve</li>
-            <li>• Economic slowdowns reducing global coffee consumption growth</li>
-            <li>• High prices incentivizing increased production in various origins</li>
-          </ul>
-        </div>
-
-        <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
-          <h5 className='font-bold mb-2 text-red-900'>Potential Upward Pressure:</h5>
-          <ul className='space-y-2 text-sm'>
-            <li>• Continued climate change impacts on production globally</li>
-            <li>• Disease spread (Coffee Leaf Rust, Coffee Berry Disease) reducing yields</li>
-            <li>• Aging coffee farmer populations and land-use changes reducing planted area</li>
-            <li>• Growing specialty coffee demand continuing to outpace supply growth</li>
-            <li>• Input cost inflation (fertilizers, energy, labor) remaining elevated</li>
-          </ul>
-        </div>
-      </div>
-
       <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
-        <h4 className='font-bold mb-3'>Most Likely Scenario: "Higher for Longer"</h4>
+        <h4 className='font-bold mb-3'>Medium-Term Consensus: &quot;Higher for Longer&quot;</h4>
         <p className='mb-3'>
-          The consensus among coffee market analysts is that we're entering a <span className='font-bold'>"higher for longer"</span> pricing environment. While prices may moderate from 2026 peaks, a return to 2015-2020 price levels ($1.00-1.50/lb C-market) appears unlikely.
+          The consensus among coffee market analysts is that a return to 2015 to 2020 price levels ($1.00 to $1.50/lb C-market) is unlikely. The new normal for the C-market is projected at $2.20 to $2.80/lb, with Ethiopian specialty coffees maintaining $2.00 to $3.00/lb premiums above that baseline. Ethiopian specialty FOB prices of $4.50 to $6.00/lb may become standard rather than exceptional.
         </p>
         <p className='text-sm'>
-          Expect the new normal for C-market to be in the $2.20-2.80/lb range (220-280 cents/lb), with Ethiopian specialty coffees maintaining $2.00-3.00/lb premiums above that baseline. This means Ethiopian specialty coffee FOB prices of $4.50-6.00/lb could become the standard, rather than exceptional.
+          Downward pressure could come from Brazilian production recovery (2027 to 2028) and Vietnamese Robusta normalization. Upward pressure comes from continued climate impacts, aging farmer demographics, disease spread, and specialty demand growth outpacing supply.
         </p>
       </div>
 
-      {/* SECTION 11: IMPORTER STRATEGIES */}
-      <h3 id="importer-strategies" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      {/* SECTION 8: STRATEGIES */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineLightBulb className='text-amber-600' />
-        11. Strategic Recommendations for Importers and Roasters
+        Strategic Recommendations for Importers and Roasters
       </h3>
 
       <p className='my-4'>
-        In this high-price environment, <span className='font-bold'>strategic sourcing and business planning</span> become more critical than ever. Here are actionable recommendations:
+        In this high-price environment, <span className='font-bold'>strategic sourcing and proactive planning</span> separate businesses that thrive from those that get squeezed. Here are actionable steps:
       </p>
-
-      <h4 className='text-xl font-bold mt-6 mb-3'>Sourcing Strategies</h4>
 
       <div className='space-y-5 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border-l-4 border-blue-500'>
-          <h5 className='font-bold mb-2'>1. Build Direct Relationships</h5>
-          <p className='text-sm mb-3'>Working directly with trusted Ethiopian exporters (like Ethio Coffee Import and Export PLC) provides: latest pricing information, priority access to limited lots, flexible payment terms, and quality consistency.</p>
-          <p className='text-sm italic'>Action: Identify 2-3 reliable Ethiopian export partners and nurture long-term relationships.</p>
+          <h5 className='font-bold mb-2'>1. Build Direct Exporter Relationships</h5>
+          <p className='text-sm'>Working directly with a trusted Ethiopian exporter provides priority access to limited lots, real-time market intelligence, flexible payment terms, and quality consistency. Identify 2 to 3 reliable export partners and invest in long-term relationships.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border-l-4 border-green-500'>
-          <h5 className='font-bold mb-2'>2. Forward Contracting</h5>
-          <p className='text-sm mb-3'>Lock in prices for future delivery (3-6 months out) when you see favorable pricing. This provides budget certainty and protects against price spikes.</p>
-          <p className='text-sm italic'>Action: Work with your exporter to establish forward contracts for a portion (30-50%) of your annual Ethiopian coffee needs.</p>
+          <h5 className='font-bold mb-2'>2. Pre-Contract and Forward Contract Early</h5>
+          <p className='text-sm'>Lock in prices for future delivery (3 to 6 months out) when you see favorable pricing. This is especially critical for washed Ethiopian coffee, which faces a shortage this season. Aim to forward-contract 30 to 50% of your annual Ethiopian needs.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border-l-4 border-purple-500'>
           <h5 className='font-bold mb-2'>3. Diversify Your Ethiopian Portfolio</h5>
-          <p className='text-sm mb-3'>Don't rely exclusively on the most expensive lots. Balance your offering with a mix of premium G1/G2 coffees and well-selected G3 coffees that offer good value.</p>
-          <p className='text-sm italic'>Action: Feature one ultra-premium Ethiopian coffee alongside one or two solid mid-tier Ethiopian options.</p>
+          <p className='text-sm'>Balance your offering with a mix of premium G1/G2 lots and well-selected G3 coffees that deliver strong value. Feature one ultra-premium Ethiopian coffee alongside one or two solid mid-tier options.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border-l-4 border-amber-500'>
-          <h5 className='font-bold mb-2'>4. Increase Inventory Holding</h5>
-          <p className='text-sm mb-3'>If you have adequate storage and capital, buying larger quantities when prices are favorable can save money over frequent small purchases.</p>
-          <p className='text-sm italic'>Action: Consider moving from monthly to quarterly purchasing cycles for core Ethiopian offerings.</p>
+          <h5 className='font-bold mb-2'>4. Communicate Value Transparently</h5>
+          <p className='text-sm'>Educate your customers about why Ethiopian coffee prices have increased. Most specialty coffee customers understand and accept quality pricing when context is provided. Include origin stories, market context, and value explanations in your descriptions.</p>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border-l-4 border-red-500'>
-          <h5 className='font-bold mb-2'>5. Transparent Customer Communication</h5>
-          <p className='text-sm mb-3'>Educate your customers about why Ethiopian coffee prices have increased. Most specialty coffee customers understand and accept quality pricing when context is provided.</p>
-          <p className='text-sm italic'>Action: Include origin stories, market context, and value explanations in your coffee descriptions and marketing.</p>
+          <h5 className='font-bold mb-2'>5. Adjust Retail Pricing</h5>
+          <p className='text-sm'>Do not absorb the full impact of green coffee cost increases. Pass through cost increases proportionally and position Ethiopian coffee as a premium product worth the investment. Customers who value quality will stay.</p>
         </div>
       </div>
-
-      <h4 className='text-xl font-bold mt-8 mb-3'>Pricing and Business Strategies</h4>
-
-      <div className='space-y-5 my-6'>
-        <div className='bg-blue-50 p-5 rounded-lg'>
-          <h5 className='font-bold mb-2'>Pass Through Cost Increases</h5>
-          <p className='text-sm'>Don't absorb the full impact of price increases. Adjust retail pricing to reflect green coffee cost reality. Most customers accept reasonable price increases when quality is maintained.</p>
-        </div>
-
-        <div className='bg-green-50 p-5 rounded-lg'>
-          <h5 className='font-bold mb-2'>Emphasize Value, Not Just Price</h5>
-          <p className='text-sm'>Position Ethiopian coffee as a premium product worth the investment. Highlight exceptional cup quality, unique flavor profiles, and origin story rather than competing on price.</p>
-        </div>
-
-        <div className='bg-purple-50 p-5 rounded-lg'>
-          <h5 className='font-bold mb-2'>Offer Varied Price Points</h5>
-          <p className='text-sm'>Create a portfolio of Ethiopian coffees at different price tiers (premium, mid-range, entry-level) so customers can choose based on their budget while staying within Ethiopian offerings.</p>
-        </div>
-
-        <div className='bg-amber-50 p-5 rounded-lg'>
-          <h5 className='font-bold mb-2'>Consider Blend Incorporation</h5>
-          <p className='text-sm'>Use Ethiopian coffee in signature blends where it provides character without being the sole origin. This stretches your Ethiopian coffee further while maintaining flavor profiles customers love.</p>
-        </div>
-      </div>
-
-      {/* SECTION 12: LONG-TERM OUTLOOK */}
-      <h3 id="long-term-outlook" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
-        <HiOutlineArrowTrendingUp className='text-amber-600' />
-        12. Long-Term Outlook: The Future of Ethiopian Coffee Pricing
-      </h3>
 
       <p className='my-4'>
-        Looking beyond immediate market dynamics, what does the long-term future hold for Ethiopian coffee pricing?
+        For detailed guidance on ordering logistics, minimum quantities, and payment terms, see <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline font-semibold'>How to Source Green Coffee from Ethiopia</Link> and our <Link href='/ordering-info' className='underline font-semibold'>Ordering Information</Link> page. Importers considering deeper supply commitments may also benefit from our analysis of <Link href='/insights/benefits-investing-ethiopian-coffee-production' className='underline font-semibold'>investing in Ethiopian coffee production</Link>, which covers forward contracts, processing partnerships, and other strategies for securing long-term supply.
       </p>
 
-      <h4 className='text-xl font-bold mt-6 mb-3'>Structural Forces Shaping the Future</h4>
-
-      <div className='space-y-6 my-6'>
-        <div className='border border-gray-300 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-3'>Climate Change: The Defining Challenge</h5>
-          <p className='mb-3'>
-            Climate change will continue reducing suitable coffee-growing land globally. Ethiopia, despite being coffee's origin, is not immune. Higher temperatures, erratic rainfall, and disease pressure will constrain production growth.
-          </p>
-          <p className='text-sm font-medium'>Long-term implication: Upward pressure on prices as supply growth lags demand growth</p>
-        </div>
-
-        <div className='border border-gray-300 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-3'>Quality Differentiation Increasing</h5>
-          <p className='mb-3'>
-            The gap between specialty and commercial coffee prices will likely widen. Consumers willing to pay for exceptional quality will drive specialty prices higher, while commodity coffee faces price pressure from oversupply in lower grades.
-          </p>
-          <p className='text-sm font-medium'>Long-term implication: Premium Ethiopian specialty coffees may command even larger premiums over baseline prices</p>
-        </div>
-
-        <div className='border border-gray-300 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-3'>Farmer Economics and Generational Shift</h5>
-          <p className='mb-3'>
-            Coffee farming must become more economically attractive to retain existing farmers and attract new generations. Higher prices that provide viable farmer incomes are essential for the industry's sustainability.
-          </p>
-          <p className='text-sm font-medium'>Long-term implication: Prices must remain elevated to ensure long-term supply security</p>
-        </div>
-
-        <div className='border border-gray-300 rounded-lg p-5'>
-          <h5 className='font-bold text-lg mb-3'>Transparency and Traceability Premiums</h5>
-          <p className='mb-3'>
-            Consumers increasingly demand to know where their coffee comes from and that farmers are fairly compensated. Fully traceable, ethically sourced Ethiopian coffee will command additional premiums.
-          </p>
-          <p className='text-sm font-medium'>Long-term implication: Transparent supply chains justify premium pricing, creating incentives for better practices</p>
-        </div>
-      </div>
-
-      <h4 className='text-xl font-bold mt-8 mb-3'>Scenarios for 2030</h4>
-
-      <div className='grid md:grid-cols-3 gap-4 my-6'>
-        <div className='bg-green-50 p-5 rounded-lg border-2 border-green-300'>
-          <h5 className='font-bold mb-2 text-green-900'>Optimistic Scenario</h5>
-          <p className='text-sm mb-3'>Climate-resilient varieties developed and adopted. Production efficiency improvements. Stable geopolitical environment.</p>
-          <p className='text-xs font-medium'>C-Market: $2.00-2.50/lb<br/>Ethiopian G1/G2: $4.50-6.00/lb FOB</p>
-        </div>
-        <div className='bg-amber-50 p-5 rounded-lg border-2 border-amber-300'>
-          <h5 className='font-bold mb-2 text-amber-900'>Base Case Scenario</h5>
-          <p className='text-sm mb-3'>Moderate climate impacts. Gradual production adaptation. Continued demand growth. Occasional supply disruptions.</p>
-          <p className='text-xs font-medium'>C-Market: $2.50-3.20/lb<br/>Ethiopian G1/G2: $5.00-7.00/lb FOB</p>
-        </div>
-        <div className='bg-red-50 p-5 rounded-lg border-2 border-red-300'>
-          <h5 className='font-bold mb-2 text-red-900'>Pessimistic Scenario</h5>
-          <p className='text-sm mb-3'>Severe climate disruptions. Major producer crises. Disease outbreaks. Limited production growth.</p>
-          <p className='text-xs font-medium'>C-Market: $3.50-5.00+/lb<br/>Ethiopian G1/G2: $6.50-9.00+/lb FOB</p>
-        </div>
-      </div>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>The Bottom Line</h4>
-        <p className='mb-3'>
-          Ethiopian coffee prices are rising due to a perfect storm of global supply challenges, climate change, currency dynamics, cost inflation, and growing specialty demand. This isn't a temporary blip; it represents a fundamental repricing of coffee that reflects its true value and the real costs of sustainable production.
+      {/* CTA BLOCK */}
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
+        <p className='my-2'>
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> helps importers and roasters worldwide source premium Ethiopian coffee strategically, even in challenging market conditions. With three decades of heritage sourcing relationships, transparent pricing, and real-time market intelligence, we give you the tools to make informed sourcing decisions.
         </p>
-        <p>
-          For importers and roasters, adapting to this "higher for longer" reality requires strategic thinking, strong supply partnerships, transparent customer communication, and a commitment to value rather than just low cost. Those who embrace quality, traceability, and fair pricing will thrive in this new era of coffee economics.
-        </p>
-      </div>
-
-      {/* KEY TAKEAWAYS */}
-      <h3 className='text-2xl font-extrabold mt-10 mb-4'>
-        Key Takeaways
-      </h3>
-      <div className='my-6 space-y-3'>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopian coffee prices are driven by global C-market dynamics, with Arabica futures at historically high levels (~348 cents/lb in early 2026)</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Brazilian production shortfalls due to frost and drought have created global supply tightness, increasing demand for Ethiopian specialty coffee</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Climate change represents the long-term structural driver of coffee price increases, threatening production across all origins</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopian Birr devaluation doesn't translate to lower export prices due to domestic inflation and global market pricing dynamics</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Production costs in Ethiopia have increased 40-70% since 2020, including labor, fertilizers, energy, and logistics</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Specialty-grade Ethiopian coffees (G1/G2) command $2.00-3.50/lb premiums above C-market, reflecting exceptional quality and limited availability</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Global shipping costs have increased 50-150% above pre-pandemic levels, adding $0.06-0.12/lb to Ethiopian coffee landed costs</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Growing specialty coffee demand (8-12% annually) outpaces Ethiopian supply growth (2-3% annually), creating persistent upward price pressure</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Importers should build direct relationships, use forward contracting, diversify portfolios, and communicate value transparently to manage high prices</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>The "higher for longer" scenario suggests C-market stabilizing at $2.20-2.80/lb, with Ethiopian specialty coffees at $4.50-6.00+/lb FOB as the new normal</p>
-        </div>
-      </div>
-
-      {/* ETHIO COFFEE EXPORT CTA */}
-      <div className='bg-gradient-to-br from-amber-900 to-amber-800 text-white p-8 rounded-lg my-8'>
-        <h3 className='text-2xl font-extrabold mb-4'>
-          Manage Rising Prices with a Trusted Partner
-        </h3>
-        <p className='mb-4'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> helps importers and roasters worldwide source premium Ethiopian coffee strategically, even in challenging market conditions. Our deep market knowledge, heritage sourcing relationships, and transparent pricing give you the tools to make informed decisions.
-        </p>
-        <ul className='space-y-2 mb-6'>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Real-time market intelligence</span> to help you time purchases effectively</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Forward contracting options</span> to lock in favorable pricing</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Quality across price points</span> from ultra-premium to excellent value</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Transparent cost breakdowns</span> so you understand exactly what you're paying for</span>
-          </li>
-        </ul>
-        <div className='flex flex-wrap gap-4'>
-          <Link 
-            href="/contact-us" 
-            className='bg-white text-amber-900 px-6 py-3 rounded-lg font-bold hover:bg-amber-100 transition-colors inline-block'
-          >
-            Request Current Pricing
-          </Link>
-          <Link 
-            href="/offerings" 
-            className='border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block'
-          >
-            View Available Coffees
-          </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Current Pricing</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
 
       {/* FAQ SECTION */}
-      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Rising Ethiopian Coffee Prices</h3>
-        <div className="space-y-6">
+      <section className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h3 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About Rising Ethiopian Coffee Prices</h3>
+        <div className='space-y-6'>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Why are Ethiopian coffee prices rising in 2025 and 2026?</h4>
-            <p className="text-sm text-gray-600">Ethiopian coffee prices are rising due to a combination of climate-driven supply constraints across major producing countries, increased global demand for specialty Arabica, higher domestic production costs including wages and transport, Ethiopian Birr currency fluctuations, and growing competition from Asian and Middle Eastern buyers entering the Ethiopian market.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Why are Ethiopian coffee prices rising in 2025 and 2026?</h4>
+            <p className='text-sm text-gray-600'>Ethiopian coffee prices are rising due to global supply constraints (Brazilian frost, Vietnamese drought), climate change impacts on yields, the Ethiopian birr devaluation increasing domestic costs, record cherry prices in the 2025/26 harvest, and accelerating specialty demand from Asia and the Middle East outpacing Ethiopia&apos;s limited supply growth.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How much has Ethiopian green coffee increased in price?</h4>
-            <p className="text-sm text-gray-600">Specialty Ethiopian coffee prices have increased 30 to 50% over the past two seasons. Commercial grades (Grade 4 to 5) now average $4.50 to $5.50 per kg FOB, while specialty lots scoring SCA 84 and above command $7 to $10+ per kg FOB, with exceptional micro-lots exceeding those ranges depending on origin and processing method.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>How much has Ethiopian green coffee increased in price?</h4>
+            <p className='text-sm text-gray-600'>Specialty Ethiopian coffee prices have increased 30 to 50% over the past two seasons. Commercial grades (G4 to G5) now average $4.20 to $5.00 per pound FOB, while specialty G1/G2 lots command $5.50 to $7.00+ per pound FOB. Cherry prices at the farm gate tripled in the 2025/26 season, peaking at $1.51 per kilogram.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Will Ethiopian coffee prices continue to rise?</h4>
-            <p className="text-sm text-gray-600">Market indicators suggest continued upward pressure through 2026 and beyond. Limited supply growth from major origins, rising input costs across the coffee belt, persistently strong specialty demand, and the effects of climate change on production cycles make significant price declines unlikely in the near to medium term.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Will Ethiopian coffee prices continue to rise?</h4>
+            <p className='text-sm text-gray-600'>Market indicators suggest continued upward pressure through 2026 and into 2027. Limited supply growth from major origins, rising input costs, persistent specialty demand, and climate change effects on production make significant price declines unlikely in the near to medium term. The consensus outlook is &quot;higher for longer.&quot;</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How can roasters manage rising Ethiopian coffee costs?</h4>
-            <p className="text-sm text-gray-600">Effective strategies include locking in prices with forward contracts through your exporter, building direct long-term relationships with trusted Ethiopian exporters for priority access and pricing stability, diversifying sourcing across Ethiopian regions to find value, and adjusting retail pricing to reflect quality-driven cost increases.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>How can roasters manage rising Ethiopian coffee costs?</h4>
+            <p className='text-sm text-gray-600'>Effective strategies include forward contracting through your exporter to lock in prices, building direct long-term relationships for priority access and pricing stability, diversifying across Ethiopian regions and grades to find value, and adjusting retail pricing to reflect the true cost of quality-driven sourcing.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Is Ethiopian coffee still worth importing at current prices?</h4>
-            <p className="text-sm text-gray-600">Yes. Ethiopian coffee commands premium retail prices due to its unique origin story, distinctive flavor profiles, and strong consumer recognition. The specialty premium more than compensates for higher green bean costs for quality-focused roasters, and customers increasingly expect and accept fair pricing for traceable single-origin coffees.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Is Ethiopian coffee still worth importing at current prices?</h4>
+            <p className='text-sm text-gray-600'>Yes. Ethiopian coffee commands premium retail prices due to its distinctive flavor profiles, strong consumer recognition, and unique origin story. The specialty premium more than compensates for higher green costs for quality-focused roasters, and customers increasingly expect and accept fair pricing for traceable single-origin coffees.</p>
           </div>
         </div>
       </section>
@@ -998,55 +421,45 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Market and Pricing</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>2025 Harvest Season Outlook</Link></li>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>&bull; <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
+              <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>&bull; <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>Green Coffee Price Hedging for Importers</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Harvest and Supply</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>2025/26 Harvest Season Outlook</Link></li>
+              <li>&bull; <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing Methods</Link></li>
+              <li>&bull; <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
             </ul>
           </div>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Import Guides</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to USA</Link></li>
-              <li>• <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Canada</Link></li>
-              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>&bull; <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to USA</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Canada</Link></li>
+              <li>&bull; <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Quality & Origins</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Quality and Origins</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
-              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
-              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing Methods</Link></li>
+              <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+              <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>&bull; <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage and Freight Logistics</Link></li>
             </ul>
           </div>
-          <div>
-            <h4 className='font-semibold mb-2 text-sm'>Trade & Logistics</h4>
-            <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Coffee Storage &amp; Freight Logistics</Link></li>
-              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities</Link></li>
-              <li>• <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>Green Coffee Price Hedging for Importers</Link></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Questions About Ethiopian Coffee Pricing?</h4>
-        <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, our team provides detailed market analysis, current pricing, and strategic sourcing advice to help you succeed in the Ethiopian coffee market.
-        </p>
-        <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
-          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This market analysis was prepared by Ethio Coffee Import and Export PLC based on current market data, industry reports, and our direct experience in Ethiopian coffee export. Market conditions change rapidly; for the most current pricing and availability, contact our team directly.
+          <span className='font-bold'>About This Insight:</span> This market analysis was prepared by Ethio Coffee Import and Export PLC based on current market data, industry reports (ICO, USDA, Algrano), and our direct experience in Ethiopian coffee export. Market conditions change rapidly; for the most current pricing and availability, contact our team directly.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

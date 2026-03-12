@@ -1,26 +1,21 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { 
-  HiOutlineCalendarDays, 
-  HiOutlineGlobeAlt,
-  HiOutlineShieldCheck,
-  HiOutlineCheckCircle,
-  HiOutlineTrophy,
-  HiOutlineMapPin,
-  HiOutlineChartBar,
-  HiOutlineLightBulb,
-  HiOutlineCube,
-  HiOutlineBeaker,
+import {
   HiOutlineBuildingOffice2,
-  HiOutlineDocumentText,
-  HiOutlineArrowTrendingUp,
-  HiOutlineCurrencyDollar,
-  HiOutlineSparkles,
-  HiOutlineClipboardDocumentCheck,
   HiOutlineUserGroup,
   HiOutlineScale,
-  HiOutlineBuildingStorefront,
-  HiOutlineRocketLaunch
+  HiOutlineShieldCheck,
+  HiOutlineCheckCircle,
+  HiOutlineMapPin,
+  HiOutlineCube,
+  HiOutlineGlobeAlt,
+  HiOutlineCurrencyDollar,
+  HiOutlineChartBar,
+  HiOutlineLightBulb,
+  HiOutlineRocketLaunch,
+  HiOutlineClipboardDocumentCheck,
+  HiOutlineDocumentText,
+  HiOutlineBeaker
 } from 'react-icons/hi2'
 
 type InsightContentProps = {
@@ -36,18 +31,17 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        A strategic guide to help international roasters understand the critical differences between private coffee exporters and cooperative unions when sourcing Ethiopian Arabica in 2026, including EUDR compliance, quality standards, and the impact of Directive 1106/2025.
+        Compare private and cooperative Ethiopian coffee exporters on pricing, logistics, EUDR compliance, certifications, and which sourcing channel fits your business.
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Understanding the difference between private and cooperative coffee exporters is crucial for successful Ethiopian coffee sourcing
+          Private exporters and cooperative unions operate under different structures, pricing models, and compliance capabilities
         </figcaption>
-
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='Private vs cooperative Ethiopian coffee exporters comparison guide'
+            alt='Private vs cooperative Ethiopian coffee exporters sourcing comparison'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -59,7 +53,7 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2'>Key Takeaway</p>
         <p>
-          Private Ethiopian coffee exporters typically offer faster logistics, flexible lot sizes, and direct quality control, while cooperative unions provide deeper farmer traceability and community-impact narratives. Your choice between these two sourcing models should be driven by your priorities: operational speed and consistency, or social-impact sourcing and origin storytelling.
+          Private Ethiopian coffee exporters deliver faster logistics, flexible lot sizes, and vertically integrated quality control. Cooperative unions provide farm-level traceability, certification access (Organic, Fair Trade, Rainforest Alliance), and stronger EUDR documentation. Most successful importers source from both channels to balance operational speed with ethical sourcing narratives.
         </p>
       </div>
 
@@ -70,151 +64,115 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        Ethiopia is targeting a record-breaking export volume for the 2025/2026 marketing year. The goal is to export 7.8 million bags of coffee. This ambitious target reflects growing global demand for Ethiopian Arabica. However, reaching this target depends on the efficiency and capability of Ethiopian coffee exporters.
+        Your Ethiopian coffee sample scored 87 on the cupping table, but the exporter cannot confirm EUDR geolocation data for the lot. Do you switch channels, accept the compliance risk, or start the sourcing process over? This is the kind of decision importers face when choosing between <span className='font-bold'>private coffee exporters</span> and <span className='font-bold'>cooperative unions</span> in Ethiopia.
       </p>
 
       <p className='my-4'>
-        For international coffee roasters, this growth creates both opportunities and challenges. One of the most critical decisions you will face is choosing between two distinct sourcing models. You can work with <span className='font-bold'>private coffee exporters</span> or <span className='font-bold'>cooperative unions</span>. This choice is not simply about preference. It impacts everything from price stability to logistics, from EUDR compliance to cup consistency.
+        Ethiopia exported a record US$2.65 billion in coffee during the 2024/25 fiscal year, with both private exporters and cooperative unions contributing to that total (<a href='https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Coffee%20Annual_Addis%20Ababa_Ethiopia_ET2025-0004.pdf' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>USDA GAIN, 2025</a>). The government targets 7.8 million bags for 2025/26. Yet these two export models differ sharply in structure, pricing, compliance readiness, and the buyer experience they offer.
       </p>
 
       <p className='my-4'>
-        Understanding the structural differences between these two models is essential for operating in today's Ethiopian coffee market. The market has become more complex following the implementation of <span className='font-bold'>Directive 1106/2025</span>. This new regulation has changed the requirements for operating as a coffee exporter in Ethiopia. The changes affect both private companies and cooperatives in significant ways.
-      </p>
-
-      <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
-        <p className='font-bold text-lg mb-3 text-blue-900 flex items-center gap-2'>
-          <HiOutlineLightBulb className='text-2xl' />
-          Understanding Ethiopia's Coffee Export Landscape
-        </p>
-        <p className='mb-3'>
-          Ethiopia exported coffee worth a record US$2.65 billion in the 2024/2025 fiscal year. This achievement represents significant growth compared to previous years. Both private exporters and cooperative unions contributed to this success.
-        </p>
-        <p className='text-sm'>
-          However, these two types of exporters operate very differently. They have different organizational structures, different strengths, and different approaches to quality control and farmer relationships. Understanding these differences helps you choose the right partner for your specific needs.
-        </p>
-      </div>
-
-      <p className='my-4'>
-        This guide will walk you through both models in detail. We will explore how private exporters operate, what cooperatives offer, and which model might work best for your business. By the end, you will understand the strategic considerations that should guide your sourcing decisions in 2026.
+        Directive 1106/2025 from the Ethiopian Coffee and Tea Authority (ECTA) has raised minimum capital requirements and tightened licensing standards, reshaping which companies can export. This guide breaks down both models, covers the <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Specialty Line (DSL)</Link> as a third channel, and provides a practical framework for choosing the right partner.
       </p>
 
       {/* PRIVATE EXPORTERS SECTION */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineBuildingOffice2 className='text-amber-600' />
-        Private Coffee Exporters: Flexibility and Scale
+        Private Coffee Exporters: How They Operate
       </h3>
 
       <p className='my-4'>
-        Private coffee exporters are independent commercial entities. They operate as businesses focused on purchasing, processing, and exporting Ethiopian coffee to international markets. These companies are the primary drivers of Ethiopia's record coffee revenues. They handle the majority of coffee volume leaving the country.
-      </p>
-
-      <h4 className='text-xl font-bold mt-8 mb-4'>How Private Exporters Operate</h4>
-
-      <p className='my-4'>
-        Private exporters purchase coffee from multiple sources. They buy from individual farmers, cooperatives, washing stations, and estates. After purchase, they process the coffee at their own facilities. Most established private exporters own and operate dry mills. These mills remove the parchment layer from dried coffee beans to produce green coffee ready for export.
+        Private exporters are independent commercial companies licensed by ECTA to purchase, process, and ship Ethiopian coffee internationally. They source from washing stations, estates, and sometimes directly from farmers. Most established private exporters own dry mills, operate ECTA-certified cupping labs, and manage their own logistics from Addis Ababa to the Port of Djibouti.
       </p>
 
       <p className='my-4'>
-        Major players in the private sector include well-known names like Daye Bensa and Kerchanshe. These companies have built their reputations on consistent quality and reliable supply. They offer diverse regional profiles, sourcing from famous regions like <span className='font-bold'>Yirgacheffe, Sidamo, and Guji</span>. Their scale allows them to blend different lots or offer various grades to meet different buyer needs.
+        Major private exporters include Daye Bensa, Kerchanshe Trading, Tracon Trading, and <Link href='/insights/ethio-coffee-export-launch' className='text-amber-700 hover:underline'>Ethio Coffee Import and Export PLC</Link>. These companies source across multiple regions (Yirgacheffe, Sidamo, Guji, Limu, Jimma, Harar) and offer a range of grades from commercial G4/G5 to specialty Q1 micro-lots.
       </p>
 
-      <h4 className='text-xl font-bold mt-8 mb-4'>Impact of Directive 1106/2025</h4>
+      <h4 className='text-xl font-bold mt-8 mb-4'>Directive 1106/2025: Capital Requirements</h4>
 
       <p className='my-4'>
-        The Ethiopian government recently implemented Directive 1106/2025. This regulation fundamentally changed the requirements for operating as a coffee exporter. The most significant change is the new minimum capital requirement.
+        ECTA's <a href='https://www.ecta.gov.et' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Directive 1106/2025</a> raised the minimum registered capital for private coffee exporters to <span className='font-bold'>15 million Ethiopian Birr</span>, a fifteen-fold increase from the previous threshold. Cooperative unions operating as commercial entities face a higher bar: <span className='font-bold'>20 million Birr</span>. The directive aims to consolidate the sector around well-financed, professionally managed exporters.
       </p>
 
-      <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h5 className='font-bold text-lg mb-4 flex items-center gap-2'>
-          <HiOutlineCurrencyDollar className='text-amber-600' />
-          New Capital Requirements Under Directive 1106/2025
-        </h5>
-        <div className='space-y-4'>
-          <div className='bg-white p-4 rounded-lg border border-amber-200'>
-            <p className='font-semibold mb-2'>Private Coffee Exporters</p>
-            <p className='text-2xl font-bold text-amber-600 mb-2'>15 Million Ethiopian Birr</p>
-            <p className='text-sm text-gray-700'>
-              This represents a fifteen-fold increase from the previous requirement. The government designed this increase to ensure that only well-financed, stable companies handle international coffee trade.
-            </p>
-          </div>
-          <div className='bg-white p-4 rounded-lg border border-amber-200'>
-            <p className='font-semibold mb-2'>Cooperative Unions (Operating as Companies)</p>
-            <p className='text-2xl font-bold text-amber-600 mb-2'>20 Million Ethiopian Birr</p>
-            <p className='text-sm text-gray-700'>
-              Cooperative unions that operate as commercial entities face an even higher requirement. This ensures cooperatives have sufficient financial capacity to handle large-scale export operations.
-            </p>
-          </div>
-        </div>
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden'>
+          <thead>
+            <tr className='bg-dark text-primary'>
+              <th className='p-4 text-left font-bold'>Requirement</th>
+              <th className='p-4 text-left font-bold'>Private Exporters</th>
+              <th className='p-4 text-left font-bold'>Cooperative Unions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className='border-b border-gray-200 hover:bg-gray-50'>
+              <td className='p-4 font-semibold'>Minimum Capital</td>
+              <td className='p-4'>15M Ethiopian Birr</td>
+              <td className='p-4'>20M Ethiopian Birr</td>
+            </tr>
+            <tr className='border-b border-gray-200 hover:bg-gray-50 bg-blue-50'>
+              <td className='p-4 font-semibold'>ECTA-Certified Lab</td>
+              <td className='p-4'>Required</td>
+              <td className='p-4'>Required</td>
+            </tr>
+            <tr className='border-b border-gray-200 hover:bg-gray-50'>
+              <td className='p-4 font-semibold'>Dry Mill Ownership</td>
+              <td className='p-4'>Common (vertically integrated)</td>
+              <td className='p-4'>Union-operated shared facilities</td>
+            </tr>
+            <tr className='hover:bg-gray-50 bg-blue-50'>
+              <td className='p-4 font-semibold'>Effect on Sector</td>
+              <td className='p-4'>Fewer, larger, better-capitalized exporters</td>
+              <td className='p-4'>Stronger unions; weaker ones merge or exit</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <p className='my-4'>
-        This capital requirement serves several purposes. First, it ensures financial stability. Companies with substantial capital can better weather market fluctuations and payment delays. Second, it promotes professionalization. Higher barriers to entry mean fewer but more capable exporters. Third, it protects international buyers. Working with well-capitalized exporters reduces the risk of contract defaults or quality issues.
+        For international buyers, this consolidation reduces counterparty risk. Companies that meet the 15M Birr threshold have the financial capacity to absorb market fluctuations, fund pre-shipment inventory, and honor forward contracts even when cherry prices spike.
       </p>
 
-      <h4 className='text-xl font-bold mt-8 mb-4'>Key Advantages of Working with Private Exporters</h4>
+      <h4 className='text-xl font-bold mt-8 mb-4'>Strengths of Private Exporters</h4>
 
       <div className='space-y-6 my-6'>
         <div className='bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg border border-blue-200'>
           <h5 className='font-bold text-lg mb-3 flex items-center gap-2'>
             <HiOutlineRocketLaunch className='text-blue-600' />
-            Logistical Efficiency
+            Logistics and Speed
           </h5>
-          <p className='text-sm text-gray-800 mb-3'>
-            Private exporters are often the preferred choice for buyers seeking consistent supply and flexible shipping arrangements. They have established relationships with shipping lines and freight forwarders. They understand international logistics requirements and can coordinate complex shipments.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            Most established private exporters manage their own dry mills. This vertical integration gives them direct control over processing quality. They also operate ECTA-certified laboratories. ECTA stands for the Ethiopian Coffee and Tea Authority. These laboratories perform quality control testing before coffee leaves for the Port of Djibouti.
-          </p>
-          <p className='text-xs text-gray-700 italic'>
-            Having in-house quality control means private exporters can respond quickly to buyer specifications and ensure consistency across shipments.
+          <p className='text-sm text-gray-800'>
+            Private exporters manage their own dry mills and maintain relationships with freight forwarders and shipping lines. This vertical integration enables tighter control over milling schedules, container booking, and phytosanitary documentation. Lead times from contract signing to container loading typically range from 3 to 6 weeks, depending on the season and grade availability.
           </p>
         </div>
 
         <div className='bg-gradient-to-r from-green-50 to-green-100 p-6 rounded-lg border border-green-200'>
           <h5 className='font-bold text-lg mb-3 flex items-center gap-2'>
             <HiOutlineShieldCheck className='text-green-600' />
-            Professional Standards and Accountability
+            Quality Control
           </h5>
-          <p className='text-sm text-gray-800 mb-3'>
-            The new capital requirements under Directive 1106/2025 have raised professional standards across the industry. Private exporters must demonstrate not just financial capacity but also operational competence. This includes maintaining proper documentation systems, quality control protocols, and compliance procedures.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            Well-established private exporters invest heavily in staff training, equipment maintenance, and quality improvement programs. They understand that their reputation depends on consistent performance. This professionalization benefits international buyers who need reliable partners.
-          </p>
-          <p className='text-xs text-gray-700 italic'>
-            Working with professional, well-capitalized exporters reduces risks and creates predictability in your supply chain.
+          <p className='text-sm text-gray-800'>
+            In-house ECTA-certified labs allow private exporters to cup, grade, and screen every lot before shipping. Buyers receive pre-shipment samples that closely match the final container. This matters for roasters blending Ethiopian coffee into year-round products where consistency is non-negotiable.
           </p>
         </div>
 
         <div className='bg-gradient-to-r from-purple-50 to-purple-100 p-6 rounded-lg border border-purple-200'>
           <h5 className='font-bold text-lg mb-3 flex items-center gap-2'>
-            <HiOutlineUserGroup className='text-purple-600' />
-            Direct Relationships and Communication
+            <HiOutlineCube className='text-purple-600' />
+            Volume and Grade Flexibility
           </h5>
-          <p className='text-sm text-gray-800 mb-3'>
-            Many private exporters work directly with washing stations and estates. This direct engagement allows for better communication regarding cupping scores, harvest timing, and processing preferences. When issues arise, you can often speak directly with the people managing the coffee at origin.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            Companies like <span className='font-semibold'>Ethio Coffee Export</span> maintain long-term relationships with specific washing stations. These relationships enable them to secure priority access to high-quality lots. They can also provide buyers with detailed information about specific farms, processing methods, and harvest conditions.
-          </p>
-          <p className='text-xs text-gray-700 italic'>
-            Direct relationships create transparency and enable roasters to tell authentic origin stories to their customers.
+          <p className='text-sm text-gray-800'>
+            Private exporters purchase from dozens of washing stations across multiple regions. They can offer a single container split across Yirgacheffe G1, Sidamo G2, and Guji G1 if needed. This flexibility suits mid-size roasters who need variety without committing to full-container volumes of a single origin.
           </p>
         </div>
 
         <div className='bg-gradient-to-r from-amber-50 to-amber-100 p-6 rounded-lg border border-amber-200'>
           <h5 className='font-bold text-lg mb-3 flex items-center gap-2'>
-            <HiOutlineCube className='text-amber-600' />
-            Volume and Consistency
+            <HiOutlineDocumentText className='text-amber-600' />
+            Communication and Responsiveness
           </h5>
-          <p className='text-sm text-gray-800 mb-3'>
-            Private exporters typically excel at providing consistent volume across the season. They purchase from multiple sources and blend strategically to meet target profiles. If you need a reliable supply of Sidamo Grade 2 for a year-round blend, private exporters can usually deliver.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            Their scale also enables them to absorb market fluctuations better than smaller operations. They can purchase early in the season when prices are lower and hold inventory to fulfill contracts throughout the year. This capacity protects buyers from mid-season price spikes.
-          </p>
-          <p className='text-xs text-gray-700 italic'>
-            For roasters with consistent volume requirements, the scale and flexibility of private exporters offer significant advantages.
+          <p className='text-sm text-gray-800'>
+            Decision-making authority sits with the company owner or export manager, not a committee. Sample requests, price negotiations, and contract amendments move faster. Many private exporters respond to buyer inquiries within 24 hours and assign dedicated account managers to recurring customers.
           </p>
         </div>
       </div>
@@ -222,242 +180,301 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
       {/* COOPERATIVE SECTION */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineUserGroup className='text-amber-600' />
-        Cooperative Coffee Exporters: Social Impact and Traceability
+        Cooperative Unions: How They Operate
       </h3>
 
       <p className='my-4'>
-        Cooperative coffee exporters represent a fundamentally different model. Cooperatives are farmer-owned organizations. Individual smallholder farmers join together to form primary cooperatives. Multiple primary cooperatives then unite to form larger cooperative unions. These unions have the capacity and licensing to export coffee internationally.
-      </p>
-
-      <h4 className='text-xl font-bold mt-8 mb-4'>Understanding Cooperative Structure</h4>
-
-      <p className='my-4'>
-        The cooperative model exists to empower smallholder farmers. Most Ethiopian coffee comes from small family farms. Individual farmers typically cultivate less than two hectares of coffee. At this scale, individual farmers cannot afford the infrastructure needed for processing and export. They lack the capital for washing stations, dry mills, quality control labs, and export licenses.
+        Cooperative unions are farmer-owned federations. Individual smallholder farmers (typically cultivating under 2 hectares) join primary cooperatives. Multiple primaries unite into a union, which holds the ECTA export license and manages international sales. Ethiopia has several major unions: the <span className='font-bold'>Oromia Coffee Farmers Cooperative Union (OCFCU)</span>, <span className='font-bold'>Yirgacheffe Coffee Farmers Cooperative Union (YCFCU)</span>, <span className='font-bold'>Sidama Coffee Farmers Cooperative Union (SCFCU)</span>, and the <span className='font-bold'>Kaffa Forest Coffee Farmers Cooperative Union</span>.
       </p>
 
       <p className='my-4'>
-        Cooperatives solve this problem by pooling resources. Farmers deliver their cherry to cooperative washing stations. The cooperative processes the coffee, conducts quality control, and handles marketing. Farmers receive payment based on the quality and volume they deliver. When the coffee sells, farmers receive their share of the profits.
+        Farmers deliver cherry to cooperative washing stations. The cooperative processes, grades, and markets the coffee. Profits return to members through second payments and dividends. Unions also invest in schools, health clinics, and clean water infrastructure, which gives roasters an authentic community-impact narrative for their end consumers.
       </p>
 
-      <p className='my-4'>
-        Major cooperative unions include the Oromia Coffee Farmers Cooperative Union and the Yirgacheffe Coffee Farmers Cooperative Union. These unions represent hundreds of thousands of smallholder farmers. They operate their own washing stations, dry mills, and export facilities. Their mission is not just commercial success but also farmer empowerment and rural development.
-      </p>
-
-      <h4 className='text-xl font-bold mt-8 mb-4'>The Social Mission of Cooperatives</h4>
-
-      <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
-        <h5 className='font-bold text-lg mb-4 flex items-center gap-2'>
-          <HiOutlineSparkles className='text-green-600' />
-          How Cooperatives Benefit Smallholder Farmers
-        </h5>
-        <div className='space-y-3'>
-          <div className='flex items-start gap-3'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl mt-0.5 flex-shrink-0' />
-            <div>
-              <p className='font-semibold text-sm'>Better Prices</p>
-              <p className='text-xs text-gray-700'>Cooperatives negotiate better prices than individual farmers could achieve alone. They also return profits directly to farmer members.</p>
-            </div>
-          </div>
-          <div className='flex items-start gap-3'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl mt-0.5 flex-shrink-0' />
-            <div>
-              <p className='font-semibold text-sm'>Access to Processing Infrastructure</p>
-              <p className='text-xs text-gray-700'>Farmers gain access to professional washing stations and processing facilities they could never afford individually.</p>
-            </div>
-          </div>
-          <div className='flex items-start gap-3'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl mt-0.5 flex-shrink-0' />
-            <div>
-              <p className='font-semibold text-sm'>Technical Training</p>
-              <p className='text-xs text-gray-700'>Cooperatives provide training in best practices for cultivation, harvesting, and post-harvest handling to improve quality.</p>
-            </div>
-          </div>
-          <div className='flex items-start gap-3'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl mt-0.5 flex-shrink-0' />
-            <div>
-              <p className='font-semibold text-sm'>Community Investment</p>
-              <p className='text-xs text-gray-700'>Many cooperatives invest profits in community infrastructure like schools, health clinics, and clean water systems.</p>
-            </div>
-          </div>
-          <div className='flex items-start gap-3'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl mt-0.5 flex-shrink-0' />
-            <div>
-              <p className='font-semibold text-sm'>Market Stability</p>
-              <p className='text-xs text-gray-700'>Cooperatives provide a buffer against market volatility, offering more stable prices to farmers compared to spot markets.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <h4 className='text-xl font-bold mt-8 mb-4'>Key Advantages of Working with Cooperatives</h4>
+      <h4 className='text-xl font-bold mt-8 mb-4'>Strengths of Cooperative Unions</h4>
 
       <div className='space-y-6 my-6'>
         <div className='bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg border border-blue-200'>
           <h5 className='font-bold text-lg mb-3 flex items-center gap-2'>
             <HiOutlineMapPin className='text-blue-600' />
-            Traceability and Origin Authentication
+            Farm-Level Traceability
           </h5>
-          <p className='text-sm text-gray-800 mb-3'>
-            Cooperatives excel at providing detailed traceability. Because they work directly with member farmers, they can document exactly where coffee comes from. Many cooperatives can identify not just the general region but the specific washing station or even individual farm plots.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            This level of traceability creates compelling marketing stories. Roasters can tell customers about the specific farming families behind their coffee. They can describe the terroir, processing methods, and community impact. This authenticity resonates with consumers who value transparency and ethical sourcing.
-          </p>
-          <p className='text-xs text-gray-700 italic'>
-            For roasters building brands around origin stories and farmer relationships, cooperative coffees provide unmatched authenticity.
+          <p className='text-sm text-gray-800'>
+            Cooperatives maintain member registries that link each delivered lot to a specific farmer, GPS-mapped plot, and primary cooperative. This <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>traceability depth</Link> is difficult for private exporters to replicate at scale, and it provides the documentation backbone for <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR compliance</Link>.
           </p>
         </div>
 
         <div className='bg-gradient-to-r from-green-50 to-green-100 p-6 rounded-lg border border-green-200'>
           <h5 className='font-bold text-lg mb-3 flex items-center gap-2'>
             <HiOutlineShieldCheck className='text-green-600' />
-            Certifications and Ethical Standards
+            Certification Access
           </h5>
-          <p className='text-sm text-gray-800 mb-3'>
-            Cooperatives are widely recognized as the gold standard for ethical certifications. They excel in obtaining and maintaining certifications like <span className='font-semibold'>Organic, Fair Trade, and Rainforest Alliance</span>. These certifications require extensive documentation, farmer training, and regular audits.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            The cooperative structure naturally aligns with certification requirements. Farmer-led governance, democratic decision-making, and profit-sharing are core principles of Fair Trade certification. Environmental stewardship and sustainable practices fit well with cooperative values and smallholder farming methods.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            For roasters targeting markets that demand certified coffees, cooperatives offer the most straightforward path. Many retail customers and institutional buyers require Fair Trade or Organic certification. Cooperative coffees meet these requirements.
-          </p>
-          <p className='text-xs text-gray-700 italic'>
-            Certifications open doors to premium markets and allow roasters to command higher prices by meeting consumer ethical expectations.
+          <p className='text-sm text-gray-800'>
+            Most major unions hold <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Organic, Fair Trade, and Rainforest Alliance certifications</Link>. The cooperative structure naturally aligns with certification criteria: democratic governance, profit-sharing, environmental stewardship, and documented farmer training. For roasters whose retail customers require certified coffee, cooperatives are the most straightforward source.
           </p>
         </div>
 
         <div className='bg-gradient-to-r from-purple-50 to-purple-100 p-6 rounded-lg border border-purple-200'>
           <h5 className='font-bold text-lg mb-3 flex items-center gap-2'>
             <HiOutlineGlobeAlt className='text-purple-600' />
-            EUDR Readiness and Smallholder Mapping
+            EUDR Readiness
           </h5>
-          <p className='text-sm text-gray-800 mb-3'>
-            The European Union Deforestation Regulation (EUDR) requires farm-level geolocation data for all coffee exported to EU countries. This requirement presents significant challenges, especially for smallholder-based supply chains. However, cooperatives have made substantial progress in addressing this challenge.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            Major unions like the Yirgacheffe Coffee Farmers Cooperative Union have invested heavily in mapping smallholder plots. They use GPS technology to record the coordinates of member farms. They combine this with satellite imagery to verify land use history. This documentation proves that coffee comes from land that was not recently deforested.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            The cooperative structure facilitates this mapping work. Cooperatives have direct relationships with farmers. They can organize mapping activities systematically. They can train farmers on EUDR requirements and ensure compliance across their membership.
-          </p>
-          <p className='text-xs text-gray-700 italic'>
-            For EU buyers, working with cooperatives that have completed smallholder mapping significantly simplifies EUDR compliance.
+          <p className='text-sm text-gray-800'>
+            Unions like YCFCU and SCFCU have invested in GPS mapping of smallholder plots, satellite imagery verification, and digital farmer registries. This documentation proves coffee originates from land that was not recently deforested, a requirement EU importers must verify under the EU Deforestation Regulation. Private exporters are digitizing traceability systems for EUDR, but cooperatives had a head start because member registration is core to their model.
           </p>
         </div>
 
         <div className='bg-gradient-to-r from-amber-50 to-amber-100 p-6 rounded-lg border border-amber-200'>
           <h5 className='font-bold text-lg mb-3 flex items-center gap-2'>
             <HiOutlineCurrencyDollar className='text-amber-600' />
-            Collective Stability and Risk Mitigation
+            Price Stability and Farmer Impact
           </h5>
-          <p className='text-sm text-gray-800 mb-3'>
-            Cooperative unions act as a buffer for farmers against market shocks. When coffee prices drop, cooperatives can sometimes absorb losses to protect farmer incomes. When cherry prices spike, cooperatives help farmers avoid selling too early at disadvantageous prices.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            Many cooperatives provide pre-harvest financing to members. This allows farmers to invest in their farms and sustain their families during the months before harvest. Without this financing, many farmers would be forced to sell to intermediaries at low prices or borrow from informal lenders at high interest rates.
-          </p>
-          <p className='text-sm text-gray-800 mb-3'>
-            Cooperatives also pool resources for quality control. They operate shared laboratories that individual farmers could never afford. This ensures consistent quality standards across member deliveries.
-          </p>
-          <p className='text-xs text-gray-700 italic'>
-            The cooperative model creates long-term stability in farming communities, which ultimately benefits buyers through more sustainable supply chains.
+          <p className='text-sm text-gray-800'>
+            Cooperatives buffer farmers against market volatility by offering pre-harvest financing and stable base prices. When coffee sells at a premium, surplus returns to members. This social impact creates marketing value for roasters. Brands like Counter Culture, Intelligentsia, and Has Bean have built long-term programs around cooperative partnerships.
           </p>
         </div>
+      </div>
+
+      {/* DSL SECTION */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineChartBar className='text-amber-600' />
+        The Third Channel: Direct Specialty Line (DSL)
+      </h3>
+
+      <p className='my-4'>
+        Not all Ethiopian coffee moves through the Ethiopia Commodity Exchange (ECX). The <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Specialty Line</Link> allows both private exporters and cooperatives to sell specialty-grade coffee directly to international buyers, bypassing the ECX auction floor. DSL lots carry full traceability from washing station to port, making them the channel of choice for specialty importers seeking single-origin and micro-lot coffee.
+      </p>
+
+      <p className='my-4'>
+        Under DSL, the exporter (private or cooperative) contracts directly with the buyer for a specific lot at a negotiated price. The coffee undergoes <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>CLU (Coffee Liquoring Unit) inspection</Link> at ECTA but is not traded on the exchange. DSL volumes have grown steadily since ECX reforms in 2017, and the channel now accounts for a significant share of specialty Ethiopian coffee exports.
+      </p>
+
+      <div className='bg-blue-50 border border-blue-200 rounded-lg p-6 my-6'>
+        <p className='font-bold text-lg mb-2 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-blue-600' />
+          DSL Relevance for Buyers
+        </p>
+        <p className='text-sm text-gray-700'>
+          Both private exporters and cooperatives use DSL for their top lots. When evaluating an exporter, ask which share of their volume moves through DSL versus ECX. A high DSL ratio indicates the exporter focuses on specialty and traceable coffee.
+        </p>
       </div>
 
       {/* COMPARISON TABLE */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineScale className='text-amber-600' />
-        Sourcing Analysis: Which Model Fits Your Business?
+        Head-to-Head Comparison: Private vs Cooperative Ethiopian Coffee Exporters
       </h3>
 
       <p className='my-4'>
-        Both private exporters and cooperative unions offer distinct advantages. The right choice depends on your specific business needs, target markets, and sourcing priorities. This comparison table highlights the key differences to help guide your decision.
+        The table below summarizes the operational differences that matter most for sourcing decisions. Use it alongside the decision framework further down.
       </p>
 
       <div className='overflow-x-auto my-8'>
         <table className='w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden'>
           <thead>
-            <tr className='bg-amber-600 text-white'>
-              <th className='p-4 text-left font-bold'>Feature</th>
+            <tr className='bg-dark text-primary'>
+              <th className='p-4 text-left font-bold'>Dimension</th>
               <th className='p-4 text-left font-bold'>Private Exporters</th>
               <th className='p-4 text-left font-bold'>Cooperative Unions</th>
             </tr>
           </thead>
           <tbody>
             <tr className='border-b border-gray-200 hover:bg-gray-50'>
-              <td className='p-4 font-semibold'>Minimum Capital Requirement</td>
-              <td className='p-4'>15 Million Ethiopian Birr</td>
-              <td className='p-4'>20 Million Ethiopian Birr (as companies)</td>
+              <td className='p-4 font-semibold'>Legal Structure</td>
+              <td className='p-4'>PLC or share company, owner-managed</td>
+              <td className='p-4'>Farmer-owned federation (union of primaries)</td>
             </tr>
             <tr className='border-b border-gray-200 hover:bg-gray-50 bg-blue-50'>
-              <td className='p-4 font-semibold'>Best Suited For</td>
-              <td className='p-4'>High volume orders, consistent year-round supply, flexible grade options</td>
-              <td className='p-4'>Niche micro-lots, origin-specific coffees, strong ethical narrative</td>
+              <td className='p-4 font-semibold'>Capital Threshold</td>
+              <td className='p-4'>15M Birr (Directive 1106/2025)</td>
+              <td className='p-4'>20M Birr (if operating as a company)</td>
             </tr>
             <tr className='border-b border-gray-200 hover:bg-gray-50'>
-              <td className='p-4 font-semibold'>Certification Access</td>
-              <td className='p-4'>Mixed - depends on source farms (estate/private farms may have certifications)</td>
-              <td className='p-4'>Excellent - most hold Fair Trade, Organic, and Rainforest Alliance certifications</td>
+              <td className='p-4 font-semibold'>Best For</td>
+              <td className='p-4'>High-volume blends, flexible lot sizes, speed</td>
+              <td className='p-4'>Certified coffee, origin stories, EUDR compliance</td>
             </tr>
             <tr className='border-b border-gray-200 hover:bg-gray-50 bg-blue-50'>
-              <td className='p-4 font-semibold'>Logistics Capability</td>
-              <td className='p-4'>Fast, flexible, independent operations with established shipping networks</td>
-              <td className='p-4'>Traditional, union-managed systems with established but sometimes slower processes</td>
+              <td className='p-4 font-semibold'>Certifications</td>
+              <td className='p-4'>Variable; depends on source farms and exporter investment</td>
+              <td className='p-4'>Strong: Organic, Fair Trade, Rainforest Alliance common</td>
             </tr>
             <tr className='border-b border-gray-200 hover:bg-gray-50'>
-              <td className='p-4 font-semibold'>EUDR Compliance Status</td>
-              <td className='p-4'>Rapidly digitizing traceability systems, implementing GPS mapping</td>
-              <td className='p-4'>Extensive smallholder farm mapping already completed or in progress</td>
+              <td className='p-4 font-semibold'>Logistics Speed</td>
+              <td className='p-4'>Fast; vertically integrated mill-to-port pipeline</td>
+              <td className='p-4'>Moderate; union-managed shared infrastructure</td>
+            </tr>
+            <tr className='border-b border-gray-200 hover:bg-gray-50 bg-blue-50'>
+              <td className='p-4 font-semibold'>EUDR Compliance</td>
+              <td className='p-4'>Digitizing rapidly; GPS mapping in progress</td>
+              <td className='p-4'>Advanced; farm-level registries and plot mapping established</td>
+            </tr>
+            <tr className='border-b border-gray-200 hover:bg-gray-50'>
+              <td className='p-4 font-semibold'>Traceability Depth</td>
+              <td className='p-4'>Good to excellent (varies by exporter)</td>
+              <td className='p-4'>Excellent: farm-plot level for all member deliveries</td>
             </tr>
             <tr className='border-b border-gray-200 hover:bg-gray-50 bg-blue-50'>
               <td className='p-4 font-semibold'>Quality Control</td>
-              <td className='p-4'>In-house ECTA-certified laboratories, vertical integration, strict protocols</td>
-              <td className='p-4'>Shared laboratories, democratic quality decisions, farmer training programs</td>
+              <td className='p-4'>In-house ECTA-certified lab; owner-directed protocols</td>
+              <td className='p-4'>Shared union lab; democratic quality oversight</td>
             </tr>
             <tr className='border-b border-gray-200 hover:bg-gray-50'>
-              <td className='p-4 font-semibold'>Traceability Detail</td>
-              <td className='p-4'>Good to excellent - depends on specific exporter and their source relationships</td>
-              <td className='p-4'>Excellent - farm-level traceability to individual member farmers</td>
+              <td className='p-4 font-semibold'>Pricing Model</td>
+              <td className='p-4'>Market-based; volume discounts; negotiable terms</td>
+              <td className='p-4'>Fair Trade floor + premiums; stable but less negotiable</td>
             </tr>
             <tr className='hover:bg-gray-50 bg-blue-50'>
-              <td className='p-4 font-semibold'>Price Structure</td>
-              <td className='p-4'>Market-based, volume discounts possible, flexible contract terms</td>
-              <td className='p-4'>Fair Trade minimums respected, premiums returned to farmers, stable pricing</td>
+              <td className='p-4 font-semibold'>Decision Speed</td>
+              <td className='p-4'>Fast; owner or export manager decides</td>
+              <td className='p-4'>Slower; committee or board approval may be needed</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h4 className='text-xl font-bold mt-8 mb-4'>Making the Right Choice for Your Business</h4>
+      {/* FOB PRICE COMPARISON */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineCurrencyDollar className='text-amber-600' />
+        FOB Price Ranges by Channel (2025/26 Season)
+      </h3>
+
+      <p className='my-4'>
+        Prices vary by season, quality, and contract timing. The ranges below reflect indicative <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>FOB Djibouti prices</Link> for the 2025/26 crop year. Cooperative prices include Fair Trade premiums where applicable; private exporter prices reflect market-based negotiation.
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden'>
+          <thead>
+            <tr className='bg-dark text-primary'>
+              <th className='p-4 text-left font-bold'>Origin / Grade</th>
+              <th className='p-4 text-left font-bold'>Private Exporter FOB ($/kg)</th>
+              <th className='p-4 text-left font-bold'>Cooperative Union FOB ($/kg)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className='border-b border-gray-200 hover:bg-gray-50'>
+              <td className='p-4 font-semibold'>Yirgacheffe G1 Washed</td>
+              <td className='p-4'>$7.50 – $10.00</td>
+              <td className='p-4'>$8.00 – $11.00</td>
+            </tr>
+            <tr className='border-b border-gray-200 hover:bg-gray-50 bg-blue-50'>
+              <td className='p-4 font-semibold'>Sidamo G2 Washed</td>
+              <td className='p-4'>$5.50 – $7.50</td>
+              <td className='p-4'>$6.00 – $8.00</td>
+            </tr>
+            <tr className='border-b border-gray-200 hover:bg-gray-50'>
+              <td className='p-4 font-semibold'>Guji G1 Natural</td>
+              <td className='p-4'>$8.00 – $11.50</td>
+              <td className='p-4'>$8.50 – $12.00</td>
+            </tr>
+            <tr className='border-b border-gray-200 hover:bg-gray-50 bg-blue-50'>
+              <td className='p-4 font-semibold'>Limu G2 Washed</td>
+              <td className='p-4'>$4.50 – $6.00</td>
+              <td className='p-4'>$5.00 – $6.50</td>
+            </tr>
+            <tr className='hover:bg-gray-50'>
+              <td className='p-4 font-semibold'>Jimma G4/G5 Natural (Commercial)</td>
+              <td className='p-4'>$3.00 – $4.00</td>
+              <td className='p-4'>$3.20 – $4.20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div className='bg-yellow-50 border-l-4 border-yellow-600 p-6 rounded-r-lg my-6'>
+        <p className='font-bold text-sm mb-1'>Note on Pricing</p>
+        <p className='text-sm text-gray-700'>
+          Cooperative FOB prices typically run $0.30 to $0.80/kg higher than private exporter prices for the same grade due to Fair Trade minimum floors, organic premiums, and cooperative overhead. Private exporters may offer volume discounts on full-container (FCL) orders. Cherry prices reached 250+ Birr/kg for premium quality in late 2025, compressing margins for both channels. Prices shift with the C-market and seasonal supply; confirm current rates with your exporter before contracting.
+        </p>
+      </div>
+
+      {/* CONTRACT & PAYMENT */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineClipboardDocumentCheck className='text-amber-600' />
+        Contract and Payment Differences
+      </h3>
+
+      <p className='my-4'>
+        How you pay and what contract type you sign depend partly on which channel you source from. For a full breakdown of Ethiopian coffee <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>contract structures and payment terms</Link>, see the dedicated guide.
+      </p>
+
+      <div className='grid md:grid-cols-2 gap-6 my-6'>
+        <div className='border border-blue-200 rounded-lg p-5 bg-blue-50'>
+          <h5 className='font-bold text-lg mb-3 text-blue-900 flex items-center gap-2'>
+            <HiOutlineBuildingOffice2 className='text-blue-600' />
+            Private Exporters
+          </h5>
+          <ul className='space-y-2 text-sm'>
+            <li className='flex items-start gap-2'>
+              <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
+              <span><span className='font-semibold'>Payment:</span> LC (Letter of Credit) at sight is standard; CAD and TT accepted by established exporters for repeat buyers</span>
+            </li>
+            <li className='flex items-start gap-2'>
+              <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
+              <span><span className='font-semibold'>Contracts:</span> Fixed-price spot and forward contracts common; some offer price-to-be-fixed against the C-market</span>
+            </li>
+            <li className='flex items-start gap-2'>
+              <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
+              <span><span className='font-semibold'>Flexibility:</span> Split lots, deferred shipping, and custom milling specs often negotiable</span>
+            </li>
+          </ul>
+        </div>
+
+        <div className='border border-green-200 rounded-lg p-5 bg-green-50'>
+          <h5 className='font-bold text-lg mb-3 text-green-900 flex items-center gap-2'>
+            <HiOutlineUserGroup className='text-green-600' />
+            Cooperative Unions
+          </h5>
+          <ul className='space-y-2 text-sm'>
+            <li className='flex items-start gap-2'>
+              <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
+              <span><span className='font-semibold'>Payment:</span> LC at sight is strongly preferred; cooperatives rarely extend credit or accept open TT</span>
+            </li>
+            <li className='flex items-start gap-2'>
+              <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
+              <span><span className='font-semibold'>Contracts:</span> Fair Trade minimum price + premium; fixed-price forward contracts common for certified lots</span>
+            </li>
+            <li className='flex items-start gap-2'>
+              <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
+              <span><span className='font-semibold'>Flexibility:</span> Less room for custom terms; pricing follows certification floor schedules</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* DECISION FRAMEWORK */}
+      <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineLightBulb className='text-amber-600' />
+        Choosing Between Private and Cooperative Exporters
+      </h3>
 
       <div className='grid md:grid-cols-2 gap-6 my-6'>
         <div className='border-2 border-blue-300 rounded-lg p-6 bg-blue-50'>
           <h5 className='font-bold text-lg mb-4 flex items-center gap-2 text-blue-900'>
             <HiOutlineBuildingOffice2 className='text-blue-600' />
-            Choose Private Exporters If...
+            Choose a Private Exporter If...
           </h5>
           <ul className='space-y-3 text-sm'>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
-              <span>You need consistent high-volume supply throughout the year</span>
+              <span>You need consistent high-volume supply across the season</span>
             </li>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
-              <span>You require flexible shipping schedules and fast logistics</span>
+              <span>Fast logistics and flexible shipping schedules are priorities</span>
             </li>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
-              <span>You value vertical integration and direct quality control</span>
+              <span>You require multiple grades or split-container options</span>
             </li>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
-              <span>You need multiple grade options for blending purposes</span>
+              <span>You value rapid communication and quick decision turnaround</span>
             </li>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-blue-600 mt-1 flex-shrink-0' />
-              <span>You prioritize established commercial relationships and professional service</span>
+              <span>Your market does not mandate Fair Trade or Organic certification</span>
             </li>
           </ul>
         </div>
@@ -465,134 +482,101 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
         <div className='border-2 border-green-300 rounded-lg p-6 bg-green-50'>
           <h5 className='font-bold text-lg mb-4 flex items-center gap-2 text-green-900'>
             <HiOutlineUserGroup className='text-green-600' />
-            Choose Cooperative Unions If...
+            Choose a Cooperative Union If...
           </h5>
           <ul className='space-y-3 text-sm'>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
-              <span>You need Fair Trade, Organic, or Rainforest Alliance certifications</span>
+              <span>Fair Trade, Organic, or Rainforest Alliance certification is required</span>
             </li>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
-              <span>Your brand emphasizes ethical sourcing and farmer relationships</span>
+              <span>Your brand builds on farmer-impact and community narratives</span>
             </li>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
-              <span>You want detailed farm-level traceability for marketing stories</span>
+              <span>You need farm-level EUDR traceability documentation</span>
             </li>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
-              <span>You prefer working with farmer-owned organizations</span>
+              <span>You sell to EU markets where deforestation-free proof is mandatory</span>
             </li>
             <li className='flex items-start gap-2'>
               <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
-              <span>You need documented EUDR compliance for EU markets</span>
+              <span>You prefer long-term relationships with farmer-owned organizations</span>
             </li>
           </ul>
         </div>
       </div>
 
-      {/* CONCLUSION */}
+      {/* 5 QUESTIONS BOX */}
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-6 my-8'>
+        <h4 className='font-bold text-xl mb-4 flex items-center gap-2'>
+          <HiOutlineClipboardDocumentCheck className='text-amber-600' />
+          5 Questions to Ask Any Ethiopian Coffee Exporter
+        </h4>
+        <ol className='space-y-3 text-sm list-decimal list-inside'>
+          <li><span className='font-semibold'>What share of your volume moves through DSL vs. ECX?</span> A high DSL ratio signals specialty focus and traceability.</li>
+          <li><span className='font-semibold'>Can you provide GPS coordinates and farmer-level data for EUDR?</span> Critical for EU-bound shipments under the deforestation regulation.</li>
+          <li><span className='font-semibold'>What certifications do you hold, and which lots are covered?</span> Ensure the specific grade and origin you need carries the required certification.</li>
+          <li><span className='font-semibold'>What is your typical lead time from contract to container loading?</span> Benchmark: 3 to 6 weeks for private exporters; 4 to 8 weeks for cooperatives.</li>
+          <li><span className='font-semibold'>What payment terms do you accept for first-time buyers?</span> LC at sight is standard; anything beyond that signals financial confidence and flexibility.</li>
+        </ol>
+        <p className='text-xs text-gray-600 mt-4'>
+          For a detailed exporter evaluation framework, see <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link>.
+        </p>
+      </div>
+
+      {/* THE HYBRID MODEL */}
       <h3 className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBar className='text-amber-600' />
-        The 2026 Sourcing Environment
+        The Hybrid Model: Combining Both Channels
       </h3>
 
       <p className='my-4'>
-        The 2026 Ethiopian coffee market is defined by several key trends. These trends affect both private exporters and cooperatives. Understanding them helps you make informed sourcing decisions.
-      </p>
-
-      <h4 className='text-xl font-bold mt-8 mb-4'>Rising Cherry Prices and Grade 1 Scarcity</h4>
-
-      <p className='my-4'>
-        Coffee cherry prices in Ethiopia have risen dramatically. Prices now reach up to <span className='font-bold'>250 Ethiopian Birr per kilogram</span> for premium quality cherries. This represents a significant increase compared to previous seasons. Several factors drive these higher prices.
+        Some private exporters operate with cooperative-like transparency. Ethio Coffee Import and Export PLC, for example, meets the Directive 1106/2025 capital requirements and runs ECTA-certified labs, while maintaining heritage sourcing relationships with specific washing stations and farming communities across Guji, Yirgacheffe, and Sidamo. This approach delivers the logistics speed and quality control of a private exporter alongside the farm-level traceability and origin storytelling traditionally associated with cooperatives.
       </p>
 
       <p className='my-4'>
-        First, global demand for Ethiopian specialty coffee continues to grow. More roasters worldwide want Ethiopian coffee, particularly high-scoring lots. Second, production has not kept pace with demand growth. Weather patterns, aging trees, and limited new planting constrain supply. Third, domestic Ethiopian consumption is increasing as the country develops its own coffee culture.
+        The practical takeaway: do not limit your sourcing to a single channel. Many experienced importers maintain relationships with two or three exporters (at least one private, at least one cooperative) to cover different product lines. A Sidamo G2 for your year-round espresso blend might come from a private exporter, while a Guji G1 single-origin micro-lot for seasonal release might come from a cooperative. This diversification also mitigates supply risk if one channel faces delays or allocation constraints.
       </p>
 
-      <p className='my-4'>
-        These higher cherry prices translate directly into higher green coffee prices. Additionally, there is growing scarcity of washed <span className='font-bold'>Grade 1</span> coffees. Grade 1 represents the highest quality tier. It requires excellent cherry quality, careful processing, and meticulous sorting. The scarcity of Grade 1 coffees makes early contracting essential for buyers who need this quality level.
-      </p>
-
-      <h4 className='text-xl font-bold mt-8 mb-4'>The Importance of Professional Standards</h4>
-
-      <p className='my-4'>
-        Directive 1106/2025 has raised the bar for all Ethiopian coffee exporters. The higher capital requirements mean that only serious, well-financed operations can participate in export. This professionalization benefits international buyers in several ways.
-      </p>
-
-      <p className='my-4'>
-        First, it reduces the risk of working with undercapitalized companies that might default on contracts. Second, it encourages investment in quality control infrastructure like laboratories and processing equipment. Third, it promotes better documentation and compliance systems.
-      </p>
-
-      <p className='my-4'>
-        While cooperatives offer an unparalleled ethical narrative and traceability, the sheer scale and professional laboratory standards now mandated for private exporters make them indispensable for roasters needing reliable, high-scoring shipments.
-      </p>
-
-      <h4 className='text-xl font-bold mt-8 mb-4'>The Hybrid Approach: Best of Both Worlds</h4>
-
-      <p className='my-4'>
-        Some companies successfully combine advantages from both models. <span className='font-bold'>Ethio Coffee Export</span> exemplifies this hybrid approach. As a private exporter, we meet the capital requirements and professional standards of Directive 1106/2025. We operate ECTA-certified laboratories and manage efficient logistics systems.
-      </p>
-
-      <p className='my-4'>
-        However, we also maintain the deep, traceable relationships traditionally associated with the cooperative model. We work directly with specific washing stations and farming communities. We invest in farmer training and quality improvement programs. We document farm-level traceability for EUDR compliance and marketing purposes.
-      </p>
-
-      <p className='my-4'>
-        This hybrid approach delivers the technical rigor and capital stability of a private exporter combined with the transparency and farmer relationships of a cooperative. Whether you require a <span className='font-bold'>Sidamo Grade 4</span> for a high-volume commercial blend or a <span className='font-bold'>Guji Q1 micro-lot</span> for a single-origin offering, understanding these export channels helps you make the right sourcing decisions.
-      </p>
-
-      <div className='bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-lg my-8 border-2 border-amber-300 shadow-lg'>
-        <h4 className='text-2xl font-bold mb-4 text-center'>Partner with Ethio Coffee Export</h4>
-        <p className='text-center mb-4'>
-          Experience the advantages of a professional private exporter with the transparency and traceability of direct farmer relationships.
+      {/* CTA BLOCK */}
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee from Both Channels</h4>
+        <p className='my-2'>
+          Ethio Coffee Import and Export PLC sources across Yirgacheffe, Sidamo, Guji, Limu, Jimma, and Harar with full traceability from washing station to port. Request samples, review current availability, or discuss contract terms.
         </p>
-        <p className='text-center text-sm mb-6 text-gray-700'>
-          We combine professional quality control, efficient logistics, and competitive pricing with farm-level traceability, EUDR compliance, and authentic origin stories. Whether you need consistent volume or exclusive micro-lots, we deliver.
-        </p>
-        <div className='flex flex-wrap justify-center gap-4'>
-          <Link 
-            href="/contact-us" 
-            className='bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors flex items-center gap-2'
-          >
-            <HiOutlineBuildingOffice2 className='text-xl' />
-            Contact Us
-          </Link>
-          <Link 
-            href="/offerings" 
-            className='bg-white border-2 border-amber-600 text-amber-600 px-6 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors flex items-center gap-2'
-          >
-            <HiOutlineBeaker className='text-xl' />
-            View Current Offerings
-          </Link>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Samples</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
 
       {/* FAQ SECTION */}
-      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Private vs Cooperative Ethiopian Coffee Exporters</h3>
-        <div className="space-y-6">
+      <section className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h3 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About Private vs Cooperative Ethiopian Coffee Exporters</h3>
+        <div className='space-y-6'>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What is the difference between private and cooperative Ethiopian coffee exporters?</h4>
-            <p className="text-sm text-gray-600">Private exporters are independent companies that source coffee from washing stations and farmers, offering flexibility and speed. Cooperative unions aggregate coffee from member cooperatives, often providing direct farmer traceability and certification advantages.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the main difference between private and cooperative Ethiopian coffee exporters?</h4>
+            <p className='text-sm text-gray-600'>Private exporters are owner-managed commercial companies offering speed, volume flexibility, and vertically integrated quality control. Cooperative unions are farmer-owned federations that provide farm-level traceability, certification access, and community-impact narratives. The choice depends on your priorities.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Which is better for sourcing specialty Ethiopian coffee: private exporters or cooperatives?</h4>
-            <p className="text-sm text-gray-600">Both can supply excellent specialty coffee. Private exporters often offer more flexibility on lot sizes, faster communication, and custom processing. Cooperatives provide stronger farmer-level traceability and may carry organic or Fair Trade certifications.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Can private Ethiopian coffee exporters provide EUDR-compliant traceability?</h4>
+            <p className='text-sm text-gray-600'>Yes. Many private exporters now collect GPS coordinates and lot-level data for EUDR compliance through digital traceability platforms. However, cooperative unions typically have more complete farm-level registries because member documentation and plot mapping are inherent to their organizational structure.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Can private Ethiopian coffee exporters provide traceability?</h4>
-            <p className="text-sm text-gray-600">Yes. Many private exporters own or control their washing stations, enabling full traceability from cherry intake to export. Some also provide GPS coordinates and farmer data required for EUDR compliance.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Are cooperative coffees more expensive than private exporter coffees?</h4>
+            <p className='text-sm text-gray-600'>Cooperative FOB prices typically run $0.30 to $0.80/kg higher due to Fair Trade minimum floors, organic premiums, and cooperative management overhead. Private exporters often offer volume discounts on full-container orders and more flexible contract terms that can offset the price difference.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Do cooperative Ethiopian coffee exporters offer better prices for farmers?</h4>
-            <p className="text-sm text-gray-600">Cooperative unions typically return a higher share of the export price to farmers through second payments and dividends. However, private exporters with direct farmer relationships also invest in premium pricing and community programs.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the Direct Specialty Line (DSL) and how does it relate to exporters?</h4>
+            <p className='text-sm text-gray-600'>DSL is an export channel that lets both private exporters and cooperatives sell specialty-grade coffee directly to international buyers, bypassing the ECX auction floor. DSL lots carry full washing-station-to-port traceability and are the primary channel for single-origin and micro-lot Ethiopian coffee.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How do I choose between a private exporter and a cooperative union in Ethiopia?</h4>
-            <p className="text-sm text-gray-600">Consider your priorities: volume flexibility, speed, and custom lots favor private exporters. Certification requirements, farmer impact stories, and cooperative premiums favor unions. Many buyers work with both to diversify their supply chain.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Should I source from both private exporters and cooperative unions?</h4>
+            <p className='text-sm text-gray-600'>Most experienced importers do. Private exporters cover consistent-volume needs and fast logistics, while cooperatives supply certified and traceable lots for differentiated product lines. Diversifying across both channels also reduces supply risk if one exporter faces delays or allocation constraints.</p>
           </div>
         </div>
       </section>
@@ -602,46 +586,46 @@ export default function PrivateVsCooperativeEthiopianCoffeeExporters({ title, da
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Exporter Guides</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Exporter Evaluation</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
-              <li>• <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>Ethiopian Specialty Coffee Exporters 2026</Link></li>
-              <li>• <Link href='/insights/top-premium-coffee-exporters-global-guide' className='text-amber-700 hover:underline'>Top Coffee Exporters in the World</Link></li>
               <li>• <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>How to Choose an Ethiopian Coffee Export Company</Link></li>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/navigating-2026-ethiopian-specialty-coffee-exporters' className='text-amber-700 hover:underline'>2026 Ethiopian Specialty Coffee Exporters</Link></li>
+              <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing and Trade</h4>
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Coffee Contracts & Payment Terms</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
-              <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EU Deforestation Regulation Compliance</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts and Payment Terms</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing FOB Guide</Link></li>
             </ul>
           </div>
-        </div>
-      </div>
-
-      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Choose the Right Ethiopian Coffee Partner</h4>
-        <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we combine the best of private exporter efficiency with deep cooperative relationships. Let us help you find the right sourcing strategy.
-        </p>
-        <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
-          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Compliance and Traceability</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR and Ethiopian Coffee Compliance</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Certifications and Impact</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
+              <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade Ethiopian Coffee</Link></li>
+              <li>• <Link href='/insights/women-in-ethiopian-coffee-industry' className='text-amber-700 hover:underline'>Women in Ethiopian Coffee</Link></li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide compares private and cooperative Ethiopian coffee exporters, helping importers understand the pros and cons of each sourcing channel.
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This guide compares private and cooperative Ethiopian coffee export channels for international importers and roasters.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Export Services</Link> · <Link href='/about' className='underline'>About</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

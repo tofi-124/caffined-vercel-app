@@ -1,10 +1,8 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { 
-  HiOutlineCalendarDays, 
+import {
   HiOutlineTrophy,
   HiOutlineBeaker,
-  HiOutlineAcademicCap,
   HiOutlineGlobeAlt,
   HiOutlineStar,
   HiOutlineChartBar,
@@ -28,18 +26,18 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Everything Ethiopian coffee producers, exporters, and international buyers need to know about the AFCA Taste of Harvest competition, Ethiopia's modern coffee laboratory facilities, the certification process, auction opportunities, and how participating in African coffee quality competitions enhances market access and premiums for exceptional Ethiopian coffees.
+        How Ethiopia&apos;s national Taste of Harvest competition, AFCA certification, and the new M-Cultivo auction platform connect producers with premium global buyers.
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopia's <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA</a> Taste of Harvest competition showcases the country's exceptional coffee quality and modern laboratory capabilities to the global specialty coffee market.
+          The <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA</a> Taste of Harvest competition at the 22nd African Fine Coffees Conference in Addis Ababa showcased Ethiopia&apos;s specialty coffee quality to buyers from across the globe.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='AFCA Taste of Harvest Ethiopian coffee competition quality grading laboratory'
+            alt='AFCA Taste of Harvest Ethiopian coffee competition quality grading at AICC Addis Ababa'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -48,41 +46,6 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </div>
       </figure>
 
-      <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
-        <span className='font-semibold'>Category:</span>
-        <span className='ml-2'>Coffee Competitions / Quality Recognition / African Coffee Markets</span>
-      </div>
-
-      {/* INTRODUCTION */}
-      <p className='my-4'>
-        In January 2026, Ethiopia hosted a major milestone event for African coffee: the <span className='font-bold'>AFCA (African Fine Coffees Association) Conference and Exhibition</span>, featuring the prestigious <span className='font-bold'>Taste of Harvest</span> competition. This event brought together coffee producers, exporters, buyers, and industry experts from across Africa and around the world to celebrate and evaluate the continent's finest coffees.
-      </p>
-
-      <p className='my-4'>
-        For Ethiopian coffee producers and exporters, the AFCA Taste of Harvest competition represents a critical opportunity: to showcase Ethiopia's exceptional coffee quality, gain international recognition through AFCA certification, and access premium auction markets that reward excellence with higher prices.
-      </p>
-
-      <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
-        <p className='font-bold text-lg mb-3 text-green-900 flex items-center gap-2'>
-          <HiOutlineTrophy className='text-2xl' />
-          Why This Competition Matters
-        </p>
-        <p className='mb-3'>
-          Dr. Adunya Debela, Chief Director of the Ethiopian Coffee and Tea Authority, emphasizes that the Taste of Harvest competition is not just about winning awards-it's about demonstrating Ethiopia's:
-        </p>
-        <ul className='space-y-2 text-sm'>
-          <li>• <span className='font-bold'>World-class coffee quality</span> across multiple processing methods</li>
-          <li>• <span className='font-bold'>Modern laboratory facilities</span> equipped with state-of-the-art equipment</li>
-          <li>• <span className='font-bold'>Highly trained coffee professionals</span> recognized internationally</li>
-          <li>• <span className='font-bold'>Leadership role</span> in African coffee production and trade</li>
-          <li>• <span className='font-bold'>Capacity to compete</span> with the best specialty coffees globally</li>
-        </ul>
-      </div>
-
-      <p className='my-4'>
-        This comprehensive guide explores everything you need to know about AFCA's Taste of Harvest competition, Ethiopia's participation, the certification process, and how winning recognition translates into market opportunities for Ethiopian coffee.
-      </p>
-
       {/* KEY TAKEAWAY */}
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2 flex items-center gap-2'>
@@ -90,9 +53,27 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
           Key Takeaway
         </p>
         <p>
-          AFCA's Taste of Harvest is Africa's top coffee quality competition. In January 2026, Ethiopia submitted 226 samples across four processing categories. Top scorers advance to AFCA's continental finals, earn one-year certification with serial numbers, and gain access to a direct auction platform where international buyers bid at premium prices.
+          AFCA&apos;s Taste of Harvest is Africa&apos;s premier coffee quality competition. At the February 2026 event in Addis Ababa, Ethiopia submitted 226 samples across four processing categories: natural, washed, honey, and experimental. Top scorers advance to continental finals, earn one-year AFCA certification with serial numbers, and sell through the new <a href="https://tasteofharvest.mcultivo.com/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>M-Cultivo auction platform</a> where international buyers bid at premium prices.
         </p>
       </div>
+
+      <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
+        <span className='font-semibold'>Category:</span>
+        <span className='ml-2'>Coffee Competitions / Quality Recognition / African Coffee Markets</span>
+      </div>
+
+      {/* INTRODUCTION */}
+      <p className='my-4'>
+        In February 2026, Ethiopia hosted the <span className='font-bold'>22nd African Fine Coffees Conference and Exhibition (AFCC&E)</span> at the new Addis International Convention Center (AICC). The event drew over 2,000 coffee professionals under the theme &quot;Brewing the Next African Generation,&quot; featuring the flagship <span className='font-bold'>AFCA Taste of Harvest</span> competition alongside the African Barista Championship, B2B cupping pavilions, and technical workshops.
+      </p>
+
+      <p className='my-4'>
+        For Ethiopian coffee producers and exporters, the Taste of Harvest represents a direct path to premium markets: showcase exceptional quality, gain AFCA certification recognized across the global specialty sector, and sell award-winning lots through a transparent auction to buyers who pay well above commodity prices.
+      </p>
+
+      <p className='my-4'>
+        This guide covers the competition structure, Ethiopia&apos;s 2026 participation, the judging process, AFCA certification benefits, and how both producers and international buyers can use the competition to build sourcing relationships.
+      </p>
 
       {/* TABLE OF CONTENTS */}
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
@@ -102,17 +83,16 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
         </h3>
         <ol className='space-y-2 text-sm'>
           <li><a href="#what-is-afca" className='text-blue-600 hover:underline'>1. What Is AFCA and the Taste of Harvest Competition?</a></li>
-          <li><a href="#ethiopia-leadership" className='text-blue-600 hover:underline'>2. Ethiopia's Leadership in African Coffee</a></li>
-          <li><a href="#2026-competition" className='text-blue-600 hover:underline'>3. The 2026 AFCA Taste of Harvest Competition in Ethiopia</a></li>
-          <li><a href="#coffee-samples" className='text-blue-600 hover:underline'>4. Competition Coffee Samples: Processing Methods Represented</a></li>
-          <li><a href="#evaluation-process" className='text-blue-600 hover:underline'>5. Competition Evaluation Process and Judging Criteria</a></li>
-          <li><a href="#modern-laboratory" className='text-blue-600 hover:underline'>6. Ethiopia's Modern Coffee Laboratory and Training Center</a></li>
-          <li><a href="#two-phase-system" className='text-blue-600 hover:underline'>7. Two-Phase Competition System: National and AFCA Levels</a></li>
-          <li><a href="#certification-benefits" className='text-blue-600 hover:underline'>8. AFCA Certification: Benefits and Market Access</a></li>
-          <li><a href="#auction-opportunities" className='text-blue-600 hover:underline'>9. AFCA Direct Auction Platform for Award-Winning Coffees</a></li>
-          <li><a href="#how-to-participate" className='text-blue-600 hover:underline'>10. How Ethiopian Producers Can Participate in Future Competitions</a></li>
-          <li><a href="#buyer-opportunities" className='text-blue-600 hover:underline'>11. Opportunities for International Coffee Buyers</a></li>
-          <li><a href="#impact-ethiopian-coffee" className='text-blue-600 hover:underline'>12. Long-Term Impact on Ethiopian Coffee Industry</a></li>
+          <li><a href="#ethiopia-leadership" className='text-blue-600 hover:underline'>2. Ethiopia&apos;s Role in African Coffee</a></li>
+          <li><a href="#2026-competition" className='text-blue-600 hover:underline'>3. The 2026 AFCA Taste of Harvest in Ethiopia</a></li>
+          <li><a href="#coffee-samples" className='text-blue-600 hover:underline'>4. Competition Samples: Processing Methods and Regions</a></li>
+          <li><a href="#evaluation-process" className='text-blue-600 hover:underline'>5. Evaluation Process and Judging Criteria</a></li>
+          <li><a href="#two-phase-system" className='text-blue-600 hover:underline'>6. Two-Phase System: National and Continental Finals</a></li>
+          <li><a href="#certification-benefits" className='text-blue-600 hover:underline'>7. AFCA Certification: What Winners Receive</a></li>
+          <li><a href="#auction-platform" className='text-blue-600 hover:underline'>8. The AFCA Auction Platform (M-Cultivo)</a></li>
+          <li><a href="#how-to-participate" className='text-blue-600 hover:underline'>9. How Ethiopian Producers Can Enter Future Competitions</a></li>
+          <li><a href="#buyer-opportunities" className='text-blue-600 hover:underline'>10. Opportunities for International Buyers</a></li>
+          <li><a href="#impact-ethiopian-coffee" className='text-blue-600 hover:underline'>11. Long-Term Impact on Ethiopian Coffee</a></li>
         </ol>
       </div>
 
@@ -125,433 +105,313 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <h3 className='text-xl font-bold mt-6 mb-3'>African Fine Coffees Association (AFCA)</h3>
 
       <p className='my-4'>
-        <span className='font-bold'>AFCA</span> (formerly the Inter-African Coffee Organisation - IACO) is the premier organization representing African coffee-producing countries. With 25 member nations, AFCA works to:
+        <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA</a> is a non-profit, member-driven organization founded in 2000 to represent Africa&apos;s coffee-producing countries. It promotes African coffee quality and market competitiveness through annual conferences, quality competitions, education programs, and direct buyer-seller connections.
       </p>
 
-      <ul className='space-y-2 my-6 list-disc ml-6'>
-        <li>Promote African coffee quality and market competitiveness</li>
-        <li>Facilitate knowledge sharing and capacity building across member countries</li>
-        <li>Advocate for African coffee producers in global markets</li>
-        <li>Organize annual conferences, exhibitions, and quality competitions</li>
-        <li>Connect African coffee producers with international buyers</li>
-        <li>Support sustainability and development in African coffee sectors</li>
-      </ul>
+      <p className='my-4'>
+        The 2026 conference was co-organized with the <span className='font-bold'>Ethiopian Coffee and Tea Authority (ECTA)</span> and the <span className='font-bold'>Inter-African Coffee Organization (IACO)</span>, reflecting the event&apos;s continent-wide scope.
+      </p>
 
       <h3 className='text-xl font-bold mt-8 mb-3'>The Taste of Harvest Competition</h3>
 
       <p className='my-4'>
-        <span className='font-bold'>Taste of Harvest</span> is AFCA's flagship coffee quality competition, held annually to:
+        <span className='font-bold'>Taste of Harvest</span> is AFCA&apos;s flagship quality competition. National competitions run in each member country, with top-scoring coffees advancing to the Regional African Taste of Harvest held during the annual AFCC&E conference. The program serves three core purposes:
       </p>
 
       <div className='space-y-4 my-6'>
-        <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h4 className='font-bold mb-2 text-purple-900'>Identify Excellence</h4>
-          <p className='text-sm'>Discover and recognize the finest coffees produced across Africa in each harvest season, showcasing the diversity and quality potential of African origins.</p>
+        <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
+          <h4 className='font-bold mb-2 text-green-900'>Identify Excellence</h4>
+          <p className='text-sm'>Discover the finest coffees produced across Africa each harvest season. All samples are cupped and scored using the SCA scoring system by certified Q-graders following AFCA&apos;s official Taste of Harvest Protocol.</p>
         </div>
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h4 className='font-bold mb-2 text-blue-900'>Professional Evaluation</h4>
-          <p className='text-sm'>Subject coffee samples to rigorous evaluation by international coffee experts, Q graders, and sensory professionals using standardized specialty coffee protocols.</p>
-        </div>
-
-        <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h4 className='font-bold mb-2 text-green-900'>Market Access</h4>
-          <p className='text-sm'>Provide winning coffees with direct access to <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's auction platform</a>, connecting award-winning lots with premium buyers willing to pay for exceptional quality.</p>
+          <h4 className='font-bold mb-2 text-blue-900'>Create Market Access</h4>
+          <p className='text-sm'>Winning coffees sell through AFCA&apos;s <a href="https://tasteofharvest.mcultivo.com/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>auction platform</a>, connecting award-winning lots directly with specialty buyers at transparent, competitive prices.</p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold mb-2 text-amber-900'>Recognition and Certification</h4>
-          <p className='text-sm'>Issue official AFCA certification to top-scoring coffees, providing producers with internationally recognized quality credentials that enhance marketability.</p>
+          <h4 className='font-bold mb-2 text-amber-900'>Certify Quality</h4>
+          <p className='text-sm'>Top-scoring coffees receive official AFCA certification with individual serial numbers, providing internationally recognized quality credentials valid for one year.</p>
         </div>
       </div>
 
       <p className='my-4'>
-        The competition is open to coffee producers, cooperatives, and exporters from AFCA member countries, with samples evaluated blindly to ensure objectivity and fairness.
+        For the 2025/26 season, AFCA hosted national competitions in nine countries: Burundi, Cameroon, DRC, Ethiopia, Kenya, Malawi, Tanzania, Uganda, and Zambia. AFCA also partnered with the International Trade Centre&apos;s (ITC) EU-EAC MARKUP II Programme to scale the competition through online auctions in at least five of those countries.
       </p>
 
-      {/* SECTION 2: ETHIOPIA'S LEADERSHIP */}
+      {/* SECTION 2: ETHIOPIA'S ROLE */}
       <h2 id="ethiopia-leadership" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineStar className='text-amber-600' />
-        2. Ethiopia's Leadership in African Coffee
+        2. Ethiopia&apos;s Role in African Coffee
       </h2>
 
       <p className='my-4'>
-        Ethiopia holds a unique and influential position within AFCA and the broader African coffee sector.
+        Ethiopia holds a unique position within AFCA and the broader African coffee sector. As the <Link href="/insights/ethiopia-coffee-origin-birthplace" className='text-amber-700 hover:underline'>birthplace of Arabica coffee</Link>, with unmatched genetic diversity and a production base of 11.6 million 60-kg bags in 2025/26 (USDA forecast), the country is Africa&apos;s largest coffee producer and one of its most consistent competition participants.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-3'>Ethiopia's AFCA Leadership Role</h3>
-
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='mb-3'>As Dr. Adunya Debela notes, Ethiopia:</p>
+        <p className='font-bold mb-3'>Ethiopia&apos;s Coffee Sector at a Glance (2024/25 Fiscal Year)</p>
         <ul className='space-y-2 text-sm'>
-          <li>• Holds <span className='font-bold'>decisive influence</span> among AFCA's 25 member countries due to its production volume and quality reputation</li>
-          <li>• Has <span className='font-bold'>repeatedly hosted</span> major international coffee conferences (AFCA, IACO, and other events) with exemplary Ethiopian hospitality</li>
-          <li>• Serves as a <span className='font-bold'>knowledge hub</span> for African coffee, with training facilities and expertise that benefit other member nations</li>
-          <li>• Represents the <span className='font-bold'>birthplace of Arabica coffee</span>, giving Ethiopia unique credibility and heritage in global coffee discussions</li>
-          <li>• Maintains <span className='font-bold'>active participation</span> in AFCA governance, advocacy, and program development</li>
+          <li>&#8226; <span className='font-bold'>Export volume:</span> 469,000 metric tons shipped</li>
+          <li>&#8226; <span className='font-bold'>Export revenue:</span> $2.65 billion</li>
+          <li>&#8226; <span className='font-bold'>Production forecast (2025/26):</span> 11.6 million 60-kg bags, up 9% year-over-year</li>
+          <li>&#8226; <span className='font-bold'>Market reform:</span> Over 100 licensed farmers now export independently; cooperatives can export directly without going through unions</li>
+          <li>&#8226; <span className='font-bold'>Government target:</span> Become the world&apos;s second-largest coffee exporter by 2033 with $4 billion in annual exports</li>
         </ul>
       </div>
 
-      <h3 className='text-xl font-bold mt-8 mb-3'>Why Ethiopia Is an Ideal Host for AFCA Events</h3>
-
       <p className='my-4'>
-        Dr. Adunya emphasizes that Ethiopia-particularly Addis Ababa-offers exceptional conditions for hosting international coffee events:
+        Dr. Adunya Debela, Chief Director of the Ethiopian Coffee and Tea Authority, emphasized that hosting the 2026 conference demonstrated Ethiopia&apos;s modern laboratory facilities, well-trained coffee professionals, and leadership role in African coffee quality assessment.
       </p>
 
-      <div className='grid md:grid-cols-2 gap-4 my-6'>
-        <div className='border border-gray-200 rounded-lg p-4'>
-          <h4 className='font-bold mb-2'>Infrastructure and Hospitality</h4>
-          <ul className='space-y-1 text-sm'>
-            <li>• Modern conference facilities</li>
-            <li>• International airport connections</li>
-            <li>• Hotel and accommodation capacity</li>
-            <li>• Renowned Ethiopian hospitality culture</li>
-          </ul>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-4'>
-          <h4 className='font-bold mb-2'>Coffee-Specific Advantages</h4>
-          <ul className='space-y-1 text-sm'>
-            <li>• State-of-the-art coffee training center</li>
-            <li>• Modern laboratory facilities</li>
-            <li>• Highly experienced coffee professionals</li>
-            <li>• Access to diverse Ethiopian coffee samples</li>
-          </ul>
-        </div>
-      </div>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Why Addis Ababa Was the Right Host</h3>
 
       <p className='my-4'>
-        Addis Ababa's nickname-which means "New Flower"-symbolically represents Ethiopia's coffee industry: traditional yet constantly renewing and modernizing.
+        The conference took place at the <span className='font-bold'>Addis International Convention Center (AICC)</span>, a $1+ billion facility inaugurated in March 2025. The AICC sits on 40 hectares near CMC Square, 15 minutes from Bole International Airport, with a 3,000-seat main conference hall, eight meeting rooms, four exhibition halls, and on-site five-star hotel accommodation.
+      </p>
+
+      <p className='my-4'>
+        Gizat Worku, President of the Ethiopian Coffee Association and AFCA Ethiopia Chapter Chairman, noted: &quot;Despite being the origin of coffee, Africa hasn&apos;t fully benefited from its global success. This conference is a renewed commitment to closing the gap between origin and market.&quot;
       </p>
 
       {/* SECTION 3: 2026 COMPETITION */}
       <h2 id="2026-competition" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineTrophy className='text-amber-600' />
-        3. The 2026 Taste of Harvest Competition in Ethiopia
+        3. The 2026 AFCA Taste of Harvest Competition in Ethiopia
       </h2>
 
       <p className='my-4'>
-        The January 2026 Taste of Harvest competition marked a significant moment for Ethiopian coffee and AFCA.
+        Ethiopia&apos;s national Taste of Harvest took place alongside the AFCC&E in February 2026, with the Regional Competition starting February 2 (pre-conference) and winners announced at the February 6 Closing Gala.
       </p>
 
       <h3 className='text-xl font-bold mt-6 mb-3'>Competition Venue and Facilities</h3>
 
       <p className='my-4'>
-        The competition was hosted at the <span className='font-bold'>Ethiopian Coffee and Tea Authority's Coffee Training Center</span> in Addis Ababa, featuring:
+        Evaluation sessions were hosted at the <span className='font-bold'>ECTA Coffee Training Center</span> in Addis Ababa, a facility built in partnership with illycaffe&apos;s Universita del Caffe. The center features:
       </p>
 
       <div className='space-y-3 my-6'>
         <div className='bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500'>
-          <p className='text-sm'><span className='font-bold'>Modern Cupping Laboratory:</span> Equipped with professional cupping tables, roasting equipment, water quality control systems, and temperature-controlled environments meeting international standards</p>
+          <p className='text-sm'><span className='font-bold'>Professional Cupping Laboratory:</span> Equipped with sample roasting equipment, temperature-controlled cupping rooms, and water quality control systems meeting international standards</p>
         </div>
         <div className='bg-green-50 p-4 rounded-lg border-l-4 border-green-500'>
-          <p className='text-sm'><span className='font-bold'>Expert Panel:</span> More than eight highly experienced coffee professionals from Ethiopia and international origins conducting blind evaluations</p>
-        </div>
-        <div className='bg-purple-50 p-4 rounded-lg border-l-4 border-purple-500'>
-          <p className='text-sm'><span className='font-bold'>Sample Preparation Facilities:</span> Professional green coffee sorting, roasting, and preparation stations ensuring standardized evaluation conditions</p>
+          <p className='text-sm'><span className='font-bold'>Expert Panel:</span> More than eight certified Q-graders and international coffee professionals conducted blind evaluations across all 226 submitted samples</p>
         </div>
         <div className='bg-amber-50 p-4 rounded-lg border-l-4 border-amber-500'>
-          <p className='text-sm'><span className='font-bold'>Data Management Systems:</span> Digital scoring systems and result tracking meeting AFCA and international competition standards</p>
+          <p className='text-sm'><span className='font-bold'>Research Capacity:</span> Green coffee moisture and density analyzers, colorimetric analysis equipment, and digital scoring systems meeting AFCA competition standards</p>
         </div>
       </div>
-
-      <h3 className='text-xl font-bold mt-8 mb-3'>Judging Panel Composition</h3>
-
-      <p className='my-4'>
-        The competition featured a diverse panel of coffee experts including:
-      </p>
-
-      <ul className='space-y-2 my-6 list-disc ml-6 text-sm'>
-        <li><span className='font-bold'>Ethiopian Q Graders and Coffee Professionals:</span> Highly trained sensory evaluators from Ethiopia's coffee sector with international certifications</li>
-        <li><span className='font-bold'>International Coffee Experts:</span> Judges from AFCA member countries and global specialty coffee markets bringing diverse perspectives</li>
-        <li><span className='font-bold'>AFCA Representatives:</span> Organization officials ensuring compliance with Taste of Harvest protocols and standards</li>
-        <li><span className='font-bold'>Buyer Representatives:</span> Potential purchasers from international markets evaluating coffees for commercial potential</li>
-      </ul>
 
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineLightBulb className='text-2xl flex-shrink-0 mt-1' />
-          <span>Dr. Adunya emphasized that this competition provided an invaluable opportunity to showcase Ethiopia's "well-known experts that we have nurtured and developed," demonstrating to the international community that Ethiopia possesses world-class coffee evaluation capacity.</span>
+          <span>Dr. Adunya emphasized that the competition showcased Ethiopia&apos;s &quot;well-known experts that we have nurtured and developed,&quot; demonstrating world-class coffee evaluation capacity to visiting international delegates.</span>
         </p>
       </div>
 
       {/* SECTION 4: COFFEE SAMPLES */}
       <h2 id="coffee-samples" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBar className='text-amber-600' />
-        4. Competition Coffee Samples: Processing Methods Represented
+        4. Competition Samples: Processing Methods and Regions
       </h2>
 
       <p className='my-4'>
-        The 2026 competition featured an impressive diversity of Ethiopian coffee samples, showcasing the country's innovation in processing methods and regional variety.
+        The 2026 Ethiopia national competition featured 226 samples from producers, cooperatives, and exporters across the country&apos;s major coffee-growing regions. The breakdown by processing method, reported by W/ro Bamlack Melese (Taste of Harvest Program Supervision Coordinator):
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-3'>Sample Submission Statistics</h3>
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full text-sm border-collapse'>
+          <thead>
+            <tr className='bg-dark text-primary'>
+              <th className='p-3 text-left font-bold'>Processing Method</th>
+              <th className='p-3 text-center font-bold'>Samples</th>
+              <th className='p-3 text-center font-bold'>Share</th>
+              <th className='p-3 text-left font-bold'>Characteristics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className='border-b'>
+              <td className='p-3 font-bold'>Natural (Sun-Dried)</td>
+              <td className='p-3 text-center'>100</td>
+              <td className='p-3 text-center'>44.2%</td>
+              <td className='p-3'>Fruit-forward, full body; Ethiopia&apos;s traditional processing heritage</td>
+            </tr>
+            <tr className='border-b bg-gray-50'>
+              <td className='p-3 font-bold'>Experimental</td>
+              <td className='p-3 text-center'>46</td>
+              <td className='p-3 text-center'>20.4%</td>
+              <td className='p-3'><Link href="/insights/anaerobic-ethiopian-coffee-processing-buyers-guide" className='text-amber-700 hover:underline'>Anaerobic</Link>, carbonic maceration, and hybrid processes</td>
+            </tr>
+            <tr className='border-b'>
+              <td className='p-3 font-bold'>Washed</td>
+              <td className='p-3 text-center'>43</td>
+              <td className='p-3 text-center'>19.0%</td>
+              <td className='p-3'>Clean, bright, floral profiles; strong demand from specialty roasters</td>
+            </tr>
+            <tr className='border-b bg-gray-50'>
+              <td className='p-3 font-bold'>Honey</td>
+              <td className='p-3 text-center'>37</td>
+              <td className='p-3 text-center'>16.4%</td>
+              <td className='p-3'>Balanced sweetness with varying mucilage levels</td>
+            </tr>
+            <tr className='bg-amber-50 font-bold'>
+              <td className='p-3'>Total</td>
+              <td className='p-3 text-center'>226</td>
+              <td className='p-3 text-center'>100%</td>
+              <td className='p-3'></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <p className='my-4'>
-        According to W/ro Bamlack Melese, the Taste of Harvest Program Supervision Coordinator, the competition received coffee samples from producers, exporters, and cooperatives across Ethiopian coffee-producing regions:
-      </p>
-
-      <div className='bg-gradient-to-r from-amber-50 to-amber-100 p-6 rounded-lg my-6 border border-amber-300'>
-        <h4 className='font-bold text-lg mb-4 text-amber-900'>Total Samples Submitted: 226 Ethiopian Coffees</h4>
-        
-        <div className='grid md:grid-cols-2 gap-4'>
-          <div className='bg-white p-4 rounded-lg shadow-sm'>
-            <div className='flex items-center justify-between mb-2'>
-              <span className='font-bold text-2xl text-amber-700'>100</span>
-              <span className='text-xs uppercase bg-amber-200 px-2 py-1 rounded'>44.2%</span>
-            </div>
-            <h4 className='font-bold text-gray-800'>Natural Processed</h4>
-            <p className='text-xs text-gray-600 mt-1'>Sun-dried with cherry intact, showcasing Ethiopia's traditional processing heritage</p>
-          </div>
-
-          <div className='bg-white p-4 rounded-lg shadow-sm'>
-            <div className='flex items-center justify-between mb-2'>
-              <span className='font-bold text-2xl text-blue-700'>43</span>
-              <span className='text-xs uppercase bg-blue-200 px-2 py-1 rounded'>19.0%</span>
-            </div>
-            <h4 className='font-bold text-gray-800'>Washed Processed</h4>
-            <p className='text-xs text-gray-600 mt-1'>Fully washed coffees highlighting clean, bright flavor profiles</p>
-          </div>
-
-          <div className='bg-white p-4 rounded-lg shadow-sm'>
-            <div className='flex items-center justify-between mb-2'>
-              <span className='font-bold text-2xl text-orange-700'>37</span>
-              <span className='text-xs uppercase bg-orange-200 px-2 py-1 rounded'>16.4%</span>
-            </div>
-            <h4 className='font-bold text-gray-800'>Honey Processed</h4>
-            <p className='text-xs text-gray-600 mt-1'>Semi-washed coffees with varying mucilage levels for balanced sweetness</p>
-          </div>
-
-          <div className='bg-white p-4 rounded-lg shadow-sm'>
-            <div className='flex items-center justify-between mb-2'>
-              <span className='font-bold text-2xl text-purple-700'>46</span>
-              <span className='text-xs uppercase bg-purple-200 px-2 py-1 rounded'>20.4%</span>
-            </div>
-            <h4 className='font-bold text-gray-800'>Experimental Processed</h4>
-            <p className='text-xs text-gray-600 mt-1'>Innovative methods including anaerobic, carbonic maceration, and hybrid processes</p>
-          </div>
-        </div>
+      <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
+        <p className='font-bold mb-2'>Why Experimental Processing at 20% Matters</p>
+        <p className='text-sm'>
+          The 46 experimental submissions signal Ethiopian producers&apos; rapid adoption of innovation. <Link href="/insights/anaerobic-ethiopian-coffee-processing-buyers-guide" className='text-amber-700 hover:underline'>Anaerobic and carbonic maceration coffees</Link> command significant premiums in specialty markets. Buyers looking for differentiated profiles should monitor AFCA results in this category closely.
+        </p>
       </div>
 
       <h3 className='text-xl font-bold mt-8 mb-3'>Regional Diversity</h3>
 
       <p className='my-4'>
-        Samples were submitted from coffee-producing regions, woredas (districts), and kebeles (villages) across Ethiopia, representing:
+        Samples came from coffee-producing regions across Ethiopia, including:
       </p>
 
       <ul className='space-y-2 my-6 list-disc ml-6'>
-        <li><span className='font-bold'>Southern regions:</span> Yirgacheffe, Sidamo, Guji, and surrounding areas known for floral, fruity profiles</li>
-        <li><span className='font-bold'>Western regions:</span> Jimma, Limu, and Kaffa areas producing balanced, sweet coffees</li>
-        <li><span className='font-bold'>Eastern regions:</span> Harrar and surrounding areas famous for distinctive dry-processed coffees</li>
-        <li><span className='font-bold'>Emerging origins:</span> Newer coffee-producing zones expanding Ethiopia's regional diversity</li>
+        <li><span className='font-bold'>Southern origins:</span> <Link href="/ethiopian-coffee-yirgacheffe" className='text-amber-700 hover:underline'>Yirgacheffe</Link>, <Link href="/ethiopian-coffee-sidamo" className='text-amber-700 hover:underline'>Sidamo</Link>, <Link href="/ethiopian-coffee-guji" className='text-amber-700 hover:underline'>Guji</Link>, known for floral and fruity profiles</li>
+        <li><span className='font-bold'>Western origins:</span> <Link href="/ethiopian-coffee-jimma" className='text-amber-700 hover:underline'>Jimma</Link>, <Link href="/ethiopian-coffee-limu" className='text-amber-700 hover:underline'>Limu</Link>, and Kaffa, producing balanced, sweet coffees</li>
+        <li><span className='font-bold'>Eastern origins:</span> <Link href="/ethiopian-coffee-harar" className='text-amber-700 hover:underline'>Harrar</Link>, famous for bold, winey dry-processed coffees</li>
+        <li><span className='font-bold'>Emerging zones:</span> Newer coffee-producing areas expanding Ethiopia&apos;s regional diversity</li>
       </ul>
-
-      <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
-        <p className='font-bold mb-2'>Why Processing Diversity Matters:</p>
-        <p className='text-sm'>
-          The wide range of processing methods (natural, washed, honey, experimental) demonstrates Ethiopian producers' increasing sophistication and responsiveness to specialty market demands. Experimental processing-representing 20% of submissions-shows Ethiopia's commitment to innovation while maintaining traditional quality standards.
-        </p>
-      </div>
 
       {/* SECTION 5: EVALUATION PROCESS */}
       <h2 id="evaluation-process" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineBeaker className='text-amber-600' />
-        5. Competition Evaluation Process and Judging Criteria
+        5. Evaluation Process and Judging Criteria
       </h2>
 
       <p className='my-4'>
-        AFCA's Taste of Harvest competition follows rigorous, internationally recognized evaluation protocols to ensure fairness and credibility.
+        AFCA&apos;s Taste of Harvest follows the <Link href="/insights/new-sca-coffee-value-assessment" className='text-amber-700 hover:underline'>SCA cupping protocol</Link>, ensuring consistent, internationally recognized evaluation standards.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-3'>Evaluation Protocol</h3>
+      <h3 className='text-xl font-bold mt-6 mb-3'>Four-Step Evaluation Protocol</h3>
 
       <div className='space-y-6 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-3'>Step 1: Sample Preparation</h4>
           <ul className='space-y-1 text-sm ml-4'>
-            <li>• Green coffee samples inspected for defects and moisture content</li>
-            <li>• Standardized roasting (typically light-to-medium) to preserve origin characteristics</li>
-            <li>• Samples coded and anonymized to ensure blind evaluation</li>
-            <li>• Water quality controlled for consistent brewing conditions</li>
+            <li>&#8226; Green coffee inspected for defects and moisture content</li>
+            <li>&#8226; Light-to-medium roast to preserve origin characteristics</li>
+            <li>&#8226; Samples coded and anonymized for blind evaluation</li>
+            <li>&#8226; Water quality controlled for consistent brewing</li>
           </ul>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-3'>Step 2: Cupping Evaluation</h4>
           <ul className='space-y-1 text-sm ml-4'>
-            <li>• Multiple judges evaluate each sample independently</li>
-            <li>• Standardized cupping protocol (SCA or similar) applied consistently</li>
-            <li>• Sensory attributes scored: aroma, flavor, aftertaste, acidity, body, balance, sweetness, cleanliness, uniformity</li>
-            <li>• Descriptive notes recorded for each coffee</li>
+            <li>&#8226; Multiple judges evaluate each sample independently</li>
+            <li>&#8226; Ten attributes scored: fragrance/aroma, flavor, aftertaste, acidity, body, balance, uniformity, sweetness, clean cup, and overall impression</li>
+            <li>&#8226; Descriptive sensory notes recorded for each coffee</li>
           </ul>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold mb-3'>Step 3: Scoring and Calibration</h4>
+          <h4 className='font-bold mb-3'>Step 3: Calibration and Scoring</h4>
           <ul className='space-y-1 text-sm ml-4'>
-            <li>• Individual judge scores compiled and averaged</li>
-            <li>• Calibration sessions held to align judge evaluations</li>
-            <li>• Statistical analysis applied to identify outliers</li>
-            <li>• Final scores calculated using standardized methodology</li>
+            <li>&#8226; Individual scores compiled and averaged</li>
+            <li>&#8226; Calibration sessions align judge evaluations</li>
+            <li>&#8226; Statistical analysis flags outlier scores</li>
+            <li>&#8226; Final scores calculated using AFCA&apos;s standardized methodology</li>
           </ul>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold mb-3'>Step 4: Selection and Recognition</h4>
+          <h4 className='font-bold mb-3'>Step 4: Selection and Advancement</h4>
           <ul className='space-y-1 text-sm ml-4'>
-            <li>• Top-scoring coffees identified based on quality thresholds</li>
-            <li>• Winning coffees re-cupped to confirm quality and consistency</li>
-            <li>• Producers notified and samples prepared for second competition phase</li>
-            <li>• Results documented for AFCA certification process</li>
+            <li>&#8226; Top-scoring coffees identified (85+ points on the SCA scale qualifies as specialty grade)</li>
+            <li>&#8226; Winning coffees re-cupped to confirm consistency</li>
+            <li>&#8226; Up to five lots per country advance to the Regional competition</li>
+            <li>&#8226; Results documented for AFCA certification</li>
           </ul>
         </div>
       </div>
 
       <h3 className='text-xl font-bold mt-8 mb-3'>Quality Benchmarks</h3>
 
-      <p className='my-4'>
-        While specific scoring thresholds vary by competition year, AFCA typically recognizes coffees that:
-      </p>
-
       <ul className='space-y-2 my-6 list-disc ml-6 text-sm'>
-        <li>Score <span className='font-bold'>85+ points</span> (specialty grade) on standardized cupping protocols</li>
-        <li>Demonstrate <span className='font-bold'>exceptional quality</span> in multiple sensory attributes</li>
-        <li>Show <span className='font-bold'>consistency across cups</span> (uniformity in evaluation)</li>
-        <li>Are <span className='font-bold'>free from defects</span> and processing faults</li>
-        <li>Represent <span className='font-bold'>distinctive origin character</span> and processing quality</li>
+        <li>Score <span className='font-bold'>85+ points</span> on the SCA cupping form (specialty grade threshold)</li>
+        <li>Exceptional quality across multiple sensory attributes</li>
+        <li>Consistency across cups (uniformity in blind evaluation)</li>
+        <li>Free from defects and processing faults</li>
+        <li>Distinctive origin character and processing quality</li>
       </ul>
 
-      {/* SECTION 6: MODERN LABORATORY */}
-      <h2 id="modern-laboratory" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
-        <HiOutlineBeaker className='text-amber-600' />
-        6. Ethiopia's Modern Coffee Laboratory and Training Center
-      </h2>
-
-      <p className='my-4'>
-        One of the competition's key objectives was showcasing Ethiopia's significantly upgraded coffee quality infrastructure.
-      </p>
-
-      <h3 className='text-xl font-bold mt-6 mb-3'>Laboratory Modernization</h3>
-
-      <p className='my-4'>
-        Dr. Adunya Debela highlights that Ethiopia has invested heavily in "modernizing its laboratory and owning many species," referring to:
-      </p>
-
-      <div className='space-y-4 my-6'>
-        <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h4 className='font-bold mb-2 text-blue-900'>State-of-the-Art Equipment</h4>
-          <p className='text-sm mb-2'>The Ethiopian Coffee Training Center now features:</p>
-          <ul className='space-y-1 text-sm ml-4'>
-            <li>• Professional sample roasting equipment (<a href="https://ikawacoffee.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Ikawa</a>, <a href="https://probat.com" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Probat</a>, or similar)</li>
-            <li>• Standardized cupping laboratories with temperature-controlled environments</li>
-            <li>• Water quality testing and treatment systems</li>
-            <li>• Green coffee moisture and density analyzers</li>
-            <li>• Colorimetric analysis equipment</li>
-            <li>• Digital data collection and scoring systems</li>
-          </ul>
-        </div>
-
-        <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h4 className='font-bold mb-2 text-green-900'>Genetic Diversity and Variety Collection</h4>
-          <p className='text-sm mb-2'>"Owning many species" refers to Ethiopia's:</p>
-          <ul className='space-y-1 text-sm ml-4'>
-            <li>• Extensive coffee variety collection and germplasm banks</li>
-            <li>• Research facilities studying Ethiopian heirloom varieties</li>
-            <li>• Documentation of regional coffee genetic diversity</li>
-            <li>• Capacity to analyze and identify variety-specific characteristics</li>
-          </ul>
-        </div>
-
-        <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h4 className='font-bold mb-2 text-purple-900'>Training and Capacity Building</h4>
-          <p className='text-sm mb-2'>The center serves as a hub for:</p>
-          <ul className='space-y-1 text-sm ml-4'>
-            <li>• <a href="https://www.coffeeinstitute.org" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>Q Grader</a> and sensory training courses</li>
-            <li>• Producer education on quality improvement</li>
-            <li>• Exporter training on grading and quality control</li>
-            <li>• International workshops and knowledge exchange</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium'>
-          <span className='font-bold'>Strategic Importance:</span> These laboratory and training facilities position Ethiopia not just as a coffee producer, but as a coffee quality leader capable of setting standards and educating the broader African and global coffee community.
-        </p>
-      </div>
-
-      {/* SECTION 7: TWO-PHASE SYSTEM */}
+      {/* SECTION 6: TWO-PHASE SYSTEM */}
       <h2 id="two-phase-system" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineArrowTrendingUp className='text-amber-600' />
-        7. Two-Phase Competition System: National and AFCA Levels
+        6. Two-Phase System: National and Continental Finals
       </h2>
 
       <p className='my-4'>
-        The Taste of Harvest operates as a two-phase competition designed to identify the very best coffees across Africa.
+        The Taste of Harvest operates in two phases designed to identify the best coffees across the continent.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-3'>Phase 1: National Competition (January 2026)</h3>
+      <div className='grid md:grid-cols-2 gap-4 my-6'>
+        <div className='bg-amber-50 p-6 rounded-lg border border-amber-200'>
+          <h4 className='font-bold mb-3'>Phase 1: National Competition</h4>
+          <ul className='space-y-2 text-sm'>
+            <li>&#8226; <span className='font-bold'>226 Ethiopian samples</span> evaluated at ECTA&apos;s Coffee Training Center</li>
+            <li>&#8226; Top-scoring coffees identified by AFCA quality criteria</li>
+            <li>&#8226; Winners selected to advance to Phase 2</li>
+            <li>&#8226; Nine countries held parallel national competitions</li>
+          </ul>
+        </div>
 
-      <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold mb-3'>What Happened:</h4>
-        <ul className='space-y-2 text-sm'>
-          <li>• <span className='font-bold'>226 Ethiopian coffee samples</span> were evaluated in Addis Ababa</li>
-          <li>• <span className='font-bold'>Top-scoring coffees</span> were identified based on AFCA quality criteria</li>
-          <li>• <span className='font-bold'>Winning samples</span> were selected to advance to Phase 2</li>
-          <li>• <span className='font-bold'>Producers were notified</span> and prepared for continental competition</li>
-        </ul>
-        
-        <p className='mt-3 text-sm italic'>
-          This phase served as Ethiopia's internal selection process, ensuring only the country's finest coffees would represent Ethiopia in the broader AFCA competition.
-        </p>
+        <div className='bg-blue-50 p-6 rounded-lg border border-blue-200'>
+          <h4 className='font-bold mb-3'>Phase 2: Regional Finals (Feb 2-6)</h4>
+          <ul className='space-y-2 text-sm'>
+            <li>&#8226; National winners from nine countries competed head-to-head</li>
+            <li>&#8226; Up to five lots per country in the regional evaluation</li>
+            <li>&#8226; Continental judging panel evaluated all finalists together</li>
+            <li>&#8226; Winners announced at the February 6 Closing Gala</li>
+            <li>&#8226; Award-winning lots receive serial numbers and AFCA certification</li>
+          </ul>
+        </div>
       </div>
 
-      <h3 className='text-xl font-bold mt-8 mb-3'>Phase 2: AFCA Continental Competition (February 2026)</h3>
-
-      <div className='bg-blue-50 p-6 rounded-lg my-6 border border-blue-200'>
-        <h4 className='font-bold mb-3'>What Happens Next:</h4>
-        <ul className='space-y-2 text-sm'>
-          <li>• <span className='font-bold'>Top Ethiopian coffees</span> from Phase 1 compete against winning coffees from other AFCA member countries</li>
-          <li>• <span className='font-bold'>Continental judging panel</span> evaluates all national winners together</li>
-          <li>• <span className='font-bold'>Overall AFCA winners</span> are determined across processing categories and origin types</li>
-          <li>• <span className='font-bold'>Winning coffees receive serial numbers</span> and official AFCA recognition</li>
-              <li>• <span className='font-bold'>Award-winning lots</span> gain access to <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's direct auction platform</a></li>
-        </ul>
-      </div>
-
-      <h3 className='text-xl font-bold mt-8 mb-3'>Progression Criteria</h3>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Advancement Criteria</h3>
 
       <p className='my-4'>
-        Not all coffees advance from Phase 1 to Phase 2. Selection typically considers:
+        Not all national coffees advance to Phase 2. Selection considers:
       </p>
 
       <ul className='space-y-2 my-6 list-disc ml-6 text-sm'>
-        <li><span className='font-bold'>Minimum quality score:</span> Usually 85+ points (specialty grade)</li>
-        <li><span className='font-bold'>Distinctiveness:</span> Coffees demonstrating exceptional origin character</li>
-        <li><span className='font-bold'>Consistency:</span> Samples showing uniformity across multiple cups</li>
+        <li><span className='font-bold'>Quality score:</span> 85+ points on the SCA scale</li>
+        <li><span className='font-bold'>Distinctiveness:</span> Exceptional origin character</li>
+        <li><span className='font-bold'>Consistency:</span> Uniform quality across cups</li>
         <li><span className='font-bold'>Commercial viability:</span> Sufficient volume available for sale</li>
-        <li><span className='font-bold'>Processing category balance:</span> Representation across natural, washed, honey, and experimental categories</li>
+        <li><span className='font-bold'>Category balance:</span> Representation across natural, washed, honey, and experimental</li>
       </ul>
 
-      {/* SECTION 8: CERTIFICATION BENEFITS */}
+      {/* SECTION 7: CERTIFICATION */}
       <h2 id="certification-benefits" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineCheckBadge className='text-amber-600' />
-        8. AFCA Certification: Benefits and Market Access
+        7. AFCA Certification: What Winners Receive
       </h2>
 
       <p className='my-4'>
-        Coffees that succeed in Phase 2 receive official AFCA recognition and certification-a credential with significant market value.
+        Coffees that succeed in the Regional finals receive official AFCA recognition, a credential with concrete market value.
       </p>
-
-      <h3 className='text-xl font-bold mt-6 mb-3'>What AFCA Certification Provides</h3>
 
       <div className='space-y-4 my-6'>
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
           <h4 className='font-bold mb-2 text-green-900 flex items-center gap-2'>
             <HiOutlineCheckBadge />
-            Official Quality Recognition
+            Serial-Numbered Certificate
           </h4>
           <p className='text-sm'>
-            AFCA issues serial numbers and certificates to winning coffees, providing internationally recognized documentation of exceptional quality evaluated by expert panels using standardized protocols.
+            AFCA issues individual serial numbers and certificates to winning coffees, providing third-party validated quality documentation recognized by international specialty buyers.
           </p>
         </div>
 
@@ -561,199 +421,141 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
             Market Differentiation
           </h4>
           <p className='text-sm'>
-            Certified coffees stand out in crowded specialty markets, providing buyers with third-party validated quality assurance that justifies premium pricing and reduces purchasing risk.
-          </p>
-        </div>
-
-        <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h4 className='font-bold mb-2 text-purple-900 flex items-center gap-2'>
-            <HiOutlineUserGroup />
-            Direct Buyer Access
-          </h4>
-          <p className='text-sm'>
-            AFCA connects certified coffee producers directly with international buyers through the organization's auction platform and buyer network, bypassing traditional intermediaries.
+            &quot;AFCA Taste of Harvest Winner&quot; is a marketable credential for roasters and retailers. It reduces buyer risk and justifies premium pricing, particularly when combined with <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className='text-amber-700 hover:underline'>other certifications</Link>.
           </p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
           <h4 className='font-bold mb-2 text-amber-900 flex items-center gap-2'>
-            <HiOutlineLightBulb />
-            Marketing and Storytelling
+            <HiOutlineUserGroup />
+            Direct Auction Access
           </h4>
           <p className='text-sm'>
-            Winning producers gain compelling marketing narratives ("AFCA Award Winner") that resonate with specialty roasters and consumers seeking exceptional, story-driven coffees.
+            Certified coffees are listed on AFCA&apos;s auction platform with full cupping profiles, connecting producers directly with international buyers at transparent, competitive prices.
           </p>
         </div>
       </div>
 
-      <h3 className='text-xl font-bold mt-8 mb-3'>Certification Validity Period</h3>
-
-      <p className='my-4'>
-        As W/ro Bamlack notes, <span className='font-bold'>AFCA certification is valid for one year</span>. This means:
-      </p>
-
-      <ul className='space-y-2 my-6 list-disc ml-6 text-sm'>
-        <li>Certificates apply to specific harvest year coffees (e.g., 2025/2026 harvest)</li>
-        <li>Producers must resubmit samples each year to maintain recognition</li>
-        <li>Certification ensures buyers receive recently harvested, fresh-crop coffee</li>
-        <li>Annual competitions maintain high standards and competitive incentives</li>
-      </ul>
-
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-bold mb-2'>Important Note:</p>
+        <p className='font-bold mb-2'>Certification Is Harvest-Specific</p>
         <p className='text-sm'>
-          The one-year validity means AFCA certification is harvest-specific, not producer-specific. Even award-winning producers must demonstrate continued quality excellence each season to maintain certified status.
+          As W/ro Bamlack notes, AFCA certification is valid for one year. Certificates apply to the current harvest&apos;s coffee, not the producer in general. Even award-winning producers must resubmit samples each season to maintain certified status. This ensures buyers receive fresh-crop, recently evaluated coffee.
         </p>
       </div>
 
-      {/* SECTION 9: AUCTION OPPORTUNITIES */}
-      <h2 id="auction-opportunities" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      {/* SECTION 8: AUCTION PLATFORM */}
+      <h2 id="auction-platform" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBar className='text-amber-600' />
-        9. AFCA Direct Auction Platform for Award-Winning Coffees
+        8. The AFCA Auction Platform (M-Cultivo)
       </h2>
 
       <p className='my-4'>
-        One of the most valuable benefits of winning AFCA recognition is direct access to the organization's auction platform.
+        For the 2025/26 season, AFCA launched a new partnership with <a href="https://tasteofharvest.mcultivo.com/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>M-Cultivo</a> to power online auctions. This replaces the previous auction system with a modern platform that enables broader international participation.
       </p>
 
-      <h3 className='text-xl font-bold mt-6 mb-3'>How AFCA Auctions Work</h3>
+      <h3 className='text-xl font-bold mt-6 mb-3'>How the Auction Works</h3>
 
       <div className='space-y-6 my-6'>
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold mb-3'>1. Auction Listing</h4>
-            <p className='text-sm'>
-            Award-winning coffees are listed on <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's auction platform</a> with detailed profiles including:
+          <h4 className='font-bold mb-3'>1. Lot Listing</h4>
+          <p className='text-sm'>
+            Award-winning coffees are listed on <a href="https://tasteofharvest.mcultivo.com/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>tasteofharvest.mcultivo.com</a> with:
           </p>
           <ul className='space-y-1 text-sm ml-4 mt-2'>
-            <li>• Competition scores and sensory descriptors</li>
-            <li>• Origin information (region, producer, altitude)</li>
-            <li>• Processing method and variety details</li>
-            <li>• Available quantity and lot size</li>
-            <li>• Certification serial number</li>
+            <li>&#8226; Competition scores and sensory descriptors</li>
+            <li>&#8226; Origin data (region, producer, altitude)</li>
+            <li>&#8226; Processing method and variety details</li>
+            <li>&#8226; Available weight per lot</li>
+            <li>&#8226; Certification serial number</li>
           </ul>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold mb-3'>2. Buyer Participation</h4>
+          <h4 className='font-bold mb-3'>2. Buyer Registration and Bidding</h4>
           <p className='text-sm'>
-            International specialty coffee buyers-roasters, importers, and traders-access the platform to:
+            International buyers register on the platform, review lot profiles, and place bids. The system supports both manual bids and auto-bid functionality. Uganda&apos;s 2026 Robusta auction is already live on the platform, with more country auctions to follow.
           </p>
-          <ul className='space-y-1 text-sm ml-4 mt-2'>
-            <li>• Review detailed coffee profiles and cupping notes</li>
-            <li>• Request samples for evaluation (often available)</li>
-            <li>• Submit bids or purchase offers</li>
-            <li>• Communicate directly with producers/exporters</li>
-          </ul>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-3'>3. Price Discovery</h4>
           <p className='text-sm'>
-            Auction format allows true market-based pricing:
+            Competitive bidding drives prices for exceptional lots well above commodity levels. The transparent format ensures producers receive fair market value based on cup quality, not commodity markets.
           </p>
-          <ul className='space-y-1 text-sm ml-4 mt-2'>
-            <li>• Competitive bidding drives prices up for exceptional lots</li>
-            <li>• Transparency ensures producers receive fair market value</li>
-            <li>• Premium prices reflect quality, not just commodity markets</li>
-            <li>• Direct sales reduce intermediary margins</li>
-          </ul>
         </div>
 
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h4 className='font-bold mb-3'>4. Transaction Facilitation</h4>
+          <h4 className='font-bold mb-3'>4. Scale Through ITC Partnership</h4>
           <p className='text-sm'>
-            AFCA supports the sales process by:
+            AFCA&apos;s partnership with the International Trade Centre&apos;s EU-EAC MARKUP II Programme funds online auction expansion across at least five countries, making award-winning African coffees accessible to a wider pool of international buyers.
           </p>
-          <ul className='space-y-1 text-sm ml-4 mt-2'>
-            <li>• Connecting buyers and sellers</li>
-            <li>• Providing platform infrastructure and trust mechanisms</li>
-            <li>• Offering guidance on export logistics and documentation</li>
-            <li>• Monitoring transactions to ensure successful completion</li>
-          </ul>
         </div>
       </div>
 
-      <h3 className='text-xl font-bold mt-8 mb-3'>Historical Auction Results</h3>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Auction Price Context</h3>
 
       <p className='my-4'>
-        While specific pricing varies by year and coffee quality, AFCA auction coffees historically achieve:
+        While prices vary by coffee quality and lot size, AFCA auction coffees achieve significant premiums over commodity market prices. For reference, Ethiopian <Link href="/insights/ethiopian-coffee-pricing-fob-guide" className='text-amber-700 hover:underline'>FOB export prices</Link> reached 423 US cents/lb in April 2025. Award-winning specialty lots at auction command additional premiums of 15-30%+ above standard specialty-grade pricing.
       </p>
 
-      <ul className='space-y-2 my-6 list-disc ml-6'>
-        <li><span className='font-bold'>Significant premiums</span> over commodity market prices (C market)</li>
-        <li><span className='font-bold'>Price ranges</span> typically $4-15+ per pound FOB, depending on quality and rarity</li>
-        <li><span className='font-bold'>Record prices</span> for exceptional micro-lots exceeding $20+ per pound</li>
-        <li><span className='font-bold'>Consistent demand</span> from specialty roasters seeking award-winning coffees</li>
-      </ul>
-
-      {/* SECTION 10: HOW TO PARTICIPATE */}
+      {/* SECTION 9: HOW TO PARTICIPATE */}
       <h2 id="how-to-participate" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineClipboardDocumentList className='text-amber-600' />
-        10. How Ethiopian Producers Can Participate in Future Competitions
+        9. How Ethiopian Producers Can Enter Future Competitions
       </h2>
-
-      <p className='my-4'>
-        The 2026 competition demonstrates that the Taste of Harvest is open to a wide range of Ethiopian coffee stakeholders.
-      </p>
 
       <h3 className='text-xl font-bold mt-6 mb-3'>Who Can Submit Samples</h3>
 
-      <p className='my-4'>
-        According to the competition coordinator, submissions were accepted from:
-      </p>
-
       <div className='grid md:grid-cols-3 gap-4 my-6'>
-        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
+        <div className='border border-gray-200 rounded-lg p-4'>
           <h4 className='font-bold mb-2'>Coffee Producers</h4>
-          <p className='text-sm text-gray-700'>Individual farmers, farm owners, and estate operators producing exceptional coffee can submit samples directly.</p>
+          <p className='text-sm text-gray-700'>Individual farmers and <Link href="/insights/ethiopian-coffee-washing-stations-buyers-guide" className='text-amber-700 hover:underline'>washing station</Link> operators producing exceptional coffee.</p>
         </div>
-        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
+        <div className='border border-gray-200 rounded-lg p-4'>
           <h4 className='font-bold mb-2'>Cooperatives</h4>
-          <p className='text-sm text-gray-700'>Farmer cooperatives and unions representing member producers can submit samples from collective production.</p>
+          <p className='text-sm text-gray-700'>Farmer cooperatives and unions representing member producers. Ethiopia&apos;s market reforms now allow cooperatives to export directly.</p>
         </div>
-        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h4 className='font-bold mb-2'>Coffee Exporters</h4>
-          <p className='text-sm text-gray-700'>Licensed Ethiopian coffee exporters can submit samples from their sourcing networks and partner producers.</p>
+        <div className='border border-gray-200 rounded-lg p-4'>
+          <h4 className='font-bold mb-2'>Licensed Exporters</h4>
+          <p className='text-sm text-gray-700'>Ethiopian coffee exporters submitting samples from their sourcing networks and partner producers.</p>
         </div>
       </div>
 
       <h3 className='text-xl font-bold mt-8 mb-3'>Submission Requirements</h3>
 
-      <p className='my-4'>
-        While specific requirements may vary by competition year, typical submission criteria include:
-      </p>
-
       <ul className='space-y-2 my-6 list-disc ml-6 text-sm'>
-        <li><span className='font-bold'>Sample quantity:</span> Usually 5-10 kg of green coffee per submission</li>
+        <li><span className='font-bold'>Sample quantity:</span> Green coffee per submission (check AFCA&apos;s current protocol for exact weight)</li>
         <li><span className='font-bold'>Sample quality:</span> Green coffee free from major defects, properly sorted</li>
         <li><span className='font-bold'>Documentation:</span> Origin information, processing details, harvest date, producer identification</li>
-        <li><span className='font-bold'>Traceability:</span> Clear documentation of coffee source (region, farm, cooperative)</li>
-        <li><span className='font-bold'>Availability:</span> Sufficient quantity available for sale if coffee wins recognition</li>
-        <li><span className='font-bold'>Registration fees:</span> Nominal fees may apply to cover evaluation costs</li>
+        <li><span className='font-bold'>Traceability:</span> Clear documentation of coffee source (<Link href="/insights/ethiopian-coffee-traceability-guide" className='text-amber-700 hover:underline'>region, farm, cooperative</Link>)</li>
+        <li><span className='font-bold'>Availability:</span> Sufficient commercial quantity if the coffee wins recognition</li>
       </ul>
 
-      <h3 className='text-xl font-bold mt-8 mb-3'>Preparation Tips for Success</h3>
+      <h3 className='text-xl font-bold mt-8 mb-3'>Preparation Tips</h3>
 
       <div className='bg-green-50 p-6 rounded-lg my-6 border border-green-200'>
-        <h4 className='font-bold mb-3'>Maximizing Competition Success:</h4>
         <ol className='space-y-2 text-sm'>
-          <li>1. <span className='font-bold'>Select your best coffees:</span> Submit only exceptional lots, not average production</li>
-          <li>2. <span className='font-bold'>Ensure proper processing:</span> Careful harvesting, processing, and drying to minimize defects</li>
-          <li>3. <span className='font-bold'>Prepare samples carefully:</span> Hand-sort green coffee to remove defects before submission</li>
-          <li>4. <span className='font-bold'>Provide accurate information:</span> Complete documentation helps judges understand your coffee's story</li>
-          <li>5. <span className='font-bold'>Consider processing diversity:</span> Submit across multiple processing categories (washed, natural, experimental)</li>
-          <li>6. <span className='font-bold'>Coordinate with exporters:</span> If you're a producer, partner with exporters who can facilitate submission and potential sales</li>
+          <li>1. <span className='font-bold'>Submit only exceptional lots.</span> Average production will not score competitively.</li>
+          <li>2. <span className='font-bold'>Prioritize processing quality.</span> Careful harvesting, <Link href="/insights/coffee-is-processing-drying-milling" className='text-amber-700 hover:underline'>processing, and drying</Link> minimize defects.</li>
+          <li>3. <span className='font-bold'>Hand-sort green coffee</span> before submission to remove visible defects.</li>
+          <li>4. <span className='font-bold'>Provide complete documentation.</span> Accurate origin data strengthens the coffee&apos;s story.</li>
+          <li>5. <span className='font-bold'>Enter across categories.</span> Submit washed, natural, and experimental entries to increase chances.</li>
+          <li>6. <span className='font-bold'>Partner with an exporter</span> who can handle <Link href="/insights/ethiopian-coffee-export-process-buyers-guide" className='text-amber-700 hover:underline'>logistics and export documentation</Link> if the coffee sells at auction.</li>
         </ol>
       </div>
 
-      {/* SECTION 11: BUYER OPPORTUNITIES */}
+      <p className='my-4'>
+        Follow <a href="https://www.instagram.com/tasteofharvest/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>@tasteofharvest on Instagram</a> or subscribe to AFCA&apos;s WhatsApp channel for announcements on the next competition cycle.
+      </p>
+
+      {/* SECTION 10: BUYER OPPORTUNITIES */}
       <h2 id="buyer-opportunities" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineUserGroup className='text-amber-600' />
-        11. Opportunities for International Coffee Buyers
+        10. Opportunities for International Buyers
       </h2>
 
       <p className='my-4'>
-        For specialty coffee roasters, importers, and traders, AFCA's Taste of Harvest competition offers valuable sourcing opportunities.
+        For specialty roasters, importers, and traders, the AFCA Taste of Harvest offers pre-vetted sourcing with built-in quality validation.
       </p>
 
       <h3 className='text-xl font-bold mt-6 mb-3'>Benefits for Coffee Buyers</h3>
@@ -761,288 +563,165 @@ export default function AFCATasteOfHarvestEthiopianCoffeeCompetition({ title, da
       <div className='space-y-4 my-6'>
         <div className='border-l-4 border-amber-500 pl-4'>
           <h4 className='font-bold'>Pre-Vetted Quality</h4>
-          <p className='text-sm text-gray-700'>Expert panels have already evaluated and confirmed exceptional quality, reducing buyer risk and cupping workload.</p>
+          <p className='text-sm text-gray-700'>Expert panels have already confirmed exceptional quality. Buyers can review cupping scores, sensory notes, and certification details before committing, reducing evaluation workload.</p>
         </div>
         <div className='border-l-4 border-blue-500 pl-4'>
-          <h4 className='font-bold'>Transparent Information</h4>
-          <p className='text-sm text-gray-700'>Detailed profiles include sensory notes, scores, origin data, and processing information-all the details buyers need for informed decisions.</p>
+          <h4 className='font-bold'>Transparent Pricing</h4>
+          <p className='text-sm text-gray-700'>The M-Cultivo auction format provides market-driven pricing. Buyers see all bids and lot details, eliminating information asymmetry common in traditional coffee trading.</p>
         </div>
         <div className='border-l-4 border-green-500 pl-4'>
-          <h4 className='font-bold'>Direct Sourcing</h4>
-          <p className='text-sm text-gray-700'>AFCA platform connects buyers directly with producers/exporters, enabling relationship-building and potentially better pricing through reduced intermediaries.</p>
+          <h4 className='font-bold'>Direct Producer Connection</h4>
+          <p className='text-sm text-gray-700'>AFCA connects buyers with producers and exporters, enabling relationship-building that extends beyond a single auction purchase.</p>
         </div>
         <div className='border-l-4 border-purple-500 pl-4'>
-          <h4 className='font-bold'>Unique Marketing Story</h4>
-          <p className='text-sm text-gray-700'>Purchasing AFCA award-winning coffees provides compelling narratives for retail customers: "AFCA Gold Winner, 2026 Taste of Harvest."</p>
+          <h4 className='font-bold'>Marketing Narrative</h4>
+          <p className='text-sm text-gray-700'>Purchasing AFCA winners provides a compelling retail story: &quot;2026 Taste of Harvest Award Winner, scored 88+.&quot; This differentiates roasters in crowded specialty markets.</p>
         </div>
         <div className='border-l-4 border-orange-500 pl-4'>
-          <h4 className='font-bold'>African Origin Diversity</h4>
-          <p className='text-sm text-gray-700'>Competition exposes buyers to exceptional coffees from across AFCA member countries, not just Ethiopia, expanding sourcing options.</p>
+          <h4 className='font-bold'>Pan-African Sourcing</h4>
+          <p className='text-sm text-gray-700'>The competition exposes buyers to exceptional coffees from nine African countries, not just Ethiopia, expanding sourcing options across the continent.</p>
         </div>
       </div>
 
-      <h3 className='text-xl font-bold mt-8 mb-3'>How to Access AFCA Auction Coffees</h3>
-
-      <p className='my-4'>
-        International buyers interested in purchasing award-winning coffees can:
-      </p>
+      <h3 className='text-xl font-bold mt-8 mb-3'>How to Access AFCA Award-Winning Coffees</h3>
 
       <ul className='space-y-2 my-6 list-disc ml-6 text-sm'>
-        <li>Contact <span className='font-bold'>AFCA directly</span> to register for auction platform access</li>
-        <li>Attend <span className='font-bold'>AFCA conferences and exhibitions</span> where award coffees are showcased</li>
-        <li>Work with <span className='font-bold'>Ethiopian exporters</span> (like Ethio Coffee Export) who participate in competitions and have access to award-winning lots</li>
-        <li>Monitor <span className='font-bold'>AFCA communications</span> (website, newsletters) announcing auction dates and participating coffees</li>
+        <li>Register on <a href="https://tasteofharvest.mcultivo.com/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>tasteofharvest.mcultivo.com</a> for auction platform access and bidding</li>
+        <li>Attend future <a href="https://afca.coffee/conference" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA conferences</a> where award coffees are showcased at B2B cupping pavilions</li>
+        <li>Work with <span className='font-bold'>Ethiopian exporters</span> (like Ethio Coffee Export) who participate in competitions and source from award-winning producers</li>
+        <li>Monitor <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA communications</a> for auction dates and results</li>
       </ul>
 
-      {/* SECTION 12: LONG-TERM IMPACT */}
+      {/* SECTION 11: LONG-TERM IMPACT */}
       <h2 id="impact-ethiopian-coffee" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineArrowTrendingUp className='text-amber-600' />
-        12. Long-Term Impact on Ethiopian Coffee Industry
+        11. Long-Term Impact on Ethiopian Coffee
       </h2>
 
       <p className='my-4'>
-        The 2026 Taste of Harvest competition and Ethiopia's hosting of the conference represent more than a one-time event-they signal important developments for Ethiopian coffee's future.
+        The 2026 Taste of Harvest and Ethiopia&apos;s hosting of the AFCC&E signal important developments for the country&apos;s coffee sector.
       </p>
-
-      <h3 className='text-xl font-bold mt-6 mb-3'>Strategic Benefits for Ethiopia</h3>
 
       <div className='space-y-4 my-6'>
         <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
-          <h4 className='font-bold mb-2 text-green-900'>Enhanced Global Reputation</h4>
+          <h4 className='font-bold mb-2 text-green-900'>Producer Incentives</h4>
           <p className='text-sm'>
-            Showcasing modern facilities, professional expertise, and exceptional coffee quality reinforces Ethiopia's position as a global coffee leader, not just a traditional origin.
+            Competition premiums provide tangible rewards for quality investment. When farmers see award-winning lots sell at 2-3x commodity prices through the auction, it drives broader adoption of quality-focused harvesting and processing.
           </p>
         </div>
 
         <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
-          <h4 className='font-bold mb-2 text-blue-900'>Increased Producer Incentives</h4>
+          <h4 className='font-bold mb-2 text-blue-900'>Quality Infrastructure</h4>
           <p className='text-sm'>
-            Competition success and premium auction prices provide tangible incentives for Ethiopian farmers and cooperatives to invest in quality improvements and best practices.
-          </p>
-        </div>
-
-        <div className='bg-purple-50 p-5 rounded-lg border border-purple-200'>
-          <h4 className='font-bold mb-2 text-purple-900'>Quality Culture Development</h4>
-          <p className='text-sm'>
-            Annual competitions foster a culture of quality excellence, continuous improvement, and pride in Ethiopian coffee throughout the supply chain from farmer to exporter.
+            Ethiopia&apos;s investment in the ECTA Coffee Training Center, staffed by internationally certified Q-graders, positions the country as a quality assessment hub for the African continent. Other AFCA member countries benefit from Ethiopia&apos;s training capacity.
           </p>
         </div>
 
         <div className='bg-amber-50 p-5 rounded-lg border border-amber-200'>
-          <h4 className='font-bold mb-2 text-amber-900'>Knowledge Hub Status</h4>
+          <h4 className='font-bold mb-2 text-amber-900'>Market Reform Acceleration</h4>
           <p className='text-sm'>
-            Ethiopia's training center and laboratory facilities position the country as a knowledge hub for African coffee, attracting international partnerships and training opportunities.
+            Competition success aligns with Ethiopia&apos;s broader <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-amber-700 hover:underline'>market liberalization</Link>: over 100 licensed farmer-exporters, direct cooperative exports, and private exporters operating washing stations. These reforms make award-winning coffees more accessible to international buyers.
           </p>
         </div>
 
-        <div className='bg-teal-50 p-5 rounded-lg border border-teal-200'>
-          <h4 className='font-bold mb-2 text-teal-900'>Market Access Expansion</h4>
+        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
+          <h4 className='font-bold mb-2 text-gray-900'>EUDR Compliance Alignment</h4>
           <p className='text-sm'>
-            AFCA certification and auction access open new market channels, particularly for smaller producers and cooperatives who previously lacked direct international buyer connections.
+            The traceability documentation required for AFCA competition entries (region, farm, processing details) aligns closely with <Link href="/insights/eu-deforestation-regulation-ethiopian-coffee-compliance" className='text-amber-700 hover:underline'>EUDR compliance requirements</Link>. Ethiopia&apos;s Coffee Traceability Management System (ECTMS), launched October 2025, strengthens this alignment for EU-bound exports.
           </p>
         </div>
       </div>
 
-      <h3 className='text-xl font-bold mt-8 mb-3'>Future Outlook</h3>
-
       <p className='my-4'>
-        Dr. Adunya's emphasis on Ethiopia's laboratory modernization and species collection suggests ongoing investments in:
+        As Ethiopia continues expanding its laboratory capacity, training professionals, and integrating with global auction platforms, the country solidifies its role not just as coffee&apos;s birthplace, but as a modern leader in specialty coffee quality assessment and trade.
       </p>
-
-      <ul className='space-y-2 my-6 list-disc ml-6'>
-        <li><span className='font-bold'>Research and development:</span> Better understanding Ethiopian coffee genetics and terroir</li>
-        <li><span className='font-bold'>Quality standards:</span> Continuous improvement in grading, evaluation, and quality control</li>
-        <li><span className='font-bold'>Producer training:</span> Expanding capacity-building programs to reach more farmers</li>
-        <li><span className='font-bold'>Innovation:</span> Supporting experimental processing and sustainable farming practices</li>
-        <li><span className='font-bold'>International collaboration:</span> Strengthening partnerships with global coffee organizations</li>
-      </ul>
 
       {/* FAQ SECTION */}
       <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About AFCA Taste of Harvest and Ethiopian Coffee Competitions</h2>
+        <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About AFCA Taste of Harvest</h2>
         <div className="space-y-6">
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">What is the AFCA Taste of Harvest coffee competition?</h3>
-            <p className="text-sm text-gray-600">The AFCA Taste of Harvest is Africa's premier coffee quality competition organized by the African Fine Coffees Association. Each year, coffees from AFCA's 25 member countries are evaluated blindly by international Q-graders using standardized cupping protocols. Top-scoring lots receive official certification and serial numbers, then sell through AFCA's auction platform to specialty buyers at premium prices.</p>
+            <h3 className="font-bold text-gray-800 mb-2">What is the AFCA Taste of Harvest competition?</h3>
+            <p className="text-sm text-gray-600">AFCA&apos;s Taste of Harvest is Africa&apos;s premier coffee quality competition. National competitions run in member countries, with top coffees advancing to a continental final at AFCA&apos;s annual conference. Certified Q-graders score all samples blindly using the SCA cupping protocol. Winners receive one-year AFCA certification with serial numbers and sell through the online auction platform.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">How many samples did Ethiopia submit to the 2026 Taste of Harvest competition?</h3>
-            <p className="text-sm text-gray-600">Ethiopia submitted 226 coffee samples to the 2026 AFCA Taste of Harvest competition, spanning four processing categories: 100 natural, 43 washed, 37 honey, and 46 experimental. These samples came from producers, cooperatives, and exporters across Ethiopia's major coffee-growing regions, representing the country's full range of origins and processing innovation.</p>
+            <h3 className="font-bold text-gray-800 mb-2">How many countries participated in the 2025/26 Taste of Harvest season?</h3>
+            <p className="text-sm text-gray-600">Nine countries held national competitions: Burundi, Cameroon, DRC, Ethiopia, Kenya, Malawi, Tanzania, Uganda, and Zambia. Up to five top-scoring lots from each national competition advanced to the Regional finals held during the 22nd AFCC&E in Addis Ababa in February 2026.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">How are coffees evaluated in the AFCA Taste of Harvest?</h3>
-            <p className="text-sm text-gray-600">Coffees are evaluated blindly by certified Q-graders and international judges using the SCA cupping protocol. Each sample is scored across ten attributes: fragrance/aroma, flavor, aftertaste, acidity, body, balance, uniformity, sweetness, clean cup, and overall impression. Multiple judges evaluate each coffee independently, with calibration sessions to ensure scoring consistency across the panel.</p>
+            <h3 className="font-bold text-gray-800 mb-2">How many samples did Ethiopia submit to the 2026 competition?</h3>
+            <p className="text-sm text-gray-600">Ethiopia submitted 226 samples across four processing categories: 100 natural (44.2%), 46 experimental (20.4%), 43 washed (19.0%), and 37 honey (16.4%). Samples came from producers, cooperatives, and exporters across the country&apos;s major growing regions.</p>
           </div>
           <div>
             <h3 className="font-bold text-gray-800 mb-2">Can international buyers purchase AFCA award-winning Ethiopian coffee?</h3>
-            <p className="text-sm text-gray-600">Yes. Winning lots from the Taste of Harvest competition are listed on AFCA's online auction platform with full cupping profiles, origin data, and certification serial numbers. International roasters and importers register on the platform, review lot details, and submit competitive bids. This gives buyers direct access to top-scoring African coffees at transparent, market-driven prices.</p>
+            <p className="text-sm text-gray-600">Yes. Winning lots are listed on AFCA&apos;s online auction platform (tasteofharvest.mcultivo.com) with cupping profiles, origin data, and certification serial numbers. International roasters and importers register on the platform and place competitive bids. Buyers can also work with Ethiopian exporters who source from competition-winning producers.</p>
           </div>
           <div>
-            <h3 className="font-bold text-gray-800 mb-2">What role does Ethiopia play in AFCA coffee competitions?</h3>
-            <p className="text-sm text-gray-600">Ethiopia is one of the largest and most consistent participants in AFCA competitions. The country draws on its unmatched genetic diversity, well-established cupping infrastructure, and growing number of certified Q-graders to submit highly competitive entries across multiple processing categories each year.</p>
+            <h3 className="font-bold text-gray-800 mb-2">How does the AFCA M-Cultivo auction platform work?</h3>
+            <p className="text-sm text-gray-600">Award-winning coffees are listed with lot details, weight, cupping scores, and origin information. Registered buyers place bids or set auto-bids. Competitive bidding drives prices above commodity levels. AFCA&apos;s partnership with ITC&apos;s EU-EAC MARKUP II Programme supports online auction expansion across multiple African countries.</p>
           </div>
         </div>
       </section>
 
-      {/* CONCLUSION & CTA */}
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>
-          Conclusion: Competition Success Drives Coffee Excellence
-        </h4>
-        <p className='mb-3'>
-          The Taste of Harvest competition represents far more than awards and recognition-it's a mechanism for driving quality improvement, connecting exceptional Ethiopian coffees with discerning global buyers, and demonstrating Ethiopia's continued evolution as a modern, sophisticated coffee origin.
-        </p>
-        <p className='mb-3'>
-          For producers and cooperatives, participation offers pathways to premium markets and fair compensation for quality efforts. For exporters, award-winning lots provide competitive differentiation and buyer demand. For international buyers, AFCA-certified coffees deliver pre-vetted quality and compelling stories.
-        </p>
-        <p>
-          As Ethiopia continues modernizing its laboratory facilities, training professionals, and hosting international events, the country solidifies its role not just as coffee's birthplace, but as a dynamic leader shaping specialty coffee's future.
-        </p>
-      </div>
-
-      {/* KEY TAKEAWAYS */}
-      <h2 className='text-2xl font-extrabold mt-10 mb-4'>
-        Key Takeaways
-      </h2>
-      <div className='my-6 space-y-3'>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>AFCA's Taste of Harvest is Africa's premier coffee quality competition, recognizing exceptional coffees across the continent and providing market access through auctions</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopia hosted the 2026 competition at its modern Coffee Training Center, showcasing state-of-the-art laboratory facilities and highly trained professionals</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>226 Ethiopian coffee samples competed across natural, washed, honey, and experimental processing categories, demonstrating the country's quality diversity</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Competition operates in two phases: national selection (January) and continental finals (February), with only top scorers advancing</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Award-winning coffees receive AFCA certification (valid one year) and serial numbers, providing internationally recognized quality credentials</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Certified coffees gain direct access to <a href="https://afca.coffee/" target="_blank" rel="noopener noreferrer" className='text-blue-600 hover:underline'>AFCA's auction platform</a>, connecting producers with international specialty buyers at premium prices</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopian producers, cooperatives, and exporters can all participate by submitting samples meeting quality and documentation requirements</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>International buyers benefit from pre-vetted quality, transparent information, and compelling marketing stories when purchasing award-winning lots</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Ethiopia's laboratory modernization and genetic diversity research position the country as a knowledge leader in African and global coffee</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckBadge className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Competition success drives quality culture, producer incentives, and market access-benefiting Ethiopia's entire coffee value chain</p>
-        </div>
-      </div>
-
-      {/* ETHIO COFFEE EXPORT CTA */}
-      <div className='bg-gradient-to-br from-amber-900 to-amber-800 text-white p-8 rounded-lg my-8'>
-        <h3 className='text-2xl font-extrabold mb-4'>
-          Access Award-Winning Ethiopian Coffee Through Ethio Coffee Export
-        </h3>
-        <p className='mb-4'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> actively participates in Ethiopia's coffee quality competitions and maintains relationships with producers and cooperatives whose coffees compete at national and international levels.
-        </p>
-        <ul className='space-y-2 mb-6'>
-          <li className='flex items-start gap-2'>
-            <HiOutlineTrophy className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Competition-grade coffees</span> from award-winning producers and cooperatives</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineTrophy className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Diverse processing methods</span> including experimental lots showcasing Ethiopian innovation</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineTrophy className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Full traceability and quality documentation</span> meeting international standards</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineTrophy className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Professional cupping notes and evaluation</span> from trained Q graders</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineTrophy className='text-amber-300 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-bold'>Direct producer relationships</span> supporting quality-focused farmers</span>
-          </li>
-        </ul>
-        <div className='flex flex-wrap gap-4'>
-          <Link 
-            href="/offerings" 
-            className='bg-white text-amber-900 px-6 py-3 rounded-lg font-bold hover:bg-amber-100 transition-colors inline-block'
-          >
-            View Current Offerings
-          </Link>
-          <Link 
-            href="/contact-us" 
-            className='border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block'
-          >
-            Request Samples
-          </Link>
-          <Link 
-            href="/ordering-info" 
-            className='border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block'
-          >
-            How to Order
-          </Link>
-        </div>
-      </div>
-
-      {/* RELATED ARTICLES */}
-      <h3 className='text-xl font-bold mb-4'>
-        Related Articles
-      </h3>
-      
-      <div className='grid md:grid-cols-2 gap-4 my-6'>
-        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h4 className='font-bold mb-2'>Quality & Evaluation</h4>
-          <ul className='space-y-1 text-sm'>
-            <li>• <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-blue-600 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
-            <li>• <Link href="/insights/new-sca-coffee-value-assessment" className='text-blue-600 hover:underline'>New SCA Coffee Value Assessment</Link></li>
-            <li>• <Link href="/insights/guide-ethiopian-coffee-origins" className='text-blue-600 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
-            <li>• <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className='text-blue-600 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
-          </ul>
-        </div>
-        <div className='border border-gray-200 rounded-lg p-4 hover:border-amber-400 transition-colors'>
-          <h4 className='font-bold mb-2'>Processing & Innovation</h4>
-          <ul className='space-y-1 text-sm'>
-            <li>• <Link href="/ethiopian-coffee-exporter" className='text-blue-600 hover:underline'>Ethiopian Coffee Exporter</Link></li>
-            <li>• <Link href="/insights/ethiopia-coffee-origin-birthplace" className='text-blue-600 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
-            <li>• <Link href="/insights/coffee-is-processing-drying-milling" className='text-blue-600 hover:underline'>Coffee Is a Process: Complete Guide</Link></li>
-            <li>• <Link href="/insights/specialty-coffee-trends-2026" className='text-blue-600 hover:underline'>5 Specialty Coffee Trends Defining 2026</Link></li>
-            <li>• <Link href="/insights/complete-guide-to-understanding-coffee" className='text-blue-600 hover:underline'>Complete Guide to Understanding Coffee</Link></li>
-          </ul>
-        </div>
-      </div>
-
+      {/* CTA BLOCK */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Access Award-Winning Ethiopian Coffee</h4>
+        <h4 className='font-bold text-xl mb-3'>Source Competition-Grade Ethiopian Coffee</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we have direct connections to Taste of Harvest award-winning lots and Ethiopia&apos;s top specialty-grade coffees.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> sources from cooperatives and washing stations whose coffees compete at national and international levels. Our network spans Ethiopia&apos;s top growing regions with full traceability and quality documentation.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Samples</Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
 
-      <hr className="my-8 border-gray-200" />
-      
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality and Evaluation</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&#8226; <Link href="/insights/green-coffee-quality-control-defects-grading" className='text-amber-700 hover:underline'>Green Coffee Quality Control and Grading</Link></li>
+              <li>&#8226; <Link href="/insights/new-sca-coffee-value-assessment" className='text-amber-700 hover:underline'>SCA Coffee Value Assessment Guide</Link></li>
+              <li>&#8226; <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
+              <li>&#8226; <Link href="/insights/yirgacheffe-vs-sidamo-vs-guji-comparison" className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Processing and Innovation</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&#8226; <Link href="/insights/anaerobic-ethiopian-coffee-processing-buyers-guide" className='text-amber-700 hover:underline'>Anaerobic Ethiopian Coffee Processing</Link></li>
+              <li>&#8226; <Link href="/insights/washed-vs-natural-ethiopian-coffee-processing" className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee</Link></li>
+              <li>&#8226; <Link href="/insights/ethiopian-coffee-washing-stations-buyers-guide" className='text-amber-700 hover:underline'>Ethiopian Coffee Washing Stations Guide</Link></li>
+              <li>&#8226; <Link href="/insights/coffee-is-processing-drying-milling" className='text-amber-700 hover:underline'>Coffee Processing, Drying, and Milling</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing and Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&#8226; <Link href="/insights/ethiopian-coffee-export-process-buyers-guide" className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+              <li>&#8226; <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>&#8226; <Link href="/insights/ethiopian-coffee-pricing-fob-guide" className='text-amber-700 hover:underline'>Ethiopian Coffee FOB Pricing Guide</Link></li>
+              <li>&#8226; <Link href="/insights/ethiopian-coffee-traceability-guide" className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Market Intelligence</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&#8226; <Link href="/insights/specialty-coffee-trends-2026" className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
+              <li>&#8226; <Link href="/insights/eu-deforestation-regulation-ethiopian-coffee-compliance" className='text-amber-700 hover:underline'>EUDR Ethiopian Coffee Compliance</Link></li>
+              <li>&#8226; <Link href="/insights/guide-ethiopian-coffee-origins" className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+              <li>&#8226; <Link href="/insights/ethiopia-coffee-origin-birthplace" className='text-amber-700 hover:underline'>Ethiopia: Birthplace of Coffee</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide was prepared by Ethio Coffee Import and Export PLC based on the 2026 Taste of Harvest competition, statements from Ethiopian Coffee and Tea Authority leadership, and our direct involvement in Ethiopia&apos;s specialty coffee sector.
+          <span className='font-bold'>About This Insight:</span> This guide was prepared by Ethio Coffee Import and Export PLC based on the 2026 Taste of Harvest competition, statements from Ethiopian Coffee and Tea Authority leadership, AFCA&apos;s official program documentation, and our direct involvement in Ethiopia&apos;s specialty coffee sector.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

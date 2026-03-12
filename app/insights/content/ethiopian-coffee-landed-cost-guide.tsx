@@ -152,7 +152,7 @@ export default function EthiopianCoffeeLandedCostGuide({ title, date, large_imag
       </p>
 
       <p className='my-4'>
-        Ethiopian FOB prices vary significantly by origin, grade, and processing method. As of early 2026, indicative FOB ranges are:
+        Ethiopian FOB prices vary significantly by origin, grade, and processing method. These prices have been <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='underline font-semibold'>rising significantly since 2024</Link> due to global supply constraints and record cherry costs. As of early 2026, indicative FOB ranges are:
       </p>
 
       <div className='overflow-x-auto my-6'>

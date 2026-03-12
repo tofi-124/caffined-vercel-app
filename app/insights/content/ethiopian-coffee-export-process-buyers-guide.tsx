@@ -92,7 +92,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       </p>
 
       <p className='my-4'>
-        If you are evaluating Ethiopian exporters and want to understand what the full buyer experience looks like with a specific company, our <Link href='/insights/ethio-coffee-export-launch' className='underline font-bold'>Ethiopian coffee exporter partnership guide</Link> walks through the process from first inquiry to delivery.
+        If you are evaluating Ethiopian exporters and want to understand what the full buyer experience looks like with a specific company, our <Link href='/insights/ethio-coffee-export-launch' className='underline font-bold'>Ethiopian coffee exporter partnership guide</Link> walks through the process from first inquiry to delivery. For a global comparison of what separates premium exporters from commodity shippers, see our <Link href='/insights/top-premium-coffee-exporters-global-guide' className='underline font-bold'>guide to the world&apos;s top coffee exporters</Link>.
       </p>
 
       <div className='bg-gray-50 p-4 rounded-lg border border-gray-200 my-6 text-sm'>
@@ -162,7 +162,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       </p>
       <ul className='list-disc ml-6 space-y-2 text-sm my-4'>
         <li><span className='font-semibold'>Physical analysis:</span> Moisture content (target: 10 to 12%), screen size distribution, defect count (full black, partial black, broken, insect damage, pods, husks).</li>
-        <li><span className='font-semibold'>Sensory evaluation (cupping):</span> Trained cuppers assess fragrance/aroma, flavor, acidity, body, uniformity, balance, clean cup, sweetness, aftertaste, and overall impression.</li>
+        <li><span className='font-semibold'>Sensory evaluation (cupping):</span> Trained cuppers assess fragrance/aroma, flavor, acidity, body, uniformity, balance, clean cup, sweetness, aftertaste, and overall impression. This methodology mirrors the standards used in the <Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='text-amber-700 hover:underline'>AFCA Taste of Harvest competition</Link>. If you are developing your own <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline font-bold'>cupping and evaluation skills</Link>, our practical guide walks through the same methodology step by step.</li>
         <li><span className='font-semibold'>Grade assignment:</span> Based on the combined physical and cupping score, the CLU assigns a grade (G1 through G9, though only G1 to G5 are typically export-eligible).</li>
       </ul>
       <p className='my-4'>

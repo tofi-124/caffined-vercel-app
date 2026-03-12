@@ -315,27 +315,33 @@ export const posts: Post[] = [
       ],
       desc: 'Ethiopian coffee vs Kenyan coffee compared for importers and roasters: flavor profiles, SL-28 vs heirloom varieties, ECX vs Nairobi auction, grading systems, FOB pricing, seasonal availability, and sourcing guidance for both East African specialty origins.'
     },
-    // ===== BEST COFFEE GUIDE: FRENCH PRESS, POUR OVER & SCALES =====
+    // ===== ETHIOPIAN COFFEE BREW PROFILES: ROASTER'S GUIDE =====
     {
       small_image_url: 'insights/best-coffee-guide-french-press-pour-over-scales.webp',
       large_image_url: 'insights/best-coffee-guide-french-press-pour-over-scales.webp',
       date: 'Jan 19, 2026',
-      title: 'Best Coffee Guide: How to Brew the Perfect Cup at Home',
+      dateModified: 'Mar 12, 2026',
+      title: 'Ethiopian Coffee Brew Profiles: A Specialty Roaster\'s Guide',
       slug: 'best-coffee-guide-french-press-pour-over-scales',
-      category: 'Brewing Methods / Coffee Equipment / Coffee Education',
+      category: 'Brew Profiles / Roaster Resources / Ethiopian Coffee / Extraction Science',
       keywords: [
-        'best coffee guide',
-        'best coffee scales',
-        'french press coffee makers',
-        'pour over coffee makers',
-        'how to brew coffee at home',
-        'coffee to water ratio',
-        'french press vs pour over',
-        'coffee brewing precision',
-        'home coffee brewing guide',
-        'coffee grind size guide'
+        'Ethiopian coffee brew guide for roasters',
+        'Ethiopian coffee extraction parameters',
+        'Ethiopian coffee pour over recipe',
+        'single origin Ethiopian espresso parameters',
+        'specialty coffee brew profiles',
+        'Ethiopian coffee batch brew recipe',
+        'Ethiopian Yirgacheffe brew recipe',
+        'Ethiopian natural coffee espresso',
+        'water chemistry Ethiopian coffee',
+        'Ethiopian coffee brew ratio by origin',
+        'roast profile to brew recipe',
+        'brew cards wholesale cafe accounts',
+        'Ethiopian coffee cold brew parameters',
+        'Guji coffee extraction yield',
+        'washed vs natural Ethiopian espresso'
       ],
-      desc: 'Discover the Best Coffee Guide with expert tips on best coffee scales, French Press Coffee Makers, and Pour Over Coffee Makers for perfect brewing.'
+      desc: 'Brew parameters for Ethiopian coffee by region and method. Pour-over, espresso, and batch brew recipes for specialty roasters.'
     },
     // ===== ETHIOPIAN COFFEE HARVEST CALENDAR & BUYING GUIDE =====
     {
@@ -1876,7 +1882,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/eu-deforestation-regulation.webp',
       large_image_url: 'insights/eu-deforestation-regulation.webp',
       date: 'Jan 28, 2026',
-      dateModified: 'Mar 12, 2026',
+      dateModified: 'Mar 26, 2026',
       title: 'EUDR and Ethiopian Coffee Compliance',
       slug: 'eu-deforestation-regulation-ethiopian-coffee-compliance',
       category: 'Regulations & Compliance',
@@ -1885,7 +1891,7 @@ export const posts: Post[] = [
         'EUDR Ethiopian coffee',
         'EU coffee deforestation law',
         'EUDR compliance Ethiopian coffee exporters',
-        'EU coffee import requirements 2025',
+        'EU coffee import requirements 2026',
         'deforestation-free coffee certification',
         'Ethiopian coffee traceability EUDR',
         'geolocation requirements coffee EU',
@@ -1916,14 +1922,19 @@ export const posts: Post[] = [
         'deforestation regulation seven commodities',
         'Ethiopian coffee Germany EUDR',
         'EU coffee importers EUDR requirements',
-        'Ethiopian coffee forest compliance'
+        'Ethiopian coffee forest compliance',
+        'EUDR country benchmarking Ethiopia',
+        'Ethiopia standard risk EUDR',
+        'EUDR enforcement 2026 coffee',
+        'EUDR information system coffee'
       ],
-      desc: 'Complete guide to the EU Deforestation Regulation (EUDR) for Ethiopian coffee exporters and EU importers. Understand requirements, timelines, traceability systems, geolocation data, compliance steps, and how Ethiopia is preparing to meet deforestation-free certification standards for coffee exports to European markets.'
+      desc: 'Complete guide to EUDR compliance for Ethiopian coffee exporters — now that enforcement is active. Covers Ethiopia\u2019s standard-risk classification, the national traceability platform, country benchmarking, geolocation requirements, due diligence steps, and what exporters must do to retain EU market access in 2026.'
     },
     {
       small_image_url: 'insights/afca-competition-coffee.webp',
       large_image_url: 'insights/afca-competition-coffee.webp',
       date: 'Jan 30, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'AFCA Taste of Harvest: 2026 Ethiopian Coffee Guide',
       slug: 'afca-taste-of-harvest-ethiopian-coffee-competition',
       category: 'Coffee Competitions / Quality Recognition / AFCA',
@@ -1972,6 +1983,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/ethiopian-coffee-certifications.webp',
       large_image_url: 'insights/ethiopian-coffee-certifications.webp',
       date: 'Jan 31, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'Ethiopian Coffee Certifications Guide',
       slug: 'ethiopian-coffee-certifications-organic-fairtrade-rainforest',
       category: 'Certifications & Sustainability / Sourcing Guide',
@@ -2013,13 +2025,14 @@ export const posts: Post[] = [
         'JAS organic coffee Ethiopia',
         'coffee sustainability standards'
       ],
-      desc: 'The definitive guide to coffee certifications for Ethiopian green coffee: understanding Organic (USDA, EU, JAS), Fair Trade, Rainforest Alliance, UTZ, and Bird Friendly certifications. Learn what each certification means, costs and premiums, how to source certified Ethiopian coffee, and which certification aligns with your business values and customer expectations.'
+      desc: 'B2B guide to Ethiopian coffee certifications: Organic, Fair Trade, Rainforest Alliance, Bird Friendly, 4C. Standards, costs, premiums, and sourcing steps.'
     },
     {
       id: 12,
       small_image_url: 'insights/ethiopian-heirloom-varieties.webp',
       large_image_url: 'insights/ethiopian-heirloom-varieties.webp',
       date: 'Feb 03, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'Heirloom Ethiopian Coffee Varieties',
       slug: 'ethiopian-heirloom-coffee-varieties-landraces',
       category: 'Coffee Genetics / Ethiopian Coffee / Sourcing Guide',
@@ -2061,65 +2074,56 @@ export const posts: Post[] = [
         'Ethiopian coffee future',
         'buy Ethiopian heirloom coffee'
       ],
-      desc: 'The complete guide to Ethiopian heirloom coffee varieties and landraces: understanding the genetic diversity, regional variations, flavor profiles, JARC varieties, Gesha origins, and why "Ethiopian Heirloom" is both accurate and misleading. Essential reading for specialty coffee buyers, roasters, and anyone sourcing Ethiopian green coffee.'
+      desc: 'Ethiopian heirloom coffee varieties and landraces explained: genetic diversity, regional flavors, JARC varieties, Gesha origins, and sourcing tips.'
     },
     // ===== INVESTMENT & BUSINESS OPPORTUNITIES =====
     {
       small_image_url: 'insights/coffee-invest.webp',
       large_image_url: 'insights/coffee-invest.webp',
       date: 'Feb 02, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'Investing in Ethiopian Coffee Production',
       slug: 'benefits-investing-ethiopian-coffee-production',
-      category: 'Investment Opportunities / Coffee Business',
+      category: 'Investment Opportunities / Coffee Business / Strategic Sourcing',
       keywords: [
         'investing in Ethiopian coffee',
         'Ethiopian coffee investment opportunities',
-        'coffee farm investment Ethiopia',
         'Ethiopian coffee production investment',
         'specialty coffee investment returns',
         'Ethiopian coffee business opportunities',
         'coffee export investment Ethiopia',
-        'Ethiopian coffee ROI',
         'investing in coffee production',
         'Ethiopian coffee market analysis',
         'coffee processing investment Ethiopia',
-        'direct trade coffee investment',
         'Ethiopian coffee supply chain investment',
         'coffee cooperative financing Ethiopia',
-        'Ethiopian coffee farm lease',
         'specialty coffee investment strategy',
         'Ethiopian coffee industry growth',
         'coffee investment due diligence',
         'Ethiopian coffee partnership opportunities',
-        'agricultural investment Ethiopia',
-        'coffee production financial returns',
         'Ethiopian coffee exporter investment',
         'impact investing Ethiopian coffee',
         'ESG coffee investment',
         'sustainable coffee investment',
         'coffee infrastructure investment',
         'Ethiopian coffee washing station investment',
-        'coffee dry mill investment Ethiopia',
         'Ethiopian coffee market trends',
-        'coffee investment risk mitigation',
         'specialty coffee market growth',
         'Ethiopian coffee premium pricing',
-        'coffee farm ROI analysis',
         'Ethiopian coffee certification investment',
-        'coffee outgrower financing',
-        'Ethiopian coffee joint venture',
-        'coffee commodity investment',
-        'Ethiopian coffee futures',
-        'coffee farm development Ethiopia',
-        'Ethiopian agricultural investment'
+        'Ethiopian coffee forward contracts',
+        'Ethiopian coffee sourcing strategy',
+        'Ethiopian coffee export revenue',
+        'Ethiopian coffee production 2026'
       ],
-      desc: 'Comprehensive analysis of investment opportunities in Ethiopian coffee production covering farm-level investment, processing infrastructure, export partnerships, cooperative financing, and direct trade relationships. Includes ROI projections, risk mitigation strategies, market dynamics, success stories, and detailed due diligence guidance for investors, importers, and strategic partners in the specialty coffee supply chain.'
+      desc: 'Investing in Ethiopian coffee production: verified data, five sourcing strategies, premium pricing, risk mitigation, and due diligence for importers.'
     },
     {
       id: 10,
       small_image_url: 'insights/ethiopian-specialty-exporters-2026.webp',
       large_image_url: 'insights/ethiopian-specialty-exporters-2026.webp',
       date: 'Feb 04, 2026',
+      dateModified: 'Mar 12, 2026',
       title: '2026 Ethiopian Specialty Coffee Exporters',
       slug: 'navigating-2026-ethiopian-specialty-coffee-exporters',
       category: 'Export / Specialty Coffee / Market Trends',
@@ -2175,12 +2179,13 @@ export const posts: Post[] = [
         'Ethiopian coffee export regulations',
         'buy Ethiopian specialty coffee'
       ],
-      desc: 'Navigate the 2026 Ethiopian specialty coffee export landscape: strategic sourcing from Yirgacheffe, Sidamo, and Guji regions, EUDR compliance requirements, quality grading standards (Q1/Q2, 85+ cup scores), digital traceability systems, and why partnering with certified Ethiopian specialty coffee exporters ensures transparent, deforestation-free, farm-to-cup sourcing for international roasters and wholesale buyers.'
+      desc: 'Ethiopia exported 469,000 metric tons of coffee in 2024/25, generating a record $2.65 billion in revenue. This guide covers 2025/26 harvest dynamics (cherry prices surging to 250 ETB/kg, washed lots tightening, EU organic certification declining), EUDR compliance requirements, quality grading standards, and exporter evaluation criteria for international roasters and wholesale buyers sourcing from Ethiopian specialty coffee exporters.'
     },
     {
       small_image_url: 'insights/private-cooperative-exporters.webp',
       large_image_url: 'insights/private-cooperative-exporters.webp',
       date: 'Feb 05, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'Private vs Cooperative Coffee Exporters',
       slug: 'private-vs-cooperative-ethiopian-coffee-exporters',
       category: 'Export / Sourcing Strategy / Market Analysis',
@@ -2236,7 +2241,7 @@ export const posts: Post[] = [
         'Ethiopian coffee export models',
         'Ethiopian coffee 7.8 million bags'
       ],
-      desc: 'Complete strategic guide comparing private coffee exporters vs cooperative unions for sourcing Ethiopian Arabica in 2026. Understand Directive 1106/2025 capital requirements (15M vs 20M birr), EUDR compliance readiness, certification access, logistics capabilities, quality control differences, and which model fits your business needs. Includes detailed comparison table, sourcing analysis, and insights on cherry prices, Grade 1 scarcity, and the hybrid approach combining private exporter efficiency with cooperative traceability.'
+      desc: 'Compare private and cooperative Ethiopian coffee exporters: pricing, logistics, EUDR compliance, certifications, and which channel fits your sourcing needs. Covers Directive 1106/2025 capital requirements, FOB price ranges by channel, DSL specialty line, contract and payment differences, and a practical exporter evaluation checklist for importers and roasters.'
     },
     {
       id: 13,
@@ -2285,30 +2290,32 @@ export const posts: Post[] = [
         'natural vs washed cupping',
         'Ethiopian coffee characteristics'
       ],
-      desc: 'Master the art of cupping and evaluating Ethiopian coffee samples with this comprehensive guide for importers. Learn SCA cupping protocols, sample roasting techniques, how to identify Ethiopian flavor profiles, score specialty coffee, detect defects, and make informed purchasing decisions based on sensory evaluation.'
+      desc: 'Practical guide to cupping Ethiopian coffee: SCA protocol, flavor profiles, defect detection, and scoring for importers and roasters.'
     },
     {
       small_image_url: 'insights/coffee-cupping-learn.webp',
       large_image_url: 'insights/coffee-cupping-learn.webp',
       date: 'Jan 23, 2026',
-      title: 'Best Cupping Schools for Coffee Training',
+      dateModified: 'Mar 12, 2026',
+      title: 'Best Coffee Cupping Schools: 2026 Training Guide',
       slug: 'best-cupping-school',
       category: 'Coffee Education / Cupping Training',
       keywords: [
         'coffee cupping school',
         'SCA sensory training',
-        'Q Grader',
+        'Q Grader certification',
         'coffee sensory course',
         'best cupping course',
-        'how to learn cupping',
-        'coffee cupping certification'
+        'cupping certification',
+        'Q Grader cost',
+        'online coffee cupping course'
       ],
-      desc: 'Practical guide to the best cupping courses and schools. Compare SCA sensory modules, CQI Q Grader, Counter Culture, Barista Hustle, and other providers so you can choose the right training to improve palate, buying decisions, and quality control.',
+      desc: 'Compare top coffee cupping schools and certifications. SCA sensory skills, Q Grader, Counter Culture, CoffeeMind, and more. Costs, formats, and ROI.',
     },
     {
       small_image_url: 'insights/top-premium-coffee-exporters.webp',
       large_image_url: 'insights/top-premium-coffee-exporters.webp',
-      date: 'Feb 01, 2026',
+      date: 'Mar 12, 2026',
       title: 'Top Coffee Exporters in the World',
       slug: 'top-premium-coffee-exporters-global-guide',
       category: 'Market Intelligence / Sourcing Guide / Global Coffee Trade',
@@ -2339,22 +2346,25 @@ export const posts: Post[] = [
         'certified coffee exporter',
         'Ethio Coffee Export'
       ],
-      desc: 'Comprehensive guide to the world\'s top coffee-exporting countries ranked by volume and specialty reputation. Learn what separates a commodity shipper from a premium coffee exporter, compare Brazil, Colombia, Vietnam, and Ethiopia, and discover how to evaluate and choose the right export partner for your business.'
+      desc: 'The world\'s top coffee exporters ranked by volume and specialty reputation. Learn what separates commodity shippers from premium export partners.'
     },
     {
       small_image_url: 'insights/selective-coffee-harvesting.webp',
       large_image_url: 'insights/selective-coffee-harvesting.webp',
       date: 'Feb 07, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'Selective Coffee Harvesting: A Practical Guide',
       slug: 'selective-coffee-harvesting',
       category: 'Farm Practices / Coffee Economics',
       keywords: [
         'selective coffee harvesting',
-        'coffee picking methods',
+        'coffee cherry picking methods',
+        'selective vs strip picking coffee',
+        'Ethiopian coffee harvesting',
+        'coffee harvesting quality',
         'ripe coffee cherries',
-        'strip picking vs selective',
-        'coffee farm labor',
-        'mechanical harvesting',
+        'coffee picker economics',
+        'coffee cherry ripeness',
         'specialty coffee production'
       ],
       desc: 'Selective coffee harvesting explained: why hand-picking ripe cherries matters for quality, picker economics, and sourcing. Read actionable steps for buyers.'

@@ -238,7 +238,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Cherry Prices at Historic Highs</h3>
           <p className='my-4'>
-            Cherry prices peaked at 220 to 250 ETB per kilogram in December 2025, representing an increase of up to fourfold compared to recent seasons. Picking labor costs surged in parallel. One prominent producer in Guji reported paying 50 ETB per kilogram of cherry for picking alone, compared to 50 ETB per day just a few seasons ago. These cost pressures are being passed through the chain, raising FOB prices across all grades and processing methods.
+            Cherry prices peaked at 220 to 250 ETB per kilogram in December 2025, representing an increase of up to fourfold compared to recent seasons. Picking labor costs surged in parallel. One prominent producer in Guji reported paying 50 ETB per kilogram of cherry for picking alone, compared to 50 ETB per day just a few seasons ago. These cost pressures are being passed through the chain, raising FOB prices across all grades and processing methods. For a comprehensive analysis of the forces behind these increases, see our guide to <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='underline font-semibold'>rising Ethiopian coffee prices</Link>.
           </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Minimum Export Prices vs. the NY &quot;C&quot;</h3>

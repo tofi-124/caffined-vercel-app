@@ -170,7 +170,7 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
       </h2>
 
       <p className='my-4'>
-        Cherry selection is the single most consequential QC step in natural processing. Unlike washed coffee, where pulping and fermentation can partially compensate for mixed-ripeness cherries, naturals preserve every characteristic of the fruit&mdash;good and bad.
+        Cherry selection is the single most consequential QC step in natural processing. Unlike washed coffee, where pulping and fermentation can partially compensate for mixed-ripeness cherries, naturals preserve every characteristic of the fruit, good and bad. <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective harvesting</Link> at the field level is what makes consistent cherry selection possible at intake.
       </p>
 
       <h3 className='text-xl font-bold mt-6 mb-3'>What to look for at a well-run station</h3>

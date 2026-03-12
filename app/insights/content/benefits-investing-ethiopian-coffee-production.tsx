@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineArrowTrendingUp, HiOutlineCurrencyDollar, HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineCheckCircle, HiOutlineLightBulb, HiOutlineShieldCheck } from 'react-icons/hi2'
+import { HiOutlineArrowTrendingUp, HiOutlineCurrencyDollar, HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineCheckCircle, HiOutlineLightBulb, HiOutlineShieldCheck, HiOutlineScale } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -15,18 +15,18 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Why investing in Ethiopian coffee production offers exceptional returns, sustainable growth, and strategic advantages in the global specialty coffee market
+        How importers and roasters can capture value by investing in Ethiopian coffee production through strategic sourcing, processing partnerships, and supply chain commitments
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethiopian coffee farms represent one of the most promising investment opportunities in specialty agriculture
+          Ethiopia&apos;s coffee sector generated a record $2.65 billion in export revenue in the 2024/25 fiscal year, driven by rising global demand and quality-focused reforms
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='Ethiopian coffee production investment opportunities farm processing'
+            alt='Ethiopian green coffee processing for export, investment in production and sourcing infrastructure'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -37,654 +37,495 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
 
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
-        <span className='ml-2'>Investment Opportunities / Coffee Business / Market Analysis</span>
+        <span className='ml-2'>Investment Opportunities / Coffee Business / Strategic Sourcing</span>
       </div>
-      
-      <p className='my-4'>
-        Global demand for specialty coffee continues to surge, and <a href="https://en.wikipedia.org/wiki/Ethiopian_coffee" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Ethiopian coffee</a> sits at the center of that growth. For investors, importers, and stakeholders in the coffee trade, Ethiopian coffee production combines heritage authenticity, quality excellence, and market expansion potential that few agricultural sectors can match.
-      </p>
-
-      <p className='my-4'>
-        This article covers the strategic advantages, financial benefits, and long-term value of investing in Ethiopian coffee production, from supply chain partnerships and export relationships to processing infrastructure.
-      </p>
 
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineArrowTrendingUp className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Takeaway:</span> The global specialty coffee market is projected to reach $83.6 billion by 2030, with Ethiopian coffee capturing an increasing market share due to its unique terroir, heirloom varieties, and growing reputation among discerning consumers.</span>
+          <span><span className='font-bold'>Key Takeaway:</span> Ethiopia&apos;s coffee exports reached a record $2.65 billion in the 2024/25 fiscal year, with production forecast at 11.6 million bags for 2025/26 (USDA FAS). For importers and roasters, investing in Ethiopian coffee production through forward contracts, processing partnerships, and certification programs offers strong returns in a market where specialty premiums run 30 to 50% above commodity prices.</span>
         </p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineGlobeAlt className='inline mr-2' />
-        Why Ethiopia is the World's Premier Coffee Investment Destination
-      </h3>
-      
-      <p className='my-4'>
-        Ethiopia isn&apos;t just another coffee-producing country; it is the <span className='font-bold'>birthplace of Arabica coffee</span> and home to the most genetically diverse coffee ecosystem on the planet. This foundational advantage creates investment opportunities that simply don&apos;t exist elsewhere.
-      </p>
-
-      <h4 className='text-xl font-bold mt-6'>
-        1. Unmatched Genetic Diversity and Quality Potential
-      </h4>
-      
-      <p className='my-4'>
-        Ethiopian coffee&apos;s genetic diversity is its greatest asset. With thousands of <span className='font-bold'>indigenous heirloom varieties</span> (landraces) that have evolved over millennia, Ethiopia produces coffees with flavor profiles that cannot be replicated anywhere else in the world.
-      </p>
-
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Natural differentiation:</span> Each region (<Link href='/ethiopian-coffee-yirgacheffe' className='underline'>Yirgacheffe</Link>, <Link href='/ethiopian-coffee-sidamo' className='underline'>Sidama</Link>, <Link href='/ethiopian-coffee-guji' className='underline'>Guji</Link>, <Link href='/ethiopian-coffee-harar' className='underline'>Harrar</Link>, <Link href='/ethiopian-coffee-limu' className='underline'>Limu</Link>) produces distinctly different flavor profiles</li>
-        <li><span className='font-bold'>Premium positioning:</span> Ethiopian coffees consistently command higher prices in specialty markets</li>
-        <li><span className='font-bold'>Climate resilience:</span> Heirloom varieties show superior adaptation to climate variations</li>
-        <li><span className='font-bold'>Market exclusivity:</span> True Ethiopian heirlooms cannot be grown with the same character outside Ethiopia</li>
-      </ul>
-
-      <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
-        <h4 className='font-bold text-lg mb-3'><HiOutlineChartBar className='inline mr-2' />Investment Performance Indicators</h4>
-        <ul className='text-sm space-y-2'>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-semibold'>Price Premium:</span> Ethiopian specialty coffee commands 30-50% price premiums over commodity coffee</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-semibold'>Market Growth:</span> Ethiopian coffee exports increased by 45% between 2020-2025</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-semibold'>Yield Improvements:</span> Modern farming techniques can increase yields by 200-300% while maintaining quality</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-0.5' />
-            <span><span className='font-semibold'>Global Demand:</span> Demand for Ethiopian coffee growing at 8-12% annually in key markets</span>
-          </li>
-        </ul>
-      </div>
-
-      <h4 className='text-xl font-bold mt-6'>
-        2. Government Support and Policy Improvements
-      </h4>
-      
-      <p className='my-4'>
-        The Ethiopian government has made coffee production a <span className='font-bold'>strategic priority</span>, implementing reforms that make investment more attractive and commercially viable:
-      </p>
-
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Foreign investment incentives:</span> Tax holidays, duty exemptions on machinery imports, and streamlined licensing</li>
-        <li><span className='font-bold'>Land lease programs:</span> Long-term agricultural land leases available for commercial coffee farming</li>
-        <li><span className='font-bold'>ECX modernization:</span> The <a href="https://www.ecx.com.et" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Ethiopia Commodity Exchange</a> provides market transparency and quality assurance</li>
-        <li><span className='font-bold'>Export infrastructure:</span> Improved port access through Djibouti and expanded logistics networks</li>
-        <li><span className='font-bold'>Financial services:</span> Growing access to agricultural credit and insurance products</li>
-      </ul>
-
-      <h4 className='text-xl font-bold mt-6'>
-        3. Sustainable and Ethical Production Systems
-      </h4>
-      
-      <p className='my-4'>
-        Modern consumers and businesses increasingly prioritize sustainability. Ethiopian coffee production offers inherent advantages that align perfectly with ESG (Environmental, Social, and Governance) investment criteria:
-      </p>
-
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Shade-grown coffee:</span> Most Ethiopian coffee grows under natural forest canopy, promoting biodiversity</li>
-        <li><span className='font-bold'>Organic by default:</span> Many smallholder farms use minimal synthetic inputs, making organic certification achievable</li>
-        <li><span className='font-bold'>Social impact:</span> Coffee supports livelihoods for over 15 million Ethiopians, creating measurable social returns</li>
-        <li><span className='font-bold'>Water-efficient processing:</span> Traditional processing methods use less water than industrial approaches</li>
-        <li><span className='font-bold'>Carbon sequestration:</span> Coffee forests serve as significant carbon sinks</li>
-      </ul>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineShieldCheck className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>ESG Advantage:</span> Investments in Ethiopian coffee production easily qualify for sustainability-focused funds and impact investing portfolios, opening doors to specialized financing and premium valuations.</span>
-        </p>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineCurrencyDollar className='inline mr-2' />
-        Financial Benefits and ROI Opportunities
-      </h3>
-      
-      <p className='my-4'>
-        Beyond the strategic positioning, Ethiopian coffee production offers compelling financial metrics that attract serious investors.
-      </p>
-
-      <h4 className='text-xl font-bold mt-6'>
-        Multiple Revenue Streams and Value-Add Opportunities
-      </h4>
-      
-      <p className='my-4'>
-        Smart investors are finding profit at every stage of the coffee value chain:
-      </p>
-
-      <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h5 className='font-bold mb-3'>Primary Revenue Models</h5>
-        <ol className='space-y-3 list-decimal ml-5'>
-          <li>
-            <span className='font-bold block'>Green Coffee Export (Traditional Model)</span>
-            <ul className='list-disc ml-5 mt-1 text-sm space-y-1'>
-              <li>Direct sales to importers and roasters globally</li>
-              <li>Margin: 15-25% depending on quality grade</li>
-              <li>High volume, consistent demand</li>
-            </ul>
-          </li>
-          <li>
-            <span className='font-bold block'>Processing and Milling Services</span>
-            <ul className='list-disc ml-5 mt-1 text-sm space-y-1'>
-              <li>Wet mill operations for washed coffees</li>
-              <li>Dry mill services for export preparation</li>
-              <li>Value-add: 30-40% margin on processing fees</li>
-            </ul>
-          </li>
-          <li>
-            <span className='font-bold block'>Certified and Specialty Coffee Premium</span>
-            <ul className='list-disc ml-5 mt-1 text-sm space-y-1'>
-              <li>Organic certification: +20-35% premium</li>
-              <li><a href="https://www.fairtrade.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Fair Trade</a> certification: +15-25% premium</li>
-              <li><a href="https://www.rainforest-alliance.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Rainforest Alliance</a> certification: +20-35% premium</li>
-              <li>Specialty grade (85+ cupping score): +50-150% premium</li>
-            </ul>
-          </li>
-          <li>
-            <span className='font-bold block'>Direct Trade and Relationship Coffee</span>
-            <ul className='list-disc ml-5 mt-1 text-sm space-y-1'>
-              <li>Long-term contracts with premium roasters</li>
-              <li>Price stability and predictable cash flow</li>
-              <li>Premium pricing: +40-100% above commodity rates</li>
-            </ul>
-          </li>
-          <li>
-            <span className='font-bold block'>Roasted and Branded Products (Domestic Market)</span>
-            <ul className='list-disc ml-5 mt-1 text-sm space-y-1'>
-              <li>Ethiopia&apos;s domestic coffee consumption is growing rapidly</li>
-              <li>Urban middle class demands premium roasted coffee</li>
-              <li>Margin: 40-60% on retail roasted coffee</li>
-            </ul>
-          </li>
+      {/* In This Guide */}
+      <div className='bg-gray-50 p-6 rounded-lg my-8 border border-gray-200'>
+        <h3 className='text-lg font-bold mb-3'>In This Guide</h3>
+        <ol className='space-y-2 text-sm list-decimal ml-5'>
+          <li><a href='#production-numbers' className='text-dark hover:text-primary transition'>Ethiopia&apos;s Coffee Production by the Numbers</a></li>
+          <li><a href='#high-return-sourcing' className='text-dark hover:text-primary transition'>What Makes Ethiopian Coffee a High-Return Sourcing Investment</a></li>
+          <li><a href='#government-reforms' className='text-dark hover:text-primary transition'>Government Reforms and Market Access</a></li>
+          <li><a href='#investment-strategies' className='text-dark hover:text-primary transition'>Five Investment Strategies for Coffee Buyers</a></li>
+          <li><a href='#financial-returns' className='text-dark hover:text-primary transition'>Financial Returns and Premium Pricing</a></li>
+          <li><a href='#emerging-markets' className='text-dark hover:text-primary transition'>Emerging Markets Driving Demand</a></li>
+          <li><a href='#risk-factors' className='text-dark hover:text-primary transition'>Risk Factors and Mitigation</a></li>
+          <li><a href='#due-diligence' className='text-dark hover:text-primary transition'>Due Diligence for Sourcing Partners</a></li>
+          <li><a href='#long-term-case' className='text-dark hover:text-primary transition'>The Long-Term Case for Ethiopian Coffee</a></li>
+          <li><a href='#faq' className='text-dark hover:text-primary transition'>Frequently Asked Questions</a></li>
         </ol>
       </div>
 
-      <h4 className='text-xl font-bold mt-6'>
-        Cost Advantages in Ethiopian Coffee Production
-      </h4>
-      
       <p className='my-4'>
-        Ethiopia offers several structural cost advantages that improve investment returns:
+        Investing in Ethiopian coffee production is no longer a niche opportunity. Ethiopia shipped a record $2.65 billion worth of coffee in the 2024/25 fiscal year, according to the Ethiopian Coffee and Tea Authority (ECTA). Production for 2025/26 is forecast at 11.6 million 60-kg bags, a 9% increase over the prior year (USDA Foreign Agricultural Service). For importers and roasters allocating buying capital, these numbers signal an origin entering a new phase of scale and reliability.
+      </p>
+
+      <p className='my-4'>
+        This guide examines why Ethiopian coffee deserves a larger share of your sourcing budget. It covers the production data behind the growth, the strategies buyers use to capture value, the premiums available in specialty and certified segments, and the risks you need to manage. Whether you are a specialty roaster buying five containers a year or a large importer managing multi-origin programs, the investment case for Ethiopian coffee rests on verified market data and structural advantages that competing origins cannot replicate.
+      </p>
+
+      {/* ===== SECTION 1: Production Numbers ===== */}
+      <h3 id='production-numbers' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineChartBar className='w-8 h-8 text-amber-600' />
+        Ethiopia&apos;s Coffee Production by the Numbers
+      </h3>
+
+      <p className='my-4'>
+        Ethiopia is Africa&apos;s largest coffee producer and the world&apos;s fifth-largest overall. The country&apos;s output has grown steadily over the past decade, driven by tree rejuvenation programs, improved seedling distribution by the <a href="https://www.eiar.gov.et" target="_blank" rel="noopener noreferrer" className="text-amber-700 hover:underline">Jimma Agricultural Research Center (JARC)</a>, and expanding cultivation area.
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full text-sm border-collapse'>
+          <thead>
+            <tr className='bg-dark text-primary'>
+              <th className='p-3 text-left font-bold'>Metric</th>
+              <th className='p-3 text-left font-bold'>Value</th>
+              <th className='p-3 text-left font-bold'>Source</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Production 2025/26 (forecast)</td>
+              <td className='p-3'>11.6 million 60-kg bags (~694,000 MT)</td>
+              <td className='p-3'>USDA FAS</td>
+            </tr>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-semibold'>Year-over-year production growth</td>
+              <td className='p-3'>+9%</td>
+              <td className='p-3'>USDA FAS</td>
+            </tr>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Export volume 2025/26 (forecast)</td>
+              <td className='p-3'>7.8 million bags</td>
+              <td className='p-3'>USDA FAS</td>
+            </tr>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-semibold'>Export volume 2023/24 (actual)</td>
+              <td className='p-3'>5.63 million bags (+44% YoY)</td>
+              <td className='p-3'>Daily Coffee News / USDA</td>
+            </tr>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Export revenue 2024/25 fiscal year</td>
+              <td className='p-3'>$2.65 billion (record)</td>
+              <td className='p-3'>ECTA</td>
+            </tr>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-semibold'>Coffee market CAGR (2024-2029)</td>
+              <td className='p-3'>5.67%</td>
+              <td className='p-3'>Mordor Intelligence</td>
+            </tr>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Smallholder farmers in coffee</td>
+              <td className='p-3'>~5 million households</td>
+              <td className='p-3'>USDA FAS</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className='my-4'>
+        These figures matter for buyers because they signal expanding supply at a time when global specialty demand continues to outpace production. Ethiopia&apos;s export growth of 44% in a single year (2023/24) shows the sector can scale without sacrificing quality, a combination that few origins can match.
+      </p>
+
+      {/* ===== SECTION 2: High-Return Sourcing ===== */}
+      <h3 id='high-return-sourcing' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineArrowTrendingUp className='w-8 h-8 text-amber-600' />
+        What Makes Ethiopian Coffee a High-Return Sourcing Investment
+      </h3>
+
+      <p className='my-4'>
+        Ethiopian coffee commands premiums that other origins struggle to match. The reasons are structural, not cyclical, which makes them durable advantages for buyers who commit sourcing capital.
+      </p>
+
+      <h4 className='text-xl font-bold mt-8 mb-4'>Genetic Diversity and Flavor Exclusivity</h4>
+
+      <p className='my-4'>
+        Ethiopia is the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>birthplace of Arabica coffee</Link> and home to thousands of indigenous <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>heirloom varieties (landraces)</Link> that have evolved over millennia. Each growing region produces distinct flavor profiles:
       </p>
 
       <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Lower land costs:</span> Agricultural land lease rates are significantly below comparable coffee-producing countries</li>
-        <li><span className='font-bold'>Abundant labor:</span> Large agricultural workforce with traditional coffee knowledge</li>
-        <li><span className='font-bold'>Natural growing conditions:</span> Ideal climate reduces need for irrigation and pest control inputs</li>
-        <li><span className='font-bold'>Established infrastructure:</span> Existing processing stations, warehouses, and export channels reduce startup costs</li>
-        <li><span className='font-bold'>Currency dynamics:</span> The Ethiopian Birr provides favorable exchange rate advantages for export-oriented businesses</li>
+        <li><Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline font-semibold'>Yirgacheffe</Link>: Floral, citrus, tea-like complexity</li>
+        <li><Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline font-semibold'>Sidama</Link>: Stone fruit, berry sweetness, balanced acidity</li>
+        <li><Link href='/ethiopian-coffee-guji' className='text-amber-700 hover:underline font-semibold'>Guji</Link>: Tropical fruit, heavy body, wine-like notes</li>
+        <li><Link href='/ethiopian-coffee-harar' className='text-amber-700 hover:underline font-semibold'>Harrar</Link>: Blueberry, chocolate, wild character</li>
+        <li><Link href='/ethiopian-coffee-limu' className='text-amber-700 hover:underline font-semibold'>Limu</Link> and <Link href='/ethiopian-coffee-jimma' className='text-amber-700 hover:underline font-semibold'>Jimma</Link>: Balanced sweetness, mild acidity, versatile roast profiles</li>
       </ul>
 
-      <h4 className='text-xl font-bold mt-6'>
-        Realistic Investment Returns and Timelines
-      </h4>
-      
       <p className='my-4'>
-        While every investment carries unique circumstances, Ethiopian coffee production typically shows the following return profiles:
+        These profiles cannot be replicated outside Ethiopia. That genetic exclusivity translates directly into pricing power for buyers who build brand stories around specific Ethiopian origins.
+      </p>
+
+      <h4 className='text-xl font-bold mt-8 mb-4'>Built-In Sustainability Credentials</h4>
+
+      <p className='my-4'>
+        Most Ethiopian coffee grows under natural shade canopy, with minimal synthetic inputs. This positions the origin well for buyers who need to meet ESG targets or consumer expectations around sustainability:
+      </p>
+
+      <ul className='my-4 list-disc ml-5 space-y-2'>
+        <li><span className='font-semibold'>Shade-grown by default:</span> Natural forest canopy promotes biodiversity and carbon sequestration</li>
+        <li><span className='font-semibold'>Low-input farming:</span> Many smallholder farms qualify for <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>organic certification</Link> with minimal changes</li>
+        <li><span className='font-semibold'>Social impact:</span> Coffee supports roughly 5 million smallholder households, creating measurable community returns</li>
+        <li><span className='font-semibold'>Climate resilience:</span> Highland growing conditions and genetic diversity provide stronger adaptation than monoculture origins</li>
+      </ul>
+
+      <div className='bg-green-50 border border-green-200 rounded-lg p-6 my-6'>
+        <p className='font-medium flex items-start gap-2'>
+          <HiOutlineShieldCheck className='text-2xl flex-shrink-0 mt-1 text-green-700' />
+          <span><span className='font-bold'>ESG Advantage:</span> Ethiopian coffee&apos;s shade-grown, low-input production model aligns with sustainability-focused procurement policies. For buyers required to report on supply chain ESG metrics, Ethiopian sourcing provides documented environmental and social returns.</span>
+        </p>
+      </div>
+
+      {/* ===== SECTION 3: Government Reforms ===== */}
+      <h3 id='government-reforms' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineScale className='w-8 h-8 text-amber-600' />
+        Government Reforms and Market Access
+      </h3>
+
+      <p className='my-4'>
+        Ethiopia&apos;s government launched a comprehensive coffee sector strategy in January 2025, signaling a policy shift toward value addition and specialty-grade exports. The key reforms that affect buyers:
       </p>
 
       <div className='grid md:grid-cols-2 gap-4 my-6'>
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold text-lg mb-2'>Farm-Level Investment</h5>
-          <ul className='text-sm space-y-1 list-disc ml-5'>
-            <li><span className='font-semibold'>Initial investment:</span> $5,000-$15,000 per hectare</li>
-            <li><span className='font-semibold'>Time to first harvest:</span> 3-4 years</li>
-            <li><span className='font-semibold'>Full production:</span> 5-6 years</li>
-            <li><span className='font-semibold'>Annual yield:</span> 1,200-2,500 kg/hectare (green coffee)</li>
-            <li><span className='font-semibold'>ROI:</span> 20-35% annually once in full production</li>
-            <li><span className='font-semibold'>Lifespan:</span> 30-50+ years with proper management</li>
-          </ul>
+        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
+          <h4 className='font-bold mb-2'>Direct Market Access</h4>
+          <p className='text-sm'>Policy reforms expanded the ability of producers and exporters to sell directly to international buyers, bypassing intermediary layers. This improves traceability and reduces cost for importers building direct relationships.</p>
         </div>
-        
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold text-lg mb-2'>Processing & Export Investment</h5>
-          <ul className='text-sm space-y-1 list-disc ml-5'>
-            <li><span className='font-semibold'>Initial investment:</span> $150,000-$500,000+</li>
-            <li><span className='font-semibold'>Time to operation:</span> 6-12 months</li>
-            <li><span className='font-semibold'>Revenue potential:</span> Immediate upon sourcing</li>
-            <li><span className='font-semibold'>Processing capacity:</span> 50-500 tons per season</li>
-            <li><span className='font-semibold'>ROI:</span> 25-40% annually</li>
-            <li><span className='font-semibold'>Scalability:</span> High; can expand operations quickly</li>
-          </ul>
+        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
+          <h4 className='font-bold mb-2'>ECX Modernization</h4>
+          <p className='text-sm'>The <a href="https://www.ecx.com.et" target="_blank" rel="noopener noreferrer" className="text-amber-700 hover:underline">Ethiopia Commodity Exchange (ECX)</a> continues to improve market transparency and quality assurance, giving buyers more confidence in grade consistency.</p>
+        </div>
+        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
+          <h4 className='font-bold mb-2'>Value-Addition Focus</h4>
+          <p className='text-sm'>The 2025 strategy prioritizes moving from raw-bean exports toward roasted and specialty offerings, which signals growing government support for quality-focused infrastructure investments.</p>
+        </div>
+        <div className='border border-gray-200 rounded-lg p-5 bg-gray-50'>
+          <h4 className='font-bold mb-2'>Export Infrastructure</h4>
+          <p className='text-sm'>Ongoing improvements to logistics networks, including port access through Djibouti and expanded dry port facilities, reduce transit times and improve container availability for exporters.</p>
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineArrowTrendingUp className='inline mr-2' />
-        Market Dynamics Favoring Ethiopian Coffee
+      <p className='my-4'>
+        For importers, these reforms mean more direct access to quality lots, better documentation for traceability requirements, and a policy environment that encourages long-term sourcing commitments rather than spot buying.
+      </p>
+
+      {/* ===== SECTION 4: Investment Strategies ===== */}
+      <h3 id='investment-strategies' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineLightBulb className='w-8 h-8 text-amber-600' />
+        Five Investment Strategies for Coffee Buyers
       </h3>
-      
+
       <p className='my-4'>
-        Several powerful market trends are converging to make this an ideal time for investing in Ethiopian coffee production.
+        Investing in Ethiopian coffee production does not require owning farmland or building a processing facility from scratch. Importers and roasters can deploy buying capital through several proven models, each with different risk and return profiles.
       </p>
 
-      <h4 className='text-xl font-bold mt-6'>
-        Growing Global Demand for Specialty Coffee
-      </h4>
-      
+      <h4 className='text-xl font-bold mt-8 mb-4'>1. Forward Contracts and Pre-Financing</h4>
+
       <p className='my-4'>
-        The specialty coffee segment is growing at 8-12% annually in key markets, and Ethiopian coffee is well placed to capture this demand:
+        The most accessible entry point. Buyers commit purchase volume and pricing 6 to 12 months ahead, often with partial pre-financing that helps exporters secure cherry during harvest. This model locks in supply at known costs while giving the exporter working capital to source the best lots.
       </p>
 
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Third-wave coffee movement:</span> Consumers increasingly seek origin-specific, traceable coffee</li>
-        <li><span className='font-bold'>Millennial and Gen Z preferences:</span> Younger consumers willing to pay premiums for quality and story</li>
-        <li><span className='font-bold'>Home brewing expansion:</span> COVID-19 permanently shifted coffee consumption toward premium home brewing</li>
-        <li><span className='font-bold'>Coffee shop proliferation:</span> Specialty coffee shops are expanding in emerging markets across Asia, Middle East, and Africa</li>
-        <li><span className='font-bold'>Single-origin demand:</span> Ethiopian coffee is one of the most recognized and demanded origins globally</li>
+      <ul className='my-4 list-disc ml-5 space-y-1 text-sm'>
+        <li><span className='font-semibold'>Capital required:</span> $50,000 to $500,000+ depending on volume</li>
+        <li><span className='font-semibold'>Timeline:</span> Returns within one harvest cycle (6-12 months)</li>
+        <li><span className='font-semibold'>Risk level:</span> Low to moderate (price movement, quality variation)</li>
+        <li><span className='font-semibold'>Best for:</span> Importers and roasters seeking supply security and price stability</li>
       </ul>
 
-      <h4 className='text-xl font-bold mt-6'>
-        Supply Constraints in Competing Origins
-      </h4>
-      
+      <h4 className='text-xl font-bold mt-8 mb-4'>2. Processing Partnership Investment</h4>
+
       <p className='my-4'>
-        While demand grows, many traditional coffee-producing regions face challenges that create opportunities for Ethiopian production:
+        Buyers invest in washing station upgrades or new processing equipment alongside an established Ethiopian exporter. The buyer gains preferential access to the station&apos;s output and often a quality premium from improved processing. Read more about <Link href='/insights/ethiopian-coffee-washing-stations-buyers-guide' className='text-amber-700 hover:underline'>how Ethiopian washing stations work</Link>.
       </p>
 
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Climate change impacts:</span> Traditional growing regions in Brazil, Colombia, and Central America face increasing weather volatility</li>
-        <li><span className='font-bold'>Labor shortages:</span> Many countries struggle with rural labor availability and rising wages</li>
-        <li><span className='font-bold'>Disease pressure:</span> Coffee leaf rust and other diseases threaten production in many regions</li>
-        <li><span className='font-bold'>Land use competition:</span> Coffee faces competition from more profitable crops in some countries</li>
-        <li><span className='font-bold'>Political instability:</span> Production uncertainty in several major coffee-growing countries</li>
+      <ul className='my-4 list-disc ml-5 space-y-1 text-sm'>
+        <li><span className='font-semibold'>Capital required:</span> $100,000 to $500,000+</li>
+        <li><span className='font-semibold'>Timeline:</span> 3 to 7 years for full return</li>
+        <li><span className='font-semibold'>Risk level:</span> Moderate (operational, quality, market access)</li>
+        <li><span className='font-semibold'>Best for:</span> Specialty importers wanting quality control and exclusivity</li>
       </ul>
 
+      <h4 className='text-xl font-bold mt-8 mb-4'>3. Cooperative Financing for Supply Security</h4>
+
       <p className='my-4'>
-        <span className='font-bold'>Ethiopia&apos;s advantage:</span> The country&apos;s highland climate, genetic diversity, and traditional farming systems provide <Link href='/insights/ethiopian-coffee-climate-change-impact' className='underline font-bold'>resilience against many of these challenges</Link>.
+        Providing working capital or input financing to farmer cooperatives in exchange for preferential purchasing agreements. This model works well for buyers focused on traceability and social impact storytelling. Learn how <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>cooperative and private exporters differ</Link> in their capital structures.
       </p>
 
-      <h4 className='text-xl font-bold mt-6'>
-        Emerging Market Opportunities
-      </h4>
-      
-      <p className='my-4'>
-        New coffee markets are opening up rapidly, and Ethiopian coffee is exceptionally well-positioned to serve these growing consumer bases:
-      </p>
-
-      <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
-        <h5 className='font-bold mb-3'>High-Growth Markets for Ethiopian Coffee</h5>
-        <ul className='space-y-2'>
-          <li className='flex items-start gap-2'>
-            <span className='font-bold min-w-[120px]'>China & Asia:</span>
-            <span>Rapid coffee culture adoption; Ethiopian coffee viewed as premium and authentic</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <span className='font-bold min-w-[120px]'>Middle East:</span>
-            <span>Cultural connections to coffee heritage; strong demand for specialty grades</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <span className='font-bold min-w-[120px]'>Africa:</span>
-            <span>Growing middle class across continent; pan-African trade opportunities</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <span className='font-bold min-w-[120px]'>Eastern Europe:</span>
-            <span>Emerging specialty coffee scenes seeking unique origins</span>
-          </li>
-          <li className='flex items-start gap-2'>
-            <span className='font-bold min-w-[120px]'>India:</span>
-            <span>Large tea-drinking market transitioning to specialty coffee</span>
-          </li>
-        </ul>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineLightBulb className='inline mr-2' />
-        Investment Entry Points and Strategies
-      </h3>
-      
-      <p className='my-4'>
-        Investors have multiple pathways to participate in Ethiopian coffee production, each with different risk profiles and capital requirements.
-      </p>
-
-      <h4 className='text-xl font-bold mt-6'>
-        Strategy 1: Direct Farm Investment or Lease
-      </h4>
-      
-      <p className='my-4'>
-        Establishing or acquiring coffee farming operations provides the most direct exposure and highest potential returns.
-      </p>
-
-      <div className='bg-amber-50 p-5 rounded-lg my-6 border border-amber-200'>
-        <h5 className='font-bold mb-2'>Key Considerations:</h5>
-        <ul className='text-sm space-y-1 list-disc ml-5'>
-          <li>Capital requirement: Moderate to High ($200,000-$2M+)</li>
-          <li>Time horizon: Long-term (5-20 years)</li>
-          <li>Expertise required: Agricultural management, processing knowledge</li>
-          <li>Risk level: Medium (agricultural risks, weather, market price)</li>
-          <li>Control: High control over quality and operations</li>
-          <li>Best for: Patient capital, experienced agricultural investors</li>
-        </ul>
-      </div>
-
-      <h4 className='text-xl font-bold mt-6'>
-        Strategy 2: Export Company Partnership or Investment
-      </h4>
-      
-      <p className='my-4'>
-        Partnering with or investing in established Ethiopian coffee exporters provides immediate market access and operational expertise.
-      </p>
-
-      <div className='bg-amber-50 p-5 rounded-lg my-6 border border-amber-200'>
-        <h5 className='font-bold mb-2'>Key Considerations:</h5>
-        <ul className='text-sm space-y-1 list-disc ml-5'>
-          <li>Capital requirement: Medium ($50,000-$500,000)</li>
-          <li>Time horizon: Medium-term (3-7 years)</li>
-          <li>Expertise required: Coffee trading, international business</li>
-          <li>Risk level: Medium-Low (operational experience reduces risk)</li>
-          <li>Control: Shared control through partnership structures</li>
-          <li>Best for: Importers, roasters, strategic coffee industry investors</li>
-        </ul>
-      </div>
-
-      <h4 className='text-xl font-bold mt-6'>
-        Strategy 3: Processing Infrastructure Investment
-      </h4>
-      
-      <p className='my-4'>
-        Investing in washing stations, dry mills, and related processing infrastructure provides service-based revenue without direct farming exposure.
-      </p>
-
-      <div className='bg-amber-50 p-5 rounded-lg my-6 border border-amber-200'>
-        <h5 className='font-bold mb-2'>Key Considerations:</h5>
-        <ul className='text-sm space-y-1 list-disc ml-5'>
-          <li>Capital requirement: High ($300,000-$1M+)</li>
-          <li>Time horizon: Medium-term (4-10 years)</li>
-          <li>Expertise required: Processing technology, quality control</li>
-          <li>Risk level: Medium (technology, market access)</li>
-          <li>Control: High control over processing quality and capacity</li>
-          <li>Best for: Infrastructure investors, technology providers</li>
-        </ul>
-      </div>
-
-      <h4 className='text-xl font-bold mt-6'>
-        Strategy 4: Cooperative and Outgrower Financing
-      </h4>
-      
-      <p className='my-4'>
-        Providing financing, inputs, and technical assistance to smallholder cooperatives in exchange for exclusive or preferential purchasing rights.
-      </p>
-
-      <div className='bg-amber-50 p-5 rounded-lg my-6 border border-amber-200'>
-        <h5 className='font-bold mb-2'>Key Considerations:</h5>
-        <ul className='text-sm space-y-1 list-disc ml-5'>
-          <li>Capital requirement: Medium ($100,000-$500,000)</li>
-          <li>Time horizon: Medium-term (3-7 years)</li>
-          <li>Expertise required: Agricultural financing, cooperative management</li>
-          <li>Risk level: Medium (repayment risk, side-selling)</li>
-          <li>Control: Moderate control through contracts and agreements</li>
-          <li>Best for: Impact investors, development finance institutions</li>
-        </ul>
-      </div>
-
-      <h4 className='text-xl font-bold mt-6'>
-        Strategy 5: Direct Trade Relationship Establishment
-      </h4>
-      
-      <p className='my-4'>
-        For roasters and coffee companies, establishing direct trade relationships provides supply security and quality control without direct production investment.
-      </p>
-
-      <div className='bg-amber-50 p-5 rounded-lg my-6 border border-amber-200'>
-        <h5 className='font-bold mb-2'>Key Considerations:</h5>
-        <ul className='text-sm space-y-1 list-disc ml-5'>
-          <li>Capital requirement: Low to Medium ($20,000-$150,000 initial)</li>
-          <li>Time horizon: Short to Medium-term (1-5 years)</li>
-          <li>Expertise required: Coffee buying, quality assessment, relationship management</li>
-          <li>Risk level: Low to Medium (supply consistency, quality variation)</li>
-          <li>Control: Moderate through relationship and payment incentives</li>
-          <li>Best for: Coffee roasters, importers, specialty coffee companies</li>
-        </ul>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        Risk Factors and Mitigation Strategies
-      </h3>
-      
-      <p className='my-4'>
-        Like any investment, Ethiopian coffee production carries risks that must be understood and managed:
-      </p>
-
-      <h4 className='text-xl font-bold mt-6'>
-        Primary Risk Factors
-      </h4>
-
-      <div className='space-y-4 my-6'>
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-2'>1. Political and Regulatory Risk</h5>
-          <ul className='text-sm space-y-1 list-disc ml-5 mb-2'>
-            <li>Regional political dynamics can affect operations</li>
-            <li>Export regulations may change</li>
-            <li>Currency controls could impact repatriation</li>
-          </ul>
-          <p className='text-sm'><span className='font-semibold'>Mitigation:</span> Work with established local partners, maintain proper licensing, diversify across regions, use forward contracts and hedging</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-2'>2. Agricultural Risk</h5>
-          <ul className='text-sm space-y-1 list-disc ml-5 mb-2'>
-            <li>Weather variability affects yields</li>
-            <li>Pests and diseases can damage crops</li>
-            <li>Frost or drought in highland areas</li>
-          </ul>
-          <p className='text-sm'><span className='font-semibold'>Mitigation:</span> Geographic diversification, crop insurance, climate-adapted varieties, good agricultural practices, intercropping</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-2'>3. Market Price Volatility</h5>
-          <ul className='text-sm space-y-1 list-disc ml-5 mb-2'>
-            <li>Global coffee prices fluctuate significantly</li>
-            <li>Currency exchange rate risks</li>
-            <li>Specialty market premiums can vary</li>
-          </ul>
-          <p className='text-sm'><span className='font-semibold'>Mitigation:</span> Forward contracts with buyers, futures market hedging, focus on specialty/quality premiums, diversify customer base</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-2'>4. Operational and Logistics Challenges</h5>
-          <ul className='text-sm space-y-1 list-disc ml-5 mb-2'>
-            <li>Infrastructure limitations in rural areas</li>
-            <li>Skilled labor availability</li>
-            <li>Export logistics and port congestion</li>
-          </ul>
-          <p className='text-sm'><span className='font-semibold'>Mitigation:</span> Invest in local infrastructure, training programs, relationships with reliable logistics providers, container booking systems</p>
-        </div>
-
-        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
-          <h5 className='font-bold mb-2'>5. Quality Consistency</h5>
-          <ul className='text-sm space-y-1 list-disc ml-5 mb-2'>
-            <li>Maintaining consistency across seasons</li>
-            <li>Processing quality control</li>
-            <li>Post-harvest handling challenges</li>
-          </ul>
-          <p className='text-sm'><span className='font-semibold'>Mitigation:</span> Standard operating procedures, quality control systems, staff training, modern processing equipment, proper storage</p>
-        </div>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        Success Stories: Real Investment Returns
-      </h3>
-      
-      <p className='my-4'>
-        While specific financial details are confidential, the Ethiopian coffee sector has numerous documented success stories:
-      </p>
-
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>International roasters:</span> Major specialty roasters have established direct relationships in Ethiopia, securing supply while supporting farmer development and achieving cost stability</li>
-        <li><span className='font-bold'>Processing investments:</span> Modern washing stations in Sidama and Yirgacheffe have achieved full ROI within 4-6 years while improving farmer incomes by 25-40%</li>
-        <li><span className='font-bold'>Export partnerships:</span> Joint ventures between international importers and Ethiopian exporters have grown volume by 300-500% over 5-year periods</li>
-        <li><span className='font-bold'>Cooperative financing:</span> Outgrower financing programs have improved farmer yields by 150-200% while securing consistent supply for investors</li>
-        <li><span className='font-bold'>Farm rehabilitation:</span> Investments in aging coffee farms have restored productivity to premium levels, generating 30%+ annual returns</li>
+      <ul className='my-4 list-disc ml-5 space-y-1 text-sm'>
+        <li><span className='font-semibold'>Capital required:</span> $50,000 to $300,000</li>
+        <li><span className='font-semibold'>Timeline:</span> 2 to 5 years</li>
+        <li><span className='font-semibold'>Risk level:</span> Moderate (repayment risk, side-selling)</li>
+        <li><span className='font-semibold'>Best for:</span> Impact-focused buyers, development finance institutions, brands with traceability requirements</li>
       </ul>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        Due Diligence Checklist for Potential Investors
-      </h3>
-      
+      <h4 className='text-xl font-bold mt-8 mb-4'>4. Certification Investment</h4>
+
       <p className='my-4'>
-        Before committing capital to Ethiopian coffee production, conduct thorough due diligence:
+        Funding the cost of organic, Fair Trade, or Rainforest Alliance certification for a sourcing partner or cooperative. Certification premiums of 15 to 35% provide a measurable return while strengthening the supply relationship. See our detailed breakdown of <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian coffee certifications</Link>.
       </p>
 
-      <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold text-lg mb-3'>Essential Investigation Areas</h4>
-        <div className='space-y-3 text-sm'>
-          <div>
-            <h5 className='font-bold'>Legal and Regulatory</h5>
-            <ul className='list-disc ml-5 mt-1 space-y-1'>
-              <li>Verify land tenure and lease agreements</li>
-              <li>Confirm export licenses and ECX registration</li>
-              <li>Review foreign investment regulations and tax treatment</li>
-              <li>Understand repatriation rules for profits and capital</li>
-            </ul>
-          </div>
-          <div>
-            <h5 className='font-bold'>Operational Assessment</h5>
-            <ul className='list-disc ml-5 mt-1 space-y-1'>
-              <li>Inspect coffee farm conditions and tree health</li>
-              <li>Evaluate processing facilities and equipment</li>
-              <li>Review historical production records and quality scores</li>
-              <li>Assess management team experience and capability</li>
-            </ul>
-          </div>
-          <div>
-            <h5 className='font-bold'>Financial Analysis</h5>
-            <ul className='list-disc ml-5 mt-1 space-y-1'>
-              <li>Review financial statements and audits (if available)</li>
-              <li>Analyze historical pricing and margins</li>
-              <li>Build realistic production and revenue models</li>
-              <li>Understand cost structure and break-even analysis</li>
-            </ul>
-          </div>
-          <div>
-            <h5 className='font-bold'>Market and Commercial</h5>
-            <ul className='list-disc ml-5 mt-1 space-y-1'>
-              <li>Verify existing customer relationships and contracts</li>
-              <li>Assess market positioning and differentiation</li>
-              <li>Review quality certifications (organic, Fair Trade, etc.)</li>
-              <li>Understand competitive landscape and benchmarks</li>
-            </ul>
-          </div>
-          <div>
-            <h5 className='font-bold'>Social and Environmental</h5>
-            <ul className='list-disc ml-5 mt-1 space-y-1'>
-              <li>Evaluate labor practices and community relations</li>
-              <li>Assess environmental compliance and sustainability</li>
-              <li>Review farmer payment systems and satisfaction</li>
-              <li>Understand social impact metrics and ESG alignment</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        Working with the Right Partners
-      </h3>
-      
-      <p className='my-4'>
-        Success in Ethiopian coffee investment typically requires strong local partnerships. Key partner types include:
-      </p>
-
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Established exporters:</span> Companies like <Link href="/ethiopian-coffee-exporter" className="text-primary hover:underline font-semibold">Ethio Coffee Import and Export PLC</Link> provide market access, regulatory expertise, and operational infrastructure</li>
-        <li><span className='font-bold'>Agricultural consultants:</span> Local agronomists and coffee specialists ensure proper farming practices</li>
-        <li><span className='font-bold'>Legal advisors:</span> Ethiopian business law firms handle regulatory requirements</li>
-        <li><span className='font-bold'>Financial partners:</span> Local banks and international development finance institutions provide capital and risk mitigation</li>
-        <li><span className='font-bold'>Certification bodies:</span> Organizations that can help achieve organic, Fair Trade, or specialty certifications</li>
-        <li><span className='font-bold'>Quality labs:</span> Cupping and testing facilities that ensure quality consistency</li>
+      <ul className='my-4 list-disc ml-5 space-y-1 text-sm'>
+        <li><span className='font-semibold'>Capital required:</span> $10,000 to $80,000 per certification program</li>
+        <li><span className='font-semibold'>Timeline:</span> 1 to 3 years for premium realization</li>
+        <li><span className='font-semibold'>Risk level:</span> Low (certification is a verifiable outcome)</li>
+        <li><span className='font-semibold'>Best for:</span> Roasters needing certified supply, ESG-mandated procurement</li>
       </ul>
 
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+      <h4 className='text-xl font-bold mt-8 mb-4'>5. Infrastructure Co-Investment</h4>
+
+      <p className='my-4'>
+        Joint investment in dry mills, storage facilities, or quality labs with an established origin partner. This deepens the sourcing relationship and gives the buyer operational visibility. Ethiopian exporters with <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>strong track records</Link> increasingly seek co-investment partners to expand capacity.
+      </p>
+
+      <ul className='my-4 list-disc ml-5 space-y-1 text-sm'>
+        <li><span className='font-semibold'>Capital required:</span> $200,000 to $1M+</li>
+        <li><span className='font-semibold'>Timeline:</span> 5 to 10 years</li>
+        <li><span className='font-semibold'>Risk level:</span> Moderate to high (operational, regulatory)</li>
+        <li><span className='font-semibold'>Best for:</span> Large importers seeking vertical integration, strategic long-term partners</li>
+      </ul>
+
+      {/* ===== SECTION 5: Financial Returns ===== */}
+      <h3 id='financial-returns' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineCurrencyDollar className='w-8 h-8 text-amber-600' />
+        Financial Returns and Premium Pricing
+      </h3>
+
+      <p className='my-4'>
+        Ethiopian coffee&apos;s financial appeal rests on premium pricing driven by quality and origin reputation. The margin potential varies by segment:
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full text-sm border-collapse'>
+          <thead>
+            <tr className='bg-dark text-primary'>
+              <th className='p-3 text-left font-bold'>Segment</th>
+              <th className='p-3 text-left font-bold'>Premium Above Commodity</th>
+              <th className='p-3 text-left font-bold'>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Specialty grade (85+ cup score)</td>
+              <td className='p-3'>+50 to 150%</td>
+              <td className='p-3'>Yirgacheffe, Guji, and Sidama lots consistently score above 85</td>
+            </tr>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-semibold'>Organic certified</td>
+              <td className='p-3'>+20 to 35%</td>
+              <td className='p-3'>Ethiopia&apos;s low-input farming reduces certification costs</td>
+            </tr>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Fair Trade certified</td>
+              <td className='p-3'>+15 to 25%</td>
+              <td className='p-3'>Cooperative structure aligns well with FT requirements</td>
+            </tr>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-semibold'>Rainforest Alliance</td>
+              <td className='p-3'>+20 to 35%</td>
+              <td className='p-3'>Shade-grown production meets RA standards with minimal adaptation</td>
+            </tr>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Direct trade / relationship coffee</td>
+              <td className='p-3'>+40 to 100%</td>
+              <td className='p-3'>Requires established exporter relationship and traceability</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className='my-4'>
+        These premiums are not theoretical. Buyers who invest in forward contracts, certification, or processing partnerships capture value at every step. The rising trajectory of <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Ethiopian coffee prices</Link> further underscores the financial case for locking in supply relationships early.
+      </p>
+
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-6 my-6'>
         <p className='font-medium flex items-start gap-2'>
-          <HiOutlineShieldCheck className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Partner Selection:</span> Choose partners with demonstrated track records, transparent operations, and alignment with your investment goals. References from existing customers and site visits are essential.</span>
+          <HiOutlineCurrencyDollar className='text-2xl flex-shrink-0 mt-1' />
+          <span><span className='font-bold'>Cost Advantage:</span> Ethiopia&apos;s structural cost advantages (lower land costs, abundant agricultural labor, natural growing conditions that reduce input costs, and favorable exchange rate dynamics) mean that even at premium FOB prices, Ethiopian coffee often delivers better value per cup score point than competing specialty origins.</span>
         </p>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        The Long-Term Outlook: Why Now is the Time
+      {/* ===== SECTION 6: Emerging Markets ===== */}
+      <h3 id='emerging-markets' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineGlobeAlt className='w-8 h-8 text-amber-600' />
+        Emerging Markets Driving Demand
       </h3>
-      
+
       <p className='my-4'>
-        Several factors make the current period particularly favorable for Ethiopian coffee investment:
+        While established markets in Europe, Japan, and North America remain the largest buyers of Ethiopian coffee, several high-growth markets are expanding rapidly:
       </p>
 
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Modernization wave:</span> Ethiopia is in the midst of agricultural modernization, creating opportunities to acquire assets at attractive valuations</li>
-        <li><span className='font-bold'>Infrastructure development:</span> Major investments in roads, ports, and logistics are improving export efficiency</li>
-        <li><span className='font-bold'>Knowledge transfer:</span> Increased international engagement brings best practices and technology to Ethiopian coffee</li>
-        <li><span className='font-bold'>Generation transition:</span> Many coffee farms are transitioning to a new generation, creating partnership opportunities</li>
-        <li><span className='font-bold'>Market timing:</span> Global supply constraints and growing demand create favorable pricing environment</li>
-        <li><span className='font-bold'>Early mover advantage:</span> As premium coffee regions become more recognized, land and partnership costs will increase</li>
-      </ul>
+      <div className='grid md:grid-cols-2 gap-4 my-6'>
+        <div className='border border-amber-200 rounded-lg p-5 bg-amber-50'>
+          <h4 className='font-bold mb-2'>China and East Asia</h4>
+          <p className='text-sm'>China&apos;s specialty coffee market is expanding at double-digit rates. Ethiopian coffee&apos;s origin story and flavor complexity position it as a premium import. The <Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>Ethiopia-China coffee trade partnership</Link> continues to deepen.</p>
+        </div>
+        <div className='border border-amber-200 rounded-lg p-5 bg-amber-50'>
+          <h4 className='font-bold mb-2'>Middle East</h4>
+          <p className='text-sm'>Cultural ties to coffee&apos;s Ethiopian origins create strong brand resonance. <Link href='/insights/importing-ethiopian-coffee-to-saudi-arabia' className='text-amber-700 hover:underline'>Saudi Arabia</Link> and the <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>UAE</Link> both show growing specialty demand.</p>
+        </div>
+        <div className='border border-amber-200 rounded-lg p-5 bg-amber-50'>
+          <h4 className='font-bold mb-2'>South Korea and Japan</h4>
+          <p className='text-sm'>Both markets prioritize single-origin specialty imports. <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>South Korea</Link> and <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Japan</Link> are established Ethiopian coffee destinations with room for volume growth.</p>
+        </div>
+        <div className='border border-amber-200 rounded-lg p-5 bg-amber-50'>
+          <h4 className='font-bold mb-2'>Domestic Ethiopian Market</h4>
+          <p className='text-sm'>Ethiopia&apos;s own coffee consumption accounts for nearly half of production. A growing urban middle class is driving demand for premium roasted coffee, adding a domestic revenue channel for producers.</p>
+        </div>
+      </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        How to Start Investing in Ethiopian Coffee Production
-      </h3>
-      
       <p className='my-4'>
-        For investors ready to explore Ethiopian coffee production opportunities:
+        For investors and buyers, this market diversification reduces dependence on any single destination and creates resilience against regional demand fluctuations.
+      </p>
+
+      {/* ===== SECTION 7: Risk Factors ===== */}
+      <h3 id='risk-factors' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineShieldCheck className='w-8 h-8 text-amber-600' />
+        Risk Factors and Mitigation
+      </h3>
+
+      <p className='my-4'>
+        Any sourcing commitment in Ethiopian coffee carries risks. Understanding them upfront allows for effective mitigation:
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full text-sm border-collapse'>
+          <thead>
+            <tr className='bg-dark text-primary'>
+              <th className='p-3 text-left font-bold'>Risk</th>
+              <th className='p-3 text-left font-bold'>Description</th>
+              <th className='p-3 text-left font-bold'>Mitigation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Price volatility</td>
+              <td className='p-3'>Global coffee prices fluctuate significantly; Birr exchange rate adds a layer of currency risk</td>
+              <td className='p-3'>Forward contracts, <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>price hedging</Link>, focus on specialty premiums that buffer commodity swings</td>
+            </tr>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-semibold'>Climate and agricultural risk</td>
+              <td className='p-3'>Weather variability affects yields; potential for drought or frost in highland areas</td>
+              <td className='p-3'>Source across multiple regions, work with partners using <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>climate-adapted varieties</Link>, diversify origin portfolio</td>
+            </tr>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Regulatory changes</td>
+              <td className='p-3'>Export regulations, ECX rules, and foreign exchange controls can shift</td>
+              <td className='p-3'>Work with experienced, licensed exporters; maintain current documentation; use established <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>contract structures</Link></td>
+            </tr>
+            <tr className='border-b border-gray-200 bg-gray-50'>
+              <td className='p-3 font-semibold'>Logistics and infrastructure</td>
+              <td className='p-3'>Port congestion, container availability, and rural road conditions can cause delays</td>
+              <td className='p-3'>Build shipping timelines with buffers; work with exporters who have strong <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>logistics networks</Link></td>
+            </tr>
+            <tr className='border-b border-gray-200'>
+              <td className='p-3 font-semibold'>Quality consistency</td>
+              <td className='p-3'>Lot-to-lot variation, post-harvest handling, and processing inconsistency</td>
+              <td className='p-3'>Pre-shipment cupping, clear quality specifications in contracts, <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>sample evaluation protocols</Link></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className='my-4'>
+        The single most effective risk mitigation tool is partner selection. Working with an origin-connected exporter who has deep relationships across growing regions, established quality control systems, and a track record of consistent delivery reduces most of the risks above.
+      </p>
+
+      {/* ===== SECTION 8: Due Diligence ===== */}
+      <h3 id='due-diligence' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineCheckCircle className='w-8 h-8 text-amber-600' />
+        Due Diligence for Sourcing Partners
+      </h3>
+
+      <p className='my-4'>
+        Before committing capital to any Ethiopian coffee investment, whether a forward contract or a processing partnership, verify these fundamentals:
       </p>
 
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
-        <h4 className='font-bold text-lg mb-3'>Recommended Action Plan</h4>
-        <ol className='space-y-2 list-decimal ml-5'>
-          <li><span className='font-bold'>Education phase (1-2 months):</span> Research the market, understand the value chain, connect with experienced operators</li>
-          <li><span className='font-bold'>Network building (2-3 months):</span> Attend coffee trade shows, join industry associations, establish relationships with Ethiopian coffee professionals</li>
-          <li><span className='font-bold'>Exploration visit (1 week):</span> Visit Ethiopia during harvest season (October-January), tour farms and processing facilities, meet potential partners</li>
-          <li><span className='font-bold'>Due diligence (2-4 months):</span> Conduct detailed assessment of specific opportunities, engage legal and financial advisors</li>
-          <li><span className='font-bold'>Pilot phase (1 year):</span> Start with a smaller investment or test partnership to validate assumptions and build relationships</li>
-          <li><span className='font-bold'>Scale-up (Years 2-5):</span> Expand based on pilot results, deepen partnerships, optimize operations</li>
-        </ol>
+        <div className='space-y-4 text-sm'>
+          <div>
+            <h4 className='font-bold'>Export License and ECX Registration</h4>
+            <p className='mt-1'>Confirm the partner holds a valid coffee export license and is registered with the ECX. Review the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX system and export process</Link> to understand how it works.</p>
+          </div>
+          <div>
+            <h4 className='font-bold'>Processing Infrastructure</h4>
+            <p className='mt-1'>Request photos, visit reports, or third-party audit documentation for washing stations, dry mills, and warehousing. Buyers investing in infrastructure should inspect facilities in person.</p>
+          </div>
+          <div>
+            <h4 className='font-bold'>Quality Track Record</h4>
+            <p className='mt-1'>Ask for cupping scores, defect counts, and customer references from recent seasons. An exporter with consistent quality across multiple harvests is a lower-risk partner.</p>
+          </div>
+          <div>
+            <h4 className='font-bold'>Financial Stability</h4>
+            <p className='mt-1'>Where possible, review financial statements or credit references. Understand the partner&apos;s working capital position and how they manage cash flow between harvest and export.</p>
+          </div>
+          <div>
+            <h4 className='font-bold'>Certifications and Compliance</h4>
+            <p className='mt-1'>Verify current certification status (organic, Fair Trade, Rainforest Alliance). For EU-bound coffee, check readiness for <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR compliance</Link> requirements.</p>
+          </div>
+        </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        Why Ethiopian Coffee Is a High-Growth Investment Opportunity
+      <p className='my-4'>
+        A detailed guide on evaluating potential partners is available in our article on <Link href='/insights/how-to-choose-ethiopian-coffee-export-company' className='text-amber-700 hover:underline'>how to choose an Ethiopian coffee export company</Link>.
+      </p>
+
+      {/* ===== SECTION 9: Long-Term Case ===== */}
+      <h3 id='long-term-case' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineArrowTrendingUp className='w-8 h-8 text-amber-600' />
+        The Long-Term Case for Investing in Ethiopian Coffee Production
       </h3>
-      
+
       <p className='my-4'>
-        Ethiopian coffee production brings together <span className='font-bold'>heritage authenticity, quality excellence, strong market dynamics, and sound investment fundamentals</span>. As global demand for specialty coffee accelerates and consumers increasingly value origin stories and sustainability, Ethiopia&apos;s position as the birthplace of coffee becomes even more valuable.
+        The structural case for Ethiopian coffee investment strengthens over time. Record export revenue of $2.65 billion, a government strategy focused on quality and value addition, expanding production capacity, and growing global demand for single-origin specialty coffee all point in the same direction: Ethiopian coffee will command a larger share of the global market in the coming decade.
       </p>
 
       <p className='my-4'>
-        For investors who approach the opportunity with patience, local partnerships, and commitment to quality, Ethiopian coffee production offers not just financial returns, but the chance to participate in one of the world&apos;s most storied agricultural traditions while supporting meaningful development in one of coffee&apos;s most important origins.
+        For importers and roasters, the practical question is not whether to source Ethiopian coffee but how to structure that commitment for maximum value. The buyers who invest early in relationships, locking in supply through forward contracts, supporting certification, or co-investing in processing infrastructure, will secure the best lots and the strongest partnerships as competition for Ethiopian coffees intensifies.
       </p>
 
       <p className='my-4'>
-        The question isn&apos;t whether to invest in Ethiopian coffee; it&apos;s how to structure that investment for maximum impact and returns.
+        Ethiopia&apos;s coffee sector is forecast to grow at a CAGR of 5.67% through 2029 (Mordor Intelligence). Production is trending toward 12 million bags annually. The specialty segment is growing faster than commodity. For buyers who prioritize quality, traceability, and origin stories that resonate with consumers, investing in Ethiopian coffee production is one of the strongest sourcing decisions available.
       </p>
 
       {/* FAQ SECTION */}
-      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Investing in Ethiopian Coffee</h3>
-        <div className="space-y-6">
+      <section id='faq' className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h3 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About Investing in Ethiopian Coffee</h3>
+        <div className='space-y-6'>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Why is Ethiopian coffee a good investment opportunity?</h4>
-            <p className="text-sm text-gray-600">Ethiopia is the birthplace of Arabica coffee, the world&apos;s fifth-largest producer, and home to unmatched genetic diversity with thousands of indigenous heirloom varieties. Growing global demand for specialty-grade Ethiopian coffee, combined with ongoing sector reforms and government investment incentives, creates strong long-term investment potential across the value chain.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Why is Ethiopian coffee a good investment for importers?</h4>
+            <p className='text-sm text-gray-600'>Ethiopia is the birthplace of Arabica coffee with unmatched genetic diversity. Specialty-grade Ethiopian coffees command 30 to 150% premiums above commodity prices. Record export revenue of $2.65 billion in the 2024/25 fiscal year confirms strong and growing global demand.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What is the expected return on investment for Ethiopian coffee?</h4>
-            <p className="text-sm text-gray-600">Returns vary by investment model, but specialty-grade Ethiopian coffees command 30-50% premiums over commodity prices. Investors in processing or export partnerships typically see margins of 15 to 30 percent, depending on quality grade, volume, and market access. Farm-level investments generally reach full ROI within five to seven years of first production.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the minimum investment to source Ethiopian coffee?</h4>
+            <p className='text-sm text-gray-600'>Forward contracts for green coffee can start at $50,000, covering one or two containers. Certification investments begin around $10,000. Processing partnerships typically require $100,000 or more. The right entry point depends on your volume needs and sourcing goals.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What are the main risks of investing in Ethiopian coffee production?</h4>
-            <p className="text-sm text-gray-600">Key risks include price volatility on international markets, climate change affecting yields, regulatory and foreign exchange challenges, and infrastructure limitations in rural producing areas. Working with experienced local partners, diversifying across regions, using forward contracts, and conducting thorough due diligence all help mitigate these risks effectively.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What are the main risks of investing in Ethiopian coffee production?</h4>
+            <p className='text-sm text-gray-600'>Key risks include global price volatility, climate-related yield variation, regulatory changes, and logistics delays. Working with experienced, licensed Ethiopian exporters and using forward contracts significantly reduces these risks for buyers.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How can foreign investors enter the Ethiopian coffee market?</h4>
-            <p className="text-sm text-gray-600">Foreign investors can enter through joint ventures with licensed Ethiopian exporters, direct sourcing agreements with cooperatives, or by investing in processing infrastructure such as washing stations and dry mills. Ethiopian investment regulations require working with local entities for coffee export activities. Starting with a pilot partnership is a common and lower-risk entry strategy.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>How do certification premiums improve investment returns?</h4>
+            <p className='text-sm text-gray-600'>Organic certification adds 20 to 35% above commodity prices. Fair Trade adds 15 to 25%. Rainforest Alliance adds 20 to 35%. Ethiopia&apos;s low-input, shade-grown farming makes certification achievable at lower cost than many competing origins.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>Can foreign buyers invest directly in Ethiopian coffee processing?</h4>
+            <p className='text-sm text-gray-600'>Yes. Foreign investors can participate through joint ventures with licensed Ethiopian exporters, co-investment in processing infrastructure, or cooperative financing arrangements. Ethiopian investment regulations require working with local entities for coffee export activities.</p>
           </div>
         </div>
       </section>
 
+      {/* CTA Block */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we connect importers and roasters with Ethiopia&apos;s finest specialty coffees. Request samples, explore current availability, or discuss a sourcing partnership tailored to your needs.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects importers and roasters with Ethiopia&apos;s finest specialty coffees through our trusted sourcing network spanning every major growing region. Request samples, review current availability, or discuss a sourcing partnership tailored to your needs.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -693,85 +534,49 @@ export default function BenefitsInvestingEthiopianCoffeeProduction({ title, date
         </div>
       </div>
 
-      <div className='mt-12 pt-8 border-t border-gray-200'>
-        <h3 className='text-xl font-bold mb-6'>Related Articles</h3>
-        <div className='grid md:grid-cols-2 gap-6'>
+      {/* Related Articles */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold text-gray-800 mb-3'>Pricing &amp; Market</h4>
-            <ul className='space-y-2'>
-              <li>
-                <Link href="/insights/ethiopian-coffee-pricing-fob-guide" className='text-amber-700 hover:underline'>
-                  Ethiopian Coffee Pricing: FOB Price Guide for Importers
-                </Link>
-              </li>
-              <li>
-                <Link href="/insights/rising-ethiopian-coffee-prices-explained" className='text-amber-700 hover:underline'>
-                  Rising Ethiopian Coffee Prices Explained
-                </Link>
-              </li>
-              <li>
-                <Link href="/insights/ecx-and-ethiopian-coffee-export" className='text-amber-700 hover:underline'>
-                  Understanding the Ethiopia Commodity Exchange (ECX) and Coffee Export
-                </Link>
-              </li>
+            <h4 className='font-semibold mb-2 text-sm'>Pricing &amp; Market</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Pricing: FOB Price Guide</Link></li>
+              <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
+              <li>• <Link href='/insights/green-coffee-financing-hedging-importers-guide' className='text-amber-700 hover:underline'>Green Coffee Price Hedging Guide</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold text-gray-800 mb-3'>Quality &amp; Varieties</h4>
-            <ul className='space-y-2'>
-              <li>
-                <Link href="/insights/ethiopian-heirloom-coffee-varieties-landraces" className='text-amber-700 hover:underline'>
-                  Ethiopian Heirloom Coffee Varieties: What Are Landraces?
-                </Link>
-              </li>
-              <li>
-                <Link href="/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest" className='text-amber-700 hover:underline'>
-                  Ethiopian Coffee Certifications: Organic, Fair Trade, and Rainforest Alliance
-                </Link>
-              </li>
-              <li>
-                <Link href="/insights/ethiopian-coffee-climate-change-impact" className='text-amber-700 hover:underline'>
-                  Ethiopian Coffee and Climate Change: Impact and Resilience
-                </Link>
-              </li>
+            <h4 className='font-semibold mb-2 text-sm'>Quality &amp; Sourcing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Heirloom Ethiopian Coffee Varieties</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>Sourcing Green Coffee from Ethiopia</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold text-gray-800 mb-3'>Sourcing &amp; Trade</h4>
-            <ul className='space-y-2'>
-              <li>
-                <Link href="/insights/how-to-source-green-coffee-from-ethiopia" className='text-amber-700 hover:underline'>
-                  How to Source Green Coffee from Ethiopia
-                </Link>
-              </li>
-              <li>
-                <Link href="/insights/minimum-order-quantities-ethiopian-coffee-moq" className='text-amber-700 hover:underline'>
-                  Minimum Order Quantities for Ethiopian Coffee (MOQ Guide)
-                </Link>
-              </li>
+            <h4 className='font-semibold mb-2 text-sm'>Export &amp; Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process</Link></li>
+              <li>• <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='text-amber-700 hover:underline'>Private vs Cooperative Exporters</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold text-gray-800 mb-3'>Export &amp; Logistics</h4>
-            <ul className='space-y-2'>
-              <li>
-                <Link href="/insights/navigating-2026-ethiopian-specialty-coffee-exporters" className='text-amber-700 hover:underline'>
-                  2026 Ethiopian Specialty Coffee Exporters
-                </Link>
-              </li>
-              <li>
-                <Link href="/insights/ethiopian-coffee-export-process-buyers-guide" className='text-amber-700 hover:underline'>
-                  Ethiopian Coffee Export Process: Buyer&apos;s Guide
-                </Link>
-              </li>
+            <h4 className='font-semibold mb-2 text-sm'>Market Intelligence</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Ethiopian Coffee and Climate Change</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='text-amber-700 hover:underline'>Ethiopian Coffee Harvest 2025 Outlook</Link></li>
+              <li>• <Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>Ethiopia-China Coffee Trade Partnership</Link></li>
             </ul>
           </div>
         </div>
       </div>
 
+      {/* Footer */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC. This article examines the investment potential of Ethiopian coffee production, covering market trends, returns, and opportunities for importers. For the most current pricing and availability, <Link href='/contact-us' className='underline'>contact our team</Link>.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an origin-connected exporter with three decades of sourcing heritage across Ethiopia&apos;s coffee regions. Production data sourced from USDA Foreign Agricultural Service and Ethiopian Coffee and Tea Authority (ECTA). For current pricing and availability, <Link href='/contact-us' className='underline'>contact our team</Link>.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
