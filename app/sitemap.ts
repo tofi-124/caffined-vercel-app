@@ -135,14 +135,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Insights detail pages use SEO-friendly slugs: /insights/ethio-coffee-canada-operations-launch, etc.
   const insightsRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${baseUrl}/insights/${post.slug}`,
-    lastModified: new Date(post.date),
+    lastModified: new Date(post.dateModified || post.date),
     changeFrequency: 'monthly',
     priority: 0.6,
   }))
 
   const newsRoutes: MetadataRoute.Sitemap = newsArticles.map((article) => ({
     url: `${baseUrl}/ethiopia-coffee-export-news/${article.slug}`,
-    lastModified: new Date(article.date),
+    lastModified: new Date(article.dateModified || article.date),
     changeFrequency: 'monthly',
     priority: 0.5,
   }))

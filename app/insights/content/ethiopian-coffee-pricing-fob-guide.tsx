@@ -116,7 +116,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
       </h3>
 
       <p className='my-4'>
-        Ethiopia has a unique coffee market structure. Most coffee traded in Ethiopia passes through the <span className='font-bold'>Ethiopia Commodity Exchange (ECX)</span>, a centralized trading platform established in 2008. The ECX sets daily reference prices for different coffee types and grades based on supply and demand at auction.
+        Ethiopia has a unique coffee market structure. Most coffee traded in Ethiopia passes through the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-semibold'>Ethiopia Commodity Exchange (ECX)</Link>, a centralized trading platform established in 2008. The ECX sets daily reference prices for different coffee types and grades based on supply and demand at auction.
       </p>
 
       <p className='my-4'>

@@ -95,7 +95,7 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
           </li>
           <li className='flex items-start gap-2'>
             <HiOutlineExclamationTriangle className='text-amber-500 text-xl flex-shrink-0 mt-0.5' />
-            <span>Naturals processed in the interior are often only partially sorted before transport to Addis Ababa, with final grading deferred to the dry mill.</span>
+            <span>Naturals processed in the interior are often only partially sorted before transport to Addis Ababa, with final grading deferred to the dry mill. For details on how QC should be managed before the cherry reaches the mill, see our <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='underline'>Ethiopian natural coffee QC guide</Link>.</span>
           </li>
           <li className='flex items-start gap-2'>
             <HiOutlineExclamationTriangle className='text-amber-500 text-xl flex-shrink-0 mt-0.5' />

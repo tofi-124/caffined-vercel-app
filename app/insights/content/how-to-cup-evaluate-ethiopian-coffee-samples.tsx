@@ -93,7 +93,7 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
         </div>
 
         <p className="text-lg leading-relaxed">
-          The SCA uses a 100-point scoring system that evaluates ten sensory attributes: fragrance/aroma, flavor, aftertaste, acidity, body, balance, uniformity, clean cup, sweetness, and overall impression. For specialty-grade coffee, the minimum score is 80 points. Ethiopian specialty lots typically score between 84-92 points, with exceptional micro-lots reaching 93-95+ points. Our <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='underline font-bold'>micro-lot Ethiopian coffee sourcing guide</Link> explains what cupping scores mean for pricing and how to evaluate micro-lot samples.
+          The SCA uses a 100-point scoring system that evaluates ten sensory attributes: fragrance/aroma, flavor, aftertaste, acidity, body, balance, uniformity, clean cup, sweetness, and overall impression. For specialty-grade coffee, the minimum score is 80 points. Ethiopian specialty lots typically score between 84-92 points, with exceptional micro-lots reaching 93-95+ points. Our <Link href='/insights/micro-lot-ethiopian-coffee-sourcing-guide' className='underline font-bold'>micro-lot Ethiopian coffee sourcing guide</Link> explains what cupping scores mean for pricing and how to evaluate micro-lot samples. The SCA is now transitioning to the <Link href='/insights/new-sca-coffee-value-assessment' className='underline font-bold'>Coffee Value Assessment (CVA)</Link>, a multi-dimensional framework that captures detailed descriptive profiles alongside quality scores.
         </p>
 
         <div className="bg-gray-50 p-6 rounded-lg">

@@ -383,7 +383,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
             <strong>Middle East</strong> has emerged as the fastest-growing regional market, with Saudi Arabia leading. Ethiopian coffee's cultural significance in the Gulf region (Ethiopian diaspora communities + traditional coffee culture) drives sustained demand.
           </p>
           <p className='text-sm'>
-            <strong>Asia</strong> represents the highest growth potential, with China's coffee consumption growing 15-20% annually and specialty coffee culture booming in South Korea and Japan.
+            <strong>Asia</strong> represents the highest growth potential, with <Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>China&apos;s coffee consumption growing 15-20% annually</Link> and specialty coffee culture booming in South Korea and Japan.
           </p>
         </div>
       </section>

@@ -1,14 +1,16 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { 
-  HiOutlineCalendarDays, 
-  HiOutlineSparkles, 
-  HiOutlineChartBar, 
-  HiOutlineCheckCircle, 
+import {
+  HiOutlineSparkles,
+  HiOutlineChartBar,
+  HiOutlineCheckCircle,
   HiOutlineDocumentText,
   HiOutlineLightBulb,
   HiOutlineBeaker,
-  HiOutlineScale
+  HiOutlineScale,
+  HiOutlineGlobeAlt,
+  HiOutlineClipboardDocumentList,
+  HiOutlineAcademicCap
 } from 'react-icons/hi2'
 
 type InsightContentProps = {
@@ -24,18 +26,18 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         {title}
       </h1>
       <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-        Understanding the SCA Coffee Value Assessment (CVA) and how it's revolutionizing coffee quality evaluation beyond the traditional 100-point cupping scale
+        How the SCA Coffee Value Assessment (CVA) replaces the 100-point cupping score and what it means for green coffee buyers, roasters, and Ethiopian exporters
       </h2>
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          The new Coffee Value Assessment brings a more comprehensive approach to evaluating specialty coffee quality.
+          The Coffee Value Assessment provides a multi-dimensional quality profile that goes far beyond a single cupping score.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='SCA Coffee Value Assessment cupping quality grading specialty coffee'
+            alt='SCA Coffee Value Assessment cupping session with green coffee evaluation forms and specialty coffee samples'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -46,49 +48,71 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
 
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
-        <span className='ml-2'>Coffee Quality & Grading / Industry Standards / Sourcing Innovation</span>
+        <span className='ml-2'>Coffee Quality &amp; Grading / Industry Standards / Green Coffee Buying</span>
       </div>
-      
+
       <p className='my-4'>
-        For decades, the specialty coffee industry has relied on a single number to define excellence: the 100-point cupping score. A coffee scoring 85+ points earned the coveted "specialty grade" designation. But as the industry has matured, so has our understanding of what makes coffee truly valuable.
+        The SCA Coffee Value Assessment (CVA) is the most significant change to specialty coffee quality evaluation in over two decades. For green coffee buyers who have built sourcing decisions around the 100-point cupping score, the shift is substantial: the CVA replaces a single number with a multi-dimensional quality profile that captures what a coffee tastes like, how desirable those attributes are, and what non-sensory factors contribute to its value.
       </p>
 
       <p className='my-4'>
-        Enter the <span className='font-bold'>Coffee Value Assessment (CVA)</span> the Specialty Coffee Association's next-generation evaluation system that's fundamentally changing how we measure, communicate, and understand coffee quality. Officially advancing to its next phase in June 2024, the CVA represents the most significant update to coffee evaluation protocols in a generation.
+        Officially launched in phases since 2023, and with updated forms released in seven languages in October 2025, the CVA is now the SCA&#39;s primary framework for specialty coffee quality assessment. This guide breaks down each component, explains how the CVA affects green coffee contracts and Ethiopian export grading, and covers what importers and roasters need to do to adopt it.
       </p>
 
+      {/* KEY TAKEAWAY BOX - near top for featured snippet */}
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-medium flex items-start gap-2'>
-          <HiOutlineSparkles className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Insight:</span> The CVA doesn't replace the traditional cupping form it expands it. This is about adding dimensions to how we evaluate coffee, giving buyers, roasters, and producers a much richer language to describe what makes a coffee special.</span>
-        </p>
+        <h3 className='font-bold text-lg mb-3 flex items-center gap-2'>
+          <HiOutlineSparkles className='text-2xl flex-shrink-0' />
+          Key Takeaway
+        </h3>
+        <ul className='space-y-2 ml-1'>
+          <li className='flex gap-2 items-start'>
+            <HiOutlineCheckCircle className='text-green-600 text-lg flex-shrink-0 mt-0.5' />
+            <span>The CVA replaces the legacy 100-point SCA cupping score with four integrated assessments: Sample Preparation (CVA 102), Descriptive (CVA 103), Affective (CVA 104), and Extrinsic (CVA 105).</span>
+          </li>
+          <li className='flex gap-2 items-start'>
+            <HiOutlineCheckCircle className='text-green-600 text-lg flex-shrink-0 mt-0.5' />
+            <span>Descriptive assessment tells you <em>what</em> the coffee tastes like; affective assessment tells you <em>how much</em> you value those attributes. This separation gives buyers more precise sourcing tools.</span>
+          </li>
+          <li className='flex gap-2 items-start'>
+            <HiOutlineCheckCircle className='text-green-600 text-lg flex-shrink-0 mt-0.5' />
+            <span>Ethiopian coffees benefit significantly: the CVA captures the complex floral, citrus, and fruit-forward profiles that a single number cannot convey.</span>
+          </li>
+          <li className='flex gap-2 items-start'>
+            <HiOutlineCheckCircle className='text-green-600 text-lg flex-shrink-0 mt-0.5' />
+            <span>As of March 2026, the CVA is in active use globally. Many buyers use it alongside traditional scores during the transition.</span>
+          </li>
+        </ul>
       </div>
+
+      {/* ═══════════════════════════════════════════ */}
+      {/* WHAT IS THE CVA                             */}
+      {/* ═══════════════════════════════════════════ */}
 
       <h3 className='text-2xl font-extrabold mt-8'>
-        Why Change Was Needed: Limitations of the Traditional System
+        <HiOutlineDocumentText className='inline mr-2' />
+        What Is the SCA Coffee Value Assessment?
       </h3>
       <p className='my-4'>
-        The SCA Cupping Form, introduced in the early 2000s, revolutionized coffee quality assessment by establishing objective, repeatable standards. However, over 20+ years, several limitations became apparent:
+        The Coffee Value Assessment is the Specialty Coffee Association&#39;s replacement for the traditional 100-point cupping form. Developed through collaboration with scientists, researchers, and coffee professionals worldwide, the CVA produces a detailed, multi-dimensional quality profile rather than a single aggregate score.
       </p>
-
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li><span className='font-bold'>Single-dimensional scoring:</span> A final score of 87.5 tells you the coffee is "very good," but it doesn't tell you <em>why</em> or what makes it unique</li>
-        <li><span className='font-bold'>Loss of detail:</span> Reducing 10+ sensory attributes to one aggregate number obscures what makes each coffee distinctive</li>
-        <li><span className='font-bold'>Limited descriptive vocabulary:</span> Traditional forms don't capture the full complexity of flavor profiles emerging from experimental processing methods</li>
-        <li><span className='font-bold'>Ignores context and story:</span> The traditional form doesn't account for traceability, sustainability practices, or producer relationships all things buyers increasingly value</li>
-        <li><span className='font-bold'>Calibration challenges:</span> Even experienced Q Graders can score the same coffee differently, creating confusion in the supply chain</li>
-      </ul>
-
       <p className='my-4'>
-        The CVA addresses these issues by separating assessment into multiple, complementary components that provide a "high-resolution" picture of coffee quality and value.
+        The SCA Cupping Form, introduced in the early 2000s, standardized quality assessment across the industry. Over two decades, however, its limitations became clear. A score of 87.5 tells you a coffee is "very good," but it does not tell you <em>why</em>, what specific flavors define it, or whether it suits your roasting style and market. Reducing ten sensory attributes to one number obscures the qualities that make individual coffees distinctive.
       </p>
+      <p className='my-4'>
+        The CVA addresses these gaps by separating assessment into four complementary components. Each can be used independently or together, giving the trade flexible, high-resolution quality data. The SCA released revised protocols in June 2024 after extensive input from its Early Adopter program, and published updated CVA forms in October 2025 in English, Spanish, Portuguese, French, Korean, Traditional Chinese, and Simplified Chinese.
+      </p>
+
+      {/* ═══════════════════════════════════════════ */}
+      {/* THE FOUR PILLARS                            */}
+      {/* ═══════════════════════════════════════════ */}
 
       <h3 className='text-2xl font-extrabold mt-8'>
         <HiOutlineChartBar className='inline mr-2' />
-        The Four Pillars of the Coffee Value Assessment
+        The Four Pillars of the SCA Coffee Value Assessment
       </h3>
       <p className='my-4'>
-        The CVA system is built on four distinct yet interconnected assessment types. Each serves a specific purpose and can be used independently or together:
+        The CVA system is built on four distinct yet interconnected assessment types. Each serves a specific purpose in the evaluation workflow:
       </p>
 
       <div className='my-8 space-y-6'>
@@ -102,7 +126,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
             <span className='font-bold'>Purpose:</span> Standardize how coffee samples are prepared for evaluation, ensuring consistency and repeatability.
           </p>
           <p className='text-sm bg-gray-50 p-4 rounded border border-gray-200'>
-            This protocol establishes exact parameters for roasting, grinding, water temperature, brew ratio, and timing. When everyone prepares samples the same way, results become comparable across different labs, roasteries, and countries. This is the foundation that makes all other assessments reliable.
+            CVA 102 establishes exact parameters for roasting, grinding, water temperature, brew ratio, and timing. When everyone prepares samples the same way, results become comparable across labs, roasteries, and countries. This protocol is the foundation that makes all other CVA assessments reliable. For a hands-on walkthrough of sample preparation, see our <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='underline font-bold'>guide to cupping Ethiopian coffee samples</Link>.
           </p>
         </div>
 
@@ -116,11 +140,11 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
             <span className='font-bold'>Purpose:</span> Objectively describe what sensory characteristics are present in the coffee, without judgment of quality.
           </p>
           <p className='text-sm bg-gray-50 p-4 rounded border border-gray-200 mb-3'>
-            This is where trained tasters identify and quantify specific flavors, aromas, textures, and aftertastes. Instead of saying "this is good citrus," descriptive assessment asks "how much lemon? how much orange? how much grapefruit?" The result is a detailed flavor map that captures what makes the coffee unique. For the compound science behind these sensory attributes, see our <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline font-bold'>Coffee Science: Analysis &amp; Evaluation</Link> guide.
+            Trained tasters identify and quantify specific flavors, aromas, textures, and aftertastes using the <span className='font-bold'>World Coffee Research Sensory Lexicon</span>, a scientifically validated vocabulary of 110+ attributes. Instead of writing "good citrus," evaluators record the type (lemon, bergamot, grapefruit) and intensity on a calibrated scale. The Check-All-That-Apply (CATA) method and intensity scaling produce a detailed flavor map. For the compound science behind these sensory attributes, see our <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline font-bold'>Coffee Science: Analysis &amp; Evaluation</Link> guide.
           </p>
-          <div className='text-sm'>
-            <p className='font-bold mb-1'>Key Innovation:</p>
-            <p>Uses the <span className='font-bold'>World Coffee Research Sensory Lexicon</span> a scientifically validated vocabulary of 110+ flavor and aroma attributes. This gives evaluators a shared language that's far more precise than subjective descriptors.</p>
+          <div className='text-sm bg-blue-50 p-4 rounded border border-blue-200'>
+            <p className='font-bold mb-1'>Ethiopian Origin Example:</p>
+            <p>A washed <Link href='/ethiopian-coffee-yirgacheffe' className='underline font-bold'>Yirgacheffe</Link> lot might produce a descriptive profile reading: "jasmine (high intensity), bergamot (medium), lemon acidity (high), light body, silky mouthfeel, lingering floral aftertaste." Under the traditional system, this coffee and a chocolatey Brazilian natural might both score 88, despite offering fundamentally different cup experiences.</p>
           </div>
         </div>
 
@@ -131,14 +155,14 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
             <h4 className='text-xl font-bold'>Affective Assessment (CVA 104)</h4>
           </div>
           <p className='mb-3'>
-            <span className='font-bold'>Purpose:</span> Evaluate how much you <em>like</em> or <em>value</em> specific sensory attributes.
+            <span className='font-bold'>Purpose:</span> Evaluate how much you <em>like</em> or <em>value</em> specific sensory attributes for your intended use.
           </p>
           <p className='text-sm bg-gray-50 p-4 rounded border border-gray-200 mb-3'>
-            This is the quality judgment component. After describing what's in the cup, affective assessment asks: "Do I find this acidity pleasant? Is this body desirable? Does this flavor profile meet my needs?" It separates "what is there" from "how good is it."
+            After describing what is in the cup, affective assessment asks: "Do I find this acidity pleasant? Is this body desirable for my blend? Does this flavor profile match what my customers expect?" The <Link href='https://sca.coffee/cuppingscore' className='text-blue-600 underline' target='_blank' rel='noopener noreferrer'>SCA Affective Score Calculator</Link> converts these ratings into a familiar numeric reference for buyers who still need a shorthand during the transition.
           </p>
-          <div className='text-sm'>
-            <p className='font-bold mb-1'>Why This Matters:</p>
-            <p>Different buyers value different things. A Nordic roaster might prize bright, tea-like acidity that an Italian roaster would find unbalanced. The CVA allows both assessments to coexist the coffee is objectively described, then subjectively evaluated based on intended use.</p>
+          <div className='text-sm bg-blue-50 p-4 rounded border border-blue-200'>
+            <p className='font-bold mb-1'>Context-Dependent Scoring:</p>
+            <p>A Nordic roaster might prize the bright, tea-like acidity of a <Link href='/ethiopian-coffee-guji' className='underline font-bold'>Guji</Link> natural at 2100 masl. An Italian espresso blender might find the same acidity too sharp for their market. The CVA records both perspectives as valid. The descriptive profile stays objective; the affective scores reflect each buyer&#39;s context.</p>
           </div>
         </div>
 
@@ -146,138 +170,37 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
         <div className='border border-gray-200 rounded-lg p-6'>
           <div className='flex items-center gap-3 mb-3'>
             <span className='bg-amber-500 text-white font-bold text-lg px-3 py-1 rounded'>4</span>
-            <h4 className='text-xl font-bold'>Extrinsic Assessment (Beta)</h4>
+            <h4 className='text-xl font-bold'>Extrinsic Assessment (CVA 105)</h4>
           </div>
           <p className='mb-3'>
-            <span className='font-bold'>Purpose:</span> Record non-sensory information that influences a coffee's value story, sustainability, traceability, impact.
+            <span className='font-bold'>Purpose:</span> Document non-sensory factors that influence a coffee&#39;s value: origin story, sustainability, traceability, and certifications.
           </p>
           <p className='text-sm bg-gray-50 p-4 rounded border border-gray-200 mb-3'>
-            This groundbreaking component recognizes that coffee value extends beyond the cup. It captures information about farm practices, processing innovations, producer relationships, certifications, carbon footprint, and social impact. Released in beta in 2024, it's the most innovative aspect of the CVA.
+            This component recognizes that coffee value extends beyond the cup. It captures information about sourcing relationships, processing innovations, <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='underline font-bold'>certifications (organic, Fairtrade, Rainforest Alliance)</Link>, carbon footprint, and social impact. Originally released in beta in 2024, CVA 105 was formalized as a numbered standard in the October 2025 forms update.
           </p>
           <div className='text-sm'>
             <p className='font-bold mb-1'>Examples of Extrinsic Value:</p>
             <ul className='list-disc ml-5 space-y-1 mt-2'>
               <li>Direct trade relationship with transparent pricing</li>
-              <li>Regenerative agriculture practices</li>
-              <li>First-time experimental processing by a producer</li>
-              <li>Women-led cooperative</li>
-              <li>Rare or heritage coffee variety preservation</li>
+              <li>Heritage sourcing partnerships with cooperatives spanning decades</li>
+              <li>Experimental processing (anaerobic, carbonic maceration) at a known washing station</li>
+              <li>Women-led cooperative with documented social impact</li>
+              <li>Rare heirloom variety preservation in its region of origin</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineBeaker className='inline mr-2' />
-        How the CVA Works in Practice
-      </h3>
-      <p className='my-4'>
-        Unlike the traditional cupping form that generates a single score, the CVA produces a comprehensive profile. Here's a simplified workflow:
-      </p>
-
-      <div className='my-6 bg-gray-50 p-6 rounded-lg border border-gray-200'>
-        <h4 className='font-bold text-lg mb-4'>CVA Evaluation Process:</h4>
-        <ol className='space-y-3'>
-          <li className='flex gap-3'>
-            <span className='font-bold text-amber-600 flex-shrink-0'>Step 1:</span>
-            <span><span className='font-bold'>Sample Preparation</span> – Follow CVA 102 protocol to prepare the coffee using standardized roasting, grinding, and brewing parameters</span>
-          </li>
-          <li className='flex gap-3'>
-            <span className='font-bold text-amber-600 flex-shrink-0'>Step 2:</span>
-            <span><span className='font-bold'>Descriptive Assessment</span> – Trained panel identifies and quantifies specific sensory attributes (sweetness intensity, acidity type, body weight, flavor notes)</span>
-          </li>
-          <li className='flex gap-3'>
-            <span className='font-bold text-amber-600 flex-shrink-0'>Step 3:</span>
-            <span><span className='font-bold'>Affective Assessment</span> – Evaluators rate how desirable they find each attribute and the coffee overall for their specific context</span>
-          </li>
-          <li className='flex gap-3'>
-            <span className='font-bold text-amber-600 flex-shrink-0'>Step 4:</span>
-            <span><span className='font-bold'>Extrinsic Documentation</span> – Record relevant non-sensory information about origin, processing, sustainability, and story</span>
-          </li>
-          <li className='flex gap-3'>
-            <span className='font-bold text-amber-600 flex-shrink-0'>Step 5:</span>
-            <span><span className='font-bold'>Comprehensive Profile</span> – The result is a multi-dimensional assessment that captures what the coffee is, how it tastes, why it's valued, and its broader context</span>
-          </li>
-        </ol>
-      </div>
+      {/* ═══════════════════════════════════════════ */}
+      {/* CVA vs. TRADITIONAL CUPPING                 */}
+      {/* ═══════════════════════════════════════════ */}
 
       <h3 className='text-2xl font-extrabold mt-8'>
-        What This Means for Ethiopian Coffee Exporters
+        <HiOutlineScale className='inline mr-2' />
+        CVA vs. Traditional Cupping Score: Side-by-Side Comparison
       </h3>
       <p className='my-4'>
-        Ethiopia, as the birthplace of coffee, produces some of the world's most distinctive and sought-after coffees. The CVA system presents both opportunities and considerations for Ethiopian exporters:
-      </p>
-
-      <div className='my-6'>
-        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl' />
-          Opportunities
-        </h4>
-        <ul className='space-y-3 ml-5'>
-          <li>
-            <span className='font-bold'>Better storytelling:</span> Ethiopian coffees often have incredible stories ancient varieties, traditional processing, specific terroir. The extrinsic assessment finally gives these stories a formal place in quality evaluation.
-          </li>
-          <li>
-            <span className='font-bold'>Differentiation beyond score:</span> Instead of competing solely on an 86 vs. 87 point score, Ethiopian coffees can be differentiated by their unique descriptive profiles and origin narratives.
-          </li>
-          <li>
-            <span className='font-bold'>Premium justification:</span> When buyers can see the complete value picture exceptional cup quality plus sustainable practices plus rare variety preservation they're more likely to pay premium prices.
-          </li>
-          <li>
-            <span className='font-bold'>Experimental processing recognition:</span> Ethiopia's growing innovation in processing (anaerobic, carbonic maceration, extended fermentation) produces complex flavor profiles that the CVA's detailed descriptive system can capture better than traditional cupping.
-          </li>
-        </ul>
-      </div>
-
-      <div className='my-6'>
-        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
-          <HiOutlineScale className='text-amber-600 text-xl' />
-          Considerations
-        </h4>
-        <ul className='space-y-3 ml-5'>
-          <li>
-            <span className='font-bold'>Training requirements:</span> The CVA requires more specialized training than traditional cupping. Exporters need access to CVA education programs.
-          </li>
-          <li>
-            <span className='font-bold'>ECX compatibility:</span> The Ethiopia Commodity Exchange still uses traditional grading (G1, G2, G3). Exporters need to work within both systems.
-          </li>
-          <li>
-            <span className='font-bold'>Investment in documentation:</span> To capitalize on the extrinsic assessment, exporters need reliable systems to track and verify sustainability, traceability, and impact data.
-          </li>
-        </ul>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        <HiOutlineLightBulb className='inline mr-2' />
-        What Importers and Roasters Need to Know
-      </h3>
-      <p className='my-4'>
-        If you're buying Ethiopian coffee (or any specialty coffee), here's what the CVA means for your sourcing decisions:
-      </p>
-
-      <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold text-lg mb-3'>Practical Implications for Buyers:</h4>
-        <ul className='space-y-3 list-disc ml-5'>
-          <li>
-            <span className='font-bold'>More informed decisions:</span> Instead of relying on a single score, you'll have detailed flavor profiles that help you predict how the coffee will perform as espresso, filter, or cold brew.
-          </li>
-          <li>
-            <span className='font-bold'>Better communication with suppliers:</span> When you can describe exactly what flavor attributes you're looking for (using the Sensory Lexicon), suppliers can match you with appropriate lots.
-          </li>
-          <li>
-            <span className='font-bold'>Value transparency:</span> The extrinsic assessment helps you verify sustainability claims and understand the full story behind the coffee you're buying.
-          </li>
-          <li>
-            <span className='font-bold'>Quality consistency:</span> Standardized sample preparation means when your supplier sends you a CVA evaluation, you can trust the results will be repeatable when you receive the shipment.
-          </li>
-        </ul>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        CVA vs. Traditional Cupping: Can They Coexist?
-      </h3>
-      <p className='my-4'>
-        An important clarification: <span className='font-bold'>The CVA is not replacing traditional cupping or Q Grading</span>. Both systems will coexist, serving different purposes:
+        The SCA is transitioning from the legacy 100-point system to the CVA framework. During this transition period, many professionals use both. Here is how they compare:
       </p>
 
       <div className='overflow-x-auto my-6'>
@@ -286,45 +209,163 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
             <tr className='bg-gray-100'>
               <th className='border border-gray-300 p-3 text-left'>Aspect</th>
               <th className='border border-gray-300 p-3 text-left'>Traditional Cupping (100-pt)</th>
-              <th className='border border-gray-300 p-3 text-left'>Coffee Value Assessment</th>
+              <th className='border border-gray-300 p-3 text-left'>Coffee Value Assessment (CVA)</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td className='border border-gray-300 p-3 font-bold'>Primary Output</td>
               <td className='border border-gray-300 p-3'>Single aggregate score</td>
-              <td className='border border-gray-300 p-3'>Multi-dimensional profile</td>
+              <td className='border border-gray-300 p-3'>Multi-dimensional quality profile</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3 font-bold'>Best Use Case</td>
               <td className='border border-gray-300 p-3'>Quick quality screening, pass/fail decisions</td>
-              <td className='border border-gray-300 p-3'>Deep quality understanding, differentiation, storytelling</td>
+              <td className='border border-gray-300 p-3'>Detailed lot differentiation, storytelling, premium sourcing</td>
             </tr>
             <tr>
               <td className='border border-gray-300 p-3 font-bold'>Time Required</td>
               <td className='border border-gray-300 p-3'>15-20 minutes per session</td>
-              <td className='border border-gray-300 p-3'>30-60 minutes for complete assessment</td>
+              <td className='border border-gray-300 p-3'>30-60 minutes for a complete assessment</td>
             </tr>
             <tr className='bg-gray-50'>
               <td className='border border-gray-300 p-3 font-bold'>Training Level</td>
               <td className='border border-gray-300 p-3'>Q Grader certification</td>
-              <td className='border border-gray-300 p-3'>CVA for Cuppers course</td>
+              <td className='border border-gray-300 p-3'>CVA for Cuppers course (SCA education platform)</td>
             </tr>
             <tr>
-              <td className='border border-gray-300 p-3 font-bold'>Industry Adoption</td>
-              <td className='border border-gray-300 p-3'>Universal standard since early 2000s</td>
-              <td className='border border-gray-300 p-3'>Growing adoption, 800+ early adopters</td>
+              <td className='border border-gray-300 p-3 font-bold'>Flavor Language</td>
+              <td className='border border-gray-300 p-3'>Free-form tasting notes</td>
+              <td className='border border-gray-300 p-3'>WCR Sensory Lexicon (110+ standardized descriptors)</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 p-3 font-bold'>Non-Sensory Factors</td>
+              <td className='border border-gray-300 p-3'>Not included</td>
+              <td className='border border-gray-300 p-3'>Extrinsic assessment (CVA 105) for sustainability, origin story</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 p-3 font-bold'>Industry Status</td>
+              <td className='border border-gray-300 p-3'>Legacy standard (early 2000s)</td>
+              <td className='border border-gray-300 p-3'>SCA&#39;s current primary framework (forms updated Oct 2025)</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <p className='my-4'>
-        Many coffee professionals are adopting a <span className='font-bold'>hybrid approach</span>: using traditional cupping for initial screening and lot selection, then applying CVA for premium lots that require detailed documentation and communication.
+        Many coffee professionals are adopting a <span className='font-bold'>hybrid approach</span>: using traditional cupping for initial screening and lot selection, then applying CVA for premium lots that require detailed documentation. The SCA Affective Score Calculator bridges the gap by generating a familiar numeric score from CVA affective data.
       </p>
 
+      {/* ═══════════════════════════════════════════ */}
+      {/* ETHIOPIAN COFFEE SECTION                    */}
+      {/* ═══════════════════════════════════════════ */}
+
       <h3 className='text-2xl font-extrabold mt-8'>
-        Timeline and Adoption Status
+        <HiOutlineGlobeAlt className='inline mr-2' />
+        What the CVA Means for Ethiopian Coffee
+      </h3>
+      <p className='my-4'>
+        Ethiopia produces some of the world&#39;s most flavor-diverse coffees, from the jasmine and bergamot notes of <Link href='/ethiopian-coffee-yirgacheffe' className='underline font-bold'>Yirgacheffe</Link> to the blueberry-forward naturals of <Link href='/ethiopian-coffee-guji' className='underline font-bold'>Guji</Link> and the wine-like complexity of <Link href='/ethiopian-coffee-harar' className='underline font-bold'>Harar</Link>. The CVA system is particularly well-suited to capturing this diversity.
+      </p>
+
+      <div className='my-6'>
+        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
+          <HiOutlineCheckCircle className='text-green-600 text-xl' />
+          Opportunities for Ethiopian Exporters
+        </h4>
+        <ul className='space-y-3 ml-5'>
+          <li>
+            <span className='font-bold'>Richer flavor storytelling:</span> A descriptive CVA profile for a washed Yirgacheffe might list jasmine (high), bergamot (medium), lemon acidity (high), light body, and silky mouthfeel. This detailed map tells buyers exactly what to expect, far beyond "SCA 89." Our <Link href='/insights/guide-ethiopian-coffee-origins' className='underline font-bold'>guide to Ethiopian coffee origins</Link> covers the distinct flavor profiles of each growing region.
+          </li>
+          <li>
+            <span className='font-bold'>Premium justification through extrinsic data:</span> When buyers see the complete value picture (exceptional cup quality plus heritage sourcing relationships plus rare <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline font-bold'>heirloom variety</Link> preservation), they are more likely to pay premium prices.
+          </li>
+          <li>
+            <span className='font-bold'>Experimental processing recognition:</span> Ethiopia&#39;s growing innovation in processing (<Link href='/insights/anaerobic-ethiopian-coffee-processing-buyers-guide' className='underline font-bold'>anaerobic fermentation</Link>, carbonic maceration, extended fermentation) produces complex flavor profiles that the CVA&#39;s descriptive system captures better than a traditional cupping form.
+          </li>
+          <li>
+            <span className='font-bold'>Differentiation beyond the score:</span> Instead of competing solely on 86 vs. 87 points, exporters can differentiate lots by their unique descriptive profiles, processing stories, and origin narratives.
+          </li>
+        </ul>
+      </div>
+
+      <div className='my-6'>
+        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
+          <HiOutlineScale className='text-amber-600 text-xl' />
+          Practical Considerations
+        </h4>
+        <ul className='space-y-3 ml-5'>
+          <li>
+            <span className='font-bold'>ECX compatibility:</span> The Ethiopia Commodity Exchange still uses the traditional <Link href='/coffee-grading-ethiopia' className='underline font-bold'>Ethiopian grading system (G1 through G5)</Link> based on defect counts and cupping. Exporters need to operate within both frameworks. For direct-trade and specialty lots bypassing ECX, the CVA can be the primary evaluation tool.
+          </li>
+          <li>
+            <span className='font-bold'>Training requirements:</span> The CVA requires specialized training through the SCA&#39;s "CVA for Cuppers" program. Access to authorized trainers in East Africa is expanding, but availability remains limited compared to Q Grader courses.
+          </li>
+          <li>
+            <span className='font-bold'>Documentation investment:</span> To capitalize on the extrinsic assessment, exporters need systems to track and verify sustainability data, traceability records, and impact metrics. Companies with existing <Link href='/insights/ethiopian-coffee-traceability-guide' className='underline font-bold'>traceability infrastructure</Link> are best positioned.
+          </li>
+        </ul>
+      </div>
+
+      {/* ═══════════════════════════════════════════ */}
+      {/* HOW CVA CHANGES GREEN COFFEE BUYING         */}
+      {/* ═══════════════════════════════════════════ */}
+
+      <h3 className='text-2xl font-extrabold mt-8'>
+        <HiOutlineLightBulb className='inline mr-2' />
+        How the CVA Changes Green Coffee Buying
+      </h3>
+
+      <h4 className='text-xl font-bold mt-6 mb-3'>For Importers and Roasters</h4>
+      <p className='my-4'>
+        If you source specialty green coffee, here is what changes under the CVA framework:
+      </p>
+      <ul className='my-4 list-disc ml-5 space-y-2'>
+        <li><span className='font-bold'>More targeted lot selection:</span> Detailed descriptive profiles let you predict how a coffee will perform as espresso, filter, or cold brew before purchasing a full container.</li>
+        <li><span className='font-bold'>Shared sensory language:</span> When you can describe exactly what flavor attributes you seek using the Sensory Lexicon (e.g., "high-intensity citric acidity, medium body, stone fruit"), suppliers can match you with the right lots faster.</li>
+        <li><span className='font-bold'>Verified value claims:</span> The extrinsic assessment provides structured documentation of sustainability practices, certifications, and sourcing relationships, reducing the risk of unsubstantiated marketing claims.</li>
+        <li><span className='font-bold'>Consistent benchmarking:</span> Standardized sample preparation (CVA 102) means the evaluation you receive from your supplier should be repeatable when the shipment arrives at your warehouse.</li>
+      </ul>
+
+      <h4 className='text-xl font-bold mt-6 mb-3'>
+        <HiOutlineClipboardDocumentList className='inline mr-2' />
+        What Changes in Your Next Green Coffee Contract
+      </h4>
+      <p className='my-4'>
+        The practical shift for buyers unfolds in these steps:
+      </p>
+
+      <div className='my-6 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <ol className='space-y-3'>
+          <li className='flex gap-3'>
+            <span className='font-bold text-amber-600 flex-shrink-0'>1.</span>
+            <span><span className='font-bold'>Request CVA data alongside traditional grades.</span> Ask your supplier for a descriptive assessment profile in addition to the cupping score and <Link href='/coffee-grading-ethiopia' className='underline font-bold'>Ethiopian grade classification</Link>. Many exporters already provide both during the transition.</span>
+          </li>
+          <li className='flex gap-3'>
+            <span className='font-bold text-amber-600 flex-shrink-0'>2.</span>
+            <span><span className='font-bold'>Learn to read a CVA profile.</span> Focus on the descriptive map first: identify the dominant flavor attributes, their intensities, and the acidity/body balance. Compare this against your target profile for the intended product.</span>
+          </li>
+          <li className='flex gap-3'>
+            <span className='font-bold text-amber-600 flex-shrink-0'>3.</span>
+            <span><span className='font-bold'>Use affective scores for go/no-go decisions.</span> The affective assessment tells you whether your team finds the coffee desirable for its intended use. If you need a numeric shorthand, use the SCA Affective Score Calculator.</span>
+          </li>
+          <li className='flex gap-3'>
+            <span className='font-bold text-amber-600 flex-shrink-0'>4.</span>
+            <span><span className='font-bold'>Review extrinsic data for due diligence.</span> Check certification status, traceability depth, and producer-relationship documentation. This is especially relevant for buyers subject to the <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='underline font-bold'>EU Deforestation Regulation (EUDR)</Link>.</span>
+          </li>
+          <li className='flex gap-3'>
+            <span className='font-bold text-amber-600 flex-shrink-0'>5.</span>
+            <span><span className='font-bold'>Align internal QC.</span> Update your in-house cupping protocols to include CVA elements gradually. Start with descriptive assessment (CVA 103), then add affective and extrinsic components as your team builds familiarity.</span>
+          </li>
+        </ol>
+      </div>
+
+      {/* ═══════════════════════════════════════════ */}
+      {/* TIMELINE                                    */}
+      {/* ═══════════════════════════════════════════ */}
+
+      <h3 className='text-2xl font-extrabold mt-8'>
+        CVA Adoption Timeline and Current Status
       </h3>
       <p className='my-4'>
         The Coffee Value Assessment has been in development since the early 2020s, with a phased rollout:
@@ -333,189 +374,143 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
       <div className='my-6 space-y-2'>
         <div className='flex gap-3 items-start'>
           <span className='font-bold text-amber-600 flex-shrink-0'>2021-2022:</span>
-          <span>Initial research and framework development</span>
+          <span>Initial research and framework development; Evolution Report published</span>
         </div>
         <div className='flex gap-3 items-start'>
-          <span className='font-bold text-amber-600 flex-shrink-0'>2023:</span>
-          <span>Draft protocols released, Early Adopter program launched</span>
+          <span className='font-bold text-amber-600 flex-shrink-0'>Apr 2023:</span>
+          <span>"A New System to Assess Coffee Value" white paper released; Early Adopter program launched with 800+ participating businesses</span>
         </div>
         <div className='flex gap-3 items-start'>
-          <span className='font-bold text-amber-600 flex-shrink-0'>June 2024:</span>
-          <span>Next phase announced three standards (CVA 102, 103, 104) submitted for official adoption, extrinsic assessment beta released</span>
+          <span className='font-bold text-amber-600 flex-shrink-0'>Jun 2024:</span>
+          <span>Revised protocols published after Early Adopter feedback; CVA 102, 103, and 104 submitted for official adoption; Extrinsic Assessment beta released</span>
         </div>
         <div className='flex gap-3 items-start'>
-          <span className='font-bold text-amber-600 flex-shrink-0'>Late 2024/Early 2025:</span>
-          <span>Expected official adoption of core standards by SCA Standards Development Panel</span>
+          <span className='font-bold text-amber-600 flex-shrink-0'>Oct 2025:</span>
+          <span>Updated CVA forms released in seven languages; CVA 105 (Extrinsic Assessment) formalized; digital evaluation platforms expanded</span>
         </div>
         <div className='flex gap-3 items-start'>
           <span className='font-bold text-amber-600 flex-shrink-0'>2025-2026:</span>
-          <span>Expanding global education programs, growing industry adoption</span>
+          <span>Global education programs expanding; SCA CVA Patrons Program launched; growing industry adoption across the supply chain</span>
         </div>
       </div>
 
       <p className='my-4'>
-        As of February 2026, the CVA is in active use by over 800 businesses globally, with more joining as training becomes available. The system has been tested extensively through the Early Adopter program and refined based on real-world feedback from roasters, importers, producers, and Q Graders.
+        As of March 2026, the CVA is in active use globally and has been the SCA&#39;s primary quality assessment framework since the June 2024 protocol revision. The system continues to be refined based on real-world feedback from roasters, importers, producers, and Q Graders. Two digital platforms now support CVA evaluations, making it easier for companies to record, share, and compare assessments across the supply chain.
       </p>
 
+      {/* ═══════════════════════════════════════════ */}
+      {/* HOW TO GET STARTED                          */}
+      {/* ═══════════════════════════════════════════ */}
+
       <h3 className='text-2xl font-extrabold mt-8'>
+        <HiOutlineAcademicCap className='inline mr-2' />
         How to Get Started with CVA
       </h3>
       <p className='my-4'>
-        For exporters, importers, roasters, and coffee professionals, here's how to engage with the Coffee Value Assessment:
+        For exporters, importers, roasters, and quality professionals, here is how to engage with the Coffee Value Assessment:
       </p>
 
       <div className='my-6 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h4 className='font-bold text-lg mb-4'>Steps to CVA Adoption:</h4>
         <ol className='space-y-3 list-decimal ml-5'>
           <li>
-            <span className='font-bold'>Education:</span> Take the "CVA for Cuppers" course offered through SCA Authorized Trainers. This provides hands-on training with all four assessment components.
+            <span className='font-bold'>Take the CVA for Cuppers course:</span> Offered through <Link href='/insights/best-cupping-school' className='underline font-bold'>SCA Authorized Trainers worldwide</Link>, this two-day program provides hands-on training with all four assessment components and calibration exercises.
           </li>
           <li>
-            <span className='font-bold'>Access Resources:</span> Download the official protocols, forms, and supporting documentation from <Link href="https://sca.coffee/value-assessment" className='text-blue-600 underline' target='_blank'>sca.coffee/value-assessment</Link>
+            <span className='font-bold'>Download official resources:</span> Access protocols, forms, glossaries, and olfactory references from <Link href='https://sca.coffee/value-assessment' className='text-blue-600 underline' target='_blank' rel='noopener noreferrer'>sca.coffee/value-assessment</Link>. Forms are available in seven languages.
           </li>
           <li>
-            <span className='font-bold'>Start with Descriptive:</span> Most practitioners begin with the descriptive assessment (CVA 103) as it requires the least radical change from traditional cupping.
+            <span className='font-bold'>Start with descriptive assessment:</span> CVA 103 aligns most closely with traditional cupping, making it the easiest entry point. Begin by adding descriptive profiles to your existing evaluations.
           </li>
           <li>
-            <span className='font-bold'>Build Gradually:</span> You don't need to implement all four pillars at once. Start with one or two that align with your immediate needs.
+            <span className='font-bold'>Build gradually:</span> Add affective assessment once your team is comfortable with descriptive, then incorporate extrinsic documentation for specialty and traceable lots.
           </li>
           <li>
-            <span className='font-bold'>Join the Community:</span> Connect with other CVA users to share best practices and calibration experiences.
+            <span className='font-bold'>Run parallel evaluations:</span> During the transition, cup each sample using both the traditional form and CVA. This builds confidence and shows your team how the two systems relate.
           </li>
         </ol>
       </div>
 
-      <h3 className='text-2xl font-extrabold mt-8'>
-        The Future of Coffee Quality Assessment
-      </h3>
-      <p className='my-4'>
-        The Coffee Value Assessment represents a philosophical shift in how the specialty coffee industry thinks about quality. Rather than reducing coffee to a single number, it acknowledges that:
-      </p>
+      {/* ═══════════════════════════════════════════ */}
+      {/* FAQ SECTION                                 */}
+      {/* ═══════════════════════════════════════════ */}
 
-      <ul className='my-4 list-disc ml-5 space-y-2'>
-        <li>Value is multi-dimensional</li>
-        <li>What we measure shapes what we reward</li>
-        <li>Different coffees can be excellent in different ways</li>
-        <li>The story behind the coffee matters as much as what's in the cup</li>
-        <li>Transparency and detail create more efficient markets</li>
-      </ul>
-
-      <p className='my-4'>
-        For Ethiopian coffee with its unmatched diversity of flavors, processing traditions, and cultural significance this shift could not come at a better time. The CVA finally provides a framework that can capture what makes Ethiopian coffee truly special.
-      </p>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
-          <HiOutlineDocumentText className='text-xl' />
-          Bottom Line for Ethiopian Coffee Stakeholders
-        </h4>
-        <p className='mb-3'>
-          The Coffee Value Assessment isn't just a new form it's a new language for communicating coffee quality and value. For Ethiopian exporters, it's an opportunity to differentiate beyond basic grades and tell the full story of your coffees. For importers and roasters, it's a tool for making more informed sourcing decisions and building stronger producer relationships.
-        </p>
-        <p>
-          The CVA won't replace traditional cupping overnight, but it represents where the industry is heading: toward more transparency, more detail, and more recognition of everything that makes great coffee great.
-        </p>
-      </div>
-
-      <h3 className='text-2xl font-extrabold mt-8'>
-        Key Takeaways
-      </h3>
-      <div className='my-6 space-y-3'>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>The CVA is a multi-dimensional assessment system that complements (not replaces) traditional cupping</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>It consists of four components: Sample Preparation, Descriptive Assessment, Affective Assessment, and Extrinsic Assessment</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Over 800 businesses globally have adopted the CVA as early adopters since 2023</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>The system officially advanced to its next phase in June 2024, with core standards expected for official adoption in 2024-2025</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>For Ethiopian coffee, the CVA provides better tools to communicate unique qualities, processing innovations, and origin stories</p>
-        </div>
-        <div className='flex gap-3 items-start'>
-          <HiOutlineCheckCircle className='text-green-600 text-xl flex-shrink-0 mt-1' />
-          <p>Training is available through SCA's "CVA for Cuppers" course</p>
-        </div>
-      </div>
-
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Experience Ethiopian Coffee Evaluated with the CVA</h4>
-        <p className='mb-4'>
-          Ethio Coffee Export provides detailed cupping notes and quality assessments for every lot we offer. Whether you prefer traditional SCA scores or the new Coffee Value Assessment framework, our team can match you with the right Ethiopian green coffee.
-        </p>
-        <p>
-          <Link href='/offerings' className='font-bold underline'>Browse our current offerings</Link> or <Link href='/contact-us' className='font-bold underline'>request samples</Link> to taste the difference.
-        </p>
-      </div>
-
-      {/* FAQ SECTION */}
-      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About the SCA Coffee Value Assessment</h3>
-        <div className="space-y-6">
+      <section className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h3 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About the SCA Coffee Value Assessment</h3>
+        <div className='space-y-6'>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What is the SCA Coffee Value Assessment (CVA)?</h4>
-            <p className="text-sm text-gray-600">The CVA is the SCA's new evaluation framework that replaces the traditional 100-point cupping score. It assesses coffee across multiple descriptive dimensions rather than assigning a single numeric score, providing richer and more actionable quality information.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What is the SCA Coffee Value Assessment (CVA)?</h4>
+            <p className='text-sm text-gray-600'>The CVA is the SCA&#39;s current framework for evaluating specialty coffee quality. It replaces the legacy 100-point cupping score with four integrated assessments: Sample Preparation (CVA 102), Descriptive (CVA 103), Affective (CVA 104), and Extrinsic (CVA 105). Together, they produce a multi-dimensional quality profile rather than a single number.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Does the CVA replace the traditional SCA cupping score?</h4>
-            <p className="text-sm text-gray-600">Yes. The SCA is transitioning from the legacy 100-point scoring system to the CVA framework. However, many buyers and exporters continue to use traditional scores alongside CVA evaluations during the transition period.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Does the CVA replace the traditional SCA cupping score?</h4>
+            <p className='text-sm text-gray-600'>Yes. The SCA is transitioning from the legacy 100-point scoring system to the CVA framework. Many buyers and exporters continue using traditional scores alongside CVA evaluations during the transition period. The SCA Affective Score Calculator provides a numeric bridge between the two systems.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How does the Coffee Value Assessment affect Ethiopian coffee grading?</h4>
-            <p className="text-sm text-gray-600">The CVA allows Ethiopian coffees to be evaluated on descriptive qualities like floral, fruity, and complex acidity profiles rather than a single number. This benefits Ethiopian origins known for distinctive flavor characteristics.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>How does the Coffee Value Assessment affect Ethiopian coffee grading?</h4>
+            <p className='text-sm text-gray-600'>The CVA enables Ethiopian coffees to be evaluated on detailed descriptive qualities (floral, citrus, fruit-forward profiles) rather than reduced to a single number. Ethiopia&#39;s ECX grading system (G1-G5) remains in use domestically, but international transactions increasingly include CVA data alongside traditional grades.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Where can I get trained on the SCA Coffee Value Assessment?</h4>
-            <p className="text-sm text-gray-600">The SCA offers a dedicated "CVA for Cuppers" course through its education platform. Training covers the new evaluation methodology, calibration exercises, and practical application for trading and quality control.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>Where can I get trained on the SCA Coffee Value Assessment?</h4>
+            <p className='text-sm text-gray-600'>The SCA offers a two-day "CVA for Cuppers" course through its network of Authorized Trainers. The program covers all four assessment components, calibration exercises, and practical application for trading and quality control. Check the SCA events page for upcoming sessions.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>What are the four components of the CVA?</h4>
+            <p className='text-sm text-gray-600'>The four components are: CVA 102 (Sample Preparation Protocol), CVA 103 (Descriptive Assessment), CVA 104 (Affective Assessment), and CVA 105 (Extrinsic Assessment). Each can be used independently. Descriptive and affective assessments are most commonly applied to green coffee evaluation.</p>
           </div>
         </div>
       </section>
 
-      <hr className="my-8 border-gray-200" />
+      <hr className='my-8 border-gray-200' />
+
+      {/* ═══════════════════════════════════════════ */}
+      {/* CTA BLOCK                                   */}
+      {/* ═══════════════════════════════════════════ */}
 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Experience SCA-Evaluated Ethiopian Coffee</h4>
+        <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we provide full value assessment data on all our specialty lots. Request samples and see how our coffees perform under the new framework.
+          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we provide detailed quality data on all our specialty lots, including descriptive cupping profiles and traceability documentation. With three decades of heritage sourcing relationships across Ethiopia&#39;s top growing regions, we connect importers and roasters with the coffees that match their exact specifications.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Samples</Link>
           <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
 
-      {/* RELATED ARTICLES */}
+      {/* ═══════════════════════════════════════════ */}
+      {/* RELATED ARTICLES                            */}
+      {/* ═══════════════════════════════════════════ */}
+
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Quality & Evaluation</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Quality &amp; Evaluation</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
-              <li>• <Link href='/insights/best-cupping-school' className='text-amber-700 hover:underline'>Best Cupping Schools</Link></li>
-              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
-              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
-              <li>• <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='text-amber-700 hover:underline'>Roasting Ethiopian Coffee Beans</Link></li>
+              <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup and Evaluate Ethiopian Coffee Samples</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control: Defects and Grading</Link></li>
+              <li>• <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='text-amber-700 hover:underline'>Coffee Science: Analysis and Evaluation</Link></li>
+              <li>• <Link href='/insights/best-cupping-school' className='text-amber-700 hover:underline'>Top Cupping Schools Around the World</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Export & Trade</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Origins &amp; Varieties</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
-              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
-              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
-              <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
-              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji</Link></li>
+              <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Complete Guide to Ethiopian Coffee Origins</Link></li>
+              <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
+              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Varieties and Landraces</Link></li>
+              <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing &amp; Trade</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export Guide</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications: Organic, Fairtrade, Rainforest</Link></li>
             </ul>
           </div>
         </div>
@@ -523,7 +518,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This article is based on official SCA documentation and announcements as of February 2026. The Coffee Value Assessment continues to evolve based on industry feedback and research.
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This article is based on official SCA documentation, protocols, and announcements current as of March 2026. The Coffee Value Assessment continues to evolve; contact us for the latest on how CVA data is applied in our quality evaluations.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

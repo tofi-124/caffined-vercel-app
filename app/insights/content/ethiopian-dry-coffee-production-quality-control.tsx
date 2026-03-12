@@ -1,22 +1,15 @@
-import React from 'react'
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { ArrowRight } from '@/app/components/Arrow'
-import { 
-  HiOutlineBeaker,
-  HiOutlineAcademicCap,
-  HiOutlineChartBar,
-  HiOutlineClipboard,
-  HiOutlineCog,
-  HiOutlineUserGroup,
-  HiOutlineBuildingOffice,
+import {
+  HiOutlineLightBulb,
+  HiOutlineClipboardDocumentList,
+  HiOutlineCheckCircle,
+  HiOutlineExclamationTriangle,
+  HiOutlineQuestionMarkCircle,
+  HiOutlineScale,
   HiOutlineShieldCheck,
-  HiOutlineTrophy,
-  HiOutlineArrowTrendingUp,
-  HiOutlineGlobeAlt,
-  HiOutlineLightBulb
 } from 'react-icons/hi2'
-import { PiCoffee, PiPlantFill, PiFactoryFill } from 'react-icons/pi'
+import { PiSun, PiDropHalfBottom, PiPlant, PiWarehouse } from 'react-icons/pi'
 
 type InsightContentProps = {
   title: string
@@ -27,19 +20,25 @@ type InsightContentProps = {
 export default function EthiopianDryCoffeeProductionQualityControl({ title, date, large_image_url }: InsightContentProps) {
   return (
     <>
+      {/* H1 TITLE */}
       <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
         {title}
       </h1>
 
+      {/* SUBTITLE */}
+      <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+        A buyer&apos;s guide to quality control at every stage of Ethiopian natural coffee processing, from cherry selection to export-ready green beans
+      </h2>
+
+      {/* HERO IMAGE */}
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Comprehensive guide to Ethiopian dry coffee production, quality control standards, processing infrastructure, defect management, and the Ethiopian Coffee Authority&apos;s initiatives to maintain excellence from cherry to export-ready green coffee.
+          Ethiopian dry coffee quality control begins at the cherry. For importers and roasters, understanding each QC stage from harvest through drying to storage determines whether a lot delivers in the cup.
         </figcaption>
-
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='Ethiopian dry coffee production and quality control processing facilities'
+            alt='Ethiopian natural dry processed coffee drying on raised beds with quality control inspection by workers'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -48,742 +47,549 @@ export default function EthiopianDryCoffeeProductionQualityControl({ title, date
         </div>
       </figure>
 
-      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
-        <p>
-          Ethiopian dry coffee quality depends on disciplined processing at every stage, from cherry selection to drying, milling, and export preparation. Understanding Ethiopia&apos;s quality control systems, common defects, and institutional oversight helps importers evaluate lots with confidence and source consistently.
-        </p>
-      </div>
-
       <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
         <span className='font-semibold'>Category:</span>
-        <span className='ml-2'>Processing & Quality Control / Ethiopian Coffee</span>
+        <span className='ml-2'>Quality Control / Natural Coffee Processing / Ethiopian Coffee / Importer Resources</span>
       </div>
 
-    <article className="max-w-4xl mx-auto space-y-8">
-
-      {/* Introduction */}
-      <section className="prose prose-lg max-w-none space-y-4">
-        <p className="text-lg leading-relaxed">
-          Ethiopian coffee's reputation as the birthplace of arabica and producer of the world's most sought-after specialty coffees depends entirely on one critical factor: <strong>quality at every stage of production</strong>. While the conversation around Ethiopian coffee often focuses on origin, variety, and terroir, the transformation from fresh coffee cherry to export-ready dry coffee (processed green beans) is where quality is truly won or lost.
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
+        <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
+          Key Takeaway
+        </h3>
+        <p className='text-sm leading-relaxed'>
+          Ethiopian natural (dry processed) coffee quality is determined before the cherry reaches the mill. Understanding the five critical QC stages&mdash;cherry selection, initial drying, drying management, moisture stabilisation, and pre-milling storage&mdash;helps importers evaluate lots with confidence and avoid costly rejection at destination. This guide walks through each stage with defect-to-cause mapping, regional quality profiles, and a buyer&apos;s evaluation checklist you can apply to every pre-shipment sample.
         </p>
-        
-        <p className="text-lg leading-relaxed">
-          The Ethiopian Coffee, Tea, and Spice Authority (ECTA), regional coffee authorities, and thousands of processing facilities across coffee-growing regions work continuously to maintain and improve the quality standards that make Ethiopian coffee exceptional. Recent initiatives by Mr. Asrat Mekuria, Director General of the Regional Coffee, Tea, and Spice Authority, highlight the ongoing commitment to <strong>preparing dry coffee in large quantities while maintaining rigorous quality standards</strong> for both domestic central markets and international export.
-        </p>
+      </div>
 
-        <p className="text-lg leading-relaxed">
-          This comprehensive guide explores Ethiopian dry coffee production from institutional oversight to on-the-ground processing practices, quality control protocols, common defects and their prevention, training programs, and what international buyers should understand about Ethiopian coffee quality assurance systems.
-        </p>
-      </section>
+      {/* Table of Contents */}
+      <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
+          <HiOutlineClipboardDocumentList className='text-amber-600' />
+          In This Guide
+        </h3>
+        <ol className='space-y-2 text-sm'>
+          <li><a href='#what-is-dry-coffee' className='text-amber-700 hover:underline'>1. What &ldquo;Dry Coffee&rdquo; Means in Ethiopian Trade Context</a></li>
+          <li><a href='#why-natural-qc-different' className='text-amber-700 hover:underline'>2. Why Natural Coffee QC Requires a Different Approach</a></li>
+          <li><a href='#cherry-selection' className='text-amber-700 hover:underline'>3. Stage 1 &mdash; Cherry Selection and Intake QC</a></li>
+          <li><a href='#drying-process' className='text-amber-700 hover:underline'>4. Stage 2 &mdash; Drying Process and Quality Checkpoints</a></li>
+          <li><a href='#moisture-storage' className='text-amber-700 hover:underline'>5. Stage 3 &mdash; Moisture Stabilisation and Pre-Milling Storage</a></li>
+          <li><a href='#grading-market-entry' className='text-amber-700 hover:underline'>6. Stage 4 &mdash; Ethiopian Grading and QC at Market Entry</a></li>
+          <li><a href='#buyer-checklist' className='text-amber-700 hover:underline'>7. Buyer&apos;s QC Checklist for Ethiopian Natural Coffee</a></li>
+          <li><a href='#faq-dry-coffee' className='text-amber-700 hover:underline'>8. FAQ</a></li>
+        </ol>
+      </div>
 
-      {/* Section 1: What is Dry Coffee */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <PiCoffee className="w-8 h-8 text-amber-700" />
-          <h2 className="text-3xl font-bold text-gray-900">What is "Dry Coffee" in the Ethiopian Coffee Industry?</h2>
+      <p className='my-4'>
+        This guide focuses exclusively on <strong>natural (dry) processed Ethiopian coffee</strong> from cherry intake through pre-milling storage. For what happens after the dried cherry reaches the mill, see our <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline font-bold'>Ethiopian coffee dry milling and export guide</Link>. For a side-by-side comparison of washed and natural methods, see <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline font-bold'>washed vs natural Ethiopian coffee processing</Link>.
+      </p>
+
+      {/* SECTION 1: WHAT IS DRY COFFEE */}
+      <h2 id='what-is-dry-coffee' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <PiSun className='text-amber-600' />
+        1. What &ldquo;Dry Coffee&rdquo; Means in Ethiopian Trade Context
+      </h2>
+
+      <p className='my-4'>
+        In Ethiopian coffee trade, <strong>&ldquo;dry coffee&rdquo;</strong> refers to coffee that has been processed and dried to the target moisture content, ready for hulling and grading. For <strong>natural/dry processed</strong> lots&mdash;the focus of this guide&mdash;that means whole cherries sun-dried on raised beds or patios until the fruit layer is completely desiccated and the beans inside reach 11&ndash;12&nbsp;% moisture.
+      </p>
+
+      <p className='my-4'>
+        International buyers often know the product at this stage as <strong>dried cherry</strong> or <strong>buni</strong> (the Amharic term commonly used in export documentation). Once the dried cherry is hulled at the dry mill, it becomes export-ready green coffee. This distinction matters for contracts: when an Ethiopian exporter quotes &ldquo;dry coffee,&rdquo; they are referencing the pre-hulled stage, and the quality of the green beans you receive depends entirely on how well QC was managed before that point.
+      </p>
+
+      <div className='bg-amber-50 border-l-4 border-amber-600 p-6 rounded-r-lg my-6'>
+        <h3 className='text-lg font-semibold text-gray-900 mb-2'>Why this matters for buyers</h3>
+        <p className='text-sm text-gray-800'>
+          Defects introduced during the natural drying process&mdash;mold, uneven moisture, over-fermentation&mdash;become permanent. They cannot be corrected by the dry mill. If you are evaluating an Ethiopian natural lot, you are evaluating the competence of the drying station, not just the mill.
+        </p>
+      </div>
+
+      {/* SECTION 2: WHY NATURAL QC IS DIFFERENT */}
+      <h2 id='why-natural-qc-different' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineExclamationTriangle className='text-amber-600' />
+        2. Why Natural Coffee QC Requires a Different Approach
+      </h2>
+
+      <p className='my-4'>
+        In washed processing, the fruit is removed early and the bean is dried in a protective parchment shell. Processors can detect and correct issues during fermentation, washing, and grading channels. Naturals offer no such safety net. The cherry dries as a whole unit, meaning <strong>quality (or defects) are locked in at the cherry stage and amplified during drying</strong>.
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='min-w-full text-sm border-collapse'>
+          <thead>
+            <tr className='bg-gray-100'>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>QC Factor</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Washed Process</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Natural/Dry Process</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Cherry selection impact</td>
+              <td className='border border-gray-300 px-4 py-2'>Important but partially correctable via float tanks and density sorting</td>
+              <td className='border border-gray-300 px-4 py-2'>Critical &mdash; no correction opportunity after intake</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Drying duration</td>
+              <td className='border border-gray-300 px-4 py-2'>7&ndash;12 days (parchment)</td>
+              <td className='border border-gray-300 px-4 py-2'>15&ndash;25 days (whole cherry)</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Mold risk window</td>
+              <td className='border border-gray-300 px-4 py-2'>Moderate (shorter drying)</td>
+              <td className='border border-gray-300 px-4 py-2'>High (fruit sugars + extended drying)</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Fermentation control</td>
+              <td className='border border-gray-300 px-4 py-2'>Managed in tanks with pH/time monitoring</td>
+              <td className='border border-gray-300 px-4 py-2'>Uncontrolled &mdash; happens inside the drying cherry</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Defect visibility</td>
+              <td className='border border-gray-300 px-4 py-2'>Visible after pulping; can sort parchment</td>
+              <td className='border border-gray-300 px-4 py-2'>Hidden inside dried cherry until hulling</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Labour intensity at drying</td>
+              <td className='border border-gray-300 px-4 py-2'>Moderate turning schedule</td>
+              <td className='border border-gray-300 px-4 py-2'>High &mdash; 3&ndash;4 turns/day for 2&ndash;3 weeks</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className='my-4'>
+        For buyers, this risk profile means that <strong>evaluating a natural lot is really evaluating the drying station&apos;s discipline</strong>. A well-run station with strict cherry intake, raised beds, proper turning schedules, and moisture monitoring will consistently deliver clean naturals. A station that shortcuts any of these stages will produce lots with hidden defects that only appear in the roaster or cup.
+      </p>
+
+      {/* SECTION 3: CHERRY SELECTION */}
+      <h2 id='cherry-selection' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <PiPlant className='text-amber-600' />
+        3. Stage 1 &mdash; Cherry Selection and Intake QC
+      </h2>
+
+      <p className='my-4'>
+        Cherry selection is the single most consequential QC step in natural processing. Unlike washed coffee, where pulping and fermentation can partially compensate for mixed-ripeness cherries, naturals preserve every characteristic of the fruit&mdash;good and bad.
+      </p>
+
+      <h3 className='text-xl font-bold mt-6 mb-3'>What to look for at a well-run station</h3>
+      <ul className='space-y-2 my-4 list-disc list-inside text-gray-800'>
+        <li><strong>Ripeness sorting:</strong> Only fully ripe (deep red to purple) cherries accepted. Unripe (green/yellow) and overripe (brown/black) rejected on intake.</li>
+        <li><strong>Float separation:</strong> Cherries placed in water tanks; floaters (low density, often damaged or underripe) skimmed off.</li>
+        <li><strong>Visual inspection:</strong> Hand-sorting to remove insect-damaged, diseased, or mechanically damaged cherries.</li>
+        <li><strong>Same-day spreading:</strong> Accepted cherries spread on drying beds within hours of harvest to prevent uncontrolled fermentation.</li>
+      </ul>
+
+      <h3 className='text-xl font-bold mt-8 mb-3'>Regional Cherry Quality Profiles</h3>
+      <p className='my-4'>
+        Cherry quality and processing norms differ meaningfully across Ethiopian growing zones. Knowing these differences helps buyers set realistic expectations per origin:
+      </p>
+
+      <div className='grid md:grid-cols-2 gap-4 my-6'>
+        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
+          <h4 className='font-bold text-gray-900 mb-2'>Guji (Uraga, Hambela, Shakiso)</h4>
+          <p className='text-sm text-gray-700'>High altitude (1,800&ndash;2,200&nbsp;m). Dense, uniform cherries with strong berry and stone-fruit potential. Well-established specialty stations with strict intake sorting. G1 naturals regularly score 85&ndash;88+.</p>
         </div>
-        
-        <p className="text-lg leading-relaxed">
-          In Ethiopian coffee terminology, <strong>"dry coffee"</strong> refers to processed coffee that has been dried to the appropriate moisture content and is ready for hulling, grading, and export. This is essentially what international buyers know as <strong>parchment coffee</strong> (for washed processing) or <strong>dried cherry</strong> (for natural/dry processing) before final milling to produce clean green coffee beans.
-        </p>
+        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
+          <h4 className='font-bold text-gray-900 mb-2'>Sidamo (Bensa, Chire, Dale)</h4>
+          <p className='text-sm text-gray-700'>Varied altitude (1,600&ndash;2,200&nbsp;m). Wide quality range&mdash;top stations produce complex stone-fruit and citrus naturals, but inconsistent cherry sorting remains common at lower-tier sites. Check lot-level cupping data.</p>
+        </div>
+        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
+          <h4 className='font-bold text-gray-900 mb-2'>Yirgacheffe (Kochere, Gedeb, Aricha)</h4>
+          <p className='text-sm text-gray-700'>Renowned for floral and jasmine notes, though most Yirgacheffe is washed. Natural lots are less common but can deliver exceptional fruit-floral complexity when drying is well-managed. Higher premium, smaller volumes.</p>
+        </div>
+        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
+          <h4 className='font-bold text-gray-900 mb-2'>Harar (East Ethiopia)</h4>
+          <p className='text-sm text-gray-700'>Almost exclusively natural processed. Lower altitude (1,400&ndash;1,800&nbsp;m) produces full-bodied, winey, blueberry-noted lots. Cherry selection varies widely&mdash;traditional garden/forest coffee with less standardised intake. Lot-to-lot variance is higher.</p>
+        </div>
+        <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
+          <h4 className='font-bold text-gray-900 mb-2'>Jimma / Limu (Western Ethiopia)</h4>
+          <p className='text-sm text-gray-700'>Large-volume commercial natural regions. Cherry selection tends to be less rigorous. Best suited for commercial-grade naturals (G3&ndash;G4) destined for blends. Select stations producing G2 lots for targeted sourcing.</p>
+        </div>
+      </div>
 
-        <div className="bg-amber-50 border-l-4 border-amber-600 p-6 rounded-r-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
-            <HiOutlineBeaker className="w-6 h-6 text-amber-700" />
-            Dry Coffee Processing Stages
+      <p className='my-4'>
+        For detailed flavour profiles of each region, see our guides on <Link href='/ethiopian-coffee-guji' className='text-amber-700 hover:underline font-bold'>Guji</Link>, <Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline font-bold'>Sidamo</Link>, <Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline font-bold'>Yirgacheffe</Link>, <Link href='/ethiopian-coffee-harar' className='text-amber-700 hover:underline font-bold'>Harar</Link>, and <Link href='/ethiopian-coffee-jimma' className='text-amber-700 hover:underline font-bold'>Jimma</Link> coffees.
+      </p>
+
+      {/* SECTION 4: DRYING PROCESS */}
+      <h2 id='drying-process' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <PiSun className='text-amber-600' />
+        4. Stage 2 &mdash; Drying Process and Quality Checkpoints
+      </h2>
+
+      <p className='my-4'>
+        Drying is the longest and most labour-intensive phase of natural processing. Ethiopian naturals are typically dried on <strong>raised African beds</strong> (wire mesh stretched over wooden frames) at 3&ndash;5&nbsp;cm cherry depth, turned 3&ndash;4 times per day. The process takes 15&ndash;25 days depending on altitude, ambient temperature, humidity, and cherry size.
+      </p>
+
+      <h3 className='text-xl font-bold mt-6 mb-3'>Drying Timeline and QC Milestones</h3>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='min-w-full text-sm border-collapse'>
+          <thead>
+            <tr className='bg-gray-100'>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Phase</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Days</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Moisture</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Key QC Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Initial spread</td>
+              <td className='border border-gray-300 px-4 py-2'>Day 0&ndash;1</td>
+              <td className='border border-gray-300 px-4 py-2'>~60&ndash;65&nbsp;%</td>
+              <td className='border border-gray-300 px-4 py-2'>Thin layer on beds; remove any remaining unripe or damaged cherries</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Active fermentation</td>
+              <td className='border border-gray-300 px-4 py-2'>Day 2&ndash;5</td>
+              <td className='border border-gray-300 px-4 py-2'>~45&ndash;55&nbsp;%</td>
+              <td className='border border-gray-300 px-4 py-2'>Turn 4&times;/day to prevent mold; shade during peak heat to slow fermentation; cover at night</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Skin drying</td>
+              <td className='border border-gray-300 px-4 py-2'>Day 6&ndash;10</td>
+              <td className='border border-gray-300 px-4 py-2'>~25&ndash;40&nbsp;%</td>
+              <td className='border border-gray-300 px-4 py-2'>Cherry skin darkens and shrinks; continue 3&ndash;4&times;/day turning; check for early mold signs</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Conditioning</td>
+              <td className='border border-gray-300 px-4 py-2'>Day 11&ndash;18</td>
+              <td className='border border-gray-300 px-4 py-2'>~12&ndash;22&nbsp;%</td>
+              <td className='border border-gray-300 px-4 py-2'>Moisture migration from inner bean to surface; continued turning; begin moisture meter checks</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Target reached</td>
+              <td className='border border-gray-300 px-4 py-2'>Day 18&ndash;25</td>
+              <td className='border border-gray-300 px-4 py-2'>11&ndash;12&nbsp;%</td>
+              <td className='border border-gray-300 px-4 py-2'>Confirm with calibrated moisture meter; consolidate to deeper beds or bag for resting</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 className='text-xl font-bold mt-8 mb-3'>Common Drying Defects and Root Causes</h3>
+      <p className='my-4'>
+        Most quality failures in Ethiopian naturals trace back to the drying phase. The table below maps common defects to their processing root causes&mdash;useful when evaluating a pre-shipment sample or diagnosing a rejected lot.
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='min-w-full text-sm border-collapse'>
+          <thead>
+            <tr className='bg-red-50'>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Defect</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Root Cause</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Cup Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Mold / fungal damage</td>
+              <td className='border border-gray-300 px-4 py-2'>Insufficient turning, rain exposure, bed over-loading, ground contact</td>
+              <td className='border border-gray-300 px-4 py-2'>Musty, earthy off-flavours; lot rejection</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Over-fermentation</td>
+              <td className='border border-gray-300 px-4 py-2'>Cherries left in piles before bedding, slow initial drying, high ambient humidity</td>
+              <td className='border border-gray-300 px-4 py-2'>Vinegar, sour, boozy, or phenolic tastes</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Uneven moisture</td>
+              <td className='border border-gray-300 px-4 py-2'>Irregular turning, mixed cherry sizes on same bed, bed depth too thick</td>
+              <td className='border border-gray-300 px-4 py-2'>Inconsistent roast; some beans bake while others under-develop</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Insect damage (CBB)</td>
+              <td className='border border-gray-300 px-4 py-2'>Coffee berry borer infestation pre-harvest, inadequate sorting at intake</td>
+              <td className='border border-gray-300 px-4 py-2'>Dirty, fermented notes; physical bore holes visible in green</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Foreign matter / stones</td>
+              <td className='border border-gray-300 px-4 py-2'>Ground contact (patio drying), poor station hygiene, wind-blown debris</td>
+              <td className='border border-gray-300 px-4 py-2'>Equipment risk; automatic rejection at import QC</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>Faded / bleached beans</td>
+              <td className='border border-gray-300 px-4 py-2'>Over-drying below 10&nbsp;% moisture, excessive direct midday sun</td>
+              <td className='border border-gray-300 px-4 py-2'>Flat, papery, or woody flavour; poor shelf life</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className='my-4'>
+        For the full Ethiopian defect classification system and how defect counts translate to grade assignments, see our <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline font-bold'>green coffee quality control, defects, and grading guide</Link>.
+      </p>
+
+      {/* SECTION 5: MOISTURE & STORAGE */}
+      <h2 id='moisture-storage' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <PiDropHalfBottom className='text-amber-600' />
+        5. Stage 3 &mdash; Moisture Stabilisation and Pre-Milling Storage
+      </h2>
+
+      <p className='my-4'>
+        Once cherries reach the 11&ndash;12&nbsp;% moisture target, they enter a <strong>resting and stabilisation phase</strong> before transport to the dry mill. This step is critical for naturals because moisture inside the dried cherry can migrate unevenly, and storage conditions in Ethiopia&apos;s varied climate zones introduce reabsorption risk.
+      </p>
+
+      <div className='bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg my-6'>
+        <h3 className='text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2'>
+          <PiWarehouse className='text-blue-700' />
+          Storage Best Practices for Dried Cherry
+        </h3>
+        <ul className='space-y-2 text-sm text-gray-800'>
+          <li><strong>Target moisture at bagging:</strong> 11.0&ndash;12.0&nbsp;% confirmed by calibrated moisture meter (not squeeze tests alone).</li>
+          <li><strong>Bag material:</strong> Clean jute or GrainPro-lined bags to prevent moisture migration.</li>
+          <li><strong>Warehouse conditions:</strong> Ventilated, off the ground on pallets, away from walls. Relative humidity below 65&nbsp;%.</li>
+          <li><strong>Maximum storage time:</strong> 2&ndash;4 weeks at origin before milling is ideal. Extended storage (6+ weeks) at high humidity accelerates flavour fade and raises mold risk.</li>
+          <li><strong>Pest management:</strong> Regular inspection for storage pests (e.g., coffee weevil). No chemical treatment on the coffee itself.</li>
+        </ul>
+      </div>
+
+      <p className='my-4'>
+        For buyers, <strong>storage duration at origin is a hidden quality variable</strong>. If a coffee was dried to specification but then sat in a poorly ventilated warehouse for three months before milling, you may receive technically &ldquo;on-spec&rdquo; green that cups flat or woody. Ask your exporter about harvest-to-mill lead time when evaluating a lot.
+      </p>
+
+      {/* SECTION 6: GRADING AT MARKET ENTRY */}
+      <h2 id='grading-market-entry' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineScale className='text-amber-600' />
+        6. Stage 4 &mdash; Ethiopian Grading and QC at Market Entry
+      </h2>
+
+      <p className='my-4'>
+        After drying and storage, natural coffee enters the formal grading system&mdash;either through the Ethiopia Commodity Exchange (ECX) or through the Direct Specialty License (DSL) pathway for exporters with specialty lots scoring 85+ points.
+      </p>
+
+      <p className='my-4'>
+        Ethiopian coffee grading combines a <strong>raw/physical evaluation (40&nbsp;% weight)</strong> and a <strong>cup quality evaluation (60&nbsp;% weight)</strong>. For naturals, the physical evaluation is applied to the hulled green beans (post-milling), so drying-stage defects are fully exposed at this point.
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='min-w-full text-sm border-collapse'>
+          <thead>
+            <tr className='bg-gray-100'>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Grade</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Defects / 300&nbsp;g</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Typical Use</th>
+              <th className='border border-gray-300 px-4 py-2 text-left font-semibold'>Buyer Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>G1</td>
+              <td className='border border-gray-300 px-4 py-2'>0&ndash;3</td>
+              <td className='border border-gray-300 px-4 py-2'>Premium specialty, single origin</td>
+              <td className='border border-gray-300 px-4 py-2'>Cupping score typically 85+. Highest price tier. Verify with PSS.</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>G2</td>
+              <td className='border border-gray-300 px-4 py-2'>4&ndash;12</td>
+              <td className='border border-gray-300 px-4 py-2'>Specialty, high commercial</td>
+              <td className='border border-gray-300 px-4 py-2'>Most common specialty import grade. Clean cup with minor physical defects.</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>G3</td>
+              <td className='border border-gray-300 px-4 py-2'>13&ndash;25</td>
+              <td className='border border-gray-300 px-4 py-2'>High commercial, some specialty</td>
+              <td className='border border-gray-300 px-4 py-2'>Can still cup well. Check for primary defects vs. minor secondaries.</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>G4</td>
+              <td className='border border-gray-300 px-4 py-2'>26&ndash;45</td>
+              <td className='border border-gray-300 px-4 py-2'>Commercial blends</td>
+              <td className='border border-gray-300 px-4 py-2'>Higher defect count. Pricing reflects commodity level.</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 px-4 py-2 font-medium'>G5</td>
+              <td className='border border-gray-300 px-4 py-2'>46&ndash;90</td>
+              <td className='border border-gray-300 px-4 py-2'>Lower commercial</td>
+              <td className='border border-gray-300 px-4 py-2'>Check for primary defects (full black, full sour, foreign matter).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className='my-4'>
+        Exporters holding a Direct Specialty License can bypass ECX auction for lots scoring 85+ points, enabling <strong>direct traceability from station to buyer</strong>. This pathway is the standard for sourcing traceable Ethiopian naturals at specialty grade.
+      </p>
+
+      <p className='my-4'>
+        For full details on how coffee moves through the dry mill and export pipeline after grading, see our <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline font-bold'>dry milling and export guide</Link>.
+      </p>
+
+      {/* SECTION 7: BUYER'S QC CHECKLIST */}
+      <h2 id='buyer-checklist' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineCheckCircle className='text-amber-600' />
+        7. Buyer&apos;s QC Checklist for Ethiopian Natural Coffee
+      </h2>
+
+      <p className='my-4'>
+        Use this checklist when evaluating a pre-shipment sample (PSS) or conducting an intake assessment of an Ethiopian natural lot. It covers the physical, sensory, and documentation checks that separate a reliable lot from a risky one.
+      </p>
+
+      <div className='grid md:grid-cols-2 gap-6 my-6'>
+        <div className='bg-green-50 p-6 rounded-lg border border-green-200'>
+          <h3 className='text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2'>
+            <HiOutlineCheckCircle className='text-green-700' />
+            Physical Parameters
           </h3>
-          <ul className="space-y-2 text-gray-800">
-            <li><strong>Natural/Dry Process:</strong> Coffee cherries → sun-dried whole on raised beds/patios → dried cherry (dry coffee) → hulled → green coffee</li>
-            <li><strong>Washed/Wet Process:</strong> Coffee cherries → pulped → fermented → washed → dried in parchment → parchment coffee (dry coffee) → hulled → green coffee</li>
-            <li><strong>Honey/Semi-Washed Process:</strong> Cherries → pulped (mucilage retained) → dried → parchment coffee (dry coffee) → hulled → green coffee</li>
+          <ul className='space-y-2 text-sm text-gray-800'>
+            <li><strong>Moisture:</strong> 10.5&ndash;12.0&nbsp;% (reject above 12.5&nbsp;% or below 10.0&nbsp;%)</li>
+            <li><strong>Water activity:</strong> Below 0.60 a<sub>w</sub> for safe transit</li>
+            <li><strong>Screen size:</strong> At least 80&nbsp;% retention on screen 14+ for G1/G2</li>
+            <li><strong>Defect count:</strong> Tally per SCAA/ICO method on 300&nbsp;g sample</li>
+            <li><strong>Colour uniformity:</strong> Even green-blue to yellow-green; flag faded, dark, or mottled beans</li>
+            <li><strong>Density:</strong> Higher density correlates with better roast development</li>
           </ul>
         </div>
-
-        <p className="text-lg leading-relaxed">
-          The <strong>quality of dry coffee</strong> directly determines the final grade and value of Ethiopian green coffee at auction and export. Issues during drying-uneven moisture, mold development, over-fermentation, contamination-become permanent defects that cannot be corrected during milling. This is why Ethiopian coffee authorities place such emphasis on quality control during dry coffee preparation.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          As Mr. Asrat Mekuria emphasized in recent ECTA training programs: <em>"It is important to focus on preparing dry coffee in large quantities while maintaining its quality for the central market."</em> This balance between volume and quality is the fundamental challenge of Ethiopian coffee production at scale.
-        </p>
-      </section>
-
-      {/* Section 2: Ethiopian Coffee Processing Infrastructure */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <PiFactoryFill className="w-8 h-8 text-green-700" />
-          <h2 className="text-3xl font-bold text-gray-900">Ethiopian Coffee Processing Infrastructure & Production Scale</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          Ethiopia's coffee production relies on a distributed network of processing facilities spanning all major coffee-growing regions. Understanding this infrastructure is essential for international buyers evaluating Ethiopian coffee sourcing and quality assurance systems.
-        </p>
-
-        <div className="bg-green-50 border-l-4 border-green-600 p-6 rounded-r-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">Ethiopian Coffee Processing Facility Types</h3>
-          <div className="space-y-3 text-gray-800">
-            <div>
-              <strong className="text-green-800">Cooperative Washing Stations:</strong>
-              <p className="mt-1">Serve smallholder farmers in major coffee regions like Yirgacheffe, Sidamo, Guji, and Limu. Process washed coffee from member farmers with centralized quality control.</p>
-            </div>
-            <div>
-              <strong className="text-green-800">Private Washing Stations:</strong>
-              <p className="mt-1">Licensed exporters and processors operate wet mills purchasing cherries from outgrowers. Common in Yirgacheffe and Guji for specialty washed coffee production.</p>
-            </div>
-            <div>
-              <strong className="text-green-800">Dry Processing Centers:</strong>
-              <p className="mt-1">Natural/dry process facilities with extensive drying areas (raised beds or patios) for sun-drying whole cherries. Dominant in Harrar and increasingly popular for specialty natural lots.</p>
-            </div>
-            <div>
-              <strong className="text-green-800">Integrated Processing Estates:</strong>
-              <p className="mt-1">Larger farms with on-site washing stations and drying infrastructure processing their own production. Offer greater quality control and traceability.</p>
-            </div>
-          </div>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          According to recent ECTA reports, <strong>18,000 tons of coffee have been supplied to the central market</strong> so far this production year through this processing network. While significant, authorities note this is below expectations, highlighting ongoing challenges in production volume, quality consistency, and market access that training programs aim to address.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          The regional Coffee, Tea, and Spice Authority works with woreda (district) and kebele (sub-district) level agricultural offices to monitor processing facilities, provide training, and ensure compliance with national quality standards before coffee reaches the Ethiopia Commodity Exchange (ECX) or direct specialty export channels.
-        </p>
-      </section>
-
-      {/* Section 3: Quality Standards */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineShieldCheck className="w-8 h-8 text-blue-700" />
-          <h2 className="text-3xl font-bold text-gray-900">Quality Standards for Ethiopian Dry Coffee Production</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          Ethiopian coffee quality standards are established by the Ethiopian Coffee and Tea Authority (federal level) and enforced through regional authorities and woreda-level inspection systems. These standards apply to dry coffee before it enters the central market for grading and export preparation.
-        </p>
-
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
-              <HiOutlineClipboard className="w-6 h-6 text-blue-700" />
-              Physical Quality Parameters
-            </h3>
-            <ul className="space-y-2 text-gray-800">
-              <li><strong>Moisture Content:</strong> 11-12% for safe storage and export (measured with moisture meters at intake)</li>
-              <li><strong>Screen Size:</strong> Minimum screen size requirements vary by grade (G1 requires screen 14+ retention)</li>
-              <li><strong>Density:</strong> Higher density correlates with better cup quality (measured pre-grading)</li>
-              <li><strong>Defect Count:</strong> Primary and secondary defects tallied per 300g sample for grade determination</li>
-              <li><strong>Color Uniformity:</strong> Consistent bean color indicating even drying (visual inspection)</li>
-            </ul>
-          </div>
-
-          <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
-              <HiOutlineBeaker className="w-6 h-6 text-blue-700" />
-              Sensory Quality Standards
-            </h3>
-            <ul className="space-y-2 text-gray-800">
-              <li><strong>Cup Quality:</strong> Minimum cupping score requirements for specialty grades (G1 requires 85+ points)</li>
-              <li><strong>Off-Flavors:</strong> Zero tolerance for ferment, mold, phenolic, or medicinal defects</li>
-              <li><strong>Clean Cup:</strong> Must demonstrate clean cup free from taints or contamination</li>
-              <li><strong>Regional Character:</strong> Coffee should express typical regional flavor attributes (e.g., floral notes in Yirgacheffe)</li>
-            </ul>
-          </div>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          The Ethiopian grading system classifies coffee into grades based on defect counts:
-        </p>
-
-        <div className="bg-gray-50 p-6 rounded-lg">
-          <ul className="space-y-2 text-gray-800">
-            <li><strong>Grade 1 (G1):</strong> 0-3 defects per 300g sample - premium specialty coffee</li>
-            <li><strong>Grade 2 (G2):</strong> 4-12 defects per 300g - high-quality specialty coffee</li>
-            <li><strong>Grade 3 (G3):</strong> 13-25 defects per 300g - standard quality for commercial and some specialty</li>
-            <li><strong>Grade 4 (G4):</strong> 26-45 defects - commercial quality</li>
-            <li><strong>Grade 5 (G5):</strong> 46-90 defects - lower commercial grades</li>
-          </ul>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          Quality standards are enforced at multiple checkpoints: at the processing facility before delivery to central market, at ECX intake and grading, and during final export preparation. This multi-layer system ensures that defective coffee is identified and downgraded or rejected before reaching international buyers.
-        </p>
-      </section>
-
-      {/* Section 4: Common Quality Defects */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineClipboard className="w-8 h-8 text-red-700" />
-          <h2 className="text-3xl font-bold text-gray-900">Common Quality Defects in Ethiopian Dry Coffee Production</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          Mr. Asrat Mekuria emphasized in recent training that <em>"the causes of quality defects and the failure to bring fully prepared products to the central market should be identified in each area."</em> Understanding these defects is critical for both Ethiopian processors and international buyers evaluating coffee quality.
-        </p>
-
-        <div className="space-y-6">
-          <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Primary Defects (Higher Impact on Cup Quality)</h3>
-            <div className="space-y-3 text-gray-800">
-              <div>
-                <strong className="text-red-800">Full Black Beans:</strong>
-                <p className="mt-1">Cause: Over-fermentation, mold development during drying, or processing overripe/damaged cherries. Impact: Creates harsh, fermented, or phenolic off-flavors.</p>
-              </div>
-              <div>
-                <strong className="text-red-800">Full Sour Beans:</strong>
-                <p className="mt-1">Cause: Bacterial contamination during fermentation, dirty processing water, or extended fermentation times. Impact: Produces vinegar-like acidity defects.</p>
-              </div>
-              <div>
-                <strong className="text-red-800">Pod/Cherry:</strong>
-                <p className="mt-1">Cause: Inadequate hulling or incomplete processing. Dried cherry entering green coffee. Impact: Creates medicinal or earthy flavors.</p>
-              </div>
-              <div>
-                <strong className="text-red-800">Foreign Matter:</strong>
-                <p className="mt-1">Cause: Stones, sticks, metal, or other contamination during harvest, drying, or storage. Impact: Equipment damage risk and sanitation concerns.</p>
-              </div>
-              <div>
-                <strong className="text-red-800">Severe Insect Damage:</strong>
-                <p className="mt-1">Cause: Coffee berry borer (CBB) infestation. Impact: Creates dirty, musty, or fermented off-flavors.</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-r-lg">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Secondary Defects (Lower Individual Impact, Cumulative Effect)</h3>
-            <div className="space-y-3 text-gray-800">
-              <div>
-                <strong className="text-orange-800">Partial Black/Sour:</strong>
-                <p className="mt-1">Cause: Inconsistent drying, uneven fermentation, or moisture reabsorption. Impact: Mild off-flavors and reduced clarity.</p>
-              </div>
-              <div>
-                <strong className="text-orange-800">Floaters:</strong>
-                <p className="mt-1">Cause: Underdeveloped or drought-stressed beans with low density. Impact: Uneven roasting and muted flavors.</p>
-              </div>
-              <div>
-                <strong className="text-orange-800">Immature/Unripe Beans:</strong>
-                <p className="mt-1">Cause: Harvesting underripe cherries (often at end of season). Impact: Grassy, astringent, or papery flavors.</p>
-              </div>
-              <div>
-                <strong className="text-orange-800">Broken/Chipped Beans:</strong>
-                <p className="mt-1">Cause: Mechanical damage during hulling or transport. Impact: Over-roasting of smaller fragments, visual defect.</p>
-              </div>
-              <div>
-                <strong className="text-orange-800">Quakers:</strong>
-                <p className="mt-1">Cause: Immature or damaged beans that fail to roast properly. Impact: Create astringent or underdeveloped flavors.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          The ECTA training programs led by coffee production preparation expert Ato Shimelis Aragaw focus specifically on <strong>defect prevention during dry coffee preparation</strong>. Key prevention strategies include proper cherry selection at harvest, controlled fermentation management, even drying on raised beds with regular turning, moisture monitoring, and contamination prevention during storage and transport.
-        </p>
-      </section>
-
-      {/* Section 5: ECTA Quality Control Initiatives */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineBuildingOffice className="w-8 h-8 text-purple-700" />
-          <h2 className="text-3xl font-bold text-gray-900">Ethiopian Coffee Authority's Quality Control Initiatives</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          The Regional Coffee, Tea, and Spice Authority, led by Director General Mr. Asrat Mekuria, has launched comprehensive training and monitoring programs to address quality challenges in Ethiopian dry coffee production. These initiatives work in collaboration with the <strong>Food System Resilience Program (FSRP)</strong> to strengthen institutional capacity and improve on-the-ground processing practices.
-        </p>
-
-        <div className="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
-            <HiOutlineAcademicCap className="w-6 h-6 text-purple-700" />
-            Recent Training Programs (2025-2026)
+        <div className='bg-green-50 p-6 rounded-lg border border-green-200'>
+          <h3 className='text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2'>
+            <HiOutlineCheckCircle className='text-green-700' />
+            Sensory Evaluation
           </h3>
-          <ul className="space-y-2 text-gray-800">
-            <li><strong>Dry Coffee Production Preparation Training:</strong> Technical training on processing best practices, drying management, and quality control protocols</li>
-            <li><strong>6-Month Performance Review Forums:</strong> Evaluation of processing performance with zone and woreda leaders to identify systemic challenges</li>
-            <li><strong>Quality Defect Identification Workshops:</strong> Training sector leaders and experts to recognize, categorize, and prevent common defects</li>
-            <li><strong>Central Market Access Training:</strong> Education on ECX requirements, documentation, and logistics to reduce product accumulation at processing facilities</li>
-            <li><strong>Collaborative Problem-Solving Sessions:</strong> Multi-stakeholder forums bringing together producers, processors, and authorities for coordinated solutions</li>
+          <ul className='space-y-2 text-sm text-gray-800'>
+            <li><strong>Clean cup:</strong> No ferment, mold, phenol, or medicinal taints</li>
+            <li><strong>Sweetness:</strong> Naturals should express fruit sweetness (berry, stone fruit)</li>
+            <li><strong>Body:</strong> Medium to heavy; thin body may indicate under-drying or faded lot</li>
+            <li><strong>Flavour notes:</strong> Should match origin profile (see regional profiles in Section 3)</li>
+            <li><strong>Uniformity:</strong> ≥5 of 6 cups should be consistent</li>
+            <li><strong>Aftertaste:</strong> Clean finish; lingering ferment or harshness is a red flag</li>
           </ul>
         </div>
+      </div>
 
-        <p className="text-lg leading-relaxed">
-          Mr. Asrat Mekuria's emphasis on <em>"identifying gaps that still need to be corrected"</em> reflects a data-driven approach to quality improvement. Training participants-including zone and city administration sector leaders, woreda coffee team leaders, and processing facility experts-receive documentation focusing on <strong>dry coffee production preparation and quality maintenance</strong> prepared by Authority specialists.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          The Authority's goals extend beyond training to systemic improvement: ensuring <strong>coordination between all structures</strong> (federal, regional, zonal, woreda levels), preventing product accumulation at processing facilities, maintaining quality standards throughout the supply chain, and facilitating timely market entry for properly prepared coffee.
-        </p>
-
-        <div className="bg-blue-50 p-6 rounded-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">Key Performance Indicators Monitored</h3>
-          <ul className="space-y-2 text-gray-800">
-            <li>Volume of dry coffee delivered to central market (target vs. actual)</li>
-            <li>Defect rates by processing facility and region (tracking quality improvements)</li>
-            <li>Grade distribution (percentage achieving G1, G2, G3+ specialty grades)</li>
-            <li>Processing turnaround time (cherry intake to market-ready dry coffee)</li>
-            <li>Storage losses and quality degradation during warehousing</li>
-            <li>Rejection rates at ECX intake (identifying persistent quality issues)</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* Section 6: Central Market System */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineChartBar className="w-8 h-8 text-indigo-700" />
-          <h2 className="text-3xl font-bold text-gray-900">Central Market System (ECX) & Dry Coffee Quality Requirements</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          The <strong>Ethiopia Commodity Exchange (ECX)</strong> serves as the central market where most Ethiopian coffee is graded, traded, and prepared for export. Understanding ECX's role and requirements is essential for both Ethiopian processors delivering dry coffee and international buyers sourcing Ethiopian green coffee.
-        </p>
-
-        <div className="bg-indigo-50 border-l-4 border-indigo-600 p-6 rounded-r-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">ECX Coffee Journey: Dry Coffee to Export</h3>
-          <ol className="space-y-2 text-gray-800 list-decimal list-inside">
-            <li><strong>Delivery:</strong> Processors deliver dried coffee (parchment or dried cherry) to ECX-designated warehouses</li>
-            <li><strong>Intake Inspection:</strong> ECX receives coffee and conducts initial quality screening (moisture, contamination, visual assessment)</li>
-            <li><strong>Hulling:</strong> Coffee is mechanically hulled to remove parchment or dried cherry layer, producing clean green coffee</li>
-            <li><strong>Grading:</strong> ECX graders evaluate physical defects (per 300g sample) and assign grade (G1-G5)</li>
-            <li><strong>Cupping:</strong> Specialty lots are cupped by certified Q-graders to confirm sensory quality</li>
-            <li><strong>Certification:</strong> Coffee receives ECX certificate with grade, origin, processing method, and lot number</li>
-            <li><strong>Auction/Direct Sale:</strong> Coffee enters ECX auction system or direct specialty export channels (for DSL holders)</li>
-            <li><strong>Export Preparation:</strong> Purchased lots are cleaned, sorted, bagged in export packaging, and shipped</li>
-          </ol>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          Once dry coffee leaves the processing facility, it passes through the dry mill - the facility where parchment and dried cherry are mechanically converted into export-ready green beans through hulling, size grading, density sorting, and hand-sorting. For a full breakdown of each step and what buyers should expect, see our <Link href="/insights/ethiopian-coffee-dry-milling-export-guide" className="underline font-bold">Ethiopian coffee dry milling export guide</Link>.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          Mr. Asrat Mekuria's concern about <strong>product accumulation at processing facilities</strong> highlights a critical challenge: when dry coffee fails to meet ECX intake standards or processors lack proper documentation and logistics support, coffee accumulates at origin, risking quality degradation and financial losses.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          ECTA's training programs emphasize <strong>preparing coffee that meets central market requirements on first submission</strong>, reducing rejection rates and ensuring smooth market access. This includes proper moisture management (preventing both over-drying and under-drying), defect sorting before delivery, appropriate packaging to prevent contamination, complete documentation, and coordination with ECX logistics systems.
-        </p>
-
-        <div className="bg-gray-50 p-6 rounded-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">Direct Specialty License (DSL) Alternative</h3>
-          <p className="text-gray-800 mb-3">
-            Licensed exporters with <strong>Direct Specialty License</strong> can bypass ECX auction for coffee scoring 85+ points, offering:
-          </p>
-          <ul className="space-y-2 text-gray-800">
-            <li><strong>Greater Traceability:</strong> Direct relationship between exporter, processor, and international buyer</li>
-            <li><strong>Quality Control:</strong> Exporters manage processing and quality standards directly</li>
-            <li><strong>Premium Pricing:</strong> Specialty buyers pay premiums for traceable, high-scoring lots</li>
-            <li><strong>Faster Market Access:</strong> Reduced time from harvest to export compared to ECX auction system</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* Section 7: Training Programs */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineUserGroup className="w-8 h-8 text-teal-700" />
-          <h2 className="text-3xl font-bold text-gray-900">Training Programs for Coffee Quality Improvement</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          The recent training and 6-month performance review conducted by the Regional Coffee, Tea Authority represents a comprehensive approach to quality improvement, bringing together stakeholders at every level of the production system.
-        </p>
-
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Training Participants</h3>
-            <ul className="space-y-2 text-gray-800">
-              <li><strong>Zone Sector Leaders:</strong> Agricultural office leadership overseeing multiple woredas</li>
-              <li><strong>Woreda Sector Leaders:</strong> District-level agricultural officials managing local production</li>
-              <li><strong>Processing Facility Experts:</strong> Technical staff at washing stations and dry processing centers</li>
-              <li><strong>Cooperative Managers:</strong> Leadership from farmer cooperatives operating processing facilities</li>
-              <li><strong>Quality Control Inspectors:</strong> Government inspectors responsible for intake quality assessment</li>
-              <li><strong>Extension Officers:</strong> Agricultural extension workers advising farmers on harvest and post-harvest practices</li>
-            </ul>
-          </div>
-
-          <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Training Content Areas</h3>
-            <ul className="space-y-2 text-gray-800">
-              <li><strong>Processing Best Practices:</strong> Technical protocols for washed, natural, and honey processing</li>
-              <li><strong>Drying Management:</strong> Proper drying techniques, moisture monitoring, and prevention of overdrying/underdrying</li>
-              <li><strong>Defect Recognition:</strong> Identifying primary and secondary defects, understanding causes</li>
-              <li><strong>Quality Maintenance:</strong> Storage protocols, contamination prevention, proper handling</li>
-              <li><strong>Documentation Requirements:</strong> Traceability records, delivery documentation, quality certificates</li>
-              <li><strong>Market Access Procedures:</strong> ECX requirements, timing, logistics coordination</li>
-            </ul>
-          </div>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          Ato Shimelis Aragaw, a coffee and tea production preparation expert at the Authority, presents the <strong>training document focusing on dry coffee production preparation and quality maintenance</strong>. This documentation serves as both training material during forums and reference material for ongoing implementation at processing facilities.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          The <strong>6-month performance review component</strong> allows participants to share challenges encountered during the production season, present data on volumes and quality outcomes, identify systemic bottlenecks requiring policy or infrastructure solutions, and develop coordinated action plans for remaining production months.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          Mr. Asrat Mekuria's call for <em>"in-depth discussion"</em> and <em>"common solutions"</em> reflects recognition that quality improvement requires collaboration between government authorities, processing facilities, cooperatives, and farmers-not just top-down mandates.
-        </p>
-      </section>
-
-      {/* Section 8: Regional Authority's Role */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineCog className="w-8 h-8 text-gray-700" />
-          <h2 className="text-3xl font-bold text-gray-900">Regional Coffee Authority's Coordination & Oversight Role</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          The Regional Coffee, Tea, and Spice Authority operates as the critical coordination layer between federal policy (Ethiopian Coffee and Tea Authority) and on-the-ground production (woreda agricultural offices and processing facilities). This middle-tier role is essential for translating national quality standards into local implementation.
-        </p>
-
-        <div className="bg-gray-50 border-l-4 border-gray-600 p-6 rounded-r-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">Key Authority Functions</h3>
-          <div className="space-y-3 text-gray-800">
-            <div>
-              <strong className="text-gray-800">Policy Implementation:</strong>
-              <p className="mt-1">Translate federal regulations into regional enforcement protocols, ensuring national quality standards are maintained across all facilities.</p>
-            </div>
-            <div>
-              <strong className="text-gray-800">Capacity Building:</strong>
-              <p className="mt-1">Organize training programs, provide technical documentation, and develop local expertise in coffee processing and quality control.</p>
-            </div>
-            <div>
-              <strong className="text-gray-800">Performance Monitoring:</strong>
-              <p className="mt-1">Track production volumes, quality outcomes, defect rates, and market access across zones and woredas to identify improvement needs.</p>
-            </div>
-            <div>
-              <strong className="text-gray-800">Problem Resolution:</strong>
-              <p className="mt-1">Address systemic challenges preventing coffee from reaching market, coordinate solutions between stakeholders, and remove bottlenecks.</p>
-            </div>
-            <div>
-              <strong className="text-gray-800">Market Facilitation:</strong>
-              <p className="mt-1">Support processors in meeting ECX requirements, coordinate logistics, and prevent product accumulation at origin.</p>
-            </div>
-          </div>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          Director General Mr. Asrat Mekuria's leadership emphasizes <strong>coordination between all structures</strong>-recognizing that quality coffee production requires alignment between federal authorities setting standards, regional authorities providing training and oversight, zonal offices coordinating across districts, woreda agricultural teams supporting local facilities, and processing facilities implementing best practices.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          The Authority's collaboration with the <strong>Food System Resilience Program (FSRP)</strong> brings additional resources and technical support to quality improvement initiatives, including funding for training programs, support for infrastructure improvements at processing facilities, technical assistance for quality control systems, and data systems for tracking production and quality metrics.
-        </p>
-      </section>
-
-      {/* Section 9: Cherry to Dry Coffee Processing */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <PiPlantFill className="w-8 h-8 text-green-700" />
-          <h2 className="text-3xl font-bold text-gray-900">From Cherry to Dry Coffee: Processing Steps & Quality Control Points</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          Understanding the complete processing pathway from fresh cherry to market-ready dry coffee reveals where quality is maintained or lost. Each processing method has distinct quality control requirements.
-        </p>
-
-        <div className="space-y-6">
-          <div className="bg-green-50 border-l-4 border-green-600 p-6 rounded-r-lg">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Washed/Wet Processing Quality Control</h3>
-            <ol className="space-y-3 text-gray-800 list-decimal list-inside">
-              <li><strong>Cherry Reception:</strong> Sort and float cherries to remove underripe, overripe, and damaged fruit</li>
-              <li><strong>Pulping:</strong> Mechanical removal of skin and fruit; requires proper machine calibration to avoid bean damage</li>
-              <li><strong>Fermentation:</strong> CRITICAL QUALITY PHASE - typically 12-48 hours depending on temperature; must monitor pH and prevent over-fermentation</li>
-              <li><strong>Washing:</strong> Clean water channels remove mucilage; contaminated water creates off-flavors</li>
-              <li><strong>Grading:</strong> Density channels separate grades; floaters indicate lower quality</li>
-              <li><strong>Drying:</strong> Sun drying on raised beds or mechanical drying to 11-12% moisture; requires even drying and regular turning</li>
-              <li><strong>Parchment Storage:</strong> Dried parchment coffee (dry coffee) stored in clean, dry conditions until delivery to market</li>
-            </ol>
-            <p className="mt-3 text-sm text-gray-700"><em>Quality Risk Points: Over-fermentation (sour beans), contaminated water (off-flavors), uneven drying (moisture variation, mold risk), improper storage (moisture reabsorption, contamination)</em></p>
-          </div>
-
-          <div className="bg-amber-50 border-l-4 border-amber-600 p-6 rounded-r-lg">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Natural/Dry Processing Quality Control</h3>
-            <ol className="space-y-3 text-gray-800 list-decimal list-inside">
-              <li><strong>Cherry Selection:</strong> CRITICAL - only properly ripe cherries; underripe creates immature beans, overripe risks fermentation defects</li>
-              <li><strong>Initial Drying:</strong> Spread cherries on raised beds or patios immediately after harvest; delay causes fermentation</li>
-              <li><strong>Drying Management:</strong> Daily turning (multiple times) for 15-20 days; requires consistent attention to prevent mold or uneven drying</li>
-              <li><strong>Moisture Monitoring:</strong> Target 11-12% moisture; over-drying causes brittleness, under-drying risks mold in storage</li>
-              <li><strong>Sorting:</strong> Remove defective cherries during drying process; easier to identify before hulling</li>
-              <li><strong>Storage:</strong> Dried cherry (dry coffee) stored in moisture-controlled environment until hulling</li>
-            </ol>
-            <p className="mt-3 text-sm text-gray-700"><em>Quality Risk Points: Cherry selection (quality locked in at harvest), mold development (high humidity or inadequate turning), uneven drying (creates moisture variation within lot), contamination (ground contact or debris)</em></p>
-          </div>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          ECTA training emphasizes that <strong>quality control must occur at every processing stage</strong>, not just final inspection before market delivery. Problems identified during intake inspection or grading typically originated days or weeks earlier during fermentation, drying, or storage-when prevention would have been far easier than correction.
-        </p>
-      </section>
-
-      {/* Section 10: Quality Assurance Best Practices */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineLightBulb className="w-8 h-8 text-yellow-600" />
-          <h2 className="text-3xl font-bold text-gray-900">Quality Assurance Best Practices for Ethiopian Coffee Processors</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          Based on ECTA training materials and industry best practices, these protocols help processing facilities consistently produce high-quality dry coffee for both ECX central market and direct specialty export.
-        </p>
-
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Infrastructure & Equipment</h3>
-            <ul className="space-y-2 text-gray-800">
-              <li>Raised drying beds (African beds) prevent ground contact and improve airflow</li>
-              <li>Shade netting controls drying speed and prevents rain damage</li>
-              <li>Properly calibrated pulping machines minimize bean damage</li>
-              <li>Clean water supply for fermentation and washing (contamination-free)</li>
-              <li>Moisture meters for accurate moisture content monitoring</li>
-              <li>Density sorting channels or tables for quality separation</li>
-              <li>Clean, dry, ventilated storage facilities with pest control</li>
-              <li>Quality parchment or jute bags for dry coffee storage and transport</li>
-            </ul>
-          </div>
-
-          <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Operational Protocols</h3>
-            <ul className="space-y-2 text-gray-800">
-              <li>Daily moisture monitoring during drying phase</li>
-              <li>Regular turning schedule (3-4 times daily for optimal even drying)</li>
-              <li>Fermentation monitoring (time, temperature, pH testing)</li>
-              <li>Visual inspection and hand-sorting throughout processing</li>
-              <li>Batch separation by cherry quality, harvest date, and farm source</li>
-              <li>Traceability documentation (cherry source, processing date, lot numbers)</li>
-              <li>Pre-delivery quality testing (moisture, defect count, cupping)</li>
-              <li>Staff training on defect recognition and quality standards</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="bg-blue-50 p-6 rounded-lg mt-6">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
-            <HiOutlineTrophy className="w-6 h-6 text-blue-700" />
-            Achieving Specialty Grade (G1/G2) Dry Coffee
+      <div className='grid md:grid-cols-2 gap-6 my-6'>
+        <div className='bg-green-50 p-6 rounded-lg border border-green-200'>
+          <h3 className='text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2'>
+            <HiOutlineShieldCheck className='text-green-700' />
+            Documentation to Request
           </h3>
-          <p className="text-gray-800 mb-3">Consistently producing specialty-grade coffee requires:</p>
-          <ul className="space-y-2 text-gray-800">
-            <li><strong>Selective Harvesting:</strong> Only properly ripe cherries (red/purple depending on variety)</li>
-            <li><strong>Same-Day Processing:</strong> Process cherries within 6-8 hours of harvest to prevent fermentation</li>
-            <li><strong>Controlled Fermentation:</strong> Monitor closely; test for completion (clean feel, proper pH)</li>
-            <li><strong>Immediate Drying Initiation:</strong> Begin drying immediately after washing to prevent sour development</li>
-            <li><strong>Slow, Even Drying:</strong> 10-15 days for parchment, 15-20 days for natural; avoid rapid drying</li>
-            <li><strong>Target Moisture:</strong> Precise 11-12% moisture content before storage</li>
-            <li><strong>Defect Removal:</strong> Hand-sort during and after drying to remove any defective beans</li>
-            <li><strong>Proper Storage:</strong> Climate-controlled or well-ventilated; prevent moisture reabsorption</li>
+          <ul className='space-y-2 text-sm text-gray-800'>
+            <li>ECX or DSL grade certificate with lot number</li>
+            <li>Pre-shipment sample matching offer contract</li>
+            <li>Cupping report from certified Q-grader</li>
+            <li>Traceability record (station, woreda, zone, harvest period)</li>
+            <li>Moisture certificate at time of bagging</li>
+            <li>Phytosanitary and export clearance documents</li>
           </ul>
         </div>
-      </section>
-
-      {/* Section 11: Market Access and Export Requirements */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineGlobeAlt className="w-8 h-8 text-cyan-700" />
-          <h2 className="text-3xl font-bold text-gray-900">Market Access & Export Requirements for Ethiopian Dry Coffee</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          For international buyers, understanding how Ethiopian dry coffee moves from processing facilities to export channels helps evaluate supplier capabilities and quality assurance systems.
-        </p>
-
-        <div className="bg-cyan-50 border-l-4 border-cyan-600 p-6 rounded-r-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">Documentation Required for Market Entry</h3>
-          <div className="space-y-2 text-gray-800">
-            <p><strong>For ECX Central Market:</strong></p>
-            <ul className="ml-6 space-y-1">
-              <li>Delivery note from processing facility</li>
-              <li>Traceability records (farm/cooperative source, processing date)</li>
-              <li>Processing facility license and inspection certification</li>
-              <li>Quality pre-assessment by regional authority (if required)</li>
-              <li>Transport documentation and lot identification</li>
-            </ul>
-            <p className="mt-3"><strong>For Direct Specialty Export (DSL holders):</strong></p>
-            <ul className="ml-6 space-y-1">
-              <li>All ECX documentation plus:</li>
-              <li>Cupping score sheet (85+ points from certified Q-grader)</li>
-              <li>Detailed traceability to farm or cooperative level</li>
-              <li>Direct Specialty License certificate</li>
-              <li>Export contract with international buyer</li>
-            </ul>
-          </div>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          Mr. Asrat Mekuria's concern about ensuring <em>"there is no product accumulation and that it enters the central market"</em> highlights that documentation and logistics challenges can prevent otherwise quality coffee from reaching buyers. ECTA training addresses these operational barriers alongside technical quality improvements.
-        </p>
-
-        <div className="bg-gray-50 p-6 rounded-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">What International Buyers Should Expect</h3>
-          <p className="text-gray-800 mb-3">When sourcing Ethiopian coffee, buyers should receive from reputable exporters:</p>
-          <ul className="space-y-2 text-gray-800">
-            <li><strong>ECX Certificate:</strong> Official grade (G1-G5), origin, processing method, crop year</li>
-            <li><strong>Cupping Report:</strong> Professional Q-grader evaluation for specialty lots</li>
-            <li><strong>Physical Specifications:</strong> Screen size distribution, moisture content, density</li>
-            <li><strong>Traceability Information:</strong> Region, washing station/coop name, processing dates</li>
-            <li><strong>Defect Count:</strong> Primary and secondary defects per 300g sample matching grade claim</li>
-            <li><strong>Sensory Profile:</strong> Flavor notes, body, acidity characteristics typical of origin</li>
-            <li><strong>Availability Timeline:</strong> When coffee will be available for shipment (based on harvest and processing calendar)</li>
-          </ul>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          Quality exporters like <strong>Ethio Coffee Import and Export PLC</strong> maintain direct relationships with processing facilities, conduct pre-shipment quality verification, and provide complete documentation and traceability for every lot-ensuring that the careful quality management during dry coffee preparation translates into consistent quality for international roasters and importers.
-        </p>
-      </section>
-
-      {/* Section 12: Future of Quality */}
-      <section className="space-y-4">
-        <div className="flex items-center gap-3">
-          <HiOutlineArrowTrendingUp className="w-8 h-8 text-emerald-700" />
-          <h2 className="text-3xl font-bold text-gray-900">The Future of Ethiopian Coffee Quality: Continuous Improvement & Modernization</h2>
-        </div>
-        
-        <p className="text-lg leading-relaxed">
-          The ECTA training programs and performance review initiatives represent ongoing commitment to elevating Ethiopian coffee quality. Several trends and developments will shape the future of Ethiopian dry coffee production and quality assurance.
-        </p>
-
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-emerald-50 p-6 rounded-lg border border-emerald-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Modernization Initiatives</h3>
-            <ul className="space-y-2 text-gray-800">
-              <li><strong>Processing Technology:</strong> Investment in mechanical dryers for quality control and climate resilience</li>
-              <li><strong>Digital Traceability:</strong> Blockchain and QR code systems for farm-to-export tracking</li>
-              <li><strong>Quality Labs:</strong> Regional coffee laboratories for scientific quality analysis and training</li>
-              <li><strong>Data Systems:</strong> Performance tracking and analytics to identify quality improvement opportunities</li>
-              <li><strong>Infrastructure Investment:</strong> Improved drying infrastructure, warehousing, and logistics</li>
-            </ul>
-          </div>
-
-          <div className="bg-emerald-50 p-6 rounded-lg border border-emerald-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Market-Driven Quality Premiums</h3>
-            <ul className="space-y-2 text-gray-800">
-              <li><strong>Specialty Coffee Demand:</strong> Growing international demand for G1/G2 specialty grades drives quality focus</li>
-              <li><strong>Direct Trade Growth:</strong> More exporters seeking DSL to access specialty markets with premium pricing</li>
-              <li><strong>Competition Recognition:</strong> AFCA Taste of Harvest and Cup of Excellence showcase quality leaders</li>
-              <li><strong>Traceability Premiums:</strong> Buyers paying premiums for farm-level or coop-specific lots</li>
-              <li><strong>Sustainability Certification:</strong> Organic, Rainforest Alliance, Fair Trade adding value to quality coffee</li>
-            </ul>
-          </div>
-        </div>
-
-        <p className="text-lg leading-relaxed">
-          The collaboration between government authorities (ECTA, regional authorities), development programs (FSRP), private exporters, cooperatives, and processors creates a comprehensive ecosystem supporting quality improvement. As Mr. Asrat Mekuria emphasized, success requires <strong>"all structures working in coordination"</strong>-recognizing that Ethiopian coffee quality is a shared responsibility and competitive advantage.
-        </p>
-
-        <p className="text-lg leading-relaxed">
-          For international buyers, these quality initiatives translate into more consistent supply of high-grade Ethiopian coffee, improved traceability and transparency throughout the supply chain, reduced quality defects and rejection rates, and stronger partnerships with Ethiopian exporters committed to quality excellence.
-        </p>
-
-        <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-r-lg">
-          <h3 className="text-xl font-semibold text-gray-900 mb-3 flex items-center gap-2">
-            <HiOutlineTrophy className="w-6 h-6 text-emerald-700" />
-            The Quality Imperative
+        <div className='bg-red-50 p-6 rounded-lg border border-red-200'>
+          <h3 className='text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2'>
+            <HiOutlineExclamationTriangle className='text-red-700' />
+            Red Flags &mdash; When to Walk Away
           </h3>
-          <p className="text-gray-800">
-            Ethiopian coffee's global reputation depends on maintaining the quality standards that make it exceptional. From careful cherry selection at harvest through controlled processing to proper dry coffee preparation and market delivery, every step requires attention, expertise, and commitment. The ECTA training programs, regional authority oversight, and continuous improvement initiatives ensure that Ethiopia's coffee-whether destined for ECX auction or direct specialty export-meets the rigorous standards that buyers worldwide expect from the birthplace of arabica.
-          </p>
+          <ul className='space-y-2 text-sm text-gray-800'>
+            <li>Moisture above 12.5&nbsp;% &mdash; mold risk during transit</li>
+            <li>Any full black or full sour beans in PSS &mdash; primary defects indicating processing failure</li>
+            <li>Ferment or phenol in any cup of a 6-cup set &mdash; lot-wide contamination likely</li>
+            <li>Exporter cannot provide station-level traceability &mdash; lot mixing probable</li>
+            <li>Wide variation in bean colour or size &mdash; multiple lots blended post-hoc</li>
+            <li>PSS that does not match offer sample &mdash; bait-and-switch risk</li>
+          </ul>
         </div>
-      </section>
+      </div>
+
+      <p className='my-4'>
+        For a practical guide to cupping and evaluating samples, see <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline font-bold'>how to cup and evaluate Ethiopian coffee samples</Link>.
+      </p>
 
       {/* FAQ SECTION */}
-      <section className="mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions About Ethiopian Dry Coffee Processing and Quality Control</h3>
-        <div className="space-y-6">
+      <section id='faq-dry-coffee' className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200 mt-10'>
+        <h2 className='text-2xl font-bold mb-6 text-gray-900 flex items-center gap-2'>
+          <HiOutlineQuestionMarkCircle className='text-amber-600' />
+          8. Frequently Asked Questions
+        </h2>
+        <div className='space-y-6'>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What is dry processed coffee in Ethiopia?</h4>
-            <p className="text-sm text-gray-600">Dry processed (natural) coffee in Ethiopia involves drying whole coffee cherries on raised beds or patios in the sun. The fruit dries around the bean over 15 to 20 days, imparting fruity, wine-like, and full-bodied flavor characteristics that distinguish Ethiopian naturals in the global market.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What is dry processed coffee in Ethiopia?</h4>
+            <p className='text-sm text-gray-600'>Dry processed (natural) coffee in Ethiopia involves drying whole coffee cherries on raised beds in the sun for 15 to 25 days. The fruit dries around the bean, imparting fruity, wine-like, and full-bodied flavour characteristics. The dried cherry is then hulled at the dry mill to produce export-ready green coffee.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What are the most common quality defects in Ethiopian dry processed coffee?</h4>
-            <p className="text-sm text-gray-600">Common defects include over-fermentation from slow or uneven drying, mold development from moisture exposure, foreign matter contamination, insect damage, and inconsistent moisture levels. Proper drying bed management, regular turning, and sorting help minimize these defects.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What are the main defects in Ethiopian natural coffee?</h4>
+            <p className='text-sm text-gray-600'>The most common defects are mold or fungal damage from inadequate turning, over-fermentation from delayed bedding or high humidity, uneven moisture from inconsistent drying, insect damage from coffee berry borer, and foreign matter from ground contact. Each traces to a specific processing failure that buyers can audit.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What moisture content is required for Ethiopian export coffee?</h4>
-            <p className="text-sm text-gray-600">Ethiopian export coffee must reach a target moisture content of 11 to 12 percent before storage and shipment. Moisture levels above 12.5 percent risk mold growth during transit, while levels below 10 percent can damage bean structure and reduce cup quality.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What moisture content is required for Ethiopian export coffee?</h4>
+            <p className='text-sm text-gray-600'>Ethiopian export coffee must reach 11 to 12 percent moisture. Levels above 12.5 percent risk mold growth during ocean transit, while levels below 10 percent can crack beans during hulling and produce flat, woody cup profiles. Calibrated moisture meters are essential for accurate measurement.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How does ECTA improve Ethiopian coffee quality?</h4>
-            <p className="text-sm text-gray-600">The Ethiopian Coffee and Tea Authority (ECTA) runs training programs for processors and cooperatives covering proper drying techniques, defect identification, moisture monitoring, and storage practices. ECTA also conducts performance reviews and oversees quality standards at regional processing facilities.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>How long does Ethiopian coffee take to dry on raised beds?</h4>
+            <p className='text-sm text-gray-600'>Natural processed Ethiopian coffee takes 15 to 25 days on raised beds, depending on altitude, ambient temperature, and humidity. Higher-altitude stations in Guji or Yirgacheffe often require 20 to 25 days, while lower-altitude Harar sites may finish in 15 to 18 days. Cherries are turned 3 to 4 times daily throughout.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>How does Ethiopia&apos;s grading system classify natural coffees?</h4>
+            <p className='text-sm text-gray-600'>Ethiopian coffee is graded G1 through G5 based on defect count per 300 grams (40 percent weight) and cup quality score (60 percent weight). G1 naturals have 0 to 3 defects and typically cup at 85 or above. Most specialty natural imports are G2 (4 to 12 defects). Grades are assigned at ECX or by DSL-licensed exporters.</p>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="space-y-6 mt-12">
-        <div className="bg-gradient-to-br from-amber-600 to-amber-800 text-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-3xl font-bold mb-4">Partner with Ethio Coffee Export for Quality-Assured Ethiopian Coffee</h2>
-          <p className="text-lg mb-6 text-amber-50">
-            Ethio Coffee Import and Export PLC works directly with processing facilities and cooperatives committed to quality excellence. We conduct pre-shipment quality verification, provide complete traceability documentation, and ensure every lot meets rigorous standards from dry coffee preparation through export delivery. Contact us to source G1 and G2 specialty Ethiopian coffee with confidence.
-          </p>
-          <div className="flex flex-wrap gap-4">
-            <Link 
-              href="/contact-us" 
-              className="bg-white text-amber-800 px-6 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors"
-            >
-              Request a Quote
-            </Link>
-            <Link 
-              href="/offerings" 
-              className="bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-600 transition-colors border-2 border-white"
-            >
-              View Our Offerings
-            </Link>
-          </div>
-        </div>
-
-        {/* Related Resources */}
-        <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
-          <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <div>
-              <h4 className='font-semibold mb-2 text-sm'>Quality & Grading</h4>
-              <ul className='space-y-1 text-sm'>
-                <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
-                <li>• <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
-                <li>• <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup Ethiopian Coffee Samples</Link></li>
-                <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing</Link></li>
-                <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className='font-semibold mb-2 text-sm'>Export & Trade</h4>
-              <ul className='space-y-1 text-sm'>
-                <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
-                <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
-                <li>• <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Coffee Certifications Guide</Link></li>
-                <li>• <Link href='/insights/afca-taste-of-harvest-ethiopian-coffee-competition' className='text-amber-700 hover:underline'>AFCA Taste of Harvest Competition</Link></li>
-                <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling Guide</Link></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA */}
-      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee</h4>
-        <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, get direct access to quality-verified G1 and G2 specialty Ethiopian coffee from Yirgacheffe, Sidamo, Guji, and more. Full traceability, professional export service, and competitive pricing.
+      {/* CTA SECTION */}
+      <div className='bg-gradient-to-br from-amber-600 to-amber-800 text-white p-8 rounded-lg shadow-lg my-10'>
+        <h2 className='text-3xl font-bold mb-4'>Source Quality-Verified Ethiopian Naturals</h2>
+        <p className='text-lg mb-6 text-amber-50'>
+          Ethio Coffee Import and Export PLC sources natural processed coffee from trusted stations across Guji, Sidamo, Yirgacheffe, Harar, and Jimma. Every lot ships with full traceability, certified cupping reports, and pre-shipment samples that match the contracted offer. Contact us to discuss your next purchase or request current availability.
         </p>
-        <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
-          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
+        <div className='flex flex-wrap gap-4'>
+          <Link
+            href='/offerings'
+            className='bg-white text-amber-800 px-6 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors'
+          >
+            View Our Offerings
+          </Link>
+          <Link
+            href='/contact-us'
+            className='bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-600 transition-colors border-2 border-white'
+          >
+            Contact Us
+          </Link>
+          <Link
+            href='/ordering-info'
+            className='bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-600 transition-colors border-2 border-white'
+          >
+            How to Order
+          </Link>
         </div>
       </div>
 
+      {/* RELATED ARTICLES */}
+      <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Quality &amp; Processing</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control, Defects &amp; Grading</Link></li>
+              <li>&bull; <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Ethiopian Coffee Processing</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling &amp; Export Guide</Link></li>
+              <li>&bull; <Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline'>How to Cup &amp; Evaluate Ethiopian Coffee Samples</Link></li>
+              <li>&bull; <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting</Link></li>
+              <li>&bull; <Link href='/insights/new-sca-coffee-value-assessment' className='text-amber-700 hover:underline'>New SCA Coffee Value Assessment</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className='font-semibold mb-2 text-sm'>Ethiopian Coffee Origins</h4>
+            <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/ethiopian-coffee-guji' className='text-amber-700 hover:underline'>Ethiopian Coffee: Guji</Link></li>
+              <li>&bull; <Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline'>Ethiopian Coffee: Sidamo</Link></li>
+              <li>&bull; <Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Ethiopian Coffee: Yirgacheffe</Link></li>
+              <li>&bull; <Link href='/ethiopian-coffee-harar' className='text-amber-700 hover:underline'>Ethiopian Coffee: Harar</Link></li>
+              <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>&bull; <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline'>Ethiopian Coffee Certifications Guide</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide covers Ethiopian dry coffee production methods, quality control protocols, and processing standards used by leading exporters.
+          <span className='font-bold'>About This Insight:</span> This guide covers quality control for Ethiopian natural (dry processed) coffee, from cherry selection and drying through moisture stabilisation, grading, and buyer evaluation.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
-    </article>
     </>
   )
 }

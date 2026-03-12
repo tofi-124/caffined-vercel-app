@@ -239,7 +239,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
       </h3>
 
       <p className='my-4'>
-        Ethiopia has six major coffee-producing regions, each with distinct altitudes, microclimates, and harvest timing. Higher-altitude regions harvest later because cherries mature more slowly at cooler temperatures. The table below summarizes harvest windows and typical export readiness for each region.
+        Ethiopia has six major coffee-producing regions, each with distinct altitudes, microclimates, and harvest timing. Higher-altitude regions harvest later because cherries mature more slowly at cooler temperatures. The table below summarizes harvest windows and typical export readiness for each region. For detailed flavor profiles, grade availability, and sourcing guidance for each region, see our <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline font-bold'>guide to Ethiopian green coffee origins</Link>.
       </p>
 
       <div className='overflow-x-auto my-6'>

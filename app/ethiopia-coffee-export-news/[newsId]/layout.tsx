@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       url: `https://www.ethiocoffee.co/ethiopia-coffee-export-news/${article.slug}`,
       publishedTime: new Date(article.date).toISOString(),
+      modifiedTime: new Date(article.dateModified || article.date).toISOString(),
       images: [
         {
           url: '/images/coffee-pack-1.webp',
@@ -67,7 +68,7 @@ export default async function NewsArticleLayout({
     "headline": article.title,
     "description": article.desc,
     "datePublished": new Date(article.date).toISOString(),
-    "dateModified": new Date(article.date).toISOString(),
+    "dateModified": new Date(article.dateModified || article.date).toISOString(),
     "image": {
       "@type": "ImageObject",
       "url": "https://www.ethiocoffee.co/images/coffee-pack-1.webp",

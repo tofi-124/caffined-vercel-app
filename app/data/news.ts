@@ -1,6 +1,7 @@
 export type NewsArticle = {
   slug: string
   date: string
+  dateModified?: string
   title: string
   desc: string
   source?: string

@@ -190,7 +190,7 @@ export default function EUDeforestationRegulationEthiopianCoffee({ title, date, 
         <h4 className='font-bold mb-3'>Key Statistics:</h4>
         <ul className='space-y-2 text-sm'>
           <li>• <span className='font-bold'>EU countries account for 30-40%</span> of Ethiopian coffee exports by volume</li>
-          <li>• Germany is consistently Ethiopia's largest single coffee export destination</li>
+          <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Germany</Link> is consistently Ethiopia's largest single coffee export destination</li>
           <li>• Other major EU markets include Belgium (Antwerp port hub), Italy, France, Netherlands, and Nordic countries</li>
           <li>• EU importers typically purchase <span className='font-bold'>specialty and premium-grade Ethiopian coffee</span>, commanding higher prices than commodity markets</li>
           <li>• Losing EU market access would devastate Ethiopian coffee exporters and farmers</li>

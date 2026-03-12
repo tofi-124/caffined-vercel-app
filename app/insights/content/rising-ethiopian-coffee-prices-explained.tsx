@@ -617,7 +617,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
         </div>
         <div className='border-l-4 border-green-500 pl-4'>
           <h5 className='font-bold'>Emerging Market Interest</h5>
-          <p className='text-sm text-gray-700'>Coffee consumption is growing rapidly in Asia (China, South Korea, Japan), Middle East (Saudi Arabia, UAE), and other emerging markets. These markets are developing appreciation for premium Ethiopian coffee.</p>
+          <p className='text-sm text-gray-700'>Coffee consumption is growing rapidly in Asia (<Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline'>China</Link>, South Korea, Japan), Middle East (Saudi Arabia, UAE), and other emerging markets. These markets are developing appreciation for premium Ethiopian coffee.</p>
         </div>
         <div className='border-l-4 border-amber-500 pl-4'>
           <h5 className='font-bold'>Brand Recognition</h5>

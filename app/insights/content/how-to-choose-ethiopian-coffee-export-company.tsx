@@ -220,7 +220,7 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
 
       <ol className='font-inconsolata my-4 list-decimal ml-5'>
         <li className='my-3'>
-          <span className='font-bold'>Define your requirements before reaching out.</span> Document the grades you need (Grade 1 specialty, Grade 2, or commercial Grade 3-4), preferred processing methods (washed or natural), target volume (bags or containers per year), and preferred Incoterms (FOB Djibouti for ocean freight, FCA for air freight). Clear requirements filter out exporters who cannot serve your needs.
+          <span className='font-bold'>Define your requirements before reaching out.</span> Document the grades you need (Grade 1 specialty, Grade 2, or commercial Grade 3-4), preferred processing methods (washed or natural), target volume (bags or containers per year), and preferred Incoterms (FOB Djibouti for ocean freight, FCA for air freight). Clear requirements filter out exporters who cannot serve your needs. Our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline font-semibold'>guide to sourcing green coffee from Ethiopia</Link> covers how to define these requirements in detail.
         </li>
         <li className='my-3'>
           <span className='font-bold'>Request license verification.</span> Ask for the ECTA export license number and ECX membership details. Cross-reference with publicly available registries or contact the ECTA directly in Addis Ababa.

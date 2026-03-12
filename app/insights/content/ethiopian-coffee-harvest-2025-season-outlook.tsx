@@ -149,6 +149,9 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
               <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Great value in G2 naturals for blend enhancement</li>
             </ul>
           </div>
+          <p className='my-4'>
+            For a deeper look at Sidama&apos;s production systems, farmer cluster organization, and the 495 new direct export licenses expanding sourcing options, see our <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline font-bold'>Sidama coffee production and productivity guide</Link>.
+          </p>
 
           <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Guji: The Rising Star Delivers Again</h3>
           <p className='my-4'>

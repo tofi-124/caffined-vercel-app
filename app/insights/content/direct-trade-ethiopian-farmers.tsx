@@ -85,7 +85,7 @@ export default function DirectTradeEthiopianFarmers({ title, date, large_image_u
       </p>
 
       <p className='my-4'>
-        That changed significantly with the <span className='font-bold'>vertical integration reforms</span> introduced in stages from 2017 and formalized more broadly in 2021. These reforms allow certain licensed exporters and cooperatives to purchase coffee directly from producers and export it without going through the ECX auction floor. The result: Ethiopian coffee can now move from washing station to international buyer with full traceability intact — but only through specific legal channels.
+        That changed significantly with the <span className='font-bold'>vertical integration reforms</span> introduced in stages from 2017 and formalized more broadly in 2021. These reforms allow certain licensed exporters and cooperatives to purchase coffee directly from producers and export it without going through the ECX auction floor. The result: Ethiopian coffee can now move from washing station to international buyer with full traceability intact — but only through specific legal channels. For a step-by-step walkthrough of how to set up and manage this process, see our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline font-semibold'>complete guide to sourcing green coffee from Ethiopia</Link>.
       </p>
 
       {/* SECTION 2 */}

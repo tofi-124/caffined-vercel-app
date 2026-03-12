@@ -36,6 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `https://www.ethiocoffee.co/insights/${insightId}`,
       images: [{ url: `/images/${post.large_image_url}` }],
       publishedTime: new Date(post.date).toISOString(),
+      modifiedTime: new Date(post.dateModified || post.date).toISOString(),
       authors: ['Ethio Coffee'],
     },
     twitter: {
@@ -78,7 +79,7 @@ async function ArticleSchema({ params }: { params: Promise<{ insightId: string }
     description: post.desc,
     image: `https://www.ethiocoffee.co/images/${post.large_image_url}`,
     datePublished: new Date(post.date).toISOString(),
-    dateModified: new Date(post.date).toISOString(),
+    dateModified: new Date(post.dateModified || post.date).toISOString(),
     author: {
       '@type': 'Organization',
       name: 'Ethio Coffee',

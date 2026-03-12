@@ -111,7 +111,7 @@ export default function EthiopianCoffeeTraceabilityGuide({ title, date, large_im
       </ul>
 
       <p className='my-4'>
-        The International Coffee Organization (ICO) estimates that fewer than 20% of global coffee exports carry farm-level traceability data. Ethiopia, despite its complex smallholder structure (over 5 million coffee farming households), is making rapid progress. Government digitization initiatives, the ECX modernization program, and private exporter investments are expanding traceable supply faster than in most producing countries.
+        The International Coffee Organization (ICO) estimates that fewer than 20% of global coffee exports carry farm-level traceability data. Ethiopia, despite its complex smallholder structure (over 5 million coffee farming households), is making rapid progress. Government digitization initiatives, the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-semibold'>ECX modernization program</Link>, and private exporter investments are expanding traceable supply faster than in most producing countries.
       </p>
 
       {/* SECTION 2: FIVE LEVELS */}

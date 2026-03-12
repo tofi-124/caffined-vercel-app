@@ -122,7 +122,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         Ethiopian coffee reaches the export market through two regulated channels. The <span className='font-semibold'>ECX (Ethiopia Commodity Exchange) channel</span> handles the majority of volume: exporters purchase graded lots through auction, with traceability at the regional level. The <span className='font-semibold'>Direct Specialty License (DSL) channel</span> allows exporters to source directly from cooperatives and washing stations, preserving full traceability to the production site. This is the path for single-origin specialty and micro-lots.
       </p>
       <p className='my-4'>
-        The key point for this guide: <span className='font-semibold'>both channels converge at the same export pipeline from Step 3 onward</span> (CLU quality inspection, documentation, customs, inland transport, port handling). Everything covered below applies regardless of sourcing channel. For the full breakdown of how each channel works, including ECX auction mechanics, grading standards, traceability reforms, and DSL licensing, see the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-bold'>ECX and Ethiopian Coffee Export guide</Link>. For a comparison of private exporters and cooperative unions, see <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='underline font-bold'>Private vs. Cooperative Exporters</Link>.
+        The key point for this guide: <span className='font-semibold'>both channels converge at the same export pipeline from Step 3 onward</span> (CLU quality inspection, documentation, customs, inland transport, port handling). Everything covered below applies regardless of sourcing channel. For the full breakdown of how each channel works, including ECX auction mechanics, grading standards, traceability reforms, and DSL licensing, see the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline font-bold'>ECX and Ethiopian Coffee Export guide</Link>. For a comparison of private exporters and cooperative unions, see <Link href='/insights/private-vs-cooperative-ethiopian-coffee-exporters' className='underline font-bold'>Private vs. Cooperative Exporters</Link>. If you are still in the supplier evaluation stage, our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline font-semibold'>sourcing green coffee from Ethiopia guide</Link> covers the full process from defining requirements through managing logistics.
       </p>
 
       {/* SECTION 3 */}
@@ -219,7 +219,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         Once loaded, the shipping line issues the Bill of Lading (B/L), which is the critical document transferring ownership of the cargo. The exporter sends the B/L (along with the full document set) to the bank for negotiation under the LC, or directly to the importer under CAD terms. Ocean transit times from Djibouti vary by destination:
       </p>
       <ul className='list-disc ml-6 space-y-2 text-sm my-4'>
-        <li>Europe (Hamburg, Rotterdam, Felixstowe): 18 to 25 days</li>
+        <li>Europe (Hamburg, <Link href='/insights/importing-ethiopian-coffee-to-holland' className='underline font-bold'>Rotterdam</Link>, Felixstowe): 18 to 25 days</li>
         <li>North America (New York, Montreal): 28 to 35 days</li>
         <li>Middle East (Jeddah, Jebel Ali): 4 to 7 days. For market intelligence on the fastest-growing GCC destination, see the <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='underline font-bold'>Saudi Arabia coffee market guide</Link></li>
         <li>East Asia (Yokohama, Busan): 22 to 30 days</li>
@@ -614,7 +614,8 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
             <ul className='space-y-1 text-sm'>
               <li>• <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide</Link></li>
-              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>
+              <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>        <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>              <li>• <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Netherlands</Link></li>
+              <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
             </ul>
           </div>
         </div>

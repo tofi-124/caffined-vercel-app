@@ -54,6 +54,7 @@ export default function InsightsLayout({ children }: { children: React.ReactNode
       "headline": post.title,
       "description": post.desc,
       "datePublished": new Date(post.date).toISOString(),
+      "dateModified": new Date(post.dateModified || post.date).toISOString(),
       "url": `https://www.ethiocoffee.co/insights/${post.slug}`,
       "image": `https://www.ethiocoffee.co/images/${post.large_image_url}`,
       "author": {
