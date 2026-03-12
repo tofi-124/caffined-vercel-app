@@ -60,7 +60,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-bold text-lg mb-2'>Key Takeaway</p>
         <p>
-          Most Ethiopian coffee exporters set minimum order quantities (MOQ) at one full container load (FCL), approximately 250&ndash;320 bags of 60 kg. Smaller roasters can access Ethiopian green coffee through sample orders (1&ndash;5 bags), LCL consolidation, or intermediate traders. Understanding MOQ structures helps you plan realistic budgets and build sustainable sourcing relationships.
+          Most Ethiopian coffee exporters set minimum order quantities (MOQ) at one full container load (FCL), approximately 250&ndash;320 bags of 60 kg. Smaller roasters can access Ethiopian green coffee through sample orders (1&ndash;5 bags), LCL consolidation, or intermediate traders. With Arabica prices reaching record highs in 2025&ndash;2026 and Ethiopian FOB prices up 40&ndash;60% from two years prior, understanding MOQ structures is more critical than ever for budgeting, timing, and building sustainable sourcing relationships.
         </p>
       </div>
 
@@ -78,7 +78,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             <a href='https://www.freightos.com/freight-resources/what-is-lcl-shipping-the-complete-guide/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Freightos LCL guide</a> - explanation of Less Than Container Load (LCL) and consolidation costs.
           </li>
           <li>
-            <a href='https://www.trade.gov/import-regulations' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Trade.gov - importing into the United States</a> - practical import documentation and compliance information.
+            <a href='https://www.trade.gov/country-commercial-guides/ethiopia-import-requirements-and-documentation' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Trade.gov &ndash; Ethiopia Commercial Guide</a> - import requirements and documentation for Ethiopian exports.
           </li>
         </ul>
       </div>
@@ -108,6 +108,8 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             <ul className='space-y-1.5 text-sm'>
               <li><a href="#what-is-moq" className='text-amber-700 hover:underline'>What MOQ Actually Means</a></li>
               <li><a href="#why-moq-exists" className='text-amber-700 hover:underline'>Why MOQ Exists in Coffee Trade</a></li>
+              <li><a href="#market-context-2026" className='text-amber-700 hover:underline'>2025&ndash;2026 Market Context and MOQ</a></li>
+              <li><a href="#ethiopia-supply-chain" className='text-amber-700 hover:underline'>Ethiopia-Specific Supply Chain &amp; Timing</a></li>
               <li><a href="#typical-moqs" className='text-amber-700 hover:underline'>Typical MOQs from Ethiopian Exporters</a></li>
               <li><a href="#container-math" className='text-amber-700 hover:underline'>Container Math: How Many Bags Fit?</a></li>
             </ul>
@@ -116,8 +118,9 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             <p className='font-bold text-sm mb-2'>Practical Solutions</p>
             <ul className='space-y-1.5 text-sm'>
               <li><a href="#small-quantity-strategies" className='text-amber-700 hover:underline'>Strategies for Small Roasters</a></li>
-              <li><a href="#consolidation-options" className='text-amber-700 hover:underline'>Container Consolidation & LCL Shipping</a></li>
+              <li><a href="#consolidation-options" className='text-amber-700 hover:underline'>Container Consolidation &amp; LCL Shipping</a></li>
               <li><a href="#pricing-by-volume" className='text-amber-700 hover:underline'>How Pricing Changes by Volume</a></li>
+              <li><a href="#payment-terms-moq" className='text-amber-700 hover:underline'>Payment Terms and How They Affect MOQ</a></li>
               <li><a href="#negotiation-tactics" className='text-amber-700 hover:underline'>Negotiation Tactics That Work</a></li>
               <li><a href="#sample-programs" className='text-amber-700 hover:underline'>Sample Programs vs. Commercial Orders</a></li>
             </ul>
@@ -203,7 +206,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           </p>
           <ul className='text-sm space-y-1 ml-5'>
             <li>• Export documentation (commercial invoice, certificate of origin, quality certificate, phytosanitary certificate)</li>
-            <li>• <a href='https://share.google/2wukzLJwWhD4ABE9z' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Ethiopian Coffee Authority (ECA)</a> inspection and certification fees</li>
+            <li>• Ethiopian Coffee Authority (ECA) inspection and certification fees</li>
             <li>• Bank fees for letters of credit or wire transfers</li>
             <li>• Warehouse handling and loading costs</li>
             <li>• Administrative time (emails, contracts, coordination)</li>
@@ -224,7 +227,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           <div className='bg-white p-4 rounded border border-green-200 my-3'>
             <p className='text-xs font-bold mb-2'>Shipping Cost Comparison (Addis Ababa to Los Angeles):</p>
             <ul className='text-xs space-y-1'>
-              <li>• <span className='font-bold'>5 bags (300kg) air freight:</span> $8-12 per kg = $2,400-3,600 shipping</li>
+              <li>• <span className='font-bold'>5 bags (300kg) air freight:</span> $10-15 per kg = $3,000-4,500 shipping</li>
               <li>• <span className='font-bold'>20 bags (1,200kg) LCL ocean:</span> $3-5 per kg = $3,600-6,000 shipping</li>
               <li>• <span className='font-bold'>300 bags (18,000kg) FCL 20ft:</span> $0.30-0.50 per kg = $5,400-9,000 shipping</li>
             </ul>
@@ -245,14 +248,104 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </div>
       </div>
 
-      {/* SECTION 3: TYPICAL MOQS */}
-      <h3 id="typical-moqs" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+      {/* SECTION 3: 2025-2026 MARKET CONTEXT */}
+      <h3 id="market-context-2026" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineChartBar className='text-amber-600' />
+        2025&ndash;2026 Market Context: How Record Prices Affect MOQ Decisions
+      </h3>
+
+      <p className='my-4'>
+        Any conversation about Ethiopian coffee MOQ in 2025&ndash;2026 must acknowledge the unprecedented market conditions shaping every purchase. Arabica futures on the ICE exchange surged past $4.00/lb in late 2025, driven by drought-related production shortfalls in Brazil and Vietnam, tight global inventories, and speculative trading. Ethiopian FOB prices followed: specialty-grade lots that traded at $4.00&ndash;5.50/kg in 2023 now command $6.00&ndash;9.00/kg or higher for top Yirgacheffe and Guji naturals.
+      </p>
+
+      <div className='bg-red-50 p-6 rounded-lg my-6 border-l-4 border-red-500'>
+        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
+          <HiOutlineExclamationTriangle className='text-red-600' />
+          What Record Prices Mean for MOQ Planning
+        </h4>
+        <ul className='text-sm space-y-2'>
+          <li><span className='font-bold'>Higher capital requirements:</span> A full 20ft container that cost $60,000&ndash;90,000 in 2023 may now cost $100,000&ndash;160,000. Small roasters who previously stretched to full containers are reconsidering LCL and consolidation.</li>
+          <li><span className='font-bold'>Tighter allocation:</span> When prices rise, exporters prioritize established buyers. New importers may face higher MOQs or longer lead times for premium lots.</li>
+          <li><span className='font-bold'>ETB/USD volatility:</span> The Ethiopian birr has depreciated significantly since the 2024 forex reforms. Exporters may quote in USD but source in birr, which introduces pricing uncertainty between offer and shipment.</li>
+          <li><span className='font-bold'>Seasonal negotiation windows narrow:</span> Peak-season specialty lots sell faster. Buyers who wait risk losing access to the best coffees entirely, regardless of MOQ flexibility.</li>
+        </ul>
+      </div>
+
+      <p className='my-4'>
+        The practical effect: buyers at every size need to commit earlier, budget higher, and communicate more clearly with exporters about volume and timing. The strategies in this guide remain sound, but the financial math behind every MOQ decision has shifted. Factor current pricing into all calculations below.
+      </p>
+
+      {/* SECTION 4: ETHIOPIA-SPECIFIC SUPPLY CHAIN */}
+      <h3 id="ethiopia-supply-chain" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineCalendarDays className='text-amber-600' />
+        Ethiopia-Specific Supply Chain and Timing
+      </h3>
+
+      <p className='my-4'>
+        Ethiopian coffee moves through a distinct supply chain that directly affects when and how you can place orders. Understanding these dynamics helps you time MOQ commitments to maximize quality and availability.
+      </p>
+
+      <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
+        <h4 className='font-bold text-lg mb-4'>The Ethiopian Coffee Calendar</h4>
+        <div className='grid md:grid-cols-2 gap-6'>
+          <div>
+            <p className='font-bold text-sm mb-2'>Harvest &amp; Processing (Oct&ndash;Feb)</p>
+            <ul className='text-sm space-y-1'>
+              <li>&bull; Cherry picking runs October through February in most regions</li>
+              <li>&bull; Washed processing at washing stations: Nov&ndash;Jan peak</li>
+              <li>&bull; Natural (dry) processing extends slightly later</li>
+              <li>&bull; Pre-shipment samples become available: Jan&ndash;Mar</li>
+            </ul>
+          </div>
+          <div>
+            <p className='font-bold text-sm mb-2'>Export Window (Mar&ndash;Sep)</p>
+            <ul className='text-sm space-y-1'>
+              <li>&bull; Dry milling and grading: Feb&ndash;Apr</li>
+              <li>&bull; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX auction</Link> lots available: Mar&ndash;Jun</li>
+              <li>&bull; Peak shipping from Djibouti port: Apr&ndash;Aug</li>
+              <li>&bull; Fresh-crop arrivals in destination markets: Jun&ndash;Oct</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h4 className='text-xl font-bold mt-8 mb-4'>ECX vs. Direct Export: How the Channel Affects MOQ</h4>
+
+      <p className='my-4'>
+        Ethiopian coffee reaches exporters through two main channels, each with different MOQ implications:
+      </p>
+
+      <div className='grid md:grid-cols-2 gap-6 my-6'>
+        <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
+          <h5 className='font-bold mb-3'>ECX (Ethiopian Commodity Exchange)</h5>
+          <p className='text-sm mb-2'>
+            Coffee purchased through ECX auctions arrives in standardized lots. Exporters buy in bulk and may combine ECX lots to fill containers. MOQ tends to be higher because ECX lots are large and exporters want to move volume efficiently.
+          </p>
+          <p className='text-xs italic'>Typical MOQ: Full container (275&ndash;300 bags)</p>
+        </div>
+        <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
+          <h5 className='font-bold mb-3'>Direct from Cooperatives / Washing Stations</h5>
+          <p className='text-sm mb-2'>
+            Cooperatives and private washing stations can sell directly to exporters (bypassing ECX for specialty-grade coffee). These lots are often smaller and more traceable, making sub-container MOQs more feasible.
+          </p>
+          <p className='text-xs italic'>Typical MOQ: 10&ndash;100 bags (varies by lot size)</p>
+        </div>
+      </div>
+
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-medium'>
+          <span className='font-bold'>Timing Tip:</span> Place your MOQ commitment between January and March for the best selection of fresh-crop lots. Exporters finalize their offer lists as processing completes, and the best micro-lots sell first. Waiting until June or July means choosing from what remains. For a deeper look at harvest timing, see our <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian Coffee Harvest Calendar</Link>.
+        </p>
+      </div>
+
+      {/* SECTION 5: TYPICAL MOQS */}
+      <h3 id="typical-moqs" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineScale className='text-amber-600' />
         What Are Typical MOQs from Ethiopian Exporters?
       </h3>
 
       <p className='my-4'>
-        MOQs vary significantly based on exporter size, target market, and business model. Here's what you can realistically expect:
+        MOQs vary significantly based on exporter size, target market, and business model. Here is what you can realistically expect in the current market:
       </p>
 
       <div className='overflow-x-auto my-8'>
@@ -336,11 +429,41 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
 
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
-          <span className='font-bold'>Real Talk:</span> If you're a first-time importer reaching out to large Ethiopian exporters asking for 5 bags, you'll likely either be ignored or quoted a price 30-50% higher than container pricing. This isn't personal-it's economics. Target exporters whose business model matches your order size.
+          <span className='font-bold'>Real Talk:</span> If you are a first-time importer reaching out to large Ethiopian exporters asking for 5 bags, you will likely either be ignored or quoted a price 30&ndash;50% higher than container pricing. This is not personal; it is economics. Target exporters whose business model matches your order size.
         </p>
       </div>
 
-      {/* SECTION 4: CONTAINER MATH */}
+      {/* COFFEE GRADING QUICK REFERENCE */}
+      <div className='bg-gray-50 p-6 rounded-lg my-8 border border-gray-200'>
+        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
+          <HiOutlineClipboardDocumentList className='text-amber-600' />
+          Ethiopian Coffee Grading: Quick Reference
+        </h4>
+        <p className='text-sm mb-3'>
+          The MOQ table above references grades (G1, G2, G4). Ethiopian coffee is graded on a 1&ndash;9 scale based on defect count, cup quality, and bean size:
+        </p>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div>
+            <p className='font-bold text-sm mb-1'>Specialty Grades</p>
+            <ul className='text-sm space-y-1'>
+              <li>&bull; <span className='font-bold'>Grade 1:</span> 0&ndash;3 defects per 300g. Highest cup quality (85+ SCA). Premium pricing.</li>
+              <li>&bull; <span className='font-bold'>Grade 2:</span> 4&ndash;12 defects per 300g. Strong cup quality (80&ndash;84 SCA). Most traded specialty grade.</li>
+            </ul>
+          </div>
+          <div>
+            <p className='font-bold text-sm mb-1'>Commercial Grades</p>
+            <ul className='text-sm space-y-1'>
+              <li>&bull; <span className='font-bold'>Grade 3&ndash;4:</span> 13&ndash;25 defects. Good quality, lower price. Common for blends.</li>
+              <li>&bull; <span className='font-bold'>Grade 5&ndash;9:</span> Higher defect count. Commodity market. Rarely exported as specialty.</li>
+            </ul>
+          </div>
+        </div>
+        <p className='text-xs mt-3'>
+          Grade directly affects MOQ flexibility. High-volume G4 lots from ECX are typically full-container only, while small-lot G1 micro-lots may be available in 10&ndash;30 bag quantities. For a complete breakdown, see our <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline font-semibold'>Green Coffee Defects and Grading Guide</Link>.
+        </p>
+      </div>
+
+      {/* SECTION: CONTAINER MATH */}
       <h3 id="container-math" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineCalculator className='text-amber-600' />
         Container Math: How Many Bags Actually Fit?
@@ -368,9 +491,9 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
               <p className='text-xs'>~28,000kg total (but rarely filled to max)</p>
             </div>
             <div className='bg-white p-3 rounded border border-blue-200'>
-              <p className='font-bold text-sm mb-1'>Typical FOB Cost</p>
-              <p className='text-xs'>$3.50-7.00/kg depending on quality/origin</p>
-              <p className='text-xs font-bold mt-1'>= $57,750-126,000 per container</p>
+              <p className='font-bold text-sm mb-1'>Typical FOB Cost (2025&ndash;2026)</p>
+              <p className='text-xs'>$5.00&ndash;9.00/kg depending on quality/origin</p>
+              <p className='text-xs font-bold mt-1'>= $82,500&ndash;162,000 per container</p>
             </div>
           </div>
         </div>
@@ -421,8 +544,37 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       </h3>
 
       <p className='my-4'>
-        So you need 5-20 bags, not 300. Here are proven strategies that actually work:
+        So you need 5&ndash;20 bags, not 300. Here are proven strategies that actually work:
       </p>
+
+      {/* INVENTORY CARRYING COST BOX */}
+      <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
+        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
+          <HiOutlineCalculator className='text-amber-600' />
+          The Hidden MOQ Math: Inventory Carrying Costs
+        </h4>
+        <p className='text-sm mb-3'>
+          Before choosing a strategy, understand what holding green coffee actually costs. These carrying costs should factor into every MOQ decision:
+        </p>
+        <div className='grid md:grid-cols-2 gap-4'>
+          <div className='bg-white p-4 rounded-lg border border-gray-200'>
+            <p className='font-bold text-sm mb-2'>Capital tied up</p>
+            <p className='text-xs'>At $7/kg, a single 60kg bag represents $420 in locked capital. 50 bags = $21,000 sitting in your warehouse instead of your bank account. At 8% annual cost of capital, that is $140/month you cannot deploy elsewhere.</p>
+          </div>
+          <div className='bg-white p-4 rounded-lg border border-gray-200'>
+            <p className='font-bold text-sm mb-2'>Quality degradation</p>
+            <p className='text-xs'>Green coffee stored properly (cool, dry, stable humidity) holds quality for 6&ndash;9 months. Beyond that, cup scores drop. Naturals degrade faster than washed lots. Ordering more than you can sell in 6 months means selling past-peak coffee. See our <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Shelf Life &amp; Storage Guide</Link>.</p>
+          </div>
+          <div className='bg-white p-4 rounded-lg border border-gray-200'>
+            <p className='font-bold text-sm mb-2'>Storage and insurance</p>
+            <p className='text-xs'>Warehouse rental, climate control, and cargo insurance add $0.02&ndash;0.05/kg per month. Over 6 months on 50 bags: $360&ndash;900 in storage costs alone.</p>
+          </div>
+          <div className='bg-white p-4 rounded-lg border border-gray-200'>
+            <p className='font-bold text-sm mb-2'>The calculation</p>
+            <p className='text-xs'>Order only what you can turn in 8&ndash;12 weeks for core coffees, and 4&ndash;6 weeks for seasonal micro-lots. If a larger order saves 15% per kg but takes 6 months to sell, the savings evaporate in carrying costs.</p>
+          </div>
+        </div>
+      </div>
 
       <div className='space-y-6 my-8'>
         <div className='bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg border-l-4 border-blue-500'>
@@ -602,13 +754,14 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       <div className='bg-red-50 p-6 rounded-lg my-6 border-l-4 border-red-500'>
         <p className='font-bold mb-2 flex items-center gap-2'>
           <HiOutlineExclamationTriangle className='text-red-600' />
-          LCL Limitations to Know
+          LCL Limitations and Risk Management
         </p>
         <ul className='text-sm space-y-2'>
-          <li><span className='font-bold'>Timing dependency:</span> You may wait for exporter to fill container with other buyers' orders (2-6 week delays possible)</li>
+          <li><span className='font-bold'>Timing dependency:</span> You may wait for exporter to fill container with other buyers' orders (2&ndash;6 week delays possible)</li>
           <li><span className='font-bold'>Route restrictions:</span> LCL only works to major ports with consolidation services (not all destinations)</li>
           <li><span className='font-bold'>Less flexibility:</span> Harder to change order details once consolidation is scheduled</li>
-          <li><span className='font-bold'>Quality risk:</span> Your coffee shares container with others-poor storage of others' coffee could affect yours (rare but possible)</li>
+          <li><span className='font-bold'>Quality risk:</span> Your coffee shares container with others. Poor storage handling of another buyer's portion (e.g., moisture-damaged bags) could affect ambient conditions in transit. Mitigate this by requesting GrainPro or hermetic liners for your bags specifically.</li>
+          <li><span className='font-bold'>Dispute resolution:</span> If a quality issue arises with a consolidated shipment, establishing fault is harder than with a dedicated FCL. Get a pre-shipment sample, photograph bags at loading, and specify in your contract that the exporter's consolidation partner carries liability for cross-contamination.</li>
         </ul>
       </div>
 
@@ -639,11 +792,11 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
                 <p className='text-xs'>60-180kg</p>
               </td>
               <td className='border border-gray-300 p-3'>
-                <span className='font-bold'>$8-12/kg</span>
+                <span className='font-bold'>$10&ndash;15/kg</span>
                 <p className='text-xs text-red-600'>Often includes air freight in quote</p>
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
-                +80-120% vs container pricing
+                +60&ndash;100% vs container pricing
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
                 Quality evaluation, cupping, product development testing
@@ -655,10 +808,10 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
                 <p className='text-xs'>300-600kg</p>
               </td>
               <td className='border border-gray-300 p-3'>
-                <span className='font-bold'>$5.50-8.50/kg</span>
+                <span className='font-bold'>$7.50&ndash;11.00/kg</span>
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
-                +40-70% vs container pricing
+                +30&ndash;50% vs container pricing
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
                 New roasters, menu testing, limited production runs
@@ -670,10 +823,10 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
                 <p className='text-xs'>1,200-3,000kg</p>
               </td>
               <td className='border border-gray-300 p-3'>
-                <span className='font-bold'>$4.50-6.50/kg</span>
+                <span className='font-bold'>$6.50&ndash;9.00/kg</span>
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
-                +20-40% vs container pricing
+                +15&ndash;30% vs container pricing
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
                 Small roasters, LCL consolidation, seasonal offerings
@@ -685,10 +838,10 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
                 <p className='text-xs'>6,000-12,000kg</p>
               </td>
               <td className='border border-gray-300 p-3'>
-                <span className='font-bold'>$4.00-5.50/kg</span>
+                <span className='font-bold'>$5.50&ndash;8.00/kg</span>
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
-                +10-25% vs full container
+                +5&ndash;15% vs full container
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
                 Mid-size roasters, multi-origin containers
@@ -700,7 +853,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
                 <p className='text-xs'>16,500-18,000kg</p>
               </td>
               <td className='border border-gray-300 p-3'>
-                <span className='font-bold'>$3.50-5.00/kg</span>
+                <span className='font-bold'>$5.00&ndash;7.50/kg</span>
                 <p className='text-xs text-green-600'>Best pricing tier</p>
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
@@ -716,11 +869,11 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
                 <p className='text-xs'>50,000kg+</p>
               </td>
               <td className='border border-gray-300 p-3'>
-                <span className='font-bold'>$3.30-4.80/kg</span>
+                <span className='font-bold'>$4.80&ndash;7.20/kg</span>
                 <p className='text-xs text-green-600'>Volume discount possible</p>
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
-                -5-10% vs single container
+                -3&ndash;8% vs single container
               </td>
               <td className='border border-gray-300 p-3 text-xs'>
                 Large roasters, distributors, contract agreements
@@ -732,11 +885,59 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
 
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
-          <span className='font-bold'>Important:</span> These are FOB (Free on Board) prices from Ethiopia. Add shipping ($0.30-0.50/kg for full container, higher for LCL), import duties (usually $0 for coffee in most countries), and customs/port fees. Your landed cost will be $0.50-2.00/kg higher than FOB depending on destination and order size.
+          <span className='font-bold'>Important (pricing as of early 2026):</span> These are FOB (Free on Board) prices from Ethiopia. Add shipping ($0.30&ndash;0.50/kg for full container, higher for LCL), import duties (usually $0 for green coffee in most countries), and customs/port fees. Your <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline font-semibold'>landed cost</Link> will be $0.50&ndash;2.00/kg higher than FOB depending on destination and order size. Prices fluctuate with the C-market; confirm current offers directly with exporters. For a detailed walkthrough, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian Coffee FOB Pricing Guide</Link>.
         </p>
       </div>
 
-      {/* SECTION 8: NEGOTIATION TACTICS */}
+      {/* SECTION: PAYMENT TERMS AND MOQ */}
+      <h3 id="payment-terms-moq" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
+        <HiOutlineCurrencyDollar className='text-amber-600' />
+        Payment Terms and How They Affect MOQ
+      </h3>
+
+      <p className='my-4'>
+        Payment structure directly influences an exporter's willingness to accept smaller orders. The less financial risk you pose, the more flexibility you receive on MOQ. Here are the standard payment mechanisms in Ethiopian coffee trade:
+      </p>
+
+      <div className='space-y-6 my-8'>
+        <div className='border-l-4 border-blue-500 pl-5 bg-blue-50 py-4 pr-4 rounded-r-lg'>
+          <h4 className='font-bold text-lg mb-2'>Letter of Credit (LC)</h4>
+          <p className='text-sm mb-2'>
+            The standard for large, first-time transactions. Your bank guarantees payment to the exporter's bank upon presentation of compliant shipping documents. Typical for full-container orders and above.
+          </p>
+          <p className='text-xs'>
+            <span className='font-bold'>MOQ effect:</span> LCs carry bank fees ($500&ndash;2,000+ per transaction), making them impractical for small orders. Most exporters require LC only for orders above $20,000&ndash;30,000. If you are ordering a full container, LC is the expected default.
+          </p>
+        </div>
+
+        <div className='border-l-4 border-green-500 pl-5 bg-green-50 py-4 pr-4 rounded-r-lg'>
+          <h4 className='font-bold text-lg mb-2'>Telegraphic Transfer (TT / Wire Transfer)</h4>
+          <p className='text-sm mb-2'>
+            Direct bank-to-bank wire transfer. Faster and cheaper than LC but requires trust. Common structure: 30&ndash;50% deposit on order confirmation, balance against copy of bill of lading before shipment.
+          </p>
+          <p className='text-xs'>
+            <span className='font-bold'>MOQ effect:</span> TT lowers transaction costs, making sub-container orders viable. Exporters who accept TT for 10&ndash;50 bag orders usually require a higher deposit percentage (50%) to offset risk. For more on contract mechanics, see our <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline font-semibold'>Contracts and Payment Terms Guide</Link>.
+          </p>
+        </div>
+
+        <div className='border-l-4 border-purple-500 pl-5 bg-purple-50 py-4 pr-4 rounded-r-lg'>
+          <h4 className='font-bold text-lg mb-2'>Credit Terms (Net 30/60)</h4>
+          <p className='text-sm mb-2'>
+            Extended payment after delivery. Reserved for established buyers with proven track records. Allows you to sell the coffee before paying for it, improving cash flow significantly.
+          </p>
+          <p className='text-xs'>
+            <span className='font-bold'>MOQ effect:</span> Exporters offering credit terms typically require larger minimum orders (full containers or multi-container commitments) and at least 6&ndash;12 months of relationship history with on-time payments.
+          </p>
+        </div>
+      </div>
+
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
+        <p className='font-medium'>
+          <span className='font-bold'>Practical Tip:</span> If you are a small buyer trying to reduce MOQ, offer 50% deposit via TT upfront. This reduces the exporter's financial risk and often unlocks flexibility on quantity. Pair it with a clear ramp-up plan (e.g., &ldquo;20 bags now, 50 bags next quarter&rdquo;) and you will stand out from vague inquiries.
+        </p>
+      </div>
+
+      {/* SECTION: NEGOTIATION TACTICS */}
       <h3 id="negotiation-tactics" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineDocumentText className='text-amber-600' />
         MOQ Negotiation Tactics That Actually Work
@@ -850,6 +1051,35 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         </ul>
       </div>
 
+      {/* EMAIL FRAMEWORK */}
+      <div className='bg-white p-6 rounded-lg my-8 border-2 border-amber-300'>
+        <h4 className='font-bold text-lg mb-3 flex items-center gap-2'>
+          <HiOutlineDocumentText className='text-amber-600' />
+          First-Contact Email Framework for MOQ Negotiation
+        </h4>
+        <p className='text-sm mb-4'>
+          Use this structure when reaching out to an Ethiopian exporter for the first time. Professional, specific, and growth-oriented inquiries get responses; vague ones get ignored.
+        </p>
+        <div className='bg-gray-50 p-4 rounded-lg text-sm font-inconsolata leading-relaxed'>
+          <p className='font-bold mb-2'>Subject: [Your Company] &ndash; Inquiry for [Grade] [Origin] Green Coffee &ndash; [Volume] Bags</p>
+          <p className='mb-3'>Dear [Exporter Name / Export Team],</p>
+          <p className='mb-3'>My name is [Name], [Title] at [Company], a [specialty roaster / importer / distributor] based in [City, Country]. We serve [brief description: e.g., &ldquo;35 wholesale accounts and a growing DTC subscription program&rdquo;].</p>
+          <p className='mb-3'>We are currently sourcing Ethiopian specialty coffee and are interested in:</p>
+          <ul className='list-disc ml-5 mb-3 space-y-1'>
+            <li><span className='font-bold'>Origin/Grade:</span> [e.g., Yirgacheffe G1 Natural, Guji G2 Washed]</li>
+            <li><span className='font-bold'>Volume:</span> [e.g., 25 bags (1,500kg) for this order]</li>
+            <li><span className='font-bold'>Timeline:</span> [e.g., delivery by Q3 2026]</li>
+            <li><span className='font-bold'>Payment:</span> [e.g., TT with 50% deposit, balance against shipping docs]</li>
+          </ul>
+          <p className='mb-3'>Our 12-month projection is [e.g., 100&ndash;150 bags across 2&ndash;3 shipments], and we are looking for a long-term export partner who can grow with us. We would be happy to start with cupping samples if available.</p>
+          <p className='mb-3'>Could you share your current availability, FOB pricing, and MOQ terms? We can also provide [roaster license / import permit / references] if helpful.</p>
+          <p>Best regards,<br/>[Name, Company, Website, Phone]</p>
+        </div>
+        <p className='text-xs mt-3 italic text-gray-500'>
+          Tip: Attach your company logo, website link, and any certifications. Ethiopian exporters receive dozens of inquiries daily&mdash;specificity and professionalism set you apart.
+        </p>
+      </div>
+
       {/* SECTION 9: SAMPLE PROGRAMS */}
       <h3 id="sample-programs" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
         <HiOutlineBeaker className='text-amber-600' />
@@ -874,7 +1104,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             </div>
             <div>
               <p className='font-bold mb-1'>Pricing:</p>
-              <p className='text-xs'>Premium pricing ($8-12/kg), often includes air freight</p>
+              <p className='text-xs'>Premium pricing ($10-15/kg), often includes air freight</p>
             </div>
             <div>
               <p className='font-bold mb-1'>Shipping:</p>
@@ -900,7 +1130,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
             </div>
             <div>
               <p className='font-bold mb-1'>Pricing:</p>
-              <p className='text-xs'>Volume-based pricing ($3.50-6.00/kg depending on size), negotiable</p>
+              <p className='text-xs'>Volume-based pricing ($5.00-8.00/kg depending on size), negotiable</p>
             </div>
             <div>
               <p className='font-bold mb-1'>Shipping:</p>
@@ -926,7 +1156,7 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
           <li>• Want to test multiple origins simultaneously (5 bags each of 3 origins = 15 bags)</li>
         </ul>
         <p className='text-xs mt-3 italic'>
-          Pricing for small commercial orders typically runs $5.00-7.00/kg-notably better than samples but higher than full commercial containers.
+          Pricing for small commercial orders typically runs $7.50-10.00/kg&mdash;notably better than samples but higher than full commercial containers.
         </p>
       </div>
 
@@ -1056,9 +1286,9 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
 
       {/* ETHIO COFFEE EXPORT CTA */}
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Flexible MOQ Options from Ethio Coffee Export</h4>
+        <h4 className='font-bold text-xl mb-3'>Flexible MOQ Options from Ethio Coffee Import and Export PLC</h4>
         <p className='mb-4'>
-          At Ethio Coffee Export, we understand that one size doesn't fit all. We work with roasters at every stage of growth:
+          At Ethio Coffee Import and Export PLC, we understand that one size doesn&rsquo;t fit all. We work with roasters at every stage of growth:
         </p>
         <div className='grid md:grid-cols-3 gap-4 mb-4'>
           <div className='bg-primary/10 p-4 rounded-lg'>
@@ -1088,23 +1318,31 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
         <div className="space-y-6">
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What is the minimum order quantity for Ethiopian green coffee?</h4>
-            <p className="text-sm text-gray-600">The standard MOQ for Ethiopian green coffee is one full 20-foot container, which holds 275 to 300 bags (each 60kg). Some exporters offer sample lots starting at 5 to 10 bags for first-time buyers.</p>
+            <p className="text-sm text-gray-600">The standard MOQ for Ethiopian green coffee is one full 20-foot container, which holds 275 to 300 bags (each 60kg). Some exporters offer sample lots starting at 5 to 10 bags for first-time buyers. In the current 2025&ndash;2026 market, some exporters have raised minimums due to tighter allocation and higher prices.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Can I order less than a full container of Ethiopian coffee?</h4>
-            <p className="text-sm text-gray-600">Yes. Some exporters offer LCL (less than container load) shipments, consolidated containers, or work with trading companies that aggregate smaller orders. Expect to pay a premium per kilogram for sub-container quantities.</p>
+            <p className="text-sm text-gray-600">Yes. Some exporters offer LCL (less than container load) shipments, consolidated containers, or work with trading companies that aggregate smaller orders. Expect to pay a premium per kilogram for sub-container quantities. See the <a href="#strategies-small-roasters" className="text-amber-700 underline">strategies for small roasters</a> section above.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How much does a full container of Ethiopian coffee cost?</h4>
-            <p className="text-sm text-gray-600">A full 20-foot container of Ethiopian specialty coffee (275 to 300 bags) typically costs between $70,000 and $150,000 FOB Djibouti, depending on grade, origin, and market conditions.</p>
+            <h4 className="font-bold text-gray-800 mb-2">How much does a full container of Ethiopian coffee cost in 2026?</h4>
+            <p className="text-sm text-gray-600">A full 20-foot container of Ethiopian specialty coffee (275 to 300 bags) typically costs between $82,500 and $162,000 FOB Djibouti as of early 2026, depending on grade, origin, and market conditions. This is significantly higher than pre-2024 prices due to the global Arabica price surge. See our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 underline'>FOB pricing guide</Link> for current rates.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">Do Ethiopian coffee exporters offer sample orders before full containers?</h4>
-            <p className="text-sm text-gray-600">Most reputable exporters offer cupping samples (200g to 500g) at a nominal cost. Some also offer trial lots of 5 to 10 bags so buyers can test roast and evaluate before committing to a full container.</p>
+            <p className="text-sm text-gray-600">Most reputable exporters offer cupping samples (200g to 500g) at a nominal cost. Some also offer trial lots of 5 to 10 bags so buyers can test roast and evaluate before committing to a full container. Sample pricing runs $10&ndash;15/kg including air freight.</p>
           </div>
           <div>
             <h4 className="font-bold text-gray-800 mb-2">What is the difference between FCL and LCL shipping for Ethiopian coffee?</h4>
-            <p className="text-sm text-gray-600">FCL (full container load) means you fill an entire container yourself, offering the best per-unit cost. LCL (less than container load) shares container space with other shipments, costing more per bag but requiring lower total investment.</p>
+            <p className="text-sm text-gray-600">FCL (full container load) means you fill an entire container yourself, offering the best per-unit cost. LCL (less than container load) shares container space with other shipments, costing more per bag but requiring lower total investment. LCL adds quality risks from shared containers&mdash;request hermetic liners for your portion.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">What payment terms do Ethiopian coffee exporters accept?</h4>
+            <p className="text-sm text-gray-600">The three main payment methods are Letter of Credit (LC), Telegraphic Transfer (TT), and occasionally open credit for established relationships. LC is standard for full container orders. TT with 30&ndash;50% deposit is common for smaller orders from new buyers. See our <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 underline'>contracts and payment terms guide</Link> for details.</p>
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-800 mb-2">How do 2025&ndash;2026 coffee prices affect MOQ for Ethiopian coffee?</h4>
+            <p className="text-sm text-gray-600">High C-market prices (above $4.00/lb in early 2026) have pushed Ethiopian FOB prices up 40&ndash;60%. This means the capital required for any given order is significantly higher. Some exporters have tightened MOQs to prioritize committed buyers, while others have become more open to smaller orders at premium pricing to diversify risk. Budget 30&ndash;50% more than pre-2024 estimates for the same physical volume.</p>
           </div>
         </div>
       </section>
@@ -1112,31 +1350,41 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
       {/* RELATED ARTICLES */}
       <div className='my-8 p-6 bg-gray-50 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-        <div className='grid md:grid-cols-3 gap-4'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-4'>
           <div>
             <h5 className='font-semibold mb-2 text-sm'>Import Guides</h5>
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to USA</Link></li>
               <li><Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to Canada</Link></li>
               <li><Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to UK</Link></li>
+              <li><Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Sourcing Green Coffee</Link></li>
             </ul>
           </div>
           <div>
-            <h5 className='font-semibold mb-2 text-sm'>Trade & Economics</h5>
+            <h5 className='font-semibold mb-2 text-sm'>Pricing &amp; Costs</h5>
+            <ul className='space-y-1.5 text-sm'>
+              <li><Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> FOB Pricing Guide</Link></li>
+              <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Coffee Prices Explained</Link></li>
+              <li><Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Landed Cost Calculator</Link></li>
+              <li><Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Contracts &amp; Payment Terms</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h5 className='font-semibold mb-2 text-sm'>Trade &amp; Supply Chain</h5>
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopian Coffee Exporter</Link></li>
-              <li><Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Coffee Prices Explained</Link></li>
               <li><Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Understanding ECX</Link></li>
+              <li><Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Harvest Calendar &amp; Seasons</Link></li>
               <li><Link href='/insights/ethiopia-china-coffee-trade-partnership' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Ethiopia-China Partnership</Link></li>
             </ul>
           </div>
           <div>
-            <h5 className='font-semibold mb-2 text-sm'>Quality & Sourcing</h5>
+            <h5 className='font-semibold mb-2 text-sm'>Quality &amp; Origins</h5>
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Heirloom Varieties</Link></li>
               <li><Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Certifications Guide</Link></li>
               <li><Link href='/insights/certified-organic-coffee-bean-exporters-bulk-orders' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Organic Coffee Bulk Guide</Link></li>
-              <li><Link href='/insights/complete-guide-to-understanding-coffee' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Complete Coffee Guide</Link></li>
+              <li><Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Shelf Life &amp; Storage</Link></li>
             </ul>
           </div>
         </div>
@@ -1156,10 +1404,10 @@ export default function MinimumOrderQuantitiesEthiopianCoffee({ title, date, lar
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide covers minimum order quantities for Ethiopian green coffee exports, including FCL and LCL options, and practical advice for new importers.
+          <span className='font-bold'>About This Insight:</span> This guide covers minimum order quantities for Ethiopian green coffee exports, including FCL and LCL options, 2025&ndash;2026 market pricing, payment terms, supply chain timing, and practical negotiation strategies for importers of all sizes. Updated March 2026 with current market conditions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
     </>

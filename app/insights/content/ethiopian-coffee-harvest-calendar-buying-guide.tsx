@@ -513,7 +513,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
           <HiOutlineChartBar className='text-green-600 mt-1 flex-shrink-0 text-xl' />
           <div>
             <p className='font-bold text-sm'>January - March: New-Crop Surge</p>
-            <p className='text-sm'>Supply increases rapidly as milling ramps up across all regions. This is typically the most competitive pricing window. Exporters are eager to move volume, and buyers have the widest selection of fresh lots. Forward contracts locked during this period often capture the best differentials.</p>
+            <p className='text-sm'>Supply increases rapidly as milling ramps up across all regions. This is typically the most competitive pricing window. Exporters are eager to move volume, and buyers have the widest selection of fresh lots. Forward contracts locked during this period often capture the best differentials. To align your purchasing calendar with expected availability, consult our <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='underline'>2025 harvest season outlook</Link>.</p>
           </div>
         </div>
         <div className='flex items-start gap-3 bg-gray-50 p-4 rounded-lg'>

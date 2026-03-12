@@ -135,7 +135,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
           Coffee purchased through the ECX auction typically reflects the prevailing local supply-demand balance. When local demand is high (for example, during domestic consumption peaks or when many exporters compete for limited lots), ECX prices can push above international parity.
         </p>
         <p>
-          Direct trade arrangements through cooperatives or vertically integrated operations can sometimes offer more price stability because the relationship is not subject to daily auction volatility. However, direct trade lots may carry higher per-unit costs because of smaller volumes and additional traceability requirements.
+          Direct trade arrangements through cooperatives or vertically integrated operations can sometimes offer more price stability because the relationship is not subject to daily auction volatility. However, direct trade lots may carry higher per-unit costs because of smaller volumes and additional traceability requirements. See our <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee MOQ guide</Link> for a detailed breakdown of minimum order quantities across both channels.
         </p>
       </div>
 

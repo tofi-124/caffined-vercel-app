@@ -221,7 +221,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       <ul className='list-disc ml-6 space-y-2 text-sm my-4'>
         <li>Europe (Hamburg, <Link href='/insights/importing-ethiopian-coffee-to-holland' className='underline font-bold'>Rotterdam</Link>, Felixstowe): 18 to 25 days</li>
         <li>North America (New York, Montreal): 28 to 35 days</li>
-        <li>Middle East (Jeddah, Jebel Ali): 4 to 7 days. For market intelligence on the fastest-growing GCC destination, see the <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='underline font-bold'>Saudi Arabia coffee market guide</Link></li>
+        <li>Middle East (Jeddah, Jebel Ali): 4 to 7 days. For market intelligence on the fastest-growing GCC destination, see the <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='underline font-bold'>Saudi Arabia coffee market guide</Link> and the <Link href='/insights/importing-ethiopian-coffee-to-uae' className='underline font-bold'>UAE import guide</Link></li>
         <li>East Asia (Yokohama, Busan): 22 to 30 days</li>
         <li>Australia (Melbourne): 25 to 32 days</li>
       </ul>
@@ -616,6 +616,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
               <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Ethiopian Coffee MOQ Guide</Link></li>
               <li>• <Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline'>Specialty Coffee Storage in Sea Freight</Link></li>        <li>• <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>              <li>• <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Netherlands</Link></li>
               <li>• <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to UAE</Link></li>
             </ul>
           </div>
         </div>

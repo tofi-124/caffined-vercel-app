@@ -121,6 +121,7 @@ export default function SpecialtyCoffeeTrends2026({ title, date, large_image_url
       <p className='my-4'>
         As we look toward the upcoming shipments, we advise our partners to book washed lots early.
         Volume forecasts suggest a tighter supply for Grade 1 washed coffees due to rising red cherry prices, while high-quality naturals will be more abundant.
+        For a detailed region-specific harvest forecast and timeline, review our <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='underline'>Ethiopian coffee harvest 2025 outlook</Link>.
       </p>
 
       <p className='my-4'>

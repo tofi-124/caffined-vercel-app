@@ -15,18 +15,18 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
             {title}
           </h1>
           <h2 className='text-2xl font-medium text-gray-700 mb-6'>
-            Regional forecasts, pricing trends, and a timeline for importers sourcing green coffee from Ethiopia
+            Record production, market shifts, and a sourcing playbook for importers buying Ethiopian green coffee in 2025/26
           </h2>
 
           <figure>
             <figcaption className='font-inconsolata my-2'>
-              The 2025 Ethiopian coffee harvest brings promising conditions across most growing regions.
+              Ethiopia&apos;s 2025/26 coffee harvest is on track for a record 11.56 million bags, reshaping pricing and availability across every major origin.
             </figcaption>
 
             <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
               <ResponsiveImage
                 src={`/images/${large_image_url}`}
-                alt='Ethiopian coffee harvest 2025 - coffee cherries being picked in Yirgacheffe'
+                alt='Ethiopian coffee harvest 2025 - freshly picked coffee cherries drying on raised beds in Yirgacheffe'
                 fill
                 objectFit='cover'
                 className='w-full h-full'
@@ -37,32 +37,47 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
 
           <div className='bg-amber-50 border border-amber-200 rounded-lg p-4 my-6'>
             <span className='font-bold'>Key Takeaway: </span>
-            The 2025 Ethiopian coffee harvest shows strong production across all major regions, with favorable growing conditions creating excellent opportunities for importers seeking quality, diversity, and competitive pricing.
+            Ethiopia&apos;s 2025/26 coffee production is forecast at a record 11.56 million 60-kg bags (694,000 MT), a 9% increase year-over-year. Strong output is tempered by a structural shift toward natural processing, tightening washed coffee supply, and historic cherry price increases up to 250 ETB/kg. Importers should commit early for washed lots and expect elevated FOB pricing across all grades.
           </div>
 
           <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
             <p className='font-medium flex items-center gap-2'>
               <HiOutlineCalendarDays className='text-xl flex-shrink-0' />
-              <span><span className='font-bold'>2025 Harvest Update:</span> Peak harvest is underway across most Ethiopian coffee regions. Contact us now to secure your allocation before the best lots are committed.</span>
+              <span><span className='font-bold'>March 2026 Update:</span> The 2025/26 harvest is largely complete across most regions. Late-season lots from Harrar and some western origins remain available. Contact us to secure remaining inventory or begin planning for the 2026/27 season.</span>
             </p>
           </div>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: What the 2025 Season Means for Importers</h2>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Introduction: A Record Crop With New Complexities</h2>
           <p className='my-4'>
-            Every year, the Ethiopian coffee harvest represents one of the most anticipated events in specialty coffee. As the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='underline'>birthplace of Arabica coffee</Link>, Ethiopia produces some of the world&apos;s most distinctive and sought-after green beans from the floral elegance of Yirgacheffe to the explosive fruit character of Guji naturals.
+            The 2025 Ethiopian coffee harvest marks a milestone. According to the <a href='https://fas.usda.gov/data/ethiopia-coffee-annual-9' target='_blank' rel='noopener noreferrer' className='underline'>USDA Foreign Agricultural Service</a>, Ethiopia&apos;s production for marketing year 2025/26 is projected at 11.56 million 60-kg bags, roughly 694,000 metric tons. That figure represents a 9% increase over the prior season and the highest output ever recorded for the country.
           </p>
           <p className='my-4'>
-            For importers, roasters, and green coffee buyers worldwide, understanding the Ethiopian harvest cycle is essential for strategic sourcing. This comprehensive 2025 harvest report covers regional outlooks, quality expectations, pricing dynamics, and a practical timeline to help you plan your Ethiopian coffee purchases with confidence.
+            For importers, roasters, and green coffee buyers, the headline numbers look promising. More Ethiopian coffee is entering the market than ever before. Yet beneath the volume gains, significant structural changes are reshaping what is actually available, at what price, and on what terms. A 110% birr devaluation, cherry prices that surged up to fourfold in some areas, a shift from washed to natural processing, and the near-collapse of EU organic cooperative certification all demand attention.
           </p>
           <p className='my-4'>
-            For first-time buyers exploring <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>how to source Ethiopian green coffee</Link> and experienced importers seeking this season&apos;s exceptional lots alike, this guide provides the market intelligence you need.
+            This report combines the latest USDA production data with on-ground market intelligence from our <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline'>sourcing network across Ethiopia&apos;s coffee regions</Link>. It covers regional outlooks, macroeconomic drivers, pricing, policy changes, and a practical timeline to help importers plan Ethiopian coffee purchases with confidence.
           </p>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Ethiopian Coffee Harvest Calendar: When Coffee Is Picked</h2>
+          <div className='bg-gray-50 border border-gray-200 rounded-lg p-6 my-8'>
+            <h3 className='text-xl font-bold mb-3'>2025/26 Season At a Glance</h3>
+            <ul className='font-inconsolata list-disc ml-5 space-y-2'>
+              <li><span className='font-bold'>Record production:</span> 11.56 million bags (694,000 MT), up 9% year-over-year</li>
+              <li><span className='font-bold'>Exports forecast:</span> 7.8 million bags, an 11.4% increase; export value reached $1.7 billion in 2023/24</li>
+              <li><span className='font-bold'>Regional split:</span> Lower yields in southern regions (Sidama, Yirgacheffe, Guji); bumper year in western Ethiopia (Limu, Kaffa, Benchmaji)</li>
+              <li><span className='font-bold'>Cherry prices:</span> Peaked at 220 to 250 ETB/kg, up roughly fourfold from recent seasons</li>
+              <li><span className='font-bold'>Processing shift:</span> More naturals, fewer washed lots as farmers process at home for higher returns</li>
+              <li><span className='font-bold'>Price surge:</span> Ethiopian green bean prices rose from 270 to 423 US cents/lb (May 2024 to April 2025)</li>
+              <li><span className='font-bold'>EU organic decline:</span> Stricter individual farmer certification rules have sharply reduced cooperative EU organic supply</li>
+              <li><span className='font-bold'>Policy reforms:</span> Direct export rights for farmers with 2+ hectares; new capital requirements for exporters</li>
+              <li><span className='font-bold'>Quality outlook:</span> Positive across all regions; 450,000 hectares of rejuvenated coffee trees boosting yields</li>
+            </ul>
+          </div>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Ethiopian Coffee Harvest Calendar: 2025 Timing and Status</h2>
           <p className='my-4'>
-            Unlike many coffee-producing countries with clearly defined wet and dry seasons, Ethiopia&apos;s diverse geography creates a staggered harvest across regions. Understanding this timeline is crucial for importers planning their buying windows. For a comprehensive month-by-month procurement framework, see our <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='underline font-semibold'>Ethiopian coffee harvest calendar and seasonal buying guide</Link>.
+            Ethiopia&apos;s diverse geography produces a staggered harvest across regions. Understanding when each origin picks, processes, and exports is essential for planning buying windows. For a comprehensive month-by-month procurement framework, see our <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='underline font-semibold'>Ethiopian coffee harvest calendar and seasonal buying guide</Link>.
           </p>
-          
+
           <div className='overflow-x-auto my-6'>
             <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
               <thead className='bg-dark text-primary'>
@@ -71,6 +86,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
                   <th className='border border-gray-300 p-3 text-left'>Harvest Period</th>
                   <th className='border border-gray-300 p-3 text-left'>Processing Window</th>
                   <th className='border border-gray-300 p-3 text-left'>Export Availability</th>
+                  <th className='border border-gray-300 p-3 text-left'>2025 Status</th>
                 </tr>
               </thead>
               <tbody>
@@ -79,272 +95,354 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
                   <td className='border border-gray-300 p-3'>October – January</td>
                   <td className='border border-gray-300 p-3'>November – February</td>
                   <td className='border border-gray-300 p-3'>February – May</td>
+                  <td className='border border-gray-300 p-3'>2-3 weeks late; completed</td>
                 </tr>
                 <tr className='bg-gray-50'>
-                  <td className='border border-gray-300 p-3 font-bold'>Sidamo</td>
+                  <td className='border border-gray-300 p-3 font-bold'>Sidama</td>
                   <td className='border border-gray-300 p-3'>October – January</td>
                   <td className='border border-gray-300 p-3'>November – February</td>
                   <td className='border border-gray-300 p-3'>February – May</td>
+                  <td className='border border-gray-300 p-3'>2-3 weeks late; completed</td>
                 </tr>
                 <tr>
                   <td className='border border-gray-300 p-3 font-bold'>Guji</td>
                   <td className='border border-gray-300 p-3'>October – December</td>
                   <td className='border border-gray-300 p-3'>November – January</td>
                   <td className='border border-gray-300 p-3'>January – April</td>
+                  <td className='border border-gray-300 p-3'>Slightly delayed; completed</td>
                 </tr>
                 <tr className='bg-gray-50'>
                   <td className='border border-gray-300 p-3 font-bold'>Harrar</td>
                   <td className='border border-gray-300 p-3'>November – February</td>
                   <td className='border border-gray-300 p-3'>December – March</td>
                   <td className='border border-gray-300 p-3'>March – June</td>
+                  <td className='border border-gray-300 p-3'>On schedule; final pickings</td>
                 </tr>
                 <tr>
-                  <td className='border border-gray-300 p-3 font-bold'>Limu</td>
+                  <td className='border border-gray-300 p-3 font-bold'>Limu / Jimma</td>
                   <td className='border border-gray-300 p-3'>November – January</td>
                   <td className='border border-gray-300 p-3'>December – February</td>
                   <td className='border border-gray-300 p-3'>February – May</td>
+                  <td className='border border-gray-300 p-3'>On schedule; strong yield</td>
                 </tr>
                 <tr className='bg-gray-50'>
-                  <td className='border border-gray-300 p-3 font-bold'>Jimma</td>
+                  <td className='border border-gray-300 p-3 font-bold'>Kaffa / Benchmaji</td>
                   <td className='border border-gray-300 p-3'>October – January</td>
                   <td className='border border-gray-300 p-3'>November – February</td>
                   <td className='border border-gray-300 p-3'>February – May</td>
+                  <td className='border border-gray-300 p-3'>Bumper year; completed</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <p className='my-4'>
-            The 2025 harvest began on schedule in most regions, with early pickings in Guji and Yirgacheffe starting in late September. Favorable rainfall patterns during the growing season have set the stage for what could be an excellent crop year.
+            The 2025 harvest started two to three weeks later than usual across southern regions. Dry weather during peak harvest supported good drying conditions, and early quality indicators are positive across all origins. Western Ethiopia experienced a particularly strong production year, with increased yields in Kaffa, Limu, and Benchmaji.
           </p>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Regional Harvest Outlooks for 2025</h2>
-          
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Yirgacheffe: Exceptional Conditions for Floral Complexity</h3>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Regional Harvest Outlooks: South vs. West</h2>
           <p className='my-4'>
-            The Gedeo Zone&apos;s famous Yirgacheffe micro-region is reporting one of its most promising harvests in recent years. Adequate rainfall during the flowering period (March-April) combined with moderate temperatures during cherry development has created ideal conditions for the delicate floral compounds that make <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline'>Yirgacheffe coffee</Link> legendary.
+            A defining feature of the 2025/26 season is the divergence between southern and western Ethiopia. Southern regions (Yirgacheffe, Sidama, Guji) saw lower yields compared to recent seasons, while western origins (Limu, Kaffa, Benchmaji) produced a bumper crop. This creates both challenges and opportunities for buyers.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Yirgacheffe: Quality Up, Volume Down</h3>
+          <p className='my-4'>
+            The Gedeo Zone&apos;s famous Yirgacheffe micro-region produced lower volumes this season compared to the 2024 harvest. A delayed start compressed the picking window, concentrating labor demand and increasing costs. Despite the volume pressure, cup quality is excellent. The delayed harvest allowed cherries to develop fully, resulting in pronounced floral and citrus complexity in both <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='underline'>washed and natural lots</Link>.
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <h4 className='font-bold text-lg mb-2'>Yirgacheffe 2025 Outlook</h4>
             <ul className='font-inconsolata list-disc ml-5'>
-              <li className='my-2'><span className='font-bold'>Volume:</span> Slightly above average (+5-8% vs. 2024)</li>
-              <li className='my-2'><span className='font-bold'>Quality:</span> Excellent potential for G1 washed lots</li>
-              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Pronounced jasmine, bergamot, lemon zest</li>
-              <li className='my-2'><span className='font-bold'>Price Trend:</span> Speciality pricing expected due to global demand</li>
-              <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Secure washed G1 early; competition is intense</li>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Below average; southern yield dip</li>
+              <li className='my-2'><span className='font-bold'>Quality:</span> Excellent G1 washed lots with pronounced terroir</li>
+              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Jasmine, bergamot, lemon zest, clean finish</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Elevated; washed G1 commanding significant premiums</li>
+              <li className='my-2'><span className='font-bold'>Supply Note:</span> Washed volumes tighter than usual; naturals more available</li>
             </ul>
           </div>
 
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sidamo: Strong Naturals, Consistent Washed</h3>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Sidama: Naturals Shine as Washed Supply Tightens</h3>
           <p className='my-4'>
-            Sidamo now officially known as Sidama after gaining regional autonomy continues to deliver the fruit-forward naturals and balanced washed coffees the region is known for. The 2025 harvest shows particular strength in natural processed lots, with extended dry periods during processing creating ideal conditions for slow, even drying.
+            Sidama (formerly Sidamo, renamed after gaining regional autonomy) continues to deliver the fruit-forward naturals and balanced washed coffees the region is known for. The 2025 harvest shows particular strength in natural processed lots. Extended dry periods during processing created ideal conditions for slow, even drying. Washed production declined as many farmers chose to process coffee at home rather than sell fresh cherry to washing stations, drawn by higher returns for dried naturals.
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-            <h4 className='font-bold text-lg mb-2'>Sidamo 2025 Outlook</h4>
+            <h4 className='font-bold text-lg mb-2'>Sidama 2025 Outlook</h4>
             <ul className='font-inconsolata list-disc ml-5'>
-              <li className='my-2'><span className='font-bold'>Volume:</span> Average to slightly above</li>
-              <li className='my-2'><span className='font-bold'>Quality:</span> Naturals showing exceptional fruit clarity</li>
-              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Blueberry, strawberry, wine notes in naturals</li>
-              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; naturals commanding speciality</li>
-              <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Great value in G2 naturals for blend enhancement</li>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Average overall; naturals up, washed down</li>
+              <li className='my-2'><span className='font-bold'>Quality:</span> Exceptional fruit clarity in naturals</li>
+              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Blueberry, strawberry, wine notes in naturals; citrus balance in washed</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable for naturals; washed premiums rising</li>
+              <li className='my-2'><span className='font-bold'>Supply Note:</span> G2 naturals offer strong value for blend programs</li>
             </ul>
           </div>
           <p className='my-4'>
-            For a deeper look at Sidama&apos;s production systems, farmer cluster organization, and the 495 new direct export licenses expanding sourcing options, see our <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline font-bold'>Sidama coffee production and productivity guide</Link>.
+            For a deeper look at Sidama&apos;s production systems and the 495 new direct export licenses expanding sourcing options, see our <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline font-bold'>Sidama coffee production and productivity guide</Link>.
           </p>
 
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Guji: The Rising Star Delivers Again</h3>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Guji: Competition-Grade Lots Despite Yield Pressure</h3>
           <p className='my-4'>
-            Guji has rapidly become one of the most exciting Ethiopian origins, and the 2025 harvest reinforces why. Higher altitudes in areas like Shakiso, Uraga, and Hambela are producing coffees with standout complexity, the signature stone fruit and jasmine aromatics that have made Guji a darling of specialty roasters.
+            Guji experienced lower productivity this season in line with the broader southern pattern, but the quality picture is outstanding. Higher altitudes in Shakiso, Uraga, and Hambela continue producing coffees with the signature stone fruit and jasmine aromatics that have made Guji a priority for specialty roasters. Private washing stations in the zone are competing intensely for cherry supply, driving up quality standards alongside prices.
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <h4 className='font-bold text-lg mb-2'>Guji 2025 Outlook</h4>
             <ul className='font-inconsolata list-disc ml-5'>
-              <li className='my-2'><span className='font-bold'>Volume:</span> Strong production year</li>
-              <li className='my-2'><span className='font-bold'>Quality:</span> Competition-grade lots available</li>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Below recent peaks; yield pressure in south</li>
+              <li className='my-2'><span className='font-bold'>Quality:</span> Competition-grade lots available from top stations</li>
               <li className='my-2'><span className='font-bold'>Expected Profile:</span> Peach, apricot, jasmine, syrupy body</li>
-              <li className='my-2'><span className='font-bold'>Price Trend:</span> Speciality prices; high demand from specialty buyers</li>
-              <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Excellent for single-origin espresso programs</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Premium pricing; strong demand from specialty buyers globally</li>
+              <li className='my-2'><span className='font-bold'>Supply Note:</span> Excellent for single-origin espresso programs; book early</li>
             </ul>
           </div>
 
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Harrar: Traditional Character, Variable Lots</h3>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Harrar: Traditional Character, Late-Season Availability</h3>
           <p className='my-4'>
-            Eastern Ethiopia&apos;s Harrar region produces some of the most distinctive coffees in the world bold, winey naturals with dried fruit character. The 2025 harvest faces some challenges from inconsistent rainfall, but top lots from established producers maintain the quality Harrar is known for.
+            Eastern Ethiopia&apos;s Harrar region produces some of the most distinctive coffees in the world: bold, winey naturals with dried fruit and spice character. The 2025 harvest proceeded on schedule, and as of March 2026, final pickings are wrapping up. Harrar offers one of the last buying windows for fresh 2025 crop, making it relevant for importers looking to fill late-season gaps.
           </p>
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
             <h4 className='font-bold text-lg mb-2'>Harrar 2025 Outlook</h4>
             <ul className='font-inconsolata list-disc ml-5'>
-              <li className='my-2'><span className='font-bold'>Volume:</span> Slightly below average due to weather</li>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Slightly below average; inconsistent rainfall</li>
               <li className='my-2'><span className='font-bold'>Quality:</span> Variable; careful lot selection essential</li>
               <li className='my-2'><span className='font-bold'>Expected Profile:</span> Dried fruit, cocoa, wine, spice</li>
-              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; speciality for verified quality</li>
-              <li className='my-2'><span className='font-bold'>Buyer Tip:</span> Request samples; lot variation is significant</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Stable; premium for verified quality lots</li>
+              <li className='my-2'><span className='font-bold'>Supply Note:</span> Request samples; lot variation is significant in this region</li>
             </ul>
           </div>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Quality Expectations: What Buyers Should Know</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Western Ethiopia: The Breakout Story of 2025</h3>
           <p className='my-4'>
-            Several factors are shaping the quality profile of the 2025 Ethiopian harvest:
-          </p>
-          
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Climate Conditions</h3>
-          <p className='my-4'>
-            The 2024 growing season saw generally favorable weather across Ethiopia&apos;s coffee belt. The Belg (short) rains arrived on time in March-April, supporting healthy flowering. The Meher (main) rains from June-September provided adequate moisture without the excess that can promote fungal disease.
+            While southern Ethiopia has long dominated specialty buyers&apos; attention, western regions are the breakout story of this harvest. Limu, Jimma, Kaffa, and Benchmaji all reported bumper yields, driven by greater land availability, lower production costs, and increasing investment in washing stations and estate farms. Kaffa&apos;s Bitta area stands out for consistent washed and natural coffees with strong clarity and sweetness.
           </p>
           <p className='my-4'>
-            Temperature patterns remained within optimal ranges for Arabica development (15-24°C). Importantly, there were no significant frost events in highland areas a risk that can devastate quality in high-altitude regions.
+            For buyers focused on value-driven quality, western Ethiopia offers a genuine opportunity this season. Larger available volumes, earlier shipment timelines, and competitive pricing make these origins attractive for both single-origin programs and blend components. Oromia accounts for 59% of national coffee output, with western zones contributing an increasing share.
+          </p>
+          <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
+            <h4 className='font-bold text-lg mb-2'>Western Ethiopia 2025 Outlook</h4>
+            <ul className='font-inconsolata list-disc ml-5'>
+              <li className='my-2'><span className='font-bold'>Volume:</span> Bumper year; significantly above average</li>
+              <li className='my-2'><span className='font-bold'>Quality:</span> Improving rapidly; new washing stations raising the floor</li>
+              <li className='my-2'><span className='font-bold'>Expected Profile:</span> Clean, balanced, moderate acidity; Kaffa showing specialty potential</li>
+              <li className='my-2'><span className='font-bold'>Price Trend:</span> Competitive; strong value relative to southern origins</li>
+              <li className='my-2'><span className='font-bold'>Supply Note:</span> Consider Kaffa and Limu for quality-focused buyers seeking alternatives</li>
+            </ul>
+          </div>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Macroeconomic Forces Reshaping the Ethiopian Coffee Market</h2>
+          <p className='my-4'>
+            Several macroeconomic developments have fundamentally altered the pricing and trade environment for Ethiopian coffee in 2025. Buyers who understand these forces can negotiate more effectively and anticipate market movements.
           </p>
 
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Processing Infrastructure Improvements</h3>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Birr Devaluation and Its Ripple Effects</h3>
           <p className='my-4'>
-            Ethiopian washing stations continue to invest in <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing infrastructure</Link>. New fermentation tanks, improved raised drying beds, and better water management systems are raising the floor on quality. This is particularly evident in Guji and parts of Sidamo, where private washing stations are competing intensely for cherry supply by offering farmers speciality prices for ripe, well-sorted cherry.
+            In July 2024, Ethiopia floated the birr after decades of fixed exchange rates. The resulting 110% devaluation sent shockwaves through the coffee supply chain. Domestic production costs soared in birr terms, while the move improved Ethiopia&apos;s export competitiveness in dollar terms. For importers, the practical effect is mixed: FOB prices in USD have risen, reflecting higher farmgate costs, but Ethiopia&apos;s position relative to other origins improved as the birr weakened.
           </p>
 
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Grading and Defect Expectations</h3>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Cherry Prices at Historic Highs</h3>
           <p className='my-4'>
-            Based on early-season arrivals, we&apos;re seeing:
-          </p>
-          <ul className='font-inconsolata my-4 list-disc ml-5'>
-            <li className='my-2'><span className='font-bold'>G1 Washed:</span> Excellent availability; clean cups with pronounced terroir</li>
-            <li className='my-2'><span className='font-bold'>G1 Natural:</span> Strong lots from speciality stations; some variation</li>
-            <li className='my-2'><span className='font-bold'>G2 Washed:</span> Good value tier; slight increase in minor defects</li>
-            <li className='my-2'><span className='font-bold'>G2 Natural:</span> Abundant; excellent for blends and price-sensitive buyers</li>
-            <li className='my-2'><span className='font-bold'>G3/G4:</span> Commercial grades available for volume buyers</li>
-          </ul>
-          <p className='my-4'>
-            Understanding <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline'>Ethiopian coffee grading standards</Link> is essential for setting realistic expectations and negotiating fair prices.
+            Cherry prices peaked at 220 to 250 ETB per kilogram in December 2025, representing an increase of up to fourfold compared to recent seasons. Picking labor costs surged in parallel. One prominent producer in Guji reported paying 50 ETB per kilogram of cherry for picking alone, compared to 50 ETB per day just a few seasons ago. These cost pressures are being passed through the chain, raising FOB prices across all grades and processing methods.
           </p>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Pricing Trends and Market Dynamics</h2>
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Minimum Export Prices vs. the NY &quot;C&quot;</h3>
           <p className='my-4'>
-            The 2025 Ethiopian coffee market reflects broader trends in global specialty coffee:
+            Unlike most coffee-producing countries that price using differentials to the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline'>New York &quot;C&quot; market</Link>, Ethiopia operates under a system of weekly minimum export prices set by the National Bank of Ethiopia. These minimums are indexed to NY &quot;C&quot; prices, exchange rates, and regional grade benchmarks. As the NY &quot;C&quot; market fluctuated in late 2025 and early 2026, Ethiopian minimum prices remained relatively high, creating tension for buyers accustomed to differential-based pricing. Forward commitments help exporters manage this exposure and offer better pricing certainty.
           </p>
 
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Price Drivers for 2025</h3>
-          <ul className='font-inconsolata my-4 list-disc ml-5'>
-            <li className='my-2'><span className='font-bold'>Global Demand:</span> Specialty coffee consumption continues growing 5-7% annually</li>
-            <li className='my-2'><span className='font-bold'>Ethiopian Birr Dynamics:</span> Currency fluctuations affect FOB pricing</li>
-            <li className='my-2'><span className='font-bold'>Logistics Costs:</span> Shipping rates have stabilized but remain elevated</li>
-            <li className='my-2'><span className='font-bold'>Competition:</span> More buyers pursuing limited exceptional lots</li>
-            <li className='my-2'><span className='font-bold'>Farm-level Economics:</span> Rising production costs passed to exporters</li>
-          </ul>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>The Washed-to-Natural Processing Shift</h2>
+          <p className='my-4'>
+            One of the most significant structural changes in the 2025/26 season is the shift from washed to natural processing. Following strong prices for dried natural coffee in the 2024/25 season, many smallholder farmers chose to process coffee at home rather than sell fresh cherry to washing stations. The economics are clear: farmers retain more value by drying and selling natural coffee themselves.
+          </p>
+          <p className='my-4'>
+            The result is a structural imbalance. Natural coffee is more abundant this season, while <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='underline'>washed volumes</Link> have declined, particularly as the season progressed. For roasters and importers requiring washed Ethiopian coffee in any significant volume, earlier commitment is essential. Washed supply is expected to tighten further in coming months, with prices rising accordingly. Conversely, buyers open to high-quality naturals from Sidama and Guji will find excellent selection and competitive pricing.
+          </p>
 
-          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Expected Price Ranges (FOB Djibouti)</h3>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Pricing Trends: Global Context and FOB Ranges</h2>
+          <p className='my-4'>
+            Ethiopian coffee prices reflect both local cost pressures and global supply dynamics. Arabica futures on the ICE exchange rose from approximately 216 US cents/lb in May 2024 to 400.75 cents/lb by April 2025, driven by supply tightening in Brazil and Vietnam. Ethiopian green bean prices tracked even higher, rising from 270 to 423 cents/lb in the same period. Ethiopia&apos;s total coffee export value reached $1.7 billion in the 2023/24 marketing year, with volumes of 5.63 million bags.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Current FOB Price Ranges (Djibouti / Addis Dry Port)</h3>
           <div className='overflow-x-auto my-6'>
             <table className='w-full border-collapse border border-gray-300 font-inconsolata text-sm'>
               <thead className='bg-dark text-primary'>
                 <tr>
-                  <th className='border border-gray-300 p-3 text-left'>Grade/Origin</th>
-                  <th className='border border-gray-300 p-3 text-left'>2024 Range</th>
-                  <th className='border border-gray-300 p-3 text-left'>2025 Expected</th>
+                  <th className='border border-gray-300 p-3 text-left'>Grade / Origin</th>
+                  <th className='border border-gray-300 p-3 text-left'>Processing</th>
+                  <th className='border border-gray-300 p-3 text-left'>FOB Price/kg</th>
+                  <th className='border border-gray-300 p-3 text-left'>FOB Price/lb</th>
                   <th className='border border-gray-300 p-3 text-left'>Trend</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className='border border-gray-300 p-3 font-bold'>Yirgacheffe G1 Washed</td>
-                  <td className='border border-gray-300 p-3'>$4.80 – $6.50/kg</td>
-                  <td className='border border-gray-300 p-3'>$5.00 – $7.00/kg</td>
-                  <td className='border border-gray-300 p-3'>↑ Moderate increase</td>
+                  <td className='border border-gray-300 p-3 font-bold'>Yirgacheffe G1</td>
+                  <td className='border border-gray-300 p-3'>Washed</td>
+                  <td className='border border-gray-300 p-3'>$9.00 – $10.00</td>
+                  <td className='border border-gray-300 p-3'>$4.10 – $4.55</td>
+                  <td className='border border-gray-300 p-3'>↑ Strong increase</td>
                 </tr>
                 <tr className='bg-gray-50'>
-                  <td className='border border-gray-300 p-3 font-bold'>Guji G1 Natural</td>
-                  <td className='border border-gray-300 p-3'>$4.50 – $6.00/kg</td>
-                  <td className='border border-gray-300 p-3'>$4.80 – $6.50/kg</td>
-                  <td className='border border-gray-300 p-3'>↑ Strong demand</td>
+                  <td className='border border-gray-300 p-3 font-bold'>Yirgacheffe G1</td>
+                  <td className='border border-gray-300 p-3'>Natural</td>
+                  <td className='border border-gray-300 p-3'>$9.50 – $10.50</td>
+                  <td className='border border-gray-300 p-3'>$4.30 – $4.75</td>
+                  <td className='border border-gray-300 p-3'>↑ Premium for top lots</td>
                 </tr>
                 <tr>
-                  <td className='border border-gray-300 p-3 font-bold'>Sidamo G2 Natural</td>
-                  <td className='border border-gray-300 p-3'>$3.20 – $4.20/kg</td>
-                  <td className='border border-gray-300 p-3'>$3.40 – $4.50/kg</td>
-                  <td className='border border-gray-300 p-3'>↑ Slight increase</td>
+                  <td className='border border-gray-300 p-3 font-bold'>Sidama G1</td>
+                  <td className='border border-gray-300 p-3'>Washed</td>
+                  <td className='border border-gray-300 p-3'>$9.00 – $10.00</td>
+                  <td className='border border-gray-300 p-3'>$4.10 – $4.55</td>
+                  <td className='border border-gray-300 p-3'>↑ Strong increase</td>
                 </tr>
                 <tr className='bg-gray-50'>
-                  <td className='border border-gray-300 p-3 font-bold'>Limu G2 Washed</td>
-                  <td className='border border-gray-300 p-3'>$3.00 – $3.80/kg</td>
-                  <td className='border border-gray-300 p-3'>$3.10 – $4.00/kg</td>
-                  <td className='border border-gray-300 p-3'>→ Stable</td>
+                  <td className='border border-gray-300 p-3 font-bold'>Sidama G2</td>
+                  <td className='border border-gray-300 p-3'>Washed</td>
+                  <td className='border border-gray-300 p-3'>$8.50 – $9.50</td>
+                  <td className='border border-gray-300 p-3'>$3.85 – $4.30</td>
+                  <td className='border border-gray-300 p-3'>↑ Moderate increase</td>
+                </tr>
+                <tr>
+                  <td className='border border-gray-300 p-3 font-bold'>Guji G1</td>
+                  <td className='border border-gray-300 p-3'>Natural</td>
+                  <td className='border border-gray-300 p-3'>$9.50 – $10.50</td>
+                  <td className='border border-gray-300 p-3'>$4.30 – $4.75</td>
+                  <td className='border border-gray-300 p-3'>↑ High demand</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='border border-gray-300 p-3 font-bold'>Limu G2</td>
+                  <td className='border border-gray-300 p-3'>Washed</td>
+                  <td className='border border-gray-300 p-3'>$8.00 – $9.00</td>
+                  <td className='border border-gray-300 p-3'>$3.65 – $4.10</td>
+                  <td className='border border-gray-300 p-3'>↑ Slight increase</td>
                 </tr>
                 <tr>
                   <td className='border border-gray-300 p-3 font-bold'>Commercial G4</td>
-                  <td className='border border-gray-300 p-3'>$2.20 – $2.80/kg</td>
-                  <td className='border border-gray-300 p-3'>$2.30 – $3.00/kg</td>
-                  <td className='border border-gray-300 p-3'>→ Stable</td>
+                  <td className='border border-gray-300 p-3'>Natural</td>
+                  <td className='border border-gray-300 p-3'>$6.50 – $7.50</td>
+                  <td className='border border-gray-300 p-3'>$2.95 – $3.40</td>
+                  <td className='border border-gray-300 p-3'>↑ Moderate increase</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className='my-4 text-sm text-gray-600'>
-            *Prices are indicative and subject to change based on lot quality, volume, and market conditions. Contact us for current pricing.
+            *Prices are indicative and reflect March 2026 market conditions. Actual pricing depends on lot quality, volume, and contract terms. <Link href='/offerings' className='underline'>View our current offerings</Link> for specific quotes.
           </p>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Buyer Planning Timeline: When to Act</h2>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>EU Organic Certification: A Supply Squeeze</h2>
           <p className='my-4'>
-            Successful Ethiopian coffee sourcing requires planning ahead. Here&apos;s a practical timeline for the 2025 harvest:
+            Stricter European regulations now mandate individual farmer certification, replacing the long-standing group certification model. This shift has dramatically increased costs and administrative complexity for cooperatives, which typically manage hundreds or thousands of smallholder members. Major unions including Oromia and Limu Inara have scaled back the number of certified cooperatives this season, resulting in a steep decline in available EU organic Ethiopian coffee.
+          </p>
+          <p className='my-4'>
+            NOP (USDA) and JAS (Japan) organic certifications remain largely unaffected, so buyers in North American and Japanese markets should not see the same supply constraints. Estate farms, with centralized landholdings, are better positioned to absorb the new EU requirements and are expanding their <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='underline'>organic certified offerings</Link>. Importers targeting the EU market should secure organic supply early and consider estate-origin alternatives.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Policy Reforms and Market Access Changes</h2>
+          <p className='my-4'>
+            Several policy developments are reshaping who can export Ethiopian coffee and under what conditions:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>Direct Export Rights:</span> Farmers with 2 or more hectares can now bypass the <Link href='/insights/ecx-and-ethiopian-coffee-export' className='underline'>Ethiopia Commodity Exchange (ECX)</Link> and export directly. This opens new sourcing channels for importers interested in traceability.</li>
+            <li className='my-2'><span className='font-bold'>Vertical Integration:</span> Launched in 2021 and now maturing, this framework streamlines the supply chain from farm to export port, reducing intermediary costs.</li>
+            <li className='my-2'><span className='font-bold'>New Capital Requirements:</span> Individual exporters must now hold 10 million birr in capital; companies need 15 million birr. This consolidates the exporter base, potentially improving reliability but reducing the number of small exporters.</li>
+            <li className='my-2'><span className='font-bold'>Foreign Investment (Directive 1001/2024):</span> Foreign entities entering the Ethiopian coffee export sector must demonstrate $10 million in export history or $12.5 million in new investment. This raises the entry bar while protecting established exporters.</li>
+          </ul>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Quality Expectations and Infrastructure Investment</h2>
+          <p className='my-4'>
+            Quality indicators for the 2025/26 season are positive across the board. Several investment trends are raising the quality floor:
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Tree Rejuvenation Campaign</h3>
+          <p className='my-4'>
+            Over 450,000 hectares of aging coffee trees have been stumped and replanted with improved, climate-resilient varieties as part of a national rejuvenation campaign. In targeted areas like Gedeo Zone, yields have increased up to threefold. Combined with the Green Legacy Initiative (25 billion seedlings planted since 2019, including coffee and shade trees), this effort is a key driver behind the record production forecast. For more on how <Link href='/insights/ethiopian-coffee-climate-change-impact' className='underline'>climate change is shaping Ethiopian coffee production</Link>, see our dedicated analysis.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Processing Infrastructure Upgrades</h3>
+          <p className='my-4'>
+            Exporters have reinvested recent profits heavily, acquiring estate farms, building new washing stations, and establishing dry mills in Addis Ababa. New fermentation tanks, improved raised drying beds, and better water management systems are raising quality standards. This is particularly evident in Guji and parts of Sidama, where private stations compete for cherry supply by offering premium prices for ripe, well-sorted cherry. The newly established Specialty Coffee Association of Ethiopia is further strengthening the country&apos;s global positioning, encouraging innovation in anaerobic fermentation and other experimental <Link href='/insights/coffee-is-processing-drying-milling' className='underline'>processing methods</Link>.
+          </p>
+
+          <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Grading and Defect Expectations</h3>
+          <p className='my-4'>
+            Based on this season&apos;s arrivals and sample evaluations:
+          </p>
+          <ul className='font-inconsolata my-4 list-disc ml-5'>
+            <li className='my-2'><span className='font-bold'>G1 Washed:</span> Excellent but limited availability; clean cups with pronounced terroir</li>
+            <li className='my-2'><span className='font-bold'>G1 Natural:</span> Strong lots from specialty stations; broader availability than washed</li>
+            <li className='my-2'><span className='font-bold'>G2 Washed:</span> Good value tier; limited volume this season</li>
+            <li className='my-2'><span className='font-bold'>G2 Natural:</span> Abundant; excellent for blends and value-focused programs</li>
+            <li className='my-2'><span className='font-bold'>G3/G4:</span> Commercial grades available for volume buyers at competitive rates</li>
+          </ul>
+          <p className='my-4'>
+            Understanding <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline'>Ethiopian coffee grading standards</Link> is essential for setting realistic expectations and negotiating fair prices.
+          </p>
+
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Buyer Planning Timeline: Where We Stand in March 2026</h2>
+          <p className='my-4'>
+            With the 2025/26 harvest largely complete, here is where the season stands and what actions remain relevant:
           </p>
 
           <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
-            <h4 className='font-bold text-lg mb-4'>2025 Ethiopian Coffee Buying Timeline</h4>
+            <h4 className='font-bold text-lg mb-4'>2025/26 Ethiopian Coffee Buying Timeline</h4>
             <ul className='font-inconsolata list-none space-y-4'>
               <li className='flex gap-4'>
-                <span className='font-bold min-w-[140px]'>Sep – Oct 2025:</span>
-                <span>Pre-season planning. Review previous year&apos;s performance, set budgets, communicate requirements to suppliers.</span>
-              </li>
-              <li className='flex gap-4'>
-                <span className='font-bold min-w-[140px]'>Nov – Dec 2025:</span>
-                <span>Early harvest arrivals. Request type samples, evaluate early lots, make commitments on exceptional finds.</span>
+                <span className='font-bold min-w-[140px]'>Oct – Dec 2025:</span>
+                <span>Early harvest arrivals began. Buyers who committed at this stage secured the best Yirgacheffe and Guji lots before competition intensified.</span>
               </li>
               <li className='flex gap-4'>
                 <span className='font-bold min-w-[140px]'>Jan – Feb 2026:</span>
-                <span>Peak buying window. Best selection available. Confirm orders and shipping schedules.</span>
+                <span>Peak buying window. Best selection across all origins. Most washed G1 lots were committed during this period.</span>
               </li>
               <li className='flex gap-4'>
-                <span className='font-bold min-w-[140px]'>Mar – Apr 2026:</span>
-                <span>Main shipments depart. Pre-shipment samples, final documentation, logistics coordination.</span>
+                <span className='font-bold min-w-[140px] bg-amber-100 px-1 rounded'>Mar – Apr 2026:</span>
+                <span><span className='font-bold'>Current window.</span> Main shipments departing. Late-season Harrar and western lots still available. Pre-shipment samples, final documentation, and logistics coordination underway.</span>
               </li>
               <li className='flex gap-4'>
                 <span className='font-bold min-w-[140px]'>May – Jul 2026:</span>
-                <span>Late season. Limited selection but possible deals. Good for fill-in orders.</span>
+                <span>Late season. Limited selection but possible fill-in opportunities. Good time to evaluate performance and begin planning 2026/27 requirements.</span>
+              </li>
+              <li className='flex gap-4'>
+                <span className='font-bold min-w-[140px]'>Aug – Sep 2026:</span>
+                <span>Off-season planning. Review this season&apos;s results, set budgets, and communicate 2026/27 requirements to suppliers early.</span>
               </li>
             </ul>
           </div>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>How Ethio Coffee Supports Your 2025 Sourcing</h2>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>How Ethio Coffee Supports Your Ethiopian Sourcing</h2>
           <p className='my-4'>
-            At <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='underline'>Ethio Coffee Import and Export PLC</Link>, we&apos;re positioned to help importers plan their 2025 harvest purchases with confidence:
+            At <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='underline'>Ethio Coffee Import and Export PLC</Link>, our three decades of heritage sourcing relationships across Ethiopia&apos;s coffee regions position us to help importers plan purchases with confidence:
           </p>
           <ul className='font-inconsolata my-4 list-disc ml-5'>
-            <li className='my-2'><span className='font-bold'>Regional Coverage:</span> We source from all major Ethiopian growing regions</li>
-            <li className='my-2'><span className='font-bold'>Quality Focus:</span> Rigorous <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline'>quality control</Link> at every stage</li>
-            <li className='my-2'><span className='font-bold'>Transparent Pricing:</span> Clear FOB quotes with full documentation</li>
-            <li className='my-2'><span className='font-bold'>Sample Programs:</span> Type samples and pre-shipment samples available</li>
-            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> Ship FOB Djibouti or Addis dry port</li>
-            <li className='my-2'><span className='font-bold'>Responsive Communication:</span> Real-time updates on availability and shipping</li>
+            <li className='my-2'><span className='font-bold'>Regional Coverage:</span> Trusted sourcing from all major growing regions including emerging western origins</li>
+            <li className='my-2'><span className='font-bold'>Quality Focus:</span> Rigorous <Link href='/insights/green-coffee-quality-control-defects-grading' className='underline'>quality control</Link> at every stage from cherry intake to export</li>
+            <li className='my-2'><span className='font-bold'>Market Intelligence:</span> Real-time updates on availability, pricing, and regulatory changes</li>
+            <li className='my-2'><span className='font-bold'>Sample Programs:</span> Type samples and pre-shipment samples for every lot</li>
+            <li className='my-2'><span className='font-bold'>Flexible Logistics:</span> Ship FOB Djibouti or Addis dry port with full <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='underline'>export documentation</Link></li>
+            <li className='my-2'><span className='font-bold'>Transparent Pricing:</span> Clear FOB quotes reflecting current market conditions</li>
           </ul>
 
-          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: A Promising Year for Ethiopian Coffee</h2>
+          <h2 className='text-3xl font-bold text-dark mt-8 mb-4'>Conclusion: Record Production, New Sourcing Realities</h2>
           <p className='my-4'>
-            The 2025 Ethiopian coffee harvest offers excellent opportunities for importers seeking quality, diversity, and value. Favorable growing conditions, continued investment in processing, and strong production volumes across most regions create a buyer-friendly environment though competition for top lots remains intense.
+            The 2025 Ethiopian coffee harvest delivers record volume alongside unprecedented market complexity. Production of 11.56 million bags confirms Ethiopia&apos;s trajectory toward its national goal of becoming the world&apos;s second-largest coffee producer and exporter by 2033, targeting $4 billion in annual export value. For importers, the opportunity is real, but the terms have changed.
           </p>
           <p className='my-4'>
-            For importers committed to Ethiopian specialty coffee, now is the time to engage with suppliers, review samples, and secure allocations. The unique <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline'>genetic diversity of Ethiopian heirloom varieties</Link>, combined with traditional farming practices and improving processing standards, ensures that Ethiopian coffee remains among the most exciting origins on Earth.
+            Washed supply is tighter. Prices are higher. EU organic availability has narrowed. The birr devaluation has permanently shifted the cost structure. Buyers who adapt their strategies (committing early for washed lots, exploring western origins, understanding the minimum export price system) will find excellent coffee at every quality level. Those who wait risk paying more for less selection.
           </p>
           <p className='my-4'>
-            For those sourcing their first Ethiopian container or building on years of partnership, understanding the <Link href='/insights/coffee-is-agriculture-production-farming' className='underline'>agricultural realities</Link> and <Link href='/insights/coffee-is-commerce-exporting-importing-buying' className='underline'>commercial dynamics</Link> of Ethiopian coffee helps you make better decisions and build stronger relationships at origin.
+            The unique <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='underline'>genetic diversity of Ethiopian heirloom varieties</Link>, combined with improving processing infrastructure and expanding market access, ensures that Ethiopian coffee remains among the most compelling origins on earth. The question for importers is not whether to source from Ethiopia, but how to do it most effectively in a market that rewards preparation and relationships.
           </p>
 
           <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-            <h4 className='font-bold text-xl mb-3'>Reserve Your 2025 Ethiopian Coffee</h4>
+            <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
             <p className='my-2'>
-              At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, don&apos;t miss the best lots from this year&apos;s harvest. Contact us today to discuss your sourcing needs, request samples, and secure your allocation.
+              At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, late-season lots from Harrar and western Ethiopia remain available. Contact us to secure remaining 2025/26 inventory, request samples, or start planning your 2026/27 sourcing strategy.
             </p>
             <div className='flex flex-wrap gap-4 mt-4'>
               <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
                 View Our Offerings
               </Link>
               <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
-                Contact Us
+                Request Samples
               </Link>
               <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>
                 How to Order
@@ -358,19 +456,23 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
             <div className='space-y-4'>
               <div>
                 <h4 className='font-bold text-gray-800 mb-1'>When does the 2025 Ethiopian coffee harvest take place?</h4>
-                <p className='text-sm text-gray-600'>The Ethiopian coffee harvest runs from October through February, with peak picking in November and December across most regions. Timing varies by altitude and growing zone, with higher-altitude origins like Yirgacheffe and Guji often harvesting slightly later than lower-elevation Jimma and Limu regions.</p>
+                <p className='text-sm text-gray-600'>The Ethiopian coffee harvest runs from October through February, with peak picking in November and December. In 2025, southern regions started two to three weeks later than usual, while western origins harvested on schedule. Timing varies by altitude and growing zone, with higher-altitude areas picking later.</p>
               </div>
               <div>
-                <h4 className='font-bold text-gray-800 mb-1'>What are the quality expectations for the 2025 harvest?</h4>
-                <p className='text-sm text-gray-600'>Early reports indicate strong quality across most Ethiopian origins for 2025. Favorable rainfall patterns and moderate temperatures during cherry development have produced well-ripened cherries. Yirgacheffe, Guji, and Sidamo are all showing clean cup profiles with expressive floral and fruit characteristics.</p>
+                <h4 className='font-bold text-gray-800 mb-1'>How has the birr devaluation affected Ethiopian coffee prices?</h4>
+                <p className='text-sm text-gray-600'>Ethiopia&apos;s 110% birr devaluation in July 2024 increased domestic production costs significantly, pushing cherry prices to 220-250 ETB/kg. FOB prices in USD rose across all grades, though Ethiopia&apos;s export competitiveness improved relative to other origins. Buyers should expect elevated pricing throughout 2025/26.</p>
               </div>
               <div>
-                <h4 className='font-bold text-gray-800 mb-1'>How can importers secure the best 2025 Ethiopian coffee lots?</h4>
-                <p className='text-sm text-gray-600'>Importers should begin placing requests with their Ethiopian exporter by September or October, before peak harvest begins. Requesting pre-shipment samples, establishing clear quality specifications, and confirming logistics plans early helps secure top lots before they are committed to competing buyers.</p>
+                <h4 className='font-bold text-gray-800 mb-1'>Why is washed Ethiopian coffee harder to find this season?</h4>
+                <p className='text-sm text-gray-600'>Many smallholder farmers chose to process coffee at home as dried naturals rather than selling fresh cherry to washing stations. Drying and selling natural coffee offers better returns for farmers. This structural shift reduced washed volumes while increasing natural supply. Buyers needing washed lots should commit early.</p>
               </div>
               <div>
-                <h4 className='font-bold text-gray-800 mb-1'>What pricing trends should buyers expect for 2025 Ethiopian coffee?</h4>
-                <p className='text-sm text-gray-600'>Ethiopian coffee prices remain elevated due to strong global demand and rising production costs. Specialty-grade washed Yirgacheffe and Guji command the highest premiums, while commercial-grade Jimma and Limu offer better value. Early purchasing during peak harvest typically secures more competitive pricing.</p>
+                <h4 className='font-bold text-gray-800 mb-1'>Is EU organic Ethiopian coffee still available?</h4>
+                <p className='text-sm text-gray-600'>EU organic supply has declined sharply. New regulations requiring individual farmer certification instead of group certification made it financially unfeasible for many cooperatives. NOP and JAS organic certifications remain unaffected. Buyers targeting EU markets should explore estate-origin organic lots as alternatives.</p>
+              </div>
+              <div>
+                <h4 className='font-bold text-gray-800 mb-1'>What is Ethiopia&apos;s minimum export price system?</h4>
+                <p className='text-sm text-gray-600'>Unlike most origins that use NYC differentials, Ethiopia sets weekly minimum export prices by grade and region, indexed to the NY &quot;C&quot; market and exchange rates. These minimums have remained relatively high even as futures fluctuated, creating pricing tension. Forward contracting helps manage this uncertainty for both buyers and exporters.</p>
               </div>
             </div>
           </div>
@@ -380,19 +482,27 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
             <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
             <div className='grid md:grid-cols-2 gap-4'>
               <div>
-                <h4 className='font-semibold mb-2 text-sm'>Market & Industry</h4>
+                <h4 className='font-semibold mb-2 text-sm'>Market & Pricing</h4>
                 <ul className='space-y-1 text-sm'>
                   <li>• <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='text-amber-700 hover:underline'>Rising Ethiopian Coffee Prices Explained</Link></li>
-                  <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Climate Change Impact on Ethiopian Coffee</Link></li>
                   <li>• <Link href='/insights/specialty-coffee-trends-2026' className='text-amber-700 hover:underline'>Specialty Coffee Trends 2026</Link></li>
+                  <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding the Ethiopia Commodity Exchange</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className='font-semibold mb-2 text-sm'>Quality & Sourcing</h4>
+                <h4 className='font-semibold mb-2 text-sm'>Quality & Processing</h4>
                 <ul className='space-y-1 text-sm'>
-                  <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control</Link></li>
-                  <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee</Link></li>
-                  <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
+                  <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control and Grading</Link></li>
+                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing Methods</Link></li>
+                  <li>• <Link href='/insights/selective-coffee-harvesting' className='text-amber-700 hover:underline'>Selective Coffee Harvesting Practices</Link></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className='font-semibold mb-2 text-sm'>Sourcing & Trade</h4>
+                <ul className='space-y-1 text-sm'>
+                  <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+                  <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
+                  <li>• <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='text-amber-700 hover:underline'>Harvest Calendar &amp; Buying Guide</Link></li>
                 </ul>
               </div>
               <div>
@@ -400,14 +510,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
                 <ul className='space-y-1 text-sm'>
                   <li>• <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Comparison</Link></li>
                   <li>• <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee Production Guide</Link></li>
-                  <li>• <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='text-amber-700 hover:underline'>Harvest Calendar &amp; Buying Guide</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className='font-semibold mb-2 text-sm'>Processing & Trade</h4>
-                <ul className='space-y-1 text-sm'>
-                  <li>• <Link href='/insights/washed-vs-natural-ethiopian-coffee-processing' className='text-amber-700 hover:underline'>Washed vs Natural Processing Methods</Link></li>
-                  <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>Understanding the Ethiopia Commodity Exchange</Link></li>
+                  <li>• <Link href='/insights/ethiopian-coffee-climate-change-impact' className='text-amber-700 hover:underline'>Climate Change Impact on Ethiopian Coffee</Link></li>
                 </ul>
               </div>
             </div>
@@ -415,7 +518,7 @@ export default function EthiopianCoffeeHarvest2025SeasonOutlook({ title, date, l
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> This harvest outlook is based on field reports from our sourcing network, early-season sample evaluations, and market intelligence gathered from industry contacts. Conditions and pricing are subject to change. Last updated: September 2025.
+              <span className='font-bold'>About This Insight:</span> This harvest outlook is published by Ethio Coffee Import and Export PLC. It draws on field reports from our sourcing network, sample evaluations, and public data from the USDA Foreign Agricultural Service (GAIN Report ET2025-0014, June 2025). Market conditions, pricing, and availability are subject to change. For current information, <Link href='/contact-us' className='underline'>contact our team</Link>. Last updated: March 2026.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>
               <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

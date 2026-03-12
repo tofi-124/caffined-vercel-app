@@ -126,7 +126,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       </h3>
 
       <p className='my-4'>
-        Every Ethiopian coffee transaction, whether a 10-bag trial lot or a 300-bag full container, is governed by a contract. The contract defines price, quality, quantity, delivery terms, and payment conditions. Getting these terms right protects both buyer and seller.
+        Every Ethiopian coffee transaction, whether a 10-bag trial lot or a 300-bag full container, is governed by a contract. The contract defines price, quality, quantity, delivery terms, and payment conditions. Getting these terms right protects both buyer and seller. For a full breakdown of <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>minimum order quantities and how they affect contract structure</Link>, see our MOQ guide.
       </p>
 
       <p className='my-4'>
@@ -908,6 +908,7 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
             <h5 className='font-semibold mb-2 text-sm'>Import Guides by Country</h5>
             <ul className='space-y-1.5 text-sm'>
               <li><Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing to the USA</Link></li>
+              <li><Link href='/insights/importing-ethiopian-coffee-to-uae' className='text-amber-700 hover:underline inline-flex items-center gap-1'><ArrowRight className='inline-block h-3.5 w-3.5 flex-shrink-0' /> Importing Ethiopian Coffee to UAE</Link></li>
             </ul>
           </div>
         </div>

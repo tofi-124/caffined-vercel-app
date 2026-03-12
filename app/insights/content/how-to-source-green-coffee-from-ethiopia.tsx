@@ -239,7 +239,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
 
       <h3 className='text-xl font-bold mt-8 mb-4'>Step 1: Define Your Quality and Volume Requirements</h3>
       <p className='my-4'>
-        Before contacting any exporter, document the specifics: target grade (G1, G2, or commercial G3-G4), preferred processing method (washed or natural), volume per shipment (bags or full containers), and preferred Incoterms (FOB Djibouti for ocean freight, FCA Addis Ababa for air freight). Clear requirements filter out suppliers who cannot serve your needs and save both sides time.
+        Before contacting any exporter, document the specifics: target grade (G1, G2, or commercial G3-G4), preferred processing method (washed or natural), volume per shipment (bags or full containers), and preferred Incoterms (FOB Djibouti for ocean freight, FCA Addis Ababa for air freight). Clear requirements filter out suppliers who cannot serve your needs and save both sides time. Our <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline font-semibold'>MOQ guide</Link> covers typical minimum order quantities by grade and buyer type.
       </p>
 
       <h3 className='text-xl font-bold mt-8 mb-4'>Step 2: Find and Evaluate Ethiopian Exporters</h3>
@@ -359,7 +359,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
       </ul>
 
       <p className='my-4'>
-        Our <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee certifications guide</Link> covers the full spectrum of organic, Fair Trade, and Rainforest Alliance certification for buyers.
+        Our <Link href='/insights/ethiopian-coffee-certifications-organic-fairtrade-rainforest' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee certifications guide</Link> covers the full spectrum of organic, Fair Trade, and Rainforest Alliance certification for buyers. For UK-specific requirements including post-Brexit organic recognition and DCTS preferences, see our guide to <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline font-bold'>importing Ethiopian coffee to the UK</Link>.
       </p>
 
       {/* SECTION 7: PRICING */}

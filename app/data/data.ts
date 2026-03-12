@@ -1356,6 +1356,7 @@ export const posts: Post[] = [
       small_image_url: 'insights/moq-ethiopian-coffee.webp',
       large_image_url: 'insights/moq-ethiopian-coffee.webp',
       date: 'Jan 06, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'Ethiopian Coffee MOQ Guide for Importers',
       slug: 'minimum-order-quantities-ethiopian-coffee-moq',
       category: 'Coffee Trade & Import Guide',
@@ -1381,7 +1382,7 @@ export const posts: Post[] = [
         'Ethiopian coffee pricing volume',
         'coffee importer guide MOQ'
       ],
-      desc: 'Complete guide to understanding minimum order quantities for Ethiopian green coffee imports: typical MOQs from exporters, container math and capacity, strategies for small roasters, LCL consolidation options, pricing by volume, negotiation tactics that work, and sample vs. commercial order programs.'
+      desc: 'Complete guide to Ethiopian coffee minimum order quantities: 2025-2026 pricing, container math, payment terms (LC, TT), supply chain timing, strategies for small roasters, LCL consolidation options, negotiation tactics with email templates, and sample vs. commercial order programs.'
     },
     // ===== IMPORT GUIDES BY COUNTRY (Grouped by Region) =====
     // North America
@@ -1543,38 +1544,39 @@ export const posts: Post[] = [
       small_image_url: 'insights/uae-coffee-import.webp',
       large_image_url: 'insights/uae-coffee-import.webp',
       date: 'Jan 04, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'Import Ethiopian Coffee to the UAE',
       slug: 'importing-ethiopian-coffee-to-uae',
       category: 'Import Guide / UAE Market',
       keywords: [
         'ethio coffee',
         'ethiopian coffee export',
-        'coffee import to uae',
-        'import ethiopian coffee dubai',
+        'import ethiopian coffee to uae',
+        'ethiopian coffee import dubai',
+        'uae coffee import regulations',
         'dubai coffee import',
         'jebel ali port coffee',
-        'uae coffee regulations',
-        'esma coffee certification',
+        'moiat coffee requirements',
         'dmcc coffee centre',
-        'free zone coffee import',
-        'dubai customs coffee',
-        'abu dhabi coffee import',
-        'gcc coffee distribution',
-        'ethiopian coffee to dubai',
-        'uae specialty coffee',
-        'middle east coffee hub',
-        'dubai coffee market'
+        'free zone coffee import dubai',
+        'dubai customs coffee clearance',
+        'gcc coffee distribution uae',
+        'uae specialty coffee market',
+        'import green coffee beans dubai',
+        'ethiopian coffee wholesale dubai',
+        'landed cost ethiopian coffee dubai'
       ],
-      desc: 'Complete guide to importing Ethiopian specialty coffee to the UAE covering Dubai Customs procedures, ESMA requirements, free zone vs. mainland setup, VAT structure, Jebel Ali Port shipping, DMCC Coffee Centre facilities, cost breakdown, and working with Ethio Coffee Export for successful UAE market entry and GCC distribution.'
+      desc: 'Complete guide to importing Ethiopian specialty coffee to Dubai and the UAE. Covers customs, MoIAT regulations, DMCC, free zones, costs, and shipping.'
     },
     // Europe
     {
       small_image_url: 'insights/uk-coffee-import.webp',
       large_image_url: 'insights/uk-coffee-import.webp',
       date: 'Jan 08, 2026',
+      dateModified: 'Mar 12, 2026',
       title: 'Import Ethiopian Coffee to the UK',
       slug: 'importing-ethiopian-coffee-to-uk',
-      category: 'Import Guide / UK Market',
+      category: 'Import Guide / UK Market / Ethiopian Coffee Export',
       keywords: [
         'ethio coffee',
         'ethiopian coffee export',
@@ -1586,6 +1588,10 @@ export const posts: Post[] = [
         'fsa coffee regulations',
         'felixstowe port coffee',
         'london gateway coffee',
+        'tilbury port coffee',
+        'liverpool port coffee',
+        'dcts ethiopian coffee',
+        'developing countries trading scheme coffee',
         'uk coffee market',
         'specialty coffee uk',
         'eori number coffee',
@@ -1595,9 +1601,11 @@ export const posts: Post[] = [
         'customs declaration service',
         'uk vat coffee',
         'import green coffee uk',
-        'uk specialty coffee roasters'
+        'uk specialty coffee roasters',
+        'organic coffee import uk',
+        'btom coffee import'
       ],
-      desc: 'Complete post-Brexit guide to importing Ethiopian specialty coffee to the United Kingdom covering HMRC customs procedures, FSA food safety requirements, EORI registration, zero duty and VAT structure, shipping to Felixstowe and London Gateway ports, UK coffee market insights, cost breakdown, and partnering with Ethio Coffee Export for successful UK market entry.'
+      desc: 'Post-Brexit guide to importing Ethiopian specialty coffee to the UK: DCTS duty-free access, HMRC customs via CDS, FSA food safety, EORI registration, shipping to Felixstowe, Tilbury, London Gateway and Liverpool, organic import procedures, UK specialty market channels, landed cost breakdown, and sourcing from Ethiopian exporters.'
     },
     // Asia Pacific
     {
@@ -1732,7 +1740,7 @@ export const posts: Post[] = [
       category: 'Market Insights / Harvest Reports',
       keywords: [
         'Ethiopian coffee harvest 2025',
-        'Ethiopian coffee season',
+        'Ethiopian coffee season 2025/26',
         'Ethiopian green coffee crop report',
         'Ethiopia coffee production 2025',
         'Ethiopian coffee availability',
@@ -1745,9 +1753,14 @@ export const posts: Post[] = [
         'specialty coffee harvest Ethiopia',
         'green coffee crop forecast',
         'Ethiopian coffee exporter update',
-        'coffee harvest timeline Ethiopia'
+        'coffee harvest timeline Ethiopia',
+        'Ethiopian birr devaluation coffee',
+        'EU organic Ethiopian coffee',
+        'washed vs natural Ethiopian coffee availability',
+        'Ethiopian coffee minimum export price',
+        'Ethiopia coffee 11.56 million bags'
       ],
-      desc: 'Our comprehensive 2025 Ethiopian coffee harvest report covering regional outlooks for Yirgacheffe, Sidamo, Guji, and Harrar plus quality expectations, pricing trends, and a planning timeline for importers and roasters sourcing green coffee from Ethiopia.'
+      desc: 'Ethiopian coffee harvest 2025: record 11.56M bags, USDA data, regional outlooks, FOB pricing, washed-to-natural shift, and buyer timeline.'
     },
     {
       small_image_url: 'insights/world-best-coffee-shops.webp',

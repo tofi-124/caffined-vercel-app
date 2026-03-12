@@ -297,6 +297,7 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
         <li>
           <span className='font-bold'>Tightening Supply of Top Grades:</span> Shorter, more compressed harvest windows mean fewer picking rounds and reduced cherry selection accuracy.
           Grade 1 washed lots from Yirgacheffe and Sidama are already in tighter supply compared to five years ago, pushing <Link href='/insights/rising-ethiopian-coffee-prices-explained' className='underline font-bold'>specialty premiums higher</Link>.
+          Understanding the timing drivers behind these shifts is essential—see our <Link href='/insights/ethiopian-coffee-harvest-2025-season-outlook' className='underline'>2025 harvest season outlook</Link> for year-specific forecasts.
         </li>
         <li>
           <span className='font-bold'>Wider Price Volatility:</span> Climate-driven yield swings amplify the already volatile C-market.

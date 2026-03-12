@@ -259,6 +259,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
             <li>• Slightly stricter soil management rules</li>
             <li>• USDA-EU equivalency allows dual labeling</li>
             <li>• New EU Organic rules from January 2022</li>
+            <li>• Post-Brexit UK has its own organic regime — see <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline font-bold'>UK import guide</Link></li>
           </ul>
         </div>
         <div className='border border-gray-200 rounded-lg p-4'>
@@ -1271,6 +1272,7 @@ export default function EthiopianCoffeeCertificationsGuide({ title, date, large_
               <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
               <li>• <Link href='/insights/direct-trade-ethiopian-farmers' className='text-amber-700 hover:underline'>Direct Trade with Ethiopian Farmers</Link></li>
               <li>• <Link href='/insights/certified-organic-coffee-bean-exporters-bulk-orders' className='text-amber-700 hover:underline'>Certified Organic Coffee Exporters</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to the UK</Link></li>
             </ul>
           </div>
           <div>
