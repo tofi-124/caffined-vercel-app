@@ -12,6 +12,42 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO FRANCE =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-france.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-france.webp',
+      date: 'Mar 12, 2026',
+      title: 'Import Ethiopian Coffee to France',
+      slug: 'importing-ethiopian-coffee-to-france',
+      category: 'Import Guide / France & EU Market / Ethiopian Coffee Export',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to france',
+        'import ethiopian coffee france',
+        'le havre port coffee',
+        'france coffee import regulations',
+        'eu coffee import',
+        'dgccrf coffee import',
+        'french coffee market',
+        'specialty coffee france',
+        'eu customs coffee',
+        'eba ethiopia coffee',
+        'european coffee import',
+        'french coffee roasters',
+        'eudr coffee compliance',
+        'eu deforestation regulation coffee',
+        'ab agriculture biologique coffee',
+        'organic coffee france',
+        'fairtrade coffee france',
+        'bordeaux coffee import',
+        'french vat tva coffee',
+        'belco green coffee france',
+        'loi de vigilance coffee',
+        'paris coffee festival'
+      ],
+      desc: 'Complete guide to importing Ethiopian specialty coffee to France and the EU: EU food safety regulations, DGCCRF compliance, French customs (Douanes), DELTA system, 5.5% TVA, duty-free EBA treatment, EUDR deforestation regulation, shipping to Le Havre and Bordeaux, landed cost breakdown, organic AB certification, Fairtrade positioning, and partnering with Ethio Coffee Export for French/EU market entry.'
+    },
     // ===== GERMAN SPECIALTY COFFEE MARKET GUIDE =====
     {
       small_image_url: 'insights/germany-specialty-coffee-market-guide.webp',
@@ -2315,7 +2351,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/top-premium-coffee-exporters.webp',
       large_image_url: 'insights/top-premium-coffee-exporters.webp',
-      date: 'Mar 12, 2026',
+      date: 'Feb 06, 2026',
       title: 'Top Coffee Exporters in the World',
       slug: 'top-premium-coffee-exporters-global-guide',
       category: 'Market Intelligence / Sourcing Guide / Global Coffee Trade',
