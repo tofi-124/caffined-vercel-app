@@ -38,7 +38,7 @@ const readingTimeMap: Record<string, number> = {
   'minimum-order-quantities-ethiopian-coffee-moq': 38,
   'benefits-investing-ethiopian-coffee-production': 20,
   'navigating-2026-ethiopian-specialty-coffee-exporters': 24,
-  'specialty-coffee-storage-freight-logistics': 20,
+  'specialty-coffee-storage-freight-logistics': 13,
   'how-to-cup-evaluate-ethiopian-coffee-samples': 22,
   'top-premium-coffee-exporters-global-guide': 22,
   'best-cupping-school': 14,

@@ -1,22 +1,16 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { 
-  HiOutlineGlobeAlt,
-  HiOutlineShieldCheck,
-  HiOutlineCheckCircle,
+import {
   HiOutlineLightBulb,
   HiOutlineClipboardDocumentList,
+  HiOutlineShieldCheck,
+  HiOutlineCheckCircle,
   HiOutlineBeaker,
   HiOutlineCube,
   HiOutlineChartBar,
   HiOutlineTruck,
-  HiOutlineCurrencyDollar,
-  HiOutlineXCircle,
-  HiOutlineTrophy
+  HiOutlineGlobeAlt,
 } from 'react-icons/hi2'
-import { GiDna2, GiShipWheel } from 'react-icons/gi'
-import { FaTint, FaMicroscope, FaShip, FaBoxOpen, FaHandshake } from 'react-icons/fa'
-import { TbTemperature, TbPlant2, TbWind, TbBoxModel2, TbActivity } from 'react-icons/tb'
 
 type InsightContentProps = {
   title: string
@@ -25,538 +19,547 @@ type InsightContentProps = {
 }
 
 export default function SpecialtyCoffeeFreightStorage({ title, date, large_image_url }: InsightContentProps) {
-
   return (
-    <article className="max-w-4xl mx-auto">
+    <>
+      <h1 className='text-5xl font-extrabold text-dark leading-tight mb-4'>
+        {title}
+      </h1>
+      <h2 className='text-2xl font-medium text-gray-700 mb-6'>
+        How to protect green coffee quality during sea freight: moisture science, hermetic packaging, container stowage, transit timelines, and arrival QC for importers and roasters.
+      </h2>
 
-      <header className="mb-10">
-        <h1 className='text-4xl md:text-5xl font-extrabold text-dark leading-tight mb-6'>
-          {title}
-        </h1>
-        <h2 className='text-xl md:text-2xl font-medium text-gray-700 mb-8 leading-relaxed'>
-          The journey from origin to roastery is the most critical phase in a specialty coffee's life. Discover the advanced science of <span className="font-bold text-amber-800">green coffee storage</span> during sea freight, protecting delicate flavor profiles from temperature swings, humidity, and "container sweat." This comprehensive 2026 guide explores the logistics of maintaining 90+ point quality across the global supply chain.
-        </h2>
-
-        <figure className="relative mb-8">
-          <figcaption className='font-inconsolata my-2 text-sm text-gray-500 italic border-l-4 border-amber-500 pl-3'>
-            Visualizing the difference: Proper freight storage prevents the "baggy" defect common in faded past-crop coffees.
-          </figcaption>
-
-          <div className='w-full aspect-[16/9] md:aspect-[5/3] overflow-hidden rounded-xl shadow-lg relative'>
-            <ResponsiveImage
-              src={`/images/${large_image_url}`}
-              alt='Specialty coffee green beans storage freight logistics container'
-              fill
-              objectFit='cover'
-              className='w-full h-full transform hover:scale-105 transition-transform duration-700'
-              sizes='(max-width: 768px) 100vw, 800px'
-              priority
-            />
-          </div>
-        </figure>
-
-        <div className="flex flex-wrap gap-4 items-center text-sm text-gray-600 border-b border-gray-200 pb-6">
-          <div className='bg-blue-50 text-blue-800 px-3 py-1 rounded-full text-xs font-semibold border border-blue-200'>
-            Logistics / Quality Control
-          </div>
-          <span className="hidden md:inline text-gray-300">|</span>
-          <span className="flex items-center">
-            <HiOutlineGlobeAlt className="mr-2 text-green-600" /> Global Supply Chain
-          </span>
+      <figure>
+        <figcaption className='font-inconsolata my-2 text-sm text-gray-500'>
+          Green coffee loaded into a 20-foot container at Djibouti port. Packaging, stowage, and condensation management determine whether a specialty lot arrives at the cup score you approved.
+        </figcaption>
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
+          <ResponsiveImage
+            src={`/images/${large_image_url}`}
+            alt='Green coffee bags with GrainPro hermetic liners inside a shipping container at Djibouti port, ready for sea freight to importing countries'
+            fill
+            objectFit='cover'
+            className='w-full h-full'
+            sizes='(max-width: 768px) 100vw, 768px'
+          />
         </div>
-      </header>
+      </figure>
 
+      <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
+        <span className='font-semibold'>Category:</span>
+        <span className='ml-2'>Logistics / Quality Control / Storage / Importer Resources</span>
+      </div>
+
+      {/* KEY TAKEAWAY */}
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
-        <p className='font-bold text-lg mb-2'>Key Takeaway</p>
-        <p>
-          Up to 15.6% of specialty coffee loses its premium status during sea freight due to &apos;container sweat,&apos; temperature swings, and moisture absorption. Proper green coffee storage&mdash;including hermetic liner bags, desiccants, and temperature monitoring&mdash;is essential to preserve the quality you paid for from origin to roastery.
+        <p className='font-bold text-lg mb-2 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-2xl flex-shrink-0' /> Key Takeaway
+        </p>
+        <p className='text-sm leading-relaxed'>
+          Green coffee is hygroscopic: it absorbs and releases moisture in response to its environment. During a 30 to 60 day sea voyage, container temperature swings of 15 to 50 &#176;C cause condensation (&quot;container sweat&quot;) that degrades cup quality, promotes mold, and accelerates lipid oxidation. The three most effective defenses are hermetic liners (GrainPro or Ecotact), under-deck stowage requests, and container desiccants. Importers who specify these in their purchase contracts protect both quality and margin.
         </p>
       </div>
 
-      {/* INTRODUCTION */}
-      <section className="prose prose-lg prose-indigo max-w-none text-gray-700">
-        <p>
-          You've spent months sourcing the perfect <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:text-amber-900 font-semibold underline decoration-amber-300 decoration-2 underline-offset-2'>Ethiopian heirloom micro-lot</Link> in the highlands. The cherry was picked at peak ripeness, the <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:text-amber-900 font-semibold underline decoration-amber-300 decoration-2 underline-offset-2'>fermentation and drying</Link> were controlled to the hour. But as that coffee enters a steel container for its 45-day journey across the ocean, it faces its greatest threat.
-        </p>
-
-        <p className='font-bold text-xl text-gray-900'>
-          Why does 15.6% of specialty coffee lose its "specialty" status before it ever reaches the roastery?
-        </p>
-
-        <p>
-          Specialty coffee is a <span className='font-bold text-amber-800'>hygroscopic organic product</span>. It breathes, it absorbs moisture from the air, and it is highly sensitive to chemical changes induced by its environment. During sea freight, coffee can encounter temperature variations from 15°C to 50°C and relative humidity levels that fluctuate wildly as the vessel crosses different climatic zones – from the dry heat of Djibouti to the humid warmth of the Suez Canal and the cold Atlantic.
-        </p>
-
-        <div className='bg-gradient-to-r from-gray-900 to-gray-800 text-white p-6 rounded-xl my-8 shadow-xl border-l-8 border-amber-500'>
-          <p className='font-medium flex items-start gap-4'>
-            <HiOutlineLightBulb className='text-3xl flex-shrink-0 text-amber-400 mt-1' />
-            <span className="leading-relaxed"><span className='font-bold text-amber-400 block mb-1 text-lg'>Key Insight: "Container Sweat"</span> 
-            This is the leading cause of quality degradation. When a container cools rapidly at night, the internal air loses its ability to hold moisture. This forces condensation to form on the steel roof, which then drips directly onto the coffee bags, creating mold or "baggy" taints known in the industry as <em>cargo sweat</em>.</span>
-          </p>
-        </div>
-      </section>
-
       {/* TABLE OF CONTENTS */}
-      <nav className='my-10 bg-white p-8 rounded-xl border border-gray-200 shadow-sm'>
-        <h3 className='text-xl font-bold mb-6 flex items-center gap-2 text-dark border-b pb-4'>
-          <HiOutlineClipboardDocumentList className='text-blue-600 text-2xl' />
-          In This Comprehensive Logistics Guide
+      <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
+          <HiOutlineClipboardDocumentList className='text-amber-600' /> In This Guide
         </h3>
-        <ul className='grid md:grid-cols-2 gap-x-8 gap-y-3 text-sm font-medium'>
-          <li><a href="#moisture-equilibrium" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">01.</span> Moisture Equilibrium Science</a></li>
-          <li><a href="#hermetic-packaging" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">02.</span> Hermetic Packaging (GrainPro/Ecotact)</a></li>
-          <li><a href="#container-selection" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">03.</span> Container Selection Strategy</a></li>
-          <li><a href="#vessel-placement" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">04.</span> The "Stowage Factor"</a></li>
-          <li><a href="#condensation-management" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">05.</span> Desiccants & Liners</a></li>
-          <li><a href="#transit-time" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">06.</span> Transit Times & Freshness Loss</a></li>
-          <li><a href="#chemical-aging" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">07.</span> Lipid Oxidation (Chemical Aging)</a></li>
-          <li><a href="#arrival-qc" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">08.</span> Arrival Protocols</a></li>
-          <li><a href="#incoterms" className='flex items-center hover:text-blue-700 hover:translate-x-1 transition-transform'><span className="text-blue-400 mr-2">09.</span> Incoterms & Risk</a></li>
+        <ol className='space-y-2 text-sm'>
+          <li><a href='#why-sea-freight-matters' className='text-amber-700 hover:underline'>1. Why Specialty Coffee Storage in Sea Freight Matters</a></li>
+          <li><a href='#moisture-science' className='text-amber-700 hover:underline'>2. Moisture Science: EMC and Water Activity</a></li>
+          <li><a href='#hermetic-packaging' className='text-amber-700 hover:underline'>3. Hermetic Packaging for Sea Freight</a></li>
+          <li><a href='#container-selection' className='text-amber-700 hover:underline'>4. Container Selection and Loading</a></li>
+          <li><a href='#vessel-stowage' className='text-amber-700 hover:underline'>5. Vessel Stowage and Placement</a></li>
+          <li><a href='#condensation-management' className='text-amber-700 hover:underline'>6. Condensation Management</a></li>
+          <li><a href='#transit-timelines' className='text-amber-700 hover:underline'>7. Transit Times and Quality Fade</a></li>
+          <li><a href='#lipid-oxidation' className='text-amber-700 hover:underline'>8. Lipid Oxidation and Chemical Aging</a></li>
+          <li><a href='#arrival-qc' className='text-amber-700 hover:underline'>9. Arrival QC Protocol</a></li>
+          <li><a href='#incoterms' className='text-amber-700 hover:underline'>10. Incoterms, Insurance, and Risk Transfer</a></li>
+          <li><a href='#faq' className='text-amber-700 hover:underline'>11. FAQ</a></li>
+        </ol>
+      </div>
+
+      {/* SECTION 1: WHY IT MATTERS */}
+      <h3 id='why-sea-freight-matters' className='text-3xl font-extrabold mt-12 mb-6'>
+        1. Why Specialty Coffee Storage in Sea Freight Matters
+      </h3>
+
+      <p className='my-4'>
+        Specialty coffee storage in sea freight is the highest-risk phase of the supply chain for quality loss. A container of Ethiopian Grade 1 Yirgacheffe priced at $8.50/kg FOB Djibouti holds roughly $153,000 in cargo value. Even a 1 to 2 point cupping score drop caused by poor transit conditions can reduce market value by $0.80 to $1.50/kg, a loss of $14,400 to $27,000 on a single shipment. The cost of preventing that loss (hermetic liners, desiccants, stowage instructions) is typically under $1,500 per container.
+      </p>
+
+      <p className='my-4'>
+        Between <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='underline font-bold'>export warehouse in Addis Ababa</Link> and arrival at a destination port, green coffee passes through Djibouti&apos;s port, crosses tropical and temperate climate zones, and sits at transshipment hubs. Each stage introduces temperature variation, humidity shifts, and handling risk. Importers who treat freight as someone else&apos;s problem pay the price at the cupping table.
+      </p>
+
+      <div className='bg-blue-50 border border-blue-200 rounded-lg p-6 my-6'>
+        <p className='font-bold mb-2'>The Core Problem: Container Sweat</p>
+        <p className='text-sm'>
+          When a steel container heats during the day and cools at night, internal air loses its capacity to hold moisture. Water condenses on the container ceiling and drips onto the cargo. This &quot;container sweat&quot; is the single leading cause of mold, musty taints, and the &quot;baggy&quot; defect in otherwise clean specialty lots. The effect is worst on routes that cross multiple climate zones, such as Djibouti to Northern Europe (25 to 40 days) or Djibouti to the US East Coast (35 to 50 days).
+        </p>
+      </div>
+
+      {/* SECTION 2: MOISTURE SCIENCE */}
+      <h3 id='moisture-science' className='text-3xl font-extrabold mt-12 mb-6'>
+        2. Moisture Science: EMC and Water Activity
+      </h3>
+
+      <p className='my-4'>
+        Green coffee beans are hygroscopic. They absorb moisture when ambient humidity rises and release it when humidity drops. This exchange follows the principle of <span className='font-bold'>Equilibrium Moisture Content (EMC)</span>: the bean&apos;s internal moisture stabilizes at a level determined by the surrounding air&apos;s temperature and relative humidity (RH).
+      </p>
+
+      <p className='my-4'>
+        The <a href='https://www.ico.org/' target='_blank' rel='noopener noreferrer' className='underline font-bold'>International Coffee Organization (ICO)</a> recommends exporting green Arabica at 10.0 to 12.5% moisture content. Ethiopian exporters typically ship at 10.5 to 11.5%, measured at the <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='underline font-bold'>dry mill</Link> before bagging. If the RH inside a container rises above 65 to 70%, beans absorb moisture regardless of their starting point.
+      </p>
+
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-6'>
+        <div className='bg-green-50 p-5 rounded-lg border border-green-200'>
+          <p className='font-bold text-green-800 mb-1'>Target Water Activity (aW): 0.45 to 0.55</p>
+          <p className='text-sm text-gray-700'>Safe for intercontinental sea freight. Enzymatic reactions stall. Mold growth is inhibited. Flavor compounds remain stable.</p>
+        </div>
+        <div className='bg-red-50 p-5 rounded-lg border border-red-200'>
+          <p className='font-bold text-red-800 mb-1'>Danger Zone aW: above 0.60</p>
+          <p className='text-sm text-gray-700'>Enables <span className='italic'>Aspergillus</span> mold growth and ochratoxin A (OTA) production. Acidity fades. Volatile aromatic compounds degrade rapidly.</p>
+        </div>
+      </div>
+
+      <p className='my-4'>
+        Water activity (aW) is more predictive than total moisture content because it measures how available the water is for chemical reactions. A lot at 11.5% moisture with aW of 0.50 is more stable than a lot at 11.0% with aW of 0.62. Importers should request both moisture content and water activity readings on pre-shipment documentation. For a full breakdown, see the <Link href='/insights/green-coffee-shelf-life-storage-guide' className='underline font-bold'>green coffee shelf life and storage guide</Link>.
+      </p>
+
+      {/* SECTION 3: HERMETIC PACKAGING */}
+      <h3 id='hermetic-packaging' className='text-3xl font-extrabold mt-12 mb-6'>
+        <HiOutlineShieldCheck className='inline mr-2 text-amber-600' />
+        3. Hermetic Packaging for Sea Freight
+      </h3>
+
+      <p className='my-4'>
+        Hermetic liners (GrainPro, Ecotact, Videplast) placed inside standard 60 kg jute bags are the single most effective tool for protecting green coffee during sea freight. Once sealed, the small amount of oxygen inside the liner is consumed by the bean&apos;s natural respiration. Within 48 to 72 hours, oxygen drops below 3%, halting lipid oxidation, mold growth, and insect activity.
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full text-sm text-left'>
+          <thead className='bg-dark text-primary'>
+            <tr>
+              <th className='p-3'>Packaging Type</th>
+              <th className='p-3'>Moisture Barrier</th>
+              <th className='p-3'>Oxygen Barrier</th>
+              <th className='p-3'>Cost per 60 kg Bag</th>
+              <th className='p-3'>Recommended For</th>
+            </tr>
+          </thead>
+          <tbody className='divide-y divide-gray-200'>
+            <tr>
+              <td className='p-3 font-bold'>Jute Only</td>
+              <td className='p-3'>None</td>
+              <td className='p-3'>None</td>
+              <td className='p-3'>$1.00 to $2.00</td>
+              <td className='p-3'>Grade 4/5 commodity, short transit (&lt;20 days)</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='p-3 font-bold'>Jute + GrainPro/Ecotact</td>
+              <td className='p-3'>High (EVOH multi-layer)</td>
+              <td className='p-3'>High</td>
+              <td className='p-3'>$2.50 to $5.00</td>
+              <td className='p-3'>Grade 1/2 specialty, all sea freight routes</td>
+            </tr>
+            <tr>
+              <td className='p-3 font-bold'>Vacuum-Sealed</td>
+              <td className='p-3'>Complete</td>
+              <td className='p-3'>Complete (oxygen-free)</td>
+              <td className='p-3'>$4.00 to $8.00</td>
+              <td className='p-3'>Micro-lots, competition lots, 90+ scores</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className='my-4'>
+        One important caveat: hermetic liners preserve whatever condition exists at the moment of sealing. If a lot is sealed at 13% moisture, the liner preserves the problem. Pre-seal moisture verification is essential. Reputable exporters record moisture readings at bagging and include them on the packing list. For a detailed comparison of bag types and contract specification language, see the <Link href='/insights/green-coffee-packaging-bag-types-guide' className='underline font-bold'>green coffee packaging and bag types guide</Link>.
+      </p>
+
+      {/* SECTION 4: CONTAINER SELECTION */}
+      <h3 id='container-selection' className='text-3xl font-extrabold mt-12 mb-6'>
+        <HiOutlineCube className='inline mr-2 text-amber-600' />
+        4. Container Selection and Loading
+      </h3>
+
+      <p className='my-4'>
+        Standard 20-foot dry containers are the workhorse of the coffee trade. A single 20-foot container holds 250 to 320 bags of 60 kg green coffee (15 to 19.2 metric tons). The choice between container types, and how the container is loaded, directly affects temperature stability and condensation risk.
+      </p>
+
+      <div className='grid md:grid-cols-2 gap-6 my-6'>
+        <div className='border border-gray-200 p-5 rounded-lg'>
+          <h4 className='font-bold mb-2'>Standard Dry Container (Most Common)</h4>
+          <p className='text-sm text-gray-700'>Sealed steel box. No ventilation. Relies entirely on packaging and desiccants for moisture control. Adequate for hermetically lined lots. Available at every port.</p>
+        </div>
+        <div className='border border-gray-200 p-5 rounded-lg'>
+          <h4 className='font-bold mb-2'>Ventilated Container</h4>
+          <p className='text-sm text-gray-700'>Passive ventilation strips along top and bottom rails allow air exchange. Reduces heat buildup. Less common and more expensive. Vulnerable to salt-air ingress on deck stowage.</p>
+        </div>
+      </div>
+
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-6 my-6'>
+        <p className='font-bold mb-2'>Loading Best Practices</p>
+        <ul className='space-y-2 text-sm'>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
+            <span>Place heavy Kraft paper or cardboard over the top of the cargo stack to absorb ceiling drip before it reaches bags.</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
+            <span>Use pallets or plastic floor liners to prevent &quot;rising damp&quot; from the container floor, which retains moisture and odors from prior cargoes.</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
+            <span>Leave a small air gap between the cargo and container walls to reduce direct heat transfer from sun-heated steel.</span>
+          </li>
+          <li className='flex items-start gap-2'>
+            <HiOutlineCheckCircle className='text-green-600 mt-1 flex-shrink-0' />
+            <span>Load the container during cooler hours (early morning) when possible. Loading in midday heat traps warm, moist air inside with the cargo.</span>
+          </li>
         </ul>
-      </nav>
+      </div>
 
-      {/* SECTION 1: MOISTURE EQUILIBRIUM */}
-      <section id="moisture-equilibrium" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-blue-100 p-2 rounded-lg text-blue-600"><FaTint /></span>
-          1. The Science of Moisture Equilibrium
-        </h3>
+      <p className='my-4'>
+        For high-value micro-lots and competition coffees, thermal radiant barriers (reflective foil liners covering the container interior) reflect up to 97% of radiant heat. These cost $150 to $300 per container and reduce internal temperature peaks by 10 to 15 &#176;C. They are a worthwhile investment for lots valued above $12/kg.
+      </p>
 
-        <p className='my-4 text-gray-700 leading-relaxed'>
-          Specialty green coffee should ideally be exported with a moisture content between <span className='font-bold text-dark'>10.5% and 12.0%</span>. These parameters are the "Goldilocks Zone"-dry enough to inhibit microbial growth, yet moist enough to preserve cellular integrity and the embryo within the bean.
+      {/* SECTION 5: VESSEL STOWAGE */}
+      <h3 id='vessel-stowage' className='text-3xl font-extrabold mt-12 mb-6'>
+        5. Vessel Stowage and Placement
+      </h3>
+
+      <p className='my-4'>
+        Where a container is placed on a vessel determines its temperature exposure. On a modern ultra-large container vessel (ULCV), the temperature difference between a top-deck position in direct sun and an under-deck hold position can reach 20 to 25 &#176;C.
+      </p>
+
+      <div className='grid md:grid-cols-2 gap-6 my-6'>
+        <div className='bg-green-50 p-5 rounded-lg border-l-4 border-green-500'>
+          <p className='font-bold text-gray-900 mb-2'>Request: Under-Deck, Below Waterline</p>
+          <p className='text-sm text-gray-700'>The surrounding ocean acts as a thermal buffer. Containers in the hold stay between 18 and 22 &#176;C regardless of surface conditions. This is the optimal position for specialty coffee.</p>
+        </div>
+        <div className='bg-green-50 p-5 rounded-lg border-l-4 border-green-500'>
+          <p className='font-bold text-gray-900 mb-2'>Request: Mid-Ship Placement</p>
+          <p className='text-sm text-gray-700'>Reduces vertical motion and vibration. Minimizes mechanical stress on bags and reduces the risk of bean breakage in lower-density lots.</p>
+        </div>
+        <div className='bg-red-50 p-5 rounded-lg border-l-4 border-red-500'>
+          <p className='font-bold text-gray-900 mb-2'>Avoid: Top-Deck Stowage</p>
+          <p className='text-sm text-gray-700'>Direct sun exposure can push internal container temperatures to 55 to 60 &#176;C in tropical waters. This accelerates lipid oxidation and destroys volatile aromatics.</p>
+        </div>
+        <div className='bg-red-50 p-5 rounded-lg border-l-4 border-red-500'>
+          <p className='font-bold text-gray-900 mb-2'>Avoid: Engine Room Bulkhead</p>
+          <p className='text-sm text-gray-700'>Radiant heat from the engine room creates hot spots in adjacent hold positions. Coffee stored near bulkheads ages unevenly.</p>
+        </div>
+      </div>
+
+      <p className='my-4'>
+        Not every shipping line accepts stowage requests, and compliance is not guaranteed. Larger importers with volume commitments or freight forwarders with carrier relationships have more leverage. Including &quot;stowage: under deck, away from heat sources&quot; in the booking instruction is a low-cost step that pays off when honored. For <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='underline font-bold'>contract and shipping term guidance</Link>, see the contracts guide.
+      </p>
+
+      {/* SECTION 6: CONDENSATION MANAGEMENT */}
+      <h3 id='condensation-management' className='text-3xl font-extrabold mt-12 mb-6'>
+        6. Condensation Management
+      </h3>
+
+      <p className='my-4'>
+        Even with hermetic liners, the container environment matters. Condensation forms on unprotected jute exteriors, on the container ceiling, and on any exposed surface when temperatures drop. Three layers of defense manage this risk beyond the bag itself.
+      </p>
+
+      <div className='grid md:grid-cols-3 gap-6 my-6'>
+        <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
+          <h4 className='font-bold mb-2 text-sm'>Desiccants</h4>
+          <p className='text-sm text-gray-700'>Calcium chloride desiccant strips or &quot;dry bags&quot; (2 kg units) hung from container hooks absorb up to 6 liters of water each. Standard practice is 6 to 10 units per 20-foot container. Cost: $30 to $60 per container.</p>
+        </div>
+        <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
+          <h4 className='font-bold mb-2 text-sm'>Kraft Paper Blotters</h4>
+          <p className='text-sm text-gray-700'>Heavy Kraft paper or multi-ply cardboard layered over the top of the cargo stack intercepts ceiling drip before it reaches bags. A simple, inexpensive second line of defense.</p>
+        </div>
+        <div className='bg-blue-50 p-5 rounded-lg border border-blue-200'>
+          <h4 className='font-bold mb-2 text-sm'>Floor Protection</h4>
+          <p className='text-sm text-gray-700'>Pallets or heavy-duty plastic liners prevent moisture wicking up from the container floor. Container floors often retain moisture or chemical residue from previous cargo.</p>
+        </div>
+      </div>
+
+      <p className='my-4'>
+        Washed coffees are more vulnerable to moisture-related taints than naturals because of their lower lipid surface coating and more porous cell structure. For washed Ethiopian lots (Yirgacheffe, Sidamo, Limu), all three condensation management layers are recommended in addition to hermetic liners.
+      </p>
+
+      {/* SECTION 7: TRANSIT TIMES */}
+      <h3 id='transit-timelines' className='text-3xl font-extrabold mt-12 mb-6'>
+        <HiOutlineGlobeAlt className='inline mr-2 text-amber-600' />
+        7. Transit Times and Quality Fade
+      </h3>
+
+      <p className='my-4'>
+        Transit duration directly affects quality, especially for high-scoring lots with delicate floral and fruit notes. Ethiopian coffee ships from Djibouti, and transit times vary significantly by destination. Disruptions in the Red Sea corridor (ongoing through 2025 and 2026) have added 10 to 20 days to European routes via the Cape of Good Hope reroute.
+      </p>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full text-sm text-left'>
+          <thead className='bg-dark text-primary'>
+            <tr>
+              <th className='p-3'>Route (from Djibouti)</th>
+              <th className='p-3'>Typical Transit</th>
+              <th className='p-3'>Extended (2025/26)</th>
+              <th className='p-3'>Climate Zones Crossed</th>
+            </tr>
+          </thead>
+          <tbody className='divide-y divide-gray-200'>
+            <tr>
+              <td className='p-3 font-bold'>Jeddah / Dubai</td>
+              <td className='p-3'>5 to 10 days</td>
+              <td className='p-3'>7 to 14 days</td>
+              <td className='p-3'>1 (tropical/arid)</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='p-3 font-bold'>Hamburg / Antwerp</td>
+              <td className='p-3'>25 to 35 days</td>
+              <td className='p-3'>35 to 50 days (via Cape)</td>
+              <td className='p-3'>3 to 4 (tropical, temperate, cold)</td>
+            </tr>
+            <tr>
+              <td className='p-3 font-bold'>New York / New Jersey</td>
+              <td className='p-3'>35 to 45 days</td>
+              <td className='p-3'>45 to 65 days</td>
+              <td className='p-3'>3 to 4</td>
+            </tr>
+            <tr className='bg-gray-50'>
+              <td className='p-3 font-bold'>Yokohama / Busan</td>
+              <td className='p-3'>20 to 30 days</td>
+              <td className='p-3'>25 to 35 days</td>
+              <td className='p-3'>2 to 3 (tropical, subtropical)</td>
+            </tr>
+            <tr>
+              <td className='p-3 font-bold'>Melbourne</td>
+              <td className='p-3'>25 to 35 days</td>
+              <td className='p-3'>30 to 45 days</td>
+              <td className='p-3'>2 to 3</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4 className='text-xl font-bold mt-8 mb-4'>Quality Fade Timeline (Washed Arabica, Hermetically Sealed)</h4>
+
+      <div className='overflow-x-auto my-6'>
+        <table className='w-full text-sm text-left'>
+          <thead className='bg-dark text-primary'>
+            <tr>
+              <th className='p-3'>Transit Window</th>
+              <th className='p-3'>Expected Impact</th>
+              <th className='p-3'>Risk</th>
+            </tr>
+          </thead>
+          <tbody className='divide-y divide-gray-200'>
+            <tr>
+              <td className='p-3 font-bold'>0 to 45 days</td>
+              <td className='p-3'>Negligible profile change.</td>
+              <td className='p-3 text-green-700 font-bold'>Low</td>
+            </tr>
+            <tr className='bg-amber-50'>
+              <td className='p-3 font-bold'>46 to 75 days</td>
+              <td className='p-3'>Minor loss of bright acidity. Delicate florals begin to mute.</td>
+              <td className='p-3 text-amber-700 font-bold'>Moderate</td>
+            </tr>
+            <tr className='bg-red-50'>
+              <td className='p-3 font-bold'>Over 75 days</td>
+              <td className='p-3'>Risk of &quot;baggy&quot; notes. Sweetness drops. Measurable cupping score loss (1 to 3 points).</td>
+              <td className='p-3 text-red-700 font-bold'>High</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className='my-4'>
+        For lots in the moderate or high-risk transit window, vacuum-sealed packaging provides a meaningful additional layer of protection. Discuss transit estimates with your exporter and freight forwarder before committing to packaging specifications. Seasonal buying aligned with the <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='underline font-bold'>Ethiopian coffee harvest calendar</Link> helps reduce storage time at origin and total time in the supply chain.
+      </p>
+
+      {/* SECTION 8: LIPID OXIDATION */}
+      <h3 id='lipid-oxidation' className='text-3xl font-extrabold mt-12 mb-6'>
+        <HiOutlineBeaker className='inline mr-2 text-amber-600' />
+        8. Lipid Oxidation and Chemical Aging
+      </h3>
+
+      <p className='my-4'>
+        Green Arabica beans contain 14 to 17% lipids by dry weight. When these fats contact oxygen and heat, they break down into aldehydes and ketones that produce papery, woody, and cardboard-like off-flavors. This process, lipid oxidation, is the chemical mechanism behind the &quot;baggy&quot; defect that importers and roasters identify in degraded lots.
+      </p>
+
+      <div className='bg-gray-50 border border-gray-200 rounded-lg p-6 my-6'>
+        <p className='font-bold mb-2'>The Temperature Rule</p>
+        <p className='text-sm'>
+          For every 10 &#176;C increase in temperature, the rate of lipid oxidation approximately doubles (the Van &apos;t Hoff principle). A lot traveling at 40 &#176;C for 30 days undergoes the same chemical aging as a lot stored at 20 &#176;C for 120 days. This is why top-deck stowage (which can reach 55 to 60 &#176;C) destroys specialty scores, and why under-deck stowage (18 to 22 &#176;C) is worth requesting.
         </p>
-        
-        <p className='my-4 text-gray-700 leading-relaxed'>
-          However, moisture content is not static. It exists in <span className='italic font-semibold text-blue-900'>Equilibrium Moisture Content (EMC)</span> with the surrounding air's Relative Humidity (RH). If the RH in a container rises above 70%, the coffee beans will act like sponges, absorbing moisture until a balance is reached.
-        </p>
+      </div>
 
-        <div className='bg-amber-50 p-8 rounded-xl my-8 border border-amber-200'>
-          <h4 className='font-bold text-xl mb-4 flex items-center gap-2 text-amber-900'>
-            <HiOutlineBeaker className='text-amber-600' />
-            The Water Activity Factor (aW)
-          </h4>
-          <p className='text-gray-700 mb-6'>
-            While total moisture tells us how much water is in the bean, <strong>Water activity (aW)</strong> measures the energy status of that water-essentially, how "available" it is for chemical and microbial reactions. It is the most accurate predictor of shelf stability.
-          </p>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-            <div className='bg-white p-5 rounded-lg border-l-4 border-green-500 shadow-sm'>
-              <p className='font-bold text-green-700 text-lg mb-1'>Target aW: 0.45 – 0.55</p>
-              <p className='text-sm text-gray-600'>Safe for long-term storage and intercontinental freight. Enzymatic activity is stalled.</p>
+      <p className='my-4'>
+        Hermetic liners reduce oxygen below 3%, slowing oxidation dramatically. But temperature acceleration still applies to the residual oxygen and to non-oxidative degradation pathways (Maillard browning, enzymatic reactions). Temperature control and oxygen control work together; neither alone is sufficient for premium lots on long routes.
+      </p>
+
+      <p className='my-4'>
+        Light roasts expose oxidation damage more than dark roasts. For Ethiopian specialty coffees typically roasted light to preserve floral and citrus notes, freight quality management is not optional. A light-roasted Yirgacheffe with lipid-damaged green beans will taste flat and papery regardless of the roaster&apos;s skill. The <Link href='/insights/roasting-ethiopian-coffee-beans-guide' className='underline font-bold'>roasting guide for Ethiopian coffee</Link> covers how roast profiles interact with green bean condition.
+      </p>
+
+      {/* SECTION 9: ARRIVAL QC */}
+      <h3 id='arrival-qc' className='text-3xl font-extrabold mt-12 mb-6'>
+        <HiOutlineChartBar className='inline mr-2 text-amber-600' />
+        9. Arrival QC Protocol
+      </h3>
+
+      <p className='my-4'>
+        A professional import operation verifies quality at the point of arrival, not after the coffee reaches the warehouse and gets cupped weeks later. The arrival QC protocol compares the lot against the pre-shipment sample (PSS) that the buyer approved before the exporter loaded the container.
+      </p>
+
+      <div className='bg-amber-50 border border-amber-200 rounded-lg p-6 my-6'>
+        <h4 className='font-bold text-lg mb-4'>Arrival QC Checklist</h4>
+        <ol className='space-y-4'>
+          <li className='flex gap-3 items-start'>
+            <span className='bg-amber-600 text-white rounded-full w-7 h-7 flex flex-shrink-0 items-center justify-center font-bold text-sm'>1</span>
+            <div>
+              <p className='font-bold'>Seal Verification</p>
+              <p className='text-sm text-gray-700'>Confirm the container seal number matches the Bill of Lading. A broken or replaced seal at any transshipment point indicates potential uncontrolled exposure.</p>
             </div>
-            <div className='bg-white p-5 rounded-lg border-l-4 border-red-500 shadow-sm'>
-              <p className='font-bold text-red-700 text-lg mb-1'>Danger aW: &gt; 0.60</p>
-              <p className='text-sm text-gray-600'>Facilitates the growth of <span className='italic'>Aspergillus</span> molds and OTA toxin production. Flavor "fading" accelerates rapidly.</p>
+          </li>
+          <li className='flex gap-3 items-start'>
+            <span className='bg-amber-600 text-white rounded-full w-7 h-7 flex flex-shrink-0 items-center justify-center font-bold text-sm'>2</span>
+            <div>
+              <p className='font-bold'>Spot Moisture Testing</p>
+              <p className='text-sm text-gray-700'>Test at least 5% of bags with a calibrated meter (Shore or Draminski). A drift of more than 0.5% from the pre-shipment reading suggests a liner breach or condensation ingress.</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 2: HERMETIC PACKAGING */}
-      <section id="hermetic-packaging" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-green-100 p-2 rounded-lg text-green-600"><TbPlant2 /></span>
-          2. Hermetic Packaging: GrainPro & Ecotact
-        </h3>
-
-        <p className='my-4 text-gray-700 leading-relaxed'>
-          Before the early 2010s, nearly all coffee traveled in porous jute or sisal bags. Today, <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>premium Ethiopian exports</Link> utilize hermetic liners as a standard practice for specialty lots.
-        </p>
-
-        <div className='grid md:grid-cols-2 gap-8 my-8'>
-          <div className='bg-green-50 p-6 rounded-xl border border-green-200'>
-            <h4 className='font-bold text-lg mb-4 flex items-center gap-2 text-green-900'>
-              <HiOutlineShieldCheck className='text-green-600' />
-              Packaging Hierarchy
-            </h4>
-            <ul className='space-y-3 text-sm text-green-900'>
-              <li className="flex items-start">
-                <HiOutlineXCircle className="text-red-500 mt-1 mr-2 text-lg flex-shrink-0" /> 
-                <span><span className='font-bold'>Standard Jute:</span> High risk. Zero moisture protection. Permeable to odors.</span>
-              </li>
-              <li className="flex items-start">
-                <HiOutlineCheckCircle className="text-green-600 mt-1 mr-2 text-lg flex-shrink-0" /> 
-                <span><span className='font-bold'>Hermetic Liners (GrainPro/Ecotact):</span> Industry standard. 5-7 layer high-barrier plastic (EVOH). blocks oxygen and moisture transfer.</span>
-              </li>
-              <li className="flex items-start">
-                <HiOutlineTrophy className="text-amber-500 mt-1 mr-2 text-lg flex-shrink-0" /> 
-                <span><span className='font-bold'>Vacuum Packaging (Penta/Brick):</span> Elite tier. Oxygen-free. Used for 90+ score lots and competitions.</span>
-              </li>
-            </ul>
-          </div>
-
-          <div className='bg-blue-50 p-6 rounded-xl border border-blue-200'>
-            <h4 className='font-bold text-lg mb-4 flex items-center gap-2 text-blue-900'>
-              <HiOutlineChartBar className='text-blue-600' />
-              The Economic Impact
-            </h4>
-            <p className='text-sm mb-4 text-blue-900'>Research indicates that specialty coffee stored in hermetic liners preserves its cupping score for up to <strong>12 months longer</strong> than jute-only storage.</p>
-            <ul className='space-y-2 text-sm text-blue-800 font-medium'>
-              <li className="flex items-center gap-2"><HiOutlineCheckCircle /> Preserves floral bergamot notes (linalool)</li>
-              <li className="flex items-center gap-2"><HiOutlineCheckCircle /> Prevents absorption of diesel fumes at ports</li>
-              <li className="flex items-center gap-2"><HiOutlineCheckCircle /> Eliminates insect infestation risk</li>
-            </ul>
-          </div>
-        </div>
-
-        <p className='my-4 text-gray-700'>
-          For Ethiopian exporters, ensuring <span className='font-bold text-green-700'>100% GrainPro/Ecotact availability</span> for all <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Specialty Grade 1 and 2 lots</Link> is non-negotiable. The marginal cost of the liner ($2-3 per bag) is an insurance policy for a cargo worth $500-800 per bag.
-        </p>
-        <p className='my-4 text-gray-700'>
-          For a full breakdown of bag types, cost per bag, hermetic technology, and what to specify in your purchase contract, see our <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline font-bold'>green coffee packaging and bag types buyer&apos;s guide</Link>.
-        </p>
-      </section>
-
-      {/* SECTION 3: CONTAINER SELECTION */}
-      <section id="container-selection" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-blue-100 p-2 rounded-lg text-blue-600"><HiOutlineCube /></span>
-          3. Container Selection: Dry vs. Ventilated
-        </h3>
-
-        <p className='my-4 text-gray-700'>
-          The container is the primary shield against the ocean environment. While <span className='font-bold italic'>Standard 20ft Dry Vans</span> are the workhorse of the industry, specialty logistics require a more tailored approach.
-        </p>
-
-        <div className='space-y-6 my-8'>
-          <div className='bg-white p-6 rounded-xl border-l-8 border-blue-500 shadow-md'>
-            <h5 className='font-bold text-lg flex items-center gap-2 mb-2'><TbWind className='text-blue-500 text-2xl' /> Ventilated "Coffee" Containers</h5>
-            <p className='text-gray-600 text-sm mb-3'>Specifically designed with passive ventilation strips along the top and bottom rails.</p>
-            <div className="grid md:grid-cols-2 gap-4 text-sm">
-              <div>
-                <span className="font-bold text-gray-900">Pros:</span>
-                <p className="text-gray-600">Prevents internal heat-trapping; allows "breathing" of the cargo.</p>
-              </div>
-              <div>
-                <span className="font-bold text-gray-900">Cons:</span>
-                <p className="text-gray-600">Vulnerable to salt-air ingress if stored on deck; higher cost and lower availability.</p>
-              </div>
+          </li>
+          <li className='flex gap-3 items-start'>
+            <span className='bg-amber-600 text-white rounded-full w-7 h-7 flex flex-shrink-0 items-center justify-center font-bold text-sm'>3</span>
+            <div>
+              <p className='font-bold'>Olfactory Check</p>
+              <p className='text-sm text-gray-700'>Fresh green coffee smells of dried grass, sweet hay, or peas. Paper, wet jute, or musty notes indicate moisture ingress or mold. Check multiple bags from different positions in the container.</p>
             </div>
-          </div>
-
-          <div className='bg-white p-6 rounded-xl border-l-8 border-purple-500 shadow-md'>
-            <h5 className='font-bold text-lg flex items-center gap-2 mb-2'><TbBoxModel2 className='text-purple-500 text-2xl' /> Insulated Radiant Barriers</h5>
-            <p className='text-gray-600 text-sm mb-3'>A high-performance alternative to reefer containers for high-end specialty.</p>
-            <div className="text-sm">
-               <p className="mb-2"><span className="font-bold">Mechanism:</span> The entire container is lined with a thermal "space blanket" (like Liqui-Foil) reflecting 97% of radiant heat.</p>
-               <p className="text-purple-800 font-semibold bg-purple-50 p-2 rounded inline-block">Recommended for: Micro-lots, Gesha varieties, and competition coffee.</p>
+          </li>
+          <li className='flex gap-3 items-start'>
+            <span className='bg-amber-600 text-white rounded-full w-7 h-7 flex flex-shrink-0 items-center justify-center font-bold text-sm'>4</span>
+            <div>
+              <p className='font-bold'>PSS vs. Arrival Cupping</p>
+              <p className='text-sm text-gray-700'>Cup the arrival sample alongside the retained PSS. A drop greater than 1.5 cupping points indicates a logistics failure. Document the result; it is the basis for any quality claim.</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 4: VESSEL PLACEMENT */}
-      <section id="vessel-placement" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-blue-100 p-2 rounded-lg text-blue-600"><FaShip /></span>
-          4. The "Stowage Factor": Vessel Placement Strategy
-        </h3>
-
-        <p className='my-4 text-gray-700'>
-          Where your container is placed on the ship matters as much as what's inside it. On a Ultra-Large Container Vessel (ULCV), the temperature difference between the top stack and the bottom hold can be <span className='font-bold text-red-600'>as much as 25°C</span>.
-        </p>
-
-        <div className='bg-gray-50 p-8 rounded-xl my-6 border border-gray-200 shadow-sm'>
-          <h4 className='font-bold text-lg mb-6 flex items-center gap-2 uppercase tracking-wide text-gray-800'>
-            <GiShipWheel className='text-blue-800 text-2xl' />
-            Strategic Stowage Requests
-          </h4>
-          <div className='grid md:grid-cols-2 gap-6'>
-            <div className='bg-white p-5 rounded-lg border-l-4 border-green-500 shadow-sm'>
-              <p className='font-bold text-gray-900 mb-2'>Request: "Under Deck, Below Waterline"</p>
-              <p className='text-sm text-gray-600'>The ocean acts as a heat sink. Containers stored in the hold stay at a consistently stable 18-22°C throughout the voyage, regardless of the ambient air temperature.</p>
+          </li>
+          <li className='flex gap-3 items-start'>
+            <span className='bg-amber-600 text-white rounded-full w-7 h-7 flex flex-shrink-0 items-center justify-center font-bold text-sm'>5</span>
+            <div>
+              <p className='font-bold'>Visual Inspection</p>
+              <p className='text-sm text-gray-700'>Check for visible mold, water stains on jute, or broken GrainPro seals. Photograph any damage for insurance and claims documentation.</p>
             </div>
-            <div className='bg-white p-5 rounded-lg border-l-4 border-amber-500 shadow-sm'>
-              <p className='font-bold text-gray-900 mb-2'>Avoid: "Deck Stowage (Top Tier)"</p>
-              <p className='text-sm text-gray-600'>Direct sun exposure turns the container into an oven. Internal temperatures can hit 60°C in tropical waters, "baking" the coffee oils and destroying volatile aromatics.</p>
-            </div>
-            <div className='bg-white p-5 rounded-lg border-l-4 border-red-500 shadow-sm'>
-              <p className='font-bold text-gray-900 mb-2'>Avoid: "Engine Room Bulkheads"</p>
-              <p className='text-sm text-gray-600'>The massive heat from the ship's engines can penetrate the hold, causing localized hot spots that age the coffee unevenly.</p>
-            </div>
-            <div className='bg-white p-5 rounded-lg border-l-4 border-blue-400 shadow-sm'>
-              <p className='font-bold text-gray-900 mb-2'>Request: "Mid-Ship Placement"</p>
-              <p className='text-sm text-gray-600'>Reduces vertical movement and vibration (G-force), which can sometimes cause "sifting" or bean breakage in lower density lots.</p>
-            </div>
-          </div>
+          </li>
+        </ol>
+      </div>
+
+      <p className='my-4'>
+        Port handling, customs brokerage, and destination warehousing also affect the lot before it reaches the roaster. For a full cost breakdown of each post-arrival step, see the <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='underline font-bold'>Ethiopian coffee landed cost guide</Link>.
+      </p>
+
+      {/* SECTION 10: INCOTERMS */}
+      <h3 id='incoterms' className='text-3xl font-extrabold mt-12 mb-6'>
+        <HiOutlineTruck className='inline mr-2 text-amber-600' />
+        10. Incoterms, Insurance, and Risk Transfer
+      </h3>
+
+      <p className='my-4'>
+        The Incoterm in the sales contract determines who bears the risk of quality loss during sea freight. In the Ethiopian coffee trade, two terms dominate.
+      </p>
+
+      <div className='grid md:grid-cols-2 gap-6 my-6'>
+        <div className='border border-gray-200 p-5 rounded-lg'>
+          <h4 className='font-bold mb-2'>FOB Djibouti (Free On Board)</h4>
+          <p className='text-sm text-gray-700'>Risk transfers from the exporter to the buyer when the container is loaded onto the vessel at Djibouti port. The buyer arranges and pays for ocean freight and marine cargo insurance. Most common for experienced importers with established freight forwarder relationships.</p>
         </div>
-      </section>
-
-      {/* SECTION 5: CONDENSATION MANAGEMENT */}
-      <section id="condensation-management" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-blue-100 p-2 rounded-lg text-blue-400"><FaTint /></span>
-          5. Condensation Management: Beyond the Bag
-        </h3>
-
-        <p className='my-4 text-gray-700'>
-          Managing <span className='font-bold'>headspace humidity</span> is critical for preserving <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>washed specialty coffees</Link>, which are typically more sensitive to moisture-related taints than naturals.
-        </p>
-
-        <div className='grid md:grid-cols-3 gap-6 my-8'>
-          <div className='bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 shadow-sm hover:shadow-md transition-shadow'>
-            <div className="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center mb-4 text-blue-600"><TbActivity /></div>
-            <h5 className='font-bold text-gray-900 mb-2'>Active Desiccants</h5>
-            <p className='text-sm text-gray-600'>We utilize 2kg Calcium Chloride "Dry-Bags" hung from container hooks. These absorb up to 6 liters of water each, trapping moisture before it reaches the ceiling.</p>
-          </div>
-          <div className='bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 shadow-sm hover:shadow-md transition-shadow'>
-            <div className="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center mb-4 text-blue-600"><FaBoxOpen /></div>
-            <h5 className='font-bold text-gray-900 mb-2'>Moisture Blotters</h5>
-            <p className='text-sm text-gray-600'>A layer of heavy Kraft paper or high-ply cardboard is laid over the top of the cargo. If condensation *does* drip, the cardboard absorbs it before it penetrates the jute.</p>
-          </div>
-          <div className='bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100 shadow-sm hover:shadow-md transition-shadow'>
-            <div className="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center mb-4 text-blue-600"><TbBoxModel2 /></div>
-            <h5 className='font-bold text-gray-900 mb-2'>Floor Protection</h5>
-            <p className='text-sm text-gray-600'>Plastic-wrapped pallets or heavy-duty liners prevent "rising damp" from the container floor, which often harbors residual moisture or odors from previous cargoes.</p>
-          </div>
+        <div className='border border-gray-200 p-5 rounded-lg'>
+          <h4 className='font-bold mb-2'>CFR / CIF Destination</h4>
+          <p className='text-sm text-gray-700'>The exporter arranges and pays for freight (CFR) or freight plus insurance (CIF) to the named destination port. Risk still transfers at loading in Djibouti, but the exporter manages the logistics. Preferred by smaller importers or first-time buyers.</p>
         </div>
-      </section>
+      </div>
 
-      {/* SECTION 6: TRANSIT TIME */}
-      <section id="transit-time" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-blue-100 p-2 rounded-lg text-blue-600"><HiOutlineGlobeAlt /></span>
-          6. Managing Transit Times & Global Disruptions
-        </h3>
+      <p className='my-4'>
+        Regardless of Incoterm, marine cargo insurance is essential for specialty coffee. An &quot;all-risk&quot; policy covering physical loss, contamination, and condensation damage typically costs 0.3 to 0.6% of the cargo value. For a container valued at $150,000, that is $450 to $900. Consider &quot;warehouse to warehouse&quot; coverage that extends from the exporter&apos;s warehouse in Addis Ababa to the importer&apos;s warehouse at destination. For further details on <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='underline font-bold'>contract terms and payment methods</Link>, see the contracts guide.
+      </p>
 
-        <p className='my-4 text-gray-700'>
-          In 2026, the global coffee supply chain faces unprecedented variability. A traditional route from Djibouti to New Jersey, which ideally takes 35-40 days, can now extend to 65+ days due to transshipment delays.
-        </p>
-
-        <h4 className='font-bold mt-8 mb-4 text-lg text-gray-800'>The "Quality Fade" Timeline (Washed Arabica):</h4>
-        <div className='overflow-hidden rounded-xl border border-gray-200 shadow-sm mb-8'>
-          <table className='w-full text-sm text-left'>
-            <thead className='bg-gray-100 text-gray-700 uppercase font-bold text-xs'>
-              <tr>
-                <th className='p-4 border-b border-gray-200'>Transit Window</th>
-                <th className='p-4 border-b border-gray-200'>Expected Quality Impact</th>
-                <th className='p-4 border-b border-gray-200'>Risk Level</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-200 bg-white">
-              <tr className="hover:bg-gray-50 transition-colors">
-                <td className='p-4 font-bold text-gray-900'>0 - 45 Days</td>
-                <td className='p-4 text-gray-600'>Negligible profile change if hermetically sealed.</td>
-                <td className='p-4 text-green-700 font-bold flex items-center gap-1'>
-                  <span className="w-2 h-2 rounded-full bg-green-500"></span> LOW
-                </td>
-              </tr>
-              <tr className='bg-amber-50 hover:bg-amber-100 transition-colors'>
-                <td className='p-4 font-bold text-gray-900'>46 - 75 Days</td>
-                <td className='p-4 text-gray-600'>Minor loss of bright acidity; slight "hushing" of delicate florals.</td>
-                <td className='p-4 text-amber-600 font-bold flex items-center gap-1'>
-                  <span className="w-2 h-2 rounded-full bg-amber-500"></span> MODERATE
-                </td>
-              </tr>
-              <tr className='bg-red-50 hover:bg-red-100 transition-colors'>
-                <td className='p-4 font-bold text-gray-900'>&gt; 75 Days</td>
-                <td className='p-4 text-gray-600'>Risk of "baggy" notes; loss of sweetness; noticeable profile fading.</td>
-                <td className='p-4 text-red-600 font-bold flex items-center gap-1'>
-                  <span className="w-2 h-2 rounded-full bg-red-600"></span> CRITICAL
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <blockquote className='border-l-4 border-blue-500 pl-4 italic text-gray-600 text-lg my-6'>
-          "Transparency in transit times is as important as transparency in sourcing. An importer must know when their 'fresh' crop is effectively becoming 'past crop' due to transit duration."
-        </blockquote>
-      </section>
-
-      {/* SECTION 7: CHEMICAL AGING */}
-      <section id="chemical-aging" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-purple-100 p-2 rounded-lg text-purple-600"><FaMicroscope /></span>
-          7. Chemical Aging: The Lipid Oxidation Crisis
-        </h3>
-
-        <p className='my-4 text-gray-700'>
-          The most devastating effect of poor storage is invisible to the eye but obvious in the cup: <span className='font-bold'>lipid oxidation</span>. Coffee beans contain roughly 15-17% lipids (fats/oils). When exposed to heat and oxygen, these lipids break down into rancid compounds.
-        </p>
-
-        <div className='bg-gray-900 text-gray-100 p-8 rounded-xl my-6 shadow-2xl relative overflow-hidden'>
-          <div className="absolute top-0 right-0 p-4 opacity-10">
-            <GiDna2 className="text-9xl" />
-          </div>
-          <h5 className='font-bold text-xl mb-4 flex items-center gap-2 text-amber-400'><TbTemperature /> The Van 't Hoff Rule</h5>
-          <p className='text-lg font-medium mb-4 leading-relaxed'>
-            For every 10°C increase in temperature, the rate of chemical reaction (and thus quality degradation) approximately <span className='text-amber-400 font-bold underline decoration-2 underline-offset-4'>doubles</span>.
-          </p>
-          <div className="bg-gray-800 p-4 rounded-lg border border-gray-700">
-             <p className='text-sm text-gray-300'>
-              <span className="font-bold text-white">Scenario:</span> A coffee traveling at 40°C for one month undergoes the same amount of chemical aging as a coffee stored at 20°C for four months. This explains why "High-Deck" stowage destroys specialty scores.
-            </p>
-          </div>
-        </div>
-
-        <p className='my-4 text-gray-700'>
-          This oxidation results in the "cardboard" or "baggy" taste. While roasting can mask some aging in darker profiles, for the high-end specialty market where light roasting is preferred, these defects have nowhere to hide.
-        </p>
-      </section>
-
-      {/* SECTION 8: ARRIVAL QC */}
-      <section id="arrival-qc" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-green-100 p-2 rounded-lg text-green-600"><HiOutlineShieldCheck /></span>
-          8. Arrival Protocol: Post-Freight Quality Verification
-        </h3>
-
-        <p className='my-4 text-gray-700'>
-          The work doesn't end at the destination port. A professional importer follows a multi-step protocol to ensure the <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>origin's quality</Link> was preserved. Port handling, customs brokerage, and warehousing fees also contribute to your total import cost; see our <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian coffee landed cost guide</Link> for a detailed breakdown.
-        </p>
-
-        <div className='bg-amber-50 p-8 rounded-xl my-6 border border-amber-200'>
-          <h5 className='font-bold text-xl mb-6 flex items-center gap-2 text-amber-900 border-b border-amber-200 pb-2'><HiOutlineBeaker /> The Arrival QC Checklist</h5>
-          <ol className='space-y-6'>
-            <li className='flex gap-4 items-start'>
-              <span className='bg-amber-600 text-white rounded-full w-8 h-8 flex flex-shrink-0 items-center justify-center font-bold text-sm shadow-sm'>1</span>
-              <div>
-                <p className='font-bold text-gray-900 text-base'>Container Seal Verification</p>
-                <p className='text-sm text-gray-700 mt-1'>Confirming the seal number matches the B/L to ensure no unauthorized access (and thus uncontrolled exposure) occurred at transshipment ports.</p>
-              </div>
-            </li>
-            <li className='flex gap-4 items-start'>
-              <span className='bg-amber-600 text-white rounded-full w-8 h-8 flex flex-shrink-0 items-center justify-center font-bold text-sm shadow-sm'>2</span>
-              <div>
-                <p className='font-bold text-gray-900 text-base'>Spot Moisture Testing</p>
-                <p className='text-sm text-gray-700 mt-1'>Using a calibrated moisture meter (Shore/Draminski) to test at least 5% of the bags. Any drift &gt;0.5% compared to pre-shipment suggests a liner breach.</p>
-              </div>
-            </li>
-            <li className='flex gap-4 items-start'>
-              <span className='bg-amber-600 text-white rounded-full w-8 h-8 flex flex-shrink-0 items-center justify-center font-bold text-sm shadow-sm'>3</span>
-              <div>
-                <p className='font-bold text-gray-900 text-base'>The "Nose" Test</p>
-                <p className='text-sm text-gray-700 mt-1'>Smelling the bags immediately upon opening. "Fresh" green coffee smells of grass, peas, or sweet hay. If it smells of paper or wet jute, moisture ingress is likely.</p>
-              </div>
-            </li>
-            <li className='flex gap-4 items-start'>
-              <span className='bg-amber-600 text-white rounded-full w-8 h-8 flex flex-shrink-0 items-center justify-center font-bold text-sm shadow-sm'>4</span>
-              <div>
-                <p className='font-bold text-gray-900 text-base'>PSS vs. Arrival Cupping</p>
-                <p className='text-sm text-gray-700 mt-1'>The ultimate test. Cupping the arrival sample side-by-side with the Pre-Shipment Sample (PSS). A drop of &gt;1.5 points indicates a logistics failure.</p>
-              </div>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      {/* SECTION 9: INCOTERMS */}
-      <section id="incoterms" className="mb-16 scroll-mt-24">
-        <h3 className='text-3xl font-extrabold mb-6 flex items-center gap-3 text-gray-900'>
-          <span className="bg-blue-100 p-2 rounded-lg text-blue-600"><FaHandshake /></span>
-          9. Logistics & Liability: Incoterms
-        </h3>
-        <p className="my-4 text-gray-700">
-          Understanding who owns the risk during the voyage is crucial for roasters. The Incoterm dictates when responsibility transfers from the Ethiopian exporter to the buyer.
-        </p>
-        <div className="grid gap-4 md:grid-cols-2">
-           <div className="border border-gray-200 p-5 rounded-lg hover:bg-gray-50 transition">
-              <h5 className="font-bold flex items-center gap-2 mb-2"><HiOutlineTruck className="text-gray-500"/> FOB (Free On Board)</h5>
-              <p className="text-sm text-gray-600">Risk transfers when coffee crosses the ship's rail in Djibouti. The buyer handles sea freight and insurance. Common for large importers.</p>
-           </div>
-           <div className="border border-gray-200 p-5 rounded-lg hover:bg-gray-50 transition">
-              <h5 className="font-bold flex items-center gap-2 mb-2"><HiOutlineCurrencyDollar className="text-gray-500"/> FCA (Free Carrier)</h5>
-              <p className="text-sm text-gray-600">Seller delivers goods to a carrier nominated by the buyer. The buyer arranges and pays for the main carriage (typically air freight) and insurance. Preferred by buyers who want control over their logistics.</p>
-           </div>
-        </div>
-      </section>
-
-      {/* FAQ SECTION - GREAT FOR SEO */}
-      <section className="mb-16 bg-gray-50 rounded-xl p-8 border border-gray-200">
-        <h3 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions about Coffee Logistics</h3>
-        <div className="space-y-6">
+      {/* FAQ */}
+      <section id='faq' className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h3 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions</h3>
+        <div className='space-y-6'>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">How long can green coffee be stored before it goes bad?</h4>
-            <p className="text-sm text-gray-600">In traditional jute bags, green coffee begins to fade after 6 months. When stored in hermetic liners (GrainPro) at stable temperatures (under 25°C), specialty coffee can maintain its quality for 12 to 18 months.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>How do you prevent coffee quality loss during sea freight?</h4>
+            <p className='text-sm text-gray-600'>Use hermetic liners (GrainPro or Ecotact) inside jute bags, hang calcium chloride desiccants in the container, request under-deck stowage from the shipping line, and layer Kraft paper over the cargo stack. These four measures address the primary risks: moisture migration, condensation, heat exposure, and oxygen contact.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">What causes coffee to taste like wood or paper?</h4>
-            <p className="text-sm text-gray-600">This is often the "baggy" defect, caused by lipid oxidation or moisture absorption from jute bags during transport. It indicates the coffee has aged or was exposed to high humidity/heat.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>What is container sweat and how does it affect green coffee?</h4>
+            <p className='text-sm text-gray-600'>Container sweat is condensation that forms on the steel ceiling when a heated container cools rapidly (typically at night or when entering cooler waters). The water drips onto coffee bags, raising moisture content, promoting mold growth, and causing musty or &quot;baggy&quot; flavor taints. Hermetic liners protect the beans inside, while desiccants and blotters manage the container environment.</p>
           </div>
           <div>
-            <h4 className="font-bold text-gray-800 mb-2">Why is Ethiopian coffee more sensitive to shipping?</h4>
-            <p className="text-sm text-gray-600">Ethiopian heirlooms often have different bean densities and cellular structures compared to commercial hybrids. Their delicate floral and fruity volatiles (like jasmine and bergamot) are the first to degrade under heat stress.</p>
+            <h4 className='font-bold text-gray-800 mb-2'>How long can green coffee remain in transit before quality degrades?</h4>
+            <p className='text-sm text-gray-600'>In hermetic packaging at stable temperatures, specialty Arabica shows negligible quality change up to 45 days. Between 46 and 75 days, bright acidity and delicate floral notes begin to mute. Beyond 75 days, the risk of measurable cupping score loss (1 to 3 points) increases significantly, especially for washed lots.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>Why is Ethiopian coffee more sensitive to shipping conditions?</h4>
+            <p className='text-sm text-gray-600'>Ethiopian heirloom varieties have a different bean density and cellular structure than commercial cultivars. Their signature floral and citrus volatiles (linalool, limonene) are the first compounds to degrade under heat stress. Washed Ethiopian lots, prized for clean acidity, are more porous and absorb moisture faster than naturals with their intact fruit residue layer.</p>
+          </div>
+          <div>
+            <h4 className='font-bold text-gray-800 mb-2'>Should importers request specific container placement on the vessel?</h4>
+            <p className='text-sm text-gray-600'>Yes. Including &quot;under deck, away from heat sources&quot; in booking instructions is a zero-cost step. Under-deck holds maintain 18 to 22 &#176;C versus 50 to 60 &#176;C on top-deck positions. Compliance is not guaranteed, but carriers are more likely to honor the request when it is formally documented in the booking.</p>
           </div>
         </div>
       </section>
 
-      {/* CONCLUSION */}
-      <section className='bg-gray-900 text-white p-10 rounded-2xl shadow-2xl mb-12 relative overflow-hidden'>
-        <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500"></div>
-        <h3 className='text-3xl font-extrabold mb-6 text-white'>
-          Partner with Logistics Experts
-        </h3>
-
-        <p className='mb-8 text-lg text-gray-300 leading-relaxed'>
-          Sea freight shouldn't be a gamble. At Ethio Coffee Export, we treat logistics as an extension of our sourcing. By applying rigorous science-using hermetic liners, thermal barriers, and strategic stowage-we ensure that the 90+ point aromatics you cup at origin are the ones you roast at home.
+      {/* CTA */}
+      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
+        <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Freight Quality Built In</h4>
+        <p className='my-2'>
+          Ethio Coffee Import and Export PLC ships every specialty lot in GrainPro liners with container desiccants and documented moisture readings at bagging. Request samples, review current offerings, or ask about freight and logistics coordination.
         </p>
-
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 text-sm mb-8 font-medium'>
-          <div className='flex items-center gap-3'><HiOutlineCheckCircle className="text-green-400 text-lg"/> 100% Hermetic Liners</div>
-          <div className='flex items-center gap-3'><HiOutlineCheckCircle className="text-green-400 text-lg"/> Thermal Container Liners</div>
-          <div className='flex items-center gap-3'><HiOutlineCheckCircle className="text-green-400 text-lg"/> Strategic Stowage Control</div>
-          <div className='flex items-center gap-3'><HiOutlineCheckCircle className="text-green-400 text-lg"/> Real-time IoT Tracking</div>
-          <div className='flex items-center gap-3'><HiOutlineCheckCircle className="text-green-400 text-lg"/> Complete Documentation</div>
-          <div className='flex items-center gap-3'><HiOutlineCheckCircle className="text-green-400 text-lg"/> Full All-Risk Insurance</div>
+        <div className='flex flex-wrap gap-4 mt-4'>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Samples</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
-        
-        <div className="flex flex-col sm:flex-row gap-4">
-          <Link href='/contact-us' className='bg-amber-600 hover:bg-amber-500 text-white font-bold py-3 px-8 rounded-lg transition-colors text-center'>
-            Request a Shipping Quote
-          </Link> 
-          <Link href='/offerings' className='bg-transparent border border-gray-500 hover:border-white text-gray-300 hover:text-white font-bold py-3 px-8 rounded-lg transition-colors text-center'>
-            View Current Offerings
-          </Link> 
-        </div>
-      </section>
+      </div>
 
       {/* RELATED ARTICLES */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
         <div className='grid md:grid-cols-2 gap-4'>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Storage & Quality</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Storage and Quality</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Green Coffee Shelf Life & Storage Guide</Link></li>
-              <li>• <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Green Coffee Packaging & Bag Types</Link></li>
-              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control & Grading</Link></li>
-              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Ethiopian Dry Coffee Production QC</Link></li>
-              <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling Guide</Link></li>
+              <li>• <Link href='/insights/green-coffee-shelf-life-storage-guide' className='text-amber-700 hover:underline'>Green Coffee Shelf Life: Storage Guide for Buyers</Link></li>
+              <li>• <Link href='/insights/green-coffee-packaging-bag-types-guide' className='text-amber-700 hover:underline'>Green Coffee Packaging: Bag Types Guide</Link></li>
+              <li>• <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline'>Green Coffee Quality Control and Grading</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-dry-milling-export-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Dry Milling Export Guide</Link></li>
+              <li>• <Link href='/insights/ethiopian-dry-coffee-production-quality-control' className='text-amber-700 hover:underline'>Ethiopian Dry Coffee Production and QC</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className='font-semibold mb-2 text-sm'>Sourcing & Logistics</h4>
+            <h4 className='font-semibold mb-2 text-sm'>Sourcing and Logistics</h4>
             <ul className='space-y-1 text-sm'>
-              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
-              <li>• <Link href='/insights/minimum-order-quantities-ethiopian-coffee-moq' className='text-amber-700 hover:underline'>Minimum Order Quantities (MOQ)</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
-              <li>• <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian Heirloom Coffee Varieties</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Contracts and Payment Terms</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-harvest-calendar-buying-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Harvest Calendar</Link></li>
+              <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
+              <li>• <Link href='/insights/ethiopian-coffee-traceability-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Traceability Guide</Link></li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Ship Ethiopian Coffee with Confidence</h4>
-        <p className='my-2'>
-          At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we handle logistics, documentation, and quality assurance from origin to port. Let us manage the details so your coffee arrives in perfect condition.
-        </p>
-        <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Contact Us</Link>
-          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
-        </div>
-      </div>
-
+      {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide covers specialty coffee storage, freight logistics, and best practices for maintaining quality during sea transport.
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. Covers specialty coffee storage in sea freight, including moisture science, hermetic packaging, container stowage, transit timelines, and arrival QC protocols for green coffee importers and roasters.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+          <Link href='/insights' className='underline'>All Insights</Link> ·{' '}
+          <Link href='/ethiopian-coffee-exporter' className='underline'>Export Services</Link> ·{' '}
+          <Link href='/about' className='underline'>About</Link> ·{' '}
+          <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
       </div>
-    </article>
+    </>
   )
 }
