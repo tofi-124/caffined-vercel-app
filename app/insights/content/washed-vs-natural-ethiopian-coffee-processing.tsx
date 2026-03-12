@@ -144,7 +144,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
         Roasting Washed Ethiopian Coffee
       </h3>
       <p className='my-4'>
-        Washed Ethiopian coffees are prized for their delicate flavors which means they&apos;re easy to over-roast.
+        Washed Ethiopian coffees are prized for their delicate flavors which means they&apos;re easy to over-roast. Our guide to <Link href='/insights/coffee-is-art-roasting-brewing' className='underline font-bold'>coffee roasting and brewing</Link> explains the science behind why gentle heat application matters.
       </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
         <li className='my-2'><span className='font-bold'>Target roast:</span> Light (City to City+)</li>

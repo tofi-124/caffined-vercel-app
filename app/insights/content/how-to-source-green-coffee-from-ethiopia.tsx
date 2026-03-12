@@ -62,6 +62,9 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         <li className='my-2'><span className='font-bold'>High-Altitude Growing:</span> Most Ethiopian coffee grows between 1,500–2,300 meters, where cherries ripen slowly and develop complex sugars and acids. Learn more about <Link href='/insights/coffee-is-agriculture-production-farming' className='text-amber-700 hover:underline font-bold'>coffee farming and agricultural practices</Link> that make this possible.</li>
         <li className='my-2'><span className='font-bold'>Customer Demand:</span> Specialty coffee consumers actively seek Ethiopian origins for their unique cup experience.</li>
       </ul>
+      <p className='my-4'>
+        For the full picture of how these factors come together at every stage from growing to export, see our <Link href='/insights/complete-guide-to-understanding-coffee' className='underline font-bold'>coffee from seed to cup buyer&apos;s guide</Link>.
+      </p>
 
       <h3 className='text-2xl font-extrabold mt-8'>
         Understanding Ethiopian Coffee Grades

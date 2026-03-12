@@ -116,7 +116,7 @@ export default function NewSCACoffeeValueAssessment({ title, date, large_image_u
             <span className='font-bold'>Purpose:</span> Objectively describe what sensory characteristics are present in the coffee, without judgment of quality.
           </p>
           <p className='text-sm bg-gray-50 p-4 rounded border border-gray-200 mb-3'>
-            This is where trained tasters identify and quantify specific flavors, aromas, textures, and aftertastes. Instead of saying "this is good citrus," descriptive assessment asks "how much lemon? how much orange? how much grapefruit?" The result is a detailed flavor map that captures what makes the coffee unique.
+            This is where trained tasters identify and quantify specific flavors, aromas, textures, and aftertastes. Instead of saying "this is good citrus," descriptive assessment asks "how much lemon? how much orange? how much grapefruit?" The result is a detailed flavor map that captures what makes the coffee unique. For the compound science behind these sensory attributes, see our <Link href='/insights/coffee-is-science-analysis-compounds-evaluation' className='underline font-bold'>Coffee Science: Analysis &amp; Evaluation</Link> guide.
           </p>
           <div className='text-sm'>
             <p className='font-bold mb-1'>Key Innovation:</p>

@@ -88,7 +88,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         Most B2B buyers interact with their Ethiopian coffee exporter at two points: when signing the contract and when receiving shipping documents. Everything between those moments is a black box. This guide opens that box. Each section walks through what your exporter does, what documents are generated, how long each step takes, and where bottlenecks occur. The goal is to give you the visibility to plan your roasting calendar, cash flow, and customer commitments with confidence.
       </p>
       <p className='my-4'>
-        Ethiopia exported approximately 469,000 metric tons of coffee in 2024/2025 and earned a record $2.65 billion in revenue, according to the <a href='https://www.ecx.com.et' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Ethiopia Commodity Exchange</a> and the Ethiopian Coffee and Tea Authority. That volume moves through a defined national export pipeline. This article maps that pipeline, step by step.
+        Ethiopia exported approximately 469,000 metric tons of coffee in 2024/2025 and earned a record $2.65 billion in revenue, according to the <a href='https://www.ecx.com.et' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Ethiopia Commodity Exchange</a> and the Ethiopian Coffee and Tea Authority. That volume moves through a defined national export pipeline. This article maps that pipeline, step by step. For a broader view of every stage from variety selection to roasting, see our <Link href='/insights/complete-guide-to-understanding-coffee' className='underline font-bold'>coffee from seed to cup buyer&apos;s guide</Link>.
       </p>
 
       <p className='my-4'>

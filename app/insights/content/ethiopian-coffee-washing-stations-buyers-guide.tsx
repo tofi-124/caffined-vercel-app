@@ -82,7 +82,7 @@ export default function EthiopianCoffeeWashingStationsBuyersGuide({ title, date,
       </h2>
 
       <p className='my-4'>
-        An Ethiopian coffee washing station is the facility where freshly picked coffee cherries are transformed into dried parchment coffee through a series of wet processing steps. The station receives ripe cherry from surrounding smallholder farmers, typically within a 5 to 10 kilometer radius, and processes it within hours of harvest. For importers and roasters who source washed Ethiopian coffee, the washing station is the single most important quality control point in the supply chain.
+        An Ethiopian coffee washing station is the facility where freshly picked coffee cherries are transformed into dried parchment coffee through a series of wet processing steps. The station receives ripe cherry from surrounding smallholder farmers, typically within a 5 to 10 kilometer radius, and processes it within hours of harvest. For importers and roasters who source washed Ethiopian coffee, the washing station is the single most important quality control point in the supply chain. To understand how washing fits into the broader journey from variety selection to export, see our <Link href='/insights/complete-guide-to-understanding-coffee' className='underline font-bold'>coffee from seed to cup buyer&apos;s guide</Link>.
       </p>
 
       <p className='my-4'>

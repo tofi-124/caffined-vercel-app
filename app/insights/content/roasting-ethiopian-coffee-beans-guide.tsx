@@ -79,7 +79,7 @@ export default function RoastingEthiopianCoffeeBeansGuide({ title, date, large_i
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        <span className='font-bold'>Roasting Ethiopian coffee</span> is one of the most rewarding and demanding tasks a specialty roaster can take on. Ethiopian beans carry flavor complexity that few other origins match: jasmine florals, ripe stone fruit, citrus brightness, and deep berry sweetness. Yet many roasters struggle to unlock these qualities consistently. Charge too high and you scorch the surface. Extend development too long and you mute the florals that make Ethiopian coffee extraordinary.
+        <span className='font-bold'>Roasting Ethiopian coffee</span> is one of the most rewarding and demanding tasks a specialty roaster can take on. Ethiopian beans carry flavor complexity that few other origins match: jasmine florals, ripe stone fruit, citrus brightness, and deep berry sweetness. Yet many roasters struggle to unlock these qualities consistently. Charge too high and you scorch the surface. Extend development too long and you mute the florals that make Ethiopian coffee extraordinary. Understanding <Link href='/insights/coffee-is-art-roasting-brewing' className='underline font-bold'>how roasting and brewing reveal origin quality</Link> is essential to getting the most from these beans.
       </p>
 
       <p className='my-4'>
