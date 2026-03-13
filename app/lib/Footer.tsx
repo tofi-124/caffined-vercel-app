@@ -1,6 +1,6 @@
 import ResponsiveImage from '../components/ResponsiveImage'
 import Image from 'next/image'
-import { FaEnvelope, FaInstagram } from 'react-icons/fa'
+import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import Link from 'next/link'
 import { COMPANY_EMAIL, COMPANY_INSTAGRAM } from './constants'
 
@@ -72,6 +72,18 @@ const Footer = () => {
               >
                 <FaInstagram className="text-2xl" />
                 <span>{COMPANY_INSTAGRAM}</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/ethio-coffee-imports-and-exports-plc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 underline underline-offset-4 hover:text-primary/80 transition-colors"
+                aria-label="Follow us on LinkedIn"
+              >
+                <FaLinkedin className="text-2xl" />
+                <span>LinkedIn</span>
               </a>
             </li>
           </ul>
