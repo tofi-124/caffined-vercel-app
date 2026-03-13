@@ -224,5 +224,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The National Civil Service Reform Executive Committee of Ibushaba held an awareness raising forum presenting biometrics, ICIMIS, and IFIMIS digital technologies for paperless HR management, alongside the authority\'s ongoing coffee traceability systems such as MIMS and ECTMS.',
     source: 'Ashenafi Getahun',
     keywords: 'Ethiopian civil service reform, ECTA digitalization, ICIMIS IFIMIS biometrics, Ethiopian coffee traceability, MIMS ECTMS coffee tracking, Ethiopian Coffee and Tea Authority, Ethiopian coffee exporter, paperless HR Ethiopia, coffee trail tracking Ethiopia',
+  },
+  {
+    slug: 'coffee-training-center-effectiveness-study',
+    date: '2026-03-10',
+    title: 'Study on Coffee Training Center Effectiveness and Benefits Presented',
+    desc: 'The Ethiopian Coffee and Tea Authority presented a study on the effectiveness and benefits of the Coffee Training Center, showing 90% of trainers met international standards and 22% of trainees started their own businesses.',
+    source: 'Ashenafi Getahun',
+    keywords: 'Coffee Training Center Ethiopia, Ethiopian coffee training effectiveness, ECTA training study, coffee workforce development Ethiopia, Ethiopian coffee exporter, coffee entrepreneurship Ethiopia, coffee training quality Ethiopia, Ethiopian Coffee and Tea Authority',
   }
 ]
