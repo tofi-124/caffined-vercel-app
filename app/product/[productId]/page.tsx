@@ -205,6 +205,28 @@ const OfferingDetail = ({ params }: Props) => {
                         <p className='text-gray-600 leading-relaxed'>{product.processingDetail}</p>
                       </div>
                     )}
+
+                    {/* Farm Story Section */}
+                    {product.farmStory && (
+                      <div>
+                        <div className='flex items-center gap-3 mb-4'>
+                          <div className='w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center'>
+                            <svg className='w-5 h-5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z' />
+                            </svg>
+                          </div>
+                          <div>
+                            <h3 className='text-lg font-bold text-dark'>Farm Story</h3>
+                            {product.producer && (
+                              <p className='text-sm text-gray-500 font-medium'>{product.producer}</p>
+                            )}
+                          </div>
+                        </div>
+                        {product.farmStory.split('\n').filter(Boolean).map((paragraph, i) => (
+                          <p key={i} className='text-gray-600 leading-relaxed mb-3 last:mb-0'>{paragraph}</p>
+                        ))}
+                      </div>
+                    )}
                     
                     {/* Origin Section */}
                     {product.origin && (
@@ -216,31 +238,9 @@ const OfferingDetail = ({ params }: Props) => {
                               <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' />
                             </svg>
                           </div>
-                          <h3 className='text-lg font-bold text-dark'>Origin Story</h3>
+                          <h3 className='text-lg font-bold text-dark'>Origin</h3>
                         </div>
                         <p className='text-gray-600 leading-relaxed'>{product.origin}</p>
-                      </div>
-                    )}
-
-                    {/* Farm Story Section (signature/featured lots) */}
-                    {product.farmStory && (
-                      <div className='bg-amber-50/60 border border-amber-200 rounded-2xl p-6'>
-                        <div className='flex items-center gap-3 mb-4'>
-                          <div className='w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center'>
-                            <svg className='w-5 h-5 text-amber-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6' />
-                            </svg>
-                          </div>
-                          <div>
-                            <h3 className='text-lg font-bold text-dark'>Farm Story</h3>
-                            {product.producer && (
-                              <p className='text-sm text-amber-700 font-medium'>{product.producer}</p>
-                            )}
-                          </div>
-                        </div>
-                        {product.farmStory.split('\n').filter(Boolean).map((paragraph, i) => (
-                          <p key={i} className='text-gray-700 leading-relaxed mb-3 last:mb-0'>{paragraph}</p>
-                        ))}
                       </div>
                     )}
                   </div>
