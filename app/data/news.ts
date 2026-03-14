@@ -232,5 +232,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The Ethiopian Coffee and Tea Authority presented a study on the effectiveness and benefits of the Coffee Training Center, showing 90% of trainers met international standards and 22% of trainees started their own businesses.',
     source: 'Ashenafi Getahun',
     keywords: 'Coffee Training Center Ethiopia, Ethiopian coffee training effectiveness, ECTA training study, coffee workforce development Ethiopia, Ethiopian coffee exporter, coffee entrepreneurship Ethiopia, coffee training quality Ethiopia, Ethiopian Coffee and Tea Authority',
+  },
+  {
+    slug: 'child-labor-strategy-document-handover',
+    date: '2026-03-14',
+    title: 'Handover of Strategy Document to Prevent Child Labor in Coffee Sector',
+    desc: 'GIZ Fund and Care Ethiopia jointly handed over 500 copies of a Strategy Document to prevent child labor to the Ethiopian Coffee and Tea Authority, with ECTA also delivering child labor training across Addis Ababa, Hawassa and Jimma in collaboration with UNIDO, ILO and the Ministry of Labor and Skills.',
+    source: 'Ashenafi Getahun',
+    keywords: 'child labor prevention Ethiopian coffee, GIZ Care Ethiopia coffee, ECTA child labor strategy, Ethiopian coffee EU compliance, EUDR child labor coffee, Ethiopian coffee exporter, UNIDO ILO Ethiopia coffee, child labor training coffee sector',
   }
 ]

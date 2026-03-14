@@ -85,7 +85,11 @@ const OfferingDetail = ({ params }: Props) => {
     product.specifications.farmCoopId ||
     product.specifications.icoNumber ||
     product.producer ||
-    product.lotNumber
+    product.lotNumber ||
+    product.soilType ||
+    product.farmSize ||
+    product.climate ||
+    product.annualProduction
   )
 
   return (
@@ -186,6 +190,21 @@ const OfferingDetail = ({ params }: Props) => {
                         <p className='text-gray-600 leading-relaxed'>{product.profile}</p>
                       </div>
                     )}
+
+                    {/* Processing Detail Section */}
+                    {product.processingDetail && (
+                      <div>
+                        <div className='flex items-center gap-3 mb-4'>
+                          <div className='w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center'>
+                            <svg className='w-5 h-5 text-accent' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z' />
+                            </svg>
+                          </div>
+                          <h3 className='text-lg font-bold text-dark'>Processing Detail</h3>
+                        </div>
+                        <p className='text-gray-600 leading-relaxed'>{product.processingDetail}</p>
+                      </div>
+                    )}
                     
                     {/* Origin Section */}
                     {product.origin && (
@@ -200,6 +219,28 @@ const OfferingDetail = ({ params }: Props) => {
                           <h3 className='text-lg font-bold text-dark'>Origin Story</h3>
                         </div>
                         <p className='text-gray-600 leading-relaxed'>{product.origin}</p>
+                      </div>
+                    )}
+
+                    {/* Farm Story Section (signature/featured lots) */}
+                    {product.farmStory && (
+                      <div className='bg-amber-50/60 border border-amber-200 rounded-2xl p-6'>
+                        <div className='flex items-center gap-3 mb-4'>
+                          <div className='w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center'>
+                            <svg className='w-5 h-5 text-amber-600' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6' />
+                            </svg>
+                          </div>
+                          <div>
+                            <h3 className='text-lg font-bold text-dark'>Farm Story</h3>
+                            {product.producer && (
+                              <p className='text-sm text-amber-700 font-medium'>{product.producer}</p>
+                            )}
+                          </div>
+                        </div>
+                        {product.farmStory.split('\n').filter(Boolean).map((paragraph, i) => (
+                          <p key={i} className='text-gray-700 leading-relaxed mb-3 last:mb-0'>{paragraph}</p>
+                        ))}
                       </div>
                     )}
                   </div>
@@ -260,6 +301,30 @@ const OfferingDetail = ({ params }: Props) => {
                           <tr className='hover:bg-stone-50 transition-colors'>
                             <td className='py-3 pr-4 text-gray-500 font-medium whitespace-nowrap'>Harvest Period</td>
                             <td className='py-3 font-bold text-dark'>{product.specifications.harvestPeriod}</td>
+                          </tr>
+                        )}
+                        {product.soilType && (
+                          <tr className='hover:bg-stone-50 transition-colors'>
+                            <td className='py-3 pr-4 text-gray-500 font-medium whitespace-nowrap'>Soil Type</td>
+                            <td className='py-3 font-bold text-dark'>{product.soilType}</td>
+                          </tr>
+                        )}
+                        {product.farmSize && (
+                          <tr className='hover:bg-stone-50 transition-colors'>
+                            <td className='py-3 pr-4 text-gray-500 font-medium whitespace-nowrap'>Farm Size</td>
+                            <td className='py-3 font-bold text-dark'>{product.farmSize}</td>
+                          </tr>
+                        )}
+                        {product.climate && (
+                          <tr className='hover:bg-stone-50 transition-colors'>
+                            <td className='py-3 pr-4 text-gray-500 font-medium whitespace-nowrap'>Climate</td>
+                            <td className='py-3 font-bold text-dark'>{product.climate}</td>
+                          </tr>
+                        )}
+                        {product.annualProduction && (
+                          <tr className='hover:bg-stone-50 transition-colors'>
+                            <td className='py-3 pr-4 text-gray-500 font-medium whitespace-nowrap'>Annual Production</td>
+                            <td className='py-3 font-bold text-dark'>{product.annualProduction}</td>
                           </tr>
                         )}
                         {/* Expanded specs */}

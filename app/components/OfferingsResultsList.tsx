@@ -13,11 +13,19 @@ const OfferingsResultsList = ({ items }: Props) => {
       {items.map((o) => (
         <div
           key={o.id}
-          className='group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-[box-shadow,border-color] duration-500 border-2 border-[#1e3a5f] hover:border-accent flex flex-col'
+          className={`group rounded-3xl overflow-hidden transition-[box-shadow,border-color] duration-500 flex flex-col ${
+            o.isFeatured
+              ? 'bg-gradient-to-b from-amber-50/60 to-white shadow-xl shadow-amber-200/30 hover:shadow-2xl hover:shadow-amber-300/40 border-2 border-amber-400 hover:border-amber-500 ring-1 ring-amber-200/50'
+              : 'bg-white shadow-lg hover:shadow-2xl border-2 border-[#1e3a5f] hover:border-accent'
+          }`}
         >
         <Link href={`/product/${o.id}`} className='flex flex-col flex-1'>
           {/* Image Container with elegant overlay */}
-          <div className='relative overflow-hidden bg-gradient-to-br from-stone-100 via-stone-50 to-white'>
+          <div className={`relative overflow-hidden ${
+            o.isFeatured
+              ? 'bg-gradient-to-br from-amber-50 via-stone-50 to-white'
+              : 'bg-gradient-to-br from-stone-100 via-stone-50 to-white'
+          }`}>
             <div className='relative w-full aspect-[4/3] flex items-center justify-center p-6'>
               <ResponsiveImage
                 src={`/images/${o.image_url}`}
@@ -31,7 +39,11 @@ const OfferingsResultsList = ({ items }: Props) => {
             </div>
             
             {/* Status badge */}
-            {o.isSoldOut ? (
+            {o.isFeatured ? (
+              <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider shadow-md shadow-amber-300/40'>
+                ★ Signature Lot
+              </span>
+            ) : o.isSoldOut ? (
               <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-dark/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>
                 Future Lot
               </span>
@@ -53,7 +65,7 @@ const OfferingsResultsList = ({ items }: Props) => {
           <div className='flex flex-col flex-1 p-6'>
             {/* Region label */}
             <div className='flex items-center gap-2 mb-2'>
-              <span className='text-[11px] font-semibold uppercase tracking-widest text-accent'>
+              <span className={`text-[11px] font-semibold uppercase tracking-widest ${o.isFeatured ? 'text-amber-600' : 'text-accent'}`}>
                 {o.region}
               </span>
               {o.subRegion && (
@@ -70,6 +82,13 @@ const OfferingsResultsList = ({ items }: Props) => {
             <h3 className='text-lg font-bold text-dark group-hover:text-accent transition-colors duration-300 line-clamp-2 leading-snug'>
               {o.name}
             </h3>
+
+            {/* Producer (featured lots only) */}
+            {o.isFeatured && o.producer && (
+              <p className='text-xs font-medium text-amber-700 mt-1'>
+                {o.producer}
+              </p>
+            )}
 
             {/* Specs grid */}
             <div className='mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-xs'>
