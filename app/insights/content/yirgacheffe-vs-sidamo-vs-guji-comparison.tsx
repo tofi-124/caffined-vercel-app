@@ -253,7 +253,7 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
         Sidama covers a large geographic area with significant variation between sub-zones:
       </p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
-        <li className='my-2'><span className='font-bold'>Bensa:</span> High-altitude (1,800 to 2,200 masl) with complex fruit character and bright acidity. One of the most sought-after Sidama sub-zones for specialty-grade lots.</li>
+        <li className='my-2'><span className='font-bold'>Bensa:</span> High-altitude (1,800 to 2,200 masl) with complex fruit character and bright acidity. One of the most sought-after Sidama sub-zones for specialty-grade lots. The <Link href='/insights/bombe-sidama-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>Bombe micro-region</Link> within Bensa is particularly prized for natural G1 lots scoring 87+.</li>
         <li className='my-2'><span className='font-bold'>Chire:</span> Known for rich berry notes, full body, and wine-like sweetness. Strong competition results in recent years.</li>
         <li className='my-2'><span className='font-bold'>Dale:</span> Consistent production of well-balanced washed lots with citrus and honey character.</li>
         <li className='my-2'><span className='font-bold'>Aleta Wondo:</span> One of the largest coffee-producing woredas; reliable commercial and specialty volume.</li>

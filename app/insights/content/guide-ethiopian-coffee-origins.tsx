@@ -312,7 +312,7 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
       </div>
 
       <p className='my-4'>
-        Sidamo&apos;s breadth makes it a practical anchor origin for roasters: it offers enough volume for year-round supply while delivering cup quality that works for both single-origin offerings and blends. The sub-regions of Bensa, Dale, and Aleta Wendo each carry distinct micro-profiles. For a head-to-head comparison with neighboring origins, see our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline font-bold'>Yirgacheffe vs. Sidamo vs. Guji comparison</Link>. Browse current <Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline font-bold'>Sidamo lots</Link>.
+        Sidamo&apos;s breadth makes it a practical anchor origin for roasters: it offers enough volume for year-round supply while delivering cup quality that works for both single-origin offerings and blends. The sub-regions of Bensa, Dale, and Aleta Wendo each carry distinct micro-profiles; within Bensa, the <Link href='/insights/bombe-sidama-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>Bombe micro-region</Link> has emerged as one of Sidama&apos;s highest-scoring specialty origins. For a head-to-head comparison with neighboring origins, see our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline font-bold'>Yirgacheffe vs. Sidamo vs. Guji comparison</Link>. Browse current <Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline font-bold'>Sidamo lots</Link>.
       </p>
 
       <h3 id='harar' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>

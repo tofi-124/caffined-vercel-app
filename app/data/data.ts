@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== BOMBE SIDAMA COFFEE SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/bombe-sidama-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/bombe-sidama-coffee-sourcing-guide.webp',
+      date: 'Mar 14, 2026',
+      title: 'Bombe Sidama Coffee: Buyer\'s Guide to Ethiopia\'s Specialty Micro-Region',
+      slug: 'bombe-sidama-coffee-sourcing-guide',
+      category: 'Origin Guide / Sidama Coffee / Bombe Bensa / Sourcing Guide',
+      keywords: [
+        'Bombe Sidama coffee',
+        'Bombe coffee Ethiopia',
+        'Bombe Bensa coffee',
+        'Sidama natural Grade 1',
+        'Bombe coffee flavor profile',
+        'Ethiopian specialty micro-region',
+        'Bombe coffee sourcing',
+        'Sidama Bombe natural',
+        'Bombe coffee cupping score',
+        'Bensa district coffee',
+        'Bombe terroir Ethiopia',
+        'Ethiopian natural coffee Bombe',
+        'Bombe green coffee beans',
+        'Sidama Bensa specialty coffee',
+        'Bombe coffee buyer guide'
+      ],
+      desc: 'Buyer\'s guide to Bombe Sidama coffee: terroir, varieties, natural and washed processing, flavor profiles, grading, FOB pricing, and how to source direct from origin.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO ITALY =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-italy.webp',

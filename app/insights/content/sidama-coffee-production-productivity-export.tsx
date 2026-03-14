@@ -304,7 +304,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
       </p>
 
       <p className='my-4'>
-        Buyers who specify altitude zone preferences in their purchase contracts receive more targeted flavor profiles. For detailed Sidama sub-region breakdowns (Bensa, Dale, Aleta Wendo, Chire, Nensebo, Arbegona), see the <Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline font-bold'>Sidamo origin page</Link>.
+        Buyers who specify altitude zone preferences in their purchase contracts receive more targeted flavor profiles. For detailed Sidama sub-region breakdowns (Bensa, Dale, Aleta Wendo, Chire, Nensebo, Arbegona), see the <Link href='/ethiopian-coffee-sidamo' className='text-amber-700 hover:underline font-bold'>Sidamo origin page</Link>. For a deep dive into Bensa&apos;s highest-scoring micro-region, see our <Link href='/insights/bombe-sidama-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>Bombe Sidama coffee sourcing guide</Link>.
       </p>
 
       {/* SECTION 5: MODERNIZATION */}
