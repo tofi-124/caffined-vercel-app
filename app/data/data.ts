@@ -43,7 +43,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-italy.webp',
       large_image_url: 'insights/importing-ethiopian-coffee-to-italy.webp',
-      date: 'Mar 14, 2026',
+      date: 'Mar 13, 2026',
       title: 'Import Ethiopian Coffee to Italy',
       slug: 'importing-ethiopian-coffee-to-italy',
       category: 'Import Guide / Italian Market / Ethiopian Coffee Export',
