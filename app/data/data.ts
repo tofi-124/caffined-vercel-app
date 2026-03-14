@@ -12,6 +12,39 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO ITALY =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-italy.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-italy.webp',
+      date: 'Mar 14, 2026',
+      title: 'Import Ethiopian Coffee to Italy',
+      slug: 'importing-ethiopian-coffee-to-italy',
+      category: 'Import Guide / Italian Market / Ethiopian Coffee Export',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'import ethiopian coffee italy',
+        'ethiopian coffee italy',
+        'italian coffee import regulations',
+        'green coffee import italy',
+        'trieste coffee port',
+        'genoa coffee import',
+        'naples coffee import',
+        'italian customs aida',
+        'adm agenzia dogane',
+        'iva vat coffee italy',
+        'eu coffee import',
+        'eba ethiopia coffee',
+        'eudr coffee compliance',
+        'eu deforestation regulation coffee',
+        'specialty coffee italy',
+        'italian coffee roasters',
+        'lavazza illy coffee supply',
+        'espresso blend ethiopian coffee',
+        'european coffee import'
+      ],
+      desc: 'Guide to importing Ethiopian specialty coffee to Italy: EU regulations, Trieste port logistics, duty-free EBA, EUDR compliance, and cost breakdown.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO FRANCE =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-france.webp',
