@@ -1,9 +1,21 @@
 import Link from 'next/link'
-import ResponsiveImage from '../../components/ResponsiveImage'
-import { HiOutlineMapPin, HiOutlineBeaker, HiOutlineScale, HiOutlineTruck, HiOutlineGlobeAlt } from 'react-icons/hi2'
-import { PiMountains, PiPlantFill } from 'react-icons/pi'
+import ResponsiveImage from '@/app/components/ResponsiveImage'
+import {
+  HiOutlineMapPin,
+  HiOutlineBeaker,
+  HiOutlineScale,
+  HiOutlineTruck,
+  HiOutlineGlobeAlt,
+  HiOutlineLightBulb,
+  HiOutlineClipboardDocumentList,
+} from 'react-icons/hi2'
+import { PiPlantFill } from 'react-icons/pi'
 
-type InsightContentProps = { title: string; date: string; large_image_url: string }
+type InsightContentProps = {
+  title: string
+  date: string
+  large_image_url: string
+}
 
 export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_image_url }: InsightContentProps) {
   return (
@@ -16,12 +28,12 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
         Terroir, Processing, Grading, and Sourcing for Importers and Roasters
       </h2>
 
-      {/* Hero Image */}
+      {/* HERO IMAGE */}
       <figure>
-        <figcaption className='font-inconsolata my-2'>{title}</figcaption>
-        <div className='w-full aspect-[5/3] overflow-hidden rounded-md bg-gray-200 flex items-center justify-center'>
-          {/* TODO: Replace placeholder with actual hero image */}
-          {/* Expected path: /images/insights/bombe-sidama-coffee-sourcing-guide.webp */}
+        <figcaption className='font-inconsolata my-2'>
+          Natural coffee cherries drying on raised African beds in Bombe village, Bensa district, Sidama. Photo: Ethio Coffee Import and Export PLC.
+        </figcaption>
+        <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
             alt='Bombe Sidama coffee cherries drying on raised African beds in Bensa district Ethiopia'
@@ -33,19 +45,36 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
         </div>
       </figure>
 
-      {/* Key Takeaway */}
-      <div className='bg-amber-50 border border-amber-200 rounded-lg p-6 my-6'>
-        <h4 className='font-bold text-lg mb-2'>Key Takeaway</h4>
-        <p className='text-sm text-gray-800'>
+      {/* CATEGORY */}
+      <div className='my-4 text-sm bg-amber-50 p-4 rounded-lg border border-amber-200'>
+        <span className='font-semibold'>Category:</span>
+        <span className='ml-2'>Origin Guide / Sidama Coffee / Bombe Bensa / Sourcing Guide</span>
+      </div>
+
+      {/* KEY TAKEAWAY */}
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
+        <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />Key Takeaway
+        </h3>
+        <p className='text-sm leading-relaxed'>
           Bombe is a specialty micro-region within Bensa district, Sidama, growing coffee at 1,950 to 2,350 meters above sea level on iron-rich Nitisol soils. Natural Grade 1 Bombe lots score 87+ on the SCA scale, with flavor profiles defined by ripe berry, honey sweetness, warm spice, and lively acidity. For importers and roasters seeking traceable, high-scoring Ethiopian naturals, Bombe offers consistent lot quality with full supply chain transparency from farm to export warehouse.
         </p>
       </div>
 
-      {/* Category Tag */}
-      <div className='flex flex-wrap gap-2 my-4'>
-        <span className='bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold px-3 py-1 rounded-full'>Origin Guide</span>
-        <span className='bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold px-3 py-1 rounded-full'>Sidama Coffee</span>
-        <span className='bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold px-3 py-1 rounded-full'>Sourcing Guide</span>
+      {/* TABLE OF CONTENTS */}
+      <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
+        <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
+          <HiOutlineClipboardDocumentList className='text-amber-600' /> In This Guide
+        </h3>
+        <ol className='space-y-2 text-sm'>
+          <li><a href='#terroir' className='text-amber-700 hover:underline'>1. Where Is Bombe? Geography and Terroir</a></li>
+          <li><a href='#varieties' className='text-amber-700 hover:underline'>2. Coffee Varieties Grown in Bombe</a></li>
+          <li><a href='#processing' className='text-amber-700 hover:underline'>3. Processing Methods: Natural, Washed, and Anaerobic</a></li>
+          <li><a href='#flavor' className='text-amber-700 hover:underline'>4. Flavor Profile and Cupping Notes</a></li>
+          <li><a href='#grading' className='text-amber-700 hover:underline'>5. Grading and Export Specifications</a></li>
+          <li><a href='#sourcing' className='text-amber-700 hover:underline'>6. How to Source Bombe Sidama Coffee</a></li>
+          <li><a href='#faq' className='text-amber-700 hover:underline'>7. Frequently Asked Questions</a></li>
+        </ol>
       </div>
 
       {/* Introduction */}
@@ -57,10 +86,9 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       </p>
 
       {/* Section: Geography and Terroir */}
-      <h3 id='terroir' className='text-2xl font-extrabold mt-10 flex items-center gap-3'>
-        <HiOutlineMapPin className='w-8 h-8 text-amber-600' />
-        Where Is Bombe? Geography and Terroir
-      </h3>
+      <h2 id='terroir' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineMapPin className='text-amber-600' />1. Where Is Bombe? Geography and Terroir
+      </h2>
       <p className='my-4'>
         Bombe is a kebele (the smallest administrative unit in Ethiopia) within Bensa woreda, in the southern highlands of the Sidama region. Bensa itself is one of Sidama&apos;s most productive coffee districts, alongside Dale, Aleta Wendo, Chire, and Nensebo. Within Bensa, Bombe sits at the higher end of the altitude spectrum, with farms ranging from 1,950 to 2,350 meters above sea level. The Bombe Mountain, a local geographic landmark, creates the sloped terrain and microclimates that define the area&apos;s terroir.
       </p>
@@ -114,10 +142,9 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       </p>
 
       {/* Section: Varieties */}
-      <h3 id='varieties' className='text-2xl font-extrabold mt-10 flex items-center gap-3'>
-        <PiPlantFill className='w-8 h-8 text-amber-600' />
-        Coffee Varieties Grown in Bombe
-      </h3>
+      <h2 id='varieties' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <PiPlantFill className='text-amber-600' />2. Coffee Varieties Grown in Bombe
+      </h2>
       <p className='my-4'>
         Bombe farmers cultivate two categories of Arabica coffee: local landrace varieties and improved JARC cultivars. Understanding the variety composition is important for buyers because it directly influences cup quality and lot consistency.
       </p>
@@ -145,10 +172,9 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       </p>
 
       {/* Section: Processing Methods */}
-      <h3 id='processing' className='text-2xl font-extrabold mt-10 flex items-center gap-3'>
-        <HiOutlineBeaker className='w-8 h-8 text-amber-600' />
-        Processing Methods: Natural, Washed, and Anaerobic
-      </h3>
+      <h2 id='processing' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineBeaker className='text-amber-600' />3. Processing Methods: Natural, Washed, and Anaerobic
+      </h2>
       <p className='my-4'>
         Processing method is the single largest variable in Bombe Sidama coffee&apos;s final cup profile. The same farm, variety, and altitude will produce dramatically different coffees depending on whether cherries are processed as naturals, washed, or through newer anaerobic techniques.
       </p>
@@ -181,10 +207,9 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       </p>
 
       {/* Section: Flavor Profile */}
-      <h3 id='flavor' className='text-2xl font-extrabold mt-10 flex items-center gap-3'>
-        <HiOutlineScale className='w-8 h-8 text-amber-600' />
-        Flavor Profile and Cupping Notes
-      </h3>
+      <h2 id='flavor' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineScale className='text-amber-600' />4. Flavor Profile and Cupping Notes
+      </h2>
       <p className='my-4'>
         Bombe&apos;s cup quality is defined by two distinct flavor profiles depending on processing method. Both share the terroir-driven complexity that comes from high altitude, volcanic soils, and slow cherry maturation, but processing determines the direction.
       </p>
@@ -254,10 +279,9 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       </p>
 
       {/* Section: Grading and Export Specifications */}
-      <h3 id='grading' className='text-2xl font-extrabold mt-10 flex items-center gap-3'>
-        <HiOutlineGlobeAlt className='w-8 h-8 text-amber-600' />
-        Grading and Export Specifications
-      </h3>
+      <h2 id='grading' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineGlobeAlt className='text-amber-600' />5. Grading and Export Specifications
+      </h2>
       <p className='my-4'>
         Bombe coffee is graded under Ethiopia&apos;s standard classification system, which evaluates physical bean quality (screen size, defect count, moisture) alongside sensory evaluation. The two grades most relevant to specialty buyers are:
       </p>
@@ -314,10 +338,9 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       </p>
 
       {/* Section: How to Source */}
-      <h3 id='sourcing' className='text-2xl font-extrabold mt-10 flex items-center gap-3'>
-        <HiOutlineTruck className='w-8 h-8 text-amber-600' />
-        How to Source Bombe Sidama Coffee
-      </h3>
+      <h2 id='sourcing' className='text-3xl font-extrabold mt-10 flex items-center gap-2'>
+        <HiOutlineTruck className='text-amber-600' />6. How to Source Bombe Sidama Coffee
+      </h2>
       <p className='my-4'>
         Sourcing Bombe coffee starts with choosing between two channels: working directly with an Ethiopian exporter or purchasing through a green coffee importer in your country. Each path has tradeoffs in price, traceability, minimum order size, and logistics complexity.
       </p>
@@ -350,7 +373,7 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
 
       {/* CTA Block */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source Bombe Sidama Coffee Direct from Origin</h4>
+        <h3 className='font-bold text-xl mb-3'>Source Bombe Sidama Coffee Direct from Origin</h3>
         <p className='my-2'>
           Request a 300g roast-trial sample of our Natural Sidama G1 Bombe lot, review current FOB pricing, or explore our full range of Ethiopian green coffees. We ship samples internationally and offer container-load or partial-container options for bulk orders.
         </p>
@@ -368,35 +391,35 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       </div>
 
       {/* FAQ Section */}
-      <section className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
-        <h3 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About Bombe Sidama Coffee</h3>
+      <section id='faq' className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
+        <h2 className='text-2xl font-bold mb-6 text-gray-900'>7. Frequently Asked Questions About Bombe Sidama Coffee</h2>
         <div className='space-y-6'>
           <div>
-            <h4 className='font-bold text-gray-800 mb-2'>What does Bombe Sidama coffee taste like?</h4>
+            <h3 className='font-bold text-gray-800 mb-2'>What does Bombe Sidama coffee taste like?</h3>
             <p className='text-sm text-gray-600'>
               Natural Bombe coffees are known for ripe berry, honey sweetness, warm spice notes, and a long syrupy finish with lively, wine-like acidity. Washed Bombe lots shift toward clean citrus, floral, and stone fruit notes with a brighter, crisper acidity. Both styles reflect the high altitude and volcanic soils of the Bombe terroir.
             </p>
           </div>
           <div>
-            <h4 className='font-bold text-gray-800 mb-2'>What altitude does Bombe coffee grow at?</h4>
+            <h3 className='font-bold text-gray-800 mb-2'>What altitude does Bombe coffee grow at?</h3>
             <p className='text-sm text-gray-600'>
               Bombe farms sit between 1,950 and 2,350 meters above sea level in the Bensa district of Sidama. This altitude range places Bombe among the highest coffee-growing areas in Sidama. The extreme elevation slows cherry maturation, concentrating sugars and organic acids that produce dense, complex green coffee.
             </p>
           </div>
           <div>
-            <h4 className='font-bold text-gray-800 mb-2'>Is Bombe coffee available as natural or washed?</h4>
+            <h3 className='font-bold text-gray-800 mb-2'>Is Bombe coffee available as natural or washed?</h3>
             <p className='text-sm text-gray-600'>
               Both. Natural processing is the dominant method in Bombe and accounts for the micro-region&apos;s best-known flavor profiles (berry, honey, spice). Washed Bombe lots are also produced, offering cleaner, brighter cups. Some producers have begun experimenting with anaerobic processing, though these lots remain limited in volume.
             </p>
           </div>
           <div>
-            <h4 className='font-bold text-gray-800 mb-2'>How do I order Bombe Sidama green coffee in bulk?</h4>
+            <h3 className='font-bold text-gray-800 mb-2'>How do I order Bombe Sidama green coffee in bulk?</h3>
             <p className='text-sm text-gray-600'>
               Start by requesting a 300g roast-trial sample ($20 USD) to evaluate the lot before committing to volume. Once you approve the cup profile, we can arrange FOB or CIF shipment in 60 kg jute bags, with container-load or partial-container options. Contact our team for current pricing, availability, and contract terms.
             </p>
           </div>
           <div>
-            <h4 className='font-bold text-gray-800 mb-2'>What grade is Bombe Sidama coffee?</h4>
+            <h3 className='font-bold text-gray-800 mb-2'>What grade is Bombe Sidama coffee?</h3>
             <p className='text-sm text-gray-600'>
               Bombe coffee is exported as Grade 1 or Grade 2 under Ethiopia&apos;s national grading system. Grade 1 lots have 0 to 3 full defects per 300g sample and score 86+ on the SCA cupping scale. Our current Bombe offering is a Natural Grade 1 scoring 87+, sourced from a single family farm with full traceability.
             </p>
@@ -407,7 +430,7 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       {/* Related Articles */}
       <div className='my-10 bg-gray-50 p-6 rounded-lg border border-gray-200'>
         <h3 className='text-xl font-bold mb-4'>Related Articles</h3>
-        <div className='grid md:grid-cols-2 gap-4'>
+        <div className='grid md:grid-cols-2 gap-6'>
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sidama &amp; Ethiopian Origins</h4>
             <ul className='space-y-1 text-sm'>
