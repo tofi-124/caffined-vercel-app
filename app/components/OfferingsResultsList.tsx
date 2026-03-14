@@ -26,14 +26,14 @@ const OfferingsResultsList = ({ items }: Props) => {
               ? 'bg-gradient-to-br from-amber-50 via-stone-50 to-white'
               : 'bg-gradient-to-br from-stone-100 via-stone-50 to-white'
           }`}>
-            <div className='relative w-full aspect-[4/3] flex items-center justify-center p-6'>
+            <div className='relative w-full aspect-[4/3]'>
               <ResponsiveImage
                 src={`/images/${o.image_url}`}
                 alt={o.name}
-                width={400}
-                height={300}
-                className='object-contain w-full h-full max-w-[240px] group-hover:scale-110 transition-transform duration-700 ease-out'
-                sizes='240px'
+                fill
+                objectFit='cover'
+                className='group-hover:scale-110 transition-transform duration-700 ease-out'
+                sizes='(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw'
                 quality={60}
               />
             </div>

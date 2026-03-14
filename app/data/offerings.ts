@@ -61,10 +61,76 @@ export type Offering = {
   annualProduction?: string
   soilType?: string
   processingDetail?: string
+  images?: string[]
 }
 
 export const offerings: Offering[] = [
-  // ─── 1. Washed Sidama Grade 1 ─────────────────────────────────────────────
+  // ─── 1. Natural Sidama Grade 1 · Bombe - Signature Lot ─────────────────────
+  {
+    id: 'sidama-natural-g1-bombe-bariso',
+    name: 'NATURAL SIDAMA GR. 1 · BOMBE',
+    image_url: 'products/bombe/bombe-1.jpeg',
+    images: [
+      'products/bombe/bombe-1.jpeg',
+      'products/bombe/bombe-5.jpeg',
+    ],
+    desc: 'Single-farm natural from Bombe village. Hand-picked, sun-dried on raised beds for 16 to 21 days. Fruity, honey, and berry notes with lively acidity. A 20-year family partnership.',
+    profile:
+      'Delicate, aromatic, and layered. This natural Sidama Grade 1 opens with ripe berry and honey sweetness, followed by warm spice notes. The acidity is lively and clean, carrying the cup through a long, syrupy finish. Expect fruity complexity balanced by smooth body and a sweetness that lingers.',
+    processingDetail:
+      'Belayneh Bariso collects ripe red cherries from his own and his family members\' farms in Bombe village. Harvesting is done entirely by hand. Seasonal daily laborers help with selective picking, transporting, sorting, and drying. Pickers often return to the same tree several times because cherry does not ripen all at once. Harvested cherries are loaded into bags or baskets and taken to the drying location. Only ripe, sound cherries are laid on raised beds. Belayneh rakes the cherries 4 to 6 times per day for even drying and covers them at midday and overnight. Each lot takes approximately 16 to 21 days to dry. Readiness is determined by observing the brightness of the skin and cracking sample dried cherries by teeth. Once dry, cherries are loaded into poly bags and stored in a temporary warehouse, then transported to a rented dry mill in Daye town. The milled green coffee ships directly to Ethio Coffee\'s export warehouse in Addis Ababa.',
+    origin:
+      'Bombe sits in the Bensa district of Sidama, at 1,950 to 2,350 meters above sea level. Soils are Nitisols: deep, well-drained, and iron-rich. Annual rainfall ranges from 1,301 to 2,100 mm, with temperatures between 14 and 23 degrees Celsius. These conditions produce Arabica coffee with strong fruit complexity, balanced sweetness, and clarity that reflects the terroir. Sidama is one of Ethiopia\'s oldest coffee regions, its name trademarked alongside Yirgacheffe and Harar as a protected origin. Within Sidama, Bombe has earned a reputation among specialty buyers for coffees that are vibrant, layered, and full of character.',
+    specifications: {
+      grade: 'G1',
+      screenSize: null,
+      processingMethod: 'Natural',
+      moisture: null,
+      defectCount: null,
+      cupScore: '87+',
+      washingStation: null,
+      harvestPeriod: 'November - January',
+      dryingMethod: 'Sun-dried on raised African beds, 16-21 days',
+      fermentationTime: null,
+      waterActivity: null,
+      density: null,
+      farmCoopId: null,
+      icoNumber: null,
+      cuppingNotes: 'Delicate, aromatic, fruity, honey, spicy, berries cupping notes with lively acidity',
+      millName: 'Daye Town Dry Mill',
+    },
+    pricing: {
+      fobPricePerKg: 10.50,
+      fobPricePerLb: 4.76,
+      priceYear: 2025,
+      minimumOrder: null,
+      priceNote: '2025/26 crop - Natural G1 Bombe Single Farm - FOB Djibouti',
+      sampleOptions: [
+        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
+      ],
+    },
+    isSoldOut: false,
+    isFeatured: true,
+    altitude: '1,950 - 2,350 masl',
+    region: 'Sidama',
+    subRegion: 'Bombe, Bensa',
+    producer: 'Belayneh Bariso & Family Farms',
+    variety: 'Local Landrace, JARC 74158 and 74165 cultivars',
+    bagSize: '60 kg jute bags',
+    availableBags: null,
+    warehouseLocation: 'Ethiopia',
+    lotNumber: null,
+    certifications: [],
+    flavorNotes: ['Fruity', 'Honey', 'Spicy', 'Berries', 'Lively Acidity'],
+    farmStory:
+      'Belayneh Bariso is one of the youngest coffee producers in Bombe village, Bensa district, Sidama. He is an energetic young farmer who applies improved practices to add real value to his and his family members\' coffee. Belayneh collects ripe cherries mainly from Bombe-Durato localities. His well-selected cherries are prepared through two methods: standard dry processing and anaerobic processing.\n\nOur families\' connection goes back more than twenty years. Belayneh\'s family worked closely with our father, who spent three decades as a local coffee trader building relationships with farming communities across Ethiopia\'s growing regions, one season at a time. The trust his family placed in our father was real and earned over years of honest trade. When we formalized Ethio Coffee to bring that sourcing network to the international market, the trust carried forward. Belayneh\'s generation and ours now continue what our fathers built together. When you source this coffee, you are part of that story.',
+    farmSize: '55 Ha',
+    climate: 'Annual precipitation: 1,301-2,100 mm. Temperature range: 14°C - 23°C',
+    annualProduction: '25 Metric Tons',
+    soilType: 'Nitisols',
+  },
+
+  // ─── 2. Washed Sidama Grade 1 ─────────────────────────────────────────────
   {
     id: 'sidama-washed-g1',
     name: 'WASHED SIDAMA GR. 1',
@@ -114,67 +180,6 @@ export const offerings: Offering[] = [
     lotNumber: null,
     certifications: [],
     flavorNotes: ['Citrus', 'Jasmine', 'Honey', 'Stone Fruit', 'Silky'],
-  },
-
-  // ─── 2. Natural Sidama Grade 1 · Bombe - Signature Lot ─────────────────────
-  {
-    id: 'sidama-natural-g1-bombe-bariso',
-    name: 'NATURAL SIDAMA GR. 1 · BOMBE',
-    image_url: 'product-img.png',
-    desc: 'Single-farm natural from Bombe village. Hand-picked, sun-dried on raised beds for 16 to 21 days. Fruity, honey, and berry notes with lively acidity. A 20-year family partnership.',
-    profile:
-      'Delicate, aromatic, and layered. This natural Sidama Grade 1 opens with ripe berry and honey sweetness, followed by warm spice notes. The acidity is lively and clean, carrying the cup through a long, syrupy finish. Expect fruity complexity balanced by smooth body and a sweetness that lingers.',
-    processingDetail:
-      'Belayneh Bariso collects ripe red cherries from his own and his family members\' farms in Bombe village. Harvesting is done entirely by hand. Seasonal daily laborers help with selective picking, transporting, sorting, and drying. Pickers often return to the same tree several times because cherry does not ripen all at once. Harvested cherries are loaded into bags or baskets and taken to the drying location. Only ripe, sound cherries are laid on raised beds. Belayneh rakes the cherries 4 to 6 times per day for even drying and covers them at midday and overnight. Each lot takes approximately 16 to 21 days to dry. Readiness is determined by observing the brightness of the skin and cracking sample dried cherries by teeth. Once dry, cherries are loaded into poly bags and stored in a temporary warehouse, then transported to a rented dry mill in Daye town. The milled green coffee ships directly to Ethio Coffee\'s export warehouse in Addis Ababa.',
-    origin:
-      'Bombe sits in the Bensa district of Sidama, at 1,950 to 2,350 meters above sea level. Soils are Nitisols: deep, well-drained, and iron-rich. Annual rainfall ranges from 1,301 to 2,100 mm, with temperatures between 14 and 23 degrees Celsius. These conditions produce Arabica coffee with strong fruit complexity, balanced sweetness, and clarity that reflects the terroir. Sidama is one of Ethiopia\'s oldest coffee regions, its name trademarked alongside Yirgacheffe and Harar as a protected origin. Within Sidama, Bombe has earned a reputation among specialty buyers for coffees that are vibrant, layered, and full of character.',
-    specifications: {
-      grade: 'G1',
-      screenSize: null,
-      processingMethod: 'Natural',
-      moisture: null,
-      defectCount: null,
-      cupScore: '85+',
-      washingStation: null,
-      harvestPeriod: 'November - January',
-      dryingMethod: 'Sun-dried on raised African beds, 16-21 days',
-      fermentationTime: null,
-      waterActivity: null,
-      density: null,
-      farmCoopId: null,
-      icoNumber: null,
-      cuppingNotes: 'Delicate, aromatic, fruity, honey, spicy, berries cupping notes with lively acidity',
-      millName: 'Daye Town Dry Mill',
-    },
-    pricing: {
-      fobPricePerKg: 10.50,
-      fobPricePerLb: 4.76,
-      priceYear: 2025,
-      minimumOrder: null,
-      priceNote: '2025/26 crop - Natural G1 Bombe Single Farm - FOB Djibouti',
-      sampleOptions: [
-        { weight: '300g', weightGrams: 300, priceUSD: 20.00, description: 'Roast trial sample' },
-      ],
-    },
-    isSoldOut: false,
-    isFeatured: true,
-    altitude: '1,950 - 2,350 masl',
-    region: 'Sidama',
-    subRegion: 'Bombe, Bensa',
-    producer: 'Belayneh Bariso & Family Farms',
-    variety: 'Local Landrace, JARC 74158 and 74165 cultivars',
-    bagSize: '60 kg jute bags',
-    availableBags: null,
-    warehouseLocation: 'Ethiopia',
-    lotNumber: null,
-    certifications: [],
-    flavorNotes: ['Fruity', 'Honey', 'Spicy', 'Berries', 'Lively Acidity'],
-    farmStory:
-      'Belayneh Bariso is one of the youngest coffee producers in Bombe village, Bensa district, Sidama. He is an energetic young farmer who applies improved practices to add real value to his and his family members\' coffee. Belayneh collects ripe cherries mainly from Bombe-Durato localities. His well-selected cherries are prepared through two methods: standard dry processing and anaerobic processing.\n\nOur families\' connection goes back more than twenty years. Belayneh\'s family worked closely with our father, who spent three decades as a local coffee trader building relationships with farming communities across Ethiopia\'s growing regions, one season at a time. The trust his family placed in our father was real and earned over years of honest trade. When we formalized Ethio Coffee to bring that sourcing network to the international market, the trust carried forward. Belayneh\'s generation and ours now continue what our fathers built together. When you source this coffee, you are part of that story.',
-    farmSize: '55 Ha',
-    climate: 'Annual precipitation: 1,301-2,100 mm. Temperature range: 14°C - 23°C',
-    annualProduction: '25 Metric Tons',
-    soilType: 'Nitisols',
   },
 
   // ─── 3. Washed Yirgacheffe Grade 1 ────────────────────────────────────────

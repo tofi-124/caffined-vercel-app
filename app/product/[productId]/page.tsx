@@ -36,6 +36,10 @@ const OfferingDetail = ({ params }: Props) => {
   // Removed programmatic scroll - it triggered non-user-initiated layout
   // shifts (navbar spacer + TopMessage collapse) that counted toward CLS.
   
+  // Image gallery state
+  const productImages = product?.images?.length ? product.images : (product ? [product.image_url] : []);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
+
   // Default values for product details
   const [activeDetail, setActiveDetail] = useState<string>('coffeeProfileOrigin');
   const [isSpecsExpanded, setIsSpecsExpanded] = useState(false);
@@ -101,16 +105,41 @@ const OfferingDetail = ({ params }: Props) => {
           <div className='lg:w-[42%] flex-shrink-0'>
             <div className='lg:sticky lg:top-24'>
               {/* Main image card */}
-              <div className='bg-gradient-to-br from-white via-stone-50 to-stone-100 rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100/80'>
+              <div className='bg-gradient-to-br from-white via-stone-50 to-stone-100 rounded-3xl shadow-sm border border-gray-100/80 overflow-hidden aspect-square flex items-center justify-center'>
                 <Image
-                  src={`/images/${product.image_url}`}
+                  src={`/images/${productImages[activeImageIndex]}`}
                   alt={`${product.name} - ${product.specifications.processingMethod} processed Ethiopian green coffee from ${product.subRegion ? `${product.subRegion}, ${product.region}` : product.region}`}
                   width={600}
                   height={600}
-                  className='object-contain w-full h-auto'
+                  className='object-cover w-full h-full'
                   priority
                 />
               </div>
+              {/* Thumbnail strip */}
+              {productImages.length > 1 && (
+                <div className='flex gap-3 mt-4 overflow-x-auto pb-2'>
+                  {productImages.map((img, idx) => (
+                    <button
+                      key={img}
+                      type='button'
+                      onClick={() => setActiveImageIndex(idx)}
+                      className={`flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-xl overflow-hidden border-2 transition-all ${
+                        idx === activeImageIndex
+                          ? 'border-accent shadow-md'
+                          : 'border-gray-200 hover:border-gray-400'
+                      }`}
+                    >
+                      <Image
+                        src={`/images/${img}`}
+                        alt={`${product.name} view ${idx + 1}`}
+                        width={80}
+                        height={80}
+                        className='object-cover w-full h-full'
+                      />
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         
