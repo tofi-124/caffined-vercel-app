@@ -346,7 +346,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
         </div>
       </div>
       <p className='my-4'>
-        Natural processing carries inherently more defect risk because the fruit remains on the bean throughout drying. This is why pre-shipment sample evaluation is essential for natural lots. For a deeper look at defect identification and grading criteria, see our <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline font-bold'>green coffee defects and buyer quality control guide</Link>.
+        Natural processing carries inherently more defect risk because the fruit remains on the bean throughout drying. This is why pre-shipment sample evaluation is essential for natural lots. Monitoring <Link href='/insights/green-coffee-moisture-content-water-activity-guide' className='text-amber-700 hover:underline font-bold'>moisture content and water activity</Link> during and after drying is especially critical for naturals, as uneven moisture creates quality variability within a single lot. For a deeper look at defect identification and grading criteria, see our <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline font-bold'>green coffee defects and buyer quality control guide</Link>.
       </p>
 
       {/* SECTION 8: ROASTING */}

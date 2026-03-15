@@ -350,6 +350,9 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
         <li className='my-2'><span className='font-bold'>Above 0.70 aw:</span> Significant mold risk, even if moisture reads within range</li>
         <li className='my-2'><span className='font-bold'>Below 0.45 aw:</span> May indicate over-drying or prolonged storage</li>
       </ul>
+      <p className='my-4'>
+        For a detailed breakdown of how moisture content and water activity interact, how Ethiopian exporters test both metrics, and what specifications to include in contracts, see our <Link href='/insights/green-coffee-moisture-content-water-activity-guide' className='text-amber-700 hover:underline font-bold'>green coffee moisture content and water activity guide</Link>.
+      </p>
 
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Screen Size</h3>
       <p className='my-4'>

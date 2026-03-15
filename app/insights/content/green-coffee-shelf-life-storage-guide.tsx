@@ -203,7 +203,7 @@ export default function GreenCoffeeShelfLifeStorageGuide({ title, date, large_im
       <h4 className='text-xl font-bold mt-8 mb-3'>Moisture Content and Water Activity</h4>
 
       <p className='my-4'>
-        Moisture content (MC) and water activity (aw) are the two most important metrics for predicting green coffee shelf life. They measure related but different things.
+        Moisture content (MC) and water activity (aw) are the two most important metrics for predicting green coffee shelf life. They measure related but different things. For a comprehensive treatment of industry standards, measurement protocols, and contract specifications for both metrics, see our <Link href='/insights/green-coffee-moisture-content-water-activity-guide' className='text-amber-700 hover:underline font-bold'>green coffee moisture content and water activity guide</Link>.
       </p>
 
       <p className='my-4'>

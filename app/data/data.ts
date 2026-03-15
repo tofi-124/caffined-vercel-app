@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE MOISTURE CONTENT & WATER ACTIVITY GUIDE =====
+    {
+      small_image_url: 'insights/green-coffee-moisture-content-water-activity-guide.webp',
+      large_image_url: 'insights/green-coffee-moisture-content-water-activity-guide.webp',
+      date: 'Mar 15, 2026',
+      title: 'Green Coffee Moisture Content and Water Activity Guide',
+      slug: 'green-coffee-moisture-content-water-activity-guide',
+      category: 'Quality Control / Green Coffee Science / Buyer\'s Guide',
+      keywords: [
+        'green coffee moisture content',
+        'water activity green coffee',
+        'green coffee moisture percentage',
+        'coffee moisture content standard',
+        'green coffee water activity measurement',
+        'SCA green coffee moisture',
+        'ICO coffee moisture requirements',
+        'Ethiopian coffee moisture content',
+        'green coffee moisture meter',
+        'water activity aw coffee',
+        'green coffee quality parameters',
+        'moisture content vs water activity coffee',
+        'green coffee storage moisture',
+        'coffee moisture specification contract',
+        'green coffee mold prevention'
+      ],
+      desc: 'Green coffee moisture content and water activity guide: standards, measurement, Ethiopian drying practices, and contract specs for importers.'
+    },
     // ===== BOMBE SIDAMA COFFEE SOURCING GUIDE =====
     {
       small_image_url: 'insights/bombe-sidama-coffee-sourcing-guide.webp',
