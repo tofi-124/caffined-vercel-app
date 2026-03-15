@@ -235,10 +235,18 @@ export const newsArticles: NewsArticle[] = [
   },
   {
     slug: 'child-labor-strategy-document-handover',
-    date: '2026-03-14',
+    date: '2026-03-13',
     title: 'Handover of Strategy Document to Prevent Child Labor in Coffee Sector',
     desc: 'GIZ Fund and Care Ethiopia jointly handed over 500 copies of a Strategy Document to prevent child labor to the Ethiopian Coffee and Tea Authority, with ECTA also delivering child labor training across Addis Ababa, Hawassa and Jimma in collaboration with UNIDO, ILO and the Ministry of Labor and Skills.',
     source: 'Ashenafi Getahun',
     keywords: 'child labor prevention Ethiopian coffee, GIZ Care Ethiopia coffee, ECTA child labor strategy, Ethiopian coffee EU compliance, EUDR child labor coffee, Ethiopian coffee exporter, UNIDO ILO Ethiopia coffee, child labor training coffee sector',
+  },
+  {
+    slug: 'gambella-majang-zone-coffee-production-52900-tons',
+    date: '2026-03-14',
+    title: 'Over 52,900 Tons of Coffee Produced in Gambella\'s Majang Zone',
+    desc: 'The Majang Zone of Gambella Region produced over 52,900 tons of coffee during this year\'s harvest, a 17,186-ton increase over the previous year, with 42,624 tons processed for the central market and 68,637 hectares planted across Goderena and Mengeshi districts.',
+    source: 'EZEA',
+    keywords: 'Gambella coffee production, Majang Zone coffee, Ethiopian coffee harvest, Gambella Region coffee, Ethiopian coffee export, Goderena Mengeshi coffee, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee production growth Ethiopia',
   }
 ]
