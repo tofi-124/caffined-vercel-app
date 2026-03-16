@@ -504,7 +504,7 @@ export default function GreenCoffeeFinancingHedgingImportersGuide({ title, date,
           Source Premium Ethiopian Coffee With Pricing Certainty
         </h3>
         <p className='my-2 text-sm'>
-          Ethio Coffee Import and Export PLC offers fixed-price forward contracts on all offerings, giving you a locked FOB price valid for your planned shipment date. Our 30-year sourcing network across Yirgacheffe, Sidama, Guji, Limu, and other Ethiopian regions means we can offer forward availability on G1 and G2 specialty lots with confidence. Request samples, confirm a price, and plan your roasting calendar without speculating on the market.
+          Ethio Coffee Import and Export PLC offers fixed-price forward contracts on all offerings, giving you a locked FOB price valid for your planned shipment date. Our 30-year sourcing network across Yirgacheffe, Sidama, Guji, Limu, and other Ethiopian regions means we can offer forward availability on G1 and G2 lots with confidence. Request samples, confirm a price, and plan your roasting calendar without speculating on the market.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

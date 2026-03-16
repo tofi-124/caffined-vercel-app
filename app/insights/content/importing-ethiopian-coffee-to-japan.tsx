@@ -654,7 +654,7 @@ export default function ImportingEthiopianCoffeeToJapan({ title, date, large_ima
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Japan?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> has supplied Japanese roasters and importers with premium Ethiopian specialty coffee backed by three decades of origin-connected sourcing heritage. We understand Japanese quality expectations, regulatory requirements, and business culture. We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete documentation, quality consistency, and the professional reliability Japanese buyers demand.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> has supplied Japanese roasters and importers with premium Ethiopian coffee backed by three decades of origin-connected sourcing heritage. We understand Japanese quality expectations, regulatory requirements, and business culture. We provide exceptional ECX-graded coffee (Yirgacheffe, Sidamo, Guji, Harrar) with complete documentation, quality consistency, and the professional reliability Japanese buyers demand.
         </p>
         <p className='my-2'>
           From establishing a specialty roastery in Tokyo to supplying traditional kisaten networks or building an import/distribution business, we deliver the quality, traceability, and consistent supply you need to succeed in Japan&apos;s demanding but rewarding coffee market.

@@ -3,14 +3,14 @@ import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Green Coffee Beans | Buy Direct | Ethio Coffee',
-  description: 'Buy Ethiopian green coffee beans direct from exporter. Specialty & commercial grade Yirgacheffe, Sidamo, Guji, Harar, Limu green beans. SCA 80+ scored. FOB Djibouti.',
+  description: 'Buy Ethiopian green coffee beans direct from exporter. Grade 1-5 Yirgacheffe, Sidamo, Guji, Harar, Limu green beans. SCA scored. FOB Djibouti.',
   keywords: 'ethiopian green coffee beans, ethiopian green coffee, green coffee beans ethiopia, buy ethiopian green coffee beans, ethiopian unroasted coffee beans, ethiopian raw coffee beans, green coffee from ethiopia, ethiopian arabica green beans, specialty green coffee beans ethiopia, green coffee beans for roasters, ethiopian single origin green coffee, wholesale green coffee beans ethiopia',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-green-coffee-beans',
   },
   openGraph: {
     title: 'Ethiopian Green Coffee Beans | Buy Direct from Origin | Ethio Coffee',
-    description: 'Premium Ethiopian green coffee beans sourced directly from origin. Specialty-grade Yirgacheffe, Sidamo, Guji, Harar & Limu. SCA 80+ scored, full traceability.',
+    description: 'Premium Ethiopian green coffee beans sourced directly from origin. Yirgacheffe, Sidamo, Guji, Harar & Limu. SCA scored, full traceability.',
     url: 'https://www.ethiocoffee.co/ethiopian-green-coffee-beans',
     type: 'website',
     images: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         url: '/images/coffee-pack-1.webp',
         width: 900,
         height: 600,
-        alt: 'Ethiopian green coffee beans for export - specialty grade Arabica',
+        alt: 'Ethiopian green coffee beans for export - premium Arabica',
       }
     ],
   },

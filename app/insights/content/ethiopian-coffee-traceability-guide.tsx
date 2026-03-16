@@ -473,7 +473,7 @@ export default function EthiopianCoffeeTraceabilityGuide({ title, date, large_im
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Traceable Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> provides fully traceable specialty green coffee from Yirgacheffe, Sidamo, Guji, Harrar, Limu, and Jimma with lot-level documentation, cupping reports, and GPS-mapped supply chain data. Whether you need EUDR-compliant traceability or washing station-level transparency for your single-origin program, we deliver the data and the quality your business requires.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> provides fully traceable green coffee from Yirgacheffe, Sidamo, Guji, Harrar, Limu, and Jimma with lot-level documentation, cupping reports, and GPS-mapped supply chain data. Whether you need EUDR-compliant traceability or washing station-level transparency for your single-origin program, we deliver the data and the quality your business requires.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

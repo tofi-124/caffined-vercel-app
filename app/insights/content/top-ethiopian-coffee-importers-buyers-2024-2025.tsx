@@ -1044,7 +1044,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Partner with Ethio Coffee Export</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects specialty and commercial-grade Ethiopian green coffee with importers worldwide. With 30+ years of family legacy, we serve buyers in 40+ countries.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects Ethiopian green coffee with importers worldwide. With 30+ years of family legacy, we serve buyers in 40+ countries.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

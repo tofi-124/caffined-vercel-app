@@ -3,14 +3,14 @@ import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
-  description: 'Leading Ethiopian coffee export company with 30+ years family legacy. We export specialty green coffee from Ethiopia to importers worldwide. Grade 1-4 available.',
+  description: 'Leading Ethiopian coffee export company with 30+ years family legacy. We export green coffee from Ethiopia to importers worldwide. Grade 1-5 available.',
   keywords: 'Ethiopian coffee export company, Ethiopian coffee exporter, about Ethio Coffee, export coffee from Ethiopia, Ethiopian green coffee supplier, direct trade coffee Ethiopia, family coffee business Ethiopia, coffee export Ethiopia',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/about',
   },
   openGraph: {
     title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
-    description: 'Family-built Ethiopian coffee export company founded by two brothers, connecting specialty traceable green coffee with importers worldwide.',
+    description: 'Family-built Ethiopian coffee export company founded by two brothers, connecting traceable Ethiopian green coffee with importers worldwide.',
     url: 'https://www.ethiocoffee.co/about',
     type: 'website',
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
-    description: 'Family-built Ethiopian coffee export company connecting specialty traceable green coffee with importers worldwide.',
+    description: 'Family-built Ethiopian coffee export company connecting traceable Ethiopian green coffee with importers worldwide.',
     images: ['/images/about-us.webp'],
   }
 }
@@ -56,7 +56,7 @@ export default function AboutLayout({
       "knowsAbout": [
         "Ethiopian Coffee Export",
         "Green Coffee Beans",
-        "Specialty Coffee",
+        "Green Coffee",
         "Direct Trade",
         "Coffee Sourcing"
       ]

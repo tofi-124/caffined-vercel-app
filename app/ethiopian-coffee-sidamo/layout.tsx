@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Sidamo Coffee Beans | Specialty Export | Ethio Coffee',
+  title: 'Ethiopian Sidamo Coffee Beans | Green Coffee Export | Ethio Coffee',
   description: 'Buy Ethiopian Sidamo (Sidama) coffee beans direct from exporter. Grade 1 & 2 washed and natural Sidamo green coffee. SCA 84-88+ scored. Berry, floral, wine-like acidity. FOB Djibouti.',
   keywords: 'sidamo coffee, sidama coffee, ethiopian sidamo coffee beans, sidamo green coffee, buy sidamo coffee, sidamo coffee exporter, sidamo grade 1, sidamo washed coffee, sidamo natural coffee, bensa coffee, dale coffee, specialty sidamo coffee export, sidamo coffee flavor profile',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-sidamo',
   },
   openGraph: {
-    title: 'Ethiopian Sidamo Coffee Beans | Specialty Export | Ethio Coffee',
+    title: 'Ethiopian Sidamo Coffee Beans | Green Coffee Export | Ethio Coffee',
     description: 'Premium Sidamo (Sidama) green coffee beans from Ethiopia. Grade 1 & 2, SCA 84-87+. Berry, floral, wine-like acidity. Direct from licensed exporter.',
     url: 'https://www.ethiocoffee.co/ethiopian-coffee-sidamo',
     type: 'website',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethiopian Sidamo Coffee | Specialty Export | Ethio Coffee',
+    title: 'Ethiopian Sidamo Coffee | Green Coffee Export | Ethio Coffee',
     description: 'Grade 1 & 2 Sidamo green coffee beans. SCA 84-87+. Berry, floral, wine-like. FOB Djibouti worldwide.',
     images: ['/images/coffee-pack-1.webp'],
   }

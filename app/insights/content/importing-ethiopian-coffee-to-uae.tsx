@@ -672,7 +672,7 @@ export default function ImportingEthiopianCoffeeToUAE({ title, date, large_image
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to the UAE?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> supplies UAE importers, DMCC traders, and Dubai roasters with premium Ethiopian specialty coffee from Yirgacheffe, Sidamo, Guji, Harrar, and other origins. We provide UAE-compliant documentation, fast Red Sea shipping to Jebel Ali, and the quality consistency that Dubai&apos;s specialty market demands.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> supplies UAE importers, DMCC traders, and Dubai roasters with premium Ethiopian coffee from Yirgacheffe, Sidamo, Guji, Harrar, and other origins. We provide UAE-compliant documentation, fast Red Sea shipping to Jebel Ali, and the quality consistency that Dubai&apos;s specialty market demands.
         </p>
         <p className='my-2'>
           Whether you are setting up a DMCC free-zone operation, launching a cafe chain, or building a regional distribution business, we deliver the reliability and traceability you need to succeed.

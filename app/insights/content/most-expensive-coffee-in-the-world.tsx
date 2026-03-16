@@ -557,7 +557,7 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> ships Grade 1 and Grade 2 specialty lots from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. Every lot includes verified cupping scores, full traceability to washing station level, and pre-shipment samples before you commit. Whether you need a trial container or a seasonal contract, our team is ready to help.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> ships Grade 1 and Grade 2 lots from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. Every lot includes verified cupping scores, full traceability to washing station level, and pre-shipment samples before you commit. Whether you need a trial container or a seasonal contract, our team is ready to help.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
@@ -607,7 +607,7 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This article was prepared by Ethio Coffee Import and Export PLC based on verified auction data, ICO market reports, and our direct experience sourcing and exporting Ethiopian specialty coffee. Prices and availability change seasonally; contact our team for the most current information.
+          <span className='font-bold'>About This Insight:</span> This article was prepared by Ethio Coffee Import and Export PLC based on verified auction data, ICO market reports, and our direct experience sourcing and exporting Ethiopian coffee. Prices and availability change seasonally; contact our team for the most current information.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>

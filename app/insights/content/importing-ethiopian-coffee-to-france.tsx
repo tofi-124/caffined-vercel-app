@@ -783,7 +783,7 @@ export default function ImportingEthiopianCoffeeToFrance({ title, date, large_im
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to France?</h3>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects French roasters, importers, and distributors with traceable Ethiopian specialty coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, EU-compliant lab testing, EUDR-ready traceability documentation, and shipping coordination to Le Havre and Bordeaux via Djibouti.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects French roasters, importers, and distributors with traceable Ethiopian coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, EU-compliant lab testing, EUDR-ready traceability documentation, and shipping coordination to Le Havre and Bordeaux via Djibouti.
         </p>
         <p className='my-2'>
           From a trial LCL shipment to regular full-container supply, our three decades of heritage sourcing relationships ensure consistent quality, competitive pricing, and the documentation standards that French and EU buyers require.

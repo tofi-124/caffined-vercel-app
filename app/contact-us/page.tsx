@@ -146,10 +146,10 @@ const WholesaleInquiryPage = () => {
           <div className='flex max-lg:flex-col items-center gap-12'>
             <div className='lg:w-1/2'>
               <h2 className='text-3xl md:text-4xl font-extrabold leading-tight text-dark mb-6'>
-                SPECIALTY ETHIOPIAN COFFEE FOR IMPORTERS WORLDWIDE
+                ETHIOPIAN COFFEE FOR IMPORTERS WORLDWIDE
               </h2>
               <p className='mb-4 text-dark/80 leading-relaxed'>
-                Ethio Coffee Import and Export PLC is a dedicated Ethiopian coffee exporter connecting speciality, traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local knowledge with international business experience.
+                Ethio Coffee Import and Export PLC is a dedicated Ethiopian coffee exporter connecting traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local knowledge with international business experience.
               </p>
               <p className='text-dark/80 leading-relaxed'>
                 Based in Addis Ababa, we export directly to importers around the globe. In Guji Hambella, we collect cherry from smallholder farmers and process it at our own drying station. Across other key origins like Yirgacheffe, Sidama, Harar, Limu, and Jimma/Kaffa, we source through trusted cooperatives and washing stations we have worked with for years. Everything is fully traceable back to the source.
@@ -159,7 +159,7 @@ const WholesaleInquiryPage = () => {
             <div className='lg:w-1/2 flex justify-center'>
               <ResponsiveImage 
                 src='/images/coffee-sacks.webp'
-                alt='Speciality Ethiopian green coffee beans from Ethio Coffee'
+                alt='Ethiopian green coffee beans from Ethio Coffee'
                 width={500}
                 height={600}
                 className='rounded-lg shadow-lg'

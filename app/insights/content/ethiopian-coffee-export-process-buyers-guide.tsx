@@ -568,7 +568,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
           Source Ethiopian Coffee from a Trusted Exporter
         </h3>
         <p className='my-2 text-sm'>
-          Ethio Coffee Import and Export PLC handles every step of the Ethiopian coffee export process from our Addis Ababa warehouse: sourcing from trusted cooperatives and washing stations, dry milling, CLU inspection management, full documentation, and logistics to Djibouti. Our 30-year sourcing heritage across Yirgacheffe, Sidamo, Guji, Limu, Harar, and Jimma means you get traceable specialty coffee with a clear timeline from contract to container.
+          Ethio Coffee Import and Export PLC handles every step of the Ethiopian coffee export process from our Addis Ababa warehouse: sourcing from trusted cooperatives and washing stations, dry milling, CLU inspection management, full documentation, and logistics to Djibouti. Our 30-year sourcing heritage across Yirgacheffe, Sidamo, Guji, Limu, Harar, and Jimma means you get traceable coffee with a clear timeline from contract to container.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>
@@ -625,7 +625,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian-Canadian specialty coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Export timelines, documentation requirements, and costs change with government regulations and market conditions; contact us for current information before making purchasing decisions.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian-Canadian coffee exporter with 30+ years of sourcing relationships across Ethiopia's coffee regions. This article is for educational purposes. Export timelines, documentation requirements, and costs change with government regulations and market conditions; contact us for current information before making purchasing decisions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> {' · '}

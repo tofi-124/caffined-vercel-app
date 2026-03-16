@@ -476,7 +476,7 @@ export default function ImportingEthiopianCoffeeToItaly({ title, date, large_ima
         8. Working with Ethio Coffee Export
       </h2>
       <p className='my-4'>
-        <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects Italian roasters, importers, and distributors with traceable Ethiopian specialty coffee. Our heritage sourcing relationships, spanning 30+ years, provide:
+        <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects Italian roasters, importers, and distributors with traceable Ethiopian coffee. Our heritage sourcing relationships, spanning 30+ years, provide:
       </p>
 
       <div className='grid md:grid-cols-2 gap-5 my-6'>
@@ -769,7 +769,7 @@ export default function ImportingEthiopianCoffeeToItaly({ title, date, large_ima
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h3 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Italy?</h3>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects Italian roasters, importers, and distributors with traceable Ethiopian specialty coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, EU-compliant lab testing, EUDR-ready traceability documentation, and shipping coordination to Trieste, Genoa, and Naples via Djibouti.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects Italian roasters, importers, and distributors with traceable Ethiopian coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, EU-compliant lab testing, EUDR-ready traceability documentation, and shipping coordination to Trieste, Genoa, and Naples via Djibouti.
         </p>
         <p className='my-2'>
           From a trial LCL shipment to regular full-container supply, our three decades of heritage sourcing relationships ensure consistent quality, competitive pricing, and the documentation standards that Italian and EU buyers require.

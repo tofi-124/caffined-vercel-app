@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Ethiopian Guji Coffee Beans | Specialty Export | Ethio Coffee',
+  title: 'Ethiopian Guji Coffee Beans | Green Coffee Export | Ethio Coffee',
   description: 'Buy Ethiopian Guji coffee beans direct from exporter. Grade 1 & 2 washed, natural, honey Guji green coffee. SCA 85-89+ scored. Stone fruit, tropical, floral. FOB Djibouti.',
   keywords: 'guji coffee, ethiopian guji coffee beans, guji green coffee, buy guji coffee, guji coffee exporter, guji grade 1, guji washed coffee, guji natural coffee, hambela coffee, shakiso coffee, specialty guji coffee export, guji coffee flavor profile',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-guji',
   },
   openGraph: {
-    title: 'Ethiopian Guji Coffee Beans | Specialty Export | Ethio Coffee',
+    title: 'Ethiopian Guji Coffee Beans | Green Coffee Export | Ethio Coffee',
     description: 'Premium Guji green coffee beans from Ethiopia. Grade 1 & 2, SCA 85-89+. Stone fruit, tropical, floral complexity. Direct from licensed exporter.',
     url: 'https://www.ethiocoffee.co/ethiopian-coffee-guji',
     type: 'website',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ethiopian Guji Coffee | Specialty Export | Ethio Coffee',
+    title: 'Ethiopian Guji Coffee | Green Coffee Export | Ethio Coffee',
     description: 'Grade 1 & 2 Guji green coffee beans. SCA 85-89+. Stone fruit, tropical, floral. FOB Djibouti worldwide.',
     images: ['/images/coffee-pack-1.webp'],
   }

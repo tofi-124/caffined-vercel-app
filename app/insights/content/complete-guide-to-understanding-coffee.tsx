@@ -589,7 +589,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <h3 className='text-xl font-bold mt-6 mb-3'>Heritage Sourcing: Three Decades at Origin</h3>
       <p className='my-4'>
-        Ethio Coffee Import and Export PLC operates as an origin-connected exporter with over 30 years of sourcing relationships across Ethiopia&apos;s coffee regions. With a warehouse and office in Addis Ababa, Ethio Coffee works through trusted cooperatives, washing stations, and farming communities to source specialty-grade green coffee for importers and roasters worldwide.
+        Ethio Coffee Import and Export PLC operates as an origin-connected exporter with over 30 years of sourcing relationships across Ethiopia&apos;s coffee regions. With a warehouse and office in Addis Ababa, Ethio Coffee works through trusted cooperatives, washing stations, and farming communities to source green coffee for importers and roasters worldwide.
       </p>
       <p className='my-4'>
         This heritage sourcing network means buyers gain access to established station-level relationships, consistent seasonal allocation, and on-the-ground quality oversight that a new-entrant exporter cannot replicate. For more on our export capabilities and services, visit our <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline font-bold'>export services</Link> page.
@@ -711,7 +711,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
           Source Premium Ethiopian Coffee Direct from Origin
         </h3>
         <p className='mb-4'>
-          Ethio Coffee Import and Export PLC connects importers and roasters with specialty-grade Ethiopian green coffee through over three decades of heritage sourcing relationships. From Yirgacheffe florals to Guji fruit bombs, we manage every stage of the export chain so you receive consistent quality, full traceability, and professional documentation.
+          Ethio Coffee Import and Export PLC connects importers and roasters with Ethiopian green coffee through over three decades of heritage sourcing relationships. From Yirgacheffe florals to Guji fruit bombs, we manage every stage of the export chain so you receive consistent quality, full traceability, and professional documentation.
         </p>
         <ul className='space-y-2 mb-6'>
           <li className='flex items-start gap-2'>
@@ -811,7 +811,7 @@ export default function CompleteGuideToUnderstandingCoffee({ title, date, large_
 
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> This guide was written by the team at Ethio Coffee Import and Export PLC, drawing on three decades of experience in Ethiopian specialty coffee export. For current pricing, availability, and sample requests, please <Link href='/contact-us' className='underline'>contact us</Link> directly.
+          <span className='font-bold'>About This Insight:</span> This guide was written by the team at Ethio Coffee Import and Export PLC, drawing on three decades of experience in Ethiopian coffee export. For current pricing, availability, and sample requests, please <Link href='/contact-us' className='underline'>contact us</Link> directly.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Export Services</Link> &middot; <Link href='/about' className='underline'>About Ethio Coffee</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>

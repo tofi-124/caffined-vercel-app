@@ -511,7 +511,7 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee with Freight Quality Built In</h4>
         <p className='my-2'>
-          Ethio Coffee Import and Export PLC ships every specialty lot in GrainPro liners with container desiccants and documented moisture readings at bagging. Request samples, review current offerings, or ask about freight and logistics coordination.
+          Ethio Coffee Import and Export PLC ships every lot in GrainPro liners with container desiccants and documented moisture readings at bagging. Request samples, review current offerings, or ask about freight and logistics coordination.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Offerings</Link>
@@ -551,7 +551,7 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. Covers specialty coffee storage in sea freight, including moisture science, hermetic packaging, container stowage, transit timelines, and arrival QC protocols for green coffee importers and roasters.
+          <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. Covers coffee storage in sea freight, including moisture science, hermetic packaging, container stowage, transit timelines, and arrival QC protocols for green coffee importers and roasters.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> ·{' '}

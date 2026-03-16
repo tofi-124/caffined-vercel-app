@@ -490,7 +490,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
         Working with Ethio Coffee Export for Dutch &amp; EU Imports
       </h3>
       <p className='my-4'>
-        As an ECX-registered Ethiopian exporter with three decades of sourcing heritage, Ethio Coffee Import and Export PLC partners with Dutch importers, roasters, and traders who source specialty Ethiopian coffee through Rotterdam:
+        As an ECX-registered Ethiopian exporter with three decades of sourcing heritage, Ethio Coffee Import and Export PLC partners with Dutch importers, roasters, and traders who source Ethiopian coffee through Rotterdam:
       </p>
 
       <div className='grid md:grid-cols-2 gap-5 my-6'>
@@ -633,7 +633,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is an origin-connected Ethiopian exporter with three decades of sourcing heritage. We work with trusted cooperatives and washing stations across Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma to deliver specialty-grade green coffee to Dutch importers and European roasters. Request pre-shipment samples, current pricing, or a custom offer sheet.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is an origin-connected Ethiopian exporter with three decades of sourcing heritage. We work with trusted cooperatives and washing stations across Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma to deliver green coffee to Dutch importers and European roasters. Request pre-shipment samples, current pricing, or a custom offer sheet.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

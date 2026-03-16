@@ -541,7 +541,7 @@ export default function CoffeeIsProcessingDryingMilling({ title, date, large_ima
 
       {/* CTA */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h3 className='font-bold text-xl mb-3'>Source Specialty Ethiopian Coffee by Processing Method</h3>
+        <h3 className='font-bold text-xl mb-3'>Source Ethiopian Coffee by Processing Method</h3>
         <p className='my-2 text-sm'>
           Ethio Coffee Import and Export PLC offers washed, honey, and natural-processed Ethiopian green coffees with complete processing documentation for every lot. Request samples to compare processing methods side by side, or contact our Addis Ababa team for current availability and FOB pricing.
         </p>

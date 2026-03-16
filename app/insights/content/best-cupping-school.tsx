@@ -475,9 +475,9 @@ export default function BestCuppingSchoolWorld({ title, date, large_image_url }:
 
       {/* CTA */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Put Your Sensory Training to Work with Ethiopian Specialty Coffee</h4>
+        <h4 className='font-bold text-xl mb-3'>Put Your Sensory Training to Work with Ethiopian Coffee</h4>
         <p className='my-2'>
-          Ethio Coffee Import and Export PLC sources traceable specialty lots from Yirgacheffe, Guji, Sidamo, Limu, and other Ethiopian origins. Request pre-shipment cupping samples to evaluate our current availability and apply your training to coffees from one of the world&apos;s most complex origins.
+          Ethio Coffee Import and Export PLC sources traceable lots from Yirgacheffe, Guji, Sidamo, Limu, and other Ethiopian origins. Request pre-shipment cupping samples to evaluate our current availability and apply your training to coffees from one of the world&apos;s most complex origins.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Current Offerings</Link>

@@ -614,7 +614,7 @@ export default function GermanySpecialtyCoffeeMarketGuide({ title, date, large_i
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee for the German Market</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects German roasters, importers, and distributors with traceable Ethiopian specialty coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, EUDR-compliant traceability documentation, and shipping to Hamburg via Djibouti.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects German roasters, importers, and distributors with traceable Ethiopian coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, EUDR-compliant traceability documentation, and shipping to Hamburg via Djibouti.
         </p>
         <p className='my-2'>
           From a trial LCL shipment to regular full-container supply, our three decades of heritage sourcing relationships ensure consistent quality, competitive pricing, and the documentation precision that German buyers expect.

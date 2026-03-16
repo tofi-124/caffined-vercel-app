@@ -192,7 +192,7 @@ const Footer = () => {
         <div className='h-px w-full bg-dark/10' />
 
         <p className='py-6 text-center text-sm text-dark/70 max-w-3xl mx-auto leading-relaxed px-4'>
-          Ethio Coffee Import and Export PLC is a family-owned Ethiopian coffee exporter shipping specialty and commercial grade green coffee beans to roasters, importers, and distributors worldwide.
+          Ethio Coffee Import and Export PLC is a family-owned Ethiopian coffee exporter shipping green coffee beans to roasters, importers, and distributors worldwide.
         </p>
 
         <div className='pb-8 text-center'>

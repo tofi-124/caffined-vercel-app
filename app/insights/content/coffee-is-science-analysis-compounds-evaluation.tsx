@@ -570,7 +570,7 @@ export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date
           <div className='bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-lg my-8 border-2 border-amber-300 shadow-lg'>
             <h4 className='text-2xl font-bold mb-4 text-center'>Source Verified Ethiopian Coffee Direct from Origin</h4>
             <p className='text-center mb-6'>
-              Ethio Coffee Import and Export PLC provides pre-ship samples, full cupping reports, and complete quality documentation with every lot. Request samples to evaluate our Ethiopian specialty coffees against your own quality benchmarks.
+              Ethio Coffee Import and Export PLC provides pre-ship samples, full cupping reports, and complete quality documentation with every lot. Request samples to evaluate our Ethiopian coffees against your own quality benchmarks.
             </p>
             <div className='flex flex-wrap justify-center gap-4'>
               <Link href='/offerings' className='bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors'>
@@ -631,7 +631,7 @@ export default function CoffeeIsScienceAnalysisCompoundsEvaluation({ title, date
 
           <div className='border-t border-gray-300 mt-10 pt-6'>
             <p className='text-sm text-gray-600 font-inconsolata'>
-              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This article draws on coffee chemistry research, SCA cupping science, and our quality evaluation practices as an Ethiopian specialty coffee exporter. Compound concentrations cited are approximate ranges for Arabica; actual values vary by variety, altitude, and processing. For current samples or quality reports,{' '}
+              <span className='font-bold'>About This Insight:</span> Written by Ethio Coffee Import and Export PLC. This article draws on coffee chemistry research, SCA cupping science, and our quality evaluation practices as an Ethiopian coffee exporter. Compound concentrations cited are approximate ranges for Arabica; actual values vary by variety, altitude, and processing. For current samples or quality reports,{' '}
               <Link href='/contact-us' className='underline'>contact us directly</Link>.
             </p>
             <p className='text-sm text-gray-600 font-inconsolata mt-2'>

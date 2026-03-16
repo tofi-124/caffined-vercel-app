@@ -550,7 +550,7 @@ export default function SaudiArabiaSpecialtyCoffeeMarketGuide({ title, date, lar
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee for the Saudi Market</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects Saudi roasters, importers, and distributors with traceable Ethiopian specialty coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, complete SFDA-ready documentation, and fast Red Sea shipping from Djibouti to Jeddah.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects Saudi roasters, importers, and distributors with traceable Ethiopian coffee from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma. We provide pre-shipment samples, cupping scores, complete SFDA-ready documentation, and fast Red Sea shipping from Djibouti to Jeddah.
         </p>
         <p className='my-2'>
           From a trial 50-bag LCL to regular full-container supply, our three decades of heritage sourcing relationships ensure consistent quality, competitive pricing, and responsive communication.

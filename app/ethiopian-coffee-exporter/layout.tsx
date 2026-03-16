@@ -2,14 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Coffee Exporter | Ethio Coffee',
-  description: 'Ethio Coffee: trusted Ethiopian coffee exporter shipping specialty green coffee (SCA 80+) worldwide. Yirgacheffe, Sidamo, Guji, Harar available. Order samples today.',
+  description: 'Ethio Coffee: trusted Ethiopian coffee exporter shipping green coffee worldwide. Yirgacheffe, Sidamo, Guji, Harar, Jimma available. Order samples today.',
   keywords: 'Ethiopian coffee exporter, ethiopian coffee exporter company, coffee exporter ethiopia, ethiopia coffee exporter, best ethiopian coffee exporter, ethiopian green coffee exporter, ethiopian specialty coffee exporter, ethiopian arabica exporter, ethiopian coffee export company, ethiopian coffee supplier, buy ethiopian coffee wholesale, import ethiopian coffee, ethiopian coffee beans exporter, coffee export from ethiopia, green coffee beans ethiopia export',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter',
   },
   openGraph: {
-    title: 'Ethiopian Coffee Exporter | Ethio Coffee Import and Export PLC: Specialty & Commercial Green Coffee',
-    description: 'Family-owned Ethiopian coffee exporter with 30+ years legacy. We export SCA 80+ specialty green coffee from Ethiopia to importers & roasters worldwide. Yirgacheffe, Sidamo, Guji & more.',
+    title: 'Ethiopian Coffee Exporter | Ethio Coffee Import and Export PLC',
+    description: 'Family-owned Ethiopian coffee exporter with 30+ years legacy. We export green coffee from Ethiopia to importers & roasters worldwide. Yirgacheffe, Sidamo, Guji & more.',
     url: 'https://www.ethiocoffee.co/ethiopian-coffee-exporter',
     type: 'website',
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ethiopian Coffee Exporter | Ethio Coffee Import and Export PLC',
-    description: 'Family-owned Ethiopian coffee exporter shipping SCA 80+ specialty green coffee to 40+ countries worldwide. Order samples today.',
+    description: 'Family-owned Ethiopian coffee exporter shipping green coffee to 40+ countries worldwide. Order samples today.',
     images: ['/images/ethiopian-coffee-export.webp'],
   },
 }
@@ -40,7 +40,7 @@ export default function EthiopianCoffeeExporterLayout({
     "@type": "Organization",
     "name": "Ethio Coffee Import and Export PLC",
     "alternateName": ["Ethio Coffee", "Ethiopian Coffee Exporter"],
-    "description": "Family-owned Ethiopian coffee exporter with 30+ years of heritage. We export specialty-grade (SCA 80+) and commercial green coffee from Ethiopia to roasters, importers, and distributors in 40+ countries worldwide.",
+    "description": "Family-owned Ethiopian coffee exporter with 30+ years of heritage. We export green coffee from Ethiopia to roasters, importers, and distributors in 40+ countries worldwide.",
     "url": "https://www.ethiocoffee.co",
     "logo": "https://www.ethiocoffee.co/images/new-logo.png",
     "foundingDate": "2022",
@@ -91,7 +91,7 @@ export default function EthiopianCoffeeExporterLayout({
     "@type": "Service",
     "name": "Ethiopian Coffee Export Services",
     "alternateName": ["Ethiopian Coffee Exporter Services", "Green Coffee Export from Ethiopia"],
-    "description": "Full-service Ethiopian coffee export including sourcing, SCA-standard quality control, export documentation, packaging, and global logistics for specialty and commercial green coffee.",
+    "description": "Full-service Ethiopian coffee export including sourcing, SCA-standard quality control, export documentation, packaging, and global logistics for green coffee.",
     "url": "https://www.ethiocoffee.co/ethiopian-coffee-exporter",
     "provider": {
       "@type": "Organization",
@@ -401,7 +401,7 @@ export default function EthiopianCoffeeExporterLayout({
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Ethiopian Coffee Exporter | Ethio Coffee Import and Export PLC",
-    "description": "Ethio Coffee Import and Export PLC is a trusted, family-owned Ethiopian coffee exporter shipping specialty and commercial green coffee to 40+ countries worldwide.",
+    "description": "Ethio Coffee Import and Export PLC is a trusted, family-owned Ethiopian coffee exporter shipping green coffee to 40+ countries worldwide.",
     "url": "https://www.ethiocoffee.co/ethiopian-coffee-exporter",
     "mainEntity": {
       "@type": "Organization",

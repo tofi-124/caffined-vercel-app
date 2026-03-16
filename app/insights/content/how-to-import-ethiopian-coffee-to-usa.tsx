@@ -253,7 +253,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       </div>
 
       <p className='my-4'>
-        <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is an origin-connected exporter with over 30 years of sourcing relationships across Ethiopia&apos;s coffee regions. We work with trusted cooperatives, washing stations, and farming communities to source Grade 1 and Grade 2 specialty lots. Our warehouse and office in Addis Ababa handles all origin-side logistics, and we provide complete documentation for US customs clearance. <Link href='/contact-us' className='text-amber-700 hover:underline'>Contact us</Link> for current lot availability and pricing.
+        <span className='font-bold'>Ethio Coffee Import and Export PLC</span> is an origin-connected exporter with over 30 years of sourcing relationships across Ethiopia&apos;s coffee regions. We work with trusted cooperatives, washing stations, and farming communities to source Grade 1 and Grade 2 lots. Our warehouse and office in Addis Ababa handles all origin-side logistics, and we provide complete documentation for US customs clearance. <Link href='/contact-us' className='text-amber-700 hover:underline'>Contact us</Link> for current lot availability and pricing.
       </p>
 
       {/* ============ 5. DOCUMENTATION ============ */}
@@ -598,7 +598,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Premium Ethiopian Coffee Direct from Origin</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> provides specialty Yirgacheffe, Sidamo, Guji, Harar, Limu, and Jimma origins with complete export documentation, competitive FOB pricing, and pre-shipment cupping samples. With over 30 years of sourcing heritage across Ethiopia&apos;s coffee regions, we handle the origin side so you can focus on roasting.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> provides Yirgacheffe, Sidamo, Guji, Harar, Limu, and Jimma origins with complete export documentation, competitive FOB pricing, and pre-shipment cupping samples. With over 30 years of sourcing heritage across Ethiopia&apos;s coffee regions, we handle the origin side so you can focus on roasting.
         </p>
         <p className='my-2'>
           Whether you are placing your first import order or scaling an existing Ethiopian coffee program, our team provides transparent pricing and responsive support.
@@ -656,7 +656,7 @@ export default function ImportEthiopianCoffeeToUSA({ title, date, large_image_ur
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an origin-connected Ethiopian specialty coffee exporter with over 30 years of sourcing heritage. This article covers the complete process of importing Ethiopian green coffee to the United States, including 2026 regulatory updates. Import regulations, AGOA status, and market conditions change; <Link href='/contact-us' className='underline'>contact us</Link> for current information before making purchasing decisions.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an origin-connected Ethiopian coffee exporter with over 30 years of sourcing heritage. This article covers the complete process of importing Ethiopian green coffee to the United States, including 2026 regulatory updates. Import regulations, AGOA status, and market conditions change; <Link href='/contact-us' className='underline'>contact us</Link> for current information before making purchasing decisions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> {' · '}

@@ -449,7 +449,7 @@ export default function WashedVsNaturalEthiopianCoffeeProcessing({ title, date, 
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Both Washed and Natural Ethiopian Coffee</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> ships washed and natural processed specialty coffees from Ethiopia&apos;s top growing regions. With three decades of heritage sourcing relationships, we provide traceable lots from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma with pre-shipment samples, cupping scores, and complete export documentation.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> ships washed and natural processed coffees from Ethiopia&apos;s top growing regions. With three decades of heritage sourcing relationships, we provide traceable lots from Yirgacheffe, Guji, Sidamo, Harar, Limu, and Jimma with pre-shipment samples, cupping scores, and complete export documentation.
         </p>
         <p className='my-2'>
           Request samples of both processing types to taste the difference and find the right fit for your roasting program and customer base.

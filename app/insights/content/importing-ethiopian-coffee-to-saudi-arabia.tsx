@@ -655,7 +655,7 @@ export default function ImportingEthiopianCoffeeToSaudiArabia({ title, date, lar
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Ready to Import Ethiopian Coffee to Saudi Arabia?</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> has supplied Saudi importers in Riyadh, Jeddah, and Dammam with three decades of origin-connected sourcing heritage. We provide premium Ethiopian specialty coffee (Yirgacheffe, Sidamo, Guji, Harrar) with SFDA-compliant documentation, fast Red Sea shipping, and the responsive, reliable service Saudi businesses expect.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> has supplied Saudi importers in Riyadh, Jeddah, and Dammam with three decades of origin-connected sourcing heritage. We provide premium Ethiopian coffee (Yirgacheffe, Sidamo, Guji, Harrar) with SFDA-compliant documentation, fast Red Sea shipping, and the responsive, reliable service Saudi businesses expect.
         </p>
         <p className='my-2'>
           For businesses launching a Saudi roastery, expanding an existing cafe chain, or building an import/distribution business for the GCC, we make Ethiopian coffee import straightforward and profitable.

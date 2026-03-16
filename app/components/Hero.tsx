@@ -13,11 +13,11 @@ const Hero = () => {
           ETHIOPIAN COFFEE EXPORTER
           </h1>
           <p className='text-primary/80 mt-2 sm:mt-3 text-xs sm:text-sm tracking-widest uppercase'>
-            Specialty Green Coffee Export &middot; Since 1992
+            Green Coffee Export &middot; Since 1992
           </p>
 
           <p className='mt-4 sm:mt-6 text-primary/90 text-sm sm:text-base leading-relaxed max-w-[60ch]'>
-            Built on sourcing relationships our father established over three decades across Ethiopia&apos;s finest coffee regions. We collect and process coffee at our own drying station in Guji Hambella, and work directly with cooperatives, washing stations, and farming communities in other renowned regions, so importers and roasters get consistent, specialty-grade lots they can count on.
+            Built on sourcing relationships our father established over three decades across Ethiopia&apos;s finest coffee regions. We collect and process coffee at our own drying station in Guji Hambella, and work directly with cooperatives, washing stations, and farming communities in other renowned regions, so importers and roasters get consistent, quality-verified lots they can count on.
           </p>
 
           <div className='flex flex-row gap-3 mt-6 sm:mt-8 justify-center'>

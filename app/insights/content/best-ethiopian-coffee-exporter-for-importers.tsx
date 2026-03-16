@@ -32,12 +32,12 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
       {/* HERO IMAGE */}
       <figure>
         <figcaption className='font-inconsolata my-2 text-sm text-gray-500'>
-          Specialty-grade Ethiopian green coffee prepared for export. Ethio Coffee Import and Export PLC ships from six Ethiopian coffee regions to importers in 40+ countries worldwide.
+          Ethiopian green coffee prepared for export. Ethio Coffee Import and Export PLC ships from six Ethiopian coffee regions to importers in 40+ countries worldwide.
         </figcaption>
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
           <ResponsiveImage
             src={`/images/${large_image_url}`}
-            alt='Best Ethiopian coffee exporter - specialty green coffee beans prepared for international shipment by Ethio Coffee Import and Export PLC'
+            alt='Best Ethiopian coffee exporter - green coffee beans prepared for international shipment by Ethio Coffee Import and Export PLC'
             fill
             objectFit='cover'
             className='w-full h-full'
@@ -496,7 +496,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
           Source Premium Ethiopian Coffee Direct from Origin
         </h3>
         <p className='my-2 text-sm'>
-          Ethio Coffee Import and Export PLC provides specialty and commercial grade green coffee with full traceability, professional documentation, and competitive FOB pricing. Request samples from current lots, review our offer sheet, or contact us to discuss your sourcing requirements.
+          Ethio Coffee Import and Export PLC provides green coffee with full traceability, professional documentation, and competitive FOB pricing. Request samples from current lots, review our offer sheet, or contact us to discuss your sourcing requirements.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

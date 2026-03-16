@@ -11,7 +11,7 @@ const Offerings = () => {
           FEATURED LOTS
         </h2>
         <p className='mt-3 text-dark/60 font-inconsolata max-w-xl mx-auto'>
-          Curated Ethiopian specialty coffee for global importers. Traceable, consistent, and ready for export.
+          Curated Ethiopian coffee for global importers. Traceable, consistent, and ready for export.
         </p>
       </div>
 

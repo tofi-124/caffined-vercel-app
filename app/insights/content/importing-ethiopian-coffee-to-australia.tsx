@@ -894,7 +894,7 @@ export default function ImportingEthiopianCoffeeToAustralia({ title, date, large
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee for the Australian Market</h4>
         <p className='mb-4'>
-          Ethio Coffee Import and Export PLC serves the Australian specialty market with full compliance support:
+          Ethio Coffee Import and Export PLC serves the Australian market with full compliance support:
         </p>
         <ul className='space-y-2 mb-4 text-sm'>
           <li><HiOutlineCheckCircle className='inline mr-2' />Complete Australian documentation including phytosanitary certificates from authorized Ethiopian bodies</li>

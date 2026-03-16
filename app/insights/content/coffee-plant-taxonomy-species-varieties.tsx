@@ -574,7 +574,7 @@ export default function CoffeePlantTaxonomySpeciesVarieties({ title, date, large
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Ethiopian Heirloom Coffee Direct from Origin</h4>
         <p className='my-2 text-sm'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects roasters, importers, and green coffee traders with traceable specialty Ethiopian coffee from the birthplace of Arabica. With three decades of heritage sourcing relationships across Ethiopia&apos;s growing regions, we provide pre-shipment samples, cupping scores, and full traceability documentation. Request samples or a current offer sheet to experience the genetic diversity that makes Ethiopian coffee unique.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> connects roasters, importers, and green coffee traders with traceable Ethiopian coffee from the birthplace of Arabica. With three decades of heritage sourcing relationships across Ethiopia&apos;s growing regions, we provide pre-shipment samples, cupping scores, and full traceability documentation. Request samples or a current offer sheet to experience the genetic diversity that makes Ethiopian coffee unique.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>

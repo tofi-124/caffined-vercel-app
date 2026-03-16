@@ -12,7 +12,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed'>
             Source certified organic Ethiopian green coffee beans - USDA, EU, and JAS organic -
-            from Ethiopia&apos;s finest specialty regions. <strong>Ethio Coffee Import and Export PLC</strong> is a family-owned, 
+            from Ethiopia&apos;s finest growing regions. <strong>Ethio Coffee Import and Export PLC</strong> is a family-owned, 
             licensed Ethiopian exporter with 30+ years of sourcing heritage, shipping to importers and roasters 
             in 40+ countries. Bulk export with full traceability
             and organic chain-of-custody documentation.

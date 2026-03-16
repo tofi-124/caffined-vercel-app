@@ -3,14 +3,14 @@ import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Buy Ethiopian Coffee Wholesale | Direct Export | Ethio Coffee',
-  description: 'Buy Ethiopian coffee wholesale direct from licensed exporter. Specialty & commercial green coffee: Yirgacheffe, Sidamo, Guji. Competitive FOB pricing. FCL & LCL shipments.',
+  description: 'Buy Ethiopian coffee wholesale direct from licensed exporter. Green coffee: Yirgacheffe, Sidamo, Guji, Harar, Jimma. Competitive FOB pricing. FCL & LCL shipments.',
   keywords: 'buy ethiopian coffee wholesale, ethiopian coffee wholesale, wholesale ethiopian coffee, buy ethiopian coffee in bulk, ethiopian coffee for roasters, wholesale green coffee beans ethiopia, bulk ethiopian coffee, ethiopian coffee wholesale price, buy green coffee ethiopia, wholesale coffee supplier ethiopia, import ethiopian coffee wholesale, ethiopian coffee bulk order, ethiopian coffee for businesses',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/buy-ethiopian-coffee-wholesale',
   },
   openGraph: {
     title: 'Buy Ethiopian Coffee Wholesale | Direct from Exporter | Ethio Coffee',
-    description: 'Buy Ethiopian coffee wholesale: specialty & commercial green coffee from licensed exporter. Yirgacheffe, Sidamo, Guji, Harar. Competitive FOB pricing, worldwide shipping.',
+    description: 'Buy Ethiopian coffee wholesale: green coffee from licensed exporter. Yirgacheffe, Sidamo, Guji, Harar. Competitive FOB pricing, worldwide shipping.',
     url: 'https://www.ethiocoffee.co/buy-ethiopian-coffee-wholesale',
     type: 'website',
     images: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         url: '/images/coffee-pack-1.webp',
         width: 900,
         height: 600,
-        alt: 'Buy Ethiopian coffee wholesale - specialty green coffee beans for importers and roasters',
+        alt: 'Buy Ethiopian coffee wholesale - green coffee beans for importers and roasters',
       }
     ],
   },
@@ -80,7 +80,7 @@ export default function BuyWholesaleLayout({
         "name": "What is the wholesale price of Ethiopian coffee?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Wholesale Ethiopian green coffee prices range from $4 to $6 per pound FOB Djibouti for specialty grades (SCA 80+). Commercial-grade coffees (Grade 3-5) are priced lower. Prices fluctuate based on origin, grade, processing method, and seasonal availability. Contact exporters for current crop pricing."
+          "text": "Wholesale Ethiopian green coffee prices range from $4 to $6 per pound FOB Djibouti for Grade 1-2 lots (SCA 80+). Commercial-grade coffees (Grade 3-5) are priced lower. Prices fluctuate based on origin, grade, processing method, and seasonal availability. Contact exporters for current crop pricing."
         }
       },
       {

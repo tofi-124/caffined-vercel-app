@@ -20,7 +20,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Ethio Coffee Import and Export PLC sources speciality Ethiopian green coffee from cooperatives, washing stations, and our own drying station in Guji Hambella.
+          Ethio Coffee Import and Export PLC sources Ethiopian green coffee from cooperatives, washing stations, and our own drying station in Guji Hambella.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>

@@ -584,9 +584,9 @@ export default function EthiopianCoffeeBrewProfilesRoastersGuide({ title, date, 
 
       {/* CTA */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Source Specialty Ethiopian Lots with Full Brew Support</h4>
+        <h4 className='font-bold text-xl mb-3'>Source Ethiopian Coffee Lots with Full Brew Support</h4>
         <p className='my-2'>
-          Ethio Coffee Import and Export PLC provides traceable, specialty-grade Ethiopian green coffee alongside roast and brew guidance. Request samples from six distinct origins, access current FOB pricing, and receive lot-specific brew parameters with every order.
+          Ethio Coffee Import and Export PLC provides traceable Ethiopian green coffee alongside roast and brew guidance. Request samples from six distinct origins, access current FOB pricing, and receive lot-specific brew parameters with every order.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>

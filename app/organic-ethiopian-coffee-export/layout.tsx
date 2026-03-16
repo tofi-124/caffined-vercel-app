@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Organic Ethiopian Coffee Export | Certified Green Coffee | Ethio Coffee',
-    description: 'Certified organic Ethiopian green coffee beans for export. USDA, EU & JAS organic. Specialty-grade Yirgacheffe, Sidamo, Guji. Direct from licensed exporter.',
+    description: 'Certified organic Ethiopian green coffee beans for export. USDA, EU & JAS organic. Yirgacheffe, Sidamo, Guji. Direct from licensed exporter.',
     url: 'https://www.ethiocoffee.co/organic-ethiopian-coffee-export',
     type: 'website',
     images: [

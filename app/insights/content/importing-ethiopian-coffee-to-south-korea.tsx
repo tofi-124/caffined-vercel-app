@@ -961,7 +961,7 @@ export default function ImportingEthiopianCoffeeToSouthKorea({ title, date, larg
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
         <h4 className='font-bold text-xl mb-3'>Source Ethiopian Specialty Coffee for the Korean Market</h4>
         <p className='my-2'>
-          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> ships specialty-grade Ethiopian coffee to Korea with full MFDS-compliant documentation. Request pre-shipment samples, review our current offer sheet, or discuss your sourcing requirements.
+          <span className='font-bold'>Ethio Coffee Import and Export PLC</span> ships Ethiopian coffee to Korea with full MFDS-compliant documentation. Request pre-shipment samples, review our current offer sheet, or discuss your sourcing requirements.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
           <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Offerings</Link>
