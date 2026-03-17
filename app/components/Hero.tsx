@@ -13,7 +13,7 @@ const Hero = () => {
           ETHIOPIAN COFFEE EXPORTER
           </h1>
           <p className='text-primary/80 mt-2 sm:mt-3 text-xs sm:text-sm tracking-widest uppercase'>
-            Green Coffee Export &middot; Since 1992
+            Green Coffee Export &middot; 30 Plus Years In Coffee
           </p>
 
           <p className='mt-4 sm:mt-6 text-primary/90 text-sm sm:text-base leading-relaxed max-w-[60ch]'>
