@@ -243,7 +243,7 @@ export const newsArticles: NewsArticle[] = [
   },
   {
     slug: 'gambella-majang-zone-coffee-production-52900-tons',
-    date: '2026-03-14',
+    date: '2026-03-17',
     title: 'Over 52,900 Tons of Coffee Produced in Gambella\'s Majang Zone',
     desc: 'The Majang Zone of Gambella Region produced over 52,900 tons of coffee during this year\'s harvest, a 17,186-ton increase over the previous year, with 42,624 tons processed for the central market and 68,637 hectares planted across Goderena and Mengeshi districts.',
     source: 'EZEA',
