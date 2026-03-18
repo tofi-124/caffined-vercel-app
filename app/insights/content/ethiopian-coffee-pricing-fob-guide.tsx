@@ -552,6 +552,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
               <li>• <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>
               <li>• <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
               <li>• <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>German Coffee Market Guide</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-india' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to India</Link></li>
             </ul>
           </div>
         </div>

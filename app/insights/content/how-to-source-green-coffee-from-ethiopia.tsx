@@ -535,6 +535,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Germany</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-australia' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Australia</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to South Korea</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-india' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to India</Link></li>
             </ul>
           </div>
           <div>

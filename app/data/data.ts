@@ -2575,4 +2575,31 @@ export const posts: Post[] = [
       ],
       desc: 'Saudi Arabia\'s coffee market is growing 8-12% annually. Buyer segments, trends, and export strategy for Ethiopian coffee in KSA.'
     },
+    // ===== IMPORTING ETHIOPIAN COFFEE TO INDIA =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-india.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-india.webp',
+      date: 'Mar 17, 2026',
+      title: 'Import Ethiopian Coffee to India: Buyer\'s Guide',
+      slug: 'importing-ethiopian-coffee-to-india',
+      category: 'Import Guide / India Market / Ethiopian Coffee Export',
+      keywords: [
+        'import Ethiopian coffee to India',
+        'Indian coffee import regulations',
+        'FSSAI coffee import requirements',
+        'Ethiopia to India coffee shipping',
+        'buy Ethiopian green coffee India',
+        'Indian coffee import duty',
+        'Ethiopian coffee exporter for India',
+        'Djibouti to Nhava Sheva coffee shipping',
+        'FSSAI Central License coffee',
+        'India specialty coffee market',
+        'Ethiopian Yirgacheffe India',
+        'third wave coffee India',
+        'Indian coffee import HS code 0901',
+        'green coffee customs clearance India',
+        'Ethiopia India coffee trade'
+      ],
+      desc: 'How to import Ethiopian coffee to India: FSSAI regulations, customs duties, Arabian Sea shipping, market insights, and sourcing guidance for Indian roasters and importers.'
+    },
 ]

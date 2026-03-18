@@ -1026,6 +1026,7 @@ export default function TopEthiopianCoffeeImporters2024_2025({ title, date, larg
               <li>• <Link href='/insights/best-ethiopian-coffee-exporter-for-importers' className='text-amber-700 hover:underline'>Best Ethiopian Coffee Exporter for Importers</Link></li>
               <li>• <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='text-amber-700 hover:underline'>How to Source Green Coffee from Ethiopia</Link></li>
               <li>• <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
+              <li>• <Link href='/insights/importing-ethiopian-coffee-to-india' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to India</Link></li>
             </ul>
           </div>
           <div>
