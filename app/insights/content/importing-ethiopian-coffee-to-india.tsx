@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ResponsiveImage from '@/app/components/ResponsiveImage'
-import { HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBuildingOffice } from 'react-icons/hi2'
+import { HiOutlineGlobeAlt, HiOutlineCurrencyDollar, HiOutlineShieldCheck, HiOutlineDocumentText, HiOutlineTruck, HiOutlineCube, HiOutlineCheckCircle, HiOutlineExclamationTriangle, HiOutlineBuildingOffice, HiOutlineLightBulb, HiOutlineClipboardDocumentList } from 'react-icons/hi2'
 
 type InsightContentProps = {
   title: string
@@ -20,7 +20,7 @@ export default function ImportingEthiopianCoffeeToIndia({ title, date, large_ima
 
       <figure>
         <figcaption className='font-inconsolata my-2'>
-          Insights from Ethiopian coffee sourcing and the specialty coffee industry.
+          India&apos;s coffee imports more than doubled from $214M to $462.5M between 2020 and 2024, with specialty roasters increasingly sourcing Ethiopian Arabica for flavor diversity.
         </figcaption>
 
         <div className='w-full aspect-[5/3] overflow-hidden rounded-md'>
@@ -40,6 +40,17 @@ export default function ImportingEthiopianCoffeeToIndia({ title, date, large_ima
         <span className='ml-2'>Import Guide / India Market / Ethiopian Coffee Export</span>
       </div>
 
+      {/* KEY TAKEAWAY */}
+      <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-8 border border-amber-200'>
+        <h3 className='font-bold text-xl mb-3 flex items-center gap-2'>
+          <HiOutlineLightBulb className='text-amber-400 flex-shrink-0' />
+          Key Takeaway
+        </h3>
+        <p className='text-sm leading-relaxed'>
+          India imported $462.5M of coffee in 2024. Green coffee under HS 0901.11 carries a Basic Customs Duty of 100%, plus 10% Social Welfare Surcharge on BCD, with IGST at 5%. Importing requires an FSSAI Central License, IEC from DGFT, and a Phytosanitary Certificate from Ethiopia. Shipping from Djibouti to Nhava Sheva (Mumbai) takes approximately 7 to 10 days across the Arabian Sea. India&apos;s high duty structure means only specialty-grade Ethiopian coffees make economic sense to import, but the margin on Grade 1 lots is strong.
+        </p>
+      </div>
+
       <p className='my-4'>
         India is both a major coffee-producing country and a rapidly growing importer. In 2024, India&apos;s coffee imports reached <span className='font-bold'>$462.5 million</span>, more than doubling from $214 million in 2020. While Indian farms produce substantial Robusta and some Arabica, the country&apos;s specialty roasters and third-wave cafes are increasingly sourcing African single-origin coffees that offer flavor profiles unavailable from domestic harvests. Ethiopian Arabica, with its floral Yirgacheffe, fruity Guji, and wine-toned Sidamo lots, fills a clear gap in India&apos;s specialty supply chain.
       </p>
@@ -51,24 +62,27 @@ export default function ImportingEthiopianCoffeeToIndia({ title, date, large_ima
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium flex items-start gap-2'>
           <HiOutlineGlobeAlt className='text-2xl flex-shrink-0 mt-1' />
-          <span><span className='font-bold'>Key Takeaway:</span> India imported $462.5M of coffee in 2024. Green coffee under HS 0901.11 carries a Basic Customs Duty of 100%, plus 10% Social Welfare Surcharge on BCD, with IGST at 5%. Importing requires an FSSAI Central License, IEC from DGFT, and a Phytosanitary Certificate from Ethiopia. Shipping from Djibouti to Nhava Sheva (Mumbai) takes approximately 7 to 10 days across the Arabian Sea.</span>
+          <span><span className='font-bold'>Strategic Context:</span> India is the world&apos;s sixth-largest coffee producer, but over 70% of its output is Robusta. Indian specialty Arabica varieties (S795, Selection 9) cannot match the floral, citrus, and berry complexity of Ethiopian heirloom cultivars. This production gap creates sustained demand for imported Ethiopian specialty lots among India&apos;s growing network of third-wave roasters.</span>
         </p>
       </div>
 
-      {/* In This Guide */}
+      {/* TABLE OF CONTENTS */}
       <div className='my-8 bg-gray-50 p-6 rounded-lg border border-gray-200'>
-        <h3 className='text-lg font-bold mb-4'>In This Guide</h3>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm'>
-          <a href='#in-market' className='text-dark hover:text-primary transition'>1. Why India for Ethiopian Coffee</a>
-          <a href='#in-regulations' className='text-dark hover:text-primary transition'>2. Indian Coffee Import Regulations</a>
-          <a href='#in-customs' className='text-dark hover:text-primary transition'>3. Customs Procedures &amp; Duties</a>
-          <a href='#in-shipping' className='text-dark hover:text-primary transition'>4. Shipping Ethiopian Coffee to India</a>
-          <a href='#in-costs' className='text-dark hover:text-primary transition'>5. Landed Cost Breakdown</a>
-          <a href='#in-specialty' className='text-dark hover:text-primary transition'>6. Indian Specialty Coffee Market</a>
-          <a href='#in-steps' className='text-dark hover:text-primary transition'>7. How to Import: Step by Step</a>
-          <a href='#in-working' className='text-dark hover:text-primary transition'>8. Working with an Ethiopian Exporter</a>
-          <a href='#in-faq' className='text-dark hover:text-primary transition'>9. Frequently Asked Questions</a>
-        </div>
+        <h3 className='text-xl font-bold mb-4 flex items-center gap-2'>
+          <HiOutlineClipboardDocumentList className='text-amber-600' />
+          In This Guide
+        </h3>
+        <ol className='space-y-2 text-sm'>
+          <li><a href='#in-market' className='text-amber-700 hover:underline'>1. Why India for Ethiopian Coffee</a></li>
+          <li><a href='#in-regulations' className='text-amber-700 hover:underline'>2. Indian Coffee Import Regulations</a></li>
+          <li><a href='#in-customs' className='text-amber-700 hover:underline'>3. Customs Procedures &amp; Duties</a></li>
+          <li><a href='#in-shipping' className='text-amber-700 hover:underline'>4. Shipping Ethiopian Coffee to India</a></li>
+          <li><a href='#in-costs' className='text-amber-700 hover:underline'>5. Landed Cost Breakdown</a></li>
+          <li><a href='#in-specialty' className='text-amber-700 hover:underline'>6. Indian Specialty Coffee Market</a></li>
+          <li><a href='#in-steps' className='text-amber-700 hover:underline'>7. How to Import: Step by Step</a></li>
+          <li><a href='#in-working' className='text-amber-700 hover:underline'>8. Working with an Ethiopian Exporter</a></li>
+          <li><a href='#in-faq' className='text-amber-700 hover:underline'>9. Frequently Asked Questions</a></li>
+        </ol>
       </div>
 
       {/* ========== SECTION 1: WHY INDIA ========== */}
