@@ -2,6 +2,28 @@ import { jsPDF } from 'jspdf'
 import { Offering } from '../data/offerings'
 import { COMPANY_NAME, COMPANY_LEGAL_NAME, COMPANY_EMAIL, COMPANY_WEBSITE } from './constants'
 
+// iOS Safari ignores the `download` attribute on blob URLs, so doc.save()
+// silently does nothing. Detect iOS and navigate to the blob URL instead,
+// which opens Safari's native PDF viewer where the user can share / save.
+// iPadOS 13+ reports as "Macintosh", so we also check for touch support.
+const isIOS = () => {
+  if (typeof navigator === 'undefined') return false
+  const ua = navigator.userAgent
+  if (/iPad|iPhone|iPod/.test(ua)) return true
+  // iPadOS 13+ disguises as Mac — detect via touch + Mac combo
+  return /Macintosh/.test(ua) && 'ontouchend' in document
+}
+
+const savePDF = (doc: jsPDF, _fileName: string) => {
+  if (isIOS()) {
+    const blob = doc.output('blob')
+    const url = URL.createObjectURL(blob)
+    window.location.href = url
+  } else {
+    doc.save(_fileName)
+  }
+}
+
 // Brand colors
 const BRAND_DARK = '#2B1810'
 const BRAND_ACCENT = '#8B4513'
@@ -220,7 +242,7 @@ export const generateProductPDF = (product: Offering) => {
 
   // Save the PDF
   const fileName = `${product.name.replace(/\s+/g, '_')}_Product_Sheet.pdf`
-  doc.save(fileName)
+  savePDF(doc, fileName)
 }
 
 export const generateMultipleProductsPDF = (products: Offering[], title: string = 'Product Catalog') => {
@@ -388,5 +410,5 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
 
   // Save the PDF
   const fileName = `${title.replace(/\s+/g, '_')}_${today.replace(/\s+/g, '_')}.pdf`
-  doc.save(fileName)
+  savePDF(doc, fileName)
 }
