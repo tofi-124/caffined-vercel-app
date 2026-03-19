@@ -5,17 +5,18 @@ import Link from 'next/link'
 import OfferingsResultsList from '../components/OfferingsResultsList'
 import { offerings, Offering } from '../data/offerings'
 
-// Lazy-load PDF generator to keep jspdf (~100 KiB) out of the initial bundle
-// Open a blank window synchronously (before await) so mobile browsers treat it
-// as a direct response to the user tap and don't block the popup / download.
-const isMobile = () =>
-  typeof navigator !== 'undefined' &&
-  /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
-
-const lazyGenerateMultipleProductsPDF = async (items: Offering[], title: string) => {
-  const win = isMobile() ? window.open('about:blank', '_blank') : null
-  const { generateMultipleProductsPDF } = await import('../lib/pdfGenerator')
-  generateMultipleProductsPDF(items, title, win)
+// Pre-load PDF module after mount so the click handler stays synchronous.
+// iOS Safari blocks blob downloads from async contexts (the `await import()`
+// breaks the user-gesture chain), so having the module ready is critical.
+let _pdfMod: typeof import('../lib/pdfGenerator') | null = null
+const preloadPdfModule = () => {
+  if (!_pdfMod) {
+    import('../lib/pdfGenerator').then(m => { _pdfMod = m })
+  }
+}
+const generateFilteredPDF = async (items: Offering[], title: string) => {
+  if (!_pdfMod) _pdfMod = await import('../lib/pdfGenerator')
+  _pdfMod.generateMultipleProductsPDF(items, title)
 }
 
 type Filters = {
@@ -46,6 +47,9 @@ const matchesKeyword = (offering: Offering, keyword: string) => {
 
 const OfferingsBrowser = () => {
   const resultsTopRef = useRef<HTMLDivElement>(null)
+
+  // Pre-load PDF generator so mobile download clicks stay synchronous
+  useEffect(() => { preloadPdfModule() }, [])
 
   const scrollToResultsTop = () => {
     if (!resultsTopRef.current) return
@@ -171,7 +175,7 @@ const OfferingsBrowser = () => {
                   : applied.grade || applied.processingMethod || applied.availability
                     ? 'ETHIO COFFEE_Filtered_Offerings'
                     : 'ETHIO COFFEE_All_Offerings'
-                lazyGenerateMultipleProductsPDF(filtered, title)
+                generateFilteredPDF(filtered, title)
               }}
               className='hidden lg:flex items-center gap-2 px-6 py-4 bg-secondary hover:bg-secondary/90 text-white border-2 border-secondary rounded-xl font-bold cursor-pointer transition-all shadow-sm hover:shadow-md'
               title='Download filtered products as PDF'
@@ -204,7 +208,7 @@ const OfferingsBrowser = () => {
                   : applied.grade || applied.processingMethod || applied.availability
                     ? 'ETHIO COFFEE_Filtered_Offerings'
                     : 'ETHIO COFFEE_All_Offerings'
-                lazyGenerateMultipleProductsPDF(filtered, title)
+                generateFilteredPDF(filtered, title)
               }}
               className='flex items-center justify-center w-14 h-14 bg-secondary hover:bg-secondary/90 text-white rounded-full shadow-lg hover:shadow-xl transition-all'
               aria-label='Download PDF'

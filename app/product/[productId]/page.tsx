@@ -6,17 +6,18 @@ import Image from 'next/image'
 import QuoteRequestPopup from '../../components/QuoteRequestPopup'
 import AddToCartButton from '../../components/AddToCartButton'
 
-// Lazy-load PDF generator to keep jspdf (~100 KiB) out of the initial bundle
-// Open a blank window synchronously (before await) so mobile browsers treat it
-// as a direct response to the user tap and don't block the popup / download.
-const isMobile = () =>
-  typeof navigator !== 'undefined' &&
-  /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
-
+// Pre-load PDF module after mount so the click handler stays synchronous.
+// iOS Safari blocks blob downloads from async contexts (the `await import()`
+// breaks the user-gesture chain), so having the module ready is critical.
+let _pdfMod: typeof import('../../lib/pdfGenerator') | null = null
+const preloadPdfModule = () => {
+  if (!_pdfMod) {
+    import('../../lib/pdfGenerator').then(m => { _pdfMod = m })
+  }
+}
 const lazyGenerateProductPDF = async (product: Parameters<typeof import('../../lib/pdfGenerator').generateProductPDF>[0]) => {
-  const win = isMobile() ? window.open('about:blank', '_blank') : null
-  const { generateProductPDF } = await import('../../lib/pdfGenerator')
-  generateProductPDF(product, win)
+  if (!_pdfMod) _pdfMod = await import('../../lib/pdfGenerator')
+  _pdfMod.generateProductPDF(product)
 }
 
 // Removing the generateStaticParams function from this client component file
@@ -39,6 +40,9 @@ const OfferingDetail = ({ params }: Props) => {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false)
   const productImageRef = useRef<HTMLDivElement>(null);
   const specsSectionRef = useRef<HTMLDivElement>(null);
+
+  // Pre-load PDF generator so mobile download clicks stay synchronous
+  useEffect(() => { preloadPdfModule() }, [])
   
   // Removed programmatic scroll - it triggered non-user-initiated layout
   // shifts (navbar spacer + TopMessage collapse) that counted toward CLS.
