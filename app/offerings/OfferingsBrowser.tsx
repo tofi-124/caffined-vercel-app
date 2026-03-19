@@ -189,10 +189,10 @@ const OfferingsBrowser = () => {
         </div>
 
         {/* Mobile action buttons - floating bottom right, above the contact FAB */}
-        <div className='lg:hidden fixed bottom-24 right-6 z-40 flex flex-col gap-3'>
+        <div className='lg:hidden fixed bottom-24 right-6 z-50 flex flex-col gap-3 pointer-events-none'>
           <button
             onClick={() => setIsFilterOpen(true)}
-            className='flex items-center justify-center w-14 h-14 bg-dark hover:bg-accent text-primary rounded-full shadow-lg hover:shadow-xl transition-all'
+            className='pointer-events-auto flex items-center justify-center w-14 h-14 bg-dark hover:bg-accent text-primary rounded-full shadow-lg hover:shadow-xl transition-all'
             aria-label='Open filters'
           >
             <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
@@ -210,7 +210,7 @@ const OfferingsBrowser = () => {
                     : 'ETHIO COFFEE_All_Offerings'
                 generateFilteredPDF(filtered, title)
               }}
-              className='flex items-center justify-center w-14 h-14 bg-secondary hover:bg-secondary/90 text-white rounded-full shadow-lg hover:shadow-xl transition-all'
+              className='pointer-events-auto flex items-center justify-center w-14 h-14 bg-secondary hover:bg-secondary/90 text-white rounded-full shadow-lg hover:shadow-xl transition-all'
               aria-label='Download PDF'
             >
               <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
