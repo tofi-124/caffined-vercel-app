@@ -2,6 +2,29 @@ import { jsPDF } from 'jspdf'
 import { Offering } from '../data/offerings'
 import { COMPANY_NAME, COMPANY_LEGAL_NAME, COMPANY_EMAIL, COMPANY_WEBSITE } from './constants'
 
+/**
+ * Mobile-safe PDF save.
+ * On mobile browsers, `doc.save()` (which uses a blob + `<a download>` click)
+ * is often blocked because:
+ *  1. iOS Safari doesn't honour the `download` attribute on blob URLs.
+ *  2. The lazy-import makes the save async, breaking the user-gesture chain.
+ *
+ * Fix: callers that lazy-load this module open a blank window *synchronously*
+ * in the click handler (before `await import`) and pass it here as
+ * `preOpenedWindow`. We then navigate that window to the blob URL.
+ * On desktop we just use `doc.save()`.
+ */
+const savePDF = (doc: jsPDF, fileName: string, preOpenedWindow?: Window | null) => {
+  if (preOpenedWindow) {
+    const blob = doc.output('blob')
+    const url = URL.createObjectURL(blob)
+    preOpenedWindow.location.href = url
+    setTimeout(() => URL.revokeObjectURL(url), 30000)
+  } else {
+    doc.save(fileName)
+  }
+}
+
 // Brand colors
 const BRAND_DARK = '#2B1810'
 const BRAND_ACCENT = '#8B4513'
@@ -9,7 +32,7 @@ const BRAND_SECONDARY = '#D2691E'
 const GRAY_600 = '#4B5563'
 const GRAY_400 = '#9CA3AF'
 
-export const generateProductPDF = (product: Offering) => {
+export const generateProductPDF = (product: Offering, preOpenedWindow?: Window | null) => {
   const doc = new jsPDF({
     orientation: 'portrait',
     unit: 'mm',
@@ -220,10 +243,10 @@ export const generateProductPDF = (product: Offering) => {
 
   // Save the PDF
   const fileName = `${product.name.replace(/\s+/g, '_')}_Product_Sheet.pdf`
-  doc.save(fileName)
+  savePDF(doc, fileName, preOpenedWindow)
 }
 
-export const generateMultipleProductsPDF = (products: Offering[], title: string = 'Product Catalog') => {
+export const generateMultipleProductsPDF = (products: Offering[], title: string = 'Product Catalog', preOpenedWindow?: Window | null) => {
   const doc = new jsPDF({
     orientation: 'portrait',
     unit: 'mm',
@@ -388,5 +411,5 @@ export const generateMultipleProductsPDF = (products: Offering[], title: string 
 
   // Save the PDF
   const fileName = `${title.replace(/\s+/g, '_')}_${today.replace(/\s+/g, '_')}.pdf`
-  doc.save(fileName)
+  savePDF(doc, fileName, preOpenedWindow)
 }

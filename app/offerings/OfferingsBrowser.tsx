@@ -6,9 +6,16 @@ import OfferingsResultsList from '../components/OfferingsResultsList'
 import { offerings, Offering } from '../data/offerings'
 
 // Lazy-load PDF generator to keep jspdf (~100 KiB) out of the initial bundle
+// Open a blank window synchronously (before await) so mobile browsers treat it
+// as a direct response to the user tap and don't block the popup / download.
+const isMobile = () =>
+  typeof navigator !== 'undefined' &&
+  /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+
 const lazyGenerateMultipleProductsPDF = async (items: Offering[], title: string) => {
+  const win = isMobile() ? window.open('about:blank', '_blank') : null
   const { generateMultipleProductsPDF } = await import('../lib/pdfGenerator')
-  generateMultipleProductsPDF(items, title)
+  generateMultipleProductsPDF(items, title, win)
 }
 
 type Filters = {

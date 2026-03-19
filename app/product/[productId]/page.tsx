@@ -7,9 +7,16 @@ import QuoteRequestPopup from '../../components/QuoteRequestPopup'
 import AddToCartButton from '../../components/AddToCartButton'
 
 // Lazy-load PDF generator to keep jspdf (~100 KiB) out of the initial bundle
+// Open a blank window synchronously (before await) so mobile browsers treat it
+// as a direct response to the user tap and don't block the popup / download.
+const isMobile = () =>
+  typeof navigator !== 'undefined' &&
+  /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+
 const lazyGenerateProductPDF = async (product: Parameters<typeof import('../../lib/pdfGenerator').generateProductPDF>[0]) => {
+  const win = isMobile() ? window.open('about:blank', '_blank') : null
   const { generateProductPDF } = await import('../../lib/pdfGenerator')
-  generateProductPDF(product)
+  generateProductPDF(product, win)
 }
 
 // Removing the generateStaticParams function from this client component file
