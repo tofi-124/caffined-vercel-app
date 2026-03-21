@@ -75,6 +75,7 @@ const readingTimeMap: Record<string, number> = {
   'ethiopian-coffee-harvest-calendar-buying-guide': 16,
   'best-coffee-guide-french-press-pour-over-scales': 19,
   'ethiopian-coffee-vs-kenyan-coffee': 14,
+  'ethiopian-coffee-vs-brazilian-coffee': 13,
   'ethiopian-coffee-traceability-guide': 14,
   'micro-lot-ethiopian-coffee-sourcing-guide': 13,
   'ethiopian-coffee-landed-cost-guide': 14,

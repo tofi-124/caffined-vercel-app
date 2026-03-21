@@ -438,6 +438,33 @@ export const posts: Post[] = [
       ],
       desc: 'Ethiopian coffee vs Kenyan coffee compared for importers and roasters: flavor profiles, SL-28 vs heirloom varieties, ECX vs Nairobi auction, grading systems, FOB pricing, seasonal availability, and sourcing guidance for both East African specialty origins.'
     },
+    // ===== ETHIOPIAN COFFEE VS BRAZILIAN COFFEE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-vs-brazilian-coffee.webp',
+      large_image_url: 'insights/ethiopian-coffee-vs-brazilian-coffee.webp',
+      date: 'Mar 20, 2026',
+      title: 'Ethiopian Coffee vs Brazilian Coffee: A Buyer\'s Comparison',
+      slug: 'ethiopian-coffee-vs-brazilian-coffee',
+      category: 'Origin Comparison / Sourcing Guide / Green Coffee / Importer Resources',
+      keywords: [
+        'ethiopian coffee vs brazilian coffee',
+        'ethiopian vs brazilian coffee',
+        'brazil vs ethiopia coffee comparison',
+        'african vs south american coffee',
+        'best coffee origin for importers',
+        'ethiopian coffee flavor vs brazilian',
+        'brazilian coffee for espresso blends',
+        'ethiopian heirloom vs brazilian varieties',
+        'FOB pricing ethiopian vs brazilian coffee',
+        'is ethiopian or brazilian coffee better for espresso',
+        'brazilian cerrado coffee',
+        'ethiopian vs brazilian coffee grading',
+        'green coffee sourcing ethiopia brazil',
+        'world largest coffee producer comparison',
+        'specialty coffee origin comparison'
+      ],
+      desc: 'Ethiopian vs Brazilian coffee compared for buyers: flavor profiles, grading, FOB pricing, varieties, and sourcing strategy for importers and roasters.'
+    },
     // ===== ETHIOPIAN COFFEE BREW PROFILES: ROASTER'S GUIDE =====
     {
       small_image_url: 'insights/best-coffee-guide-french-press-pour-over-scales.webp',
