@@ -62,6 +62,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./child-labor-strategy-document-handover').then(mod => mod.default),
     'gambella-majang-zone-coffee-production-52900-tons': () =>
       import('./gambella-majang-zone-coffee-production-52900-tons').then(mod => mod.default),
+    'co2-fermentation-boosts-natural-coffee-scores': () =>
+      import('./co2-fermentation-boosts-natural-coffee-scores').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

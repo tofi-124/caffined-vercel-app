@@ -248,5 +248,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The Majang Zone of Gambella Region produced over 52,900 tons of coffee during this year\'s harvest, a 17,186-ton increase over the previous year, with 42,624 tons processed for the central market and 68,637 hectares planted across Goderena and Mengeshi districts.',
     source: 'EZEA',
     keywords: 'Gambella coffee production, Majang Zone coffee, Ethiopian coffee harvest, Gambella Region coffee, Ethiopian coffee export, Goderena Mengeshi coffee, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee production growth Ethiopia',
+  },
+  {
+    slug: 'co2-fermentation-boosts-natural-coffee-scores',
+    date: '2026-03-20',
+    title: 'CO2 Fermentation Boosts Natural-Process Coffee Scores in Colombian Trial',
+    desc: 'A new Colombian study shows that sealed-container fermentation with carbon dioxide gas can significantly elevate natural-process coffee quality, with CO2-fermented beans scoring 86.90 vs. 82.15 for unprocessed controls on the SCA 100-point scale.',
+    source: 'Daily Coffee News',
+    keywords: 'CO2 coffee fermentation, natural process coffee, coffee fermentation science, specialty coffee quality, coffee processing innovation, SCA coffee score, Colombian coffee research, carbon dioxide coffee, Ethiopian coffee processing, Ethiopian coffee exporter',
   }
 ]
