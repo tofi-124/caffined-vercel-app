@@ -17,7 +17,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://www.ethiocoffee.co/sitemap.xml',
-    host: 'https://www.ethiocoffee.co',
+    sitemap: 'https://www.ethiocoffee.co/sitemap.xml'
   }
 }
