@@ -118,8 +118,8 @@ const whyChooseUs = [
     description: 'Unlike trading companies or brokers, we are an Ethiopian family-owned export business based at origin. Three decades of sourcing heritage across Ethiopia\'s coffee regions give us direct access to the best lots and the trusted relationships that make consistent quality possible. We also operate our own drying station in Guji Hambella, where we collect and process cherry from local farmers - deepening our hands-on involvement at origin.',
   },
   {
-    title: 'Dual Presence: Ethiopia + International',
-    description: 'Founded by two brothers: one based in Ethiopia managing sourcing, quality control, and logistics on the ground; the other Ethiopian-Canadian with international business experience handling sales, communication, and buyer relationships. This dual presence eliminates the communication gaps that frustrate many importers working with origin suppliers.',
+    title: 'Experienced Export Team',
+    description: 'Our export manager brings over 15 years of hands-on experience in international coffee trade, overseeing sourcing, quality control, logistics, and buyer relationships. Combined with our dedicated on-the-ground team in Ethiopia, we eliminate the communication gaps that frustrate many importers working with origin suppliers.',
   },
   {
     title: 'Rigorous Quality Control',
@@ -205,10 +205,11 @@ const EthiopianCoffeeExporter = () => {
             </h2>
             <div className='prose prose-lg max-w-none text-dark/90 space-y-6'>
               <p>
-                <strong>Ethio Coffee Import and Export PLC</strong> is a licensed Ethiopian coffee exporter founded by two brothers: 
-                one based in Ethiopia, the other Ethiopian-Canadian. We bridge the gap between Ethiopia's finest coffee-producing 
-                regions and the global market, combining <strong>30+ years of family expertise</strong> at origin 
-                with the communication standards and professionalism that international buyers expect.
+                <strong>Ethio Coffee Import and Export PLC</strong> is a licensed Ethiopian coffee exporter founded by two brothers,
+                bridging the gap between Ethiopia's finest coffee-producing
+                regions and the global market. With <strong>30+ years of family expertise</strong> at origin
+                and an export manager with over 15 years in international coffee trade, we deliver
+                the communication standards and professionalism that international buyers expect.
               </p>
               <p>
                 Our father spent over 30 years sourcing and trading coffee across Ethiopia's growing regions, building 

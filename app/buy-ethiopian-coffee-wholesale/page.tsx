@@ -65,7 +65,7 @@ export default function BuyWholesalePage() {
           </h1>
           <p className='text-lg md:text-xl text-primary/80 max-w-3xl mx-auto leading-relaxed mb-4'>
             <strong>Buy Ethiopian coffee wholesale</strong> directly from Ethio Coffee Import and Export PLC, a licensed, family-owned
-            Ethiopian exporter backed by 30+ years of sourcing heritage. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we
+            Ethiopian exporter backed by 30+ years of sourcing heritage. We
             supply green coffee in full container loads,
             shipped FOB Djibouti to importers and roasters in <strong>40+ countries worldwide</strong>. For a detailed walkthrough of
             <Link href='/insights/how-to-source-green-coffee-from-ethiopia' className='underline hover:text-primary/60'> how to source green coffee from Ethiopia</Link>, see our step-by-step guide.
@@ -176,7 +176,7 @@ export default function BuyWholesalePage() {
             {[
               { icon: <HiOutlineShieldCheck className="w-8 h-8" />, title: 'Licensed Ethiopian Exporter', desc: 'We hold a valid Ethiopian coffee export license issued by the Ethiopian Coffee and Tea Authority (ECTA) and operate from our office in Addis Ababa. We also run our own drying station in Guji Hambella, where we collect and process cherry from local smallholder farmers. Not a broker or trader; direct from origin.' },
               { icon: <HiOutlineBeaker className="w-8 h-8" />, title: 'SCA-Protocol Quality Control', desc: 'Every lot cupped by certified Q-graders on SCA protocol. Full cupping reports, moisture testing, defect analysis included with every shipment.' },
-              { icon: <HiOutlineChatBubbleLeftRight className="w-8 h-8" />, title: '24-Hour Response Time', desc: 'One brother manages sourcing and operations on the ground in Ethiopia. The other is Ethiopian-Canadian with international business experience. This dual-timezone team ensures fast communication. Inquiries answered within 24 hours, always.' },
+              { icon: <HiOutlineChatBubbleLeftRight className="w-8 h-8" />, title: '24-Hour Response Time', desc: 'Our export manager, with 15+ years in international coffee trade, leads sourcing and buyer communications from Ethiopia. This experienced, on-the-ground team ensures fast communication. Inquiries answered within 24 hours, always.' },
               { icon: <HiOutlineDocumentCheck className="w-8 h-8" />, title: 'Complete Documentation', desc: 'ICO certificates, phytosanitary, certificate of origin, weight & quality certificates - all export paperwork handled end-to-end.' },
               { icon: <HiOutlineTruck className="w-8 h-8" />, title: 'FOB or FCA Shipping', desc: 'Ship FOB Djibouti for ocean freight or FCA Addis Ababa dry port for air freight. We work with your preferred freight forwarder or can recommend trusted logistics partners.' },
               { icon: <HiOutlineShoppingBag className="w-8 h-8" />, title: 'Flexible Order Sizes', desc: 'Standard FCL containers (~20 metric tons / 44,000 lbs). You can mix origins and grades to fill a container. LCL is possible but rarely recommended due to higher per-kg cost and added handling risk.' },

@@ -248,7 +248,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
               <div className='flex-shrink-0 w-10 h-10 rounded-full bg-dark text-primary flex items-center justify-center font-bold'>1</div>
               <div>
                 <h3 className='font-bold text-dark'>Certified Farms & Cooperatives</h3>
-                <p className='mt-1'>We source exclusively from cooperatives and farms that hold current, valid organic certifications issued by accredited bodies (Control Union, Ecocert, IMO). Certification documents are verified before any purchase. Founded by two brothers - one managing sourcing and operations in Ethiopia, the other Ethiopian-Canadian handling international buyer relationships - we draw on 30+ years of family heritage in Ethiopian coffee to maintain trusted sourcing partnerships.</p>
+                <p className='mt-1'>We source exclusively from cooperatives and farms that hold current, valid organic certifications issued by accredited bodies (Control Union, Ecocert, IMO). Certification documents are verified before any purchase. With 30+ years of family heritage in Ethiopian coffee and an export manager with over 15 years in international trade, we maintain trusted sourcing partnerships across Ethiopia&apos;s growing regions.</p>
               </div>
             </div>
             <div className='flex gap-4'>
@@ -337,8 +337,7 @@ export default function OrganicEthiopianCoffeeExportPage() {
           <h2 className='text-3xl font-extrabold mb-4'>Ready to Source Organic Ethiopian Coffee?</h2>
           <p className='text-primary/70 mb-8 text-lg'>
             Tell us your certification requirements, preferred origins, and volumes.
-            We&apos;ll provide current availability, pricing, and samples. Founded by two brothers 
-            with 30+ years of family sourcing heritage, we respond within 24 hours.
+            We&apos;ll provide current availability, pricing, and samples. With 30+ years of family sourcing heritage, we respond within 24 hours.
           </p>
           <div className='flex flex-wrap justify-center gap-4'>
             <Link href='/offerings' className='bg-accent text-white px-8 py-3 rounded font-bold hover:bg-accent/90 transition-colors'>

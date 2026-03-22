@@ -149,7 +149,7 @@ const WholesaleInquiryPage = () => {
                 ETHIOPIAN COFFEE FOR IMPORTERS WORLDWIDE
               </h2>
               <p className='mb-4 text-dark/80 leading-relaxed'>
-                Ethio Coffee Import and Export PLC is a dedicated Ethiopian coffee exporter connecting traceable origin coffee with importers worldwide. Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - we combine deep local knowledge with international business experience.
+                Ethio Coffee Import and Export PLC is a dedicated Ethiopian coffee exporter connecting traceable origin coffee with importers worldwide. With deep local knowledge and an export manager with 15+ years of international trade experience, we deliver the quality and communication importers expect.
               </p>
               <p className='text-dark/80 leading-relaxed'>
                 Based in Addis Ababa, we export directly to importers around the globe. In Guji Hambella, we collect cherry from smallholder farmers and process it at our own drying station. Across other key origins like Yirgacheffe, Sidama, Harar, Limu, and Jimma/Kaffa, we source through trusted cooperatives and washing stations we have worked with for years. Everything is fully traceable back to the source.

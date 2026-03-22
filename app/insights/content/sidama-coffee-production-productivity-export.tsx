@@ -535,7 +535,7 @@ export default function SidamaCoffeeProductionProductivityExport({ title, date, 
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian-Canadian coffee exporter with 30+ years of sourcing relationships across Ethiopia&apos;s coffee regions. Production data in this article is based on reporting from the Sidama Regional Coffee, Fruit, and Spices Authority. Contact us for current availability and pricing.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian coffee exporter with 30+ years of sourcing relationships across Ethiopia&apos;s coffee regions. Production data in this article is based on reporting from the Sidama Regional Coffee, Fruit, and Spices Authority. Contact us for current availability and pricing.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> {' · '}

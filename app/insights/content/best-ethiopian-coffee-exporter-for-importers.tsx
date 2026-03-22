@@ -138,7 +138,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
             <tr className='bg-gray-50'>
               <td className='border border-gray-200 px-4 py-2 font-semibold'>Communication</td>
               <td className='border border-gray-200 px-4 py-2'>Responsive, bilingual team that bridges origin and buyer time zones</td>
-              <td className='border border-gray-200 px-4 py-2'>Dual presence: one co-founder in Addis Ababa, one Ethiopian-Canadian handling international markets</td>
+              <td className='border border-gray-200 px-4 py-2'>Experienced export manager with 15+ years in international coffee trade, based in Addis Ababa</td>
             </tr>
           </tbody>
         </table>
@@ -364,7 +364,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
       </h2>
 
       <p className='my-4'>
-        Ethio Coffee serves importers, roasters, distributors, and private-label brands across more than 40 countries. The company&apos;s dual-presence structure, one co-founder based in Addis Ababa managing sourcing and export operations, the other an Ethiopian-Canadian co-founder handling international buyer relationships, eliminates the communication gap that frequently frustrates importers working with origin-based suppliers.
+        Ethio Coffee serves importers, roasters, distributors, and private-label brands across more than 40 countries. The company&apos;s experienced export team, led by a manager with over 15 years in international coffee trade, manages sourcing and export operations from Addis Ababa, eliminating the communication gap that frequently frustrates importers working with origin-based suppliers.
       </p>
 
       <div className='overflow-x-auto my-6'>
@@ -379,7 +379,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
           <tbody className='divide-y divide-gray-200 text-gray-700'>
             <tr>
               <td className='border border-gray-200 px-4 py-2 font-semibold'>North America</td>
-              <td className='border border-gray-200 px-4 py-2'>Direct FCL shipments via Djibouti. Clear communication from Ethiopian-Canadian co-founder. Established routes to major US and Canadian ports.</td>
+              <td className='border border-gray-200 px-4 py-2'>Direct FCL shipments via Djibouti. Clear communication from our experienced export team. Established routes to major US and Canadian ports.</td>
               <td className='border border-gray-200 px-4 py-2'>
                 <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>USA</Link>{' · '}
                 <Link href='/insights/importing-ethiopian-coffee-to-canada-guide' className='text-amber-700 hover:underline'>Canada</Link>
@@ -459,7 +459,7 @@ export default function BestEthiopianCoffeeExporterForImporters({ title, date, l
           <div>
             <h3 className='font-bold text-gray-800 mb-2'>What makes Ethio Coffee one of the best Ethiopian coffee exporters?</h3>
             <p className='text-sm text-gray-600'>
-              Three decades of heritage sourcing relationships across six Ethiopian coffee regions, an average SCA cup score of 84+, full lot traceability from washing station to destination port, and a dual-presence team bridging Ethiopia and international markets. These capabilities are verifiable through samples, documentation, and references.
+              Three decades of heritage sourcing relationships across six Ethiopian coffee regions, an average SCA cup score of 84+, full lot traceability from washing station to destination port, and an experienced export team with 15+ years in international coffee trade. These capabilities are verifiable through samples, documentation, and references.
             </p>
           </div>
           <div>

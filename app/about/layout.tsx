@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'About Us | Ethiopian Coffee Export Company | Ethio Coffee',
-    description: 'Family-built Ethiopian coffee export company founded by two brothers, connecting traceable Ethiopian green coffee with importers worldwide.',
+    description: 'Family-built Ethiopian coffee export company connecting traceable Ethiopian green coffee with importers worldwide.',
     url: 'https://www.ethiocoffee.co/about',
     type: 'website',
     images: [
@@ -39,7 +39,7 @@ export default function AboutLayout({
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "About Ethio Coffee",
-    "description": "Ethiopian coffee exporter founded by two brothers with 30+ years family legacy. We serve importers worldwide with traceable Grade 1-4 green coffee.",
+    "description": "Ethiopian coffee exporter with 30+ years family legacy. We serve importers worldwide with traceable Grade 1-4 green coffee.",
     "url": "https://www.ethiocoffee.co/about",
     "mainEntity": {
       "@type": "Organization",

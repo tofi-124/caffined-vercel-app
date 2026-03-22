@@ -70,7 +70,7 @@ export default function TermsPage() {
                 Ethiopian coffee offerings and facilitating business-to-business inquiries for coffee export supply to importers worldwide.
               </p>
               <p>
-                Founded by two brothers - one based in Ethiopia, one Ethiopian-Canadian - Ethio Coffee Import and Export PLC is registered with the Ethiopian Commodity Exchange (ECX) for coffee export.
+                Ethio Coffee Import and Export PLC is registered with the Ethiopian Commodity Exchange (ECX) for coffee export.
               </p>
             </Section>
 

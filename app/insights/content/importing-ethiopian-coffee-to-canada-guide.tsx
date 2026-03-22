@@ -810,7 +810,7 @@ export default function ImportingEthiopianCoffeeToCanada({ title, date, large_im
       {/* FOOTER */}
       <div className='border-t border-gray-300 mt-10 pt-6'>
         <p className='text-sm text-gray-600 font-inconsolata'>
-          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian-Canadian coffee exporter with 30+ years of sourcing relationships across Ethiopia&apos;s coffee regions. Canadian import regulations, CARM requirements, duty rates, and shipping costs change with government policy and market conditions. Contact us for current information before making purchasing decisions.
+          <span className='font-bold'>About This Insight:</span> Published by Ethio Coffee Import and Export PLC, an Ethiopian coffee exporter with 30+ years of sourcing relationships across Ethiopia&apos;s coffee regions. Canadian import regulations, CARM requirements, duty rates, and shipping costs change with government policy and market conditions. Contact us for current information before making purchasing decisions.
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> {' · '}

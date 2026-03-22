@@ -1001,7 +1001,7 @@ export const posts: Post[] = [
         'sidamo coffee exporter',
         'guji coffee exporter'
       ],
-      desc: 'Ethio Coffee Import and Export PLC evaluated against six core criteria international buyers use to choose an Ethiopian coffee exporter: sourcing depth across 6 regions, 84+ SCA cup scores, full lot traceability, complete export documentation, FOB/FCA logistics, and dual-presence communication serving 40+ countries.'
+      desc: 'Ethio Coffee Import and Export PLC evaluated against six core criteria international buyers use to choose an Ethiopian coffee exporter: sourcing depth across 6 regions, 84+ SCA cup scores, full lot traceability, complete export documentation, FOB/FCA logistics, and experienced export team communication serving 40+ countries.'
     },
     // ===== COFFEE CULTURE & HERITAGE (Foundation) =====
     {

@@ -68,7 +68,7 @@ export default function EthioCoffeeExportLaunch({ title, date, large_image_url }
       <ul className='font-inconsolata my-4 list-disc ml-5 space-y-2'>
         <li><span className='font-bold'>Heritage sourcing relationships:</span> Our family spent over 30 years working in Ethiopia&apos;s coffee regions, building trust with cooperatives, washing stations, and farming communities. Those relationships are the foundation of every lot we export. <Link href='/about' className='underline text-amber-700'>Read our full story</Link>.</li>
         <li><span className='font-bold'>Our own drying station in Guji Hambella:</span> We collect cherry directly from smallholder farmers in one of Ethiopia&apos;s highest-scoring specialty origins. We control processing from cherry intake through drying, which gives importers a level of traceability and quality oversight that most exporters cannot offer.</li>
-        <li><span className='font-bold'>A team on both sides:</span> One brother manages sourcing and operations on the ground in Ethiopia. The other, an Ethiopian-Canadian, handles international buyer relationships. This structure removes the communication gap that importers consistently cite as their top frustration with origin suppliers.</li>
+        <li><span className='font-bold'>An experienced team on the ground:</span> Our export manager, with over 15 years in international coffee trade, leads sourcing and operations in Ethiopia. This experienced, origin-based team removes the communication gap that importers consistently cite as their top frustration with origin suppliers.</li>
       </ul>
 
       <p className='my-4'>

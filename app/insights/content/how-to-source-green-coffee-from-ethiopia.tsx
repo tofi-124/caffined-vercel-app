@@ -465,7 +465,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
         <li className='my-2'><span className='font-bold'>Complete Traceability:</span> Every lot comes with origin details, processing information, and quality documentation from our Addis Ababa warehouse.</li>
         <li className='my-2'><span className='font-bold'>Sample Programs:</span> Request samples from current-crop lots before committing to a purchase.</li>
         <li className='my-2'><span className='font-bold'>Professional Export Service:</span> Full documentation, flexible shipping terms (FOB Djibouti or FCA Addis dry port), and freight forwarder coordination.</li>
-        <li className='my-2'><span className='font-bold'>Responsive Communication:</span> With one brother on the ground in Ethiopia and one Ethiopian-Canadian, we bridge time zones and provide the responsive support importers expect.</li>
+        <li className='my-2'><span className='font-bold'>Responsive Communication:</span> With an export manager with 15+ years in international trade and a dedicated team on the ground in Ethiopia, we provide the responsive support importers expect.</li>
         <li className='my-2'><span className='font-bold'>All Grades Available:</span> G1 through G5, specialty to commercial, washed and natural processed.</li>
       </ul>
 
