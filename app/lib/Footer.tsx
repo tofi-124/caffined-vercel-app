@@ -202,12 +202,12 @@ const Footer = () => {
           <p className="mt-3 flex items-center justify-center gap-1 text-sm text-dark/70">
             <span>made by</span>
             <a
-              href="mailto:nusey51@gmail.com"
+              href="mailto:tofikahm@yahoo.com"
               target="_blank"
               rel="noopener noreferrer"
               className="underline underline-offset-4 hover:text-dark transition-colors"
             >
-              nusu.m
+              tofi124
             </a>
           </p>
         </div>
