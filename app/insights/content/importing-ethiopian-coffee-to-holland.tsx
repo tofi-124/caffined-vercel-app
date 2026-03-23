@@ -657,6 +657,7 @@ export default function ImportingEthiopianCoffeeToHolland({ title, date, large_i
               <li>&#8226; <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Export Process Guide</Link></li>
               <li>&#8226; <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX and Ethiopian Coffee Export</Link></li>
               <li>&#8226; <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline'>Ethiopian Coffee Landed Cost Guide</Link></li>
+              <li>&#8226; <Link href='/insights/importing-ethiopian-coffee-to-nordic-countries' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Nordic Countries</Link></li>
             </ul>
 
             <h4 className='font-semibold mb-2 mt-4 text-sm'>Regulations &amp; Compliance</h4>

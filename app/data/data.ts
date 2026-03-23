@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO NORDIC COUNTRIES =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-nordic-countries.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-nordic-countries.webp',
+      date: 'Mar 23, 2026',
+      title: 'Import Ethiopian Coffee to Nordic Countries',
+      slug: 'importing-ethiopian-coffee-to-nordic-countries',
+      category: 'Import Guide / Nordic Market / Ethiopian Coffee Export / Scandinavian Specialty Coffee',
+      keywords: [
+        'import Ethiopian coffee Nordic countries',
+        'Ethiopian coffee Scandinavia',
+        'Nordic specialty coffee import',
+        'Ethiopian coffee Sweden Norway Finland Denmark',
+        'Ethiopian coffee Nordic market',
+        'Scandinavian coffee import regulations',
+        'Nordic coffee buyers guide',
+        'Ethiopian green coffee Sweden',
+        'Ethiopian coffee Norway import',
+        'Nordic light roast Ethiopian coffee',
+        'EUDR Ethiopian coffee Nordic',
+        'certified Ethiopian coffee Scandinavia',
+        'Ethiopian coffee trade agents Nordic',
+        'shipping Ethiopian coffee Nordic ports',
+        'Ethiopian coffee landed cost Nordic'
+      ],
+      desc: 'Guide to importing Ethiopian coffee to Nordic countries: EU regulations, certification needs, Nordic roaster segments, port logistics, and cost breakdown.'
+    },
     // ===== GREEN COFFEE MOISTURE CONTENT & WATER ACTIVITY GUIDE =====
     {
       small_image_url: 'insights/green-coffee-moisture-content-water-activity-guide.webp',

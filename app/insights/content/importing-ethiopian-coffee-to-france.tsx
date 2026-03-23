@@ -814,6 +814,7 @@ export default function ImportingEthiopianCoffeeToFrance({ title, date, large_im
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to UK</Link></li>
               <li>&bull; <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR Compliance Guide for Ethiopian Coffee</Link></li>
               <li>&bull; <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to USA</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-nordic-countries' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Nordic Countries</Link></li>
             </ul>
           </div>
           <div>
