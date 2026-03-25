@@ -64,6 +64,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./gambella-majang-zone-coffee-production-52900-tons').then(mod => mod.default),
     'co2-fermentation-boosts-natural-coffee-scores': () =>
       import('./co2-fermentation-boosts-natural-coffee-scores').then(mod => mod.default),
+    'eu-cafe-project-six-month-review': () =>
+      import('./eu-cafe-project-six-month-review').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

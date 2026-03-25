@@ -256,5 +256,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'A new Colombian study shows that sealed-container fermentation with carbon dioxide gas can significantly elevate natural-process coffee quality, with CO2-fermented beans scoring 86.90 vs. 82.15 for unprocessed controls on the SCA 100-point scale.',
     source: 'Daily Coffee News',
     keywords: 'CO2 coffee fermentation, natural process coffee, coffee fermentation science, specialty coffee quality, coffee processing innovation, SCA coffee score, Colombian coffee research, carbon dioxide coffee, Ethiopian coffee processing, Ethiopian coffee exporter',
+  },
+  {
+    slug: 'eu-cafe-project-six-month-review',
+    date: '2026-03-24',
+    title: 'EU-CAFÉ Project Reviews Progress, Sets Focus for Next Quarter',
+    desc: 'The EU-CAFÉ Project under the Ethiopian Coffee and Tea Authority completed a two-day performance review confirming six-month activities are on track, and set coordination, data management, and result-oriented priorities for the final three months.',
+    source: 'Ethiopian Coffee and Tea Authority',
+    keywords: 'EU-CAFÉ project Ethiopia, Ethiopian coffee development project, Ethiopian Coffee and Tea Authority, coffee sector improvement Ethiopia, Ethiopian coffee quality productivity, EU coffee project Ethiopia, Ethiopian coffee exporter, coffee bottleneck Ethiopia, regional coffee Ethiopia',
   }
 ]
