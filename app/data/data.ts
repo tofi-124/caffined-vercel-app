@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE ESPRESSO BLEND SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-espresso-blend-sourcing-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-espresso-blend-sourcing-guide.webp',
+      date: 'Mar 25, 2026',
+      title: 'Ethiopian Coffee for Espresso Blends',
+      slug: 'ethiopian-coffee-espresso-blend-sourcing-guide',
+      category: 'Espresso Blending / Sourcing Guide / Roaster Resources / Green Coffee Buying',
+      keywords: [
+        'Ethiopian coffee espresso blend',
+        'Ethiopian coffee for espresso',
+        'espresso blend sourcing',
+        'Ethiopian espresso blend components',
+        'Ethiopian coffee roasting espresso',
+        'best Ethiopian coffee for espresso blends',
+        'how to use Ethiopian coffee in espresso blends',
+        'Ethiopian origin espresso blend building',
+        'which Ethiopian coffee is best for espresso blends',
+        'Ethiopian natural vs washed espresso blend',
+        'espresso blend architecture Ethiopian coffee',
+        'Ethiopian green coffee espresso roasters',
+        'specialty espresso Ethiopian origins',
+        'Ethiopian coffee blend ratio guide',
+        'espresso blend development samples Ethiopian'
+      ],
+      desc: 'Source Ethiopian coffee for espresso blends: best origins, processes, grades, blend roles, and roast strategies for specialty roasters.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO NORDIC COUNTRIES =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-nordic-countries.webp',
