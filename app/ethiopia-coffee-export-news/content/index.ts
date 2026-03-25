@@ -66,6 +66,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./co2-fermentation-boosts-natural-coffee-scores').then(mod => mod.default),
     'eu-cafe-project-six-month-review': () =>
       import('./eu-cafe-project-six-month-review').then(mod => mod.default),
+    'huichuan-china-invest-ethiopia-coffee-processing': () =>
+      import('./huichuan-china-invest-ethiopia-coffee-processing').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

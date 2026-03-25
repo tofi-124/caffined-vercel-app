@@ -264,5 +264,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The EU-CAFÉ Project under the Ethiopian Coffee and Tea Authority completed a two-day performance review confirming six-month activities are on track, and set coordination, data management, and result-oriented priorities for the final three months.',
     source: 'Ethiopian Coffee and Tea Authority',
     keywords: 'EU-CAFÉ project Ethiopia, Ethiopian coffee development project, Ethiopian Coffee and Tea Authority, coffee sector improvement Ethiopia, Ethiopian coffee quality productivity, EU coffee project Ethiopia, Ethiopian coffee exporter, coffee bottleneck Ethiopia, regional coffee Ethiopia',
+  },
+  {
+    slug: 'huichuan-china-invest-ethiopia-coffee-processing',
+    date: '2026-03-25',
+    title: 'Chinese Giant Huichuan to Invest in Ethiopia\'s Coffee Processing',
+    desc: 'Chinese industrial firm Huichuan Freeze-Dried Health Food announced plans to establish large-scale freeze-dried coffee processing operations in Ethiopia, meeting with ECTA leadership in Addis Ababa.',
+    source: 'Ethiopian Coffee and Tea Authority',
+    keywords: 'Chinese investment Ethiopia coffee, Huichuan freeze-dried coffee Ethiopia, Ethiopian coffee processing investment, foreign direct investment Ethiopia coffee, ECTA investment Ethiopia, freeze-dried coffee powder Ethiopia, Ethiopian coffee value-added processing, Ethiopia coffee industrial park, Ethiopian coffee export FDI',
   }
 ]
