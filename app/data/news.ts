@@ -272,5 +272,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'Chinese industrial firm Huichuan Freeze-Dried Health Food announced plans to establish large-scale freeze-dried coffee processing operations in Ethiopia, meeting with ECTA leadership in Addis Ababa.',
     source: 'Ethiopian Coffee and Tea Authority',
     keywords: 'Chinese investment Ethiopia coffee, Huichuan freeze-dried coffee Ethiopia, Ethiopian coffee processing investment, foreign direct investment Ethiopia coffee, ECTA investment Ethiopia, freeze-dried coffee powder Ethiopia, Ethiopian coffee value-added processing, Ethiopia coffee industrial park, Ethiopian coffee export FDI',
+  },
+  {
+    slug: 'thermoplan-caritas-ethiopia-coffee-development',
+    date: '2026-03-26',
+    title: 'Thermoplan and Caritas Switzerland Meet Ethiopian Coffee Authorities',
+    desc: 'Switzerland\'s Thermoplan and Caritas Switzerland met with Ethiopian Coffee and Tea Authority officials to discuss production modernization, value chain reform, and the uniqueBean Project strengthening smallholder farmers in the Harena Forest, Bale Zone.',
+    source: 'Ibushaba',
+    keywords: 'Thermoplan Ethiopia coffee, Caritas Switzerland coffee Ethiopia, uniqueBean Project Ethiopia, Ethiopian coffee value chain reform, Harena Forest coffee, Bale Zone coffee, Ethiopian coffee smallholder farmers, Ethiopian coffee exporter, Swiss Ethiopia coffee cooperation, Ethiopian coffee authority',
   }
 ]
