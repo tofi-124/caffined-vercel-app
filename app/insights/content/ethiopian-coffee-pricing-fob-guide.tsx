@@ -184,7 +184,7 @@ export default function EthiopianCoffeePricingFobGuide({ title, date, large_imag
         <div className='bg-gray-50 p-5 rounded-lg border border-gray-200'>
           <h4 className='font-bold mb-2'>6. Global Supply and Demand</h4>
           <p className='text-sm'>
-            When global Arabica supply tightens (for example, due to a poor Brazilian harvest), demand for Ethiopian coffee increases and prices rise. Conversely, in years of global oversupply, Ethiopian prices may stabilize or soften as buyers have more options.
+            When global Arabica supply tightens (for example, due to a poor Brazilian harvest), demand for Ethiopian coffee increases and prices rise. Conversely, in years of global oversupply, Ethiopian prices may stabilize or soften as buyers have more options. For a detailed analysis of how <Link href='/insights/coffee-prices-falling-global-production-record' className='underline font-semibold'>record global production levels are driving price corrections</Link> and what this means for importers, see our market intelligence guide.
           </p>
         </div>
       </div>

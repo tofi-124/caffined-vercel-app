@@ -331,7 +331,7 @@ export default function RisingEthiopianCoffeePricesExplained({ title, date, larg
           The consensus among coffee market analysts is that a return to 2015 to 2020 price levels ($1.00 to $1.50/lb C-market) is unlikely. The new normal for the C-market is projected at $2.20 to $2.80/lb, with Ethiopian specialty coffees maintaining $2.00 to $3.00/lb premiums above that baseline. Ethiopian specialty FOB prices of $4.50 to $6.00/lb may become standard rather than exceptional.
         </p>
         <p className='text-sm'>
-          Downward pressure could come from Brazilian production recovery (2027 to 2028) and Vietnamese Robusta normalization. Upward pressure comes from continued climate impacts, aging farmer demographics, disease spread, and specialty demand growth outpacing supply.
+          Downward pressure could come from Brazilian production recovery (2027 to 2028) and Vietnamese Robusta normalization. Global coffee production is already <Link href='/insights/coffee-prices-falling-global-production-record' className='underline font-semibold'>reaching record levels and pushing prices lower</Link> as Brazil, Vietnam, and Ethiopia all post higher yields. Upward pressure comes from continued climate impacts, aging farmer demographics, disease spread, and specialty demand growth outpacing supply.
         </p>
       </div>
 

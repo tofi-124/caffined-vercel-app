@@ -302,6 +302,7 @@ export default function EthiopianCoffeeClimateChangeImpact({ title, date, large_
         <li>
           <span className='font-bold'>Wider Price Volatility:</span> Climate-driven yield swings amplify the already volatile C-market.
           In 2024/25, some origins saw 25 percent year-over-year production declines, while neighboring zones performed normally, creating intra-regional price spreads of $2–4/kg FOB.
+          When conditions normalize, however, <Link href='/insights/coffee-prices-falling-global-production-record' className='underline font-bold'>record global production can push prices sharply in the opposite direction</Link>.
         </li>
         <li>
           <span className='font-bold'>Vintage-Year Thinking:</span> Importers are beginning to adopt wine-industry thinking about &quot;vintages.&quot;

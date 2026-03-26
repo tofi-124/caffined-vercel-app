@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== COFFEE PRICES FALLING AS GLOBAL PRODUCTION HITS RECORD =====
+    {
+      small_image_url: 'insights/coffee-prices-falling-global-production-record.webp',
+      large_image_url: 'insights/coffee-prices-falling-global-production-record.webp',
+      date: 'Mar 26, 2026',
+      title: 'Coffee Prices Falling as Production Hits Record Levels',
+      slug: 'coffee-prices-falling-global-production-record',
+      category: 'Market Intelligence / Coffee Pricing / Supply & Demand / Importer Resources',
+      keywords: [
+        'coffee prices falling',
+        'global coffee production record',
+        'coffee surplus 2026',
+        'coffee price forecast 2026',
+        'why are coffee prices falling',
+        'world coffee production 2026',
+        'global coffee surplus buying opportunity',
+        'coffee production rising prices falling',
+        'Ethiopian coffee market 2026',
+        'coffee price decline importers',
+        'Rabobank coffee forecast',
+        'World Bank coffee prices',
+        'Brazil record coffee crop',
+        'coffee supply and demand 2026',
+        'green coffee buying strategy surplus'
+      ],
+      desc: 'Global coffee production hits a record 180 million bags as prices retreat. What the supply surplus means for Ethiopian green coffee importers in 2026/27.'
+    },
     // ===== ETHIOPIAN COFFEE ESPRESSO BLEND SOURCING GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-espresso-blend-sourcing-guide.webp',
