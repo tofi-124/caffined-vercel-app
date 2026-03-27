@@ -61,13 +61,13 @@ export default function ContactFAB() {
   return (
     <div
       ref={containerRef}
-      className={`fixed right-6 bottom-6 z-[60] flex flex-col items-center gap-3 transition-all duration-300 ${
+      className={`fixed right-6 bottom-6 z-50 flex items-end gap-3 transition-all duration-300 ${
         isVisible && !(isMobile && heroVisible) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'
       }`}
     >
-      {/* Expanded options */}
-      <div className={`flex flex-col items-center gap-3 transition-all duration-300 ${
-        isOpen ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-75 translate-y-4 pointer-events-none'
+      {/* Expanded options - horizontal (to the left) on mobile, vertical (upward) on desktop */}
+      <div className={`flex items-center gap-3 transition-all duration-300 md:flex-col md:items-center ${
+        isOpen ? 'opacity-100 scale-100 translate-x-0 md:translate-y-0' : 'opacity-0 scale-75 translate-x-4 md:translate-x-0 md:translate-y-4 pointer-events-none'
       }`}>
         {/* WhatsApp */}
         {whatsappUrl && (
