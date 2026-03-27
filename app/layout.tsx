@@ -76,6 +76,18 @@ export default function RootLayout({
             already preloads the correctly optimized /_next/image version */}
         <link rel="preconnect" href="https://pub-a50856304cf24e0c890889f05812d10b.r2.dev" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://pub-a50856304cf24e0c890889f05812d10b.r2.dev" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-7XP6DNBM6J"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-7XP6DNBM6J');
+          `}
+        </Script>
       </head>
       <body className={`${oswald.className} ${inconsolata.variable} bg-primary`}>
         <Script
