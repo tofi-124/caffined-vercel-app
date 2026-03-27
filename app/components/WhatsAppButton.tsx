@@ -61,7 +61,7 @@ export default function ContactFAB() {
   return (
     <div
       ref={containerRef}
-      className={`fixed right-6 bottom-6 z-50 flex items-end gap-3 transition-all duration-300 ${
+      className={`fixed right-6 bottom-6 z-50 flex items-end gap-3 md:flex-col md:items-center transition-all duration-300 ${
         isVisible && !(isMobile && heroVisible) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'
       }`}
     >
