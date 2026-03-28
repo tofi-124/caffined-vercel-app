@@ -70,6 +70,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./huichuan-china-invest-ethiopia-coffee-processing').then(mod => mod.default),
     'thermoplan-caritas-ethiopia-coffee-development': () =>
       import('./thermoplan-caritas-ethiopia-coffee-development').then(mod => mod.default),
+    'ectms-handover-ecta-giz-traceability': () =>
+      import('./ectms-handover-ecta-giz-traceability').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

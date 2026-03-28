@@ -274,6 +274,14 @@ export const newsArticles: NewsArticle[] = [
     keywords: 'Chinese investment Ethiopia coffee, Huichuan freeze-dried coffee Ethiopia, Ethiopian coffee processing investment, foreign direct investment Ethiopia coffee, ECTA investment Ethiopia, freeze-dried coffee powder Ethiopia, Ethiopian coffee value-added processing, Ethiopia coffee industrial park, Ethiopian coffee export FDI',
   },
   {
+    slug: 'ectms-handover-ecta-giz-traceability',
+    date: '2026-03-28',
+    title: 'Ethiopia Completes ECTMS Handover — A Digital Shield for Coffee Traceability',
+    desc: 'ECTA officially concluded the technical handover of the Ethiopian Coffee Traceability and Management System (ECTMS), developed with GIZ, delivering farm-level geodata, real-time logistics tracking, and deforestation risk analysis to meet EUDR requirements and protect smallholder farmer livelihoods.',
+    source: 'Ethiopian Coffee and Tea Authority',
+    keywords: 'Ethiopian coffee traceability, ECTMS Ethiopia, ECTA GIZ digital system, Ethiopian coffee EUDR compliance, Ethiopian coffee traceability technology, EUDR Ethiopian coffee, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee geodata Ethiopia, coffee deforestation regulation',
+  },
+  {
     slug: 'thermoplan-caritas-ethiopia-coffee-development',
     date: '2026-03-26',
     title: 'Thermoplan and Caritas Switzerland Meet Ethiopian Coffee Authorities',
