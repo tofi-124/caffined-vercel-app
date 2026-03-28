@@ -55,7 +55,7 @@ export default function EthiopianCoffeeBrewProfilesRoastersGuide({ title, date, 
         Most published brew guides target home consumers with one-size-fits-all recipes. That approach fails roasters who need to develop lot-specific parameters for their wholesale cafe accounts and retail packaging. This guide fills that gap: region-by-region extraction parameters for pour-over, espresso, and batch brew, calibrated for the unique density, solubility, and particle behavior of <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='text-amber-700 hover:underline'>Ethiopian heirloom varieties</Link>.
       </p>
       <p className='my-4'>
-        Every parameter in this article reflects common ranges observed when brewing specialty-grade Ethiopian lots roasted between 15% and 25% development time ratio (DTR). Adjust based on your specific lot, roast profile, and equipment. Use a refractometer to verify extraction yield and confirm that sensory results match measured data.
+        Every parameter in this article reflects common ranges observed when brewing specialty-grade Ethiopian lots roasted between 15% and 25% development time ratio (DTR). Adjust based on your specific lot, roast profile, and equipment. A precise <a href='https://bestcoffeeguide.com/best-coffee-scales/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>coffee scale</a> and a refractometer are the two most important tools for verifying extraction yield and confirming that sensory results match measured data.
       </p>
 
       {/* WHY ETHIOPIAN COFFEE DEMANDS ORIGIN-SPECIFIC BREW PARAMETERS */}
@@ -638,7 +638,7 @@ export default function EthiopianCoffeeBrewProfilesRoastersGuide({ title, date, 
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Export Services</Link> &middot; <Link href='/about' className='underline'>About</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
-          <span className='font-bold'>External Resource:</span> <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='underline'>Best Coffee Guide</a> &mdash; guides on French press, pour-over methods, and scale recommendations.
+          <span className='font-bold'>External Resource:</span> <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='underline'>Best Coffee Guide</a> &mdash; guides on <a href='https://bestcoffeeguide.com/best-french-press-coffee-makers/' target='_blank' rel='noopener noreferrer' className='underline'>French press</a>, <a href='https://bestcoffeeguide.com/best-pour-over-coffee-makers/' target='_blank' rel='noopener noreferrer' className='underline'>pour-over drippers</a>, and <a href='https://bestcoffeeguide.com/best-coffee-scales/' target='_blank' rel='noopener noreferrer' className='underline'>coffee scales</a>.
         </p>
       </div>
     </>

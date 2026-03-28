@@ -49,7 +49,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        Knowing <strong>how to make coffee without a coffeemaker</strong> is a practical skill that every coffee drinker, roaster, and buyer should have. Your machine may break. You may find yourself in a hotel room, a campsite, or a kitchen with nothing but a stove and a pot. Or you may simply want to evaluate a sample of single-origin beans without relying on specialized equipment. For comprehensive guides on brewing equipment like French press, pour-over drippers, and scales, visit <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Best Coffee Guide</a>.
+        Knowing <strong>how to make coffee without a coffeemaker</strong> is a practical skill that every coffee drinker, roaster, and buyer should have. Your machine may break. You may find yourself in a hotel room, a campsite, or a kitchen with nothing but a stove and a pot. Or you may simply want to evaluate a sample of single-origin beans without relying on specialized equipment. For comprehensive guides on brewing equipment like <a href='https://bestcoffeeguide.com/best-french-press-coffee-makers/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>French press</a>, <a href='https://bestcoffeeguide.com/best-pour-over-coffee-makers/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>pour-over drippers</a>, and <a href='https://bestcoffeeguide.com/best-coffee-scales/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>scales</a>, visit <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Best Coffee Guide</a>.
       </p>
       <p className='my-4'>
         Coffee has been brewed for over five centuries without electric machines. Ethiopian farmers still prepare coffee in a jebena, a clay pot heated over coals. Turkish households use a small cezve on a stovetop. Cowboys boiled grounds in a saucepan on the open range. Each of these traditions proves that excellent coffee requires only heat, water, ground coffee, and a little attention.
@@ -154,7 +154,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
       {/* METHOD 2 */}
       <h2 className='text-3xl font-extrabold mt-12 mb-6'>Method 2: DIY Pour Over</h2>
       <p className='my-4'>
-        A pour over produces the cleanest cup of any no-machine method. If you have a paper coffee filter (or even a clean cloth napkin), you can build a working pour over in under a minute.
+        A pour over produces the cleanest cup of any no-machine method. If you have a paper coffee filter (or even a clean cloth napkin), you can build a working pour over in under a minute. When you are ready to upgrade to a dedicated dripper, this <a href='https://bestcoffeeguide.com/best-pour-over-coffee-makers/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>pour-over coffee maker guide</a> covers the best options.
       </p>
       <p className='my-4 font-semibold'>What you need:</p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
@@ -179,7 +179,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
       {/* METHOD 3 */}
       <h2 className='text-3xl font-extrabold mt-12 mb-6'>Method 3: Improvised French Press</h2>
       <p className='my-4'>
-        French press coffee is a full-immersion method that produces a rich, full-bodied cup. You do not need the actual press apparatus; a deep bowl and a spoon can replicate the technique.
+        French press coffee is a full-immersion method that produces a rich, full-bodied cup. You do not need the actual press apparatus; a deep bowl and a spoon can replicate the technique. If you decide to invest in a proper brewer, see this <a href='https://bestcoffeeguide.com/best-french-press-coffee-makers/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>French press buying guide</a>.
       </p>
       <p className='my-4 font-semibold'>What you need:</p>
       <ul className='font-inconsolata my-4 list-disc ml-5'>
@@ -269,7 +269,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
       </ul>
       <p className='my-4 font-semibold'>Ratio:</p>
       <p className='my-4'>
-        Use a 1:8 ratio of coffee to water by volume. For a single serving, that is about 30 grams (roughly 4 tablespoons) of coffee to 240 ml (1 cup) of water. For a concentrate meant to be diluted, use 1:5.
+        Use a 1:8 ratio of coffee to water by volume. For a single serving, that is about 30 grams (roughly 4 tablespoons) of coffee to 240 ml (1 cup) of water. For a concentrate meant to be diluted, use 1:5. If you have access to a <a href='https://bestcoffeeguide.com/best-coffee-scales/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>coffee scale</a>, weighing your dose produces more consistent results than measuring by volume.
       </p>
       <p className='my-4 font-semibold'>Steps:</p>
       <ol className='font-inconsolata my-4 list-decimal ml-5'>

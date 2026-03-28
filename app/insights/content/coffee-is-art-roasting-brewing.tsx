@@ -262,7 +262,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
         Five variables determine extraction rate and evenness. Adjusting any one of them shifts the balance:
       </p>
       <ul className='list-disc ml-5 my-4'>
-        <li><strong>Dose (coffee amount):</strong> More coffee relative to water reduces extraction percentage. Standard ratios range from 1:15 to 1:17 for filter and 1:2 for espresso.</li>
+        <li><strong>Dose (coffee amount):</strong> More coffee relative to water reduces extraction percentage. Standard ratios range from 1:15 to 1:17 for filter and 1:2 for espresso. A reliable <a href='https://bestcoffeeguide.com/best-coffee-scales/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>coffee scale</a> is essential for repeatable dosing.</li>
         <li><strong>Grind size:</strong> Finer grinds increase surface area and speed extraction. Espresso requires fine grinds (200-400 microns); pour-over uses medium (400-800 microns); French press uses coarse (800-1,200 microns).</li>
         <li><strong>Water temperature:</strong> Higher temperatures extract faster. The SCA recommends 92-96°C for most methods. Light roasts often benefit from higher temperatures (95-96°C) because their denser cell structure resists extraction.</li>
         <li><strong>Contact time:</strong> Longer contact time increases extraction. Espresso extracts in 25-30 seconds under pressure; pour-over in 2:30-3:30; French press in 4:00-5:00.</li>
@@ -284,7 +284,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
 
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Pour-Over (V60): Clarity and Origin Expression</h3>
       <p className='my-4'>
-        Pour-over brewing excels at showcasing origin character, making it the preferred method for evaluating single-origin Ethiopian coffees beyond formal cupping. The thin paper filter removes oils and fines, producing a clean cup where floral, citrus, and fruit notes present with high clarity. For step-by-step instructions, brewing ratios, and equipment recommendations covering pour-over and other methods, see <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Best Coffee Guide</a>.
+        Pour-over brewing excels at showcasing origin character, making it the preferred method for evaluating single-origin Ethiopian coffees beyond formal cupping. The thin paper filter removes oils and fines, producing a clean cup where floral, citrus, and fruit notes present with high clarity. For step-by-step instructions, brewing ratios, and <a href='https://bestcoffeeguide.com/best-pour-over-coffee-makers/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>pour-over equipment recommendations</a>, see <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Best Coffee Guide</a>.
       </p>
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-lg mb-2'>V60 Recipe for Ethiopian Coffees</h4>
@@ -317,7 +317,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
 
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Immersion Methods: Body and Sweetness</h3>
       <p className='my-4'>
-        French press and cold brew use extended contact time with coarse grinds to produce full-bodied, rounded cups. These methods work well for Ethiopian naturals where the fruit-forward sweetness benefits from longer extraction.
+        French press and cold brew use extended contact time with coarse grinds to produce full-bodied, rounded cups. These methods work well for Ethiopian naturals where the fruit-forward sweetness benefits from longer extraction. For help choosing the right brewer, see this <a href='https://bestcoffeeguide.com/best-french-press-coffee-makers/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>French press buying guide</a>.
       </p>
       <ul className='list-disc ml-5 my-4'>
         <li><strong>French press:</strong> 30g coffee, 500g water at 94°C, coarse grind, steep 4:00, plunge slowly. Produces a heavy, oily cup that amplifies body and sweetness.</li>
