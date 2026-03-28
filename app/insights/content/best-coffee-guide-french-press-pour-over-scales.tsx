@@ -142,7 +142,7 @@ export default function EthiopianCoffeeBrewProfilesRoastersGuide({ title, date, 
       </h3>
 
       <p className='my-4'>
-        Pour-over brewing is the most transparent method for showcasing Ethiopian origin character. The paper filter removes oils and sediment, producing clarity that lets floral and citrus notes present without interference. V60 and Kalita Wave are the most common drippers for specialty roasters building retail brew guides.
+        Pour-over brewing is the most transparent method for showcasing Ethiopian origin character. The paper filter removes oils and sediment, producing clarity that lets floral and citrus notes present without interference. V60 and Kalita Wave are the most common drippers for specialty roasters building retail brew guides. For a broader overview of pour-over and French press equipment, including scale recommendations for home and café use, <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Best Coffee Guide</a> is a useful reference.
       </p>
       <p className='my-4'>
         The parameters below assume a light to light-medium roast (15-20% DTR) and beans rested 7-14 days post-roast. For <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>each Ethiopian origin</Link>, washed and natural processing produce different extraction behavior, so both are listed.
@@ -636,6 +636,9 @@ export default function EthiopianCoffeeBrewProfilesRoastersGuide({ title, date, 
         </p>
         <p className='text-sm text-gray-600 font-inconsolata mt-2'>
           <Link href='/insights' className='underline'>All Insights</Link> &middot; <Link href='/ethiopian-coffee-exporter' className='underline'>Export Services</Link> &middot; <Link href='/about' className='underline'>About</Link> &middot; <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <span className='font-bold'>External Resource:</span> <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='underline'>Best Coffee Guide</a> &mdash; guides on French press, pour-over methods, and scale recommendations.
         </p>
       </div>
     </>

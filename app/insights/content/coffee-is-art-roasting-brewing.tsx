@@ -284,7 +284,7 @@ export default function CoffeeIsArtRoastingBrewing({ title, date, large_image_ur
 
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Pour-Over (V60): Clarity and Origin Expression</h3>
       <p className='my-4'>
-        Pour-over brewing excels at showcasing origin character, making it the preferred method for evaluating single-origin Ethiopian coffees beyond formal cupping. The thin paper filter removes oils and fines, producing a clean cup where floral, citrus, and fruit notes present with high clarity.
+        Pour-over brewing excels at showcasing origin character, making it the preferred method for evaluating single-origin Ethiopian coffees beyond formal cupping. The thin paper filter removes oils and fines, producing a clean cup where floral, citrus, and fruit notes present with high clarity. For step-by-step instructions, brewing ratios, and equipment recommendations covering pour-over and other methods, see <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Best Coffee Guide</a>.
       </p>
       <div className='bg-amber-50 p-6 rounded-lg my-6 border border-amber-200'>
         <h4 className='font-bold text-lg mb-2'>V60 Recipe for Ethiopian Coffees</h4>

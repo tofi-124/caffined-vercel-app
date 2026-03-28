@@ -49,7 +49,7 @@ export default function HowToMakeCoffeeWithoutCoffeemaker({ title, date, large_i
 
       {/* INTRODUCTION */}
       <p className='my-4'>
-        Knowing <strong>how to make coffee without a coffeemaker</strong> is a practical skill that every coffee drinker, roaster, and buyer should have. Your machine may break. You may find yourself in a hotel room, a campsite, or a kitchen with nothing but a stove and a pot. Or you may simply want to evaluate a sample of single-origin beans without relying on specialized equipment.
+        Knowing <strong>how to make coffee without a coffeemaker</strong> is a practical skill that every coffee drinker, roaster, and buyer should have. Your machine may break. You may find yourself in a hotel room, a campsite, or a kitchen with nothing but a stove and a pot. Or you may simply want to evaluate a sample of single-origin beans without relying on specialized equipment. For comprehensive guides on brewing equipment like French press, pour-over drippers, and scales, visit <a href='https://bestcoffeeguide.com/' target='_blank' rel='noopener noreferrer' className='text-amber-700 hover:underline'>Best Coffee Guide</a>.
       </p>
       <p className='my-4'>
         Coffee has been brewed for over five centuries without electric machines. Ethiopian farmers still prepare coffee in a jebena, a clay pot heated over coals. Turkish households use a small cezve on a stovetop. Cowboys boiled grounds in a saucepan on the open range. Each of these traditions proves that excellent coffee requires only heat, water, ground coffee, and a little attention.
