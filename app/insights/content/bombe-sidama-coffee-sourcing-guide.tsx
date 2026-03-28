@@ -275,7 +275,7 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
       </div>
 
       <p className='my-4'>
-        For buyers comparing Bombe against other Sidama sub-regions and neighboring origins, our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline font-bold'>Yirgacheffe vs. Sidamo vs. Guji comparison</Link> provides detailed side-by-side flavor analysis.
+        For buyers comparing Bombe against other Sidama sub-regions and neighboring origins, our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline font-bold'>Yirgacheffe vs. Sidamo vs. Guji comparison</Link> provides detailed side-by-side flavor analysis. For a dedicated deep-dive into Guji&apos;s terroir and sourcing strategy, see our <Link href='/insights/guji-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>Guji coffee sourcing guide</Link>.
       </p>
 
       {/* Section: Grading and Export Specifications */}

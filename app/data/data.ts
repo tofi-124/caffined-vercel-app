@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GUJI COFFEE BUYER'S SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/guji-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/guji-coffee-sourcing-guide.webp',
+      date: 'Mar 28, 2026',
+      title: 'Guji Coffee: Buyer\'s Sourcing Guide',
+      slug: 'guji-coffee-sourcing-guide',
+      category: 'Origin Guide / Guji Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Guji coffee sourcing guide',
+        'Guji coffee buyer guide',
+        'Ethiopian Guji green coffee',
+        'Guji coffee flavor profile',
+        'Hambella Guji coffee',
+        'Guji coffee sub-regions',
+        'Guji natural Grade 1 coffee',
+        'Guji coffee FOB pricing',
+        'how to source Guji coffee from Ethiopia',
+        'Guji vs Yirgacheffe coffee',
+        'Guji coffee wholesale importers',
+        'Shakiso Guji coffee',
+        'Uraga Guji coffee',
+        'Guji coffee cupping score',
+        'Ethiopian specialty coffee Guji'
+      ],
+      desc: 'Guji coffee sourcing guide for importers: sub-regions (Hambella, Shakiso, Uraga, Kercha), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+    },
     // ===== COFFEE PRICES FALLING AS GLOBAL PRODUCTION HITS RECORD =====
     {
       small_image_url: 'insights/coffee-prices-falling-global-production-record.webp',

@@ -303,7 +303,7 @@ export default function YirgacheffeVsSidamoVsGujiComparison({ title, date, large
         </ul>
       </div>
       <p className='my-4'>
-        Guji&apos;s combination of fruit intensity, body, and sweetness makes it the strongest candidate for single-origin espresso among the three. The higher average altitude (1,800 to 2,300 masl) produces denser beans with more complex sugar development, which translates to richer extraction under espresso pressure. Natural and honey-processed Guji lots, in particular, deliver the sweetness and body that espresso demands without sacrificing acidity.
+        Guji&apos;s combination of fruit intensity, body, and sweetness makes it the strongest candidate for single-origin espresso among the three. The higher average altitude (1,800 to 2,300 masl) produces denser beans with more complex sugar development, which translates to richer extraction under espresso pressure. Natural and honey-processed Guji lots, in particular, deliver the sweetness and body that espresso demands without sacrificing acidity. For comprehensive guidance on sourcing Guji directly from origin, see our <Link href='/insights/guji-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>buyer&apos;s guide to Guji coffee sourcing</Link>.
       </p>
 
       <h3 className='text-2xl font-bold mt-8'>Key Sub-Zones and Micro-Regions</h3>
