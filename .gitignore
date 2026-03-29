@@ -58,5 +58,6 @@ master-rewriteer.txt
 CONTENT-CATALOG.md
 
 # generated files
-scripts/
+scripts/*
+!scripts/submit-indexnow.ts
 *.xlsx
