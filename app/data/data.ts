@@ -981,6 +981,7 @@ export const posts: Post[] = [
     },
     // ===== PRICING & TRADE GUIDANCE =====
     {
+      id: 14,
       small_image_url: 'insights/rising-coffee-prices-2.webp',
       large_image_url: 'insights/rising-coffee-prices-2.webp',
       date: 'Feb 09, 2026',
