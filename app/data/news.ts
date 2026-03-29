@@ -282,6 +282,14 @@ export const newsArticles: NewsArticle[] = [
     keywords: 'Ethiopian coffee traceability, ECTMS Ethiopia, ECTA GIZ digital system, Ethiopian coffee EUDR compliance, Ethiopian coffee traceability technology, EUDR Ethiopian coffee, Ethiopian coffee exporter, Ethiopian green coffee beans, coffee geodata Ethiopia, coffee deforestation regulation',
   },
   {
+    slug: 'disability-inclusion-coffee-value-chain-strategy',
+    date: '2026-03-29',
+    title: 'Strategy Document for Disability Inclusion in Ethiopia Coffee Value Chain Handed Over',
+    desc: 'GIZ Fund prepared a Strategy Document for the Inclusion of Persons with Disabilities in the Coffee Value Chain. The handover was accompanied by a progress report from Shisheir Action for Inclusion Association on coffee cultivation, value-added processing, and job training activities in Jimma Zone and Seka Chekorsa Woreda.',
+    source: 'Ibushaba',
+    keywords: 'disability inclusion Ethiopian coffee, Ethiopian coffee value chain, persons with disabilities coffee Ethiopia, GIZ Ethiopia coffee, Shisheir inclusion association coffee, Ethiopian Coffee and Tea Authority, Seka Chekorsa coffee, Ethiopian coffee training, Ethiopian coffee exporter, Jimma Zone coffee',
+  },
+  {
     slug: 'thermoplan-caritas-ethiopia-coffee-development',
     date: '2026-03-26',
     title: 'Thermoplan and Caritas Switzerland Meet Ethiopian Coffee Authorities',

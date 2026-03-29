@@ -72,6 +72,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./thermoplan-caritas-ethiopia-coffee-development').then(mod => mod.default),
     'ectms-handover-ecta-giz-traceability': () =>
       import('./ectms-handover-ecta-giz-traceability').then(mod => mod.default),
+    'disability-inclusion-coffee-value-chain-strategy': () =>
+      import('./disability-inclusion-coffee-value-chain-strategy').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 
