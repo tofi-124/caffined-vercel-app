@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "npx tsx scripts/submit-indexnow.ts",
     "start": "next start",
     "lint": "next lint"
   },
@@ -34,7 +35,8 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^15.3.8"
+    "eslint-config-next": "^15.3.8",
+    "tsx": "^4.21.0"
   },
   "browserslist": [
     "last 2 Chrome versions",
