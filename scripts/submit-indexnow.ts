@@ -75,8 +75,10 @@ async function getLiveUrls(): Promise<Set<string>> {
     const xml = await res.text()
     const urls = new Set<string>()
     // Extract <loc>...</loc> entries
-    for (const match of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
-      urls.add(match[1].replace(/\/$/, '')) // normalize trailing slash
+    const matches = xml.match(/<loc>[^<]+<\/loc>/g) || []
+    for (const m of matches) {
+      const url = m.replace(/<\/?loc>/g, '').replace(/\/$/, '')
+      urls.add(url)
     }
     return urls
   } catch {
