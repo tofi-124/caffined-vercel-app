@@ -24,7 +24,9 @@ export async function POST(request: NextRequest) {
 
   // Validate all URLs belong to our domain
   const validUrls = urls.filter(
-    (u) => typeof u === 'string' && u.startsWith('https://www.ethiocoffee.co/')
+    (u) =>
+      typeof u === 'string' &&
+      (u === 'https://www.ethiocoffee.co' || u.startsWith('https://www.ethiocoffee.co/'))
   )
 
   if (validUrls.length === 0) {
