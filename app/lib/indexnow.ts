@@ -1,4 +1,4 @@
-const INDEXNOW_KEY = process.env.INDEXNOW_API_KEY || 'e1c2cb83339c4a5b8dbd1ce58a050c47'
+const INDEXNOW_KEY = process.env.INDEXNOW_API_KEY!
 const SITE_HOST = 'www.ethiocoffee.co'
 const KEY_LOCATION = `https://${SITE_HOST}/${INDEXNOW_KEY}.txt`
 
