@@ -1,9 +1,10 @@
 /**
- * Submit all site URLs to IndexNow for immediate indexing.
+ * Auto-submit new/changed URLs to Bing IndexNow after each build.
+ * Fetches the live sitemap to detect which URLs are new, then only submits those.
  *
- * Usage:
- *   npx tsx scripts/submit-indexnow.ts
- *   npx tsx scripts/submit-indexnow.ts --dry-run   (preview URLs without submitting)
+ * Runs automatically via postbuild. Can also be used manually:
+ *   npx tsx scripts/submit-indexnow.ts --all       (force submit all URLs)
+ *   npx tsx scripts/submit-indexnow.ts --dry-run   (preview what would be submitted)
  */
 
 import { readFileSync, existsSync } from 'fs'
@@ -66,10 +67,33 @@ function getAllUrls(): string[] {
   ]
 }
 
-async function submitToIndexNow(urls: string[]) {
-  console.log(`\n📤 Submitting ${urls.length} URLs to IndexNow...\n`)
+/** Fetch currently live sitemap and extract all URLs */
+async function getLiveUrls(): Promise<Set<string>> {
+  try {
+    const res = await fetch(`${BASE_URL}/sitemap.xml`, { signal: AbortSignal.timeout(10000) })
+    if (!res.ok) return new Set()
+    const xml = await res.text()
+    const urls = new Set<string>()
+    // Extract <loc>...</loc> entries
+    for (const match of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+      urls.add(match[1].replace(/\/$/, '')) // normalize trailing slash
+    }
+    return urls
+  } catch {
+    // Site not reachable (first deploy, network issue) — treat as no existing URLs
+    return new Set()
+  }
+}
 
-  // Submit to Bing directly so it appears in Bing Webmaster Tools
+async function submitToIndexNow(urls: string[]) {
+  if (urls.length === 0) {
+    console.log('✅ No new URLs to submit.')
+    return
+  }
+
+  console.log(`\n📤 Submitting ${urls.length} URLs to Bing IndexNow...\n`)
+  urls.forEach((u) => console.log(`  ${u}`))
+
   const response = await fetch('https://www.bing.com/IndexNow', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json; charset=utf-8' },
@@ -81,10 +105,10 @@ async function submitToIndexNow(urls: string[]) {
     }),
   })
 
-  console.log(`Response status: ${response.status} ${response.statusText}`)
+  console.log(`\nResponse: ${response.status} ${response.statusText}`)
 
   if (response.ok) {
-    console.log('✅ All URLs submitted successfully!')
+    console.log('✅ Submitted successfully!')
   } else {
     const body = await response.text()
     console.error('❌ Submission failed:', body)
@@ -93,19 +117,39 @@ async function submitToIndexNow(urls: string[]) {
 
 async function main() {
   const dryRun = process.argv.includes('--dry-run')
+  const forceAll = process.argv.includes('--all')
 
-  console.log('🔍 Collecting all site URLs...')
-  const urls = getAllUrls()
-  console.log(`Found ${urls.length} URLs\n`)
+  const currentUrls = getAllUrls()
+  console.log(`📋 Current build has ${currentUrls.length} URLs`)
+
+  let urlsToSubmit: string[]
+
+  if (forceAll) {
+    console.log('🔄 --all flag: submitting all URLs')
+    urlsToSubmit = currentUrls
+  } else {
+    // Auto mode: diff against live sitemap
+    console.log('🔍 Fetching live sitemap to detect new URLs...')
+    const liveUrls = await getLiveUrls()
+    console.log(`📡 Live sitemap has ${liveUrls.size} URLs`)
+
+    urlsToSubmit = currentUrls.filter((u) => !liveUrls.has(u.replace(/\/$/, '')))
+
+    if (urlsToSubmit.length === 0) {
+      console.log('✅ No new URLs detected. Nothing to submit.')
+      return
+    }
+
+    console.log(`🆕 Found ${urlsToSubmit.length} new URLs`)
+  }
 
   if (dryRun) {
-    console.log('DRY RUN — URLs that would be submitted:\n')
-    urls.forEach((url) => console.log(`  ${url}`))
-    console.log(`\nTotal: ${urls.length} URLs`)
+    console.log('\nDRY RUN — would submit:\n')
+    urlsToSubmit.forEach((u) => console.log(`  ${u}`))
     return
   }
 
-  await submitToIndexNow(urls)
+  await submitToIndexNow(urlsToSubmit)
 }
 
 main().catch(console.error)

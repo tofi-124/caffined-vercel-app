@@ -6,7 +6,7 @@ const KEY_LOCATION = `https://${SITE_HOST}/${INDEXNOW_KEY}.txt`
  * Submit a single URL to IndexNow for immediate indexing.
  */
 export async function submitUrlToIndexNow(url: string): Promise<{ success: boolean; status: number }> {
-  const endpoint = `https://api.indexnow.org/IndexNow?url=${encodeURIComponent(url)}&key=${INDEXNOW_KEY}&keyLocation=${encodeURIComponent(KEY_LOCATION)}`
+  const endpoint = `https://www.bing.com/IndexNow?url=${encodeURIComponent(url)}&key=${INDEXNOW_KEY}&keyLocation=${encodeURIComponent(KEY_LOCATION)}`
 
   const response = await fetch(endpoint, { method: 'GET' })
   return { success: response.ok, status: response.status }
