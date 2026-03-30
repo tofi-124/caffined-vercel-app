@@ -473,7 +473,7 @@ export default function GujiCoffeeSourcingGuide({ title, date, large_image_url }
           <div>
             <h4 className='font-bold text-gray-800 mb-2'>What makes Guji coffee different from Yirgacheffe?</h4>
             <p className='text-sm text-gray-600'>
-              Both are prized Ethiopian specialty origins, but they deliver different cup profiles. Guji tends toward tropical fruit (mango, papaya) and stone fruit with more body and intensity, while <Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Yirgacheffe</Link> is lighter, more floral, and citrus-driven with a tea-like body. Guji naturals are especially prized for their exotic, fruit-forward character. See our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>full regional comparison</Link>.
+              Both are prized Ethiopian specialty origins, but they deliver different cup profiles. Guji tends toward tropical fruit (mango, papaya) and stone fruit with more body and intensity, while <Link href='/ethiopian-coffee-yirgacheffe' className='text-amber-700 hover:underline'>Yirgacheffe</Link> is lighter, more floral, and citrus-driven with a tea-like body. Guji naturals are especially prized for their exotic, fruit-forward character. See our <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>full regional comparison</Link> or our <Link href='/insights/yirgacheffe-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Yirgacheffe sourcing guide</Link>.
             </p>
           </div>
           <div>
@@ -510,6 +510,7 @@ export default function GujiCoffeeSourcingGuide({ title, date, large_image_url }
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Origin Guides</h4>
             <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/yirgacheffe-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Yirgacheffe Coffee: Buyer&apos;s Sourcing Guide</Link></li>
               <li>&bull; <Link href='/insights/bombe-sidama-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Bombe Sidama Coffee: Buyer&apos;s Guide</Link></li>
               <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Compared</Link></li>
               <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Green Coffee Origins</Link></li>

@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== YIRGACHEFFE COFFEE BUYER'S SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/yirgacheffe-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/yirgacheffe-coffee-sourcing-guide.webp',
+      date: 'Apr 10, 2026',
+      title: 'Yirgacheffe Coffee: Buyer\'s Sourcing Guide',
+      slug: 'yirgacheffe-coffee-sourcing-guide',
+      category: 'Origin Guide / Yirgacheffe Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Yirgacheffe coffee sourcing guide',
+        'Yirgacheffe coffee buyer guide',
+        'Ethiopian Yirgacheffe green coffee',
+        'Yirgacheffe coffee flavor profile',
+        'Kochere coffee sourcing',
+        'Yirgacheffe coffee sub-regions',
+        'Yirgacheffe washed Grade 1 coffee',
+        'Yirgacheffe coffee FOB pricing',
+        'how to source Yirgacheffe coffee from Ethiopia',
+        'Kochere vs Gedeb coffee',
+        'Yirgacheffe coffee wholesale importers',
+        'Gedeb Yirgacheffe coffee',
+        'Aricha Idido natural coffee',
+        'Yirgacheffe coffee cupping score',
+        'Ethiopian specialty coffee Yirgacheffe'
+      ],
+      desc: 'Yirgacheffe coffee sourcing guide for importers: sub-regions (Kochere, Gedeb, Gelana Abaya, Chelelectu, Aricha/Idido, Worka), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+    },
     // ===== GUJI COFFEE BUYER'S SOURCING GUIDE =====
     {
       small_image_url: 'insights/guji-coffee-sourcing-guide.webp',

@@ -96,6 +96,7 @@ const readingTimeMap: Record<string, number> = {
   'ethiopian-coffee-espresso-blend-sourcing-guide': 12,
   'coffee-prices-falling-global-production-record': 12,
   'guji-coffee-sourcing-guide': 13,
+  'yirgacheffe-coffee-sourcing-guide': 12,
 }
 
 function getReadingTime(slug: string): number {

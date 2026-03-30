@@ -290,6 +290,14 @@ export const newsArticles: NewsArticle[] = [
     keywords: 'disability inclusion Ethiopian coffee, Ethiopian coffee value chain, persons with disabilities coffee Ethiopia, GIZ Ethiopia coffee, Shisheir inclusion association coffee, Ethiopian Coffee and Tea Authority, Seka Chekorsa coffee, Ethiopian coffee training, Ethiopian coffee exporter, Jimma Zone coffee',
   },
   {
+    slug: 'starbucks-50-million-coffee-seedlings-ethiopia',
+    date: '2026-03-30',
+    title: 'Starbucks to Distribute 50 Million Climate-Resilient Coffee Seedlings in Ethiopia',
+    desc: 'Starbucks will distribute 50 million climate-resilient coffee seedlings to smallholder farmers in Ethiopia and other key origins including Tanzania, Indonesia, Colombia, Costa Rica, and Honduras. The seedlings, developed at the company\'s Costa Rica research center with Conservation International, target rising temperatures, erratic rainfall, and pests threatening Ethiopian coffee production.',
+    source: 'EBR',
+    keywords: 'Starbucks coffee seedlings Ethiopia, climate resilient coffee Ethiopia, Ethiopian coffee climate change, Ethiopian coffee smallholder farmers, Ethiopian Arabica coffee varieties, coffee seedlings distribution Ethiopia, Ethiopian coffee export sustainability, coffee leaf rust Ethiopia, coffee borer Ethiopia, Ethiopian coffee future, Conservation International coffee Ethiopia',
+  },
+  {
     slug: 'thermoplan-caritas-ethiopia-coffee-development',
     date: '2026-03-26',
     title: 'Thermoplan and Caritas Switzerland Meet Ethiopian Coffee Authorities',
