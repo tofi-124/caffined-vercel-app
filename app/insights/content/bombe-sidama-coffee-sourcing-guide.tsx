@@ -434,6 +434,7 @@ export default function BombeSidamaCoffeeSourcingGuide({ title, date, large_imag
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Sidama &amp; Ethiopian Origins</h4>
             <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/sidamo-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Sidamo Coffee: Buyer&apos;s Sourcing Guide</Link></li>
               <li>&bull; <Link href='/insights/sidama-coffee-production-productivity-export' className='text-amber-700 hover:underline'>Sidama Coffee: 10+ Quintals Per Hectare</Link></li>
               <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs. Sidamo vs. Guji Comparison</Link></li>
               <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Coffee Origins</Link></li>

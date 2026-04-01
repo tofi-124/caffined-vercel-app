@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== SIDAMO COFFEE BUYER'S SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/sidamo-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/sidamo-coffee-sourcing-guide.webp',
+      date: 'Apr 01, 2026',
+      title: 'Sidamo Coffee: Buyer\'s Sourcing Guide',
+      slug: 'sidamo-coffee-sourcing-guide',
+      category: 'Origin Guide / Sidamo Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Sidamo coffee sourcing guide',
+        'Sidamo coffee buyer guide',
+        'Ethiopian Sidamo green coffee',
+        'Sidamo coffee flavor profile',
+        'Bensa Sidamo coffee',
+        'Sidamo coffee sub-regions',
+        'Sidamo washed Grade 1 coffee',
+        'Sidamo coffee FOB pricing',
+        'how to source Sidamo coffee from Ethiopia',
+        'Arbegona vs Bensa coffee',
+        'Sidamo coffee wholesale importers',
+        'Dale Sidamo coffee',
+        'Sidamo natural Grade 1',
+        'Sidamo coffee cupping score',
+        'Ethiopian specialty coffee Sidamo'
+      ],
+      desc: 'Sidamo coffee sourcing guide for importers: sub-regions (Bensa, Dale, Aleta Wendo, Arbegona, Chire, Wondo Genet), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+    },
     // ===== YIRGACHEFFE COFFEE BUYER'S SOURCING GUIDE =====
     {
       small_image_url: 'insights/yirgacheffe-coffee-sourcing-guide.webp',
