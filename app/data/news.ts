@@ -304,5 +304,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'Switzerland\'s Thermoplan and Caritas Switzerland met with Ethiopian Coffee and Tea Authority officials to discuss production modernization, value chain reform, and the uniqueBean Project strengthening smallholder farmers in the Harena Forest, Bale Zone.',
     source: 'Ibushaba',
     keywords: 'Thermoplan Ethiopia coffee, Caritas Switzerland coffee Ethiopia, uniqueBean Project Ethiopia, Ethiopian coffee value chain reform, Harena Forest coffee, Bale Zone coffee, Ethiopian coffee smallholder farmers, Ethiopian coffee exporter, Swiss Ethiopia coffee cooperation, Ethiopian coffee authority',
+  },
+  {
+    slug: 'ecta-mou-addis-ababa-science-technology-university',
+    date: '2026-04-01',
+    title: 'MoU Signed to Modernize Ethiopian Coffee Through Science and Technology',
+    desc: 'The Ethiopian Coffee and Tea Authority and Addis Ababa Science and Technology University signed a major MoU to modernize coffee production through biotechnology, waste-to-value research, EUDR compliance, domestic equipment design, and quality traceability.',
+    source: 'Ethiopian Coffee and Tea Authority',
+    keywords: 'Ethiopian coffee modernization, ECTA MoU Addis Ababa Science Technology University, Ethiopian coffee biotechnology, coffee waste to value Ethiopia, Ethiopian coffee EUDR compliance, Ethiopian coffee traceability, Ethiopian coffee technology transfer, Ethiopian coffee exporter, Dr Adugna Debela, Ethiopian coffee quality',
   }
 ]
