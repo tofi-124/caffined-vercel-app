@@ -16,7 +16,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/yirgacheffe-coffee-sourcing-guide.webp',
       large_image_url: 'insights/yirgacheffe-coffee-sourcing-guide.webp',
-      date: 'Apr 10, 2026',
+      date: 'Mar 30, 2026',
       title: 'Yirgacheffe Coffee: Buyer\'s Sourcing Guide',
       slug: 'yirgacheffe-coffee-sourcing-guide',
       category: 'Origin Guide / Yirgacheffe Coffee / Sourcing Guide / Importer Resources',
