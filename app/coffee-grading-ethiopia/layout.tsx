@@ -3,7 +3,7 @@ import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Ethiopian Coffee Grading System | Grade 1-5 | Ethio Coffee',
-  description: 'Complete guide to the Ethiopian coffee grading system. Understand Grade 1-5 classification, defect counts, cup scoring, and how grading affects pricing for importers.',
+  description: 'Complete guide to Ethiopian coffee grading. Understand Grade 1-5 classification, defect counts, cup scoring, and how grading affects pricing.',
   keywords: 'ethiopian coffee grading, ethiopian coffee grades, coffee grading system ethiopia, ethiopia coffee grade 1, ethiopia coffee grade 2, ethiopian coffee quality grades, coffee bean grading ethiopia, ECX coffee grading, ethiopian coffee classification, specialty coffee grading ethiopia, coffee defect count ethiopia, coffee cup score ethiopia, SCA cupping score ethiopian coffee',
   alternates: {
     canonical: 'https://www.ethiocoffee.co/coffee-grading-ethiopia',
