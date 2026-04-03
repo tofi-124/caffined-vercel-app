@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== HARAR COFFEE BUYER'S SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/harar-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/harar-coffee-sourcing-guide.webp',
+      date: 'Apr 03, 2026',
+      title: 'Harar Coffee: Buyer\'s Sourcing Guide',
+      slug: 'harar-coffee-sourcing-guide',
+      category: 'Origin Guide / Harar Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Harar coffee sourcing guide',
+        'Harar coffee buyer guide',
+        'Ethiopian Harar green coffee',
+        'Harar coffee flavor profile',
+        'Harar Longberry coffee',
+        'Harar Shortberry coffee',
+        'Harar Mocha peaberry',
+        'Harar coffee grading',
+        'Harar coffee FOB pricing',
+        'how to source Harar coffee from Ethiopia',
+        'Harar natural processed coffee',
+        'Harar coffee wholesale importers',
+        'Ethiopian specialty coffee Harar',
+        'Harar coffee bean classifications',
+        'Harar coffee cupping score'
+      ],
+      desc: 'Harar coffee sourcing guide for importers: bean classifications (Longberry, Shortberry, Mocha), flavor profiles by type, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+    },
     // ===== SIDAMO COFFEE BUYER'S SOURCING GUIDE =====
     {
       small_image_url: 'insights/sidamo-coffee-sourcing-guide.webp',
