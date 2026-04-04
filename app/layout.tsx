@@ -34,6 +34,9 @@ export const metadata: Metadata = {
   description: 'Leading Ethiopian coffee exporter shipping green coffee worldwide. We export Grade 1-5 Yirgacheffe, Sidamo, Guji & more direct from Ethiopia.',
   keywords: 'Ethiopian coffee exporter, Ethiopian coffee export, export coffee from Ethiopia, green coffee exporter Ethiopia, Ethiopian coffee supplier, Ethiopian green coffee beans, coffee export Ethiopia, Yirgacheffe exporter, Sidamo exporter, Guji exporter, specialty coffee Ethiopia, buy Ethiopian coffee wholesale',
   authors: [{ name: 'Ethio Coffee' }],
+  alternates: {
+    canonical: '/',
+  },
   robots: 'index, follow',
   openGraph: {
     type: 'website',
