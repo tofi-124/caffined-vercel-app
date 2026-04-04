@@ -165,7 +165,12 @@ export default function YirgacheffeCoffeePage() {
               {regionOfferings.map((product) => (
                 <div key={product.id} className='bg-white rounded-xl border border-dark/10 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col'>
                   <div className='p-6 flex-1'>
-                    <p className='text-xs text-accent font-bold uppercase tracking-widest'>{product.specifications.processingMethod} · {product.specifications.grade}</p>
+                    <div className='flex items-center justify-between gap-2'>
+                      <p className='text-xs text-accent font-bold uppercase tracking-widest'>{product.specifications.processingMethod} · {product.specifications.grade}</p>
+                      {product.isContracted && (
+                        <span className='px-2.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-[10px] font-bold uppercase tracking-wider text-blue-700'>Contracted</span>
+                      )}
+                    </div>
                     <h3 className='text-lg font-bold text-dark mt-2'>{product.name}</h3>
                     <p className='text-dark/60 text-sm mt-2 leading-relaxed line-clamp-3'>{product.desc}</p>
                     {product.specifications.cupScore && (

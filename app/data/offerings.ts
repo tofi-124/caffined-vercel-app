@@ -43,6 +43,7 @@ export type Offering = {
   specifications: OfferingSpecifications
   pricing: OfferingPricing
   isSoldOut?: boolean
+  isContracted?: boolean
   isFeatured?: boolean
   altitude: string | null
   region: string
@@ -110,6 +111,7 @@ export const offerings: Offering[] = [
       ],
     },
     isSoldOut: false,
+    isContracted: true,
     isFeatured: true,
     altitude: '1,950 - 2,350 masl',
     region: 'Sidama',

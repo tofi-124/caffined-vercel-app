@@ -162,6 +162,9 @@ export default function JimmaCoffeePage() {
                       fill
                       className='object-cover'
                     />
+                    {product.isContracted && (
+                      <span className='absolute top-3 left-3 px-2.5 py-1 rounded-full bg-blue-600/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>Contracted</span>
+                    )}
                   </div>
                   <div className='p-6'>
                     <h3 className='font-bold text-dark text-lg'>{product.name}</h3>

@@ -39,7 +39,11 @@ const OfferingsResultsList = ({ items }: Props) => {
             </div>
             
             {/* Status badge */}
-            {o.isFeatured ? (
+            {o.isContracted ? (
+              <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-blue-600/90 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider'>
+                Contracted
+              </span>
+            ) : o.isFeatured ? (
               <span className='absolute top-4 left-4 px-3 py-1.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 backdrop-blur-sm text-white text-[10px] font-bold uppercase tracking-wider shadow-md shadow-amber-300/40'>
                 ★ Signature Lot
               </span>
