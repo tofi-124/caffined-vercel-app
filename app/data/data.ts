@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== LIMU COFFEE BUYER'S SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/limu-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/limu-coffee-sourcing-guide.webp',
+      date: 'Apr 05, 2026',
+      title: 'Limu Coffee: Buyer\'s Sourcing Guide',
+      slug: 'limu-coffee-sourcing-guide',
+      category: 'Origin Guide / Limu Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Limu coffee sourcing guide',
+        'Limu coffee buyer guide',
+        'Ethiopian Limu green coffee',
+        'Limu coffee flavor profile',
+        'Limu coffee FOB pricing',
+        'how to source Limu coffee from Ethiopia',
+        'Limu washed coffee',
+        'Limu coffee grading',
+        'Limu vs Jimma coffee',
+        'Limmu Kossa coffee',
+        'Limmu Seka coffee',
+        'Limu coffee wholesale importers',
+        'Ethiopian specialty coffee Limu',
+        'Limu origin guide',
+        'Limu coffee cupping score'
+      ],
+      desc: 'Limu coffee sourcing guide for importers: sub-regions (Limmu Kossa, Limmu Seka, Gomma, Gera), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+    },
     // ===== HARAR COFFEE BUYER'S SOURCING GUIDE =====
     {
       small_image_url: 'insights/harar-coffee-sourcing-guide.webp',

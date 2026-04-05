@@ -323,7 +323,7 @@ export default function EthiopianCoffeeHarvestCalendarBuyingGuide({ title, date,
 
       <h4 className='text-2xl font-bold mt-8 mb-4'>Limu</h4>
       <p className='my-4'>
-        Limu, in western Ethiopia, produces primarily washed coffees known for balanced, clean cups with mild fruit and wine-like acidity. Lower altitude sites harvest as early as October, and Limu is often among the first regions to have export-ready lots (December-January). This early availability makes Limu a practical option for buyers who need new-crop Ethiopian coffee at the start of the calendar year. Visit our <Link href='/ethiopian-coffee-limu' className='text-amber-700 underline font-semibold'>Limu origin page</Link> for current offerings.
+        Limu, in western Ethiopia, produces primarily washed coffees known for balanced, clean cups with mild fruit and wine-like acidity. Lower altitude sites harvest as early as October, and Limu is often among the first regions to have export-ready lots (December-January). This early availability makes Limu a practical option for buyers who need new-crop Ethiopian coffee at the start of the calendar year. Visit our <Link href='/ethiopian-coffee-limu' className='text-amber-700 underline font-semibold'>Limu origin page</Link> for current offerings. For sourcing steps, pricing benchmarks, and sub-region details, see our <Link href='/insights/limu-coffee-sourcing-guide' className='text-amber-700 underline font-semibold'>Limu sourcing guide</Link>.
       </p>
 
       <h4 className='text-2xl font-bold mt-8 mb-4'>Jimma</h4>

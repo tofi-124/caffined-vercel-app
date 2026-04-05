@@ -360,7 +360,7 @@ export default function GuideEthiopianCoffeeOrigins({ title, date, large_image_u
       </div>
 
       <p className='my-4'>
-        Limu coffees are among the most competitively priced Ethiopian washed origins, making them accessible for roasters exploring Ethiopian offerings without the premium of Yirgacheffe or Guji. The balanced profile also makes Limu a strong espresso-blend base. View available <Link href='/ethiopian-coffee-limu' className='text-amber-700 hover:underline font-bold'>Limu green coffee lots</Link>.
+        Limu coffees are among the most competitively priced Ethiopian washed origins, making them accessible for roasters exploring Ethiopian offerings without the premium of Yirgacheffe or Guji. The balanced profile also makes Limu a strong espresso-blend base. View available <Link href='/ethiopian-coffee-limu' className='text-amber-700 hover:underline font-bold'>Limu green coffee lots</Link>. For sub-regions, grading, and pricing benchmarks, see our <Link href='/insights/limu-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>Limu coffee sourcing guide</Link>.
       </p>
 
       <h3 id='kaffa' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>

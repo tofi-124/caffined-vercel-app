@@ -81,7 +81,7 @@ export default function LimuCoffeePage() {
               <strong> exceptional quality-to-price ratio</strong>. Limu delivers specialty-grade complexity
               at a lower FOB price than southern Ethiopian origins, making it ideal for year-round
               programs, espresso blends, and high-volume specialty accounts. For current pricing benchmarks,
-              see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline hover:text-dark/60'>Ethiopian coffee FOB pricing guide</Link>.
+              see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='underline hover:text-dark/60'>Ethiopian coffee FOB pricing guide</Link>. For a complete sourcing walkthrough including sub-regions, grading, and step-by-step import process, read our <Link href='/insights/limu-coffee-sourcing-guide' className='underline hover:text-dark/60'>Limu coffee sourcing guide</Link>.
             </p>
           </div>
         </div>
