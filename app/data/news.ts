@@ -312,5 +312,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The Ethiopian Coffee and Tea Authority and Addis Ababa Science and Technology University signed a major MoU to modernize coffee production through biotechnology, waste-to-value research, EUDR compliance, domestic equipment design, and quality traceability.',
     source: 'Ethiopian Coffee and Tea Authority',
     keywords: 'Ethiopian coffee modernization, ECTA MoU Addis Ababa Science Technology University, Ethiopian coffee biotechnology, coffee waste to value Ethiopia, Ethiopian coffee EUDR compliance, Ethiopian coffee traceability, Ethiopian coffee technology transfer, Ethiopian coffee exporter, Dr Adugna Debela, Ethiopian coffee quality',
+  },
+  {
+    slug: 'ecta-national-occupational-standard-coffee',
+    date: '2026-04-04',
+    title: 'ECTA Develops National Occupational Standard for Coffee Sector',
+    desc: 'The Ethiopian Coffee and Tea Authority unveiled a new Occupational Standard (OS) to certify professional excellence in the coffee sector, ensuring international-quality training, national uniformity, and global competitiveness for Ethiopian coffee professionals.',
+    source: 'Sahlemariam G/medhin',
+    keywords: 'Ethiopian coffee occupational standard, ECTA professional certification, Ethiopian coffee training standard, Coffee Training Center Ethiopia, Ethiopian coffee professionals, Ethiopian coffee exporter, coffee workforce development Ethiopia, Dr Adugna Debela, Ministry of Labor and Skills Ethiopia',
   }
 ]
