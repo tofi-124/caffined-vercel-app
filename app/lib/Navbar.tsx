@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect, useLayoutEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import TopMessage from './TopMessage'
 import NavLinks from './NavLinks'
 import { BiMenuAltRight } from 'react-icons/bi'
@@ -9,9 +9,6 @@ import ResponsiveImage from '../components/ResponsiveImage'
 import { usePathname } from 'next/navigation'
 import CartIcon from '../components/CartIcon'
 
-// Use useLayoutEffect on client to read scroll position before paint, preventing CLS
-const useIsomorphicLayoutEffect = typeof window !== 'undefined' ? useLayoutEffect : useEffect;
-
 const Navbar = () => {
     const [isOpened, setIsOpened] = useState(false);
     const [scrolled, setScrolled] = useState(false);
@@ -19,23 +16,30 @@ const Navbar = () => {
     const headerRef = useRef<HTMLElement>(null);
     const pathname = usePathname();
     const isHome = pathname === '/';
+    const rafRef = useRef(0);
 
-    // Read scroll position synchronously before first paint to prevent CLS
-    useIsomorphicLayoutEffect(() => {
+    // Single scroll handler with rAF throttle to avoid layout thrashing
+    useEffect(() => {
+        // Read initial position
         const scrollY = window.scrollY;
         setScrolled(scrollY > 50);
         setShowTopMessage(scrollY < 100);
-    }, []);
 
-    useEffect(() => {
         const handleScroll = () => {
-            const scrollY = window.scrollY;
-            setScrolled(scrollY > 50);
-            setShowTopMessage(scrollY < 100);
+            if (rafRef.current) return;
+            rafRef.current = requestAnimationFrame(() => {
+                const y = window.scrollY;
+                setScrolled(y > 50);
+                setShowTopMessage(y < 100);
+                rafRef.current = 0;
+            });
         };
 
         window.addEventListener('scroll', handleScroll, { passive: true });
-        return () => window.removeEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            if (rafRef.current) cancelAnimationFrame(rafRef.current);
+        };
     }, []);
 
     // Close mobile menu when clicking outside
@@ -52,23 +56,19 @@ const Navbar = () => {
 
     // Keep --header-height CSS variable in sync with actual header size
     useEffect(() => {
+        const header = headerRef.current;
+        if (!header) return;
         const updateHeaderHeight = () => {
-            if (headerRef.current) {
-                document.documentElement.style.setProperty(
-                    '--header-height',
-                    `${headerRef.current.offsetHeight}px`
-                );
-            }
+            document.documentElement.style.setProperty(
+                '--header-height',
+                `${header.offsetHeight}px`
+            );
         };
         updateHeaderHeight();
-        window.addEventListener('resize', updateHeaderHeight);
         const observer = new ResizeObserver(updateHeaderHeight);
-        if (headerRef.current) observer.observe(headerRef.current);
-        return () => {
-            window.removeEventListener('resize', updateHeaderHeight);
-            observer.disconnect();
-        };
-    }, [scrolled, showTopMessage]);
+        observer.observe(header);
+        return () => observer.disconnect();
+    }, []);
 
     return (
         <>
@@ -91,7 +91,7 @@ const Navbar = () => {
                 {/* Main Navigation */}
                 <nav 
                     id='nav' 
-                    className={`relative flex justify-between items-center transition-[background-color,padding] duration-300 ease-out will-change-[background-color,padding] ${
+                    className={`relative flex justify-between items-center transition-[background-color,padding] duration-300 ease-out ${
                         scrolled 
                             ? 'bg-white/95 backdrop-blur-md py-2 px-4 lg:px-20' 
                             : isHome

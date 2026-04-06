@@ -1,11 +1,11 @@
-import CoffeeDesc from "./components/CoffeeDesc";
 import Hero from "./components/Hero";
-import Posts from "./components/Posts";
 import Offerings from "./components/Offerings";
 import dynamic from 'next/dynamic'
 import type { Metadata } from 'next'
 
-// Lazy-load Testimonials since it's below the fold
+// Lazy-load below-the-fold sections to reduce initial JS bundle
+const CoffeeDesc = dynamic(() => import("./components/CoffeeDesc"))
+const Posts = dynamic(() => import("./components/Posts"))
 const Testimonials = dynamic(() => import("./components/Testimonials"), {
   loading: () => <section className='min-h-[320px] bg-dark' />,
 })

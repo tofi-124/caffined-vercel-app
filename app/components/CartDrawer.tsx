@@ -18,6 +18,7 @@ const CartDrawer = () => {
   } = useCart()
 
   const drawerRef = useRef<HTMLDivElement>(null)
+  const focusableRef = useRef<HTMLElement[]>([])
 
   // Close on Escape key
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
@@ -43,17 +44,20 @@ const CartDrawer = () => {
     return () => { document.body.style.overflow = '' }
   }, [isCartOpen])
 
-  // Trap focus inside drawer when open
+  // Trap focus inside drawer when open — pre-cache focusable elements
   useEffect(() => {
     if (!isCartOpen) return
     const drawer = drawerRef.current
     if (!drawer) return
 
+    // Cache focusable elements once when drawer opens or items change
+    focusableRef.current = Array.from(drawer.querySelectorAll<HTMLElement>(
+      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
+    ))
+
     const handleTabKey = (e: KeyboardEvent) => {
       if (e.key !== 'Tab') return
-      const focusable = drawer.querySelectorAll<HTMLElement>(
-        'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
-      )
+      const focusable = focusableRef.current
       if (focusable.length === 0) return
       const first = focusable[0]
       const last = focusable[focusable.length - 1]
@@ -66,7 +70,7 @@ const CartDrawer = () => {
 
     drawer.addEventListener('keydown', handleTabKey)
     return () => drawer.removeEventListener('keydown', handleTabKey)
-  }, [isCartOpen])
+  }, [isCartOpen, items])
 
   return (
     <>

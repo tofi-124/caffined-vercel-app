@@ -4,13 +4,15 @@ import { Oswald, Inconsolata } from 'next/font/google'
 import Navbar from './lib/Navbar'
 import Footer from './lib/Footer'
 import Script from 'next/script'
-import ScrollToTop from './components/ScrollToTop'
-import ContactFAB from './components/WhatsAppButton'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { CartProvider } from './components/CartContext'
-import CartDrawer from './components/CartDrawer'
 import ErrorBoundary from './components/ErrorBoundary'
+import dynamic from 'next/dynamic'
+
+const ScrollToTop = dynamic(() => import('./components/ScrollToTop'))
+const ContactFAB = dynamic(() => import('./components/WhatsAppButton'))
+const CartDrawer = dynamic(() => import('./components/CartDrawer'))
 
 const oswald = Oswald({ 
   subsets: ['latin'],
@@ -82,9 +84,9 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://pub-a50856304cf24e0c890889f05812d10b.r2.dev" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-7XP6DNBM6J"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -92,7 +94,7 @@ export default function RootLayout({
             gtag('config', 'G-7XP6DNBM6J');
           `}
         </Script>
-        <Script id="microsoft-clarity" strategy="afterInteractive">
+        <Script id="microsoft-clarity" strategy="lazyOnload">
           {`
             (function(c,l,a,r,i,t,y){
               c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -106,7 +108,7 @@ export default function RootLayout({
         <Script
           id="structured-data"
           type="application/ld+json"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -183,7 +185,7 @@ export default function RootLayout({
         <Script
           id="website-schema"
           type="application/ld+json"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",

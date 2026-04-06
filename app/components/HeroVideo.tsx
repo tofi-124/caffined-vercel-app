@@ -17,23 +17,14 @@ const HeroVideo = () => {
   const [videoSrc] = useState(getInitialVideoSrc)
   const isPlayingRef = useRef(false)
   const retryCountRef = useRef(0)
-  const maxRetries = 6
+  const maxRetries = 3
 
   const attemptPlay = useCallback(() => {
     const video = videoRef.current
     if (!video || isPlayingRef.current) return
 
     video.muted = true
-    video.defaultMuted = true
     video.playsInline = true
-    video.setAttribute('playsinline', '')
-    video.setAttribute('webkit-playsinline', '')
-    video.setAttribute('muted', '')
-    video.setAttribute('autoplay', '')
-
-    if (video.readyState < 2) {
-      video.load()
-    }
 
     const playPromise = video.play()
     if (playPromise !== undefined) {
@@ -45,33 +36,24 @@ const HeroVideo = () => {
         .catch(() => {
           if (retryCountRef.current < maxRetries && !isPlayingRef.current) {
             retryCountRef.current++
-            setTimeout(() => attemptPlay(), 500 * retryCountRef.current)
+            setTimeout(() => attemptPlay(), 800 * retryCountRef.current)
           }
         })
     }
   }, [])
 
-  // Initial play attempt after mount
-  useEffect(() => {
-    const timer = setTimeout(() => attemptPlay(), 100)
-    return () => clearTimeout(timer)
-  }, [attemptPlay])
-
-  // Listen for video becoming ready (crucial for iOS Safari)
+  // Listen for video becoming ready + initial play (single effect)
   useEffect(() => {
     const video = videoRef.current
     if (!video) return
 
-    const onCanPlay = () => attemptPlay()
-    const onLoadedData = () => attemptPlay()
+    const onReady = () => attemptPlay()
+    video.addEventListener('canplay', onReady)
 
-    video.addEventListener('canplay', onCanPlay)
-    video.addEventListener('loadeddata', onLoadedData)
+    // Initial play attempt — no artificial delay
+    attemptPlay()
 
-    return () => {
-      video.removeEventListener('canplay', onCanPlay)
-      video.removeEventListener('loadeddata', onLoadedData)
-    }
+    return () => video.removeEventListener('canplay', onReady)
   }, [attemptPlay])
 
   // Visibility change - resume if paused
@@ -86,66 +68,40 @@ const HeroVideo = () => {
   }, [attemptPlay])
 
   // iOS Safari fallback: user interaction within the hero triggers play
-  // Scoped to the container so taps on nav/cart/menu aren't swallowed
   useEffect(() => {
     const container = videoRef.current?.parentElement
     if (!container) return
 
-    const handleInteraction = () => {
-      attemptPlay()
-    }
+    const handleInteraction = () => attemptPlay()
 
     container.addEventListener('touchstart', handleInteraction, { once: true, passive: true })
     container.addEventListener('click', handleInteraction, { once: true })
-    document.addEventListener('scroll', handleInteraction, { once: true, passive: true })
 
     return () => {
       container.removeEventListener('touchstart', handleInteraction)
       container.removeEventListener('click', handleInteraction)
-      document.removeEventListener('scroll', handleInteraction)
     }
-  }, [attemptPlay])
-
-  // IntersectionObserver - play when in view (helps iOS)
-  useEffect(() => {
-    const video = videoRef.current
-    if (!video) return
-
-    if (typeof IntersectionObserver === 'undefined') return
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) attemptPlay()
-        })
-      },
-      { threshold: 0.1 }
-    )
-    observer.observe(video)
-    return () => observer.disconnect()
   }, [attemptPlay])
 
   return (
     <>
-      {/* Fallback image shown until video plays */}
-      {!isPlaying && (
-        <Image
-          src="/images/common/hero-section-background.webp"
-          alt="Ethiopian coffee beans background"
-          fill
-          priority
-          sizes="100vw"
-          quality={70}
-          className="object-cover object-center"
-        />
-      )}
+      {/* Fallback image — always in DOM for stable LCP, hidden via CSS when video plays */}
+      <Image
+        src="/images/common/hero-section-background.webp"
+        alt="Ethiopian coffee beans background"
+        fill
+        priority
+        sizes="100vw"
+        quality={70}
+        className={`object-cover object-center transition-opacity duration-500 ${isPlaying ? 'opacity-0' : 'opacity-100'}`}
+      />
       <video
         ref={videoRef}
         muted
         playsInline
         loop
         autoPlay
-        preload="metadata"
+        preload="none"
         className={`hero-video absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${isPlaying ? 'opacity-100' : 'opacity-0'}`}
       >
         <source src={videoSrc} type="video/mp4" />
