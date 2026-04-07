@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== JIMMA COFFEE BUYER'S SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/jimma-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/jimma-coffee-sourcing-guide.webp',
+      date: 'Apr 07, 2026',
+      title: 'Jimma Coffee: Buyer\'s Sourcing Guide',
+      slug: 'jimma-coffee-sourcing-guide',
+      category: 'Origin Guide / Jimma Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Jimma coffee sourcing guide',
+        'Jimma coffee buyer guide',
+        'Ethiopian Jimma green coffee',
+        'Jimma coffee flavor profile',
+        'Jimma coffee FOB pricing',
+        'how to source Jimma coffee from Ethiopia',
+        'Jimma natural coffee',
+        'Jimma coffee grading',
+        'Jimma vs Limu coffee',
+        'Djimmah coffee export',
+        'Jimma coffee espresso blend',
+        'Jimma coffee wholesale importers',
+        'Agaro coffee Ethiopia',
+        'Jimma origin guide',
+        'Jimma commercial grade coffee'
+      ],
+      desc: 'Jimma coffee sourcing guide for importers: sub-regions (Gomma, Agaro, Mana, Seka Chekorsa, Kersa, Shebe Sombo), flavor profiles by process, grades, FOB pricing benchmarks, and how to source direct from Ethiopia.'
+    },
     // ===== LIMU COFFEE BUYER'S SOURCING GUIDE =====
     {
       small_image_url: 'insights/limu-coffee-sourcing-guide.webp',

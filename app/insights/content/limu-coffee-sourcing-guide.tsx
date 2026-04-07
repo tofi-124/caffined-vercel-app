@@ -180,7 +180,7 @@ export default function LimuCoffeeSourcingGuide({ title, date, large_image_url }
       <div className='bg-blue-50 border border-blue-200 rounded-lg p-6 my-6'>
         <h4 className='font-bold text-lg mb-3'>Limu vs. Jimma: What Buyers Should Know</h4>
         <p className='text-sm text-gray-700'>
-          Limu and Jimma are sometimes confused because both sit within the broader Jimma administrative zone. In the ECX classification, they are distinct origins. Limu refers specifically to the higher-altitude Limmu Kossa and Limmu Seka woredas (districts), which produce cleaner, more complex cups. Jimma encompasses the wider zone, including lower-altitude commercial production. When sourcing, always specify &quot;Limu&quot; origin on contracts to ensure you receive lots from the premium higher-altitude districts.
+          Limu and Jimma are sometimes confused because both sit within the broader Jimma administrative zone. In the ECX classification, they are distinct origins. Limu refers specifically to the higher-altitude Limmu Kossa and Limmu Seka woredas (districts), which produce cleaner, more complex cups. Jimma encompasses the wider zone, including lower-altitude commercial production. When sourcing, always specify &quot;Limu&quot; origin on contracts to ensure you receive lots from the premium higher-altitude districts. For a detailed breakdown of Jimma&apos;s sub-regions, grades, and pricing, see our <Link href='/insights/jimma-coffee-sourcing-guide' className='text-amber-700 hover:underline font-bold'>Jimma Coffee: Buyer&apos;s Sourcing Guide</Link>.
         </p>
       </div>
 
@@ -519,6 +519,7 @@ export default function LimuCoffeeSourcingGuide({ title, date, large_image_url }
               <li>&bull; <Link href='/insights/sidamo-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Sidamo Coffee: Buyer&apos;s Sourcing Guide</Link></li>
               <li>&bull; <Link href='/insights/guji-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Guji Coffee: Buyer&apos;s Sourcing Guide</Link></li>
               <li>&bull; <Link href='/insights/harar-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Harar Coffee: Buyer&apos;s Sourcing Guide</Link></li>
+              <li>&bull; <Link href='/insights/jimma-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Jimma Coffee: Buyer&apos;s Sourcing Guide</Link></li>
             </ul>
           </div>
           <div>
