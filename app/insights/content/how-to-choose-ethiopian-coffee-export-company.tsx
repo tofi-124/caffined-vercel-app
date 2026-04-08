@@ -371,7 +371,7 @@ export default function HowToChooseEthiopianCoffeeExportCompany({ title, date, l
 
         <h4 className='font-bold mt-4'>Should I visit Ethiopia before choosing an exporter?</h4>
         <p className='my-2'>
-          An origin visit is not required for every buyer, but it is recommended for large-volume commitments or specialty programs. Visiting allows you to inspect processing facilities, meet the team, cup samples at origin, and build the relationship in person. Most established exporters welcome buyer visits during harvest season (October through January).
+          An origin visit is not required for every buyer, but it is recommended for large-volume commitments or specialty programs. Visiting allows you to inspect processing facilities, meet the team, cup samples at origin, and build the relationship in person. Most established exporters welcome buyer visits during harvest season (October through January). Alternatively, international trade events like <Link href='/insights/world-of-coffee-san-diego-2026-buyers-guide' className='text-amber-700 hover:underline'>World of Coffee San Diego 2026</Link> allow you to meet exporters face-to-face, cup samples, and evaluate capabilities without traveling to origin.
         </p>
 
         <h4 className='font-bold mt-4'>What payment terms are standard for Ethiopian coffee exports?</h4>

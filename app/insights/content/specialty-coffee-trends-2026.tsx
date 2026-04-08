@@ -187,7 +187,7 @@ export default function SpecialtyCoffeeTrends2026({ title, date, large_image_url
       </p>
 
       <p className='my-4'>
-        Ethiopia offers a narrative depth that no other origin can match. It is the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>birthplace of Arabica</Link>. The <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>Ethiopian coffee ceremony</Link> is a living cultural practice, not a museum exhibit. The cooperative and washing station model connects each lot to a community with a name, a location, and a story your customers can share. This is premiumization through provenance, not just packaging.
+        Ethiopia offers a narrative depth that no other origin can match. It is the <Link href='/insights/ethiopia-coffee-origin-birthplace' className='text-amber-700 hover:underline'>birthplace of Arabica</Link>. The <Link href='/insights/ethiopian-coffee-ceremony' className='text-amber-700 hover:underline'>Ethiopian coffee ceremony</Link> is a living cultural practice, not a museum exhibit. The cooperative and washing station model connects each lot to a community with a name, a location, and a story your customers can share. This is premiumization through provenance, not just packaging. Industry events like <Link href='/insights/world-of-coffee-san-diego-2026-buyers-guide' className='text-amber-700 hover:underline'>World of Coffee San Diego 2026</Link> bring these origin stories to life through cupping rooms, producer village exhibits, and direct exporter meetings.
       </p>
 
       <p className='my-4'>

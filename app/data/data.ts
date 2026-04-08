@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== WORLD OF COFFEE SAN DIEGO 2026 BUYER'S GUIDE =====
+    {
+      small_image_url: 'insights/world-of-coffee-san-diego-2026-buyers-guide.webp',
+      large_image_url: 'insights/world-of-coffee-san-diego-2026-buyers-guide.webp',
+      date: 'Apr 08, 2026',
+      title: 'World of Coffee San Diego 2026: Buyer\'s Guide',
+      slug: 'world-of-coffee-san-diego-2026-buyers-guide',
+      category: 'Trade Events / Coffee Industry / Sourcing Strategy / Importer Resources',
+      keywords: [
+        'World of Coffee San Diego 2026',
+        'World of Coffee 2026',
+        'SCA trade show 2026',
+        'Specialty Coffee Expo 2026',
+        'World of Coffee buyer guide',
+        'coffee trade show San Diego',
+        'SCA World of Coffee registration',
+        'World of Coffee San Diego exhibitors',
+        'Ethiopian coffee trade show',
+        'World of Coffee Producer Village',
+        'coffee sourcing trade events',
+        'World Latte Art Championship 2026',
+        'SCA Lecture Series 2026',
+        'green coffee buyer trade show guide',
+        'World of Coffee San Diego schedule'
+      ],
+      desc: 'Guide to World of Coffee San Diego 2026: event dates, venue, Producer Village, Ethiopian coffee sourcing strategy, and pre-show checklist for importers.'
+    },
     // ===== JIMMA COFFEE BUYER'S SOURCING GUIDE =====
     {
       small_image_url: 'insights/jimma-coffee-sourcing-guide.webp',
