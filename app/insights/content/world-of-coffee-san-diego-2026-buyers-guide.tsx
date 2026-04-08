@@ -419,7 +419,7 @@ export default function WorldOfCoffeeSanDiego2026BuyersGuide({ title, date, larg
 
       {/* CTA BLOCK */}
       <div className='bg-amber-50 p-6 rounded-lg my-8 border border-amber-200'>
-        <h4 className='font-bold text-xl mb-3'>Meet Ethio Coffee at World of Coffee San Diego</h4>
+        <h4 className='font-bold text-xl mb-3'>Ethio Coffee at World of Coffee San Diego</h4>
         <p className='my-2'>
           Ethio Coffee Import and Export PLC sources from cooperatives and washing stations across all six major Ethiopian coffee regions. Browse our current offerings, request pre-show samples, or schedule a meeting at the show.
         </p>
