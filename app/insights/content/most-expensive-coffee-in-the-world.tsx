@@ -201,7 +201,7 @@ export default function MostExpensiveCoffeeInTheWorld({ title, date, large_image
       </p>
 
       <div className='bg-blue-50 p-5 rounded-lg border border-blue-200 my-4'>
-        <p className='text-sm'><span className='font-bold'>Ethiopian connection:</span> The Gesha variety traces directly to Ethiopia&apos;s Bench Maji and Kaffa zones. Wild and semi-wild Gesha trees still grow in these forests today. While Panamanian Gesha commands the highest auction prices, <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline font-semibold'>Ethiopian heirloom varieties</Link> (which include Gesha and thousands of unclassified landraces) offer comparable genetic complexity at a fraction of the price. This is a significant opportunity for importers.</p>
+        <p className='text-sm'><span className='font-bold'>Ethiopian connection:</span> The Gesha variety traces directly to Ethiopia&apos;s Bench Maji and Kaffa zones. Wild and semi-wild Gesha trees still grow in these forests today. While Panamanian Gesha commands the highest auction prices, <Link href='/insights/ethiopian-heirloom-coffee-varieties-landraces' className='underline font-semibold'>Ethiopian heirloom varieties</Link> (which include Gesha and thousands of unclassified landraces) offer comparable genetic complexity at a fraction of the price. This is a significant opportunity for importers. Our <Link href='/insights/ethiopian-gesha-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Gesha sourcing guide</Link> covers how to evaluate and source these lots directly from origin.</p>
       </div>
 
       {/* ====== ST. HELENA ====== */}

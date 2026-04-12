@@ -674,7 +674,7 @@ export default function EthiopianHeirloomCoffeeVarieties({ title, date, large_im
 
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
         <p className='font-medium'>
-          <span className='font-bold'>Perspective:</span> Coffee from near Gesha village can be exceptional regardless of whether it matches the Panama phenotype exactly. Ethiopia's genetic diversity means other varieties from the region may be equally extraordinary. Focus on cup quality rather than fixating on the "Gesha" name.
+          <span className='font-bold'>Perspective:</span> Coffee from near Gesha village can be exceptional regardless of whether it matches the Panama phenotype exactly. Ethiopia's genetic diversity means other varieties from the region may be equally extraordinary. Focus on cup quality rather than fixating on the "Gesha" name. For detailed sourcing guidance, see our <Link href='/insights/ethiopian-gesha-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Ethiopian Gesha Coffee: Buyer's Sourcing Guide</Link>.
         </p>
       </div>
 

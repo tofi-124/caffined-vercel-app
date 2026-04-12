@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN GESHA COFFEE SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-gesha-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/ethiopian-gesha-coffee-sourcing-guide.webp',
+      date: 'Apr 12, 2026',
+      title: 'Ethiopian Gesha Coffee: Buyer\'s Sourcing Guide',
+      slug: 'ethiopian-gesha-coffee-sourcing-guide',
+      category: 'Origin Guide / Gesha Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Ethiopian Gesha coffee',
+        'Gesha coffee origin Ethiopia',
+        'Gesha coffee sourcing',
+        'Ethiopian Geisha coffee buyer guide',
+        'Bench Maji Gesha coffee',
+        'why is Gesha coffee so expensive',
+        'how to source Gesha from Ethiopia',
+        'Ethiopian Gesha vs Panama Geisha',
+        'Gesha coffee flavor profile',
+        'Gesha coffee price per kg',
+        'Gesha coffee FOB pricing',
+        'Gesha coffee auction',
+        'Pride of Gesha Ethiopia',
+        'Gori Gesha forest coffee',
+        'Gesha1931 cultivar'
+      ],
+      desc: 'Source Ethiopian Gesha coffee from origin: variety history, growing regions, flavor profiles, FOB pricing, and step-by-step buying guide for importers.'
+    },
     // ===== WORLD OF COFFEE SAN DIEGO 2026 BUYER'S GUIDE =====
     {
       small_image_url: 'insights/world-of-coffee-san-diego-2026-buyers-guide.webp',

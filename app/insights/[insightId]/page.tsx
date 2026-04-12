@@ -102,6 +102,7 @@ const readingTimeMap: Record<string, number> = {
   'limu-coffee-sourcing-guide': 12,
   'jimma-coffee-sourcing-guide': 12,
   'world-of-coffee-san-diego-2026-buyers-guide': 11,
+  'ethiopian-gesha-coffee-sourcing-guide': 13,
 }
 
 function getReadingTime(slug: string): number {
