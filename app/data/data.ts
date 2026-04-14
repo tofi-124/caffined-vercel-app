@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO CHINA =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-china.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-china.webp',
+      date: 'Apr 16, 2026',
+      title: 'Import Ethiopian Coffee to China: GACC Registration, Customs, Duties & Logistics Guide',
+      slug: 'importing-ethiopian-coffee-to-china',
+      category: 'Import Guide / China Market / Ethiopian Coffee Export / B2B Intelligence',
+      keywords: [
+        'import Ethiopian coffee to China',
+        'GACC registration coffee',
+        'China coffee import requirements',
+        'Ethiopian coffee China customs',
+        'China green coffee import duty',
+        'GACC Decree 248 coffee',
+        'Chinese food safety standards coffee',
+        'shipping coffee Djibouti to Shanghai',
+        'China LDC zero tariff coffee',
+        'Ethiopian coffee CIQ inspection',
+        'China coffee market importers',
+        'GACC-CNCA registration Ethiopian exporter',
+        'GB 2761 coffee mycotoxin',
+        'Certificate of Origin China coffee',
+        'Chinese specialty coffee market'
+      ],
+      desc: 'Step-by-step guide to importing Ethiopian green coffee to China: GACC registration, CIQ inspection, GB food safety standards, zero-tariff access, shipping routes, landed cost, and market entry strategy for Chinese importers.'
+    },
     // ===== ETHIOPIAN GESHA COFFEE SOURCING GUIDE =====
     {
       small_image_url: 'insights/ethiopian-gesha-coffee-sourcing-guide.webp',

@@ -251,6 +251,10 @@ export default function EthiopiaChinaCoffeeTradePartnership({ title, date, large
         When evaluating an Ethiopian coffee exporter for the Chinese market, key criteria include: <Link href='/insights/ecx-and-ethiopian-coffee-export' className='text-amber-700 hover:underline'>ECX registration and direct specialty licenses</Link>, cupping lab and quality control infrastructure, access to multiple origins and processing methods, and experience with the documentation requirements for Chinese customs clearance. For an overview of how Ethiopian coffee moves from origin to destination, see our <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>guide to Ethiopian green coffee origins</Link>.
       </p>
 
+      <p className='my-4'>
+        For a complete guide to GACC registration, customs clearance, and import logistics, see our <Link href='/insights/importing-ethiopian-coffee-to-china' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to China</Link> guide.
+      </p>
+
       {/* FAQ SECTION */}
       <section className='mb-12 bg-gray-50 rounded-xl p-8 border border-gray-200'>
         <h3 className='text-2xl font-bold mb-6 text-gray-900'>Frequently Asked Questions About Ethiopia-China Coffee Trade</h3>
@@ -330,6 +334,7 @@ export default function EthiopiaChinaCoffeeTradePartnership({ title, date, large
           <div>
             <h4 className='font-semibold mb-2 text-sm'>Import Guides</h4>
             <ul className='space-y-1 text-sm'>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-china' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to China</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-japan' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to Japan</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-south-korea' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to South Korea</Link></li>
               <li>&bull; <Link href='/insights/how-to-import-ethiopian-coffee-to-usa' className='text-amber-700 hover:underline'>Import Ethiopian Coffee to the USA</Link></li>

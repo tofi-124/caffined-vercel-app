@@ -222,7 +222,7 @@ export default function EthiopianCoffeeExportProcessBuyersGuide({ title, date, l
         <li>Europe (Hamburg, <Link href='/insights/importing-ethiopian-coffee-to-holland' className='underline font-bold'>Rotterdam</Link>, Felixstowe): 18 to 25 days</li>
         <li>North America (New York, Montreal): 28 to 35 days</li>
         <li>Middle East (Jeddah, Jebel Ali): 4 to 7 days. For market intelligence on the fastest-growing GCC destination, see the <Link href='/insights/saudi-arabia-specialty-coffee-market-guide' className='underline font-bold'>Saudi Arabia coffee market guide</Link> and the <Link href='/insights/importing-ethiopian-coffee-to-uae' className='underline font-bold'>UAE import guide</Link></li>
-        <li>East Asia (Yokohama, Busan): 22 to 30 days</li>
+        <li>East Asia (Yokohama, Busan, Shanghai): 22 to 30 days. For GACC registration and Chinese customs requirements, see the <Link href='/insights/importing-ethiopian-coffee-to-china' className='underline font-bold'>China import guide</Link></li>
         <li>Australia (Melbourne): 25 to 32 days</li>
       </ul>
       <p className='my-4'>
