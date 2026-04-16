@@ -16,7 +16,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-china.webp',
       large_image_url: 'insights/importing-ethiopian-coffee-to-china.webp',
-      date: 'Apr 16, 2026',
+      date: 'Apr 14, 2026',
       title: 'Import Ethiopian Coffee to China: GACC Registration, Customs, Duties & Logistics Guide',
       slug: 'importing-ethiopian-coffee-to-china',
       category: 'Import Guide / China Market / Ethiopian Coffee Export / B2B Intelligence',
