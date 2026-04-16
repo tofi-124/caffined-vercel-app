@@ -11,7 +11,6 @@ import ErrorBoundary from './components/ErrorBoundary'
 import dynamic from 'next/dynamic'
 
 const ScrollToTop = dynamic(() => import('./components/ScrollToTop'))
-const ContactFAB = dynamic(() => import('./components/WhatsAppButton'))
 const CartDrawer = dynamic(() => import('./components/CartDrawer'))
 
 const oswald = Oswald({ 
@@ -213,7 +212,6 @@ export default function RootLayout({
         <ScrollToTop />
         <ErrorBoundary>
         <CartProvider>
-        <ContactFAB />
         <CartDrawer />
         <Navbar />
         <div className="min-h-screen">
