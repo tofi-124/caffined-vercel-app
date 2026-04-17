@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== NEKEMTE WELLEGA COFFEE SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/nekemte-wellega-coffee-sourcing-guide.webp',
+      large_image_url: 'insights/nekemte-wellega-coffee-sourcing-guide.webp',
+      date: 'Apr 17, 2026',
+      title: 'Nekemte Coffee Sourcing Guide: Lekempti Trade Name, Wollega Sub-Zones, Grades & FOB Pricing',
+      slug: 'nekemte-wellega-coffee-sourcing-guide',
+      category: 'Origin Guide / Nekemte Coffee / Lekempti Coffee / Sourcing Guide / Importer Resources',
+      keywords: [
+        'Nekemte coffee',
+        'Lekempti coffee',
+        'Nekemte coffee sourcing guide',
+        'Wellega coffee Ethiopia',
+        'Wollega coffee zones',
+        'Lekempti coffee grading',
+        'western Ethiopia coffee export',
+        'Nekemte coffee flavor profile',
+        'Kellem Wollega coffee',
+        'Ethiopian coffee FOB pricing Nekemte',
+        'Lekempti natural coffee',
+        'semi-forest coffee Ethiopia',
+        'Ethiopian coffee origin guide',
+        'buy Nekemte coffee wholesale',
+        'Lekempti Grade 4 natural'
+      ],
+      desc: 'Nekemte (Lekempti) coffee sourcing guide: Wollega sub-zones, grades, FOB pricing, and how to buy from western Ethiopia.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO CHINA =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-china.webp',

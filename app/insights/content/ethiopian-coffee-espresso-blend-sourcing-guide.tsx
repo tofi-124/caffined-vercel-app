@@ -554,6 +554,7 @@ export default function EthiopianCoffeeEspressoBlendSourcingGuide({ title, date,
               <li>&bull; <Link href='/insights/ethiopian-coffee-vs-brazilian-coffee' className='text-amber-700 hover:underline'>Ethiopian vs Brazilian Coffee</Link></li>
               <li>&bull; <Link href='/insights/ethiopian-coffee-vs-colombian-coffee' className='text-amber-700 hover:underline'>Ethiopian vs Colombian Coffee</Link></li>
               <li>&bull; <Link href='/insights/jimma-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Jimma Coffee: Buyer&apos;s Sourcing Guide</Link></li>
+              <li>&bull; <Link href='/insights/nekemte-wellega-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Nekemte (Lekempti) Coffee: Buyer&apos;s Sourcing Guide</Link></li>
             </ul>
           </div>
           <div>

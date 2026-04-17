@@ -516,6 +516,7 @@ export default function GujiCoffeeSourcingGuide({ title, date, large_image_url }
               <li>&bull; <Link href='/insights/yirgacheffe-vs-sidamo-vs-guji-comparison' className='text-amber-700 hover:underline'>Yirgacheffe vs Sidamo vs Guji Compared</Link></li>
               <li>&bull; <Link href='/insights/guide-ethiopian-coffee-origins' className='text-amber-700 hover:underline'>Guide to Ethiopian Green Coffee Origins</Link></li>
               <li>&bull; <Link href='/insights/harar-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Harar Coffee: Buyer&apos;s Sourcing Guide</Link></li>
+              <li>&bull; <Link href='/insights/nekemte-wellega-coffee-sourcing-guide' className='text-amber-700 hover:underline'>Nekemte (Lekempti) Coffee: Buyer&apos;s Sourcing Guide</Link></li>
             </ul>
           </div>
           <div>
