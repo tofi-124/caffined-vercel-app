@@ -12,6 +12,32 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE COLD BREW RTD SOURCING GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-cold-brew-rtd-sourcing-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-cold-brew-rtd-sourcing-guide.webp',
+      date: 'Apr 20, 2026',
+      title: 'Ethiopian Coffee for Cold Brew & RTD: Sourcing Guide',
+      slug: 'ethiopian-coffee-cold-brew-rtd-sourcing-guide',
+      category: 'Cold Brew & RTD / Sourcing Guide / Green Coffee Buying / Importer Resources',
+      keywords: [
+        'Ethiopian coffee cold brew',
+        'Ethiopian coffee for RTD',
+        'cold brew green coffee sourcing',
+        'best Ethiopian coffee for cold brew',
+        'cold brew coffee wholesale',
+        'which Ethiopian coffee is best for cold brew',
+        'Ethiopian natural coffee cold brew concentrate',
+        'RTD cold brew sourcing single origin',
+        'cold brew Ethiopian vs Colombian',
+        'Ethiopian cold brew flavor retention bottled',
+        'nitro cold brew Ethiopian coffee',
+        'shelf stable cold brew formulation',
+        'HPP cold brew coffee',
+        'Ethiopian coffee RTD production'
+      ],
+      desc: 'Source Ethiopian green coffee for cold brew and RTD production: best origins, processing, grades, extraction at scale, and shelf-stable formulation.'
+    },
     // ===== NEKEMTE WELLEGA COFFEE SOURCING GUIDE =====
     {
       small_image_url: 'insights/nekemte-wellega-coffee-sourcing-guide.webp',
