@@ -16,7 +16,7 @@ export const posts: Post[] = [
     {
       small_image_url: 'insights/ethiopian-coffee-cold-brew-rtd-sourcing-guide.webp',
       large_image_url: 'insights/ethiopian-coffee-cold-brew-rtd-sourcing-guide.webp',
-      date: 'Apr 20, 2026',
+      date: 'Apr 19, 2026',
       title: 'Ethiopian Coffee for Cold Brew & RTD: Sourcing Guide',
       slug: 'ethiopian-coffee-cold-brew-rtd-sourcing-guide',
       category: 'Cold Brew & RTD / Sourcing Guide / Green Coffee Buying / Importer Resources',
