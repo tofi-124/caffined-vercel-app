@@ -2050,6 +2050,36 @@ export const posts: Post[] = [
       ],
       desc: 'Updated 2026 guide to importing Ethiopian green coffee via Rotterdam. Covers Dutch coffee market data (222,400 tonnes imported in 2024), GSP+ duty-free access, Article 23 VAT deferral, EUDR compliance timelines, NVWA regulations, customs clearance, bonded storage, certification trends, and landed cost breakdown for a 20ft container.'
     },
+    {
+        small_image_url: 'insights/importing-ethiopian-coffee-to-belgium.webp',
+        large_image_url: 'insights/importing-ethiopian-coffee-to-belgium.webp',
+      date: 'Apr 21, 2026',
+      title: 'Import Ethiopian Coffee to Belgium',
+      slug: 'importing-ethiopian-coffee-to-belgium',
+      category: 'Import Guide / Belgium & EU Market / Ethiopian Coffee Export',
+      keywords: [
+        'ethio coffee',
+        'ethiopian coffee export',
+        'coffee import to belgium',
+        'import ethiopian coffee belgium',
+        'antwerp coffee import',
+        'belgium coffee import regulations',
+        'green coffee belgium',
+        'belgium green coffee re-export',
+        'antwerp bonded warehouse coffee',
+        'benelux coffee distribution',
+        'specialty coffee belgium',
+        'belgium coffee market',
+        'eudr coffee compliance',
+        'eu coffee import',
+        'ethiopian coffee belgium',
+        'belgian coffee importers',
+        'antwerp warehouse coffee',
+        'eu distribution coffee',
+        'ethiopian coffee logistics europe'
+      ],
+      desc: 'Guide to importing Ethiopian green coffee into Belgium through Antwerp, covering Belgium\'s role as a re-export hub, warehouse-first logistics, buyer fit, EUDR readiness, duty-free green coffee entry, and documentation strategy for Benelux and nearby EU distribution.'
+    },
     // Middle East
     {
       small_image_url: 'insights/saudi-coffee-import.webp',

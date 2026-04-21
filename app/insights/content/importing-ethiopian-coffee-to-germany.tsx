@@ -819,6 +819,7 @@ export default function ImportingEthiopianCoffeeToGermany({ title, date, large_i
               <li>&bull; <Link href='/insights/germany-specialty-coffee-market-guide' className='text-amber-700 hover:underline'>German Specialty Coffee Market Guide</Link></li>
               <li>&bull; <Link href='/insights/eu-deforestation-regulation-ethiopian-coffee-compliance' className='text-amber-700 hover:underline'>EUDR Compliance Guide for Ethiopian Coffee</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-france' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to France</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-belgium' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Belgium</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Netherlands</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-italy' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Italy</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to UK</Link></li>

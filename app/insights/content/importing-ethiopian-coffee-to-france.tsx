@@ -59,7 +59,7 @@ export default function ImportingEthiopianCoffeeToFrance({ title, date, large_im
       </p>
 
       <p className='my-4'>
-        This guide covers every step from EU and French regulations to cost breakdowns, shipping logistics, customs clearance, and market entry strategies. For broader context on EU regulations, see our companion articles on <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline font-bold'>importing to Germany</Link> and <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline font-bold'>importing to the Netherlands</Link>.
+        This guide covers every step from EU and French regulations to cost breakdowns, shipping logistics, customs clearance, and market entry strategies. For broader context on EU regulations and western European routing options, see our companion articles on <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline font-bold'>importing to Germany</Link>, <Link href='/insights/importing-ethiopian-coffee-to-belgium' className='text-amber-700 hover:underline font-bold'>importing to Belgium</Link>, and <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline font-bold'>importing to the Netherlands</Link>.
       </p>
 
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>
@@ -809,6 +809,7 @@ export default function ImportingEthiopianCoffeeToFrance({ title, date, large_im
             <h4 className='font-semibold mb-2 text-sm'>Import Guides &amp; EU Market</h4>
             <ul className='space-y-1 text-sm'>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Germany</Link></li>
+              <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-belgium' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Belgium</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-holland' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Netherlands</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-italy' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to Italy</Link></li>
               <li>&bull; <Link href='/insights/importing-ethiopian-coffee-to-uk' className='text-amber-700 hover:underline'>Importing Ethiopian Coffee to UK</Link></li>
