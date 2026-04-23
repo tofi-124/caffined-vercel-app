@@ -383,7 +383,7 @@ export default function HowToSourceGreenCoffeeFromEthiopia({ title, date, large_
       </div>
 
       <p className='my-4'>
-        For detailed FOB price analysis by grade and region, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee FOB pricing guide</Link>. For a complete breakdown of what it costs to land Ethiopian coffee at your warehouse, see the <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline font-semibold'>landed cost guide</Link>.
+        For detailed FOB price analysis by grade and region, see our <Link href='/insights/ethiopian-coffee-pricing-fob-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee FOB pricing guide</Link>. For a complete breakdown of what it costs to land Ethiopian coffee at your warehouse, see the <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='text-amber-700 hover:underline font-semibold'>landed cost guide</Link>. If your destination model relies on a Southeast Asian hub instead of a single-country roast market, our <Link href='/insights/importing-ethiopian-coffee-to-singapore' className='text-amber-700 hover:underline font-semibold'>Singapore import guide</Link> explains how TradeNet, SFA registration, GST timing, and FTZ storage change the economics.
       </p>
 
       {/* SECTION 8: ORIGINS */}

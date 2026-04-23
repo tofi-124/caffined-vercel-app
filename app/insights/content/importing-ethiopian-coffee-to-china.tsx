@@ -421,6 +421,10 @@ export default function ImportingEthiopianCoffeeToChina({ title, date, large_ima
         Ethiopian coffee ships from the Port of Djibouti to Chinese ports. The standard route passes through the Red Sea, Suez Canal, and across the Indian Ocean to Southeast Asia and then to Chinese ports. Some carriers route via the Strait of Malacca.
       </p>
 
+      <p className='my-4'>
+        Buyers choosing between direct mainland entry and an ASEAN staging model should compare this route with our <Link href='/insights/importing-ethiopian-coffee-to-singapore' className='text-amber-700 hover:underline font-semibold'>Singapore import guide</Link>. Singapore usually makes more sense for mixed-origin warehousing and regional redistribution, while direct China entry is stronger when the coffee is already committed to one importer and one customs process.
+      </p>
+
       <div className='overflow-x-auto my-6'>
         <table className='w-full border-collapse text-sm'>
           <thead>

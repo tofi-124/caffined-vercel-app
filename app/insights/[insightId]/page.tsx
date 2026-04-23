@@ -19,6 +19,7 @@ const readingTimeMap: Record<string, number> = {
   'importing-ethiopian-coffee-to-uae': 16,
   'importing-ethiopian-coffee-to-south-korea': 30,
   'importing-ethiopian-coffee-to-japan': 20,
+  'importing-ethiopian-coffee-to-singapore': 12,
   'importing-ethiopian-coffee-to-germany': 25,
   'importing-ethiopian-coffee-to-holland': 15,
   'importing-ethiopian-coffee-to-belgium': 17,

@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO SINGAPORE =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-singapore.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-singapore.webp',
+      date: 'Apr 23, 2026',
+      title: 'Import Ethiopian Coffee to Singapore: GST, SFA & TradeNet',
+      slug: 'importing-ethiopian-coffee-to-singapore',
+      category: 'Import Guide / Singapore Market / Ethiopian Coffee Export / ASEAN Trade Strategy',
+      keywords: [
+        'import Ethiopian coffee to Singapore',
+        'Singapore coffee import guide',
+        'TradeNet coffee permit',
+        'SFA coffee import registration',
+        'Singapore green coffee import',
+        'Ethiopian coffee Singapore',
+        'Singapore coffee import GST',
+        'Singapore non dutiable coffee',
+        'Free Trade Zone coffee Singapore',
+        'zero GST warehouse coffee',
+        'Ethiopian coffee ASEAN hub',
+        'Singapore specialty coffee importer',
+        'Djibouti to Singapore coffee shipping',
+        'Singapore Customs Account coffee',
+        're-export Ethiopian coffee ASEAN'
+      ],
+      desc: 'Import Ethiopian coffee to Singapore with TradeNet, SFA registration, 9% GST, FTZ options, landed cost, and ASEAN hub strategy.'
+    },
     // ===== ETHIOPIAN COFFEE COLD BREW RTD SOURCING GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-cold-brew-rtd-sourcing-guide.webp',
