@@ -44,3 +44,26 @@ ETHIO COFFEE-vercel-app/
 ```
 
 **Live Site**: [https://www.ethiocoffee.co/](https://www.ethiocoffee.co/)
+
+## Getting Started
+
+Install dependencies and start the local development server:
+
+```bash
+npm install
+npm run dev
+```
+
+The app will be available at `http://localhost:3000`.
+
+## Available Scripts
+
+- `npm run dev` - start the Next.js development server
+- `npm run build` - create a production build
+- `npm run start` - run the production build locally
+- `npm run lint` - run the project's lint checks
+
+## Notes
+
+- The site uses the Next.js App Router under `app/`
+- Production builds also trigger the IndexNow submission script through `postbuild`
