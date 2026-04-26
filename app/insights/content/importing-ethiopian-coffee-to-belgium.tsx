@@ -62,7 +62,7 @@ export default function ImportingEthiopianCoffeeToBelgium({
           Key Takeaway
         </h3>
         <p className='text-sm leading-relaxed'>
-          Belgium is one of the strongest EU entry points for Ethiopian green coffee when your goal is not only to sell in Belgium, but to stage inventory for France, the Netherlands, and nearby roasters from one bonded hub. CBI describes Belgium as a major green coffee importer and an important European trade hub, with much of its coffee re-exported to neighboring countries. That makes Antwerp especially useful for importers who want duty-free EU entry on green coffee, flexible warehousing, and short inland lead times to Benelux and northern France.
+          Belgium is one of the strongest EU entry points for Ethiopian green coffee when your goal is not only to sell in Belgium, but to stage inventory for France, the Netherlands, <Link href='/insights/importing-ethiopian-coffee-to-switzerland' className='text-amber-700 hover:underline font-bold'>Switzerland</Link>, and nearby roasters from one bonded hub. CBI describes Belgium as a major green coffee importer and an important European trade hub, with much of its coffee re-exported to neighboring countries. That makes Antwerp especially useful for importers who want duty-free EU entry on green coffee, flexible warehousing, and short inland lead times to Benelux, Switzerland, and northern France.
         </p>
       </div>
 

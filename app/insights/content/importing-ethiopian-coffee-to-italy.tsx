@@ -61,7 +61,7 @@ export default function ImportingEthiopianCoffeeToItaly({ title, date, large_ima
       </p>
 
       <p className='my-4'>
-        This guide covers every step from EU and Italian regulations to cost breakdowns, shipping logistics through Trieste and Genoa, customs clearance via the AIDA system, and Italian market entry strategies. For broader EU context, see our guides on <Link href='/insights/importing-ethiopian-coffee-to-france' className='text-amber-700 hover:underline font-bold'>importing to France</Link> and <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline font-bold'>importing to Germany</Link>.
+        This guide covers every step from EU and Italian regulations to cost breakdowns, shipping logistics through Trieste and Genoa, customs clearance via the AIDA system, and Italian market entry strategies. For broader EU context, see our guides on <Link href='/insights/importing-ethiopian-coffee-to-france' className='text-amber-700 hover:underline font-bold'>importing to France</Link>, <Link href='/insights/importing-ethiopian-coffee-to-germany' className='text-amber-700 hover:underline font-bold'>importing to Germany</Link>, and <Link href='/insights/importing-ethiopian-coffee-to-switzerland' className='text-amber-700 hover:underline font-bold'>importing to Switzerland</Link>.
       </p>
 
       <div className='bg-amber-50 text-gray-800 p-6 rounded-lg my-6 border border-amber-200'>

@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO SWITZERLAND =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-switzerland.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-switzerland.webp',
+      date: 'Apr 26, 2026',
+      title: 'Import Ethiopian Coffee to Switzerland',
+      slug: 'importing-ethiopian-coffee-to-switzerland',
+      category: 'Import Guide / Switzerland Market / Ethiopian Coffee Export / B2B Intelligence',
+      keywords: [
+        'import Ethiopian coffee to Switzerland',
+        'Swiss coffee import guide',
+        'Switzerland green coffee import',
+        'reservesuisse coffee import permit',
+        'Swiss GIP coffee',
+        'Basel coffee logistics',
+        'Rhine coffee imports Switzerland',
+        'Swiss coffee traders',
+        'Swiss specialty coffee market',
+        'Swiss import VAT coffee',
+        'Bio Suisse coffee sourcing',
+        'Fairtrade coffee Switzerland',
+        'Ethiopian coffee Switzerland',
+        'Swiss coffee trade association',
+        'coffee import permit Switzerland'
+      ],
+      desc: 'Import Ethiopian coffee to Switzerland with permit rules, Basel logistics, Swiss VAT planning, and buyer strategy for traders and roasters.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO SINGAPORE =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-singapore.webp',
