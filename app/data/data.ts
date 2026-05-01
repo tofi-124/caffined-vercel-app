@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== IMPORTING ETHIOPIAN COFFEE TO SPAIN =====
+    {
+      small_image_url: 'insights/importing-ethiopian-coffee-to-spain.webp',
+      large_image_url: 'insights/importing-ethiopian-coffee-to-spain.webp',
+      date: 'May 1, 2026',
+      title: 'Import Ethiopian Coffee to Spain',
+      slug: 'importing-ethiopian-coffee-to-spain',
+      category: 'Import Guide / Spain Market / Ethiopian Coffee Export / B2B Intelligence',
+      keywords: [
+        'import Ethiopian coffee to Spain',
+        'Spanish coffee import guide',
+        'Ethiopia Spain green coffee',
+        'SOIVRE coffee inspection Spain',
+        'EBA duty-free coffee Spain',
+        'Valencia port coffee import',
+        'Barcelona coffee import',
+        'AEAT customs coffee',
+        'IVA coffee import Spain',
+        'EUDR Spain coffee',
+        'Spanish specialty coffee market',
+        'Ethiopian Arabica Spain',
+        'Spanish green coffee importers',
+        'decaf coffee Spain import',
+        'Yirgacheffe coffee Spain'
+      ],
+      desc: 'Import Ethiopian coffee to Spain with SOIVRE rules, 0% EBA duty, IVA planning, Valencia logistics, EUDR compliance, and buyer strategy.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO SWITZERLAND =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-switzerland.webp',
