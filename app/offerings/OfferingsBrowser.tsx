@@ -47,6 +47,8 @@ const matchesKeyword = (offering: Offering, keyword: string) => {
 
 const OfferingsBrowser = () => {
   const resultsTopRef = useRef<HTMLDivElement>(null)
+  const hasContractedLots = useMemo(() => offerings.some((o) => o.isContracted), [])
+  const hasUpcomingLots = useMemo(() => offerings.some((o) => o.isSoldOut), [])
 
   // Pre-load PDF generator so mobile download clicks stay synchronous
   useEffect(() => { preloadPdfModule() }, [])
@@ -98,9 +100,9 @@ const OfferingsBrowser = () => {
       if (applied.grade && o.specifications.grade !== applied.grade) return false
       if (applied.processingMethod && o.specifications.processingMethod !== applied.processingMethod) return false
 
-      if (applied.availability === 'current-lots' && (o.isSoldOut || o.isContracted)) return false
-      if (applied.availability === 'contracted-lots' && !o.isContracted) return false
-      if (applied.availability === 'future-lots' && !o.isSoldOut) return false
+      if (applied.availability === 'available' && (o.isSoldOut || o.isContracted)) return false
+      if (applied.availability === 'contracted' && !o.isContracted) return false
+      if (applied.availability === 'upcoming' && !o.isSoldOut) return false
 
       if (applied.minScore) {
         const minScore = Number(applied.minScore)
@@ -310,9 +312,9 @@ const OfferingsBrowser = () => {
                       className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
                     >
                       <option value=''>All</option>
-                      <option value='current-lots'>Current Lots</option>
-                      <option value='contracted-lots'>Contracted Lots</option>
-                      <option value='future-lots'>Future Lots</option>
+                      <option value='available'>Available to Order</option>
+                      {hasContractedLots && <option value='contracted'>Contracted Lots</option>}
+                      {hasUpcomingLots && <option value='upcoming'>Upcoming Lots</option>}
                     </select>
                   </div>
                 </div>
@@ -433,9 +435,9 @@ const OfferingsBrowser = () => {
                   className='w-full p-2.5 border border-gray-200 rounded-lg bg-gray-50 focus:bg-white focus:border-accent outline-none transition-all'
                 >
                   <option value=''>All</option>
-                  <option value='current-lots'>Current Lots</option>
-                  <option value='contracted-lots'>Contracted Lots</option>
-                  <option value='future-lots'>Future Lots</option>
+                  <option value='available'>Available to Order</option>
+                  {hasContractedLots && <option value='contracted'>Contracted Lots</option>}
+                  {hasUpcomingLots && <option value='upcoming'>Upcoming Lots</option>}
                 </select>
               </div>
 

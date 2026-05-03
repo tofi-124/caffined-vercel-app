@@ -29,7 +29,7 @@ const Hero = () => {
               font-bold
               transition-[background-color,box-shadow]
               shadow-sm hover:shadow-md
-            ' aria-label="Check out our coffees">SEE OUR CURRENT LOTS</Link>
+            ' aria-label="Check out our coffees">SEE AVAILABLE LOTS</Link>
             <Link href="/about" className='
               px-6 py-3 sm:py-4 w-fit
               bg-transparent text-primary
