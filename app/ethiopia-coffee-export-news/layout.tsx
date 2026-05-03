@@ -2,6 +2,13 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 import { newsArticles } from '../data/news'
 
+const parseDateLocal = (value: string) => {
+  const match = /^\s*(\d{4})-(\d{2})-(\d{2})\s*$/.exec(value)
+  if (match) return new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3])).getTime()
+  const timestamp = Date.parse(value)
+  return Number.isFinite(timestamp) ? timestamp : 0
+}
+
 export const metadata: Metadata = {
   title: 'Ethiopian Coffee Export News | Industry Updates | Ethio Coffee',
   description:
@@ -34,6 +41,8 @@ export const metadata: Metadata = {
 }
 
 export default function NewsLayout({ children }: { children: React.ReactNode }) {
+  const sortedArticles = [...newsArticles].sort((a, b) => parseDateLocal(b.date) - parseDateLocal(a.date))
+
   const collectionPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -51,7 +60,7 @@ export default function NewsLayout({ children }: { children: React.ReactNode }) 
     "mainEntity": {
       "@type": "ItemList",
       "numberOfItems": newsArticles.length,
-      "itemListElement": newsArticles.slice(0, 10).map((article, index) => ({
+      "itemListElement": sortedArticles.slice(0, 10).map((article, index) => ({
         "@type": "ListItem",
         "position": index + 1,
         "url": `https://www.ethiocoffee.co/ethiopia-coffee-export-news/${article.slug}`

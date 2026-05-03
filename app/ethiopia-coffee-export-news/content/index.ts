@@ -80,6 +80,8 @@ export const newsContentMap: Record<string, () => Promise<any>> = {
       import('./ecta-mou-addis-ababa-science-technology-university').then(mod => mod.default),
     'ecta-national-occupational-standard-coffee': () =>
       import('./ecta-national-occupational-standard-coffee').then(mod => mod.default),
+    'china-zero-tariff-ethiopian-coffee-exports': () =>
+      import('./china-zero-tariff-ethiopian-coffee-exports').then(mod => mod.default),
   // 'slug': () => import('./slug').then(mod => mod.default),
 }
 

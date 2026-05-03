@@ -320,5 +320,13 @@ export const newsArticles: NewsArticle[] = [
     desc: 'The Ethiopian Coffee and Tea Authority unveiled a new Occupational Standard (OS) to certify professional excellence in the coffee sector, ensuring international-quality training, national uniformity, and global competitiveness for Ethiopian coffee professionals.',
     source: 'Sahlemariam G/medhin',
     keywords: 'Ethiopian coffee occupational standard, ECTA professional certification, Ethiopian coffee training standard, Coffee Training Center Ethiopia, Ethiopian coffee professionals, Ethiopian coffee exporter, coffee workforce development Ethiopia, Dr Adugna Debela, Ministry of Labor and Skills Ethiopia',
+  },
+  {
+    slug: 'china-zero-tariff-ethiopian-coffee-exports',
+    date: '2026-05-01',
+    title: 'China Zero-Tariff Policy Boosts Outlook for Ethiopian Coffee Exports',
+    desc: 'China\'s zero-tariff policy for 53 African countries took effect on May 1, giving Ethiopian coffee exporters a new pricing advantage in one of the world\'s fastest-growing coffee markets and strengthening the sector\'s export outlook.',
+    source: 'CGTN Africa',
+    keywords: 'China zero tariff Ethiopian coffee, Ethiopian coffee exports to China, China duty free African coffee, Ethiopian coffee market access China, Ethiopian coffee exporter, Chinese coffee market Ethiopia, Ethiopian green coffee beans China, Africa China trade coffee',
   }
 ]
