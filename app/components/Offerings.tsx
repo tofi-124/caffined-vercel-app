@@ -2,6 +2,14 @@ import Link from 'next/link'
 import OfferingsResultsList from './OfferingsResultsList'
 import { offerings } from '../data/offerings'
 
+const homeFeaturedIds = new Set([
+  'sidama-natural-g1-bombe-bariso',
+  'guji-natural-g4',
+  'yirgacheffe-natural-g4',
+])
+
+const homeFeaturedOfferings = offerings.filter((offering) => homeFeaturedIds.has(offering.id))
+
 const Offerings = () => {
   return (
     <section className='bg-primary py-16 lg:py-24'>
@@ -17,7 +25,7 @@ const Offerings = () => {
 
       {/* Products Grid */}
       <div className='max-w-6xl mx-auto px-4'>
-        <OfferingsResultsList items={offerings.slice(0, 3)} />
+        <OfferingsResultsList items={homeFeaturedOfferings} />
 
         {/* CTA */}
         <div className='text-center mt-12'>

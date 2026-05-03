@@ -3,6 +3,7 @@ import { offerings } from '../../../data/offerings'
 import { rateLimit, getClientIp } from '../../../lib/rate-limit'
 import { truncate } from '../../../lib/sanitize'
 import { getShippingRate } from '../../../lib/dhl'
+import type { SampleOption } from '../../../data/offerings'
 
 const PAYPAL_API_BASE = process.env.PAYPAL_MODE === 'live'
   ? 'https://api-m.paypal.com'
@@ -35,16 +36,22 @@ async function getPayPalAccessToken(): Promise<string> {
   return data.access_token
 }
 
-/**
- * Look up a product's sample option price from the server-side catalog.
- * Returns the verified price or null if not found.
- */
-function getVerifiedPrice(productId: string, weight: string): number | null {
+function getVerifiedSampleOption(productId: string, weight: string): {
+  option: SampleOption | null
+  error?: string
+} {
   const product = offerings.find(o => o.id === productId)
-  if (!product) return null
+  if (!product) {
+    return { option: null, error: `Product not found: ${productId}` }
+  }
+  if (product.isSoldOut || product.isContracted) {
+    return { option: null, error: `Samples are unavailable for this coffee: ${product.name}` }
+  }
   const option = product.pricing.sampleOptions.find(s => s.weight === weight)
-  if (!option) return null
-  return option.priceUSD
+  if (!option) {
+    return { option: null, error: `Sample option not found: ${productId} ${weight}` }
+  }
+  return { option }
 }
 
 export async function POST(request: NextRequest) {
@@ -87,24 +94,21 @@ export async function POST(request: NextRequest) {
           return NextResponse.json({ error: `Invalid cart item: ${item.productId || 'unknown'}` }, { status: 400 })
         }
 
-        const verifiedPrice = getVerifiedPrice(item.productId, item.weight)
-        if (verifiedPrice === null) {
+        const { option, error } = getVerifiedSampleOption(item.productId, item.weight)
+        if (!option) {
           return NextResponse.json(
-            { error: `Product or sample option not found: ${item.productId} ${item.weight}` },
+            { error: error || `Product or sample option not found: ${item.productId} ${item.weight}` },
             { status: 400 }
           )
         }
-
-        // Find the product to get verified weightGrams
         const product = offerings.find(o => o.id === item.productId)!
-        const option = product.pricing.sampleOptions.find(s => s.weight === item.weight)!
 
         verifiedItems.push({
           productId: item.productId,
           productName: product.name,
           weight: option.weight,
           weightGrams: option.weightGrams,
-          priceUSD: verifiedPrice,
+          priceUSD: option.priceUSD,
           quantity: Math.min(Math.floor(item.quantity), 50), // Cap at 50 per item
         })
       }
@@ -234,10 +238,10 @@ export async function POST(request: NextRequest) {
     }
 
     // Server-side price lookup — never trust client-supplied price
-    const verifiedPrice = getVerifiedPrice(productId, sampleWeight)
-    if (verifiedPrice === null) {
+    const { option, error } = getVerifiedSampleOption(productId, sampleWeight)
+    if (!option) {
       return NextResponse.json(
-        { error: `Product or sample option not found: ${productId} ${sampleWeight}` },
+        { error: error || `Product or sample option not found: ${productId} ${sampleWeight}` },
         { status: 400 }
       )
     }
@@ -258,7 +262,7 @@ export async function POST(request: NextRequest) {
           }), 256),
           amount: {
             currency_code: 'USD',
-            value: verifiedPrice.toFixed(2),
+            value: option.priceUSD.toFixed(2),
           },
         },
       ],

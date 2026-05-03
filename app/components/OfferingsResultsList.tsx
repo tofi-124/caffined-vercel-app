@@ -139,7 +139,7 @@ const OfferingsResultsList = ({ items }: Props) => {
 
         {/* Shared footer row - outside the Link so button doesn't trigger navigation */}
         <div className='px-6 pb-5 pt-4 border-t border-gray-300 flex items-center justify-between'>
-          {!o.isSoldOut && o.pricing.sampleOptions?.length > 0 ? (
+          {!o.isSoldOut && !o.isContracted && o.pricing.sampleOptions?.length > 0 ? (
             <QuickSampleButton
               productId={o.id}
               productName={o.name}

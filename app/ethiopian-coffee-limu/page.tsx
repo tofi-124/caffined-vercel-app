@@ -183,6 +183,7 @@ export default function LimuCoffeePage() {
                       sampleOptions={product.pricing.sampleOptions}
                       image_url={product.image_url}
                       isSoldOut={product.isSoldOut}
+                      isContracted={product.isContracted}
                     />
                   </div>
                 </div>

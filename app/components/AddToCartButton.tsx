@@ -10,9 +10,10 @@ type Props = {
   sampleOptions: SampleOption[]
   image_url: string
   isSoldOut?: boolean
+  isContracted?: boolean
 }
 
-const AddToCartButton = ({ productId, productName, sampleOptions, image_url, isSoldOut }: Props) => {
+const AddToCartButton = ({ productId, productName, sampleOptions, image_url, isSoldOut, isContracted }: Props) => {
   const { addItem, setIsCartOpen } = useCart()
   const [selectedOption, setSelectedOption] = useState<SampleOption>(sampleOptions[0])
   const [showPicker, setShowPicker] = useState(false)
@@ -38,7 +39,7 @@ const AddToCartButton = ({ productId, productName, sampleOptions, image_url, isS
     }
   }, [showPicker])
 
-  if (!sampleOptions?.length || isSoldOut) return null
+  if (!sampleOptions?.length || isSoldOut || isContracted) return null
 
   const handleAdd = () => {
     addItem({
