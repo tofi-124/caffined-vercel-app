@@ -149,6 +149,9 @@ export default function ECXEthiopianCoffeeExport({ title, date, large_image_url 
       <p className='my-4'>
         Every coffee lot entering the ECX system is evaluated by ECTA-trained graders (formerly under CQIC, now restructured under ECTA). The grading methodology combines physical (raw) evaluation and cup-quality assessment. Understanding the distinction between washed and natural grading scales is essential for importers, because defect tolerances differ significantly between the two processing methods. For a comprehensive treatment of Ethiopian coffee grading standards, see our dedicated <Link href='/coffee-grading-ethiopia' className='underline font-semibold'>coffee grading Ethiopia page</Link>.
       </p>
+      <p className='my-4'>
+        ECX grade codes also do not tell buyers how tight the bean-size spread is. If your program depends on 14 up, 15 up, or capped below-screen tolerance, that needs to be disclosed on the lot sheet and contract. Our <Link href='/insights/ethiopian-coffee-screen-size-guide' className='underline font-semibold'>Ethiopian coffee screen size guide</Link> explains how importers should interpret those prep details.
+      </p>
 
       {/* WASHED GRADES */}
       <h4 className='text-xl font-bold mt-8 mb-4'>Washed Coffee Grades (G1 to G5)</h4>

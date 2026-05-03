@@ -399,6 +399,9 @@ export default function GreenCoffeeQualityControlDefectsGrading({ title, date, l
       <p className='my-4'>
         Ethiopian heirloom varieties naturally produce smaller beans than many other origins. A screen 14-15 Ethiopian lot may cup significantly better than a screen 18 from another country. <Link href='/insights/coffee-plant-taxonomy-species-varieties' className='text-amber-700 hover:underline'>Understanding coffee varieties</Link> helps contextualize screen size expectations when evaluating Ethiopian samples.
       </p>
+      <p className='my-4'>
+        If you need a buyer-focused framework for dominant screens, below-screen tolerance, and contract wording, read our <Link href='/insights/ethiopian-coffee-screen-size-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee screen size guide</Link>.
+      </p>
 
       <h3 className='text-2xl font-semibold text-dark mt-6 mb-3'>Density</h3>
       <p className='my-4'>

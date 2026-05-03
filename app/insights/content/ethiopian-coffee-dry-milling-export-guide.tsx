@@ -225,6 +225,10 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
         In Ethiopia, beans retained on size 14 and above are generally considered specialty grade. This threshold is referenced in ECTA grading protocols and aligns with the SCA minimum for specialty-eligible lots. Beans falling below size 14 are sorted into commercial or below-grade streams and priced accordingly.
       </p>
 
+      <p className='my-4'>
+        Buyers should not confuse this milling step with a complete quality decision. For the importer-side view of when smaller Ethiopian beans are normal, how much mixed screen is acceptable, and how to write screen tolerances into contracts, see our <Link href='/insights/ethiopian-coffee-screen-size-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian coffee screen size guide</Link>.
+      </p>
+
       <div className='overflow-x-auto my-6'>
         <table className='min-w-full text-sm text-left border border-gray-200'>
           <thead className='bg-gray-100 font-bold text-dark'>

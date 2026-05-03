@@ -12,6 +12,32 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE SCREEN SIZE GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-screen-size-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-screen-size-guide.webp',
+      date: 'May 3, 2026',
+      title: 'Ethiopian Coffee Screen Size Guide',
+      slug: 'ethiopian-coffee-screen-size-guide',
+      category: 'Quality Specs / Dry Milling / Green Coffee Buying / Importer Resources',
+      keywords: [
+        'Ethiopian coffee screen size guide',
+        'Ethiopian coffee screen size',
+        'what size are Ethiopian coffee beans',
+        'screen size vs grade coffee Ethiopia',
+        'Ethiopian coffee size 14 15 16',
+        'green coffee screen size tolerance',
+        'buying Ethiopian coffee by screen size',
+        'screen size contract green coffee',
+        'Ethiopian coffee lot sheet screen size',
+        'smaller beans Ethiopian coffee quality',
+        'Ethiopian coffee roast consistency',
+        'dry mill screen sorting Ethiopia',
+        '15 up Ethiopian coffee',
+        'screen size guide for coffee importers'
+      ],
+      desc: 'Ethiopian coffee screen size guide for importers: what 14 to 18 screens mean, when size matters, and how to specify lot tolerances.'
+    },
     // ===== IMPORTING ETHIOPIAN COFFEE TO SPAIN =====
     {
       small_image_url: 'insights/importing-ethiopian-coffee-to-spain.webp',
