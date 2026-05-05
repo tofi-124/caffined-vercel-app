@@ -529,9 +529,9 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
           At <span className='font-bold'>Ethio Coffee Import and Export PLC</span>, we help buyers align lot approval, pre-shipment sampling, moisture documentation, and shipment preparation before a container leaves origin. That reduces the number of disputes that ever need to become claims.
         </p>
         <div className='flex flex-wrap gap-4 mt-4'>
-          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Current Offerings</Link>
-          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Discuss Quality Specs</Link>
-          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How Ordering Works</Link>
+          <Link href='/offerings' className='bg-dark text-primary px-6 py-3 rounded font-bold hover:bg-gray-800 transition'>View Our Offerings</Link>
+          <Link href='/contact-us' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>Request Samples / Contact Us</Link>
+          <Link href='/ordering-info' className='border-2 border-dark px-6 py-3 rounded font-bold hover:bg-dark hover:text-primary transition'>How to Order</Link>
         </div>
       </div>
 
@@ -551,7 +551,7 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
           </div>
           <div>
             <h4 className='font-bold text-gray-800 mb-2'>How quickly should I notify the exporter?</h4>
-            <p className='text-sm text-gray-600'>As quickly as the issue is discovered, ideally during the first intake cycle. Commercial rulebooks and contracts often measure notice windows in days rather than weeks, so provisional notice should go out before the evidence trail gets weaker.</p>
+            <p className='text-sm text-gray-600'>As quickly as the issue is discovered, ideally during the first intake cycle after arrival. Commercial rulebooks and contracts often measure notice windows in days rather than weeks, so provisional notice should go out before the evidence trail gets weaker or the lot is moved.</p>
           </div>
           <div>
             <h4 className='font-bold text-gray-800 mb-2'>What evidence matters most in a coffee quality dispute?</h4>
@@ -577,7 +577,7 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
         <div className='grid md:grid-cols-2 gap-8'>
           <div>
             <p className='font-bold text-sm uppercase tracking-wide text-gray-700 mb-3'>Claim Evidence and QC</p>
-            <ul className='space-y-3 text-sm'>
+            <ul className='list-disc ml-5 space-y-2 text-sm'>
               <li><Link href='/insights/how-to-cup-evaluate-ethiopian-coffee-samples' className='text-amber-700 hover:underline font-semibold'>How to Cup and Evaluate Ethiopian Coffee Samples</Link></li>
               <li><Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 hover:underline font-semibold'>Green Coffee Quality Control and Defects Grading</Link></li>
               <li><Link href='/insights/green-coffee-moisture-content-water-activity-guide' className='text-amber-700 hover:underline font-semibold'>Green Coffee Moisture and Water Activity Guide</Link></li>
@@ -586,7 +586,7 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
           </div>
           <div>
             <p className='font-bold text-sm uppercase tracking-wide text-gray-700 mb-3'>Contracts, Freight, and Arrival</p>
-            <ul className='space-y-3 text-sm'>
+            <ul className='list-disc ml-5 space-y-2 text-sm'>
               <li><Link href='/insights/ethiopian-coffee-contracts-payment-terms-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian Coffee Contracts and Payment Terms</Link></li>
               <li><Link href='/insights/specialty-coffee-storage-freight-logistics' className='text-amber-700 hover:underline font-semibold'>Specialty Coffee Storage and Freight Logistics</Link></li>
               <li><Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline font-semibold'>Ethiopian Coffee Export Process Buyer&apos;s Guide</Link></li>
@@ -596,20 +596,14 @@ export default function GreenCoffeeQualityClaimsGuide({ title, date, large_image
         </div>
       </div>
 
-      <div className='my-8 pt-6 border-t border-gray-200'>
-        <div className='grid md:grid-cols-4 gap-4 text-sm'>
-          <Link href='/insights' className='text-amber-700 hover:underline font-semibold'>All Insights</Link>
-          <Link href='/ethiopian-coffee-exporter' className='text-amber-700 hover:underline font-semibold'>Export Services</Link>
-          <Link href='/about' className='text-amber-700 hover:underline font-semibold'>About</Link>
-          <Link href='/contact-us' className='text-amber-700 hover:underline font-semibold'>Contact</Link>
-        </div>
-      </div>
-
-      <div className='mt-12 pt-6 border-t border-gray-200 text-sm text-gray-600'>
-        <p>
-          <span className='font-bold'>About This Insight:</span> A practical guide to green coffee quality claims for importers buying Ethiopian coffee, covering claim triggers, arrival intake, evidence files, settlement paths, and contract safeguards. Written by Ethio Coffee Import and Export PLC.
+      <div className='border-t border-gray-300 mt-10 pt-6'>
+        <p className='text-sm text-gray-600 font-inconsolata'>
+          <span className='font-bold'>About This Insight:</span> This guide to green coffee quality claims is written by Ethio Coffee Import and Export PLC. Claim windows, neutral inspection procedures, allowance practices, and final remedies vary by shipment and governing contract terms. Contact us for current lot documentation, retained-sample support, and buyer guidance before a dispute escalates.
         </p>
-        <p className='mt-2'>Published: {date}</p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>Published: {date}</p>
+        <p className='text-sm text-gray-600 font-inconsolata mt-2'>
+          <Link href='/insights' className='underline'>All Insights</Link> · <Link href='/ethiopian-coffee-exporter' className='underline'>Our Export Services</Link> · <Link href='/about' className='underline'>About Ethio Coffee</Link> · <Link href='/contact-us' className='underline'>Contact</Link>
+        </p>
       </div>
     </>
   )
