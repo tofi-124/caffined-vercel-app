@@ -454,6 +454,9 @@ export default function SpecialtyCoffeeFreightStorage({ title, date, large_image
       <p className='my-4'>
         Port handling, customs brokerage, and destination warehousing also affect the lot before it reaches the roaster. For a full cost breakdown of each post-arrival step, see the <Link href='/insights/ethiopian-coffee-landed-cost-guide' className='underline font-bold'>Ethiopian coffee landed cost guide</Link>.
       </p>
+      <p className='my-4'>
+        If arrival QC confirms that freight exposure created a commercial dispute, our <Link href='/insights/green-coffee-quality-claims-guide' className='underline font-bold'>green coffee quality claims guide</Link> covers how to notify the seller, preserve chain of custody, and build the evidence file behind an allowance or formal claim.
+      </p>
 
       {/* SECTION 10: INCOTERMS */}
       <h3 id='incoterms' className='text-3xl font-extrabold mt-12 mb-6'>

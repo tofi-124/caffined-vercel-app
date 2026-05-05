@@ -622,6 +622,9 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
           If the arrival sample deviates beyond these thresholds, contact your exporter immediately. Photograph evidence and share cupping scores. A reliable origin partner will work to resolve discrepancies. For more on the export quality chain, see our <Link href='/insights/ethiopian-coffee-export-process-buyers-guide' className='text-amber-700 hover:underline font-bold'>Ethiopian coffee export process guide</Link>.
         </p>
       </div>
+      <p className='my-4 text-lg leading-relaxed'>
+        When the variance crosses from normal transit drift into a formal commercial issue, use our <Link href='/insights/green-coffee-quality-claims-guide' className='text-amber-700 hover:underline font-bold'>green coffee quality claims guide</Link> to structure the seller notice, preserve representative samples, and decide whether you need an allowance, replacement, or neutral review.
+      </p>
 
       {/* Section 9: Purchasing Decisions */}
       <h3 id='purchasing' className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>

@@ -12,6 +12,32 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== GREEN COFFEE QUALITY CLAIMS GUIDE =====
+    {
+      small_image_url: 'insights/green-coffee-quality-claims-guide.webp',
+      large_image_url: 'insights/green-coffee-quality-claims-guide.webp',
+      date: 'May 5, 2026',
+      title: 'Green Coffee Quality Claims Guide',
+      slug: 'green-coffee-quality-claims-guide',
+      category: 'Claims Management / Quality Control / Contract Execution / Importer Resources',
+      keywords: [
+        'green coffee quality claims',
+        'green coffee quality claim',
+        'coffee arrival claim',
+        'pre-shipment sample vs arrival sample coffee',
+        'green coffee claim process',
+        'coffee quality dispute importer',
+        'green coffee allowance claim',
+        'coffee arbitration claim',
+        'Ethiopian coffee arrival sample',
+        'green coffee moisture claim',
+        'green coffee transit damage claim',
+        'defect count claim coffee',
+        'GCA coffee claim',
+        'ECF coffee contract claim'
+      ],
+      desc: 'Green coffee quality claims guide for importers: compare arrival lots to approved samples, document evidence, and resolve disputes fast.'
+    },
     // ===== ETHIOPIAN COFFEE SCREEN SIZE GUIDE =====
     {
       small_image_url: 'insights/ethiopian-coffee-screen-size-guide.webp',

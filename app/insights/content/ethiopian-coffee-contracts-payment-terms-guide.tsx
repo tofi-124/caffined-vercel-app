@@ -732,6 +732,9 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
       <p className='my-4'>
         For more on Ethiopian coffee grading standards and quality expectations, see our <Link href='/coffee-grading-ethiopia' className='text-amber-700 underline font-semibold'>Ethiopian coffee grading</Link> guide and our detailed article on <Link href='/insights/green-coffee-quality-control-defects-grading' className='text-amber-700 underline font-semibold'>green coffee quality control and defects</Link>.
       </p>
+      <p className='my-4'>
+        If you need the operational next step after a lot lands with a mismatch, read our <Link href='/insights/green-coffee-quality-claims-guide' className='text-amber-700 underline font-semibold'>green coffee quality claims guide</Link> for notice timing, evidence gathering, neutral sampling, and settlement paths.
+      </p>
 
       {/* SECTION 7: PRACTICAL STEPS */}
       <h3 id="sample-to-contract" className='text-3xl font-extrabold mt-12 mb-6 flex items-center gap-3'>
