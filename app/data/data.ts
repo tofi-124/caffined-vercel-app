@@ -12,6 +12,33 @@ export type Post = {
 }
 
 export const posts: Post[] = [
+    // ===== ETHIOPIAN COFFEE SAMPLE APPROVAL GUIDE =====
+    {
+      small_image_url: 'insights/ethiopian-coffee-sample-approval-guide.webp',
+      large_image_url: 'insights/ethiopian-coffee-sample-approval-guide.webp',
+      date: 'May 7, 2026',
+      title: 'Ethiopian Coffee Sample Approval Guide',
+      slug: 'ethiopian-coffee-sample-approval-guide',
+      category: 'Sample Approval / Green Coffee Buying / Contract Execution / Importer Resources',
+      keywords: [
+        'Ethiopian coffee sample approval guide',
+        'Ethiopian coffee sample approval',
+        'green coffee sample approval guide',
+        'offer sample vs pre-shipment sample',
+        'pre-shipment sample coffee',
+        'arrival sample coffee',
+        'Ethiopian coffee pre-shipment sample',
+        'green coffee sample workflow',
+        'coffee sample approval process',
+        'sample approval green coffee importer',
+        'stock lot sample Ethiopia',
+        'PSS approval coffee',
+        'arrival sample vs PSS',
+        'coffee sample chain of custody',
+        'coffee sample approval clause'
+      ],
+      desc: 'Ethiopian coffee sample approval guide for importers: evaluate offer, pre-shipment, and arrival samples with clear criteria and risk controls.'
+    },
     // ===== GREEN COFFEE QUALITY CLAIMS GUIDE =====
     {
       small_image_url: 'insights/green-coffee-quality-claims-guide.webp',

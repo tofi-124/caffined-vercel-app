@@ -708,6 +708,10 @@ export default function EthiopianCoffeeContractsPaymentTerms({ title, date, larg
         </p>
       </div>
 
+      <p className='my-4'>
+        If you want the operational workflow behind these clauses, see our <Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 underline font-semibold'>Ethiopian coffee sample approval guide</Link>. It breaks down how buyers should evaluate offer samples, approve the final PSS, and verify arrival lots without blurring the stages.
+      </p>
+
       <h4 className='text-2xl font-bold mt-8 mb-4'>Claims, Arbitration, and Industry Rules</h4>
 
       <p className='my-4'>

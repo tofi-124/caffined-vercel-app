@@ -111,6 +111,7 @@ const readingTimeMap: Record<string, number> = {
   'nekemte-wellega-coffee-sourcing-guide': 12,
   'ethiopian-coffee-screen-size-guide': 13,
   'ethiopian-coffee-cold-brew-rtd-sourcing-guide': 12,
+  'ethiopian-coffee-sample-approval-guide': 12,
   'green-coffee-quality-claims-guide': 14,
 }
 

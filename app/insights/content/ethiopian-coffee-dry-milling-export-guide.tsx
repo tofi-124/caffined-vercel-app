@@ -407,6 +407,10 @@ export default function EthiopianCoffeeDryMillingExportGuide({ title, date, larg
         A properly executed PSS draw samples from multiple bags per lot. For a 320-bag (19.2 MT) container, a credible PSS uses samples from at least 10 to 15 percent of the bags, drawn randomly rather than from top layers only. The combined sample is split into at minimum three parts: one for the exporter's cupping lab, one for the buyer, and one retained as a sealed reference. In Ethiopia, ECTA also requires exporters to submit samples for official green coffee grading before any lot can leave the country.
       </p>
 
+      <p className='my-4'>
+        For the buyer-side workflow that starts once this sample is received, read our <Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 hover:underline font-bold'>Ethiopian coffee sample approval guide</Link>. It explains how to turn the PSS into a documented shipping decision, not just another cupping note.
+      </p>
+
       <div className='bg-gray-50 p-6 rounded-lg my-6 border border-gray-200'>
         <h4 className='font-bold text-lg mb-3'>What the PSS reveals about dry milling quality</h4>
         <ul className='text-sm space-y-2'>

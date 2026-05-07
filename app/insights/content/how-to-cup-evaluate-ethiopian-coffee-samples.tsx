@@ -583,6 +583,10 @@ export default function HowToCupEvaluateEthiopianCoffeeSamples({ title, date, la
         The evaluation process does not end when you approve a pre-shipment sample (PSS). Arrival sample comparison is a critical quality gate that protects your investment and your relationship with customers. Here is a practical workflow for comparing PSS and arrival lots.
       </p>
 
+      <p className='my-4 text-lg leading-relaxed'>
+        If you need the buyer-side system that starts before this cupping stage, read our <Link href='/insights/ethiopian-coffee-sample-approval-guide' className='text-amber-700 hover:underline font-bold'>Ethiopian coffee sample approval guide</Link>. It explains how offer samples, PSS approval, retained references, and arrival verification should connect inside one commercial workflow.
+      </p>
+
       <div className='grid md:grid-cols-2 gap-6 my-6'>
         <div className='bg-amber-50 p-6 rounded-lg border border-amber-200'>
           <h4 className='text-lg font-bold mb-3'>Pre-Shipment Sample (PSS)</h4>
